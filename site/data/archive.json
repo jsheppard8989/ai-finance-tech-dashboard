@@ -24,6 +24,29 @@
       "podcast_episode_id": 182
     },
     {
+      "id": 198,
+      "title": "David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-04-28",
+      "summary": "The podcast episode features a discussion on longevity, healthspan, and the role of genetics, lifestyle, and technology in extending human lifespan. The conversation covers the potential of GLP1s, AI in drug design, the impact of mindset on longevity, and the importance of indoor environmental factors on health. The guests emphasize the importance of understanding genetics to predict health outcomes and the role of adversity in maintaining a healthy lifestyle.",
+      "key_takeaway": "Investing in longevity and healthspan technologies and therapies offers significant growth potential as scientific advancements continue to extend human lifespan and improve quality of life.",
+      "tickers_mentioned": [
+        "TSLA",
+        "GOOGL",
+        "VRTX",
+        "NVS",
+        "AMGN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 183
+    },
+    {
       "id": 195,
       "title": "David Sinclair on the Longevity Pill, Age Reversal Timelines, and Updated Protocols | EP #250",
       "source_type": "podcast",
@@ -157,11 +180,11 @@
         "GOLD"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-24",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 175
     },
     {
@@ -3589,6 +3612,20 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 135,
+      "term": "Healthspan",
+      "description": "The period during which an individual is generally healthy and free from chronic diseases.",
+      "first_detected_date": "2026-04-29",
+      "last_mentioned_date": "2026-04-29",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investing in companies and technologies that aim to extend healthspan can provide significant returns as the global population ages.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
     {
       "id": 133,
       "term": "CLO Market",

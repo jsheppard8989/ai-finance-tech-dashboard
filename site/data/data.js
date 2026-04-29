@@ -3,151 +3,151 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-28T22:06:40.172066",
-  chartsVersion: "2026-04-28T22:06:29.259403",
+  generatedAt: "2026-04-29T05:04:49.280631",
+  chartsVersion: "2026-04-29T05:04:42.024374",
   priceSnapshot: {
   "GOOGL": {
     "price": 349.78,
     "change_pct": 9.82,
     "name": "GOOGL",
-    "updated_at": "2026-04-28T22:06:29.257857",
+    "updated_at": "2026-04-29T05:04:42.023121",
     "symbol_used": "GOOGL",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "GOOGL",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-28T22:06:29.257872"
+    "source_timestamp": "2026-04-29T05:04:42.023136"
   },
   "NVDA": {
     "price": 213.17,
     "change_pct": 15.91,
     "name": "NVDA",
-    "updated_at": "2026-04-28T22:06:29.257884",
+    "updated_at": "2026-04-29T05:04:42.023149",
     "symbol_used": "NVDA",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "NVDA",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-28T22:06:29.257889"
+    "source_timestamp": "2026-04-29T05:04:42.023155"
   },
   "MSFT": {
     "price": 429.25,
     "change_pct": 15.06,
     "name": "MSFT",
-    "updated_at": "2026-04-28T22:06:29.257898",
+    "updated_at": "2026-04-29T05:04:42.023164",
     "symbol_used": "MSFT",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "MSFT",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-28T22:06:29.257903"
+    "source_timestamp": "2026-04-29T05:04:42.023170"
   },
   "WTI": {
-    "price": 99.16,
-    "change_pct": 0.08,
+    "price": 103.48,
+    "change_pct": 13.37,
     "name": "WTI",
-    "updated_at": "2026-04-28T22:06:29.257912",
+    "updated_at": "2026-04-29T05:04:42.023178",
     "symbol_used": "CL=F",
     "instrument_type": "futures",
     "is_continuous": true,
     "display_ticker": "WTI",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-28T22:06:29.257917"
+    "source_timestamp": "2026-04-29T05:04:42.023184"
   },
   "BTC": {
-    "price": 76513.77,
-    "change_pct": 1.81,
+    "price": 77706.16,
+    "change_pct": 3.4,
     "name": "BTC",
-    "updated_at": "2026-04-28T22:06:29.257925",
+    "updated_at": "2026-04-29T05:04:42.023192",
     "symbol_used": "BTC-USD",
     "instrument_type": "crypto_spot",
     "is_continuous": false,
     "display_ticker": "BTC",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-28T22:06:29.257929"
+    "source_timestamp": "2026-04-29T05:04:42.023197"
   },
   "S&P 500": {
-    "price": 7181.25,
-    "change_pct": 3.73,
+    "price": 7172.5,
+    "change_pct": 2.39,
     "name": "S&P 500",
-    "updated_at": "2026-04-28T22:06:29.257938",
+    "updated_at": "2026-04-29T05:04:42.023205",
     "symbol_used": "ES=F",
     "instrument_type": "futures",
     "is_continuous": true,
     "display_ticker": "S&P 500",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-28T22:06:29.257942"
+    "source_timestamp": "2026-04-29T05:04:42.023211"
   },
   "AMZN": {
     "price": 259.7,
     "change_pct": 11.15,
     "name": "AMZN",
-    "updated_at": "2026-04-28T22:06:29.257951",
+    "updated_at": "2026-04-29T05:04:42.023219",
     "symbol_used": "AMZN",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "AMZN",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-28T22:06:29.257955"
+    "source_timestamp": "2026-04-29T05:04:42.023224"
   },
   "TSLA": {
     "price": 376.02,
     "change_pct": 8.8,
     "name": "TSLA",
-    "updated_at": "2026-04-28T22:06:29.257964",
+    "updated_at": "2026-04-29T05:04:42.023233",
     "symbol_used": "TSLA",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "TSLA",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-28T22:06:29.257969"
+    "source_timestamp": "2026-04-29T05:04:42.023238"
   },
   "COPPER": {
-    "price": 6.0,
-    "change_pct": 0.47,
+    "price": 5.99,
+    "change_pct": -1.38,
     "name": "COPPER",
-    "updated_at": "2026-04-28T22:06:29.257977",
+    "updated_at": "2026-04-29T05:04:42.023247",
     "symbol_used": "HG=F",
     "instrument_type": "futures",
     "is_continuous": true,
     "display_ticker": "COPPER",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-28T22:06:29.257982"
+    "source_timestamp": "2026-04-29T05:04:42.023251"
   },
   "QQQ": {
     "price": 657.55,
     "change_pct": 7.76,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-04-28T22:06:29.257990",
+    "updated_at": "2026-04-29T05:04:42.023260",
     "symbol_used": "QQQ",
     "instrument_type": "etf",
     "is_continuous": false,
     "display_ticker": "QQQ",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-28T22:06:29.257995"
+    "source_timestamp": "2026-04-29T05:04:42.023265"
   },
   "BTC-USD": {
-    "price": 76513.77,
-    "change_pct": 1.81,
+    "price": 77706.16,
+    "change_pct": 3.4,
     "name": "Bitcoin USD",
-    "updated_at": "2026-04-28T22:06:29.258003",
+    "updated_at": "2026-04-29T05:04:42.023273",
     "symbol_used": "BTC-USD",
     "instrument_type": "crypto_spot",
     "is_continuous": false,
     "display_ticker": "BTC-USD",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-28T22:06:29.258007"
+    "source_timestamp": "2026-04-29T05:04:42.023278"
   }
 },
   tickerScores: [
@@ -928,6 +928,29 @@ const dashboardData = {
       "podcast_episode_id": 182
     },
     {
+      "id": 198,
+      "title": "David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-04-28",
+      "summary": "The podcast episode features a discussion on longevity, healthspan, and the role of genetics, lifestyle, and technology in extending human lifespan. The conversation covers the potential of GLP1s, AI in drug design, the impact of mindset on longevity, and the importance of indoor environmental factors on health. The guests emphasize the importance of understanding genetics to predict health outcomes and the role of adversity in maintaining a healthy lifestyle.",
+      "key_takeaway": "Investing in longevity and healthspan technologies and therapies offers significant growth potential as scientific advancements continue to extend human lifespan and improve quality of life.",
+      "tickers_mentioned": [
+        "TSLA",
+        "GOOGL",
+        "VRTX",
+        "NVS",
+        "AMGN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 183
+    },
+    {
       "id": 195,
       "title": "David Sinclair on the Longevity Pill, Age Reversal Timelines, and Updated Protocols | EP #250",
       "source_type": "podcast",
@@ -1061,11 +1084,11 @@ const dashboardData = {
         "GOLD"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-24",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 175
     },
     {
@@ -4494,6 +4517,20 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 135,
+      "term": "Healthspan",
+      "description": "The period during which an individual is generally healthy and free from chronic diseases.",
+      "first_detected_date": "2026-04-29",
+      "last_mentioned_date": "2026-04-29",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investing in companies and technologies that aim to extend healthspan can provide significant returns as the global population ages.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
       "id": 133,
       "term": "CLO Market",
       "description": "Collateralized Loan Obligations (CLOs) are a type of structured credit product that pools loans and sells them as securities.",
@@ -6302,6 +6339,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 198,
+      "title": "David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-04-28",
+      "summary": "The podcast episode features a discussion on longevity, healthspan, and the role of genetics, lifestyle, and technology in extending human lifespan. The conversation covers the potential of GLP1s, AI in drug design, the impact of mindset on longevity, and the importance of indoor environmental factors on health. The guests emphasize the importance of understanding genetics to predict health outcomes and the role of adversity in maintaining a healthy lifestyle.",
+      "key_takeaway": "Investing in longevity and healthspan technologies and therapies offers significant growth potential as scientific advancements continue to extend human lifespan and improve quality of life.",
+      "tickers_mentioned": "[\"TSLA\", \"GOOGL\", \"VRTX\", \"NVS\", \"AMGN\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 183,
+      "episode_release_date": "2026-04-28",
+      "guest_name": "David Sinclair",
+      "key_tickers": []
+    },
+    {
       "id": 195,
       "title": "David Sinclair on the Longevity Pill, Age Reversal Timelines, and Updated Protocols | EP #250",
       "source_type": "podcast",
@@ -6402,29 +6459,6 @@ const dashboardData = {
       "episode_release_date": "2026-04-24",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 190,
-      "title": "MacroVoices #529 Ole S Hansen: Commodities in The Wake of The Iran Crisis",
-      "source_type": "podcast",
-      "source_name": "MacroVoices",
-      "source_date": "2026-04-23",
-      "summary": "In this episode of MacroVoices, hosts Eric Townsend and Patrick Suresne discuss the Iran conflict's impact on energy markets and secular inflation with Saxo Bank's Chief Commodity Strategist, Ole Hansen. They analyze the ripple effects on refined products, commodity inputs, and food inflation. The discussion also covers the potential for extreme backwardation in crude oil and the implications for trading strategies. Additionally, they touch on the broader outlook for commodity cycles, including fertilizer shortages and supply constraints across metals and agriculture.",
-      "key_takeaway": "The Iran conflict and energy market disruptions present opportunities in commodities, particularly in the context of extreme backwardation and supply constraints, which could drive further price increases and investment returns.",
-      "tickers_mentioned": "[\"WTI CRUDE OIL\", \"GOLD\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-24",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 175,
-      "episode_release_date": "2026-04-23",
-      "guest_name": null,
-      "key_tickers": [
-        "WTI CRUDE OIL",
-        "GOLD"
-      ]
     },
     {
       "id": 191,
@@ -18447,12 +18481,103 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-04-28",
     "key_tickers": []
+  },
+  "198": {
+    "id": 189,
+    "insight_id": 198,
+    "podcast_episode_id": 183,
+    "overview": "The debate on longevity and healthspan is not just about extending the number of years we live, but more importantly, about the quality of those years. The intersection of genetics, lifestyle, and technology is crucial in this discourse. Now, more than ever, with advancements in AI and biotechnology, we are on the cusp of significant breakthroughs that could redefine what it means to age. The implications for healthcare, societal structures, and the economy are vast, making this a pivotal moment for investment and research.",
+    "key_takeaways_detailed": [
+      "Investing in longevity-focused companies requires a keen understanding of the scientific landscape, including the potential and pitfalls of GLP-1s and the transformative power of AI in drug discovery.",
+      "The role of genetics in longevity is complex and should be considered in conjunction with lifestyle modifications and emerging therapeutics.",
+      "The potential side effects of longevity treatments, such as blindness associated with GLP-1s, highlight the need for ongoing safety monitoring and risk assessment.",
+      "The future of health monitoring may include predictive analytics that warn of impending health issues, potentially allowing for preemptive interventions.",
+      "The interplay between nature (genetics) and nurture (lifestyle and technology) in determining healthspan suggests a personalized approach to longevity treatments."
+    ],
+    "investment_thesis": "The core logic is that as scientific understanding and technological capabilities advance, the ability to extend healthspan and lifespan will create significant investment opportunities. The timeframe for this thesis is long-term, as these are complex issues that require sustained research and development. What has to go right includes continued funding for longevity research, successful clinical trials for new therapies, and the development of AI technologies that can accelerate drug discovery and personalized medicine.",
+    "ticker_analysis": {
+      "TSLA": {
+        "rationale": "Tesla's investment in Neuralink, a company focused on brain-machine interfaces, aligns with the theme of leveraging technology to extend human capabilities and potentially lifespan.",
+        "positioning": "Strategic long position, as advancements in neural technology could have far-reaching implications for health and longevity.",
+        "risk": "Regulatory hurdles and ethical concerns surrounding brain-machine interfaces could slow down or halt progress."
+      },
+      "GOOGL": {
+        "rationale": "Google, through its subsidiary DeepMind, is at the forefront of AI research, which is crucial for drug discovery and understanding complex biological systems.",
+        "positioning": "Strategic long position, as AI advancements could accelerate the development of longevity therapies.",
+        "risk": "AI development may not yield the expected results in terms of drug discovery or may face significant public backlash."
+      },
+      "VRTX": {
+        "rationale": "Vertex Pharmaceuticals is a leader in genetic therapies, which could play a significant role in overcoming genetic predispositions to disease and extending healthspan.",
+        "positioning": "Strategic long position, as the company's pipeline could offer treatments that address genetic components of aging.",
+        "risk": "Clinical trial failures or delays in regulatory approval could impact the company's ability to bring longevity therapies to market."
+      },
+      "NVS": {
+        "rationale": "Novartis has a diverse portfolio that includes investments in longevity and regenerative medicine, positioning it well in the longevity space.",
+        "positioning": "Strategic long position, as the company's broad approach could yield multiple successful therapies.",
+        "risk": "Dependence on a diverse portfolio could mean that not all investments pay off, potentially offsetting gains in longevity-focused areas."
+      },
+      "AMGN": {
+        "rationale": "Amgen is a biotechnology company with a focus on developing innovative therapies, including those that target aging-related diseases.",
+        "positioning": "Strategic long position, as the company's focus on aging could lead to breakthrough treatments.",
+        "risk": "The high cost of R&D and the possibility of failure in late-stage trials pose significant risks to the company's longevity-focused efforts."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to longevity investing, with a mix of strategic long positions in companies at the forefront of AI, genetic therapies, and regenerative medicine. This should be complemented by a focus on companies with promising pipelines in longevity therapies. The time horizon for these investments should be long-term, given the nature of the research and development in this field.",
+    "risk_factors": [
+      "Regulatory hurdles could slow down the approval of new longevity therapies.",
+      "Ethical concerns surrounding genetic modification and AI could impede progress.",
+      "The high cost of R&D in longevity therapies could lead to financial strain for companies.",
+      "Public perception and acceptance of longevity treatments could impact market adoption.",
+      "The complexity of aging as a multifactorial process could lead to unexpected challenges in treatment development."
+    ],
+    "contrarian_signals": [
+      "A shift in public policy against genetic modification or AI could hinder progress in these areas.",
+      "A lack of significant breakthroughs in AI-driven drug discovery could lead to a reassessment of the potential for technology in longevity.",
+      "The discovery of new genetic factors that contribute to aging could redirect research focus and investment away from current areas of interest.",
+      "Economic downturns could lead to reduced funding for longevity research and development."
+    ],
+    "catalysts": [
+      "Successful clinical trials for new longevity therapies or drugs.",
+      "Breakthroughs in AI that significantly accelerate drug discovery.",
+      "New genetic discoveries that offer insights into aging and potential treatment targets.",
+      "Positive regulatory decisions that pave the way for new longevity treatments.",
+      "Increased investment and collaboration between tech companies and biotech firms in the longevity space."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-29T05:03:46.984906",
+    "updated_at": "2026-04-29 10:03:46",
+    "episode_evidence": "The podcast episode with David Sinclair delves into the intricate details of longevity and healthspan, providing a rich tapestry of scientific insights. Sinclair emphasizes the multifaceted approach to extending human lifespan, highlighting the potential of GLP-1s, which have shown benefits beyond weight loss, affecting 'the heart, the brain' as he mentions. However, he also cautions about a rare but serious side effect, with 'an increasing number of people waking up blind because of it,' underscoring the need for vigilance in pharmaceutical advancements. The discussion on AI's role in drug design is particularly enlightening, with Sinclair stating, 'AI can be just as smart and creative as we are and even more so in the future,' which speaks to the transformative potential of technology in the field of longevity. Furthermore, Sinclair touches on the importance of genetics in predicting health outcomes, suggesting that 'at least half of your lifespan is up to you and the rest may be fairly determined,' indicating a complex interplay between nature and nurture in the realm of longevity.",
+    "falsification_tracks": [
+      "Should clinical trials of GLP-1s demonstrate a significant increase in the incidence of blindness or other severe side effects, the safety and efficacy narrative of these drugs would be compromised.",
+      "If AI-driven drug discovery fails to yield new compounds or therapies that extend healthspan within the expected timeframe, it could indicate technological limitations in the field.",
+      "A significant downturn in investment or funding for longevity research and development could slow the pace of scientific advancements in this area.",
+      "The emergence of new genetic research that contradicts the current understanding of the genetic determination of lifespan could alter the investment landscape for longevity-focused biotech companies."
+    ],
+    "insight_title": "David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-04-28",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 2620,
+    "id": 2654,
+    "name": "David Sinclair",
+    "slug": "david-sinclair",
+    "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
+    "known_for": "Longevity science and authoring 'Lifespan: Why We Age\u2014and Why We Don't Have To'.",
+    "last_main_idea": "Investing in longevity and healthspan technologies and therapies offers significant growth potential as scientific advancements continue to extend human lifespan and improve quality of life.",
+    "last_episode_title": "David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-04-28",
+    "appearance_count": 1
+  },
+  {
+    "id": 2655,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -18464,7 +18589,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2621,
+    "id": 2656,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -18476,7 +18601,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2622,
+    "id": 2657,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -18488,7 +18613,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2623,
+    "id": 2658,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -18500,7 +18625,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2624,
+    "id": 2659,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -18512,7 +18637,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2625,
+    "id": 2660,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -18524,7 +18649,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2626,
+    "id": 2661,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -18536,7 +18661,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2627,
+    "id": 2662,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -18548,7 +18673,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2628,
+    "id": 2663,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -18560,7 +18685,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2629,
+    "id": 2664,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -18572,7 +18697,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2630,
+    "id": 2665,
     "name": "Building Agents at Home",
     "slug": "building-agents-at-home",
     "bio": null,
@@ -18584,7 +18709,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2631,
+    "id": 2666,
     "name": "\"The Best Time to Invest\"",
     "slug": "the-best-time-to-invest",
     "bio": null,
@@ -18596,7 +18721,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2632,
+    "id": 2667,
     "name": "Governor Josh Shapiro of Pennsylvania",
     "slug": "governor-josh-shapiro-of-pennsylvania",
     "bio": null,
@@ -18608,7 +18733,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2633,
+    "id": 2668,
     "name": "Box CEO Aaron Levie",
     "slug": "box-ceo-aaron-levie",
     "bio": null,
@@ -18620,7 +18745,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2634,
+    "id": 2669,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -18632,7 +18757,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2635,
+    "id": 2670,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -18644,7 +18769,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2636,
+    "id": 2671,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -18656,7 +18781,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2637,
+    "id": 2672,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -18668,7 +18793,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2638,
+    "id": 2673,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -18677,18 +18802,6 @@ const dashboardData = {
     "last_episode_title": "Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-23",
-    "appearance_count": 1
-  },
-  {
-    "id": 2639,
-    "name": "Rory Johnston",
-    "slug": "rory-johnston",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The ongoing geopolitical crisis in the Middle East, particularly the situation in the Strait of Hormuz, presents a significant risk to the global oil supply and could lead to a structural increase in oil prices.",
-    "last_episode_title": "Monetary Matters: Geopolitical Impact on Oil Markets with Rory Johnston",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-19",
     "appearance_count": 1
   }
 ],
@@ -18770,7 +18883,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-27",
     "mention_score": 5,
-    "mention_score_decayed": 5,
+    "mention_score_decayed": 4.89,
     "last_main_idea": "Invest in startups that are addressing real problems and have the potential for significant growth, while considering the evolving landscape of venture capital and the impact of AI on various industries.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-27 \u2022 Ben Horowitz on Venture Capital and AI",
     "last_proof_snippet": "If you share a control, it becomes very, very difficult to change the organization, because everybody's got to agree. I quoted a little line, I said, but I see another VC coming at me with the PCI and all I see is the trigger and the middle",
@@ -18903,7 +19016,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-21",
     "mention_score": 3,
-    "mention_score_decayed": 2.61,
+    "mention_score_decayed": 2.55,
     "last_main_idea": "Investing in media and understanding its evolution is crucial as it shapes societal behavior, influences politics, and impacts decision-making processes.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-21 \u2022 Marc Andreessen: Monitoring the Situation and the Future of Media",
     "last_proof_snippet": "If an alien invasion happens later this afternoon, it will be turned into a social media meme, and it will go viral. If you track like how distributed as media versus how centralized is media, like centralized media sort of peaked summer ar",
@@ -19183,7 +19296,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.0,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-19 \u2022 MacroVoices-2026-03-19-Simon-White",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -19243,7 +19356,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-02",
     "mention_score": 2,
-    "mention_score_decayed": 1.12,
+    "mention_score_decayed": 1.1,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
     "last_proof_snippet": "This is Macrovoisans, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisans is all about the brightest minds in the world of finance an",
@@ -19270,7 +19383,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-09",
     "mention_score": 2,
-    "mention_score_decayed": 1.32,
+    "mention_score_decayed": 1.29,
     "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-09 \u2022 MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -19338,7 +19451,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-10",
     "mention_score": 2,
-    "mention_score_decayed": 1.35,
+    "mention_score_decayed": 1.32,
     "last_main_idea": "Invest in AI companies that are leading the charge in enterprise adoption, as they are positioned to benefit from the exponential growth in revenue and the shift towards labor augmentation and replacement.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-10 \u2022 Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
     "last_proof_snippet": "How many PRs you think are going to get pushed to the core structural internet in 100 days? What's the over under number? Because I'll give you a number. You're going to say zero. My answer to that is I'll say like 10,000. But it's going to",
@@ -19399,7 +19512,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-17",
     "mention_score": 2,
-    "mention_score_decayed": 1.66,
+    "mention_score_decayed": 1.62,
     "last_main_idea": "The investment thesis presented revolves around the potential negative impacts of new real estate taxes on luxury property demand and the growing controversy and potential regulation surrounding data centers, which could affect technology and real estate investments.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-17 \u2022 OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out",
     "last_proof_snippet": "All right, everybody. Welcome back to the number one podcast in the world. We've got the core for here and terror, I say the king of atoms. The king of atoms. Yes. Captain Travis Kalinicus here. How are you doing, brother? I'm pretty good.",
@@ -19567,6 +19680,73 @@ const dashboardData = {
       ]
     },
     "net_worth": "$107.9M"
+  },
+  {
+    "id": 209,
+    "name": "David Sinclair",
+    "slug": "david-sinclair",
+    "bio": "Professor in the Department of Genetics and co-director of the Paul F. Glenn Center for the Biology of Aging at Harvard Medical School.",
+    "known_for": "Research on the biology of aging and the development of therapeutics to extend healthspan.",
+    "net_worth_usd": 25000000.0,
+    "net_worth_source": "https://www.eyemindspirit.com/blogs/pop-culture/david-sinclairs-net-worth",
+    "net_worth_updated_at": "2026-04-28T05:04:48.598995",
+    "voice_tone": "Passionate and informative",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Speaks with conviction and enthusiasm",
+    "voice_profile_updated_at": "2026-04-29 10:02:51",
+    "last_seen": "2026-04-29 10:02:51",
+    "last_episode_title": "David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-04-28",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Investing in longevity and healthspan technologies and therapies offers significant growth potential as scientific advancements continue to extend human lifespan and improve quality of life.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-28 \u2022 David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
+    "last_proof_snippet": "There's a lot to say about GLP1s. More and more data is coming out showing benefits to the heart, the brain, beyond just weight loss. There is one downside that I need to point out, besides what's known about risks. We are working with comp",
+    "supporting_takeaway": "AI-driven drug design is accelerating research by analyzing billions of molecules for potential therapeutic uses.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-28T05:04:47.371037",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "David Sinclair",
+      "fetched_at": "2026-04-28T10:04:47.370533+00:00",
+      "cliff_notes": "David Sinclair is a prominent researcher in the field of epigenetics and aging. He obtained his Ph.D. in Molecular Genetics from the University of New South Wales and has since dedicated his career to understanding the biological processes behind aging. Sinclair's work has been pivotal in uncovering the role of genes and molecular pathways in aging, with significant contributions to the understanding of how epigenetic changes can influence health and lifespan. His research has opened new avenues for therapeutic interventions aimed at delaying aging and treating age-related diseases. Sinclair's work is particularly relevant to investors and tech listeners due to its potential to revolutionize healthcare and extend human healthspan, which could have profound economic and societal implications.",
+      "derived": {
+        "current_role": "Professor in the Department of Genetics; Co-director of the Paul F. Glenn Center for the Biology of Aging at Harvard Medical School",
+        "education": "Ph.D. in Molecular Genetics, University of New South Wales",
+        "books_or_works": "Why We Age: What Science Is Discovering About the Body's Journey Through Life, and How to Delay, Reverse, and Avoid Age-Related Diseases; numerous scientific papers",
+        "teaching_summary": "Professor in the Department of Genetics at Harvard Medical School"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "Australian"
+      },
+      "lead_paragraphs": [
+        "David Sinclair is a prominent researcher in the field of epigenetics and aging. He obtained his Ph.D. in Molecular Genetics from the University of New South Wales and has since dedicated his career to understanding the biological processes behind aging. Sinclair's work has been pivotal in uncovering the role of genes and molecular pathways in aging, with significant contributions to the understanding of how epigenetic changes can influence health and lifespan.",
+        "His research has opened new avenues for therapeutic interventions aimed at delaying aging and treating age-related diseases. Sinclair's work is particularly relevant to investors and tech listeners due to its potential to revolutionize healthcare and extend human healthspan, which could have profound economic and societal implications."
+      ],
+      "sections": [
+        {
+          "heading": "Epigenetics and Aging",
+          "body": "David Sinclair's research focuses on the role of epigenetics in aging, exploring how changes in gene expression can influence the aging process and contribute to age-related diseases."
+        },
+        {
+          "heading": "Therapeutic Interventions",
+          "body": "Sinclair's work has led to the development of potential therapeutic interventions to delay aging, including the use of molecules like resveratrol and the application of Yamanaka factors to reverse age-related declines in various tissues."
+        },
+        {
+          "heading": "Healthspan Extension",
+          "body": "His research has implications for extending not just lifespan, but more importantly, healthspan \u2013 the period during which individuals maintain good health and functionality."
+        },
+        {
+          "heading": "Broad Impact on Healthcare",
+          "body": "Sinclair's findings have the potential to impact a wide range of healthcare areas, from treating specific age-related diseases like Alzheimer's to improving overall quality of life in later years."
+        }
+      ]
+    },
+    "net_worth": "$25.0M"
   },
   {
     "id": 33,
@@ -19883,7 +20063,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in platinum as a hybrid precious and industrial metal with potential for growth outside of traditional economic cycles, and consider the impact of AI on productivity and government deficits on interest rates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-15 \u2022 Monetary Matters with Jack Farley: Precious Metals, Bonds, and Economic Cycles",
     "last_proof_snippet": "Join today by Alex Gorovich, founder and chief investment officer at Hauntay Asset Management and author of the second edition of the next perfect trade, the Magic Sword of Necessity. Alex, great to talk to you today. We haven't spoken in a",
@@ -19910,7 +20090,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in technology-driven businesses with a strong founder's mindset that focus on building and scaling rather than introspection, as they are more likely to shape the future and create significant value.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-15 \u2022 The Intersection of Technology, Entrepreneurship, and the Future",
     "last_proof_snippet": "We just have this fundamental view. The technology is like on balance in an armistly powerful force in the world. And the big problem with the world is that there's not enough technology. There's not enough information. There's not enough i",
@@ -20507,7 +20687,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "last_proof_cite": "The a16z Show \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
     "last_proof_snippet": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. If you were starting from scratch today,",
@@ -20569,7 +20749,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_proof_snippet": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229 00:00:00 I am blown away by how far you've come. The things that you can do with Neural Nets now does completely",
@@ -20633,7 +20813,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-20 \u2022 The Impact of AI on Mathematics and Scientific Discovery",
     "last_proof_snippet": "Okay, today, I'm chatting with Terrence Tau, who needs an interaction. Terrence, I want to begin by having you retell the story of how Kepler discovered the laws of planetary motion, because I think this will be a great jumping off point to",
@@ -20690,7 +20870,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-23 \u2022 California's Spending Woes and the Governor's Race",
     "last_proof_snippet": "Matt Mayhand, welcome to all in. Thanks, David. I have no idea who you are. Who are you? I mean, you're a guy who kind of popped up running for Governor of California last minute. Have that come about and who is Matt Mayhand? Well, David, l",
@@ -20754,7 +20934,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-22 \u2022 Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
     "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. I am joined by Josh Lindville, Vice President of Fertilizer at Stone X. Josh, welcome to monetary matters. Nice. They just have me on, excited",
@@ -20812,7 +20992,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-23 \u2022 Monetary Matters: Middle East Crisis and Global Market Impact",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream Cornfond Ticker C.O.R.N. Let's get into it. Welcome to this special edition of Other People's Money. I am joined today by Nadia Martin Wiggen, director at Svellen Capital. I've had Svellen",
@@ -20875,7 +21055,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-23 \u2022 Interview with Michael Intrader at Nvidia's GTC Conference",
     "last_proof_snippet": "I'm here at Nvidia's annual GTC conference, and I'm going to interview for amazing AI CEO's stick with us. I'm doing all of you! Our episode is sponsored by the New York Stock Exchange. Are you looking to change the world in race capital? D",
@@ -20936,7 +21116,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-23 \u2022 Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
     "last_proof_snippet": "Every satellite requires a connection point back to birth. If you don't have it, you don't have a space mesh. It literally is just like a rock in space. You just won a $50 million contract with space forest out modernized. It Northwood, you",
@@ -20996,7 +21176,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-24 \u2022 The Future of AI and its Impact on Society and Investment",
     "last_proof_snippet": "We're living through a historic moment right now. The next thing that's really interesting and terrifying also is recursive self-improvement, but we don't have it yet. What we do have, I keep asking my friends, when does the asymptote arriv",
@@ -21064,7 +21244,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
     "last_proof_snippet": "All the things we want to do is really about the soldier. In the mud, cold, wet, tired, hungry, what makes their lives easier or better. Your average soldier today, they're drawing just by themselves. 30 to 60 watts of power continuously du",
@@ -21124,7 +21304,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
     "last_proof_snippet": "All the things we want to do is really about the soldier. In the mud, cold, wet, tired, hungry, what makes their lives easier or better. Your average soldier today, they're drawing just by themselves. 30 to 60 watts of power continuously du",
@@ -21188,7 +21368,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-26 \u2022 Exploring Psychedelics for Longevity and Personal Growth",
     "last_proof_snippet": "Brian Johnson, thanks for being here. Yeah, it's good to see you. How are you feeling? Maybe just share with us what you did a few days ago. Yeah, I did a I did five MEO DMT, which is the most powerful psychedelic on the planet. Some are be",
@@ -21248,7 +21428,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The real advantage that submarines bring is our stealth and access. We can pretty much go anywhere in the world undetected. We can carry nuclear missiles on our ballistic missile submarines, and that ensures that we continue our decades of",
@@ -21308,7 +21488,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The real advantage that submarines bring is our stealth and access. We can pretty much go anywhere in the world undetected. We can carry nuclear missiles on our ballistic missile submarines, and that ensures that we continue our decades of",
@@ -21674,7 +21854,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-27 \u2022 Lessons from SpaceX and Tesla: Building for the Physical Economy",
     "last_proof_snippet": "I interned at SpaceX four times. I couldn't leave. Like, it was the dream. I spent about a decade at Tesla and got to run around the batteries by chain. Chandler Lujica is the CEO of Gallaudet. I, next generation, Missile Propulsion, Turner",
@@ -21739,7 +21919,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-27 \u2022 Lessons from SpaceX and Tesla: Building for the Physical Economy",
     "last_proof_snippet": "I interned at SpaceX four times. I couldn't leave. Like, it was the dream. I spent about a decade at Tesla and got to run around the batteries by chain. Chandler Lujica is the CEO of Gallaudet. I, next generation, Missile Propulsion, Turner",
@@ -21804,7 +21984,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-27 \u2022 Investing in Sovereign Credit with Lupin Ramon",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited HFGM global macro ETF ticker HFGM. Later in the show, you'll hear more about HFGM currently the number one morning star rated funds sits its inception in the US macro trading category. Let'",
@@ -22115,7 +22295,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-29 \u2022 The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
     "last_proof_snippet": "Today's episode is brought you by Pictay asset management and their AI enhanced ETF range, ticker PQNT and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. I'm joine",
@@ -22176,7 +22356,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-31 \u2022 The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
     "last_proof_snippet": "Today's episode is brought to you by Peak Day Asset Management and their AI enhanced ETF range, ticker's PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. We",
@@ -22240,7 +22420,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
     "last_proof_snippet": "The grid is breaking. We're so bottleneck today on the lines that run Chris Cross across the country. I mean, it's this very complicated giant organic machine. New power is not the problem. Delivery is the problem. The energy services we're",
@@ -22301,7 +22481,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
     "last_proof_snippet": "The grid is breaking. We're so bottleneck today on the lines that run Chris Cross across the country. I mean, it's this very complicated giant organic machine. New power is not the problem. Delivery is the problem. The energy services we're",
@@ -22366,7 +22546,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-31 \u2022 Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
     "last_proof_snippet": "The Robotaxi race is heating up. How are you going to win that race? Well, when you joined taking the mental Uber, I think Uber was losing $4.5 billion a year. Today it's earning over $10 billion a year. You really focused the organization.",
@@ -22551,7 +22731,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
     "last_proof_snippet": "This is Macrovoisans, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisans is all about the brightest minds in the world of finance an",
@@ -23041,7 +23221,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-07 \u2022 How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
     "last_proof_snippet": "The idea bring back the willy mammoth had been around for a long time. You jump in, take the mantle of CEO. I don't know if you were expecting to do that. I was going to fund it at the side project at first, but then I thought it was just r",
@@ -23105,7 +23285,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-07 \u2022 Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
     "last_proof_snippet": "Today's episode is brought to you by Peak Day Asset Management and their AI enhanced ETF range, ticker's PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. He",
@@ -23165,7 +23345,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-07 \u2022 Michael Nielsen \u2013 How science actually progresses",
     "last_proof_snippet": "Today, I'm speaking with Michael Nielsen. You've done many things. You're one of the pioneers of chronic computing, wrote the main textbook in the field of the open science movement. You're at a book about people learning that Chris Ola and",
@@ -23485,7 +23665,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-09 \u2022 MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -23682,7 +23862,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-11 \u2022 SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
     "last_proof_snippet": "SpaceX is going public with a $2 trillion valuation. It's the beginning of the IPO wars. The stepping stones are really, really clear now. Starlink gets you into space profitably, then the data centers, then you get to the moon, refueling i",
@@ -23744,7 +23924,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-11 \u2022 SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
     "last_proof_snippet": "SpaceX is going public with a $2 trillion valuation. It's the beginning of the IPO wars. The stepping stones are really, really clear now. Starlink gets you into space profitably, then the data centers, then you get to the moon, refueling i",
@@ -24370,7 +24550,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "The rapid advancement of AI and consumer tech is creating new opportunities and challenges for venture capital, with a focus on the need for universal basic purpose and the potential for AI to disrupt traditional job markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-19 \u2022 Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
     "last_proof_snippet": "Yeah, idea guys are sort of having a moment. In fact, it's funny, like I'm like looking for new ideas to work on. You know, in the old days, somebody would give you their app idea and you be like, oh, here we go again. And now I'm like, coo",
@@ -24750,7 +24930,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in companies and technologies that are at the forefront of AI development and data center infrastructure, as these will be key drivers of growth and power in the coming years.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-23 \u2022 Iran's AI Supply Chain Threat, Claude vs. SaaS, and Elon's $60B Cursor Bet | EP #249",
     "last_proof_snippet": "Having this global geopolitical dependency on one narrow volatile geographic regions completely unacceptable. Just around war is not really just a moral shock. It's a system shock. TBD, whether you know what direction the US goes on that, i",
@@ -24811,7 +24991,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "The Iran conflict and energy market disruptions present opportunities in commodities, particularly in the context of extreme backwardation and supply constraints, which could drive further price increases and investment returns.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-23 \u2022 MacroVoices #529 Ole S Hansen: Commodities in The Wake of The Iran Crisis",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -24873,7 +25053,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in AI, hardware, and pharma presents significant opportunities due to the large market cap potential and the need for innovation in computing.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-23 \u2022 Martin Shkreli on AI, Pharma, and What Actually Matters",
     "last_proof_snippet": "There were two richest guys in the world don't just drop 400 million on a single deal. The biggest VC is maybe, that's still like a lot. So like how this guy showed up with 400 million to drop, so there's $10 trillion with their include all",
@@ -25102,73 +25282,6 @@ const dashboardData = {
         }
       ]
     }
-  },
-  {
-    "id": 209,
-    "name": "David Sinclair",
-    "slug": "david-sinclair",
-    "bio": "David Sinclair is a Professor in the Department of Genetics and co-director of the Paul F. Glenn Center for the Biology of Aging at Harvard Medical School. He is renowned for his pioneering work in epigenetics and the biology of aging, focusing on understanding the mechanisms of aging and developing interventions to delay its onset and effects.",
-    "known_for": "His groundbreaking research in epigenetics and aging, with potential implications for extending human healthspan and lifespan.",
-    "net_worth_usd": 25000000.0,
-    "net_worth_source": "https://www.eyemindspirit.com/blogs/pop-culture/david-sinclairs-net-worth",
-    "net_worth_updated_at": "2026-04-28T05:04:48.598995",
-    "voice_tone": "Passionate and optimistic.",
-    "voice_style": "Educative and visionary, with a focus on the transformative potential of epigenetic reprogramming.",
-    "voice_delivery_notes": "Speak with emphasis on the revolutionary aspects of the technology and its implications for human health.",
-    "voice_profile_updated_at": "2026-04-28 10:04:32",
-    "last_seen": "2026-04-28 10:04:32",
-    "last_episode_title": "David Sinclair on the Longevity Pill, Age Reversal Timelines, and Updated Protocols | EP #250",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-04-27",
-    "mention_score": 1,
-    "mention_score_decayed": 1,
-    "last_main_idea": "Investment in biotechnology companies pioneering epigenetic reprogramming could offer significant returns as this field advances longevity and healthspan.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-27 \u2022 David Sinclair on the Longevity Pill, Age Reversal Timelines, and Updated Protocols | EP #250",
-    "last_proof_snippet": "This feels like another right-brother's moment. Once you can fly, everything changes. And I think we're about to learn whether we can fly or not. I'm pretty sure we can. The use to your, you are days away from the first human epigenetic rep",
-    "supporting_takeaway": "Epigenetic reprogramming has shown potential in improving memory, motor neurons, immune system, and other organs.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-28T05:04:47.371037",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "David Sinclair",
-      "fetched_at": "2026-04-28T10:04:47.370533+00:00",
-      "cliff_notes": "David Sinclair is a prominent researcher in the field of epigenetics and aging. He obtained his Ph.D. in Molecular Genetics from the University of New South Wales and has since dedicated his career to understanding the biological processes behind aging. Sinclair's work has been pivotal in uncovering the role of genes and molecular pathways in aging, with significant contributions to the understanding of how epigenetic changes can influence health and lifespan. His research has opened new avenues for therapeutic interventions aimed at delaying aging and treating age-related diseases. Sinclair's work is particularly relevant to investors and tech listeners due to its potential to revolutionize healthcare and extend human healthspan, which could have profound economic and societal implications.",
-      "derived": {
-        "current_role": "Professor in the Department of Genetics; Co-director of the Paul F. Glenn Center for the Biology of Aging at Harvard Medical School",
-        "education": "Ph.D. in Molecular Genetics, University of New South Wales",
-        "books_or_works": "Why We Age: What Science Is Discovering About the Body's Journey Through Life, and How to Delay, Reverse, and Avoid Age-Related Diseases; numerous scientific papers",
-        "teaching_summary": "Professor in the Department of Genetics at Harvard Medical School"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "Australian"
-      },
-      "lead_paragraphs": [
-        "David Sinclair is a prominent researcher in the field of epigenetics and aging. He obtained his Ph.D. in Molecular Genetics from the University of New South Wales and has since dedicated his career to understanding the biological processes behind aging. Sinclair's work has been pivotal in uncovering the role of genes and molecular pathways in aging, with significant contributions to the understanding of how epigenetic changes can influence health and lifespan.",
-        "His research has opened new avenues for therapeutic interventions aimed at delaying aging and treating age-related diseases. Sinclair's work is particularly relevant to investors and tech listeners due to its potential to revolutionize healthcare and extend human healthspan, which could have profound economic and societal implications."
-      ],
-      "sections": [
-        {
-          "heading": "Epigenetics and Aging",
-          "body": "David Sinclair's research focuses on the role of epigenetics in aging, exploring how changes in gene expression can influence the aging process and contribute to age-related diseases."
-        },
-        {
-          "heading": "Therapeutic Interventions",
-          "body": "Sinclair's work has led to the development of potential therapeutic interventions to delay aging, including the use of molecules like resveratrol and the application of Yamanaka factors to reverse age-related declines in various tissues."
-        },
-        {
-          "heading": "Healthspan Extension",
-          "body": "His research has implications for extending not just lifespan, but more importantly, healthspan \u2013 the period during which individuals maintain good health and functionality."
-        },
-        {
-          "heading": "Broad Impact on Healthcare",
-          "body": "Sinclair's findings have the potential to impact a wide range of healthcare areas, from treating specific age-related diseases like Alzheimer's to improving overall quality of life in later years."
-        }
-      ]
-    },
-    "net_worth": "$25.0M"
   },
   {
     "id": 210,

@@ -1,5 +1,21 @@
 [
   {
+    "id": 183,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
+    "episode_date": "2026-04-28",
+    "summary": "The podcast episode features a discussion on longevity, healthspan, and the role of genetics, lifestyle, and technology in extending human lifespan. The conversation covers the potential of GLP1s, AI in drug design, the impact of mindset on longevity, and the importance of indoor environmental factors on health. The guests emphasize the importance of understanding genetics to predict health outcomes and the role of adversity in maintaining a healthy lifestyle.",
+    "key_takeaways": [
+      "GLP1s show benefits to the heart and brain beyond weight loss, paving the way for longevity medicines.",
+      "AI-driven drug design is accelerating research by analyzing billions of molecules for potential therapeutic uses.",
+      "Understanding genetics can help predict health outcomes and guide lifestyle changes to extend healthspan.",
+      "Mindset plays a crucial role in longevity, with optimists living longer than pessimists.",
+      "Indoor environmental factors such as air quality, water filtration, and microbiome can significantly impact health and longevity."
+    ],
+    "investment_thesis": "Investing in longevity and healthspan technologies and therapies offers significant growth potential as scientific advancements continue to extend human lifespan and improve quality of life.",
+    "key_tickers": null
+  },
+  {
     "id": 182,
     "podcast_name": "The a16z Show",
     "episode_title": "John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
