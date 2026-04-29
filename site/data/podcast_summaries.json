@@ -1,5 +1,22 @@
 [
   {
+    "id": 182,
+    "podcast_name": "The a16z Show",
+    "episode_title": "John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
+    "episode_date": "2026-04-28",
+    "summary": "In this episode of the a16z Show, John and Patrick Collison from Stripe discuss the future of commerce and payments, emphasizing the need for platforms capable of handling billions of transactions per second, a requirement that current payment rails cannot meet. They also touch on the transformation of software economics from fixed costs to bespoke, custom creations, likening software to pizza that is cooked fresh at the moment of use. The conversation highlights the increasing adoption and integration of AI in business operations and the potential for agentic commerce to drive a torrent of transactions, necessitating better blockchain technology.",
+    "key_takeaways": [
+      "Stripe processed over a trillion dollars in payments last year, growing by 34%.",
+      "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
+      "Agentic commerce will require blockchains capable of billions of transactions per second.",
+      "Software economics are shifting from fixed costs to custom creations, changing the dynamics from winner-take-all to a more bespoke model.",
+      "AI is moving the needle in the real economy, contrary to some executive perceptions.",
+      "Stripe's user base and overall business performance are looking strong, with 2026 showing signs of further acceleration."
+    ],
+    "investment_thesis": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
+    "key_tickers": null
+  },
+  {
     "id": 181,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "David Sinclair on the Longevity Pill, Age Reversal Timelines, and Updated Protocols | EP #250",

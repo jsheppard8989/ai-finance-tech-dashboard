@@ -1,55 +1,38 @@
 {
-  "generated_at": "2026-04-28T05:07:18.233833",
-  "last_updated": "2026-04-28T05:07:18.233833",
-  "last_pipeline_run": "2026-04-28T05:07:18.233833",
+  "generated_at": "2026-04-28T22:06:32.344225",
+  "last_updated": "2026-04-28T22:06:32.344225",
+  "last_pipeline_run": "2026-04-28T22:06:32.344225",
   "main_page": {
     "overton": 8,
     "insights": 8,
-    "pundits": 112
+    "pundits": 113
   },
   "counts": {
     "ticker_mentions": 166,
-    "podcast_episodes": 155,
+    "podcast_episodes": 156,
     "newsletters": 7,
     "daily_scores": 104,
     "overton_terms_total": 127,
-    "latest_insights_total": 169,
+    "latest_insights_total": 170,
     "today_mentions": {},
-    "podcasts_analyzed": 2
+    "podcasts_analyzed": 3
   },
   "step_results": {
-    "downloaded": 3,
-    "transcribed": 2,
-    "analyzed": 2,
-    "insight_created": 2,
-    "deep_dive_created": 2,
-    "published": 2,
-    "total": 3
+    "downloaded": 2,
+    "transcribed": 1,
+    "analyzed": 1,
+    "insight_created": 1,
+    "deep_dive_created": 1,
+    "published": 1,
+    "total": 2
   },
   "episodes": [
     {
-      "id": "4cf41fd8-3d05-11f1-b94d-3312c6eea9aa",
+      "id": "23ef92f4-42f8-11f1-9870-6bc5dd46c0fa",
       "podcast": "Moonshots with Peter Diamandis",
-      "title": "David Sinclair on the Longevity Pill, Age Reversal Timelines, and Updated Protocols | EP #250",
-      "published": "2026-04-27",
-      "rss_guid": "4cf41fd8-3d05-11f1-b94d-3312c6eea9aa",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "deep_dive_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
-    },
-    {
-      "id": "083c3e43-8148-45ec-87d5-cf2046094650",
-      "podcast": "The a16z Show",
-      "title": "John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
+      "title": "David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
       "published": "2026-04-28",
-      "rss_guid": "083c3e43-8148-45ec-87d5-cf2046094650",
+      "rss_guid": "23ef92f4-42f8-11f1-9870-6bc5dd46c0fa",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -68,11 +51,11 @@
       "status": "needs_transcription"
     },
     {
-      "id": "e834a2c7-4ca4-428a-a07b-121d3f63c6a9",
+      "id": "083c3e43-8148-45ec-87d5-cf2046094650",
       "podcast": "The a16z Show",
-      "title": "Ben Horowitz on Venture Capital and AI",
-      "published": "2026-04-27",
-      "rss_guid": "e834a2c7-4ca4-428a-a07b-121d3f63c6a9",
+      "title": "John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
+      "published": "2026-04-28",
+      "rss_guid": "083c3e43-8148-45ec-87d5-cf2046094650",
       "stages": {
         "downloaded": true,
         "transcribed": true,
@@ -87,9 +70,9 @@
   ],
   "available_from_rss": [
     {
-      "podcast": "The a16z Show",
-      "title": "John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
-      "published": "Tue, 28 Apr 2026 10:00:00 +0000",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
+      "published": "Tue, 28 Apr 2026 15:00:00 -0000",
       "published_date": "2026-04-28",
       "rss_guid": ""
     }
