@@ -1,53 +1,59 @@
 {
-  "generated_at": "2026-04-29T05:04:45.811391",
-  "last_updated": "2026-04-29T05:04:45.811391",
-  "last_pipeline_run": "2026-04-29T05:04:45.811391",
+  "generated_at": "2026-04-29T22:05:40.847027",
+  "last_updated": "2026-04-29T22:05:40.847027",
+  "last_pipeline_run": "2026-04-29T22:05:40.847027",
   "main_page": {
     "overton": 8,
     "insights": 8,
-    "pundits": 113
+    "pundits": 114
   },
   "counts": {
     "ticker_mentions": 166,
-    "podcast_episodes": 157,
+    "podcast_episodes": 158,
     "newsletters": 7,
     "daily_scores": 104,
-    "overton_terms_total": 128,
-    "latest_insights_total": 171,
+    "overton_terms_total": 130,
+    "latest_insights_total": 172,
     "today_mentions": {},
-    "podcasts_analyzed": 1
+    "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 2,
-    "insight_created": 2,
-    "deep_dive_created": 2,
-    "published": 2,
-    "total": 2
+    "downloaded": 4,
+    "transcribed": 1,
+    "analyzed": 1,
+    "insight_created": 1,
+    "deep_dive_created": 1,
+    "published": 1,
+    "total": 4
   },
   "episodes": [
     {
-      "id": "23ef92f4-42f8-11f1-9870-6bc5dd46c0fa",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
-      "published": "2026-04-28",
-      "rss_guid": "23ef92f4-42f8-11f1-9870-6bc5dd46c0fa",
+      "id": "53df6792-4388-11f1-82ce-f37f0f1eba5a",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
+      "published": "2026-04-29",
+      "rss_guid": "53df6792-4388-11f1-82ce-f37f0f1eba5a",
       "stages": {
         "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "deep_dive_created": true,
-        "published": true
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "deep_dive_created": false,
+        "published": false
       },
-      "stage_reasons": {},
-      "status": "complete"
+      "stage_reasons": {
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "deep_dive_created": "Deep Dive depends on insight promotion first.",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_transcription"
     },
     {
       "id": "e9c09545-4c76-4210-bf00-214b1f7f7ba9",
       "podcast": "The a16z Show",
-      "title": "the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
+      "title": "The Shift in Global Drug Development",
       "published": "2026-04-29",
       "rss_guid": "e9c09545-4c76-4210-bf00-214b1f7f7ba9",
       "stages": {
@@ -60,13 +66,73 @@
       },
       "stage_reasons": {},
       "status": "complete"
+    },
+    {
+      "id": "b8e7be81-4da6-4843-979c-e8c5aba5ec59",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
+      "published": "2026-04-29",
+      "rss_guid": "b8e7be81-4da6-4843-979c-e8c5aba5ec59",
+      "stages": {
+        "downloaded": true,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "deep_dive_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "deep_dive_created": "Deep Dive depends on insight promotion first.",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_transcription"
+    },
+    {
+      "id": "substack:post:195859978",
+      "podcast": "Dwarkesh Podcast",
+      "title": "Reiner Pope \u2013 The math behind how LLMs are trained and served",
+      "published": "2026-04-29",
+      "rss_guid": "substack:post:195859978",
+      "stages": {
+        "downloaded": true,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "deep_dive_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "deep_dive_created": "Deep Dive depends on insight promotion first.",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_transcription"
     }
   ],
   "available_from_rss": [
     {
-      "podcast": "The a16z Show",
-      "title": "The Shift in Global Drug Development",
-      "published": "Wed, 29 Apr 2026 10:00:00 +0000",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
+      "published": "Wed, 29 Apr 2026 10:30:00 -0000",
+      "published_date": "2026-04-29",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
+      "published": "Wed, 29 Apr 2026 15:14:00 +0000",
+      "published_date": "2026-04-29",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "Dwarkesh Podcast",
+      "title": "Reiner Pope \u2013 The math behind how LLMs are trained and served",
+      "published": "Wed, 29 Apr 2026 17:07:03 GMT",
       "published_date": "2026-04-29",
       "rss_guid": ""
     }

@@ -1,6 +1,26 @@
 {
   "insights": [
     {
+      "id": 199,
+      "title": "The Shift in Global Drug Development",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-29",
+      "summary": "This episode of the a16z Show discusses the significant shift in biomedical innovation from the US to China. The US, which has historically dominated drug development, is now facing competition from China, which has rapidly expanded its clinical trial system and accelerated approvals. The conversation covers the implications of this shift for global drug development, the advantages of China's approach, and the potential impact on US leadership in biotech innovation.",
+      "key_takeaway": "Investment in the biotech sector may need to consider the geographic shift towards China for innovation and efficiency in drug development.",
+      "tickers_mentioned": [
+        "PFE",
+        "MRK"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 184
+    },
+    {
       "id": 197,
       "title": "John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
       "source_type": "podcast",
@@ -203,11 +223,11 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-24",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-30",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 174
     },
     {
@@ -3612,6 +3632,34 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 136,
+      "term": "Clinical Trial Reform",
+      "description": "Changes in the process of running clinical trials, including regulatory design, trial structure, and funding models.",
+      "first_detected_date": "2026-04-30",
+      "last_mentioned_date": "2026-04-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor how clinical trial reforms in different countries impact drug development timelines and costs.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 137,
+      "term": "Drug Development Efficiency",
+      "description": "The speed and effectiveness with which new drugs are developed and approved for market.",
+      "first_detected_date": "2026-04-30",
+      "last_mentioned_date": "2026-04-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Efficiency in drug development can significantly affect a company's profitability and competitive advantage.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
     {
       "id": 135,
       "term": "Healthspan",

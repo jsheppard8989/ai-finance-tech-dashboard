@@ -1,5 +1,22 @@
 [
   {
+    "id": 184,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The Shift in Global Drug Development",
+    "episode_date": "2026-04-29",
+    "summary": "This episode of the a16z Show discusses the significant shift in biomedical innovation from the US to China. The US, which has historically dominated drug development, is now facing competition from China, which has rapidly expanded its clinical trial system and accelerated approvals. The conversation covers the implications of this shift for global drug development, the advantages of China's approach, and the potential impact on US leadership in biotech innovation.",
+    "key_takeaways": [
+      "China now leads in both volume and novel drug development.",
+      "China's clinical trial system has rapidly expanded, with reforms that streamline the approval process.",
+      "The US may need to adapt to maintain its position in biotech innovation.",
+      "China's approach to clinical trials reduces false positives and negatives due to larger, better trials.",
+      "China's system incentivizes profitability for drug firms by lowering costs and increasing sales.",
+      "The US's historical dominance in drug development is being challenged by China's more efficient regulatory design and trial structure."
+    ],
+    "investment_thesis": "Investment in the biotech sector may need to consider the geographic shift towards China for innovation and efficiency in drug development.",
+    "key_tickers": null
+  },
+  {
     "id": 183,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
