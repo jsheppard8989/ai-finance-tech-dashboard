@@ -3,151 +3,151 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-29T22:05:51.278975",
-  chartsVersion: "2026-04-29T22:05:36.671441",
+  generatedAt: "2026-04-30T05:06:22.416303",
+  chartsVersion: "2026-04-30T05:06:09.211689",
   priceSnapshot: {
   "GOOGL": {
     "price": 349.94,
     "change_pct": 10.31,
     "name": "GOOGL",
-    "updated_at": "2026-04-29T22:05:36.669900",
+    "updated_at": "2026-04-30T05:06:09.210180",
     "symbol_used": "GOOGL",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "GOOGL",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-29T22:05:36.669916"
+    "source_timestamp": "2026-04-30T05:06:09.210199"
   },
   "NVDA": {
     "price": 209.25,
     "change_pct": 10.93,
     "name": "NVDA",
-    "updated_at": "2026-04-29T22:05:36.669930",
+    "updated_at": "2026-04-30T05:06:09.210214",
     "symbol_used": "NVDA",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "NVDA",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-29T22:05:36.669936"
+    "source_timestamp": "2026-04-30T05:06:09.210220"
   },
   "MSFT": {
     "price": 424.46,
     "change_pct": 14.45,
     "name": "MSFT",
-    "updated_at": "2026-04-29T22:05:36.669946",
+    "updated_at": "2026-04-30T05:06:09.210230",
     "symbol_used": "MSFT",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "MSFT",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-29T22:05:36.669952"
+    "source_timestamp": "2026-04-30T05:06:09.210236"
   },
   "WTI": {
-    "price": 108.51,
-    "change_pct": 18.88,
+    "price": 106.97,
+    "change_pct": 17.18,
     "name": "WTI",
-    "updated_at": "2026-04-29T22:05:36.669961",
+    "updated_at": "2026-04-30T05:06:09.210246",
     "symbol_used": "CL=F",
     "instrument_type": "futures",
     "is_continuous": true,
     "display_ticker": "WTI",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-29T22:05:36.669967"
+    "source_timestamp": "2026-04-30T05:06:09.210252"
   },
   "BTC": {
-    "price": 75747.58,
-    "change_pct": -1.79,
+    "price": 76110.15,
+    "change_pct": -1.32,
     "name": "BTC",
-    "updated_at": "2026-04-29T22:05:36.669977",
+    "updated_at": "2026-04-30T05:06:09.210262",
     "symbol_used": "BTC-USD",
     "instrument_type": "crypto_spot",
     "is_continuous": false,
     "display_ticker": "BTC",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-29T22:05:36.669983"
+    "source_timestamp": "2026-04-30T05:06:09.210268"
   },
   "S&P 500": {
-    "price": 7176.5,
-    "change_pct": 2.45,
+    "price": 7172.0,
+    "change_pct": 1.58,
     "name": "S&P 500",
-    "updated_at": "2026-04-29T22:05:36.669993",
+    "updated_at": "2026-04-30T05:06:09.210278",
     "symbol_used": "ES=F",
     "instrument_type": "futures",
     "is_continuous": true,
     "display_ticker": "S&P 500",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-29T22:05:36.669998"
+    "source_timestamp": "2026-04-30T05:06:09.210283"
   },
   "AMZN": {
     "price": 263.04,
     "change_pct": 10.34,
     "name": "AMZN",
-    "updated_at": "2026-04-29T22:05:36.670008",
+    "updated_at": "2026-04-30T05:06:09.210294",
     "symbol_used": "AMZN",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "AMZN",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-29T22:05:36.670015"
+    "source_timestamp": "2026-04-30T05:06:09.210299"
   },
   "TSLA": {
     "price": 372.8,
     "change_pct": 6.83,
     "name": "TSLA",
-    "updated_at": "2026-04-29T22:05:36.670024",
+    "updated_at": "2026-04-30T05:06:09.210309",
     "symbol_used": "TSLA",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "TSLA",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-29T22:05:36.670029"
+    "source_timestamp": "2026-04-30T05:06:09.210314"
   },
   "COPPER": {
-    "price": 5.95,
-    "change_pct": -1.9,
+    "price": 6.0,
+    "change_pct": -1.25,
     "name": "COPPER",
-    "updated_at": "2026-04-29T22:05:36.670039",
+    "updated_at": "2026-04-30T05:06:09.210324",
     "symbol_used": "HG=F",
     "instrument_type": "futures",
     "is_continuous": true,
     "display_ticker": "COPPER",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-29T22:05:36.670045"
+    "source_timestamp": "2026-04-30T05:06:09.210330"
   },
   "QQQ": {
     "price": 661.57,
     "change_pct": 8.26,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-04-29T22:05:36.670055",
+    "updated_at": "2026-04-30T05:06:09.210339",
     "symbol_used": "QQQ",
     "instrument_type": "etf",
     "is_continuous": false,
     "display_ticker": "QQQ",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-29T22:05:36.670060"
+    "source_timestamp": "2026-04-30T05:06:09.210345"
   },
   "BTC-USD": {
-    "price": 75747.58,
-    "change_pct": -1.79,
+    "price": 76110.15,
+    "change_pct": -1.32,
     "name": "Bitcoin USD",
-    "updated_at": "2026-04-29T22:05:36.670070",
+    "updated_at": "2026-04-30T05:06:09.210356",
     "symbol_used": "BTC-USD",
     "instrument_type": "crypto_spot",
     "is_continuous": false,
     "display_ticker": "BTC-USD",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-29T22:05:36.670075"
+    "source_timestamp": "2026-04-30T05:06:09.210361"
   }
 },
   tickerScores: [
@@ -925,6 +925,67 @@ const dashboardData = {
       "podcast_episode_id": 184
     },
     {
+      "id": 200,
+      "title": "CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-04-29",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts interview Steve Helden, a Republican candidate for the governorship of California. The discussion covers Helden's background, his views on California's housing crisis, and his policy proposals to address the state's economic and political issues. Helden emphasizes the importance of a multi-racial working-class coalition and outlines his tax plan, which includes no state income taxes and a focus on affordable housing and energy costs.",
+      "key_takeaway": "Steve Helden's candidacy represents a potential shift in California's political landscape towards policies that promote economic freedom and reduced regulatory burdens, which could have implications for businesses and investors in the state.",
+      "tickers_mentioned": [
+        "AAPL",
+        "TSLA",
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 187
+    },
+    {
+      "id": 201,
+      "title": "Reiner Pope \u2013 The math behind how LLMs are trained and served",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-04-29",
+      "summary": "In this episode, the host interviews Reiner Pope, CEO of Maddox, a new ship startup, and former Google engineer. They discuss model architecture, the role of batch size in AI training and inference, and the implications for AI progress, architecture, and pricing. The conversation delves into technical details, using a blackboard lecture format to explain concepts like roofline analysis, memory bandwidth, and compute performance. The episode aims to provide insights into why AI is the way it is and how understanding these details can help make sense of AI progress.",
+      "key_takeaway": "Investing in companies that optimize AI model architecture and training can lead to significant performance improvements and cost savings.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "NVDA",
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 186
+    },
+    {
+      "id": 202,
+      "title": "From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-29",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Max Weathie interviews Keer Kavanaugh, the founder and CIO of Old Farm Partners, a New York-based fund of funds. They discuss Kavanaugh's experience at Soros Fund Management, his co-investment strategy with hedge funds, and his approach to manager due diligence and sourcing managers. The conversation also touches on the current investment focus on AI CapEx, the risks involved in the market, and Kavanaugh's views on the hedge fund industry and allocators.",
+      "key_takeaway": "Investing in AI CapEx is currently the main focus, with co-investments in hedge funds providing a successful strategy for capturing high returns.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 185
+    },
+    {
       "id": 197,
       "title": "John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
       "source_type": "podcast",
@@ -1023,11 +1084,11 @@ const dashboardData = {
         "PSBD"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-26",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-30",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 179
     },
     {
@@ -1046,11 +1107,11 @@ const dashboardData = {
         "CRM"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-25",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-30",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 178
     },
     {
@@ -1065,11 +1126,11 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-25",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-30",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 177
     },
     {
@@ -4565,6 +4626,76 @@ const dashboardData = {
       "archived_reason": null
     },
     {
+      "id": 138,
+      "term": "AI CapEx",
+      "description": "Capital expenditure focused on artificial intelligence technologies, indicating a strategic investment in AI infrastructure and development.",
+      "first_detected_date": "2026-04-30",
+      "last_mentioned_date": "2026-04-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider AI CapEx as a significant growth area with potential for high returns.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 139,
+      "term": "Co-Investing",
+      "description": "A strategy where an investor participates alongside other investors, typically in a hedge fund or private equity deal, sharing in both the profits and risks.",
+      "first_detected_date": "2026-04-30",
+      "last_mentioned_date": "2026-04-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Co-investing can offer significant upside potential for investors who are able to access such deals.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 140,
+      "term": "Invertible Neural Networks",
+      "description": "Neural networks that can be run both forwards and backwards, allowing for memory savings during training by rematerializing activations.",
+      "first_detected_date": "2026-04-30",
+      "last_mentioned_date": "2026-04-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investing in technology that enables invertible neural networks can lead to more efficient AI training and reduced costs.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 141,
+      "term": "Working-Class Coalition",
+      "description": "A political alliance that aims to represent the interests of working-class individuals across racial and ethnic lines.",
+      "first_detected_date": "2026-04-30",
+      "last_mentioned_date": "2026-04-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors may consider the economic policies that appeal to this coalition, as they could indicate future shifts in consumer behavior and market demand.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 142,
+      "term": "Housing Impact Fees",
+      "description": "Fees charged to new developments to fund affordable housing and infrastructure, which can significantly increase the cost of new housing units.",
+      "first_detected_date": "2026-04-30",
+      "last_mentioned_date": "2026-04-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors in real estate and construction should monitor policy changes related to impact fees, as they can affect development costs and profitability.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
       "id": 135,
       "term": "Healthspan",
       "description": "The period during which an individual is generally healthy and free from chronic diseases.",
@@ -6387,6 +6518,66 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 200,
+      "title": "CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-04-29",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts interview Steve Helden, a Republican candidate for the governorship of California. The discussion covers Helden's background, his views on California's housing crisis, and his policy proposals to address the state's economic and political issues. Helden emphasizes the importance of a multi-racial working-class coalition and outlines his tax plan, which includes no state income taxes and a focus on affordable housing and energy costs.",
+      "key_takeaway": "Steve Helden's candidacy represents a potential shift in California's political landscape towards policies that promote economic freedom and reduced regulatory burdens, which could have implications for businesses and investors in the state.",
+      "tickers_mentioned": "[\"AAPL\", \"TSLA\", \"GOOGL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 187,
+      "episode_release_date": "2026-04-29",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 201,
+      "title": "Reiner Pope \u2013 The math behind how LLMs are trained and served",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-04-29",
+      "summary": "In this episode, the host interviews Reiner Pope, CEO of Maddox, a new ship startup, and former Google engineer. They discuss model architecture, the role of batch size in AI training and inference, and the implications for AI progress, architecture, and pricing. The conversation delves into technical details, using a blackboard lecture format to explain concepts like roofline analysis, memory bandwidth, and compute performance. The episode aims to provide insights into why AI is the way it is and how understanding these details can help make sense of AI progress.",
+      "key_takeaway": "Investing in companies that optimize AI model architecture and training can lead to significant performance improvements and cost savings.",
+      "tickers_mentioned": "[\"GOOGL\", \"NVDA\", \"MSFT\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 186,
+      "episode_release_date": "2026-04-29",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 202,
+      "title": "From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-29",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Max Weathie interviews Keer Kavanaugh, the founder and CIO of Old Farm Partners, a New York-based fund of funds. They discuss Kavanaugh's experience at Soros Fund Management, his co-investment strategy with hedge funds, and his approach to manager due diligence and sourcing managers. The conversation also touches on the current investment focus on AI CapEx, the risks involved in the market, and Kavanaugh's views on the hedge fund industry and allocators.",
+      "key_takeaway": "Investing in AI CapEx is currently the main focus, with co-investments in hedge funds providing a successful strategy for capturing high returns.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 185,
+      "episode_release_date": "2026-04-29",
+      "guest_name": "From Soros to Old Farm",
+      "key_tickers": []
+    },
+    {
       "id": 197,
       "title": "John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
       "source_type": "podcast",
@@ -6465,66 +6656,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 180,
       "episode_release_date": "2026-04-27",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 194,
-      "title": "\u201cOverblown\u201d Sell-off in Software Loans | Matthew Bloomfield on Public BDCs (Business Development Companies) and Collateralized Loan Obligations (CLOs)",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-04-26",
-      "summary": "In this episode of Monetary Matters with Jack Farley, Matthew Bloomfield, Partner at Palmer Square Capital Management, discusses the structured credit market, specifically the CLO market, and the private credit market. They delve into the nuances of business development companies (BDCs), the risks and rewards of syndicated loans versus private credit loans, and the impact of market stress on these asset classes. The conversation also touches on the performance of publicly traded vehicles that own CLO equity and the strategic use of CLOs as a funding mechanism for BDCs.",
-      "key_takeaway": "Investing in syndicated loans through BDCs like Palmer Square's offers a less risky asset class with greater transparency and historical performance, making it an attractive option in the current market environment.",
-      "tickers_mentioned": "[\"PSBD\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-26",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 179,
-      "episode_release_date": "2026-04-26",
-      "guest_name": "\u201cOverblown\u201d Sell-off in Software Loans",
-      "key_tickers": []
-    },
-    {
-      "id": 192,
-      "title": "AI Inside the Enterprise",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-04-24",
-      "summary": "In this episode of the a16z Show, the panelists discuss the current state and future direction of AI in enterprise settings. They highlight the gap between what's possible with AI and what's being deployed in large organizations, the challenges of integration, and the need for companies to rethink their systems, permissions, and workflows to accommodate AI. The conversation also touches on the role of AI as a new kind of user within organizations and the implications for security and permissions.",
-      "key_takeaway": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
-      "tickers_mentioned": "[\"IBM\", \"MSFT\", \"GOOGL\", \"AMZN\", \"CRM\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-25",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 178,
-      "episode_release_date": "2026-04-24",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 193,
-      "title": "SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-04-24",
-      "summary": "In this episode, the hosts discuss the importance of AI, data centers, and the role of the government in scientific research. They highlight the impact of the current presidential administration on AI development and the potential consequences if a different administration were in power. The conversation also touches on the media's role in investigative journalism and the need for new media approaches. Additionally, they cover the significance of fundamental science in cancer research and the potential for government agencies to play a role in preventing cancer by addressing industrial and food supply issues.",
-      "key_takeaway": "Invest in AI and data center infrastructure companies that benefit from a supportive regulatory environment and government-backed scientific research.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-25",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 177,
-      "episode_release_date": "2026-04-24",
       "guest_name": null,
       "key_tickers": []
     }
@@ -18665,12 +18796,199 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-04-29",
     "key_tickers": []
+  },
+  "200": {
+    "id": 191,
+    "insight_id": 200,
+    "podcast_episode_id": 187,
+    "overview": "The debate around Steve Helden's candidacy for California's governorship is significant as it represents a potential shift towards policies that promote economic freedom and reduced regulatory burdens. This is particularly relevant now, given the state's high unemployment and poverty rates, and its reputation as one of the least business-friendly states in the U.S. Helden's policy proposals, including his tax plan, are aimed at addressing these issues by reducing the financial burden on working-class individuals and promoting a more favorable business environment.",
+    "key_takeaways_detailed": [
+      "Helden's background as a child of immigrants and his experience in British politics provide a unique perspective on California's economic and political challenges.",
+      "His tax plan is designed to alleviate the financial burden on the working class and stimulate economic growth by making California more attractive to businesses.",
+      "Helden's focus on affordable housing and energy costs is a direct response to the high cost of living in California, which is a significant factor in the state's poverty rate.",
+      "His policy proposals could have significant implications for businesses and investors in California, potentially leading to a more business-friendly environment and economic growth."
+    ],
+    "investment_thesis": "If Steve Helden's policy proposals gain traction and are implemented, we could see an improvement in California's business climate, leading to increased investment and economic growth. The timeframe for this thesis is medium to long-term, as policy changes and their effects on the economy can take time to materialize. For this thesis to be valid, Helden's policies would need to be adopted, and there would need to be evidence of a positive impact on the state's economic indicators.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple, being a major employer and investor in California, could benefit from a more business-friendly environment and reduced regulatory burdens.",
+        "positioning": "A long position in AAPL could be strategic, as the company may experience increased profitability and growth if Helden's policies are implemented.",
+        "risk": "Key risks include the potential for policy proposals to stall or be watered down, and the possibility of increased competition if the business environment improves for all companies."
+      },
+      "TSLA": {
+        "rationale": "Tesla, with its significant operations in California, could benefit from lower energy costs and a more favorable regulatory environment.",
+        "positioning": "A long position in TSLA could be tactical, as the company may see short-term gains from policy changes.",
+        "risk": "The risk of policy changes not being implemented or having a slower impact than anticipated could affect Tesla's growth prospects."
+      },
+      "GOOGL": {
+        "rationale": "Google's parent company Alphabet could benefit from a more business-friendly climate, particularly in terms of reduced regulatory burdens.",
+        "positioning": "A long position in GOOGL could be strategic, as the company may experience long-term growth if the business environment improves.",
+        "risk": "The risk of increased competition and the potential for policy changes to not have the desired effect could impact Alphabet's performance."
+      }
+    },
+    "positioning_guidance": "Investors should consider a medium to long-term investment horizon when positioning in these tickers, as the impact of policy changes may take time to materialize. Diversification across these companies can help mitigate risks associated with individual company performance.",
+    "risk_factors": [
+      "The possibility that policy changes may not be implemented or may be delayed.",
+      "The risk of increased competition if the business environment improves for all companies.",
+      "Potential backlash or resistance to policy changes from special interest groups or the public."
+    ],
+    "contrarian_signals": [
+      "A significant increase in California's business climate ranking, suggesting that current policies are already improving the state's economic situation.",
+      "A decrease in the number of Californians who cannot afford to meet basic needs, indicating that current policies are effectively addressing economic challenges.",
+      "A shift in public opinion against economic freedom and reduced regulatory burdens, which could hinder the adoption of Helden's policy proposals."
+    ],
+    "catalysts": [
+      "The upcoming gubernatorial election in California, which could serve as a catalyst for policy changes if Helden is successful.",
+      "Economic indicators such as unemployment and poverty rates, which could provide evidence of the effectiveness of current or proposed policies.",
+      "Policy announcements or legislative actions that could signal a shift towards a more business-friendly environment in California."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-30T05:04:36.879222",
+    "updated_at": "2026-04-30 10:04:36",
+    "episode_evidence": "Steve Helden, a Republican candidate for California's governorship, emphasizes his unique background as a British immigrant and child of refugees from communism, which shapes his political views. He recalls his stepfather's escape from Hungary during the Soviet invasion, highlighting the value of freedom and opportunity: 'They heard on the radio, the Russians are coming... And they just ran. They literally ran for this right.' Helden's tax plan, which includes no state income taxes for those earning under $100,000 and a 7.5% flat tax for everyone else, is grounded in his belief that California's high taxes and overregulation are stifling economic growth, similar to the UK in the 1970s: 'You've got the state with the highest unemployment rate in the country and the highest poverty rate in the country... over a third of California's cannot afford to meet basic needs.'",
+    "falsification_tracks": [
+      "A sustained decrease in California's unemployment rate and poverty levels that can be attributed to policy changes, which would challenge Helden's assertion that the state's economic situation is dire.",
+      "An increase in California's business climate ranking by Chief Executive magazine, suggesting that the state's tax and regulatory environment is becoming more business-friendly, contrary to Helden's claims.",
+      "A significant drop in the number of Californians who cannot afford to meet basic needs, indicating that current policies are effectively addressing economic challenges."
+    ],
+    "insight_title": "CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-04-29",
+    "key_tickers": []
+  },
+  "201": {
+    "id": 192,
+    "insight_id": 201,
+    "podcast_episode_id": 186,
+    "overview": "The debate around AI model architecture and training efficiency is critical in the current technological landscape, as it directly impacts the performance, cost, and scalability of AI applications. The discussion with Reiner Pope sheds light on the technical mechanisms that drive AI progress, such as the role of batch size in training and inference, and the economic implications of these technical choices. Understanding these nuances is essential for investors looking to capitalize on advancements in AI technology.",
+    "key_takeaways_detailed": [
+      "Batch size optimization can significantly reduce the cost and latency of AI operations, making it a critical factor for companies looking to improve their AI offerings.",
+      "Roofline analysis provides a framework for understanding the balance between memory bandwidth and compute performance, which is essential for optimizing AI model architecture.",
+      "Investors should monitor advancements in AI hardware and model architectures that could disrupt the current reliance on batch size for efficiency.",
+      "The potential for sparse attention mechanisms to change the dynamics of memory usage in AI models presents an opportunity for companies that can leverage this technology."
+    ],
+    "investment_thesis": "Investing in companies that are at the forefront of optimizing AI model architecture and training processes, particularly those that can effectively manage batch size and leverage advancements in memory and compute, is likely to yield significant performance improvements and cost savings. This thesis is based on the understanding that as AI becomes more integrated into various industries, the demand for efficient and cost-effective AI solutions will increase, favoring companies that can deliver these through technological innovation.",
+    "ticker_analysis": {
+      "GOOGL": {
+        "rationale": "Google, with its deep expertise in AI and machine learning, is well-positioned to leverage advancements in model architecture and training efficiency.",
+        "positioning": "Strategic long position, as Google's continued investment in AI R&D is likely to yield dividends in the form of improved performance and cost savings.",
+        "risk": "The risk of Google not being able to commercialize AI advancements effectively or losing ground to competitors in the AI space."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA's GPUs are critical for the training and inference of AI models, making the company a key beneficiary of advancements in AI model architecture.",
+        "positioning": "Tactical long position, as NVIDIA's products are in high demand for AI applications, but the company may face competition from specialized AI hardware.",
+        "risk": "The risk of technological obsolescence if new types of hardware become more efficient for AI tasks."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's Azure cloud platform offers AI services and is investing heavily in AI research, making it a player in the optimization of AI model architecture.",
+        "positioning": "Strategic long position, as Microsoft's cloud services are integral to the enterprise adoption of AI, and improvements in AI efficiency can attract more customers.",
+        "risk": "The risk of Microsoft not being able to keep up with the pace of innovation in the competitive cloud and AI market."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio that includes companies with strong AI R&D capabilities, as well as those that provide the hardware necessary for AI operations. A long-term investment horizon is advised, as the full benefits of AI optimization may take time to materialize.",
+    "risk_factors": [
+      "The risk of technological stagnation if advancements in AI model architecture plateau.",
+      "The potential for regulatory hurdles that could slow down the deployment of AI technologies.",
+      "The risk of increased competition leading to price wars and reduced profitability in the AI space."
+    ],
+    "contrarian_signals": [
+      "A significant number of companies adopting a wait-and-see approach to AI optimization, which could slow down the pace of innovation.",
+      "A shift in focus towards AI ethics and bias mitigation, potentially slowing down the adoption of new AI technologies.",
+      "A potential overemphasis on AI that leads to underinvestment in other critical areas of technology."
+    ],
+    "catalysts": [
+      "The release of new AI models that demonstrate significant improvements in efficiency and performance.",
+      "Breakthroughs in AI hardware that enable faster training and inference.",
+      "Regulatory approvals or guidelines that encourage the adoption of AI technologies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-30T05:05:02.038605",
+    "updated_at": "2026-04-30 10:05:02",
+    "episode_evidence": "In the podcast, Reiner Pope, CEO of Maddox, discusses the intricacies of AI model architecture and training with a focus on batch size and its impact on AI performance and cost. He states, 'the big effect is batch size,' highlighting its importance in optimizing AI training and inference. Pope explains that not batching users together can lead to costs that are '1,000 times worse' than when batching is used, underlining the economic benefits of efficient batch processing. He also introduces the concept of roofline analysis, which considers 'memory bandwidth and compute performance' to estimate the time it takes to run an inference on a model. This analysis is crucial for understanding the balance between memory and compute in AI operations. Furthermore, Pope delves into the technical aspects of model operation, mentioning the time it takes to 'operate on the whites' and 'operate on the context of the KG cache,' which are key factors in the model's performance.",
+    "falsification_tracks": [
+      "Should new research emerge that demonstrates a significant reduction in the cost or latency benefits of batching, it would challenge the current understanding of AI optimization.",
+      "A shift in AI model architecture that negates the importance of batch size, such as the widespread adoption of sparse attention mechanisms, would alter the current investment thesis.",
+      "If hardware advancements lead to a significant increase in memory bandwidth, making memory-bound operations less of a constraint, the current model of optimizing for batch size could become less relevant."
+    ],
+    "insight_title": "Reiner Pope \u2013 The math behind how LLMs are trained and served",
+    "source_name": "Dwarkesh Podcast",
+    "source_date": "2026-04-29",
+    "key_tickers": []
+  },
+  "202": {
+    "id": 193,
+    "insight_id": 202,
+    "podcast_episode_id": 185,
+    "overview": "The debate centers on how to effectively identify and invest in top thematic risk-takers within the hedge fund industry, particularly focusing on AI CapEx. The conversation with Kieran Kavanaugh reveals insights into the strategies used at Soros Fund Management and how these can be applied to Old Farm Partners. The current market dynamics, with a heightened focus on AI CapEx, underscore the urgency and relevance of understanding how allocators like Kavanaugh source and diligence managers to capture high returns.",
+    "key_takeaways_detailed": [
+      "Kavanaugh's experience at Soros Fund Management provided a unique perspective on allocating to external managers, focusing on finding alpha generators that complement in-house expertise.",
+      "The co-investment strategy with hedge funds, as learned from Scott Beston, is a key mechanism for Old Farm Partners to capture high returns in the public market.",
+      "Manager due diligence involves a deep understanding of a manager's ability to predict market trends and generate alpha, beyond just historical performance.",
+      "Kavanaugh's approach to sourcing managers emphasizes pattern recognition and the ability to identify those who can consistently foresee and capitalize on market shifts."
+    ],
+    "investment_thesis": "The core logic is that investing in AI CapEx, through a co-investment strategy with hedge funds, can yield high returns. The timeframe is immediate to medium-term, focusing on the current market cycle. For this thesis to hold, the AI CapEx market must continue to offer robust investment opportunities, and the hedge funds selected for co-investment must demonstrate consistent alpha generation and thematic risk-taking abilities.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investments in AI and its CapEx make it a relevant company to monitor for insights into the health and direction of the AI CapEx market.",
+        "positioning": "A strategic long position in AAPL could be considered, given its leadership in tech and potential to benefit from the ongoing AI boom.",
+        "risk": "Key risks include a slowdown in consumer tech spending, increased competition in the AI space, and potential supply chain disruptions affecting Apple's ability to execute on its CapEx plans."
+      }
+    },
+    "positioning_guidance": "Investors should consider a medium to long-term investment horizon, with a focus on companies and funds that have a proven track record in AI CapEx. Diversification across different segments of the AI market can help mitigate risks associated with individual companies or funds.",
+    "risk_factors": [
+      "A significant market downturn could reduce the appetite for risk-taking in AI CapEx.",
+      "Regulatory changes affecting the tech industry could impact the growth and profitability of AI investments.",
+      "Technological disruptions or shifts in AI technology could render current investments obsolete."
+    ],
+    "contrarian_signals": [
+      "A shift in market sentiment away from tech and towards more traditional sectors could indicate a contrarian opportunity in AI CapEx.",
+      "Low valuations in certain AI-related stocks, despite strong fundamentals, could signal a market underestimation of the potential for AI growth."
+    ],
+    "catalysts": [
+      "Announcements of new AI technology breakthroughs or significant investments by major tech companies.",
+      "Economic reports indicating a strong recovery or growth, which could boost investor confidence in tech and AI investments.",
+      "Regulatory decisions that either support or hinder the development and deployment of AI technologies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-30T05:05:24.771949",
+    "updated_at": "2026-04-30 10:05:24",
+    "episode_evidence": "Kieran Kavanaugh, founder and CIO of Old Farm Partners, emphasizes the importance of identifying 'great alpha generators' during his tenure at Soros Fund Management, where he worked under Scott Beston. 'They're just looking for great alpha generators that they may not have inside,' he said. Kavanaugh's strategy involves co-investing with hedge funds, which he found to be successful. He also highlighted the importance of intellectual curiosity and the pursuit in the public market, noting that 'the intellectually curious love doing these co-invest in the public market.' Furthermore, Kavanaugh stressed the significance of pattern recognition in identifying top thematic risk-takers, stating, 'And that pattern thing is the whole deal. That's the guy who figures it out no matter what comes.'",
+    "falsification_tracks": [
+      "A significant downturn in the AI CapEx market that lasts for more than one quarter would challenge the current investment focus.",
+      "If the hedge funds that Old Farm Partners co-invests with consistently underperform their benchmarks over a year, the co-investment strategy's effectiveness would be questioned.",
+      "A lack of new AI-related investment opportunities that meet Kavanaugh's criteria could indicate market saturation or a shift in tech trends."
+    ],
+    "insight_title": "From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-04-29",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 2689,
+    "id": 2724,
+    "name": "From Soros to Old Farm",
+    "slug": "from-soros-to-old-farm",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in AI CapEx is currently the main focus, with co-investments in hedge funds providing a successful strategy for capturing high returns.",
+    "last_episode_title": "From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-29",
+    "appearance_count": 1
+  },
+  {
+    "id": 2725,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -18682,7 +19000,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2690,
+    "id": 2726,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -18694,7 +19012,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2691,
+    "id": 2727,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -18706,7 +19024,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2692,
+    "id": 2728,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -18718,7 +19036,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2693,
+    "id": 2729,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -18730,7 +19048,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2694,
+    "id": 2730,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -18742,7 +19060,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2695,
+    "id": 2731,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -18754,7 +19072,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2696,
+    "id": 2732,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -18766,7 +19084,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2697,
+    "id": 2733,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -18778,7 +19096,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2698,
+    "id": 2734,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -18790,7 +19108,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2699,
+    "id": 2735,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -18802,7 +19120,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2700,
+    "id": 2736,
     "name": "Building Agents at Home",
     "slug": "building-agents-at-home",
     "bio": null,
@@ -18814,7 +19132,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2701,
+    "id": 2737,
     "name": "\"The Best Time to Invest\"",
     "slug": "the-best-time-to-invest",
     "bio": null,
@@ -18826,7 +19144,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2702,
+    "id": 2738,
     "name": "Governor Josh Shapiro of Pennsylvania",
     "slug": "governor-josh-shapiro-of-pennsylvania",
     "bio": null,
@@ -18838,7 +19156,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2703,
+    "id": 2739,
     "name": "Box CEO Aaron Levie",
     "slug": "box-ceo-aaron-levie",
     "bio": null,
@@ -18850,7 +19168,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2704,
+    "id": 2740,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -18862,7 +19180,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2705,
+    "id": 2741,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -18874,7 +19192,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2706,
+    "id": 2742,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -18886,7 +19204,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2707,
+    "id": 2743,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -18895,18 +19213,6 @@ const dashboardData = {
     "last_episode_title": "When the Music Stops: Why Bitcoin is Next",
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-03-24",
-    "appearance_count": 1
-  },
-  {
-    "id": 2708,
-    "name": "Ground Infrastructure",
-    "slug": "ground-infrastructure",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
-    "last_episode_title": "Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-23",
     "appearance_count": 1
   }
 ],
@@ -18988,7 +19294,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-27",
     "mention_score": 5,
-    "mention_score_decayed": 4.89,
+    "mention_score_decayed": 4.77,
     "last_main_idea": "Invest in startups that are addressing real problems and have the potential for significant growth, while considering the evolving landscape of venture capital and the impact of AI on various industries.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-27 \u2022 Ben Horowitz on Venture Capital and AI",
     "last_proof_snippet": "If you share a control, it becomes very, very difficult to change the organization, because everybody's got to agree. I quoted a little line, I said, but I see another VC coming at me with the PCI and all I see is the trigger and the middle",
@@ -19056,7 +19362,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-15",
     "mention_score": 4,
-    "mention_score_decayed": 2.96,
+    "mention_score_decayed": 2.89,
     "last_main_idea": "Nvidia's role in the transformation of electrons to valuable tokens and the acceleration of computing tasks positions it well in the AI and broader technology market.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-15 \u2022 Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
     "last_proof_snippet": "We've seen the valuations of a bunch of software companies crash because people are expecting AI to come out of tight software And there's a potentially naive way of thinking about things which is like look in VDS ends GDS 2 file to TSMC TS",
@@ -19121,7 +19427,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-21",
     "mention_score": 3,
-    "mention_score_decayed": 2.55,
+    "mention_score_decayed": 2.49,
     "last_main_idea": "Investing in media and understanding its evolution is crucial as it shapes societal behavior, influences politics, and impacts decision-making processes.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-21 \u2022 Marc Andreessen: Monitoring the Situation and the Future of Media",
     "last_proof_snippet": "If an alien invasion happens later this afternoon, it will be turned into a social media meme, and it will go viral. If you track like how distributed as media versus how centralized is media, like centralized media sort of peaked summer ar",
@@ -19401,7 +19707,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-19 \u2022 MacroVoices-2026-03-19-Simon-White",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -19461,7 +19767,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-02",
     "mention_score": 2,
-    "mention_score_decayed": 1.1,
+    "mention_score_decayed": 1.07,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
     "last_proof_snippet": "This is Macrovoisans, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisans is all about the brightest minds in the world of finance an",
@@ -19488,7 +19794,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-09",
     "mention_score": 2,
-    "mention_score_decayed": 1.29,
+    "mention_score_decayed": 1.26,
     "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-09 \u2022 MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -19556,7 +19862,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-10",
     "mention_score": 2,
-    "mention_score_decayed": 1.32,
+    "mention_score_decayed": 1.29,
     "last_main_idea": "Invest in AI companies that are leading the charge in enterprise adoption, as they are positioned to benefit from the exponential growth in revenue and the shift towards labor augmentation and replacement.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-10 \u2022 Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
     "last_proof_snippet": "How many PRs you think are going to get pushed to the core structural internet in 100 days? What's the over under number? Because I'll give you a number. You're going to say zero. My answer to that is I'll say like 10,000. But it's going to",
@@ -19617,7 +19923,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-17",
     "mention_score": 2,
-    "mention_score_decayed": 1.62,
+    "mention_score_decayed": 1.59,
     "last_main_idea": "The investment thesis presented revolves around the potential negative impacts of new real estate taxes on luxury property demand and the growing controversy and potential regulation surrounding data centers, which could affect technology and real estate investments.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-17 \u2022 OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out",
     "last_proof_snippet": "All right, everybody. Welcome back to the number one podcast in the world. We've got the core for here and terror, I say the king of atoms. The king of atoms. Yes. Captain Travis Kalinicus here. How are you doing, brother? I'm pretty good.",
@@ -19678,7 +19984,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-24",
     "mention_score": 2,
-    "mention_score_decayed": 1.82,
+    "mention_score_decayed": 1.78,
     "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
     "last_proof_snippet": "So the board goes to CEO, what does the board say? We need more AI. And what does the CEO say? Oh, OK, I will get like a consultant to do more AI. And then they have some centralized project that nobody knows how it works. They haven't alig",
@@ -19744,7 +20050,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-24",
     "mention_score": 2,
-    "mention_score_decayed": 1.82,
+    "mention_score_decayed": 1.78,
     "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
     "last_proof_snippet": "So the board goes to CEO, what does the board say? We need more AI. And what does the CEO say? Oh, OK, I will get like a consultant to do more AI. And then they have some centralized project that nobody knows how it works. They haven't alig",
@@ -19804,7 +20110,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-28",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "Investing in longevity and healthspan technologies and therapies offers significant growth potential as scientific advancements continue to extend human lifespan and improve quality of life.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-28 \u2022 David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
     "last_proof_snippet": "There's a lot to say about GLP1s. More and more data is coming out showing benefits to the heart, the brain, beyond just weight loss. There is one downside that I need to point out, besides what's known about risks. We are working with comp",
@@ -20141,7 +20447,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-13 \u2022 Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
     "last_proof_snippet": "All right, everybody. Welcome back to the number one podcast in the world. Free birds out saving the world, creating new potatoes or I don't know, Kim Wa. Maybe some Brussels sprouts. I'm not sure what he's working on at this point in his p",
@@ -20168,7 +20474,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Invest in platinum as a hybrid precious and industrial metal with potential for growth outside of traditional economic cycles, and consider the impact of AI on productivity and government deficits on interest rates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-15 \u2022 Monetary Matters with Jack Farley: Precious Metals, Bonds, and Economic Cycles",
     "last_proof_snippet": "Join today by Alex Gorovich, founder and chief investment officer at Hauntay Asset Management and author of the second edition of the next perfect trade, the Magic Sword of Necessity. Alex, great to talk to you today. We haven't spoken in a",
@@ -20195,7 +20501,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Invest in technology-driven businesses with a strong founder's mindset that focus on building and scaling rather than introspection, as they are more likely to shape the future and create significant value.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-15 \u2022 The Intersection of Technology, Entrepreneurship, and the Future",
     "last_proof_snippet": "We just have this fundamental view. The technology is like on balance in an armistly powerful force in the world. And the big problem with the world is that there's not enough technology. There's not enough information. There's not enough i",
@@ -20792,7 +21098,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "last_proof_cite": "The a16z Show \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
     "last_proof_snippet": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. If you were starting from scratch today,",
@@ -20854,7 +21160,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_proof_snippet": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229 00:00:00 I am blown away by how far you've come. The things that you can do with Neural Nets now does completely",
@@ -20918,7 +21224,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-20 \u2022 The Impact of AI on Mathematics and Scientific Discovery",
     "last_proof_snippet": "Okay, today, I'm chatting with Terrence Tau, who needs an interaction. Terrence, I want to begin by having you retell the story of how Kepler discovered the laws of planetary motion, because I think this will be a great jumping off point to",
@@ -20975,7 +21281,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-23 \u2022 California's Spending Woes and the Governor's Race",
     "last_proof_snippet": "Matt Mayhand, welcome to all in. Thanks, David. I have no idea who you are. Who are you? I mean, you're a guy who kind of popped up running for Governor of California last minute. Have that come about and who is Matt Mayhand? Well, David, l",
@@ -21039,7 +21345,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-22 \u2022 Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
     "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. I am joined by Josh Lindville, Vice President of Fertilizer at Stone X. Josh, welcome to monetary matters. Nice. They just have me on, excited",
@@ -21097,7 +21403,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-23 \u2022 Monetary Matters: Middle East Crisis and Global Market Impact",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream Cornfond Ticker C.O.R.N. Let's get into it. Welcome to this special edition of Other People's Money. I am joined today by Nadia Martin Wiggen, director at Svellen Capital. I've had Svellen",
@@ -21160,7 +21466,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-23 \u2022 Interview with Michael Intrader at Nvidia's GTC Conference",
     "last_proof_snippet": "I'm here at Nvidia's annual GTC conference, and I'm going to interview for amazing AI CEO's stick with us. I'm doing all of you! Our episode is sponsored by the New York Stock Exchange. Are you looking to change the world in race capital? D",
@@ -21221,7 +21527,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-23 \u2022 Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
     "last_proof_snippet": "Every satellite requires a connection point back to birth. If you don't have it, you don't have a space mesh. It literally is just like a rock in space. You just won a $50 million contract with space forest out modernized. It Northwood, you",
@@ -21281,7 +21587,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-24 \u2022 The Future of AI and its Impact on Society and Investment",
     "last_proof_snippet": "We're living through a historic moment right now. The next thing that's really interesting and terrifying also is recursive self-improvement, but we don't have it yet. What we do have, I keep asking my friends, when does the asymptote arriv",
@@ -21349,7 +21655,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
     "last_proof_snippet": "All the things we want to do is really about the soldier. In the mud, cold, wet, tired, hungry, what makes their lives easier or better. Your average soldier today, they're drawing just by themselves. 30 to 60 watts of power continuously du",
@@ -21409,7 +21715,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
     "last_proof_snippet": "All the things we want to do is really about the soldier. In the mud, cold, wet, tired, hungry, what makes their lives easier or better. Your average soldier today, they're drawing just by themselves. 30 to 60 watts of power continuously du",
@@ -21473,7 +21779,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-26 \u2022 Exploring Psychedelics for Longevity and Personal Growth",
     "last_proof_snippet": "Brian Johnson, thanks for being here. Yeah, it's good to see you. How are you feeling? Maybe just share with us what you did a few days ago. Yeah, I did a I did five MEO DMT, which is the most powerful psychedelic on the planet. Some are be",
@@ -21533,7 +21839,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The real advantage that submarines bring is our stealth and access. We can pretty much go anywhere in the world undetected. We can carry nuclear missiles on our ballistic missile submarines, and that ensures that we continue our decades of",
@@ -21593,7 +21899,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The real advantage that submarines bring is our stealth and access. We can pretty much go anywhere in the world undetected. We can carry nuclear missiles on our ballistic missile submarines, and that ensures that we continue our decades of",
@@ -21959,7 +22265,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-27 \u2022 Lessons from SpaceX and Tesla: Building for the Physical Economy",
     "last_proof_snippet": "I interned at SpaceX four times. I couldn't leave. Like, it was the dream. I spent about a decade at Tesla and got to run around the batteries by chain. Chandler Lujica is the CEO of Gallaudet. I, next generation, Missile Propulsion, Turner",
@@ -22024,7 +22330,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-27 \u2022 Lessons from SpaceX and Tesla: Building for the Physical Economy",
     "last_proof_snippet": "I interned at SpaceX four times. I couldn't leave. Like, it was the dream. I spent about a decade at Tesla and got to run around the batteries by chain. Chandler Lujica is the CEO of Gallaudet. I, next generation, Missile Propulsion, Turner",
@@ -22089,7 +22395,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-27 \u2022 Investing in Sovereign Credit with Lupin Ramon",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited HFGM global macro ETF ticker HFGM. Later in the show, you'll hear more about HFGM currently the number one morning star rated funds sits its inception in the US macro trading category. Let'",
@@ -22400,7 +22706,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-29 \u2022 The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
     "last_proof_snippet": "Today's episode is brought you by Pictay asset management and their AI enhanced ETF range, ticker PQNT and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. I'm joine",
@@ -22461,7 +22767,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-31 \u2022 The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
     "last_proof_snippet": "Today's episode is brought to you by Peak Day Asset Management and their AI enhanced ETF range, ticker's PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. We",
@@ -22525,7 +22831,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
     "last_proof_snippet": "The grid is breaking. We're so bottleneck today on the lines that run Chris Cross across the country. I mean, it's this very complicated giant organic machine. New power is not the problem. Delivery is the problem. The energy services we're",
@@ -22586,7 +22892,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
     "last_proof_snippet": "The grid is breaking. We're so bottleneck today on the lines that run Chris Cross across the country. I mean, it's this very complicated giant organic machine. New power is not the problem. Delivery is the problem. The energy services we're",
@@ -22651,7 +22957,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-31 \u2022 Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
     "last_proof_snippet": "The Robotaxi race is heating up. How are you going to win that race? Well, when you joined taking the mental Uber, I think Uber was losing $4.5 billion a year. Today it's earning over $10 billion a year. You really focused the organization.",
@@ -22836,7 +23142,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
     "last_proof_snippet": "This is Macrovoisans, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisans is all about the brightest minds in the world of finance an",
@@ -22896,7 +23202,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
     "last_proof_snippet": "How do you prove somebody's human? It is as surprising to her problem. I think that people are going to start getting used to being bots. But we currently see less than 1% of what it will look like in probably a year. The idea that AGI will",
@@ -22956,7 +23262,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
     "last_proof_snippet": "How do you prove somebody's human? It is as surprising to her problem. I think that people are going to start getting used to being bots. But we currently see less than 1% of what it will look like in probably a year. The idea that AGI will",
@@ -23081,7 +23387,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Investing in companies that leverage coding agents could offer significant productivity gains and reshape the software development landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-06 \u2022 Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
     "last_proof_snippet": "Interesting set software with the world. I feel like coding what eat all knowledge work, right? And we kind of going to the restaurant already, the whole agent stack is emerging. Yeah. Identity, payments, marketing, even CLI versus MCP, lik",
@@ -23144,7 +23450,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-06 \u2022 The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
     "last_proof_snippet": "Trace Steven, Sean Sankar, welcome to the all-in-podcast at the Hillin Valley Forum. Thank you guys for being here. What's up? How are you guys doing? You're having us. You're great. Okay. Did it be here too? You guys are friends. Right? Yo",
@@ -23204,7 +23510,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-06 \u2022 The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
     "last_proof_snippet": "Trace Steven, Sean Sankar, welcome to the all-in-podcast at the Hillin Valley Forum. Thank you guys for being here. What's up? How are you guys doing? You're having us. You're great. Okay. Did it be here too? You guys are friends. Right? Yo",
@@ -23326,7 +23632,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-07 \u2022 How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
     "last_proof_snippet": "The idea bring back the willy mammoth had been around for a long time. You jump in, take the mantle of CEO. I don't know if you were expecting to do that. I was going to fund it at the side project at first, but then I thought it was just r",
@@ -23390,7 +23696,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-07 \u2022 Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
     "last_proof_snippet": "Today's episode is brought to you by Peak Day Asset Management and their AI enhanced ETF range, ticker's PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. He",
@@ -23450,7 +23756,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-07 \u2022 Michael Nielsen \u2013 How science actually progresses",
     "last_proof_snippet": "Today, I'm speaking with Michael Nielsen. You've done many things. You're one of the pioneers of chronic computing, wrote the main textbook in the field of the open science movement. You're at a book about people learning that Chris Ola and",
@@ -23511,7 +23817,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in Pennsylvania due to its pro-growth policies, job creation, and improved business climate.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-08 \u2022 Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
     "last_proof_snippet": "All right, everybody. We've got an incredible guest today, Governor Josh Shapiro is here, obviously Governor of Pennsylvania. He's got Records setting popularity in Pennsylvania right now 60% approval at least he's a moderate. He's focused",
@@ -23770,7 +24076,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-09 \u2022 MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -23834,7 +24140,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in software companies that define the market, focusing on backing scale-ready leaders, providing liquidity to early investors, and helping companies make strategic decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-09 \u2022 \"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
     "last_proof_snippet": "Today's episode is brought to you by PeakTay asset management and their AI enhanced ETF range, ticker's PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. Wel",
@@ -23967,7 +24273,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-11 \u2022 SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
     "last_proof_snippet": "SpaceX is going public with a $2 trillion valuation. It's the beginning of the IPO wars. The stepping stones are really, really clear now. Starlink gets you into space profitably, then the data centers, then you get to the moon, refueling i",
@@ -24029,7 +24335,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-11 \u2022 SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
     "last_proof_snippet": "SpaceX is going public with a $2 trillion valuation. It's the beginning of the IPO wars. The stepping stones are really, really clear now. Starlink gets you into space profitably, then the data centers, then you get to the moon, refueling i",
@@ -24338,7 +24644,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Investing in HFGM global macro ETF, which is highly rated by Morningstar, may offer exposure to macroeconomic trends and government policies affecting financial markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-15 \u2022 Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited HFGM global macro ETF ticker HFGM. Later in the show, you'll hear more about HFGM currently the number one morning star rated funds it's its inception in the U.S. macro trading category. Le",
@@ -24655,7 +24961,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "The rapid advancement of AI and consumer tech is creating new opportunities and challenges for venture capital, with a focus on the need for universal basic purpose and the potential for AI to disrupt traditional job markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-19 \u2022 Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
     "last_proof_snippet": "Yeah, idea guys are sort of having a moment. In fact, it's funny, like I'm like looking for new ideas to work on. You know, in the old days, somebody would give you their app idea and you be like, oh, here we go again. And now I'm like, coo",
@@ -24721,7 +25027,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Invest in software companies that can adapt to AI disruption and emerge stronger, with the potential for significant upside in the next 12 months.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-19 \u2022 Navigating the SaaS Apocalypse: Why AI Disruption is Mispriced | Deiya Pernas | Pernas Research",
     "last_proof_snippet": "for sask up is absolutely right. They have not shown at all the scares and fundamentals that reflect any sort of the perceived beers that you're talking about. What the market is overlooking is that most of these sask companies have the DNA",
@@ -24781,7 +25087,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Invest in companies at the forefront of AI development and application, as they are poised to shape the future of work, management, and the economy.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-18 \u2022 Sam Altman\u2019s Attack, Amazon vs. Starlink, and What Opus 4.7 Actually Means | #248",
     "last_proof_snippet": "A 20-year-old Texan through a Maltaf cocktail at Sam Alman San Francisco House. Suspect was on something called the Official Pause AI Discord server list. The state of Maine passed the first ever statewide data center ban in the United Stat",
@@ -24844,7 +25150,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investing in the evolution of software development tools that cater to the needs of both human developers and AI coding agents presents an opportunity for significant growth and innovation.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-20 \u2022 Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
     "last_proof_snippet": "If you ask almost any software developer, when you do code review, do really read the whole PR. Like, do you go through every line and think it through? Do you pull it down and test it out and then leave the good feedback on each line? Agen",
@@ -25035,7 +25341,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in companies and technologies that are at the forefront of AI development and data center infrastructure, as these will be key drivers of growth and power in the coming years.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-23 \u2022 Iran's AI Supply Chain Threat, Claude vs. SaaS, and Elon's $60B Cursor Bet | EP #249",
     "last_proof_snippet": "Having this global geopolitical dependency on one narrow volatile geographic regions completely unacceptable. Just around war is not really just a moral shock. It's a system shock. TBD, whether you know what direction the US goes on that, i",
@@ -25096,7 +25402,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "The Iran conflict and energy market disruptions present opportunities in commodities, particularly in the context of extreme backwardation and supply constraints, which could drive further price increases and investment returns.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-23 \u2022 MacroVoices #529 Ole S Hansen: Commodities in The Wake of The Iran Crisis",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -25158,7 +25464,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in AI, hardware, and pharma presents significant opportunities due to the large market cap potential and the need for innovation in computing.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-23 \u2022 Martin Shkreli on AI, Pharma, and What Actually Matters",
     "last_proof_snippet": "There were two richest guys in the world don't just drop 400 million on a single deal. The biggest VC is maybe, that's still like a lot. So like how this guy showed up with 400 million to drop, so there's $10 trillion with their include all",
@@ -25222,7 +25528,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in AI and data center infrastructure companies that benefit from a supportive regulatory environment and government-backed scientific research.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-24 \u2022 SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
     "last_proof_snippet": "Jason, you are the unique person that is at the intersection of both the And the SPLC files. Do you have a comment? Yes, yes, you are you are just in the SPLC adjacent and you're What does that mean in the Venn diagram? Thank you. Oh, putti",
@@ -25280,7 +25586,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
     "last_proof_snippet": "So the board goes to CEO, what does the board say? We need more AI. And what does the CEO say? Oh, OK, I will get like a consultant to do more AI. And then they have some centralized project that nobody knows how it works. They haven't alig",
@@ -25343,7 +25649,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in syndicated loans through BDCs like Palmer Square's offers a less risky asset class with greater transparency and historical performance, making it an attractive option in the current market environment.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-26 \u2022 \u201cOverblown\u201d Sell-off in Software Loans | Matthew Bloomfield on Public BDCs (Business Development Companies) and Collateralized Loan Obligations (CLOs)",
     "last_proof_snippet": "Today's episode is brought to you by Kaya NXT. Later, the show, you'll hear more about how you can take the next step for your clients with Kaya NXT's Alternatives Education courses. But for now, let's get into today's interview. Very pleas",
@@ -25457,8 +25763,8 @@ const dashboardData = {
     "id": 213,
     "name": "Kremio Rekuei",
     "slug": "kremio-rekuei",
-    "bio": "Independent researcher with interests in genetics, metrics, and demographics.",
-    "known_for": "Expertise in clinical trials and drug development.",
+    "bio": "Kremio Rekuei is an independent researcher with a focus on genetics, metrics, and demographics. His expertise lies in clinical trials and drug development, where he has been vocal about the impact of market size on the quality and efficiency of trials, particularly comparing the United States and China.",
+    "known_for": "His insights on the global dynamics of clinical trials and drug development, especially the shift in biomedical innovation from the US to China.",
     "net_worth_usd": 45000000.0,
     "net_worth_source": "https://en.wikipedia.org/wiki/Martin_Shkreli",
     "net_worth_updated_at": "2026-04-29T22:03:26.936789",
@@ -25477,9 +25783,231 @@ const dashboardData = {
     "last_proof_snippet": "America is 4% of the world's population. It's about 13% of all the drug buying, but it's also more than half of the sales in terms of dollar amounts. So it's huge. And this is a big advantage because like, you know, innovation does respond",
     "supporting_takeaway": "China's clinical trial system has rapidly expanded, with reforms that streamline the approval process.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null,
+    "grokipedia_fetched_at": "2026-04-30T05:04:00.590473",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Kremio Rekuei",
+      "fetched_at": "2026-04-30T10:04:00.590204+00:00",
+      "cliff_notes": "Kremio Rekuei has established himself as an independent researcher with a keen interest in the fields of genetics, metrics, and demographics. His work is particularly recognized for its focus on clinical trials and drug development. Rekuei has been a vocal commentator on the global landscape of pharmaceutical innovation, highlighting the shift in leadership from the United States to China. He emphasizes the influence of market size on the scale and quality of clinical trials, suggesting that larger markets like China's can conduct more extensive and potentially more accurate trials. This perspective is crucial for understanding the future of global health and the pharmaceutical industry, as it impacts both the development of new drugs and the allocation of resources in healthcare.",
+      "derived": {
+        "current_role": "Independent Researcher"
+      },
+      "infobox": {
+        "Nationality": "Unknown"
+      },
+      "lead_paragraphs": [
+        "Kremio Rekuei has established himself as an independent researcher with a keen interest in the fields of genetics, metrics, and demographics. His work is particularly recognized for its focus on clinical trials and drug development. Rekuei has been a vocal commentator on the global landscape of pharmaceutical innovation, highlighting the shift in leadership from the United States to China.",
+        "He emphasizes the influence of market size on the scale and quality of clinical trials, suggesting that larger markets like China's can conduct more extensive and potentially more accurate trials. This perspective is crucial for understanding the future of global health and the pharmaceutical industry, as it impacts both the development of new drugs and the allocation of resources in healthcare."
+      ],
+      "sections": [
+        {
+          "heading": "Clinical Trials",
+          "body": "Kremio Rekuei is known for his analysis of clinical trials, discussing the impact of market size on the scale and accuracy of trials, with a particular focus on the US and China."
+        },
+        {
+          "heading": "Drug Development",
+          "body": "His expertise in drug development is highlighted by his commentary on how the pharmaceutical industry is evolving, with a shift in innovation from the US to China."
+        },
+        {
+          "heading": "Market Influence",
+          "body": "Rekuei emphasizes the importance of market dynamics on the pharmaceutical industry, noting how larger markets can influence the development and distribution of drugs."
+        },
+        {
+          "heading": "Global Health",
+          "body": "His work contributes to the broader conversation on global health, as the shift in clinical trial leadership can have significant implications for worldwide healthcare."
+        }
+      ]
+    },
     "net_worth": "$45.0M"
+  },
+  {
+    "id": 215,
+    "name": "Keer Kavanaugh",
+    "slug": "keer-kavanaugh",
+    "bio": "Keer Kavanaugh is the founder and Chief Investment Officer of Old Farm Partners, a New York-based fund of funds, and the host of the Thematic Investors Podcast. He is known for his co-investment strategy with hedge funds and his experience at Soros Fund Management.",
+    "known_for": "His co-investment strategy with hedge funds and his experience at Soros Fund Management.",
+    "net_worth_usd": 28000000000.0,
+    "net_worth_source": "https://www.indmoney.com/us-stocks/george-soros",
+    "net_worth_updated_at": "2026-04-30T05:03:46.781887",
+    "voice_tone": "Confident and experienced.",
+    "voice_style": "Direct and informative, with a focus on strategy and risk assessment.",
+    "voice_delivery_notes": "Speaks with conviction and clarity, emphasizing key points about investment strategy.",
+    "voice_profile_updated_at": "2026-04-30 10:02:16",
+    "last_seen": "2026-04-30 10:02:16",
+    "last_episode_title": "From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-29",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI CapEx is currently the main focus, with co-investments in hedge funds providing a successful strategy for capturing high returns.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-29 \u2022 From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
+    "last_proof_snippet": "The famous quote that Beston said about once a week, which is make sure the main thing is the main thing. And right now, the main thing is AI CapEx. And I learned a lot from Beston. He really came up with a great strategy where we did co-in",
+    "supporting_takeaway": "Co-investing with hedge funds is a successful strategy Kavanaugh learned from Scott Beston at Soros Fund Management.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-30T05:03:38.471933",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Keer Kavanaugh",
+      "fetched_at": "2026-04-30T10:03:38.471764+00:00",
+      "cliff_notes": "Keer Kavanaugh is a seasoned investor with a focus on hedge funds and co-investment strategies. He is the founder and Chief Investment Officer of Old Farm Partners, a New York-based fund of funds. Kavanaugh's career has been marked by his innovative approach to investing, particularly in the area of co-investments with hedge funds. His experience at Soros Fund Management has further solidified his reputation in the investment community. Kavanaugh also hosts the Thematic Investors Podcast, where he discusses investment strategies and shares insights with his audience. His focus on AI CapEx and his pursuit of intellectually curious investors have made him a notable figure in the world of finance and technology.",
+      "derived": {
+        "current_role": "Founder and CIO of Old Farm Partners",
+        "former_positions": "Soros Fund Management"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Keer Kavanaugh is a seasoned investor with a focus on hedge funds and co-investment strategies. He is the founder and Chief Investment Officer of Old Farm Partners, a New York-based fund of funds. Kavanaugh's career has been marked by his innovative approach to investing, particularly in the area of co-investments with hedge funds.",
+        "His experience at Soros Fund Management has further solidified his reputation in the investment community. Kavanaugh also hosts the Thematic Investors Podcast, where he discusses investment strategies and shares insights with his audience. His focus on AI CapEx and his pursuit of intellectually curious investors have made him a notable figure in the world of finance and technology."
+      ],
+      "sections": [
+        {
+          "heading": "Co-Investment Strategy",
+          "body": "Keer Kavanaugh is known for his co-investment strategy with hedge funds, which has been a key part of his success in the investment world."
+        },
+        {
+          "heading": "Soros Fund Management",
+          "body": "Kavanaugh's experience at Soros Fund Management has played a significant role in shaping his investment philosophy and approach."
+        },
+        {
+          "heading": "AI CapEx",
+          "body": "Kavanaugh has been vocal about the importance of AI CapEx, stating that it is the 'main thing' in the current investment landscape."
+        },
+        {
+          "heading": "Thematic Investors Podcast",
+          "body": "As the host of the Thematic Investors Podcast, Kavanaugh shares his insights and discusses investment strategies with his audience."
+        }
+      ]
+    },
+    "net_worth": "$28.00B"
+  },
+  {
+    "id": 216,
+    "name": "Reiner Pope",
+    "slug": "reiner-pope",
+    "bio": "Reiner Pope is the CEO of Maddox, a new ship startup. He is known for his work on TPU architecture and contributions to AI model training and inference. Previously, he worked at Google, where he was involved in the development of TPU architecture.",
+    "known_for": "His work on TPU architecture and contributions to AI model training and inference.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Instructive and explanatory, with a focus on technical details.",
+    "voice_style": "Uses analogies and examples to clarify complex concepts.",
+    "voice_delivery_notes": "Speaks clearly and methodically, with pauses for emphasis.",
+    "voice_profile_updated_at": "2026-04-30 10:02:49",
+    "last_seen": "2026-04-30 10:02:49",
+    "last_episode_title": "Reiner Pope \u2013 The math behind how LLMs are trained and served",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-04-29",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in companies that optimize AI model architecture and training can lead to significant performance improvements and cost savings.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-29 \u2022 Reiner Pope \u2013 The math behind how LLMs are trained and served",
+    "last_proof_snippet": "Today, I'm interviewing Reiner Pope, who is CEO of Maddox, which is a new ship startup. Previously, he was doing TPU architecture and many other things at Google. This is a very different format for my usual interviews. This is going to be",
+    "supporting_takeaway": "Batch size significantly impacts latency and cost in AI systems.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-30T05:03:26.694995",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Reiner Pope",
+      "fetched_at": "2026-04-30T10:03:26.694796+00:00",
+      "cliff_notes": "Reiner Pope is a technology executive with a focus on AI and machine learning. He began his career at Google, where he worked on the development of TPU architecture, which played a significant role in advancing AI model training and inference. His expertise in this area has made him a sought-after figure in the tech industry. Pope later transitioned to his current role as CEO of Maddox, a new ship startup. His background in AI and technology has positioned him to lead innovative projects and contribute to the future of AI and machine learning.",
+      "derived": {
+        "current_role": "CEO of Maddox",
+        "former_positions": "TPU architect at Google"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Reiner Pope is a technology executive with a focus on AI and machine learning. He began his career at Google, where he worked on the development of TPU architecture, which played a significant role in advancing AI model training and inference. His expertise in this area has made him a sought-after figure in the tech industry.",
+        "Pope later transitioned to his current role as CEO of Maddox, a new ship startup. His background in AI and technology has positioned him to lead innovative projects and contribute to the future of AI and machine learning."
+      ],
+      "sections": [
+        {
+          "heading": "TPU Architecture",
+          "body": "Reiner Pope is known for his work on TPU architecture, which has significantly impacted AI model training and inference."
+        },
+        {
+          "heading": "AI Model Training and Inference",
+          "body": "Pope's contributions to AI model training and inference have been influential in the development of AI technology."
+        },
+        {
+          "heading": "Leadership at Maddox",
+          "body": "As CEO of Maddox, a new ship startup, Pope is leading innovative projects in the tech industry."
+        }
+      ]
+    }
+  },
+  {
+    "id": 217,
+    "name": "Steve Helden",
+    "slug": "steve-helden",
+    "bio": "Steve Helden is a British immigrant and Republican candidate for California governor with a background in business and politics. He has been recognized for his compelling personal story and policy proposals aimed at addressing California's economic and housing challenges.",
+    "known_for": "His policy proposals addressing California's economic and housing challenges, which are of interest to investors and tech listeners.",
+    "net_worth_usd": 10100000000.0,
+    "net_worth_source": "https://www.businessinsider.com/steve-cohen-net-worth-billionaire-house-real-estate-career-mets-2019-12",
+    "net_worth_updated_at": "2026-04-30T05:03:17.174117",
+    "voice_tone": "Candid and conversational.",
+    "voice_style": "Direct and focused on personal narrative and policy specifics.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key policy points.",
+    "voice_profile_updated_at": "2026-04-30 10:03:04",
+    "last_seen": "2026-04-30 10:03:05",
+    "last_episode_title": "CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-04-29",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Steve Helden's candidacy represents a potential shift in California's political landscape towards policies that promote economic freedom and reduced regulatory burdens, which could have implications for businesses and investors in the state.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-29 \u2022 CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
+    "last_proof_snippet": "All right, everybody, welcome back to the all-in-interview show. We're very lucky today to have a candidate for the governor of California who is extremely unique in a number of ways. First of all, he's a Republican. And second, he's a Brit",
+    "supporting_takeaway": "Helden's background as a child of Hungarian refugees and his work experience in various industries shape his policy views.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-30T05:03:16.046133",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Steve Helden",
+      "fetched_at": "2026-04-30T10:03:16.045544+00:00",
+      "cliff_notes": "Steve Helden, a British immigrant, is a Republican candidate for California governor with a background in business and politics. He moved to Silicon Valley in 2012 with his wife Rachel Watson, who initially worked at Facebook. Helden's compelling personal story and policy proposals have garnered attention, particularly his focus on California's economic and housing challenges. His campaign aims to address these issues, which are of significant importance to the tech industry and investors in the state.",
+      "derived": {
+        "current_role": "Candidate for California Governor",
+        "political_affiliation": "Republican",
+        "political_summary": "Steve Helden is a Republican candidate running for California governor. His campaign focuses on addressing the state's economic and housing issues, which are critical to the tech industry and investors."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "British"
+      },
+      "lead_paragraphs": [
+        "Steve Helden, a British immigrant, is a Republican candidate for California governor with a background in business and politics. He moved to Silicon Valley in 2012 with his wife Rachel Watson, who initially worked at Facebook. Helden's compelling personal story and policy proposals have garnered attention, particularly his focus on California's economic and housing challenges.",
+        "His campaign aims to address these issues, which are of significant importance to the tech industry and investors in the state."
+      ],
+      "sections": [
+        {
+          "heading": "Economic Challenges",
+          "body": "Steve Helden has been vocal about addressing California's economic challenges, which are crucial for the state's tech industry and investors."
+        },
+        {
+          "heading": "Housing Crisis",
+          "body": "Helden's policy proposals focus on tackling California's housing crisis, a pressing issue that impacts both residents and the state's economic stability."
+        },
+        {
+          "heading": "Immigration Background",
+          "body": "As a British immigrant, Helden brings a unique perspective to the governor's race, which may influence his approach to policy-making and economic development."
+        }
+      ]
+    },
+    "net_worth": "$10.10B"
   }
 ]
 };

@@ -1,5 +1,54 @@
 [
   {
+    "id": 187,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
+    "episode_date": "2026-04-29",
+    "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts interview Steve Helden, a Republican candidate for the governorship of California. The discussion covers Helden's background, his views on California's housing crisis, and his policy proposals to address the state's economic and political issues. Helden emphasizes the importance of a multi-racial working-class coalition and outlines his tax plan, which includes no state income taxes and a focus on affordable housing and energy costs.",
+    "key_takeaways": [
+      "Steve Helden, a Republican and British immigrant, is running for California governor with a focus on economic opportunity and freedom.",
+      "Helden's background as a child of Hungarian refugees and his work experience in various industries shape his policy views.",
+      "California's housing crisis is attributed to high impact fees and restrictive regulations, which Helden aims to reform.",
+      "Helden's tax plan includes no state income taxes and a focus on affordable living costs, such as gas and electricity.",
+      "The discussion highlights the influence of unions and interest groups on California's political landscape and their impact on policy-making."
+    ],
+    "investment_thesis": "Steve Helden's candidacy represents a potential shift in California's political landscape towards policies that promote economic freedom and reduced regulatory burdens, which could have implications for businesses and investors in the state.",
+    "key_tickers": null
+  },
+  {
+    "id": 186,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "Reiner Pope \u2013 The math behind how LLMs are trained and served",
+    "episode_date": "2026-04-29",
+    "summary": "In this episode, the host interviews Reiner Pope, CEO of Maddox, a new ship startup, and former Google engineer. They discuss model architecture, the role of batch size in AI training and inference, and the implications for AI progress, architecture, and pricing. The conversation delves into technical details, using a blackboard lecture format to explain concepts like roofline analysis, memory bandwidth, and compute performance. The episode aims to provide insights into why AI is the way it is and how understanding these details can help make sense of AI progress.",
+    "key_takeaways": [
+      "Understanding model architecture and training is crucial for grasping AI progress.",
+      "Batch size significantly impacts latency and cost in AI systems.",
+      "Roofline analysis, considering memory bandwidth and compute performance, is a key method for analyzing AI models.",
+      "Speculative decoding or multi-token prediction is another factor affecting AI performance.",
+      "Invertible neural networks can save memory during training by rematerializing activations during the backward pass."
+    ],
+    "investment_thesis": "Investing in companies that optimize AI model architecture and training can lead to significant performance improvements and cost savings.",
+    "key_tickers": null
+  },
+  {
+    "id": 185,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
+    "episode_date": "2026-04-29",
+    "summary": "In this episode of Monetary Matters with Jack Farley, Max Weathie interviews Keer Kavanaugh, the founder and CIO of Old Farm Partners, a New York-based fund of funds. They discuss Kavanaugh's experience at Soros Fund Management, his co-investment strategy with hedge funds, and his approach to manager due diligence and sourcing managers. The conversation also touches on the current investment focus on AI CapEx, the risks involved in the market, and Kavanaugh's views on the hedge fund industry and allocators.",
+    "key_takeaways": [
+      "AI CapEx is currently the main focus for investment opportunities.",
+      "Co-investing with hedge funds is a successful strategy Kavanaugh learned from Scott Beston at Soros Fund Management.",
+      "Managers often overstate the uniqueness of their strategies, but Kavanaugh has seen enough to discern what truly stands out.",
+      "Kavanaugh values intellectual curiosity and the pursuit of high potential returns in the public market.",
+      "Old Farm Partners has a sophisticated investor base, including private wealth and pensions, who value consistent performance and low drawdowns.",
+      "There is a current opportunity for small managers as allocators are returning to hedge funds after a period of focusing on private credit."
+    ],
+    "investment_thesis": "Investing in AI CapEx is currently the main focus, with co-investments in hedge funds providing a successful strategy for capturing high returns.",
+    "key_tickers": null
+  },
+  {
     "id": 184,
     "podcast_name": "The a16z Show",
     "episode_title": "The Shift in Global Drug Development",

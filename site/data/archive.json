@@ -21,6 +21,67 @@
       "podcast_episode_id": 184
     },
     {
+      "id": 200,
+      "title": "CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-04-29",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts interview Steve Helden, a Republican candidate for the governorship of California. The discussion covers Helden's background, his views on California's housing crisis, and his policy proposals to address the state's economic and political issues. Helden emphasizes the importance of a multi-racial working-class coalition and outlines his tax plan, which includes no state income taxes and a focus on affordable housing and energy costs.",
+      "key_takeaway": "Steve Helden's candidacy represents a potential shift in California's political landscape towards policies that promote economic freedom and reduced regulatory burdens, which could have implications for businesses and investors in the state.",
+      "tickers_mentioned": [
+        "AAPL",
+        "TSLA",
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 187
+    },
+    {
+      "id": 201,
+      "title": "Reiner Pope \u2013 The math behind how LLMs are trained and served",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-04-29",
+      "summary": "In this episode, the host interviews Reiner Pope, CEO of Maddox, a new ship startup, and former Google engineer. They discuss model architecture, the role of batch size in AI training and inference, and the implications for AI progress, architecture, and pricing. The conversation delves into technical details, using a blackboard lecture format to explain concepts like roofline analysis, memory bandwidth, and compute performance. The episode aims to provide insights into why AI is the way it is and how understanding these details can help make sense of AI progress.",
+      "key_takeaway": "Investing in companies that optimize AI model architecture and training can lead to significant performance improvements and cost savings.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "NVDA",
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 186
+    },
+    {
+      "id": 202,
+      "title": "From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-29",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Max Weathie interviews Keer Kavanaugh, the founder and CIO of Old Farm Partners, a New York-based fund of funds. They discuss Kavanaugh's experience at Soros Fund Management, his co-investment strategy with hedge funds, and his approach to manager due diligence and sourcing managers. The conversation also touches on the current investment focus on AI CapEx, the risks involved in the market, and Kavanaugh's views on the hedge fund industry and allocators.",
+      "key_takeaway": "Investing in AI CapEx is currently the main focus, with co-investments in hedge funds providing a successful strategy for capturing high returns.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 185
+    },
+    {
       "id": 197,
       "title": "John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
       "source_type": "podcast",
@@ -119,11 +180,11 @@
         "PSBD"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-26",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-30",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 179
     },
     {
@@ -142,11 +203,11 @@
         "CRM"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-25",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-30",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 178
     },
     {
@@ -161,11 +222,11 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-25",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-30",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 177
     },
     {
@@ -3656,6 +3717,76 @@
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Efficiency in drug development can significantly affect a company's profitability and competitive advantage.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 138,
+      "term": "AI CapEx",
+      "description": "Capital expenditure focused on artificial intelligence technologies, indicating a strategic investment in AI infrastructure and development.",
+      "first_detected_date": "2026-04-30",
+      "last_mentioned_date": "2026-04-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider AI CapEx as a significant growth area with potential for high returns.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 139,
+      "term": "Co-Investing",
+      "description": "A strategy where an investor participates alongside other investors, typically in a hedge fund or private equity deal, sharing in both the profits and risks.",
+      "first_detected_date": "2026-04-30",
+      "last_mentioned_date": "2026-04-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Co-investing can offer significant upside potential for investors who are able to access such deals.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 140,
+      "term": "Invertible Neural Networks",
+      "description": "Neural networks that can be run both forwards and backwards, allowing for memory savings during training by rematerializing activations.",
+      "first_detected_date": "2026-04-30",
+      "last_mentioned_date": "2026-04-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investing in technology that enables invertible neural networks can lead to more efficient AI training and reduced costs.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 141,
+      "term": "Working-Class Coalition",
+      "description": "A political alliance that aims to represent the interests of working-class individuals across racial and ethnic lines.",
+      "first_detected_date": "2026-04-30",
+      "last_mentioned_date": "2026-04-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors may consider the economic policies that appeal to this coalition, as they could indicate future shifts in consumer behavior and market demand.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 142,
+      "term": "Housing Impact Fees",
+      "description": "Fees charged to new developments to fund affordable housing and infrastructure, which can significantly increase the cost of new housing units.",
+      "first_detected_date": "2026-04-30",
+      "last_mentioned_date": "2026-04-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors in real estate and construction should monitor policy changes related to impact fees, as they can affect development costs and profitability.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null

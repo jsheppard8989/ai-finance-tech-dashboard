@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-04-29T22:05:40.847027",
-  "last_updated": "2026-04-29T22:05:40.847027",
-  "last_pipeline_run": "2026-04-29T22:05:40.847027",
+  "generated_at": "2026-04-30T05:06:14.531784",
+  "last_updated": "2026-04-30T05:06:14.531784",
+  "last_pipeline_run": "2026-04-30T05:06:14.531784",
   "main_page": {
     "overton": 8,
     "insights": 8,
-    "pundits": 114
+    "pundits": 117
   },
   "counts": {
     "ticker_mentions": 166,
-    "podcast_episodes": 158,
+    "podcast_episodes": 161,
     "newsletters": 7,
     "daily_scores": 104,
-    "overton_terms_total": 130,
-    "latest_insights_total": 172,
+    "overton_terms_total": 135,
+    "latest_insights_total": 175,
     "today_mentions": {},
-    "podcasts_analyzed": 2
+    "podcasts_analyzed": 3
   },
   "step_results": {
     "downloaded": 4,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "deep_dive_created": 1,
-    "published": 1,
+    "transcribed": 3,
+    "analyzed": 3,
+    "insight_created": 3,
+    "deep_dive_created": 3,
+    "published": 3,
     "total": 4
   },
   "episodes": [
@@ -33,29 +33,6 @@
       "title": "From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
       "published": "2026-04-29",
       "rss_guid": "53df6792-4388-11f1-82ce-f37f0f1eba5a",
-      "stages": {
-        "downloaded": true,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "deep_dive_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "deep_dive_created": "Deep Dive depends on insight promotion first.",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_transcription"
-    },
-    {
-      "id": "e9c09545-4c76-4210-bf00-214b1f7f7ba9",
-      "podcast": "The a16z Show",
-      "title": "The Shift in Global Drug Development",
-      "published": "2026-04-29",
-      "rss_guid": "e9c09545-4c76-4210-bf00-214b1f7f7ba9",
       "stages": {
         "downloaded": true,
         "transcribed": true,
@@ -68,11 +45,11 @@
       "status": "complete"
     },
     {
-      "id": "b8e7be81-4da6-4843-979c-e8c5aba5ec59",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
-      "published": "2026-04-29",
-      "rss_guid": "b8e7be81-4da6-4843-979c-e8c5aba5ec59",
+      "id": "1ae9505b-b2bb-46d9-a2e5-d861db549ba8",
+      "podcast": "The a16z Show",
+      "title": "Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
+      "published": "2026-04-30",
+      "rss_guid": "1ae9505b-b2bb-46d9-a2e5-d861db549ba8",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -89,6 +66,23 @@
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_transcription"
+    },
+    {
+      "id": "b8e7be81-4da6-4843-979c-e8c5aba5ec59",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
+      "published": "2026-04-29",
+      "rss_guid": "b8e7be81-4da6-4843-979c-e8c5aba5ec59",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "deep_dive_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "substack:post:195859978",
@@ -98,42 +92,22 @@
       "rss_guid": "substack:post:195859978",
       "stages": {
         "downloaded": true,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "deep_dive_created": false,
-        "published": false
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "deep_dive_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "deep_dive_created": "Deep Dive depends on insight promotion first.",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_transcription"
+      "stage_reasons": {},
+      "status": "complete"
     }
   ],
   "available_from_rss": [
     {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
-      "published": "Wed, 29 Apr 2026 10:30:00 -0000",
-      "published_date": "2026-04-29",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
-      "published": "Wed, 29 Apr 2026 15:14:00 +0000",
-      "published_date": "2026-04-29",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "Dwarkesh Podcast",
-      "title": "Reiner Pope \u2013 The math behind how LLMs are trained and served",
-      "published": "Wed, 29 Apr 2026 17:07:03 GMT",
-      "published_date": "2026-04-29",
+      "podcast": "The a16z Show",
+      "title": "Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
+      "published": "Thu, 30 Apr 2026 10:00:00 +0000",
+      "published_date": "2026-04-30",
       "rss_guid": ""
     }
   ],
