@@ -1,6 +1,18 @@
 {
-  "rotation_index": 9,
+  "rotation_index": 10,
   "weeks": [
+    {
+      "friday_iso": "2026-04-24",
+      "week_label": "Week of 2026-04-24",
+      "prompt": "Will MicroStrategy sell any Bitcoin within the next 42 days?",
+      "debater_a": "Garrett Langley",
+      "debater_b": "Alex Finn",
+      "expires_rule": "Resolves Friday 12:00 PM CST 2026-06-05",
+      "resolution_status": "pending",
+      "resolution_notes": "",
+      "archived_at": "2026-05-01T05:08:50.459570",
+      "audio_href": "./audio/archive/debate_2026-04-24.mp3"
+    },
     {
       "friday_iso": "2026-04-03",
       "week_label": "Week of 2026-04-03",

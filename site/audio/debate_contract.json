@@ -1,31 +1,40 @@
 {
-  "prompt": "Will MicroStrategy sell any Bitcoin within the next 42 days?",
-  "expires_rule": "Resolves Friday 12:00 PM CST 2026-06-05",
-  "crux_theme": "Crypto company asset management",
+  "prompt": "Will any presidential candidate win outright in the first round of the Colombia's election by Jun 12, 2026?",
+  "expires_rule": "Resolves Friday 12:00 PM CST 2026-06-12",
+  "crux_theme": "Colombia election outcome",
   "resolution_clarity": {
-    "source_of_truth": "MicroStrategy official announcements and filings",
+    "source_of_truth": "Official election results from the Colombian government or election commission",
     "resolution_sources": [
-      "MicroStrategy press releases",
-      "MicroStrategy SEC filings",
-      "MicroStrategy CEO social media accounts"
+      "http://www.cne.gov.co/",
+      "https://www.adicional.presidencia.gov.co/",
+      "http://www.minjusticia.gov.co/"
     ],
     "resolution_criteria": [
-      "Sale transactions reflected in official financial statements",
-      "Publicly disclosed sale announcements"
+      "Official announcement of election results",
+      "Major news agencies reporting the official results",
+      "A candidate securing more than 50% of the valid votes in the first round"
     ]
   },
   "sides": {
     "a": "Affirmative (YES)",
     "b": "Negative (NO)"
   },
-  "friday_iso": "2026-04-24",
-  "week_label": "Week of 2026-04-24",
-  "debater_a": "Garrett Langley",
-  "debater_b": "Alex Finn",
-  "generated_at": "2026-04-24T05:06:54.744053",
+  "friday_iso": "2026-05-01",
+  "week_label": "Week of 2026-05-01",
+  "debater_a": "Joseph Stiglitz",
+  "debater_b": "Garrett Langley",
+  "generated_at": "2026-05-01T05:08:50.459675",
   "bet_status": "open",
   "audio_href": "./audio/emp_ai_the_debate_11labs.mp3",
   "debater_a_snapshot": {
+    "name": "Joseph Stiglitz",
+    "known_for": "Author of 'Road to Freedom, Economics, and the Good Society'",
+    "bio": "Nobel Laureate Economist and Professor at Columbia University",
+    "last_main_idea": "The current geopolitical tensions and the rise of AI technology present both risks and opportunities, with the potential for economic disruption and the need for strategic investment in sectors less affected by AI.",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-11"
+  },
+  "debater_b_snapshot": {
     "name": "Garrett Langley",
     "known_for": "Developing a neighborhood safety system that evolved into a nationwide real-time crime prevention platform.",
     "bio": "Founder of Flock Safety, an electrical engineer turned entrepreneur.",
@@ -33,13 +42,5 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-11"
   },
-  "debater_b_snapshot": {
-    "name": "Alex Finn",
-    "known_for": "His expertise and hands-on experience with AI, particularly with OpenClaw.",
-    "bio": "Alex Finn is an AI enthusiast and expert who has been following the development of AI for a long time.",
-    "last_main_idea": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life.",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-03-09"
-  },
-  "prompt_hash": "801c6f7629ac1ac6"
+  "prompt_hash": "215ed7c9adb3c2e8"
 }

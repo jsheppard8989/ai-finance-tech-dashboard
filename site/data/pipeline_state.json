@@ -1,61 +1,40 @@
 {
-  "generated_at": "2026-04-30T22:04:35.145990",
-  "last_updated": "2026-04-30T22:04:35.145990",
-  "last_pipeline_run": "2026-04-30T22:04:35.145990",
+  "generated_at": "2026-05-01T05:08:17.073432",
+  "last_updated": "2026-05-01T05:08:17.073432",
+  "last_pipeline_run": "2026-05-01T05:08:17.073432",
   "main_page": {
     "overton": 8,
     "insights": 8,
-    "pundits": 118
+    "pundits": 119
   },
   "counts": {
-    "ticker_mentions": 166,
-    "podcast_episodes": 162,
+    "ticker_mentions": 168,
+    "podcast_episodes": 164,
     "newsletters": 7,
-    "daily_scores": 104,
-    "overton_terms_total": 136,
-    "latest_insights_total": 176,
-    "today_mentions": {},
-    "podcasts_analyzed": 4
+    "daily_scores": 106,
+    "overton_terms_total": 139,
+    "latest_insights_total": 178,
+    "today_mentions": {
+      "podcast": 2
+    },
+    "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 4,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "deep_dive_created": 1,
-    "published": 1,
-    "total": 4
+    "downloaded": 2,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "deep_dive_created": 0,
+    "published": 0,
+    "total": 2
   },
   "episodes": [
     {
-      "id": "aedbde1a-44a9-11f1-a127-3f55d6bd3727",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Google Invests $40B Into Anthropic, GPT 5.5 Drops, and Google Cloud Dominates | EP #252",
-      "published": "2026-04-30",
-      "rss_guid": "aedbde1a-44a9-11f1-a127-3f55d6bd3727",
-      "stages": {
-        "downloaded": true,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "deep_dive_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "deep_dive_created": "Deep Dive depends on insight promotion first.",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_transcription"
-    },
-    {
-      "id": "3e02f50a-445b-11f1-8575-0fdbe1657d65",
+      "id": "88e1f47c-450a-11f1-8862-4b4703826cfa",
       "podcast": "Monetary Matters with Jack Farley",
-      "title": "SpaceX IPO: Why This Hedge Fund Manager is Fading the Hype | Moez Kassam",
-      "published": "2026-04-30",
-      "rss_guid": "3e02f50a-445b-11f1-8575-0fdbe1657d65",
+      "title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
+      "published": "2026-05-01",
+      "rss_guid": "88e1f47c-450a-11f1-8862-4b4703826cfa",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -74,28 +53,11 @@
       "status": "needs_transcription"
     },
     {
-      "id": "1ae9505b-b2bb-46d9-a2e5-d861db549ba8",
+      "id": "80623c8b-f312-4532-8149-458a50621a43",
       "podcast": "The a16z Show",
-      "title": "Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
-      "published": "2026-04-30",
-      "rss_guid": "1ae9505b-b2bb-46d9-a2e5-d861db549ba8",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "deep_dive_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
-    },
-    {
-      "id": "macrovoices.podbean.com/f8976fdf-e56a-3d36-8470-99bd65f4e83c",
-      "podcast": "Macro Voices",
-      "title": "MacroVoices #530 Daniel Lacalle: China and The Us Will Decide The Outcome of The Iran War",
-      "published": "2026-04-30",
-      "rss_guid": "macrovoices.podbean.com/f8976fdf-e56a-3d36-8470-99bd65f4e83c",
+      "title": "Balaji and Taylor Lorenz on AI and Media",
+      "published": "2026-05-01",
+      "rss_guid": "80623c8b-f312-4532-8149-458a50621a43",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -116,24 +78,17 @@
   ],
   "available_from_rss": [
     {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Google Invests $40B Into Anthropic, GPT 5.5 Drops, and Google Cloud Dominates | EP #252",
-      "published": "Thu, 30 Apr 2026 16:25:00 -0000",
-      "published_date": "2026-04-30",
-      "rss_guid": ""
-    },
-    {
       "podcast": "Monetary Matters with Jack Farley",
-      "title": "SpaceX IPO: Why This Hedge Fund Manager is Fading the Hype | Moez Kassam",
-      "published": "Thu, 30 Apr 2026 13:08:00 -0000",
-      "published_date": "2026-04-30",
+      "title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
+      "published": "Fri, 01 May 2026 03:04:00 -0000",
+      "published_date": "2026-05-01",
       "rss_guid": ""
     },
     {
-      "podcast": "Macro Voices",
-      "title": "MacroVoices #530 Daniel Lacalle: China and The Us Will Decide The Outcome of The Iran War",
-      "published": "Thu, 30 Apr 2026 11:52:53 -0500",
-      "published_date": "2026-04-30",
+      "podcast": "The a16z Show",
+      "title": "Balaji and Taylor Lorenz on AI and Media",
+      "published": "Fri, 1 May 2026 10:00:21 +0000",
+      "published_date": "2026-05-01",
       "rss_guid": ""
     }
   ],
