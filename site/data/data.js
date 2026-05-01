@@ -3,151 +3,151 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-30T05:06:22.416303",
-  chartsVersion: "2026-04-30T05:06:09.211689",
+  generatedAt: "2026-04-30T22:04:44.829285",
+  chartsVersion: "2026-04-30T22:04:31.470798",
   priceSnapshot: {
   "GOOGL": {
-    "price": 349.94,
-    "change_pct": 10.31,
+    "price": 384.8,
+    "change_pct": 19.76,
     "name": "GOOGL",
-    "updated_at": "2026-04-30T05:06:09.210180",
+    "updated_at": "2026-04-30T22:04:31.469100",
     "symbol_used": "GOOGL",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "GOOGL",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-30T05:06:09.210199"
+    "source_timestamp": "2026-04-30T22:04:31.469117"
   },
   "NVDA": {
-    "price": 209.25,
-    "change_pct": 10.93,
+    "price": 199.57,
+    "change_pct": 5.42,
     "name": "NVDA",
-    "updated_at": "2026-04-30T05:06:09.210214",
+    "updated_at": "2026-04-30T22:04:31.469130",
     "symbol_used": "NVDA",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "NVDA",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-30T05:06:09.210220"
+    "source_timestamp": "2026-04-30T22:04:31.469136"
   },
   "MSFT": {
-    "price": 424.46,
-    "change_pct": 14.45,
+    "price": 407.78,
+    "change_pct": 6.09,
     "name": "MSFT",
-    "updated_at": "2026-04-30T05:06:09.210230",
+    "updated_at": "2026-04-30T22:04:31.469146",
     "symbol_used": "MSFT",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "MSFT",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-30T05:06:09.210236"
+    "source_timestamp": "2026-04-30T22:04:31.469151"
   },
   "WTI": {
-    "price": 106.97,
-    "change_pct": 17.18,
+    "price": 105.89,
+    "change_pct": 15.99,
     "name": "WTI",
-    "updated_at": "2026-04-30T05:06:09.210246",
+    "updated_at": "2026-04-30T22:04:31.469160",
     "symbol_used": "CL=F",
     "instrument_type": "futures",
     "is_continuous": true,
     "display_ticker": "WTI",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-30T05:06:09.210252"
+    "source_timestamp": "2026-04-30T22:04:31.469166"
   },
   "BTC": {
-    "price": 76110.15,
-    "change_pct": -1.32,
+    "price": 76523.21,
+    "change_pct": 1.05,
     "name": "BTC",
-    "updated_at": "2026-04-30T05:06:09.210262",
+    "updated_at": "2026-04-30T22:04:31.469176",
     "symbol_used": "BTC-USD",
     "instrument_type": "crypto_spot",
     "is_continuous": false,
     "display_ticker": "BTC",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-30T05:06:09.210268"
+    "source_timestamp": "2026-04-30T22:04:31.469181"
   },
   "S&P 500": {
-    "price": 7172.0,
-    "change_pct": 1.58,
+    "price": 7259.5,
+    "change_pct": 2.82,
     "name": "S&P 500",
-    "updated_at": "2026-04-30T05:06:09.210278",
+    "updated_at": "2026-04-30T22:04:31.469191",
     "symbol_used": "ES=F",
     "instrument_type": "futures",
     "is_continuous": true,
     "display_ticker": "S&P 500",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-30T05:06:09.210283"
+    "source_timestamp": "2026-04-30T22:04:31.469196"
   },
   "AMZN": {
-    "price": 263.04,
-    "change_pct": 10.34,
+    "price": 265.06,
+    "change_pct": 10.49,
     "name": "AMZN",
-    "updated_at": "2026-04-30T05:06:09.210294",
+    "updated_at": "2026-04-30T22:04:31.469205",
     "symbol_used": "AMZN",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "AMZN",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-30T05:06:09.210299"
+    "source_timestamp": "2026-04-30T22:04:31.469210"
   },
   "TSLA": {
-    "price": 372.8,
-    "change_pct": 6.83,
+    "price": 381.63,
+    "change_pct": 8.29,
     "name": "TSLA",
-    "updated_at": "2026-04-30T05:06:09.210309",
+    "updated_at": "2026-04-30T22:04:31.469219",
     "symbol_used": "TSLA",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "TSLA",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-30T05:06:09.210314"
+    "source_timestamp": "2026-04-30T22:04:31.469224"
   },
   "COPPER": {
-    "price": 6.0,
-    "change_pct": -1.25,
+    "price": 6.02,
+    "change_pct": -0.82,
     "name": "COPPER",
-    "updated_at": "2026-04-30T05:06:09.210324",
+    "updated_at": "2026-04-30T22:04:31.469234",
     "symbol_used": "HG=F",
     "instrument_type": "futures",
     "is_continuous": true,
     "display_ticker": "COPPER",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-30T05:06:09.210330"
+    "source_timestamp": "2026-04-30T22:04:31.469239"
   },
   "QQQ": {
-    "price": 661.57,
-    "change_pct": 8.26,
+    "price": 667.74,
+    "change_pct": 8.16,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-04-30T05:06:09.210339",
+    "updated_at": "2026-04-30T22:04:31.469247",
     "symbol_used": "QQQ",
     "instrument_type": "etf",
     "is_continuous": false,
     "display_ticker": "QQQ",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-30T05:06:09.210345"
+    "source_timestamp": "2026-04-30T22:04:31.469253"
   },
   "BTC-USD": {
-    "price": 76110.15,
-    "change_pct": -1.32,
+    "price": 76523.21,
+    "change_pct": 1.05,
     "name": "Bitcoin USD",
-    "updated_at": "2026-04-30T05:06:09.210356",
+    "updated_at": "2026-04-30T22:04:31.469261",
     "symbol_used": "BTC-USD",
     "instrument_type": "crypto_spot",
     "is_continuous": false,
     "display_ticker": "BTC-USD",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-30T05:06:09.210361"
+    "source_timestamp": "2026-04-30T22:04:31.469266"
   }
 },
   tickerScores: [
@@ -905,6 +905,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 203,
+      "title": "Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-30",
+      "summary": "In this episode of 'The a16z Show', Elena Berger interviews Joe Schmidt, a partner on the enterprise team at A16Z, to discuss the cracks appearing in enterprise software companies like Workday. They explore the challenges of replacing entrenched systems, the impact of AI on enterprise software, and the opportunities for new platforms to disrupt the status quo. Joe shares insights on why enterprises may be ready for a change and the potential for new solutions to offer significant improvements over existing systems.",
+      "key_takeaway": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
+      "tickers_mentioned": [
+        "WORK"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 188
+    },
+    {
       "id": 199,
       "title": "The Shift in Global Drug Development",
       "source_type": "podcast",
@@ -1043,11 +1062,11 @@ const dashboardData = {
         "N/A"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-28",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-05-01",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 181
     },
     {
@@ -4598,6 +4617,20 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 143,
+      "term": "Cross-Solver Tensions",
+      "description": "The challenges faced by companies that try to replace multiple functionalities within a single platform.",
+      "first_detected_date": "2026-05-01",
+      "last_mentioned_date": "2026-05-01",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the potential for new platforms that can address specific pain points within enterprise software more effectively than incumbents.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
       "id": 136,
       "term": "Clinical Trial Reform",
       "description": "Changes in the process of running clinical trials, including regulatory design, trial structure, and funding models.",
@@ -6498,6 +6531,28 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 203,
+      "title": "Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-30",
+      "summary": "In this episode of 'The a16z Show', Elena Berger interviews Joe Schmidt, a partner on the enterprise team at A16Z, to discuss the cracks appearing in enterprise software companies like Workday. They explore the challenges of replacing entrenched systems, the impact of AI on enterprise software, and the opportunities for new platforms to disrupt the status quo. Joe shares insights on why enterprises may be ready for a change and the potential for new solutions to offer significant improvements over existing systems.",
+      "key_takeaway": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
+      "tickers_mentioned": "[\"WORK\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 188,
+      "episode_release_date": "2026-04-30",
+      "guest_name": null,
+      "key_tickers": [
+        "WORK"
+      ]
+    },
+    {
       "id": 199,
       "title": "The Shift in Global Drug Development",
       "source_type": "podcast",
@@ -6616,28 +6671,6 @@ const dashboardData = {
       "episode_release_date": "2026-04-28",
       "guest_name": "David Sinclair",
       "key_tickers": []
-    },
-    {
-      "id": 195,
-      "title": "David Sinclair on the Longevity Pill, Age Reversal Timelines, and Updated Protocols | EP #250",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-04-27",
-      "summary": "In this episode of 'Moonshots with Peter Diamandis', the focus is on the groundbreaking field of epigenetic reprogramming and its potential to revolutionize longevity and health. The discussion centers around the upcoming first human trial for epigenetic reprogramming to cure blindness, the broader implications for age reversal across various tissues and organs, and the concept of a 'longevity singularity' - a point in time when the health of the human lifespan is significantly extended. The conversation also touches on lifestyle changes, such as diet and stress management, that can contribute to longevity.",
-      "key_takeaway": "Investment in biotechnology companies pioneering epigenetic reprogramming could offer significant returns as this field advances longevity and healthspan.",
-      "tickers_mentioned": "[\"N/A\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-28",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 181,
-      "episode_release_date": "2026-04-27",
-      "guest_name": null,
-      "key_tickers": [
-        "N/A"
-      ]
     },
     {
       "id": 196,
@@ -18971,12 +19004,79 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-04-29",
     "key_tickers": []
+  },
+  "203": {
+    "id": 194,
+    "insight_id": 203,
+    "podcast_episode_id": 188,
+    "overview": "The debate centers on the potential for AI to catalyze a fundamental shift in enterprise software, challenging the dominance of established platforms like Workday. The importance lies in the possibility of new entrants offering superior user experiences and process efficiencies, which could lead to a significant market realignment. The timing is critical as the enterprise software market is at an inflection point where technological advancements in AI present an opportunity for disruption that could redefine the competitive landscape.",
+    "key_takeaways_detailed": [
+      "Enterprise software is at a crossroads where the user experience and process efficiency can be significantly improved through AI, presenting an opportunity for new platforms to gain traction.",
+      "The high switching costs and entrenched nature of current systems like Workday create a significant barrier for new entrants, but also a large addressable market if these barriers can be overcome.",
+      "Investors should monitor the development and adoption of AI-driven enterprise solutions as indicators of the potential for disruption in the market.",
+      "The success of new platforms will likely hinge on their ability to offer a fundamentally different and superior user experience compared to existing solutions."
+    ],
+    "investment_thesis": "The core logic is that AI will enable a new generation of enterprise software platforms to offer improved user experiences and process efficiencies, leading to the disruption of incumbents like Workday. The timeframe for this thesis is medium to long-term, as significant changes in enterprise software typically require time for development, adoption, and market penetration. For this thesis to hold, new platforms must demonstrate clear advantages over existing systems and gain traction with early adopters, which can then lead to broader market acceptance.",
+    "ticker_analysis": {
+      "WDAY": {
+        "rationale": "Workday is a key incumbent in the enterprise software space, and its performance and innovation will be a key indicator of the disruption thesis.",
+        "positioning": "A strategic long position could be considered if one believes in Workday's ability to adapt and incorporate AI to maintain its competitive edge.",
+        "risk": "Key risks include failure to innovate at the pace required by the market, leading to loss of market share to more agile competitors."
+      },
+      "CRM": {
+        "rationale": "Salesforce is another major player in the enterprise software space, and its moves in AI could either reinforce or challenge the disruption narrative.",
+        "positioning": "A tactical long position might be appropriate if one expects Salesforce to leverage its scale and resources to lead in AI-driven enterprise solutions.",
+        "risk": "The risk is that new entrants with more innovative AI solutions could disrupt Salesforce's market position."
+      },
+      "NOW": {
+        "rationale": "ServiceNow is a cloud computing platform for digital workflows, and its ability to integrate AI could make it a potential beneficiary of the shift towards AI-driven enterprise software.",
+        "positioning": "A strategic long position could be considered if one believes ServiceNow can successfully leverage AI to enhance its platform and gain market share.",
+        "risk": "The risk is that ServiceNow may not be able to keep up with the pace of innovation required to compete with new AI-driven platforms."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, with a mix of long positions in incumbents that show potential to adapt to AI-driven changes and long positions in promising new entrants. The time horizon for these investments should be medium to long-term, as significant market shifts in enterprise software typically take time to play out.",
+    "risk_factors": [
+      "Incumbent enterprise software companies may successfully adapt to AI-driven changes, reducing the opportunity for new entrants.",
+      "Regulatory changes could slow the adoption of new AI-driven enterprise software solutions.",
+      "Technological advancements in AI may not materialize as quickly as expected, delaying the disruption of the enterprise software market.",
+      "Economic downturns could lead to reduced spending on enterprise software, affecting both incumbents and new entrants."
+    ],
+    "contrarian_signals": [
+      "A significant increase in R&D spending by incumbents like Workday, indicating a strong response to the threat of disruption.",
+      "Successful acquisitions of AI startups by incumbents, which could accelerate their ability to offer AI-driven solutions.",
+      "A lack of venture capital funding for new AI-driven enterprise software startups, suggesting a reduced threat to incumbents."
+    ],
+    "catalysts": [
+      "Major AI-driven product launches by incumbent enterprise software companies.",
+      "Strategic partnerships between AI technology providers and enterprise software companies.",
+      "Successful IPOs or significant funding rounds for new AI-driven enterprise software startups.",
+      "Industry conferences and reports highlighting the adoption rates and success of AI in enterprise software."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-30T22:03:45.134240",
+    "updated_at": "2026-05-01 03:03:45",
+    "episode_evidence": "In the podcast, Joe Schmidt from A16Z highlights the significant opportunity for disruption in enterprise software, particularly with platforms like Workday. He points out that 'No one likes doing like these crazy tasks inside of Workday, no employee likes interacting with Workday, no one wants to go into this portal.' This underscores the user experience issues that have persisted despite the platform's importance. Schmidt also emphasizes the difficulty of displacing entrenched systems, stating, 'if someone has already become a customer of Workday...it is so hard to rip them off.' This indicates the high barriers to entry for new competitors. Furthermore, he discusses the potential of AI to drive a platform shift, suggesting that 'AI is creating a new opportunity to rethink how these systems work, and whether they should exist in their current form at all.' This points to a fundamental change in the way enterprise software operates, which could lead to the obsolescence of current systems if they fail to evolve.",
+    "falsification_tracks": [
+      "A significant increase in user satisfaction scores for Workday across multiple quarters would challenge the thesis of user experience issues driving disruption.",
+      "If Workday announces and successfully executes a major overhaul of its user interface and experience, improving user satisfaction, it would reduce the conviction in the need for disruption.",
+      "The emergence of a new enterprise software platform with clear, measurable efficiency gains over Workday that is rapidly adopted by large enterprises would indicate that disruption is happening but not necessarily from AI-driven platforms.",
+      "A sustained period of declining enterprise spending on AI solutions for enterprise software could signal a reduced appetite for change and a weakening of the disruption thesis."
+    ],
+    "insight_title": "Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
+    "source_name": "The a16z Show",
+    "source_date": "2026-04-30",
+    "key_tickers": [
+      "WORK"
+    ]
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 2724,
+    "id": 2760,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -18988,7 +19088,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2725,
+    "id": 2761,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -19000,7 +19100,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2726,
+    "id": 2762,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -19012,7 +19112,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2727,
+    "id": 2763,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -19024,7 +19124,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2728,
+    "id": 2764,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -19036,7 +19136,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2729,
+    "id": 2765,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -19048,7 +19148,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2730,
+    "id": 2766,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -19060,7 +19160,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2731,
+    "id": 2767,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -19072,7 +19172,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2732,
+    "id": 2768,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -19084,7 +19184,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2733,
+    "id": 2769,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -19096,7 +19196,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2734,
+    "id": 2770,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -19108,7 +19208,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2735,
+    "id": 2771,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -19120,7 +19220,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2736,
+    "id": 2772,
     "name": "Building Agents at Home",
     "slug": "building-agents-at-home",
     "bio": null,
@@ -19132,7 +19232,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2737,
+    "id": 2773,
     "name": "\"The Best Time to Invest\"",
     "slug": "the-best-time-to-invest",
     "bio": null,
@@ -19144,7 +19244,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2738,
+    "id": 2774,
     "name": "Governor Josh Shapiro of Pennsylvania",
     "slug": "governor-josh-shapiro-of-pennsylvania",
     "bio": null,
@@ -19156,7 +19256,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2739,
+    "id": 2775,
     "name": "Box CEO Aaron Levie",
     "slug": "box-ceo-aaron-levie",
     "bio": null,
@@ -19168,7 +19268,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2740,
+    "id": 2776,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -19180,7 +19280,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2741,
+    "id": 2777,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -19192,7 +19292,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2742,
+    "id": 2778,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -19204,7 +19304,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2743,
+    "id": 2779,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -19235,7 +19335,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-16",
     "mention_score": 5,
-    "mention_score_decayed": 3.79,
+    "mention_score_decayed": 3.7,
     "last_main_idea": "Invest in sectors likely to benefit from increased inflation and supply chain disruptions, with a focus on energy, uranium, and domestic electrical infrastructure.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-16 \u2022 MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -19491,7 +19591,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -19518,7 +19618,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
@@ -19583,7 +19683,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "You just spend told you have superpowers. You've just been told you can have multiple employees for $200 a month. What do you do? If I was a young person today starting off my career, I would try to convince my parents to give me some money",
@@ -19647,7 +19747,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "You just spend told you have superpowers. You've just been told you can have multiple employees for $200 a month. What do you do? If I was a young person today starting off my career, I would try to convince my parents to give me some money",
@@ -20177,7 +20277,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-11 \u2022 Capital Markets Evolution and the Future of IPOs",
     "last_proof_snippet": "All right, everybody, welcome to the all-in interview program. Today, we are delighted to have two of the most important individuals shaping capital markets over the next couple of years. SEC chair, Paul Ackens is with us as well as CFTC ch",
@@ -20204,7 +20304,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-11 \u2022 Capital Markets Evolution and the Future of IPOs",
     "last_proof_snippet": "All right, everybody, welcome to the all-in interview program. Today, we are delighted to have two of the most important individuals shaping capital markets over the next couple of years. SEC chair, Paul Ackens is with us as well as CFTC ch",
@@ -20231,7 +20331,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "The current geopolitical tensions and the rise of AI technology present both risks and opportunities, with the potential for economic disruption and the need for strategic investment in sectors less affected by AI.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-11 \u2022 Monetary Matters: Economic Consequences of War and AI's Impact",
     "last_proof_snippet": "This episode of Monetary Matters is brought to you by the two-cream Soybean Fund. Take your SOI-B. Let's get into it. Very pleased to welcome to Monetary Matters, Noble Laureate Economist, Professor at Columbia University, an author of Road",
@@ -20258,7 +20358,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investing in technology that enhances real-time crime prevention and clearance rates can lead to more effective law enforcement and safer communities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-11 \u2022 Real-time Crime Prevention and the Future of Policing",
     "last_proof_snippet": "South American cartels fly illegal drones through these neighborhoods. They'll flip on night vision. Look through houses to see if you can tell me. Didn't go break in. I was working with a town in Tennessee. It's a good city. Their average",
@@ -20285,7 +20385,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-09 \u2022 The Future of Personal AI Agents with OpenClaw",
     "last_proof_snippet": "We have a special guest with us today. Alex Finn, give us the 101 here for folks. OpenClaw is basically a open source, fully customizable, self-improving, self-learning, self-evolving, personal AI agent. This is kind of the answer Apple's b",
@@ -20312,7 +20412,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "As the global liquidity cycle peaks, investors should consider rotating their asset allocation towards more defensive areas and higher yielding assets like private credit.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-09 \u2022 Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
     "last_proof_snippet": "Later on, you'll hear more about the fund rise income fund and why sophisticated investors are turning to higher yielding assets like private credit. But for now, let's get into today's interview. Join today by Michael Howell of the Capital",
@@ -20339,7 +20439,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-09 \u2022 All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
     "last_proof_snippet": "Welcome to another episode of the all-in-interview. I'm really excited to be joined by a back-to-all-in, Harvard Professor Graham Allison. Professor Allison, welcome back to all-in. Thanks for having me. We last had you at the summit in Los",
@@ -20366,7 +20466,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-12 \u2022 The Intersection of Technology, Geopolitics, and National Defense",
     "last_proof_snippet": "We were the freak chef, and we spent 20 years for this moment. We're doing it, we're doing it, and I'm sure you're enjoying this as much as I am. I just got three things to say. God bless our troops. God bless America. And shout on that. Do",
@@ -20393,7 +20493,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",
@@ -20420,7 +20520,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -20528,7 +20628,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
     "last_proof_snippet": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper | EP #230 Moonshots with Peter Diamandis Episode 230 00:00:00 When do we see a billion-dollar revenue company being run by an AI CEO",
@@ -20590,7 +20690,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-17 \u2022 Stealth Startups and the Digitization of the Physical World",
     "last_proof_snippet": "I don't know if some of you knew I was an angel investor in some companies. On the count of three, what's my favorite angel investment of all time? One, two, three. Thank you. Give it up. Travis Kalenik. Appreciate you. Alright. Wow. On a b",
@@ -20651,7 +20751,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",
@@ -20712,7 +20812,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
@@ -20770,7 +20870,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-17 \u2022 Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
     "last_proof_snippet": "audience, and as you can see, still trying to monetize hope. Yeah, you look like you're in great shape. I'm doing great. Well, that's not like a sort of user of things going on or what. It's like it's our longevity exercise. We're getting t",
@@ -20834,7 +20934,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-19 \u2022 Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show, you'll hear more about hfgm currently the number one morning star rated funds sits its inception in the U.S. macro trading category. Le",
@@ -20898,7 +20998,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-18 \u2022 The Geopolitics of Technology and the Future Economy",
     "last_proof_snippet": "Our models need to be superior than all the other models on Earth. We need to have the world's best AI innovation on a qualitative basis, so we need to have the most market share. If we have exquisite models that no one uses, we're kind of",
@@ -21028,7 +21128,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-19 \u2022 Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
     "last_proof_snippet": "Today's episode is brought to you by the Picta AI Enhance International Equity ETF, Ticker PQNT. You'll hear more about they're using AI to enhance international equity returns later in the show. For now, let's get into it. Very pleased tod",
@@ -21958,7 +22058,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Today's episode is brought you by Pictay asset management and their AI enhanced ETF range, ticker PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. Very plea",
@@ -22018,7 +22118,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "I was a Davos last year in a cyber form, and one of the speakers was talking about salt typhoon. It was closed door, room of 60 cyber folks, and it's like, how many people know about this? It was five out of 60. What we learned was that Chi",
@@ -22078,7 +22178,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "I was a Davos last year in a cyber form, and one of the speakers was talking about salt typhoon. It was closed door, room of 60 cyber folks, and it's like, how many people know about this? It was five out of 60. What we learned was that Chi",
@@ -22138,7 +22238,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -22206,7 +22306,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -22460,7 +22560,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "Today, I'm chatting with Ada Palmer, who is a Renaissance historian, a novelist, a composer, based at the University of Chicago, and today we're discussing your book inventing the Renaissance. Ada, thanks for coming on the podcast. Then, lo",
@@ -22524,7 +22624,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "This episode of Monetary Matters is brought to you by the two-creations Soybean Fund. Take your S.O.Y.B. Let's get into it. I've been worried about markets for several weeks now, in fact, long before a round kicked off. And I keep on seeing",
@@ -22583,7 +22683,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-27 \u2022 Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world, the fantastic four, the original. Oh, the cast is back. The cast is black in arms, brothers in arms. Here we go, good boys. We got a big newsweek, David Sachs. It's",
@@ -22640,7 +22740,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
     "last_proof_snippet": "And at the time I joined, there were only a couple of investing partners, and there were only one fun. Now we have sort of this complex of funds, and I was a, you know, reasonably prominent sort of angel investor, blogger. They were probabl",
@@ -23018,7 +23118,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-01 \u2022 What Happens When a Public Company Goes All In on AI",
     "last_proof_snippet": "The biggest mode is going to be which companies understand something that's super hard for other people to understand and if your answer to that is, I don't know, then you maybe could get vibe coded away. Block was one of the first to make",
@@ -23082,7 +23182,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_proof_snippet": "Today's episode is brought you by Pictay asset management and their AI enhanced ETF range, ticker PQNT and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. Very plea",
@@ -23323,7 +23423,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-04 \u2022 \u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
     "last_proof_snippet": "The oil market and the fertilizer market have been essentially broken by the closure of the straight of her mousse, but it's not just that. With war in the Middle East, cracks are forming in the shipping industry itself, particularly the ta",
@@ -23883,7 +23983,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Rapid technological acceleration has been a fact of a human civilization for about a century, and that acceleration is itself accelerating to me that is the fundamental truth, right? And whether we yell at it or disagree with it, it is happ",
@@ -23949,7 +24049,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Rapid technological acceleration has been a fact of a human civilization for about a century, and that acceleration is itself accelerating to me that is the fundamental truth, right? And whether we yell at it or disagree with it, it is happ",
@@ -24397,7 +24497,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "I was resigned to not challenging myself to build technical or hard things for like the next five years or so. I really want to be present with my kids. I need to take this break basically. That is no longer true. Weird super power of mine",
@@ -24457,7 +24557,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in AI companies that are positioned to benefit from the rapid growth and valuation in the industry, and consider the broader implications of AI on the future of work and social structures.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-14 \u2022 Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
     "last_proof_snippet": "It's the Musk versus Altman lawsuit. Musk has sued OpenAI for $100 billion. But I kind of figured, behind the scenes, they don't actually hate each other. These guys actually hate each other to the, like, extreme. OpenAI's valued at 70 time",
@@ -24521,7 +24621,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-14 \u2022 \"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
     "last_proof_snippet": "Today's episode is brought to you by PeakTay asset management and their AI enhanced ETF range, ticker's PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. Hel",
@@ -24704,7 +24804,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "The diffusion of AI capability is going to take longer than people in Silicon Valley realized. It's just absurd to think you're going to vibe could your way like SAP. All of that domain knowledge, it's not just represented in some well orch",
@@ -24833,7 +24933,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in sectors likely to benefit from increased inflation and supply chain disruptions, with a focus on energy, uranium, and domestic electrical infrastructure.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-16 \u2022 MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -25215,7 +25315,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in technologies and platforms that leverage cryptography and blockchain to provide verifiable information and restore trust in digital content.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-22 \u2022 Balaji Srinivasan: Prove Correct, Not Just Go Direct",
     "last_proof_snippet": "We don't just want to go direct, we want to prove correct. And a sense what the blockchain is is like an armored car for information, we can transport that information on chain. So easy to verify difficult to fake becomes a critical thing i",
@@ -25276,7 +25376,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show you'll hear more about hfgm currently the number one morning star rated funds it's its inception in the U.S. macro trading category. Let",
@@ -25712,7 +25812,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The world is going to need platforms that support billions of transactions per second, billions of transactions per second, which no payment rail or a platform does today. Where we think things will go is just there will be a huge amount of",
@@ -25777,7 +25877,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investment in the biotech sector may need to consider the geographic shift towards China for innovation and efficiency in drug development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-29 \u2022 The Shift in Global Drug Development",
     "last_proof_snippet": "America is 4% of the world's population. It's about 13% of all the drug buying, but it's also more than half of the sales in terms of dollar amounts. So it's huge. And this is a big advantage because like, you know, innovation does respond",
@@ -26008,6 +26108,66 @@ const dashboardData = {
       ]
     },
     "net_worth": "$10.10B"
+  },
+  {
+    "id": 218,
+    "name": "Joe Schmidt",
+    "slug": "joe-schmidt",
+    "bio": "Joe Schmidt is a partner on the enterprise team at A16Z, focusing on enterprise software investments. He is known for his insights on the future of enterprise software and the potential for disruption.",
+    "known_for": "His expertise in enterprise software investments and his views on the disruption potential in the industry.",
+    "net_worth_usd": 21000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/168447/joseph-h-schmidt",
+    "net_worth_updated_at": "2026-04-30T22:03:04.038566",
+    "voice_tone": "Analytical and insightful",
+    "voice_style": "Joe presents a balanced view, acknowledging the strengths of incumbents while identifying areas of potential disruption.",
+    "voice_delivery_notes": "Speaks with conviction about the potential for new enterprise software platforms to disrupt the status quo.",
+    "voice_profile_updated_at": "2026-05-01 03:02:39",
+    "last_seen": "2026-05-01 03:02:39",
+    "last_episode_title": "Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-30",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-30 \u2022 Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
+    "last_proof_snippet": "No one likes doing like these crazy tasks inside of Workday, no employee likes interacting with Workday, no one wants to go into this portal. And so if you can go out there and solve these problems, there's a huge potty to go after. If you",
+    "supporting_takeaway": "AI is creating new opportunities to rethink how enterprise systems work, potentially leading to a platform shift.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-30T22:03:02.809044",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Joe Schmidt",
+      "fetched_at": "2026-05-01T03:03:02.808625+00:00",
+      "cliff_notes": "Joe Schmidt is a partner on the enterprise team at Andreessen Horowitz (A16Z), a venture capital firm that invests in technology companies. His focus is on enterprise software investments, where he leverages his deep understanding of the industry to identify and support innovative companies that have the potential to disrupt traditional enterprise software solutions. Schmidt's career has been centered around the intersection of technology and business, with a particular emphasis on how emerging technologies can transform enterprise operations. His work at A16Z has positioned him as a thought leader in the space, as he actively engages with the challenges and opportunities presented by the evolving landscape of enterprise software.",
+      "derived": {
+        "current_role": "Partner on the enterprise team at A16Z"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Joe Schmidt is a partner on the enterprise team at Andreessen Horowitz (A16Z), a venture capital firm that invests in technology companies. His focus is on enterprise software investments, where he leverages his deep understanding of the industry to identify and support innovative companies that have the potential to disrupt traditional enterprise software solutions.",
+        "Schmidt's career has been centered around the intersection of technology and business, with a particular emphasis on how emerging technologies can transform enterprise operations. His work at A16Z has positioned him as a thought leader in the space, as he actively engages with the challenges and opportunities presented by the evolving landscape of enterprise software."
+      ],
+      "sections": [
+        {
+          "heading": "Enterprise Software Disruption",
+          "body": "Joe Schmidt is recognized for his insights into how new technologies, particularly AI, can disrupt traditional enterprise software platforms, leading to a rethinking of how these systems operate."
+        },
+        {
+          "heading": "Investment Strategy",
+          "body": "Schmidt plays a pivotal role in shaping A16Z's investment strategy within the enterprise software sector, focusing on identifying startups that can challenge established players like Workday and Salesforce."
+        },
+        {
+          "heading": "Platform Shifts",
+          "body": "He discusses the impact of platform shifts, such as the transition to cloud computing in the 2000s and the current wave of AI, on the enterprise software landscape, highlighting the opportunities these shifts create for new entrants."
+        }
+      ]
+    },
+    "net_worth": "$21.0M"
   }
 ]
 };

@@ -1,5 +1,24 @@
 [
   {
+    "id": 188,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
+    "episode_date": "2026-04-30",
+    "summary": "In this episode of 'The a16z Show', Elena Berger interviews Joe Schmidt, a partner on the enterprise team at A16Z, to discuss the cracks appearing in enterprise software companies like Workday. They explore the challenges of replacing entrenched systems, the impact of AI on enterprise software, and the opportunities for new platforms to disrupt the status quo. Joe shares insights on why enterprises may be ready for a change and the potential for new solutions to offer significant improvements over existing systems.",
+    "key_takeaways": [
+      "Enterprise software platforms like Workday, while deeply embedded and defensible, are showing signs of cracks.",
+      "AI is creating new opportunities to rethink how enterprise systems work, potentially leading to a platform shift.",
+      "The experience of using enterprise software like Workday has not fundamentally changed since 2005, despite technological advancements.",
+      "New point solutions built on top of core backend systems are becoming more common as innovation moves away from core primitives.",
+      "Enterprises may be reaching a tipping point where they are ready to replace entrenched systems with new solutions that offer a better user experience.",
+      "There is a significant opportunity for new software to disrupt the current enterprise software landscape by solving existing problems more effectively."
+    ],
+    "investment_thesis": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
+    "key_tickers": [
+      "WORK"
+    ]
+  },
+  {
     "id": 187,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",

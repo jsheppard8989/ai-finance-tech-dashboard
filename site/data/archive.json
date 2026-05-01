@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 203,
+      "title": "Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-30",
+      "summary": "In this episode of 'The a16z Show', Elena Berger interviews Joe Schmidt, a partner on the enterprise team at A16Z, to discuss the cracks appearing in enterprise software companies like Workday. They explore the challenges of replacing entrenched systems, the impact of AI on enterprise software, and the opportunities for new platforms to disrupt the status quo. Joe shares insights on why enterprises may be ready for a change and the potential for new solutions to offer significant improvements over existing systems.",
+      "key_takeaway": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
+      "tickers_mentioned": [
+        "WORK"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 188
+    },
+    {
       "id": 199,
       "title": "The Shift in Global Drug Development",
       "source_type": "podcast",
@@ -139,11 +158,11 @@
         "N/A"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-28",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-05-01",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 181
     },
     {
@@ -3693,6 +3712,20 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 143,
+      "term": "Cross-Solver Tensions",
+      "description": "The challenges faced by companies that try to replace multiple functionalities within a single platform.",
+      "first_detected_date": "2026-05-01",
+      "last_mentioned_date": "2026-05-01",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the potential for new platforms that can address specific pain points within enterprise software more effectively than incumbents.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
     {
       "id": 136,
       "term": "Clinical Trial Reform",
