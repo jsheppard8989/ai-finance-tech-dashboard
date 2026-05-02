@@ -127,6 +127,16 @@ class DashboardDB:
             except sqlite3.OperationalError:
                 pass
 
+            try:
+                conn.execute("ALTER TABLE podcast_episodes ADD COLUMN rss_guid TEXT")
+            except sqlite3.OperationalError:
+                pass
+
+            suggested_terms_sql = SCHEMA_PATH.parent / "schema_suggested_terms.sql"
+            if suggested_terms_sql.exists():
+                with open(suggested_terms_sql, "r", encoding="utf-8") as f:
+                    conn.executescript(f.read())
+
             # Semantic layer tables: entities, appearances, ideas
             conn.execute("""
                 CREATE TABLE IF NOT EXISTS entities (

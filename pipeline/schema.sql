@@ -123,23 +123,25 @@ CREATE TABLE latest_insights (
     FOREIGN KEY (podcast_episode_id) REFERENCES podcast_episodes(id)
 );
 
--- Processing queue (for async processing)
-CREATE TABLE processing_queue (
-    -- Structured Deep Dive sections
-    overview TEXT,  -- Executive summary of the insight
-    key_takeaways_detailed TEXT,  -- JSON array of detailed bullet points
-    investment_thesis TEXT,  -- Detailed thesis breakdown
-    ticker_analysis TEXT,  -- JSON object with ticker-specific analysis
-    positioning_guidance TEXT,  -- How to position (long/short, timeframe, sizing)
-    risk_factors TEXT,  -- JSON array of risks to watch
-    contrarian_signals TEXT,  -- What makes this a contrarian play (if applicable)
-    catalysts TEXT,  -- JSON array of upcoming catalysts/timelines
-    related_insights TEXT,  -- JSON array of related insight IDs
-    -- Source metadata
-    audio_timestamp_start TEXT,  -- Where in podcast this starts
-    audio_timestamp_end TEXT,  -- Where in podcast this ends
-    transcript_excerpt TEXT,  -- Relevant transcript section
-    -- Management
+-- Deep Dive structured content (one row per curated insight modal)
+CREATE TABLE deep_dive_content (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    insight_id INTEGER NOT NULL,
+    podcast_episode_id INTEGER,
+    overview TEXT,
+    key_takeaways_detailed TEXT,
+    investment_thesis TEXT,
+    ticker_analysis TEXT,
+    positioning_guidance TEXT,
+    risk_factors TEXT,
+    contrarian_signals TEXT,
+    catalysts TEXT,
+    related_insights TEXT,
+    audio_timestamp_start TEXT,
+    audio_timestamp_end TEXT,
+    transcript_excerpt TEXT,
+    episode_evidence TEXT,
+    falsification_tracks TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (insight_id) REFERENCES latest_insights(id) ON DELETE CASCADE,
