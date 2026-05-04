@@ -1,28 +1,30 @@
 {
-  "generated_at": "2026-05-03T21:06:00.445422",
-  "last_updated": "2026-05-03T21:06:00.445422",
-  "last_pipeline_run": "2026-05-03T21:06:00.445422",
+  "generated_at": "2026-05-03T21:10:45.167513",
+  "last_updated": "2026-05-03T21:10:45.167513",
+  "last_pipeline_run": "2026-05-03T21:10:45.167513",
   "main_page": {
     "overton": 8,
     "insights": 8,
-    "pundits": 119
+    "pundits": 122
   },
   "counts": {
-    "ticker_mentions": 168,
-    "podcast_episodes": 164,
+    "ticker_mentions": 171,
+    "podcast_episodes": 168,
     "newsletters": 7,
     "daily_scores": 106,
-    "overton_terms_total": 139,
-    "latest_insights_total": 178,
-    "today_mentions": {},
-    "podcasts_analyzed": 0
+    "overton_terms_total": 145,
+    "latest_insights_total": 182,
+    "today_mentions": {
+      "podcast": 3
+    },
+    "podcasts_analyzed": 4
   },
   "step_results": {
     "downloaded": 4,
     "transcribed": 3,
-    "analyzed": 0,
-    "insight_created": 0,
-    "published": 0,
+    "analyzed": 3,
+    "insight_created": 3,
+    "published": 3,
     "total": 4
   },
   "episodes": [
@@ -35,16 +37,12 @@
       "stages": {
         "downloaded": true,
         "transcribed": true,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_analysis"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "88e1f47c-450a-11f1-8862-4b4703826cfa",
@@ -76,16 +74,12 @@
       "stages": {
         "downloaded": true,
         "transcribed": true,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_analysis"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "b5c14c82-4550-4947-89d6-b6268716e6d3",
@@ -96,58 +90,24 @@
       "stages": {
         "downloaded": true,
         "transcribed": true,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_analysis"
+      "stage_reasons": {},
+      "status": "complete"
     }
   ],
   "available_from_rss": [
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
-      "published": "Fri, 01 May 2026 16:08:00 -0000",
-      "published_date": "2026-05-01",
-      "rss_guid": ""
-    },
     {
       "podcast": "Monetary Matters with Jack Farley",
       "title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
       "published": "Fri, 01 May 2026 03:04:00 -0000",
       "published_date": "2026-05-01",
       "rss_guid": ""
-    },
-    {
-      "podcast": "The a16z Show",
-      "title": "Balaji and Taylor Lorenz on AI and Media",
-      "published": "Fri, 1 May 2026 10:00:21 +0000",
-      "published_date": "2026-05-01",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "OpenAI Misses Targets, Codex vs Claude, Elon vs Sam Trial, Big Hyperscaler Beats, Peptide Craze",
-      "published": "Fri, 01 May 2026 21:37:00 +0000",
-      "published_date": "2026-05-01",
-      "rss_guid": ""
     }
   ],
   "stale_episodes": [
-    {
-      "id": "0fcfe12a-4578-11f1-91d7-fb6a0ee583e5",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
-      "status": "needs_analysis",
-      "published": "2026-05-01",
-      "age_days": 2,
-      "next_blocker": "analyzed"
-    },
     {
       "id": "88e1f47c-450a-11f1-8862-4b4703826cfa",
       "podcast": "Monetary Matters with Jack Farley",
@@ -156,24 +116,6 @@
       "published": "2026-05-01",
       "age_days": 2,
       "next_blocker": "transcribed"
-    },
-    {
-      "id": "80623c8b-f312-4532-8149-458a50621a43",
-      "podcast": "The a16z Show",
-      "title": "Balaji and Taylor Lorenz on AI and Media",
-      "status": "needs_analysis",
-      "published": "2026-05-01",
-      "age_days": 2,
-      "next_blocker": "analyzed"
-    },
-    {
-      "id": "b5c14c82-4550-4947-89d6-b6268716e6d3",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "OpenAI Misses Targets, Codex vs Claude, Elon vs Sam Trial, Big Hyperscaler Beats, Peptide Craze",
-      "status": "needs_analysis",
-      "published": "2026-05-01",
-      "age_days": 2,
-      "next_blocker": "analyzed"
     }
   ],
   "stale_threshold_days": 2,

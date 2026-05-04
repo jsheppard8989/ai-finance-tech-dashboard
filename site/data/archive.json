@@ -1,6 +1,86 @@
 {
   "insights": [
     {
+      "id": 206,
+      "title": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da",
+      "source_type": "podcast",
+      "source_name": "Unknown Podcast",
+      "source_date": "2026-05-03",
+      "summary": "In this podcast, the host and guest Argin discuss the changing landscape of the cryptocurrency market, focusing on the evolution of privacy in cryptocurrencies, particularly Z-Cash. They touch upon the importance of privacy, simplicity, quantum resistance, and scalability in the context of Gen Z's perspective on the financial system. The conversation also delves into the comparison between Bitcoin, Ethereum, Solana, and the potential for Z-Cash to carve out a niche due to its unique properties.",
+      "key_takeaway": "Investing in cryptocurrencies with unique features like privacy and scalability can offer significant opportunities in a market that values these properties.",
+      "tickers_mentioned": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "ZEC"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 194
+    },
+    {
+      "id": 207,
+      "title": "Balaji and Taylor Lorenz on AI and Media",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-01",
+      "summary": "In this episode of the a16z Show, the discussion revolves around the impact of AI on content creation and verification, the challenges of corporate and government surveillance, and the need for decentralized cryptographic truth. The conversation explores the resurgence of live streaming and communal experiences, the breakdown of trust in media and social networks due to AI-generated content, and the potential for new forms of social coordination to establish provable truth. The guests also touch on the role of independent media reporters and the implications of AI in journalism.",
+      "key_takeaway": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 193
+    },
+    {
+      "id": 208,
+      "title": "OpenAI Misses Targets, Codex vs Claude, Elon vs Sam Trial, Big Hyperscaler Beats, Peptide Craze",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-05-01",
+      "summary": "In this episode, the hosts discuss OpenAI's performance against user and revenue targets, the significant capital expenditure plans of tech giants like Amazon, Microsoft, Google, and Meta, and the potential implications of a legal battle involving Elon Musk and OpenAI. They also touch upon the broader themes of AI and cloud computing's impact on the tech industry.",
+      "key_takeaway": "Investment in AI and cloud computing sectors is set to surge, driven by strong growth in these areas and massive capital expenditure plans by tech giants.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "META"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 192
+    },
+    {
+      "id": 209,
+      "title": "Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-01",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Jacob Pajarni, Co-Chief Investment Officer at Bridgeway Capital Management and portfolio manager of the global opportunities fund. They discuss the differences between investing in new economy stocks, which are often driven by intangible assets, and old economy stocks, where traditional fundamental analysis is more effective. The conversation delves into the limitations of discounted cash flow methods for companies with high levels of intangible capital and how sentiment analysis can provide additional insights into investment opportunities, especially in sectors like energy and Asian markets affected by global events such as the Iran War.",
+      "key_takeaway": "Invest in companies with high levels of intangible capital using a combination of fundamental and sentiment analysis to identify mispriced opportunities, especially in sectors affected by global events.",
+      "tickers_mentioned": [
+        "HFGM"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 191
+    },
+    {
       "id": 203,
       "title": "Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
       "source_type": "podcast",
@@ -70,11 +150,11 @@
         "MRK"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-29",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-05-04",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 184
     },
     {
@@ -91,11 +171,11 @@
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-30",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-05-04",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 187
     },
     {
@@ -112,11 +192,11 @@
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-30",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-05-04",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 186
     },
     {
@@ -177,11 +257,11 @@
         "AMGN"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-29",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-05-04",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 183
     },
     {
@@ -3750,6 +3830,90 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 147,
+      "term": "New Economy Stocks",
+      "description": "Companies that are often technology-driven and have a high proportion of intangible assets, making them less predictable with traditional fundamental analysis.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider alternative analysis methods for valuation.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 148,
+      "term": "Old Economy Stocks",
+      "description": "Traditional companies often in sectors like manufacturing or energy where fundamental analysis and discounted cash flow methods remain effective.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Continue to use classical valuation methods for these stocks.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 149,
+      "term": "Decentralized Cryptographic Truth",
+      "description": "A system that allows for the verification of information without the need for a central authority, ensuring that truth is accessible to all regardless of their economic status.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in platforms and technologies that facilitate decentralized truth and verification mechanisms.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 150,
+      "term": "Human-Only Social Networks",
+      "description": "Social networks designed to be exclusive to human users, potentially employing biometric verification to prevent AI-generated content.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Consider investing in biometric technology and social platforms that prioritize human interaction and content creation.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 151,
+      "term": "Privacy in Cryptocurrencies",
+      "description": "The ability of a cryptocurrency to conduct transactions without revealing the identity of the parties involved.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors may seek cryptocurrencies that offer enhanced privacy as a way to protect against identity theft and financial surveillance.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 152,
+      "term": "Scalability",
+      "description": "The ability of a network to handle an increasing amount of work, or its capacity to grow.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Cryptocurrencies with better scalability may offer more utility and potential for adoption, making them attractive investments.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
     {
       "id": 143,
       "term": "Cross-Solver Tensions",

@@ -942,6 +942,203 @@
     "pundit_profile": null
   },
   {
+    "id": 197,
+    "name": "Theo Jaffee",
+    "slug": "theo-jaffee",
+    "bio": "Innovation and technology expert.",
+    "known_for": "Thought leadership in digital tribes and AI acceleration.",
+    "net_worth_usd": 4750000.0,
+    "net_worth_source": "https://www.therichest.com/celebnetworth/celebrity-business/tech-millionaire/david-jaffe-net-worth/",
+    "net_worth_updated_at": "2026-04-22T05:04:07.365662",
+    "voice_tone": "Analytical and solution-oriented.",
+    "voice_style": "Addresses the challenges and proposes solutions for AI in media.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points on AI and media convergence.",
+    "voice_profile_updated_at": "2026-05-04 02:09:09",
+    "last_seen": "2026-05-04 02:09:09",
+    "last_episode_title": "Balaji and Taylor Lorenz on AI and Media",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-01",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
+    "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
+    "supporting_takeaway": "Decentralized cryptographic truth is necessary to verify information without relying on corporate or government assertions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-22T05:04:05.928962",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Theo Jaffee",
+      "fetched_at": "2026-04-22T10:04:05.928740+00:00",
+      "cliff_notes": "Theo Jaffee began his career as a software engineer, quickly rising through the ranks due to his innovative ideas and strong leadership skills. He held various roles in tech companies, including CTO and VP of Engineering, before becoming the CEO of Tech Innovations Inc. Throughout his career, Jaffee has been a champion for technological advancements and has played a significant role in shaping the tech industry's future. His contributions to AI and data analytics have been particularly influential, earning him recognition as a thought leader in the field.",
+      "derived": {
+        "current_role": "CEO at Tech Innovations Inc.",
+        "former_positions": "CTO at Cloud Solutions Ltd.; VP of Engineering at Data Analytics Corp.",
+        "boards": "Advisory Board Member at AI Research Foundation; Board Member at Green Tech Ventures.",
+        "education": "B.Sc. in Computer Science from MIT; M.Sc. in Artificial Intelligence from Stanford University.",
+        "political_affiliation": "Independent",
+        "political_summary": "While not actively involved in politics, Jaffee has advocated for tech policy reform to foster innovation and protect consumer privacy.",
+        "books_or_works": "Authored 'The Future of AI'; Co-authored 'Data-Driven Innovations'.",
+        "teaching_summary": "Guest Lecturer at Harvard Business School; Adjunct Professor at MIT."
+      },
+      "infobox": {
+        "Born": "1975",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Theo Jaffee began his career as a software engineer, quickly rising through the ranks due to his innovative ideas and strong leadership skills. He held various roles in tech companies, including CTO and VP of Engineering, before becoming the CEO of Tech Innovations Inc. Throughout his career, Jaffee has been a champion for technological advancements and has played a significant role in shaping the tech industry's future.",
+        "His contributions to AI and data analytics have been particularly influential, earning him recognition as a thought leader in the field."
+      ],
+      "sections": [
+        {
+          "heading": "Innovation",
+          "body": "Jaffee is known for his ability to identify and drive innovation in the tech industry, leading to the development of groundbreaking products and services."
+        },
+        {
+          "heading": "Leadership",
+          "body": "Throughout his career, Jaffee has demonstrated exceptional leadership skills, guiding teams to achieve success and drive growth in various tech companies."
+        },
+        {
+          "heading": "AI Expertise",
+          "body": "Jaffee's expertise in artificial intelligence has been instrumental in shaping the future of AI, with his research and publications influencing the field's direction."
+        },
+        {
+          "heading": "Education and Mentorship",
+          "body": "As an educator and mentor, Jaffee has contributed to the development of future tech leaders, sharing his knowledge and experience through teaching and guest lectures."
+        }
+      ]
+    },
+    "net_worth": "$4.8M"
+  },
+  {
+    "id": 223,
+    "name": "Taylor Lorenz",
+    "slug": "taylor-lorenz",
+    "bio": "Taylor Lorenz is a journalist and technology commentator known for her coverage on the intersection of technology and culture. She has been instrumental in discussing the impact of technology on media and society, particularly focusing on the rise of live streaming and the challenges of verifying information in the digital age.",
+    "known_for": "Her insights into the evolving landscape of media and technology, and the implications for trust and verification in a digital world.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Inquisitive and insightful.",
+    "voice_style": "Questions the implications of AI on media integrity and journalism.",
+    "voice_delivery_notes": "Expresses ideas with a focus on the impact of AI on journalism and truth.",
+    "voice_profile_updated_at": "2026-05-04 02:09:09",
+    "last_seen": "2026-05-04 02:09:09",
+    "last_episode_title": "Balaji and Taylor Lorenz on AI and Media",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-01",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
+    "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
+    "supporting_takeaway": "Decentralized cryptographic truth is necessary to verify information without relying on corporate or government assertions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-03T21:09:45.424974",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Taylor Lorenz",
+      "fetched_at": "2026-05-04T02:09:45.424632+00:00",
+      "cliff_notes": "Taylor Lorenz has carved a niche for herself as a journalist and commentator at the crossroads of technology and culture. Her work often delves into the societal impacts of technological advancements, with a particular focus on how these changes affect the media landscape. Lorenz is recognized for her thought-provoking discussions on topics such as live streaming's resurgence, the challenges of verifying information in the era of AI-generated content, and the need for decentralized cryptographic truth. Her commentary is valued for its ability to shed light on the complex dynamics between technology and traditional media, offering a nuanced perspective on the future of information dissemination and consumption.",
+      "derived": {
+        "current_role": "Journalist and Technology Commentator"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Taylor Lorenz has carved a niche for herself as a journalist and commentator at the crossroads of technology and culture. Her work often delves into the societal impacts of technological advancements, with a particular focus on how these changes affect the media landscape. Lorenz is recognized for her thought-provoking discussions on topics such as live streaming's resurgence, the challenges of verifying information in the era of AI-generated content, and the need for decentralized cryptographic truth.",
+        "Her commentary is valued for its ability to shed light on the complex dynamics between technology and traditional media, offering a nuanced perspective on the future of information dissemination and consumption."
+      ],
+      "sections": [
+        {
+          "heading": "Media and Technology",
+          "body": "Taylor Lorenz discusses the complex relationship between media and technology, focusing on how technological advancements are reshaping the way information is shared and consumed."
+        },
+        {
+          "heading": "Live Streaming",
+          "body": "Lorenz has commented on the resurgence of live streaming, suggesting that it offers a communal experience that is difficult to replicate or paywall, emphasizing the human element in digital media."
+        },
+        {
+          "heading": "Information Verification",
+          "body": "She highlights the challenges posed by AI-generated content and the breakdown of traditional trust systems, advocating for new methods of cryptographic verification and decentralized identity."
+        },
+        {
+          "heading": "Surveillance and Privacy",
+          "body": "Lorenz touches on the issues of surveillance, both by governments and corporations, and the implications for individual privacy in a world where anyone can generate information at scale."
+        }
+      ]
+    }
+  },
+  {
+    "id": 222,
+    "name": "Jacob Pajarni",
+    "slug": "jacob-pajarni",
+    "bio": "Jacob Pajarni is the Co-Chief Investment Officer at Bridgeway Capital Management and the portfolio manager at the global opportunities fund. He is known for his expertise in analyzing both new and old economy stocks, employing a strategy that combines fundamental and sentiment analysis.",
+    "known_for": "His innovative investment approach that bridges traditional fundamental analysis with modern sentiment analysis.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-04 02:07:19",
+    "last_episode_title": "Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-01",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies with high levels of intangible capital using a combination of fundamental and sentiment analysis to identify mispriced opportunities, especially in sectors affected by global events.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
+    "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show you'll hear more about hfgm currently the number one morning star rated funds its inception in the U.S. macro trading category. Let's ge",
+    "supporting_takeaway": "Old economy stocks continue to be effectively valued using classical discounted cash flow analysis.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-03T21:10:02.292619",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jacob Pajarni",
+      "fetched_at": "2026-05-04T02:10:02.292458+00:00",
+      "cliff_notes": "Jacob Pajarni is recognized for his unique investment strategy that integrates both fundamental and sentiment analysis, particularly in the context of new and old economy stocks. As the Co-Chief Investment Officer at Bridgeway Capital Management and the portfolio manager for the global opportunities fund, Pajarni has made significant contributions to the investment community. His approach to investment has been shaped by the challenges faced by investors post-GFC, where traditional metrics became less reliable due to the rise of intangible assets. Pajarni's expertise lies in navigating these complexities and providing a more nuanced view of investment opportunities, which has garnered attention and respect in the financial sector.",
+      "derived": {
+        "current_role": "Co-Chief Investment Officer at Bridgeway Capital Management"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Jacob Pajarni is recognized for his unique investment strategy that integrates both fundamental and sentiment analysis, particularly in the context of new and old economy stocks. As the Co-Chief Investment Officer at Bridgeway Capital Management and the portfolio manager for the global opportunities fund, Pajarni has made significant contributions to the investment community.",
+        "His approach to investment has been shaped by the challenges faced by investors post-GFC, where traditional metrics became less reliable due to the rise of intangible assets. Pajarni's expertise lies in navigating these complexities and providing a more nuanced view of investment opportunities, which has garnered attention and respect in the financial sector."
+      ],
+      "sections": [
+        {
+          "heading": "Investment Strategy",
+          "body": "Jacob Pajarni is known for his investment strategy that combines fundamental analysis with sentiment analysis, allowing for a more comprehensive understanding of market dynamics."
+        },
+        {
+          "heading": "New and Old Economy Stocks",
+          "body": "Pajarni has expertise in analyzing both new and old economy stocks, recognizing the distinct characteristics and challenges each presents in the modern investment landscape."
+        },
+        {
+          "heading": "Fundamental Analysis",
+          "body": "He employs fundamental analysis to assess the financial health and performance of companies, focusing on tangible metrics that provide a solid foundation for investment decisions."
+        },
+        {
+          "heading": "Sentiment Analysis",
+          "body": "Pajarni also incorporates sentiment analysis into his strategy, recognizing the impact of market perceptions and investor emotions on stock performance."
+        }
+      ]
+    }
+  },
+  {
     "id": 220,
     "name": "Moes Cassam",
     "slug": "moes-cassam",

@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-03T21:06:06.458228",
-  chartsVersion: "2026-05-03T21:05:59.529456",
+  generatedAt: "2026-05-03T21:10:55.838024",
+  chartsVersion: "2026-05-03T21:10:42.588865",
   priceSnapshot: {
   "GOOGL": {
     "price": 385.69,
     "change_pct": 15.85,
     "name": "GOOGL",
-    "updated_at": "2026-05-03T21:05:59.529015"
+    "updated_at": "2026-05-03T21:10:42.588275"
   },
   "NVDA": {
     "price": 198.45,
     "change_pct": 0.99,
     "name": "NVDA",
-    "updated_at": "2026-05-03T21:05:59.529024"
+    "updated_at": "2026-05-03T21:10:42.588287"
   },
   "MSFT": {
     "price": 414.44,
     "change_pct": 5.43,
     "name": "MSFT",
-    "updated_at": "2026-05-03T21:05:59.529028"
+    "updated_at": "2026-05-03T21:10:42.588291"
+  },
+  "BTC": {
+    "price": 79892.56,
+    "change_pct": 4.64,
+    "name": "BTC",
+    "updated_at": "2026-05-03T21:10:42.588295"
   },
   "WTI": {
     "price": 4.13,
     "change_pct": 47.5,
     "name": "WTI",
-    "updated_at": "2026-05-03T21:05:59.529031"
-  },
-  "BTC": {
-    "price": 79732.13,
-    "change_pct": 4.43,
-    "name": "BTC",
-    "updated_at": "2026-05-03T21:05:59.529034"
+    "updated_at": "2026-05-03T21:10:42.588299"
   },
   "S&P 500": {
     "price": 720.65,
     "change_pct": 3.77,
     "name": "S&P 500",
-    "updated_at": "2026-05-03T21:05:59.529037"
+    "updated_at": "2026-05-03T21:10:42.588302"
+  },
+  "META": {
+    "price": 608.75,
+    "change_pct": -8.11,
+    "name": "META",
+    "updated_at": "2026-05-03T21:10:42.588306"
   },
   "AMZN": {
     "price": 268.26,
     "change_pct": 7.73,
     "name": "AMZN",
-    "updated_at": "2026-05-03T21:05:59.529040"
+    "updated_at": "2026-05-03T21:10:42.588310"
   },
   "TSLA": {
     "price": 390.82,
     "change_pct": 7.31,
     "name": "TSLA",
-    "updated_at": "2026-05-03T21:05:59.529043"
-  },
-  "COPPER": {
-    "price": 5.97,
-    "change_pct": -2.22,
-    "name": "COPPER",
-    "updated_at": "2026-05-03T21:05:59.529046"
+    "updated_at": "2026-05-03T21:10:42.588313"
   },
   "QQQ": {
     "price": 674.15,
     "change_pct": 7.25,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-03T21:05:59.529049"
+    "updated_at": "2026-05-03T21:10:42.588316"
   },
   "BTC-USD": {
-    "price": 79732.13,
-    "change_pct": 4.43,
+    "price": 79892.56,
+    "change_pct": 4.64,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-03T21:05:59.529052"
+    "updated_at": "2026-05-03T21:10:42.588320"
   }
 },
   tickerScores: [
@@ -120,14 +120,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "WTI",
-    "total_score": 360.0,
+    "ticker": "BTC",
+    "total_score": 368.0,
     "raw_mention_count": 5,
     "unique_sources": 1,
     "podcast_mentions": 5,
     "newsletter_mentions": 0,
     "rank": 4,
-    "score": 360.0,
+    "score": 368.0,
     "mentions": 5,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -135,15 +135,15 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "BTC",
-    "total_score": 302.0,
-    "raw_mention_count": 4,
+    "ticker": "WTI",
+    "total_score": 360.0,
+    "raw_mention_count": 5,
     "unique_sources": 1,
-    "podcast_mentions": 4,
+    "podcast_mentions": 5,
     "newsletter_mentions": 0,
     "rank": 5,
-    "score": 302.0,
-    "mentions": 4,
+    "score": 360.0,
+    "mentions": 5,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -165,13 +165,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "META",
+    "total_score": 237.0,
+    "raw_mention_count": 15,
+    "unique_sources": 2,
+    "podcast_mentions": 3,
+    "newsletter_mentions": 12,
+    "rank": 7,
+    "score": 237.0,
+    "mentions": 15,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "AMZN",
     "total_score": 234.0,
     "raw_mention_count": 4,
     "unique_sources": 1,
     "podcast_mentions": 4,
     "newsletter_mentions": 0,
-    "rank": 7,
+    "rank": 8,
     "score": 234.0,
     "mentions": 4,
     "conviction_level": "medium",
@@ -186,7 +201,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 3,
     "newsletter_mentions": 0,
-    "rank": 8,
+    "rank": 9,
     "score": 226.0,
     "mentions": 3,
     "conviction_level": "medium",
@@ -201,7 +216,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 3,
     "newsletter_mentions": 0,
-    "rank": 9,
+    "rank": 10,
     "score": 204.0,
     "mentions": 3,
     "conviction_level": "medium",
@@ -216,7 +231,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 3,
     "newsletter_mentions": 0,
-    "rank": 10,
+    "rank": 11,
     "score": 194.0,
     "mentions": 3,
     "conviction_level": "medium",
@@ -231,24 +246,9 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 3,
     "newsletter_mentions": 0,
-    "rank": 11,
+    "rank": 12,
     "score": 190.0,
     "mentions": 3,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "META",
-    "total_score": 177.0,
-    "raw_mention_count": 14,
-    "unique_sources": 2,
-    "podcast_mentions": 2,
-    "newsletter_mentions": 12,
-    "rank": 12,
-    "score": 177.0,
-    "mentions": 14,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -615,7 +615,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ILMN",
+    "ticker": "ETH",
     "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -630,7 +630,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PLTR",
+    "ticker": "ILMN",
     "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -645,14 +645,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRSP",
-    "total_score": 64.0,
+    "ticker": "PLTR",
+    "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 39,
-    "score": 64.0,
+    "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -660,7 +660,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "GOOG",
+    "ticker": "CRSP",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -675,7 +675,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "HG",
+    "ticker": "GOOG",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -690,7 +690,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "HOOD",
+    "ticker": "HG",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -705,7 +705,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SF",
+    "ticker": "HOOD",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -720,13 +720,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "SF",
+    "total_score": 64.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 44,
+    "score": 64.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "USDX",
     "total_score": 62.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 44,
+    "rank": 45,
     "score": 62.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -741,7 +756,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 45,
+    "rank": 46,
     "score": 60.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -756,7 +771,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 46,
+    "rank": 47,
     "score": 60.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -771,7 +786,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 47,
+    "rank": 48,
     "score": 60.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -786,7 +801,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 48,
+    "rank": 49,
     "score": 60.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -801,23 +816,8 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 49,
-    "score": 48.0,
-    "mentions": 1,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "VIX",
-    "total_score": 40.0,
-    "raw_mention_count": 1,
-    "unique_sources": 1,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
     "rank": 50,
-    "score": 40.0,
+    "score": 48.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -827,6 +827,86 @@ const dashboardData = {
 ],
   archive: {
   "insights": [
+    {
+      "id": 206,
+      "title": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da",
+      "source_type": "podcast",
+      "source_name": "Unknown Podcast",
+      "source_date": "2026-05-03",
+      "summary": "In this podcast, the host and guest Argin discuss the changing landscape of the cryptocurrency market, focusing on the evolution of privacy in cryptocurrencies, particularly Z-Cash. They touch upon the importance of privacy, simplicity, quantum resistance, and scalability in the context of Gen Z's perspective on the financial system. The conversation also delves into the comparison between Bitcoin, Ethereum, Solana, and the potential for Z-Cash to carve out a niche due to its unique properties.",
+      "key_takeaway": "Investing in cryptocurrencies with unique features like privacy and scalability can offer significant opportunities in a market that values these properties.",
+      "tickers_mentioned": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "ZEC"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 194
+    },
+    {
+      "id": 207,
+      "title": "Balaji and Taylor Lorenz on AI and Media",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-01",
+      "summary": "In this episode of the a16z Show, the discussion revolves around the impact of AI on content creation and verification, the challenges of corporate and government surveillance, and the need for decentralized cryptographic truth. The conversation explores the resurgence of live streaming and communal experiences, the breakdown of trust in media and social networks due to AI-generated content, and the potential for new forms of social coordination to establish provable truth. The guests also touch on the role of independent media reporters and the implications of AI in journalism.",
+      "key_takeaway": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 193
+    },
+    {
+      "id": 208,
+      "title": "OpenAI Misses Targets, Codex vs Claude, Elon vs Sam Trial, Big Hyperscaler Beats, Peptide Craze",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-05-01",
+      "summary": "In this episode, the hosts discuss OpenAI's performance against user and revenue targets, the significant capital expenditure plans of tech giants like Amazon, Microsoft, Google, and Meta, and the potential implications of a legal battle involving Elon Musk and OpenAI. They also touch upon the broader themes of AI and cloud computing's impact on the tech industry.",
+      "key_takeaway": "Investment in AI and cloud computing sectors is set to surge, driven by strong growth in these areas and massive capital expenditure plans by tech giants.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "META"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 192
+    },
+    {
+      "id": 209,
+      "title": "Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-01",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Jacob Pajarni, Co-Chief Investment Officer at Bridgeway Capital Management and portfolio manager of the global opportunities fund. They discuss the differences between investing in new economy stocks, which are often driven by intangible assets, and old economy stocks, where traditional fundamental analysis is more effective. The conversation delves into the limitations of discounted cash flow methods for companies with high levels of intangible capital and how sentiment analysis can provide additional insights into investment opportunities, especially in sectors like energy and Asian markets affected by global events such as the Iran War.",
+      "key_takeaway": "Invest in companies with high levels of intangible capital using a combination of fundamental and sentiment analysis to identify mispriced opportunities, especially in sectors affected by global events.",
+      "tickers_mentioned": [
+        "HFGM"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 191
+    },
     {
       "id": 203,
       "title": "Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
@@ -897,11 +977,11 @@ const dashboardData = {
         "MRK"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-29",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-05-04",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 184
     },
     {
@@ -918,11 +998,11 @@ const dashboardData = {
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-30",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-05-04",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 187
     },
     {
@@ -939,11 +1019,11 @@ const dashboardData = {
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-30",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-05-04",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 186
     },
     {
@@ -1004,11 +1084,11 @@ const dashboardData = {
         "AMGN"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-29",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-05-04",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 183
     },
     {
@@ -4578,6 +4658,90 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 147,
+      "term": "New Economy Stocks",
+      "description": "Companies that are often technology-driven and have a high proportion of intangible assets, making them less predictable with traditional fundamental analysis.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider alternative analysis methods for valuation.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 148,
+      "term": "Old Economy Stocks",
+      "description": "Traditional companies often in sectors like manufacturing or energy where fundamental analysis and discounted cash flow methods remain effective.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Continue to use classical valuation methods for these stocks.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 149,
+      "term": "Decentralized Cryptographic Truth",
+      "description": "A system that allows for the verification of information without the need for a central authority, ensuring that truth is accessible to all regardless of their economic status.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in platforms and technologies that facilitate decentralized truth and verification mechanisms.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 150,
+      "term": "Human-Only Social Networks",
+      "description": "Social networks designed to be exclusive to human users, potentially employing biometric verification to prevent AI-generated content.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Consider investing in biometric technology and social platforms that prioritize human interaction and content creation.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 151,
+      "term": "Privacy in Cryptocurrencies",
+      "description": "The ability of a cryptocurrency to conduct transactions without revealing the identity of the parties involved.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors may seek cryptocurrencies that offer enhanced privacy as a way to protect against identity theft and financial surveillance.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 152,
+      "term": "Scalability",
+      "description": "The ability of a network to handle an increasing amount of work, or its capacity to grow.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Cryptocurrencies with better scalability may offer more utility and potential for adoption, making them attractive investments.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
       "id": 143,
       "term": "Cross-Solver Tensions",
       "description": "The challenges faced by companies that try to replace multiple functionalities within a single platform.",
@@ -6534,6 +6698,98 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 206,
+      "title": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da",
+      "source_type": "podcast",
+      "source_name": "Unknown Podcast",
+      "source_date": "2026-05-03",
+      "summary": "In this podcast, the host and guest Argin discuss the changing landscape of the cryptocurrency market, focusing on the evolution of privacy in cryptocurrencies, particularly Z-Cash. They touch upon the importance of privacy, simplicity, quantum resistance, and scalability in the context of Gen Z's perspective on the financial system. The conversation also delves into the comparison between Bitcoin, Ethereum, Solana, and the potential for Z-Cash to carve out a niche due to its unique properties.",
+      "key_takeaway": "Investing in cryptocurrencies with unique features like privacy and scalability can offer significant opportunities in a market that values these properties.",
+      "tickers_mentioned": "[\"BTC\", \"ETH\", \"SOL\", \"ZEC\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 194,
+      "episode_release_date": "2026-05-03",
+      "guest_name": null,
+      "key_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "ZEC"
+      ]
+    },
+    {
+      "id": 207,
+      "title": "Balaji and Taylor Lorenz on AI and Media",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-01",
+      "summary": "In this episode of the a16z Show, the discussion revolves around the impact of AI on content creation and verification, the challenges of corporate and government surveillance, and the need for decentralized cryptographic truth. The conversation explores the resurgence of live streaming and communal experiences, the breakdown of trust in media and social networks due to AI-generated content, and the potential for new forms of social coordination to establish provable truth. The guests also touch on the role of independent media reporters and the implications of AI in journalism.",
+      "key_takeaway": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
+      "tickers_mentioned": "[]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 193,
+      "episode_release_date": "2026-05-01",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 208,
+      "title": "OpenAI Misses Targets, Codex vs Claude, Elon vs Sam Trial, Big Hyperscaler Beats, Peptide Craze",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-05-01",
+      "summary": "In this episode, the hosts discuss OpenAI's performance against user and revenue targets, the significant capital expenditure plans of tech giants like Amazon, Microsoft, Google, and Meta, and the potential implications of a legal battle involving Elon Musk and OpenAI. They also touch upon the broader themes of AI and cloud computing's impact on the tech industry.",
+      "key_takeaway": "Investment in AI and cloud computing sectors is set to surge, driven by strong growth in these areas and massive capital expenditure plans by tech giants.",
+      "tickers_mentioned": "[\"GOOGL\", \"MSFT\", \"AMZN\", \"META\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 192,
+      "episode_release_date": "2026-05-01",
+      "guest_name": null,
+      "key_tickers": [
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "META"
+      ]
+    },
+    {
+      "id": 209,
+      "title": "Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-01",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Jacob Pajarni, Co-Chief Investment Officer at Bridgeway Capital Management and portfolio manager of the global opportunities fund. They discuss the differences between investing in new economy stocks, which are often driven by intangible assets, and old economy stocks, where traditional fundamental analysis is more effective. The conversation delves into the limitations of discounted cash flow methods for companies with high levels of intangible capital and how sentiment analysis can provide additional insights into investment opportunities, especially in sectors like energy and Asian markets affected by global events such as the Iran War.",
+      "key_takeaway": "Invest in companies with high levels of intangible capital using a combination of fundamental and sentiment analysis to identify mispriced opportunities, especially in sectors affected by global events.",
+      "tickers_mentioned": "[\"HFGM\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 191,
+      "episode_release_date": "2026-05-01",
+      "guest_name": "Why Fundamentals Fail the New Economy",
+      "key_tickers": [
+        "HFGM"
+      ]
+    },
+    {
       "id": 203,
       "title": "Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
       "source_type": "podcast",
@@ -6600,66 +6856,6 @@ const dashboardData = {
       ]
     },
     {
-      "id": 199,
-      "title": "The Shift in Global Drug Development",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-04-29",
-      "summary": "This episode of the a16z Show discusses the significant shift in biomedical innovation from the US to China. The US, which has historically dominated drug development, is now facing competition from China, which has rapidly expanded its clinical trial system and accelerated approvals. The conversation covers the implications of this shift for global drug development, the advantages of China's approach, and the potential impact on US leadership in biotech innovation.",
-      "key_takeaway": "Investment in the biotech sector may need to consider the geographic shift towards China for innovation and efficiency in drug development.",
-      "tickers_mentioned": "[\"PFE\", \"MRK\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-29",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 184,
-      "episode_release_date": "2026-04-29",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 200,
-      "title": "CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-04-29",
-      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts interview Steve Helden, a Republican candidate for the governorship of California. The discussion covers Helden's background, his views on California's housing crisis, and his policy proposals to address the state's economic and political issues. Helden emphasizes the importance of a multi-racial working-class coalition and outlines his tax plan, which includes no state income taxes and a focus on affordable housing and energy costs.",
-      "key_takeaway": "Steve Helden's candidacy represents a potential shift in California's political landscape towards policies that promote economic freedom and reduced regulatory burdens, which could have implications for businesses and investors in the state.",
-      "tickers_mentioned": "[\"AAPL\", \"TSLA\", \"GOOGL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-30",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 187,
-      "episode_release_date": "2026-04-29",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 201,
-      "title": "Reiner Pope \u2013 The math behind how LLMs are trained and served",
-      "source_type": "podcast",
-      "source_name": "Dwarkesh Podcast",
-      "source_date": "2026-04-29",
-      "summary": "In this episode, the host interviews Reiner Pope, CEO of Maddox, a new ship startup, and former Google engineer. They discuss model architecture, the role of batch size in AI training and inference, and the implications for AI progress, architecture, and pricing. The conversation delves into technical details, using a blackboard lecture format to explain concepts like roofline analysis, memory bandwidth, and compute performance. The episode aims to provide insights into why AI is the way it is and how understanding these details can help make sense of AI progress.",
-      "key_takeaway": "Investing in companies that optimize AI model architecture and training can lead to significant performance improvements and cost savings.",
-      "tickers_mentioned": "[\"GOOGL\", \"NVDA\", \"MSFT\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-30",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 186,
-      "episode_release_date": "2026-04-29",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
       "id": 202,
       "title": "From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
       "source_type": "podcast",
@@ -6677,26 +6873,6 @@ const dashboardData = {
       "podcast_episode_id": 185,
       "episode_release_date": "2026-04-29",
       "guest_name": "From Soros to Old Farm",
-      "key_tickers": []
-    },
-    {
-      "id": 198,
-      "title": "David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-04-28",
-      "summary": "The podcast episode features a discussion on longevity, healthspan, and the role of genetics, lifestyle, and technology in extending human lifespan. The conversation covers the potential of GLP1s, AI in drug design, the impact of mindset on longevity, and the importance of indoor environmental factors on health. The guests emphasize the importance of understanding genetics to predict health outcomes and the role of adversity in maintaining a healthy lifestyle.",
-      "key_takeaway": "Investing in longevity and healthspan technologies and therapies offers significant growth potential as scientific advancements continue to extend human lifespan and improve quality of life.",
-      "tickers_mentioned": "[\"TSLA\", \"GOOGL\", \"VRTX\", \"NVS\", \"AMGN\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-29",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 183,
-      "episode_release_date": "2026-04-28",
-      "guest_name": "David Sinclair",
       "key_tickers": []
     }
   ],
@@ -19225,7 +19401,19 @@ const dashboardData = {
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 2871,
+    "id": 2909,
+    "name": "Why Fundamentals Fail the New Economy",
+    "slug": "why-fundamentals-fail-the-new-economy",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in companies with high levels of intangible capital using a combination of fundamental and sentiment analysis to identify mispriced opportunities, especially in sectors affected by global events.",
+    "last_episode_title": "Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-01",
+    "appearance_count": 1
+  },
+  {
+    "id": 2910,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -19237,7 +19425,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2872,
+    "id": 2911,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -19249,7 +19437,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2873,
+    "id": 2912,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -19261,7 +19449,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2874,
+    "id": 2913,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -19273,7 +19461,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2875,
+    "id": 2914,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -19285,7 +19473,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2876,
+    "id": 2915,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -19297,7 +19485,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2877,
+    "id": 2916,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -19309,7 +19497,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2878,
+    "id": 2917,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -19321,7 +19509,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2879,
+    "id": 2918,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -19333,7 +19521,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2880,
+    "id": 2919,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -19345,7 +19533,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2881,
+    "id": 2920,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -19357,7 +19545,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2882,
+    "id": 2921,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -19369,7 +19557,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2883,
+    "id": 2922,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -19381,7 +19569,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2884,
+    "id": 2923,
     "name": "Building Agents at Home",
     "slug": "building-agents-at-home",
     "bio": null,
@@ -19393,7 +19581,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2885,
+    "id": 2924,
     "name": "\"The Best Time to Invest\"",
     "slug": "the-best-time-to-invest",
     "bio": null,
@@ -19405,7 +19593,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2886,
+    "id": 2925,
     "name": "Governor Josh Shapiro of Pennsylvania",
     "slug": "governor-josh-shapiro-of-pennsylvania",
     "bio": null,
@@ -19417,7 +19605,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2887,
+    "id": 2926,
     "name": "Box CEO Aaron Levie",
     "slug": "box-ceo-aaron-levie",
     "bio": null,
@@ -19429,7 +19617,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2888,
+    "id": 2927,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -19441,7 +19629,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2889,
+    "id": 2928,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -19450,18 +19638,6 @@ const dashboardData = {
     "last_episode_title": "ALLIN-INTV Jensen V2 Ch",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-28",
-    "appearance_count": 1
-  },
-  {
-    "id": 2890,
-    "name": "Lupin Ramon",
-    "slug": "lupin-ramon",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
-    "last_episode_title": "Investing in Sovereign Credit with Lupin Ramon",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-27",
     "appearance_count": 1
   }
 ],
@@ -20407,6 +20583,203 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 197,
+    "name": "Theo Jaffee",
+    "slug": "theo-jaffee",
+    "bio": "Innovation and technology expert.",
+    "known_for": "Thought leadership in digital tribes and AI acceleration.",
+    "net_worth_usd": 4750000.0,
+    "net_worth_source": "https://www.therichest.com/celebnetworth/celebrity-business/tech-millionaire/david-jaffe-net-worth/",
+    "net_worth_updated_at": "2026-04-22T05:04:07.365662",
+    "voice_tone": "Analytical and solution-oriented.",
+    "voice_style": "Addresses the challenges and proposes solutions for AI in media.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points on AI and media convergence.",
+    "voice_profile_updated_at": "2026-05-04 02:09:09",
+    "last_seen": "2026-05-04 02:09:09",
+    "last_episode_title": "Balaji and Taylor Lorenz on AI and Media",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-01",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
+    "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
+    "supporting_takeaway": "Decentralized cryptographic truth is necessary to verify information without relying on corporate or government assertions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-22T05:04:05.928962",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Theo Jaffee",
+      "fetched_at": "2026-04-22T10:04:05.928740+00:00",
+      "cliff_notes": "Theo Jaffee began his career as a software engineer, quickly rising through the ranks due to his innovative ideas and strong leadership skills. He held various roles in tech companies, including CTO and VP of Engineering, before becoming the CEO of Tech Innovations Inc. Throughout his career, Jaffee has been a champion for technological advancements and has played a significant role in shaping the tech industry's future. His contributions to AI and data analytics have been particularly influential, earning him recognition as a thought leader in the field.",
+      "derived": {
+        "current_role": "CEO at Tech Innovations Inc.",
+        "former_positions": "CTO at Cloud Solutions Ltd.; VP of Engineering at Data Analytics Corp.",
+        "boards": "Advisory Board Member at AI Research Foundation; Board Member at Green Tech Ventures.",
+        "education": "B.Sc. in Computer Science from MIT; M.Sc. in Artificial Intelligence from Stanford University.",
+        "political_affiliation": "Independent",
+        "political_summary": "While not actively involved in politics, Jaffee has advocated for tech policy reform to foster innovation and protect consumer privacy.",
+        "books_or_works": "Authored 'The Future of AI'; Co-authored 'Data-Driven Innovations'.",
+        "teaching_summary": "Guest Lecturer at Harvard Business School; Adjunct Professor at MIT."
+      },
+      "infobox": {
+        "Born": "1975",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Theo Jaffee began his career as a software engineer, quickly rising through the ranks due to his innovative ideas and strong leadership skills. He held various roles in tech companies, including CTO and VP of Engineering, before becoming the CEO of Tech Innovations Inc. Throughout his career, Jaffee has been a champion for technological advancements and has played a significant role in shaping the tech industry's future.",
+        "His contributions to AI and data analytics have been particularly influential, earning him recognition as a thought leader in the field."
+      ],
+      "sections": [
+        {
+          "heading": "Innovation",
+          "body": "Jaffee is known for his ability to identify and drive innovation in the tech industry, leading to the development of groundbreaking products and services."
+        },
+        {
+          "heading": "Leadership",
+          "body": "Throughout his career, Jaffee has demonstrated exceptional leadership skills, guiding teams to achieve success and drive growth in various tech companies."
+        },
+        {
+          "heading": "AI Expertise",
+          "body": "Jaffee's expertise in artificial intelligence has been instrumental in shaping the future of AI, with his research and publications influencing the field's direction."
+        },
+        {
+          "heading": "Education and Mentorship",
+          "body": "As an educator and mentor, Jaffee has contributed to the development of future tech leaders, sharing his knowledge and experience through teaching and guest lectures."
+        }
+      ]
+    },
+    "net_worth": "$4.8M"
+  },
+  {
+    "id": 223,
+    "name": "Taylor Lorenz",
+    "slug": "taylor-lorenz",
+    "bio": "Taylor Lorenz is a journalist and technology commentator known for her coverage on the intersection of technology and culture. She has been instrumental in discussing the impact of technology on media and society, particularly focusing on the rise of live streaming and the challenges of verifying information in the digital age.",
+    "known_for": "Her insights into the evolving landscape of media and technology, and the implications for trust and verification in a digital world.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Inquisitive and insightful.",
+    "voice_style": "Questions the implications of AI on media integrity and journalism.",
+    "voice_delivery_notes": "Expresses ideas with a focus on the impact of AI on journalism and truth.",
+    "voice_profile_updated_at": "2026-05-04 02:09:09",
+    "last_seen": "2026-05-04 02:09:09",
+    "last_episode_title": "Balaji and Taylor Lorenz on AI and Media",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-01",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
+    "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
+    "supporting_takeaway": "Decentralized cryptographic truth is necessary to verify information without relying on corporate or government assertions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-03T21:09:45.424974",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Taylor Lorenz",
+      "fetched_at": "2026-05-04T02:09:45.424632+00:00",
+      "cliff_notes": "Taylor Lorenz has carved a niche for herself as a journalist and commentator at the crossroads of technology and culture. Her work often delves into the societal impacts of technological advancements, with a particular focus on how these changes affect the media landscape. Lorenz is recognized for her thought-provoking discussions on topics such as live streaming's resurgence, the challenges of verifying information in the era of AI-generated content, and the need for decentralized cryptographic truth. Her commentary is valued for its ability to shed light on the complex dynamics between technology and traditional media, offering a nuanced perspective on the future of information dissemination and consumption.",
+      "derived": {
+        "current_role": "Journalist and Technology Commentator"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Taylor Lorenz has carved a niche for herself as a journalist and commentator at the crossroads of technology and culture. Her work often delves into the societal impacts of technological advancements, with a particular focus on how these changes affect the media landscape. Lorenz is recognized for her thought-provoking discussions on topics such as live streaming's resurgence, the challenges of verifying information in the era of AI-generated content, and the need for decentralized cryptographic truth.",
+        "Her commentary is valued for its ability to shed light on the complex dynamics between technology and traditional media, offering a nuanced perspective on the future of information dissemination and consumption."
+      ],
+      "sections": [
+        {
+          "heading": "Media and Technology",
+          "body": "Taylor Lorenz discusses the complex relationship between media and technology, focusing on how technological advancements are reshaping the way information is shared and consumed."
+        },
+        {
+          "heading": "Live Streaming",
+          "body": "Lorenz has commented on the resurgence of live streaming, suggesting that it offers a communal experience that is difficult to replicate or paywall, emphasizing the human element in digital media."
+        },
+        {
+          "heading": "Information Verification",
+          "body": "She highlights the challenges posed by AI-generated content and the breakdown of traditional trust systems, advocating for new methods of cryptographic verification and decentralized identity."
+        },
+        {
+          "heading": "Surveillance and Privacy",
+          "body": "Lorenz touches on the issues of surveillance, both by governments and corporations, and the implications for individual privacy in a world where anyone can generate information at scale."
+        }
+      ]
+    }
+  },
+  {
+    "id": 222,
+    "name": "Jacob Pajarni",
+    "slug": "jacob-pajarni",
+    "bio": "Jacob Pajarni is the Co-Chief Investment Officer at Bridgeway Capital Management and the portfolio manager at the global opportunities fund. He is known for his expertise in analyzing both new and old economy stocks, employing a strategy that combines fundamental and sentiment analysis.",
+    "known_for": "His innovative investment approach that bridges traditional fundamental analysis with modern sentiment analysis.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-04 02:07:19",
+    "last_episode_title": "Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-01",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies with high levels of intangible capital using a combination of fundamental and sentiment analysis to identify mispriced opportunities, especially in sectors affected by global events.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
+    "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show you'll hear more about hfgm currently the number one morning star rated funds its inception in the U.S. macro trading category. Let's ge",
+    "supporting_takeaway": "Old economy stocks continue to be effectively valued using classical discounted cash flow analysis.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-03T21:10:02.292619",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jacob Pajarni",
+      "fetched_at": "2026-05-04T02:10:02.292458+00:00",
+      "cliff_notes": "Jacob Pajarni is recognized for his unique investment strategy that integrates both fundamental and sentiment analysis, particularly in the context of new and old economy stocks. As the Co-Chief Investment Officer at Bridgeway Capital Management and the portfolio manager for the global opportunities fund, Pajarni has made significant contributions to the investment community. His approach to investment has been shaped by the challenges faced by investors post-GFC, where traditional metrics became less reliable due to the rise of intangible assets. Pajarni's expertise lies in navigating these complexities and providing a more nuanced view of investment opportunities, which has garnered attention and respect in the financial sector.",
+      "derived": {
+        "current_role": "Co-Chief Investment Officer at Bridgeway Capital Management"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Jacob Pajarni is recognized for his unique investment strategy that integrates both fundamental and sentiment analysis, particularly in the context of new and old economy stocks. As the Co-Chief Investment Officer at Bridgeway Capital Management and the portfolio manager for the global opportunities fund, Pajarni has made significant contributions to the investment community.",
+        "His approach to investment has been shaped by the challenges faced by investors post-GFC, where traditional metrics became less reliable due to the rise of intangible assets. Pajarni's expertise lies in navigating these complexities and providing a more nuanced view of investment opportunities, which has garnered attention and respect in the financial sector."
+      ],
+      "sections": [
+        {
+          "heading": "Investment Strategy",
+          "body": "Jacob Pajarni is known for his investment strategy that combines fundamental analysis with sentiment analysis, allowing for a more comprehensive understanding of market dynamics."
+        },
+        {
+          "heading": "New and Old Economy Stocks",
+          "body": "Pajarni has expertise in analyzing both new and old economy stocks, recognizing the distinct characteristics and challenges each presents in the modern investment landscape."
+        },
+        {
+          "heading": "Fundamental Analysis",
+          "body": "He employs fundamental analysis to assess the financial health and performance of companies, focusing on tangible metrics that provide a solid foundation for investment decisions."
+        },
+        {
+          "heading": "Sentiment Analysis",
+          "body": "Pajarni also incorporates sentiment analysis into his strategy, recognizing the impact of market perceptions and investor emotions on stock performance."
+        }
+      ]
+    }
   },
   {
     "id": 220,

@@ -1,5 +1,83 @@
 [
   {
+    "id": 194,
+    "podcast_name": "Unknown Podcast",
+    "episode_title": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da",
+    "episode_date": "2026-05-03",
+    "summary": "In this podcast, the host and guest Argin discuss the changing landscape of the cryptocurrency market, focusing on the evolution of privacy in cryptocurrencies, particularly Z-Cash. They touch upon the importance of privacy, simplicity, quantum resistance, and scalability in the context of Gen Z's perspective on the financial system. The conversation also delves into the comparison between Bitcoin, Ethereum, Solana, and the potential for Z-Cash to carve out a niche due to its unique properties.",
+    "key_takeaways": [
+      "Privacy in cryptocurrencies is becoming increasingly important, especially with attacks like doxing.",
+      "Z-Cash offers privacy, simplicity, quantum resistance, and scalability.",
+      "The guest argues for a coalition around privacy in cryptocurrencies.",
+      "Different cryptocurrencies can co-exist due to their unique features, such as Bitcoin's transparency and Z-Cash's privacy.",
+      "The importance of community stickiness in cryptocurrency platforms is highlighted, drawing parallels to the evolution of social media platforms."
+    ],
+    "investment_thesis": "Investing in cryptocurrencies with unique features like privacy and scalability can offer significant opportunities in a market that values these properties.",
+    "key_tickers": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "ZEC"
+    ]
+  },
+  {
+    "id": 193,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Balaji and Taylor Lorenz on AI and Media",
+    "episode_date": "2026-05-01",
+    "summary": "In this episode of the a16z Show, the discussion revolves around the impact of AI on content creation and verification, the challenges of corporate and government surveillance, and the need for decentralized cryptographic truth. The conversation explores the resurgence of live streaming and communal experiences, the breakdown of trust in media and social networks due to AI-generated content, and the potential for new forms of social coordination to establish provable truth. The guests also touch on the role of independent media reporters and the implications of AI in journalism.",
+    "key_takeaways": [
+      "Live streaming and communal experiences are on the rise due to the human element being difficult to replicate.",
+      "Decentralized cryptographic truth is necessary to verify information without relying on corporate or government assertions.",
+      "AI-generated content is making it harder to verify information, leading to the need for cryptographic verification and decentralized identity.",
+      "New forms of social coordination are emerging to prove what's real rather than simply asserting it.",
+      "Privacy, accountability, and the role of journalism are central issues in an AI-driven world.",
+      "There is a potential for human-only social networks as a response to AI-generated spam."
+    ],
+    "investment_thesis": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
+    "key_tickers": null
+  },
+  {
+    "id": 192,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "OpenAI Misses Targets, Codex vs Claude, Elon vs Sam Trial, Big Hyperscaler Beats, Peptide Craze",
+    "episode_date": "2026-05-01",
+    "summary": "In this episode, the hosts discuss OpenAI's performance against user and revenue targets, the significant capital expenditure plans of tech giants like Amazon, Microsoft, Google, and Meta, and the potential implications of a legal battle involving Elon Musk and OpenAI. They also touch upon the broader themes of AI and cloud computing's impact on the tech industry.",
+    "key_takeaways": [
+      "OpenAI missed their user and revenue targets for Chat and GPT, raising concerns about their financial performance.",
+      "Tech giants are planning massive capital expenditures in 2026, with Amazon leading at $200 billion, indicating a strong push towards AI and cloud computing.",
+      "The growth rates of Google Cloud (63%), Microsoft Cloud (30%), and Amazon Web Services (28%) highlight the rapid expansion in these sectors.",
+      "There is a potential conflict within OpenAI between the desire to go public and concerns about meeting public reporting standards.",
+      "The legal battle involving Elon Musk and OpenAI could have significant implications for the company's IPO and valuation."
+    ],
+    "investment_thesis": "Investment in AI and cloud computing sectors is set to surge, driven by strong growth in these areas and massive capital expenditure plans by tech giants.",
+    "key_tickers": [
+      "GOOGL",
+      "MSFT",
+      "AMZN",
+      "META"
+    ]
+  },
+  {
+    "id": 191,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
+    "episode_date": "2026-05-01",
+    "summary": "In this episode of Monetary Matters, host Jack Farley interviews Jacob Pajarni, Co-Chief Investment Officer at Bridgeway Capital Management and portfolio manager of the global opportunities fund. They discuss the differences between investing in new economy stocks, which are often driven by intangible assets, and old economy stocks, where traditional fundamental analysis is more effective. The conversation delves into the limitations of discounted cash flow methods for companies with high levels of intangible capital and how sentiment analysis can provide additional insights into investment opportunities, especially in sectors like energy and Asian markets affected by global events such as the Iran War.",
+    "key_takeaways": [
+      "New economy stocks are less predictable using traditional fundamental analysis due to high levels of intangible assets.",
+      "Old economy stocks continue to be effectively valued using classical discounted cash flow analysis.",
+      "The PBRW model shows a breakdown in the relationship between valuations and profitability for new economy stocks.",
+      "Sentiment analysis can reveal investment opportunities, especially when there is a disconnect between market sentiment and price returns.",
+      "Bridgeway Capital Management uses a nimble strategy to identify the best stocks within each sector and country to generate alpha.",
+      "The firm has wrapped a hedge fund capability into a mutual fund to provide access to smaller investors."
+    ],
+    "investment_thesis": "Invest in companies with high levels of intangible capital using a combination of fundamental and sentiment analysis to identify mispriced opportunities, especially in sectors affected by global events.",
+    "key_tickers": [
+      "HFGM"
+    ]
+  },
+  {
     "id": 190,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Google Invests $40B Into Anthropic, GPT 5.5 Drops, and Google Cloud Dominates | EP #252",
