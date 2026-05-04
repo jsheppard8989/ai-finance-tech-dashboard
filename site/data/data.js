@@ -3,151 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-03T20:53:46.999856",
-  chartsVersion: "2026-04-01T15:16:59.801570",
+  generatedAt: "2026-05-03T21:04:59.676918",
+  chartsVersion: "2026-05-03T21:04:52.866452",
   priceSnapshot: {
   "GOOGL": {
-    "price": 384.8,
-    "change_pct": 19.76,
+    "price": 385.69,
+    "change_pct": 15.85,
     "name": "GOOGL",
-    "updated_at": "2026-05-01T05:08:12.594039",
-    "symbol_used": "GOOGL",
-    "instrument_type": "equity_or_other",
-    "is_continuous": false,
-    "display_ticker": "GOOGL",
-    "fetched_ok": true,
-    "stale": false,
-    "source_timestamp": "2026-05-01T05:08:12.594056"
+    "updated_at": "2026-05-03T21:04:52.865969"
   },
   "NVDA": {
-    "price": 199.57,
-    "change_pct": 5.42,
+    "price": 198.45,
+    "change_pct": 0.99,
     "name": "NVDA",
-    "updated_at": "2026-05-01T05:08:12.594069",
-    "symbol_used": "NVDA",
-    "instrument_type": "equity_or_other",
-    "is_continuous": false,
-    "display_ticker": "NVDA",
-    "fetched_ok": true,
-    "stale": false,
-    "source_timestamp": "2026-05-01T05:08:12.594075"
+    "updated_at": "2026-05-03T21:04:52.865978"
   },
   "MSFT": {
-    "price": 407.78,
-    "change_pct": 6.09,
+    "price": 414.44,
+    "change_pct": 5.43,
     "name": "MSFT",
-    "updated_at": "2026-05-01T05:08:12.594085",
-    "symbol_used": "MSFT",
-    "instrument_type": "equity_or_other",
-    "is_continuous": false,
-    "display_ticker": "MSFT",
-    "fetched_ok": true,
-    "stale": false,
-    "source_timestamp": "2026-05-01T05:08:12.594090"
+    "updated_at": "2026-05-03T21:04:52.865982"
   },
   "WTI": {
-    "price": 105.45,
-    "change_pct": 11.36,
+    "price": 4.13,
+    "change_pct": 47.5,
     "name": "WTI",
-    "updated_at": "2026-05-01T05:08:12.594099",
-    "symbol_used": "CL=F",
-    "instrument_type": "futures",
-    "is_continuous": true,
-    "display_ticker": "WTI",
-    "fetched_ok": true,
-    "stale": false,
-    "source_timestamp": "2026-05-01T05:08:12.594104"
+    "updated_at": "2026-05-03T21:04:52.865986"
   },
   "BTC": {
-    "price": 77220.0,
-    "change_pct": 1.97,
+    "price": 79708.36,
+    "change_pct": 4.39,
     "name": "BTC",
-    "updated_at": "2026-05-01T05:08:12.594113",
-    "symbol_used": "BTC-USD",
-    "instrument_type": "crypto_spot",
-    "is_continuous": false,
-    "display_ticker": "BTC",
-    "fetched_ok": true,
-    "stale": false,
-    "source_timestamp": "2026-05-01T05:08:12.594118"
+    "updated_at": "2026-05-03T21:04:52.865989"
   },
   "S&P 500": {
-    "price": 7253.0,
-    "change_pct": 2.49,
+    "price": 720.65,
+    "change_pct": 3.77,
     "name": "S&P 500",
-    "updated_at": "2026-05-01T05:08:12.594127",
-    "symbol_used": "ES=F",
-    "instrument_type": "futures",
-    "is_continuous": true,
-    "display_ticker": "S&P 500",
-    "fetched_ok": true,
-    "stale": false,
-    "source_timestamp": "2026-05-01T05:08:12.594132"
+    "updated_at": "2026-05-03T21:04:52.865992"
   },
   "AMZN": {
-    "price": 265.06,
-    "change_pct": 10.49,
+    "price": 268.26,
+    "change_pct": 7.73,
     "name": "AMZN",
-    "updated_at": "2026-05-01T05:08:12.594142",
-    "symbol_used": "AMZN",
-    "instrument_type": "equity_or_other",
-    "is_continuous": false,
-    "display_ticker": "AMZN",
-    "fetched_ok": true,
-    "stale": false,
-    "source_timestamp": "2026-05-01T05:08:12.594147"
+    "updated_at": "2026-05-03T21:04:52.865995"
   },
   "TSLA": {
-    "price": 381.63,
-    "change_pct": 8.29,
+    "price": 390.82,
+    "change_pct": 7.31,
     "name": "TSLA",
-    "updated_at": "2026-05-01T05:08:12.594156",
-    "symbol_used": "TSLA",
-    "instrument_type": "equity_or_other",
-    "is_continuous": false,
-    "display_ticker": "TSLA",
-    "fetched_ok": true,
-    "stale": false,
-    "source_timestamp": "2026-05-01T05:08:12.594161"
+    "updated_at": "2026-05-03T21:04:52.865997"
   },
   "COPPER": {
-    "price": 5.99,
-    "change_pct": -1.3,
+    "price": 5.97,
+    "change_pct": -2.25,
     "name": "COPPER",
-    "updated_at": "2026-05-01T05:08:12.594171",
-    "symbol_used": "HG=F",
-    "instrument_type": "futures",
-    "is_continuous": true,
-    "display_ticker": "COPPER",
-    "fetched_ok": true,
-    "stale": false,
-    "source_timestamp": "2026-05-01T05:08:12.594176"
+    "updated_at": "2026-05-03T21:04:52.866000"
   },
   "QQQ": {
-    "price": 667.74,
-    "change_pct": 8.16,
+    "price": 674.15,
+    "change_pct": 7.25,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-01T05:08:12.594185",
-    "symbol_used": "QQQ",
-    "instrument_type": "etf",
-    "is_continuous": false,
-    "display_ticker": "QQQ",
-    "fetched_ok": true,
-    "stale": false,
-    "source_timestamp": "2026-05-01T05:08:12.594191"
+    "updated_at": "2026-05-03T21:04:52.866003"
   },
   "BTC-USD": {
-    "price": 77220.0,
-    "change_pct": 1.97,
+    "price": 79708.36,
+    "change_pct": 4.39,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-01T05:08:12.594200",
-    "symbol_used": "BTC-USD",
-    "instrument_type": "crypto_spot",
-    "is_continuous": false,
-    "display_ticker": "BTC-USD",
-    "fetched_ok": true,
-    "stale": false,
-    "source_timestamp": "2026-05-01T05:08:12.594205"
+    "updated_at": "2026-05-03T21:04:52.866006"
   }
 },
   tickerScores: [
@@ -19302,7 +19225,7 @@ const dashboardData = {
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 2796,
+    "id": 2833,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -19314,7 +19237,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2797,
+    "id": 2834,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -19326,7 +19249,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2798,
+    "id": 2835,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -19338,7 +19261,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2799,
+    "id": 2836,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -19350,7 +19273,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2800,
+    "id": 2837,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -19362,7 +19285,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2801,
+    "id": 2838,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -19374,7 +19297,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2802,
+    "id": 2839,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -19386,7 +19309,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2803,
+    "id": 2840,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -19398,7 +19321,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2804,
+    "id": 2841,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -19410,7 +19333,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2805,
+    "id": 2842,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -19422,7 +19345,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2806,
+    "id": 2843,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -19434,7 +19357,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2807,
+    "id": 2844,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -19446,7 +19369,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2808,
+    "id": 2845,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -19458,7 +19381,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2809,
+    "id": 2846,
     "name": "Building Agents at Home",
     "slug": "building-agents-at-home",
     "bio": null,
@@ -19470,7 +19393,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2810,
+    "id": 2847,
     "name": "\"The Best Time to Invest\"",
     "slug": "the-best-time-to-invest",
     "bio": null,
@@ -19482,7 +19405,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2811,
+    "id": 2848,
     "name": "Governor Josh Shapiro of Pennsylvania",
     "slug": "governor-josh-shapiro-of-pennsylvania",
     "bio": null,
@@ -19494,7 +19417,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2812,
+    "id": 2849,
     "name": "Box CEO Aaron Levie",
     "slug": "box-ceo-aaron-levie",
     "bio": null,
@@ -19506,7 +19429,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2813,
+    "id": 2850,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -19518,7 +19441,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2814,
+    "id": 2851,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -19530,7 +19453,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2815,
+    "id": 2852,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,

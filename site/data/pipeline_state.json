@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-03T20:53:39.605565",
-  "last_updated": "2026-05-03T20:53:39.605565",
-  "last_pipeline_run": "2026-05-03T20:53:39.605565",
+  "generated_at": "2026-05-03T21:04:53.786400",
+  "last_updated": "2026-05-03T21:04:53.786400",
+  "last_pipeline_run": "2026-05-03T21:04:53.786400",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -18,121 +18,94 @@
     "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 5
+    "downloaded": 4,
+    "transcribed": 3,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 4
   },
   "episodes": [
     {
-      "id": "d8e62120-c865-428e-b1c2-1d965406f293",
-      "podcast": "The a16z Show",
-      "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
-      "published": "2026-04-08",
-      "rss_guid": "d8e62120-c865-428e-b1c2-1d965406f293",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
-    },
-    {
-      "id": "rss::monetary matters with jack farley::why fundamentals fail the new economy | jacob pozharny on \u201csentiment\u201d analysis\u2019 role in new economy stocks",
+      "id": "0fcfe12a-4578-11f1-91d7-fb6a0ee583e5",
       "podcast": "Monetary Matters with Jack Farley",
       "title": "Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
       "published": "2026-05-01",
-      "published_date": "2026-05-01",
-      "rss_guid": "",
+      "rss_guid": "0fcfe12a-4578-11f1-91d7-fb6a0ee583e5",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
+        "downloaded": true,
+        "transcribed": true,
         "analyzed": false,
         "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
-        "transcribed": "Waiting for download first.",
-        "analyzed": "Waiting for transcript first.",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not on site until export after analysis and insight promotion."
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
-      "status": "needs_download"
+      "status": "needs_analysis"
     },
     {
-      "id": "rss::monetary matters with jack farley::jim bianco on division at the fed and jerome powell\u2019s controversial decision to stay",
+      "id": "88e1f47c-450a-11f1-8862-4b4703826cfa",
       "podcast": "Monetary Matters with Jack Farley",
       "title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
       "published": "2026-05-01",
-      "published_date": "2026-05-01",
-      "rss_guid": "",
+      "rss_guid": "88e1f47c-450a-11f1-8862-4b4703826cfa",
       "stages": {
-        "downloaded": false,
+        "downloaded": true,
         "transcribed": false,
         "analyzed": false,
         "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
-        "transcribed": "Waiting for download first.",
-        "analyzed": "Waiting for transcript first.",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not on site until export after analysis and insight promotion."
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
-      "status": "needs_download"
+      "status": "needs_transcription"
     },
     {
-      "id": "rss::the a16z show::balaji and taylor lorenz on ai and media",
+      "id": "80623c8b-f312-4532-8149-458a50621a43",
       "podcast": "The a16z Show",
       "title": "Balaji and Taylor Lorenz on AI and Media",
       "published": "2026-05-01",
-      "published_date": "2026-05-01",
-      "rss_guid": "",
+      "rss_guid": "80623c8b-f312-4532-8149-458a50621a43",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
+        "downloaded": true,
+        "transcribed": true,
         "analyzed": false,
         "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
-        "transcribed": "Waiting for download first.",
-        "analyzed": "Waiting for transcript first.",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not on site until export after analysis and insight promotion."
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
-      "status": "needs_download"
+      "status": "needs_analysis"
     },
     {
-      "id": "rss::all-in with chamath, jason, sacks & friedberg::openai misses targets, codex vs claude, elon vs sam trial, big hyperscaler beats, peptide craze",
+      "id": "b5c14c82-4550-4947-89d6-b6268716e6d3",
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "title": "OpenAI Misses Targets, Codex vs Claude, Elon vs Sam Trial, Big Hyperscaler Beats, Peptide Craze",
       "published": "2026-05-01",
-      "published_date": "2026-05-01",
-      "rss_guid": "",
+      "rss_guid": "b5c14c82-4550-4947-89d6-b6268716e6d3",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
+        "downloaded": true,
+        "transcribed": true,
         "analyzed": false,
         "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
-        "transcribed": "Waiting for download first.",
-        "analyzed": "Waiting for transcript first.",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not on site until export after analysis and insight promotion."
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
-      "status": "needs_download"
+      "status": "needs_analysis"
     }
   ],
   "available_from_rss": [
@@ -167,40 +140,40 @@
   ],
   "stale_episodes": [
     {
-      "id": "rss::monetary matters with jack farley::why fundamentals fail the new economy | jacob pozharny on \u201csentiment\u201d analysis\u2019 role in new economy stocks",
+      "id": "0fcfe12a-4578-11f1-91d7-fb6a0ee583e5",
       "podcast": "Monetary Matters with Jack Farley",
       "title": "Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
-      "status": "needs_download",
+      "status": "needs_analysis",
       "published": "2026-05-01",
       "age_days": 2,
-      "next_blocker": "downloaded"
+      "next_blocker": "analyzed"
     },
     {
-      "id": "rss::monetary matters with jack farley::jim bianco on division at the fed and jerome powell\u2019s controversial decision to stay",
+      "id": "88e1f47c-450a-11f1-8862-4b4703826cfa",
       "podcast": "Monetary Matters with Jack Farley",
       "title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
-      "status": "needs_download",
+      "status": "needs_transcription",
       "published": "2026-05-01",
       "age_days": 2,
-      "next_blocker": "downloaded"
+      "next_blocker": "transcribed"
     },
     {
-      "id": "rss::the a16z show::balaji and taylor lorenz on ai and media",
+      "id": "80623c8b-f312-4532-8149-458a50621a43",
       "podcast": "The a16z Show",
       "title": "Balaji and Taylor Lorenz on AI and Media",
-      "status": "needs_download",
+      "status": "needs_analysis",
       "published": "2026-05-01",
       "age_days": 2,
-      "next_blocker": "downloaded"
+      "next_blocker": "analyzed"
     },
     {
-      "id": "rss::all-in with chamath, jason, sacks & friedberg::openai misses targets, codex vs claude, elon vs sam trial, big hyperscaler beats, peptide craze",
+      "id": "b5c14c82-4550-4947-89d6-b6268716e6d3",
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "title": "OpenAI Misses Targets, Codex vs Claude, Elon vs Sam Trial, Big Hyperscaler Beats, Peptide Craze",
-      "status": "needs_download",
+      "status": "needs_analysis",
       "published": "2026-05-01",
       "age_days": 2,
-      "next_blocker": "downloaded"
+      "next_blocker": "analyzed"
     }
   ],
   "stale_threshold_days": 2,
