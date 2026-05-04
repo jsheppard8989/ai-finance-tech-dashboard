@@ -1,26 +1,5 @@
 [
   {
-    "id": 194,
-    "podcast_name": "Unknown Podcast",
-    "episode_title": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da",
-    "episode_date": "2026-05-03",
-    "summary": "In this podcast, the host and guest Argin discuss the changing landscape of the cryptocurrency market, focusing on the evolution of privacy in cryptocurrencies, particularly Z-Cash. They touch upon the importance of privacy, simplicity, quantum resistance, and scalability in the context of Gen Z's perspective on the financial system. The conversation also delves into the comparison between Bitcoin, Ethereum, Solana, and the potential for Z-Cash to carve out a niche due to its unique properties.",
-    "key_takeaways": [
-      "Privacy in cryptocurrencies is becoming increasingly important, especially with attacks like doxing.",
-      "Z-Cash offers privacy, simplicity, quantum resistance, and scalability.",
-      "The guest argues for a coalition around privacy in cryptocurrencies.",
-      "Different cryptocurrencies can co-exist due to their unique features, such as Bitcoin's transparency and Z-Cash's privacy.",
-      "The importance of community stickiness in cryptocurrency platforms is highlighted, drawing parallels to the evolution of social media platforms."
-    ],
-    "investment_thesis": "Investing in cryptocurrencies with unique features like privacy and scalability can offer significant opportunities in a market that values these properties.",
-    "key_tickers": [
-      "BTC",
-      "ETH",
-      "SOL",
-      "ZEC"
-    ]
-  },
-  {
     "id": 193,
     "podcast_name": "The a16z Show",
     "episode_title": "Balaji and Taylor Lorenz on AI and Media",
