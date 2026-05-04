@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-03T21:04:59.676918",
-  chartsVersion: "2026-05-03T21:04:52.866452",
+  generatedAt: "2026-05-03T21:06:06.458228",
+  chartsVersion: "2026-05-03T21:05:59.529456",
   priceSnapshot: {
   "GOOGL": {
     "price": 385.69,
     "change_pct": 15.85,
     "name": "GOOGL",
-    "updated_at": "2026-05-03T21:04:52.865969"
+    "updated_at": "2026-05-03T21:05:59.529015"
   },
   "NVDA": {
     "price": 198.45,
     "change_pct": 0.99,
     "name": "NVDA",
-    "updated_at": "2026-05-03T21:04:52.865978"
+    "updated_at": "2026-05-03T21:05:59.529024"
   },
   "MSFT": {
     "price": 414.44,
     "change_pct": 5.43,
     "name": "MSFT",
-    "updated_at": "2026-05-03T21:04:52.865982"
+    "updated_at": "2026-05-03T21:05:59.529028"
   },
   "WTI": {
     "price": 4.13,
     "change_pct": 47.5,
     "name": "WTI",
-    "updated_at": "2026-05-03T21:04:52.865986"
+    "updated_at": "2026-05-03T21:05:59.529031"
   },
   "BTC": {
-    "price": 79708.36,
-    "change_pct": 4.39,
+    "price": 79732.13,
+    "change_pct": 4.43,
     "name": "BTC",
-    "updated_at": "2026-05-03T21:04:52.865989"
+    "updated_at": "2026-05-03T21:05:59.529034"
   },
   "S&P 500": {
     "price": 720.65,
     "change_pct": 3.77,
     "name": "S&P 500",
-    "updated_at": "2026-05-03T21:04:52.865992"
+    "updated_at": "2026-05-03T21:05:59.529037"
   },
   "AMZN": {
     "price": 268.26,
     "change_pct": 7.73,
     "name": "AMZN",
-    "updated_at": "2026-05-03T21:04:52.865995"
+    "updated_at": "2026-05-03T21:05:59.529040"
   },
   "TSLA": {
     "price": 390.82,
     "change_pct": 7.31,
     "name": "TSLA",
-    "updated_at": "2026-05-03T21:04:52.865997"
+    "updated_at": "2026-05-03T21:05:59.529043"
   },
   "COPPER": {
     "price": 5.97,
-    "change_pct": -2.25,
+    "change_pct": -2.22,
     "name": "COPPER",
-    "updated_at": "2026-05-03T21:04:52.866000"
+    "updated_at": "2026-05-03T21:05:59.529046"
   },
   "QQQ": {
     "price": 674.15,
     "change_pct": 7.25,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-03T21:04:52.866003"
+    "updated_at": "2026-05-03T21:05:59.529049"
   },
   "BTC-USD": {
-    "price": 79708.36,
-    "change_pct": 4.39,
+    "price": 79732.13,
+    "change_pct": 4.43,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-03T21:04:52.866006"
+    "updated_at": "2026-05-03T21:05:59.529052"
   }
 },
   tickerScores: [
@@ -19225,7 +19225,7 @@ const dashboardData = {
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 2833,
+    "id": 2871,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -19237,7 +19237,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2834,
+    "id": 2872,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -19249,7 +19249,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2835,
+    "id": 2873,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -19261,7 +19261,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2836,
+    "id": 2874,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -19273,7 +19273,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2837,
+    "id": 2875,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -19285,7 +19285,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2838,
+    "id": 2876,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -19297,7 +19297,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2839,
+    "id": 2877,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -19309,7 +19309,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2840,
+    "id": 2878,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -19321,7 +19321,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2841,
+    "id": 2879,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -19333,7 +19333,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2842,
+    "id": 2880,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -19345,7 +19345,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2843,
+    "id": 2881,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -19357,7 +19357,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2844,
+    "id": 2882,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -19369,7 +19369,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2845,
+    "id": 2883,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -19381,7 +19381,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2846,
+    "id": 2884,
     "name": "Building Agents at Home",
     "slug": "building-agents-at-home",
     "bio": null,
@@ -19393,7 +19393,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2847,
+    "id": 2885,
     "name": "\"The Best Time to Invest\"",
     "slug": "the-best-time-to-invest",
     "bio": null,
@@ -19405,7 +19405,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2848,
+    "id": 2886,
     "name": "Governor Josh Shapiro of Pennsylvania",
     "slug": "governor-josh-shapiro-of-pennsylvania",
     "bio": null,
@@ -19417,7 +19417,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2849,
+    "id": 2887,
     "name": "Box CEO Aaron Levie",
     "slug": "box-ceo-aaron-levie",
     "bio": null,
@@ -19429,7 +19429,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2850,
+    "id": 2888,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -19441,7 +19441,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2851,
+    "id": 2889,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -19453,7 +19453,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2852,
+    "id": 2890,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
