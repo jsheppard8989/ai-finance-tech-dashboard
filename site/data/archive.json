@@ -8,7 +8,13 @@
       "source_date": "2026-05-01",
       "summary": "In this episode of the a16z Show, the discussion revolves around the impact of AI on content creation and verification, the challenges of corporate and government surveillance, and the need for decentralized cryptographic truth. The conversation explores the resurgence of live streaming and communal experiences, the breakdown of trust in media and social networks due to AI-generated content, and the potential for new forms of social coordination to establish provable truth. The guests also touch on the role of independent media reporters and the implications of AI in journalism.",
       "key_takeaway": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "FB",
+        "TWTR",
+        "MSFT"
+      ],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -3820,7 +3826,11 @@
       "investment_implications": "Investors should consider alternative analysis methods for valuation.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 148,
@@ -3834,7 +3844,11 @@
       "investment_implications": "Continue to use classical valuation methods for these stocks.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 149,
@@ -3848,7 +3862,11 @@
       "investment_implications": "Invest in platforms and technologies that facilitate decentralized truth and verification mechanisms.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 150,
@@ -3862,7 +3880,11 @@
       "investment_implications": "Consider investing in biometric technology and social platforms that prioritize human interaction and content creation.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 151,
@@ -3876,7 +3898,11 @@
       "investment_implications": "Investors may seek cryptocurrencies that offer enhanced privacy as a way to protect against identity theft and financial surveillance.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 152,
@@ -3890,7 +3916,11 @@
       "investment_implications": "Cryptocurrencies with better scalability may offer more utility and potential for adoption, making them attractive investments.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 143,
@@ -3904,7 +3934,11 @@
       "investment_implications": "Investors should consider the potential for new platforms that can address specific pain points within enterprise software more effectively than incumbents.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 144,
@@ -3918,7 +3952,11 @@
       "investment_implications": "Descheduling can lead to significant changes in the legal and operational landscape for businesses in the affected industry.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 145,
@@ -3932,7 +3970,11 @@
       "investment_implications": "MSOs may benefit from descheduling as it could lead to increased interstate commerce and economies of scale.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 146,
@@ -3946,7 +3988,11 @@
       "investment_implications": "TPUs represent a significant advancement in AI hardware and can influence investment in AI and cloud computing sectors.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 136,
@@ -3960,7 +4006,11 @@
       "investment_implications": "Investors should monitor how clinical trial reforms in different countries impact drug development timelines and costs.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 137,
@@ -3974,7 +4024,11 @@
       "investment_implications": "Efficiency in drug development can significantly affect a company's profitability and competitive advantage.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 138,
@@ -3988,7 +4042,11 @@
       "investment_implications": "Investors should consider AI CapEx as a significant growth area with potential for high returns.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 139,
@@ -4002,7 +4060,11 @@
       "investment_implications": "Co-investing can offer significant upside potential for investors who are able to access such deals.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 140,
@@ -4016,7 +4078,11 @@
       "investment_implications": "Investing in technology that enables invertible neural networks can lead to more efficient AI training and reduced costs.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 141,
@@ -4030,7 +4096,11 @@
       "investment_implications": "Investors may consider the economic policies that appeal to this coalition, as they could indicate future shifts in consumer behavior and market demand.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 142,
@@ -4044,7 +4114,11 @@
       "investment_implications": "Investors in real estate and construction should monitor policy changes related to impact fees, as they can affect development costs and profitability.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 135,
@@ -4058,7 +4132,11 @@
       "investment_implications": "Investing in companies and technologies that aim to extend healthspan can provide significant returns as the global population ages.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 133,
@@ -4072,7 +4150,11 @@
       "investment_implications": "Investors can gain exposure to the CLO market through BDCs, which may offer a more stable investment compared to private credit loans.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 134,
@@ -4086,7 +4168,11 @@
       "investment_implications": "BDCs can provide investors with access to the private credit market, offering both income and potential for capital appreciation.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 131,
@@ -4100,7 +4186,11 @@
       "investment_implications": "Investors should look for companies that can effectively bridge the gap between AI capabilities and enterprise deployment.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 132,
@@ -4114,7 +4204,11 @@
       "investment_implications": "Investors should consider the implications of AI as a new user type for security, permissions, and organizational design.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 130,
@@ -4128,7 +4222,11 @@
       "investment_implications": "Understanding the role and risk of NDFIs is crucial for investors as banks' exposure to these entities can impact their financial health and stability.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 129,
@@ -4142,7 +4240,11 @@
       "investment_implications": "Understanding the emotional dynamics of media can inform investment strategies in modern news and social platforms.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 124,
@@ -4156,7 +4258,11 @@
       "investment_implications": "Investors should consider companies and technologies that can provide or enhance a sense of purpose for individuals.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 125,
@@ -4170,7 +4276,11 @@
       "investment_implications": "Investors should be aware of the financial implications of AI inference costs when evaluating potential investments in the consumer tech space.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 126,
@@ -4184,7 +4294,11 @@
       "investment_implications": "Investors should consider the potential for regulatory hurdles and public opposition when investing in data center-related companies.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 127,
@@ -4198,7 +4312,11 @@
       "investment_implications": "Investors should look for companies that can adapt and thrive in the new age of AI.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 128,
@@ -4212,7 +4330,11 @@
       "investment_implications": "This presents an opportunity for investors to find undervalued SaaS companies that can emerge stronger post-disruption.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 121,
@@ -4226,7 +4348,11 @@
       "investment_implications": "Investors should consider companies that are agent-compatible and can adapt to an agent-centric software ecosystem.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 122,
@@ -4240,7 +4366,11 @@
       "investment_implications": "Look for companies that prioritize API development, signaling a readiness for agent-based interactions.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 123,
@@ -4254,7 +4384,11 @@
       "investment_implications": "A high NPS score can be an indicator of strong customer satisfaction and potential for investment.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 118,
@@ -4268,7 +4402,11 @@
       "investment_implications": "Concentrate investments in a few companies with strong growth potential and valuation discipline.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 119,
@@ -4282,7 +4420,11 @@
       "investment_implications": "Investors should consider companies leveraging AI to lower the barrier to entry in software development, as this could disrupt traditional tech industry dynamics.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 120,
@@ -4296,7 +4438,11 @@
       "investment_implications": "Investors should consider companies that can efficiently and innovatively transform electrons to tokens for potential growth.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 24,
@@ -4310,7 +4456,11 @@
       "investment_implications": "During geopolitical tensions, investors may shift to safer assets or hedge positions to protect against potential market downturns.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 25,
@@ -4324,7 +4474,11 @@
       "investment_implications": "Investors should be aware of the potential for stagflation and its impact on asset classes, possibly seeking hedges like Bitcoin.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 26,
@@ -4338,7 +4492,11 @@
       "investment_implications": "Investors should consider the dual nature of these metals when evaluating their potential for growth and stability.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 27,
@@ -4352,7 +4510,11 @@
       "investment_implications": "Investors may look to precious metals as stores of value during times of economic uncertainty.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 28,
@@ -4366,7 +4528,11 @@
       "investment_implications": "Investors should consider the potential of technology-driven businesses to shape the future and create significant value, especially those with a strong founder's mindset.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 29,
@@ -4380,7 +4546,11 @@
       "investment_implications": "Investors should monitor startups working on AI social applications, as this could be a significant growth area in the future.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 30,
@@ -4394,7 +4564,11 @@
       "investment_implications": "Investors should consider companies focusing on safe AGI development due to the high valuations and market interest.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 31,
@@ -4408,7 +4582,11 @@
       "investment_implications": "Investors should look for companies with robust compute capabilities as a competitive advantage in AI development.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 32,
@@ -4422,7 +4600,11 @@
       "investment_implications": "Investors should consider companies that specialize in AI orchestration as they become integral to the AI ecosystem.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 33,
@@ -4436,7 +4618,11 @@
       "investment_implications": "Vertically integrated AI companies may offer competitive advantages through streamlined operations and innovation.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 34,
@@ -4450,7 +4636,11 @@
       "investment_implications": "Investors should look for companies that benefit from the reduced costs of AI deployment and can scale their offerings.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 35,
@@ -4464,7 +4654,11 @@
       "investment_implications": "Investors should consider companies at the forefront of AI development that could leverage AI CEOs for competitive advantage.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 36,
@@ -4478,7 +4672,11 @@
       "investment_implications": "Investors should look for companies that can adapt quickly to market changes, potentially through the use of AI, to stay competitive in rapidly evolving industries.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 37,
@@ -4492,7 +4690,11 @@
       "investment_implications": "Invest in companies that are leveraging technology to disrupt and modernize physical industries.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 38,
@@ -4506,7 +4708,11 @@
       "investment_implications": "Finite supply assets can exhibit price appreciation due to scarcity, making them attractive in inflationary environments.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 39,
@@ -4520,7 +4726,11 @@
       "investment_implications": "Investors should track advancements in LLM technology as it may lead to significant improvements in AI capabilities.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 40,
@@ -4534,7 +4744,11 @@
       "investment_implications": "Investors may consider allocating a portion of their portfolio to farmland to reduce risk and enhance returns.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 41,
@@ -4548,7 +4762,11 @@
       "investment_implications": "Investors should consider the water availability and rights associated with farmland assets, as this may significantly impact their value and potential returns.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 42,
@@ -4562,7 +4780,11 @@
       "investment_implications": "Investors should consider companies developing AGI technologies for their potential to disrupt various industries.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 43,
@@ -4576,7 +4798,11 @@
       "investment_implications": "ASI represents a paradigm shift; investors should monitor advancements closely as it could lead to significant economic and societal changes.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 44,
@@ -4590,7 +4816,11 @@
       "investment_implications": "Investors should consider companies that are strategically positioned in the technology war for potential growth opportunities.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 45,
@@ -4604,7 +4834,11 @@
       "investment_implications": "Investors should consider the robustness of a company's supply chain as a key factor in their investment decisions, especially in times of geopolitical tension.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 46,
@@ -4618,7 +4852,11 @@
       "investment_implications": "The security and prevalence of voting by mail can influence the demand for election security technologies and postal services.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 47,
@@ -4632,7 +4870,11 @@
       "investment_implications": "Understanding shifts in R-star can provide insights into monetary policy effectiveness and potential economic growth.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 48,
@@ -4646,7 +4888,11 @@
       "investment_implications": "Investors should consider the role of compute and data in the development and scaling of AI technologies.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 49,
@@ -4660,7 +4906,11 @@
       "investment_implications": "Investors should monitor companies at the forefront of RSI technology for potential disruption and growth.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 50,
@@ -4674,7 +4924,11 @@
       "investment_implications": "Prepare for investments that could be significantly impacted by or benefit from the arrival of the singularity.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 51,
@@ -4688,7 +4942,11 @@
       "investment_implications": "Investors should look for companies developing technologies that can interpret and act on user intent, potentially disrupting the traditional app-based model.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 52,
@@ -4702,7 +4960,11 @@
       "investment_implications": "Investors may use Bitcoin's price movements as a leading indicator for broader market liquidity trends.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 53,
@@ -4716,7 +4978,11 @@
       "investment_implications": "Investment opportunities may arise in sectors that facilitate or capitalize on human creativity and personal expression in a future shaped by AI.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 54,
@@ -4730,7 +4996,11 @@
       "investment_implications": "Identifies opportunities in sectors with excessive speculation and overpromise, such as tech and AI.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 55,
@@ -4744,7 +5014,11 @@
       "investment_implications": "Investors should consider the potential for companies to transform into AI factories, indicating a shift towards more integrated and efficient AI operations.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 56,
@@ -4758,7 +5032,11 @@
       "investment_implications": "Look for companies that demonstrate high levels of adaptability in their business models and strategies.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 57,
@@ -4772,7 +5050,11 @@
       "investment_implications": "Consider investments in companies that provide the backbone for AI applications.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 58,
@@ -4786,7 +5068,11 @@
       "investment_implications": "Look for opportunities in companies that facilitate the integration of AI with human expertise in scientific research.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 59,
@@ -4800,7 +5086,11 @@
       "investment_implications": "Control and security of this strait are critical for global oil markets and shipping.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 60,
@@ -4814,7 +5104,11 @@
       "investment_implications": "Inner satellite links could be a complementary technology to ground stations, enhancing overall space communication networks.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 61,
@@ -4828,7 +5122,11 @@
       "investment_implications": "Investors should monitor true interest expense as an indicator of fiscal health and potential market instability.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 62,
@@ -4842,7 +5140,11 @@
       "investment_implications": "Investors should consider the impact of deflationary technologies on inflation expectations and asset valuations.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 63,
@@ -4856,7 +5158,11 @@
       "investment_implications": "Investors should monitor companies at the forefront of developing self-improving AI systems.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 64,
@@ -4870,7 +5176,11 @@
       "investment_implications": "Consider investing in companies and countries that are making significant strides in AI technology.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 65,
@@ -4884,7 +5194,11 @@
       "investment_implications": "Investors should look for companies developing solutions that can meet the growing demand for power in military operations without increasing risk.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 66,
@@ -4898,7 +5212,11 @@
       "investment_implications": "Investors should consider companies that are at the forefront of software-driven manufacturing, particularly those in the defense and aerospace sectors.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 67,
@@ -4912,7 +5230,11 @@
       "investment_implications": "Investors should be aware of these shifts to identify potential opportunities or risks.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 68,
@@ -4926,7 +5248,11 @@
       "investment_implications": "Understanding the rebalancing schedule and criteria of different indexes can help investors anticipate changes in fund performance.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 69,
@@ -4940,7 +5266,11 @@
       "investment_implications": "Investors should be aware of the cybersecurity risks in the telecommunications sector and consider investing in companies that offer secure network solutions.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 70,
@@ -4954,7 +5284,11 @@
       "investment_implications": "Investors may look for opportunities in companies developing self-network technologies to mitigate the risks of cyber-espionage and protect critical infrastructure.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 71,
@@ -4968,7 +5302,11 @@
       "investment_implications": "Investors should consider the impact of a multi-polar world on global trade, currency valuations, and geopolitical risks.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 72,
@@ -4982,7 +5320,11 @@
       "investment_implications": "Investors should monitor the potential for second-round food inflation and its impact on consumer staples and agricultural commodities.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 73,
@@ -4996,7 +5338,11 @@
       "investment_implications": "These bonds can offer exposure to different economies but come with additional FX risk.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 74,
@@ -5010,7 +5356,11 @@
       "investment_implications": "Investors should consider the impact of a weaker dollar on global markets and asset classes.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 75,
@@ -5024,7 +5374,11 @@
       "investment_implications": "Investors should consider the broad impact of AI on various sectors when identifying opportunities and risks.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 76,
@@ -5038,7 +5392,11 @@
       "investment_implications": "Investors should consider the growth potential of SaaS companies as they continue to disrupt traditional software models.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 77,
@@ -5052,7 +5410,11 @@
       "investment_implications": "Investors should look for companies that can offer streamlined solutions in enterprise software to meet the demand for simplification and efficiency.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 78,
@@ -5066,7 +5428,11 @@
       "investment_implications": "Investors should look for companies that balance proprietary and open-source AI models to leverage domain expertise and drive innovation.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 79,
@@ -5080,7 +5446,11 @@
       "investment_implications": "Investors may consider these for their potential to disrupt traditional financial tracking and surveillance methods.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 80,
@@ -5094,7 +5464,11 @@
       "investment_implications": "Understanding the J-curve is crucial for investors in private equity to manage expectations and timing of returns.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 81,
@@ -5108,7 +5482,11 @@
       "investment_implications": "Investors should be aware of this phenomenon to avoid missing out on potentially game-changing opportunities due to past experiences.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 82,
@@ -5122,7 +5500,11 @@
       "investment_implications": "Pods can offer more nimble and differentiated investment strategies due to their smaller size and specialized focus.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 83,
@@ -5136,7 +5518,11 @@
       "investment_implications": "Investors should consider the potential of portable nuclear reactors in addressing the energy delivery challenge.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 84,
@@ -5150,7 +5536,11 @@
       "investment_implications": "Investors should monitor the development of solid-state power electronics as a key technology in grid modernization.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 85,
@@ -5164,7 +5554,11 @@
       "investment_implications": "Investors should explore opportunities in companies that are enabling the shift to an edge-based grid architecture.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 86,
@@ -5178,7 +5572,11 @@
       "investment_implications": "Look for companies that are restructuring around AI-augmented teams as a sign of forward-thinking and potential for growth.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 87,
@@ -5192,7 +5590,11 @@
       "investment_implications": "Investors may consider AI-enhanced ETFs for their potential to leverage technology in managing investments.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 88,
@@ -5206,7 +5608,11 @@
       "investment_implications": "Investors should be cautious of the potential collapse of this pricing model and its impact on AI-related investments.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 89,
@@ -5220,7 +5626,11 @@
       "investment_implications": "Investors should consider companies developing AV technology and related infrastructure as potential growth areas.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 90,
@@ -5234,7 +5644,11 @@
       "investment_implications": "As flying cars become a reality, investment in related infrastructure like verteports could offer opportunities.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 91,
@@ -5248,7 +5662,11 @@
       "investment_implications": "Investors should consider companies developing technologies to authenticate human interactions in a digital world increasingly populated by AI.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 92,
@@ -5262,7 +5680,11 @@
       "investment_implications": "As AI-generated content becomes more prevalent, there is an investment opportunity in companies that can detect and differentiate between human and AI content.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 93,
@@ -5276,7 +5698,11 @@
       "investment_implications": "Investors should consider the long-term research and development that underpins current AI breakthroughs when evaluating potential investments.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 94,
@@ -5290,7 +5716,11 @@
       "investment_implications": "Understanding the use of flags of convenience can provide insights into corporate governance and risk management in the shipping industry.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 95,
@@ -5304,7 +5734,11 @@
       "investment_implications": "Investors should look for opportunities in companies that contribute to the reindustrialization of America and the West.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 96,
@@ -5318,7 +5752,11 @@
       "investment_implications": "Invest in companies that facilitate this synthesis to enhance productivity and innovation.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 97,
@@ -5332,7 +5770,11 @@
       "investment_implications": "Look for opportunities in technologies that enable efficient distillation to democratize AI capabilities.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 98,
@@ -5346,7 +5788,11 @@
       "investment_implications": "Invest in platforms that offer private, customizable AI solutions to cater to the growing demand for secure AI applications.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 99,
@@ -5360,7 +5806,11 @@
       "investment_implications": "AI's role in biology is growing, with potential for significant returns in drug discovery, genetic research, and personalized medicine.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 100,
@@ -5374,7 +5824,11 @@
       "investment_implications": "Conexberger suggests that FOMO played a role in the recent outperformance of emerging market equities.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 101,
@@ -5388,7 +5842,11 @@
       "investment_implications": "Conexberger encourages investors to adopt a beta-agnostic approach to emerging markets.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 102,
@@ -5402,7 +5860,11 @@
       "investment_implications": "Investors should consider regions with pro-growth policies for potential business expansion and job creation.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 103,
@@ -5416,7 +5878,11 @@
       "investment_implications": "Invest in companies and technologies that embrace and drive progress.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 104,
@@ -5430,7 +5896,11 @@
       "investment_implications": "Seek investments in companies that prioritize ethical considerations and decentralization.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 105,
@@ -5444,7 +5914,11 @@
       "investment_implications": "Consider the role of capital in shaping technological advancements and its impact on society.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 106,
@@ -5458,7 +5932,11 @@
       "investment_implications": "Investors should focus on the resilience and indispensability of these software products for long-term stability.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 107,
@@ -5472,7 +5950,11 @@
       "investment_implications": "Investors should look for software with distinct value propositions that can drive tangible business outcomes.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 108,
@@ -5486,7 +5968,11 @@
       "investment_implications": "DirectX APIs have been a key differentiator for Microsoft in the gaming market, influencing hardware and software development.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 109,
@@ -5500,7 +5986,11 @@
       "investment_implications": "AI compute on devices is a growing area of focus for tech companies, with potential to disrupt traditional computing paradigms.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 110,
@@ -5514,7 +6004,11 @@
       "investment_implications": "Investors should consider companies that are developing AI technologies aimed at labor augmentation and replacement, as these are likely to see rapid adoption in the enterprise sector.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 111,
@@ -5528,7 +6022,11 @@
       "investment_implications": "Investors should monitor AI companies that are experiencing exponential growth in revenue, as this may signal a strong market position and future profitability.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 112,
@@ -5542,7 +6040,11 @@
       "investment_implications": "Investors should consider companies focusing on co-generation for their potential to disrupt content creation and software development.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 113,
@@ -5556,7 +6058,11 @@
       "investment_implications": "Investors should look for companies at the intersection of AI and other industries, as AI advancements could lead to breakthroughs in various fields.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 114,
@@ -5570,7 +6076,11 @@
       "investment_implications": "Investors should consider companies developing AI agent technology for consumer applications.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 115,
@@ -5584,7 +6094,11 @@
       "investment_implications": "Investors might consider alternatives to fiat currency, such as Bitcoin, to protect against devaluation risks.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 116,
@@ -5598,7 +6112,11 @@
       "investment_implications": "Investors can use Bitcoin's performance as a gauge to assess broader market liquidity and make corresponding investment decisions.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 117,
@@ -5612,7 +6130,11 @@
       "investment_implications": "Investors should consider the implications of this rule being broken by AI and data.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 16,
@@ -5626,7 +6148,11 @@
       "investment_implications": "BCI hardware, neurotech chips, cognitive enhancement platforms. Early stage - watch for FDA approvals and consumer product launches.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 17,
@@ -5640,7 +6166,11 @@
       "investment_implications": "Digital banking, crypto custody, tax-advantaged jurisdictions, nomad infrastructure. Services enabling geographic arbitrage.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 18,
@@ -5654,7 +6184,11 @@
       "investment_implications": "GPU cloud providers, distributed compute networks, energy arbitrage plays. Infrastructure for AI training cost optimization.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 19,
@@ -5668,7 +6202,11 @@
       "investment_implications": "Incumbents with established compliance infrastructure. Banking, healthcare, defense contractors. Barrier to entry becomes the product.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 20,
@@ -5682,7 +6220,11 @@
       "investment_implications": "Investors should monitor changes in strategic oil reserves as an indicator of geopolitical tensions and potential market impacts.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 21,
@@ -5696,7 +6238,11 @@
       "investment_implications": "Investors should consider the long-term growth potential of renewable energy companies and the technologies enabling the energy transition.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 22,
@@ -5710,7 +6256,11 @@
       "investment_implications": "Investors should consider the potential for AGI to revolutionize various sectors, including defense.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 23,
@@ -5724,7 +6274,11 @@
       "investment_implications": "Investors should be aware of how democratic oversight can influence the adoption and deployment of new technologies in defense.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 13,
@@ -5738,7 +6292,11 @@
       "investment_implications": "Long inference infrastructure and edge AI; short or underweight legacy SaaS with AI-priced multiples that cannot defend margin as compute commoditizes.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 14,
@@ -5752,7 +6310,11 @@
       "investment_implications": "Favor companies building workflow automation infrastructure (orchestration, memory, guardrails). Traditional 5-year strategic planning cycles become a liability.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 15,
@@ -5766,7 +6328,11 @@
       "investment_implications": "Pending analysis",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 10,
@@ -5780,7 +6346,11 @@
       "investment_implications": "As space-based solar power becomes economically viable, companies developing launch capabilities and orbital infrastructure could benefit.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 11,
@@ -5794,7 +6364,11 @@
       "investment_implications": "As AI makes computation cheaper, total compute demand may explode\u2014benefiting chip makers, data centers, and power providers despite efficiency gains.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 12,
@@ -5808,7 +6382,11 @@
       "investment_implications": "When the Bank of Japan hikes rates or yen strengthens, unwinds trigger forced selling. Watch JPY/USD >150 as risk signal.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 4,
@@ -5825,7 +6403,11 @@
       "investment_implications": "Virtual real estate largely collapsed. Concept failed to achieve mainstream traction.",
       "display_on_main": 0,
       "archived_date": "2025-09-18",
-      "archived_reason": "Hype cycle ended - no longer emerging"
+      "archived_reason": "Hype cycle ended - no longer emerging",
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 5,
@@ -5842,7 +6424,11 @@
       "investment_implications": "DeFi protocols maturing. Yield farming yields compressed. Infrastructure plays remain relevant.",
       "display_on_main": 0,
       "archived_date": "2025-08-19",
-      "archived_reason": "Term now mainstream in crypto discourse"
+      "archived_reason": "Term now mainstream in crypto discourse",
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     }
   ]
 }

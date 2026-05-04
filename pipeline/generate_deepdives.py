@@ -17,6 +17,7 @@ To run for specific insights only:
 """
 
 import sys
+import os
 import json
 import re
 import sqlite3
@@ -29,9 +30,45 @@ from typing import Any, Dict, List, Optional, Tuple
 # Add pipeline to path
 sys.path.insert(0, str(Path(__file__).parent))
 
-DB_PATH = Path.home() / ".openclaw/workspace/pipeline/dashboard.db"
-INBOX_DIR = Path.home() / ".openclaw/workspace/pipeline/inbox"
-TRANSCRIPT_DIR = Path.home() / ".openclaw/workspace/pipeline/transcripts"
+from workspace_paths import DB_PATH, INBOX_DIR, TRANSCRIPT_DIR
+
+try:
+    from openai import OpenAI
+
+    OPENAI_AVAILABLE = True
+except ImportError:
+    OPENAI_AVAILABLE = False
+
+try:
+    import google.generativeai as genai
+
+    GEMINI_AVAILABLE = True
+except ImportError:
+    GEMINI_AVAILABLE = False
+
+
+def _load_dotenv_for_deepdives() -> None:
+    """Load repo-root .env so MOONSHOT_API_KEY / GEMINI_API_KEY / OPENAI_API_KEY exist (same idea as auto_pipeline)."""
+    env_path = Path(__file__).resolve().parent.parent / ".env"
+    if not env_path.is_file():
+        return
+    try:
+        for line in env_path.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            k, v = line.split("=", 1)
+            k, v = k.strip(), v.strip()
+            if not k or not v:
+                continue
+            prev = str(os.environ.get(k, "")).strip()
+            if k.endswith("_API_KEY") or k in ("GITHUB_PUSH_TOKEN", "MOONSHOT_API_KEY"):
+                if not prev:
+                    os.environ[k] = v
+            elif k not in os.environ:
+                os.environ[k] = v
+    except Exception:
+        pass
 
 
 # Reject Deep Dives that mostly paraphrase the insight card (cheap overlap check).
@@ -130,39 +167,64 @@ def get_db_connection():
 
 
 def get_ai_client():
-    """Get AI client - prefers Moonshot/Kimi (cheapest for us)."""
-    # Try Moonshot first (what we have working)
-    auth_profiles_path = Path.home() / ".openclaw/agents/main/agent/auth-profiles.json"
-    if auth_profiles_path.exists():
+    """Match analyze_transcript priority: .env keys, then Cursor auth profiles Moonshot, Gemini, OpenAI."""
+    _load_dotenv_for_deepdives()
+
+    if not OPENAI_AVAILABLE:
+        print("  ✗ openai package not installed (pip install openai)", flush=True)
+        return None
+
+    from workspace_paths import agent_auth_profiles_path
+
+    auth_profiles_path = agent_auth_profiles_path()
+    if auth_profiles_path and auth_profiles_path.exists():
         try:
             with open(auth_profiles_path) as f:
                 auth_data = json.load(f)
-            profiles = auth_data.get('profiles', {})
-            if 'moonshot:default' in profiles:
-                profile = profiles['moonshot:default']
-                if profile.get('type') == 'api_key':
-                    kimi_key = profile.get('key', '')
+            profiles = auth_data.get("profiles", {})
+            if "moonshot:default" in profiles:
+                profile = profiles["moonshot:default"]
+                if profile.get("type") == "api_key":
+                    kimi_key = (profile.get("key") or "").strip()
                     if kimi_key:
-                        from openai import OpenAI
                         client = OpenAI(api_key=kimi_key, base_url="https://api.moonshot.ai/v1")
-                        print("  Using Moonshot/Kimi API", flush=True)
-                        return ('moonshot', client)
+                        print("  Using Moonshot/Kimi API (auth profiles)", flush=True)
+                        return ("moonshot", client)
         except Exception as e:
-            print(f"  ⚠ Moonshot init failed: {e}", flush=True)
-    
-    # Try Gemini (if configured)
-    try:
-        import google.generativeai as genai
-        import os
-        gemini_key = os.environ.get('GEMINI_API_KEY')
-        if gemini_key:
+            print(f"  ⚠ Moonshot (profiles) init failed: {e}", flush=True)
+
+    kimi_key = os.environ.get("MOONSHOT_API_KEY", "").strip()
+    if kimi_key:
+        try:
+            client = OpenAI(api_key=kimi_key, base_url="https://api.moonshot.ai/v1")
+            print("  Using Moonshot/Kimi API (MOONSHOT_API_KEY)", flush=True)
+            return ("moonshot", client)
+        except Exception as e:
+            print(f"  ⚠ Moonshot env init failed: {e}", flush=True)
+
+    gemini_key = os.environ.get("GEMINI_API_KEY", "").strip()
+    if gemini_key and GEMINI_AVAILABLE:
+        try:
             genai.configure(api_key=gemini_key)
             print("  Using Gemini API", flush=True)
-            return ('gemini', None)
-    except Exception as e:
-        print(f"  ⚠ Gemini not available: {e}", flush=True)
-    
-    print("  ✗ No AI client available", flush=True)
+            return ("gemini", None)
+        except Exception as e:
+            print(f"  ⚠ Gemini init failed: {e}", flush=True)
+
+    openai_key = os.environ.get("OPENAI_API_KEY", "").strip()
+    if openai_key:
+        try:
+            client = OpenAI(api_key=openai_key)
+            print("  Using OpenAI API", flush=True)
+            return ("openai", client)
+        except Exception as e:
+            print(f"  ⚠ OpenAI init failed: {e}", flush=True)
+
+    print(
+        "  ✗ No AI client: set MOONSHOT_API_KEY, GEMINI_API_KEY, or OPENAI_API_KEY in .env "
+        "(or Moonshot in Cursor auth profiles).",
+        flush=True,
+    )
     return None
 
 
@@ -228,6 +290,15 @@ def _call_json_model(client_info, prompt: str) -> Optional[dict]:
         if client_type == "moonshot":
             resp = client.chat.completions.create(
                 model="moonshot-v1-8k",
+                messages=[{"role": "user", "content": prompt}],
+                response_format={"type": "json_object"},
+                max_tokens=3200,
+            )
+            return json.loads(resp.choices[0].message.content)
+
+        if client_type == "openai":
+            resp = client.chat.completions.create(
+                model="gpt-4o-mini",
                 messages=[{"role": "user", "content": prompt}],
                 response_format={"type": "json_object"},
                 max_tokens=3200,
@@ -482,50 +553,63 @@ def run_deep_dive_generation_attempts(
     return None
 
 
-def generate_missing_deepdives(insight_ids: list = None):
-    """Generate deep dives for all insights that don't have them."""
-    
+def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int]:
+    """Generate deep dives for all insights that don't have them.
+
+    Returns (generated_count, attempted_count). attempted_count is the number of
+    insights that needed a Deep Dive when the run started.
+    """
+
     # Force unbuffered output for real-time logging
-    sys.stdout.reconfigure(line_buffering=True)
-    
+    try:
+        sys.stdout.reconfigure(line_buffering=True)
+    except Exception:
+        pass
+
     conn = get_db_connection()
-    
+
     if insight_ids:
         # Specific insights requested
-        placeholders = ','.join('?' * len(insight_ids))
-        cursor = conn.execute(f"""
+        placeholders = ",".join("?" * len(insight_ids))
+        cursor = conn.execute(
+            f"""
             SELECT li.id, li.title, li.source_type, li.podcast_episode_id,
                    li.summary, li.key_takeaway
             FROM latest_insights li
             WHERE li.id IN ({placeholders})
-        """, insight_ids)
+        """,
+            insight_ids,
+        )
     else:
         # All insights without deep dives
-        cursor = conn.execute("""
+        cursor = conn.execute(
+            """
             SELECT li.id, li.title, li.source_type, li.podcast_episode_id,
                    li.summary, li.key_takeaway
             FROM latest_insights li
             LEFT JOIN deep_dive_content ddc ON li.id = ddc.insight_id
             WHERE ddc.id IS NULL
-        """)
-    
+        """
+        )
+
     insights = cursor.fetchall()
     conn.close()
-    
+
     if not insights:
         print("No insights need Deep Dives!", flush=True)
-        return 0
-    
-    print(f"Generating Deep Dives for {len(insights)} insights...\n", flush=True)
-    
+        return 0, 0
+
+    need = len(insights)
+    print(f"Generating Deep Dives for {need} insights...\n", flush=True)
+
     # Get AI client
     client_info = get_ai_client()
     if not client_info:
-        print("✗ Cannot proceed without AI client")
-        return 0
-    
+        print("✗ Cannot proceed without AI client", flush=True)
+        return 0, need
+
     generated = 0
-    
+
     for row in insights:
         insight_id = row['id']
         title = row['title']
@@ -556,8 +640,8 @@ def generate_missing_deepdives(insight_ids: list = None):
         else:
             print(f"  ✗ Storage failed", flush=True)
     
-    print(f"\n✓ Generated {generated}/{len(insights)} Deep Dives", flush=True)
-    return generated
+    print(f"\n✓ Generated {generated}/{need} Deep Dives", flush=True)
+    return generated, need
 
 
 if __name__ == "__main__":
@@ -592,4 +676,11 @@ if __name__ == "__main__":
     elif args.insight_ids:
         insight_ids = [int(x.strip()) for x in args.insight_ids.split(',')]
 
-    generate_missing_deepdives(insight_ids)
+    gen, need = generate_missing_deepdives(insight_ids)
+    # Fail the step if nothing was produced when work was required (e.g. no AI client).
+    # Partial success still exits 0 so the site can publish insights that did get Deep Dives;
+    # insights without Deep Dives stay off the main list until a later run succeeds.
+    if need > 0 and gen == 0:
+        print("✗ Deep Dive step failed: zero generated while insights still need dives.", flush=True)
+        sys.exit(1)
+    sys.exit(0)

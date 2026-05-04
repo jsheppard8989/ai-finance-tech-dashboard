@@ -252,11 +252,75 @@
       box-shadow: 0 8px 32px rgba(123, 44, 191, 0.2);
     }
 
+    .overton-header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-bottom: 0.35rem;
+    }
+
     .overton-window-item .ow-term {
+      flex: 1;
+      min-width: 0;
       font-weight: 700;
       color: #e8e8e8;
       font-size: 1rem;
-      margin-bottom: 0.35rem;
+      margin-bottom: 0;
+    }
+
+    .overton-window-item .resonance {
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0.12rem;
+      font-size: 0.75rem;
+      color: #8892b0;
+    }
+
+    .overton-window-item .resonance-label {
+      font-weight: 600;
+      color: #c4b5fd;
+      letter-spacing: 0.02em;
+    }
+
+    .overton-window-item .resonance-value {
+      font-weight: 700;
+      color: #a8b2d1;
+      font-size: 0.75rem;
+      text-align: right;
+    }
+
+    .overton-window-item .resonance-bar {
+      width: 46px;
+      height: 5px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .overton-window-item .resonance-bar > span {
+      display: block;
+      height: 100%;
+      background: linear-gradient(90deg, #7b2cbf, #00d4ff);
+    }
+
+    .overton-window-item .ow-provenance {
+      font-size: 0.72rem;
+      color: #8892b0;
+      margin-top: 0.45rem;
+      line-height: 1.45;
+    }
+
+    .overton-window-item .ow-provenance-line {
+      margin-bottom: 0.25rem;
+    }
+
+    .overton-window-item .ow-prov-label {
+      color: #6b7280;
+      font-weight: 600;
     }
 
     .overton-window-item .ow-description {
@@ -1640,7 +1704,8 @@
         <div class="card">
           <h2>The Overton Window</h2>
           <p style="color: #8892b0; margin-bottom: 0.5rem; font-size: 0.9rem;">Ideas that are still moving from the fringe toward the mainstream — definitions plus a short list of terms I&apos;m tracking.</p>
-          <p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 1.5rem;">Shown here after I promote them from the emerging list below (up to eight).</p>
+          <p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 0.75rem;">Shown here after I promote them from the emerging list below (up to thirteen).</p>
+          <p style="color: #6b7280; font-size: 0.78rem; margin-bottom: 1.25rem;">Cards are ordered by <strong>Resonance</strong> (raw mentions × the same 30-day recency half-life as Pundit <strong>Presence</strong>). First / last lines show when we saw the term and who the extract attributed it to (guests first, else hosts), from the latest transcript pass.</p>
 
           <div id="overton-window-list">
             <!-- Filled by loadOvertonWindow() from mainContent.definitions + mainContent.overton -->
@@ -1725,7 +1790,7 @@
       <!-- Right Column - Podcast Pundits -->
       <div class="right-col">
         <div class="card" id="guests-card">
-          <h2>Podcast voices</h2>
+          <h2>Podcast Pundits</h2>
           <p style="color: #8892b0; margin-bottom: 0.5rem; font-size: 0.9rem;">Guests who keep showing up — tap for a short profile and their latest angle.</p>
           <p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 1rem;">Up to twenty, ranked by recency and how often they appear.</p>
           <div id="guests-list"></div>
@@ -1813,7 +1878,7 @@
   </div>
 
   <!-- Load dashboard data from pipeline (if available) -->
-  <script src="./data/data.js?v=1777861245"></script>
+  <script src="./data/data.js?v=1777894482"></script>
   <script src="./js/common.js"></script>
   
   <script>
@@ -1930,26 +1995,84 @@
         return String(s).replace(/</g, '&lt;').replace(/>/g, '&gt;');
       }
 
+      function isoDatePart(v) {
+        if (v == null || v === '') return '';
+        var s = String(v);
+        return s.length >= 10 ? s.substring(0, 10) : s;
+      }
+
+      function provLine(label, dateStr, by, podcast, epTitle) {
+        var bits = [];
+        if (dateStr) bits.push(esc(dateStr));
+        bits.push(by ? esc(by) : '—');
+        if (podcast) bits.push(esc(podcast));
+        if (epTitle) {
+          var t = String(epTitle);
+          bits.push(esc(t.length > 72 ? t.substring(0, 69) + '…' : t));
+        }
+        return '<div class="ow-provenance-line"><span class="ow-prov-label">' + esc(label) + '</span> ' + bits.join(' · ') + '</div>';
+      }
+
+      const rows = overton.slice().sort(function(a, b) {
+        var sa = (typeof a.overton_score === 'number') ? a.overton_score : (parseFloat(a.overton_score) || 0);
+        var sb = (typeof b.overton_score === 'number') ? b.overton_score : (parseFloat(b.overton_score) || 0);
+        if (sb !== sa) return sb - sa;
+        var ma = (typeof a.mention_count === 'number') ? a.mention_count : (parseInt(a.mention_count, 10) || 0);
+        var mb = (typeof b.mention_count === 'number') ? b.mention_count : (parseInt(b.mention_count, 10) || 0);
+        return mb - ma;
+      });
+
       const items = [];
-      overton.forEach(function(o) {
+      rows.forEach(function(o) {
         const term = esc(o.term);
         const desc = esc(o.description || o.definition || '');
         const impl = esc(o.investment_implications || '');
-        let source = 'Detected in podcast';
+        const mentions = (typeof o.mention_count === 'number') ? o.mention_count : (parseInt(o.mention_count, 10) || 0);
+        let rPct = (typeof o.resonance_pct === 'number') ? o.resonance_pct : (parseInt(o.resonance_pct, 10));
+        if (rPct === null || isNaN(rPct)) {
+          var sc = (typeof o.overton_score === 'number') ? o.overton_score : (parseFloat(o.overton_score) || 0);
+          rPct = Math.max(0, Math.min(100, Math.round(100 * Math.min(1, (sc || 0) / 4))));
+        }
+        const resTitle = 'Resonance: mentions × recency decay (30-day half-life since last mention). Bar uses the same 4-point cap as Pundit Presence. Raw mentions: ' + mentions + '.';
+        const resonanceHtml =
+          '<div class="resonance" title="' + esc(resTitle) + '">' +
+            '<span class="resonance-label">Resonance</span>' +
+            '<span class="resonance-value">' + rPct + '%</span>' +
+            '<span class="resonance-bar"><span style="width:' + rPct + '%;"></span></span>' +
+          '</div>';
+
+        const firstDate = isoDatePart(o.first_detected_date || o.first_detected_episode_date);
+        const lastDate = isoDatePart(o.last_mentioned_date || o.last_mentioned_episode_date) || firstDate;
+        const firstBy = (o.first_detected_speaker || '').trim();
+        const lastBy = (o.last_mentioned_speaker || '').trim();
+        const fp = (o.first_detected_podcast || '').trim();
+        const ft = (o.first_detected_episode_title || '').trim();
+        const lp = (o.last_mentioned_podcast || '').trim();
+        const lt = (o.last_mentioned_episode_title || '').trim();
+        const provBlock =
+          '<div class="ow-provenance">' +
+            provLine('First detected', firstDate, firstBy || '—', fp, ft) +
+            provLine('Last detected', lastDate, lastBy || '—', lp, lt) +
+          '</div>';
+
+        let legacy = '';
         if (o.source_podcasts) {
           try {
             const arr = typeof o.source_podcasts === 'string' ? JSON.parse(o.source_podcasts) : o.source_podcasts;
-            if (Array.isArray(arr) && arr.length) source = 'Detected in: ' + arr.slice(0, 2).join(', ');
+            if (Array.isArray(arr) && arr.length) legacy = '<div class="ow-source">Also noted in: ' + esc(arr.slice(0, 2).join(', ')) + '</div>';
           } catch (e) {}
-        } else if (o.first_detected_date) {
-          source = 'First detected: ' + o.first_detected_date;
         }
+
         const expanded = impl ? '<strong>Investment angle:</strong> ' + impl : '';
         items.push(
           '<div class="overton-window-item">' +
-            '<div class="ow-term">' + term + '</div>' +
+            '<div class="overton-header-row">' +
+              '<div class="ow-term">' + term + '</div>' +
+              resonanceHtml +
+            '</div>' +
             '<div class="ow-description">' + desc + '</div>' +
-            '<div class="ow-source">' + esc(source) + '</div>' +
+            provBlock +
+            legacy +
             (expanded ? '<div class="ow-expanded"><div class="ow-expanded-inner">' + expanded + '</div></div>' : '') +
           '</div>'
         );

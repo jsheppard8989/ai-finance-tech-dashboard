@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-03T21:20:45.033548",
+  generatedAt: "2026-05-04T06:34:42.761785",
   chartsVersion: "2026-05-03T21:10:42.588865",
   priceSnapshot: {
   "GOOGL": {
@@ -835,7 +835,13 @@ const dashboardData = {
       "source_date": "2026-05-01",
       "summary": "In this episode of the a16z Show, the discussion revolves around the impact of AI on content creation and verification, the challenges of corporate and government surveillance, and the need for decentralized cryptographic truth. The conversation explores the resurgence of live streaming and communal experiences, the breakdown of trust in media and social networks due to AI-generated content, and the potential for new forms of social coordination to establish provable truth. The guests also touch on the role of independent media reporters and the implications of AI in journalism.",
       "key_takeaway": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "FB",
+        "TWTR",
+        "MSFT"
+      ],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -4647,7 +4653,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider alternative analysis methods for valuation.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 148,
@@ -4661,7 +4671,11 @@ const dashboardData = {
       "investment_implications": "Continue to use classical valuation methods for these stocks.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 149,
@@ -4675,7 +4689,11 @@ const dashboardData = {
       "investment_implications": "Invest in platforms and technologies that facilitate decentralized truth and verification mechanisms.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 150,
@@ -4689,7 +4707,11 @@ const dashboardData = {
       "investment_implications": "Consider investing in biometric technology and social platforms that prioritize human interaction and content creation.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 151,
@@ -4703,7 +4725,11 @@ const dashboardData = {
       "investment_implications": "Investors may seek cryptocurrencies that offer enhanced privacy as a way to protect against identity theft and financial surveillance.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 152,
@@ -4717,7 +4743,11 @@ const dashboardData = {
       "investment_implications": "Cryptocurrencies with better scalability may offer more utility and potential for adoption, making them attractive investments.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 143,
@@ -4731,7 +4761,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider the potential for new platforms that can address specific pain points within enterprise software more effectively than incumbents.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 144,
@@ -4745,7 +4779,11 @@ const dashboardData = {
       "investment_implications": "Descheduling can lead to significant changes in the legal and operational landscape for businesses in the affected industry.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 145,
@@ -4759,7 +4797,11 @@ const dashboardData = {
       "investment_implications": "MSOs may benefit from descheduling as it could lead to increased interstate commerce and economies of scale.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 146,
@@ -4773,7 +4815,11 @@ const dashboardData = {
       "investment_implications": "TPUs represent a significant advancement in AI hardware and can influence investment in AI and cloud computing sectors.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 136,
@@ -4787,7 +4833,11 @@ const dashboardData = {
       "investment_implications": "Investors should monitor how clinical trial reforms in different countries impact drug development timelines and costs.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 137,
@@ -4801,7 +4851,11 @@ const dashboardData = {
       "investment_implications": "Efficiency in drug development can significantly affect a company's profitability and competitive advantage.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 138,
@@ -4815,7 +4869,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider AI CapEx as a significant growth area with potential for high returns.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 139,
@@ -4829,7 +4887,11 @@ const dashboardData = {
       "investment_implications": "Co-investing can offer significant upside potential for investors who are able to access such deals.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 140,
@@ -4843,7 +4905,11 @@ const dashboardData = {
       "investment_implications": "Investing in technology that enables invertible neural networks can lead to more efficient AI training and reduced costs.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 141,
@@ -4857,7 +4923,11 @@ const dashboardData = {
       "investment_implications": "Investors may consider the economic policies that appeal to this coalition, as they could indicate future shifts in consumer behavior and market demand.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 142,
@@ -4871,7 +4941,11 @@ const dashboardData = {
       "investment_implications": "Investors in real estate and construction should monitor policy changes related to impact fees, as they can affect development costs and profitability.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 135,
@@ -4885,7 +4959,11 @@ const dashboardData = {
       "investment_implications": "Investing in companies and technologies that aim to extend healthspan can provide significant returns as the global population ages.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 133,
@@ -4899,7 +4977,11 @@ const dashboardData = {
       "investment_implications": "Investors can gain exposure to the CLO market through BDCs, which may offer a more stable investment compared to private credit loans.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 134,
@@ -4913,7 +4995,11 @@ const dashboardData = {
       "investment_implications": "BDCs can provide investors with access to the private credit market, offering both income and potential for capital appreciation.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 131,
@@ -4927,7 +5013,11 @@ const dashboardData = {
       "investment_implications": "Investors should look for companies that can effectively bridge the gap between AI capabilities and enterprise deployment.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 132,
@@ -4941,7 +5031,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider the implications of AI as a new user type for security, permissions, and organizational design.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 130,
@@ -4955,7 +5049,11 @@ const dashboardData = {
       "investment_implications": "Understanding the role and risk of NDFIs is crucial for investors as banks' exposure to these entities can impact their financial health and stability.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 129,
@@ -4969,7 +5067,11 @@ const dashboardData = {
       "investment_implications": "Understanding the emotional dynamics of media can inform investment strategies in modern news and social platforms.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 124,
@@ -4983,7 +5085,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider companies and technologies that can provide or enhance a sense of purpose for individuals.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 125,
@@ -4997,7 +5103,11 @@ const dashboardData = {
       "investment_implications": "Investors should be aware of the financial implications of AI inference costs when evaluating potential investments in the consumer tech space.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 126,
@@ -5011,7 +5121,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider the potential for regulatory hurdles and public opposition when investing in data center-related companies.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 127,
@@ -5025,7 +5139,11 @@ const dashboardData = {
       "investment_implications": "Investors should look for companies that can adapt and thrive in the new age of AI.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 128,
@@ -5039,7 +5157,11 @@ const dashboardData = {
       "investment_implications": "This presents an opportunity for investors to find undervalued SaaS companies that can emerge stronger post-disruption.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 121,
@@ -5053,7 +5175,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider companies that are agent-compatible and can adapt to an agent-centric software ecosystem.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 122,
@@ -5067,7 +5193,11 @@ const dashboardData = {
       "investment_implications": "Look for companies that prioritize API development, signaling a readiness for agent-based interactions.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 123,
@@ -5081,7 +5211,11 @@ const dashboardData = {
       "investment_implications": "A high NPS score can be an indicator of strong customer satisfaction and potential for investment.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 118,
@@ -5095,7 +5229,11 @@ const dashboardData = {
       "investment_implications": "Concentrate investments in a few companies with strong growth potential and valuation discipline.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 119,
@@ -5109,7 +5247,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider companies leveraging AI to lower the barrier to entry in software development, as this could disrupt traditional tech industry dynamics.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 120,
@@ -5123,7 +5265,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider companies that can efficiently and innovatively transform electrons to tokens for potential growth.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 24,
@@ -5137,7 +5283,11 @@ const dashboardData = {
       "investment_implications": "During geopolitical tensions, investors may shift to safer assets or hedge positions to protect against potential market downturns.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 25,
@@ -5151,7 +5301,11 @@ const dashboardData = {
       "investment_implications": "Investors should be aware of the potential for stagflation and its impact on asset classes, possibly seeking hedges like Bitcoin.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 26,
@@ -5165,7 +5319,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider the dual nature of these metals when evaluating their potential for growth and stability.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 27,
@@ -5179,7 +5337,11 @@ const dashboardData = {
       "investment_implications": "Investors may look to precious metals as stores of value during times of economic uncertainty.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 28,
@@ -5193,7 +5355,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider the potential of technology-driven businesses to shape the future and create significant value, especially those with a strong founder's mindset.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 29,
@@ -5207,7 +5373,11 @@ const dashboardData = {
       "investment_implications": "Investors should monitor startups working on AI social applications, as this could be a significant growth area in the future.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 30,
@@ -5221,7 +5391,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider companies focusing on safe AGI development due to the high valuations and market interest.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 31,
@@ -5235,7 +5409,11 @@ const dashboardData = {
       "investment_implications": "Investors should look for companies with robust compute capabilities as a competitive advantage in AI development.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 32,
@@ -5249,7 +5427,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider companies that specialize in AI orchestration as they become integral to the AI ecosystem.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 33,
@@ -5263,7 +5445,11 @@ const dashboardData = {
       "investment_implications": "Vertically integrated AI companies may offer competitive advantages through streamlined operations and innovation.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 34,
@@ -5277,7 +5463,11 @@ const dashboardData = {
       "investment_implications": "Investors should look for companies that benefit from the reduced costs of AI deployment and can scale their offerings.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 35,
@@ -5291,7 +5481,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider companies at the forefront of AI development that could leverage AI CEOs for competitive advantage.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 36,
@@ -5305,7 +5499,11 @@ const dashboardData = {
       "investment_implications": "Investors should look for companies that can adapt quickly to market changes, potentially through the use of AI, to stay competitive in rapidly evolving industries.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 37,
@@ -5319,7 +5517,11 @@ const dashboardData = {
       "investment_implications": "Invest in companies that are leveraging technology to disrupt and modernize physical industries.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 38,
@@ -5333,7 +5535,11 @@ const dashboardData = {
       "investment_implications": "Finite supply assets can exhibit price appreciation due to scarcity, making them attractive in inflationary environments.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 39,
@@ -5347,7 +5553,11 @@ const dashboardData = {
       "investment_implications": "Investors should track advancements in LLM technology as it may lead to significant improvements in AI capabilities.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 40,
@@ -5361,7 +5571,11 @@ const dashboardData = {
       "investment_implications": "Investors may consider allocating a portion of their portfolio to farmland to reduce risk and enhance returns.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 41,
@@ -5375,7 +5589,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider the water availability and rights associated with farmland assets, as this may significantly impact their value and potential returns.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 42,
@@ -5389,7 +5607,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider companies developing AGI technologies for their potential to disrupt various industries.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 43,
@@ -5403,7 +5625,11 @@ const dashboardData = {
       "investment_implications": "ASI represents a paradigm shift; investors should monitor advancements closely as it could lead to significant economic and societal changes.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 44,
@@ -5417,7 +5643,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider companies that are strategically positioned in the technology war for potential growth opportunities.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 45,
@@ -5431,7 +5661,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider the robustness of a company's supply chain as a key factor in their investment decisions, especially in times of geopolitical tension.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 46,
@@ -5445,7 +5679,11 @@ const dashboardData = {
       "investment_implications": "The security and prevalence of voting by mail can influence the demand for election security technologies and postal services.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 47,
@@ -5459,7 +5697,11 @@ const dashboardData = {
       "investment_implications": "Understanding shifts in R-star can provide insights into monetary policy effectiveness and potential economic growth.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 48,
@@ -5473,7 +5715,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider the role of compute and data in the development and scaling of AI technologies.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 49,
@@ -5487,7 +5733,11 @@ const dashboardData = {
       "investment_implications": "Investors should monitor companies at the forefront of RSI technology for potential disruption and growth.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 50,
@@ -5501,7 +5751,11 @@ const dashboardData = {
       "investment_implications": "Prepare for investments that could be significantly impacted by or benefit from the arrival of the singularity.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 51,
@@ -5515,7 +5769,11 @@ const dashboardData = {
       "investment_implications": "Investors should look for companies developing technologies that can interpret and act on user intent, potentially disrupting the traditional app-based model.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 52,
@@ -5529,7 +5787,11 @@ const dashboardData = {
       "investment_implications": "Investors may use Bitcoin's price movements as a leading indicator for broader market liquidity trends.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 53,
@@ -5543,7 +5805,11 @@ const dashboardData = {
       "investment_implications": "Investment opportunities may arise in sectors that facilitate or capitalize on human creativity and personal expression in a future shaped by AI.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 54,
@@ -5557,7 +5823,11 @@ const dashboardData = {
       "investment_implications": "Identifies opportunities in sectors with excessive speculation and overpromise, such as tech and AI.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 55,
@@ -5571,7 +5841,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider the potential for companies to transform into AI factories, indicating a shift towards more integrated and efficient AI operations.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 56,
@@ -5585,7 +5859,11 @@ const dashboardData = {
       "investment_implications": "Look for companies that demonstrate high levels of adaptability in their business models and strategies.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 57,
@@ -5599,7 +5877,11 @@ const dashboardData = {
       "investment_implications": "Consider investments in companies that provide the backbone for AI applications.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 58,
@@ -5613,7 +5895,11 @@ const dashboardData = {
       "investment_implications": "Look for opportunities in companies that facilitate the integration of AI with human expertise in scientific research.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 59,
@@ -5627,7 +5913,11 @@ const dashboardData = {
       "investment_implications": "Control and security of this strait are critical for global oil markets and shipping.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 60,
@@ -5641,7 +5931,11 @@ const dashboardData = {
       "investment_implications": "Inner satellite links could be a complementary technology to ground stations, enhancing overall space communication networks.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 61,
@@ -5655,7 +5949,11 @@ const dashboardData = {
       "investment_implications": "Investors should monitor true interest expense as an indicator of fiscal health and potential market instability.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 62,
@@ -5669,7 +5967,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider the impact of deflationary technologies on inflation expectations and asset valuations.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 63,
@@ -5683,7 +5985,11 @@ const dashboardData = {
       "investment_implications": "Investors should monitor companies at the forefront of developing self-improving AI systems.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 64,
@@ -5697,7 +6003,11 @@ const dashboardData = {
       "investment_implications": "Consider investing in companies and countries that are making significant strides in AI technology.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 65,
@@ -5711,7 +6021,11 @@ const dashboardData = {
       "investment_implications": "Investors should look for companies developing solutions that can meet the growing demand for power in military operations without increasing risk.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 66,
@@ -5725,7 +6039,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider companies that are at the forefront of software-driven manufacturing, particularly those in the defense and aerospace sectors.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 67,
@@ -5739,7 +6057,11 @@ const dashboardData = {
       "investment_implications": "Investors should be aware of these shifts to identify potential opportunities or risks.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 68,
@@ -5753,7 +6075,11 @@ const dashboardData = {
       "investment_implications": "Understanding the rebalancing schedule and criteria of different indexes can help investors anticipate changes in fund performance.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 69,
@@ -5767,7 +6093,11 @@ const dashboardData = {
       "investment_implications": "Investors should be aware of the cybersecurity risks in the telecommunications sector and consider investing in companies that offer secure network solutions.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 70,
@@ -5781,7 +6111,11 @@ const dashboardData = {
       "investment_implications": "Investors may look for opportunities in companies developing self-network technologies to mitigate the risks of cyber-espionage and protect critical infrastructure.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 71,
@@ -5795,7 +6129,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider the impact of a multi-polar world on global trade, currency valuations, and geopolitical risks.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 72,
@@ -5809,7 +6147,11 @@ const dashboardData = {
       "investment_implications": "Investors should monitor the potential for second-round food inflation and its impact on consumer staples and agricultural commodities.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 73,
@@ -5823,7 +6165,11 @@ const dashboardData = {
       "investment_implications": "These bonds can offer exposure to different economies but come with additional FX risk.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 74,
@@ -5837,7 +6183,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider the impact of a weaker dollar on global markets and asset classes.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 75,
@@ -5851,7 +6201,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider the broad impact of AI on various sectors when identifying opportunities and risks.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 76,
@@ -5865,7 +6219,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider the growth potential of SaaS companies as they continue to disrupt traditional software models.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 77,
@@ -5879,7 +6237,11 @@ const dashboardData = {
       "investment_implications": "Investors should look for companies that can offer streamlined solutions in enterprise software to meet the demand for simplification and efficiency.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 78,
@@ -5893,7 +6255,11 @@ const dashboardData = {
       "investment_implications": "Investors should look for companies that balance proprietary and open-source AI models to leverage domain expertise and drive innovation.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 79,
@@ -5907,7 +6273,11 @@ const dashboardData = {
       "investment_implications": "Investors may consider these for their potential to disrupt traditional financial tracking and surveillance methods.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 80,
@@ -5921,7 +6291,11 @@ const dashboardData = {
       "investment_implications": "Understanding the J-curve is crucial for investors in private equity to manage expectations and timing of returns.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 81,
@@ -5935,7 +6309,11 @@ const dashboardData = {
       "investment_implications": "Investors should be aware of this phenomenon to avoid missing out on potentially game-changing opportunities due to past experiences.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 82,
@@ -5949,7 +6327,11 @@ const dashboardData = {
       "investment_implications": "Pods can offer more nimble and differentiated investment strategies due to their smaller size and specialized focus.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 83,
@@ -5963,7 +6345,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider the potential of portable nuclear reactors in addressing the energy delivery challenge.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 84,
@@ -5977,7 +6363,11 @@ const dashboardData = {
       "investment_implications": "Investors should monitor the development of solid-state power electronics as a key technology in grid modernization.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 85,
@@ -5991,7 +6381,11 @@ const dashboardData = {
       "investment_implications": "Investors should explore opportunities in companies that are enabling the shift to an edge-based grid architecture.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 86,
@@ -6005,7 +6399,11 @@ const dashboardData = {
       "investment_implications": "Look for companies that are restructuring around AI-augmented teams as a sign of forward-thinking and potential for growth.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 87,
@@ -6019,7 +6417,11 @@ const dashboardData = {
       "investment_implications": "Investors may consider AI-enhanced ETFs for their potential to leverage technology in managing investments.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 88,
@@ -6033,7 +6435,11 @@ const dashboardData = {
       "investment_implications": "Investors should be cautious of the potential collapse of this pricing model and its impact on AI-related investments.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 89,
@@ -6047,7 +6453,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider companies developing AV technology and related infrastructure as potential growth areas.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 90,
@@ -6061,7 +6471,11 @@ const dashboardData = {
       "investment_implications": "As flying cars become a reality, investment in related infrastructure like verteports could offer opportunities.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 91,
@@ -6075,7 +6489,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider companies developing technologies to authenticate human interactions in a digital world increasingly populated by AI.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 92,
@@ -6089,7 +6507,11 @@ const dashboardData = {
       "investment_implications": "As AI-generated content becomes more prevalent, there is an investment opportunity in companies that can detect and differentiate between human and AI content.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 93,
@@ -6103,7 +6525,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider the long-term research and development that underpins current AI breakthroughs when evaluating potential investments.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 94,
@@ -6117,7 +6543,11 @@ const dashboardData = {
       "investment_implications": "Understanding the use of flags of convenience can provide insights into corporate governance and risk management in the shipping industry.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 95,
@@ -6131,7 +6561,11 @@ const dashboardData = {
       "investment_implications": "Investors should look for opportunities in companies that contribute to the reindustrialization of America and the West.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 96,
@@ -6145,7 +6579,11 @@ const dashboardData = {
       "investment_implications": "Invest in companies that facilitate this synthesis to enhance productivity and innovation.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 97,
@@ -6159,7 +6597,11 @@ const dashboardData = {
       "investment_implications": "Look for opportunities in technologies that enable efficient distillation to democratize AI capabilities.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 98,
@@ -6173,7 +6615,11 @@ const dashboardData = {
       "investment_implications": "Invest in platforms that offer private, customizable AI solutions to cater to the growing demand for secure AI applications.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 99,
@@ -6187,7 +6633,11 @@ const dashboardData = {
       "investment_implications": "AI's role in biology is growing, with potential for significant returns in drug discovery, genetic research, and personalized medicine.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 100,
@@ -6201,7 +6651,11 @@ const dashboardData = {
       "investment_implications": "Conexberger suggests that FOMO played a role in the recent outperformance of emerging market equities.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 101,
@@ -6215,7 +6669,11 @@ const dashboardData = {
       "investment_implications": "Conexberger encourages investors to adopt a beta-agnostic approach to emerging markets.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 102,
@@ -6229,7 +6687,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider regions with pro-growth policies for potential business expansion and job creation.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 103,
@@ -6243,7 +6705,11 @@ const dashboardData = {
       "investment_implications": "Invest in companies and technologies that embrace and drive progress.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 104,
@@ -6257,7 +6723,11 @@ const dashboardData = {
       "investment_implications": "Seek investments in companies that prioritize ethical considerations and decentralization.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 105,
@@ -6271,7 +6741,11 @@ const dashboardData = {
       "investment_implications": "Consider the role of capital in shaping technological advancements and its impact on society.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 106,
@@ -6285,7 +6759,11 @@ const dashboardData = {
       "investment_implications": "Investors should focus on the resilience and indispensability of these software products for long-term stability.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 107,
@@ -6299,7 +6777,11 @@ const dashboardData = {
       "investment_implications": "Investors should look for software with distinct value propositions that can drive tangible business outcomes.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 108,
@@ -6313,7 +6795,11 @@ const dashboardData = {
       "investment_implications": "DirectX APIs have been a key differentiator for Microsoft in the gaming market, influencing hardware and software development.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 109,
@@ -6327,7 +6813,11 @@ const dashboardData = {
       "investment_implications": "AI compute on devices is a growing area of focus for tech companies, with potential to disrupt traditional computing paradigms.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 110,
@@ -6341,7 +6831,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider companies that are developing AI technologies aimed at labor augmentation and replacement, as these are likely to see rapid adoption in the enterprise sector.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 111,
@@ -6355,7 +6849,11 @@ const dashboardData = {
       "investment_implications": "Investors should monitor AI companies that are experiencing exponential growth in revenue, as this may signal a strong market position and future profitability.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 112,
@@ -6369,7 +6867,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider companies focusing on co-generation for their potential to disrupt content creation and software development.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 113,
@@ -6383,7 +6885,11 @@ const dashboardData = {
       "investment_implications": "Investors should look for companies at the intersection of AI and other industries, as AI advancements could lead to breakthroughs in various fields.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 114,
@@ -6397,7 +6903,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider companies developing AI agent technology for consumer applications.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 115,
@@ -6411,7 +6921,11 @@ const dashboardData = {
       "investment_implications": "Investors might consider alternatives to fiat currency, such as Bitcoin, to protect against devaluation risks.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 116,
@@ -6425,7 +6939,11 @@ const dashboardData = {
       "investment_implications": "Investors can use Bitcoin's performance as a gauge to assess broader market liquidity and make corresponding investment decisions.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 117,
@@ -6439,7 +6957,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider the implications of this rule being broken by AI and data.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 16,
@@ -6453,7 +6975,11 @@ const dashboardData = {
       "investment_implications": "BCI hardware, neurotech chips, cognitive enhancement platforms. Early stage - watch for FDA approvals and consumer product launches.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 17,
@@ -6467,7 +6993,11 @@ const dashboardData = {
       "investment_implications": "Digital banking, crypto custody, tax-advantaged jurisdictions, nomad infrastructure. Services enabling geographic arbitrage.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 18,
@@ -6481,7 +7011,11 @@ const dashboardData = {
       "investment_implications": "GPU cloud providers, distributed compute networks, energy arbitrage plays. Infrastructure for AI training cost optimization.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 19,
@@ -6495,7 +7029,11 @@ const dashboardData = {
       "investment_implications": "Incumbents with established compliance infrastructure. Banking, healthcare, defense contractors. Barrier to entry becomes the product.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 20,
@@ -6509,7 +7047,11 @@ const dashboardData = {
       "investment_implications": "Investors should monitor changes in strategic oil reserves as an indicator of geopolitical tensions and potential market impacts.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 21,
@@ -6523,7 +7065,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider the long-term growth potential of renewable energy companies and the technologies enabling the energy transition.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 22,
@@ -6537,7 +7083,11 @@ const dashboardData = {
       "investment_implications": "Investors should consider the potential for AGI to revolutionize various sectors, including defense.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 23,
@@ -6551,7 +7101,11 @@ const dashboardData = {
       "investment_implications": "Investors should be aware of how democratic oversight can influence the adoption and deployment of new technologies in defense.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 13,
@@ -6565,7 +7119,11 @@ const dashboardData = {
       "investment_implications": "Long inference infrastructure and edge AI; short or underweight legacy SaaS with AI-priced multiples that cannot defend margin as compute commoditizes.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 14,
@@ -6579,7 +7137,11 @@ const dashboardData = {
       "investment_implications": "Favor companies building workflow automation infrastructure (orchestration, memory, guardrails). Traditional 5-year strategic planning cycles become a liability.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 15,
@@ -6593,7 +7155,11 @@ const dashboardData = {
       "investment_implications": "Pending analysis",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 10,
@@ -6607,7 +7173,11 @@ const dashboardData = {
       "investment_implications": "As space-based solar power becomes economically viable, companies developing launch capabilities and orbital infrastructure could benefit.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 11,
@@ -6621,7 +7191,11 @@ const dashboardData = {
       "investment_implications": "As AI makes computation cheaper, total compute demand may explode\u2014benefiting chip makers, data centers, and power providers despite efficiency gains.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 12,
@@ -6635,7 +7209,11 @@ const dashboardData = {
       "investment_implications": "When the Bank of Japan hikes rates or yen strengthens, unwinds trigger forced selling. Watch JPY/USD >150 as risk signal.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 4,
@@ -6652,7 +7230,11 @@ const dashboardData = {
       "investment_implications": "Virtual real estate largely collapsed. Concept failed to achieve mainstream traction.",
       "display_on_main": 0,
       "archived_date": "2025-09-18",
-      "archived_reason": "Hype cycle ended - no longer emerging"
+      "archived_reason": "Hype cycle ended - no longer emerging",
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     },
     {
       "id": 5,
@@ -6669,7 +7251,11 @@ const dashboardData = {
       "investment_implications": "DeFi protocols maturing. Yield farming yields compressed. Infrastructure plays remain relevant.",
       "display_on_main": 0,
       "archived_date": "2025-08-19",
-      "archived_reason": "Term now mainstream in crypto discourse"
+      "archived_reason": "Term now mainstream in crypto discourse",
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null
     }
   ]
 },
@@ -6683,7 +7269,7 @@ const dashboardData = {
       "source_date": "2026-05-01",
       "summary": "In this episode of the a16z Show, the discussion revolves around the impact of AI on content creation and verification, the challenges of corporate and government surveillance, and the need for decentralized cryptographic truth. The conversation explores the resurgence of live streaming and communal experiences, the breakdown of trust in media and social networks due to AI-generated content, and the potential for new forms of social coordination to establish provable truth. The guests also touch on the role of independent media reporters and the implications of AI in journalism.",
       "key_takeaway": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
-      "tickers_mentioned": "[]",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"FB\", \"TWTR\", \"MSFT\"]",
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -6964,7 +7550,19 @@ const dashboardData = {
       "investment_implications": "During geopolitical tensions, investors may shift to safer assets or hedge positions to protect against potential market downturns.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 1.29,
+      "resonance_pct": 32,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
     },
     {
       "id": 25,
@@ -6978,91 +7576,305 @@ const dashboardData = {
       "investment_implications": "Investors should be aware of the potential for stagflation and its impact on asset classes, possibly seeking hedges like Bitcoin.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 1.29,
+      "resonance_pct": 32,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
     },
     {
-      "id": 10,
-      "term": "Dyson Swarm",
-      "description": "A hypothetical megastructure consisting of a vast array of solar collectors (satellites) orbiting a star to capture its energy output. Unlike a solid Dyson Sphere, a swarm allows for gradual construction and doesn't require implausible engineering.",
-      "first_detected_date": "2026-01-16",
-      "last_mentioned_date": "2026-03-13",
+      "id": 147,
+      "term": "New Economy Stocks",
+      "description": "Companies that are often technology-driven and have a high proportion of intangible assets, making them less predictable with traditional fundamental analysis.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "As space-based solar power becomes economically viable, companies developing launch capabilities and orbital infrastructure could benefit.",
+      "investment_implications": "Investors should consider alternative analysis methods for valuation.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
     },
     {
-      "id": 11,
-      "term": "Jevon's Paradox",
-      "description": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
-      "first_detected_date": "2026-01-16",
-      "last_mentioned_date": "2026-03-13",
+      "id": 148,
+      "term": "Old Economy Stocks",
+      "description": "Traditional companies often in sectors like manufacturing or energy where fundamental analysis and discounted cash flow methods remain effective.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "As AI makes computation cheaper, total compute demand may explode\u2014benefiting chip makers, data centers, and power providers despite efficiency gains.",
+      "investment_implications": "Continue to use classical valuation methods for these stocks.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
     },
     {
-      "id": 12,
-      "term": "Yen Carry Trade",
-      "description": "A strategy where investors borrow in Japanese yen (low interest rates ~0.25%) and invest in higher-yielding assets (US Treasuries, tech stocks, emerging markets).",
-      "first_detected_date": "2026-01-16",
-      "last_mentioned_date": "2026-03-13",
+      "id": 149,
+      "term": "Decentralized Cryptographic Truth",
+      "description": "A system that allows for the verification of information without the need for a central authority, ensuring that truth is accessible to all regardless of their economic status.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "When the Bank of Japan hikes rates or yen strengthens, unwinds trigger forced selling. Watch JPY/USD >150 as risk signal.",
+      "investment_implications": "Invest in platforms and technologies that facilitate decentralized truth and verification mechanisms.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
     },
     {
-      "id": 13,
-      "term": "Compute Deflation Trade",
-      "description": "The investment thesis built around the 400x AI compute cost collapse: identifying who wins (inference-at-scale platforms, edge AI hardware) and who loses (legacy SaaS companies whose moats were priced assuming expensive AI).",
-      "first_detected_date": "2026-03-12",
-      "last_mentioned_date": "2026-03-13",
+      "id": 150,
+      "term": "Human-Only Social Networks",
+      "description": "Social networks designed to be exclusive to human users, potentially employing biometric verification to prevent AI-generated content.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Long inference infrastructure and edge AI; short or underweight legacy SaaS with AI-priced multiples that cannot defend margin as compute commoditizes.",
+      "investment_implications": "Consider investing in biometric technology and social platforms that prioritize human interaction and content creation.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
     },
     {
-      "id": 14,
-      "term": "Agentic Velocity",
-      "description": "The compression of decision-making and capital deployment timescales as AI agents replace human workflow steps. Markets, deals, and competitive responses happen faster than human organizations can process.",
-      "first_detected_date": "2026-03-12",
-      "last_mentioned_date": "2026-03-13",
+      "id": 151,
+      "term": "Privacy in Cryptocurrencies",
+      "description": "The ability of a cryptocurrency to conduct transactions without revealing the identity of the parties involved.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Favor companies building workflow automation infrastructure (orchestration, memory, guardrails). Traditional 5-year strategic planning cycles become a liability.",
+      "investment_implications": "Investors may seek cryptocurrencies that offer enhanced privacy as a way to protect against identity theft and financial surveillance.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
     },
     {
-      "id": 15,
-      "term": "Machine-Native Money",
-      "description": "Payment rails designed for autonomous AI agents rather than human users.",
-      "first_detected_date": "2026-03-12",
-      "last_mentioned_date": "2026-03-13",
+      "id": 152,
+      "term": "Scalability",
+      "description": "The ability of a network to handle an increasing amount of work, or its capacity to grow.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Pending analysis",
+      "investment_implications": "Cryptocurrencies with better scalability may offer more utility and potential for adoption, making them attractive investments.",
       "display_on_main": 1,
       "archived_date": null,
-      "archived_reason": null
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
+    },
+    {
+      "id": 143,
+      "term": "Cross-Solver Tensions",
+      "description": "The challenges faced by companies that try to replace multiple functionalities within a single platform.",
+      "first_detected_date": "2026-05-01",
+      "last_mentioned_date": "2026-05-01",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the potential for new platforms that can address specific pain points within enterprise software more effectively than incumbents.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.93,
+      "resonance_pct": 23,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
+    },
+    {
+      "id": 144,
+      "term": "Descheduling",
+      "description": "The removal of a substance from a list of controlled substances, in this case, cannabis.",
+      "first_detected_date": "2026-05-01",
+      "last_mentioned_date": "2026-05-01",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Descheduling can lead to significant changes in the legal and operational landscape for businesses in the affected industry.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.93,
+      "resonance_pct": 23,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
+    },
+    {
+      "id": 145,
+      "term": "MSOs (Multi-State Operators)",
+      "description": "Companies that operate in multiple states within the cannabis industry.",
+      "first_detected_date": "2026-05-01",
+      "last_mentioned_date": "2026-05-01",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "MSOs may benefit from descheduling as it could lead to increased interstate commerce and economies of scale.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.93,
+      "resonance_pct": 23,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
+    },
+    {
+      "id": 146,
+      "term": "TPU (Tensor Processing Unit)",
+      "description": "A type of application-specific integrated circuit (ASIC) developed by Google specifically designed to accelerate machine learning workloads.",
+      "first_detected_date": "2026-05-01",
+      "last_mentioned_date": "2026-05-01",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "TPUs represent a significant advancement in AI hardware and can influence investment in AI and cloud computing sectors.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.93,
+      "resonance_pct": 23,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
+    },
+    {
+      "id": 136,
+      "term": "Clinical Trial Reform",
+      "description": "Changes in the process of running clinical trials, including regulatory design, trial structure, and funding models.",
+      "first_detected_date": "2026-04-30",
+      "last_mentioned_date": "2026-04-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor how clinical trial reforms in different countries impact drug development timelines and costs.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.91,
+      "resonance_pct": 23,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
     }
   ]
 },
@@ -19349,6 +20161,220 @@ const dashboardData = {
     "key_tickers": [
       "SPACEX"
     ]
+  },
+  "207": {
+    "id": 197,
+    "insight_id": 207,
+    "podcast_episode_id": 193,
+    "overview": "The debate around AI's impact on media is not just about the creation of content but also about the verification of truth in a digital age where anyone can generate information at scale. The rise of AI has made it easier to create content but harder to verify its authenticity, leading to a breakdown in trust in traditional media and social networks. This has sparked a conversation about the need for new forms of social coordination and cryptographic verification to establish provable truth, which is not only a technological challenge but also a societal one, touching on issues of privacy, accountability, and the future of journalism.",
+    "key_takeaways_detailed": [
+      "Invest in companies developing decentralized cryptographic verification technologies that can provide a universal standard for truth verification.",
+      "Monitor the growth of live streaming platforms as indicators of consumer preference for real-time, human-generated content.",
+      "Keep an eye on regulatory developments regarding corporate and government surveillance, as these can influence the demand for privacy-focused technologies.",
+      "Consider the role of independent media and the potential for new business models that leverage AI for content creation while maintaining editorial integrity and trust."
+    ],
+    "investment_thesis": "The investment thesis is centered around the growing need for decentralized truth verification in the face of increasing AI-generated content and misinformation. The timeframe is medium to long-term, as technological solutions and societal shifts take time to materialize. For this thesis to hold, there must be a continued increase in AI-generated content, a sustained demand for verifiable truth, and the successful development and adoption of decentralized cryptographic verification technologies.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's focus on privacy and security in its products aligns with the need for decentralized truth and verification technologies.",
+        "positioning": "Strategic long position, as Apple's commitment to privacy could position it well in a market demanding more secure and verifiable digital experiences.",
+        "risk": "Regulatory changes that undermine privacy protections or a shift in consumer preferences away from privacy could impact Apple's position."
+      },
+      "GOOGL": {
+        "rationale": "Google's involvement in AI and its potential to develop or support decentralized verification technologies makes it relevant to this thesis.",
+        "positioning": "Tactical long position, as Google could benefit from providing services or platforms that support the verification ecosystem.",
+        "risk": "Failure to adapt to the changing landscape of content verification or regulatory scrutiny over data practices could pose risks."
+      },
+      "FB": {
+        "rationale": "Facebook's (Meta Platforms) significant investment in AI and its role in social media makes it a key player in the content verification space.",
+        "positioning": "Strategic long position, as the company's efforts to combat misinformation and develop new social coordination mechanisms could pay off.",
+        "risk": "Increased regulatory scrutiny or a failure to effectively manage AI-generated content could harm Facebook's reputation and user base."
+      },
+      "TWTR": {
+        "rationale": "Twitter's real-time nature and its role as a platform for live content make it relevant to the resurgence of live streaming and communal experiences.",
+        "positioning": "Tactical long position, as Twitter could benefit from the trend towards live streaming and human-generated content.",
+        "risk": "A decline in user engagement or an inability to effectively moderate content could undermine Twitter's position."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's broad technology portfolio and its potential to contribute to decentralized verification solutions make it a relevant ticker.",
+        "positioning": "Strategic long position, as Microsoft's diverse offerings could support the development and adoption of new verification technologies.",
+        "risk": "Slow adoption of new technologies or a failure to innovate in the verification space could impact Microsoft's growth prospects."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio that includes companies at the forefront of privacy, security, and AI development. Position sizing should reflect the strategic importance of each company within the thesis, with a focus on long-term growth potential. The time horizon for these investments should be medium to long-term, as the development and adoption of new technologies and societal shifts take time.",
+    "risk_factors": [
+      "Regulatory changes that undermine privacy and security efforts.",
+      "A shift in consumer preferences away from privacy and towards convenience.",
+      "Failure of cryptographic verification technologies to gain widespread adoption.",
+      "Increased competition from new entrants in the AI and content verification space.",
+      "Slow technological development or a lack of innovation in decentralized verification solutions."
+    ],
+    "contrarian_signals": [
+      "A significant increase in trust in traditional media and social networks.",
+      "A decrease in investment in AI and content verification technologies.",
+      "A lack of legislative or regulatory moves towards curbing corporate and government surveillance."
+    ],
+    "catalysts": [
+      "New regulatory frameworks that support privacy and security.",
+      "Technological breakthroughs in decentralized cryptographic verification.",
+      "Increased investment in live streaming and real-time content platforms.",
+      "Major partnerships or acquisitions in the AI and content verification space.",
+      "Public awareness campaigns highlighting the importance of verifiable truth in media."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-04T06:33:22.589058",
+    "updated_at": "2026-05-04 11:33:22",
+    "episode_evidence": "The podcast episode with Balaji and Taylor Lorenz delves into the complex interplay between AI, media, and truth. Balaji emphasizes the need for 'decentralized cryptographic truth' that is accessible to all, regardless of their economic status, stating, 'We actually need to have decentralized cryptographic truth that's not behind a paywall that anybody can verify no matter how poor they are no matter what.' This underscores the importance of creating systems that are not only resistant to manipulation but also universally verifiable. Taylor Lorenz brings up the resurgence of live streaming, suggesting that 'live is something that is so hard to fit. It is such a like a human thing,' indicating a shift towards more authentic, real-time content as a response to the proliferation of AI-generated content. Balaji also discusses the concept of a 'web of trust,' explaining how trust can be modeled mathematically, with multiple proof points and metadata on the edges of nodes, allowing for an inference of what is probably human-generated content. This mechanism is crucial in distinguishing between AI and human contributions in a digital world.",
+    "falsification_tracks": [
+      "A significant decrease in the number of live streaming platforms or a decline in user engagement with live content would challenge the thesis that live streaming is a preferred format for human-generated content.",
+      "If cryptographic verification technologies fail to gain traction or are overshadowed by centralized solutions, the need for decentralized truth verification would be diminished.",
+      "A lack of legislative or regulatory moves towards curbing corporate surveillance would indicate a reduced societal pushback against nonconsensual surveillance, affecting the demand for decentralized truth mechanisms."
+    ],
+    "insight_title": "Balaji and Taylor Lorenz on AI and Media",
+    "source_name": "The a16z Show",
+    "source_date": "2026-05-01",
+    "key_tickers": []
+  },
+  "208": {
+    "id": 198,
+    "insight_id": 208,
+    "podcast_episode_id": 192,
+    "overview": "The debate on OpenAI's performance and the massive capital expenditures by tech giants is crucial as it reflects the current trajectory and future potential of the AI and cloud computing sectors. The discussion highlights the tension between aggressive investment strategies and the practical challenges of meeting ambitious targets. It also underscores the strategic importance of compute power and energy resources in driving innovation and growth in these sectors. The potential involvement of high-profile individuals like Elon Musk adds another layer of complexity and opportunity to the narrative.",
+    "key_takeaways_detailed": [
+      "OpenAI's current underperformance against targets may be a temporary setback given the rapid evolution of AI technology and the company's substantial investment in compute power.",
+      "The capital expenditure plans of tech giants signal a long-term commitment to AI and cloud computing, suggesting sustained growth in these sectors despite short-term fluctuations.",
+      "The legal battle involving Elon Musk and OpenAI could have far-reaching implications for the AI industry, potentially influencing the direction and pace of innovation.",
+      "The discussion suggests that the current supply constraints in compute power and energy may favor established players with access to resources, potentially impacting the competitive landscape."
+    ],
+    "investment_thesis": "Investment in AI and cloud computing sectors is set to surge due to strong growth in these areas and massive capital expenditure plans by tech giants. This thesis is based on the expectation that despite short-term challenges, the long-term trajectory of AI and cloud computing remains upward, driven by continuous technological advancements and the strategic importance of these sectors for major tech companies. The timeline for this thesis is medium to long-term, as the realization of these investments and the resolution of current challenges will likely take time.",
+    "ticker_analysis": {
+      "AMZN": {
+        "rationale": "Amazon's significant capital expenditure plans in AI and cloud computing make it a key player in this sector.",
+        "positioning": "Strategic long position, as Amazon's investments are expected to yield long-term growth in the AI and cloud sectors.",
+        "risk": "Risks include failure to meet investment targets or a slowdown in the overall growth of the AI and cloud sectors."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's substantial investments in AI and cloud computing position it as a major beneficiary of the growth in these sectors.",
+        "positioning": "Strategic long position, reflecting the company's strong position in the AI and cloud market.",
+        "risk": "Key risks include increased competition and potential disruptions in the tech sector."
+      },
+      "GOOGL": {
+        "rationale": "Google's investments in AI and cloud computing are significant, making it a central player in the sector's growth.",
+        "positioning": "Strategic long position, as Google's AI and cloud initiatives are expected to drive future growth.",
+        "risk": "Risks include regulatory challenges and potential technological disruptions."
+      },
+      "META": {
+        "rationale": "Meta's commitment to AI and cloud computing, despite recent challenges, positions it to benefit from the sector's growth.",
+        "positioning": "Tactical long position, as Meta's investments could yield short-term gains in the evolving AI and cloud landscape.",
+        "risk": "Key risks include the company's ability to execute on its AI and cloud strategies amidst broader market challenges."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced approach, with a mix of strategic long positions in established tech giants and tactical positions in companies that are poised to benefit from short-term market dynamics. The time horizon for these investments should be medium to long-term, reflecting the nature of the investments and the expected growth in the AI and cloud sectors.",
+    "risk_factors": [
+      "Failure of tech giants to meet their ambitious AI and cloud computing investment targets.",
+      "Regulatory challenges that could slow down the growth of AI and cloud computing sectors.",
+      "Technological disruptions that could alter the competitive landscape in AI and cloud computing.",
+      "Economic downturns that could impact the capital expenditure plans of tech giants."
+    ],
+    "contrarian_signals": [
+      "A significant slowdown in the growth of AI and cloud computing sectors.",
+      "A shift in focus by tech giants towards other emerging technologies, reducing their investments in AI and cloud computing.",
+      "The emergence of new competitors that disrupt the current market dynamics in AI and cloud computing."
+    ],
+    "catalysts": [
+      "Announcements of new breakthroughs in AI and cloud computing technologies.",
+      "Successful execution of capital expenditure plans by tech giants, leading to tangible growth in the sectors.",
+      "Resolution of the legal battle involving Elon Musk and OpenAI, potentially leading to new investment opportunities.",
+      "Regulatory developments that support the growth of AI and cloud computing sectors."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-04T06:33:47.512588",
+    "updated_at": "2026-05-04 11:33:47",
+    "episode_evidence": "The hosts of the podcast discussed OpenAI's performance against user and revenue targets, highlighting that 'OpenAI expected to hit one billion weekly active users before the end of 2025. They missed that. And they still haven't hit the milestone four months into 2026.' Additionally, they mentioned that 'they missed their 2025 revenue target for Chat, GPT.' The discussion also touched on the significant capital expenditure plans of tech giants, with one host stating, 'OpenAI has 600 billion dollars in spending time at its fourth compute.' This underscores the massive investments being made in the AI sector. Furthermore, the hosts debated the potential implications of a legal battle involving Elon Musk and OpenAI, with one suggesting that 'the models catch up in quality, I think he could also do something really crazy with Anthropic or OpenAI right now.'",
+    "falsification_tracks": [
+      "OpenAI announces that it has achieved or exceeded its user and revenue targets for the current year.",
+      "Tech giants like Amazon, Microsoft, Google, and Meta announce significant reductions in their capital expenditure plans for AI and cloud computing.",
+      "Elon Musk and OpenAI resolve their legal battle amicably, and Musk announces a substantial investment in OpenAI, signaling a positive shift in the narrative."
+    ],
+    "insight_title": "OpenAI Misses Targets, Codex vs Claude, Elon vs Sam Trial, Big Hyperscaler Beats, Peptide Craze",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-05-01",
+    "key_tickers": [
+      "GOOGL",
+      "MSFT",
+      "AMZN",
+      "META"
+    ]
+  },
+  "209": {
+    "id": 199,
+    "insight_id": 209,
+    "podcast_episode_id": 191,
+    "overview": "The debate centers on the efficacy of traditional investment analysis in the context of intangible asset-heavy companies, which are prevalent in the new economy. The relevance is heightened by the increasing importance of sectors like technology and services, where traditional metrics like price-to-earnings ratios and discounted cash flow analyses fall short. The market's current structure demands a more nuanced approach that incorporates sentiment analysis to capture the value of intangibles, which are often the drivers of company performance in today's knowledge-based economy.",
+    "key_takeaways_detailed": [
+      "Investors must recognize the diminishing predictive power of traditional financial metrics for companies with high intangible capital.",
+      "Sentiment analysis provides a complementary approach to identify market sentiment shifts, which can be particularly insightful in sectors with high intangible capital.",
+      "The bifurcated stock selection approach, emphasizing sentiment analysis in new economy sectors and fundamental analysis in old economy sectors, can offer a more comprehensive investment strategy.",
+      "Investors should monitor shifts in sentiment across global markets and industries to identify potential mispricing opportunities."
+    ],
+    "investment_thesis": "The core logic is that in the new economy, where intangible assets are significant, traditional fundamental analysis fails to capture the full value of a company, leading to potential mispricing. By integrating sentiment analysis with fundamental analysis, investors can better identify and capitalize on mispriced opportunities, especially in sectors affected by global events. The timeframe for this thesis is medium to long-term, as the market's understanding and incorporation of intangible assets will evolve over time. What has to go right is the continued growth and influence of intangible assets in company valuations and the effectiveness of sentiment analysis in predicting market movements.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc. represents a new economy stock with significant intangible assets, such as brand value and customer relationships, which traditional analysis might undervalue.",
+        "positioning": "Positioning should be long-term, focusing on the company's ability to innovate and maintain its market leadership, which is not fully captured by traditional metrics.",
+        "risk": "Key risks include changes in consumer preferences, increased competition, and potential disruptions from global events affecting supply chains or consumer spending."
+      },
+      "AMZN": {
+        "rationale": "Amazon, with its strong customer relationships and vast data assets, exemplifies a company where intangibles play a crucial role in its valuation.",
+        "positioning": "A strategic long position, considering Amazon's continued expansion into new markets and services.",
+        "risk": "The risk includes regulatory challenges, especially in antitrust cases, and the ability to maintain growth in mature markets."
+      },
+      "TSLA": {
+        "rationale": "Tesla's innovation and brand strength are intangible assets that could be undervalued by traditional metrics, making it a prime candidate for sentiment analysis.",
+        "positioning": "A tactical long position, capitalizing on short-term market sentiment shifts and the company's growth prospects.",
+        "risk": "The risk includes production bottlenecks, competition from traditional and new automakers, and potential regulatory hurdles."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified portfolio that includes a mix of new and old economy stocks, with a heavier emphasis on sentiment analysis for the former. The time horizon for new economy stocks should be medium to long-term, given the slower incorporation of intangible assets into market valuations. Investors should also be prepared to adjust their positions based on changing global events and market sentiment.",
+    "risk_factors": [
+      "Regulatory changes that could impact the value of intangible assets.",
+      "Technological disruptions that render current intangible assets obsolete.",
+      "Economic downturns that affect the cash flows of old economy stocks, making traditional analysis less reliable."
+    ],
+    "contrarian_signals": [
+      "A significant increase in the number of investors adopting sentiment analysis, potentially reducing its effectiveness.",
+      "The emergence of new financial metrics that better incorporate intangible assets, making traditional analysis more relevant again.",
+      "A shift in market sentiment towards value investing, favoring old economy stocks with stable cash flows and tangible assets."
+    ],
+    "catalysts": [
+      "Release of new financial reporting standards that better account for intangible assets.",
+      "Major technological breakthroughs in sectors with high intangible capital, such as AI or renewable energy.",
+      "Global events that significantly impact supply chains or consumer behavior, affecting the performance of both new and old economy stocks."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-04T06:34:26.941885",
+    "updated_at": "2026-05-04 11:34:26",
+    "episode_evidence": "In the podcast, Jacob Pajarni, Co-Chief Investment Officer at Bridgeway Capital Management, explains the dichotomy between new and old economy stocks. He states, 'fundamentals have become much less predictive of price action for companies of high levels of intangible capital', highlighting the limitations of traditional analysis. Pajarni further clarifies, 'for companies in the old economy space where intangible assets are really driving overall revenue production, their fundamental analysis in classical discounted cash flow analysis continues to work quite well.' This distinction is crucial as it implies that the investment approach must be tailored to the nature of the economy sector. Pajarni also discusses the PBRW model, noting its failure in predictive power for new economy stocks, 'it failed to be predictive', which underscores the need for alternative methods like sentiment analysis.",
+    "falsification_tracks": [
+      "A sustained period where new economy stocks consistently follow the patterns predicted by traditional fundamental analysis, indicating a shift in market dynamics.",
+      "A significant change in accounting standards that begins to accurately capture intangible assets, thereby making traditional valuation metrics more relevant.",
+      "A prolonged market downturn affecting old economy stocks, suggesting that even traditional sectors are now subject to the same intangible asset-driven unpredictability as new economy stocks."
+    ],
+    "insight_title": "Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-05-01",
+    "key_tickers": [
+      "HFGM"
+    ]
   }
 },
   suggestedTerms: [],
@@ -19596,74 +20622,6 @@ const dashboardData = {
 ],
   pundits: [
   {
-    "id": 69,
-    "name": "Ben Horowitz",
-    "slug": "ben-horowitz",
-    "bio": "Ben Horowitz is a venture capitalist, entrepreneur, and author known for co-founding the venture capital firm Andreessen Horowitz (a16z) and his work in the tech industry. He has been influential in rethinking the structure of venture capital as software expanded the potential of startups.",
-    "known_for": "Rethinking the structure of venture capital and his work in the tech industry.",
-    "net_worth_usd": 2000000000.0,
-    "net_worth_source": "https://www.cinenetworth.com/ben-horowitz-net-worth/",
-    "net_worth_updated_at": "2026-03-19T21:23:34.764792",
-    "voice_tone": "Insightful and experienced.",
-    "voice_style": "Direct and pragmatic, with a focus on real-world application.",
-    "voice_delivery_notes": "Speaks with conviction and authority, emphasizing key points with a steady pace.",
-    "voice_profile_updated_at": "2026-04-28 10:04:14",
-    "last_seen": "2026-04-28 10:04:14",
-    "last_episode_title": "Ben Horowitz on Venture Capital and AI",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-27",
-    "mention_score": 5,
-    "mention_score_decayed": 4.45,
-    "last_main_idea": "Invest in startups that are addressing real problems and have the potential for significant growth, while considering the evolving landscape of venture capital and the impact of AI on various industries.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-27 \u2022 Ben Horowitz on Venture Capital and AI",
-    "last_proof_snippet": "Network effects and firm design are crucial components of successful startups.",
-    "supporting_takeaway": "Network effects and firm design are crucial components of successful startups.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-28T05:05:01.913973",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ben Horowitz",
-      "fetched_at": "2026-04-28T10:05:01.913751+00:00",
-      "cliff_notes": "Ben Horowitz began his career as a software engineer before moving into management roles. He co-founded Loudcloud, which later became Opsware, where he served as CEO. After selling Opsware to Hewlett-Packard, Horowitz transitioned into venture capital, co-founding Andreessen Horowitz with Marc Andreessen. The firm has been influential in Silicon Valley, investing in companies like Facebook, Airbnb, and GitHub. Horowitz is known for his insights on leadership, culture, and the changing dynamics of the tech industry, particularly as it relates to venture capital.",
-      "derived": {
-        "current_role": "Co-founder of Andreessen Horowitz",
-        "former_positions": "CEO of Opsware; Co-founder of Loudcloud",
-        "education": "Bachelor's degree in Computer Science from Columbia University; Master's degree in Computer Science from UCLA",
-        "books_or_works": "The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers",
-        "teaching_summary": "Guest lecturer at Stanford University"
-      },
-      "infobox": {
-        "Born": "August 13, 1967",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Ben Horowitz began his career as a software engineer before moving into management roles. He co-founded Loudcloud, which later became Opsware, where he served as CEO. After selling Opsware to Hewlett-Packard, Horowitz transitioned into venture capital, co-founding Andreessen Horowitz with Marc Andreessen. The firm has been influential in Silicon Valley, investing in companies like Facebook, Airbnb, and GitHub.",
-        "Horowitz is known for his insights on leadership, culture, and the changing dynamics of the tech industry, particularly as it relates to venture capital."
-      ],
-      "sections": [
-        {
-          "heading": "Venture Capital",
-          "body": "Ben Horowitz has been a key figure in rethinking the structure of venture capital, adapting it to the rapidly evolving tech industry and the rise of software startups."
-        },
-        {
-          "heading": "Leadership and Culture",
-          "body": "Horowitz emphasizes the importance of strong leadership and company culture, sharing his experiences and insights from his time as a CEO and a venture capitalist."
-        },
-        {
-          "heading": "Network Effects",
-          "body": "In his work, Horowitz has explored the concept of network effects and how they can drive the value of technology companies, particularly in platforms with large user bases."
-        },
-        {
-          "heading": "Startup Growth",
-          "body": "Horowitz has been vocal about the challenges and opportunities in scaling startups, especially in the context of software's ability to disrupt traditional industries."
-        }
-      ]
-    },
-    "net_worth": "$2.00B"
-  },
-  {
     "id": 98,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
@@ -19681,7 +20639,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-16",
     "mention_score": 5,
-    "mention_score_decayed": 3.45,
+    "mention_score_decayed": 3.38,
     "last_main_idea": "Invest in sectors likely to benefit from increased inflation and supply chain disruptions, with a focus on energy, uranium, and domestic electrical infrastructure.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-16 \u2022 MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
     "last_proof_snippet": "Markets may be underpricing the severity of supply chain disruptions.",
@@ -19740,7 +20698,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-15",
     "mention_score": 4,
-    "mention_score_decayed": 2.7,
+    "mention_score_decayed": 2.64,
     "last_main_idea": "Nvidia's role in the transformation of electrons to valuable tokens and the acceleration of computing tasks positions it well in the AI and broader technology market.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-15 \u2022 Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
     "last_proof_snippet": "Nvidia has built a large ecosystem of partners across the supply chain and in application development.",
@@ -19788,70 +20746,6 @@ const dashboardData = {
     "net_worth": "$151.00B"
   },
   {
-    "id": 153,
-    "name": "Marc Andreessen",
-    "slug": "mark-andreason",
-    "bio": "Mark Andreason is a co-founder and general partner at a16z, with over 35 years of experience in AI. He has witnessed the evolution of AI technologies and believes the current moment represents a significant payoff from decades of foundational research. Andreason argues that the combination of a language model, a unique shell, and a file system represents one of the most important software architectures in a generation.",
-    "known_for": "His insights into the evolution and potential of AI technologies and the current moment's significance in the field.",
-    "net_worth_usd": 1000000000.0,
-    "net_worth_source": "https://www.oreateai.com/blog/marc-andreessen-the-man-behind-the-billions/0a05c2acfab7b29e9d42044021e4bd53",
-    "net_worth_updated_at": "2026-04-04T05:05:36.409150",
-    "voice_tone": "Confident and informed",
-    "voice_style": "Analytical and forward-looking",
-    "voice_delivery_notes": "Paced with emphasis on key AI breakthroughs and their implications",
-    "voice_profile_updated_at": "2026-04-04 10:05:01",
-    "last_seen": "2026-04-22 10:03:39",
-    "last_episode_title": "Marc Andreessen: Monitoring the Situation and the Future of Media",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-21",
-    "mention_score": 3,
-    "mention_score_decayed": 2.33,
-    "last_main_idea": "Investing in media and understanding its evolution is crucial as it shapes societal behavior, influences politics, and impacts decision-making processes.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-21 \u2022 Marc Andreessen: Monitoring the Situation and the Future of Media",
-    "last_proof_snippet": "The 24-hour news cycle, pioneered by CNN, has been taken to the extreme by the internet, compressing time and amplifying emotion.",
-    "supporting_takeaway": "The 24-hour news cycle, pioneered by CNN, has been taken to the extreme by the internet, compressing time and amplifying emotion.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-04T05:05:35.449489",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Mark Andreason",
-      "fetched_at": "2026-04-04T10:05:35.449039+00:00",
-      "cliff_notes": "Mark Andreason, with over 35 years of experience in AI, is a co-founder and general partner at a16z. He has observed AI's cycles through summers and winters, from coding and lists in 1989 to his current involvement in foundation model companies. Andreason argues that the current moment is not a false start but rather the result of eight decades of foundational research catalyzed by four distinct breakthroughs: large language models, reasoning, agents, and self-improvement. He is particularly interested in the software architecture that combines a language model, a unique shell, and a file system, which he believes is one of the most important in a generation. Andreason's career and insights are significant in understanding the trajectory and potential of AI technologies.",
-      "derived": {
-        "current_role": "Co-founder and General Partner at a16z"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Mark Andreason, with over 35 years of experience in AI, is a co-founder and general partner at a16z. He has observed AI's cycles through summers and winters, from coding and lists in 1989 to his current involvement in foundation model companies. Andreason argues that the current moment is not a false start but rather the result of eight decades of foundational research catalyzed by four distinct breakthroughs: large language models, reasoning, agents, and self-improvement.",
-        "He is particularly interested in the software architecture that combines a language model, a unique shell, and a file system, which he believes is one of the most important in a generation. Andreason's career and insights are significant in understanding the trajectory and potential of AI technologies."
-      ],
-      "sections": [
-        {
-          "heading": "AI Evolution",
-          "body": "Mark Andreason has watched AI technologies evolve over more than 35 years, observing cycles of interest and progress."
-        },
-        {
-          "heading": "Foundational Research",
-          "body": "Andreason believes the current advancements in AI are the result of eight decades of foundational research."
-        },
-        {
-          "heading": "Breakthroughs in AI",
-          "body": "He identifies four breakthroughs that have catalyzed the current moment in AI: large language models, reasoning, agents, and self-improvement."
-        },
-        {
-          "heading": "Software Architecture",
-          "body": "Andreason argues that the combination of a language model, a unique shell, and a file system represents a significant advancement in software architecture."
-        }
-      ]
-    },
-    "net_worth": "$1.00B"
-  },
-  {
     "id": 209,
     "name": "David Sinclair",
     "slug": "david-sinclair",
@@ -19869,7 +20763,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.82,
+    "mention_score_decayed": 1.78,
     "last_main_idea": "Investing in longevity and healthspan technologies and therapies offers significant growth potential as scientific advancements continue to extend human lifespan and improve quality of life.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-28 \u2022 David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
     "last_proof_snippet": "AI-driven drug design is accelerating research by analyzing billions of molecules for potential therapeutic uses.",
@@ -19936,7 +20830,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-24",
     "mention_score": 2,
-    "mention_score_decayed": 1.66,
+    "mention_score_decayed": 1.62,
     "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
     "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
@@ -19996,7 +20890,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-24",
     "mention_score": 2,
-    "mention_score_decayed": 1.66,
+    "mention_score_decayed": 1.62,
     "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
     "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
@@ -20062,7 +20956,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-17",
     "mention_score": 2,
-    "mention_score_decayed": 1.48,
+    "mention_score_decayed": 1.45,
     "last_main_idea": "The investment thesis presented revolves around the potential negative impacts of new real estate taxes on luxury property demand and the growing controversy and potential regulation surrounding data centers, which could affect technology and real estate investments.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-17 \u2022 OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out",
     "last_proof_snippet": "The tax may lead to a decrease in demand for second homes, potentially crashing the market for luxury properties.",
@@ -20106,67 +21000,6 @@ const dashboardData = {
     "net_worth": "$3.60B"
   },
   {
-    "id": 131,
-    "name": "David Sachs",
-    "slug": "david-sachs",
-    "bio": "David Sachs is a venture capitalist and technology entrepreneur.",
-    "known_for": "His work in the technology and venture capital space.",
-    "net_worth_usd": 200000000.0,
-    "net_worth_source": "https://impactwealth.org/david-sacks-net-worth-and-biography-2025-the-journey-of-a-tech-visionary/",
-    "net_worth_updated_at": "2026-03-28T22:05:26.806183",
-    "voice_tone": "Inquisitive and analytical.",
-    "voice_style": "Direct and to the point, with a focus on the implications of AI on business and labor.",
-    "voice_delivery_notes": "Paced with emphasis on key points regarding AI growth and enterprise adoption.",
-    "voice_profile_updated_at": "2026-04-11 10:04:00",
-    "last_seen": "2026-04-11 10:04:00",
-    "last_episode_title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-04-10",
-    "mention_score": 2,
-    "mention_score_decayed": 1.2,
-    "last_main_idea": "Invest in AI companies that are leading the charge in enterprise adoption, as they are positioned to benefit from the exponential growth in revenue and the shift towards labor augmentation and replacement.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-10 \u2022 Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
-    "last_proof_snippet": "AI companies are experiencing the largest revenue explosion in the history of technology.",
-    "supporting_takeaway": "AI companies are experiencing the largest revenue explosion in the history of technology.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T22:05:25.190284",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "David Sachs",
-      "fetched_at": "2026-03-29T03:05:25.190194+00:00",
-      "cliff_notes": "David Sachs is a prominent figure in the tech industry, known for his insights on innovation and technology. He has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape. Sachs' career has been marked by his focus on the intersection of technology, policy, and business. His work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth and maintain a competitive edge in the global market.",
-      "derived": {
-        "current_role": "Advisor to the Trump administration",
-        "political_summary": "David Sachs has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape."
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "David Sachs is a prominent figure in the tech industry, known for his insights on innovation and technology. He has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape. Sachs' career has been marked by his focus on the intersection of technology, policy, and business.",
-        "His work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth and maintain a competitive edge in the global market."
-      ],
-      "sections": [
-        {
-          "heading": "Innovation and Technology",
-          "body": "David Sachs is known for his insights on innovation and technology, emphasizing their importance in the current competitive landscape."
-        },
-        {
-          "heading": "Trump Administration",
-          "body": "Sachs has been involved in the Trump administration, where he has focused on the role of scientific research and technology in driving economic growth and maintaining a competitive edge."
-        },
-        {
-          "heading": "Economic Growth",
-          "body": "Sachs' work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth."
-        }
-      ]
-    },
-    "net_worth": "$200.0M"
-  },
-  {
     "id": 54,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
@@ -20184,7 +21017,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-09",
     "mention_score": 2,
-    "mention_score_decayed": 1.18,
+    "mention_score_decayed": 1.15,
     "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-09 \u2022 MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
     "last_proof_snippet": "The oil market may be tighter than widely believed, with implications for food prices and inflation.",
@@ -20252,7 +21085,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-02",
     "mention_score": 2,
-    "mention_score_decayed": 1.0,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
     "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
@@ -20279,7 +21112,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-19 \u2022 MacroVoices-2026-03-19-Simon-White",
     "last_proof_snippet": "Simon White suggests that markets may be underpricing the second-order effects of the Iran conflict.",
@@ -20339,7 +21172,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -20403,7 +21236,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -20463,7 +21296,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
@@ -20752,7 +21585,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investors should look for opportunities in chaos, focusing on sectors with significant potential for growth and capital movement, such as SpaceX's IPO and the de-scheduling of cannabis.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-30 \u2022 SpaceX IPO: Why This Hedge Fund Manager is Fading the Hype | Moez Kassam",
     "last_proof_snippet": "SpaceX's IPO could be one of the largest in history, with potential for significant capital movement.",
@@ -20816,7 +21649,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-30 \u2022 Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
     "last_proof_snippet": "AI is creating new opportunities to rethink how enterprise systems work, potentially leading to a platform shift.",
@@ -20876,7 +21709,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Steve Helden's candidacy represents a potential shift in California's political landscape towards policies that promote economic freedom and reduced regulatory burdens, which could have implications for businesses and investors in the state.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-29 \u2022 CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
     "last_proof_snippet": "Helden's background as a child of Hungarian refugees and his work experience in various industries shape his policy views.",
@@ -20938,7 +21771,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in companies that optimize AI model architecture and training can lead to significant performance improvements and cost savings.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-29 \u2022 Reiner Pope \u2013 The math behind how LLMs are trained and served",
     "last_proof_snippet": "Batch size significantly impacts latency and cost in AI systems.",
@@ -20998,7 +21831,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in AI CapEx is currently the main focus, with co-investments in hedge funds providing a successful strategy for capturing high returns.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-29 \u2022 From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
     "last_proof_snippet": "Co-investing with hedge funds is a successful strategy Kavanaugh learned from Scott Beston at Soros Fund Management.",
@@ -21063,7 +21896,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investment in the biotech sector may need to consider the geographic shift towards China for innovation and efficiency in drug development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-29 \u2022 The Shift in Global Drug Development",
     "last_proof_snippet": "China's clinical trial system has rapidly expanded, with reforms that streamline the approval process.",
@@ -21126,7 +21959,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -21191,7 +22024,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investing in syndicated loans through BDCs like Palmer Square's offers a less risky asset class with greater transparency and historical performance, making it an attractive option in the current market environment.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-26 \u2022 \u201cOverblown\u201d Sell-off in Software Loans | Matthew Bloomfield on Public BDCs (Business Development Companies) and Collateralized Loan Obligations (CLOs)",
     "last_proof_snippet": "BDCs typically own private credit loans, but Palmer Square's BDC owns mostly broadly syndicated loans, which are perceived as less risky.",
@@ -21254,7 +22087,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
     "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
@@ -21317,7 +22150,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in AI and data center infrastructure companies that benefit from a supportive regulatory environment and government-backed scientific research.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-24 \u2022 SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
     "last_proof_snippet": "Data centers are a critical component of AI infrastructure, and the president's stance on them is favorable for progress.",
@@ -21375,7 +22208,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investing in AI, hardware, and pharma presents significant opportunities due to the large market cap potential and the need for innovation in computing.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-23 \u2022 Martin Shkreli on AI, Pharma, and What Actually Matters",
     "last_proof_snippet": "There is a surprising lack of startups in certain areas of AI and hardware, presenting opportunities for new entrants.",
@@ -21439,7 +22272,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "The Iran conflict and energy market disruptions present opportunities in commodities, particularly in the context of extreme backwardation and supply constraints, which could drive further price increases and investment returns.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-23 \u2022 MacroVoices #529 Ole S Hansen: Commodities in The Wake of The Iran Crisis",
     "last_proof_snippet": "Extreme backwardation in crude oil presents powerful return tailwinds for traders.",
@@ -21501,7 +22334,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Invest in companies and technologies that are at the forefront of AI development and data center infrastructure, as these will be key drivers of growth and power in the coming years.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-23 \u2022 Iran's AI Supply Chain Threat, Claude vs. SaaS, and Elon's $60B Cursor Bet | EP #249",
     "last_proof_snippet": "The aftermath of war is predicted to accelerate the competition between frontier labs and established businesses in AI.",
@@ -21562,7 +22395,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -21627,7 +22460,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in technologies and platforms that leverage cryptography and blockchain to provide verifiable information and restore trust in digital content.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-22 \u2022 Balaji Srinivasan: Prove Correct, Not Just Go Direct",
     "last_proof_snippet": "The growing distrust in media is due to the increasing cost of verifying content as synthetic content floods systems.",
@@ -21688,7 +22521,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investing in the evolution of software development tools that cater to the needs of both human developers and AI coding agents presents an opportunity for significant growth and innovation.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-20 \u2022 Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
     "last_proof_snippet": "Coding agents are struggling with traditional Git interfaces, necessitating new tool development.",
@@ -21753,7 +22586,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in companies at the forefront of AI development and application, as they are poised to shape the future of work, management, and the economy.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-18 \u2022 Sam Altman\u2019s Attack, Amazon vs. Starlink, and What Opus 4.7 Actually Means | #248",
     "last_proof_snippet": "99% of people are underreacting to and unaware of the potential impacts of AI on their lives and jobs.",
@@ -21816,7 +22649,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in software companies that can adapt to AI disruption and emerge stronger, with the potential for significant upside in the next 12 months.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-19 \u2022 Navigating the SaaS Apocalypse: Why AI Disruption is Mispriced | Deiya Pernas | Pernas Research",
     "last_proof_snippet": "The sell-off has led to valuations not seen in years, presenting opportunities for investors.",
@@ -21876,7 +22709,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "The rapid advancement of AI and consumer tech is creating new opportunities and challenges for venture capital, with a focus on the need for universal basic purpose and the potential for AI to disrupt traditional job markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-19 \u2022 Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
     "last_proof_snippet": "The cost structure for consumer products has shifted, with AI inference costs affecting the economics of venture funding.",
@@ -21942,7 +22775,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
     "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
@@ -22006,7 +22839,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in sectors likely to benefit from increased inflation and supply chain disruptions, with a focus on energy, uranium, and domestic electrical infrastructure.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-16 \u2022 MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
     "last_proof_snippet": "Markets may be underpricing the severity of supply chain disruptions.",
@@ -22070,7 +22903,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -22199,7 +23032,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investing in HFGM global macro ETF, which is highly rated by Morningstar, may offer exposure to macroeconomic trends and government policies affecting financial markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-15 \u2022 Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
     "last_proof_snippet": "Historically, financial repression has been used during wartime to keep bond yields artificially low.",
@@ -22259,7 +23092,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-15 \u2022 Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
     "last_proof_snippet": "The company's revenue grew from $2.5 million to $250 million in just over a year, demonstrating the potential of AI in software development.",
@@ -22323,7 +23156,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-14 \u2022 \"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
     "last_proof_snippet": "Investing with a long-term perspective involves considering macroeconomic factors and their impact on smaller companies.",
@@ -22382,7 +23215,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in AI companies that are positioned to benefit from the rapid growth and valuation in the industry, and consider the broader implications of AI on the future of work and social structures.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-14 \u2022 Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
     "last_proof_snippet": "AI is expected to replace many white collar jobs in the near future.",
@@ -22446,7 +23279,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
@@ -22506,7 +23339,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-11 \u2022 SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
     "last_proof_snippet": "Starlink is seen as a profitable stepping stone for SpaceX's ambitions in space.",
@@ -22568,7 +23401,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-11 \u2022 SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
     "last_proof_snippet": "Starlink is seen as a profitable stepping stone for SpaceX's ambitions in space.",
@@ -22630,7 +23463,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Investing in companies with a strong cultural identity and clear strategic focus can provide an edge in technology markets, as demonstrated by the contrasting paths of Apple and Microsoft.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-10 \u2022 What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
     "last_proof_snippet": "Microsoft's strength in enterprise is due to the legendary compatibility of Windows, a key value for corporations.",
@@ -22695,7 +23528,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in software companies that define the market, focusing on backing scale-ready leaders, providing liquidity to early investors, and helping companies make strategic decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-09 \u2022 \"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
     "last_proof_snippet": "AI is a significant paradigm shift, commoditizing some areas of the market but not changing the fundamental rules of the game.",
@@ -22763,7 +23596,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-09 \u2022 MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
     "last_proof_snippet": "The oil market may be tighter than widely believed, with implications for food prices and inflation.",
@@ -22827,7 +23660,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
     "last_proof_snippet": "Beach Point Capital Management primarily manages institutional capital, which is characterized as patient capital.",
@@ -22890,7 +23723,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
@@ -22956,7 +23789,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
@@ -23020,7 +23853,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Invest in Pennsylvania due to its pro-growth policies, job creation, and improved business climate.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-08 \u2022 Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
     "last_proof_snippet": "Pennsylvania is ranked number one in charging Medicaid fraud and is pro-data center.",
@@ -23086,7 +23919,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-07 \u2022 Michael Nielsen \u2013 How science actually progresses",
     "last_proof_snippet": "The Michelson-Morley experiment was initially aimed at testing theories of the ether, which was a significant concept in physics before the advent of relativity.",
@@ -23147,7 +23980,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-07 \u2022 Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
     "last_proof_snippet": "The recent outperformance of emerging market equities is attributed to a fundamental repricing of relative value and the 'anywhere but US' theme.",
@@ -23207,7 +24040,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-07 \u2022 How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
     "last_proof_snippet": "The company is leveraging AI to design and build living products, which is a novel approach in synthetic biology.",
@@ -23271,7 +24104,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
     "last_proof_snippet": "AI is a shortcut that can be beneficial but also presents challenges in debugging and understanding.",
@@ -23333,7 +24166,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-06 \u2022 The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
     "last_proof_snippet": "The strategic significance of the US maintaining its position in the global technology and defense landscape.",
@@ -23393,7 +24226,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-06 \u2022 The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
     "last_proof_snippet": "The strategic significance of the US maintaining its position in the global technology and defense landscape.",
@@ -23453,7 +24286,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in companies that leverage coding agents could offer significant productivity gains and reshape the software development landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-06 \u2022 Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
     "last_proof_snippet": "The future of work may involve smaller teams leveraging coding agents to achieve more with less, challenging traditional company structures.",
@@ -23516,7 +24349,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-04 \u2022 \u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
     "last_proof_snippet": "Shipping inefficiencies can lead to increased profits for ship owners.",
@@ -23580,7 +24413,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
     "last_proof_snippet": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
@@ -23640,7 +24473,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
     "last_proof_snippet": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
@@ -23701,7 +24534,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
     "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
@@ -23761,7 +24594,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_proof_snippet": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",
@@ -23885,7 +24718,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-31 \u2022 Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
     "last_proof_snippet": "Autonomous vehicles are becoming a reality, with a hybrid model expected to emerge where both human-driven and autonomous vehicles coexist.",
@@ -23946,7 +24779,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
     "last_proof_snippet": "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
@@ -24007,7 +24840,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
     "last_proof_snippet": "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
@@ -24072,7 +24905,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-31 \u2022 The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
     "last_proof_snippet": "The impact of regulation and policy on the cost of starting a hedge fund.",
@@ -24136,7 +24969,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-29 \u2022 The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
     "last_proof_snippet": "Alternative managers are increasingly seeking capital from retail investors and wealth channels.",
@@ -24197,7 +25030,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
     "last_proof_snippet": "Dixon's investment philosophy emphasizes betting on people rather than trying to predict tech trends.",
@@ -24263,7 +25096,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-27 \u2022 Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
     "last_proof_snippet": "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",
@@ -24443,7 +25276,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-27 \u2022 Investing in Sovereign Credit with Lupin Ramon",
     "last_proof_snippet": "Investors in sovereign debt must consider both the ability and willingness of governments to repay, which can be influenced by a multitude of qualitative factors.",
@@ -24508,7 +25341,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-27 \u2022 Lessons from SpaceX and Tesla: Building for the Physical Economy",
     "last_proof_snippet": "Preventing data silos and fostering communication is crucial for scaling.",
@@ -24573,7 +25406,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-27 \u2022 Lessons from SpaceX and Tesla: Building for the Physical Economy",
     "last_proof_snippet": "Preventing data silos and fostering communication is crucial for scaling.",
@@ -24945,7 +25778,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
@@ -25005,7 +25838,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
@@ -25064,7 +25897,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-26 \u2022 Exploring Psychedelics for Longevity and Personal Growth",
     "last_proof_snippet": "Johnson's experience with 5-MEO-DMT was profound, leading to a significant personal reset and a renewed sense of purpose.",
@@ -25124,7 +25957,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
     "last_proof_snippet": "Current power solutions like diesel generators are inefficient and create a tactical signature, making them a liability.",
@@ -25184,7 +26017,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
     "last_proof_snippet": "Current power solutions like diesel generators are inefficient and create a tactical signature, making them a liability.",
@@ -25248,7 +26081,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-24 \u2022 The Future of AI and its Impact on Society and Investment",
     "last_proof_snippet": "Recursive self-improvement in AI is not yet realized, but its potential is both exciting and terrifying.",
@@ -25316,7 +26149,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-23 \u2022 Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
     "last_proof_snippet": "Northwood aims to modernize and vertically integrate ground systems to connect satellites back to Earth.",
@@ -25376,7 +26209,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-23 \u2022 Interview with Michael Intrader at Nvidia's GTC Conference",
     "last_proof_snippet": "The company leverages its expertise in risk management from its hedge fund background to navigate volatility in crypto.",
@@ -25437,7 +26270,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-23 \u2022 Monetary Matters: Middle East Crisis and Global Market Impact",
     "last_proof_snippet": "The Strait of Hormuz remains under Iranian control, and no significant change in shipping has been observed.",
@@ -25500,7 +26333,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-22 \u2022 Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
     "last_proof_snippet": "Despite the price surge, U.S. nitrogen fertilizers are still some of the cheapest in the world, creating an arbitrage opportunity.",
@@ -25558,7 +26391,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-23 \u2022 California's Spending Woes and the Governor's Race",
     "last_proof_snippet": "High-speed rail project has spent $14 billion without delivering a product, highlighting a lack of accountability in state government.",
@@ -25622,7 +26455,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-20 \u2022 The Impact of AI on Mathematics and Scientific Discovery",
     "last_proof_snippet": "The application of AI in mathematics could lead to new discoveries and breakthroughs more quickly than traditional methods.",
@@ -25679,7 +26512,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_proof_snippet": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229 00:00:00 I am blown away by how far you've come. The things that you can do with Neural Nets now does completely",
@@ -25743,7 +26576,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "last_proof_cite": "The a16z Show \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
     "last_proof_snippet": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. If you were starting from scratch today,",
@@ -25805,7 +26638,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-19 \u2022 Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
     "last_proof_snippet": "Today's episode is brought to you by the Picta AI Enhance International Equity ETF, Ticker PQNT. You'll hear more about they're using AI to enhance international equity returns later in the show. For now, let's get into it. Very pleased tod",
@@ -26252,7 +27085,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-17 \u2022 Stealth Startups and the Digitization of the Physical World",
     "last_proof_snippet": "I don't know if some of you knew I was an angel investor in some companies. On the count of three, what's my favorite angel investment of all time? One, two, three. Thank you. Give it up. Travis Kalenik. Appreciate you. Alright. Wow. On a b",
@@ -26313,7 +27146,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
     "last_proof_snippet": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper | EP #230 Moonshots with Peter Diamandis Episode 230 00:00:00 When do we see a billion-dollar revenue company being run by an AI CEO",
@@ -26375,7 +27208,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Invest in technology-driven businesses with a strong founder's mindset that focus on building and scaling rather than introspection, as they are more likely to shape the future and create significant value.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-15 \u2022 The Intersection of Technology, Entrepreneurship, and the Future",
     "last_proof_snippet": "We just have this fundamental view. The technology is like on balance in an armistly powerful force in the world. And the big problem with the world is that there's not enough technology. There's not enough information. There's not enough i",
@@ -26402,7 +27235,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Invest in platinum as a hybrid precious and industrial metal with potential for growth outside of traditional economic cycles, and consider the impact of AI on productivity and government deficits on interest rates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-15 \u2022 Monetary Matters with Jack Farley: Precious Metals, Bonds, and Economic Cycles",
     "last_proof_snippet": "Join today by Alex Gorovich, founder and chief investment officer at Hauntay Asset Management and author of the second edition of the next perfect trade, the Magic Sword of Necessity. Alex, great to talk to you today. We haven't spoken in a",
