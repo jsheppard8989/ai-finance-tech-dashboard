@@ -29,7 +29,13 @@
       "source_date": "2026-05-04",
       "summary": "In this episode of the a16z Show, Under Secretary of State for Public Diplomacy Sarah B. Rogers discusses the importance of AI and its impact on free speech and digital freedom. Rogers emphasizes the need for a Western AI stack that prioritizes user consent and operates on rules-based principles. The conversation touches on the challenges of international regulations, the role of public diplomacy in shaping digital freedom, and the strategic importance of maintaining a free and open internet for international relations and commerce.",
       "key_takeaway": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "FB"
+      ],
       "sentiment": "neutral",
       "display_on_main": 0,
       "display_order": 0,
