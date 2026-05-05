@@ -1,6 +1,44 @@
 {
   "insights": [
     {
+      "id": 210,
+      "title": "Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-04",
+      "summary": "In this episode, Jack Farley interviews Warren Pious, CEO of 314 Research and Caliban, discussing the dual forces shaping the market: the historic oil shortage and the burgeoning AI sector. Pious highlights the significance of AI advancements, particularly in GPU availability and semiconductor movements, as a driving force behind the current bull market. The conversation also covers the impact of high oil prices on the economy and equities, with Pious suggesting that equities are looking past current challenges to focus on future growth, especially in the tech sector.",
+      "key_takeaway": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
+      "tickers_mentioned": [
+        "S&P 500",
+        "GPU",
+        "SMH"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 196
+    },
+    {
+      "id": 211,
+      "title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-04",
+      "summary": "In this episode of the a16z Show, Under Secretary of State for Public Diplomacy Sarah B. Rogers discusses the importance of AI and its impact on free speech and digital freedom. Rogers emphasizes the need for a Western AI stack that prioritizes user consent and operates on rules-based principles. The conversation touches on the challenges of international regulations, the role of public diplomacy in shaping digital freedom, and the strategic importance of maintaining a free and open internet for international relations and commerce.",
+      "key_takeaway": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-05-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 195
+    },
+    {
       "id": 207,
       "title": "Balaji and Taylor Lorenz on AI and Media",
       "source_type": "podcast",
@@ -3867,6 +3905,42 @@
       "first_detected_speaker": null,
       "last_mentioned_episode_id": null,
       "last_mentioned_speaker": null
+    },
+    {
+      "id": 153,
+      "term": "Western AI Stack",
+      "description": "A concept referring to AI technologies that align with Western values, such as individual consent and rule-based operations.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the alignment of AI technologies with Western values as a potential differentiator in a globally competitive market.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 195,
+      "first_detected_speaker": "Sarah B. Rogers",
+      "last_mentioned_episode_id": 195,
+      "last_mentioned_speaker": "Sarah B. Rogers"
+    },
+    {
+      "id": 154,
+      "term": "Caliban",
+      "description": "An AI research and charting tool developed by 314 Research, recently made available to the public.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Caliban represents the integration of AI in financial analysis, potentially offering a competitive edge in data-driven investment strategies.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 196,
+      "first_detected_speaker": "Warren Pious",
+      "last_mentioned_episode_id": 196,
+      "last_mentioned_speaker": "Warren Pious"
     },
     {
       "id": 143,

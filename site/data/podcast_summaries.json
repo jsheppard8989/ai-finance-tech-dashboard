@@ -1,5 +1,26 @@
 [
   {
+    "id": 196,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
+    "episode_date": "2026-05-04",
+    "summary": "In this episode, Jack Farley interviews Warren Pious, CEO of 314 Research and Caliban, discussing the dual forces shaping the market: the historic oil shortage and the burgeoning AI sector. Pious highlights the significance of AI advancements, particularly in GPU availability and semiconductor movements, as a driving force behind the current bull market. The conversation also covers the impact of high oil prices on the economy and equities, with Pious suggesting that equities are looking past current challenges to focus on future growth, especially in the tech sector.",
+    "key_takeaways": [
+      "Warren Pious predicted an S&P 500 target of 7,000 by 2026, which has since been achieved.",
+      "The oil shortage is a significant concern, but the AI sector's advancements are a more powerful market driver.",
+      "GPU availability data indicates a scramble for compute power, suggesting strong demand in the AI space.",
+      "The market is currently led by tech and AI-related areas, reflecting the fulfillment of AI's promise.",
+      "Equities are discounting future events, making them less sensitive to short-term oil price fluctuations.",
+      "Pious believes the market is not overvalued and can continue to grow based on the strength of the AI narrative."
+    ],
+    "investment_thesis": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
+    "key_tickers": [
+      "S&P 500",
+      "GPU",
+      "SMH"
+    ]
+  },
+  {
     "id": 193,
     "podcast_name": "The a16z Show",
     "episode_title": "Balaji and Taylor Lorenz on AI and Media",

@@ -73,12 +73,6 @@
       <p id="last-run">—</p>
     </div>
 
-    <div class="card" id="automation-card" style="display: none;">
-      <h2>Automation hints</h2>
-      <p class="muted" style="font-size: 0.82rem; margin-bottom: 0.5rem;">From <code>automation_hints</code> in <code>data/pipeline_state.json</code> — safe for a small model to read next to each episode&apos;s <code>first_blocker</code> and <code>remediation_by_stage</code>.</p>
-      <p id="automation-body" class="muted" style="white-space: pre-wrap; font-size: 0.82rem; line-height: 1.45;"></p>
-    </div>
-
     <div class="card">
       <h2>Step results</h2>
       <p id="loading">Loading…</p>
@@ -211,25 +205,6 @@
 
       const runTs = pipelineState.last_pipeline_run || pipelineState.generated_at;
       document.getElementById('last-run').textContent = formatDate(runTs);
-
-      const hints = pipelineState.automation_hints || {};
-      const autoCard = document.getElementById('automation-card');
-      const autoBody = document.getElementById('automation-body');
-      if (hints.end_to_end && autoCard && autoBody) {
-        autoCard.style.display = 'block';
-        autoBody.textContent =
-          (hints.fix_order || '') +
-          '\n\nwhisper_queue_pending_mp3: ' +
-          String(hints.whisper_queue_pending_mp3 != null ? hints.whisper_queue_pending_mp3 : '—') +
-          '\n\nend_to_end:\n' +
-          hints.end_to_end +
-          '\n\nanalyze_only:\n' +
-          (hints.analyze_only || '—') +
-          '\n\nwhisper_worker:\n' +
-          (hints.whisper_worker || '—') +
-          '\n\nschema:\n' +
-          (hints.schema || '—');
-      }
 
       const loadingEl = document.getElementById('loading');
       const tableEl = document.getElementById('steps-table');

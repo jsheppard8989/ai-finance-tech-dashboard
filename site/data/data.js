@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-04T20:55:32.225421",
-  chartsVersion: "2026-05-04T20:55:19.465842",
+  generatedAt: "2026-05-04T22:03:22.201334",
+  chartsVersion: "2026-05-04T22:03:06.639350",
   priceSnapshot: {
   "GOOGL": {
     "price": 383.25,
     "change_pct": 13.68,
     "name": "GOOGL",
-    "updated_at": "2026-05-04T20:55:19.464575"
+    "updated_at": "2026-05-04T22:03:06.638553"
   },
   "NVDA": {
     "price": 198.48,
     "change_pct": -0.2,
     "name": "NVDA",
-    "updated_at": "2026-05-04T20:55:19.464601"
+    "updated_at": "2026-05-04T22:03:06.638570"
   },
   "MSFT": {
     "price": 413.62,
     "change_pct": 0.58,
     "name": "MSFT",
-    "updated_at": "2026-05-04T20:55:19.464614"
+    "updated_at": "2026-05-04T22:03:06.638577"
   },
   "BTC": {
-    "price": 80329.82,
-    "change_pct": 2.72,
+    "price": 80493.0,
+    "change_pct": 2.93,
     "name": "BTC",
-    "updated_at": "2026-05-04T20:55:19.464627"
+    "updated_at": "2026-05-04T22:03:06.638583"
   },
   "WTI": {
     "price": 4.38,
     "change_pct": 52.08,
     "name": "WTI",
-    "updated_at": "2026-05-04T20:55:19.464639"
+    "updated_at": "2026-05-04T22:03:06.638589"
   },
   "S&P 500": {
     "price": 718.01,
     "change_pct": 2.58,
     "name": "S&P 500",
-    "updated_at": "2026-05-04T20:55:19.464650"
+    "updated_at": "2026-05-04T22:03:06.638595"
   },
   "META": {
     "price": 610.41,
     "change_pct": -9.11,
     "name": "META",
-    "updated_at": "2026-05-04T20:55:19.464662"
+    "updated_at": "2026-05-04T22:03:06.638601"
   },
   "AMZN": {
     "price": 272.05,
     "change_pct": 9.48,
     "name": "AMZN",
-    "updated_at": "2026-05-04T20:55:19.464672"
+    "updated_at": "2026-05-04T22:03:06.638606"
   },
   "TSLA": {
     "price": 392.51,
     "change_pct": 0.14,
     "name": "TSLA",
-    "updated_at": "2026-05-04T20:55:19.464682"
+    "updated_at": "2026-05-04T22:03:06.638611"
   },
   "QQQ": {
     "price": 672.88,
     "change_pct": 5.57,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-04T20:55:19.464693"
+    "updated_at": "2026-05-04T22:03:06.638616"
   },
   "BTC-USD": {
-    "price": 80329.82,
-    "change_pct": 2.72,
+    "price": 80493.0,
+    "change_pct": 2.93,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-04T20:55:19.464703"
+    "updated_at": "2026-05-04T22:03:06.638621"
   }
 },
   tickerScores: [
@@ -375,7 +375,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "IBM",
+    "ticker": "GPU",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -390,7 +390,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SNWGF",
+    "ticker": "IBM",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -405,7 +405,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SPACEX",
+    "ticker": "SNWGF",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -420,7 +420,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SQUARE",
+    "ticker": "SPACEX",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -435,14 +435,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ARBOMB",
-    "total_score": 72.0,
+    "ticker": "SQUARE",
+    "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 25,
-    "score": 72.0,
+    "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -450,7 +450,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CROWD",
+    "ticker": "ARBOMB",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -465,7 +465,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "WORK",
+    "ticker": "CROWD",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -480,7 +480,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ZEN",
+    "ticker": "SMH",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -495,14 +495,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ARBOB GASOLINE",
-    "total_score": 70.0,
+    "ticker": "WORK",
+    "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 29,
-    "score": 70.0,
+    "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -510,14 +510,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "DELL",
-    "total_score": 70.0,
+    "ticker": "ZEN",
+    "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 30,
-    "score": 70.0,
+    "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -525,7 +525,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "E-TORO",
+    "ticker": "ARBOB GASOLINE",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -540,7 +540,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "EMAX",
+    "ticker": "DELL",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -555,7 +555,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "NOW",
+    "ticker": "E-TORO",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -570,7 +570,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SMP-500",
+    "ticker": "EMAX",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -585,13 +585,43 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "NOW",
+    "total_score": 70.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 35,
+    "score": 70.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
+    "ticker": "SMP-500",
+    "total_score": 70.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 36,
+    "score": 70.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "CRM",
     "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 35,
+    "rank": 37,
     "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -606,7 +636,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 36,
+    "rank": 38,
     "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -621,7 +651,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 37,
+    "rank": 39,
     "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -636,7 +666,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 38,
+    "rank": 40,
     "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -651,7 +681,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 39,
+    "rank": 41,
     "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -666,7 +696,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 40,
+    "rank": 42,
     "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -681,7 +711,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 41,
+    "rank": 43,
     "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -696,7 +726,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 42,
+    "rank": 44,
     "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -711,7 +741,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 43,
+    "rank": 45,
     "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -726,7 +756,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 44,
+    "rank": 46,
     "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -741,7 +771,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 45,
+    "rank": 47,
     "score": 62.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -756,7 +786,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 46,
+    "rank": 48,
     "score": 60.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -771,7 +801,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 47,
+    "rank": 49,
     "score": 60.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -786,38 +816,8 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 48,
-    "score": 60.0,
-    "mentions": 1,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "USD",
-    "total_score": 60.0,
-    "raw_mention_count": 1,
-    "unique_sources": 1,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
-    "rank": 49,
-    "score": 60.0,
-    "mentions": 1,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "QQQ",
-    "total_score": 48.0,
-    "raw_mention_count": 1,
-    "unique_sources": 1,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
     "rank": 50,
-    "score": 48.0,
+    "score": 60.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -827,6 +827,44 @@ const dashboardData = {
 ],
   archive: {
   "insights": [
+    {
+      "id": 210,
+      "title": "Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-04",
+      "summary": "In this episode, Jack Farley interviews Warren Pious, CEO of 314 Research and Caliban, discussing the dual forces shaping the market: the historic oil shortage and the burgeoning AI sector. Pious highlights the significance of AI advancements, particularly in GPU availability and semiconductor movements, as a driving force behind the current bull market. The conversation also covers the impact of high oil prices on the economy and equities, with Pious suggesting that equities are looking past current challenges to focus on future growth, especially in the tech sector.",
+      "key_takeaway": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
+      "tickers_mentioned": [
+        "S&P 500",
+        "GPU",
+        "SMH"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 196
+    },
+    {
+      "id": 211,
+      "title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-04",
+      "summary": "In this episode of the a16z Show, Under Secretary of State for Public Diplomacy Sarah B. Rogers discusses the importance of AI and its impact on free speech and digital freedom. Rogers emphasizes the need for a Western AI stack that prioritizes user consent and operates on rules-based principles. The conversation touches on the challenges of international regulations, the role of public diplomacy in shaping digital freedom, and the strategic importance of maintaining a free and open internet for international relations and commerce.",
+      "key_takeaway": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-05-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 195
+    },
     {
       "id": 207,
       "title": "Balaji and Taylor Lorenz on AI and Media",
@@ -4696,6 +4734,42 @@ const dashboardData = {
       "last_mentioned_speaker": null
     },
     {
+      "id": 153,
+      "term": "Western AI Stack",
+      "description": "A concept referring to AI technologies that align with Western values, such as individual consent and rule-based operations.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the alignment of AI technologies with Western values as a potential differentiator in a globally competitive market.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 195,
+      "first_detected_speaker": "Sarah B. Rogers",
+      "last_mentioned_episode_id": 195,
+      "last_mentioned_speaker": "Sarah B. Rogers"
+    },
+    {
+      "id": 154,
+      "term": "Caliban",
+      "description": "An AI research and charting tool developed by 314 Research, recently made available to the public.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Caliban represents the integration of AI in financial analysis, potentially offering a competitive edge in data-driven investment strategies.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 196,
+      "first_detected_speaker": "Warren Pious",
+      "last_mentioned_episode_id": 196,
+      "last_mentioned_speaker": "Warren Pious"
+    },
+    {
       "id": 143,
       "term": "Cross-Solver Tensions",
       "description": "The challenges faced by companies that try to replace multiple functionalities within a single platform.",
@@ -7208,6 +7282,30 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 210,
+      "title": "Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-04",
+      "summary": "In this episode, Jack Farley interviews Warren Pious, CEO of 314 Research and Caliban, discussing the dual forces shaping the market: the historic oil shortage and the burgeoning AI sector. Pious highlights the significance of AI advancements, particularly in GPU availability and semiconductor movements, as a driving force behind the current bull market. The conversation also covers the impact of high oil prices on the economy and equities, with Pious suggesting that equities are looking past current challenges to focus on future growth, especially in the tech sector.",
+      "key_takeaway": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
+      "tickers_mentioned": "[\"S&P 500\", \"GPU\", \"SMH\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 196,
+      "episode_release_date": "2026-05-04",
+      "guest_name": "Warren Pies",
+      "key_tickers": [
+        "S&P 500",
+        "GPU",
+        "SMH"
+      ]
+    },
+    {
       "id": 207,
       "title": "Balaji and Taylor Lorenz on AI and Media",
       "source_type": "podcast",
@@ -7615,6 +7713,58 @@ const dashboardData = {
       "last_mentioned_episode_date": null
     },
     {
+      "id": 153,
+      "term": "Western AI Stack",
+      "description": "A concept referring to AI technologies that align with Western values, such as individual consent and rule-based operations.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the alignment of AI technologies with Western values as a potential differentiator in a globally competitive market.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 195,
+      "first_detected_speaker": "Sarah B. Rogers",
+      "last_mentioned_episode_id": 195,
+      "last_mentioned_speaker": "Sarah B. Rogers",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
+      "first_detected_episode_date": "2026-05-04",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
+      "last_mentioned_episode_date": "2026-05-04"
+    },
+    {
+      "id": 154,
+      "term": "Caliban",
+      "description": "An AI research and charting tool developed by 314 Research, recently made available to the public.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Caliban represents the integration of AI in financial analysis, potentially offering a competitive edge in data-driven investment strategies.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 196,
+      "first_detected_speaker": "Warren Pious",
+      "last_mentioned_episode_id": 196,
+      "last_mentioned_speaker": "Warren Pious",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
+      "first_detected_episode_date": "2026-05-04",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
+      "last_mentioned_episode_date": "2026-05-04"
+    },
+    {
       "id": 143,
       "term": "Cross-Solver Tensions",
       "description": "The challenges faced by companies that try to replace multiple functionalities within a single platform.",
@@ -7754,58 +7904,6 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Efficiency in drug development can significantly affect a company's profitability and competitive advantage.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.91,
-      "resonance_pct": 23,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 138,
-      "term": "AI CapEx",
-      "description": "Capital expenditure focused on artificial intelligence technologies, indicating a strategic investment in AI infrastructure and development.",
-      "first_detected_date": "2026-04-30",
-      "last_mentioned_date": "2026-04-30",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider AI CapEx as a significant growth area with potential for high returns.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.91,
-      "resonance_pct": 23,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 139,
-      "term": "Co-Investing",
-      "description": "A strategy where an investor participates alongside other investors, typically in a hedge fund or private equity deal, sharing in both the profits and risks.",
-      "first_detected_date": "2026-04-30",
-      "last_mentioned_date": "2026-04-30",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Co-investing can offer significant upside potential for investors who are able to access such deals.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -20321,12 +20419,114 @@ const dashboardData = {
     "key_tickers": [
       "HFGM"
     ]
+  },
+  "210": {
+    "id": 200,
+    "insight_id": 210,
+    "podcast_episode_id": 196,
+    "overview": "The debate centers on whether the historic oil shortage and its economic implications will overshadow the potential of AI and technology advancements in shaping market trends. The significance lies in the market's ability to look beyond short-term disruptions and invest in long-term growth opportunities. The current market dynamics suggest a preference for future potential over immediate challenges, which has implications for investment strategies and economic forecasts.",
+    "key_takeaways_detailed": [
+      "AI advancements, particularly in GPU availability and semiconductor movements, are seen as a significant catalyst for the current bull market.",
+      "Equities appear to be discounting future growth potential, focusing more on the tech sector's long-term prospects rather than immediate economic challenges.",
+      "The market's resilience in the face of high oil prices suggests a strong conviction in the continued growth and adoption of AI technologies.",
+      "The divergence between equities and oil as an asset class indicates a potential shift in market priorities towards technology and innovation."
+    ],
+    "investment_thesis": "The core logic is that advancements in AI and technology will continue to outpace concerns over oil shortages and inflation, driving a bull market focused on long-term growth. The timeframe is set for the next few years, with the expectation that AI and tech sectors will show consistent growth and innovation. What has to go right includes continued advancements in AI, sustained demand for tech products, and the market's ability to look past short-term economic disruptions.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a key player in the tech sector, with significant investments in AI and semiconductor technologies, making it relevant to the thesis.",
+        "positioning": "Positioned long-term as Apple's innovation and market leadership in tech are expected to benefit from the ongoing AI boom.",
+        "risk": "Key risks include a slowdown in consumer spending due to economic disruptions and potential supply chain issues affecting production."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leader in GPU technology, which is central to AI advancements.",
+        "positioning": "Strategically positioned long as the demand for GPUs is expected to increase with AI growth.",
+        "risk": "Risks include competition in the GPU market and potential disruptions in semiconductor supply."
+      },
+      "AMD": {
+        "rationale": "Advanced Micro Devices is another significant player in the semiconductor and GPU market.",
+        "positioning": "Positioned long-term to capitalize on the growing demand for advanced semiconductors in AI applications.",
+        "risk": "Risks include market competition and the potential for supply chain disruptions."
+      },
+      "GOOGL": {
+        "rationale": "Google's parent company, Alphabet, is heavily invested in AI research and development.",
+        "positioning": "Strategically positioned long to benefit from the company's leadership in AI technology.",
+        "risk": "Risks include regulatory challenges and potential missed opportunities in AI innovation."
+      },
+      "TSLA": {
+        "rationale": "Tesla is at the forefront of AI applications in the automotive industry.",
+        "positioning": "Positioned long-term due to Tesla's potential to lead the electric vehicle and autonomous driving markets.",
+        "risk": "Key risks include competition in the electric vehicle market and potential setbacks in autonomous technology development."
+      }
+    },
+    "positioning_guidance": "Investors should consider a long-term strategic position in companies at the forefront of AI and technology advancements. Diversification across the tech sector can help mitigate risks associated with individual companies or market fluctuations. The time horizon for these investments should align with the expected growth of the AI sector, which is projected to be several years.",
+    "risk_factors": [
+      "A significant economic downturn could reduce investment in AI and technology sectors.",
+      "Regulatory changes could hinder the growth of AI technologies, particularly in data privacy and security.",
+      "Technological disruptions or failures in AI deployment could slow down the expected growth.",
+      "Geopolitical tensions, especially those affecting oil supply, could create market volatility and affect tech sector performance."
+    ],
+    "contrarian_signals": [
+      "A sudden drop in oil prices could shift market focus back to traditional energy sectors.",
+      "A failure in major AI projects or a slowdown in tech innovation could lead to a reevaluation of the market's bullish stance on AI.",
+      "Increased market volatility due to global economic uncertainties could lead to a shift in investor sentiment towards more conservative assets."
+    ],
+    "catalysts": [
+      "Major AI breakthroughs or successful deployments in key industries.",
+      "Positive earnings reports from tech companies, indicating strong growth and demand.",
+      "Technological milestones, such as the release of new AI-powered products or services.",
+      "Global economic indicators showing resilience despite oil price fluctuations."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-04T22:01:56.292909",
+    "updated_at": "2026-05-05 03:01:56",
+    "episode_evidence": "Warren Pious, CEO of 314 Research and Caliban, identified two major forces shaping the market: the historic oil shortage and the burgeoning AI sector. He highlighted the significance of AI advancements, particularly in GPU availability and semiconductor movements, as a driving force behind the current bull market. Pious stated, 'there's a step change happening in the AI space that much of the promise of AI is starting to be fulfilled through this kind of a genetic explosion.' He also noted the impact of high oil prices on the economy and equities, suggesting that equities are looking past current challenges to focus on future growth, especially in the tech sector. 'Equities are discounting things into the future,' Pious explained, 'oils not capable of doing that.' This perspective suggests that despite the immediate concerns over oil shortages, the market is more focused on the long-term potential of AI and technology advancements.",
+    "falsification_tracks": [
+      "A sustained decline in GPU availability or a significant slowdown in semiconductor advancements would challenge the bullish narrative on AI driving the market.",
+      "If oil prices continue to rise sharply without a corresponding increase in tech sector growth, it could indicate that equities are not successfully looking past the current challenges.",
+      "A failure in the deployment or adoption of AI technologies in key industries would undermine the thesis that AI advancements are a primary market driver."
+    ],
+    "insight_title": "Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-05-04",
+    "key_tickers": [
+      "S&P 500",
+      "GPU",
+      "SMH"
+    ]
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 2948,
+    "id": 2987,
+    "name": "Sarah Rogers",
+    "slug": "sarah-rogers",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
+    "last_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-04",
+    "appearance_count": 1
+  },
+  {
+    "id": 2988,
+    "name": "Warren Pies",
+    "slug": "warren-pies",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
+    "last_episode_title": "Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-04",
+    "appearance_count": 1
+  },
+  {
+    "id": 2989,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -20338,7 +20538,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2949,
+    "id": 2990,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -20350,7 +20550,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2950,
+    "id": 2991,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -20362,7 +20562,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2951,
+    "id": 2992,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -20374,7 +20574,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2952,
+    "id": 2993,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -20386,7 +20586,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2953,
+    "id": 2994,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -20398,7 +20598,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2954,
+    "id": 2995,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -20410,7 +20610,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2955,
+    "id": 2996,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -20422,7 +20622,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2956,
+    "id": 2997,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -20434,7 +20634,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2957,
+    "id": 2998,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -20446,7 +20646,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2958,
+    "id": 2999,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -20458,7 +20658,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2959,
+    "id": 3000,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -20470,7 +20670,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2960,
+    "id": 3001,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -20482,7 +20682,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2961,
+    "id": 3002,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -20494,7 +20694,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2962,
+    "id": 3003,
     "name": "Building Agents at Home",
     "slug": "building-agents-at-home",
     "bio": null,
@@ -20506,7 +20706,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2963,
+    "id": 3004,
     "name": "\"The Best Time to Invest\"",
     "slug": "the-best-time-to-invest",
     "bio": null,
@@ -20518,7 +20718,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2964,
+    "id": 3005,
     "name": "Governor Josh Shapiro of Pennsylvania",
     "slug": "governor-josh-shapiro-of-pennsylvania",
     "bio": null,
@@ -20530,7 +20730,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2965,
+    "id": 3006,
     "name": "Box CEO Aaron Levie",
     "slug": "box-ceo-aaron-levie",
     "bio": null,
@@ -20539,30 +20739,6 @@ const dashboardData = {
     "last_episode_title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
-    "appearance_count": 1
-  },
-  {
-    "id": 2966,
-    "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
-    "slug": "why-200-oil-wont-spike-inflation-to-9",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
-    "last_episode_title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-01",
-    "appearance_count": 1
-  },
-  {
-    "id": 2967,
-    "name": "This special episode",
-    "slug": "this-special-episode",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in companies that are at the forefront of AI technology, particularly those that can leverage both proprietary and open-source models to drive innovation and capture domain-specific expertise.",
-    "last_episode_title": "ALLIN-INTV Jensen V2 Ch",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-28",
     "appearance_count": 1
   }
 ],
@@ -20759,66 +20935,6 @@ const dashboardData = {
     "net_worth": "$25.0M"
   },
   {
-    "id": 183,
-    "name": "Aaron Levy",
-    "slug": "aaron-levy",
-    "bio": "CEO of Box",
-    "known_for": "Leading the cloud content management company",
-    "net_worth_usd": 107852195.0,
-    "net_worth_source": "https://strike.market/key-executives/0001606525",
-    "net_worth_updated_at": "2026-04-16T22:06:31.028180",
-    "voice_tone": "Practical and solution-oriented",
-    "voice_style": "Shares insights from customer interactions and industry trends",
-    "voice_delivery_notes": "Speaks with conviction, emphasizing real-world applications",
-    "voice_profile_updated_at": "2026-04-25 10:05:40",
-    "last_seen": "2026-04-25 10:05:40",
-    "last_episode_title": "AI Inside the Enterprise",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-24",
-    "mention_score": 2,
-    "mention_score_decayed": 1.62,
-    "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
-    "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
-    "supporting_takeaway": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-16T22:06:30.002480",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Aaron Levy",
-      "fetched_at": "2026-04-17T03:06:30.002193+00:00",
-      "cliff_notes": "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential. His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community.",
-      "derived": {
-        "current_role": "CEO at Box"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential.",
-        "His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community."
-      ],
-      "sections": [
-        {
-          "heading": "Cloud Content Management",
-          "body": "Aaron Levy has been at the forefront of cloud content management, leading Box to become a major player in the industry."
-        },
-        {
-          "heading": "AI and Technology Integration",
-          "body": "Levy has shared his views on the diffusion of AI capabilities, suggesting that the integration of AI into business processes will take longer than anticipated and will require significant domain knowledge."
-        },
-        {
-          "heading": "Economic Implications of Technology",
-          "body": "Levy has discussed the economic challenges posed by new technologies, emphasizing the need for accurate estimation of the scale of opportunities and the importance of building software for agents in a world where they outnumber humans."
-        }
-      ]
-    },
-    "net_worth": "$107.9M"
-  },
-  {
     "id": 78,
     "name": "Martin Casado",
     "slug": "martin-casado",
@@ -20883,6 +20999,66 @@ const dashboardData = {
       ]
     },
     "net_worth": "$600.0M"
+  },
+  {
+    "id": 183,
+    "name": "Aaron Levy",
+    "slug": "aaron-levy",
+    "bio": "CEO of Box",
+    "known_for": "Leading the cloud content management company",
+    "net_worth_usd": 107852195.0,
+    "net_worth_source": "https://strike.market/key-executives/0001606525",
+    "net_worth_updated_at": "2026-04-16T22:06:31.028180",
+    "voice_tone": "Practical and solution-oriented",
+    "voice_style": "Shares insights from customer interactions and industry trends",
+    "voice_delivery_notes": "Speaks with conviction, emphasizing real-world applications",
+    "voice_profile_updated_at": "2026-04-25 10:05:40",
+    "last_seen": "2026-04-25 10:05:40",
+    "last_episode_title": "AI Inside the Enterprise",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-24",
+    "mention_score": 2,
+    "mention_score_decayed": 1.62,
+    "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
+    "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
+    "supporting_takeaway": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-16T22:06:30.002480",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Aaron Levy",
+      "fetched_at": "2026-04-17T03:06:30.002193+00:00",
+      "cliff_notes": "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential. His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community.",
+      "derived": {
+        "current_role": "CEO at Box"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential.",
+        "His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community."
+      ],
+      "sections": [
+        {
+          "heading": "Cloud Content Management",
+          "body": "Aaron Levy has been at the forefront of cloud content management, leading Box to become a major player in the industry."
+        },
+        {
+          "heading": "AI and Technology Integration",
+          "body": "Levy has shared his views on the diffusion of AI capabilities, suggesting that the integration of AI into business processes will take longer than anticipated and will require significant domain knowledge."
+        },
+        {
+          "heading": "Economic Implications of Technology",
+          "body": "Levy has discussed the economic challenges posed by new technologies, emphasizing the need for accurate estimation of the scale of opportunities and the importance of building software for agents in a world where they outnumber humans."
+        }
+      ]
+    },
+    "net_worth": "$107.9M"
   },
   {
     "id": 74,
@@ -21118,7 +21294,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -21182,7 +21358,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -21242,7 +21418,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
@@ -21317,6 +21493,129 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 226,
+    "name": "Warren Pious",
+    "slug": "warren-pious",
+    "bio": "Warren Pious is the founder and CEO of 314 Research and Caliban, a data-driven analyst known for his accurate market predictions. His work in AI research and charting tools has made significant contributions to the financial industry.",
+    "known_for": "Accurately predicting the S&P to reach 7,000 by 2026 and developing the AI research and charting tool Caliban.",
+    "net_worth_usd": 12000000.0,
+    "net_worth_source": "https://www.cinenetworth.com/elizabeth-warren-salary-and-net-worth/",
+    "net_worth_updated_at": "2026-05-04T22:01:12.302519",
+    "voice_tone": "Confident and analytical.",
+    "voice_style": "Factual and forward-looking, with a focus on data and trends.",
+    "voice_delivery_notes": "Paces well, with emphasis on key market drivers and future predictions.",
+    "voice_profile_updated_at": "2026-05-05 03:01:01",
+    "last_seen": "2026-05-05 03:01:01",
+    "last_episode_title": "Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-04",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-04 \u2022 Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
+    "last_proof_snippet": "Today I was speaking to one of the best and most data-driven analysts around, Warren Pious of 314 research. If you have been seeing the ball clearer than him, last time I spoke to him, Warren's calling for S&P to 7,000 by 2026, which obviou",
+    "supporting_takeaway": "The oil shortage is a significant concern, but the AI sector's advancements are a more powerful market driver.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-04T22:01:11.428081",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Warren Pious",
+      "fetched_at": "2026-05-05T03:01:11.427805+00:00",
+      "cliff_notes": "Warren Pious is a prominent figure in the financial industry, recognized for his data-driven analysis and accurate market predictions. As the founder and CEO of 314 Research and Caliban, Pious has leveraged his expertise in AI research to develop innovative charting tools that have become integral to the financial decision-making process. His prediction that the S&P would reach 7,000 by 2026, which was achieved, further solidified his reputation as a reliable analyst. Pious's work with Caliban, an AI research and charting tool, has been particularly influential, offering insights that drive market movements and providing a powerful resource for financial professionals.",
+      "derived": {
+        "current_role": "Founder and CEO of 314 Research and Caliban"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Warren Pious is a prominent figure in the financial industry, recognized for his data-driven analysis and accurate market predictions. As the founder and CEO of 314 Research and Caliban, Pious has leveraged his expertise in AI research to develop innovative charting tools that have become integral to the financial decision-making process.",
+        "His prediction that the S&P would reach 7,000 by 2026, which was achieved, further solidified his reputation as a reliable analyst. Pious's work with Caliban, an AI research and charting tool, has been particularly influential, offering insights that drive market movements and providing a powerful resource for financial professionals."
+      ],
+      "sections": [
+        {
+          "heading": "Market Predictions",
+          "body": "Warren Pious is known for his accurate market predictions, including the S&P reaching 7,000 by 2026."
+        },
+        {
+          "heading": "AI Research",
+          "body": "Pious has been a pioneer in the development of AI research tools, specifically with his work on Caliban."
+        },
+        {
+          "heading": "Data-Driven Analysis",
+          "body": "His company, 314 Research, focuses on data-driven analysis to provide insights into market trends and movements."
+        },
+        {
+          "heading": "Caliban Tool",
+          "body": "Caliban, an AI research and charting tool developed by Pious, has become available to the public, offering a powerful resource for financial professionals."
+        }
+      ]
+    },
+    "net_worth": "$12.0M"
+  },
+  {
+    "id": 225,
+    "name": "Sarah B. Rogers",
+    "slug": "sarah-b-rogers",
+    "bio": "Sarah B. Rogers is the Under Secretary of State for Public Diplomacy, advocating for free speech and digital freedom. She emphasizes the importance of Western AI stack proliferation and the consistency of policy signals with free speech.",
+    "known_for": "Advocating for free speech and digital freedom, and promoting a Western AI stack as a soft power tool.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Assertive and knowledgeable",
+    "voice_style": "Strategic and policy-focused",
+    "voice_delivery_notes": "Paced with emphasis on key policy points",
+    "voice_profile_updated_at": "2026-05-05 03:00:33",
+    "last_seen": "2026-05-05 03:00:33",
+    "last_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-04",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-04 \u2022 Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
+    "last_proof_snippet": "AI is going to be more important, not less important, and so the proliferation of a Western AI stack to be a top priority for anyone who cares about freedom. The rules around AI are changing fast. There's a lot of regulation abroad around d",
+    "supporting_takeaway": "Regulations around AI and digital safety are changing rapidly, with significant implications for free speech.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-04T22:01:28.887892",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sarah B. Rogers",
+      "fetched_at": "2026-05-05T03:01:28.887730+00:00",
+      "cliff_notes": "Sarah B. Rogers is recognized for her role as the Under Secretary of State for Public Diplomacy, where she focuses on advocating for free speech and digital freedom. Her work emphasizes the importance of Western AI stack proliferation and ensuring that policy signals are consistent with free speech. Rogers' approach to technology and communication aligns with the historical context of major communication technologies, such as the printing press and the internet, and their impact on society. She inherited an apparatus that was partly funded by the US government and is now tasked with navigating the complex landscape of digital safety, disinformation, and the influence of lobbying groups on policy.",
+      "derived": {
+        "current_role": "Under Secretary of State for Public Diplomacy"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Sarah B. Rogers is recognized for her role as the Under Secretary of State for Public Diplomacy, where she focuses on advocating for free speech and digital freedom. Her work emphasizes the importance of Western AI stack proliferation and ensuring that policy signals are consistent with free speech. Rogers' approach to technology and communication aligns with the historical context of major communication technologies, such as the printing press and the internet, and their impact on society.",
+        "She inherited an apparatus that was partly funded by the US government and is now tasked with navigating the complex landscape of digital safety, disinformation, and the influence of lobbying groups on policy."
+      ],
+      "sections": [
+        {
+          "heading": "Free Speech Advocacy",
+          "body": "Sarah B. Rogers is a strong advocate for free speech, particularly in the digital age. She believes that policy signals should be consistent with the principles of free speech, which is crucial in the era of AI and digital technologies."
+        },
+        {
+          "heading": "Digital Freedom",
+          "body": "Rogers emphasizes the importance of digital freedom and the role of Western AI stack proliferation as a means to maintain soft power and influence in the global technology landscape."
+        },
+        {
+          "heading": "Policy Consistency",
+          "body": "In her role, Rogers stresses the need for policy signals to be consistent with free speech, especially as regulations around AI and digital safety are rapidly changing and becoming a focus for lobbying groups."
+        }
+      ]
+    }
+  },
+  {
     "id": 197,
     "name": "Theo Jaffee",
     "slug": "theo-jaffee",
@@ -21334,7 +21633,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -21405,7 +21704,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -21468,7 +21767,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in companies with high levels of intangible capital using a combination of fundamental and sentiment analysis to identify mispriced opportunities, especially in sectors affected by global events.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show you'll hear more about hfgm currently the number one morning star rated funds its inception in the U.S. macro trading category. Let's ge",
@@ -21595,7 +21894,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-30 \u2022 Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
     "last_proof_snippet": "AI is creating new opportunities to rethink how enterprise systems work, potentially leading to a platform shift.",
@@ -21842,7 +22141,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investment in the biotech sector may need to consider the geographic shift towards China for innovation and efficiency in drug development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-29 \u2022 The Shift in Global Drug Development",
     "last_proof_snippet": "China's clinical trial system has rapidly expanded, with reforms that streamline the approval process.",
@@ -22406,7 +22705,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in technologies and platforms that leverage cryptography and blockchain to provide verifiable information and restore trust in digital content.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-22 \u2022 Balaji Srinivasan: Prove Correct, Not Just Go Direct",
     "last_proof_snippet": "The growing distrust in media is due to the increasing cost of verifying content as synthetic content floods systems.",
@@ -23161,7 +23460,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in AI companies that are positioned to benefit from the rapid growth and valuation in the industry, and consider the broader implications of AI on the future of work and social structures.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-14 \u2022 Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
     "last_proof_snippet": "AI is expected to replace many white collar jobs in the near future.",
@@ -24295,7 +24594,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-04 \u2022 \u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
     "last_proof_snippet": "Shipping inefficiencies can lead to increased profits for ship owners.",
@@ -26720,7 +27019,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-18 \u2022 The Geopolitics of Technology and the Future Economy",
     "last_proof_snippet": "Helbert emphasizes the importance of hardware in the geopolitical technology war and the control over the internet's infrastructure.",
@@ -26784,7 +27083,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-19 \u2022 Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
     "last_proof_snippet": "The immediate impact of an oil shock is inflationary, but over time it could lead to a negative shock on the economy.",
