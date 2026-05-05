@@ -250,8 +250,14 @@
     }
     .history-table th { color: #8892b0; font-weight: 600; font-size: 0.75rem; }
     .res-pending { color: #94a3b8; }
+    .res-pending-lean-no {
+      color: #f97373;
+      font-weight: 600;
+      border-left: 2px solid rgba(249, 115, 115, 0.45);
+      padding-left: 0.4rem;
+    }
     .res-yes { color: #22c55e; font-weight: 600; }
-    .res-no { color: #f87171; font-weight: 600; }
+    .res-no { color: #f97373; font-weight: 600; }
     .res-void { color: #a78bfa; }
     .history-prompt { color: #cbd5f5; max-width: 280px; line-height: 1.35; }
     .history-audio { font-size: 0.75rem; }
@@ -356,7 +362,7 @@
 
     <div class="card" id="history-card">
       <h2>Prior weeks &amp; bet status</h2>
-      <p class="tagline">Resolved bets are updated manually (or via <code style="font-size:0.75rem;">debate_weekly.py --mark-resolved</code>). Archive audio when available.</p>
+      <p class="tagline">Outcomes use the same Affirmative green / Negative red as debater tags above. Jared records results as oracle until automated resolution. You can also set status via <code style="font-size:0.75rem;">debate_weekly.py --mark-resolved</code>. Archive audio when available.</p>
       <div id="history-empty" style="color:#8892b0;font-size:0.85rem;">No prior weeks recorded yet. After the first Friday rollover, history appears here.</div>
       <table class="history-table" id="history-table" style="display:none;">
         <thead>
@@ -374,7 +380,7 @@
   </div>
 
   <script src="./js/common.js"></script>
-  <script src="./data/data.js?v=1777894482"></script>
+  <script src="./data/data.js?v=1777946132"></script>
   <script>
     (function() {
       const data = (typeof dashboardData !== 'undefined') ? dashboardData : null;
@@ -536,11 +542,13 @@
         if (table) table.style.display = 'table';
         var rows = weeks.map(function(w) {
           var st = (w.resolution_status || 'pending').toLowerCase();
+          var lean = String(w.oracle_pending_lean || '').toLowerCase();
           var cls = 'res-pending';
           var label = 'Pending';
-          if (st === 'yes') { cls = 'res-yes'; label = 'YES'; }
-          else if (st === 'no') { cls = 'res-no'; label = 'NO'; }
+          if (st === 'yes') { cls = 'res-yes'; label = 'Affirmative'; }
+          else if (st === 'no') { cls = 'res-no'; label = 'Negative'; }
           else if (st === 'void') { cls = 'res-void'; label = 'Void'; }
+          else if (st === 'pending' && lean === 'negative') { cls = 'res-pending-lean-no'; label = 'Pending'; }
           var audio = w.audio_href
             ? '<a class="history-audio" href="' + String(w.audio_href).replace(/"/g, '&quot;') + '">Archive</a>'
             : '—';

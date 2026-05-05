@@ -56,7 +56,7 @@
     #stage-reason-modal.show { display: flex; }
     #stage-reason-box { background: #1a1a2e; border: 1px solid rgba(255,255,255,0.2); border-radius: 12px; padding: 1.25rem; max-width: 420px; }
     #stage-reason-box h3 { font-size: 1rem; color: #00d4ff; margin-bottom: 0.5rem; }
-    #stage-reason-box p { color: #a8b2d1; font-size: 0.95rem; line-height: 1.5; }
+    #stage-reason-box p { color: #a8b2d1; font-size: 0.95rem; line-height: 1.5; white-space: pre-wrap; }
     #stage-reason-box button { margin-top: 1rem; padding: 0.4rem 1rem; background: #00d4ff; color: #0f3460; border: none; border-radius: 6px; cursor: pointer; }
   </style>
 </head>
@@ -71,6 +71,12 @@
     <div class="card">
       <h2>Last run</h2>
       <p id="last-run">—</p>
+    </div>
+
+    <div class="card" id="automation-card" style="display: none;">
+      <h2>Automation hints</h2>
+      <p class="muted" style="font-size: 0.82rem; margin-bottom: 0.5rem;">From <code>automation_hints</code> in <code>data/pipeline_state.json</code> — safe for a small model to read next to each episode&apos;s <code>first_blocker</code> and <code>remediation_by_stage</code>.</p>
+      <p id="automation-body" class="muted" style="white-space: pre-wrap; font-size: 0.82rem; line-height: 1.45;"></p>
     </div>
 
     <div class="card">
@@ -113,6 +119,7 @@
           <li><strong>Needs insight</strong>: run the insight promotion step so each analyzed episode gets a Latest Insight card.</li>
           <li><strong>Needs export</strong>: run website export + push so new insights are on the live site.</li>
           <li><strong>Complete</strong>: nothing to do; episode is fully on site.</li>
+          <li><strong>Red ✗ detail</strong>: click a mark for <code>action_id</code>, numbered steps, and example shell commands (mirrors JSON <code>remediation_by_stage</code>).</li>
         </ul>
       </div>
 
@@ -204,6 +211,25 @@
 
       const runTs = pipelineState.last_pipeline_run || pipelineState.generated_at;
       document.getElementById('last-run').textContent = formatDate(runTs);
+
+      const hints = pipelineState.automation_hints || {};
+      const autoCard = document.getElementById('automation-card');
+      const autoBody = document.getElementById('automation-body');
+      if (hints.end_to_end && autoCard && autoBody) {
+        autoCard.style.display = 'block';
+        autoBody.textContent =
+          (hints.fix_order || '') +
+          '\n\nwhisper_queue_pending_mp3: ' +
+          String(hints.whisper_queue_pending_mp3 != null ? hints.whisper_queue_pending_mp3 : '—') +
+          '\n\nend_to_end:\n' +
+          hints.end_to_end +
+          '\n\nanalyze_only:\n' +
+          (hints.analyze_only || '—') +
+          '\n\nwhisper_worker:\n' +
+          (hints.whisper_worker || '—') +
+          '\n\nschema:\n' +
+          (hints.schema || '—');
+      }
 
       const loadingEl = document.getElementById('loading');
       const tableEl = document.getElementById('steps-table');
@@ -326,9 +352,32 @@
         return Math.floor((startOfToday - pub) / (1000 * 60 * 60 * 24));
       }
 
+      function escAttr(s) {
+        return String(s)
+          .replace(/&/g, '&amp;')
+          .replace(/"/g, '&quot;')
+          .replace(/</g, '&lt;');
+      }
+
+      function remediationText(rem, reason) {
+        if (!rem || !rem.steps || !rem.steps.length) return reason;
+        let t = reason + '\n\n[' + (rem.action_id || 'ACTION') + ']\n';
+        rem.steps.forEach(function(step, i) {
+          t += (i + 1) + '. ' + step + '\n';
+        });
+        if (rem.commands && rem.commands.length) {
+          t += '\nExample commands:\n';
+          rem.commands.forEach(function(c) {
+            t += '  ' + c + '\n';
+          });
+        }
+        return t;
+      }
+
       function renderStageRow(ep) {
         const st = ep.stages || {};
         const reasons = ep.stage_reasons || {};
+        const remBy = ep.remediation_by_stage || {};
         const ageDays = getAgeDays(ep);
         const pubIso = getPublishedIso(ep);
         const pubCell = pubIso
@@ -344,9 +393,10 @@
           if (st[k]) {
             cells.push('<span class="ok">✓</span>');
           } else {
-            const reason = reasons[k] || 'No reason recorded. Re-run pipeline to refresh.';
+            const reason = reasons[k] || 'No reason recorded. Re-run export to refresh pipeline_state.json.';
             const label = stageLabels[k] || k;
-            cells.push('<span class="fail stage-x" data-stage="' + label + '" data-reason="' + String(reason).replace(/"/g, '&quot;') + '" title="Click for reason">✗</span>');
+            const full = remediationText(remBy[k], reason);
+            cells.push('<span class="fail stage-x" data-stage="' + escAttr(label) + '" data-reason="' + escAttr(full) + '" title="Click for reason + remediation">✗</span>');
           }
         });
         return '<td>' + cells[0] + '</td><td>' + cells[1] + '</td><td>' + cells[2] + '</td><td>' + cells[3] + '</td><td>' + cells[4] + '</td><td>' + cells[5] + '</td><td>' + cells[6] + '</td><td>' + cells[7] + '</td><td>' + cells[8] + '</td><td>' + cells[9] + '</td>';
@@ -367,7 +417,7 @@
       epTbody.querySelectorAll('.stage-x').forEach(function(el) {
         el.addEventListener('click', function() {
           document.getElementById('stage-reason-title').textContent = this.getAttribute('data-stage') || 'Stage';
-          document.getElementById('stage-reason-text').textContent = (this.getAttribute('data-reason') || '').replace(/&quot;/g, '"');
+          document.getElementById('stage-reason-text').textContent = this.getAttribute('data-reason') || '';
           document.getElementById('stage-reason-modal').classList.add('show');
         });
       });
