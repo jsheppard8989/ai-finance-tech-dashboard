@@ -1,5 +1,22 @@
 [
   {
+    "id": 200,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
+    "episode_date": "2026-05-06",
+    "summary": "In this episode of the a16z Show, NASA Administrator Jared Isaacman discusses the urgency and importance of America's return to the moon. The conversation covers the new space race, the Artemis program, and the challenges of building systems and infrastructure to sustain lunar operations. Isaacman emphasizes the need for a faster pace, competition, and the integration of private industry to achieve these goals.",
+    "key_takeaways": [
+      "The return to the moon is not just about national pride but also about scientific, economic, and national security interests.",
+      "The new space race is measured in months, forcing a rethink of mission building, capital deployment, and talent management.",
+      "NASA faces the challenge of maintaining a rapid pace and building the necessary infrastructure to sustain operations on the moon.",
+      "The Artemis program, established by President Trump, has a clear mandate to return to the moon and build a base for sustained operations.",
+      "Historic investment and bipartisan support have provided NASA with nearly $10 billion to move forward with the Artemis program.",
+      "The integration of private industry is crucial for the success of space exploration, with multiple companies now capable of providing launch, landers, and other capabilities."
+    ],
+    "investment_thesis": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
+    "key_tickers": null
+  },
+  {
     "id": 199,
     "podcast_name": "The a16z Show",
     "episode_title": "Building Blackstone, Backing Costco, with Tony James",
@@ -88,23 +105,6 @@
       "USO",
       "WTVN"
     ]
-  },
-  {
-    "id": 193,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Balaji and Taylor Lorenz on AI and Media",
-    "episode_date": "2026-05-01",
-    "summary": "In this episode of the a16z Show, the discussion revolves around the impact of AI on content creation and verification, the challenges of corporate and government surveillance, and the need for decentralized cryptographic truth. The conversation explores the resurgence of live streaming and communal experiences, the breakdown of trust in media and social networks due to AI-generated content, and the potential for new forms of social coordination to establish provable truth. The guests also touch on the role of independent media reporters and the implications of AI in journalism.",
-    "key_takeaways": [
-      "Live streaming and communal experiences are on the rise due to the human element being difficult to replicate.",
-      "Decentralized cryptographic truth is necessary to verify information without relying on corporate or government assertions.",
-      "AI-generated content is making it harder to verify information, leading to the need for cryptographic verification and decentralized identity.",
-      "New forms of social coordination are emerging to prove what's real rather than simply asserting it.",
-      "Privacy, accountability, and the role of journalism are central issues in an AI-driven world.",
-      "There is a potential for human-only social networks as a response to AI-generated spam."
-    ],
-    "investment_thesis": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
-    "key_tickers": null
   },
   {
     "id": 192,

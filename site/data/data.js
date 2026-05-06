@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-06T06:34:52.942709",
-  chartsVersion: "2026-05-06T06:34:48.172064",
+  generatedAt: "2026-05-06T12:37:48.199082",
+  chartsVersion: "2026-05-06T12:37:37.236423",
   priceSnapshot: {
   "GOOGL": {
-    "price": 388.43,
-    "change_pct": 15.6,
+    "price": 397.85,
+    "change_pct": 16.44,
     "name": "GOOGL",
-    "updated_at": "2026-05-06T06:34:48.171020"
+    "updated_at": "2026-05-06T12:37:37.235358"
   },
   "NVDA": {
-    "price": 196.5,
-    "change_pct": -0.93,
+    "price": 205.85,
+    "change_pct": 2.07,
     "name": "NVDA",
-    "updated_at": "2026-05-06T06:34:48.171041"
+    "updated_at": "2026-05-06T12:37:37.235376"
   },
   "MSFT": {
-    "price": 411.38,
-    "change_pct": -2.11,
+    "price": 412.9,
+    "change_pct": -2.34,
     "name": "MSFT",
-    "updated_at": "2026-05-06T06:34:48.171050"
+    "updated_at": "2026-05-06T12:37:37.235401"
   },
   "BTC": {
-    "price": 82693.96,
-    "change_pct": 5.65,
+    "price": 81469.25,
+    "change_pct": 4.09,
     "name": "BTC",
-    "updated_at": "2026-05-06T06:34:48.171059"
+    "updated_at": "2026-05-06T12:37:37.235410"
   },
   "WTI": {
-    "price": 4.21,
-    "change_pct": 37.58,
+    "price": 3.83,
+    "change_pct": 33.45,
     "name": "WTI",
-    "updated_at": "2026-05-06T06:34:48.171067"
+    "updated_at": "2026-05-06T12:37:37.235419"
   },
   "S&P 500": {
-    "price": 723.77,
-    "change_pct": 3.15,
+    "price": 731.87,
+    "change_pct": 3.06,
     "name": "S&P 500",
-    "updated_at": "2026-05-06T06:34:48.171075"
+    "updated_at": "2026-05-06T12:37:37.235427"
   },
   "META": {
-    "price": 604.96,
-    "change_pct": -10.62,
+    "price": 612.55,
+    "change_pct": -11.04,
     "name": "META",
-    "updated_at": "2026-05-06T06:34:48.171084"
+    "updated_at": "2026-05-06T12:37:37.235436"
   },
   "AMZN": {
-    "price": 273.55,
-    "change_pct": 9.55,
+    "price": 276.46,
+    "change_pct": 10.34,
     "name": "AMZN",
-    "updated_at": "2026-05-06T06:34:48.171091"
+    "updated_at": "2026-05-06T12:37:37.235444"
   },
   "TSLA": {
-    "price": 389.37,
-    "change_pct": 0.12,
+    "price": 398.66,
+    "change_pct": -0.49,
     "name": "TSLA",
-    "updated_at": "2026-05-06T06:34:48.171099"
+    "updated_at": "2026-05-06T12:37:37.235453"
   },
   "QQQ": {
-    "price": 681.61,
-    "change_pct": 6.42,
+    "price": 693.0,
+    "change_pct": 6.8,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-06T06:34:48.171107"
+    "updated_at": "2026-05-06T12:37:37.235461"
   },
   "BTC-USD": {
-    "price": 82693.96,
-    "change_pct": 5.65,
+    "price": 81469.25,
+    "change_pct": 4.09,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-06T06:34:48.171114"
+    "updated_at": "2026-05-06T12:37:37.235469"
   }
 },
   tickerScores: [
@@ -828,6 +828,27 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 215,
+      "title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-06",
+      "summary": "In this episode of the a16z Show, NASA Administrator Jared Isaacman discusses the urgency and importance of America's return to the moon. The conversation covers the new space race, the Artemis program, and the challenges of building systems and infrastructure to sustain lunar operations. Isaacman emphasizes the need for a faster pace, competition, and the integration of private industry to achieve these goals.",
+      "key_takeaway": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
+      "tickers_mentioned": [
+        "SPCE",
+        "BLUE",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 200
+    },
+    {
       "id": 213,
       "title": "Building Blackstone, Backing Costco, with Tony James",
       "source_type": "podcast",
@@ -927,7 +948,7 @@ const dashboardData = {
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-03",
       "archived_date": null,
@@ -4747,6 +4768,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 157,
+      "term": "Lunar Real Estate",
+      "description": "The strategic importance of occupying and utilizing the moon's surface for scientific, economic, and security purposes.",
+      "first_detected_date": "2026-05-06",
+      "last_mentioned_date": "2026-05-06",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors may look for opportunities in companies that can provide infrastructure and services for lunar operations.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 200,
+      "first_detected_speaker": "Jared Isaacman",
+      "last_mentioned_episode_id": 200,
+      "last_mentioned_speaker": "Jared Isaacman"
+    },
+    {
       "id": 156,
       "term": "Compounding Talent, Capital, and Culture",
       "description": "The concept of building an organization that not only generates returns but also systematically develops and retains talent, grows capital, and fosters a strong culture over time.",
@@ -7313,6 +7352,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 215,
+      "title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-06",
+      "summary": "In this episode of the a16z Show, NASA Administrator Jared Isaacman discusses the urgency and importance of America's return to the moon. The conversation covers the new space race, the Artemis program, and the challenges of building systems and infrastructure to sustain lunar operations. Isaacman emphasizes the need for a faster pace, competition, and the integration of private industry to achieve these goals.",
+      "key_takeaway": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
+      "tickers_mentioned": "[\"SPCE\", \"BLUE\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 200,
+      "episode_release_date": "2026-05-06",
+      "guest_name": "NASA Administrator Jared Isaacman",
+      "key_tickers": []
+    },
+    {
       "id": 213,
       "title": "Building Blackstone, Backing Costco, with Tony James",
       "source_type": "podcast",
@@ -7394,26 +7453,6 @@ const dashboardData = {
       "podcast_episode_id": 195,
       "episode_release_date": "2026-05-04",
       "guest_name": "Sarah Rogers",
-      "key_tickers": []
-    },
-    {
-      "id": 207,
-      "title": "Balaji and Taylor Lorenz on AI and Media",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-05-01",
-      "summary": "In this episode of the a16z Show, the discussion revolves around the impact of AI on content creation and verification, the challenges of corporate and government surveillance, and the need for decentralized cryptographic truth. The conversation explores the resurgence of live streaming and communal experiences, the breakdown of trust in media and social networks due to AI-generated content, and the potential for new forms of social coordination to establish provable truth. The guests also touch on the role of independent media reporters and the implications of AI in journalism.",
-      "key_takeaway": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"FB\", \"TWTR\", \"MSFT\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-03",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 193,
-      "episode_release_date": "2026-05-01",
-      "guest_name": null,
       "key_tickers": []
     },
     {
@@ -7664,6 +7703,32 @@ const dashboardData = {
       "last_mentioned_episode_date": null
     },
     {
+      "id": 157,
+      "term": "Lunar Real Estate",
+      "description": "The strategic importance of occupying and utilizing the moon's surface for scientific, economic, and security purposes.",
+      "first_detected_date": "2026-05-06",
+      "last_mentioned_date": "2026-05-06",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors may look for opportunities in companies that can provide infrastructure and services for lunar operations.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 200,
+      "first_detected_speaker": "Jared Isaacman",
+      "last_mentioned_episode_id": 200,
+      "last_mentioned_speaker": "Jared Isaacman",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
+      "first_detected_episode_date": "2026-05-06",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
+      "last_mentioned_episode_date": "2026-05-06"
+    },
+    {
       "id": 156,
       "term": "Compounding Talent, Capital, and Culture",
       "description": "The concept of building an organization that not only generates returns but also systematically develops and retains talent, grows capital, and fosters a strong culture over time.",
@@ -7907,32 +7972,6 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider AI CapEx as a significant growth area with potential for high returns.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.87,
-      "resonance_pct": 22,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 139,
-      "term": "Co-Investing",
-      "description": "A strategy where an investor participates alongside other investors, typically in a hedge fund or private equity deal, sharing in both the profits and risks.",
-      "first_detected_date": "2026-04-30",
-      "last_mentioned_date": "2026-04-30",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Co-investing can offer significant upside potential for investors who are able to access such deals.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -20795,12 +20834,91 @@ const dashboardData = {
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-05-05",
     "key_tickers": []
+  },
+  "215": {
+    "id": 205,
+    "insight_id": 215,
+    "podcast_episode_id": 200,
+    "overview": "The new space race is not just about reaching the moon; it's about establishing a sustainable presence and infrastructure capable of supporting long-term operations. The debate now centers on the speed and efficiency with which the U.S. can achieve this, given the renewed competition and the strategic importance of lunar real estate. The urgency is heightened by the need to outpace rivals and secure a dominant position in space, which has implications for scientific discovery, economic development, and national security.",
+    "key_takeaways_detailed": [
+      "Investing in the new space race requires a focus on companies and technologies that can accelerate the development and deployment of lunar infrastructure.",
+      "The integration of private industry is essential, as public-private partnerships can drive innovation and reduce the time to market for lunar operations.",
+      "The return to the moon is not a one-off event but the beginning of a new era of sustained space exploration, which will require ongoing investment in space technology and infrastructure.",
+      "The geopolitical aspect of the space race cannot be overlooked, as it influences the urgency and scale of investment in lunar operations."
+    ],
+    "investment_thesis": "The core logic is that the U.S., under the Artemis program, is poised to lead a new era of lunar exploration and commercialization. The timeframe is, with the goal to establish a sustainable lunar presence within the current decade. For this to go right, NASA must successfully execute the Artemis program's missions, maintain political and financial support, and foster effective public-private partnerships to leverage innovation and reduce costs.",
+    "ticker_analysis": {
+      "SPCE": {
+        "rationale": "Virgin Galactic, represented by ticker SPCE, is a key player in the commercial space industry, with ambitions in suborbital space tourism and potential contributions to lunar operations.",
+        "positioning": "Long-term strategic position, as the company's technology and experience could be leveraged for lunar missions.",
+        "risk": "Regulatory hurdles and technical challenges could delay or limit the company's involvement in lunar operations."
+      },
+      "BLUE": {
+        "rationale": "Blue Origin, represented by ticker BLUE, is a private space company focused on lunar landers and has a direct interest in the Artemis program.",
+        "positioning": "Strategic long position, as the company is well-positioned to benefit from NASA's lunar ambitions.",
+        "risk": "The company's success is tied to securing contracts and maintaining technological leadership in a competitive market."
+      },
+      "TSLA": {
+        "rationale": "Tesla, represented by ticker TSLA, is included due to its CEO Elon Musk's involvement in space exploration through SpaceX, which is not publicly traded but has significant influence on the industry.",
+        "positioning": "Tactical long position, as Tesla's success can be indirectly influenced by the progress and reputation of SpaceX.",
+        "risk": "SpaceX's success is not guaranteed, and any setbacks could impact Tesla's stock price through association."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, with a mix of long-term strategic positions in companies directly involved in lunar operations and tactical positions in companies that could benefit indirectly from the space race. The time horizon for these investments should align with the expected timeline of the Artemis program and the development of the lunar economy.",
+    "risk_factors": [
+      "Technical failures or delays in key Artemis missions could setback the entire lunar timeline.",
+      "Changes in government funding or policy could affect the pace and scale of lunar operations.",
+      "International competition could lead to unforeseen challenges or collaborations that alter the landscape.",
+      "Regulatory hurdles could slow down the commercialization of space and lunar operations.",
+      "Market volatility and economic downturns could impact the funding and valuation of space-related companies."
+    ],
+    "contrarian_signals": [
+      "A shift in global priorities away from space exploration could reduce investment and interest.",
+      "The discovery of alternative, more cost-effective methods for space travel or lunar operations could disrupt current investment strategies.",
+      "A significant breakthrough in space tourism or other commercial space activities that draw resources away from lunar operations."
+    ],
+    "catalysts": [
+      "Successful Artemis missions, particularly the SLS rocket launch and lunar landing attempts.",
+      "Announcements of new public-private partnerships or contracts related to lunar operations.",
+      "Policy changes or additional funding that support the acceleration of lunar operations.",
+      "Technological breakthroughs that enable faster or more cost-effective lunar missions.",
+      "International agreements or collaborations that could impact the competitive landscape of the new space race."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-06T12:36:35.064638",
+    "updated_at": "2026-05-06 17:36:35",
+    "episode_evidence": "Jared Isaacman, NASA Administrator, emphasized the urgency of returning to the moon, stating, 'We are going to get back into the habit of launching moon rockets in months, not years.' This highlights the shift from the current three-year cadence to a more frequent launch schedule, which is crucial for maintaining a competitive edge in the new space race.\nIsaacman also underscored the geopolitical implications, asserting, 'When we return to the moon, America will not look down on the prime lunar real estate while our rivals occupy it.' This statement reveals the strategic importance of lunar operations beyond scientific and economic benefits, extending to national security and global influence.\nThe Artemis program is central to this mission, with Isaacman mentioning, 'NASA now faces a new kind of competition. One that is measured not in decades, but in years, or even months.' This rapid pace of competition is forcing a rethink of traditional space exploration models, necessitating faster development and deployment of technology.",
+    "falsification_tracks": [
+      "If the Artemis program experiences significant delays or budget overruns that exceed the current projections, it could reduce conviction in the thesis.",
+      "A failure in a critical Artemis mission, such as the SLS rocket launch or lunar landing attempts, would challenge the feasibility of the accelerated timeline.",
+      "A significant reduction in government funding or policy changes that deprioritize lunar operations would undermine the investment thesis.",
+      "The emergence of a major international partner that significantly outpaces NASA in lunar operations could alter the competitive landscape."
+    ],
+    "insight_title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
+    "source_name": "The a16z Show",
+    "source_date": "2026-05-06",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 3194,
+    "id": 3236,
+    "name": "NASA Administrator Jared Isaacman",
+    "slug": "nasa-administrator-jared-isaacman",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
+    "last_episode_title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-06",
+    "appearance_count": 1
+  },
+  {
+    "id": 3237,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -20812,7 +20930,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3195,
+    "id": 3238,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -20824,7 +20942,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3196,
+    "id": 3239,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -20836,7 +20954,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3197,
+    "id": 3240,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -20848,7 +20966,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3198,
+    "id": 3241,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -20860,7 +20978,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3199,
+    "id": 3242,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -20872,7 +20990,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3200,
+    "id": 3243,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -20884,7 +21002,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3201,
+    "id": 3244,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -20896,7 +21014,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3202,
+    "id": 3245,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -20908,7 +21026,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3203,
+    "id": 3246,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -20920,7 +21038,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3204,
+    "id": 3247,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -20932,7 +21050,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3205,
+    "id": 3248,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -20944,7 +21062,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3206,
+    "id": 3249,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -20956,7 +21074,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3207,
+    "id": 3250,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -20968,7 +21086,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3208,
+    "id": 3251,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -20980,7 +21098,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3209,
+    "id": 3252,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -20992,7 +21110,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3210,
+    "id": 3253,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -21004,7 +21122,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3211,
+    "id": 3254,
     "name": "Building Agents at Home",
     "slug": "building-agents-at-home",
     "bio": null,
@@ -21016,7 +21134,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3212,
+    "id": 3255,
     "name": "\"The Best Time to Invest\"",
     "slug": "the-best-time-to-invest",
     "bio": null,
@@ -21025,18 +21143,6 @@ const dashboardData = {
     "last_episode_title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-09",
-    "appearance_count": 1
-  },
-  {
-    "id": 3213,
-    "name": "Governor Josh Shapiro of Pennsylvania",
-    "slug": "governor-josh-shapiro-of-pennsylvania",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in Pennsylvania due to its pro-growth policies, job creation, and improved business climate.",
-    "last_episode_title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-04-08",
     "appearance_count": 1
   }
 ],
@@ -21781,7 +21887,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -21789,6 +21895,66 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 230,
+    "name": "Jared Isaacman",
+    "slug": "jared-isaacman",
+    "bio": "Jared Isaacman is the NASA Administrator, responsible for overseeing NASA's space exploration programs. He is known for his commitment to returning to the moon and establishing a permanent presence there, emphasizing the importance of America's leadership in space exploration.",
+    "known_for": "Leading NASA's efforts to return to the moon and establish a permanent presence, emphasizing national security and economic potential.",
+    "net_worth_usd": 1400000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Jared_Isaacman",
+    "net_worth_updated_at": "2026-05-06T12:35:56.048552",
+    "voice_tone": "Urgent and determined",
+    "voice_style": "Factual and assertive, emphasizing the importance of the mission and the need for speed.",
+    "voice_delivery_notes": "Pacing is moderate with emphasis on key points regarding urgency and national security implications.",
+    "voice_profile_updated_at": "2026-05-06 17:35:34",
+    "last_seen": "2026-05-06 17:35:34",
+    "last_episode_title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-06",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
+    "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
+    "supporting_takeaway": "The new space race is measured in months, forcing a rethink of mission building, capital deployment, and talent management.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-06T12:35:54.890366",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jared Isaacman",
+      "fetched_at": "2026-05-06T17:35:54.889908+00:00",
+      "cliff_notes": "Jared Isaacman serves as the NASA Administrator, tasked with overseeing the agency's space exploration programs. His tenure has been marked by a renewed focus on returning to the moon, a mission that holds significant scientific, economic, and national security implications. Isaacman has emphasized the importance of not only landing on the moon but also building the necessary infrastructure and systems to maintain a permanent presence. This approach aligns with broader goals of space dominance and the desire to outpace international rivals in lunar exploration and resource utilization. His leadership at NASA is seen as crucial in shaping the future of space exploration and maintaining America's competitive edge in the new space race.",
+      "derived": {
+        "current_role": "NASA Administrator"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Jared Isaacman serves as the NASA Administrator, tasked with overseeing the agency's space exploration programs. His tenure has been marked by a renewed focus on returning to the moon, a mission that holds significant scientific, economic, and national security implications. Isaacman has emphasized the importance of not only landing on the moon but also building the necessary infrastructure and systems to maintain a permanent presence.",
+        "This approach aligns with broader goals of space dominance and the desire to outpace international rivals in lunar exploration and resource utilization. His leadership at NASA is seen as crucial in shaping the future of space exploration and maintaining America's competitive edge in the new space race."
+      ],
+      "sections": [
+        {
+          "heading": "Moon Mission",
+          "body": "Isaacman has been a driving force behind NASA's mission to return to the moon, with a focus on establishing a sustainable presence and exploring the lunar surface for scientific and economic opportunities."
+        },
+        {
+          "heading": "National Security",
+          "body": "He has underscored the importance of lunar missions for national security, arguing that America must not cede lunar real estate to rivals and that a moon base is a strategic asset."
+        },
+        {
+          "heading": "Space Race",
+          "body": "Isaacman views the current efforts in space as a new space race, where the challenge is not just reaching the moon but also creating the capability for regular lunar surface operations, which is crucial for maintaining a lead in space exploration."
+        }
+      ]
+    },
+    "net_worth": "$1.40B"
   },
   {
     "id": 228,
@@ -23572,7 +23738,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -26204,7 +26370,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -26264,7 +26430,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -26324,7 +26490,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",
@@ -27572,7 +27738,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
@@ -27630,7 +27796,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",

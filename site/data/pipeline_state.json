@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-05-06T06:34:50.471171",
-  "last_updated": "2026-05-06T06:34:50.471171",
-  "last_pipeline_run": "2026-05-06T06:34:50.471171",
+  "generated_at": "2026-05-06T12:37:39.859869",
+  "last_updated": "2026-05-06T12:37:39.859869",
+  "last_pipeline_run": "2026-05-06T12:37:39.859869",
   "main_page": {
     "overton": 13,
     "insights": 8,
-    "pundits": 122
+    "pundits": 123
   },
   "counts": {
     "ticker_mentions": 173,
-    "podcast_episodes": 172,
+    "podcast_episodes": 173,
     "newsletters": 7,
     "daily_scores": 111,
-    "overton_terms_total": 142,
-    "latest_insights_total": 186,
+    "overton_terms_total": 143,
+    "latest_insights_total": 187,
     "today_mentions": {},
-    "podcasts_analyzed": 0
+    "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 0,
-    "analyzed": 0,
-    "insight_created": 0,
-    "published": 0,
-    "total": 1
+    "downloaded": 2,
+    "transcribed": 1,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 2
   },
   "episodes": [
     {
-      "id": "5071aa4a-a2d8-4595-8602-e9ab3952bd54",
-      "podcast": "The a16z Show",
-      "title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
+      "id": "dfad58e8-494a-11f1-9cd1-e34a8813e2cd",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
       "published": "2026-05-06",
-      "rss_guid": "5071aa4a-a2d8-4595-8602-e9ab3952bd54",
+      "rss_guid": "dfad58e8-494a-11f1-9cd1-e34a8813e2cd",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -96,13 +96,31 @@
         }
       },
       "status": "needs_transcription"
+    },
+    {
+      "id": "5071aa4a-a2d8-4595-8602-e9ab3952bd54",
+      "podcast": "The a16z Show",
+      "title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
+      "published": "2026-05-06",
+      "rss_guid": "5071aa4a-a2d8-4595-8602-e9ab3952bd54",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
     }
   ],
   "available_from_rss": [
     {
-      "podcast": "The a16z Show",
-      "title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
-      "published": "Wed, 6 May 2026 10:00:00 +0000",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
+      "published": "Wed, 06 May 2026 15:30:00 -0000",
       "published_date": "2026-05-06",
       "rss_guid": ""
     }
