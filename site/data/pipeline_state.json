@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-05T06:36:02.431036",
-  "last_updated": "2026-05-05T06:36:02.431036",
-  "last_pipeline_run": "2026-05-05T06:36:02.431036",
+  "generated_at": "2026-05-05T22:02:43.065238",
+  "last_updated": "2026-05-05T22:02:43.065238",
+  "last_pipeline_run": "2026-05-05T22:02:43.065238",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -9,22 +9,20 @@
   },
   "counts": {
     "ticker_mentions": 173,
-    "podcast_episodes": 169,
+    "podcast_episodes": 170,
     "newsletters": 7,
     "daily_scores": 111,
-    "overton_terms_total": 144,
-    "latest_insights_total": 183,
-    "today_mentions": {
-      "podcast": 2
-    },
-    "podcasts_analyzed": 0
+    "overton_terms_total": 141,
+    "latest_insights_total": 184,
+    "today_mentions": {},
+    "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 0,
-    "analyzed": 0,
-    "insight_created": 0,
-    "published": 0,
+    "downloaded": 3,
+    "transcribed": 1,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
     "total": 3
   },
   "episodes": [
@@ -34,6 +32,24 @@
       "title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
       "published": "2026-05-01",
       "rss_guid": "88e1f47c-450a-11f1-8862-4b4703826cfa",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
+    },
+    {
+      "id": "04b68d0e-7b20-4fb2-b604-444f5dcb4a73",
+      "podcast": "The a16z Show",
+      "title": "Building Blackstone, Backing Costco, with Tony James",
+      "published": "2026-05-05",
+      "rss_guid": "04b68d0e-7b20-4fb2-b604-444f5dcb4a73",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -52,6 +68,7 @@
         "transcribed": {
           "action_id": "TRANSCRIBE",
           "steps": [
+            "There are 2 MP3 file(s) in whisper_queue/ waiting for the worker.",
             "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
             "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
             "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/."
@@ -99,130 +116,37 @@
       "status": "needs_transcription"
     },
     {
-      "id": "rss::the a16z show::building blackstone, backing costco, with tony james",
-      "podcast": "The a16z Show",
-      "title": "Building Blackstone, Backing Costco, with Tony James",
-      "published": "2026-05-05",
-      "published_date": "2026-05-05",
-      "rss_guid": "",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "RSS-only: not in curation_log APPROVED list yet \u2014 run curate.py so it can be fetched.",
-        "transcribed": "Blocked until download completes.",
-        "analyzed": "Blocked until transcript exists.",
-        "insight_created": "Blocked until analysis completes.",
-        "published": "Blocked until export after insight promotion."
-      },
-      "first_blocker": "downloaded",
-      "remediation_by_stage": {
-        "downloaded": {
-          "action_id": "FETCH_AUDIO",
-          "steps": [
-            "Approve the episode in curation (curate.py refreshes pipeline/state/curation_log.json).",
-            "Download audio and enqueue transcription: fetch_latest.py --queue-only.",
-            "If MP3 never appears, inspect pipeline/logs/pipeline_schedule.err and fetch_latest output."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 curate.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 fetch_latest.py --queue-only"
-          ]
-        },
-        "transcribed": {
-          "action_id": "FETCH_BEFORE_TRANSCRIBE",
-          "steps": [
-            "Audio must exist before transcription. Complete FETCH_AUDIO first."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 curate.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 fetch_latest.py --queue-only"
-          ]
-        },
-        "analyzed": {
-          "action_id": "ANALYZE_TRANSCRIPTS",
-          "steps": [
-            "Run transcript analysis so is_processed=1 on podcast_episodes (analyze_transcript via auto_pipeline).",
-            "Ensure LLM keys in workspace .env (e.g. MOONSHOT_API_KEY) are set if the analyzer requires them.",
-            "Quick path: auto_pipeline.py --analyze-only analyzes then continues promotion/export steps in that run."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "insight_created": {
-          "action_id": "PROMOTE_INSIGHT",
-          "steps": [
-            "Promotion to latest_insights runs inside auto_pipeline after analysis.",
-            "If analysis succeeded but insight is missing, re-run full auto_pipeline.py and check logs for promote_episodes_to_insights errors."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "published": {
-          "action_id": "EXPORT_AND_PUBLISH",
-          "steps": [
-            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
-            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
-            "When added_to_site=1 on the episode row, this stage turns green."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        }
-      },
-      "status": "needs_download"
-    },
-    {
-      "id": "rss::the jack mallers show::hold onto your butts (and your bitcoin)",
+      "id": "33b968b1-3d11-4b93-9f1b-36f1965c815e",
       "podcast": "The Jack Mallers Show",
       "title": "Hold Onto Your Butts (And Your Bitcoin)",
       "published": "2026-05-05",
-      "published_date": "2026-05-05",
-      "rss_guid": "",
+      "rss_guid": "33b968b1-3d11-4b93-9f1b-36f1965c815e",
       "stages": {
-        "downloaded": false,
+        "downloaded": true,
         "transcribed": false,
         "analyzed": false,
         "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "RSS-only: not in curation_log APPROVED list yet \u2014 run curate.py so it can be fetched.",
-        "transcribed": "Blocked until download completes.",
-        "analyzed": "Blocked until transcript exists.",
-        "insight_created": "Blocked until analysis completes.",
-        "published": "Blocked until export after insight promotion."
+        "transcribed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
       },
-      "first_blocker": "downloaded",
+      "first_blocker": "transcribed",
       "remediation_by_stage": {
-        "downloaded": {
-          "action_id": "FETCH_AUDIO",
-          "steps": [
-            "Approve the episode in curation (curate.py refreshes pipeline/state/curation_log.json).",
-            "Download audio and enqueue transcription: fetch_latest.py --queue-only.",
-            "If MP3 never appears, inspect pipeline/logs/pipeline_schedule.err and fetch_latest output."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 curate.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 fetch_latest.py --queue-only"
-          ]
-        },
         "transcribed": {
-          "action_id": "FETCH_BEFORE_TRANSCRIBE",
+          "action_id": "TRANSCRIBE",
           "steps": [
-            "Audio must exist before transcription. Complete FETCH_AUDIO first."
+            "There are 2 MP3 file(s) in whisper_queue/ waiting for the worker.",
+            "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
+            "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
+            "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/."
           ],
           "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 curate.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 fetch_latest.py --queue-only"
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard && ./whisper_worker.sh",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
           ]
         },
         "analyzed": {
@@ -260,7 +184,7 @@
           ]
         }
       },
-      "status": "needs_download"
+      "status": "needs_transcription"
     }
   ],
   "available_from_rss": [
@@ -277,26 +201,9 @@
       "published": "Tue, 05 May 2026 07:17:23 GMT",
       "published_date": "2026-05-05",
       "rss_guid": ""
-    },
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
-      "published": "Fri, 01 May 2026 03:04:00 -0000",
-      "published_date": "2026-05-01",
-      "rss_guid": ""
     }
   ],
-  "stale_episodes": [
-    {
-      "id": "88e1f47c-450a-11f1-8862-4b4703826cfa",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
-      "status": "needs_transcription",
-      "published": "2026-05-01",
-      "age_days": 4,
-      "next_blocker": "transcribed"
-    }
-  ],
+  "stale_episodes": [],
   "stale_threshold_days": 2,
   "rss_filter_criteria": {
     "cutoff_date": "2026-02-01",
@@ -312,7 +219,7 @@
       "insight_created",
       "published"
     ],
-    "whisper_queue_pending_mp3": 0,
+    "whisper_queue_pending_mp3": 2,
     "fix_order": "For each episode, read first_blocker then remediation_by_stage[first_blocker].",
     "end_to_end": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py",
     "analyze_only": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",

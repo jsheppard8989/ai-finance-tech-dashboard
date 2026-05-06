@@ -21,6 +21,42 @@
     ]
   },
   {
+    "id": 195,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
+    "episode_date": "2026-05-04",
+    "summary": "In this episode of the a16z Show, Under Secretary of State for Public Diplomacy Sarah B. Rogers discusses the importance of AI and its impact on free speech and digital freedom. Rogers emphasizes the need for a Western AI stack that prioritizes user consent and operates on rules-based principles. The conversation touches on the challenges of international regulations, the role of public diplomacy in shaping digital freedom, and the strategic importance of maintaining a free and open internet for international relations and commerce.",
+    "key_takeaways": [
+      "AI is becoming increasingly important in international relations and commerce.",
+      "Regulations around AI and digital safety are changing rapidly, with significant implications for free speech.",
+      "The US government is encouraging a Western AI stack that prioritizes individual consent and operates on rules-based principles.",
+      "Public diplomacy plays a crucial role in shaping digital freedom and combating censorship.",
+      "International regulations can create challenges for American companies, forcing them to navigate complex legal landscapes."
+    ],
+    "investment_thesis": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
+    "key_tickers": null
+  },
+  {
+    "id": 197,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
+    "episode_date": "2026-05-01",
+    "summary": "In this episode of Monetary Matters, hosts Jack Farley and Max Weethy discuss the implications of Jay Powell's decision to stay on as Fed Chairman, the changing dynamics of the Federal Reserve, and the impact of oil shocks on interest rates and inflation. They also analyze earnings reports from major tech companies and consider investment strategies in the face of ongoing geopolitical tensions and supply disruptions.",
+    "key_takeaways": [
+      "Jay Powell's decision to stay on as Fed Chairman is seen as a mistake due to his distrust in the administration's ability to handle overruns in Fed building contracts.",
+      "The independence of the Fed is increasingly questioned, with 12 independent voters leading to a shift away from groupthink.",
+      "The market has priced in all cuts for 2026, indicating a potential validation of the market's stance by the Fed.",
+      "Earnings reports from tech giants like Meta, Amazon, and Google show significant beats, impacting market valuations.",
+      "The ongoing war and supply chain disruptions are expected to keep oil prices elevated and interest rates trending higher."
+    ],
+    "investment_thesis": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
+    "key_tickers": [
+      "DBC",
+      "USO",
+      "WTVN"
+    ]
+  },
+  {
     "id": 193,
     "podcast_name": "The a16z Show",
     "episode_title": "Balaji and Taylor Lorenz on AI and Media",
@@ -113,41 +149,5 @@
     "key_tickers": [
       "SPACEX"
     ]
-  },
-  {
-    "id": 188,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
-    "episode_date": "2026-04-30",
-    "summary": "In this episode of 'The a16z Show', Elena Berger interviews Joe Schmidt, a partner on the enterprise team at A16Z, to discuss the cracks appearing in enterprise software companies like Workday. They explore the challenges of replacing entrenched systems, the impact of AI on enterprise software, and the opportunities for new platforms to disrupt the status quo. Joe shares insights on why enterprises may be ready for a change and the potential for new solutions to offer significant improvements over existing systems.",
-    "key_takeaways": [
-      "Enterprise software platforms like Workday, while deeply embedded and defensible, are showing signs of cracks.",
-      "AI is creating new opportunities to rethink how enterprise systems work, potentially leading to a platform shift.",
-      "The experience of using enterprise software like Workday has not fundamentally changed since 2005, despite technological advancements.",
-      "New point solutions built on top of core backend systems are becoming more common as innovation moves away from core primitives.",
-      "Enterprises may be reaching a tipping point where they are ready to replace entrenched systems with new solutions that offer a better user experience.",
-      "There is a significant opportunity for new software to disrupt the current enterprise software landscape by solving existing problems more effectively."
-    ],
-    "investment_thesis": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
-    "key_tickers": [
-      "WORK"
-    ]
-  },
-  {
-    "id": 185,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
-    "episode_date": "2026-04-29",
-    "summary": "In this episode of Monetary Matters with Jack Farley, Max Weathie interviews Keer Kavanaugh, the founder and CIO of Old Farm Partners, a New York-based fund of funds. They discuss Kavanaugh's experience at Soros Fund Management, his co-investment strategy with hedge funds, and his approach to manager due diligence and sourcing managers. The conversation also touches on the current investment focus on AI CapEx, the risks involved in the market, and Kavanaugh's views on the hedge fund industry and allocators.",
-    "key_takeaways": [
-      "AI CapEx is currently the main focus for investment opportunities.",
-      "Co-investing with hedge funds is a successful strategy Kavanaugh learned from Scott Beston at Soros Fund Management.",
-      "Managers often overstate the uniqueness of their strategies, but Kavanaugh has seen enough to discern what truly stands out.",
-      "Kavanaugh values intellectual curiosity and the pursuit of high potential returns in the public market.",
-      "Old Farm Partners has a sophisticated investor base, including private wealth and pensions, who value consistent performance and low drawdowns.",
-      "There is a current opportunity for small managers as allocators are returning to hedge funds after a period of focusing on private credit."
-    ],
-    "investment_thesis": "Investing in AI CapEx is currently the main focus, with co-investments in hedge funds providing a successful strategy for capturing high returns.",
-    "key_tickers": null
   }
 ]

@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-05T06:36:04.760240",
-  chartsVersion: "2026-05-05T05:02:04.459230",
+  generatedAt: "2026-05-05T22:02:52.793681",
+  chartsVersion: "2026-05-05T22:02:40.439161",
   priceSnapshot: {
   "GOOGL": {
-    "price": 383.25,
-    "change_pct": 13.68,
+    "price": 388.43,
+    "change_pct": 15.6,
     "name": "GOOGL",
-    "updated_at": "2026-05-05T05:02:04.458110"
+    "updated_at": "2026-05-05T22:02:40.438138"
   },
   "NVDA": {
-    "price": 198.48,
-    "change_pct": -0.2,
+    "price": 196.5,
+    "change_pct": -0.93,
     "name": "NVDA",
-    "updated_at": "2026-05-05T05:02:04.458132"
+    "updated_at": "2026-05-05T22:02:40.438158"
   },
   "MSFT": {
-    "price": 413.62,
-    "change_pct": 0.58,
+    "price": 411.38,
+    "change_pct": -2.11,
     "name": "MSFT",
-    "updated_at": "2026-05-05T05:02:04.458142"
+    "updated_at": "2026-05-05T22:02:40.438167"
   },
   "BTC": {
-    "price": 80534.26,
-    "change_pct": 2.98,
+    "price": 81384.1,
+    "change_pct": 3.98,
     "name": "BTC",
-    "updated_at": "2026-05-05T05:02:04.458150"
+    "updated_at": "2026-05-05T22:02:40.438174"
   },
   "WTI": {
-    "price": 4.38,
-    "change_pct": 52.08,
+    "price": 4.21,
+    "change_pct": 37.58,
     "name": "WTI",
-    "updated_at": "2026-05-05T05:02:04.458159"
+    "updated_at": "2026-05-05T22:02:40.438182"
   },
   "S&P 500": {
-    "price": 718.01,
-    "change_pct": 2.58,
+    "price": 723.77,
+    "change_pct": 3.15,
     "name": "S&P 500",
-    "updated_at": "2026-05-05T05:02:04.458167"
+    "updated_at": "2026-05-05T22:02:40.438189"
   },
   "META": {
-    "price": 610.41,
-    "change_pct": -9.11,
+    "price": 604.96,
+    "change_pct": -10.62,
     "name": "META",
-    "updated_at": "2026-05-05T05:02:04.458177"
+    "updated_at": "2026-05-05T22:02:40.438197"
   },
   "AMZN": {
-    "price": 272.05,
-    "change_pct": 9.48,
+    "price": 273.55,
+    "change_pct": 9.55,
     "name": "AMZN",
-    "updated_at": "2026-05-05T05:02:04.458185"
+    "updated_at": "2026-05-05T22:02:40.438204"
   },
   "TSLA": {
-    "price": 392.51,
-    "change_pct": 0.14,
+    "price": 389.37,
+    "change_pct": 0.12,
     "name": "TSLA",
-    "updated_at": "2026-05-05T05:02:04.458194"
+    "updated_at": "2026-05-05T22:02:40.438211"
   },
   "QQQ": {
-    "price": 672.88,
-    "change_pct": 5.57,
+    "price": 681.61,
+    "change_pct": 6.42,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-05T05:02:04.458203"
+    "updated_at": "2026-05-05T22:02:40.438219"
   },
   "BTC-USD": {
-    "price": 80534.26,
-    "change_pct": 2.98,
+    "price": 81384.1,
+    "change_pct": 3.98,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-05T05:02:04.458212"
+    "updated_at": "2026-05-05T22:02:40.438226"
   }
 },
   tickerScores: [
@@ -864,7 +864,7 @@ const dashboardData = {
         "FB"
       ],
       "sentiment": "neutral",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-05-04",
       "archived_date": null,
@@ -936,6 +936,27 @@ const dashboardData = {
       "podcast_episode_id": 191
     },
     {
+      "id": 212,
+      "title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-01",
+      "summary": "In this episode of Monetary Matters, hosts Jack Farley and Max Weethy discuss the implications of Jay Powell's decision to stay on as Fed Chairman, the changing dynamics of the Federal Reserve, and the impact of oil shocks on interest rates and inflation. They also analyze earnings reports from major tech companies and consider investment strategies in the face of ongoing geopolitical tensions and supply disruptions.",
+      "key_takeaway": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
+      "tickers_mentioned": [
+        "DBC",
+        "USO",
+        "WTVN"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 197
+    },
+    {
       "id": 203,
       "title": "Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
       "source_type": "podcast",
@@ -947,7 +968,7 @@ const dashboardData = {
         "WORK"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-30",
       "archived_date": null,
@@ -1066,7 +1087,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-30",
       "archived_date": null,
@@ -4686,60 +4707,6 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 149,
-      "term": "Decentralized Cryptographic Truth",
-      "description": "A system that allows for the verification of information without the need for a central authority, ensuring that truth is accessible to all regardless of their economic status.",
-      "first_detected_date": "2026-05-04",
-      "last_mentioned_date": "2026-05-04",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in platforms and technologies that facilitate decentralized truth and verification mechanisms.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null
-    },
-    {
-      "id": 150,
-      "term": "Human-Only Social Networks",
-      "description": "Social networks designed to be exclusive to human users, potentially employing biometric verification to prevent AI-generated content.",
-      "first_detected_date": "2026-05-04",
-      "last_mentioned_date": "2026-05-04",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Consider investing in biometric technology and social platforms that prioritize human interaction and content creation.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null
-    },
-    {
-      "id": 151,
-      "term": "Privacy in Cryptocurrencies",
-      "description": "The ability of a cryptocurrency to conduct transactions without revealing the identity of the parties involved.",
-      "first_detected_date": "2026-05-04",
-      "last_mentioned_date": "2026-05-04",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors may seek cryptocurrencies that offer enhanced privacy as a way to protect against identity theft and financial surveillance.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null
-    },
-    {
       "id": 153,
       "term": "Western AI Stack",
       "description": "A concept referring to AI technologies that align with Western values, such as individual consent and rule-based operations.",
@@ -4756,24 +4723,6 @@ const dashboardData = {
       "first_detected_speaker": "Sarah B. Rogers",
       "last_mentioned_episode_id": 195,
       "last_mentioned_speaker": "Sarah B. Rogers"
-    },
-    {
-      "id": 154,
-      "term": "Caliban",
-      "description": "An AI research and charting tool developed by 314 Research, recently made available to the public.",
-      "first_detected_date": "2026-05-04",
-      "last_mentioned_date": "2026-05-04",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Caliban represents the integration of AI in financial analysis, potentially offering a competitive edge in data-driven investment strategies.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 196,
-      "first_detected_speaker": "Warren Pious",
-      "last_mentioned_episode_id": 196,
-      "last_mentioned_speaker": "Warren Pious"
     },
     {
       "id": 143,
@@ -4846,6 +4795,24 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": null,
       "last_mentioned_speaker": null
+    },
+    {
+      "id": 155,
+      "term": "Groupthink",
+      "description": "A psychological phenomenon where people strive to conform their beliefs and actions with the majority to fit in, often leading to suboptimal decision-making.",
+      "first_detected_date": "2026-05-01",
+      "last_mentioned_date": "2026-05-01",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "The shift away from groupthink at the Fed could lead to more independent and varied policy decisions, impacting market expectations.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 197,
+      "first_detected_speaker": "Jim Bianco",
+      "last_mentioned_episode_id": 197,
+      "last_mentioned_speaker": "Jim Bianco"
     },
     {
       "id": 136,
@@ -7312,6 +7279,26 @@ const dashboardData = {
       ]
     },
     {
+      "id": 211,
+      "title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-04",
+      "summary": "In this episode of the a16z Show, Under Secretary of State for Public Diplomacy Sarah B. Rogers discusses the importance of AI and its impact on free speech and digital freedom. Rogers emphasizes the need for a Western AI stack that prioritizes user consent and operates on rules-based principles. The conversation touches on the challenges of international regulations, the role of public diplomacy in shaping digital freedom, and the strategic importance of maintaining a free and open internet for international relations and commerce.",
+      "key_takeaway": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"FB\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 195,
+      "episode_release_date": "2026-05-04",
+      "guest_name": "Sarah Rogers",
+      "key_tickers": []
+    },
+    {
       "id": 207,
       "title": "Balaji and Taylor Lorenz on AI and Media",
       "source_type": "podcast",
@@ -7379,25 +7366,27 @@ const dashboardData = {
       ]
     },
     {
-      "id": 203,
-      "title": "Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
+      "id": 212,
+      "title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
       "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-04-30",
-      "summary": "In this episode of 'The a16z Show', Elena Berger interviews Joe Schmidt, a partner on the enterprise team at A16Z, to discuss the cracks appearing in enterprise software companies like Workday. They explore the challenges of replacing entrenched systems, the impact of AI on enterprise software, and the opportunities for new platforms to disrupt the status quo. Joe shares insights on why enterprises may be ready for a change and the potential for new solutions to offer significant improvements over existing systems.",
-      "key_takeaway": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
-      "tickers_mentioned": "[\"WORK\"]",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-01",
+      "summary": "In this episode of Monetary Matters, hosts Jack Farley and Max Weethy discuss the implications of Jay Powell's decision to stay on as Fed Chairman, the changing dynamics of the Federal Reserve, and the impact of oil shocks on interest rates and inflation. They also analyze earnings reports from major tech companies and consider investment strategies in the face of ongoing geopolitical tensions and supply disruptions.",
+      "key_takeaway": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
+      "tickers_mentioned": "[\"DBC\", \"USO\", \"WTVN\"]",
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
-      "added_date": "2026-04-30",
+      "added_date": "2026-05-05",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 188,
-      "episode_release_date": "2026-04-30",
+      "podcast_episode_id": 197,
+      "episode_release_date": "2026-05-01",
       "guest_name": null,
       "key_tickers": [
-        "WORK"
+        "DBC",
+        "USO",
+        "WTVN"
       ]
     },
     {
@@ -7443,26 +7432,6 @@ const dashboardData = {
       "key_tickers": [
         "SPACEX"
       ]
-    },
-    {
-      "id": 202,
-      "title": "From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-04-29",
-      "summary": "In this episode of Monetary Matters with Jack Farley, Max Weathie interviews Keer Kavanaugh, the founder and CIO of Old Farm Partners, a New York-based fund of funds. They discuss Kavanaugh's experience at Soros Fund Management, his co-investment strategy with hedge funds, and his approach to manager due diligence and sourcing managers. The conversation also touches on the current investment focus on AI CapEx, the risks involved in the market, and Kavanaugh's views on the hedge fund industry and allocators.",
-      "key_takeaway": "Investing in AI CapEx is currently the main focus, with co-investments in hedge funds providing a successful strategy for capturing high returns.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-30",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 185,
-      "episode_release_date": "2026-04-29",
-      "guest_name": "From Soros to Old Farm",
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -7641,84 +7610,6 @@ const dashboardData = {
       "last_mentioned_episode_date": null
     },
     {
-      "id": 149,
-      "term": "Decentralized Cryptographic Truth",
-      "description": "A system that allows for the verification of information without the need for a central authority, ensuring that truth is accessible to all regardless of their economic status.",
-      "first_detected_date": "2026-05-04",
-      "last_mentioned_date": "2026-05-04",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in platforms and technologies that facilitate decentralized truth and verification mechanisms.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.98,
-      "resonance_pct": 24,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 150,
-      "term": "Human-Only Social Networks",
-      "description": "Social networks designed to be exclusive to human users, potentially employing biometric verification to prevent AI-generated content.",
-      "first_detected_date": "2026-05-04",
-      "last_mentioned_date": "2026-05-04",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Consider investing in biometric technology and social platforms that prioritize human interaction and content creation.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.98,
-      "resonance_pct": 24,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 151,
-      "term": "Privacy in Cryptocurrencies",
-      "description": "The ability of a cryptocurrency to conduct transactions without revealing the identity of the parties involved.",
-      "first_detected_date": "2026-05-04",
-      "last_mentioned_date": "2026-05-04",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors may seek cryptocurrencies that offer enhanced privacy as a way to protect against identity theft and financial surveillance.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.98,
-      "resonance_pct": 24,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
       "id": 153,
       "term": "Western AI Stack",
       "description": "A concept referring to AI technologies that align with Western values, such as individual consent and rule-based operations.",
@@ -7742,32 +7633,6 @@ const dashboardData = {
       "first_detected_episode_date": "2026-05-04",
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "last_mentioned_episode_date": "2026-05-04"
-    },
-    {
-      "id": 154,
-      "term": "Caliban",
-      "description": "An AI research and charting tool developed by 314 Research, recently made available to the public.",
-      "first_detected_date": "2026-05-04",
-      "last_mentioned_date": "2026-05-04",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Caliban represents the integration of AI in financial analysis, potentially offering a competitive edge in data-driven investment strategies.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 196,
-      "first_detected_speaker": "Warren Pious",
-      "last_mentioned_episode_id": 196,
-      "last_mentioned_speaker": "Warren Pious",
-      "overton_score": 0.98,
-      "resonance_pct": 24,
-      "first_detected_podcast": "Monetary Matters with Jack Farley",
-      "first_detected_episode_title": "Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
-      "first_detected_episode_date": "2026-05-04",
-      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
-      "last_mentioned_episode_title": "Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
       "last_mentioned_episode_date": "2026-05-04"
     },
     {
@@ -7875,6 +7740,32 @@ const dashboardData = {
       "last_mentioned_episode_date": null
     },
     {
+      "id": 155,
+      "term": "Groupthink",
+      "description": "A psychological phenomenon where people strive to conform their beliefs and actions with the majority to fit in, often leading to suboptimal decision-making.",
+      "first_detected_date": "2026-05-01",
+      "last_mentioned_date": "2026-05-01",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "The shift away from groupthink at the Fed could lead to more independent and varied policy decisions, impacting market expectations.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 197,
+      "first_detected_speaker": "Jim Bianco",
+      "last_mentioned_episode_id": 197,
+      "last_mentioned_speaker": "Jim Bianco",
+      "overton_score": 0.91,
+      "resonance_pct": 23,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
+      "first_detected_episode_date": "2026-05-01",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
+      "last_mentioned_episode_date": "2026-05-01"
+    },
+    {
       "id": 136,
       "term": "Clinical Trial Reform",
       "description": "Changes in the process of running clinical trials, including regulatory design, trial structure, and funding models.",
@@ -7910,6 +7801,84 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Efficiency in drug development can significantly affect a company's profitability and competitive advantage.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.89,
+      "resonance_pct": 22,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
+    },
+    {
+      "id": 138,
+      "term": "AI CapEx",
+      "description": "Capital expenditure focused on artificial intelligence technologies, indicating a strategic investment in AI infrastructure and development.",
+      "first_detected_date": "2026-04-30",
+      "last_mentioned_date": "2026-04-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider AI CapEx as a significant growth area with potential for high returns.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.89,
+      "resonance_pct": 22,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
+    },
+    {
+      "id": 139,
+      "term": "Co-Investing",
+      "description": "A strategy where an investor participates alongside other investors, typically in a hedge fund or private equity deal, sharing in both the profits and risks.",
+      "first_detected_date": "2026-04-30",
+      "last_mentioned_date": "2026-04-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Co-investing can offer significant upside potential for investors who are able to access such deals.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.89,
+      "resonance_pct": 22,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
+    },
+    {
+      "id": 140,
+      "term": "Invertible Neural Networks",
+      "description": "Neural networks that can be run both forwards and backwards, allowing for memory savings during training by rematerializing activations.",
+      "first_detected_date": "2026-04-30",
+      "last_mentioned_date": "2026-04-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investing in technology that enables invertible neural networks can lead to more efficient AI training and reduced costs.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -20577,12 +20546,88 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-05-04",
     "key_tickers": []
+  },
+  "212": {
+    "id": 202,
+    "insight_id": 212,
+    "podcast_episode_id": 197,
+    "overview": "The debate over Jay Powell's decision to stay on as Fed Chairman is not just about personalities but reflects a deeper tension between tradition and change within the Federal Reserve. The shift towards more independent voting among Fed members could lead to a more diverse set of policy outcomes, making the central bank's actions less predictable. This independence, coupled with geopolitical tensions and supply chain disruptions, suggests that commodities, especially oil, are likely to remain elevated, influencing interest rates and inflation expectations.",
+    "key_takeaways_detailed": [
+      "The Federal Reserve's increasing independence may lead to more frequent dissenting votes, impacting the predictability of monetary policy.",
+      "Geopolitical tensions and supply chain issues are expected to keep commodity prices, particularly oil, elevated, which could lead to higher inflation and interest rates.",
+      "Investors should monitor the number of dissenting votes within the Fed for signs of a shift in monetary policy direction.",
+      "The potential for higher interest rates and inflation could have significant implications for asset allocation, particularly in the tech sector which has been sensitive to rising rates."
+    ],
+    "investment_thesis": "In an environment of increased Federal Reserve independence and ongoing geopolitical tensions, the thesis is that commodities, especially oil, will remain elevated, leading to higher inflation and interest rates. This environment will favor certain sectors over others, with tech companies facing headwinds from rising rates. The timeframe for this thesis is medium to long-term, as the effects of Fed independence and geopolitical tensions are likely to be gradual and persistent. For this thesis to hold, it is crucial that the Fed continues to show signs of independence and that global tensions do not abate.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a major tech company that has been sensitive to interest rate changes. Rising rates can impact its valuation and cost of capital.",
+        "positioning": "Positioning should be cautious, potentially short-term, as rising rates could negatively affect Apple's stock price.",
+        "risk": "Key risks include a faster-than-expected rise in interest rates and a slowdown in consumer spending due to inflation."
+      },
+      "MSFT": {
+        "rationale": "Microsoft, like Apple, is a large-cap tech stock that may be affected by rising interest rates.",
+        "positioning": "A tactical short position could be considered given the potential for rate hikes to impact valuations.",
+        "risk": "The risk of Microsoft's cloud business outperforming expectations could mitigate the impact of rising rates."
+      },
+      "XOM": {
+        "rationale": "Exxon Mobil is an oil and gas company that could benefit from higher oil prices.",
+        "positioning": "A long position could be strategic, as oil prices are expected to remain elevated.",
+        "risk": "Geopolitical events that lead to a sudden increase in oil supply could reduce prices."
+      },
+      "V": {
+        "rationale": "Visa is a payment processing company that may be less sensitive to interest rate changes but could be affected by inflation.",
+        "positioning": "A long position could be strategic, as Visa's business model may provide some insulation from rate changes.",
+        "risk": "A significant economic slowdown could reduce transaction volumes and impact Visa's revenue."
+      },
+      "TSLA": {
+        "rationale": "Tesla is an electric vehicle company that could be affected by both rising rates and commodity prices.",
+        "positioning": "Positioning should be cautious, as rising rates and potential supply chain disruptions could impact Tesla's growth.",
+        "risk": "Increased competition in the electric vehicle market and regulatory changes could pose risks."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio with a mix of long and short positions across sectors that are expected to be affected differently by rising rates and inflation. A hedge could be established through commodities or sectors that are expected to benefit from higher prices, such as energy. The time horizon for these positions should be medium to long-term, reflecting the gradual nature of the expected changes in the economic environment.",
+    "risk_factors": [
+      "A sudden resolution of geopolitical tensions could lead to a drop in oil prices, affecting the thesis.",
+      "Unexpected policy changes by the Federal Reserve that result in lower interest rates than expected.",
+      "A faster-than-expected recovery in the global economy that could lead to a quicker reduction in supply chain disruptions."
+    ],
+    "contrarian_signals": [
+      "A significant drop in oil prices due to a sudden increase in supply or a technological breakthrough in renewable energy.",
+      "The Federal Reserve showing a unified front and a clear commitment to a specific policy direction, reducing the impact of independent voting.",
+      "A rapid resolution of supply chain disruptions leading to a decrease in commodity prices."
+    ],
+    "catalysts": [
+      "The release of the Inspector General's report on the Federal Reserve building contract overruns.",
+      "Geopolitical events that could impact oil supply, such as conflicts in the Middle East or sanctions on oil-producing countries.",
+      "Federal Reserve meetings and policy statements that could indicate a shift in the direction of monetary policy."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-05T22:01:51.697494",
+    "updated_at": "2026-05-06 03:01:51",
+    "episode_evidence": "In the Monetary Matters podcast, Jim Bianco of Bianco Research provided a critical perspective on Jay Powell's decision to remain as Fed Chairman. Bianco argued that Powell's decision is politically motivated, stemming from a distrust in the administration's ability to investigate the Federal Reserve building contract overruns, which he believes could be over a couple of billion dollars. 'He's going to hold the institution hostage in order to get an effective outcome that he wants,' said Bianco. He also highlighted the changing dynamics within the Federal Reserve, noting that the independence of the Fed is 'largely solved' due to 12 independent voters, which is a significant shift from the past when the chairman's influence was more dominant. 'Everybody is going to vote independently,' Bianco stated, indicating a move away from groupthink within the Fed. This change could lead to more dissenting votes and a less predictable monetary policy path.",
+    "falsification_tracks": [
+      "A clear statement from Jay Powell reversing his stance on the reasons for staying as Fed Chairman, indicating a change in his views on the Federal Reserve's independence and transparency.",
+      "The Inspector General of the Federal Reserve releasing a report that finds no significant wrongdoing in the building contract overruns, which would undermine Bianco's argument about Powell's motivations.",
+      "A significant decrease in oil prices, which would alleviate inflationary pressures and potentially reduce the number of dissenting votes within the Fed, contradicting the expectation of higher interest rates."
+    ],
+    "insight_title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-05-01",
+    "key_tickers": [
+      "DBC",
+      "USO",
+      "WTVN"
+    ]
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 3028,
+    "id": 3069,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -20594,7 +20639,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3029,
+    "id": 3070,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -20606,7 +20651,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3030,
+    "id": 3071,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -20618,7 +20663,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3031,
+    "id": 3072,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -20630,7 +20675,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3032,
+    "id": 3073,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -20642,7 +20687,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3033,
+    "id": 3074,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -20654,7 +20699,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3034,
+    "id": 3075,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -20666,7 +20711,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3035,
+    "id": 3076,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -20678,7 +20723,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3036,
+    "id": 3077,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -20690,7 +20735,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3037,
+    "id": 3078,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -20702,7 +20747,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3038,
+    "id": 3079,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -20714,7 +20759,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3039,
+    "id": 3080,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -20726,7 +20771,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3040,
+    "id": 3081,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -20738,7 +20783,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3041,
+    "id": 3082,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -20750,7 +20795,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3042,
+    "id": 3083,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -20762,7 +20807,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3043,
+    "id": 3084,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -20774,7 +20819,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3044,
+    "id": 3085,
     "name": "Building Agents at Home",
     "slug": "building-agents-at-home",
     "bio": null,
@@ -20786,7 +20831,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3045,
+    "id": 3086,
     "name": "\"The Best Time to Invest\"",
     "slug": "the-best-time-to-invest",
     "bio": null,
@@ -20798,7 +20843,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3046,
+    "id": 3087,
     "name": "Governor Josh Shapiro of Pennsylvania",
     "slug": "governor-josh-shapiro-of-pennsylvania",
     "bio": null,
@@ -20810,7 +20855,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3047,
+    "id": 3088,
     "name": "Box CEO Aaron Levie",
     "slug": "box-ceo-aaron-levie",
     "bio": null,
@@ -20948,6 +20993,74 @@ const dashboardData = {
     "net_worth": "$151.00B"
   },
   {
+    "id": 54,
+    "name": "Jim Bianco",
+    "slug": "jim-bianco",
+    "bio": "President and Proprietor of Bianco Research.",
+    "known_for": "Market analysis and commentary.",
+    "net_worth_usd": 12300000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001198554/james-a-bianco",
+    "net_worth_updated_at": "2026-04-10T05:06:38.074861",
+    "voice_tone": "Assertive and analytical.",
+    "voice_style": "Factual and critical, with a focus on economic and political implications.",
+    "voice_delivery_notes": "Paced with emphasis on key economic indicators and policy implications.",
+    "voice_profile_updated_at": "2026-05-06 03:01:03",
+    "last_seen": "2026-05-06 03:01:03",
+    "last_episode_title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-01",
+    "mention_score": 3,
+    "mention_score_decayed": 3,
+    "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
+    "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
+    "supporting_takeaway": "The independence of the Fed is increasingly questioned, with 12 independent voters leading to a shift away from groupthink.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-10T05:06:37.059270",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jim Bianco",
+      "fetched_at": "2026-04-10T10:06:37.059032+00:00",
+      "cliff_notes": "Jim Bianco is a prominent figure in the world of finance and macroeconomics. As the founder of Bianco Research, he has dedicated his career to providing independent research on global markets. His expertise in macroeconomic trends and geopolitical analysis has made him a sought-after commentator and analyst. Bianco's insights are particularly valuable for professional finance, high-net worth individuals, family offices, and other sophisticated investors. His work has been influential in shaping investment strategies and understanding market dynamics. Through his appearances on financial podcasts like Macrovoisers, Bianco shares his perspectives on critical issues such as the Iran conflict, its impact on commodities, and the Fed's reaction to geopolitical events. His contributions to the financial community have established him as a respected voice in the field.",
+      "derived": {
+        "current_role": "Founder of Bianco Research"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Jim Bianco is a prominent figure in the world of finance and macroeconomics. As the founder of Bianco Research, he has dedicated his career to providing independent research on global markets. His expertise in macroeconomic trends and geopolitical analysis has made him a sought-after commentator and analyst. Bianco's insights are particularly valuable for professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+        "His work has been influential in shaping investment strategies and understanding market dynamics. Through his appearances on financial podcasts like Macrovoisers, Bianco shares his perspectives on critical issues such as the Iran conflict, its impact on commodities, and the Fed's reaction to geopolitical events. His contributions to the financial community have established him as a respected voice in the field."
+      ],
+      "sections": [
+        {
+          "heading": "Global Markets",
+          "body": "Jim Bianco is well-versed in analyzing and commenting on global market trends, providing valuable insights to investors and financial professionals."
+        },
+        {
+          "heading": "Macroeconomic Trends",
+          "body": "Bianco's expertise in macroeconomic trends allows him to predict and explain the impact of global economic shifts on financial markets."
+        },
+        {
+          "heading": "Geopolitical Analysis",
+          "body": "His geopolitical analysis is crucial for understanding the implications of international conflicts and their effects on the economy and markets."
+        },
+        {
+          "heading": "Iran Conflict",
+          "body": "Bianco has provided in-depth analysis on the Iran conflict, discussing its potential outcomes and the subsequent effects on commodities such as crude oil, food, fertilizer, uranium, and gold."
+        },
+        {
+          "heading": "Fed's Reaction",
+          "body": "He has also commented on the Federal Reserve's response to geopolitical events, including the Iran conflict, and its influence on inflation and monetary policy."
+        }
+      ]
+    },
+    "net_worth": "$12.3M"
+  },
+  {
     "id": 209,
     "name": "David Sinclair",
     "slug": "david-sinclair",
@@ -21013,66 +21126,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$25.0M"
-  },
-  {
-    "id": 183,
-    "name": "Aaron Levy",
-    "slug": "aaron-levy",
-    "bio": "CEO of Box",
-    "known_for": "Leading the cloud content management company",
-    "net_worth_usd": 107852195.0,
-    "net_worth_source": "https://strike.market/key-executives/0001606525",
-    "net_worth_updated_at": "2026-04-16T22:06:31.028180",
-    "voice_tone": "Practical and solution-oriented",
-    "voice_style": "Shares insights from customer interactions and industry trends",
-    "voice_delivery_notes": "Speaks with conviction, emphasizing real-world applications",
-    "voice_profile_updated_at": "2026-04-25 10:05:40",
-    "last_seen": "2026-04-25 10:05:40",
-    "last_episode_title": "AI Inside the Enterprise",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-24",
-    "mention_score": 2,
-    "mention_score_decayed": 1.59,
-    "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
-    "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
-    "supporting_takeaway": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-16T22:06:30.002480",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Aaron Levy",
-      "fetched_at": "2026-04-17T03:06:30.002193+00:00",
-      "cliff_notes": "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential. His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community.",
-      "derived": {
-        "current_role": "CEO at Box"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential.",
-        "His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community."
-      ],
-      "sections": [
-        {
-          "heading": "Cloud Content Management",
-          "body": "Aaron Levy has been at the forefront of cloud content management, leading Box to become a major player in the industry."
-        },
-        {
-          "heading": "AI and Technology Integration",
-          "body": "Levy has shared his views on the diffusion of AI capabilities, suggesting that the integration of AI into business processes will take longer than anticipated and will require significant domain knowledge."
-        },
-        {
-          "heading": "Economic Implications of Technology",
-          "body": "Levy has discussed the economic challenges posed by new technologies, emphasizing the need for accurate estimation of the scale of opportunities and the importance of building software for agents in a world where they outnumber humans."
-        }
-      ]
-    },
-    "net_worth": "$107.9M"
   },
   {
     "id": 78,
@@ -21141,6 +21194,66 @@ const dashboardData = {
     "net_worth": "$600.0M"
   },
   {
+    "id": 183,
+    "name": "Aaron Levy",
+    "slug": "aaron-levy",
+    "bio": "CEO of Box",
+    "known_for": "Leading the cloud content management company",
+    "net_worth_usd": 107852195.0,
+    "net_worth_source": "https://strike.market/key-executives/0001606525",
+    "net_worth_updated_at": "2026-04-16T22:06:31.028180",
+    "voice_tone": "Practical and solution-oriented",
+    "voice_style": "Shares insights from customer interactions and industry trends",
+    "voice_delivery_notes": "Speaks with conviction, emphasizing real-world applications",
+    "voice_profile_updated_at": "2026-04-25 10:05:40",
+    "last_seen": "2026-04-25 10:05:40",
+    "last_episode_title": "AI Inside the Enterprise",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-24",
+    "mention_score": 2,
+    "mention_score_decayed": 1.59,
+    "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
+    "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
+    "supporting_takeaway": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-16T22:06:30.002480",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Aaron Levy",
+      "fetched_at": "2026-04-17T03:06:30.002193+00:00",
+      "cliff_notes": "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential. His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community.",
+      "derived": {
+        "current_role": "CEO at Box"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential.",
+        "His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community."
+      ],
+      "sections": [
+        {
+          "heading": "Cloud Content Management",
+          "body": "Aaron Levy has been at the forefront of cloud content management, leading Box to become a major player in the industry."
+        },
+        {
+          "heading": "AI and Technology Integration",
+          "body": "Levy has shared his views on the diffusion of AI capabilities, suggesting that the integration of AI into business processes will take longer than anticipated and will require significant domain knowledge."
+        },
+        {
+          "heading": "Economic Implications of Technology",
+          "body": "Levy has discussed the economic challenges posed by new technologies, emphasizing the need for accurate estimation of the scale of opportunities and the importance of building software for agents in a world where they outnumber humans."
+        }
+      ]
+    },
+    "net_worth": "$107.9M"
+  },
+  {
     "id": 74,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
@@ -21200,74 +21313,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.60B"
-  },
-  {
-    "id": 54,
-    "name": "Jim Bianco",
-    "slug": "jim-bianco",
-    "bio": "Jim Bianco is the founder of Bianco Research, an independent research firm specializing in global markets. He is recognized for his expertise in macroeconomic trends and geopolitical analysis, providing insights to professional finance, high-net worth individuals, and sophisticated investors.",
-    "known_for": "His in-depth analysis and predictions on global markets and macroeconomic trends.",
-    "net_worth_usd": 12300000.0,
-    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001198554/james-a-bianco",
-    "net_worth_updated_at": "2026-04-10T05:06:38.074861",
-    "voice_tone": "Questioning and speculative.",
-    "voice_style": "Analytical with a focus on the potential outcomes of geopolitical events.",
-    "voice_delivery_notes": "Deliberate, with pauses for emphasis on key geopolitical points.",
-    "voice_profile_updated_at": "2026-04-10 10:04:28",
-    "last_seen": "2026-04-10 10:04:28",
-    "last_episode_title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
-    "last_podcast_name": "MacroVoices",
-    "last_episode_date": "2026-04-09",
-    "mention_score": 2,
-    "mention_score_decayed": 1.12,
-    "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
-    "last_proof_cite": "MacroVoices \u2022 2026-04-09 \u2022 MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
-    "last_proof_snippet": "The oil market may be tighter than widely believed, with implications for food prices and inflation.",
-    "supporting_takeaway": "The oil market may be tighter than widely believed, with implications for food prices and inflation.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-10T05:06:37.059270",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Jim Bianco",
-      "fetched_at": "2026-04-10T10:06:37.059032+00:00",
-      "cliff_notes": "Jim Bianco is a prominent figure in the world of finance and macroeconomics. As the founder of Bianco Research, he has dedicated his career to providing independent research on global markets. His expertise in macroeconomic trends and geopolitical analysis has made him a sought-after commentator and analyst. Bianco's insights are particularly valuable for professional finance, high-net worth individuals, family offices, and other sophisticated investors. His work has been influential in shaping investment strategies and understanding market dynamics. Through his appearances on financial podcasts like Macrovoisers, Bianco shares his perspectives on critical issues such as the Iran conflict, its impact on commodities, and the Fed's reaction to geopolitical events. His contributions to the financial community have established him as a respected voice in the field.",
-      "derived": {
-        "current_role": "Founder of Bianco Research"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Jim Bianco is a prominent figure in the world of finance and macroeconomics. As the founder of Bianco Research, he has dedicated his career to providing independent research on global markets. His expertise in macroeconomic trends and geopolitical analysis has made him a sought-after commentator and analyst. Bianco's insights are particularly valuable for professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
-        "His work has been influential in shaping investment strategies and understanding market dynamics. Through his appearances on financial podcasts like Macrovoisers, Bianco shares his perspectives on critical issues such as the Iran conflict, its impact on commodities, and the Fed's reaction to geopolitical events. His contributions to the financial community have established him as a respected voice in the field."
-      ],
-      "sections": [
-        {
-          "heading": "Global Markets",
-          "body": "Jim Bianco is well-versed in analyzing and commenting on global market trends, providing valuable insights to investors and financial professionals."
-        },
-        {
-          "heading": "Macroeconomic Trends",
-          "body": "Bianco's expertise in macroeconomic trends allows him to predict and explain the impact of global economic shifts on financial markets."
-        },
-        {
-          "heading": "Geopolitical Analysis",
-          "body": "His geopolitical analysis is crucial for understanding the implications of international conflicts and their effects on the economy and markets."
-        },
-        {
-          "heading": "Iran Conflict",
-          "body": "Bianco has provided in-depth analysis on the Iran conflict, discussing its potential outcomes and the subsequent effects on commodities such as crude oil, food, fertilizer, uranium, and gold."
-        },
-        {
-          "heading": "Fed's Reaction",
-          "body": "He has also commented on the Federal Reserve's response to geopolitical events, including the Iran conflict, and its influence on inflation and monetary policy."
-        }
-      ]
-    },
-    "net_worth": "$12.3M"
   },
   {
     "id": 55,
@@ -21498,7 +21543,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
@@ -21563,7 +21608,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -21590,7 +21635,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-04 \u2022 Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
     "last_proof_snippet": "Today I was speaking to one of the best and most data-driven analysts around, Warren Pious of 314 research. If you have been seeing the ball clearer than him, last time I spoke to him, Warren's calling for S&P to 7,000 by 2026, which obviou",
@@ -21654,7 +21699,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-04 \u2022 Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
     "last_proof_snippet": "AI is going to be more important, not less important, and so the proliferation of a Western AI stack to be a top priority for anyone who cares about freedom. The rules around AI are changing fast. There's a lot of regulation abroad around d",
@@ -21713,7 +21758,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -21784,7 +21829,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -21847,7 +21892,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in companies with high levels of intangible capital using a combination of fundamental and sentiment analysis to identify mispriced opportunities, especially in sectors affected by global events.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show you'll hear more about hfgm currently the number one morning star rated funds its inception in the U.S. macro trading category. Let's ge",
@@ -21974,7 +22019,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-30 \u2022 Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
     "last_proof_snippet": "AI is creating new opportunities to rethink how enterprise systems work, potentially leading to a platform shift.",
@@ -22221,7 +22266,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investment in the biotech sector may need to consider the geographic shift towards China for innovation and efficiency in drug development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-29 \u2022 The Shift in Global Drug Development",
     "last_proof_snippet": "China's clinical trial system has rapidly expanded, with reforms that streamline the approval process.",
@@ -22785,7 +22830,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in technologies and platforms that leverage cryptography and blockchain to provide verifiable information and restore trust in digital content.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-22 \u2022 Balaji Srinivasan: Prove Correct, Not Just Go Direct",
     "last_proof_snippet": "The growing distrust in media is due to the increasing cost of verifying content as synthetic content floods systems.",
@@ -23291,7 +23336,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -24979,7 +25024,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-01 \u2022 What Happens When a Public Company Goes All In on AI",
     "last_proof_snippet": "AI agents have significantly increased productivity, with one or two engineers on the tools being able to achieve 10-100x more output than before.",
@@ -25478,7 +25523,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -25537,7 +25582,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
@@ -25796,7 +25841,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
     "last_proof_snippet": "The world is transitioning into a multi-polar world, which has economic and investment implications.",
@@ -25864,7 +25909,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
     "last_proof_snippet": "The world is transitioning into a multi-polar world, which has economic and investment implications.",
@@ -25923,7 +25968,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -25983,7 +26028,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -26043,7 +26088,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",
@@ -27163,7 +27208,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-19 \u2022 Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
     "last_proof_snippet": "The immediate impact of an oil shock is inflationary, but over time it could lead to a negative shock on the economy.",
@@ -27227,7 +27272,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-17 \u2022 Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
     "last_proof_snippet": "audience, and as you can see, still trying to monetize hope. Yeah, you look like you're in great shape. I'm doing great. Well, that's not like a sort of user of things going on or what. It's like it's our longevity exercise. We're getting t",
@@ -27291,7 +27336,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
@@ -27349,7 +27394,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",
@@ -27614,7 +27659,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -27641,7 +27686,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",
