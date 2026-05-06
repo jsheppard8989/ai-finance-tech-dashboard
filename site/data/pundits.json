@@ -749,6 +749,130 @@
     "pundit_profile": null
   },
   {
+    "id": 232,
+    "name": "Harris Copperman",
+    "slug": "harris-copperman",
+    "bio": "Harris Copperman is the Chief Investment Officer at Prytorian Capital, an expert in combining macroeconomic and equity research. He is known for his insights into commodities and market trends, particularly in the context of geopolitical events and their impact on the economy.",
+    "known_for": "Expertise in integrating macroeconomic and equity research with event-driven special situation catalysts.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and analytical",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Clear and concise, with emphasis on market indicators",
+    "voice_profile_updated_at": "2026-05-06 19:08:36",
+    "last_seen": "2026-05-06 19:08:36",
+    "last_episode_title": "Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-06",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
+    "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
+    "supporting_takeaway": "Refiners are performing well due to market dynamics, despite geopolitical events.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-06T14:09:01.972069",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Harris Copperman",
+      "fetched_at": "2026-05-06T19:09:01.971728+00:00",
+      "cliff_notes": "Harris Copperman is recognized as an influential figure in the investment world, particularly for his role as the Chief Investment Officer at Prytorian Capital. His career has been marked by a deep understanding of how macroeconomic trends intersect with equity research, allowing him to provide unique insights into market movements. As a primary contributor to Kevin Research, Copperman has been instrumental in identifying and tracking themes and events that many investors often overlook. His expertise in commodities and the ability to forecast market readiness based on refinery announcements and capacity additions have made him a sought-after voice in the industry. His approach to investing, which emphasizes the importance of narrative, fundamentals, and catalysts, has been influential in shaping investment strategies in today's complex market environment.",
+      "derived": {
+        "current_role": "Chief Investment Officer at Prytorian Capital"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Harris Copperman is recognized as an influential figure in the investment world, particularly for his role as the Chief Investment Officer at Prytorian Capital. His career has been marked by a deep understanding of how macroeconomic trends intersect with equity research, allowing him to provide unique insights into market movements.",
+        "As a primary contributor to Kevin Research, Copperman has been instrumental in identifying and tracking themes and events that many investors often overlook. His expertise in commodities and the ability to forecast market readiness based on refinery announcements and capacity additions have made him a sought-after voice in the industry.",
+        "His approach to investing, which emphasizes the importance of narrative, fundamentals, and catalysts, has been influential in shaping investment strategies in today's complex market environment."
+      ],
+      "sections": [
+        {
+          "heading": "Commodities and Market Trends",
+          "body": "Harris Copperman is known for his analysis of commodities and their role in signaling market readiness, especially in the context of geopolitical events."
+        },
+        {
+          "heading": "Macroeconomic and Equity Research",
+          "body": "Copperman's expertise lies in the integration of macroeconomic insights with equity research, providing a comprehensive view of market dynamics."
+        },
+        {
+          "heading": "Event-Driven Investing",
+          "body": "As a primary contributor to Kevin Research, Copperman focuses on event-driven special situation catalysts, which are key to understanding market movements."
+        },
+        {
+          "heading": "Geopolitical Impact on Economy",
+          "body": "Copperman's commentary often addresses how geopolitical tensions can create market tightness and influence economic outcomes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 233,
+    "name": "Rodrick Vanzo",
+    "slug": "rodrick-vanzo",
+    "bio": "Rodrick Vanzo is the Chief Investment Officer at Nightwatch Capital, known for his expertise in event-driven special situation catalysts. He is a primary contributor to Kevin Research and has a keen eye for commodities and market trends, particularly in the energy sector.",
+    "known_for": "His insights into commodities and market catalysts, particularly in the energy sector, and his contributions to Kevin Research.",
+    "net_worth_usd": 400000000.0,
+    "net_worth_source": "https://www.reddit.com/r/sharktank/comments/j3ma1i/kevins_net_worth_of_400m_seems_fairly_low/",
+    "net_worth_updated_at": "2026-05-06T14:09:13.133623",
+    "voice_tone": "Inquisitive and insightful",
+    "voice_style": "Explanatory and detailed",
+    "voice_delivery_notes": "Methodical, with a focus on underlying market trends",
+    "voice_profile_updated_at": "2026-05-06 19:08:36",
+    "last_seen": "2026-05-06 19:08:36",
+    "last_episode_title": "Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-06",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
+    "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
+    "supporting_takeaway": "Refiners are performing well due to market dynamics, despite geopolitical events.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-06T14:09:12.227612",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rodrick Vanzo",
+      "fetched_at": "2026-05-06T19:09:12.227506+00:00",
+      "cliff_notes": "Rodrick Vanzo is a seasoned investor with a focus on event-driven special situation catalysts. As the Chief Investment Officer at Nightwatch Capital, he has been instrumental in guiding the firm's investment strategies. Vanzo is recognized for his deep understanding of commodities and how they influence market dynamics, especially in the energy sector. His contributions to Kevin Research have provided valuable insights to investors looking to navigate complex market conditions. Vanzo's expertise in combining macroeconomic analysis with equity research has positioned him as a thought leader in the investment community.",
+      "derived": {
+        "current_role": "Chief Investment Officer at Nightwatch Capital"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rodrick Vanzo is a seasoned investor with a focus on event-driven special situation catalysts. As the Chief Investment Officer at Nightwatch Capital, he has been instrumental in guiding the firm's investment strategies. Vanzo is recognized for his deep understanding of commodities and how they influence market dynamics, especially in the energy sector.",
+        "His contributions to Kevin Research have provided valuable insights to investors looking to navigate complex market conditions. Vanzo's expertise in combining macroeconomic analysis with equity research has positioned him as a thought leader in the investment community."
+      ],
+      "sections": [
+        {
+          "heading": "Commodities and Market Catalysts",
+          "body": "Rodrick Vanzo is known for his expertise in commodities and their role as market catalysts, particularly in the energy sector. He emphasizes the importance of tracking new refinery announcements as indicators of market tightness."
+        },
+        {
+          "heading": "Event-Driven Special Situations",
+          "body": "Vanzo's investment approach focuses on event-driven special situations, where he combines macroeconomic analysis with equity research to identify opportunities that may be overlooked by the broader market."
+        },
+        {
+          "heading": "Contribution to Kevin Research",
+          "body": "As a primary contributor to Kevin Research, Vanzo shares his insights on market trends and investment strategies, helping investors understand complex market dynamics and make informed decisions."
+        }
+      ]
+    },
+    "net_worth": "$400.0M"
+  },
+  {
     "id": 230,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
@@ -4777,7 +4901,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -4836,7 +4960,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",

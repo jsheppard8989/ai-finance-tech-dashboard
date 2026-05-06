@@ -1,5 +1,23 @@
 [
   {
+    "id": 201,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
+    "episode_date": "2026-05-06",
+    "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the commodities market, particularly the refining sector. The discussion revolves around the importance of tracking refineries and the impact of geopolitical events on the market. Harris Copperman and Rodrick Vanzo, both CIOs of their respective investment firms, share their insights on combining macroeconomic research with equity analysis and event-driven catalysts. They also discuss the significance of crack spreads and utilization rates in the refining industry, and how these factors indicate market tightness. The conversation touches on the consumer sector, highlighting opportunities in niche industries like mattress sales and the potential for growth in Latin American exchanges.",
+    "key_takeaways": [
+      "Crack spreads have doubled, indicating a tightening market in refiners.",
+      "Refiners are performing well due to market dynamics, despite geopolitical events.",
+      "Utilization rates and supply-demand dynamics are critical in assessing the refining market.",
+      "The market is influenced by a combination of narrative, fundamentals, and catalysts.",
+      "Consumer spending patterns and the potential for growth in Latin American exchanges are areas of interest."
+    ],
+    "investment_thesis": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
+    "key_tickers": [
+      "N/A"
+    ]
+  },
+  {
     "id": 200,
     "podcast_name": "The a16z Show",
     "episode_title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
@@ -104,27 +122,6 @@
       "DBC",
       "USO",
       "WTVN"
-    ]
-  },
-  {
-    "id": 192,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "OpenAI Misses Targets, Codex vs Claude, Elon vs Sam Trial, Big Hyperscaler Beats, Peptide Craze",
-    "episode_date": "2026-05-01",
-    "summary": "In this episode, the hosts discuss OpenAI's performance against user and revenue targets, the significant capital expenditure plans of tech giants like Amazon, Microsoft, Google, and Meta, and the potential implications of a legal battle involving Elon Musk and OpenAI. They also touch upon the broader themes of AI and cloud computing's impact on the tech industry.",
-    "key_takeaways": [
-      "OpenAI missed their user and revenue targets for Chat and GPT, raising concerns about their financial performance.",
-      "Tech giants are planning massive capital expenditures in 2026, with Amazon leading at $200 billion, indicating a strong push towards AI and cloud computing.",
-      "The growth rates of Google Cloud (63%), Microsoft Cloud (30%), and Amazon Web Services (28%) highlight the rapid expansion in these sectors.",
-      "There is a potential conflict within OpenAI between the desire to go public and concerns about meeting public reporting standards.",
-      "The legal battle involving Elon Musk and OpenAI could have significant implications for the company's IPO and valuation."
-    ],
-    "investment_thesis": "Investment in AI and cloud computing sectors is set to surge, driven by strong growth in these areas and massive capital expenditure plans by tech giants.",
-    "key_tickers": [
-      "GOOGL",
-      "MSFT",
-      "AMZN",
-      "META"
     ]
   },
   {

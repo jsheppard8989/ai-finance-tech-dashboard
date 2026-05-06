@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-06T12:37:48.199082",
-  chartsVersion: "2026-05-06T12:37:37.236423",
+  generatedAt: "2026-05-06T14:10:42.189428",
+  chartsVersion: "2026-05-06T14:10:31.875605",
   priceSnapshot: {
   "GOOGL": {
-    "price": 397.85,
-    "change_pct": 16.44,
+    "price": 396.22,
+    "change_pct": 15.96,
     "name": "GOOGL",
-    "updated_at": "2026-05-06T12:37:37.235358"
+    "updated_at": "2026-05-06T14:10:31.875121"
   },
   "NVDA": {
-    "price": 205.85,
-    "change_pct": 2.07,
+    "price": 207.34,
+    "change_pct": 2.81,
     "name": "NVDA",
-    "updated_at": "2026-05-06T12:37:37.235376"
+    "updated_at": "2026-05-06T14:10:31.875132"
   },
   "MSFT": {
-    "price": 412.9,
-    "change_pct": -2.34,
+    "price": 413.57,
+    "change_pct": -2.18,
     "name": "MSFT",
-    "updated_at": "2026-05-06T12:37:37.235401"
+    "updated_at": "2026-05-06T14:10:31.875136"
   },
   "BTC": {
-    "price": 81469.25,
-    "change_pct": 4.09,
+    "price": 81295.14,
+    "change_pct": 3.87,
     "name": "BTC",
-    "updated_at": "2026-05-06T12:37:37.235410"
+    "updated_at": "2026-05-06T14:10:31.875140"
   },
   "WTI": {
-    "price": 3.83,
-    "change_pct": 33.45,
+    "price": 3.81,
+    "change_pct": 32.66,
     "name": "WTI",
-    "updated_at": "2026-05-06T12:37:37.235419"
+    "updated_at": "2026-05-06T14:10:31.875143"
   },
   "S&P 500": {
-    "price": 731.87,
-    "change_pct": 3.06,
+    "price": 733.58,
+    "change_pct": 3.3,
     "name": "S&P 500",
-    "updated_at": "2026-05-06T12:37:37.235427"
+    "updated_at": "2026-05-06T14:10:31.875147"
   },
   "META": {
-    "price": 612.55,
-    "change_pct": -11.04,
+    "price": 613.7,
+    "change_pct": -10.87,
     "name": "META",
-    "updated_at": "2026-05-06T12:37:37.235436"
+    "updated_at": "2026-05-06T14:10:31.875151"
   },
   "AMZN": {
-    "price": 276.46,
-    "change_pct": 10.34,
+    "price": 276.93,
+    "change_pct": 10.52,
     "name": "AMZN",
-    "updated_at": "2026-05-06T12:37:37.235444"
+    "updated_at": "2026-05-06T14:10:31.875154"
   },
   "TSLA": {
-    "price": 398.66,
-    "change_pct": -0.49,
+    "price": 400.56,
+    "change_pct": -0.01,
     "name": "TSLA",
-    "updated_at": "2026-05-06T12:37:37.235453"
+    "updated_at": "2026-05-06T14:10:31.875157"
   },
   "QQQ": {
-    "price": 693.0,
-    "change_pct": 6.8,
+    "price": 694.38,
+    "change_pct": 7.02,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-06T12:37:37.235461"
+    "updated_at": "2026-05-06T14:10:31.875160"
   },
   "BTC-USD": {
-    "price": 81469.25,
-    "change_pct": 4.09,
+    "price": 81295.14,
+    "change_pct": 3.87,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-06T12:37:37.235469"
+    "updated_at": "2026-05-06T14:10:31.875163"
   }
 },
   tickerScores: [
@@ -849,6 +849,25 @@ const dashboardData = {
       "podcast_episode_id": 200
     },
     {
+      "id": 216,
+      "title": "Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-06",
+      "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the commodities market, particularly the refining sector. The discussion revolves around the importance of tracking refineries and the impact of geopolitical events on the market. Harris Copperman and Rodrick Vanzo, both CIOs of their respective investment firms, share their insights on combining macroeconomic research with equity analysis and event-driven catalysts. They also discuss the significance of crack spreads and utilization rates in the refining industry, and how these factors indicate market tightness. The conversation touches on the consumer sector, highlighting opportunities in niche industries like mattress sales and the potential for growth in Latin American exchanges.",
+      "key_takeaway": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
+      "tickers_mentioned": [
+        "N/A"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 201
+    },
+    {
       "id": 213,
       "title": "Building Blackstone, Backing Costco, with Tony James",
       "source_type": "podcast",
@@ -970,7 +989,7 @@ const dashboardData = {
         "META"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-03",
       "archived_date": null,
@@ -4768,24 +4787,6 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 157,
-      "term": "Lunar Real Estate",
-      "description": "The strategic importance of occupying and utilizing the moon's surface for scientific, economic, and security purposes.",
-      "first_detected_date": "2026-05-06",
-      "last_mentioned_date": "2026-05-06",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors may look for opportunities in companies that can provide infrastructure and services for lunar operations.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 200,
-      "first_detected_speaker": "Jared Isaacman",
-      "last_mentioned_episode_id": 200,
-      "last_mentioned_speaker": "Jared Isaacman"
-    },
-    {
       "id": 156,
       "term": "Compounding Talent, Capital, and Culture",
       "description": "The concept of building an organization that not only generates returns but also systematically develops and retains talent, grows capital, and fosters a strong culture over time.",
@@ -7372,6 +7373,28 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 216,
+      "title": "Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-06",
+      "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the commodities market, particularly the refining sector. The discussion revolves around the importance of tracking refineries and the impact of geopolitical events on the market. Harris Copperman and Rodrick Vanzo, both CIOs of their respective investment firms, share their insights on combining macroeconomic research with equity analysis and event-driven catalysts. They also discuss the significance of crack spreads and utilization rates in the refining industry, and how these factors indicate market tightness. The conversation touches on the consumer sector, highlighting opportunities in niche industries like mattress sales and the potential for growth in Latin American exchanges.",
+      "key_takeaway": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
+      "tickers_mentioned": "[\"N/A\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 201,
+      "episode_release_date": "2026-05-06",
+      "guest_name": null,
+      "key_tickers": [
+        "N/A"
+      ]
+    },
+    {
       "id": 213,
       "title": "Building Blackstone, Backing Costco, with Tony James",
       "source_type": "podcast",
@@ -7454,31 +7477,6 @@ const dashboardData = {
       "episode_release_date": "2026-05-04",
       "guest_name": "Sarah Rogers",
       "key_tickers": []
-    },
-    {
-      "id": 208,
-      "title": "OpenAI Misses Targets, Codex vs Claude, Elon vs Sam Trial, Big Hyperscaler Beats, Peptide Craze",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-05-01",
-      "summary": "In this episode, the hosts discuss OpenAI's performance against user and revenue targets, the significant capital expenditure plans of tech giants like Amazon, Microsoft, Google, and Meta, and the potential implications of a legal battle involving Elon Musk and OpenAI. They also touch upon the broader themes of AI and cloud computing's impact on the tech industry.",
-      "key_takeaway": "Investment in AI and cloud computing sectors is set to surge, driven by strong growth in these areas and massive capital expenditure plans by tech giants.",
-      "tickers_mentioned": "[\"GOOGL\", \"MSFT\", \"AMZN\", \"META\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-03",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 192,
-      "episode_release_date": "2026-05-01",
-      "guest_name": null,
-      "key_tickers": [
-        "GOOGL",
-        "MSFT",
-        "AMZN",
-        "META"
-      ]
     },
     {
       "id": 209,
@@ -7701,32 +7699,6 @@ const dashboardData = {
       "last_mentioned_podcast": null,
       "last_mentioned_episode_title": null,
       "last_mentioned_episode_date": null
-    },
-    {
-      "id": 157,
-      "term": "Lunar Real Estate",
-      "description": "The strategic importance of occupying and utilizing the moon's surface for scientific, economic, and security purposes.",
-      "first_detected_date": "2026-05-06",
-      "last_mentioned_date": "2026-05-06",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors may look for opportunities in companies that can provide infrastructure and services for lunar operations.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 200,
-      "first_detected_speaker": "Jared Isaacman",
-      "last_mentioned_episode_id": 200,
-      "last_mentioned_speaker": "Jared Isaacman",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
-      "first_detected_episode_date": "2026-05-06",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
-      "last_mentioned_episode_date": "2026-05-06"
     },
     {
       "id": 156,
@@ -7972,6 +7944,32 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider AI CapEx as a significant growth area with potential for high returns.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.87,
+      "resonance_pct": 22,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
+    },
+    {
+      "id": 139,
+      "term": "Co-Investing",
+      "description": "A strategy where an investor participates alongside other investors, typically in a hedge fund or private equity deal, sharing in both the profits and risks.",
+      "first_detected_date": "2026-04-30",
+      "last_mentioned_date": "2026-04-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Co-investing can offer significant upside potential for investors who are able to access such deals.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -20901,12 +20899,83 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-05-06",
     "key_tickers": []
+  },
+  "216": {
+    "id": 206,
+    "insight_id": 216,
+    "podcast_episode_id": 201,
+    "overview": "The refining sector is at the crossroads of macroeconomic trends and geopolitical events, with market tightness being a key driver of profitability. The current situation is characterized by high utilization rates in certain regions, a lack of new refinery announcements, and the impact of geopolitical tensions on global supply. The debate now centers on the sustainability of these trends and the potential for long-term growth in the sector despite short-term uncertainties.",
+    "key_takeaways_detailed": [
+      "The refining sector's profitability is closely tied to crack spreads, which have doubled, indicating a significant increase in earnings potential for refiners.",
+      "Geopolitical events, such as the war in Iran, have a direct impact on the refining market, affecting both supply and demand dynamics.",
+      "Utilization rates vary significantly by region, with Texas refineries operating at high efficiency, which contributes to the perception of a tight market.",
+      "Investing in the refining sector requires a balance between capturing short-term gains from market tightness and positioning for long-term growth as new refineries are built.",
+      "The potential for buybacks and shareholder returns is high in the current market environment, as refiners are over-earning and may return capital to investors."
+    ],
+    "investment_thesis": "The investment thesis in the refining sector is based on the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties. The market is currently benefiting from high utilization rates, particularly in Texas, and a lack of new refinery announcements, which suggests that the tight market conditions may persist. Over the next five to seven years, as new refineries are built, the sector is expected to experience periods of over-earning and under-earning. However, the structural tightness in the market should provide a solid foundation for investment, with the potential for significant cash flows and shareholder returns.",
+    "ticker_analysis": {
+      "VALE": {
+        "rationale": "Valero Energy Corporation is a major player in the refining sector, benefiting from high utilization rates and the potential for increased crack spreads.",
+        "positioning": "Long-term strategic position, as Valero is well-positioned to capitalize on market tightness and may engage in buybacks, enhancing shareholder value.",
+        "risk": "Key risks include a sudden drop in crack spreads or a rapid increase in global refining capacity that could alleviate market tightness."
+      },
+      "MPC": {
+        "rationale": "Marathon Petroleum Corporation is another significant refiner that stands to benefit from the current market conditions, with potential for increased profitability and shareholder returns.",
+        "positioning": "Strategic long position, as Marathon's scale and operational efficiency make it a strong candidate for capitalizing on market trends.",
+        "risk": "Risks are similar to those of Valero, with the added consideration of potential disruptions in the logistics and transportation of refined products."
+      },
+      "PBF": {
+        "rationale": "PBF Energy Inc. is a smaller refiner that could see significant benefits from elevated crack spreads, particularly if the market tightness is temporary.",
+        "positioning": "Tactical long position, as PBF may experience a rapid reduction in net debt if crack spreads remain high, but with the understanding that smaller refiners can be more volatile.",
+        "risk": "The risk of a sudden drop in crack spreads or a faster-than-expected return to market balance could negatively impact PBF's financial position."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced approach, with a mix of long-term strategic positions in larger refiners like Valero and Marathon, and tactical positions in smaller players like PBF. The position size should reflect the investor's risk tolerance and conviction in the market tightness thesis. A hedge could be considered in the form of options or other derivatives to protect against sudden market shifts.",
+    "risk_factors": [
+      "A rapid increase in global refining capacity that could alleviate market tightness.",
+      "Geopolitical events that could disrupt the current market dynamics, such as a swift resolution to conflicts affecting supply.",
+      "Regulatory changes that impact the refining industry, such as new environmental standards or trade policies.",
+      "Technological advancements that could increase the efficiency of existing refineries, reducing the need for new capacity.",
+      "Economic downturns that could reduce demand for refined products, impacting the profitability of refiners."
+    ],
+    "contrarian_signals": [
+      "A significant number of new refinery announcements that would suggest an influx of new capacity and potentially alleviate market tightness.",
+      "A sustained decrease in crack spreads, which would indicate a shift in market conditions and reduced profitability for refiners.",
+      "Geopolitical events leading to a rapid increase in global refining capacity, such as peace agreements or new trade policies that encourage investment in the refining sector."
+    ],
+    "catalysts": [
+      "Announcements of new refinery projects or expansions, which could signal a shift in market expectations regarding capacity.",
+      "Geopolitical developments, such as peace agreements or conflicts, that could significantly impact global refining capacity and supply.",
+      "Regulatory changes or policy announcements that could affect the refining industry, either positively or negatively.",
+      "Economic indicators that suggest a change in demand for refined products, which could impact the profitability of refiners.",
+      "Quarterly earnings reports from major refiners, which could provide insights into the current state of the market and the sustainability of high crack spreads."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-06T14:09:52.988988",
+    "updated_at": "2026-05-06 19:09:52",
+    "episode_evidence": "In the podcast, Harris Copperman emphasizes the importance of tracking refineries, stating, 'It's when guys announce brand new refineries and no one's announcing refineries right now.' This indicates a lack of new capacity in the market, which could be a significant factor in market tightness. Copperman also mentions that 'people in Texans run there as at 95% utilization,' suggesting high operational efficiency in Texas, which contrasts with other regions like Mexico and India, where utilization rates are lower. Rodrick Vanzo adds to this by discussing the impact of geopolitical events, such as the war in Iran, on the market, noting that 'the world obviously needs more refiners.' He also highlights the importance of crack spreads, which have 'basically doubled,' indicating improved profitability for refiners. These insights provide a deeper understanding of the refining sector's dynamics and the factors contributing to market tightness.",
+    "falsification_tracks": [
+      "A significant increase in the announcement of new refineries that would suggest an influx of new capacity and potentially alleviate market tightness.",
+      "A sustained decrease in crack spreads over several quarters, which would indicate a shift in market conditions and reduced profitability for refiners.",
+      "Geopolitical events leading to a rapid increase in global refining capacity, such as peace agreements or new trade policies that encourage investment in the refining sector.",
+      "A substantial drop in utilization rates in regions like Texas, which would counter the current narrative of high operational efficiency contributing to market tightness.",
+      "Unexpected technological advancements that significantly increase the efficiency of existing refineries, potentially reducing the need for new capacity additions."
+    ],
+    "insight_title": "Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-05-06",
+    "key_tickers": [
+      "N/A"
+    ]
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 3236,
+    "id": 3279,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -20918,7 +20987,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3237,
+    "id": 3280,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -20930,7 +20999,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3238,
+    "id": 3281,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -20942,7 +21011,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3239,
+    "id": 3282,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -20954,7 +21023,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3240,
+    "id": 3283,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -20966,7 +21035,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3241,
+    "id": 3284,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -20978,7 +21047,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3242,
+    "id": 3285,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -20990,7 +21059,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3243,
+    "id": 3286,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -21002,7 +21071,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3244,
+    "id": 3287,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -21014,7 +21083,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3245,
+    "id": 3288,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -21026,7 +21095,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3246,
+    "id": 3289,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -21038,7 +21107,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3247,
+    "id": 3290,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -21050,7 +21119,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3248,
+    "id": 3291,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -21062,7 +21131,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3249,
+    "id": 3292,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -21074,7 +21143,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3250,
+    "id": 3293,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -21086,7 +21155,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3251,
+    "id": 3294,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -21098,7 +21167,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3252,
+    "id": 3295,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -21110,7 +21179,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3253,
+    "id": 3296,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -21122,7 +21191,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3254,
+    "id": 3297,
     "name": "Building Agents at Home",
     "slug": "building-agents-at-home",
     "bio": null,
@@ -21134,7 +21203,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3255,
+    "id": 3298,
     "name": "\"The Best Time to Invest\"",
     "slug": "the-best-time-to-invest",
     "bio": null,
@@ -21895,6 +21964,130 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 232,
+    "name": "Harris Copperman",
+    "slug": "harris-copperman",
+    "bio": "Harris Copperman is the Chief Investment Officer at Prytorian Capital, an expert in combining macroeconomic and equity research. He is known for his insights into commodities and market trends, particularly in the context of geopolitical events and their impact on the economy.",
+    "known_for": "Expertise in integrating macroeconomic and equity research with event-driven special situation catalysts.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and analytical",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Clear and concise, with emphasis on market indicators",
+    "voice_profile_updated_at": "2026-05-06 19:08:36",
+    "last_seen": "2026-05-06 19:08:36",
+    "last_episode_title": "Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-06",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
+    "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
+    "supporting_takeaway": "Refiners are performing well due to market dynamics, despite geopolitical events.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-06T14:09:01.972069",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Harris Copperman",
+      "fetched_at": "2026-05-06T19:09:01.971728+00:00",
+      "cliff_notes": "Harris Copperman is recognized as an influential figure in the investment world, particularly for his role as the Chief Investment Officer at Prytorian Capital. His career has been marked by a deep understanding of how macroeconomic trends intersect with equity research, allowing him to provide unique insights into market movements. As a primary contributor to Kevin Research, Copperman has been instrumental in identifying and tracking themes and events that many investors often overlook. His expertise in commodities and the ability to forecast market readiness based on refinery announcements and capacity additions have made him a sought-after voice in the industry. His approach to investing, which emphasizes the importance of narrative, fundamentals, and catalysts, has been influential in shaping investment strategies in today's complex market environment.",
+      "derived": {
+        "current_role": "Chief Investment Officer at Prytorian Capital"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Harris Copperman is recognized as an influential figure in the investment world, particularly for his role as the Chief Investment Officer at Prytorian Capital. His career has been marked by a deep understanding of how macroeconomic trends intersect with equity research, allowing him to provide unique insights into market movements.",
+        "As a primary contributor to Kevin Research, Copperman has been instrumental in identifying and tracking themes and events that many investors often overlook. His expertise in commodities and the ability to forecast market readiness based on refinery announcements and capacity additions have made him a sought-after voice in the industry.",
+        "His approach to investing, which emphasizes the importance of narrative, fundamentals, and catalysts, has been influential in shaping investment strategies in today's complex market environment."
+      ],
+      "sections": [
+        {
+          "heading": "Commodities and Market Trends",
+          "body": "Harris Copperman is known for his analysis of commodities and their role in signaling market readiness, especially in the context of geopolitical events."
+        },
+        {
+          "heading": "Macroeconomic and Equity Research",
+          "body": "Copperman's expertise lies in the integration of macroeconomic insights with equity research, providing a comprehensive view of market dynamics."
+        },
+        {
+          "heading": "Event-Driven Investing",
+          "body": "As a primary contributor to Kevin Research, Copperman focuses on event-driven special situation catalysts, which are key to understanding market movements."
+        },
+        {
+          "heading": "Geopolitical Impact on Economy",
+          "body": "Copperman's commentary often addresses how geopolitical tensions can create market tightness and influence economic outcomes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 233,
+    "name": "Rodrick Vanzo",
+    "slug": "rodrick-vanzo",
+    "bio": "Rodrick Vanzo is the Chief Investment Officer at Nightwatch Capital, known for his expertise in event-driven special situation catalysts. He is a primary contributor to Kevin Research and has a keen eye for commodities and market trends, particularly in the energy sector.",
+    "known_for": "His insights into commodities and market catalysts, particularly in the energy sector, and his contributions to Kevin Research.",
+    "net_worth_usd": 400000000.0,
+    "net_worth_source": "https://www.reddit.com/r/sharktank/comments/j3ma1i/kevins_net_worth_of_400m_seems_fairly_low/",
+    "net_worth_updated_at": "2026-05-06T14:09:13.133623",
+    "voice_tone": "Inquisitive and insightful",
+    "voice_style": "Explanatory and detailed",
+    "voice_delivery_notes": "Methodical, with a focus on underlying market trends",
+    "voice_profile_updated_at": "2026-05-06 19:08:36",
+    "last_seen": "2026-05-06 19:08:36",
+    "last_episode_title": "Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-06",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
+    "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
+    "supporting_takeaway": "Refiners are performing well due to market dynamics, despite geopolitical events.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-06T14:09:12.227612",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rodrick Vanzo",
+      "fetched_at": "2026-05-06T19:09:12.227506+00:00",
+      "cliff_notes": "Rodrick Vanzo is a seasoned investor with a focus on event-driven special situation catalysts. As the Chief Investment Officer at Nightwatch Capital, he has been instrumental in guiding the firm's investment strategies. Vanzo is recognized for his deep understanding of commodities and how they influence market dynamics, especially in the energy sector. His contributions to Kevin Research have provided valuable insights to investors looking to navigate complex market conditions. Vanzo's expertise in combining macroeconomic analysis with equity research has positioned him as a thought leader in the investment community.",
+      "derived": {
+        "current_role": "Chief Investment Officer at Nightwatch Capital"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rodrick Vanzo is a seasoned investor with a focus on event-driven special situation catalysts. As the Chief Investment Officer at Nightwatch Capital, he has been instrumental in guiding the firm's investment strategies. Vanzo is recognized for his deep understanding of commodities and how they influence market dynamics, especially in the energy sector.",
+        "His contributions to Kevin Research have provided valuable insights to investors looking to navigate complex market conditions. Vanzo's expertise in combining macroeconomic analysis with equity research has positioned him as a thought leader in the investment community."
+      ],
+      "sections": [
+        {
+          "heading": "Commodities and Market Catalysts",
+          "body": "Rodrick Vanzo is known for his expertise in commodities and their role as market catalysts, particularly in the energy sector. He emphasizes the importance of tracking new refinery announcements as indicators of market tightness."
+        },
+        {
+          "heading": "Event-Driven Special Situations",
+          "body": "Vanzo's investment approach focuses on event-driven special situations, where he combines macroeconomic analysis with equity research to identify opportunities that may be overlooked by the broader market."
+        },
+        {
+          "heading": "Contribution to Kevin Research",
+          "body": "As a primary contributor to Kevin Research, Vanzo shares his insights on market trends and investment strategies, helping investors understand complex market dynamics and make informed decisions."
+        }
+      ]
+    },
+    "net_worth": "$400.0M"
   },
   {
     "id": 230,
@@ -25925,7 +26118,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -25984,7 +26177,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
