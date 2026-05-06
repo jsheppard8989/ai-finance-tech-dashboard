@@ -113,7 +113,7 @@
           <li><strong>Needs insight</strong>: run the insight promotion step so each analyzed episode gets a Latest Insight card.</li>
           <li><strong>Needs export</strong>: run website export + push so new insights are on the live site.</li>
           <li><strong>Complete</strong>: nothing to do; episode is fully on site.</li>
-          <li><strong>Red ✗ detail</strong>: click a mark for <code>action_id</code>, numbered steps, and example shell commands (mirrors JSON <code>remediation_by_stage</code>).</li>
+          <li><strong>Red ✗ detail</strong>: click a mark for <code>action_id</code> and numbered steps (mirrors JSON <code>remediation_by_stage</code>).</li>
         </ul>
       </div>
 
@@ -340,12 +340,6 @@
         rem.steps.forEach(function(step, i) {
           t += (i + 1) + '. ' + step + '\n';
         });
-        if (rem.commands && rem.commands.length) {
-          t += '\nExample commands:\n';
-          rem.commands.forEach(function(c) {
-            t += '  ' + c + '\n';
-          });
-        }
         return t;
       }
 
