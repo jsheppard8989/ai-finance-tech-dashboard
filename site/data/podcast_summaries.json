@@ -1,5 +1,38 @@
 [
   {
+    "id": 199,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Building Blackstone, Backing Costco, with Tony James",
+    "episode_date": "2026-05-05",
+    "summary": "In this episode of the a16z Show, General Partner David Haber interviews Tony James, who has played a pivotal role in the evolution of modern private markets. They discuss the journey of building a successful investment organization, the importance of focusing on compounding talent, capital, and culture over time, and the principles behind enduring success. James shares insights from his career at DLJ and Blackstone, emphasizing the value of unstructured opportunities, learning from changes in the business, and the significance of investment committees in shaping a firm's culture.",
+    "key_takeaways": [
+      "The importance of starting small and entrepreneurial to create value and size in an investment organization.",
+      "The significance of focusing on compounding talent, capital, and culture over time for enduring success.",
+      "Learning from changes in the business and adapting to new opportunities is crucial for growth.",
+      "Investment committees play a crucial role in shaping a firm's culture and decision-making processes.",
+      "The value of unstructured opportunities and the ability to figure out how to do things one's way."
+    ],
+    "investment_thesis": "Building a successful investment organization requires compounding talent, capital, and culture over time, focusing on long-term growth rather than short-term gains.",
+    "key_tickers": null
+  },
+  {
+    "id": 198,
+    "podcast_name": "The Jack Mallers Show",
+    "episode_title": "Hold Onto Your Butts (And Your Bitcoin)",
+    "episode_date": "2026-05-05",
+    "summary": "In this episode of The Jack Mallers Show, Jack discusses the current state of Bitcoin and the broader financial market, highlighting Bitcoin's price at 80,340 USD and its market cap above 1.6 trillion USD. He emphasizes the mispricing of volatility in the market and suggests that Bitcoin often leads in indicating future market movements due to its free market nature. Jack also touches on global supply chain disruptions, the ongoing conflict in Iran, and the sustainability of global debt amidst these challenges. He concludes by encouraging listeners to hold on to their Bitcoin and prepare for increased volatility.",
+    "key_takeaways": [
+      "Bitcoin's price is at 80,340 USD, with a market cap above 1.6 trillion USD.",
+      "Bitcoin is 36.3% down from its all-time high of 126,160 USD.",
+      "Jack believes that market volatility is currently mispriced and that Bitcoin could be signaling future market movements.",
+      "Global supply chains are still disrupted, and the conflict in Iran continues.",
+      "Jack questions the sustainability of global debt under current disruptions.",
+      "He advises listeners to hold on to their Bitcoin and prepare for potential market volatility."
+    ],
+    "investment_thesis": "Hold on to your Bitcoin as a hedge against the mispriced market volatility and potential future disruptions.",
+    "key_tickers": null
+  },
+  {
     "id": 196,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
@@ -111,43 +144,6 @@
     "investment_thesis": "Invest in companies with high levels of intangible capital using a combination of fundamental and sentiment analysis to identify mispriced opportunities, especially in sectors affected by global events.",
     "key_tickers": [
       "HFGM"
-    ]
-  },
-  {
-    "id": 190,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "Google Invests $40B Into Anthropic, GPT 5.5 Drops, and Google Cloud Dominates | EP #252",
-    "episode_date": "2026-04-30",
-    "summary": "This episode of Moonshots with Peter Diamandis discusses the rapid pace of AI development, focusing on recent major AI model releases and the implications for investment. The conversation covers Google's investment in Anthropic, the bottleneck in AI development due to TSMC, and the dominance of Google Cloud with its eighth generation of TPUs. The hosts also touch on the unveiling of OpenAI's TPU 5.5 and its potential impact on the AI landscape. The episode emphasizes the importance of keeping up with the exponential pace of AI advancements and the potential for significant economic shifts.",
-    "key_takeaways": [
-      "Google has committed a $40 billion investment in Anthropic, indicating a strong belief in the future of AI.",
-      "The AI development is currently bottlenecked at TSMC, highlighting the importance of semiconductor manufacturing in the AI race.",
-      "Google Cloud's unveiling of their eighth generation of TPUs, particularly TPUv4 for training and TPUv3 for inference, suggests a competitive edge in AI cloud services.",
-      "OpenAI's unveiling of TPU 5.5 is seen as a move to strengthen their position, potentially affecting the AI codex.",
-      "The pace of AI development is so rapid that benchmarks are improving by 1% per month, indicating a fast-moving investment landscape.",
-      "The discussion suggests that keeping up with AI advancements is crucial for investors, with the potential for significant economic value."
-    ],
-    "investment_thesis": "Investing in AI and cloud computing sectors is crucial due to the rapid technological advancements and the economic potential they hold.",
-    "key_tickers": [
-      "GOOGL"
-    ]
-  },
-  {
-    "id": 189,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "SpaceX IPO: Why This Hedge Fund Manager is Fading the Hype | Moez Kassam",
-    "episode_date": "2026-04-30",
-    "summary": "In this episode of Monetary Matters, Jack Farley and Max Weathy interview Moes Cassam, CIO of Anson Funds, to discuss the current investment landscape. Moes shares his insights on the opportunities arising from market chaos, particularly focusing on the potential of SpaceX's IPO and the cannabis industry following recent de-scheduling. The conversation also touches on the AI and semiconductor sectors, the wine market, and private credit. Moes emphasizes the importance of understanding market mechanics and capital movements to identify investment opportunities.",
-    "key_takeaways": [
-      "Market chaos presents opportunities for investors who can pivot and find clarity.",
-      "SpaceX's IPO could be one of the largest in history, with potential for significant capital movement.",
-      "The cannabis industry may benefit from de-scheduling, unlocking new opportunities for multi-state operators.",
-      "AI and semiconductor sectors are currently hot, but investors must evaluate whether current valuations are justified.",
-      "Private credit is an area to watch, as negative sentiment may present buying opportunities."
-    ],
-    "investment_thesis": "Investors should look for opportunities in chaos, focusing on sectors with significant potential for growth and capital movement, such as SpaceX's IPO and the de-scheduling of cannabis.",
-    "key_tickers": [
-      "SPACEX"
     ]
   }
 ]

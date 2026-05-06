@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-05T22:02:52.793681",
-  chartsVersion: "2026-05-05T22:02:40.439161",
+  generatedAt: "2026-05-05T23:48:13.637681",
+  chartsVersion: "2026-05-05T23:48:02.107687",
   priceSnapshot: {
   "GOOGL": {
     "price": 388.43,
     "change_pct": 15.6,
     "name": "GOOGL",
-    "updated_at": "2026-05-05T22:02:40.438138"
+    "updated_at": "2026-05-05T23:48:02.107196"
   },
   "NVDA": {
     "price": 196.5,
     "change_pct": -0.93,
     "name": "NVDA",
-    "updated_at": "2026-05-05T22:02:40.438158"
+    "updated_at": "2026-05-05T23:48:02.107207"
   },
   "MSFT": {
     "price": 411.38,
     "change_pct": -2.11,
     "name": "MSFT",
-    "updated_at": "2026-05-05T22:02:40.438167"
+    "updated_at": "2026-05-05T23:48:02.107211"
   },
   "BTC": {
-    "price": 81384.1,
-    "change_pct": 3.98,
+    "price": 81434.27,
+    "change_pct": 4.04,
     "name": "BTC",
-    "updated_at": "2026-05-05T22:02:40.438174"
+    "updated_at": "2026-05-05T23:48:02.107214"
   },
   "WTI": {
     "price": 4.21,
     "change_pct": 37.58,
     "name": "WTI",
-    "updated_at": "2026-05-05T22:02:40.438182"
+    "updated_at": "2026-05-05T23:48:02.107218"
   },
   "S&P 500": {
     "price": 723.77,
     "change_pct": 3.15,
     "name": "S&P 500",
-    "updated_at": "2026-05-05T22:02:40.438189"
+    "updated_at": "2026-05-05T23:48:02.107221"
   },
   "META": {
     "price": 604.96,
     "change_pct": -10.62,
     "name": "META",
-    "updated_at": "2026-05-05T22:02:40.438197"
+    "updated_at": "2026-05-05T23:48:02.107225"
   },
   "AMZN": {
     "price": 273.55,
     "change_pct": 9.55,
     "name": "AMZN",
-    "updated_at": "2026-05-05T22:02:40.438204"
+    "updated_at": "2026-05-05T23:48:02.107228"
   },
   "TSLA": {
     "price": 389.37,
     "change_pct": 0.12,
     "name": "TSLA",
-    "updated_at": "2026-05-05T22:02:40.438211"
+    "updated_at": "2026-05-05T23:48:02.107231"
   },
   "QQQ": {
     "price": 681.61,
     "change_pct": 6.42,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-05T22:02:40.438219"
+    "updated_at": "2026-05-05T23:48:02.107234"
   },
   "BTC-USD": {
-    "price": 81384.1,
-    "change_pct": 3.98,
+    "price": 81434.27,
+    "change_pct": 4.04,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-05T22:02:40.438226"
+    "updated_at": "2026-05-05T23:48:02.107237"
   }
 },
   tickerScores: [
@@ -828,6 +828,46 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 213,
+      "title": "Building Blackstone, Backing Costco, with Tony James",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-05",
+      "summary": "In this episode of the a16z Show, General Partner David Haber interviews Tony James, who has played a pivotal role in the evolution of modern private markets. They discuss the journey of building a successful investment organization, the importance of focusing on compounding talent, capital, and culture over time, and the principles behind enduring success. James shares insights from his career at DLJ and Blackstone, emphasizing the value of unstructured opportunities, learning from changes in the business, and the significance of investment committees in shaping a firm's culture.",
+      "key_takeaway": "Building a successful investment organization requires compounding talent, capital, and culture over time, focusing on long-term growth rather than short-term gains.",
+      "tickers_mentioned": [
+        "BX",
+        "KKR",
+        "APO"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 199
+    },
+    {
+      "id": 214,
+      "title": "Hold Onto Your Butts (And Your Bitcoin)",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-05-05",
+      "summary": "In this episode of The Jack Mallers Show, Jack discusses the current state of Bitcoin and the broader financial market, highlighting Bitcoin's price at 80,340 USD and its market cap above 1.6 trillion USD. He emphasizes the mispricing of volatility in the market and suggests that Bitcoin often leads in indicating future market movements due to its free market nature. Jack also touches on global supply chain disruptions, the ongoing conflict in Iran, and the sustainability of global debt amidst these challenges. He concludes by encouraging listeners to hold on to their Bitcoin and prepare for increased volatility.",
+      "key_takeaway": "Hold on to your Bitcoin as a hedge against the mispriced market volatility and potential future disruptions.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 198
+    },
+    {
       "id": 210,
       "title": "Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
       "source_type": "podcast",
@@ -987,7 +1027,7 @@ const dashboardData = {
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-01",
       "archived_date": null,
@@ -1006,7 +1046,7 @@ const dashboardData = {
         "SPACEX"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-01",
       "archived_date": null,
@@ -4707,6 +4747,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 156,
+      "term": "Compounding Talent, Capital, and Culture",
+      "description": "The concept of building an organization that not only generates returns but also systematically develops and retains talent, grows capital, and fosters a strong culture over time.",
+      "first_detected_date": "2026-05-05",
+      "last_mentioned_date": "2026-05-05",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should look for firms that demonstrate the ability to compound these elements for sustainable growth.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 199,
+      "first_detected_speaker": "Tony James",
+      "last_mentioned_episode_id": 199,
+      "last_mentioned_speaker": "Tony James"
+    },
+    {
       "id": 153,
       "term": "Western AI Stack",
       "description": "A concept referring to AI technologies that align with Western values, such as individual consent and rule-based operations.",
@@ -7255,6 +7313,46 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 213,
+      "title": "Building Blackstone, Backing Costco, with Tony James",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-05",
+      "summary": "In this episode of the a16z Show, General Partner David Haber interviews Tony James, who has played a pivotal role in the evolution of modern private markets. They discuss the journey of building a successful investment organization, the importance of focusing on compounding talent, capital, and culture over time, and the principles behind enduring success. James shares insights from his career at DLJ and Blackstone, emphasizing the value of unstructured opportunities, learning from changes in the business, and the significance of investment committees in shaping a firm's culture.",
+      "key_takeaway": "Building a successful investment organization requires compounding talent, capital, and culture over time, focusing on long-term growth rather than short-term gains.",
+      "tickers_mentioned": "[\"BX\", \"KKR\", \"APO\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 199,
+      "episode_release_date": "2026-05-05",
+      "guest_name": "Tony James",
+      "key_tickers": []
+    },
+    {
+      "id": 214,
+      "title": "Hold Onto Your Butts (And Your Bitcoin)",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-05-05",
+      "summary": "In this episode of The Jack Mallers Show, Jack discusses the current state of Bitcoin and the broader financial market, highlighting Bitcoin's price at 80,340 USD and its market cap above 1.6 trillion USD. He emphasizes the mispricing of volatility in the market and suggests that Bitcoin often leads in indicating future market movements due to its free market nature. Jack also touches on global supply chain disruptions, the ongoing conflict in Iran, and the sustainability of global debt amidst these challenges. He concludes by encouraging listeners to hold on to their Bitcoin and prepare for increased volatility.",
+      "key_takeaway": "Hold on to your Bitcoin as a hedge against the mispriced market volatility and potential future disruptions.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 198,
+      "episode_release_date": "2026-05-05",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 210,
       "title": "Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
       "source_type": "podcast",
@@ -7387,50 +7485,6 @@ const dashboardData = {
         "DBC",
         "USO",
         "WTVN"
-      ]
-    },
-    {
-      "id": 204,
-      "title": "Google Invests $40B Into Anthropic, GPT 5.5 Drops, and Google Cloud Dominates | EP #252",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-04-30",
-      "summary": "This episode of Moonshots with Peter Diamandis discusses the rapid pace of AI development, focusing on recent major AI model releases and the implications for investment. The conversation covers Google's investment in Anthropic, the bottleneck in AI development due to TSMC, and the dominance of Google Cloud with its eighth generation of TPUs. The hosts also touch on the unveiling of OpenAI's TPU 5.5 and its potential impact on the AI landscape. The episode emphasizes the importance of keeping up with the exponential pace of AI advancements and the potential for significant economic shifts.",
-      "key_takeaway": "Investing in AI and cloud computing sectors is crucial due to the rapid technological advancements and the economic potential they hold.",
-      "tickers_mentioned": "[\"GOOGL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-01",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 190,
-      "episode_release_date": "2026-04-30",
-      "guest_name": null,
-      "key_tickers": [
-        "GOOGL"
-      ]
-    },
-    {
-      "id": 205,
-      "title": "SpaceX IPO: Why This Hedge Fund Manager is Fading the Hype | Moez Kassam",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-04-30",
-      "summary": "In this episode of Monetary Matters, Jack Farley and Max Weathy interview Moes Cassam, CIO of Anson Funds, to discuss the current investment landscape. Moes shares his insights on the opportunities arising from market chaos, particularly focusing on the potential of SpaceX's IPO and the cannabis industry following recent de-scheduling. The conversation also touches on the AI and semiconductor sectors, the wine market, and private credit. Moes emphasizes the importance of understanding market mechanics and capital movements to identify investment opportunities.",
-      "key_takeaway": "Investors should look for opportunities in chaos, focusing on sectors with significant potential for growth and capital movement, such as SpaceX's IPO and the de-scheduling of cannabis.",
-      "tickers_mentioned": "[\"SPACEX\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-01",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 189,
-      "episode_release_date": "2026-04-30",
-      "guest_name": "SpaceX IPO",
-      "key_tickers": [
-        "SPACEX"
       ]
     }
   ],
@@ -7608,6 +7662,32 @@ const dashboardData = {
       "last_mentioned_podcast": null,
       "last_mentioned_episode_title": null,
       "last_mentioned_episode_date": null
+    },
+    {
+      "id": 156,
+      "term": "Compounding Talent, Capital, and Culture",
+      "description": "The concept of building an organization that not only generates returns but also systematically develops and retains talent, grows capital, and fosters a strong culture over time.",
+      "first_detected_date": "2026-05-05",
+      "last_mentioned_date": "2026-05-05",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should look for firms that demonstrate the ability to compound these elements for sustainable growth.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 199,
+      "first_detected_speaker": "Tony James",
+      "last_mentioned_episode_id": 199,
+      "last_mentioned_speaker": "Tony James",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Building Blackstone, Backing Costco, with Tony James",
+      "first_detected_episode_date": "2026-05-05",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Building Blackstone, Backing Costco, with Tony James",
+      "last_mentioned_episode_date": "2026-05-05"
     },
     {
       "id": 153,
@@ -7853,32 +7933,6 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Co-investing can offer significant upside potential for investors who are able to access such deals.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.89,
-      "resonance_pct": 22,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 140,
-      "term": "Invertible Neural Networks",
-      "description": "Neural networks that can be run both forwards and backwards, allowing for memory savings during training by rematerializing activations.",
-      "first_detected_date": "2026-04-30",
-      "last_mentioned_date": "2026-04-30",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investing in technology that enables invertible neural networks can lead to more efficient AI training and reduced costs.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -20622,12 +20676,143 @@ const dashboardData = {
       "USO",
       "WTVN"
     ]
+  },
+  "213": {
+    "id": 203,
+    "insight_id": 213,
+    "podcast_episode_id": 199,
+    "overview": "The debate around building a successful investment organization often centers on the balance between short-term gains and long-term growth. Tony James' insights from his tenure at DLJ and Blackstone provide a framework for understanding how to create enduring success in the investment world. His emphasis on compounding talent, capital, and culture is particularly relevant in today's dynamic financial landscape, where the ability to adapt and capitalize on unstructured opportunities is crucial. The conversation with David Haber from a16z delves into the decisions, inflection points, and principles that have shaped James' career and the evolution of modern private markets.",
+    "key_takeaways_detailed": [
+      "The importance of identifying and capitalizing on unstructured opportunities, as exemplified by James' reaction to KKR's LBO of Who Die Industries in 1980.",
+      "The strategic advantage of being an early entrant in a new sector, such as private equity, which allowed DLJ to grow rapidly.",
+      "The value of a strong corporate culture in retaining talent and driving business growth, as seen in DLJ's reputation for a positive work environment.",
+      "The significance of investment committees in shaping a firm's culture and decision-making processes.",
+      "The power of compounding effects in talent, capital, and culture over time, which has been a key driver of Blackstone's growth to a trillion-dollar asset manager."
+    ],
+    "investment_thesis": "The core logic of this investment thesis is that successful investment organizations are built on a foundation of compounding talent, capital, and culture, which leads to enduring success over the long term. The timeframe for this thesis is multi-decade, as it takes time to build and nurture these elements. What has to go right includes maintaining a culture that attracts and retains top talent, continuously compounding capital through successful investments, and adapting to changes in the business environment to capitalize on new opportunities.",
+    "ticker_analysis": {
+      "BX": {
+        "rationale": "Blackstone (BX) is directly relevant as it is the trillion-dollar asset manager that Tony James helped transform and is a testament to the principles discussed.",
+        "positioning": "Strategic long position, as the company's focus on compounding talent, capital, and culture is expected to continue driving growth.",
+        "risk": "Key risks include changes in market conditions that could affect the value of assets under management and the firm's ability to raise new funds."
+      },
+      "KKR": {
+        "rationale": "KKR & Co. Inc. (KKR) is a leading private equity firm that has been instrumental in shaping the industry and represents a competitor in the space.",
+        "positioning": "Tactical long position, as the firm's performance can provide insights into the health of the private equity market.",
+        "risk": "Regulatory changes that could impact the private equity industry and the firm's ability to execute on new deals."
+      },
+      "APO": {
+        "rationale": "Apollo Global Management (APO) is another significant player in the private equity space, providing a comparative analysis to Blackstone.",
+        "positioning": "Strategic long position, as the firm's growth and performance are indicative of the broader trends in the industry.",
+        "risk": "Market volatility and economic downturns that could affect the value of the firm's investments."
+      }
+    },
+    "positioning_guidance": "Investors should consider a long-term strategic position in companies like Blackstone (BX) and Apollo Global Management (APO), given their focus on compounding talent, capital, and culture. A tactical long position in KKR could also be considered for investors looking to gain exposure to the private equity market. The time horizon for these positions should be multi-year, aligning with the long-term growth thesis.",
+    "risk_factors": [
+      "Economic downturns that could affect the value of assets under management.",
+      "Regulatory changes that could impact the private equity and investment management industry.",
+      "Failure to attract and retain top talent, which could hinder the firm's ability to generate high returns.",
+      "Competitive pressures that could erode market share and profitability."
+    ],
+    "contrarian_signals": [
+      "A shift in investor sentiment away from private equity and towards more traditional asset classes.",
+      "A significant increase in market volatility that could disrupt the private equity business model.",
+      "A downturn in the M&A market that could affect the ability of investment firms to exit investments at favorable valuations."
+    ],
+    "catalysts": [
+      "Successful fundraising efforts that exceed market expectations, indicating strong investor confidence.",
+      "Completion of high-profile deals or exits that demonstrate the firm's ability to generate returns.",
+      "Positive economic indicators that suggest a favorable environment for private equity investments.",
+      "Announcements of new business lines or strategic partnerships that could drive growth."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-05T23:47:04.545968",
+    "updated_at": "2026-05-06 04:47:04",
+    "episode_evidence": "Tony James' journey in building a successful investment organization is marked by a focus on compounding talent, capital, and culture over time. He emphasizes the importance of unstructured opportunities and learning from changes in the business. For instance, James highlights the pivotal moment in 1980 when KKR did an LBO for Who Die Industries, which opened his eyes to the potential of private equity: 'The first big public company that was taken private. And I thought, wow, you can buy these huge companies with almost all debt.' This insight led to DLJ's growth from a small firm to the fifth largest securities firm, with a 15% growth rate for 25 consecutive years. James also underscores the significance of investment committees in shaping a firm's culture, attributing DLJ's success to its culture where 'people just loved working there.' His approach to talent is evident in his strategy of giving young talent responsibilities and opportunities to grow, as he did with Ben at Goodman, which he believes served him well throughout his career.",
+    "falsification_tracks": [
+      "A significant downturn in the private equity market that leads to a sustained decrease in the value of Blackstone's assets under management.",
+      "A pattern of high-profile failures in talent development within Blackstone that leads to a brain drain and loss of competitive edge.",
+      "A consistent failure to raise new funds at expected valuations, indicating a loss of investor confidence in the firm's ability to compound capital.",
+      "Public reports of a deteriorating corporate culture within Blackstone that leads to high-profile departures and reduced ability to attract top talent."
+    ],
+    "insight_title": "Building Blackstone, Backing Costco, with Tony James",
+    "source_name": "The a16z Show",
+    "source_date": "2026-05-05",
+    "key_tickers": []
+  },
+  "214": {
+    "id": 204,
+    "insight_id": 214,
+    "podcast_episode_id": 198,
+    "overview": "The debate centers on the mispricing of market volatility and the potential for Bitcoin to act as a leading indicator of future economic movements. The current geopolitical tensions, particularly in Iran, and the resulting supply chain disruptions are seen as significant factors that could lead to increased market volatility. The importance of Bitcoin in this context lies in its ability to provide a hedge against such volatility, given its free market nature and its position as a store of value in times of economic uncertainty.",
+    "key_takeaways_detailed": [
+      "Bitcoin's current price and market cap indicate a strong market position, which could be a precursor to future market movements.",
+      "The ongoing conflict in Iran and global supply chain disruptions are not fully reflected in current market valuations, suggesting potential for increased volatility.",
+      "Bitcoin's role as a leading indicator of market movements is reinforced by its free market nature, making it a potential hedge against mispriced volatility.",
+      "Investors should consider the implications of energy market disruptions on inflation and the broader economy, as everything is a derivative of energy."
+    ],
+    "investment_thesis": "The core logic is that Bitcoin, being a free market asset, will lead in indicating future market movements due to its ability to reflect true market sentiment. The timeframe is immediate to short-term, as market volatility is expected to increase. For the thesis to hold, Bitcoin must continue to demonstrate its role as a leading indicator and a hedge against mispriced volatility.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a key player in the technology sector, which is closely tied to the global supply chain. Its performance can be indicative of the health of the tech industry and its ability to navigate supply chain disruptions.",
+        "positioning": "Positioning should be strategic, considering Apple's resilience and innovation capabilities. A long position could be justified if one believes in the company's ability to adapt to supply chain challenges.",
+        "risk": "Key risks include prolonged supply chain disruptions affecting Apple's production and delivery of products, and potential economic downturns affecting consumer spending on tech products."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio with a strategic allocation to Bitcoin as a hedge against volatility. The time horizon should be short to medium-term, given the potential for increased market volatility in the near future. Investors should also be prepared to adjust their positions based on developments in geopolitical tensions and supply chain disruptions.",
+    "risk_factors": [
+      "Prolonged geopolitical conflicts leading to further supply chain disruptions.",
+      "Unexpected shifts in global debt levels that could impact market stability.",
+      "Regulatory changes affecting the cryptocurrency market, particularly Bitcoin.",
+      "Technological advancements or disruptions that could alter the energy market and, by extension, the global economy."
+    ],
+    "contrarian_signals": [
+      "A significant drop in Bitcoin's price, which could indicate a loss of confidence in its role as a hedge against volatility.",
+      "A resolution of global supply chain issues that leads to a decrease in inflation expectations.",
+      "A sudden increase in global debt sustainability due to unforeseen economic policies or market interventions."
+    ],
+    "catalysts": [
+      "Geopolitical developments, particularly regarding the conflict in Iran and the status of the Strait of Hormuz.",
+      "Central bank policy decisions that could impact global debt levels and market volatility.",
+      "Technological breakthroughs or disruptions in the energy sector that could affect global supply chains and inflation."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-05T23:47:24.199898",
+    "updated_at": "2026-05-06 04:47:24",
+    "episode_evidence": "In this episode, Jack Mallers emphasizes the significance of Bitcoin's current price and market cap, stating, 'Bitcoin's market cap back above 1.6 trillion at 1.6 one trillion US dollars for the asset class.' He also highlights Bitcoin's role as a leading indicator of market movements, 'Bitcoin usually leads. It usually tells us in clings of what's going to happen in the future because it is such a free market.' Mallers discusses the mispricing of volatility, suggesting that 'the market is not valuing volatility, it's not implying volatility any time soon.' He also addresses the ongoing geopolitical and economic challenges, such as the conflict in Iran and global supply chain disruptions, which he believes are not being adequately reflected in current market valuations, 'the answers to these have yet to be changed week after week, announcement after announcement.'",
+    "falsification_tracks": [
+      "A sustained resolution of the conflict in Iran that leads to the reopening of the Strait of Hormuz, reducing oil prices and easing supply chain disruptions.",
+      "A significant decrease in Bitcoin's price volatility, indicating that the market has started to accurately price in future volatility.",
+      "Global debt levels stabilize or decrease, suggesting that the current economic disruptions are not as severe as believed."
+    ],
+    "insight_title": "Hold Onto Your Butts (And Your Bitcoin)",
+    "source_name": "The Jack Mallers Show",
+    "source_date": "2026-05-05",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 3069,
+    "id": 3110,
+    "name": "Tony James",
+    "slug": "tony-james",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Building a successful investment organization requires compounding talent, capital, and culture over time, focusing on long-term growth rather than short-term gains.",
+    "last_episode_title": "Building Blackstone, Backing Costco, with Tony James",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-05",
+    "appearance_count": 1
+  },
+  {
+    "id": 3111,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -20639,7 +20824,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3070,
+    "id": 3112,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -20651,7 +20836,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3071,
+    "id": 3113,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -20663,7 +20848,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3072,
+    "id": 3114,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -20675,7 +20860,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3073,
+    "id": 3115,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -20687,7 +20872,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3074,
+    "id": 3116,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -20699,7 +20884,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3075,
+    "id": 3117,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -20711,7 +20896,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3076,
+    "id": 3118,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -20723,7 +20908,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3077,
+    "id": 3119,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -20735,7 +20920,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3078,
+    "id": 3120,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -20747,7 +20932,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3079,
+    "id": 3121,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -20759,7 +20944,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3080,
+    "id": 3122,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -20771,7 +20956,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3081,
+    "id": 3123,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -20783,7 +20968,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3082,
+    "id": 3124,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -20795,7 +20980,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3083,
+    "id": 3125,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -20807,7 +20992,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3084,
+    "id": 3126,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -20819,7 +21004,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3085,
+    "id": 3127,
     "name": "Building Agents at Home",
     "slug": "building-agents-at-home",
     "bio": null,
@@ -20831,7 +21016,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3086,
+    "id": 3128,
     "name": "\"The Best Time to Invest\"",
     "slug": "the-best-time-to-invest",
     "bio": null,
@@ -20843,7 +21028,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3087,
+    "id": 3129,
     "name": "Governor Josh Shapiro of Pennsylvania",
     "slug": "governor-josh-shapiro-of-pennsylvania",
     "bio": null,
@@ -20851,18 +21036,6 @@ const dashboardData = {
     "last_main_idea": "Invest in Pennsylvania due to its pro-growth policies, job creation, and improved business climate.",
     "last_episode_title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-04-08",
-    "appearance_count": 1
-  },
-  {
-    "id": 3088,
-    "name": "Box CEO Aaron Levie",
-    "slug": "box-ceo-aaron-levie",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
-    "last_episode_title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
-    "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "appearance_count": 1
   }
@@ -21419,7 +21592,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -21483,7 +21656,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -21616,6 +21789,69 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 228,
+    "name": "Tony James",
+    "slug": "tony-james",
+    "bio": "Tony James is a prominent figure in the world of finance, known for his role as the former President and COO of Blackstone, where he played a pivotal part in transforming the firm into a trillion-dollar asset manager. His career has been instrumental in the evolution of modern private markets.",
+    "known_for": "His leadership in transforming Blackstone into a leading global investment firm and his influence on the development of private markets.",
+    "net_worth_usd": 4200000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Hamilton_E._James",
+    "net_worth_updated_at": "2026-05-05T23:46:23.592615",
+    "voice_tone": "Reflective and instructive",
+    "voice_style": "Shares personal anecdotes and lessons learned from his career",
+    "voice_delivery_notes": "Paced with emphasis on key learnings and principles",
+    "voice_profile_updated_at": "2026-05-06 04:46:10",
+    "last_seen": "2026-05-06 04:46:10",
+    "last_episode_title": "Building Blackstone, Backing Costco, with Tony James",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-05",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Building a successful investment organization requires compounding talent, capital, and culture over time, focusing on long-term growth rather than short-term gains.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-05 \u2022 Building Blackstone, Backing Costco, with Tony James",
+    "last_proof_snippet": "If you think about the development of a successful company, there's kind of an Esker. It starts off small and entrepreneurial. Then there's this kind of escalation where you create a lot of value in a lot of size. People know Blackstone tod",
+    "supporting_takeaway": "The significance of focusing on compounding talent, capital, and culture over time for enduring success.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-05T23:46:22.401809",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Tony James",
+      "fetched_at": "2026-05-06T04:46:22.401279+00:00",
+      "cliff_notes": "Tony James has had a distinguished career in finance, particularly in the realm of private markets. He joined Blackstone in 2002 and served as its President and COO, playing a significant role in the firm's growth into a trillion-dollar asset manager. His tenure at Blackstone was marked by a focus on compounding talent, capital, and culture, which has been attributed to the firm's enduring success. Prior to Blackstone, James held various roles at DLJ, contributing to his expertise in finance. His career has been a testament to the importance of foresight and strategic execution in the financial sector, and he has been a key figure in shaping the modern landscape of private markets.",
+      "derived": {
+        "current_role": "Vice Chairman of Blackstone; Executive Chairman of Blackstone\u2019s Credit Platform",
+        "former_positions": "President and COO of Blackstone; various roles at DLJ",
+        "boards": "Board member of Costco Wholesale Corporation",
+        "education": "Harvard Business School; Harvard College"
+      },
+      "infobox": {
+        "Born": "1950",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Tony James has had a distinguished career in finance, particularly in the realm of private markets. He joined Blackstone in 2002 and served as its President and COO, playing a significant role in the firm's growth into a trillion-dollar asset manager. His tenure at Blackstone was marked by a focus on compounding talent, capital, and culture, which has been attributed to the firm's enduring success.",
+        "Prior to Blackstone, James held various roles at DLJ, contributing to his expertise in finance. His career has been a testament to the importance of foresight and strategic execution in the financial sector, and he has been a key figure in shaping the modern landscape of private markets."
+      ],
+      "sections": [
+        {
+          "heading": "Leadership at Blackstone",
+          "body": "Tony James served as President and COO of Blackstone, contributing to its transformation into a leading global investment firm with over a trillion dollars in assets under management."
+        },
+        {
+          "heading": "Private Markets Evolution",
+          "body": "Throughout his career, James has been at the forefront of the evolution of private markets, influencing the industry's growth and development."
+        },
+        {
+          "heading": "Strategic Vision",
+          "body": "His strategic vision and focus on long-term value creation have been key to the success of the organizations he has led, particularly Blackstone."
+        }
+      ]
+    },
+    "net_worth": "$4.20B"
   },
   {
     "id": 226,
@@ -22329,7 +22565,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -22765,7 +23001,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -23145,7 +23381,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
     "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
@@ -23273,7 +23509,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -23462,7 +23698,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-15 \u2022 Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
     "last_proof_snippet": "The company's revenue grew from $2.5 million to $250 million in just over a year, demonstrating the potential of AI in software development.",
@@ -23526,7 +23762,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-14 \u2022 \"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
     "last_proof_snippet": "Investing with a long-term perspective involves considering macroeconomic factors and their impact on smaller companies.",
@@ -23585,7 +23821,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in AI companies that are positioned to benefit from the rapid growth and valuation in the industry, and consider the broader implications of AI on the future of work and social structures.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-14 \u2022 Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
     "last_proof_snippet": "AI is expected to replace many white collar jobs in the near future.",
@@ -23649,7 +23885,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
@@ -23833,7 +24069,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Investing in companies with a strong cultural identity and clear strategic focus can provide an edge in technology markets, as demonstrated by the contrasting paths of Apple and Microsoft.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-10 \u2022 What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
     "last_proof_snippet": "Microsoft's strength in enterprise is due to the legendary compatibility of Windows, a key value for corporations.",
@@ -24030,7 +24266,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
     "last_proof_snippet": "Beach Point Capital Management primarily manages institutional capital, which is characterized as patient capital.",
@@ -24093,7 +24329,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
@@ -24159,7 +24395,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
@@ -24474,7 +24710,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
     "last_proof_snippet": "AI is a shortcut that can be beneficial but also presents challenges in debugging and understanding.",
@@ -24719,7 +24955,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-04 \u2022 \u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
     "last_proof_snippet": "Shipping inefficiencies can lead to increased profits for ship owners.",
@@ -24964,7 +25200,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_proof_snippet": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",
@@ -25400,7 +25636,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
     "last_proof_snippet": "Dixon's investment philosophy emphasizes betting on people rather than trying to predict tech trends.",
@@ -25466,7 +25702,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-27 \u2022 Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
     "last_proof_snippet": "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",
@@ -26882,7 +27118,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_proof_snippet": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229 00:00:00 I am blown away by how far you've come. The things that you can do with Neural Nets now does completely",
@@ -26946,7 +27182,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "last_proof_cite": "The a16z Show \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
     "last_proof_snippet": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. If you were starting from scratch today,",
@@ -27008,7 +27244,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-19 \u2022 Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
     "last_proof_snippet": "Today's episode is brought to you by the Picta AI Enhance International Equity ETF, Ticker PQNT. You'll hear more about they're using AI to enhance international equity returns later in the show. For now, let's get into it. Very pleased tod",
@@ -27078,7 +27314,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-18 \u2022 Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
     "last_proof_snippet": "Fetterman has a unique perspective, being popular among Republicans while maintaining his Democratic affiliation.",
@@ -27144,7 +27380,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-18 \u2022 The Geopolitics of Technology and the Future Economy",
     "last_proof_snippet": "Helbert emphasizes the importance of hardware in the geopolitical technology war and the control over the internet's infrastructure.",
@@ -27516,7 +27752,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
     "last_proof_snippet": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper | EP #230 Moonshots with Peter Diamandis Episode 230 00:00:00 When do we see a billion-dollar revenue company being run by an AI CEO",

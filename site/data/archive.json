@@ -1,6 +1,46 @@
 {
   "insights": [
     {
+      "id": 213,
+      "title": "Building Blackstone, Backing Costco, with Tony James",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-05",
+      "summary": "In this episode of the a16z Show, General Partner David Haber interviews Tony James, who has played a pivotal role in the evolution of modern private markets. They discuss the journey of building a successful investment organization, the importance of focusing on compounding talent, capital, and culture over time, and the principles behind enduring success. James shares insights from his career at DLJ and Blackstone, emphasizing the value of unstructured opportunities, learning from changes in the business, and the significance of investment committees in shaping a firm's culture.",
+      "key_takeaway": "Building a successful investment organization requires compounding talent, capital, and culture over time, focusing on long-term growth rather than short-term gains.",
+      "tickers_mentioned": [
+        "BX",
+        "KKR",
+        "APO"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 199
+    },
+    {
+      "id": 214,
+      "title": "Hold Onto Your Butts (And Your Bitcoin)",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-05-05",
+      "summary": "In this episode of The Jack Mallers Show, Jack discusses the current state of Bitcoin and the broader financial market, highlighting Bitcoin's price at 80,340 USD and its market cap above 1.6 trillion USD. He emphasizes the mispricing of volatility in the market and suggests that Bitcoin often leads in indicating future market movements due to its free market nature. Jack also touches on global supply chain disruptions, the ongoing conflict in Iran, and the sustainability of global debt amidst these challenges. He concludes by encouraging listeners to hold on to their Bitcoin and prepare for increased volatility.",
+      "key_takeaway": "Hold on to your Bitcoin as a hedge against the mispriced market volatility and potential future disruptions.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 198
+    },
+    {
       "id": 210,
       "title": "Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
       "source_type": "podcast",
@@ -160,7 +200,7 @@
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-01",
       "archived_date": null,
@@ -179,7 +219,7 @@
         "SPACEX"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-01",
       "archived_date": null,
@@ -3879,6 +3919,24 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 156,
+      "term": "Compounding Talent, Capital, and Culture",
+      "description": "The concept of building an organization that not only generates returns but also systematically develops and retains talent, grows capital, and fosters a strong culture over time.",
+      "first_detected_date": "2026-05-05",
+      "last_mentioned_date": "2026-05-05",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should look for firms that demonstrate the ability to compound these elements for sustainable growth.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 199,
+      "first_detected_speaker": "Tony James",
+      "last_mentioned_episode_id": 199,
+      "last_mentioned_speaker": "Tony James"
+    },
     {
       "id": 153,
       "term": "Western AI Stack",
