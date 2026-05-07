@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-06T14:10:32.894159",
-  "last_updated": "2026-05-06T14:10:32.894159",
-  "last_pipeline_run": "2026-05-06T14:10:32.894159",
+  "generated_at": "2026-05-06T22:01:29.573746",
+  "last_updated": "2026-05-06T22:01:29.573746",
+  "last_pipeline_run": "2026-05-06T22:01:29.573746",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -18,33 +18,14 @@
     "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "dfad58e8-494a-11f1-9cd1-e34a8813e2cd",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
-      "published": "2026-05-06",
-      "rss_guid": "dfad58e8-494a-11f1-9cd1-e34a8813e2cd",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
