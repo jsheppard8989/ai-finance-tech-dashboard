@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-07T12:46:54.457687",
-  chartsVersion: "2026-05-07T12:46:42.413811",
+  generatedAt: "2026-05-07T14:18:38.469524",
+  chartsVersion: "2026-05-07T14:18:29.819156",
   priceSnapshot: {
   "GOOGL": {
-    "price": 396.08,
-    "change_pct": 17.38,
+    "price": 395.83,
+    "change_pct": 17.31,
     "name": "GOOGL",
-    "updated_at": "2026-05-07T12:46:42.413086"
+    "updated_at": "2026-05-07T14:18:29.817311"
   },
   "NVDA": {
-    "price": 212.11,
-    "change_pct": 4.97,
+    "price": 212.28,
+    "change_pct": 5.06,
     "name": "NVDA",
-    "updated_at": "2026-05-07T12:46:42.413101"
+    "updated_at": "2026-05-07T14:18:29.817331"
   },
   "MSFT": {
-    "price": 421.5,
-    "change_pct": 0.82,
+    "price": 421.9,
+    "change_pct": 0.92,
     "name": "MSFT",
-    "updated_at": "2026-05-07T12:46:42.413109"
+    "updated_at": "2026-05-07T14:18:29.817340"
   },
   "BTC": {
-    "price": 79904.77,
-    "change_pct": 3.16,
+    "price": 80054.86,
+    "change_pct": 3.36,
     "name": "BTC",
-    "updated_at": "2026-05-07T12:46:42.413115"
+    "updated_at": "2026-05-07T14:18:29.817348"
   },
   "WTI": {
-    "price": 3.79,
-    "change_pct": 27.18,
+    "price": 3.8,
+    "change_pct": 27.52,
     "name": "WTI",
-    "updated_at": "2026-05-07T12:46:42.413120"
+    "updated_at": "2026-05-07T14:18:29.817355"
   },
   "S&P 500": {
-    "price": 730.58,
-    "change_pct": 3.08,
+    "price": 730.7,
+    "change_pct": 3.1,
     "name": "S&P 500",
-    "updated_at": "2026-05-07T12:46:42.413126"
+    "updated_at": "2026-05-07T14:18:29.817363"
   },
   "META": {
-    "price": 614.01,
-    "change_pct": -8.48,
+    "price": 615.72,
+    "change_pct": -8.23,
     "name": "META",
-    "updated_at": "2026-05-07T12:46:42.413132"
+    "updated_at": "2026-05-07T14:18:29.817372"
   },
   "AMZN": {
-    "price": 271.77,
-    "change_pct": 9.46,
+    "price": 271.79,
+    "change_pct": 9.47,
     "name": "AMZN",
-    "updated_at": "2026-05-07T12:46:42.413137"
+    "updated_at": "2026-05-07T14:18:29.817379"
   },
   "TSLA": {
-    "price": 406.13,
-    "change_pct": 3.47,
+    "price": 404.83,
+    "change_pct": 3.14,
     "name": "TSLA",
-    "updated_at": "2026-05-07T12:46:42.413142"
+    "updated_at": "2026-05-07T14:18:29.817386"
   },
   "QQQ": {
-    "price": 693.75,
-    "change_pct": 7.26,
+    "price": 693.55,
+    "change_pct": 7.23,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-07T12:46:42.413147"
+    "updated_at": "2026-05-07T14:18:29.817395"
   },
   "BTC-USD": {
-    "price": 79904.77,
-    "change_pct": 3.16,
+    "price": 80054.86,
+    "change_pct": 3.36,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-07T12:46:42.413152"
+    "updated_at": "2026-05-07T14:18:29.817403"
   }
 },
   tickerScores: [
@@ -4807,42 +4807,6 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 158,
-      "term": "Crypto as Infrastructure",
-      "description": "The concept that crypto is moving from being a revolutionary idea to becoming an integral part of the existing financial infrastructure.",
-      "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-05-07",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies that are building the infrastructure for crypto to integrate with traditional finance.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 202,
-      "first_detected_speaker": "Chris Dixon, Ali Yahya, Eddie Lazzer",
-      "last_mentioned_episode_id": 202,
-      "last_mentioned_speaker": "Chris Dixon, Ali Yahya, Eddie Lazzer"
-    },
-    {
-      "id": 159,
-      "term": "AI Agents as Economic Actors",
-      "description": "The idea that AI will not only be tools for humans but will also become first-class members of the financial system, conducting transactions and making economic decisions.",
-      "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-05-07",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Look for opportunities in technologies that enable AI to participate in economic activities, such as stablecoins and blockchain-based payment systems.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 202,
-      "first_detected_speaker": "Chris Dixon, Ali Yahya, Eddie Lazzer",
-      "last_mentioned_episode_id": 202,
-      "last_mentioned_speaker": "Chris Dixon, Ali Yahya, Eddie Lazzer"
-    },
-    {
       "id": 156,
       "term": "Compounding Talent, Capital, and Culture",
       "description": "The concept of building an organization that not only generates returns but also systematically develops and retains talent, grows capital, and fosters a strong culture over time.",
@@ -7758,58 +7722,6 @@ const dashboardData = {
       "last_mentioned_episode_date": null
     },
     {
-      "id": 158,
-      "term": "Crypto as Infrastructure",
-      "description": "The concept that crypto is moving from being a revolutionary idea to becoming an integral part of the existing financial infrastructure.",
-      "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-05-07",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies that are building the infrastructure for crypto to integrate with traditional finance.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 202,
-      "first_detected_speaker": "Chris Dixon, Ali Yahya, Eddie Lazzer",
-      "last_mentioned_episode_id": 202,
-      "last_mentioned_speaker": "Chris Dixon, Ali Yahya, Eddie Lazzer",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
-      "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
-      "last_mentioned_episode_date": "2026-05-07"
-    },
-    {
-      "id": 159,
-      "term": "AI Agents as Economic Actors",
-      "description": "The idea that AI will not only be tools for humans but will also become first-class members of the financial system, conducting transactions and making economic decisions.",
-      "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-05-07",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Look for opportunities in technologies that enable AI to participate in economic activities, such as stablecoins and blockchain-based payment systems.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 202,
-      "first_detected_speaker": "Chris Dixon, Ali Yahya, Eddie Lazzer",
-      "last_mentioned_episode_id": 202,
-      "last_mentioned_speaker": "Chris Dixon, Ali Yahya, Eddie Lazzer",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
-      "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
-      "last_mentioned_episode_date": "2026-05-07"
-    },
-    {
       "id": 156,
       "term": "Compounding Talent, Capital, and Culture",
       "description": "The concept of building an organization that not only generates returns but also systematically develops and retains talent, grows capital, and fosters a strong culture over time.",
@@ -8027,6 +7939,58 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Efficiency in drug development can significantly affect a company's profitability and competitive advantage.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.85,
+      "resonance_pct": 21,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
+    },
+    {
+      "id": 138,
+      "term": "AI CapEx",
+      "description": "Capital expenditure focused on artificial intelligence technologies, indicating a strategic investment in AI infrastructure and development.",
+      "first_detected_date": "2026-04-30",
+      "last_mentioned_date": "2026-04-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider AI CapEx as a significant growth area with potential for high returns.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.85,
+      "resonance_pct": 21,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
+    },
+    {
+      "id": 139,
+      "term": "Co-Investing",
+      "description": "A strategy where an investor participates alongside other investors, typically in a hedge fund or private equity deal, sharing in both the profits and risks.",
+      "first_detected_date": "2026-04-30",
+      "last_mentioned_date": "2026-04-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Co-investing can offer significant upside potential for investors who are able to access such deals.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -21092,7 +21056,7 @@ const dashboardData = {
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 3494,
+    "id": 3538,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -21104,7 +21068,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3495,
+    "id": 3539,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -21116,7 +21080,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3496,
+    "id": 3540,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -21128,7 +21092,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3497,
+    "id": 3541,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -21140,7 +21104,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3498,
+    "id": 3542,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -21152,7 +21116,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3499,
+    "id": 3543,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -21164,7 +21128,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3500,
+    "id": 3544,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -21176,7 +21140,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3501,
+    "id": 3545,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -21188,7 +21152,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3502,
+    "id": 3546,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -21200,7 +21164,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3503,
+    "id": 3547,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -21212,7 +21176,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3504,
+    "id": 3548,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -21224,7 +21188,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3505,
+    "id": 3549,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -21236,7 +21200,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3506,
+    "id": 3550,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -21248,7 +21212,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3507,
+    "id": 3551,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -21260,7 +21224,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3508,
+    "id": 3552,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -21272,7 +21236,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3509,
+    "id": 3553,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -21284,7 +21248,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3510,
+    "id": 3554,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -21296,7 +21260,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3511,
+    "id": 3555,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -21308,7 +21272,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3512,
+    "id": 3556,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -21320,7 +21284,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3513,
+    "id": 3557,
     "name": "Building Agents at Home",
     "slug": "building-agents-at-home",
     "bio": null,
@@ -22217,9 +22181,9 @@ const dashboardData = {
     "slug": "eddie-lazzer",
     "bio": "Eddie Lazzer is the Chief Technology Officer and General Partner at a16z Crypto, a venture capital firm focused on cryptocurrency and blockchain technologies. He is known for his technical expertise and contributions to the field, helping to shape the trajectory of crypto from an ideological revolution to a practical infrastructure.",
     "known_for": "His role in guiding a16z Crypto's investments and his insights on the evolution of cryptocurrency from an ideological to a practical infrastructure.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://sociallifemagazine.com/technology/chris-dixon-net-worth-2025/",
+    "net_worth_updated_at": "2026-05-07T14:17:34.524874",
     "voice_tone": "Technical and detailed",
     "voice_style": "Factual with a focus on technology's role in crypto.",
     "voice_delivery_notes": "Methodical with a steady pace",
@@ -22272,7 +22236,8 @@ const dashboardData = {
           "body": "He emphasizes the importance of product development and market strategy in the success of crypto startups, moving away from purely ideological motivations."
         }
       ]
-    }
+    },
+    "net_worth": "$500.0M"
   },
   {
     "id": 232,
@@ -22292,7 +22257,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -22356,7 +22321,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -26361,7 +26326,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -26420,7 +26385,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
@@ -26679,7 +26644,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
     "last_proof_snippet": "The world is transitioning into a multi-polar world, which has economic and investment implications.",
@@ -26747,7 +26712,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
     "last_proof_snippet": "The world is transitioning into a multi-polar world, which has economic and investment implications.",
@@ -28497,7 +28462,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -28524,7 +28489,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",
