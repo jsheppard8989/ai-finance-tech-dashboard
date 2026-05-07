@@ -192,6 +192,72 @@
     "net_worth": "$12.3M"
   },
   {
+    "id": 133,
+    "name": "Chris Dixon",
+    "slug": "chris-dixon",
+    "bio": "Chris Dixon is the Founder and Managing Partner at a16z Crypto, a venture capital firm that focuses on crypto and blockchain technology. He is known for his early investment in Coinbase and his perspective on the evolution of cryptocurrency and blockchain technology.",
+    "known_for": "His investment in Coinbase and his views on the practical applications of blockchain technology.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://blockchainreporter.net/net-worth/chris-dixon/",
+    "net_worth_updated_at": "2026-03-28T22:05:07.528099",
+    "voice_tone": "Confident and insightful",
+    "voice_style": "Logical and future-oriented",
+    "voice_delivery_notes": "Paced with emphasis on key points",
+    "voice_profile_updated_at": "2026-05-07 17:45:01",
+    "last_seen": "2026-05-07 17:45:01",
+    "last_episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-07",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
+    "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
+    "supporting_takeaway": "Stablecoins have seen significant growth, indicating mainstream traction and providing a regulatory framework.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-07T12:45:13.021332",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Chris Dixon",
+      "fetched_at": "2026-05-07T17:45:13.020994+00:00",
+      "cliff_notes": "Chris Dixon is a prominent venture capitalist and entrepreneur with a focus on technology and innovation. He began his career as a software engineer and later founded SiteAdvisor, which was acquired by McAfee. Dixon also co-founded Hunch, which was later acquired by eBay. His interest in blockchain technology led him to become an early investor in Coinbase, one of the leading cryptocurrency exchanges. Dixon is currently the Founder and Managing Partner at a16z Crypto, a venture capital firm that invests in crypto and blockchain technology. He is known for his pragmatic approach to technology, emphasizing the importance of product development and market strategy in the success of new technologies.",
+      "derived": {
+        "current_role": "Founder and Managing Partner at a16z Crypto",
+        "former_positions": "Hunch (acquired by eBay); Founder of SiteAdvisor (acquired by McAfee);",
+        "education": "Brown University; Columbia Law School"
+      },
+      "infobox": {
+        "Born": "1978",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Chris Dixon is a prominent venture capitalist and entrepreneur with a focus on technology and innovation. He began his career as a software engineer and later founded SiteAdvisor, which was acquired by McAfee. Dixon also co-founded Hunch, which was later acquired by eBay. His interest in blockchain technology led him to become an early investor in Coinbase, one of the leading cryptocurrency exchanges.",
+        "Dixon is currently the Founder and Managing Partner at a16z Crypto, a venture capital firm that invests in crypto and blockchain technology. He is known for his pragmatic approach to technology, emphasizing the importance of product development and market strategy in the success of new technologies."
+      ],
+      "sections": [
+        {
+          "heading": "Investment in Coinbase",
+          "body": "Chris Dixon is known for his early investment in Coinbase, one of the leading cryptocurrency exchanges. His investment and support have contributed to the growth and success of the platform."
+        },
+        {
+          "heading": "Practical Approach to Crypto",
+          "body": "Dixon emphasizes the importance of a pragmatic approach to cryptocurrency and blockchain technology. He believes that the most successful founders will be those who focus on product development and market strategy, rather than ideological pursuits."
+        },
+        {
+          "heading": "Evolution of Cryptocurrency",
+          "body": "Chris Dixon has a unique perspective on the evolution of cryptocurrency. He views it as a shift from a revolutionary ideology to a practical infrastructure that can work within existing systems, rather than trying to overthrow them."
+        },
+        {
+          "heading": "Onboarding Users to Blockchain",
+          "body": "Dixon believes that the key to widespread adoption of blockchain technology is onboarding a large number of users through practical applications such as stocks, bonds, payments, and remittances. Once users are familiar with the infrastructure, it becomes easier to offer adjacent services."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
+  },
+  {
     "id": 209,
     "name": "David Sinclair",
     "slug": "david-sinclair",
@@ -739,7 +805,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -747,6 +813,132 @@
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 234,
+    "name": "Ali Yahya",
+    "slug": "ali-yahya",
+    "bio": "Ali Yahya is a General Partner at a16z Crypto, where he has been involved since the inception of the firm's crypto efforts. He is known for his role in shaping the investment strategy and vision of a16z Crypto, focusing on the intersection of technology, finance, and the practical application of blockchain technology.",
+    "known_for": "His influence on a16z Crypto's investment strategy and his pragmatic approach to blockchain technology adoption.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Thoughtful and measured",
+    "voice_style": "Analytical with a focus on market trends",
+    "voice_delivery_notes": "Clear and concise with strategic pauses",
+    "voice_profile_updated_at": "2026-05-07 17:45:01",
+    "last_seen": "2026-05-07 17:45:01",
+    "last_episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-07",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
+    "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
+    "supporting_takeaway": "Stablecoins have seen significant growth, indicating mainstream traction and providing a regulatory framework.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-07T12:45:23.465890",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ali Yahya",
+      "fetched_at": "2026-05-07T17:45:23.465726+00:00",
+      "cliff_notes": "Ali Yahya is a prominent figure in the world of venture capital and cryptocurrency, particularly within the a16z Crypto firm. As a General Partner, he has been instrumental in developing the firm's investment strategy since its inception. Yahya's focus has been on the practical application of blockchain technology, advocating for a pragmatic approach that sees crypto not as a revolutionary overthrow of existing systems but as a complementary infrastructure that can enhance and work within the current financial ecosystem. His vision emphasizes the importance of product focus and go-to-market strategies, aiming to onboard a billion users through various applications such as stocks, bonds, payments, and remittances. Yahya's career has been marked by his ability to identify and nurture technologies that transition from theoretical concepts to practical, everyday use, making him a significant voice in the evolution of blockchain and cryptocurrency.",
+      "derived": {
+        "current_role": "General Partner at a16z Crypto"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ali Yahya is a prominent figure in the world of venture capital and cryptocurrency, particularly within the a16z Crypto firm. As a General Partner, he has been instrumental in developing the firm's investment strategy since its inception. Yahya's focus has been on the practical application of blockchain technology, advocating for a pragmatic approach that sees crypto not as a revolutionary overthrow of existing systems but as a complementary infrastructure that can enhance and work within the current financial ecosystem.",
+        "His vision emphasizes the importance of product focus and go-to-market strategies, aiming to onboard a billion users through various applications such as stocks, bonds, payments, and remittances. Yahya's career has been marked by his ability to identify and nurture technologies that transition from theoretical concepts to practical, everyday use, making him a significant voice in the evolution of blockchain and cryptocurrency."
+      ],
+      "sections": [
+        {
+          "heading": "Crypto Investment Strategy",
+          "body": "Ali Yahya is recognized for his role in shaping a16z Crypto's investment strategy, focusing on the practical integration of blockchain technology into existing financial systems."
+        },
+        {
+          "heading": "Pragmatic Approach",
+          "body": "Yahya advocates for a pragmatic approach to blockchain technology, emphasizing the need for it to work within the current system rather than attempting to overthrow it."
+        },
+        {
+          "heading": "User Onboarding",
+          "body": "He believes in the importance of onboarding a billion users to blockchain technology through various financial applications, such as stocks, bonds, and payments."
+        },
+        {
+          "heading": "Transition from Ideology to Infrastructure",
+          "body": "Yahya sees the evolution of crypto from being framed as a revolution to becoming an integral part of the financial infrastructure, reflecting a shift in the industry's trajectory."
+        }
+      ]
+    }
+  },
+  {
+    "id": 235,
+    "name": "Eddie Lazzer",
+    "slug": "eddie-lazzer",
+    "bio": "Eddie Lazzer is the Chief Technology Officer and General Partner at a16z Crypto, a venture capital firm focused on cryptocurrency and blockchain technologies. He is known for his technical expertise and contributions to the field, helping to shape the trajectory of crypto from an ideological revolution to a practical infrastructure.",
+    "known_for": "His role in guiding a16z Crypto's investments and his insights on the evolution of cryptocurrency from an ideological to a practical infrastructure.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Technical and detailed",
+    "voice_style": "Factual with a focus on technology's role in crypto.",
+    "voice_delivery_notes": "Methodical with a steady pace",
+    "voice_profile_updated_at": "2026-05-07 17:45:01",
+    "last_seen": "2026-05-07 17:45:01",
+    "last_episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-07",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
+    "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
+    "supporting_takeaway": "Stablecoins have seen significant growth, indicating mainstream traction and providing a regulatory framework.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-07T12:45:33.295801",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Eddie Lazzer",
+      "fetched_at": "2026-05-07T17:45:33.295646+00:00",
+      "cliff_notes": "Eddie Lazzer has been instrumental in the development and investment strategies of a16z Crypto, a venture capital firm that focuses on cryptocurrency and blockchain technologies. As the Chief Technology Officer and General Partner, Lazzer has been at the forefront of the firm's efforts to understand and capitalize on the evolving landscape of digital currencies. His contributions have been pivotal in positioning a16z Crypto as a leading investor in the space, and his insights have helped shape the discourse around the practical applications of blockchain technology. Lazzer's career has been marked by a deep understanding of the technical aspects of blockchain and a pragmatic approach to its integration into existing financial systems, rather than a radical overhaul.",
+      "derived": {
+        "current_role": "Chief Technology Officer and General Partner at a16z Crypto"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Eddie Lazzer has been instrumental in the development and investment strategies of a16z Crypto, a venture capital firm that focuses on cryptocurrency and blockchain technologies. As the Chief Technology Officer and General Partner, Lazzer has been at the forefront of the firm's efforts to understand and capitalize on the evolving landscape of digital currencies.",
+        "His contributions have been pivotal in positioning a16z Crypto as a leading investor in the space, and his insights have helped shape the discourse around the practical applications of blockchain technology. Lazzer's career has been marked by a deep understanding of the technical aspects of blockchain and a pragmatic approach to its integration into existing financial systems, rather than a radical overhaul."
+      ],
+      "sections": [
+        {
+          "heading": "Cryptocurrency Investment",
+          "body": "Eddie Lazzer has been a key figure in identifying and investing in promising cryptocurrency projects, helping a16z Crypto become a significant player in the industry."
+        },
+        {
+          "heading": "Blockchain Technology",
+          "body": "Lazzer's technical expertise in blockchain has been crucial in guiding a16z Crypto's investment decisions and in understanding the technology's potential impact on various sectors."
+        },
+        {
+          "heading": "Pragmatic Approach",
+          "body": "Lazzer advocates for a pragmatic approach to blockchain and cryptocurrency, focusing on integration with existing systems rather than ideological overhauls."
+        },
+        {
+          "heading": "Product and Market Focus",
+          "body": "He emphasizes the importance of product development and market strategy in the success of crypto startups, moving away from purely ideological motivations."
+        }
+      ]
+    }
   },
   {
     "id": 232,
@@ -890,7 +1082,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -2714,7 +2906,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -4761,72 +4953,6 @@
     "net_worth": "$2.00B"
   },
   {
-    "id": 133,
-    "name": "Chris Dixon",
-    "slug": "chris-dixon",
-    "bio": "Chris Dixon is a general partner at Andreessen Horowitz (A16Z), known for his leading investments in Oculus and Coinbase, and for building A16Z's dedicated crypto practice. He is also the co-founder of internet security company SiteAdvisor and AI company Hunch.",
-    "known_for": "His pivotal investments in Oculus and Coinbase, and his role in establishing A16Z's crypto practice.",
-    "net_worth_usd": 500000000.0,
-    "net_worth_source": "https://blockchainreporter.net/net-worth/chris-dixon/",
-    "net_worth_updated_at": "2026-03-28T22:05:07.528099",
-    "voice_tone": "Reflective and informative",
-    "voice_style": "Shares personal anecdotes and industry insights with a storytelling approach",
-    "voice_delivery_notes": "Paced with emphasis on key points, such as personal experiences and investment philosophies",
-    "voice_profile_updated_at": "2026-03-29 03:04:14",
-    "last_seen": "2026-03-29 03:04:14",
-    "last_episode_title": "the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-28",
-    "mention_score": 1,
-    "mention_score_decayed": 0.41,
-    "last_main_idea": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
-    "last_proof_snippet": "Dixon's investment philosophy emphasizes betting on people rather than trying to predict tech trends.",
-    "supporting_takeaway": "Dixon's investment philosophy emphasizes betting on people rather than trying to predict tech trends.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T22:05:06.552638",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Chris Dixon",
-      "fetched_at": "2026-03-29T03:05:06.552464+00:00",
-      "cliff_notes": "Chris Dixon's career began with a passion for technology, teaching himself programming languages as a child. After college, he worked in quant finance, writing Monte Carlo simulations for an options market-making firm in New York. This experience led him to co-found SiteAdvisor, an internet security company, which was later sold to McAfee in 2006. Two years later, he founded Hunch, an AI company based on neural networks, which was acquired by eBay in 2011. In 2013, Dixon joined Andreessen Horowitz, where he played a significant role in the firm's investments, notably leading a $75 million round for Oculus and making an early investment in Coinbase. His work at A16Z has been instrumental in the establishment of the firm's dedicated crypto practice, which is now in its fourth fund. Dixon's journey from quant finance to tech investing and his influence in the crypto space have made him a notable figure in the tech and finance industries.",
-      "derived": {
-        "current_role": "General Partner at Andreessen Horowitz",
-        "former_positions": "Co-founder of SiteAdvisor; Co-founder of Hunch"
-      },
-      "infobox": {
-        "Born": "Ohio",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Chris Dixon's career began with a passion for technology, teaching himself programming languages as a child. After college, he worked in quant finance, writing Monte Carlo simulations for an options market-making firm in New York. This experience led him to co-found SiteAdvisor, an internet security company, which was later sold to McAfee in 2006.",
-        "Two years later, he founded Hunch, an AI company based on neural networks, which was acquired by eBay in 2011. In 2013, Dixon joined Andreessen Horowitz, where he played a significant role in the firm's investments, notably leading a $75 million round for Oculus and making an early investment in Coinbase. His work at A16Z has been instrumental in the establishment of the firm's dedicated crypto practice, which is now in its fourth fund.",
-        "Dixon's journey from quant finance to tech investing and his influence in the crypto space have made him a notable figure in the tech and finance industries."
-      ],
-      "sections": [
-        {
-          "heading": "Early Career",
-          "body": "Chris Dixon began his career in quant finance, writing Monte Carlo simulations for an options market-making firm in New York, before co-founding SiteAdvisor, an internet security company."
-        },
-        {
-          "heading": "SiteAdvisor and Hunch",
-          "body": "Dixon co-founded SiteAdvisor, which was later sold to McAfee, and Hunch, an AI company, which was acquired by eBay. These ventures established him as a successful entrepreneur."
-        },
-        {
-          "heading": "Investment in Oculus and Coinbase",
-          "body": "At Andreessen Horowitz, Dixon led a $75 million investment in Oculus and made an early investment in Coinbase, both of which have become significant players in their respective industries."
-        },
-        {
-          "heading": "Cryptocurrency and A16Z",
-          "body": "Dixon has been instrumental in building A16Z's dedicated crypto practice, which is now in its fourth fund, showcasing his foresight and influence in the cryptocurrency space."
-        }
-      ]
-    },
-    "net_worth": "$500.0M"
-  },
-  {
     "id": 132,
     "name": "David Freiberg",
     "slug": "david-freiberg",
@@ -5346,7 +5472,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -5406,7 +5532,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -5466,7 +5592,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",

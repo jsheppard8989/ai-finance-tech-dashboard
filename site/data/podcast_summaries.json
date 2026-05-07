@@ -1,5 +1,24 @@
 [
   {
+    "id": 202,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
+    "episode_date": "2026-05-07",
+    "summary": "The podcast discusses the evolution of crypto from an ideological revolution to an integral part of financial infrastructure. It highlights the shift towards product and market-focused founders in the crypto space and the importance of pragmatism over ideology. The conversation also touches on how regulatory clarity and AI are shaping the future of crypto, with a focus on stablecoins and their potential to facilitate transactions conducted by AI agents. The guests emphasize the convergence of AI and crypto, suggesting that crypto could be the technology that empowers AI agents as economic actors within the financial system.",
+    "key_takeaways": [
+      "Crypto's success is now tied to its integration with the existing financial system rather than overthrowing it.",
+      "Stablecoins have seen significant growth, indicating mainstream traction and providing a regulatory framework.",
+      "AI is expected to reshape economic activity, with the majority of future transactions potentially being conducted by AI agents.",
+      "Crypto's programmable and internet-native nature makes it well-suited for transactions involving AI agents.",
+      "Crypto can play a role in combating the proliferation of AI-generated deepfakes and media by providing proof of humanity."
+    ],
+    "investment_thesis": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
+    "key_tickers": [
+      "COIN",
+      "VISA"
+    ]
+  },
+  {
     "id": 201,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
@@ -122,25 +141,6 @@
       "DBC",
       "USO",
       "WTVN"
-    ]
-  },
-  {
-    "id": 191,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
-    "episode_date": "2026-05-01",
-    "summary": "In this episode of Monetary Matters, host Jack Farley interviews Jacob Pajarni, Co-Chief Investment Officer at Bridgeway Capital Management and portfolio manager of the global opportunities fund. They discuss the differences between investing in new economy stocks, which are often driven by intangible assets, and old economy stocks, where traditional fundamental analysis is more effective. The conversation delves into the limitations of discounted cash flow methods for companies with high levels of intangible capital and how sentiment analysis can provide additional insights into investment opportunities, especially in sectors like energy and Asian markets affected by global events such as the Iran War.",
-    "key_takeaways": [
-      "New economy stocks are less predictable using traditional fundamental analysis due to high levels of intangible assets.",
-      "Old economy stocks continue to be effectively valued using classical discounted cash flow analysis.",
-      "The PBRW model shows a breakdown in the relationship between valuations and profitability for new economy stocks.",
-      "Sentiment analysis can reveal investment opportunities, especially when there is a disconnect between market sentiment and price returns.",
-      "Bridgeway Capital Management uses a nimble strategy to identify the best stocks within each sector and country to generate alpha.",
-      "The firm has wrapped a hedge fund capability into a mutual fund to provide access to smaller investors."
-    ],
-    "investment_thesis": "Invest in companies with high levels of intangible capital using a combination of fundamental and sentiment analysis to identify mispriced opportunities, especially in sectors affected by global events.",
-    "key_tickers": [
-      "HFGM"
     ]
   }
 ]

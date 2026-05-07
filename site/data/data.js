@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-07T06:44:01.416976",
-  chartsVersion: "2026-05-07T06:43:52.321746",
+  generatedAt: "2026-05-07T12:46:54.457687",
+  chartsVersion: "2026-05-07T12:46:42.413811",
   priceSnapshot: {
   "GOOGL": {
-    "price": 398.04,
-    "change_pct": 16.49,
+    "price": 396.08,
+    "change_pct": 17.38,
     "name": "GOOGL",
-    "updated_at": "2026-05-07T06:43:52.320683"
+    "updated_at": "2026-05-07T12:46:42.413086"
   },
   "NVDA": {
-    "price": 207.83,
-    "change_pct": 3.05,
+    "price": 212.11,
+    "change_pct": 4.97,
     "name": "NVDA",
-    "updated_at": "2026-05-07T06:43:52.320701"
+    "updated_at": "2026-05-07T12:46:42.413101"
   },
   "MSFT": {
-    "price": 413.96,
-    "change_pct": -2.09,
+    "price": 421.5,
+    "change_pct": 0.82,
     "name": "MSFT",
-    "updated_at": "2026-05-07T06:43:52.320709"
+    "updated_at": "2026-05-07T12:46:42.413109"
   },
   "BTC": {
-    "price": 80960.88,
-    "change_pct": 4.53,
+    "price": 79904.77,
+    "change_pct": 3.16,
     "name": "BTC",
-    "updated_at": "2026-05-07T06:43:52.320716"
+    "updated_at": "2026-05-07T12:46:42.413115"
   },
   "WTI": {
-    "price": 3.82,
-    "change_pct": 33.1,
+    "price": 3.79,
+    "change_pct": 27.18,
     "name": "WTI",
-    "updated_at": "2026-05-07T06:43:52.320722"
+    "updated_at": "2026-05-07T12:46:42.413120"
   },
   "S&P 500": {
-    "price": 733.83,
-    "change_pct": 3.34,
+    "price": 730.58,
+    "change_pct": 3.08,
     "name": "S&P 500",
-    "updated_at": "2026-05-07T06:43:52.320729"
+    "updated_at": "2026-05-07T12:46:42.413126"
   },
   "META": {
-    "price": 612.88,
-    "change_pct": -10.99,
+    "price": 614.01,
+    "change_pct": -8.48,
     "name": "META",
-    "updated_at": "2026-05-07T06:43:52.320737"
+    "updated_at": "2026-05-07T12:46:42.413132"
   },
   "AMZN": {
-    "price": 274.99,
-    "change_pct": 9.75,
+    "price": 271.77,
+    "change_pct": 9.46,
     "name": "AMZN",
-    "updated_at": "2026-05-07T06:43:52.320744"
+    "updated_at": "2026-05-07T12:46:42.413137"
   },
   "TSLA": {
-    "price": 398.73,
-    "change_pct": -0.47,
+    "price": 406.13,
+    "change_pct": 3.47,
     "name": "TSLA",
-    "updated_at": "2026-05-07T06:43:52.320751"
+    "updated_at": "2026-05-07T12:46:42.413142"
   },
   "QQQ": {
-    "price": 695.77,
-    "change_pct": 7.23,
+    "price": 693.75,
+    "change_pct": 7.26,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-07T06:43:52.320758"
+    "updated_at": "2026-05-07T12:46:42.413147"
   },
   "BTC-USD": {
-    "price": 80960.88,
-    "change_pct": 4.53,
+    "price": 79904.77,
+    "change_pct": 3.16,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-07T06:43:52.320764"
+    "updated_at": "2026-05-07T12:46:42.413152"
   }
 },
   tickerScores: [
@@ -225,13 +225,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "COIN",
+    "total_score": 202.0,
+    "raw_mention_count": 3,
+    "unique_sources": 1,
+    "podcast_mentions": 3,
+    "newsletter_mentions": 0,
+    "rank": 11,
+    "score": 202.0,
+    "mentions": 3,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "COPPER",
     "total_score": 194.0,
     "raw_mention_count": 3,
     "unique_sources": 1,
     "podcast_mentions": 3,
     "newsletter_mentions": 0,
-    "rank": 11,
+    "rank": 12,
     "score": 194.0,
     "mentions": 3,
     "conviction_level": "medium",
@@ -246,7 +261,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 3,
     "newsletter_mentions": 0,
-    "rank": 12,
+    "rank": 13,
     "score": 190.0,
     "mentions": 3,
     "conviction_level": "medium",
@@ -261,7 +276,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 13,
+    "rank": 14,
     "score": 146.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -276,7 +291,7 @@ const dashboardData = {
     "unique_sources": 2,
     "podcast_mentions": 1,
     "newsletter_mentions": 12,
-    "rank": 14,
+    "rank": 15,
     "score": 145.0,
     "mentions": 13,
     "conviction_level": "medium",
@@ -291,23 +306,8 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 15,
-    "score": 142.0,
-    "mentions": 2,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "COIN",
-    "total_score": 132.0,
-    "raw_mention_count": 2,
-    "unique_sources": 1,
-    "podcast_mentions": 2,
-    "newsletter_mentions": 0,
     "rank": 16,
-    "score": 132.0,
+    "score": 142.0,
     "mentions": 2,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -828,6 +828,26 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 217,
+      "title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-07",
+      "summary": "The podcast discusses the evolution of crypto from an ideological revolution to an integral part of financial infrastructure. It highlights the shift towards product and market-focused founders in the crypto space and the importance of pragmatism over ideology. The conversation also touches on how regulatory clarity and AI are shaping the future of crypto, with a focus on stablecoins and their potential to facilitate transactions conducted by AI agents. The guests emphasize the convergence of AI and crypto, suggesting that crypto could be the technology that empowers AI agents as economic actors within the financial system.",
+      "key_takeaway": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
+      "tickers_mentioned": [
+        "COIN",
+        "VISA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 202
+    },
+    {
       "id": 215,
       "title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
       "source_type": "podcast",
@@ -1008,7 +1028,7 @@ const dashboardData = {
         "HFGM"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-03",
       "archived_date": null,
@@ -4787,6 +4807,42 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 158,
+      "term": "Crypto as Infrastructure",
+      "description": "The concept that crypto is moving from being a revolutionary idea to becoming an integral part of the existing financial infrastructure.",
+      "first_detected_date": "2026-05-07",
+      "last_mentioned_date": "2026-05-07",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies that are building the infrastructure for crypto to integrate with traditional finance.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 202,
+      "first_detected_speaker": "Chris Dixon, Ali Yahya, Eddie Lazzer",
+      "last_mentioned_episode_id": 202,
+      "last_mentioned_speaker": "Chris Dixon, Ali Yahya, Eddie Lazzer"
+    },
+    {
+      "id": 159,
+      "term": "AI Agents as Economic Actors",
+      "description": "The idea that AI will not only be tools for humans but will also become first-class members of the financial system, conducting transactions and making economic decisions.",
+      "first_detected_date": "2026-05-07",
+      "last_mentioned_date": "2026-05-07",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Look for opportunities in technologies that enable AI to participate in economic activities, such as stablecoins and blockchain-based payment systems.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 202,
+      "first_detected_speaker": "Chris Dixon, Ali Yahya, Eddie Lazzer",
+      "last_mentioned_episode_id": 202,
+      "last_mentioned_speaker": "Chris Dixon, Ali Yahya, Eddie Lazzer"
+    },
+    {
       "id": 156,
       "term": "Compounding Talent, Capital, and Culture",
       "description": "The concept of building an organization that not only generates returns but also systematically develops and retains talent, grows capital, and fosters a strong culture over time.",
@@ -7353,6 +7409,29 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 217,
+      "title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-07",
+      "summary": "The podcast discusses the evolution of crypto from an ideological revolution to an integral part of financial infrastructure. It highlights the shift towards product and market-focused founders in the crypto space and the importance of pragmatism over ideology. The conversation also touches on how regulatory clarity and AI are shaping the future of crypto, with a focus on stablecoins and their potential to facilitate transactions conducted by AI agents. The guests emphasize the convergence of AI and crypto, suggesting that crypto could be the technology that empowers AI agents as economic actors within the financial system.",
+      "key_takeaway": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
+      "tickers_mentioned": "[\"COIN\", \"VISA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 202,
+      "episode_release_date": "2026-05-07",
+      "guest_name": "Crypto Fund 5",
+      "key_tickers": [
+        "COIN",
+        "VISA"
+      ]
+    },
+    {
       "id": 215,
       "title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
       "source_type": "podcast",
@@ -7477,28 +7556,6 @@ const dashboardData = {
       "episode_release_date": "2026-05-04",
       "guest_name": "Sarah Rogers",
       "key_tickers": []
-    },
-    {
-      "id": 209,
-      "title": "Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-05-01",
-      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Jacob Pajarni, Co-Chief Investment Officer at Bridgeway Capital Management and portfolio manager of the global opportunities fund. They discuss the differences between investing in new economy stocks, which are often driven by intangible assets, and old economy stocks, where traditional fundamental analysis is more effective. The conversation delves into the limitations of discounted cash flow methods for companies with high levels of intangible capital and how sentiment analysis can provide additional insights into investment opportunities, especially in sectors like energy and Asian markets affected by global events such as the Iran War.",
-      "key_takeaway": "Invest in companies with high levels of intangible capital using a combination of fundamental and sentiment analysis to identify mispriced opportunities, especially in sectors affected by global events.",
-      "tickers_mentioned": "[\"HFGM\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-03",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 191,
-      "episode_release_date": "2026-05-01",
-      "guest_name": "Why Fundamentals Fail the New Economy",
-      "key_tickers": [
-        "HFGM"
-      ]
     },
     {
       "id": 212,
@@ -7699,6 +7756,58 @@ const dashboardData = {
       "last_mentioned_podcast": null,
       "last_mentioned_episode_title": null,
       "last_mentioned_episode_date": null
+    },
+    {
+      "id": 158,
+      "term": "Crypto as Infrastructure",
+      "description": "The concept that crypto is moving from being a revolutionary idea to becoming an integral part of the existing financial infrastructure.",
+      "first_detected_date": "2026-05-07",
+      "last_mentioned_date": "2026-05-07",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies that are building the infrastructure for crypto to integrate with traditional finance.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 202,
+      "first_detected_speaker": "Chris Dixon, Ali Yahya, Eddie Lazzer",
+      "last_mentioned_episode_id": 202,
+      "last_mentioned_speaker": "Chris Dixon, Ali Yahya, Eddie Lazzer",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
+      "first_detected_episode_date": "2026-05-07",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
+      "last_mentioned_episode_date": "2026-05-07"
+    },
+    {
+      "id": 159,
+      "term": "AI Agents as Economic Actors",
+      "description": "The idea that AI will not only be tools for humans but will also become first-class members of the financial system, conducting transactions and making economic decisions.",
+      "first_detected_date": "2026-05-07",
+      "last_mentioned_date": "2026-05-07",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Look for opportunities in technologies that enable AI to participate in economic activities, such as stablecoins and blockchain-based payment systems.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 202,
+      "first_detected_speaker": "Chris Dixon, Ali Yahya, Eddie Lazzer",
+      "last_mentioned_episode_id": 202,
+      "last_mentioned_speaker": "Chris Dixon, Ali Yahya, Eddie Lazzer",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
+      "first_detected_episode_date": "2026-05-07",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
+      "last_mentioned_episode_date": "2026-05-07"
     },
     {
       "id": 156,
@@ -7918,58 +8027,6 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Efficiency in drug development can significantly affect a company's profitability and competitive advantage.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.85,
-      "resonance_pct": 21,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 138,
-      "term": "AI CapEx",
-      "description": "Capital expenditure focused on artificial intelligence technologies, indicating a strategic investment in AI infrastructure and development.",
-      "first_detected_date": "2026-04-30",
-      "last_mentioned_date": "2026-04-30",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider AI CapEx as a significant growth area with potential for high returns.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.85,
-      "resonance_pct": 21,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 139,
-      "term": "Co-Investing",
-      "description": "A strategy where an investor participates alongside other investors, typically in a hedge fund or private equity deal, sharing in both the profits and risks.",
-      "first_detected_date": "2026-04-30",
-      "last_mentioned_date": "2026-04-30",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Co-investing can offer significant upside potential for investors who are able to access such deals.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -20970,12 +21027,84 @@ const dashboardData = {
     "key_tickers": [
       "N/A"
     ]
+  },
+  "217": {
+    "id": 207,
+    "insight_id": 217,
+    "podcast_episode_id": 202,
+    "overview": "The debate around crypto's role in the financial ecosystem is shifting from whether it can disrupt traditional systems to how it can integrate and add value. The importance of this shift lies in the potential for crypto to become a foundational technology for financial transactions, especially with the advent of AI and its ability to act as an economic agent. The integration of crypto with traditional systems, facilitated by regulatory clarity, positions it not as a replacement but as a complement that enhances efficiency and accessibility in global finance.",
+    "key_takeaways_detailed": [
+      "Invest in projects that are driving the practical adoption of crypto in payments and financial markets, as indicated by the growth in stablecoin usage.",
+      "Look for opportunities in crypto projects that provide regulatory clarity and consumer protection, which are likely to gain mainstream traction.",
+      "Consider the intersection of AI and crypto, as AI's ability to act as an economic agent may be significantly empowered by crypto technologies.",
+      "Monitor the development and adoption of on-chain finance, which shows potential for disrupting traditional financial instruments."
+    ],
+    "investment_thesis": "The core logic is that crypto is transitioning from an ideological movement to a pragmatic technology that enhances traditional financial systems. The timeframe is immediate to medium-term, as regulatory clarity and market adoption are already showing positive trends. For this thesis to hold, crypto must continue to gain mainstream acceptance, regulatory frameworks must support growth, and the integration of AI with crypto must demonstrate tangible benefits.",
+    "ticker_analysis": {
+      "COIN": {
+        "rationale": "Coinbase, as a major cryptocurrency exchange, is directly increased mainstream adoption and regulatory clarity in the crypto space.",
+        "positioning": "Strategic long position, as the growth in crypto transactions and assets under management is likely to benefit Coinbase.",
+        "risk": "Regulatory changes that hinder crypto exchanges or a significant downturn in crypto markets could impact Coinbase's business."
+      },
+      "SQ": {
+        "rationale": "Square, now Block, Inc., has shown significant interest in crypto and blockchain technology, including the development of a decentralized financial services business.",
+        "positioning": "Tactical long position, as Square's foray into crypto could offer short-term gains based on market sentiment and regulatory developments.",
+        "risk": "The risk includes Square's ability to successfully integrate and innovate within the crypto space amidst competition."
+      }
+    },
+    "positioning_guidance": "A balanced portfolio should include a mix of strategic long positions in established crypto players and tactical positions in companies exploring crypto integration. The time horizon for these investments should align with the expected timeline for regulatory clarity and market adoption.",
+    "risk_factors": [
+      "Unexpected regulatory hurdles that could slow down or reverse the integration of crypto into financial systems.",
+      "A potential market downturn that could affect the valuations of crypto-related companies.",
+      "Technological setbacks or security breaches that could undermine trust in crypto platforms and assets."
+    ],
+    "contrarian_signals": [
+      "Continued skepticism from traditional financial institutions about the value and stability of crypto assets.",
+      "Lack of significant progress in the development and adoption of AI as an economic actor within the financial system.",
+      "A shift in investor sentiment away from tech disruptors towards more established financial technologies."
+    ],
+    "catalysts": [
+      "The passage of the 'Senate and Public Clarity Act' or similar comprehensive regulatory frameworks.",
+      "Announcements from major financial institutions about the tokenization of traditional financial instruments.",
+      "Significant partnerships or acquisitions that signal the integration of AI and crypto technologies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-07T12:45:57.728025",
+    "updated_at": "2026-05-07 17:45:57",
+    "episode_evidence": "The podcast from A16Z Crypto Partners provides a detailed perspective on the evolution of crypto, emphasizing the shift from an ideological stance to a more pragmatic approach that integrates with existing financial systems. Chris Dixon, founder and managing partner, highlights the growth of stablecoins, stating, 'There's not 300 billion in issued stablecoins, the volume of transactions rivals large payment networks like Visa.' This growth is significant as it indicates a practical adoption of crypto in payments, separate from the volatility of trading volumes. Dixon also underscores the importance of regulatory clarity, mentioning the Genius Act, which provided a framework for stablecoins, and the potential for the 'Senate and Public Clarity Act' to extend this to other areas of crypto. Eddie Lazzer adds to this by discussing the cultural shift from a revolutionary to an integrative approach, noting, 'The vibe back then... was that crypto was going to be a revolutionary movement primarily.' This change in approach is crucial as it aligns with the practical adoption of crypto in financial markets and the potential for AI to interact with these systems.",
+    "falsification_tracks": [
+      "If the volume of transactions in stablecoins were to decline significantly or not grow as expected, it would challenge the narrative of mainstream adoption.",
+      "Should the regulatory environment become less favorable or uncertain, particularly with the failure of the 'Senate and Public Clarity Act' or similar legislation, it could hinder the integration of crypto into financial infrastructure.",
+      "A significant security breach or loss of trust in stablecoins, similar to past incidents like the FTX crash, would undermine the argument for their role in payments and financial markets."
+    ],
+    "insight_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
+    "source_name": "The a16z Show",
+    "source_date": "2026-05-07",
+    "key_tickers": [
+      "COIN",
+      "VISA"
+    ]
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 3451,
+    "id": 3494,
+    "name": "Crypto Fund 5",
+    "slug": "crypto-fund-5",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
+    "last_episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-07",
+    "appearance_count": 1
+  },
+  {
+    "id": 3495,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -20987,7 +21116,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3452,
+    "id": 3496,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -20999,7 +21128,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3453,
+    "id": 3497,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -21011,7 +21140,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3454,
+    "id": 3498,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -21023,7 +21152,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3455,
+    "id": 3499,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -21035,7 +21164,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3456,
+    "id": 3500,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -21047,7 +21176,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3457,
+    "id": 3501,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -21059,7 +21188,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3458,
+    "id": 3502,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -21071,7 +21200,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3459,
+    "id": 3503,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -21083,7 +21212,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3460,
+    "id": 3504,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -21095,7 +21224,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3461,
+    "id": 3505,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -21107,7 +21236,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3462,
+    "id": 3506,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -21119,7 +21248,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3463,
+    "id": 3507,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -21131,7 +21260,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3464,
+    "id": 3508,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -21143,7 +21272,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3465,
+    "id": 3509,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -21155,7 +21284,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3466,
+    "id": 3510,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -21167,7 +21296,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3467,
+    "id": 3511,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -21179,7 +21308,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3468,
+    "id": 3512,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -21191,7 +21320,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3469,
+    "id": 3513,
     "name": "Building Agents at Home",
     "slug": "building-agents-at-home",
     "bio": null,
@@ -21200,18 +21329,6 @@ const dashboardData = {
     "last_episode_title": "Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
-    "appearance_count": 1
-  },
-  {
-    "id": 3470,
-    "name": "\"The Best Time to Invest\"",
-    "slug": "the-best-time-to-invest",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in software companies that define the market, focusing on backing scale-ready leaders, providing liquidity to early investors, and helping companies make strategic decisions.",
-    "last_episode_title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-09",
     "appearance_count": 1
   }
 ],
@@ -21407,6 +21524,72 @@ const dashboardData = {
       ]
     },
     "net_worth": "$12.3M"
+  },
+  {
+    "id": 133,
+    "name": "Chris Dixon",
+    "slug": "chris-dixon",
+    "bio": "Chris Dixon is the Founder and Managing Partner at a16z Crypto, a venture capital firm that focuses on crypto and blockchain technology. He is known for his early investment in Coinbase and his perspective on the evolution of cryptocurrency and blockchain technology.",
+    "known_for": "His investment in Coinbase and his views on the practical applications of blockchain technology.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://blockchainreporter.net/net-worth/chris-dixon/",
+    "net_worth_updated_at": "2026-03-28T22:05:07.528099",
+    "voice_tone": "Confident and insightful",
+    "voice_style": "Logical and future-oriented",
+    "voice_delivery_notes": "Paced with emphasis on key points",
+    "voice_profile_updated_at": "2026-05-07 17:45:01",
+    "last_seen": "2026-05-07 17:45:01",
+    "last_episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-07",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
+    "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
+    "supporting_takeaway": "Stablecoins have seen significant growth, indicating mainstream traction and providing a regulatory framework.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-07T12:45:13.021332",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Chris Dixon",
+      "fetched_at": "2026-05-07T17:45:13.020994+00:00",
+      "cliff_notes": "Chris Dixon is a prominent venture capitalist and entrepreneur with a focus on technology and innovation. He began his career as a software engineer and later founded SiteAdvisor, which was acquired by McAfee. Dixon also co-founded Hunch, which was later acquired by eBay. His interest in blockchain technology led him to become an early investor in Coinbase, one of the leading cryptocurrency exchanges. Dixon is currently the Founder and Managing Partner at a16z Crypto, a venture capital firm that invests in crypto and blockchain technology. He is known for his pragmatic approach to technology, emphasizing the importance of product development and market strategy in the success of new technologies.",
+      "derived": {
+        "current_role": "Founder and Managing Partner at a16z Crypto",
+        "former_positions": "Hunch (acquired by eBay); Founder of SiteAdvisor (acquired by McAfee);",
+        "education": "Brown University; Columbia Law School"
+      },
+      "infobox": {
+        "Born": "1978",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Chris Dixon is a prominent venture capitalist and entrepreneur with a focus on technology and innovation. He began his career as a software engineer and later founded SiteAdvisor, which was acquired by McAfee. Dixon also co-founded Hunch, which was later acquired by eBay. His interest in blockchain technology led him to become an early investor in Coinbase, one of the leading cryptocurrency exchanges.",
+        "Dixon is currently the Founder and Managing Partner at a16z Crypto, a venture capital firm that invests in crypto and blockchain technology. He is known for his pragmatic approach to technology, emphasizing the importance of product development and market strategy in the success of new technologies."
+      ],
+      "sections": [
+        {
+          "heading": "Investment in Coinbase",
+          "body": "Chris Dixon is known for his early investment in Coinbase, one of the leading cryptocurrency exchanges. His investment and support have contributed to the growth and success of the platform."
+        },
+        {
+          "heading": "Practical Approach to Crypto",
+          "body": "Dixon emphasizes the importance of a pragmatic approach to cryptocurrency and blockchain technology. He believes that the most successful founders will be those who focus on product development and market strategy, rather than ideological pursuits."
+        },
+        {
+          "heading": "Evolution of Cryptocurrency",
+          "body": "Chris Dixon has a unique perspective on the evolution of cryptocurrency. He views it as a shift from a revolutionary ideology to a practical infrastructure that can work within existing systems, rather than trying to overthrow them."
+        },
+        {
+          "heading": "Onboarding Users to Blockchain",
+          "body": "Dixon believes that the key to widespread adoption of blockchain technology is onboarding a large number of users through practical applications such as stocks, bonds, payments, and remittances. Once users are familiar with the infrastructure, it becomes easier to offer adjacent services."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
   },
   {
     "id": 209,
@@ -21956,7 +22139,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -21964,6 +22147,132 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 234,
+    "name": "Ali Yahya",
+    "slug": "ali-yahya",
+    "bio": "Ali Yahya is a General Partner at a16z Crypto, where he has been involved since the inception of the firm's crypto efforts. He is known for his role in shaping the investment strategy and vision of a16z Crypto, focusing on the intersection of technology, finance, and the practical application of blockchain technology.",
+    "known_for": "His influence on a16z Crypto's investment strategy and his pragmatic approach to blockchain technology adoption.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Thoughtful and measured",
+    "voice_style": "Analytical with a focus on market trends",
+    "voice_delivery_notes": "Clear and concise with strategic pauses",
+    "voice_profile_updated_at": "2026-05-07 17:45:01",
+    "last_seen": "2026-05-07 17:45:01",
+    "last_episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-07",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
+    "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
+    "supporting_takeaway": "Stablecoins have seen significant growth, indicating mainstream traction and providing a regulatory framework.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-07T12:45:23.465890",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ali Yahya",
+      "fetched_at": "2026-05-07T17:45:23.465726+00:00",
+      "cliff_notes": "Ali Yahya is a prominent figure in the world of venture capital and cryptocurrency, particularly within the a16z Crypto firm. As a General Partner, he has been instrumental in developing the firm's investment strategy since its inception. Yahya's focus has been on the practical application of blockchain technology, advocating for a pragmatic approach that sees crypto not as a revolutionary overthrow of existing systems but as a complementary infrastructure that can enhance and work within the current financial ecosystem. His vision emphasizes the importance of product focus and go-to-market strategies, aiming to onboard a billion users through various applications such as stocks, bonds, payments, and remittances. Yahya's career has been marked by his ability to identify and nurture technologies that transition from theoretical concepts to practical, everyday use, making him a significant voice in the evolution of blockchain and cryptocurrency.",
+      "derived": {
+        "current_role": "General Partner at a16z Crypto"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ali Yahya is a prominent figure in the world of venture capital and cryptocurrency, particularly within the a16z Crypto firm. As a General Partner, he has been instrumental in developing the firm's investment strategy since its inception. Yahya's focus has been on the practical application of blockchain technology, advocating for a pragmatic approach that sees crypto not as a revolutionary overthrow of existing systems but as a complementary infrastructure that can enhance and work within the current financial ecosystem.",
+        "His vision emphasizes the importance of product focus and go-to-market strategies, aiming to onboard a billion users through various applications such as stocks, bonds, payments, and remittances. Yahya's career has been marked by his ability to identify and nurture technologies that transition from theoretical concepts to practical, everyday use, making him a significant voice in the evolution of blockchain and cryptocurrency."
+      ],
+      "sections": [
+        {
+          "heading": "Crypto Investment Strategy",
+          "body": "Ali Yahya is recognized for his role in shaping a16z Crypto's investment strategy, focusing on the practical integration of blockchain technology into existing financial systems."
+        },
+        {
+          "heading": "Pragmatic Approach",
+          "body": "Yahya advocates for a pragmatic approach to blockchain technology, emphasizing the need for it to work within the current system rather than attempting to overthrow it."
+        },
+        {
+          "heading": "User Onboarding",
+          "body": "He believes in the importance of onboarding a billion users to blockchain technology through various financial applications, such as stocks, bonds, and payments."
+        },
+        {
+          "heading": "Transition from Ideology to Infrastructure",
+          "body": "Yahya sees the evolution of crypto from being framed as a revolution to becoming an integral part of the financial infrastructure, reflecting a shift in the industry's trajectory."
+        }
+      ]
+    }
+  },
+  {
+    "id": 235,
+    "name": "Eddie Lazzer",
+    "slug": "eddie-lazzer",
+    "bio": "Eddie Lazzer is the Chief Technology Officer and General Partner at a16z Crypto, a venture capital firm focused on cryptocurrency and blockchain technologies. He is known for his technical expertise and contributions to the field, helping to shape the trajectory of crypto from an ideological revolution to a practical infrastructure.",
+    "known_for": "His role in guiding a16z Crypto's investments and his insights on the evolution of cryptocurrency from an ideological to a practical infrastructure.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Technical and detailed",
+    "voice_style": "Factual with a focus on technology's role in crypto.",
+    "voice_delivery_notes": "Methodical with a steady pace",
+    "voice_profile_updated_at": "2026-05-07 17:45:01",
+    "last_seen": "2026-05-07 17:45:01",
+    "last_episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-07",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
+    "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
+    "supporting_takeaway": "Stablecoins have seen significant growth, indicating mainstream traction and providing a regulatory framework.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-07T12:45:33.295801",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Eddie Lazzer",
+      "fetched_at": "2026-05-07T17:45:33.295646+00:00",
+      "cliff_notes": "Eddie Lazzer has been instrumental in the development and investment strategies of a16z Crypto, a venture capital firm that focuses on cryptocurrency and blockchain technologies. As the Chief Technology Officer and General Partner, Lazzer has been at the forefront of the firm's efforts to understand and capitalize on the evolving landscape of digital currencies. His contributions have been pivotal in positioning a16z Crypto as a leading investor in the space, and his insights have helped shape the discourse around the practical applications of blockchain technology. Lazzer's career has been marked by a deep understanding of the technical aspects of blockchain and a pragmatic approach to its integration into existing financial systems, rather than a radical overhaul.",
+      "derived": {
+        "current_role": "Chief Technology Officer and General Partner at a16z Crypto"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Eddie Lazzer has been instrumental in the development and investment strategies of a16z Crypto, a venture capital firm that focuses on cryptocurrency and blockchain technologies. As the Chief Technology Officer and General Partner, Lazzer has been at the forefront of the firm's efforts to understand and capitalize on the evolving landscape of digital currencies.",
+        "His contributions have been pivotal in positioning a16z Crypto as a leading investor in the space, and his insights have helped shape the discourse around the practical applications of blockchain technology. Lazzer's career has been marked by a deep understanding of the technical aspects of blockchain and a pragmatic approach to its integration into existing financial systems, rather than a radical overhaul."
+      ],
+      "sections": [
+        {
+          "heading": "Cryptocurrency Investment",
+          "body": "Eddie Lazzer has been a key figure in identifying and investing in promising cryptocurrency projects, helping a16z Crypto become a significant player in the industry."
+        },
+        {
+          "heading": "Blockchain Technology",
+          "body": "Lazzer's technical expertise in blockchain has been crucial in guiding a16z Crypto's investment decisions and in understanding the technology's potential impact on various sectors."
+        },
+        {
+          "heading": "Pragmatic Approach",
+          "body": "Lazzer advocates for a pragmatic approach to blockchain and cryptocurrency, focusing on integration with existing systems rather than ideological overhauls."
+        },
+        {
+          "heading": "Product and Market Focus",
+          "body": "He emphasizes the importance of product development and market strategy in the success of crypto startups, moving away from purely ideological motivations."
+        }
+      ]
+    }
   },
   {
     "id": 232,
@@ -22107,7 +22416,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -23931,7 +24240,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -25978,72 +26287,6 @@ const dashboardData = {
     "net_worth": "$2.00B"
   },
   {
-    "id": 133,
-    "name": "Chris Dixon",
-    "slug": "chris-dixon",
-    "bio": "Chris Dixon is a general partner at Andreessen Horowitz (A16Z), known for his leading investments in Oculus and Coinbase, and for building A16Z's dedicated crypto practice. He is also the co-founder of internet security company SiteAdvisor and AI company Hunch.",
-    "known_for": "His pivotal investments in Oculus and Coinbase, and his role in establishing A16Z's crypto practice.",
-    "net_worth_usd": 500000000.0,
-    "net_worth_source": "https://blockchainreporter.net/net-worth/chris-dixon/",
-    "net_worth_updated_at": "2026-03-28T22:05:07.528099",
-    "voice_tone": "Reflective and informative",
-    "voice_style": "Shares personal anecdotes and industry insights with a storytelling approach",
-    "voice_delivery_notes": "Paced with emphasis on key points, such as personal experiences and investment philosophies",
-    "voice_profile_updated_at": "2026-03-29 03:04:14",
-    "last_seen": "2026-03-29 03:04:14",
-    "last_episode_title": "the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-28",
-    "mention_score": 1,
-    "mention_score_decayed": 0.41,
-    "last_main_idea": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
-    "last_proof_snippet": "Dixon's investment philosophy emphasizes betting on people rather than trying to predict tech trends.",
-    "supporting_takeaway": "Dixon's investment philosophy emphasizes betting on people rather than trying to predict tech trends.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T22:05:06.552638",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Chris Dixon",
-      "fetched_at": "2026-03-29T03:05:06.552464+00:00",
-      "cliff_notes": "Chris Dixon's career began with a passion for technology, teaching himself programming languages as a child. After college, he worked in quant finance, writing Monte Carlo simulations for an options market-making firm in New York. This experience led him to co-found SiteAdvisor, an internet security company, which was later sold to McAfee in 2006. Two years later, he founded Hunch, an AI company based on neural networks, which was acquired by eBay in 2011. In 2013, Dixon joined Andreessen Horowitz, where he played a significant role in the firm's investments, notably leading a $75 million round for Oculus and making an early investment in Coinbase. His work at A16Z has been instrumental in the establishment of the firm's dedicated crypto practice, which is now in its fourth fund. Dixon's journey from quant finance to tech investing and his influence in the crypto space have made him a notable figure in the tech and finance industries.",
-      "derived": {
-        "current_role": "General Partner at Andreessen Horowitz",
-        "former_positions": "Co-founder of SiteAdvisor; Co-founder of Hunch"
-      },
-      "infobox": {
-        "Born": "Ohio",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Chris Dixon's career began with a passion for technology, teaching himself programming languages as a child. After college, he worked in quant finance, writing Monte Carlo simulations for an options market-making firm in New York. This experience led him to co-found SiteAdvisor, an internet security company, which was later sold to McAfee in 2006.",
-        "Two years later, he founded Hunch, an AI company based on neural networks, which was acquired by eBay in 2011. In 2013, Dixon joined Andreessen Horowitz, where he played a significant role in the firm's investments, notably leading a $75 million round for Oculus and making an early investment in Coinbase. His work at A16Z has been instrumental in the establishment of the firm's dedicated crypto practice, which is now in its fourth fund.",
-        "Dixon's journey from quant finance to tech investing and his influence in the crypto space have made him a notable figure in the tech and finance industries."
-      ],
-      "sections": [
-        {
-          "heading": "Early Career",
-          "body": "Chris Dixon began his career in quant finance, writing Monte Carlo simulations for an options market-making firm in New York, before co-founding SiteAdvisor, an internet security company."
-        },
-        {
-          "heading": "SiteAdvisor and Hunch",
-          "body": "Dixon co-founded SiteAdvisor, which was later sold to McAfee, and Hunch, an AI company, which was acquired by eBay. These ventures established him as a successful entrepreneur."
-        },
-        {
-          "heading": "Investment in Oculus and Coinbase",
-          "body": "At Andreessen Horowitz, Dixon led a $75 million investment in Oculus and made an early investment in Coinbase, both of which have become significant players in their respective industries."
-        },
-        {
-          "heading": "Cryptocurrency and A16Z",
-          "body": "Dixon has been instrumental in building A16Z's dedicated crypto practice, which is now in its fourth fund, showcasing his foresight and influence in the cryptocurrency space."
-        }
-      ]
-    },
-    "net_worth": "$500.0M"
-  },
-  {
     "id": 132,
     "name": "David Freiberg",
     "slug": "david-freiberg",
@@ -26563,7 +26806,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -26623,7 +26866,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -26683,7 +26926,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",
