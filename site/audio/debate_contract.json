@@ -1,46 +1,115 @@
 {
-  "prompt": "Will any presidential candidate win outright in the first round of the Colombia's election by Jun 12, 2026?",
-  "expires_rule": "Resolves Friday 12:00 PM CST 2026-06-12",
-  "crux_theme": "Colombia election outcome",
+  "prompt": "Will any presidential candidate win outright in the first round of the Brazil election within the next 42 days?",
+  "expires_rule": "Resolves Friday 12:00 PM CST 2026-06-19",
+  "crux_theme": "Brazilian election dynamics",
   "resolution_clarity": {
-    "source_of_truth": "Official election results from the Colombian government or election commission",
+    "source_of_truth": "Official Brazilian Electoral Commission",
     "resolution_sources": [
-      "http://www.cne.gov.co/",
-      "https://www.adicional.presidencia.gov.co/",
-      "http://www.minjusticia.gov.co/"
+      "https://www.tse.jus.br/",
+      "https://agenciabrasil.ebc.com.br/",
+      "http://portal.imprensanacional.org.br/"
     ],
     "resolution_criteria": [
-      "Official announcement of election results",
-      "Major news agencies reporting the official results",
-      "A candidate securing more than 50% of the valid votes in the first round"
+      "Official election results announcement from the Brazilian Electoral Commission (Tribunal Superior Eleitoral) or reputable news agencies like Ag\u00eancia Brasil and Imprensa Nacional."
     ]
   },
   "sides": {
     "a": "Affirmative (YES)",
     "b": "Negative (NO)"
   },
-  "friday_iso": "2026-05-01",
-  "week_label": "Week of 2026-05-01",
-  "debater_a": "Joseph Stiglitz",
-  "debater_b": "Garrett Langley",
-  "generated_at": "2026-05-01T05:08:50.459675",
+  "friday_iso": "2026-05-08",
+  "week_label": "Week of 2026-05-08",
+  "debater_a": "Jared Isaacman",
+  "debater_b": "Tony James",
+  "generated_at": "2026-05-08T06:50:25.429271",
   "bet_status": "open",
   "audio_href": "./audio/emp_ai_the_debate_11labs.mp3",
   "debater_a_snapshot": {
-    "name": "Joseph Stiglitz",
-    "known_for": "Author of 'Road to Freedom, Economics, and the Good Society'",
-    "bio": "Nobel Laureate Economist and Professor at Columbia University",
-    "last_main_idea": "The current geopolitical tensions and the rise of AI technology present both risks and opportunities, with the potential for economic disruption and the need for strategic investment in sectors less affected by AI.",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-11"
+    "name": "Jared Isaacman",
+    "known_for": "Leading NASA's efforts to return to the moon and establish a permanent presence, emphasizing national security and economic potential.",
+    "bio": "Jared Isaacman is the NASA Administrator, responsible for overseeing NASA's space exploration programs. He is known for his commitment to returning to the moon and establishing a permanent presence there, emphasizing the importance of America's leadership in space exploration.",
+    "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-06",
+    "net_worth": "$1.40B",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jared Isaacman",
+      "fetched_at": "2026-05-06T17:35:54.889908+00:00",
+      "cliff_notes": "Jared Isaacman serves as the NASA Administrator, tasked with overseeing the agency's space exploration programs. His tenure has been marked by a renewed focus on returning to the moon, a mission that holds significant scientific, economic, and national security implications. Isaacman has emphasized the importance of not only landing on the moon but also building the necessary infrastructure and systems to maintain a permanent presence. This approach aligns with broader goals of space dominance and the desire to outpace international rivals in lunar exploration and resource utilization. His leadership at NASA is seen as crucial in shaping the future of space exploration and maintaining America's competitive edge in the new space race.",
+      "derived": {
+        "current_role": "NASA Administrator"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Jared Isaacman serves as the NASA Administrator, tasked with overseeing the agency's space exploration programs. His tenure has been marked by a renewed focus on returning to the moon, a mission that holds significant scientific, economic, and national security implications. Isaacman has emphasized the importance of not only landing on the moon but also building the necessary infrastructure and systems to maintain a permanent presence.",
+        "This approach aligns with broader goals of space dominance and the desire to outpace international rivals in lunar exploration and resource utilization. His leadership at NASA is seen as crucial in shaping the future of space exploration and maintaining America's competitive edge in the new space race."
+      ],
+      "sections": [
+        {
+          "heading": "Moon Mission",
+          "body": "Isaacman has been a driving force behind NASA's mission to return to the moon, with a focus on establishing a sustainable presence and exploring the lunar surface for scientific and economic opportunities."
+        },
+        {
+          "heading": "National Security",
+          "body": "He has underscored the importance of lunar missions for national security, arguing that America must not cede lunar real estate to rivals and that a moon base is a strategic asset."
+        },
+        {
+          "heading": "Space Race",
+          "body": "Isaacman views the current efforts in space as a new space race, where the challenge is not just reaching the moon but also creating the capability for regular lunar surface operations, which is crucial for maintaining a lead in space exploration."
+        }
+      ]
+    }
   },
   "debater_b_snapshot": {
-    "name": "Garrett Langley",
-    "known_for": "Developing a neighborhood safety system that evolved into a nationwide real-time crime prevention platform.",
-    "bio": "Founder of Flock Safety, an electrical engineer turned entrepreneur.",
-    "last_main_idea": "Investing in technology that enhances real-time crime prevention and clearance rates can lead to more effective law enforcement and safer communities.",
+    "name": "Tony James",
+    "known_for": "His leadership in transforming Blackstone into a leading global investment firm and his influence on the development of private markets.",
+    "bio": "Tony James is a prominent figure in the world of finance, known for his role as the former President and COO of Blackstone, where he played a pivotal part in transforming the firm into a trillion-dollar asset manager. His career has been instrumental in the evolution of modern private markets.",
+    "last_main_idea": "Building a successful investment organization requires compounding talent, capital, and culture over time, focusing on long-term growth rather than short-term gains.",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-11"
+    "last_episode_date": "2026-05-05",
+    "net_worth": "$4.20B",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Tony James",
+      "fetched_at": "2026-05-06T04:46:22.401279+00:00",
+      "cliff_notes": "Tony James has had a distinguished career in finance, particularly in the realm of private markets. He joined Blackstone in 2002 and served as its President and COO, playing a significant role in the firm's growth into a trillion-dollar asset manager. His tenure at Blackstone was marked by a focus on compounding talent, capital, and culture, which has been attributed to the firm's enduring success. Prior to Blackstone, James held various roles at DLJ, contributing to his expertise in finance. His career has been a testament to the importance of foresight and strategic execution in the financial sector, and he has been a key figure in shaping the modern landscape of private markets.",
+      "derived": {
+        "current_role": "Vice Chairman of Blackstone; Executive Chairman of Blackstone\u2019s Credit Platform",
+        "former_positions": "President and COO of Blackstone; various roles at DLJ",
+        "boards": "Board member of Costco Wholesale Corporation",
+        "education": "Harvard Business School; Harvard College"
+      },
+      "infobox": {
+        "Born": "1950",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Tony James has had a distinguished career in finance, particularly in the realm of private markets. He joined Blackstone in 2002 and served as its President and COO, playing a significant role in the firm's growth into a trillion-dollar asset manager. His tenure at Blackstone was marked by a focus on compounding talent, capital, and culture, which has been attributed to the firm's enduring success.",
+        "Prior to Blackstone, James held various roles at DLJ, contributing to his expertise in finance. His career has been a testament to the importance of foresight and strategic execution in the financial sector, and he has been a key figure in shaping the modern landscape of private markets."
+      ],
+      "sections": [
+        {
+          "heading": "Leadership at Blackstone",
+          "body": "Tony James served as President and COO of Blackstone, contributing to its transformation into a leading global investment firm with over a trillion dollars in assets under management."
+        },
+        {
+          "heading": "Private Markets Evolution",
+          "body": "Throughout his career, James has been at the forefront of the evolution of private markets, influencing the industry's growth and development."
+        },
+        {
+          "heading": "Strategic Vision",
+          "body": "His strategic vision and focus on long-term value creation have been key to the success of the organizations he has led, particularly Blackstone."
+        }
+      ]
+    }
   },
-  "prompt_hash": "215ed7c9adb3c2e8"
+  "prompt_hash": "3246fdeae917b883"
 }
