@@ -209,7 +209,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -815,6 +815,71 @@
     "pundit_profile": null
   },
   {
+    "id": 240,
+    "name": "David Reich",
+    "slug": "david-reich",
+    "bio": "David Reich is a renowned geneticist and professor of ancient DNA at Harvard University. His research focuses on human genetics and evolution, utilizing ancient DNA to trace human history and understand the genetic basis of human traits. His work has significantly advanced our understanding of human biology and its changes over time.",
+    "known_for": "His groundbreaking research in ancient DNA and the genetic basis of human traits, which has revolutionized our understanding of human history and evolution.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-08 18:40:08",
+    "last_episode_title": "David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-05-08",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
+    "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
+    "supporting_takeaway": "A novel methodology combining large datasets and a selection statistic was used to identify genetic variants under selection.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-08T13:40:19.868286",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "David Reich",
+      "fetched_at": "2026-05-08T18:40:19.867947+00:00",
+      "cliff_notes": "David Reich is a leading expert in human genetics and evolution, known for his pioneering work in the field of ancient DNA. His research has allowed scientists to trace human history and understand how people's biology has changed over time by extracting DNA from ancient human remains. Reich's work has been instrumental in uncovering new insights into human evolution, population movements, and the genetic basis of human traits. His contributions have not only advanced scientific knowledge but also hold implications for fields such as medicine, anthropology, and history.",
+      "derived": {
+        "current_role": "Professor of Ancient DNA at Harvard University",
+        "books_or_works": "Books and publications include his work on ancient DNA and human genetics.",
+        "teaching_summary": "Professor of Ancient DNA at Harvard University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "David Reich is a leading expert in human genetics and evolution, known for his pioneering work in the field of ancient DNA. His research has allowed scientists to trace human history and understand how people's biology has changed over time by extracting DNA from ancient human remains. Reich's work has been instrumental in uncovering new insights into human evolution, population movements, and the genetic basis of human traits.",
+        "His contributions have not only advanced scientific knowledge but also hold implications for fields such as medicine, anthropology, and history."
+      ],
+      "sections": [
+        {
+          "heading": "Ancient DNA Research",
+          "body": "David Reich is known for his work in extracting and analyzing ancient DNA, which has provided new insights into human history and evolution."
+        },
+        {
+          "heading": "Genetic Basis of Human Traits",
+          "body": "Reich's research has contributed to understanding the genetic basis of various human traits and how they have evolved over time."
+        },
+        {
+          "heading": "Human Evolution",
+          "body": "His work has been pivotal in uncovering the genetic history of human populations and how they relate to ancient peoples and those living today."
+        },
+        {
+          "heading": "Impact on Science",
+          "body": "Reich's research has transformed the field of human genetics, providing a deeper understanding of our biological past and its implications for the present."
+        }
+      ]
+    }
+  },
+  {
     "id": 238,
     "name": "Demis Hassabis",
     "slug": "demis-hassabis",
@@ -956,7 +1021,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -1019,7 +1084,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -1207,7 +1272,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -5152,7 +5217,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -5211,7 +5276,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
@@ -7288,7 +7353,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -7315,7 +7380,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",

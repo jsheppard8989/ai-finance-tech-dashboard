@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-08T12:08:03.440380",
-  chartsVersion: "2026-05-08T12:07:52.446262",
+  generatedAt: "2026-05-08T13:42:17.133315",
+  chartsVersion: "2026-05-08T13:42:05.831697",
   priceSnapshot: {
   "GOOGL": {
-    "price": 397.62,
-    "change_pct": 19.66,
+    "price": 398.7,
+    "change_pct": 19.98,
     "name": "GOOGL",
-    "updated_at": "2026-05-08T12:07:52.445371"
+    "updated_at": "2026-05-08T13:42:05.830975"
   },
   "NVDA": {
-    "price": 215.49,
-    "change_pct": 7.81,
+    "price": 215.17,
+    "change_pct": 7.65,
     "name": "NVDA",
-    "updated_at": "2026-05-08T12:07:52.445395"
+    "updated_at": "2026-05-08T13:42:05.830992"
   },
   "MSFT": {
-    "price": 416.27,
-    "change_pct": -1.86,
+    "price": 415.68,
+    "change_pct": -2.0,
     "name": "MSFT",
-    "updated_at": "2026-05-08T12:07:52.445403"
+    "updated_at": "2026-05-08T13:42:05.831000"
   },
   "BTC": {
-    "price": 79886.82,
-    "change_pct": 2.93,
+    "price": 80102.13,
+    "change_pct": 3.21,
     "name": "BTC",
-    "updated_at": "2026-05-08T12:07:52.445409"
+    "updated_at": "2026-05-08T13:42:05.831005"
   },
   "WTI": {
-    "price": 3.59,
-    "change_pct": 10.8,
+    "price": 3.7,
+    "change_pct": 14.35,
     "name": "WTI",
-    "updated_at": "2026-05-08T12:07:52.445415"
+    "updated_at": "2026-05-08T13:42:05.831011"
   },
   "S&P 500": {
-    "price": 737.27,
-    "change_pct": 4.71,
+    "price": 737.36,
+    "change_pct": 4.73,
     "name": "S&P 500",
-    "updated_at": "2026-05-08T12:07:52.445421"
+    "updated_at": "2026-05-08T13:42:05.831017"
   },
   "META": {
-    "price": 608.76,
-    "change_pct": -8.98,
+    "price": 609.84,
+    "change_pct": -8.82,
     "name": "META",
-    "updated_at": "2026-05-08T12:07:52.445428"
+    "updated_at": "2026-05-08T13:42:05.831022"
   },
   "AMZN": {
-    "price": 273.1,
-    "change_pct": 9.28,
+    "price": 272.28,
+    "change_pct": 8.95,
     "name": "AMZN",
-    "updated_at": "2026-05-08T12:07:52.445434"
+    "updated_at": "2026-05-08T13:42:05.831027"
   },
   "TSLA": {
-    "price": 428.28,
+    "price": 428.27,
     "change_pct": 10.83,
     "name": "TSLA",
-    "updated_at": "2026-05-08T12:07:52.445440"
+    "updated_at": "2026-05-08T13:42:05.831032"
   },
   "QQQ": {
-    "price": 709.52,
-    "change_pct": 10.12,
+    "price": 709.4,
+    "change_pct": 10.1,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-08T12:07:52.445446"
+    "updated_at": "2026-05-08T13:42:05.831037"
   },
   "BTC-USD": {
-    "price": 79886.82,
-    "change_pct": 2.93,
+    "price": 80102.13,
+    "change_pct": 3.21,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-08T12:07:52.445451"
+    "updated_at": "2026-05-08T13:42:05.831042"
   }
 },
   tickerScores: [
@@ -828,6 +828,48 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 220,
+      "title": "David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-05-08",
+      "summary": "In this episode, David Reich discusses groundbreaking research indicating that natural selection has been more active in human evolution over the last 10,000 years than previously thought. The study identified genetic positions that have undergone selection, challenging the notion of quiescent natural selection. This insight alters the understanding of human evolution and adaptation, suggesting that modern humans are still evolving in response to environmental pressures. The research also highlights the role of environmental changes in selection, particularly during the Bronze Age, and the distinction between genetic drift and natural selection.",
+      "key_takeaway": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 206
+    },
+    {
+      "id": 221,
+      "title": "Ben Horowitz on the Next Technology Era",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-08",
+      "summary": "In this episode, the a16z show discusses the stark contrast in AI optimism between China and the U.S., the firm's recent fundraising efforts, and the importance of maintaining American technological leadership. The conversation touches on the integration of AI in government and military applications, the evolving venture capital landscape, and the need for engaging media strategies. The discussion also highlights the potential of robotics and AI to revolutionize industries and the concern over the perception of technology in America.",
+      "key_takeaway": "Invest in companies that align with national interests and technological advancement, particularly in AI, robotics, and frontier technologies.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 205
+    },
+    {
       "id": 217,
       "title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
       "source_type": "podcast",
@@ -941,7 +983,7 @@ const dashboardData = {
         "APO"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-05",
       "archived_date": null,
@@ -1004,7 +1046,7 @@ const dashboardData = {
         "FB"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-04",
       "archived_date": null,
@@ -4847,6 +4889,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 163,
+      "term": "Optimism Gap in AI",
+      "description": "The significant difference in public optimism about AI between China and the U.S., which can influence investment and innovation.",
+      "first_detected_date": "2026-05-08",
+      "last_mentioned_date": "2026-05-08",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider public sentiment when evaluating AI investment opportunities.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 205,
+      "first_detected_speaker": "Ben Horowitz",
+      "last_mentioned_episode_id": 205,
+      "last_mentioned_speaker": "Ben Horowitz"
+    },
+    {
       "id": 160,
       "term": "Strategic Commodity Stockpiling",
       "description": "The act of countries building up physical reserves of commodities to mitigate risks associated with geopolitical tensions.",
@@ -7467,6 +7527,46 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 220,
+      "title": "David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-05-08",
+      "summary": "In this episode, David Reich discusses groundbreaking research indicating that natural selection has been more active in human evolution over the last 10,000 years than previously thought. The study identified genetic positions that have undergone selection, challenging the notion of quiescent natural selection. This insight alters the understanding of human evolution and adaptation, suggesting that modern humans are still evolving in response to environmental pressures. The research also highlights the role of environmental changes in selection, particularly during the Bronze Age, and the distinction between genetic drift and natural selection.",
+      "key_takeaway": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 206,
+      "episode_release_date": "2026-05-08",
+      "guest_name": "David Reich",
+      "key_tickers": []
+    },
+    {
+      "id": 221,
+      "title": "Ben Horowitz on the Next Technology Era",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-08",
+      "summary": "In this episode, the a16z show discusses the stark contrast in AI optimism between China and the U.S., the firm's recent fundraising efforts, and the importance of maintaining American technological leadership. The conversation touches on the integration of AI in government and military applications, the evolving venture capital landscape, and the need for engaging media strategies. The discussion also highlights the potential of robotics and AI to revolutionize industries and the concern over the perception of technology in America.",
+      "key_takeaway": "Invest in companies that align with national interests and technological advancement, particularly in AI, robotics, and frontier technologies.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 205,
+      "episode_release_date": "2026-05-08",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 217,
       "title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
       "source_type": "podcast",
@@ -7574,26 +7674,6 @@ const dashboardData = {
       ]
     },
     {
-      "id": 213,
-      "title": "Building Blackstone, Backing Costco, with Tony James",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-05-05",
-      "summary": "In this episode of the a16z Show, General Partner David Haber interviews Tony James, who has played a pivotal role in the evolution of modern private markets. They discuss the journey of building a successful investment organization, the importance of focusing on compounding talent, capital, and culture over time, and the principles behind enduring success. James shares insights from his career at DLJ and Blackstone, emphasizing the value of unstructured opportunities, learning from changes in the business, and the significance of investment committees in shaping a firm's culture.",
-      "key_takeaway": "Building a successful investment organization requires compounding talent, capital, and culture over time, focusing on long-term growth rather than short-term gains.",
-      "tickers_mentioned": "[\"BX\", \"KKR\", \"APO\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-05",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 199,
-      "episode_release_date": "2026-05-05",
-      "guest_name": "Tony James",
-      "key_tickers": []
-    },
-    {
       "id": 214,
       "title": "Hold Onto Your Butts (And Your Bitcoin)",
       "source_type": "podcast",
@@ -7611,26 +7691,6 @@ const dashboardData = {
       "podcast_episode_id": 198,
       "episode_release_date": "2026-05-05",
       "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 211,
-      "title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-05-04",
-      "summary": "In this episode of the a16z Show, Under Secretary of State for Public Diplomacy Sarah B. Rogers discusses the importance of AI and its impact on free speech and digital freedom. Rogers emphasizes the need for a Western AI stack that prioritizes user consent and operates on rules-based principles. The conversation touches on the challenges of international regulations, the role of public diplomacy in shaping digital freedom, and the strategic importance of maintaining a free and open internet for international relations and commerce.",
-      "key_takeaway": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"FB\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-04",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 195,
-      "episode_release_date": "2026-05-04",
-      "guest_name": "Sarah Rogers",
       "key_tickers": []
     }
   ],
@@ -7808,6 +7868,32 @@ const dashboardData = {
       "last_mentioned_podcast": null,
       "last_mentioned_episode_title": null,
       "last_mentioned_episode_date": null
+    },
+    {
+      "id": 163,
+      "term": "Optimism Gap in AI",
+      "description": "The significant difference in public optimism about AI between China and the U.S., which can influence investment and innovation.",
+      "first_detected_date": "2026-05-08",
+      "last_mentioned_date": "2026-05-08",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider public sentiment when evaluating AI investment opportunities.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 205,
+      "first_detected_speaker": "Ben Horowitz",
+      "last_mentioned_episode_id": 205,
+      "last_mentioned_speaker": "Ben Horowitz",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Ben Horowitz on the Next Technology Era",
+      "first_detected_episode_date": "2026-05-08",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Ben Horowitz on the Next Technology Era",
+      "last_mentioned_episode_date": "2026-05-08"
     },
     {
       "id": 160,
@@ -8068,32 +8154,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Monetary Matters with Jack Farley",
       "last_mentioned_episode_title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
       "last_mentioned_episode_date": "2026-05-01"
-    },
-    {
-      "id": 136,
-      "term": "Clinical Trial Reform",
-      "description": "Changes in the process of running clinical trials, including regulatory design, trial structure, and funding models.",
-      "first_detected_date": "2026-04-30",
-      "last_mentioned_date": "2026-04-30",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should monitor how clinical trial reforms in different countries impact drug development timelines and costs.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.83,
-      "resonance_pct": 21,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
     }
   ]
 },
@@ -21259,12 +21319,143 @@ const dashboardData = {
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-05-07",
     "key_tickers": []
+  },
+  "220": {
+    "id": 210,
+    "insight_id": 220,
+    "podcast_episode_id": 206,
+    "overview": "The unresolved tension in human genetic evolution lies in the balance between genetic drift and natural selection. David Reich's research suggests that while genetic drift has been a significant factor in frequency changes, natural selection has also played a crucial role, particularly in response to new agricultural lifestyles and urban living conditions. This insight implies a dynamic interplay between human genetics and environmental pressures, with modern humans still evolving in response to these pressures. The allocator-relevant implication is that understanding this interplay can inform investment strategies in biotech and health sectors, as well as public health policies that address contemporary health issues informed by historical genetic adaptations.",
+    "key_takeaways_detailed": [
+      "Investors should focus on genetic research companies that are at the forefront of leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
+      "The distinction between genetic drift and natural selection should be considered when modeling human genetics, as both factors significantly influence genetic evolution.",
+      "Public health strategies should incorporate findings from genetic studies on natural selection and adaptation to address contemporary health issues related to diet and environment.",
+      "Policymakers and health organizations should consider historical genetic adaptations when formulating responses to modern environmental challenges, as these adaptations can inform strategies for disease prevention and health promotion."
+    ],
+    "investment_thesis": "The investment thesis is that understanding the ongoing process of human evolution, particularly the role of natural selection in response to environmental pressures, will become increasingly important in the biotech and health sectors. Companies that can leverage large datasets and innovative methodologies to uncover these insights will be well-positioned to develop genetic therapies and personalized medicine solutions. The timeframe for this thesis is medium to long-term, as the development and application of such therapies and solutions will take time. An observable development that would vindicate this thesis is the successful development and commercialization of genetic therapies targeting traits identified as undergoing selection, such as immune and metabolic traits.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in health technologies, including the Apple Watch's health monitoring capabilities, positions the company to benefit from the growing interest in personalized health solutions informed by genetic research.",
+        "positioning": "Apple should be positioned as a strategic long-term investment, as its health technologies are likely to become increasingly valuable as genetic research uncovers more about human evolution and health.",
+        "risk": "Key risks include regulatory hurdles in the health technology space and potential delays in the development and commercialization of genetic therapies and personalized medicine solutions."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "Skeptics may argue that the role of natural selection in human evolution has been overstated, and that genetic drift remains the primary driver of genetic changes.",
+      "Critics may point to the lack of direct evidence linking specific genetic positions to specific traits, questioning the reliability of the study's findings.",
+      "Some may contend that the focus on natural selection overlooks the importance of cultural and social factors in human evolution and adaptation."
+    ],
+    "catalysts": [
+      "Publication of new genetic studies that either support or challenge the findings of David Reich's research.",
+      "Advancements in genetic sequencing technologies that enable more accurate and comprehensive analysis of genetic evolution.",
+      "Policy changes in the health sector that incorporate findings from genetic studies on natural selection and adaptation.",
+      "Development and commercialization of genetic therapies targeting traits identified as undergoing selection."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-08T13:40:55.198193",
+    "updated_at": "2026-05-08 18:40:55",
+    "episode_evidence": "David Reich's groundbreaking research has identified approximately 3,800 genetic positions with a 50% confidence level that have undergone selection in the last 10,000 years, a significant finding that challenges the previously held belief in quiescent natural selection. '98% of it is other factors, especially genetic drift... nevertheless, there's so much natural selection as our study thinks has shown that in fact, it's been rampant in the genome,' Reich stated. The study's methodology, which combined large sample sizes and a selection statistic to correlate genetic variants with traits from genome-wide association studies, revealed a strong connection between natural selection and traits like immunity and metabolism. 'What we found is there was a vast enrichment by about four or five fold for immune traits,' Reich explained. This suggests that the Bronze Age, marked by significant environmental changes and population density increases, was a period of intensified natural selection, particularly related to immune and metabolic traits.",
+    "falsification_tracks": [
+      "If new genetic studies fail to replicate the 3,800 genetic positions identified as undergoing selection, it would cast doubt on the robustness of the findings.",
+      "Should future research indicate that the Bronze Age did not have a significant impact on genetic selection, it would challenge the study's conclusions about the period's role in human evolution.",
+      "If large-scale genetic databases show no correlation between the identified genetic positions and traits like immunity and metabolism, it would undermine the study's methodology and conclusions."
+    ],
+    "insight_title": "David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
+    "source_name": "Dwarkesh Podcast",
+    "source_date": "2026-05-08",
+    "key_tickers": []
+  },
+  "221": {
+    "id": 211,
+    "insight_id": 221,
+    "podcast_episode_id": 205,
+    "overview": "The unresolved tension highlighted in the a16z podcast is the significant gap in AI optimism between China and the U.S., which could impact the U.S.'s ability to maintain its technological edge. The competitive dynamic is not just about technological advancement but also about the perception and support of the public and private sectors for AI and frontier technologies. What converts belief in this context is the ability to shift public sentiment towards AI positively and to ensure that investment strategies are aligned with national interests, fostering an environment conducive to innovation and technological leadership.",
+    "key_takeaways_detailed": [
+      "Investors should actively monitor and engage with public sentiment on AI to identify shifts that could indicate a change in the investment landscape and innovation potential.",
+      "Firms that can demonstrate a clear strategy for aligning with national interests and technological advancement, especially in AI and robotics, are likely to gain a competitive edge in the evolving venture capital landscape.",
+      "The development of engaging media strategies that can effectively communicate the benefits and ethical considerations of AI and frontier technologies will be crucial for capturing public and investor attention.",
+      "Investors should consider the potential for robotics and AI to disrupt traditional industries and look for companies that are at the forefront of these technological revolutions, particularly in sectors with significant defense and manufacturing implications.",
+      "Monitor the policy environment for shifts that could either support or hinder the U.S.'s ability to maintain its technological edge, as government support can be a significant factor in the success of AI and robotics companies."
+    ],
+    "investment_thesis": "The core logic of this investment thesis is that the U.S.'s ability to maintain its technological leadership in AI and frontier technologies is contingent upon public sentiment, private sector alignment with national interests, and the effective deployment of capital by firms like A16Z. Over the next 3-5 years, observable developments that would vindicate this thesis include a measurable increase in U.S. public optimism about AI, successful deployment of A16Z's new funds into innovative companies, and the U.S. maintaining or increasing its global share in AI-related patents and technological advancements. Conversely, a sustained or widening optimism gap, coupled with ineffective capital deployment and a decline in the U.S.'s global technological standing, would invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI and its potential to integrate AI across its product ecosystem makes it a relevant company in the context of the U.S. maintaining its technological edge.",
+        "positioning": "Positioning should be long-term strategic, as Apple's ability to innovate and integrate AI could provide a competitive advantage and drive shareholder value.",
+        "risk": "Key risks include changes in consumer sentiment towards AI, regulatory hurdles that could impede AI development, and potential loss of competitive edge if other tech giants outpace Apple in AI integration."
+      },
+      "GOOGL": {
+        "rationale": "Google's leadership in AI research and development positions it as a key player in the U.S.'s technological advancement.",
+        "positioning": "A strategic long position is appropriate, considering Google's potential to drive innovation and benefit from AI advancements.",
+        "risk": "The risk includes potential regulatory challenges that could limit AI applications and the possibility of missing key technological milestones."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's broad AI offerings and its commitment to AI research make it a significant contributor to the U.S.'s technological edge.",
+        "positioning": "A long-term strategic position in Microsoft is justified by its potential to leverage AI across its diverse product lines.",
+        "risk": "Risks include competition from other tech giants and potential backlash against AI applications that could affect Microsoft's reputation and market position."
+      },
+      "AMZN": {
+        "rationale": "Amazon's use of AI in its cloud services and logistics offers a window into the practical applications of AI and its potential to shape the future of technology.",
+        "positioning": "A long position in Amazon is supported by its ability to leverage AI for efficiency and innovation.",
+        "risk": "Key risks include potential regulatory challenges and the possibility that Amazon may not be able to maintain its pace of AI innovation in a competitive market."
+      },
+      "TSLA": {
+        "rationale": "Tesla's integration of AI in its electric vehicles and autonomous driving technology positions it at the forefront of AI applications in the automotive industry.",
+        "positioning": "A long-term strategic position in Tesla is appropriate due to its potential to disrupt the automotive industry with AI.",
+        "risk": "Risks include technological setbacks in autonomous driving, regulatory hurdles, and increased competition in the electric vehicle market."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A potential shift in U.S. policy that could hinder AI development and deployment, reducing the country's ability to maintain its technological edge.",
+      "The emergence of new global players in AI that could challenge the U.S.'s leadership, particularly if they are able to harness public sentiment and investment more effectively.",
+      "A significant downturn in the venture capital market that could limit the funding available for AI and frontier technology companies, affecting the U.S.'s ability to innovate."
+    ],
+    "catalysts": [
+      "Upcoming AI-related policy decisions from the U.S. government that could either support or hinder the country's technological advancement.",
+      "Major AI breakthroughs or product launches from U.S. tech giants that could signal the country's ongoing leadership in AI.",
+      "Global AI conferences and events that could showcase the latest advancements and potentially shift public sentiment towards AI.",
+      "Quarterly earnings reports from tech companies that could indicate the health and direction of AI investments and development.",
+      "Publications of AI research and development metrics that could provide insights into the pace of innovation and the competitive landscape."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-08T13:41:22.523669",
+    "updated_at": "2026-05-08 18:41:22",
+    "episode_evidence": "The a16z podcast episode underscores the stark contrast in AI optimism between China and the U.S., with over 70% of Chinese respondents expressing optimism about AI, compared to less than 30% in the U.S., as stated by Ben Horowitz: 'Over 70% of people in China are optimistic about AI and kind of less than 30% in America.' This sentiment gap is crucial as it can significantly influence investment and innovation in AI technologies within the U.S., potentially hindering progress. Additionally, the episode highlights A16Z's recent fundraising efforts, raising over $15 billion, which reflects confidence in maintaining American technological leadership. Horowitz emphasizes the firm's role: 'When I think about our role in the industry, it's what can we do to help America win technologically.' This underscores the importance of aligning with firms that prioritize national interests and technological advancement.",
+    "falsification_tracks": [
+      "If public sentiment in the U.S. towards AI does not improve over the next 12 months, despite efforts to promote positive narratives, the optimism gap may widen, challenging the U.S.'s ability to lead in AI innovation.",
+      "Should A16Z fail to effectively deploy the newly raised funds into companies that drive technological advancement, it could signal a misalignment with national interests and a potential loss of leadership in frontier technologies."
+    ],
+    "insight_title": "Ben Horowitz on the Next Technology Era",
+    "source_name": "The a16z Show",
+    "source_date": "2026-05-08",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 3714,
+    "id": 3758,
+    "name": "David Reich",
+    "slug": "david-reich",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
+    "last_episode_title": "David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-05-08",
+    "appearance_count": 1
+  },
+  {
+    "id": 3759,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -21276,7 +21467,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3715,
+    "id": 3760,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -21288,7 +21479,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3716,
+    "id": 3761,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -21300,19 +21491,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3717,
-    "name": "Warren Pies",
-    "slug": "warren-pies",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
-    "last_episode_title": "Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-05-04",
-    "appearance_count": 1
-  },
-  {
-    "id": 3718,
+    "id": 3762,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -21324,7 +21503,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3719,
+    "id": 3763,
+    "name": "Warren Pies",
+    "slug": "warren-pies",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
+    "last_episode_title": "Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-04",
+    "appearance_count": 1
+  },
+  {
+    "id": 3764,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -21336,7 +21527,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3720,
+    "id": 3765,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -21348,7 +21539,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3721,
+    "id": 3766,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -21360,7 +21551,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3722,
+    "id": 3767,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -21372,7 +21563,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3723,
+    "id": 3768,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -21384,7 +21575,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3724,
+    "id": 3769,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -21396,7 +21587,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3725,
+    "id": 3770,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -21408,7 +21599,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3726,
+    "id": 3771,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -21420,7 +21611,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3727,
+    "id": 3772,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -21432,7 +21623,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3728,
+    "id": 3773,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -21444,7 +21635,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3729,
+    "id": 3774,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -21456,7 +21647,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3730,
+    "id": 3775,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -21468,7 +21659,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3731,
+    "id": 3776,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -21480,7 +21671,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3732,
+    "id": 3777,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -21489,18 +21680,6 @@ const dashboardData = {
     "last_episode_title": "\"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-14",
-    "appearance_count": 1
-  },
-  {
-    "id": 3733,
-    "name": "Building Agents at Home",
-    "slug": "building-agents-at-home",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
-    "last_episode_title": "Building Agents at Home: Parenting, Work, and Benevolent Neglect",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-13",
     "appearance_count": 1
   }
 ],
@@ -21715,7 +21894,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -22321,6 +22500,71 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 240,
+    "name": "David Reich",
+    "slug": "david-reich",
+    "bio": "David Reich is a renowned geneticist and professor of ancient DNA at Harvard University. His research focuses on human genetics and evolution, utilizing ancient DNA to trace human history and understand the genetic basis of human traits. His work has significantly advanced our understanding of human biology and its changes over time.",
+    "known_for": "His groundbreaking research in ancient DNA and the genetic basis of human traits, which has revolutionized our understanding of human history and evolution.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-08 18:40:08",
+    "last_episode_title": "David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-05-08",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
+    "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
+    "supporting_takeaway": "A novel methodology combining large datasets and a selection statistic was used to identify genetic variants under selection.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-08T13:40:19.868286",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "David Reich",
+      "fetched_at": "2026-05-08T18:40:19.867947+00:00",
+      "cliff_notes": "David Reich is a leading expert in human genetics and evolution, known for his pioneering work in the field of ancient DNA. His research has allowed scientists to trace human history and understand how people's biology has changed over time by extracting DNA from ancient human remains. Reich's work has been instrumental in uncovering new insights into human evolution, population movements, and the genetic basis of human traits. His contributions have not only advanced scientific knowledge but also hold implications for fields such as medicine, anthropology, and history.",
+      "derived": {
+        "current_role": "Professor of Ancient DNA at Harvard University",
+        "books_or_works": "Books and publications include his work on ancient DNA and human genetics.",
+        "teaching_summary": "Professor of Ancient DNA at Harvard University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "David Reich is a leading expert in human genetics and evolution, known for his pioneering work in the field of ancient DNA. His research has allowed scientists to trace human history and understand how people's biology has changed over time by extracting DNA from ancient human remains. Reich's work has been instrumental in uncovering new insights into human evolution, population movements, and the genetic basis of human traits.",
+        "His contributions have not only advanced scientific knowledge but also hold implications for fields such as medicine, anthropology, and history."
+      ],
+      "sections": [
+        {
+          "heading": "Ancient DNA Research",
+          "body": "David Reich is known for his work in extracting and analyzing ancient DNA, which has provided new insights into human history and evolution."
+        },
+        {
+          "heading": "Genetic Basis of Human Traits",
+          "body": "Reich's research has contributed to understanding the genetic basis of various human traits and how they have evolved over time."
+        },
+        {
+          "heading": "Human Evolution",
+          "body": "His work has been pivotal in uncovering the genetic history of human populations and how they relate to ancient peoples and those living today."
+        },
+        {
+          "heading": "Impact on Science",
+          "body": "Reich's research has transformed the field of human genetics, providing a deeper understanding of our biological past and its implications for the present."
+        }
+      ]
+    }
+  },
+  {
     "id": 238,
     "name": "Demis Hassabis",
     "slug": "demis-hassabis",
@@ -22462,7 +22706,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -22525,7 +22769,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -22713,7 +22957,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -26658,7 +26902,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -26717,7 +26961,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
@@ -28794,7 +29038,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -28821,7 +29065,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",

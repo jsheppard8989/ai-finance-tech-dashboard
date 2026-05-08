@@ -1,5 +1,37 @@
 [
   {
+    "id": 206,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
+    "episode_date": "2026-05-08",
+    "summary": "In this episode, David Reich discusses groundbreaking research indicating that natural selection has been more active in human evolution over the last 10,000 years than previously thought. The study identified genetic positions that have undergone selection, challenging the notion of quiescent natural selection. This insight alters the understanding of human evolution and adaptation, suggesting that modern humans are still evolving in response to environmental pressures. The research also highlights the role of environmental changes in selection, particularly during the Bronze Age, and the distinction between genetic drift and natural selection.",
+    "key_takeaways": [
+      "Natural selection has been active in shaping human genetics over the last 10,000 years.",
+      "A novel methodology combining large datasets and a selection statistic was used to identify genetic variants under selection.",
+      "Environmental changes during the Bronze Age led to intensified natural selection, particularly affecting immune and metabolic traits.",
+      "Genetic drift has caused significant frequency changes, but natural selection has also played a crucial role.",
+      "Investors in biotech and health sectors should consider the implications of ongoing human evolution on health and disease susceptibility."
+    ],
+    "investment_thesis": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
+    "key_tickers": null
+  },
+  {
+    "id": 205,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Ben Horowitz on the Next Technology Era",
+    "episode_date": "2026-05-08",
+    "summary": "In this episode, the a16z show discusses the stark contrast in AI optimism between China and the U.S., the firm's recent fundraising efforts, and the importance of maintaining American technological leadership. The conversation touches on the integration of AI in government and military applications, the evolving venture capital landscape, and the need for engaging media strategies. The discussion also highlights the potential of robotics and AI to revolutionize industries and the concern over the perception of technology in America.",
+    "key_takeaways": [
+      "Over 70% of people in China are optimistic about AI, compared to less than 30% in the U.S., indicating a significant perception gap.",
+      "A16Z has raised over $15 billion in new funds, reflecting confidence in American technological leadership.",
+      "The U.S. must maintain its technological edge to ensure global stability and opportunity.",
+      "Founders should focus on building technologies that align with national interests, recognizing the ethical implications of their work.",
+      "The venture capital landscape is evolving, with firms needing to adapt to a larger number of potential technology companies."
+    ],
+    "investment_thesis": "Invest in companies that align with national interests and technological advancement, particularly in AI, robotics, and frontier technologies.",
+    "key_tickers": null
+  },
+  {
     "id": 204,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
@@ -90,22 +122,6 @@
     "key_tickers": null
   },
   {
-    "id": 199,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Building Blackstone, Backing Costco, with Tony James",
-    "episode_date": "2026-05-05",
-    "summary": "In this episode of the a16z Show, General Partner David Haber interviews Tony James, who has played a pivotal role in the evolution of modern private markets. They discuss the journey of building a successful investment organization, the importance of focusing on compounding talent, capital, and culture over time, and the principles behind enduring success. James shares insights from his career at DLJ and Blackstone, emphasizing the value of unstructured opportunities, learning from changes in the business, and the significance of investment committees in shaping a firm's culture.",
-    "key_takeaways": [
-      "The importance of starting small and entrepreneurial to create value and size in an investment organization.",
-      "The significance of focusing on compounding talent, capital, and culture over time for enduring success.",
-      "Learning from changes in the business and adapting to new opportunities is crucial for growth.",
-      "Investment committees play a crucial role in shaping a firm's culture and decision-making processes.",
-      "The value of unstructured opportunities and the ability to figure out how to do things one's way."
-    ],
-    "investment_thesis": "Building a successful investment organization requires compounding talent, capital, and culture over time, focusing on long-term growth rather than short-term gains.",
-    "key_tickers": null
-  },
-  {
     "id": 198,
     "podcast_name": "The Jack Mallers Show",
     "episode_title": "Hold Onto Your Butts (And Your Bitcoin)",
@@ -120,22 +136,6 @@
       "He advises listeners to hold on to their Bitcoin and prepare for potential market volatility."
     ],
     "investment_thesis": "Hold on to your Bitcoin as a hedge against the mispriced market volatility and potential future disruptions.",
-    "key_tickers": null
-  },
-  {
-    "id": 195,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-    "episode_date": "2026-05-04",
-    "summary": "In this episode of the a16z Show, Under Secretary of State for Public Diplomacy Sarah B. Rogers discusses the importance of AI and its impact on free speech and digital freedom. Rogers emphasizes the need for a Western AI stack that prioritizes user consent and operates on rules-based principles. The conversation touches on the challenges of international regulations, the role of public diplomacy in shaping digital freedom, and the strategic importance of maintaining a free and open internet for international relations and commerce.",
-    "key_takeaways": [
-      "AI is becoming increasingly important in international relations and commerce.",
-      "Regulations around AI and digital safety are changing rapidly, with significant implications for free speech.",
-      "The US government is encouraging a Western AI stack that prioritizes individual consent and operates on rules-based principles.",
-      "Public diplomacy plays a crucial role in shaping digital freedom and combating censorship.",
-      "International regulations can create challenges for American companies, forcing them to navigate complex legal landscapes."
-    ],
-    "investment_thesis": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
     "key_tickers": null
   }
 ]

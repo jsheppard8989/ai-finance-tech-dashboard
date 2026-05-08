@@ -1,6 +1,48 @@
 {
   "insights": [
     {
+      "id": 220,
+      "title": "David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-05-08",
+      "summary": "In this episode, David Reich discusses groundbreaking research indicating that natural selection has been more active in human evolution over the last 10,000 years than previously thought. The study identified genetic positions that have undergone selection, challenging the notion of quiescent natural selection. This insight alters the understanding of human evolution and adaptation, suggesting that modern humans are still evolving in response to environmental pressures. The research also highlights the role of environmental changes in selection, particularly during the Bronze Age, and the distinction between genetic drift and natural selection.",
+      "key_takeaway": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 206
+    },
+    {
+      "id": 221,
+      "title": "Ben Horowitz on the Next Technology Era",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-08",
+      "summary": "In this episode, the a16z show discusses the stark contrast in AI optimism between China and the U.S., the firm's recent fundraising efforts, and the importance of maintaining American technological leadership. The conversation touches on the integration of AI in government and military applications, the evolving venture capital landscape, and the need for engaging media strategies. The discussion also highlights the potential of robotics and AI to revolutionize industries and the concern over the perception of technology in America.",
+      "key_takeaway": "Invest in companies that align with national interests and technological advancement, particularly in AI, robotics, and frontier technologies.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 205
+    },
+    {
       "id": 217,
       "title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
       "source_type": "podcast",
@@ -114,7 +156,7 @@
         "APO"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-05",
       "archived_date": null,
@@ -177,7 +219,7 @@
         "FB"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-04",
       "archived_date": null,
@@ -4019,6 +4061,24 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 163,
+      "term": "Optimism Gap in AI",
+      "description": "The significant difference in public optimism about AI between China and the U.S., which can influence investment and innovation.",
+      "first_detected_date": "2026-05-08",
+      "last_mentioned_date": "2026-05-08",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider public sentiment when evaluating AI investment opportunities.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 205,
+      "first_detected_speaker": "Ben Horowitz",
+      "last_mentioned_episode_id": 205,
+      "last_mentioned_speaker": "Ben Horowitz"
+    },
     {
       "id": 160,
       "term": "Strategic Commodity Stockpiling",
