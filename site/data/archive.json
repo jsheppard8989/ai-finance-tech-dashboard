@@ -21,6 +21,25 @@
       "podcast_episode_id": 202
     },
     {
+      "id": 218,
+      "title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-05-07",
+      "summary": "The podcast discusses the impact of the Iran conflict on global markets, particularly in oil prices, and its implications for inflation and supply chains. Louis Vincent Gavre suggests a shift towards strategic commodity stockpiling due to geopolitical tensions. The conversation also covers the semiconductor sector's rally, the weakening U.S. dollar, gold's reaction to geopolitical tensions, uranium investments, and copper market breakouts. The 10-year Treasury yield's correlation with crude oil prices is also highlighted.",
+      "key_takeaway": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
+      "tickers_mentioned": [
+        "SNP 500"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 203
+    },
+    {
       "id": 215,
       "title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
       "source_type": "podcast",
@@ -222,7 +241,7 @@
         "WTVN"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-05",
       "archived_date": null,
@@ -3979,6 +3998,24 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 160,
+      "term": "Strategic Commodity Stockpiling",
+      "description": "The act of countries building up physical reserves of commodities to mitigate risks associated with geopolitical tensions.",
+      "first_detected_date": "2026-05-07",
+      "last_mentioned_date": "2026-05-07",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider commodities as a long-term investment strategy due to potential increased demand.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 203,
+      "first_detected_speaker": "Louis Vincent Gavre",
+      "last_mentioned_episode_id": 203,
+      "last_mentioned_speaker": "Louis Vincent Gavre"
+    },
     {
       "id": 156,
       "term": "Compounding Talent, Capital, and Culture",

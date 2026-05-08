@@ -50,14 +50,6 @@ function generateDeepDiveHTML(dd) {
   if (!dd) return '';
   var sections = [];
 
-  if (dd.overview) {
-    sections.push(
-      '<div style="margin-bottom: 2rem; padding: 1.25rem; background: rgba(0,212,255,0.05); border-left: 3px solid #00d4ff; border-radius: 8px;">' +
-      '<h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">📋 Overview</h4>' +
-      '<p style="color: #e8e8e8; line-height: 1.7; font-size: 0.95rem;">' + dd.overview + '</p></div>'
-    );
-  }
-
   var ev = (dd.episode_evidence || '').trim();
   if (ev) {
     sections.push(
@@ -77,6 +69,15 @@ function generateDeepDiveHTML(dd) {
       '<h4 style="color: #fbbf24; margin-bottom: 0.75rem; font-size: 1.1rem;">🔭 What would change our view</h4>' +
       '<p style="color: #9ca3af; font-size: 0.82rem; margin: 0 0 0.6rem;">Concrete signals that would weaken or flip the thesis — not generic risk.</p>' +
       '<ul style="padding-left: 1.5rem; margin: 0;">' + falsHtml + '</ul></div>'
+    );
+  }
+
+  if (dd.overview) {
+    sections.push(
+      '<div style="margin-bottom: 2rem; padding: 1.25rem; background: rgba(0,212,255,0.05); border-left: 3px solid #00d4ff; border-radius: 8px;">' +
+      '<h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">📋 Overview</h4>' +
+      '<p style="color: #9ca3af; font-size: 0.82rem; margin: 0 0 0.6rem;">Tension / tradeoffs / implication — not a recap of the Insight card above.</p>' +
+      '<p style="color: #e8e8e8; line-height: 1.7; font-size: 0.95rem;">' + dd.overview + '</p></div>'
     );
   }
 
@@ -122,25 +123,6 @@ function generateDeepDiveHTML(dd) {
         '<h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">📈 Ticker Analysis</h4>' + tickersHtml + '</div>'
       );
     }
-  }
-
-  if (dd.positioning_guidance) {
-    sections.push(
-      '<div style="margin-bottom: 2rem; padding: 1.25rem; background: rgba(76,175,80,0.05); border: 1px solid rgba(76,175,80,0.2); border-radius: 8px;">' +
-      '<h4 style="color: #4caf50; margin-bottom: 0.75rem; font-size: 1.1rem;">🎯 Positioning Guidance</h4>' +
-      '<p style="color: #e8e8e8; line-height: 1.7; font-size: 0.95rem;">' + dd.positioning_guidance + '</p></div>'
-    );
-  }
-
-  if (dd.risk_factors && dd.risk_factors.length > 0) {
-    var risksHtml = dd.risk_factors.map(function(r) {
-      return '<li style="margin-bottom: 0.5rem; line-height: 1.6; color: #f44336;">' + r + '</li>';
-    }).join('');
-    sections.push(
-      '<div style="margin-bottom: 2rem;">' +
-      '<h4 style="color: #f44336; margin-bottom: 0.75rem; font-size: 1.1rem;">⚠️ Risk Factors</h4>' +
-      '<ul style="padding-left: 1.5rem; margin: 0;">' + risksHtml + '</ul></div>'
-    );
   }
 
   if (dd.catalysts && dd.catalysts.length > 0) {

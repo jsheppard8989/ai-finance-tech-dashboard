@@ -1,39 +1,37 @@
 {
-  "generated_at": "2026-05-07T14:18:32.197968",
-  "last_updated": "2026-05-07T14:18:32.197968",
-  "last_pipeline_run": "2026-05-07T14:18:32.197968",
+  "generated_at": "2026-05-07T22:04:54.941654",
+  "last_updated": "2026-05-07T22:04:54.941654",
+  "last_pipeline_run": "2026-05-07T22:04:54.941654",
   "main_page": {
     "overton": 13,
     "insights": 8,
-    "pundits": 127
+    "pundits": 128
   },
   "counts": {
     "ticker_mentions": 174,
-    "podcast_episodes": 175,
+    "podcast_episodes": 176,
     "newsletters": 7,
     "daily_scores": 112,
-    "overton_terms_total": 142,
-    "latest_insights_total": 189,
-    "today_mentions": {
-      "podcast": 1
-    },
-    "podcasts_analyzed": 1
+    "overton_terms_total": 143,
+    "latest_insights_total": 190,
+    "today_mentions": {},
+    "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 0,
-    "analyzed": 0,
-    "insight_created": 0,
-    "published": 0,
-    "total": 1
+    "downloaded": 2,
+    "transcribed": 1,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 2
   },
   "episodes": [
     {
-      "id": "macrovoices.podbean.com/b38be333-f937-32d3-8512-33330b38e884",
-      "podcast": "Macro Voices",
-      "title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
+      "id": "39ee6ca2-4a22-11f1-8db6-e7cb396e95ac",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "published": "2026-05-07",
-      "rss_guid": "macrovoices.podbean.com/b38be333-f937-32d3-8512-33330b38e884",
+      "rss_guid": "39ee6ca2-4a22-11f1-8db6-e7cb396e95ac",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -98,13 +96,31 @@
         }
       },
       "status": "needs_transcription"
+    },
+    {
+      "id": "macrovoices.podbean.com/b38be333-f937-32d3-8512-33330b38e884",
+      "podcast": "Macro Voices",
+      "title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
+      "published": "2026-05-07",
+      "rss_guid": "macrovoices.podbean.com/b38be333-f937-32d3-8512-33330b38e884",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
     }
   ],
   "available_from_rss": [
     {
-      "podcast": "Macro Voices",
-      "title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
-      "published": "Thu, 07 May 2026 13:10:40 -0500",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
+      "published": "Thu, 07 May 2026 20:00:00 -0000",
       "published_date": "2026-05-07",
       "rss_guid": ""
     }

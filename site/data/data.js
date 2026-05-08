@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-07T14:18:38.469524",
-  chartsVersion: "2026-05-07T14:18:29.819156",
+  generatedAt: "2026-05-07T22:05:04.030164",
+  chartsVersion: "2026-05-07T22:04:52.128611",
   priceSnapshot: {
   "GOOGL": {
-    "price": 395.83,
-    "change_pct": 17.31,
+    "price": 397.99,
+    "change_pct": 17.95,
     "name": "GOOGL",
-    "updated_at": "2026-05-07T14:18:29.817311"
+    "updated_at": "2026-05-07T22:04:52.127453"
   },
   "NVDA": {
-    "price": 212.28,
-    "change_pct": 5.06,
+    "price": 211.5,
+    "change_pct": 4.67,
     "name": "NVDA",
-    "updated_at": "2026-05-07T14:18:29.817331"
+    "updated_at": "2026-05-07T22:04:52.127472"
   },
   "MSFT": {
-    "price": 421.9,
-    "change_pct": 0.92,
+    "price": 420.77,
+    "change_pct": 0.65,
     "name": "MSFT",
-    "updated_at": "2026-05-07T14:18:29.817340"
+    "updated_at": "2026-05-07T22:04:52.127481"
   },
   "BTC": {
-    "price": 80054.86,
-    "change_pct": 3.36,
+    "price": 79642.9,
+    "change_pct": 2.62,
     "name": "BTC",
-    "updated_at": "2026-05-07T14:18:29.817348"
+    "updated_at": "2026-05-07T22:04:52.127490"
   },
   "WTI": {
-    "price": 3.8,
-    "change_pct": 27.52,
+    "price": 3.82,
+    "change_pct": 28.19,
     "name": "WTI",
-    "updated_at": "2026-05-07T14:18:29.817355"
+    "updated_at": "2026-05-07T22:04:52.127497"
   },
   "S&P 500": {
-    "price": 730.7,
-    "change_pct": 3.1,
+    "price": 731.58,
+    "change_pct": 3.23,
     "name": "S&P 500",
-    "updated_at": "2026-05-07T14:18:29.817363"
+    "updated_at": "2026-05-07T22:04:52.127505"
   },
   "META": {
-    "price": 615.72,
-    "change_pct": -8.23,
+    "price": 616.81,
+    "change_pct": -8.06,
     "name": "META",
-    "updated_at": "2026-05-07T14:18:29.817372"
+    "updated_at": "2026-05-07T22:04:52.127514"
   },
   "AMZN": {
-    "price": 271.79,
-    "change_pct": 9.47,
+    "price": 271.17,
+    "change_pct": 9.22,
     "name": "AMZN",
-    "updated_at": "2026-05-07T14:18:29.817379"
+    "updated_at": "2026-05-07T22:04:52.127521"
   },
   "TSLA": {
-    "price": 404.83,
-    "change_pct": 3.14,
+    "price": 411.79,
+    "change_pct": 4.91,
     "name": "TSLA",
-    "updated_at": "2026-05-07T14:18:29.817386"
+    "updated_at": "2026-05-07T22:04:52.127528"
   },
   "QQQ": {
-    "price": 693.55,
-    "change_pct": 7.23,
+    "price": 694.94,
+    "change_pct": 7.44,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-07T14:18:29.817395"
+    "updated_at": "2026-05-07T22:04:52.127536"
   },
   "BTC-USD": {
-    "price": 80054.86,
-    "change_pct": 3.36,
+    "price": 79642.9,
+    "change_pct": 2.62,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-07T14:18:29.817403"
+    "updated_at": "2026-05-07T22:04:52.127543"
   }
 },
   tickerScores: [
@@ -848,6 +848,25 @@ const dashboardData = {
       "podcast_episode_id": 202
     },
     {
+      "id": 218,
+      "title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-05-07",
+      "summary": "The podcast discusses the impact of the Iran conflict on global markets, particularly in oil prices, and its implications for inflation and supply chains. Louis Vincent Gavre suggests a shift towards strategic commodity stockpiling due to geopolitical tensions. The conversation also covers the semiconductor sector's rally, the weakening U.S. dollar, gold's reaction to geopolitical tensions, uranium investments, and copper market breakouts. The 10-year Treasury yield's correlation with crude oil prices is also highlighted.",
+      "key_takeaway": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
+      "tickers_mentioned": [
+        "SNP 500"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 203
+    },
+    {
       "id": 215,
       "title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
       "source_type": "podcast",
@@ -1049,7 +1068,7 @@ const dashboardData = {
         "WTVN"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-05",
       "archived_date": null,
@@ -4807,6 +4826,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 160,
+      "term": "Strategic Commodity Stockpiling",
+      "description": "The act of countries building up physical reserves of commodities to mitigate risks associated with geopolitical tensions.",
+      "first_detected_date": "2026-05-07",
+      "last_mentioned_date": "2026-05-07",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider commodities as a long-term investment strategy due to potential increased demand.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 203,
+      "first_detected_speaker": "Louis Vincent Gavre",
+      "last_mentioned_episode_id": 203,
+      "last_mentioned_speaker": "Louis Vincent Gavre"
+    },
+    {
       "id": 156,
       "term": "Compounding Talent, Capital, and Culture",
       "description": "The concept of building an organization that not only generates returns but also systematically develops and retains talent, grows capital, and fosters a strong culture over time.",
@@ -7396,6 +7433,28 @@ const dashboardData = {
       ]
     },
     {
+      "id": 218,
+      "title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-05-07",
+      "summary": "The podcast discusses the impact of the Iran conflict on global markets, particularly in oil prices, and its implications for inflation and supply chains. Louis Vincent Gavre suggests a shift towards strategic commodity stockpiling due to geopolitical tensions. The conversation also covers the semiconductor sector's rally, the weakening U.S. dollar, gold's reaction to geopolitical tensions, uranium investments, and copper market breakouts. The 10-year Treasury yield's correlation with crude oil prices is also highlighted.",
+      "key_takeaway": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
+      "tickers_mentioned": "[\"SNP 500\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 203,
+      "episode_release_date": "2026-05-07",
+      "guest_name": null,
+      "key_tickers": [
+        "SNP 500"
+      ]
+    },
+    {
       "id": 215,
       "title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
       "source_type": "podcast",
@@ -7520,30 +7579,6 @@ const dashboardData = {
       "episode_release_date": "2026-05-04",
       "guest_name": "Sarah Rogers",
       "key_tickers": []
-    },
-    {
-      "id": 212,
-      "title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-05-01",
-      "summary": "In this episode of Monetary Matters, hosts Jack Farley and Max Weethy discuss the implications of Jay Powell's decision to stay on as Fed Chairman, the changing dynamics of the Federal Reserve, and the impact of oil shocks on interest rates and inflation. They also analyze earnings reports from major tech companies and consider investment strategies in the face of ongoing geopolitical tensions and supply disruptions.",
-      "key_takeaway": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
-      "tickers_mentioned": "[\"DBC\", \"USO\", \"WTVN\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-05",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 197,
-      "episode_release_date": "2026-05-01",
-      "guest_name": null,
-      "key_tickers": [
-        "DBC",
-        "USO",
-        "WTVN"
-      ]
     }
   ],
   "definitions": [
@@ -7720,6 +7755,32 @@ const dashboardData = {
       "last_mentioned_podcast": null,
       "last_mentioned_episode_title": null,
       "last_mentioned_episode_date": null
+    },
+    {
+      "id": 160,
+      "term": "Strategic Commodity Stockpiling",
+      "description": "The act of countries building up physical reserves of commodities to mitigate risks associated with geopolitical tensions.",
+      "first_detected_date": "2026-05-07",
+      "last_mentioned_date": "2026-05-07",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider commodities as a long-term investment strategy due to potential increased demand.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 203,
+      "first_detected_speaker": "Louis Vincent Gavre",
+      "last_mentioned_episode_id": 203,
+      "last_mentioned_speaker": "Louis Vincent Gavre",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Macro Voices",
+      "first_detected_episode_title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
+      "first_detected_episode_date": "2026-05-07",
+      "last_mentioned_podcast": "Macro Voices",
+      "last_mentioned_episode_title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
+      "last_mentioned_episode_date": "2026-05-07"
     },
     {
       "id": 156,
@@ -7965,32 +8026,6 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider AI CapEx as a significant growth area with potential for high returns.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.85,
-      "resonance_pct": 21,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 139,
-      "term": "Co-Investing",
-      "description": "A strategy where an investor participates alongside other investors, typically in a hedge fund or private equity deal, sharing in both the profits and risks.",
-      "first_detected_date": "2026-04-30",
-      "last_mentioned_date": "2026-04-30",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Co-investing can offer significant upside potential for investors who are able to access such deals.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -21051,12 +21086,70 @@ const dashboardData = {
       "COIN",
       "VISA"
     ]
+  },
+  "218": {
+    "id": 208,
+    "insight_id": 218,
+    "podcast_episode_id": 203,
+    "overview": "The unresolved tension highlighted in the podcast revolves around the Iran conflict's ripple effects on global markets, particularly in commodities and currency valuations. The competitive dynamic is between the need for strategic stockpiling of commodities due to geopolitical tensions and the potential overvaluation in certain sectors like semiconductors. The allocator-relevant implication is that investors must navigate these tensions by diversifying across affected sectors while also being prepared to adjust strategies based on geopolitical developments. The metric that arbitrates this uncertainty is the actual behavior of commodity prices and currency valuations in response to geopolitical events.",
+    "key_takeaways_detailed": [
+      "Investors should monitor geopolitical developments closely as they directly impact commodity prices and the necessity for strategic stockpiling.",
+      "The potential overvaluation in the semiconductor sector suggests a need for caution and possibly a reassessment of sector weightings in investment portfolios.",
+      "Currency fluctuations, particularly in the U.S. dollar, should be considered when allocating assets, with a focus on hedging strategies to mitigate risks.",
+      "Gold's role as a safe haven asset may become more pronounced in times of heightened geopolitical tensions, warranting a strategic allocation.",
+      "Uranium investments, especially those tied to new reactor technologies, could offer unique investment opportunities as the market reacts to new developments.",
+      "The breakout in the copper market may signal a broader economic recovery, suggesting a potential increase in demand for industrial metals."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that geopolitical tensions, particularly those involving Iran, will lead to increased volatility in commodity markets and currency valuations. This thesis is tied to the observable development of sustained high volatility in oil prices and a continued weakening of the U.S. dollar. A timeframe of 6-12 months is suggested to assess the impact of these developments on investment strategies. The thesis would be vindicated if oil prices remain volatile and the U.S. dollar continues to weaken amidst ongoing geopolitical tensions. Conversely, it would be invalidated if geopolitical tensions de-escalate, leading to stability in oil prices and a strengthening of the U.S. dollar.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's exposure to global supply chains and its reliance on semiconductors for its products make it relevant to the thesis. The company's performance could be affected by fluctuations in semiconductor prices and geopolitical tensions.",
+        "positioning": "A strategic long position in AAPL could be considered, as the company's ability to navigate supply chain challenges and innovate could drive growth, despite potential sector-wide volatility.",
+        "risk": "Key risks include disruptions in the global supply chain due to geopolitical tensions and potential overvaluation in the semiconductor sector affecting Apple's cost structure."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A potential de-escalation of the Iran conflict could reduce the urgency for strategic commodity stockpiling, affecting the thesis' validity.",
+      "Semiconductor companies may demonstrate resilience and growth, contradicting the overvaluation narrative.",
+      "A sudden recovery in the U.S. dollar could challenge the thesis of dollar weakness due to geopolitical developments.",
+      "Geopolitical tensions may not lead to the anticipated increase in gold prices, suggesting a different market reaction than expected.",
+      "Uranium investments may not perform as expected if new reactor developments do not materialize or are delayed."
+    ],
+    "catalysts": [
+      "Developments in the Iran conflict and its resolution or escalation.",
+      "Oil price movements and their impact on global inflation expectations.",
+      "Semiconductor sector performance relative to broader market indices.",
+      "U.S. dollar index movements and their correlation with geopolitical events.",
+      "Regulatory developments and approvals in the uranium market, particularly for companies like Alloatomics."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-07T22:04:03.561465",
+    "updated_at": "2026-05-08 03:04:03",
+    "episode_evidence": "The podcast with Louis Vincent Gavre delves into the intricate dynamics of the Iran conflict's impact on global markets. Gavre emphasizes the strategic importance of commodity stockpiling, stating, 'Every country will say, you know what, I can't sprinkle treasuries on my field to grow wheat.' This underscores the necessity for tangible assets in times of geopolitical uncertainty. Additionally, the discussion on the semiconductor sector's rally is insightful, with Gavre noting, 'If you look at semi-conductors as a percentage of the SNP 500, it was 10% two years ago, it's now 17%.' This indicates a significant increase that could lead to overvaluation concerns. The conversation also touches on the U.S. dollar's weakness, with Gavre suggesting, 'The gradual decay in the dollar index on piece hope confirms my view that when the Iran conflict is really and truly over, the next move for the dollar is going to be down.' This insight provides a clear link between geopolitical developments and currency valuations.",
+    "falsification_tracks": [
+      "Should the Strait of Hormuz reopen without incident and oil prices stabilize, the urgency for strategic commodity stockpiling may diminish.",
+      "A sustained period of semiconductor sector underperformance relative to the S&P 500 could indicate market overvaluation concerns are unfounded.",
+      "A strengthening U.S. dollar, contrary to expectations, would challenge the thesis of dollar weakness due to geopolitical de-escalation.",
+      "A decline in gold prices amidst ongoing geopolitical tensions would suggest that safe haven assets are not as sought after as anticipated.",
+      "Failure of Alloatomics or similar companies to capitalize on their DSA approval could indicate a weaker uranium market than predicted."
+    ],
+    "insight_title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
+    "source_name": "Macro Voices",
+    "source_date": "2026-05-07",
+    "key_tickers": [
+      "SNP 500"
+    ]
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 3538,
+    "id": 3582,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -21068,7 +21161,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3539,
+    "id": 3583,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -21080,7 +21173,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3540,
+    "id": 3584,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -21092,7 +21185,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3541,
+    "id": 3585,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -21104,7 +21197,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3542,
+    "id": 3586,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -21116,7 +21209,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3543,
+    "id": 3587,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -21128,7 +21221,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3544,
+    "id": 3588,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -21140,7 +21233,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3545,
+    "id": 3589,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -21152,7 +21245,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3546,
+    "id": 3590,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -21164,7 +21257,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3547,
+    "id": 3591,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -21176,7 +21269,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3548,
+    "id": 3592,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -21188,7 +21281,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3549,
+    "id": 3593,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -21200,7 +21293,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3550,
+    "id": 3594,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -21212,7 +21305,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3551,
+    "id": 3595,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -21224,7 +21317,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3552,
+    "id": 3596,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -21236,7 +21329,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3553,
+    "id": 3597,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -21248,7 +21341,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3554,
+    "id": 3598,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -21260,7 +21353,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3555,
+    "id": 3599,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -21272,7 +21365,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3556,
+    "id": 3600,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -21284,7 +21377,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3557,
+    "id": 3601,
     "name": "Building Agents at Home",
     "slug": "building-agents-at-home",
     "bio": null,
@@ -21439,7 +21532,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 3,
-    "mention_score_decayed": 2.93,
+    "mention_score_decayed": 2.86,
     "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
     "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
@@ -21914,7 +22007,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -21978,7 +22071,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -22038,7 +22131,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
@@ -22111,6 +22204,69 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 236,
+    "name": "Louis Vincent Gavre",
+    "slug": "louis-vincent-gavre",
+    "bio": "Louis Vincent Gavre is an expert in geopolitical impacts on financial markets. He is the co-founder of Gavcal, a firm that analyzes the effects of global events on commodity prices and investment strategies. Gavre is a sought-after commentator on macroeconomics and finance, frequently appearing on podcasts like Macrovoisers to discuss market volatility and strategic commodity stockpiling.",
+    "known_for": "His insights into the geopolitical factors affecting commodity prices and investment strategies.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and assertive.",
+    "voice_style": "Factual and data-driven.",
+    "voice_delivery_notes": "Clear and deliberate pacing, with emphasis on key market insights.",
+    "voice_profile_updated_at": "2026-05-08 03:03:00",
+    "last_seen": "2026-05-08 03:03:00",
+    "last_episode_title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-05-07",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
+    "last_proof_cite": "Macro Voices \u2022 2026-05-07 \u2022 MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "Diversify semiconductor investments to mitigate potential overvaluation risks.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-07T22:03:15.390697",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Louis Vincent Gavre",
+      "fetched_at": "2026-05-08T03:03:15.390194+00:00",
+      "cliff_notes": "Louis Vincent Gavre is recognized for his expertise in the intersection of geopolitics and financial markets. As the co-founder of Gavcal, he has been instrumental in providing analysis on how global events influence commodity prices and investment strategies. His work is particularly relevant for investors looking to navigate market volatility caused by geopolitical tensions, such as the Iran conflict. Gavre's contributions to financial discourse extend to his appearances on financial podcasts, where he shares his views on a range of topics from precious metals to strategic commodity stockpiling by corporations and countries. His insights are highly valued in the professional finance and macroeconomics community.",
+      "derived": {
+        "current_role": "Co-founder of Gavcal"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Louis Vincent Gavre is recognized for his expertise in the intersection of geopolitics and financial markets. As the co-founder of Gavcal, he has been instrumental in providing analysis on how global events influence commodity prices and investment strategies. His work is particularly relevant for investors looking to navigate market volatility caused by geopolitical tensions, such as the Iran conflict.",
+        "Gavre's contributions to financial discourse extend to his appearances on financial podcasts, where he shares his views on a range of topics from precious metals to strategic commodity stockpiling by corporations and countries. His insights are highly valued in the professional finance and macroeconomics community."
+      ],
+      "sections": [
+        {
+          "heading": "Geopolitical Impact",
+          "body": "Gavre is known for his analysis on how geopolitical events, such as conflicts and peace talks, affect financial markets and commodity prices."
+        },
+        {
+          "heading": "Commodity Prices",
+          "body": "He provides in-depth insights into the fluctuations of commodity prices in response to global events and their implications for investment strategies."
+        },
+        {
+          "heading": "Strategic Stockpiling",
+          "body": "Gavre discusses the emerging trend of strategic commodity stockpiling by countries and corporations, highlighting its significance in the current economic landscape."
+        },
+        {
+          "heading": "Market Volatility",
+          "body": "His commentary on market volatility, especially in the context of geopolitical tensions, offers valuable perspectives for investors and financial professionals."
+        }
+      ]
+    }
   },
   {
     "id": 234,
@@ -22504,7 +22660,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-04 \u2022 Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
     "last_proof_snippet": "Today I was speaking to one of the best and most data-driven analysts around, Warren Pious of 314 research. If you have been seeing the ball clearer than him, last time I spoke to him, Warren's calling for S&P to 7,000 by 2026, which obviou",
@@ -22568,7 +22724,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-04 \u2022 Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
     "last_proof_snippet": "AI is going to be more important, not less important, and so the proliferation of a Western AI stack to be a top priority for anyone who cares about freedom. The rules around AI are changing fast. There's a lot of regulation abroad around d",
@@ -22627,7 +22783,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -22698,7 +22854,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -22761,7 +22917,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in companies with high levels of intangible capital using a combination of fundamental and sentiment analysis to identify mispriced opportunities, especially in sectors affected by global events.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show you'll hear more about hfgm currently the number one morning star rated funds its inception in the U.S. macro trading category. Let's ge",
@@ -22888,7 +23044,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-30 \u2022 Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
     "last_proof_snippet": "AI is creating new opportunities to rethink how enterprise systems work, potentially leading to a platform shift.",
@@ -23135,7 +23291,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investment in the biotech sector may need to consider the geographic shift towards China for innovation and efficiency in drug development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-29 \u2022 The Shift in Global Drug Development",
     "last_proof_snippet": "China's clinical trial system has rapidly expanded, with reforms that streamline the approval process.",
@@ -23198,7 +23354,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -23634,7 +23790,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -23699,7 +23855,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in technologies and platforms that leverage cryptography and blockchain to provide verifiable information and restore trust in digital content.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-22 \u2022 Balaji Srinivasan: Prove Correct, Not Just Go Direct",
     "last_proof_snippet": "The growing distrust in media is due to the increasing cost of verifying content as synthetic content floods systems.",
@@ -24331,7 +24487,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-15 \u2022 Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
     "last_proof_snippet": "The company's revenue grew from $2.5 million to $250 million in just over a year, demonstrating the potential of AI in software development.",
@@ -24395,7 +24551,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-14 \u2022 \"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
     "last_proof_snippet": "Investing with a long-term perspective involves considering macroeconomic factors and their impact on smaller companies.",
@@ -24454,7 +24610,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in AI companies that are positioned to benefit from the rapid growth and valuation in the industry, and consider the broader implications of AI on the future of work and social structures.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-14 \u2022 Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
     "last_proof_snippet": "AI is expected to replace many white collar jobs in the near future.",
@@ -24518,7 +24674,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
@@ -24962,7 +25118,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
@@ -25028,7 +25184,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
@@ -25588,7 +25744,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-04 \u2022 \u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
     "last_proof_snippet": "Shipping inefficiencies can lead to increased profits for ship owners.",
@@ -25833,7 +25989,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_proof_snippet": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",
@@ -25893,7 +26049,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-01 \u2022 What Happens When a Public Company Goes All In on AI",
     "last_proof_snippet": "AI agents have significantly increased productivity, with one or two engineers on the tools being able to achieve 10-100x more output than before.",
@@ -26269,7 +26425,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-27 \u2022 Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
     "last_proof_snippet": "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",
@@ -27811,7 +27967,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-19 \u2022 Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
     "last_proof_snippet": "Today's episode is brought to you by the Picta AI Enhance International Equity ETF, Ticker PQNT. You'll hear more about they're using AI to enhance international equity returns later in the show. For now, let's get into it. Very pleased tod",
@@ -27881,7 +28037,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-18 \u2022 Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
     "last_proof_snippet": "Fetterman has a unique perspective, being popular among Republicans while maintaining his Democratic affiliation.",
@@ -27947,7 +28103,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-18 \u2022 The Geopolitics of Technology and the Future Economy",
     "last_proof_snippet": "Helbert emphasizes the importance of hardware in the geopolitical technology war and the control over the internet's infrastructure.",
@@ -28011,7 +28167,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-19 \u2022 Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
     "last_proof_snippet": "The immediate impact of an oil shock is inflationary, but over time it could lead to a negative shock on the economy.",
@@ -28319,7 +28475,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
     "last_proof_snippet": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper | EP #230 Moonshots with Peter Diamandis Episode 230 00:00:00 When do we see a billion-dollar revenue company being run by an AI CEO",
@@ -28516,7 +28672,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-12 \u2022 The Intersection of Technology, Geopolitics, and National Defense",
     "last_proof_snippet": "We were the freak chef, and we spent 20 years for this moment. We're doing it, we're doing it, and I'm sure you're enjoying this as much as I am. I just got three things to say. God bless our troops. God bless America. And shout on that. Do",
@@ -28543,7 +28699,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-09 \u2022 All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
     "last_proof_snippet": "Welcome to another episode of the all-in-interview. I'm really excited to be joined by a back-to-all-in, Harvard Professor Graham Allison. Professor Allison, welcome back to all-in. Thanks for having me. We last had you at the summit in Los",
@@ -28570,7 +28726,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "As the global liquidity cycle peaks, investors should consider rotating their asset allocation towards more defensive areas and higher yielding assets like private credit.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-09 \u2022 Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
     "last_proof_snippet": "Later on, you'll hear more about the fund rise income fund and why sophisticated investors are turning to higher yielding assets like private credit. But for now, let's get into today's interview. Join today by Michael Howell of the Capital",
@@ -28597,7 +28753,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-09 \u2022 The Future of Personal AI Agents with OpenClaw",
     "last_proof_snippet": "We have a special guest with us today. Alex Finn, give us the 101 here for folks. OpenClaw is basically a open source, fully customizable, self-improving, self-learning, self-evolving, personal AI agent. This is kind of the answer Apple's b",
@@ -28624,7 +28780,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in technology that enhances real-time crime prevention and clearance rates can lead to more effective law enforcement and safer communities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-11 \u2022 Real-time Crime Prevention and the Future of Policing",
     "last_proof_snippet": "South American cartels fly illegal drones through these neighborhoods. They'll flip on night vision. Look through houses to see if you can tell me. Didn't go break in. I was working with a town in Tennessee. It's a good city. Their average",
@@ -28651,7 +28807,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "The current geopolitical tensions and the rise of AI technology present both risks and opportunities, with the potential for economic disruption and the need for strategic investment in sectors less affected by AI.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-11 \u2022 Monetary Matters: Economic Consequences of War and AI's Impact",
     "last_proof_snippet": "This episode of Monetary Matters is brought to you by the two-cream Soybean Fund. Take your SOI-B. Let's get into it. Very pleased to welcome to Monetary Matters, Noble Laureate Economist, Professor at Columbia University, an author of Road",
@@ -28678,7 +28834,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-11 \u2022 Capital Markets Evolution and the Future of IPOs",
     "last_proof_snippet": "All right, everybody, welcome to the all-in interview program. Today, we are delighted to have two of the most important individuals shaping capital markets over the next couple of years. SEC chair, Paul Ackens is with us as well as CFTC ch",
@@ -28705,7 +28861,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-11 \u2022 Capital Markets Evolution and the Future of IPOs",
     "last_proof_snippet": "All right, everybody, welcome to the all-in interview program. Today, we are delighted to have two of the most important individuals shaping capital markets over the next couple of years. SEC chair, Paul Ackens is with us as well as CFTC ch",

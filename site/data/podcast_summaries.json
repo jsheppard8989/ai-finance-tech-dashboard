@@ -1,5 +1,24 @@
 [
   {
+    "id": 203,
+    "podcast_name": "Macro Voices",
+    "episode_title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
+    "episode_date": "2026-05-07",
+    "summary": "The podcast discusses the impact of the Iran conflict on global markets, particularly in oil prices, and its implications for inflation and supply chains. Louis Vincent Gavre suggests a shift towards strategic commodity stockpiling due to geopolitical tensions. The conversation also covers the semiconductor sector's rally, the weakening U.S. dollar, gold's reaction to geopolitical tensions, uranium investments, and copper market breakouts. The 10-year Treasury yield's correlation with crude oil prices is also highlighted.",
+    "key_takeaways": [
+      "Invest in commodities as a hedge against geopolitical risks, focusing on energy, agriculture, and industrial inputs.",
+      "Diversify semiconductor investments to mitigate potential overvaluation risks.",
+      "Monitor the U.S. dollar closely and consider hedging strategies against currency fluctuations.",
+      "Include gold in your portfolio as a safe haven asset during times of uncertainty.",
+      "Explore uranium investments, particularly in companies with new reactor technologies like Alloatomics.",
+      "Increase exposure to copper and related sectors as indicators of economic growth."
+    ],
+    "investment_thesis": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
+    "key_tickers": [
+      "SNP 500"
+    ]
+  },
+  {
     "id": 202,
     "podcast_name": "The a16z Show",
     "episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
@@ -122,25 +141,5 @@
     ],
     "investment_thesis": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
     "key_tickers": null
-  },
-  {
-    "id": 197,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
-    "episode_date": "2026-05-01",
-    "summary": "In this episode of Monetary Matters, hosts Jack Farley and Max Weethy discuss the implications of Jay Powell's decision to stay on as Fed Chairman, the changing dynamics of the Federal Reserve, and the impact of oil shocks on interest rates and inflation. They also analyze earnings reports from major tech companies and consider investment strategies in the face of ongoing geopolitical tensions and supply disruptions.",
-    "key_takeaways": [
-      "Jay Powell's decision to stay on as Fed Chairman is seen as a mistake due to his distrust in the administration's ability to handle overruns in Fed building contracts.",
-      "The independence of the Fed is increasingly questioned, with 12 independent voters leading to a shift away from groupthink.",
-      "The market has priced in all cuts for 2026, indicating a potential validation of the market's stance by the Fed.",
-      "Earnings reports from tech giants like Meta, Amazon, and Google show significant beats, impacting market valuations.",
-      "The ongoing war and supply chain disruptions are expected to keep oil prices elevated and interest rates trending higher."
-    ],
-    "investment_thesis": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
-    "key_tickers": [
-      "DBC",
-      "USO",
-      "WTVN"
-    ]
   }
 ]
