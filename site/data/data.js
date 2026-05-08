@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-07T22:05:04.030164",
-  chartsVersion: "2026-05-07T22:04:52.128611",
+  generatedAt: "2026-05-08T05:04:00.661224",
+  chartsVersion: "2026-05-08T05:03:51.893750",
   priceSnapshot: {
   "GOOGL": {
     "price": 397.99,
     "change_pct": 17.95,
     "name": "GOOGL",
-    "updated_at": "2026-05-07T22:04:52.127453"
+    "updated_at": "2026-05-08T05:03:51.893004"
   },
   "NVDA": {
     "price": 211.5,
     "change_pct": 4.67,
     "name": "NVDA",
-    "updated_at": "2026-05-07T22:04:52.127472"
+    "updated_at": "2026-05-08T05:03:51.893017"
   },
   "MSFT": {
     "price": 420.77,
     "change_pct": 0.65,
     "name": "MSFT",
-    "updated_at": "2026-05-07T22:04:52.127481"
+    "updated_at": "2026-05-08T05:03:51.893022"
   },
   "BTC": {
-    "price": 79642.9,
-    "change_pct": 2.62,
+    "price": 79860.27,
+    "change_pct": 2.9,
     "name": "BTC",
-    "updated_at": "2026-05-07T22:04:52.127490"
+    "updated_at": "2026-05-08T05:03:51.893026"
   },
   "WTI": {
     "price": 3.82,
     "change_pct": 28.19,
     "name": "WTI",
-    "updated_at": "2026-05-07T22:04:52.127497"
+    "updated_at": "2026-05-08T05:03:51.893030"
   },
   "S&P 500": {
     "price": 731.58,
     "change_pct": 3.23,
     "name": "S&P 500",
-    "updated_at": "2026-05-07T22:04:52.127505"
+    "updated_at": "2026-05-08T05:03:51.893033"
   },
   "META": {
     "price": 616.81,
     "change_pct": -8.06,
     "name": "META",
-    "updated_at": "2026-05-07T22:04:52.127514"
+    "updated_at": "2026-05-08T05:03:51.893037"
   },
   "AMZN": {
     "price": 271.17,
     "change_pct": 9.22,
     "name": "AMZN",
-    "updated_at": "2026-05-07T22:04:52.127521"
+    "updated_at": "2026-05-08T05:03:51.893041"
   },
   "TSLA": {
     "price": 411.79,
     "change_pct": 4.91,
     "name": "TSLA",
-    "updated_at": "2026-05-07T22:04:52.127528"
+    "updated_at": "2026-05-08T05:03:51.893044"
   },
   "QQQ": {
     "price": 694.94,
     "change_pct": 7.44,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-07T22:04:52.127536"
+    "updated_at": "2026-05-08T05:03:51.893048"
   },
   "BTC-USD": {
-    "price": 79642.9,
-    "change_pct": 2.62,
+    "price": 79860.27,
+    "change_pct": 2.9,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-07T22:04:52.127543"
+    "updated_at": "2026-05-08T05:03:51.893051"
   }
 },
   tickerScores: [
@@ -867,6 +867,27 @@ const dashboardData = {
       "podcast_episode_id": 203
     },
     {
+      "id": 219,
+      "title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-05-07",
+      "summary": "This podcast episode delves into the future of AI, robotics, and their implications on employment and corporate governance. Demis Abbas suggests that AGI might evolve gradually rather than requiring a major breakthrough. The discussion also touches on ambitious production goals for humanoid robots, a new compensation model for CEOs, the evolving legal landscape around AI employment, the rise of GLP-1 drugs, ambient AI experiences, digital twins, and AI coaching, and the potential of de-extinction efforts.",
+      "key_takeaway": "Invest in incremental AI improvements, new compensation models for CEOs, and emerging biotech sectors focusing on longevity and healthspan.",
+      "tickers_mentioned": [
+        "AAPL",
+        "TSLA",
+        "VRTX"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 204
+    },
+    {
       "id": 215,
       "title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
       "source_type": "podcast",
@@ -960,7 +981,7 @@ const dashboardData = {
         "SMH"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-04",
       "archived_date": null,
@@ -4844,6 +4865,42 @@ const dashboardData = {
       "last_mentioned_speaker": "Louis Vincent Gavre"
     },
     {
+      "id": 161,
+      "term": "AGI",
+      "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
+      "first_detected_date": "2026-05-07",
+      "last_mentioned_date": "2026-05-07",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 204,
+      "first_detected_speaker": "Demis Hassabis",
+      "last_mentioned_episode_id": 204,
+      "last_mentioned_speaker": "Demis Hassabis"
+    },
+    {
+      "id": 162,
+      "term": "GLP-1 Drugs",
+      "description": "Glucagon-like peptide-1 receptor agonists, a class of drugs used for the treatment of type 2 diabetes and potentially obesity.",
+      "first_detected_date": "2026-05-07",
+      "last_mentioned_date": "2026-05-07",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in pharmaceutical companies developing GLP-1 drugs for longevity and healthspan enhancement.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 204,
+      "first_detected_speaker": "Demis Hassabis",
+      "last_mentioned_episode_id": 204,
+      "last_mentioned_speaker": "Demis Hassabis"
+    },
+    {
       "id": 156,
       "term": "Compounding Talent, Capital, and Culture",
       "description": "The concept of building an organization that not only generates returns but also systematically develops and retains talent, grows capital, and fosters a strong culture over time.",
@@ -7455,6 +7512,26 @@ const dashboardData = {
       ]
     },
     {
+      "id": 219,
+      "title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-05-07",
+      "summary": "This podcast episode delves into the future of AI, robotics, and their implications on employment and corporate governance. Demis Abbas suggests that AGI might evolve gradually rather than requiring a major breakthrough. The discussion also touches on ambitious production goals for humanoid robots, a new compensation model for CEOs, the evolving legal landscape around AI employment, the rise of GLP-1 drugs, ambient AI experiences, digital twins, and AI coaching, and the potential of de-extinction efforts.",
+      "key_takeaway": "Invest in incremental AI improvements, new compensation models for CEOs, and emerging biotech sectors focusing on longevity and healthspan.",
+      "tickers_mentioned": "[\"AAPL\", \"TSLA\", \"VRTX\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 204,
+      "episode_release_date": "2026-05-07",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 215,
       "title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
       "source_type": "podcast",
@@ -7535,30 +7612,6 @@ const dashboardData = {
       "episode_release_date": "2026-05-05",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 210,
-      "title": "Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-05-04",
-      "summary": "In this episode, Jack Farley interviews Warren Pious, CEO of 314 Research and Caliban, discussing the dual forces shaping the market: the historic oil shortage and the burgeoning AI sector. Pious highlights the significance of AI advancements, particularly in GPU availability and semiconductor movements, as a driving force behind the current bull market. The conversation also covers the impact of high oil prices on the economy and equities, with Pious suggesting that equities are looking past current challenges to focus on future growth, especially in the tech sector.",
-      "key_takeaway": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
-      "tickers_mentioned": "[\"S&P 500\", \"GPU\", \"SMH\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-04",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 196,
-      "episode_release_date": "2026-05-04",
-      "guest_name": "Warren Pies",
-      "key_tickers": [
-        "S&P 500",
-        "GPU",
-        "SMH"
-      ]
     },
     {
       "id": 211,
@@ -7721,7 +7774,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": null,
       "last_mentioned_speaker": null,
-      "overton_score": 1.2,
+      "overton_score": 1.18,
       "resonance_pct": 30,
       "first_detected_podcast": null,
       "first_detected_episode_title": null,
@@ -7747,7 +7800,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": null,
       "last_mentioned_speaker": null,
-      "overton_score": 1.2,
+      "overton_score": 1.18,
       "resonance_pct": 30,
       "first_detected_podcast": null,
       "first_detected_episode_title": null,
@@ -7773,13 +7826,65 @@ const dashboardData = {
       "first_detected_speaker": "Louis Vincent Gavre",
       "last_mentioned_episode_id": 203,
       "last_mentioned_speaker": "Louis Vincent Gavre",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
+      "overton_score": 0.98,
+      "resonance_pct": 24,
       "first_detected_podcast": "Macro Voices",
       "first_detected_episode_title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
       "first_detected_episode_date": "2026-05-07",
       "last_mentioned_podcast": "Macro Voices",
       "last_mentioned_episode_title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
+      "last_mentioned_episode_date": "2026-05-07"
+    },
+    {
+      "id": 161,
+      "term": "AGI",
+      "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
+      "first_detected_date": "2026-05-07",
+      "last_mentioned_date": "2026-05-07",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 204,
+      "first_detected_speaker": "Demis Hassabis",
+      "last_mentioned_episode_id": 204,
+      "last_mentioned_speaker": "Demis Hassabis",
+      "overton_score": 0.98,
+      "resonance_pct": 24,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
+      "first_detected_episode_date": "2026-05-07",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
+      "last_mentioned_episode_date": "2026-05-07"
+    },
+    {
+      "id": 162,
+      "term": "GLP-1 Drugs",
+      "description": "Glucagon-like peptide-1 receptor agonists, a class of drugs used for the treatment of type 2 diabetes and potentially obesity.",
+      "first_detected_date": "2026-05-07",
+      "last_mentioned_date": "2026-05-07",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in pharmaceutical companies developing GLP-1 drugs for longevity and healthspan enhancement.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 204,
+      "first_detected_speaker": "Demis Hassabis",
+      "last_mentioned_episode_id": 204,
+      "last_mentioned_speaker": "Demis Hassabis",
+      "overton_score": 0.98,
+      "resonance_pct": 24,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
+      "first_detected_episode_date": "2026-05-07",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "last_mentioned_episode_date": "2026-05-07"
     },
     {
@@ -7799,8 +7904,8 @@ const dashboardData = {
       "first_detected_speaker": "Tony James",
       "last_mentioned_episode_id": 199,
       "last_mentioned_speaker": "Tony James",
-      "overton_score": 0.95,
-      "resonance_pct": 24,
+      "overton_score": 0.93,
+      "resonance_pct": 23,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Building Blackstone, Backing Costco, with Tony James",
       "first_detected_episode_date": "2026-05-05",
@@ -7825,7 +7930,7 @@ const dashboardData = {
       "first_detected_speaker": "Sarah B. Rogers",
       "last_mentioned_episode_id": 195,
       "last_mentioned_speaker": "Sarah B. Rogers",
-      "overton_score": 0.93,
+      "overton_score": 0.91,
       "resonance_pct": 23,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
@@ -7851,8 +7956,8 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": null,
       "last_mentioned_speaker": null,
-      "overton_score": 0.87,
-      "resonance_pct": 22,
+      "overton_score": 0.85,
+      "resonance_pct": 21,
       "first_detected_podcast": null,
       "first_detected_episode_title": null,
       "first_detected_episode_date": null,
@@ -7877,8 +7982,8 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": null,
       "last_mentioned_speaker": null,
-      "overton_score": 0.87,
-      "resonance_pct": 22,
+      "overton_score": 0.85,
+      "resonance_pct": 21,
       "first_detected_podcast": null,
       "first_detected_episode_title": null,
       "first_detected_episode_date": null,
@@ -7903,8 +8008,8 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": null,
       "last_mentioned_speaker": null,
-      "overton_score": 0.87,
-      "resonance_pct": 22,
+      "overton_score": 0.85,
+      "resonance_pct": 21,
       "first_detected_podcast": null,
       "first_detected_episode_title": null,
       "first_detected_episode_date": null,
@@ -7929,8 +8034,8 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": null,
       "last_mentioned_speaker": null,
-      "overton_score": 0.87,
-      "resonance_pct": 22,
+      "overton_score": 0.85,
+      "resonance_pct": 21,
       "first_detected_podcast": null,
       "first_detected_episode_title": null,
       "first_detected_episode_date": null,
@@ -7955,8 +8060,8 @@ const dashboardData = {
       "first_detected_speaker": "Jim Bianco",
       "last_mentioned_episode_id": 197,
       "last_mentioned_speaker": "Jim Bianco",
-      "overton_score": 0.87,
-      "resonance_pct": 22,
+      "overton_score": 0.85,
+      "resonance_pct": 21,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
       "first_detected_episode_date": "2026-05-01",
@@ -7981,59 +8086,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": null,
       "last_mentioned_speaker": null,
-      "overton_score": 0.85,
-      "resonance_pct": 21,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 137,
-      "term": "Drug Development Efficiency",
-      "description": "The speed and effectiveness with which new drugs are developed and approved for market.",
-      "first_detected_date": "2026-04-30",
-      "last_mentioned_date": "2026-04-30",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Efficiency in drug development can significantly affect a company's profitability and competitive advantage.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.85,
-      "resonance_pct": 21,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 138,
-      "term": "AI CapEx",
-      "description": "Capital expenditure focused on artificial intelligence technologies, indicating a strategic investment in AI infrastructure and development.",
-      "first_detected_date": "2026-04-30",
-      "last_mentioned_date": "2026-04-30",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider AI CapEx as a significant growth area with potential for high returns.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.85,
+      "overton_score": 0.83,
       "resonance_pct": 21,
       "first_detected_podcast": null,
       "first_detected_episode_title": null,
@@ -21144,12 +21197,74 @@ const dashboardData = {
     "key_tickers": [
       "SNP 500"
     ]
+  },
+  "219": {
+    "id": 209,
+    "insight_id": 219,
+    "podcast_episode_id": 204,
+    "overview": "The unresolved tension in the podcast revolves around the pace and nature of technological advancements, particularly in AI and robotics. The competitive dynamic is between incremental improvements and the need for breakthrough innovations. The policy tradeoff is between fostering an environment that supports ambitious production goals in robotics and ensuring ethical AI adoption that does not displace human labor. The allocator-relevant implication is that investors must navigate the uncertainty of technological development while considering the ethical and regulatory landscape that could arbitrate the success of these technologies. The horizon of proof lies in the realization of production goals, the ethical adoption of AI, and the revenue generation of longevity drugs.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the progress of companies focusing on incremental AI improvements, as this approach may yield more consistent results compared to those relying on a single breakthrough.",
+      "Corporate governance structures that link CEO compensation to ambitious goals, like Elon Musk's SpaceX package, could become a benchmark for innovation-driven companies, warranting a closer look at such models.",
+      "Companies should anticipate and prepare for regulatory changes in AI and employment law, as the Chinese court ruling suggests a global shift towards more stringent labor protections in the context of AI adoption.",
+      "Investors should diversify into the biotech sector, with a focus on longevity and healthspan enhancement, as the projected revenue from GLP-1 drugs indicates a significant market opportunity.",
+      "Companies should explore the development of ambient AI technologies that integrate seamlessly into personal environments, as this could become a key differentiator in consumer experiences.",
+      "Entrepreneurs and investors should consider the emerging market for AI-driven personal coaching solutions, as the concept of digital twins and AI coaches suggests a growing demand for personalized development tools."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that incremental advancements in AI and the rise of longevity-focused biotech sectors will outpace the need for radical breakthroughs in AGI. This is supported by the gradual evolution of AI capabilities, the ambitious production goals in robotics, and the projected revenue of GLP-1 drugs. The timeframe for this thesis is within the next decade, and it would be vindicated by the successful scaling of AI technologies, the achievement of production targets in robotics, and the market performance of longevity drugs. Conversely, it would be invalidated if there is a significant breakthrough in AGI that disrupts the current trajectory of incremental improvements or if the market for longevity drugs fails to materialize as projected.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI and its potential to integrate ambient AI experiences into its ecosystem of devices makes it relevant to the thesis.",
+        "positioning": "Positioned as a long-term strategic investment due to its potential to capitalize on the growth of ambient AI and its established market presence.",
+        "risk": "Key risks include failure to innovate in the AI space and potential regulatory hurdles that could impact AI adoption."
+      },
+      "TSLA": {
+        "rationale": "Tesla's ambitious production goals for humanoid robots align with the thesis on the production of robotics.",
+        "positioning": "Positioned as a tactical investment to capitalize on near-term advancements in robotics and AI.",
+        "risk": "The risk lies in the company's ability to meet production targets and the potential for regulatory challenges in AI adoption."
+      },
+      "VRTX": {
+        "rationale": "Vertex Pharmaceuticals, with its focus on biotech and potential involvement in longevity drugs, is relevant to the thesis on the rise of the biotech sector.",
+        "positioning": "Positioned as a long-term strategic investment due to the potential for significant revenue from longevity and healthspan enhancement drugs.",
+        "risk": "Key risks include the failure of drug trials and the potential for market competition in the biotech sector."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that AGI will require a significant breakthrough, which could disrupt the current focus on incremental improvements.",
+      "The possibility that the ambitious production goals for humanoid robots may not be met, leading to a slower adoption of robotics technology.",
+      "Concerns that the market for longevity and healthspan enhancement drugs may not materialize as quickly or as lucratively as projected."
+    ],
+    "catalysts": [
+      "Achievement of production targets for humanoid robots by companies like Figure and Tesla.",
+      "Regulatory rulings in AI and employment law that could impact the adoption of AI in the workplace.",
+      "Market performance of GLP-1 drugs and their potential to surpass revenue generated by AI companies.",
+      "Advancements in ambient AI technologies and their integration into consumer products and services.",
+      "Development and market acceptance of AI-driven personal coaching solutions."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-08T05:03:10.598264",
+    "updated_at": "2026-05-08 10:03:10",
+    "episode_evidence": "In the podcast, Demis Abbas, CEO of DeepMind, suggests a nuanced view on AGI development, stating, 'I think there is a 50, 50 chance and we could still, that we still need a breakthrough, maybe in world models.' This implies that AGI might not require a singular, monumental breakthrough but could evolve through incremental advancements. Regarding humanoid robots, ambitious production goals are highlighted, with companies like Figure aiming for 100,000 robots by 2030 and Elon Musk predicting 1 million Optimus robots by the same year. This indicates a significant shift towards production in robotics. The discussion on GLP-1 drugs, such as Ozempic and Reda Trutide, projects substantial revenue generation, with the potential to surpass AI companies by 2025, as stated, 'GLP-1 drugs could generate more revenue than OpenAI and Anthropic by 2025.' This underscores the growing importance of the biotech sector in the context of longevity and healthspan.",
+    "falsification_tracks": [
+      "Should the production of humanoid robots fail to meet the ambitious targets set by companies like Figure and Tesla, it would suggest slower adoption rates and potentially weaker demand for robotics technology.",
+      "If GLP-1 drug sales do not meet the projected revenue milestones, it could indicate that the market for longevity and healthspan enhancement is not as lucrative as anticipated.",
+      "A significant delay or failure in achieving AGI capabilities through incremental improvements would challenge the current narrative and might shift focus back towards the need for a major breakthrough."
+    ],
+    "insight_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-05-07",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 3582,
+    "id": 3626,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -21161,7 +21276,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3583,
+    "id": 3627,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -21173,7 +21288,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3584,
+    "id": 3628,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -21185,19 +21300,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3585,
-    "name": "Sarah Rogers",
-    "slug": "sarah-rogers",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
-    "last_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-04",
-    "appearance_count": 1
-  },
-  {
-    "id": 3586,
+    "id": 3629,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -21209,7 +21312,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3587,
+    "id": 3630,
+    "name": "Sarah Rogers",
+    "slug": "sarah-rogers",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
+    "last_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-04",
+    "appearance_count": 1
+  },
+  {
+    "id": 3631,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -21221,7 +21336,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3588,
+    "id": 3632,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -21233,7 +21348,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3589,
+    "id": 3633,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -21245,7 +21360,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3590,
+    "id": 3634,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -21257,7 +21372,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3591,
+    "id": 3635,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -21269,7 +21384,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3592,
+    "id": 3636,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -21281,7 +21396,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3593,
+    "id": 3637,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -21293,7 +21408,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3594,
+    "id": 3638,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -21305,7 +21420,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3595,
+    "id": 3639,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -21317,7 +21432,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3596,
+    "id": 3640,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -21329,7 +21444,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3597,
+    "id": 3641,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -21341,7 +21456,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3598,
+    "id": 3642,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -21353,7 +21468,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3599,
+    "id": 3643,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -21365,7 +21480,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3600,
+    "id": 3644,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -21377,7 +21492,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3601,
+    "id": 3645,
     "name": "Building Agents at Home",
     "slug": "building-agents-at-home",
     "bio": null,
@@ -21666,7 +21781,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.66,
+    "mention_score_decayed": 1.62,
     "last_main_idea": "Investing in longevity and healthspan technologies and therapies offers significant growth potential as scientific advancements continue to extend human lifespan and improve quality of life.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-28 \u2022 David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
     "last_proof_snippet": "AI-driven drug design is accelerating research by analyzing billions of molecules for potential therapeutic uses.",
@@ -21947,7 +22062,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-19 \u2022 MacroVoices-2026-03-19-Simon-White",
     "last_proof_snippet": "Simon White suggests that markets may be underpricing the second-order effects of the Iran conflict.",
@@ -22204,6 +22319,67 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 238,
+    "name": "Demis Hassabis",
+    "slug": "demis-hassabis",
+    "bio": "Demis Hassabis is a British artificial intelligence researcher, neuroscientist, and entrepreneur. He is best known as the CEO and co-founder of DeepMind, a leading AI company that was acquired by Google in 2014. Hassabis has made significant contributions to the fields of artificial general intelligence and neuroscience.",
+    "known_for": "His work in artificial general intelligence and neuroscience, and co-founding DeepMind, a leading AI company.",
+    "net_worth_usd": 523000000.0,
+    "net_worth_source": "https://www.yahoo.com/entertainment/demis-hassabis-net-worth-2024-050900515.html",
+    "net_worth_updated_at": "2026-05-08T05:02:20.936995",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-08 10:01:59",
+    "last_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-05-07",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in incremental AI improvements, new compensation models for CEOs, and emerging biotech sectors focusing on longevity and healthspan.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-07 \u2022 Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
+    "last_proof_snippet": "Demisis Abbas, the CEO of DeepMind, says AGI may not need a major breakthrough. I've argued in the past that we achieved AGI in the summer of 2020. We know. I would argue what AGI is, and we know how pleased to find it for me. For your AI,",
+    "supporting_takeaway": "Evaluate corporate governance structures that incentivize long-term innovation.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-08T05:02:19.705997",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Demis Hassabis",
+      "fetched_at": "2026-05-08T10:02:19.705657+00:00",
+      "cliff_notes": "Demis Hassabis was born in London, England. He showed an early aptitude for chess, becoming a chess master at the age of 13. He later studied computer science at, where he earned a master's degree. After completing his studies, Hassabis co-founded Elixir Studios, a video game company. In 2010, he shifted his focus to artificial intelligence and co-founded DeepMind. Under his leadership, DeepMind has made significant advancements in AI, including the development of AlphaGo, a program that defeated the world champion in the game of Go. DeepMind was acquired by Google in 2014, and Hassabis continues to serve as CEO. His work in AI and neuroscience has positioned him as a leading figure in the field of artificial general intelligence.",
+      "derived": {
+        "current_role": "CEO of DeepMind",
+        "education": "M.A. in Computer Science from; M.Sc. in Cognitive and Computational Neuroscience from University College London"
+      },
+      "infobox": {
+        "Born": "1976",
+        "Nationality": "British"
+      },
+      "lead_paragraphs": [
+        "Demis Hassabis was born in London, England. He showed an early aptitude for chess, becoming a chess master at the age of 13. He later studied computer science at, where he earned a master's degree. After completing his studies, Hassabis co-founded Elixir Studios, a video game company. In 2010, he shifted his focus to artificial intelligence and co-founded DeepMind.",
+        "Under his leadership, DeepMind has made significant advancements in AI, including the development of AlphaGo, a program that defeated the world champion in the game of Go. DeepMind was acquired by Google in 2014, and Hassabis continues to serve as CEO. His work in AI and neuroscience has positioned him as a leading figure in the field of artificial general intelligence."
+      ],
+      "sections": [
+        {
+          "heading": "DeepMind",
+          "body": "Hassabis co-founded DeepMind in 2010, which has since become a leading AI company. DeepMind is known for developing AlphaGo, a program that defeated the world champion in the game of Go."
+        },
+        {
+          "heading": "Artificial General Intelligence",
+          "body": "Hassabis is a leading researcher in the field of artificial general intelligence, which aims to create AI systems that can perform any intellectual task that a human being can do."
+        },
+        {
+          "heading": "Neuroscience",
+          "body": "Hassabis has a background in neuroscience, having earned a master's degree in cognitive and computational neuroscience. His work in AI is influenced by his understanding of the human brain."
+        }
+      ]
+    },
+    "net_worth": "$523.0M"
   },
   {
     "id": 236,
@@ -22597,7 +22773,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Building a successful investment organization requires compounding talent, capital, and culture over time, focusing on long-term growth rather than short-term gains.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-05 \u2022 Building Blackstone, Backing Costco, with Tony James",
     "last_proof_snippet": "If you think about the development of a successful company, there's kind of an Esker. It starts off small and entrepreneurial. Then there's this kind of escalation where you create a lot of value in a lot of size. People know Blackstone tod",
@@ -23104,7 +23280,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Steve Helden's candidacy represents a potential shift in California's political landscape towards policies that promote economic freedom and reduced regulatory burdens, which could have implications for businesses and investors in the state.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-29 \u2022 CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
     "last_proof_snippet": "Helden's background as a child of Hungarian refugees and his work experience in various industries shape his policy views.",
@@ -23166,7 +23342,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investing in companies that optimize AI model architecture and training can lead to significant performance improvements and cost savings.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-29 \u2022 Reiner Pope \u2013 The math behind how LLMs are trained and served",
     "last_proof_snippet": "Batch size significantly impacts latency and cost in AI systems.",
@@ -23226,7 +23402,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investing in AI CapEx is currently the main focus, with co-investments in hedge funds providing a successful strategy for capturing high returns.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-29 \u2022 From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
     "last_proof_snippet": "Co-investing with hedge funds is a successful strategy Kavanaugh learned from Scott Beston at Soros Fund Management.",
@@ -23603,7 +23779,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Investing in AI, hardware, and pharma presents significant opportunities due to the large market cap potential and the need for innovation in computing.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-23 \u2022 Martin Shkreli on AI, Pharma, and What Actually Matters",
     "last_proof_snippet": "There is a surprising lack of startups in certain areas of AI and hardware, presenting opportunities for new entrants.",
@@ -23667,7 +23843,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "The Iran conflict and energy market disruptions present opportunities in commodities, particularly in the context of extreme backwardation and supply constraints, which could drive further price increases and investment returns.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-23 \u2022 MacroVoices #529 Ole S Hansen: Commodities in The Wake of The Iran Crisis",
     "last_proof_snippet": "Extreme backwardation in crude oil presents powerful return tailwinds for traders.",
@@ -23729,7 +23905,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in companies and technologies that are at the forefront of AI development and data center infrastructure, as these will be key drivers of growth and power in the coming years.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-23 \u2022 Iran's AI Supply Chain Threat, Claude vs. SaaS, and Elon's $60B Cursor Bet | EP #249",
     "last_proof_snippet": "The aftermath of war is predicted to accelerate the competition between frontier labs and established businesses in AI.",
@@ -24170,7 +24346,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
     "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
@@ -24298,7 +24474,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -24858,7 +25034,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in companies with a strong cultural identity and clear strategic focus can provide an edge in technology markets, as demonstrated by the contrasting paths of Apple and Microsoft.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-10 \u2022 What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
     "last_proof_snippet": "Microsoft's strength in enterprise is due to the legendary compatibility of Windows, a key value for corporations.",
@@ -25055,7 +25231,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
     "last_proof_snippet": "Beach Point Capital Management primarily manages institutional capital, which is characterized as patient capital.",
@@ -25435,7 +25611,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-07 \u2022 How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
     "last_proof_snippet": "The company is leveraging AI to design and build living products, which is a novel approach in synthetic biology.",
@@ -25499,7 +25675,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
     "last_proof_snippet": "AI is a shortcut that can be beneficial but also presents challenges in debugging and understanding.",
@@ -26113,7 +26289,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-31 \u2022 Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
     "last_proof_snippet": "Autonomous vehicles are becoming a reality, with a hybrid model expected to emerge where both human-driven and autonomous vehicles coexist.",
@@ -26174,7 +26350,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
     "last_proof_snippet": "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
@@ -26235,7 +26411,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
     "last_proof_snippet": "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
@@ -26300,7 +26476,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-31 \u2022 The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
     "last_proof_snippet": "The impact of regulation and policy on the cost of starting a hedge fund.",
@@ -26364,7 +26540,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-29 \u2022 The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
     "last_proof_snippet": "Alternative managers are increasingly seeking capital from retail investors and wealth channels.",
@@ -26605,7 +26781,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-27 \u2022 Investing in Sovereign Credit with Lupin Ramon",
     "last_proof_snippet": "Investors in sovereign debt must consider both the ability and willingness of governments to repay, which can be influenced by a multitude of qualitative factors.",
@@ -26670,7 +26846,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-27 \u2022 Lessons from SpaceX and Tesla: Building for the Physical Economy",
     "last_proof_snippet": "Preventing data silos and fostering communication is crucial for scaling.",
@@ -26735,7 +26911,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-27 \u2022 Lessons from SpaceX and Tesla: Building for the Physical Economy",
     "last_proof_snippet": "Preventing data silos and fostering communication is crucial for scaling.",
@@ -27107,7 +27283,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
@@ -27167,7 +27343,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
@@ -27226,7 +27402,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-26 \u2022 Exploring Psychedelics for Longevity and Personal Growth",
     "last_proof_snippet": "Johnson's experience with 5-MEO-DMT was profound, leading to a significant personal reset and a renewed sense of purpose.",
@@ -27286,7 +27462,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
     "last_proof_snippet": "Current power solutions like diesel generators are inefficient and create a tactical signature, making them a liability.",
@@ -27346,7 +27522,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
     "last_proof_snippet": "Current power solutions like diesel generators are inefficient and create a tactical signature, making them a liability.",
@@ -27410,7 +27586,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-24 \u2022 The Future of AI and its Impact on Society and Investment",
     "last_proof_snippet": "Recursive self-improvement in AI is not yet realized, but its potential is both exciting and terrifying.",
@@ -27478,7 +27654,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-23 \u2022 Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
     "last_proof_snippet": "Northwood aims to modernize and vertically integrate ground systems to connect satellites back to Earth.",
@@ -27538,7 +27714,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-23 \u2022 Interview with Michael Intrader at Nvidia's GTC Conference",
     "last_proof_snippet": "The company leverages its expertise in risk management from its hedge fund background to navigate volatility in crypto.",
@@ -27599,7 +27775,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-23 \u2022 Monetary Matters: Middle East Crisis and Global Market Impact",
     "last_proof_snippet": "The Strait of Hormuz remains under Iranian control, and no significant change in shipping has been observed.",
@@ -27784,7 +27960,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-20 \u2022 The Impact of AI on Mathematics and Scientific Discovery",
     "last_proof_snippet": "The application of AI in mathematics could lead to new discoveries and breakthroughs more quickly than traditional methods.",
@@ -27841,7 +28017,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_proof_snippet": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229 00:00:00 I am blown away by how far you've come. The things that you can do with Neural Nets now does completely",
@@ -27905,7 +28081,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "last_proof_cite": "The a16z Show \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
     "last_proof_snippet": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. If you were starting from scratch today,",
@@ -28591,7 +28767,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-13 \u2022 Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
     "last_proof_snippet": "All right, everybody. Welcome back to the number one podcast in the world. Free birds out saving the world, creating new potatoes or I don't know, Kim Wa. Maybe some Brussels sprouts. I'm not sure what he's working on at this point in his p",

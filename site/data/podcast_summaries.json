@@ -1,5 +1,22 @@
 [
   {
+    "id": 204,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
+    "episode_date": "2026-05-07",
+    "summary": "This podcast episode delves into the future of AI, robotics, and their implications on employment and corporate governance. Demis Abbas suggests that AGI might evolve gradually rather than requiring a major breakthrough. The discussion also touches on ambitious production goals for humanoid robots, a new compensation model for CEOs, the evolving legal landscape around AI employment, the rise of GLP-1 drugs, ambient AI experiences, digital twins, and AI coaching, and the potential of de-extinction efforts.",
+    "key_takeaways": [
+      "Invest in companies focusing on incremental AI improvements rather than radical breakthroughs.",
+      "Evaluate corporate governance structures that incentivize long-term innovation.",
+      "Prepare for potential regulatory changes regarding AI and employment.",
+      "Explore investment opportunities in biotech, particularly in the longevity and healthspan sectors.",
+      "Develop AI technologies that enhance user experience through ambient integration.",
+      "Consider creating AI-driven personal coaching solutions to meet emerging market demands."
+    ],
+    "investment_thesis": "Invest in incremental AI improvements, new compensation models for CEOs, and emerging biotech sectors focusing on longevity and healthspan.",
+    "key_tickers": null
+  },
+  {
     "id": 203,
     "podcast_name": "Macro Voices",
     "episode_title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
@@ -104,27 +121,6 @@
     ],
     "investment_thesis": "Hold on to your Bitcoin as a hedge against the mispriced market volatility and potential future disruptions.",
     "key_tickers": null
-  },
-  {
-    "id": 196,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
-    "episode_date": "2026-05-04",
-    "summary": "In this episode, Jack Farley interviews Warren Pious, CEO of 314 Research and Caliban, discussing the dual forces shaping the market: the historic oil shortage and the burgeoning AI sector. Pious highlights the significance of AI advancements, particularly in GPU availability and semiconductor movements, as a driving force behind the current bull market. The conversation also covers the impact of high oil prices on the economy and equities, with Pious suggesting that equities are looking past current challenges to focus on future growth, especially in the tech sector.",
-    "key_takeaways": [
-      "Warren Pious predicted an S&P 500 target of 7,000 by 2026, which has since been achieved.",
-      "The oil shortage is a significant concern, but the AI sector's advancements are a more powerful market driver.",
-      "GPU availability data indicates a scramble for compute power, suggesting strong demand in the AI space.",
-      "The market is currently led by tech and AI-related areas, reflecting the fulfillment of AI's promise.",
-      "Equities are discounting future events, making them less sensitive to short-term oil price fluctuations.",
-      "Pious believes the market is not overvalued and can continue to grow based on the strength of the AI narrative."
-    ],
-    "investment_thesis": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
-    "key_tickers": [
-      "S&P 500",
-      "GPU",
-      "SMH"
-    ]
   },
   {
     "id": 195,
