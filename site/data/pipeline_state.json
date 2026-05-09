@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-09T05:03:45.652979",
-  "last_updated": "2026-05-09T05:03:45.652979",
-  "last_pipeline_run": "2026-05-09T05:03:45.652979",
+  "generated_at": "2026-05-09T06:58:40.793831",
+  "last_updated": "2026-05-09T06:58:40.793831",
+  "last_pipeline_run": "2026-05-09T06:58:40.793831",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -12,39 +12,20 @@
     "podcast_episodes": 180,
     "newsletters": 7,
     "daily_scores": 112,
-    "overton_terms_total": 147,
+    "overton_terms_total": 145,
     "latest_insights_total": 194,
     "today_mentions": {},
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "2f991816-fba7-4f75-9ea1-67ddf15953f9",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-      "published": "2026-05-08",
-      "rss_guid": "2f991816-fba7-4f75-9ea1-67ddf15953f9",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
