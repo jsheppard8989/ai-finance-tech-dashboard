@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-09T12:15:35.996416",
-  chartsVersion: "2026-05-09T12:15:28.199170",
+  generatedAt: "2026-05-09T13:48:00.888687",
+  chartsVersion: "2026-05-09T13:47:52.004850",
   priceSnapshot: {
   "GOOGL": {
     "price": 400.8,
     "change_pct": 20.62,
     "name": "GOOGL",
-    "updated_at": "2026-05-09T12:15:28.198169"
+    "updated_at": "2026-05-09T13:47:52.004115"
   },
   "NVDA": {
     "price": 215.2,
     "change_pct": 7.66,
     "name": "NVDA",
-    "updated_at": "2026-05-09T12:15:28.198190"
+    "updated_at": "2026-05-09T13:47:52.004132"
   },
   "MSFT": {
     "price": 415.12,
     "change_pct": -2.13,
     "name": "MSFT",
-    "updated_at": "2026-05-09T12:15:28.198201"
+    "updated_at": "2026-05-09T13:47:52.004139"
   },
   "BTC": {
-    "price": 80745.77,
-    "change_pct": 2.65,
+    "price": 80877.05,
+    "change_pct": 2.82,
     "name": "BTC",
-    "updated_at": "2026-05-09T12:15:28.198210"
+    "updated_at": "2026-05-09T13:47:52.004145"
   },
   "WTI": {
     "price": 3.71,
     "change_pct": 14.51,
     "name": "WTI",
-    "updated_at": "2026-05-09T12:15:28.198218"
+    "updated_at": "2026-05-09T13:47:52.004150"
   },
   "S&P 500": {
     "price": 737.62,
     "change_pct": 4.76,
     "name": "S&P 500",
-    "updated_at": "2026-05-09T12:15:28.198226"
+    "updated_at": "2026-05-09T13:47:52.004155"
   },
   "META": {
     "price": 609.63,
     "change_pct": -8.85,
     "name": "META",
-    "updated_at": "2026-05-09T12:15:28.198234"
+    "updated_at": "2026-05-09T13:47:52.004161"
   },
   "AMZN": {
     "price": 272.68,
     "change_pct": 9.11,
     "name": "AMZN",
-    "updated_at": "2026-05-09T12:15:28.198242"
+    "updated_at": "2026-05-09T13:47:52.004166"
   },
   "TSLA": {
     "price": 428.35,
     "change_pct": 10.85,
     "name": "TSLA",
-    "updated_at": "2026-05-09T12:15:28.198250"
+    "updated_at": "2026-05-09T13:47:52.004171"
   },
   "QQQ": {
     "price": 711.23,
     "change_pct": 10.38,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-09T12:15:28.198257"
+    "updated_at": "2026-05-09T13:47:52.004177"
   },
   "BTC-USD": {
-    "price": 80745.77,
-    "change_pct": 2.65,
+    "price": 80877.05,
+    "change_pct": 2.82,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-09T12:15:28.198264"
+    "updated_at": "2026-05-09T13:47:52.004182"
   }
 },
   tickerScores: [
@@ -450,7 +450,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ARBOMB",
+    "ticker": "AMD",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -465,7 +465,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CROWD",
+    "ticker": "ARBOMB",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -480,7 +480,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SMH",
+    "ticker": "CROWD",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -495,7 +495,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "WORK",
+    "ticker": "SMH",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -510,7 +510,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ZEN",
+    "ticker": "WORK",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -525,14 +525,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ARBOB GASOLINE",
-    "total_score": 70.0,
+    "ticker": "ZEN",
+    "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 31,
-    "score": 70.0,
+    "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -540,7 +540,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "DELL",
+    "ticker": "ARBOB GASOLINE",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -555,7 +555,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "E-TORO",
+    "ticker": "DELL",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -570,7 +570,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "EMAX",
+    "ticker": "E-TORO",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -585,7 +585,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "NOW",
+    "ticker": "EMAX",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -600,7 +600,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SMP-500",
+    "ticker": "NOW",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -615,14 +615,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRM",
-    "total_score": 68.0,
+    "ticker": "SMP-500",
+    "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 37,
-    "score": 68.0,
+    "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -630,7 +630,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "MINE",
+    "ticker": "CRM",
     "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -645,14 +645,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ETH",
-    "total_score": 66.0,
+    "ticker": "MINE",
+    "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 39,
-    "score": 66.0,
+    "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -660,7 +660,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ILMN",
+    "ticker": "ETH",
     "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -675,7 +675,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PLTR",
+    "ticker": "ILMN",
     "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -690,14 +690,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRSP",
-    "total_score": 64.0,
+    "ticker": "PLTR",
+    "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 42,
-    "score": 64.0,
+    "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -705,7 +705,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "GOOG",
+    "ticker": "CRSP",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -720,7 +720,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "HG",
+    "ticker": "GOOG",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -735,7 +735,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "HOOD",
+    "ticker": "HG",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -750,7 +750,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SF",
+    "ticker": "HOOD",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -765,13 +765,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "SF",
+    "total_score": 64.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 47,
+    "score": 64.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "USDX",
     "total_score": 62.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 47,
+    "rank": 48,
     "score": 62.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -786,21 +801,6 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 48,
-    "score": 60.0,
-    "mentions": 1,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "T",
-    "total_score": 60.0,
-    "raw_mention_count": 1,
-    "unique_sources": 1,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
     "rank": 49,
     "score": 60.0,
     "mentions": 1,
@@ -810,7 +810,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "TLT",
+    "ticker": "T",
     "total_score": 60.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -827,6 +827,27 @@ const dashboardData = {
 ],
   archive: {
   "insights": [
+    {
+      "id": 223,
+      "title": "Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-05-09",
+      "summary": "This episode of 'Moonshots with Peter Diamandis' delves into the economic impact of AI, its role as a growth engine for GDP, and the geopolitical implications of AI regulation. The discussion also touches on the emerging market for AI insurance and the future of work in an AI-driven economy. Key insights include the surge in AI chip demand, innovative AI data center solutions, and the need for specialized AI insurance policies.",
+      "key_takeaway": "AI is a significant driver of economic growth and innovation, presenting opportunities in AI-driven sectors, sustainable data center technologies, and AI insurance.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "AMD",
+        "INTC"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 208
+    },
     {
       "id": 220,
       "title": "David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
@@ -966,7 +987,7 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-06",
       "archived_date": null,
@@ -4912,6 +4933,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 166,
+      "term": "AI Insurance",
+      "description": "A specialized insurance market emerging to cover damages related to AI, as major insurers exclude such coverage from standard policies.",
+      "first_detected_date": "2026-05-09",
+      "last_mentioned_date": "2026-05-09",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Entrepreneurs and investors should explore opportunities in providing AI-specific insurance products.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 208,
+      "first_detected_speaker": "Peter Diamandis",
+      "last_mentioned_episode_id": 208,
+      "last_mentioned_speaker": "Peter Diamandis"
+    },
+    {
       "id": 160,
       "term": "Strategic Commodity Stockpiling",
       "description": "The act of countries building up physical reserves of commodities to mitigate risks associated with geopolitical tensions.",
@@ -7532,6 +7571,30 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 223,
+      "title": "Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-05-09",
+      "summary": "This episode of 'Moonshots with Peter Diamandis' delves into the economic impact of AI, its role as a growth engine for GDP, and the geopolitical implications of AI regulation. The discussion also touches on the emerging market for AI insurance and the future of work in an AI-driven economy. Key insights include the surge in AI chip demand, innovative AI data center solutions, and the need for specialized AI insurance policies.",
+      "key_takeaway": "AI is a significant driver of economic growth and innovation, presenting opportunities in AI-driven sectors, sustainable data center technologies, and AI insurance.",
+      "tickers_mentioned": "[\"GOOGL\", \"AMD\", \"INTC\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 208,
+      "episode_release_date": "2026-05-09",
+      "guest_name": null,
+      "key_tickers": [
+        "GOOGL",
+        "AMD",
+        "INTC"
+      ]
+    },
+    {
       "id": 220,
       "title": "David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
       "source_type": "podcast",
@@ -7654,26 +7717,6 @@ const dashboardData = {
       "podcast_episode_id": 204,
       "episode_release_date": "2026-05-07",
       "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 215,
-      "title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-05-06",
-      "summary": "In this episode of the a16z Show, NASA Administrator Jared Isaacman discusses the urgency and importance of America's return to the moon. The conversation covers the new space race, the Artemis program, and the challenges of building systems and infrastructure to sustain lunar operations. Isaacman emphasizes the need for a faster pace, competition, and the integration of private industry to achieve these goals.",
-      "key_takeaway": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
-      "tickers_mentioned": "[\"SPCE\", \"BLUE\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-06",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 200,
-      "episode_release_date": "2026-05-06",
-      "guest_name": "NASA Administrator Jared Isaacman",
       "key_tickers": []
     },
     {
@@ -7873,6 +7916,32 @@ const dashboardData = {
       "last_mentioned_podcast": null,
       "last_mentioned_episode_title": null,
       "last_mentioned_episode_date": null
+    },
+    {
+      "id": 166,
+      "term": "AI Insurance",
+      "description": "A specialized insurance market emerging to cover damages related to AI, as major insurers exclude such coverage from standard policies.",
+      "first_detected_date": "2026-05-09",
+      "last_mentioned_date": "2026-05-09",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Entrepreneurs and investors should explore opportunities in providing AI-specific insurance products.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 208,
+      "first_detected_speaker": "Peter Diamandis",
+      "last_mentioned_episode_id": 208,
+      "last_mentioned_speaker": "Peter Diamandis",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
+      "first_detected_episode_date": "2026-05-09",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
+      "last_mentioned_episode_date": "2026-05-09"
     },
     {
       "id": 160,
@@ -8133,32 +8202,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Monetary Matters with Jack Farley",
       "last_mentioned_episode_title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
       "last_mentioned_episode_date": "2026-05-01"
-    },
-    {
-      "id": 136,
-      "term": "Clinical Trial Reform",
-      "description": "Changes in the process of running clinical trials, including regulatory design, trial structure, and funding models.",
-      "first_detected_date": "2026-04-30",
-      "last_mentioned_date": "2026-04-30",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should monitor how clinical trial reforms in different countries impact drug development timelines and costs.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.81,
-      "resonance_pct": 20,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
     }
   ]
 },
@@ -21515,12 +21558,80 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-05-08",
     "key_tickers": []
+  },
+  "223": {
+    "id": 213,
+    "insight_id": 223,
+    "podcast_episode_id": 208,
+    "overview": "The unresolved tension in the AI landscape revolves around the balance between harnessing AI for economic growth and addressing the geopolitical and ethical implications of its deployment. The competitive dynamic is between nations and companies racing to capitalize on AI's potential while grappling with the need for regulation to prevent misuse and ensure fairness. The metric that arbitrates this uncertainty is the pace of AI innovation against the development of effective regulatory frameworks. The horizon of proof lies in the ability of the market and policymakers to adapt to the rapid changes brought about by AI, balancing growth with responsibility.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the regulatory environment for AI, as it can significantly impact the valuation and growth prospects of AI-driven companies.",
+      "The emergence of AI insurance presents an opportunity for investors to capitalize on a new market segment that is directly tied to the risks and liabilities associated with AI deployment.",
+      "Companies investing in sustainable AI data center technologies may gain a competitive edge as the market shifts towards more environmentally conscious practices.",
+      "Investors should consider the long-term implications of AI on the job market, focusing on companies that are proactive in reskilling and upskilling their workforce to adapt to the changing economic landscape.",
+      "The potential for public wealth funds to stake a claim in AI's upside, as proposed by Sam Altman, could lead to a new model for wealth distribution and investment in AI technologies."
+    ],
+    "investment_thesis": "AI's role as a catalyst for economic growth is contestable based on the pace of regulatory development and the ethical considerations surrounding its use. The thesis is that AI will continue to drive GDP growth, but the extent of this impact will be mediated by how effectively regulatory frameworks can keep pace with technological advancements. An observable development that would vindicate this thesis is the continued growth in AI CapEx investments and the successful implementation of AI regulations that foster innovation without stifling competition. Conversely, a slowdown in AI investment or the emergence of significant ethical scandals could invalidate the thesis.",
+    "ticker_analysis": {
+      "GOOGL": {
+        "rationale": "Google, with its strong position in AI services and cloud computing, is directly impacted by AI's economic growth and regulatory developments.",
+        "positioning": "Strategic long position, as Google is likely to benefit from the continued expansion of AI in the economy and has the resources to navigate regulatory changes.",
+        "risk": "Key risks include regulatory setbacks that could hinder AI development and deployment, and increased competition in the AI space."
+      },
+      "AMD": {
+        "rationale": "AMD's surge in stock price is tied to the increasing demand for AI chips, making it a bellwether for the health of the AI industry.",
+        "positioning": "Tactical long position, as AMD can capitalize on the immediate demand for AI chips, but is also vulnerable to market fluctuations and competition.",
+        "risk": "The risk lies in overdependence on the AI market, which could lead to volatility if AI growth slows or if competitors gain an edge."
+      },
+      "INTC": {
+        "rationale": "Intel, as a, also stands to benefit from the growing demand for AI chips and has the potential to disrupt the market with innovative solutions.",
+        "positioning": "Strategic long position, considering Intel's efforts to regain market share in the AI chip sector and its potential for growth.",
+        "risk": "The risk is the company's ability to compete effectively in a rapidly evolving market and the potential for regulatory changes to affect chip sales."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The possibility that AI's economic growth may be overestimated, leading to a correction in AI-related investments.",
+      "Regulatory actions could be more stringent than anticipated, potentially hampering AI innovation and growth.",
+      "A shift in geopolitical dynamics could lead to a realignment of AI development, with countries prioritizing national security over economic growth.",
+      "The emergence of new technologies that could disrupt the current AI landscape, rendering some investments obsolete."
+    ],
+    "catalysts": [
+      "Upcoming earnings reports from AI-driven companies like Google, which could provide insights into the health of the AI market.",
+      "Regulatory decisions by the U.S. government and other nations that could shape the future of AI development and deployment.",
+      "Advancements in AI technology that could either accelerate growth or highlight new ethical and security concerns.",
+      "Global economic indicators that could reflect the impact of AI on GDP growth and overall economic health.",
+      "The commercial deployment of innovative AI data center solutions, which could signal a new era of sustainable and efficient AI infrastructure."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-09T13:47:10.130170",
+    "updated_at": "2026-05-09 18:47:10",
+    "episode_evidence": "The podcast 'Moonshots with Peter Diamandis' provides a multifaceted view of AI's economic impact. Google's Q2 earnings, at $109.9 billion, represent a 22% year-over-year growth, with AI being a key driver across its services, as stated by Diamandis: 'AI CapEx will be a 2% tailwind to the GDP growth this year.' This underscores AI's role as a significant economic catalyst. Additionally, the discussion on AI regulation by the White House and the Pentagon's agreements with AI companies for military applications highlight the geopolitical tensions and ethical considerations in AI's development and deployment. The surge in AI chip demand, with companies like AMD and Intel benefiting, is another clear indicator of the technology's growing importance. Furthermore, innovative solutions for AI infrastructure, such as ocean-based and orbital data centers, are emerging to address the sustainability and efficiency of AI's growing energy needs, as mentioned by Diamandis: 'The demand for AI data centers is driving innovation in cooling solutions and energy sourcing.'",
+    "falsification_tracks": [
+      "A decline in AI CapEx investments across major economies would challenge the thesis of AI as a significant GDP growth driver.",
+      "Should Google's AI-driven services fail to maintain their growth trajectory in subsequent quarters, it could indicate a slowdown in AI's economic impact.",
+      "A significant drop in stock prices of AI chip manufacturers like AMD and Intel could signal a reduced demand for AI capabilities.",
+      "Failures in the deployment or commercial viability of innovative AI data center solutions could undermine the sustainability and efficiency claims of these technologies.",
+      "A lack of policy changes or enforcement regarding AI regulation could indicate that current geopolitical tensions and ethical considerations are not as pressing as suggested."
+    ],
+    "insight_title": "Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-05-09",
+    "key_tickers": [
+      "GOOGL",
+      "AMD",
+      "INTC"
+    ]
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 3938,
+    "id": 3983,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -21532,7 +21643,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3939,
+    "id": 3984,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -21544,7 +21655,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3940,
+    "id": 3985,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -21556,7 +21667,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3941,
+    "id": 3986,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -21568,7 +21679,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3942,
+    "id": 3987,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -21580,7 +21691,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3943,
+    "id": 3988,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -21592,7 +21703,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3944,
+    "id": 3989,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -21604,7 +21715,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3945,
+    "id": 3990,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -21616,7 +21727,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3946,
+    "id": 3991,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -21628,7 +21739,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3947,
+    "id": 3992,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -21640,7 +21751,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3948,
+    "id": 3993,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -21652,7 +21763,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3949,
+    "id": 3994,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -21664,7 +21775,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3950,
+    "id": 3995,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -21676,7 +21787,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3951,
+    "id": 3996,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -21688,7 +21799,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3952,
+    "id": 3997,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -21700,7 +21811,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3953,
+    "id": 3998,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -21712,7 +21823,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3954,
+    "id": 3999,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -21724,7 +21835,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3955,
+    "id": 4000,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -21736,7 +21847,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3956,
+    "id": 4001,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -21748,7 +21859,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3957,
+    "id": 4002,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -21971,7 +22082,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.95,
+    "mention_score_decayed": 1.91,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -22577,6 +22688,68 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 46,
+    "name": "Peter Diamandis",
+    "slug": "peter-diamandis",
+    "bio": "Founder and Executive Chairman of the XPRIZE Foundation, Co-Founder of Singularity University, and an entrepreneur focused on exponential technologies.",
+    "known_for": "His work in fostering technological advancements and incentivizing innovation through the XPRIZE model.",
+    "net_worth_usd": 200000000.0,
+    "net_worth_source": "https://explore.st-aug.edu/exp/peter-diamandis-xprize-bio-wiki-age-height-family-wife-facts-books-quotes-and-net-worth",
+    "net_worth_updated_at": "2026-04-01T05:04:16.091231",
+    "voice_tone": "Informed and optimistic",
+    "voice_style": "Factual and forward-looking",
+    "voice_delivery_notes": "Clear and deliberate pace with emphasis on key economic and technological points",
+    "voice_profile_updated_at": "2026-05-09 18:46:41",
+    "last_seen": "2026-05-09 18:46:41",
+    "last_episode_title": "Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-05-09",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "AI is a significant driver of economic growth and innovation, presenting opportunities in AI-driven sectors, sustainable data center technologies, and AI insurance.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-09 \u2022 Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
+    "last_proof_snippet": "Google has crushed their earnings. Alpha that reported 109.9 billion dollars. 22% year on your growth, 62.6 billion in profit. Google Cloud hit 20 billion revenue with 63% growth. AI drove results across the entire Google ecosystem. The rev",
+    "supporting_takeaway": "Monitor regulatory developments related to AI to assess potential impacts on investment opportunities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-19T22:06:22.117953",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Peter Diamandis",
+      "fetched_at": "2026-04-20T03:06:22.117732+00:00",
+      "cliff_notes": "Peter Diamandis is a prominent figure in the fields of innovation and technology, particularly in space exploration. He founded the X PRIZE Foundation, which has been instrumental in driving advancements in technology through incentivizing competition. Diamandis has also been involved in the commercial space industry, aiming to make space travel more accessible. His work has had a significant impact on fostering innovation and has been influential in the tech and finance sectors, as his initiatives often lead to groundbreaking technological developments.",
+      "derived": {
+        "current_role": "Founder and Executive Chairman, X PRIZE Foundation",
+        "education": "MD, Harvard Medical School; MBA, MIT Sloan School of Management",
+        "books_or_works": "Abundance: The Future is Better Than You Think; Bold: How to Go Big, Create Wealth and Impact the World"
+      },
+      "infobox": {
+        "Born": "August 20, 1961",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Peter Diamandis is a prominent figure in the fields of innovation and technology, particularly in space exploration. He founded the X PRIZE Foundation, which has been instrumental in driving advancements in technology through incentivizing competition. Diamandis has also been involved in the commercial space industry, aiming to make space travel more accessible.",
+        "His work has had a significant impact on fostering innovation and has been influential in the tech and finance sectors, as his initiatives often lead to groundbreaking technological developments."
+      ],
+      "sections": [
+        {
+          "heading": "Innovation and Technology",
+          "body": "Peter Diamandis is known for his work in fostering innovation and technological advancement, particularly through the X PRIZE Foundation."
+        },
+        {
+          "heading": "Space Exploration",
+          "body": "Diamandis has been a key figure in the commercial space industry, aiming to make space travel more accessible and fostering advancements in space technology."
+        },
+        {
+          "heading": "X PRIZE Foundation",
+          "body": "As the founder and executive chairman of the X PRIZE Foundation, Diamandis has been instrumental in designing and managing public competitions that encourage technological development for the benefit of humanity."
+        }
+      ]
+    },
+    "net_worth": "$200.0M"
+  },
+  {
     "id": 240,
     "name": "David Reich",
     "slug": "david-reich",
@@ -22594,7 +22767,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -22784,7 +22957,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -22847,7 +23020,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -23035,7 +23208,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -26980,7 +27153,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -27039,7 +27212,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",

@@ -1,5 +1,24 @@
 [
   {
+    "id": 208,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
+    "episode_date": "2026-05-09",
+    "summary": "This episode of 'Moonshots with Peter Diamandis' delves into the economic impact of AI, its role as a growth engine for GDP, and the geopolitical implications of AI regulation. The discussion also touches on the emerging market for AI insurance and the future of work in an AI-driven economy. Key insights include the surge in AI chip demand, innovative AI data center solutions, and the need for specialized AI insurance policies.",
+    "key_takeaways": [
+      "Invest in AI-driven companies and sectors poised for growth, especially in data centers and infrastructure.",
+      "Monitor regulatory developments related to AI to assess potential impacts on investment opportunities.",
+      "Explore opportunities in the emerging AI insurance market to address the growing need for specialized coverage.",
+      "Encourage workforce reskilling initiatives to prepare employees for the evolving job landscape influenced by AI."
+    ],
+    "investment_thesis": "AI is a significant driver of economic growth and innovation, presenting opportunities in AI-driven sectors, sustainable data center technologies, and AI insurance.",
+    "key_tickers": [
+      "GOOGL",
+      "AMD",
+      "INTC"
+    ]
+  },
+  {
     "id": 207,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
@@ -120,22 +139,5 @@
     "key_tickers": [
       "N/A"
     ]
-  },
-  {
-    "id": 200,
-    "podcast_name": "The a16z Show",
-    "episode_title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
-    "episode_date": "2026-05-06",
-    "summary": "In this episode of the a16z Show, NASA Administrator Jared Isaacman discusses the urgency and importance of America's return to the moon. The conversation covers the new space race, the Artemis program, and the challenges of building systems and infrastructure to sustain lunar operations. Isaacman emphasizes the need for a faster pace, competition, and the integration of private industry to achieve these goals.",
-    "key_takeaways": [
-      "The return to the moon is not just about national pride but also about scientific, economic, and national security interests.",
-      "The new space race is measured in months, forcing a rethink of mission building, capital deployment, and talent management.",
-      "NASA faces the challenge of maintaining a rapid pace and building the necessary infrastructure to sustain operations on the moon.",
-      "The Artemis program, established by President Trump, has a clear mandate to return to the moon and build a base for sustained operations.",
-      "Historic investment and bipartisan support have provided NASA with nearly $10 billion to move forward with the Artemis program.",
-      "The integration of private industry is crucial for the success of space exploration, with multiple companies now capable of providing launch, landers, and other capabilities."
-    ],
-    "investment_thesis": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
-    "key_tickers": null
   }
 ]
