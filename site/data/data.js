@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-10T07:06:07.602609",
-  chartsVersion: "2026-05-10T07:05:56.122170",
+  generatedAt: "2026-05-10T12:24:09.920296",
+  chartsVersion: "2026-05-10T12:23:01.078943",
   priceSnapshot: {
   "GOOGL": {
     "price": 400.8,
     "change_pct": 20.62,
     "name": "GOOGL",
-    "updated_at": "2026-05-10T07:05:56.121456"
+    "updated_at": "2026-05-10T12:23:01.078073"
   },
   "NVDA": {
     "price": 215.2,
     "change_pct": 7.66,
     "name": "NVDA",
-    "updated_at": "2026-05-10T07:05:56.121472"
+    "updated_at": "2026-05-10T12:23:01.078093"
   },
   "MSFT": {
     "price": 415.12,
     "change_pct": -2.13,
     "name": "MSFT",
-    "updated_at": "2026-05-10T07:05:56.121479"
+    "updated_at": "2026-05-10T12:23:01.078102"
   },
   "BTC": {
-    "price": 80779.37,
-    "change_pct": 4.41,
+    "price": 81376.54,
+    "change_pct": 5.18,
     "name": "BTC",
-    "updated_at": "2026-05-10T07:05:56.121485"
+    "updated_at": "2026-05-10T12:23:01.078110"
   },
   "WTI": {
     "price": 3.71,
     "change_pct": 14.51,
     "name": "WTI",
-    "updated_at": "2026-05-10T07:05:56.121490"
+    "updated_at": "2026-05-10T12:23:01.078117"
   },
   "S&P 500": {
     "price": 737.62,
     "change_pct": 4.76,
     "name": "S&P 500",
-    "updated_at": "2026-05-10T07:05:56.121496"
+    "updated_at": "2026-05-10T12:23:01.078125"
   },
   "META": {
     "price": 609.63,
     "change_pct": -8.85,
     "name": "META",
-    "updated_at": "2026-05-10T07:05:56.121502"
+    "updated_at": "2026-05-10T12:23:01.078133"
   },
   "AMZN": {
     "price": 272.68,
     "change_pct": 9.11,
     "name": "AMZN",
-    "updated_at": "2026-05-10T07:05:56.121507"
+    "updated_at": "2026-05-10T12:23:01.078140"
   },
   "TSLA": {
     "price": 428.35,
     "change_pct": 10.85,
     "name": "TSLA",
-    "updated_at": "2026-05-10T07:05:56.121513"
+    "updated_at": "2026-05-10T12:23:01.078147"
   },
   "QQQ": {
     "price": 711.23,
     "change_pct": 10.38,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-10T07:05:56.121519"
+    "updated_at": "2026-05-10T12:23:01.078154"
   },
   "BTC-USD": {
-    "price": 80779.37,
-    "change_pct": 4.41,
+    "price": 81376.54,
+    "change_pct": 5.18,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-10T07:05:56.121524"
+    "updated_at": "2026-05-10T12:23:01.078161"
   }
 },
   tickerScores: [
@@ -21613,7 +21613,7 @@ const dashboardData = {
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 4163,
+    "id": 4208,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -21625,7 +21625,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4164,
+    "id": 4209,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -21637,7 +21637,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4165,
+    "id": 4210,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -21649,7 +21649,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4166,
+    "id": 4211,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -21661,7 +21661,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4167,
+    "id": 4212,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -21673,7 +21673,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4168,
+    "id": 4213,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -21685,7 +21685,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4169,
+    "id": 4214,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -21697,7 +21697,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4170,
+    "id": 4215,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -21709,7 +21709,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4171,
+    "id": 4216,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -21721,7 +21721,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4172,
+    "id": 4217,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -21733,7 +21733,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4173,
+    "id": 4218,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -21745,7 +21745,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4174,
+    "id": 4219,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -21757,7 +21757,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4175,
+    "id": 4220,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -21769,7 +21769,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4176,
+    "id": 4221,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -21781,7 +21781,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4177,
+    "id": 4222,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -21793,7 +21793,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4178,
+    "id": 4223,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -21805,7 +21805,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4179,
+    "id": 4224,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -21817,7 +21817,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4180,
+    "id": 4225,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -21829,7 +21829,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4181,
+    "id": 4226,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -21841,7 +21841,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4182,
+    "id": 4227,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -22656,7 +22656,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -25010,7 +25010,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -27576,7 +27576,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -27636,7 +27636,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -27696,7 +27696,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",
