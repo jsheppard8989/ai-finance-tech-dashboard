@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-09T13:48:00.888687",
-  chartsVersion: "2026-05-09T13:47:52.004850",
+  generatedAt: "2026-05-09T22:01:37.092702",
+  chartsVersion: "2026-05-09T22:01:24.348933",
   priceSnapshot: {
   "GOOGL": {
     "price": 400.8,
     "change_pct": 20.62,
     "name": "GOOGL",
-    "updated_at": "2026-05-09T13:47:52.004115"
+    "updated_at": "2026-05-09T22:01:24.348237"
   },
   "NVDA": {
     "price": 215.2,
     "change_pct": 7.66,
     "name": "NVDA",
-    "updated_at": "2026-05-09T13:47:52.004132"
+    "updated_at": "2026-05-09T22:01:24.348253"
   },
   "MSFT": {
     "price": 415.12,
     "change_pct": -2.13,
     "name": "MSFT",
-    "updated_at": "2026-05-09T13:47:52.004139"
+    "updated_at": "2026-05-09T22:01:24.348261"
   },
   "BTC": {
-    "price": 80877.05,
-    "change_pct": 2.82,
+    "price": 80752.17,
+    "change_pct": 4.38,
     "name": "BTC",
-    "updated_at": "2026-05-09T13:47:52.004145"
+    "updated_at": "2026-05-09T22:01:24.348266"
   },
   "WTI": {
     "price": 3.71,
     "change_pct": 14.51,
     "name": "WTI",
-    "updated_at": "2026-05-09T13:47:52.004150"
+    "updated_at": "2026-05-09T22:01:24.348272"
   },
   "S&P 500": {
     "price": 737.62,
     "change_pct": 4.76,
     "name": "S&P 500",
-    "updated_at": "2026-05-09T13:47:52.004155"
+    "updated_at": "2026-05-09T22:01:24.348277"
   },
   "META": {
     "price": 609.63,
     "change_pct": -8.85,
     "name": "META",
-    "updated_at": "2026-05-09T13:47:52.004161"
+    "updated_at": "2026-05-09T22:01:24.348283"
   },
   "AMZN": {
     "price": 272.68,
     "change_pct": 9.11,
     "name": "AMZN",
-    "updated_at": "2026-05-09T13:47:52.004166"
+    "updated_at": "2026-05-09T22:01:24.348288"
   },
   "TSLA": {
     "price": 428.35,
     "change_pct": 10.85,
     "name": "TSLA",
-    "updated_at": "2026-05-09T13:47:52.004171"
+    "updated_at": "2026-05-09T22:01:24.348293"
   },
   "QQQ": {
     "price": 711.23,
     "change_pct": 10.38,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-09T13:47:52.004177"
+    "updated_at": "2026-05-09T22:01:24.348299"
   },
   "BTC-USD": {
-    "price": 80877.05,
-    "change_pct": 2.82,
+    "price": 80752.17,
+    "change_pct": 4.38,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-09T13:47:52.004182"
+    "updated_at": "2026-05-09T22:01:24.348303"
   }
 },
   tickerScores: [
@@ -4933,24 +4933,6 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 166,
-      "term": "AI Insurance",
-      "description": "A specialized insurance market emerging to cover damages related to AI, as major insurers exclude such coverage from standard policies.",
-      "first_detected_date": "2026-05-09",
-      "last_mentioned_date": "2026-05-09",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Entrepreneurs and investors should explore opportunities in providing AI-specific insurance products.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 208,
-      "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 208,
-      "last_mentioned_speaker": "Peter Diamandis"
-    },
-    {
       "id": 160,
       "term": "Strategic Commodity Stockpiling",
       "description": "The act of countries building up physical reserves of commodities to mitigate risks associated with geopolitical tensions.",
@@ -7918,32 +7900,6 @@ const dashboardData = {
       "last_mentioned_episode_date": null
     },
     {
-      "id": 166,
-      "term": "AI Insurance",
-      "description": "A specialized insurance market emerging to cover damages related to AI, as major insurers exclude such coverage from standard policies.",
-      "first_detected_date": "2026-05-09",
-      "last_mentioned_date": "2026-05-09",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Entrepreneurs and investors should explore opportunities in providing AI-specific insurance products.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 208,
-      "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 208,
-      "last_mentioned_speaker": "Peter Diamandis",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
-      "first_detected_episode_date": "2026-05-09",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
-      "last_mentioned_episode_date": "2026-05-09"
-    },
-    {
       "id": 160,
       "term": "Strategic Commodity Stockpiling",
       "description": "The act of countries building up physical reserves of commodities to mitigate risks associated with geopolitical tensions.",
@@ -8202,6 +8158,32 @@ const dashboardData = {
       "last_mentioned_podcast": "Monetary Matters with Jack Farley",
       "last_mentioned_episode_title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
       "last_mentioned_episode_date": "2026-05-01"
+    },
+    {
+      "id": 136,
+      "term": "Clinical Trial Reform",
+      "description": "Changes in the process of running clinical trials, including regulatory design, trial structure, and funding models.",
+      "first_detected_date": "2026-04-30",
+      "last_mentioned_date": "2026-04-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor how clinical trial reforms in different countries impact drug development timelines and costs.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.81,
+      "resonance_pct": 20,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
     }
   ]
 },
@@ -21631,7 +21613,7 @@ const dashboardData = {
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 3983,
+    "id": 4028,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -21643,7 +21625,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3984,
+    "id": 4029,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -21655,7 +21637,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3985,
+    "id": 4030,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -21667,7 +21649,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3986,
+    "id": 4031,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -21679,7 +21661,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3987,
+    "id": 4032,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -21691,7 +21673,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3988,
+    "id": 4033,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -21703,7 +21685,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3989,
+    "id": 4034,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -21715,7 +21697,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3990,
+    "id": 4035,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -21727,7 +21709,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3991,
+    "id": 4036,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -21739,7 +21721,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3992,
+    "id": 4037,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -21751,7 +21733,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3993,
+    "id": 4038,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -21763,7 +21745,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3994,
+    "id": 4039,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -21775,7 +21757,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3995,
+    "id": 4040,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -21787,7 +21769,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3996,
+    "id": 4041,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -21799,7 +21781,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3997,
+    "id": 4042,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -21811,7 +21793,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3998,
+    "id": 4043,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -21823,7 +21805,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 3999,
+    "id": 4044,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -21835,7 +21817,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4000,
+    "id": 4045,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -21847,7 +21829,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4001,
+    "id": 4046,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -21859,7 +21841,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4002,
+    "id": 4047,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -22014,7 +21996,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 3,
-    "mention_score_decayed": 2.8,
+    "mention_score_decayed": 2.74,
     "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
     "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
@@ -23084,7 +23066,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -23148,7 +23130,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -23331,7 +23313,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-04 \u2022 Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
     "last_proof_snippet": "Today I was speaking to one of the best and most data-driven analysts around, Warren Pious of 314 research. If you have been seeing the ball clearer than him, last time I spoke to him, Warren's calling for S&P to 7,000 by 2026, which obviou",
@@ -23395,7 +23377,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-04 \u2022 Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
     "last_proof_snippet": "AI is going to be more important, not less important, and so the proliferation of a Western AI stack to be a top priority for anyone who cares about freedom. The rules around AI are changing fast. There's a lot of regulation abroad around d",
@@ -23454,7 +23436,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -23525,7 +23507,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -23588,7 +23570,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in companies with high levels of intangible capital using a combination of fundamental and sentiment analysis to identify mispriced opportunities, especially in sectors affected by global events.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show you'll hear more about hfgm currently the number one morning star rated funds its inception in the U.S. macro trading category. Let's ge",
@@ -26720,7 +26702,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-01 \u2022 What Happens When a Public Company Goes All In on AI",
     "last_proof_snippet": "AI agents have significantly increased productivity, with one or two engineers on the tools being able to achieve 10-100x more output than before.",
@@ -27471,7 +27453,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
     "last_proof_snippet": "The world is transitioning into a multi-polar world, which has economic and investment implications.",
@@ -27539,7 +27521,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
     "last_proof_snippet": "The world is transitioning into a multi-polar world, which has economic and investment implications.",
@@ -28902,7 +28884,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-17 \u2022 Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
     "last_proof_snippet": "audience, and as you can see, still trying to monetize hope. Yeah, you look like you're in great shape. I'm doing great. Well, that's not like a sort of user of things going on or what. It's like it's our longevity exercise. We're getting t",
@@ -29343,7 +29325,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-12 \u2022 The Intersection of Technology, Geopolitics, and National Defense",
     "last_proof_snippet": "We were the freak chef, and we spent 20 years for this moment. We're doing it, we're doing it, and I'm sure you're enjoying this as much as I am. I just got three things to say. God bless our troops. God bless America. And shout on that. Do",
@@ -29370,7 +29352,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-09 \u2022 All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
     "last_proof_snippet": "Welcome to another episode of the all-in-interview. I'm really excited to be joined by a back-to-all-in, Harvard Professor Graham Allison. Professor Allison, welcome back to all-in. Thanks for having me. We last had you at the summit in Los",
@@ -29397,7 +29379,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "As the global liquidity cycle peaks, investors should consider rotating their asset allocation towards more defensive areas and higher yielding assets like private credit.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-09 \u2022 Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
     "last_proof_snippet": "Later on, you'll hear more about the fund rise income fund and why sophisticated investors are turning to higher yielding assets like private credit. But for now, let's get into today's interview. Join today by Michael Howell of the Capital",
@@ -29424,7 +29406,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-09 \u2022 The Future of Personal AI Agents with OpenClaw",
     "last_proof_snippet": "We have a special guest with us today. Alex Finn, give us the 101 here for folks. OpenClaw is basically a open source, fully customizable, self-improving, self-learning, self-evolving, personal AI agent. This is kind of the answer Apple's b",
@@ -29451,7 +29433,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Investing in technology that enhances real-time crime prevention and clearance rates can lead to more effective law enforcement and safer communities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-11 \u2022 Real-time Crime Prevention and the Future of Policing",
     "last_proof_snippet": "South American cartels fly illegal drones through these neighborhoods. They'll flip on night vision. Look through houses to see if you can tell me. Didn't go break in. I was working with a town in Tennessee. It's a good city. Their average",
@@ -29478,7 +29460,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "The current geopolitical tensions and the rise of AI technology present both risks and opportunities, with the potential for economic disruption and the need for strategic investment in sectors less affected by AI.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-11 \u2022 Monetary Matters: Economic Consequences of War and AI's Impact",
     "last_proof_snippet": "This episode of Monetary Matters is brought to you by the two-cream Soybean Fund. Take your SOI-B. Let's get into it. Very pleased to welcome to Monetary Matters, Noble Laureate Economist, Professor at Columbia University, an author of Road",
@@ -29505,7 +29487,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-11 \u2022 Capital Markets Evolution and the Future of IPOs",
     "last_proof_snippet": "All right, everybody, welcome to the all-in interview program. Today, we are delighted to have two of the most important individuals shaping capital markets over the next couple of years. SEC chair, Paul Ackens is with us as well as CFTC ch",
@@ -29532,7 +29514,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-11 \u2022 Capital Markets Evolution and the Future of IPOs",
     "last_proof_snippet": "All right, everybody, welcome to the all-in interview program. Today, we are delighted to have two of the most important individuals shaping capital markets over the next couple of years. SEC chair, Paul Ackens is with us as well as CFTC ch",
