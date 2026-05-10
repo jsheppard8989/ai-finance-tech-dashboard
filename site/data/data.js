@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-10T12:24:09.920296",
-  chartsVersion: "2026-05-10T12:23:01.078943",
+  generatedAt: "2026-05-10T13:56:51.088352",
+  chartsVersion: "2026-05-10T13:56:46.805401",
   priceSnapshot: {
   "GOOGL": {
     "price": 400.8,
     "change_pct": 20.62,
     "name": "GOOGL",
-    "updated_at": "2026-05-10T12:23:01.078073"
+    "updated_at": "2026-05-10T13:56:46.804672"
   },
   "NVDA": {
     "price": 215.2,
     "change_pct": 7.66,
     "name": "NVDA",
-    "updated_at": "2026-05-10T12:23:01.078093"
+    "updated_at": "2026-05-10T13:56:46.804688"
   },
   "MSFT": {
     "price": 415.12,
     "change_pct": -2.13,
     "name": "MSFT",
-    "updated_at": "2026-05-10T12:23:01.078102"
+    "updated_at": "2026-05-10T13:56:46.804695"
   },
   "BTC": {
-    "price": 81376.54,
-    "change_pct": 5.18,
+    "price": 81251.94,
+    "change_pct": 5.02,
     "name": "BTC",
-    "updated_at": "2026-05-10T12:23:01.078110"
+    "updated_at": "2026-05-10T13:56:46.804701"
   },
   "WTI": {
     "price": 3.71,
     "change_pct": 14.51,
     "name": "WTI",
-    "updated_at": "2026-05-10T12:23:01.078117"
+    "updated_at": "2026-05-10T13:56:46.804706"
   },
   "S&P 500": {
     "price": 737.62,
     "change_pct": 4.76,
     "name": "S&P 500",
-    "updated_at": "2026-05-10T12:23:01.078125"
+    "updated_at": "2026-05-10T13:56:46.804712"
   },
   "META": {
     "price": 609.63,
     "change_pct": -8.85,
     "name": "META",
-    "updated_at": "2026-05-10T12:23:01.078133"
+    "updated_at": "2026-05-10T13:56:46.804718"
   },
   "AMZN": {
     "price": 272.68,
     "change_pct": 9.11,
     "name": "AMZN",
-    "updated_at": "2026-05-10T12:23:01.078140"
+    "updated_at": "2026-05-10T13:56:46.804723"
   },
   "TSLA": {
     "price": 428.35,
     "change_pct": 10.85,
     "name": "TSLA",
-    "updated_at": "2026-05-10T12:23:01.078147"
+    "updated_at": "2026-05-10T13:56:46.804728"
   },
   "QQQ": {
     "price": 711.23,
     "change_pct": 10.38,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-10T12:23:01.078154"
+    "updated_at": "2026-05-10T13:56:46.804733"
   },
   "BTC-USD": {
-    "price": 81376.54,
-    "change_pct": 5.18,
+    "price": 81251.94,
+    "change_pct": 5.02,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-10T12:23:01.078161"
+    "updated_at": "2026-05-10T13:56:46.804738"
   }
 },
   tickerScores: [
@@ -828,6 +828,26 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 224,
+      "title": "Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-10",
+      "summary": "In this episode of Monetary Matters, Jack Farley interviews an expert from Pictay Asset Management, discussing their unique approach to quantitative investing using decision tree-based machine learning. The firm has launched two ETFs, PQ&T and PQUS, with the goal of outperforming benchmarks like MSCI EAFE and S&P 500 by 1-2% annually. The conversation highlights the importance of interpretability in quantitative models, the limitations of generative AI in alpha generation, and the firm's efficient model training process that reduces cloud computing costs.",
+      "key_takeaway": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
+      "tickers_mentioned": [
+        "PQ&T",
+        "PQUS"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 209
+    },
+    {
       "id": 223,
       "title": "Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
       "source_type": "podcast",
@@ -1006,7 +1026,7 @@ const dashboardData = {
         "N/A"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-06",
       "archived_date": null,
@@ -4933,6 +4953,42 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 167,
+      "term": "Decision Tree-Based Machine Learning",
+      "description": "A form of machine learning that uses decision trees and gradient boosting to forecast stock returns, focusing on structured data for interpretability.",
+      "first_detected_date": "2026-05-10",
+      "last_mentioned_date": "2026-05-10",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider firms using this approach for more transparent and effective quantitative strategies.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 209,
+      "first_detected_speaker": "David Wright",
+      "last_mentioned_episode_id": 209,
+      "last_mentioned_speaker": "David Wright"
+    },
+    {
+      "id": 168,
+      "term": "Generative AI",
+      "description": "A type of AI that generates new content based on existing data, used by Pictay for administrative tasks but not for alpha generation due to accuracy concerns.",
+      "first_detected_date": "2026-05-10",
+      "last_mentioned_date": "2026-05-10",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should be cautious of firms relying heavily on generative AI for investment decisions.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 209,
+      "first_detected_speaker": "David Wright",
+      "last_mentioned_episode_id": 209,
+      "last_mentioned_speaker": "David Wright"
+    },
+    {
       "id": 160,
       "term": "Strategic Commodity Stockpiling",
       "description": "The act of countries building up physical reserves of commodities to mitigate risks associated with geopolitical tensions.",
@@ -7553,6 +7609,29 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 224,
+      "title": "Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-10",
+      "summary": "In this episode of Monetary Matters, Jack Farley interviews an expert from Pictay Asset Management, discussing their unique approach to quantitative investing using decision tree-based machine learning. The firm has launched two ETFs, PQ&T and PQUS, with the goal of outperforming benchmarks like MSCI EAFE and S&P 500 by 1-2% annually. The conversation highlights the importance of interpretability in quantitative models, the limitations of generative AI in alpha generation, and the firm's efficient model training process that reduces cloud computing costs.",
+      "key_takeaway": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
+      "tickers_mentioned": "[\"PQ&T\", \"PQUS\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 209,
+      "episode_release_date": "2026-05-10",
+      "guest_name": "Why Generative AI Still Can\u2019t Trade",
+      "key_tickers": [
+        "PQ&T",
+        "PQUS"
+      ]
+    },
+    {
       "id": 223,
       "title": "Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
       "source_type": "podcast",
@@ -7700,28 +7779,6 @@ const dashboardData = {
       "episode_release_date": "2026-05-07",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 216,
-      "title": "Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-05-06",
-      "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the commodities market, particularly the refining sector. The discussion revolves around the importance of tracking refineries and the impact of geopolitical events on the market. Harris Copperman and Rodrick Vanzo, both CIOs of their respective investment firms, share their insights on combining macroeconomic research with equity analysis and event-driven catalysts. They also discuss the significance of crack spreads and utilization rates in the refining industry, and how these factors indicate market tightness. The conversation touches on the consumer sector, highlighting opportunities in niche industries like mattress sales and the potential for growth in Latin American exchanges.",
-      "key_takeaway": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
-      "tickers_mentioned": "[\"N/A\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-06",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 201,
-      "episode_release_date": "2026-05-06",
-      "guest_name": null,
-      "key_tickers": [
-        "N/A"
-      ]
     }
   ],
   "definitions": [
@@ -7898,6 +7955,58 @@ const dashboardData = {
       "last_mentioned_podcast": null,
       "last_mentioned_episode_title": null,
       "last_mentioned_episode_date": null
+    },
+    {
+      "id": 167,
+      "term": "Decision Tree-Based Machine Learning",
+      "description": "A form of machine learning that uses decision trees and gradient boosting to forecast stock returns, focusing on structured data for interpretability.",
+      "first_detected_date": "2026-05-10",
+      "last_mentioned_date": "2026-05-10",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider firms using this approach for more transparent and effective quantitative strategies.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 209,
+      "first_detected_speaker": "David Wright",
+      "last_mentioned_episode_id": 209,
+      "last_mentioned_speaker": "David Wright",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
+      "first_detected_episode_date": "2026-05-10",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
+      "last_mentioned_episode_date": "2026-05-10"
+    },
+    {
+      "id": 168,
+      "term": "Generative AI",
+      "description": "A type of AI that generates new content based on existing data, used by Pictay for administrative tasks but not for alpha generation due to accuracy concerns.",
+      "first_detected_date": "2026-05-10",
+      "last_mentioned_date": "2026-05-10",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should be cautious of firms relying heavily on generative AI for investment decisions.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 209,
+      "first_detected_speaker": "David Wright",
+      "last_mentioned_episode_id": 209,
+      "last_mentioned_speaker": "David Wright",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
+      "first_detected_episode_date": "2026-05-10",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
+      "last_mentioned_episode_date": "2026-05-10"
     },
     {
       "id": 160,
@@ -8125,58 +8234,6 @@ const dashboardData = {
       "last_mentioned_episode_id": null,
       "last_mentioned_speaker": null,
       "overton_score": 0.81,
-      "resonance_pct": 20,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 155,
-      "term": "Groupthink",
-      "description": "A psychological phenomenon where people strive to conform their beliefs and actions with the majority to fit in, often leading to suboptimal decision-making.",
-      "first_detected_date": "2026-05-01",
-      "last_mentioned_date": "2026-05-01",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "The shift away from groupthink at the Fed could lead to more independent and varied policy decisions, impacting market expectations.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 197,
-      "first_detected_speaker": "Jim Bianco",
-      "last_mentioned_episode_id": 197,
-      "last_mentioned_speaker": "Jim Bianco",
-      "overton_score": 0.81,
-      "resonance_pct": 20,
-      "first_detected_podcast": "Monetary Matters with Jack Farley",
-      "first_detected_episode_title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
-      "first_detected_episode_date": "2026-05-01",
-      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
-      "last_mentioned_episode_title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
-      "last_mentioned_episode_date": "2026-05-01"
-    },
-    {
-      "id": 136,
-      "term": "Clinical Trial Reform",
-      "description": "Changes in the process of running clinical trials, including regulatory design, trial structure, and funding models.",
-      "first_detected_date": "2026-04-30",
-      "last_mentioned_date": "2026-04-30",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should monitor how clinical trial reforms in different countries impact drug development timelines and costs.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.79,
       "resonance_pct": 20,
       "first_detected_podcast": null,
       "first_detected_episode_title": null,
@@ -21608,12 +21665,78 @@ const dashboardData = {
       "AMD",
       "INTC"
     ]
+  },
+  "224": {
+    "id": 214,
+    "insight_id": 224,
+    "podcast_episode_id": 209,
+    "overview": "The unresolved tension in quantitative investing lies in the balance between model complexity and interpretability. Pictay Asset Management's competitive dynamic is centered on their ability to maintain this balance, using decision tree-based machine learning to outperform benchmarks with index-like risk characteristics. The firm's approach contests the prevalent use of generative AI, which they argue is limited in accuracy and prone to bias. The allocator-relevant implication is that investors seeking alpha generation with transparency and reliability may find Pictay's approach advantageous, as it arbitrates the uncertainty through interpretable models and a broad feature set.",
+    "key_takeaways_detailed": [
+      "Investors should monitor Pictay's performance against benchmarks to validate their claim of 1-2% annual outperformance, as this is a key differentiator of their strategy.",
+      "The diversity of data inputs in Pictay's models should be reassessed periodically to ensure that the model remains robust and adapts to new market conditions.",
+      "Investors should be alert to any changes in the cost efficiency of Pictay's model training, as this could impact the firm's operational margins and, consequently, investor returns.",
+      "The relationship between analyst forecasts and calendar timing, as identified by Pictay, offers a unique signal that investors can use to time their investments more effectively.",
+      "Pictay's approach to integrating numerous signals through machine learning could provide a competitive edge in uncovering non-linear relationships in the market."
+    ],
+    "investment_thesis": "Pictay Asset Management's investment thesis is predicated on the ability of their decision tree-based machine learning models to consistently outperform benchmarks like MSCI EAFE and S&P 500 by 1-2% annually, while maintaining index-like risk characteristics. This thesis is contested by the challenges of model interpretability and the limitations of generative AI in finance. The thesis would be vindicated if Pictay's ETFs consistently meet or exceed their performance goals over a multi-year timeframe, demonstrating the effectiveness of their approach in various market conditions.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc. (AAPL) is a significant component of many indices, including the S&P 500, and its inclusion in Pictay's model allows for the application of their machine learning techniques to predict returns on a high-impact stock.",
+        "positioning": "Given Pictay's focus on outperforming benchmarks with index-like risk, a strategic long position in AAPL could be appropriate, leveraging the firm's models to time entry and exit points for potential alpha generation.",
+        "risk": "Key risks include changes in market sentiment towards technology stocks, regulatory challenges that could impact Apple, and potential mispredictions by Pictay's models due to unforeseen market disruptions."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The increasing complexity of financial markets may outpace the predictive capabilities of decision tree-based models.",
+      "The cost of cloud computing for model training could rise, offsetting the efficiency gains Pictay has achieved.",
+      "Regulatory changes in the financial industry could limit the use of certain data sources, impacting the breadth of features in Pictay's models."
+    ],
+    "catalysts": [
+      "Publication of Pictay's performance reports for PQ&T and PQUS, which would provide empirical evidence of their outperformance claims.",
+      "Advancements in machine learning that enhance the interpretability and predictive power of decision tree models.",
+      "Changes in cloud computing costs and efficiencies, which could impact Pictay's operational expenses and profitability.",
+      "Release of new market data or regulatory changes that could alter the investment landscape and test Pictay's model adaptability."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-10T13:56:02.237976",
+    "updated_at": "2026-05-10 18:56:02",
+    "episode_evidence": "Pictay Asset Management's approach to quantitative investing is anchored in decision tree-based machine learning, which is highlighted by David Wright as being 'very effective in producing return forecasts that are interpretable.' This method contrasts with generative AI, which Wright points out can lead to 'hallucinations' in the data, a critical issue in finance where accuracy is paramount. The firm's model is robust, incorporating a diverse set of 400 features, which Wright emphasizes by stating, 'We take that feature information for every company for 15 years, every single trading day.' This breadth of data enhances the model's predictive capabilities. Furthermore, Pictay's efficient model training process is noteworthy; despite the increasing complexity of models, the firm has managed to reduce cloud computing costs, as Wright mentions, 'We're getting way more efficient in training our models... our cloud spend [has been] a lot higher than it is today.'",
+    "falsification_tracks": [
+      "If Pictay's ETFs, PQ&T and PQUS, fail to outperform their benchmarks by at least 1% annually over a sustained period, it would challenge the firm's investment thesis.",
+      "A significant and consistent drop in the accuracy of Pictay's return forecasts could indicate issues with their machine learning models.",
+      "Should the cost of cloud computing for model training increase dramatically, it could erode Pictay's operational efficiency advantage.",
+      "If the relationship between analyst forecasts and calendar timing, as identified by Pictay, is disproven by empirical studies, it would undermine a key component of their strategy."
+    ],
+    "insight_title": "Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-05-10",
+    "key_tickers": [
+      "PQ&T",
+      "PQUS"
+    ]
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 4208,
+    "id": 4253,
+    "name": "Why Generative AI Still Can\u2019t Trade",
+    "slug": "why-generative-ai-still-cant-trade",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
+    "last_episode_title": "Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-10",
+    "appearance_count": 1
+  },
+  {
+    "id": 4254,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -21625,7 +21748,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4209,
+    "id": 4255,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -21637,7 +21760,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4210,
+    "id": 4256,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -21649,7 +21772,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4211,
+    "id": 4257,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -21661,7 +21784,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4212,
+    "id": 4258,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -21673,7 +21796,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4213,
+    "id": 4259,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -21685,7 +21808,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4214,
+    "id": 4260,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -21697,7 +21820,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4215,
+    "id": 4261,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -21709,7 +21832,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4216,
+    "id": 4262,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -21721,7 +21844,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4217,
+    "id": 4263,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -21733,7 +21856,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4218,
+    "id": 4264,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -21745,7 +21868,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4219,
+    "id": 4265,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -21757,7 +21880,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4220,
+    "id": 4266,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -21769,7 +21892,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4221,
+    "id": 4267,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -21781,7 +21904,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4222,
+    "id": 4268,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -21793,7 +21916,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4223,
+    "id": 4269,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -21805,7 +21928,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4224,
+    "id": 4270,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -21817,7 +21940,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4225,
+    "id": 4271,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -21829,7 +21952,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4226,
+    "id": 4272,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -21838,18 +21961,6 @@ const dashboardData = {
     "last_episode_title": "Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-15",
-    "appearance_count": 1
-  },
-  {
-    "id": 4227,
-    "name": "\"I Don't Believe the Stagflation Narrative\"",
-    "slug": "i-dont-believe-the-stagflation-narrative",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
-    "last_episode_title": "\"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-14",
     "appearance_count": 1
   }
 ],
@@ -22060,7 +22171,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.91,
+    "mention_score_decayed": 1.87,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -22666,6 +22777,66 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 241,
+    "name": "David Wright",
+    "slug": "david-wright",
+    "bio": "David Wright is an expert in quantitative investing at Pictay Asset Management, where he serves as the co-head of the quantitative investments franchise. Wright is known for his work in applying machine learning to investment strategies, managing over $30 billion in the quant group, including the launch of two AI-enhanced ETFs.",
+    "known_for": "His expertise in applying machine learning and AI to investment strategies, managing billions in assets.",
+    "net_worth_usd": 31700000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001197392/david-b-wright",
+    "net_worth_updated_at": "2026-05-10T13:55:32.724588",
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Factual and informative",
+    "voice_delivery_notes": "Clear and concise with a steady pace",
+    "voice_profile_updated_at": "2026-05-10 18:55:22",
+    "last_seen": "2026-05-10 18:55:22",
+    "last_episode_title": "Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-10",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-10 \u2022 Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
+    "last_proof_snippet": "Very pleased today to be joined by David Wright, co-head of Pictay asset management's quantitative investments franchise, which manages over $30 billion in their quant group. This includes most recently two ETFs they launched PQ&T, their Pi",
+    "supporting_takeaway": "The firm's ETFs aim for 1-2% annual outperformance over benchmarks like MSCI EAFE and S&P 500.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-10T13:55:31.699494",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "David Wright",
+      "fetched_at": "2026-05-10T18:55:31.699142+00:00",
+      "cliff_notes": "David Wright has made a significant impact in the field of quantitative investing, particularly at Pictay Asset Management where he is the co-head of the quantitative investments franchise. His work focuses on leveraging advanced technologies such as machine learning and artificial intelligence to enhance investment strategies, a field that is becoming increasingly important in the financial sector. Wright's role involves managing a substantial portfolio of over $30 billion and includes the recent launch of two AI-enhanced ETFs, PQ&T and PQUS, which underscore the growing integration of AI in asset management. His contributions to the application of AI in finance have positioned him as a key figure in the evolution of investment strategies.",
+      "derived": {
+        "current_role": "Co-head of Quantitative Investments at Pictay Asset Management"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "David Wright has made a significant impact in the field of quantitative investing, particularly at Pictay Asset Management where he is the co-head of the quantitative investments franchise. His work focuses on leveraging advanced technologies such as machine learning and artificial intelligence to enhance investment strategies, a field that is becoming increasingly important in the financial sector.",
+        "Wright's role involves managing a substantial portfolio of over $30 billion and includes the recent launch of two AI-enhanced ETFs, PQ&T and PQUS, which underscore the growing integration of AI in asset management. His contributions to the application of AI in finance have positioned him as a key figure in the evolution of investment strategies."
+      ],
+      "sections": [
+        {
+          "heading": "Quantitative Investing",
+          "body": "David Wright is a leading figure in the application of quantitative methods in investment strategies, particularly with the use of machine learning and AI."
+        },
+        {
+          "heading": "AI in Finance",
+          "body": "Wright has been instrumental in the development and management of AI-enhanced ETFs, showcasing the practical application of AI in asset management."
+        },
+        {
+          "heading": "ETF Innovation",
+          "body": "Under Wright's leadership, Pictay Asset Management has launched innovative ETFs that utilize AI to optimize international and US equity investments."
+        }
+      ]
+    },
+    "net_worth": "$31.7M"
+  },
+  {
     "id": 46,
     "name": "Peter Diamandis",
     "slug": "peter-diamandis",
@@ -22683,7 +22854,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-09",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "AI is a significant driver of economic growth and innovation, presenting opportunities in AI-driven sectors, sustainable data center technologies, and AI insurance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-09 \u2022 Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
     "last_proof_snippet": "Google has crushed their earnings. Alpha that reported 109.9 billion dollars. 22% year on your growth, 62.6 billion in profit. Google Cloud hit 20 billion revenue with 63% growth. AI drove results across the entire Google ecosystem. The rev",
@@ -22745,7 +22916,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -22935,7 +23106,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -22998,7 +23169,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -23186,7 +23357,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -27131,7 +27302,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -27190,7 +27361,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
@@ -29267,7 +29438,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -29294,7 +29465,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",

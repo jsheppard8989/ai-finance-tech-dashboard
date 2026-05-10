@@ -1,5 +1,25 @@
 [
   {
+    "id": 209,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
+    "episode_date": "2026-05-10",
+    "summary": "In this episode of Monetary Matters, Jack Farley interviews an expert from Pictay Asset Management, discussing their unique approach to quantitative investing using decision tree-based machine learning. The firm has launched two ETFs, PQ&T and PQUS, with the goal of outperforming benchmarks like MSCI EAFE and S&P 500 by 1-2% annually. The conversation highlights the importance of interpretability in quantitative models, the limitations of generative AI in alpha generation, and the firm's efficient model training process that reduces cloud computing costs.",
+    "key_takeaways": [
+      "Pictay Asset Management uses decision tree-based machine learning for quantitative investing, focusing on structured data.",
+      "The firm's ETFs aim for 1-2% annual outperformance over benchmarks like MSCI EAFE and S&P 500.",
+      "Machine learning in finance has accelerated due to advancements in data, cloud computing, and processing power.",
+      "Pictay's model uses 400 features from various sources to predict 20-day stock returns.",
+      "Generative AI is not used for alpha generation due to concerns over accuracy and bias.",
+      "The portfolio construction process targets a beta of 1 for index-like risk characteristics."
+    ],
+    "investment_thesis": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
+    "key_tickers": [
+      "PQ&T",
+      "PQUS"
+    ]
+  },
+  {
     "id": 208,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
@@ -120,24 +140,6 @@
     "key_tickers": [
       "COIN",
       "VISA"
-    ]
-  },
-  {
-    "id": 201,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
-    "episode_date": "2026-05-06",
-    "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the commodities market, particularly the refining sector. The discussion revolves around the importance of tracking refineries and the impact of geopolitical events on the market. Harris Copperman and Rodrick Vanzo, both CIOs of their respective investment firms, share their insights on combining macroeconomic research with equity analysis and event-driven catalysts. They also discuss the significance of crack spreads and utilization rates in the refining industry, and how these factors indicate market tightness. The conversation touches on the consumer sector, highlighting opportunities in niche industries like mattress sales and the potential for growth in Latin American exchanges.",
-    "key_takeaways": [
-      "Crack spreads have doubled, indicating a tightening market in refiners.",
-      "Refiners are performing well due to market dynamics, despite geopolitical events.",
-      "Utilization rates and supply-demand dynamics are critical in assessing the refining market.",
-      "The market is influenced by a combination of narrative, fundamentals, and catalysts.",
-      "Consumer spending patterns and the potential for growth in Latin American exchanges are areas of interest."
-    ],
-    "investment_thesis": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
-    "key_tickers": [
-      "N/A"
     ]
   }
 ]
