@@ -1,5 +1,22 @@
 [
   {
+    "id": 210,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
+    "episode_date": "2026-05-10",
+    "summary": "In this episode, Spencer Pratt discusses his campaign for mayor of Los Angeles, focusing on themes of accountability, public safety, and economic revitalization. Pratt emphasizes the importance of transparency in city governance, enforcing existing laws to improve safety, streamlining business permits, and supporting independent filmmakers to rejuvenate Hollywood. He also critiques NGOs for mismanaging funds and calls for education reform in LAUSD. Pratt's vision is for a collaborative approach with business leaders to rebuild the city's infrastructure and economy, while fighting against socialist policies that he believes threaten the city's future.",
+    "key_takeaways": [
+      "Accountability in city governance is crucial for effective use of taxpayer money and building trust in government.",
+      "Enforcing existing laws is essential for restoring safety and order in Los Angeles, attracting businesses and residents.",
+      "Streamlining business permits can encourage entrepreneurship and stimulate local economies.",
+      "Supporting independent filmmakers can drive job creation and cultural revitalization in Hollywood.",
+      "Demanding transparency and accountability from NGOs involved in homelessness and disaster recovery is important.",
+      "Advocating for education reform in LAUSD to ensure effective use of funding and improve student outcomes is necessary."
+    ],
+    "investment_thesis": "Invest in initiatives that promote transparency in local governance, support independent filmmakers, and advocate for education reform to drive economic revitalization and improve public services in Los Angeles.",
+    "key_tickers": null
+  },
+  {
     "id": 209,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
@@ -121,25 +138,6 @@
     "investment_thesis": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
     "key_tickers": [
       "SNP 500"
-    ]
-  },
-  {
-    "id": 202,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
-    "episode_date": "2026-05-07",
-    "summary": "The podcast discusses the evolution of crypto from an ideological revolution to an integral part of financial infrastructure. It highlights the shift towards product and market-focused founders in the crypto space and the importance of pragmatism over ideology. The conversation also touches on how regulatory clarity and AI are shaping the future of crypto, with a focus on stablecoins and their potential to facilitate transactions conducted by AI agents. The guests emphasize the convergence of AI and crypto, suggesting that crypto could be the technology that empowers AI agents as economic actors within the financial system.",
-    "key_takeaways": [
-      "Crypto's success is now tied to its integration with the existing financial system rather than overthrowing it.",
-      "Stablecoins have seen significant growth, indicating mainstream traction and providing a regulatory framework.",
-      "AI is expected to reshape economic activity, with the majority of future transactions potentially being conducted by AI agents.",
-      "Crypto's programmable and internet-native nature makes it well-suited for transactions involving AI agents.",
-      "Crypto can play a role in combating the proliferation of AI-generated deepfakes and media by providing proof of humanity."
-    ],
-    "investment_thesis": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
-    "key_tickers": [
-      "COIN",
-      "VISA"
     ]
   }
 ]

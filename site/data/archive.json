@@ -21,6 +21,25 @@
       "podcast_episode_id": 209
     },
     {
+      "id": 225,
+      "title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-05-10",
+      "summary": "In this episode, Spencer Pratt discusses his campaign for mayor of Los Angeles, focusing on themes of accountability, public safety, and economic revitalization. Pratt emphasizes the importance of transparency in city governance, enforcing existing laws to improve safety, streamlining business permits, and supporting independent filmmakers to rejuvenate Hollywood. He also critiques NGOs for mismanaging funds and calls for education reform in LAUSD. Pratt's vision is for a collaborative approach with business leaders to rebuild the city's infrastructure and economy, while fighting against socialist policies that he believes threaten the city's future.",
+      "key_takeaway": "Invest in initiatives that promote transparency in local governance, support independent filmmakers, and advocate for education reform to drive economic revitalization and improve public services in Los Angeles.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 210
+    },
+    {
       "id": 223,
       "title": "Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
       "source_type": "podcast",
@@ -119,7 +138,7 @@
         "VISA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-07",
       "archived_date": null,
@@ -4125,6 +4144,42 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 169,
+      "term": "Accountability in Governance",
+      "description": "The concept of holding government officials responsible for the effective use of taxpayer money and the delivery of public services.",
+      "first_detected_date": "2026-05-10",
+      "last_mentioned_date": "2026-05-10",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors can advocate for transparency and accountability in local government spending to ensure funds are used effectively.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 210,
+      "first_detected_speaker": "Spencer Pratt",
+      "last_mentioned_episode_id": 210,
+      "last_mentioned_speaker": "Spencer Pratt"
+    },
+    {
+      "id": 170,
+      "term": "Streamlining Business Permits",
+      "description": "The process of simplifying and reducing bureaucratic hurdles in the permitting process for small businesses to encourage entrepreneurship and stimulate local economies.",
+      "first_detected_date": "2026-05-10",
+      "last_mentioned_date": "2026-05-10",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Supporting initiatives that streamline business permits can help small businesses grow and contribute to local economic development.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 210,
+      "first_detected_speaker": "Spencer Pratt",
+      "last_mentioned_episode_id": 210,
+      "last_mentioned_speaker": "Spencer Pratt"
+    },
     {
       "id": 160,
       "term": "Strategic Commodity Stockpiling",
