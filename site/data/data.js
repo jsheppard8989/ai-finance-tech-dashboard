@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-11T12:34:36.285549",
-  chartsVersion: "2026-05-11T12:34:24.270560",
+  generatedAt: "2026-05-11T14:06:26.037736",
+  chartsVersion: "2026-05-11T14:06:14.532263",
   priceSnapshot: {
   "GOOGL": {
-    "price": 393.1,
-    "change_pct": 15.85,
+    "price": 391.1,
+    "change_pct": 15.26,
     "name": "GOOGL",
-    "updated_at": "2026-05-11T12:34:24.269769"
+    "updated_at": "2026-05-11T14:06:14.531540"
   },
   "NVDA": {
-    "price": 220.89,
-    "change_pct": 9.08,
+    "price": 220.33,
+    "change_pct": 8.8,
     "name": "NVDA",
-    "updated_at": "2026-05-11T12:34:24.269785"
+    "updated_at": "2026-05-11T14:06:14.531555"
   },
   "MSFT": {
-    "price": 410.06,
-    "change_pct": -5.28,
+    "price": 409.93,
+    "change_pct": -5.31,
     "name": "MSFT",
-    "updated_at": "2026-05-11T12:34:24.269797"
+    "updated_at": "2026-05-11T14:06:14.531563"
   },
   "BTC": {
-    "price": 81621.81,
-    "change_pct": 6.9,
+    "price": 81864.54,
+    "change_pct": 7.22,
     "name": "BTC",
-    "updated_at": "2026-05-11T12:34:24.269804"
+    "updated_at": "2026-05-11T14:06:14.531569"
   },
   "WTI": {
-    "price": 3.98,
-    "change_pct": 2.05,
+    "price": 3.92,
+    "change_pct": 0.51,
     "name": "WTI",
-    "updated_at": "2026-05-11T12:34:24.269810"
+    "updated_at": "2026-05-11T14:06:14.531575"
   },
   "S&P 500": {
-    "price": 740.11,
-    "change_pct": 4.06,
+    "price": 738.64,
+    "change_pct": 3.86,
     "name": "S&P 500",
-    "updated_at": "2026-05-11T12:34:24.269815"
+    "updated_at": "2026-05-11T14:06:14.531580"
   },
   "META": {
-    "price": 601.72,
-    "change_pct": -10.82,
+    "price": 599.19,
+    "change_pct": -11.19,
     "name": "META",
-    "updated_at": "2026-05-11T12:34:24.269821"
+    "updated_at": "2026-05-11T14:06:14.531587"
   },
   "AMZN": {
-    "price": 270.65,
-    "change_pct": 5.99,
+    "price": 269.75,
+    "change_pct": 5.64,
     "name": "AMZN",
-    "updated_at": "2026-05-11T12:34:24.269827"
+    "updated_at": "2026-05-11T14:06:14.531592"
   },
   "TSLA": {
-    "price": 439.41,
-    "change_pct": 13.39,
+    "price": 446.64,
+    "change_pct": 15.26,
     "name": "TSLA",
-    "updated_at": "2026-05-11T12:34:24.269832"
+    "updated_at": "2026-05-11T14:06:14.531598"
   },
   "QQQ": {
-    "price": 713.77,
-    "change_pct": 8.95,
+    "price": 712.91,
+    "change_pct": 8.82,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-11T12:34:24.269837"
+    "updated_at": "2026-05-11T14:06:14.531603"
   },
   "BTC-USD": {
-    "price": 81621.81,
-    "change_pct": 6.9,
+    "price": 81864.54,
+    "change_pct": 7.22,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-11T12:34:24.269842"
+    "updated_at": "2026-05-11T14:06:14.531608"
   }
 },
   tickerScores: [
@@ -4995,24 +4995,6 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 171,
-      "term": "AI Vampires",
-      "description": "Individuals who leverage AI tools to increase productivity, often at the cost of their well-being.",
-      "first_detected_date": "2026-05-11",
-      "last_mentioned_date": "2026-05-11",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the potential for increased productivity but also the need for employee well-being measures.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 211,
-      "first_detected_speaker": "a16z Host (hosts)",
-      "last_mentioned_episode_id": 211,
-      "last_mentioned_speaker": "a16z Host (hosts)"
-    },
-    {
       "id": 169,
       "term": "Accountability in Governance",
       "description": "The concept of holding government officials responsible for the effective use of taxpayer money and the delivery of public services.",
@@ -8012,32 +7994,6 @@ const dashboardData = {
       "last_mentioned_episode_date": null
     },
     {
-      "id": 171,
-      "term": "AI Vampires",
-      "description": "Individuals who leverage AI tools to increase productivity, often at the cost of their well-being.",
-      "first_detected_date": "2026-05-11",
-      "last_mentioned_date": "2026-05-11",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the potential for increased productivity but also the need for employee well-being measures.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 211,
-      "first_detected_speaker": "a16z Host (hosts)",
-      "last_mentioned_episode_id": 211,
-      "last_mentioned_speaker": "a16z Host (hosts)",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Marc Andreessen on Builder Culture in the Age of AI",
-      "first_detected_episode_date": "2026-05-11",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Marc Andreessen on Builder Culture in the Age of AI",
-      "last_mentioned_episode_date": "2026-05-11"
-    },
-    {
       "id": 169,
       "term": "Accountability in Governance",
       "description": "The concept of holding government officials responsible for the effective use of taxpayer money and the delivery of public services.",
@@ -8281,6 +8237,32 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "MSOs may benefit from descheduling as it could lead to increased interstate commerce and economies of scale.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.79,
+      "resonance_pct": 20,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
+    },
+    {
+      "id": 146,
+      "term": "TPU (Tensor Processing Unit)",
+      "description": "A type of application-specific integrated circuit (ASIC) developed by Google specifically designed to accelerate machine learning workloads.",
+      "first_detected_date": "2026-05-01",
+      "last_mentioned_date": "2026-05-01",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "TPUs represent a significant advancement in AI hardware and can influence investment in AI and cloud computing sectors.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -21905,7 +21887,7 @@ const dashboardData = {
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 4486,
+    "id": 4533,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -21917,7 +21899,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4487,
+    "id": 4534,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -21929,7 +21911,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4488,
+    "id": 4535,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -21941,7 +21923,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4489,
+    "id": 4536,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -21953,7 +21935,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4490,
+    "id": 4537,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -21965,7 +21947,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4491,
+    "id": 4538,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -21977,7 +21959,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4492,
+    "id": 4539,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -21989,7 +21971,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4493,
+    "id": 4540,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -22001,7 +21983,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4494,
+    "id": 4541,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -22013,7 +21995,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4495,
+    "id": 4542,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -22025,7 +22007,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4496,
+    "id": 4543,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -22037,7 +22019,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4497,
+    "id": 4544,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -22049,7 +22031,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4498,
+    "id": 4545,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -22061,7 +22043,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4499,
+    "id": 4546,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -22073,7 +22055,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4500,
+    "id": 4547,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -22085,7 +22067,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4501,
+    "id": 4548,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -22097,7 +22079,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4502,
+    "id": 4549,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -22109,7 +22091,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4503,
+    "id": 4550,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -22121,7 +22103,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4504,
+    "id": 4551,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -22133,7 +22115,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4505,
+    "id": 4552,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -22352,7 +22334,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.87,
+    "mention_score_decayed": 1.82,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -23036,7 +23018,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-10",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-10 \u2022 Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
     "last_proof_snippet": "Very pleased today to be joined by David Wright, co-head of Pictay asset management's quantitative investments franchise, which manages over $30 billion in their quant group. This includes most recently two ETFs they launched PQ&T, their Pi",
@@ -23096,7 +23078,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "AI is a significant driver of economic growth and innovation, presenting opportunities in AI-driven sectors, sustainable data center technologies, and AI insurance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-09 \u2022 Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
     "last_proof_snippet": "Google has crushed their earnings. Alpha that reported 109.9 billion dollars. 22% year on your growth, 62.6 billion in profit. Google Cloud hit 20 billion revenue with 63% growth. AI drove results across the entire Google ecosystem. The rev",
@@ -23158,7 +23140,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -23348,7 +23330,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -23411,7 +23393,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -23599,7 +23581,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -27544,7 +27526,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -27603,7 +27585,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
