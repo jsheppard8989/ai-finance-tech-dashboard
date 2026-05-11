@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-10T13:56:51.088352",
-  chartsVersion: "2026-05-10T13:56:46.805401",
+  generatedAt: "2026-05-10T22:02:08.144753",
+  chartsVersion: "2026-05-10T22:01:57.149099",
   priceSnapshot: {
   "GOOGL": {
     "price": 400.8,
     "change_pct": 20.62,
     "name": "GOOGL",
-    "updated_at": "2026-05-10T13:56:46.804672"
+    "updated_at": "2026-05-10T22:01:57.148112"
   },
   "NVDA": {
     "price": 215.2,
     "change_pct": 7.66,
     "name": "NVDA",
-    "updated_at": "2026-05-10T13:56:46.804688"
+    "updated_at": "2026-05-10T22:01:57.148131"
   },
   "MSFT": {
     "price": 415.12,
     "change_pct": -2.13,
     "name": "MSFT",
-    "updated_at": "2026-05-10T13:56:46.804695"
+    "updated_at": "2026-05-10T22:01:57.148140"
   },
   "BTC": {
-    "price": 81251.94,
-    "change_pct": 5.02,
+    "price": 81104.6,
+    "change_pct": 6.23,
     "name": "BTC",
-    "updated_at": "2026-05-10T13:56:46.804701"
+    "updated_at": "2026-05-10T22:01:57.148149"
   },
   "WTI": {
     "price": 3.71,
     "change_pct": 14.51,
     "name": "WTI",
-    "updated_at": "2026-05-10T13:56:46.804706"
+    "updated_at": "2026-05-10T22:01:57.148157"
   },
   "S&P 500": {
     "price": 737.62,
     "change_pct": 4.76,
     "name": "S&P 500",
-    "updated_at": "2026-05-10T13:56:46.804712"
+    "updated_at": "2026-05-10T22:01:57.148164"
   },
   "META": {
     "price": 609.63,
     "change_pct": -8.85,
     "name": "META",
-    "updated_at": "2026-05-10T13:56:46.804718"
+    "updated_at": "2026-05-10T22:01:57.148173"
   },
   "AMZN": {
     "price": 272.68,
     "change_pct": 9.11,
     "name": "AMZN",
-    "updated_at": "2026-05-10T13:56:46.804723"
+    "updated_at": "2026-05-10T22:01:57.148182"
   },
   "TSLA": {
     "price": 428.35,
     "change_pct": 10.85,
     "name": "TSLA",
-    "updated_at": "2026-05-10T13:56:46.804728"
+    "updated_at": "2026-05-10T22:01:57.148190"
   },
   "QQQ": {
     "price": 711.23,
     "change_pct": 10.38,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-10T13:56:46.804733"
+    "updated_at": "2026-05-10T22:01:57.148197"
   },
   "BTC-USD": {
-    "price": 81251.94,
-    "change_pct": 5.02,
+    "price": 81104.6,
+    "change_pct": 6.23,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-10T13:56:46.804738"
+    "updated_at": "2026-05-10T22:01:57.148204"
   }
 },
   tickerScores: [
@@ -4953,42 +4953,6 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 167,
-      "term": "Decision Tree-Based Machine Learning",
-      "description": "A form of machine learning that uses decision trees and gradient boosting to forecast stock returns, focusing on structured data for interpretability.",
-      "first_detected_date": "2026-05-10",
-      "last_mentioned_date": "2026-05-10",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider firms using this approach for more transparent and effective quantitative strategies.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 209,
-      "first_detected_speaker": "David Wright",
-      "last_mentioned_episode_id": 209,
-      "last_mentioned_speaker": "David Wright"
-    },
-    {
-      "id": 168,
-      "term": "Generative AI",
-      "description": "A type of AI that generates new content based on existing data, used by Pictay for administrative tasks but not for alpha generation due to accuracy concerns.",
-      "first_detected_date": "2026-05-10",
-      "last_mentioned_date": "2026-05-10",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should be cautious of firms relying heavily on generative AI for investment decisions.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 209,
-      "first_detected_speaker": "David Wright",
-      "last_mentioned_episode_id": 209,
-      "last_mentioned_speaker": "David Wright"
-    },
-    {
       "id": 160,
       "term": "Strategic Commodity Stockpiling",
       "description": "The act of countries building up physical reserves of commodities to mitigate risks associated with geopolitical tensions.",
@@ -7957,58 +7921,6 @@ const dashboardData = {
       "last_mentioned_episode_date": null
     },
     {
-      "id": 167,
-      "term": "Decision Tree-Based Machine Learning",
-      "description": "A form of machine learning that uses decision trees and gradient boosting to forecast stock returns, focusing on structured data for interpretability.",
-      "first_detected_date": "2026-05-10",
-      "last_mentioned_date": "2026-05-10",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider firms using this approach for more transparent and effective quantitative strategies.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 209,
-      "first_detected_speaker": "David Wright",
-      "last_mentioned_episode_id": 209,
-      "last_mentioned_speaker": "David Wright",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "Monetary Matters with Jack Farley",
-      "first_detected_episode_title": "Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
-      "first_detected_episode_date": "2026-05-10",
-      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
-      "last_mentioned_episode_title": "Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
-      "last_mentioned_episode_date": "2026-05-10"
-    },
-    {
-      "id": 168,
-      "term": "Generative AI",
-      "description": "A type of AI that generates new content based on existing data, used by Pictay for administrative tasks but not for alpha generation due to accuracy concerns.",
-      "first_detected_date": "2026-05-10",
-      "last_mentioned_date": "2026-05-10",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should be cautious of firms relying heavily on generative AI for investment decisions.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 209,
-      "first_detected_speaker": "David Wright",
-      "last_mentioned_episode_id": 209,
-      "last_mentioned_speaker": "David Wright",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "Monetary Matters with Jack Farley",
-      "first_detected_episode_title": "Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
-      "first_detected_episode_date": "2026-05-10",
-      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
-      "last_mentioned_episode_title": "Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
-      "last_mentioned_episode_date": "2026-05-10"
-    },
-    {
       "id": 160,
       "term": "Strategic Commodity Stockpiling",
       "description": "The act of countries building up physical reserves of commodities to mitigate risks associated with geopolitical tensions.",
@@ -8234,6 +8146,58 @@ const dashboardData = {
       "last_mentioned_episode_id": null,
       "last_mentioned_speaker": null,
       "overton_score": 0.81,
+      "resonance_pct": 20,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
+    },
+    {
+      "id": 155,
+      "term": "Groupthink",
+      "description": "A psychological phenomenon where people strive to conform their beliefs and actions with the majority to fit in, often leading to suboptimal decision-making.",
+      "first_detected_date": "2026-05-01",
+      "last_mentioned_date": "2026-05-01",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "The shift away from groupthink at the Fed could lead to more independent and varied policy decisions, impacting market expectations.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 197,
+      "first_detected_speaker": "Jim Bianco",
+      "last_mentioned_episode_id": 197,
+      "last_mentioned_speaker": "Jim Bianco",
+      "overton_score": 0.81,
+      "resonance_pct": 20,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
+      "first_detected_episode_date": "2026-05-01",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
+      "last_mentioned_episode_date": "2026-05-01"
+    },
+    {
+      "id": 136,
+      "term": "Clinical Trial Reform",
+      "description": "Changes in the process of running clinical trials, including regulatory design, trial structure, and funding models.",
+      "first_detected_date": "2026-04-30",
+      "last_mentioned_date": "2026-04-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor how clinical trial reforms in different countries impact drug development timelines and costs.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.79,
       "resonance_pct": 20,
       "first_detected_podcast": null,
       "first_detected_episode_title": null,
@@ -21724,7 +21688,7 @@ const dashboardData = {
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 4253,
+    "id": 4299,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -21736,7 +21700,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4254,
+    "id": 4300,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -21748,7 +21712,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4255,
+    "id": 4301,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -21760,7 +21724,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4256,
+    "id": 4302,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -21772,7 +21736,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4257,
+    "id": 4303,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -21784,7 +21748,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4258,
+    "id": 4304,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -21796,7 +21760,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4259,
+    "id": 4305,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -21808,7 +21772,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4260,
+    "id": 4306,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -21820,7 +21784,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4261,
+    "id": 4307,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -21832,7 +21796,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4262,
+    "id": 4308,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -21844,7 +21808,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4263,
+    "id": 4309,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -21856,7 +21820,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4264,
+    "id": 4310,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -21868,7 +21832,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4265,
+    "id": 4311,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -21880,7 +21844,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4266,
+    "id": 4312,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -21892,7 +21856,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4267,
+    "id": 4313,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -21904,7 +21868,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4268,
+    "id": 4314,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -21916,7 +21880,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4269,
+    "id": 4315,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -21928,7 +21892,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4270,
+    "id": 4316,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -21940,7 +21904,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4271,
+    "id": 4317,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -21952,7 +21916,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4272,
+    "id": 4318,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -22107,7 +22071,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 3,
-    "mention_score_decayed": 2.74,
+    "mention_score_decayed": 2.67,
     "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
     "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
@@ -23233,7 +23197,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -23297,7 +23261,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -23480,7 +23444,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-04 \u2022 Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
     "last_proof_snippet": "Today I was speaking to one of the best and most data-driven analysts around, Warren Pious of 314 research. If you have been seeing the ball clearer than him, last time I spoke to him, Warren's calling for S&P to 7,000 by 2026, which obviou",
@@ -23544,7 +23508,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-04 \u2022 Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
     "last_proof_snippet": "AI is going to be more important, not less important, and so the proliferation of a Western AI stack to be a top priority for anyone who cares about freedom. The rules around AI are changing fast. There's a lot of regulation abroad around d",
@@ -23603,7 +23567,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -23674,7 +23638,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -23737,7 +23701,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in companies with high levels of intangible capital using a combination of fundamental and sentiment analysis to identify mispriced opportunities, especially in sectors affected by global events.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show you'll hear more about hfgm currently the number one morning star rated funds its inception in the U.S. macro trading category. Let's ge",
@@ -24675,7 +24639,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in technologies and platforms that leverage cryptography and blockchain to provide verifiable information and restore trust in digital content.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-22 \u2022 Balaji Srinivasan: Prove Correct, Not Just Go Direct",
     "last_proof_snippet": "The growing distrust in media is due to the increasing cost of verifying content as synthetic content floods systems.",
@@ -26869,7 +26833,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-01 \u2022 What Happens When a Public Company Goes All In on AI",
     "last_proof_snippet": "AI agents have significantly increased productivity, with one or two engineers on the tools being able to achieve 10-100x more output than before.",
@@ -27620,7 +27584,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
     "last_proof_snippet": "The world is transitioning into a multi-polar world, which has economic and investment implications.",
@@ -27688,7 +27652,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
     "last_proof_snippet": "The world is transitioning into a multi-polar world, which has economic and investment implications.",
