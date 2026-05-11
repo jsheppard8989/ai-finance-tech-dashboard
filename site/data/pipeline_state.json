@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-10T23:44:23.945405",
-  "last_updated": "2026-05-10T23:44:23.945405",
-  "last_pipeline_run": "2026-05-10T23:44:23.945405",
+  "generated_at": "2026-05-11T05:01:43.064673",
+  "last_updated": "2026-05-11T05:01:43.064673",
+  "last_pipeline_run": "2026-05-11T05:01:43.064673",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -15,36 +15,17 @@
     "overton_terms_total": 147,
     "latest_insights_total": 197,
     "today_mentions": {},
-    "podcasts_analyzed": 2
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "3efa7cbf-112c-4bce-a845-443700608a00",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
-      "published": "2026-05-10",
-      "rss_guid": "3efa7cbf-112c-4bce-a845-443700608a00",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
