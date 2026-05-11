@@ -1,6 +1,29 @@
 {
   "insights": [
     {
+      "id": 226,
+      "title": "Marc Andreessen on Builder Culture in the Age of AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-11",
+      "summary": "This podcast episode discusses the transition of AI from a novelty to an essential infrastructure, its impact on productivity, job roles, and societal perspectives. The conversation covers the rise of 'AI Vampires,' the concept of 'suicidal empathy' in social reform, the SPLC controversy, and the generational divide in truth perception. The insights highlight the need for organizations to adapt to AI, monitor employee well-being, evaluate social initiatives, scrutinize influential organizations, adapt education to new job roles, and engage younger audiences authentically.",
+      "key_takeaway": "Adopting AI tools and training can provide a competitive edge to organizations, while also necessitating the adaptation of job roles and educational programs to meet the demands of a rapidly evolving workforce.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 211
+    },
+    {
       "id": 224,
       "title": "Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
       "source_type": "podcast",
@@ -157,7 +180,7 @@
         "SNP 500"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-07",
       "archived_date": null,
@@ -4144,6 +4167,24 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 171,
+      "term": "AI Vampires",
+      "description": "Individuals who leverage AI tools to increase productivity, often at the cost of their well-being.",
+      "first_detected_date": "2026-05-11",
+      "last_mentioned_date": "2026-05-11",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the potential for increased productivity but also the need for employee well-being measures.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 211,
+      "first_detected_speaker": "a16z Host (hosts)",
+      "last_mentioned_episode_id": 211,
+      "last_mentioned_speaker": "a16z Host (hosts)"
+    },
     {
       "id": 169,
       "term": "Accountability in Governance",

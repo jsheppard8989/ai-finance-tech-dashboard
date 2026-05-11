@@ -1,5 +1,22 @@
 [
   {
+    "id": 211,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Marc Andreessen on Builder Culture in the Age of AI",
+    "episode_date": "2026-05-11",
+    "summary": "This podcast episode discusses the transition of AI from a novelty to an essential infrastructure, its impact on productivity, job roles, and societal perspectives. The conversation covers the rise of 'AI Vampires,' the concept of 'suicidal empathy' in social reform, the SPLC controversy, and the generational divide in truth perception. The insights highlight the need for organizations to adapt to AI, monitor employee well-being, evaluate social initiatives, scrutinize influential organizations, adapt education to new job roles, and engage younger audiences authentically.",
+    "key_takeaways": [
+      "Invest in AI tools and training to enhance productivity within your organization.",
+      "Monitor employee well-being to prevent burnout associated with increased productivity demands.",
+      "Evaluate the long-term impacts of social initiatives to avoid unintended negative consequences.",
+      "Scrutinize the actions and funding sources of influential organizations before supporting them.",
+      "Adapt educational programs to prepare students for emerging job roles that integrate multiple disciplines.",
+      "Engage younger audiences with authentic communication to build trust and understanding."
+    ],
+    "investment_thesis": "Adopting AI tools and training can provide a competitive edge to organizations, while also necessitating the adaptation of job roles and educational programs to meet the demands of a rapidly evolving workforce.",
+    "key_tickers": null
+  },
+  {
     "id": 210,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
@@ -120,24 +137,5 @@
     ],
     "investment_thesis": "Invest in incremental AI improvements, new compensation models for CEOs, and emerging biotech sectors focusing on longevity and healthspan.",
     "key_tickers": null
-  },
-  {
-    "id": 203,
-    "podcast_name": "Macro Voices",
-    "episode_title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
-    "episode_date": "2026-05-07",
-    "summary": "The podcast discusses the impact of the Iran conflict on global markets, particularly in oil prices, and its implications for inflation and supply chains. Louis Vincent Gavre suggests a shift towards strategic commodity stockpiling due to geopolitical tensions. The conversation also covers the semiconductor sector's rally, the weakening U.S. dollar, gold's reaction to geopolitical tensions, uranium investments, and copper market breakouts. The 10-year Treasury yield's correlation with crude oil prices is also highlighted.",
-    "key_takeaways": [
-      "Invest in commodities as a hedge against geopolitical risks, focusing on energy, agriculture, and industrial inputs.",
-      "Diversify semiconductor investments to mitigate potential overvaluation risks.",
-      "Monitor the U.S. dollar closely and consider hedging strategies against currency fluctuations.",
-      "Include gold in your portfolio as a safe haven asset during times of uncertainty.",
-      "Explore uranium investments, particularly in companies with new reactor technologies like Alloatomics.",
-      "Increase exposure to copper and related sectors as indicators of economic growth."
-    ],
-    "investment_thesis": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
-    "key_tickers": [
-      "SNP 500"
-    ]
   }
 ]

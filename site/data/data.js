@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-11T07:16:25.654730",
-  chartsVersion: "2026-05-11T07:16:13.912330",
+  generatedAt: "2026-05-11T12:34:36.285549",
+  chartsVersion: "2026-05-11T12:34:24.270560",
   priceSnapshot: {
   "GOOGL": {
-    "price": 400.8,
-    "change_pct": 20.62,
+    "price": 393.1,
+    "change_pct": 15.85,
     "name": "GOOGL",
-    "updated_at": "2026-05-11T07:16:13.911203"
+    "updated_at": "2026-05-11T12:34:24.269769"
   },
   "NVDA": {
-    "price": 215.2,
-    "change_pct": 7.66,
+    "price": 220.89,
+    "change_pct": 9.08,
     "name": "NVDA",
-    "updated_at": "2026-05-11T07:16:13.911225"
+    "updated_at": "2026-05-11T12:34:24.269785"
   },
   "MSFT": {
-    "price": 415.12,
-    "change_pct": -2.13,
+    "price": 410.06,
+    "change_pct": -5.28,
     "name": "MSFT",
-    "updated_at": "2026-05-11T07:16:13.911235"
+    "updated_at": "2026-05-11T12:34:24.269797"
   },
   "BTC": {
-    "price": 81096.95,
-    "change_pct": 6.22,
+    "price": 81621.81,
+    "change_pct": 6.9,
     "name": "BTC",
-    "updated_at": "2026-05-11T07:16:13.911244"
+    "updated_at": "2026-05-11T12:34:24.269804"
   },
   "WTI": {
-    "price": 3.71,
-    "change_pct": 14.51,
+    "price": 3.98,
+    "change_pct": 2.05,
     "name": "WTI",
-    "updated_at": "2026-05-11T07:16:13.911252"
+    "updated_at": "2026-05-11T12:34:24.269810"
   },
   "S&P 500": {
-    "price": 737.62,
-    "change_pct": 4.76,
+    "price": 740.11,
+    "change_pct": 4.06,
     "name": "S&P 500",
-    "updated_at": "2026-05-11T07:16:13.911261"
+    "updated_at": "2026-05-11T12:34:24.269815"
   },
   "META": {
-    "price": 609.63,
-    "change_pct": -8.85,
+    "price": 601.72,
+    "change_pct": -10.82,
     "name": "META",
-    "updated_at": "2026-05-11T07:16:13.911271"
+    "updated_at": "2026-05-11T12:34:24.269821"
   },
   "AMZN": {
-    "price": 272.68,
-    "change_pct": 9.11,
+    "price": 270.65,
+    "change_pct": 5.99,
     "name": "AMZN",
-    "updated_at": "2026-05-11T07:16:13.911279"
+    "updated_at": "2026-05-11T12:34:24.269827"
   },
   "TSLA": {
-    "price": 428.35,
-    "change_pct": 10.85,
+    "price": 439.41,
+    "change_pct": 13.39,
     "name": "TSLA",
-    "updated_at": "2026-05-11T07:16:13.911287"
+    "updated_at": "2026-05-11T12:34:24.269832"
   },
   "QQQ": {
-    "price": 711.23,
-    "change_pct": 10.38,
+    "price": 713.77,
+    "change_pct": 8.95,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-11T07:16:13.911295"
+    "updated_at": "2026-05-11T12:34:24.269837"
   },
   "BTC-USD": {
-    "price": 81096.95,
-    "change_pct": 6.22,
+    "price": 81621.81,
+    "change_pct": 6.9,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-11T07:16:13.911304"
+    "updated_at": "2026-05-11T12:34:24.269842"
   }
 },
   tickerScores: [
@@ -828,6 +828,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 226,
+      "title": "Marc Andreessen on Builder Culture in the Age of AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-11",
+      "summary": "This podcast episode discusses the transition of AI from a novelty to an essential infrastructure, its impact on productivity, job roles, and societal perspectives. The conversation covers the rise of 'AI Vampires,' the concept of 'suicidal empathy' in social reform, the SPLC controversy, and the generational divide in truth perception. The insights highlight the need for organizations to adapt to AI, monitor employee well-being, evaluate social initiatives, scrutinize influential organizations, adapt education to new job roles, and engage younger audiences authentically.",
+      "key_takeaway": "Adopting AI tools and training can provide a competitive edge to organizations, while also necessitating the adaptation of job roles and educational programs to meet the demands of a rapidly evolving workforce.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 211
+    },
+    {
       "id": 224,
       "title": "Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
       "source_type": "podcast",
@@ -984,7 +1007,7 @@ const dashboardData = {
         "SNP 500"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-07",
       "archived_date": null,
@@ -4972,6 +4995,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 171,
+      "term": "AI Vampires",
+      "description": "Individuals who leverage AI tools to increase productivity, often at the cost of their well-being.",
+      "first_detected_date": "2026-05-11",
+      "last_mentioned_date": "2026-05-11",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the potential for increased productivity but also the need for employee well-being measures.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 211,
+      "first_detected_speaker": "a16z Host (hosts)",
+      "last_mentioned_episode_id": 211,
+      "last_mentioned_speaker": "a16z Host (hosts)"
+    },
+    {
       "id": 169,
       "term": "Accountability in Governance",
       "description": "The concept of holding government officials responsible for the effective use of taxpayer money and the delivery of public services.",
@@ -7628,6 +7669,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 226,
+      "title": "Marc Andreessen on Builder Culture in the Age of AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-11",
+      "summary": "This podcast episode discusses the transition of AI from a novelty to an essential infrastructure, its impact on productivity, job roles, and societal perspectives. The conversation covers the rise of 'AI Vampires,' the concept of 'suicidal empathy' in social reform, the SPLC controversy, and the generational divide in truth perception. The insights highlight the need for organizations to adapt to AI, monitor employee well-being, evaluate social initiatives, scrutinize influential organizations, adapt education to new job roles, and engage younger audiences authentically.",
+      "key_takeaway": "Adopting AI tools and training can provide a competitive edge to organizations, while also necessitating the adaptation of job roles and educational programs to meet the demands of a rapidly evolving workforce.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 211,
+      "episode_release_date": "2026-05-11",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 224,
       "title": "Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
       "source_type": "podcast",
@@ -7753,28 +7814,6 @@ const dashboardData = {
       "episode_release_date": "2026-05-08",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 218,
-      "title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
-      "source_type": "podcast",
-      "source_name": "Macro Voices",
-      "source_date": "2026-05-07",
-      "summary": "The podcast discusses the impact of the Iran conflict on global markets, particularly in oil prices, and its implications for inflation and supply chains. Louis Vincent Gavre suggests a shift towards strategic commodity stockpiling due to geopolitical tensions. The conversation also covers the semiconductor sector's rally, the weakening U.S. dollar, gold's reaction to geopolitical tensions, uranium investments, and copper market breakouts. The 10-year Treasury yield's correlation with crude oil prices is also highlighted.",
-      "key_takeaway": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
-      "tickers_mentioned": "[\"SNP 500\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-07",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 203,
-      "episode_release_date": "2026-05-07",
-      "guest_name": null,
-      "key_tickers": [
-        "SNP 500"
-      ]
     },
     {
       "id": 219,
@@ -7971,6 +8010,32 @@ const dashboardData = {
       "last_mentioned_podcast": null,
       "last_mentioned_episode_title": null,
       "last_mentioned_episode_date": null
+    },
+    {
+      "id": 171,
+      "term": "AI Vampires",
+      "description": "Individuals who leverage AI tools to increase productivity, often at the cost of their well-being.",
+      "first_detected_date": "2026-05-11",
+      "last_mentioned_date": "2026-05-11",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the potential for increased productivity but also the need for employee well-being measures.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 211,
+      "first_detected_speaker": "a16z Host (hosts)",
+      "last_mentioned_episode_id": 211,
+      "last_mentioned_speaker": "a16z Host (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Marc Andreessen on Builder Culture in the Age of AI",
+      "first_detected_episode_date": "2026-05-11",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Marc Andreessen on Builder Culture in the Age of AI",
+      "last_mentioned_episode_date": "2026-05-11"
     },
     {
       "id": 169,
@@ -8216,32 +8281,6 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "MSOs may benefit from descheduling as it could lead to increased interstate commerce and economies of scale.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.79,
-      "resonance_pct": 20,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 146,
-      "term": "TPU (Tensor Processing Unit)",
-      "description": "A type of application-specific integrated circuit (ASIC) developed by Google specifically designed to accelerate machine learning workloads.",
-      "first_detected_date": "2026-05-01",
-      "last_mentioned_date": "2026-05-01",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "TPUs represent a significant advancement in AI hardware and can influence investment in AI and cloud computing sectors.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -21790,12 +21829,83 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-05-10",
     "key_tickers": []
+  },
+  "226": {
+    "id": 216,
+    "insight_id": 226,
+    "podcast_episode_id": 211,
+    "overview": "The unresolved tension in the podcast lies in the dual nature of AI's impact on society and the workforce. On one hand, AI is seen as a superpower that can enhance productivity and create new job roles, which is contested by the potential for overwork and burnout among 'AI Vampires.' On the other hand, there's a policy tradeoff between harnessing AI for economic growth and ensuring the well-being of workers. What converts belief in the necessity of AI adoption is the observable transformation of job roles and the emergence of new categories, such as 'builders,' which integrate coding, product management, and design skills.",
+    "key_takeaways_detailed": [
+      "Organizations must balance the deployment of AI tools with employee well-being strategies to prevent burnout and maintain a sustainable workforce.",
+      "Investors should evaluate a company's AI adoption not only for productivity gains but also for its impact on employee health and job satisfaction.",
+      "Educational institutions should anticipate the rise of 'builder' roles and integrate interdisciplinary skills into their curricula to prepare students for the evolving job market.",
+      "Organizations should be cautious in their social initiatives, considering the potential for 'suicidal empathy' and unintended negative consequences.",
+      "Investors and stakeholders should monitor the actions of influential organizations like the SPLC to ensure their actions align with their stated missions and do not contribute to harmful narratives or actions."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that AI's transition to infrastructure will create a bifurcated market: organizations that successfully integrate AI and adapt their workforce will gain a significant competitive edge, while those that fail to do so will struggle. This thesis is vindicated over a 5-year timeframe by observing the growth in AI-related job roles and the corresponding decline in traditional roles, as well as the emergence of new categories like 'builders.' Conversely, if AI adoption does not lead to significant job transformation or if there is a backlash against AI due to worker exploitation, the thesis would be invalidated.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI for its products and services positions it to benefit from the AI superpower era. Its ability to integrate AI into user experiences could drive further market dominance.",
+        "positioning": "Strategic long position, as Apple's continued innovation in AI is likely to reinforce its competitive position in consumer electronics and services.",
+        "risk": "Key risks include regulatory challenges to data privacy and potential backlash against AI's impact on jobs within the company or its supply chain."
+      },
+      "GOOGL": {
+        "rationale": "Google's leadership in AI research and applications across search, advertising, and cloud services makes it a key beneficiary of AI's infrastructural role.",
+        "positioning": "Strategic long position, reflecting the company's potential to capitalize on AI advancements and expand its market reach.",
+        "risk": "The risk of increased regulatory scrutiny over AI ethics and potential missteps in AI deployment could damage Google's reputation and market position."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's broad portfolio, including AI tools and cloud services, aligns with the trend of AI becoming essential infrastructure for businesses.",
+        "positioning": "Strategic long position, as Microsoft's AI offerings are likely to drive growth in enterprise software and services.",
+        "risk": "The risk of failing to keep pace with AI innovation by competitors or negative public perception of AI could impact Microsoft's growth prospects."
+      },
+      "AMZN": {
+        "rationale": "Amazon's use of AI in logistics, customer service, and product recommendations positions it to benefit from increased AI adoption across industries.",
+        "positioning": "Strategic long position, considering Amazon's potential to leverage AI for operational efficiency and enhanced customer experiences.",
+        "risk": "Key risks include potential labor unrest due to AI-driven job displacement and regulatory challenges related to AI ethics and data privacy."
+      },
+      "TSLA": {
+        "rationale": "Tesla's leadership in autonomous vehicle technology and its use of AI in manufacturing processes aligns with the trend of AI as a superpower.",
+        "positioning": "Strategic long position, reflecting the potential for Tesla to disrupt the automotive industry through advanced AI applications.",
+        "risk": "The risk of technological setbacks in autonomous driving or negative public perception of AI in transportation could impact Tesla's growth and valuation."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant slowdown in AI research and development could indicate a plateau in AI's capabilities, challenging the thesis of AI as a superpower.",
+      "A rise in labor unions and worker's rights movements against AI-driven job displacement could signal a societal pushback against AI adoption.",
+      "Regulatory actions that limit the use of AI in certain sectors could slow the transition of AI from novelty to infrastructure."
+    ],
+    "catalysts": [
+      "New AI breakthroughs that significantly enhance productivity or create new consumer experiences.",
+      "Regulatory rulings that set standards for AI ethics and usage, potentially accelerating or decelerating AI adoption.",
+      "Economic indicators that show a correlation between AI adoption and productivity gains across various sectors.",
+      "Labor market data that reflects the emergence of new job roles and the transformation of existing ones due to AI.",
+      "Public opinion polls that indicate a shift in societal attitudes towards AI, which could influence policy and investment in AI technologies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-11T12:33:39.980076",
+    "updated_at": "2026-05-11 17:33:39",
+    "episode_evidence": "The podcast episode with Marc Andreessen delves into the transformative power of AI, emphasizing its shift from a novelty to an essential infrastructure. Andreessen states, 'AI is going to be a superpower that everybody in the planet's gonna have access to.' This underscores the idea that AI is no longer a competitive advantage but a necessity for organizations to remain relevant. The discussion also introduces the term 'AI Vampires,' referring to individuals who, despite being overworked, are drawn to the productivity gains from AI tools, as evidenced by the quote, 'They're completely exhausted, but they're like you for it.' This highlights a potential dark side of AI adoption, where the drive for increased productivity may come at the cost of employee well-being. Additionally, the conversation touches on the 'Golden Algorithm,' a concept suggesting that societal fears about AI could paradoxically contribute to the outcomes people dread, indicating a complex interplay between technology and societal perceptions.",
+    "falsification_tracks": [
+      "If AI adoption rates plateau or decline across industries, suggesting a lack of necessity or competitive edge.",
+      "A significant increase in labor lawsuits or worker's rights movements against 'AI Vampire' conditions, indicating a negative societal reaction to AI's impact on well-being.",
+      "A lack of new job categories or significant changes in job market dynamics, suggesting that AI is not transforming the workforce as predicted."
+    ],
+    "insight_title": "Marc Andreessen on Builder Culture in the Age of AI",
+    "source_name": "The a16z Show",
+    "source_date": "2026-05-11",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 4439,
+    "id": 4486,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -21807,7 +21917,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4440,
+    "id": 4487,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -21819,7 +21929,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4441,
+    "id": 4488,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -21831,7 +21941,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4442,
+    "id": 4489,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -21843,7 +21953,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4443,
+    "id": 4490,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -21855,7 +21965,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4444,
+    "id": 4491,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -21867,7 +21977,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4445,
+    "id": 4492,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -21879,7 +21989,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4446,
+    "id": 4493,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -21891,7 +22001,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4447,
+    "id": 4494,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -21903,7 +22013,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4448,
+    "id": 4495,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -21915,7 +22025,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4449,
+    "id": 4496,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -21927,7 +22037,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4450,
+    "id": 4497,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -21939,7 +22049,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4451,
+    "id": 4498,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -21951,7 +22061,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4452,
+    "id": 4499,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -21963,7 +22073,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4453,
+    "id": 4500,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -21975,7 +22085,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4454,
+    "id": 4501,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -21987,7 +22097,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4455,
+    "id": 4502,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -21999,7 +22109,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4456,
+    "id": 4503,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -22011,7 +22121,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4457,
+    "id": 4504,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -22023,7 +22133,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4458,
+    "id": 4505,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -22838,7 +22948,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -25313,7 +25423,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -29247,7 +29357,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
