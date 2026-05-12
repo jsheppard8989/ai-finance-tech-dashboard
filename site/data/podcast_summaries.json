@@ -1,5 +1,23 @@
 [
   {
+    "id": 213,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Lloyd Blankfein on Risk, Crisis, and Leadership",
+    "episode_date": "2026-05-12",
+    "summary": "This episode of 'The a16z Show' delves into the importance of risk management in investment, emphasizing contingency planning over prediction. It highlights the role of leadership during crises, the culture of partnership at Goldman Sachs, and the firm's effective navigation through the financial crisis. The discussion also covers the impact of technology and AI on finance, the need for careful management of these advancements, and advice for young professionals to become well-rounded. The episode underscores the significance of maintaining relationships and reputation in business, especially during challenging times.",
+    "key_takeaways": [
+      "Robust risk management frameworks should prioritize contingency planning.",
+      "Leadership in crises requires quick decision-making with incomplete information.",
+      "A partnership culture can enhance employee commitment and stability within organizations.",
+      "Maintaining strong client relationships is crucial for navigating financial crises.",
+      "Technology adoption in finance must be balanced with rigorous testing and risk assessment.",
+      "Investors should cautiously approach emerging technologies, considering long-term viability and ethical implications.",
+      "Young professionals should seek diverse experiences to enhance career resilience and adaptability."
+    ],
+    "investment_thesis": "Invest in firms with strong risk management practices and a culture of partnership to ensure stability and long-term success in a rapidly changing financial landscape.",
+    "key_tickers": null
+  },
+  {
     "id": 212,
     "podcast_name": "The Jack Mallers Show",
     "episode_title": "Bitcoin & The Tale of Two Wolves",
@@ -105,22 +123,6 @@
       "There is uncertainty regarding the sustainability of profit margins as companies adopt AI-driven efficiencies."
     ],
     "investment_thesis": "Invest in companies leveraging AI for productivity improvements and those positioned to benefit from the rapid growth of the AI market, while monitoring regulatory developments and labor market trends.",
-    "key_tickers": null
-  },
-  {
-    "id": 206,
-    "podcast_name": "Dwarkesh Podcast",
-    "episode_title": "David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
-    "episode_date": "2026-05-08",
-    "summary": "In this episode, David Reich discusses groundbreaking research indicating that natural selection has been more active in human evolution over the last 10,000 years than previously thought. The study identified genetic positions that have undergone selection, challenging the notion of quiescent natural selection. This insight alters the understanding of human evolution and adaptation, suggesting that modern humans are still evolving in response to environmental pressures. The research also highlights the role of environmental changes in selection, particularly during the Bronze Age, and the distinction between genetic drift and natural selection.",
-    "key_takeaways": [
-      "Natural selection has been active in shaping human genetics over the last 10,000 years.",
-      "A novel methodology combining large datasets and a selection statistic was used to identify genetic variants under selection.",
-      "Environmental changes during the Bronze Age led to intensified natural selection, particularly affecting immune and metabolic traits.",
-      "Genetic drift has caused significant frequency changes, but natural selection has also played a crucial role.",
-      "Investors in biotech and health sectors should consider the implications of ongoing human evolution on health and disease susceptibility."
-    ],
-    "investment_thesis": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "key_tickers": null
   },
   {

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-12T06:40:53.226499",
-  "last_updated": "2026-05-12T06:40:53.226499",
-  "last_pipeline_run": "2026-05-12T06:40:53.226499",
+  "generated_at": "2026-05-12T12:43:54.890342",
+  "last_updated": "2026-05-12T12:43:54.890342",
+  "last_pipeline_run": "2026-05-12T12:43:54.890342",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -9,15 +9,15 @@
   },
   "counts": {
     "ticker_mentions": 176,
-    "podcast_episodes": 185,
+    "podcast_episodes": 186,
     "newsletters": 7,
     "daily_scores": 114,
-    "overton_terms_total": 148,
-    "latest_insights_total": 199,
+    "overton_terms_total": 147,
+    "latest_insights_total": 200,
     "today_mentions": {
       "podcast": 1
     },
-    "podcasts_analyzed": 1
+    "podcasts_analyzed": 2
   },
   "step_results": {
     "downloaded": 2,
@@ -29,11 +29,11 @@
   },
   "episodes": [
     {
-      "id": "c55fa8e8-5ff2-46b4-b041-17ae132ab32f",
-      "podcast": "The a16z Show",
-      "title": "Lloyd Blankfein on Risk, Crisis, and Leadership",
+      "id": "df93584e-4db9-11f1-a2f7-ab656f7f163e",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
       "published": "2026-05-12",
-      "rss_guid": "c55fa8e8-5ff2-46b4-b041-17ae132ab32f",
+      "rss_guid": "df93584e-4db9-11f1-a2f7-ab656f7f163e",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -100,11 +100,11 @@
       "status": "needs_transcription"
     },
     {
-      "id": "d5c75181-cf2b-4f1d-b89c-1eebd51e0f5b",
-      "podcast": "The Jack Mallers Show",
-      "title": "Bitcoin & The Tale of Two Wolves",
+      "id": "c55fa8e8-5ff2-46b4-b041-17ae132ab32f",
+      "podcast": "The a16z Show",
+      "title": "Lloyd Blankfein on Risk, Crisis, and Leadership",
       "published": "2026-05-12",
-      "rss_guid": "d5c75181-cf2b-4f1d-b89c-1eebd51e0f5b",
+      "rss_guid": "c55fa8e8-5ff2-46b4-b041-17ae132ab32f",
       "stages": {
         "downloaded": true,
         "transcribed": true,
@@ -120,9 +120,9 @@
   ],
   "available_from_rss": [
     {
-      "podcast": "The a16z Show",
-      "title": "Lloyd Blankfein on Risk, Crisis, and Leadership",
-      "published": "Tue, 12 May 2026 10:00:00 +0000",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
+      "published": "Tue, 12 May 2026 13:52:00 -0000",
       "published_date": "2026-05-12",
       "rss_guid": ""
     }

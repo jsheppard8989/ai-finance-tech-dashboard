@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-12T06:41:02.750931",
-  chartsVersion: "2026-05-12T06:40:50.490717",
+  generatedAt: "2026-05-12T12:44:03.421104",
+  chartsVersion: "2026-05-12T12:43:52.379924",
   priceSnapshot: {
   "GOOGL": {
-    "price": 388.64,
-    "change_pct": 14.53,
+    "price": 384.64,
+    "change_pct": 13.5,
     "name": "GOOGL",
-    "updated_at": "2026-05-12T06:40:50.489226"
+    "updated_at": "2026-05-12T12:43:52.378803"
   },
   "BTC": {
-    "price": 80666.2,
-    "change_pct": 6.45,
+    "price": 80427.84,
+    "change_pct": 6.14,
     "name": "BTC",
-    "updated_at": "2026-05-12T06:40:50.489247"
+    "updated_at": "2026-05-12T12:43:52.378824"
   },
   "NVDA": {
-    "price": 219.44,
-    "change_pct": 8.37,
+    "price": 218.54,
+    "change_pct": 9.46,
     "name": "NVDA",
-    "updated_at": "2026-05-12T06:40:50.489257"
+    "updated_at": "2026-05-12T12:43:52.378834"
   },
   "MSFT": {
-    "price": 412.66,
-    "change_pct": -4.68,
+    "price": 409.24,
+    "change_pct": -1.57,
     "name": "MSFT",
-    "updated_at": "2026-05-12T06:40:50.489266"
+    "updated_at": "2026-05-12T12:43:52.378843"
   },
   "WTI": {
-    "price": 3.89,
-    "change_pct": -0.26,
+    "price": 4.16,
+    "change_pct": 9.38,
     "name": "WTI",
-    "updated_at": "2026-05-12T06:40:50.489275"
+    "updated_at": "2026-05-12T12:43:52.378851"
   },
   "S&P 500": {
-    "price": 739.3,
-    "change_pct": 3.95,
+    "price": 734.78,
+    "change_pct": 3.72,
     "name": "S&P 500",
-    "updated_at": "2026-05-12T06:40:50.489284"
+    "updated_at": "2026-05-12T12:43:52.378859"
   },
   "META": {
-    "price": 598.86,
-    "change_pct": -11.24,
+    "price": 599.86,
+    "change_pct": -8.99,
     "name": "META",
-    "updated_at": "2026-05-12T06:40:50.489294"
+    "updated_at": "2026-05-12T12:43:52.378867"
   },
   "AMZN": {
-    "price": 268.99,
-    "change_pct": 5.34,
+    "price": 263.96,
+    "change_pct": 3.48,
     "name": "AMZN",
-    "updated_at": "2026-05-12T06:40:50.489302"
+    "updated_at": "2026-05-12T12:43:52.378875"
   },
   "TSLA": {
-    "price": 445.0,
-    "change_pct": 14.84,
+    "price": 427.52,
+    "change_pct": 14.4,
     "name": "TSLA",
-    "updated_at": "2026-05-12T06:40:50.489312"
+    "updated_at": "2026-05-12T12:43:52.378883"
   },
   "QQQ": {
-    "price": 713.29,
-    "change_pct": 8.88,
+    "price": 700.67,
+    "change_pct": 7.56,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-12T06:40:50.489321"
+    "updated_at": "2026-05-12T12:43:52.378891"
   },
   "BTC-USD": {
-    "price": 80666.2,
-    "change_pct": 6.45,
+    "price": 80427.84,
+    "change_pct": 6.14,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-12T06:40:50.489329"
+    "updated_at": "2026-05-12T12:43:52.378898"
   }
 },
   tickerScores: [
@@ -847,6 +847,26 @@ const dashboardData = {
       "podcast_episode_id": 212
     },
     {
+      "id": 228,
+      "title": "Lloyd Blankfein on Risk, Crisis, and Leadership",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-12",
+      "summary": "This episode of 'The a16z Show' delves into the importance of risk management in investment, emphasizing contingency planning over prediction. It highlights the role of leadership during crises, the culture of partnership at Goldman Sachs, and the firm's effective navigation through the financial crisis. The discussion also covers the impact of technology and AI on finance, the need for careful management of these advancements, and advice for young professionals to become well-rounded. The episode underscores the significance of maintaining relationships and reputation in business, especially during challenging times.",
+      "key_takeaway": "Invest in firms with strong risk management practices and a culture of partnership to ensure stability and long-term success in a rapidly changing financial landscape.",
+      "tickers_mentioned": [
+        "GS",
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 213
+    },
+    {
       "id": 226,
       "title": "Marc Andreessen on Builder Culture in the Age of AI",
       "source_type": "podcast",
@@ -941,7 +961,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-08",
       "archived_date": null,
@@ -5014,24 +5034,6 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 172,
-      "term": "Dollar-Cost Averaging (DCA)",
-      "description": "An investment strategy of buying a fixed dollar amount of a particular investment on a regular schedule, regardless of the price.",
-      "first_detected_date": "2026-05-12",
-      "last_mentioned_date": "2026-05-12",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "DCA can reduce the impact of volatility and market timing on investment returns.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 212,
-      "first_detected_speaker": "Jack Mallers (hosts)",
-      "last_mentioned_episode_id": 212,
-      "last_mentioned_speaker": "Jack Mallers (hosts)"
-    },
-    {
       "id": 169,
       "term": "Accountability in Governance",
       "description": "The concept of holding government officials responsible for the effective use of taxpayer money and the delivery of public services.",
@@ -7710,6 +7712,26 @@ const dashboardData = {
       ]
     },
     {
+      "id": 228,
+      "title": "Lloyd Blankfein on Risk, Crisis, and Leadership",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-12",
+      "summary": "This episode of 'The a16z Show' delves into the importance of risk management in investment, emphasizing contingency planning over prediction. It highlights the role of leadership during crises, the culture of partnership at Goldman Sachs, and the firm's effective navigation through the financial crisis. The discussion also covers the impact of technology and AI on finance, the need for careful management of these advancements, and advice for young professionals to become well-rounded. The episode underscores the significance of maintaining relationships and reputation in business, especially during challenging times.",
+      "key_takeaway": "Invest in firms with strong risk management practices and a culture of partnership to ensure stability and long-term success in a rapidly changing financial landscape.",
+      "tickers_mentioned": "[\"GS\", \"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 213,
+      "episode_release_date": "2026-05-12",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 226,
       "title": "Marc Andreessen on Builder Culture in the Age of AI",
       "source_type": "podcast",
@@ -7795,26 +7817,6 @@ const dashboardData = {
         "AMD",
         "INTC"
       ]
-    },
-    {
-      "id": 220,
-      "title": "David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
-      "source_type": "podcast",
-      "source_name": "Dwarkesh Podcast",
-      "source_date": "2026-05-08",
-      "summary": "In this episode, David Reich discusses groundbreaking research indicating that natural selection has been more active in human evolution over the last 10,000 years than previously thought. The study identified genetic positions that have undergone selection, challenging the notion of quiescent natural selection. This insight alters the understanding of human evolution and adaptation, suggesting that modern humans are still evolving in response to environmental pressures. The research also highlights the role of environmental changes in selection, particularly during the Bronze Age, and the distinction between genetic drift and natural selection.",
-      "key_takeaway": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-08",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 206,
-      "episode_release_date": "2026-05-08",
-      "guest_name": "David Reich",
-      "key_tickers": []
     },
     {
       "id": 221,
@@ -8031,32 +8033,6 @@ const dashboardData = {
       "last_mentioned_podcast": null,
       "last_mentioned_episode_title": null,
       "last_mentioned_episode_date": null
-    },
-    {
-      "id": 172,
-      "term": "Dollar-Cost Averaging (DCA)",
-      "description": "An investment strategy of buying a fixed dollar amount of a particular investment on a regular schedule, regardless of the price.",
-      "first_detected_date": "2026-05-12",
-      "last_mentioned_date": "2026-05-12",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "DCA can reduce the impact of volatility and market timing on investment returns.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 212,
-      "first_detected_speaker": "Jack Mallers (hosts)",
-      "last_mentioned_episode_id": 212,
-      "last_mentioned_speaker": "Jack Mallers (hosts)",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "The Jack Mallers Show",
-      "first_detected_episode_title": "Bitcoin & The Tale of Two Wolves",
-      "first_detected_episode_date": "2026-05-12",
-      "last_mentioned_podcast": "The Jack Mallers Show",
-      "last_mentioned_episode_title": "Bitcoin & The Tale of Two Wolves",
-      "last_mentioned_episode_date": "2026-05-12"
     },
     {
       "id": 169,
@@ -8302,6 +8278,32 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "MSOs may benefit from descheduling as it could lead to increased interstate commerce and economies of scale.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.78,
+      "resonance_pct": 20,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
+    },
+    {
+      "id": 146,
+      "term": "TPU (Tensor Processing Unit)",
+      "description": "A type of application-specific integrated circuit (ASIC) developed by Google specifically designed to accelerate machine learning workloads.",
+      "first_detected_date": "2026-05-01",
+      "last_mentioned_date": "2026-05-01",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "TPUs represent a significant advancement in AI hardware and can influence investment in AI and cloud computing sectors.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -21993,12 +21995,65 @@ const dashboardData = {
     "key_tickers": [
       "BTC"
     ]
+  },
+  "228": {
+    "id": 218,
+    "insight_id": 228,
+    "podcast_episode_id": 213,
+    "overview": "The competitive dynamic in the financial sector is increasingly shaped by the ability to manage risk effectively and maintain strong leadership during crises. The tension lies in balancing the rapid adoption of technology with the need for rigorous testing and risk assessment. The allocation tradeoff is between embracing technological advancements for efficiency and ensuring that these do not introduce systemic risks. The metric that arbitrates this uncertainty is the firm's ability to navigate crises without significant losses, maintaining both operational efficiency and client trust.",
+    "key_takeaways_detailed": [
+      "Investors should focus on firms that demonstrate a commitment to robust risk management practices, as this can serve as a buffer against market volatility.",
+      "Leadership training should include-making scenarios to prepare for crises, enhancing the ability to act decisively with incomplete information.",
+      "Firms should measure employee engagement and retention rates as indicators of a successful partnership culture.",
+      "The adoption of new technologies should be accompanied by stress tests and risk assessments to ensure they do not introduce unforeseen vulnerabilities.",
+      "Young professionals should be encouraged to diversify their skill sets, as this can enhance their value to firms and their resilience in a dynamic job market."
+    ],
+    "investment_thesis": "Investing in firms with a strong culture of partnership and robust risk management practices is likely to yield long-term stability and success. This thesis is based on the belief that these practices enable firms to navigate crises effectively and maintain client trust. The observable development that would vindicate this thesis is the firm's ability to maintain or grow market share during periods of market stress, while an inability to do so would invalidate it. The timeframe for this thesis is medium to long-term, as cultural and risk management practices take time to implement and bear fruit.",
+    "ticker_analysis": {
+      "GS": {
+        "rationale": "Goldman Sachs is a prime example of a firm with a strong partnership culture and rigorous risk management practices, making it relevant to the thesis.",
+        "positioning": "Positioned long-term as a strategic investment, reflecting confidence in the firm's ability to navigate market volatility and maintain client trust.",
+        "risk": "Key risks include unforeseen market disruptions that could challenge the firm's risk management framework and potential reputational damage due to leadership missteps."
+      },
+      "AAPL": {
+        "rationale": "Apple's investment in AI and technology aligns with the thesis on the impact of technology in finance.",
+        "positioning": "Positioned long-term as a strategic investment, reflecting the potential for Apple to leverage technology for competitive advantage.",
+        "risk": "Key risks include technological obsolescence and regulatory challenges that could hinder the adoption of new technologies."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant increase in the number of financial institutions reporting losses due to inadequate risk management could signal a market-wide failure to prepare for contingencies.",
+      "A trend of high employee turnover rates across the financial sector could indicate a breakdown in partnership cultures, affecting firm stability."
+    ],
+    "catalysts": [
+      "Regulatory changes that impact the use of AI and technology in finance.",
+      "Market stress events that test the resilience of financial institutions.",
+      "Technological breakthroughs that significantly alter the financial landscape.",
+      "Employee satisfaction surveys that provide insights into the culture of partnership within firms."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-12T12:43:02.578608",
+    "updated_at": "2026-05-12 17:43:02",
+    "episode_evidence": "In the 'The a16z Show' episode featuring Lloyd Blankfein, the nuances of risk management in investment are explored. Blankfein emphasizes that risk management is not just about predicting outcomes but also about preparing for various scenarios, as he states, 'Most of what we do with respect to risk is not so much predicting... it's a lot of contingency planning.' This approach is crucial during crises, where quick decision-making is key, as highlighted by the host: 'When uncertainty is highest... success isn't about predicting the future. It's about preparation, judgment, and the ability to act.' Goldman Sachs' culture of partnership is also underscored, with Blankfein noting that partners own the firm, 'their fortunes rest on the success of the whole enterprise, not just their narrow silo.' This fosters a sense of ownership and commitment among employees, contributing to the firm's stability and long-term success.",
+    "falsification_tracks": [
+      "If Goldman Sachs were to experience a significant financial loss due to an unanticipated risk event, it would challenge the effectiveness of their contingency planning approach.",
+      "A consistent pattern of employee turnover or lack of long-term commitment could indicate a failure in fostering a partnership culture, undermining the firm's stability."
+    ],
+    "insight_title": "Lloyd Blankfein on Risk, Crisis, and Leadership",
+    "source_name": "The a16z Show",
+    "source_date": "2026-05-12",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 4721,
+    "id": 4768,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -22010,7 +22065,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4722,
+    "id": 4769,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -22022,7 +22077,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4723,
+    "id": 4770,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -22034,7 +22089,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4724,
+    "id": 4771,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -22046,7 +22101,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4725,
+    "id": 4772,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -22058,7 +22113,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4726,
+    "id": 4773,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -22070,7 +22125,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4727,
+    "id": 4774,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -22082,7 +22137,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4728,
+    "id": 4775,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -22094,7 +22149,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4729,
+    "id": 4776,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -22106,7 +22161,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4730,
+    "id": 4777,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -22118,7 +22173,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4731,
+    "id": 4778,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -22130,7 +22185,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4732,
+    "id": 4779,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -22142,7 +22197,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4733,
+    "id": 4780,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -22154,7 +22209,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4734,
+    "id": 4781,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -22166,7 +22221,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4735,
+    "id": 4782,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -22178,7 +22233,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4736,
+    "id": 4783,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -22190,7 +22245,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4737,
+    "id": 4784,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -22202,7 +22257,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4738,
+    "id": 4785,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -22214,7 +22269,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4739,
+    "id": 4786,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -22226,7 +22281,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4740,
+    "id": 4787,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -23041,7 +23096,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -23692,7 +23747,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -25516,7 +25571,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -28082,7 +28137,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -28142,7 +28197,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -28202,7 +28257,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",
@@ -29450,7 +29505,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
@@ -29508,7 +29563,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",

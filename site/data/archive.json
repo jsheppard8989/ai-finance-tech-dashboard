@@ -20,6 +20,26 @@
       "podcast_episode_id": 212
     },
     {
+      "id": 228,
+      "title": "Lloyd Blankfein on Risk, Crisis, and Leadership",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-12",
+      "summary": "This episode of 'The a16z Show' delves into the importance of risk management in investment, emphasizing contingency planning over prediction. It highlights the role of leadership during crises, the culture of partnership at Goldman Sachs, and the firm's effective navigation through the financial crisis. The discussion also covers the impact of technology and AI on finance, the need for careful management of these advancements, and advice for young professionals to become well-rounded. The episode underscores the significance of maintaining relationships and reputation in business, especially during challenging times.",
+      "key_takeaway": "Invest in firms with strong risk management practices and a culture of partnership to ensure stability and long-term success in a rapidly changing financial landscape.",
+      "tickers_mentioned": [
+        "GS",
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 213
+    },
+    {
       "id": 226,
       "title": "Marc Andreessen on Builder Culture in the Age of AI",
       "source_type": "podcast",
@@ -114,7 +134,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-08",
       "archived_date": null,
@@ -4186,24 +4206,6 @@
   ],
   "definitions": [],
   "overton": [
-    {
-      "id": 172,
-      "term": "Dollar-Cost Averaging (DCA)",
-      "description": "An investment strategy of buying a fixed dollar amount of a particular investment on a regular schedule, regardless of the price.",
-      "first_detected_date": "2026-05-12",
-      "last_mentioned_date": "2026-05-12",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "DCA can reduce the impact of volatility and market timing on investment returns.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 212,
-      "first_detected_speaker": "Jack Mallers (hosts)",
-      "last_mentioned_episode_id": 212,
-      "last_mentioned_speaker": "Jack Mallers (hosts)"
-    },
     {
       "id": 169,
       "term": "Accountability in Governance",
