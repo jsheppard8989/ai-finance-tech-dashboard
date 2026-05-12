@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-12T12:44:03.421104",
-  chartsVersion: "2026-05-12T12:43:52.379924",
+  generatedAt: "2026-05-12T14:16:43.029340",
+  chartsVersion: "2026-05-12T14:16:39.146384",
   priceSnapshot: {
   "GOOGL": {
-    "price": 384.64,
-    "change_pct": 13.5,
+    "price": 385.54,
+    "change_pct": 13.77,
     "name": "GOOGL",
-    "updated_at": "2026-05-12T12:43:52.378803"
+    "updated_at": "2026-05-12T14:16:39.145897"
   },
   "BTC": {
-    "price": 80427.84,
-    "change_pct": 6.14,
+    "price": 80799.44,
+    "change_pct": 6.63,
     "name": "BTC",
-    "updated_at": "2026-05-12T12:43:52.378824"
+    "updated_at": "2026-05-12T14:16:39.145908"
   },
   "NVDA": {
-    "price": 218.54,
-    "change_pct": 9.46,
+    "price": 220.86,
+    "change_pct": 10.63,
     "name": "NVDA",
-    "updated_at": "2026-05-12T12:43:52.378834"
+    "updated_at": "2026-05-12T14:16:39.145912"
   },
   "MSFT": {
-    "price": 409.24,
-    "change_pct": -1.57,
+    "price": 408.35,
+    "change_pct": -1.78,
     "name": "MSFT",
-    "updated_at": "2026-05-12T12:43:52.378843"
+    "updated_at": "2026-05-12T14:16:39.145915"
   },
   "WTI": {
-    "price": 4.16,
-    "change_pct": 9.38,
+    "price": 4.22,
+    "change_pct": 10.92,
     "name": "WTI",
-    "updated_at": "2026-05-12T12:43:52.378851"
+    "updated_at": "2026-05-12T14:16:39.145919"
   },
   "S&P 500": {
-    "price": 734.78,
-    "change_pct": 3.72,
+    "price": 737.13,
+    "change_pct": 4.05,
     "name": "S&P 500",
-    "updated_at": "2026-05-12T12:43:52.378859"
+    "updated_at": "2026-05-12T14:16:39.145922"
   },
   "META": {
-    "price": 599.86,
-    "change_pct": -8.99,
+    "price": 600.16,
+    "change_pct": -8.95,
     "name": "META",
-    "updated_at": "2026-05-12T12:43:52.378867"
+    "updated_at": "2026-05-12T14:16:39.145926"
   },
   "AMZN": {
-    "price": 263.96,
-    "change_pct": 3.48,
+    "price": 264.63,
+    "change_pct": 3.74,
     "name": "AMZN",
-    "updated_at": "2026-05-12T12:43:52.378875"
+    "updated_at": "2026-05-12T14:16:39.145929"
   },
   "TSLA": {
-    "price": 427.52,
-    "change_pct": 14.4,
+    "price": 432.63,
+    "change_pct": 15.76,
     "name": "TSLA",
-    "updated_at": "2026-05-12T12:43:52.378883"
+    "updated_at": "2026-05-12T14:16:39.145932"
   },
   "QQQ": {
-    "price": 700.67,
-    "change_pct": 7.56,
+    "price": 704.14,
+    "change_pct": 8.09,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-12T12:43:52.378891"
+    "updated_at": "2026-05-12T14:16:39.145935"
   },
   "BTC-USD": {
-    "price": 80427.84,
-    "change_pct": 6.14,
+    "price": 80799.44,
+    "change_pct": 6.63,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-12T12:43:52.378898"
+    "updated_at": "2026-05-12T14:16:39.145938"
   }
 },
   tickerScores: [
@@ -867,6 +867,25 @@ const dashboardData = {
       "podcast_episode_id": 213
     },
     {
+      "id": 229,
+      "title": "Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-12",
+      "summary": "In this episode of Monetary Matters, host Jack Farley discusses the private credit market with Thomas Lloyd Jones, focusing on direct lending, regulatory impacts, and opportunities in transitional assets. The conversation highlights the concentration risk in direct lending, the influence of Basel III and IV on conservative lending, and the strategic use of preferred equity. The European private credit market's maturity is compared to the U.S., with insights on the student housing market in the UK and the importance of understanding investor bases.",
+      "key_takeaway": "Invest in private credit funds that capitalize on the retreat of banks from riskier, smaller loans due to regulatory pressures, and consider preferred equity structures for upside potential with downside protection.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 214
+    },
+    {
       "id": 226,
       "title": "Marc Andreessen on Builder Culture in the Age of AI",
       "source_type": "podcast",
@@ -984,7 +1003,7 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-08",
       "archived_date": null,
@@ -5034,6 +5053,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 173,
+      "term": "Asset-Backed Lending",
+      "description": "A broader category of lending that includes opportunities in real estate and infrastructure, distinct from direct lending.",
+      "first_detected_date": "2026-05-12",
+      "last_mentioned_date": "2026-05-12",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Explore funds that encompass a wider range of asset-backed opportunities.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 214,
+      "first_detected_speaker": "Thomas Lloyd Jones",
+      "last_mentioned_episode_id": 214,
+      "last_mentioned_speaker": "Thomas Lloyd Jones"
+    },
+    {
       "id": 169,
       "term": "Accountability in Governance",
       "description": "The concept of holding government officials responsible for the effective use of taxpayer money and the delivery of public services.",
@@ -7732,6 +7769,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 229,
+      "title": "Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-12",
+      "summary": "In this episode of Monetary Matters, host Jack Farley discusses the private credit market with Thomas Lloyd Jones, focusing on direct lending, regulatory impacts, and opportunities in transitional assets. The conversation highlights the concentration risk in direct lending, the influence of Basel III and IV on conservative lending, and the strategic use of preferred equity. The European private credit market's maturity is compared to the U.S., with insights on the student housing market in the UK and the importance of understanding investor bases.",
+      "key_takeaway": "Invest in private credit funds that capitalize on the retreat of banks from riskier, smaller loans due to regulatory pressures, and consider preferred equity structures for upside potential with downside protection.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 214,
+      "episode_release_date": "2026-05-12",
+      "guest_name": "Lending Where the Banks Won\u2019t Go",
+      "key_tickers": []
+    },
+    {
       "id": 226,
       "title": "Marc Andreessen on Builder Culture in the Age of AI",
       "source_type": "podcast",
@@ -7817,26 +7874,6 @@ const dashboardData = {
         "AMD",
         "INTC"
       ]
-    },
-    {
-      "id": 221,
-      "title": "Ben Horowitz on the Next Technology Era",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-05-08",
-      "summary": "In this episode, the a16z show discusses the stark contrast in AI optimism between China and the U.S., the firm's recent fundraising efforts, and the importance of maintaining American technological leadership. The conversation touches on the integration of AI in government and military applications, the evolving venture capital landscape, and the need for engaging media strategies. The discussion also highlights the potential of robotics and AI to revolutionize industries and the concern over the perception of technology in America.",
-      "key_takeaway": "Invest in companies that align with national interests and technological advancement, particularly in AI, robotics, and frontier technologies.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-08",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 205,
-      "episode_release_date": "2026-05-08",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 222,
@@ -8033,6 +8070,32 @@ const dashboardData = {
       "last_mentioned_podcast": null,
       "last_mentioned_episode_title": null,
       "last_mentioned_episode_date": null
+    },
+    {
+      "id": 173,
+      "term": "Asset-Backed Lending",
+      "description": "A broader category of lending that includes opportunities in real estate and infrastructure, distinct from direct lending.",
+      "first_detected_date": "2026-05-12",
+      "last_mentioned_date": "2026-05-12",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Explore funds that encompass a wider range of asset-backed opportunities.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 214,
+      "first_detected_speaker": "Thomas Lloyd Jones",
+      "last_mentioned_episode_id": 214,
+      "last_mentioned_speaker": "Thomas Lloyd Jones",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
+      "first_detected_episode_date": "2026-05-12",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
+      "last_mentioned_episode_date": "2026-05-12"
     },
     {
       "id": 169,
@@ -8278,32 +8341,6 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "MSOs may benefit from descheduling as it could lead to increased interstate commerce and economies of scale.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.78,
-      "resonance_pct": 20,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 146,
-      "term": "TPU (Tensor Processing Unit)",
-      "description": "A type of application-specific integrated circuit (ASIC) developed by Google specifically designed to accelerate machine learning workloads.",
-      "first_detected_date": "2026-05-01",
-      "last_mentioned_date": "2026-05-01",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "TPUs represent a significant advancement in AI hardware and can influence investment in AI and cloud computing sectors.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -22048,12 +22085,72 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-05-12",
     "key_tickers": []
+  },
+  "229": {
+    "id": 219,
+    "insight_id": 229,
+    "podcast_episode_id": 214,
+    "overview": "The unresolved tension in the private credit market lies in the balance between regulatory pressures driving banks to conservative lending and the opportunities this creates for private credit funds to step in and fill the gap, particularly in riskier, smaller loans. The competitive dynamic is further complicated by the maturity of the European market, which is less developed compared to the U.S., offering a different set of opportunities and challenges. Allocator-relevant implications include the potential for higher yields in underserved markets, but also the need for careful risk management due to the concentration risk in direct lending and the influence of macroeconomic trends on investment strategies.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the regulatory environment closely as changes can significantly impact the opportunities available in the private credit market.",
+      "Diversification within private credit is crucial to manage concentration risk, suggesting a need for a nuanced approach to asset allocation.",
+      "The strategic use of preferred equity can offer a convex structure that balances upside potential with downside protection, which is particularly valuable in a rising interest rate environment.",
+      "Investors should be alert to the maturity levels of different European markets, as this can dictate the types of assets and structures that are most likely to succeed."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that regulatory pressures, particularly Basel III and IV, are creating a market gap that private credit funds can exploit by providing capital for riskier, smaller loans that banks are retreating from. This thesis is tied to the observable development of an increasing number of private credit funds targeting these opportunities and the success of these funds in delivering returns. The thesis would be vindicated if private credit funds continue to grow their market share in lending, especially in the lower-middle market segments and transitional assets, and if they can demonstrate consistent performance despite macroeconomic uncertainties.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "While not directly related to the private credit market, Apple's financial health and capital allocation strategies can serve as a bellwether for the technology sector, which may influence the demand for private credit in related industries.",
+        "positioning": "A long position in AAPL could be strategic, reflecting confidence in the stability and growth of the technology sector, which may indirectly benefit private credit markets.",
+        "risk": "Key risks include changes in consumer demand, regulatory challenges, and potential disruptions in the supply chain that could affect Apple's performance and, by extension, the broader market sentiment towards tech-related private credit opportunities."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A potential economic downturn could reduce the demand for private credit as businesses and individuals become more risk-averse.",
+      "Regulatory changes that ease capital requirements for banks might reduce the competitive advantage of private credit funds.",
+      "A significant shift in investor sentiment towards public markets could draw capital away from private credit opportunities."
+    ],
+    "catalysts": [
+      "Implementation of new regulatory measures that further restrict bank lending practices.",
+      "Publication of market research highlighting the growth of private credit funds and their impact on the lending landscape.",
+      "Macroeconomic indicators such as changes in interest rates or unemployment figures that could influence the demand for private credit."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-12T14:15:57.158422",
+    "updated_at": "2026-05-12 19:15:57",
+    "episode_evidence": "In the Monetary Matters podcast, Jack Farley and Thomas Lloyd Jones delve into the intricacies of the private credit market, particularly focusing on the European landscape. Jones highlights the significant shift in lending practices due to regulatory changes, stating, 'The effect of that... is that it's going to push up the regulatory rating of assets and increase the tier one capital the banks have to hold against them.' This underscores the retreat of banks from riskier lending, opening opportunities for private credit funds. Additionally, the discussion brings to light the strategic use of preferred equity, as Jones explains, 'Preferred equity doesn't cap your upside... it gives you the ideal convex structure where you have priority on a downside.' This insight is crucial for understanding how investors can balance risk and reward in the current market environment.",
+    "falsification_tracks": [
+      "If banks were to relax their lending standards or if regulatory pressures were reduced, the opportunities for private credit funds might diminish.",
+      "A significant increase in the number of non-bank originated real estate credit deals in Europe would challenge the current narrative of a less mature market.",
+      "Should preferred equity structures fail to deliver on their promise of uncapped upside in a substantial number of cases, their strategic value could be questioned."
+    ],
+    "insight_title": "Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-05-12",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 4768,
+    "id": 4815,
+    "name": "Lending Where the Banks Won\u2019t Go",
+    "slug": "lending-where-the-banks-wont-go",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in private credit funds that capitalize on the retreat of banks from riskier, smaller loans due to regulatory pressures, and consider preferred equity structures for upside potential with downside protection.",
+    "last_episode_title": "Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-12",
+    "appearance_count": 1
+  },
+  {
+    "id": 4816,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -22065,7 +22162,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4769,
+    "id": 4817,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -22077,7 +22174,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4770,
+    "id": 4818,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -22089,7 +22186,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4771,
+    "id": 4819,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -22101,7 +22198,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4772,
+    "id": 4820,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -22113,7 +22210,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4773,
+    "id": 4821,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -22125,7 +22222,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4774,
+    "id": 4822,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -22137,7 +22234,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4775,
+    "id": 4823,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -22149,7 +22246,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4776,
+    "id": 4824,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -22161,7 +22258,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4777,
+    "id": 4825,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -22173,7 +22270,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4778,
+    "id": 4826,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -22185,7 +22282,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4779,
+    "id": 4827,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -22197,7 +22294,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4780,
+    "id": 4828,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -22209,7 +22306,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4781,
+    "id": 4829,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -22221,7 +22318,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4782,
+    "id": 4830,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -22233,7 +22330,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4783,
+    "id": 4831,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -22245,7 +22342,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4784,
+    "id": 4832,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -22257,7 +22354,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4785,
+    "id": 4833,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -22269,7 +22366,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4786,
+    "id": 4834,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -22278,18 +22375,6 @@ const dashboardData = {
     "last_episode_title": "Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
-    "appearance_count": 1
-  },
-  {
-    "id": 4787,
-    "name": "From Models to Mobility",
-    "slug": "from-models-to-mobility",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
-    "last_episode_title": "From Models to Mobility: Building Waymo with Dmitri Dolgov",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-17",
     "appearance_count": 1
   }
 ],
@@ -22500,7 +22585,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.82,
+    "mention_score_decayed": 1.78,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -23106,6 +23191,70 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 243,
+    "name": "Thomas Lloyd Jones",
+    "slug": "thomas-lloyd-jones",
+    "bio": "Thomas Lloyd Jones is an expert in private credit and investment strategies. He is known for his insights on the European private credit market and the impact of regulatory changes on lending practices.",
+    "known_for": "His expertise in European private credit and the influence of regulatory changes on lending practices.",
+    "net_worth_usd": 15000000.0,
+    "net_worth_source": "https://canvomagazine.com/lloyd-jones-net-worth/",
+    "net_worth_updated_at": "2026-05-12T14:15:37.404757",
+    "voice_tone": "Confident and knowledgeable.",
+    "voice_style": "Analytical and solution-oriented.",
+    "voice_delivery_notes": "Clear and concise with an emphasis on the importance of understanding market dynamics.",
+    "voice_profile_updated_at": "2026-05-12 19:15:18",
+    "last_seen": "2026-05-12 19:15:18",
+    "last_episode_title": "Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-12",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in private credit funds that capitalize on the retreat of banks from riskier, smaller loans due to regulatory pressures, and consider preferred equity structures for upside potential with downside protection.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-12 \u2022 Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
+    "last_proof_snippet": "The dominant media narrative at the moment is direct lending and private credit, a virtually synonymous, but that is obviously not how the industry is structured, but what is definitely true is that direct lending has taken the vast majorit",
+    "supporting_takeaway": "Focus on private credit funds that target transitional assets and sectors where banks are retreating due to regulatory pressures.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-12T14:15:36.045061",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Thomas Lloyd Jones",
+      "fetched_at": "2026-05-12T19:15:36.044727+00:00",
+      "cliff_notes": "Thomas Lloyd Jones is a seasoned professional in the field of private credit and investment strategies. As the co-founder and CEO of Zenzic Capital, a London-based real estate private credit manager, Jones has been at the forefront of understanding and navigating the complexities of the European private credit market. His expertise is particularly valuable given the significant shifts in regulatory landscapes that have a profound impact on lending practices. Jones' insights are sought after by investors and financial professionals alike, as he provides a clear understanding of the allocation challenges within the private credit space and the implications of these challenges for the industry's structure and future.",
+      "derived": {
+        "current_role": "Co-founder and CEO of Zenzic Capital"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Thomas Lloyd Jones is a seasoned professional in the field of private credit and investment strategies. As the co-founder and CEO of Zenzic Capital, a London-based real estate private credit manager, Jones has been at the forefront of understanding and navigating the complexities of the European private credit market. His expertise is particularly valuable given the significant shifts in regulatory landscapes that have a profound impact on lending practices.",
+        "Jones' insights are sought after by investors and financial professionals alike, as he provides a clear understanding of the allocation challenges within the private credit space and the implications of these challenges for the industry's structure and future."
+      ],
+      "sections": [
+        {
+          "heading": "Private Credit Market",
+          "body": "Thomas Lloyd Jones is recognized for his deep understanding of the European private credit market, particularly in the context of real estate."
+        },
+        {
+          "heading": "Regulatory Impact",
+          "body": "He is known for analyzing how regulatory changes affect lending practices and the broader private credit landscape."
+        },
+        {
+          "heading": "Direct Lending",
+          "body": "Jones has provided commentary on the dominance of direct lending within the private credit space and its implications for capital allocation."
+        },
+        {
+          "heading": "Institutional Allocation",
+          "body": "He has discussed the concentration of institutional capital allocations to a narrow subset of private credit managers and the potential risks associated with this trend."
+        }
+      ]
+    },
+    "net_worth": "$15.0M"
+  },
+  {
     "id": 242,
     "name": "Spencer Pratt",
     "slug": "spencer-pratt",
@@ -23184,7 +23333,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-10 \u2022 Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
     "last_proof_snippet": "Very pleased today to be joined by David Wright, co-head of Pictay asset management's quantitative investments franchise, which manages over $30 billion in their quant group. This includes most recently two ETFs they launched PQ&T, their Pi",
@@ -23244,7 +23393,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "AI is a significant driver of economic growth and innovation, presenting opportunities in AI-driven sectors, sustainable data center technologies, and AI insurance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-09 \u2022 Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
     "last_proof_snippet": "Google has crushed their earnings. Alpha that reported 109.9 billion dollars. 22% year on your growth, 62.6 billion in profit. Google Cloud hit 20 billion revenue with 63% growth. AI drove results across the entire Google ecosystem. The rev",
@@ -23306,7 +23455,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -23496,7 +23645,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -23559,7 +23708,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -23623,7 +23772,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -23687,7 +23836,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -27692,7 +27841,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -27751,7 +27900,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
@@ -28010,7 +28159,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
     "last_proof_snippet": "The world is transitioning into a multi-polar world, which has economic and investment implications.",
@@ -28078,7 +28227,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
     "last_proof_snippet": "The world is transitioning into a multi-polar world, which has economic and investment implications.",
@@ -29828,7 +29977,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -29855,7 +30004,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",

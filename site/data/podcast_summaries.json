@@ -1,5 +1,20 @@
 [
   {
+    "id": 214,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
+    "episode_date": "2026-05-12",
+    "summary": "In this episode of Monetary Matters, host Jack Farley discusses the private credit market with Thomas Lloyd Jones, focusing on direct lending, regulatory impacts, and opportunities in transitional assets. The conversation highlights the concentration risk in direct lending, the influence of Basel III and IV on conservative lending, and the strategic use of preferred equity. The European private credit market's maturity is compared to the U.S., with insights on the student housing market in the UK and the importance of understanding investor bases.",
+    "key_takeaways": [
+      "Diversify investments within private credit to mitigate concentration risks associated with direct lending.",
+      "Focus on private credit funds that target transitional assets and sectors where banks are retreating due to regulatory pressures.",
+      "Evaluate preferred equity opportunities in funds to capture upside potential while maintaining downside protections.",
+      "Monitor macroeconomic indicators and sector maturity to inform investment strategies and identify emerging opportunities."
+    ],
+    "investment_thesis": "Invest in private credit funds that capitalize on the retreat of banks from riskier, smaller loans due to regulatory pressures, and consider preferred equity structures for upside potential with downside protection.",
+    "key_tickers": null
+  },
+  {
     "id": 213,
     "podcast_name": "The a16z Show",
     "episode_title": "Lloyd Blankfein on Risk, Crisis, and Leadership",
@@ -123,22 +138,6 @@
       "There is uncertainty regarding the sustainability of profit margins as companies adopt AI-driven efficiencies."
     ],
     "investment_thesis": "Invest in companies leveraging AI for productivity improvements and those positioned to benefit from the rapid growth of the AI market, while monitoring regulatory developments and labor market trends.",
-    "key_tickers": null
-  },
-  {
-    "id": 205,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Ben Horowitz on the Next Technology Era",
-    "episode_date": "2026-05-08",
-    "summary": "In this episode, the a16z show discusses the stark contrast in AI optimism between China and the U.S., the firm's recent fundraising efforts, and the importance of maintaining American technological leadership. The conversation touches on the integration of AI in government and military applications, the evolving venture capital landscape, and the need for engaging media strategies. The discussion also highlights the potential of robotics and AI to revolutionize industries and the concern over the perception of technology in America.",
-    "key_takeaways": [
-      "Over 70% of people in China are optimistic about AI, compared to less than 30% in the U.S., indicating a significant perception gap.",
-      "A16Z has raised over $15 billion in new funds, reflecting confidence in American technological leadership.",
-      "The U.S. must maintain its technological edge to ensure global stability and opportunity.",
-      "Founders should focus on building technologies that align with national interests, recognizing the ethical implications of their work.",
-      "The venture capital landscape is evolving, with firms needing to adapt to a larger number of potential technology companies."
-    ],
-    "investment_thesis": "Invest in companies that align with national interests and technological advancement, particularly in AI, robotics, and frontier technologies.",
     "key_tickers": null
   }
 ]
