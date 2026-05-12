@@ -1,5 +1,23 @@
 [
   {
+    "id": 212,
+    "podcast_name": "The Jack Mallers Show",
+    "episode_title": "Bitcoin & The Tale of Two Wolves",
+    "episode_date": "2026-05-12",
+    "summary": "In this episode, Jack Mallers discusses the current economic landscape, highlighting the dichotomy between AI-driven productivity growth and geopolitical tensions. The U.S. government's deficit spending, consumer sentiment at an all-time low, and the impact of AI on EPS revisions are key themes. The discussion emphasizes Bitcoin's role as a hedge against potential financial instability and the importance of maintaining a long-term investment perspective through dollar-cost averaging.",
+    "key_takeaways": [
+      "Monitor geopolitical developments, especially in the Middle East, for their impact on oil prices and global supply chains.",
+      "Stay informed about government spending and fiscal policies, as they significantly influence market conditions.",
+      "Consider dollar-cost averaging into Bitcoin to mitigate risks of market volatility.",
+      "Analyze the implications of AI advancements on specific industries and adjust investment strategies accordingly.",
+      "Be cautious of high-leverage investments and assess the risk exposure in your portfolio."
+    ],
+    "investment_thesis": "Bitcoin serves as a strong hedge against potential financial instability amid geopolitical tensions and economic volatility.",
+    "key_tickers": [
+      "BTC"
+    ]
+  },
+  {
     "id": 211,
     "podcast_name": "The a16z Show",
     "episode_title": "Marc Andreessen on Builder Culture in the Age of AI",
@@ -119,23 +137,6 @@
       "The venture capital landscape is evolving, with firms needing to adapt to a larger number of potential technology companies."
     ],
     "investment_thesis": "Invest in companies that align with national interests and technological advancement, particularly in AI, robotics, and frontier technologies.",
-    "key_tickers": null
-  },
-  {
-    "id": 204,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
-    "episode_date": "2026-05-07",
-    "summary": "This podcast episode delves into the future of AI, robotics, and their implications on employment and corporate governance. Demis Abbas suggests that AGI might evolve gradually rather than requiring a major breakthrough. The discussion also touches on ambitious production goals for humanoid robots, a new compensation model for CEOs, the evolving legal landscape around AI employment, the rise of GLP-1 drugs, ambient AI experiences, digital twins, and AI coaching, and the potential of de-extinction efforts.",
-    "key_takeaways": [
-      "Invest in companies focusing on incremental AI improvements rather than radical breakthroughs.",
-      "Evaluate corporate governance structures that incentivize long-term innovation.",
-      "Prepare for potential regulatory changes regarding AI and employment.",
-      "Explore investment opportunities in biotech, particularly in the longevity and healthspan sectors.",
-      "Develop AI technologies that enhance user experience through ambient integration.",
-      "Consider creating AI-driven personal coaching solutions to meet emerging market demands."
-    ],
-    "investment_thesis": "Invest in incremental AI improvements, new compensation models for CEOs, and emerging biotech sectors focusing on longevity and healthspan.",
     "key_tickers": null
   }
 ]

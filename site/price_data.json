@@ -3,66 +3,66 @@
     "price": 388.64,
     "change_pct": 14.53,
     "name": "GOOGL",
-    "updated_at": "2026-05-12T05:01:45.833307"
+    "updated_at": "2026-05-12T06:40:50.489226"
+  },
+  "BTC": {
+    "price": 80666.2,
+    "change_pct": 6.45,
+    "name": "BTC",
+    "updated_at": "2026-05-12T06:40:50.489247"
   },
   "NVDA": {
     "price": 219.44,
     "change_pct": 8.37,
     "name": "NVDA",
-    "updated_at": "2026-05-12T05:01:45.833327"
+    "updated_at": "2026-05-12T06:40:50.489257"
   },
   "MSFT": {
     "price": 412.66,
     "change_pct": -4.68,
     "name": "MSFT",
-    "updated_at": "2026-05-12T05:01:45.833336"
-  },
-  "BTC": {
-    "price": 80789.86,
-    "change_pct": 6.62,
-    "name": "BTC",
-    "updated_at": "2026-05-12T05:01:45.833344"
+    "updated_at": "2026-05-12T06:40:50.489266"
   },
   "WTI": {
     "price": 3.89,
     "change_pct": -0.26,
     "name": "WTI",
-    "updated_at": "2026-05-12T05:01:45.833352"
+    "updated_at": "2026-05-12T06:40:50.489275"
   },
   "S&P 500": {
     "price": 739.3,
     "change_pct": 3.95,
     "name": "S&P 500",
-    "updated_at": "2026-05-12T05:01:45.833359"
+    "updated_at": "2026-05-12T06:40:50.489284"
   },
   "META": {
     "price": 598.86,
     "change_pct": -11.24,
     "name": "META",
-    "updated_at": "2026-05-12T05:01:45.833368"
+    "updated_at": "2026-05-12T06:40:50.489294"
   },
   "AMZN": {
     "price": 268.99,
     "change_pct": 5.34,
     "name": "AMZN",
-    "updated_at": "2026-05-12T05:01:45.833375"
+    "updated_at": "2026-05-12T06:40:50.489302"
   },
   "TSLA": {
     "price": 445.0,
     "change_pct": 14.84,
     "name": "TSLA",
-    "updated_at": "2026-05-12T05:01:45.833382"
+    "updated_at": "2026-05-12T06:40:50.489312"
   },
   "QQQ": {
     "price": 713.29,
     "change_pct": 8.88,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-12T05:01:45.833389"
+    "updated_at": "2026-05-12T06:40:50.489321"
   },
   "BTC-USD": {
-    "price": 80789.86,
-    "change_pct": 6.62,
+    "price": 80666.2,
+    "change_pct": 6.45,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-12T05:01:45.833396"
+    "updated_at": "2026-05-12T06:40:50.489329"
   }
 }
