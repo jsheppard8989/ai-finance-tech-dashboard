@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 231,
+      "title": "Energy, Minerals, and the Physical Stack Behind AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-13",
+      "summary": "The podcast discusses the critical minerals supply chain gap between the U.S. and China, the importance of integrating software and autonomy in mining and refining, and the need to modernize the electricity grid. It emphasizes the necessity of a durable industrial policy to attract private capital and the significance of labor dynamics in industrial competitiveness. The episode also highlights the potential of AI and autonomous systems in optimizing industrial operations.",
+      "key_takeaway": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 216
+    },
+    {
       "id": 227,
       "title": "Bitcoin & The Tale of Two Wolves",
       "source_type": "podcast",
@@ -153,7 +172,7 @@
         "INTC"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-09",
       "archived_date": null,
@@ -4244,6 +4263,42 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 176,
+      "term": "Autonomy in Mining and Refining",
+      "description": "The integration of software and reinforcement learning to enhance operational efficiency in mining and refining industries.",
+      "first_detected_date": "2026-05-13",
+      "last_mentioned_date": "2026-05-13",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies that leverage advanced technologies to reduce operational costs and improve efficiency in traditional industries.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 216,
+      "first_detected_speaker": "Turner Coldwell, Drew Beglino",
+      "last_mentioned_episode_id": 216,
+      "last_mentioned_speaker": "Turner Coldwell, Drew Beglino"
+    },
+    {
+      "id": 177,
+      "term": "Solid-State Transformers",
+      "description": "A modern electrical component used to transform voltage levels in the electricity grid, replacing outdated mechanical systems.",
+      "first_detected_date": "2026-05-13",
+      "last_mentioned_date": "2026-05-13",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies developing innovative solutions for grid modernization to meet growing electricity demands.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 216,
+      "first_detected_speaker": "Turner Coldwell, Drew Beglino",
+      "last_mentioned_episode_id": 216,
+      "last_mentioned_speaker": "Turner Coldwell, Drew Beglino"
+    },
     {
       "id": 174,
       "term": "Capability-Bounded Approach",

@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-13T06:48:27.298706",
-  chartsVersion: "2026-05-13T06:48:20.781982",
+  generatedAt: "2026-05-13T12:06:56.178064",
+  chartsVersion: "2026-05-13T12:06:47.810855",
   priceSnapshot: {
   "GOOGL": {
-    "price": 387.35,
-    "change_pct": 14.3,
+    "price": 401.78,
+    "change_pct": 16.66,
     "name": "GOOGL",
-    "updated_at": "2026-05-13T06:48:20.780951"
+    "updated_at": "2026-05-13T12:06:47.810118"
   },
   "BTC": {
-    "price": 80615.94,
-    "change_pct": 5.65,
+    "price": 79177.04,
+    "change_pct": 3.76,
     "name": "BTC",
-    "updated_at": "2026-05-13T06:48:20.780974"
+    "updated_at": "2026-05-13T12:06:47.810134"
   },
   "NVDA": {
-    "price": 220.78,
-    "change_pct": 10.59,
+    "price": 227.15,
+    "change_pct": 9.07,
     "name": "NVDA",
-    "updated_at": "2026-05-13T06:48:20.780984"
+    "updated_at": "2026-05-13T12:06:47.810141"
   },
   "MSFT": {
-    "price": 407.77,
-    "change_pct": -1.92,
+    "price": 405.49,
+    "change_pct": -4.5,
     "name": "MSFT",
-    "updated_at": "2026-05-13T06:48:20.780993"
+    "updated_at": "2026-05-13T12:06:47.810147"
   },
   "WTI": {
-    "price": 4.21,
-    "change_pct": 10.79,
+    "price": 4.22,
+    "change_pct": 10.47,
     "name": "WTI",
-    "updated_at": "2026-05-13T06:48:20.781001"
+    "updated_at": "2026-05-13T12:06:47.810152"
   },
   "S&P 500": {
-    "price": 738.18,
-    "change_pct": 4.2,
+    "price": 742.77,
+    "change_pct": 4.04,
     "name": "S&P 500",
-    "updated_at": "2026-05-13T06:48:20.781008"
+    "updated_at": "2026-05-13T12:06:47.810158"
   },
   "META": {
-    "price": 603.0,
-    "change_pct": -8.52,
+    "price": 615.3,
+    "change_pct": -8.85,
     "name": "META",
-    "updated_at": "2026-05-13T06:48:20.781017"
+    "updated_at": "2026-05-13T12:06:47.810165"
   },
   "AMZN": {
-    "price": 265.82,
-    "change_pct": 4.21,
+    "price": 270.23,
+    "change_pct": 2.36,
     "name": "AMZN",
-    "updated_at": "2026-05-13T06:48:20.781025"
+    "updated_at": "2026-05-13T12:06:47.810169"
   },
   "TSLA": {
-    "price": 433.45,
-    "change_pct": 15.98,
+    "price": 450.31,
+    "change_pct": 19.67,
     "name": "TSLA",
-    "updated_at": "2026-05-13T06:48:20.781032"
+    "updated_at": "2026-05-13T12:06:47.810174"
   },
   "QQQ": {
-    "price": 707.24,
-    "change_pct": 8.57,
+    "price": 714.88,
+    "change_pct": 7.68,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-13T06:48:20.781039"
+    "updated_at": "2026-05-13T12:06:47.810180"
   },
   "BTC-USD": {
-    "price": 80615.94,
-    "change_pct": 5.65,
+    "price": 79177.04,
+    "change_pct": 3.76,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-13T06:48:20.781047"
+    "updated_at": "2026-05-13T12:06:47.810184"
   }
 },
   tickerScores: [
@@ -828,6 +828,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 231,
+      "title": "Energy, Minerals, and the Physical Stack Behind AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-13",
+      "summary": "The podcast discusses the critical minerals supply chain gap between the U.S. and China, the importance of integrating software and autonomy in mining and refining, and the need to modernize the electricity grid. It emphasizes the necessity of a durable industrial policy to attract private capital and the significance of labor dynamics in industrial competitiveness. The episode also highlights the potential of AI and autonomous systems in optimizing industrial operations.",
+      "key_takeaway": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 216
+    },
+    {
       "id": 227,
       "title": "Bitcoin & The Tale of Two Wolves",
       "source_type": "podcast",
@@ -980,7 +999,7 @@ const dashboardData = {
         "INTC"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-09",
       "archived_date": null,
@@ -5072,6 +5091,42 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 176,
+      "term": "Autonomy in Mining and Refining",
+      "description": "The integration of software and reinforcement learning to enhance operational efficiency in mining and refining industries.",
+      "first_detected_date": "2026-05-13",
+      "last_mentioned_date": "2026-05-13",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies that leverage advanced technologies to reduce operational costs and improve efficiency in traditional industries.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 216,
+      "first_detected_speaker": "Turner Coldwell, Drew Beglino",
+      "last_mentioned_episode_id": 216,
+      "last_mentioned_speaker": "Turner Coldwell, Drew Beglino"
+    },
+    {
+      "id": 177,
+      "term": "Solid-State Transformers",
+      "description": "A modern electrical component used to transform voltage levels in the electricity grid, replacing outdated mechanical systems.",
+      "first_detected_date": "2026-05-13",
+      "last_mentioned_date": "2026-05-13",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies developing innovative solutions for grid modernization to meet growing electricity demands.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 216,
+      "first_detected_speaker": "Turner Coldwell, Drew Beglino",
+      "last_mentioned_episode_id": 216,
+      "last_mentioned_speaker": "Turner Coldwell, Drew Beglino"
+    },
+    {
       "id": 174,
       "term": "Capability-Bounded Approach",
       "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
@@ -7764,6 +7819,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 231,
+      "title": "Energy, Minerals, and the Physical Stack Behind AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-13",
+      "summary": "The podcast discusses the critical minerals supply chain gap between the U.S. and China, the importance of integrating software and autonomy in mining and refining, and the need to modernize the electricity grid. It emphasizes the necessity of a durable industrial policy to attract private capital and the significance of labor dynamics in industrial competitiveness. The episode also highlights the potential of AI and autonomous systems in optimizing industrial operations.",
+      "key_takeaway": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 216,
+      "episode_release_date": "2026-05-13",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 227,
       "title": "Bitcoin & The Tale of Two Wolves",
       "source_type": "podcast",
@@ -7907,30 +7982,6 @@ const dashboardData = {
       "episode_release_date": "2026-05-10",
       "guest_name": "Spencer Pratt on Fixing LA",
       "key_tickers": []
-    },
-    {
-      "id": 223,
-      "title": "Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-05-09",
-      "summary": "This episode of 'Moonshots with Peter Diamandis' delves into the economic impact of AI, its role as a growth engine for GDP, and the geopolitical implications of AI regulation. The discussion also touches on the emerging market for AI insurance and the future of work in an AI-driven economy. Key insights include the surge in AI chip demand, innovative AI data center solutions, and the need for specialized AI insurance policies.",
-      "key_takeaway": "AI is a significant driver of economic growth and innovation, presenting opportunities in AI-driven sectors, sustainable data center technologies, and AI insurance.",
-      "tickers_mentioned": "[\"GOOGL\", \"AMD\", \"INTC\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-09",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 208,
-      "episode_release_date": "2026-05-09",
-      "guest_name": null,
-      "key_tickers": [
-        "GOOGL",
-        "AMD",
-        "INTC"
-      ]
     }
   ],
   "definitions": [
@@ -8107,6 +8158,58 @@ const dashboardData = {
       "last_mentioned_podcast": null,
       "last_mentioned_episode_title": null,
       "last_mentioned_episode_date": null
+    },
+    {
+      "id": 176,
+      "term": "Autonomy in Mining and Refining",
+      "description": "The integration of software and reinforcement learning to enhance operational efficiency in mining and refining industries.",
+      "first_detected_date": "2026-05-13",
+      "last_mentioned_date": "2026-05-13",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies that leverage advanced technologies to reduce operational costs and improve efficiency in traditional industries.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 216,
+      "first_detected_speaker": "Turner Coldwell, Drew Beglino",
+      "last_mentioned_episode_id": 216,
+      "last_mentioned_speaker": "Turner Coldwell, Drew Beglino",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Energy, Minerals, and the Physical Stack Behind AI",
+      "first_detected_episode_date": "2026-05-13",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Energy, Minerals, and the Physical Stack Behind AI",
+      "last_mentioned_episode_date": "2026-05-13"
+    },
+    {
+      "id": 177,
+      "term": "Solid-State Transformers",
+      "description": "A modern electrical component used to transform voltage levels in the electricity grid, replacing outdated mechanical systems.",
+      "first_detected_date": "2026-05-13",
+      "last_mentioned_date": "2026-05-13",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies developing innovative solutions for grid modernization to meet growing electricity demands.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 216,
+      "first_detected_speaker": "Turner Coldwell, Drew Beglino",
+      "last_mentioned_episode_id": 216,
+      "last_mentioned_speaker": "Turner Coldwell, Drew Beglino",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Energy, Minerals, and the Physical Stack Behind AI",
+      "first_detected_episode_date": "2026-05-13",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Energy, Minerals, and the Physical Stack Behind AI",
+      "last_mentioned_episode_date": "2026-05-13"
     },
     {
       "id": 174,
@@ -8341,58 +8444,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
       "last_mentioned_episode_date": "2026-05-04"
-    },
-    {
-      "id": 143,
-      "term": "Cross-Solver Tensions",
-      "description": "The challenges faced by companies that try to replace multiple functionalities within a single platform.",
-      "first_detected_date": "2026-05-01",
-      "last_mentioned_date": "2026-05-01",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the potential for new platforms that can address specific pain points within enterprise software more effectively than incumbents.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.76,
-      "resonance_pct": 19,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 144,
-      "term": "Descheduling",
-      "description": "The removal of a substance from a list of controlled substances, in this case, cannabis.",
-      "first_detected_date": "2026-05-01",
-      "last_mentioned_date": "2026-05-01",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Descheduling can lead to significant changes in the legal and operational landscape for businesses in the affected industry.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.76,
-      "resonance_pct": 19,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
     }
   ]
 },
@@ -22221,12 +22272,63 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-05-12",
     "key_tickers": []
+  },
+  "231": {
+    "id": 221,
+    "insight_id": 231,
+    "podcast_episode_id": 216,
+    "overview": "The unresolved tension highlighted in the podcast is the U.S.'s vulnerability in the critical minerals supply chain and the outdated electricity grid, which are critical for maintaining technological leadership and economic growth. The competitive dynamic is between the U.S.'s current status and the need to innovate rapidly to close the gap with China. The allocation-relevant implication is that investors who identify and support companies driving innovation in these areas could gain significant market share and contribute to U.S. re-industrialization. The metric that arbitrates this uncertainty is the pace of technological advancement and the ability to scale production in the critical minerals supply chain and electricity grid modernization.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the progress of Mariana Minerals and similar companies in integrating autonomy and software in mining and refining to assess the viability of these technologies in reducing operational costs.",
+      "Keep an eye on Heron Power's solid-state transformers and their impact on grid modernization, as this could signal a shift in the electricity infrastructure market.",
+      "Advocate for and invest in companies that are developing durable industrial policies, as these policies are crucial for attracting private capital and ensuring long-term investment in U.S. manufacturing and energy infrastructure.",
+      "Look for opportunities in companies that are focusing on automation and supply chain optimization, as these strategies are more critical than labor cost differentials in maintaining competitiveness.",
+      "Invest in education and training programs that build a skilled workforce for emerging sectors, as this will be essential for the successful deployment of new technologies in critical minerals and energy infrastructure."
+    ],
+    "investment_thesis": "The core logic is that the U.S. must innovate in the critical minerals and energy sectors to avoid losing its technological edge. A timeframe of the next decade is relevant, as the demand for critical minerals is accelerating. The observable development that would vindicate this thesis is significant progress in closing the supply chain gap with China and the successful deployment of modernized electricity grid technologies. Conversely, if the U.S. continues to lag behind in these areas without any substantial innovation or policy support, the thesis would be invalidated.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's focus on sustainability and its need for critical minerals for its products make it relevant to the thesis. Its potential investment in or partnership with companies driving innovation in the critical minerals supply chain could be a strategic move.",
+        "positioning": "Positioning should be long-term and strategic, as Apple's involvement in the critical minerals supply chain could be a significant factor in its future growth and sustainability efforts.",
+        "risk": "Key risks include regulatory changes that could affect the supply of critical minerals and the success of Apple's sustainability initiatives."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that the U.S. can quickly close the gap in the critical minerals supply chain may be overoptimistic given the scale of the challenge.",
+      "There is a risk that the integration of software and autonomy in mining and refining may not yield the expected cost savings or efficiency improvements.",
+      "The modernization of the electricity grid could be slower than anticipated due to regulatory hurdles and technological challenges."
+    ],
+    "catalysts": [
+      "The U.S. government's announcement of significant investment in critical minerals and energy infrastructure.",
+      "Successful deployment of Mariana Minerals' autonomous mining and refining technologies at scale.",
+      "Heron Power's solid-state transformers being adopted by major utilities as a standard for grid modernization.",
+      "Federal policy changes that provide incentives for private capital investment in U.S. manufacturing and energy sectors.",
+      "Breakthroughs in the development of new materials or processes that could disrupt the current critical minerals supply chain."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-13T12:05:58.150781",
+    "updated_at": "2026-05-13 17:05:58",
+    "episode_evidence": "The podcast underscores the U.S.'s significant lag in the critical minerals supply chain, with a stark claim that 'American critical mineral supply sits 50 years behind China, and demand for both is accelerating faster than at any point in history.' This gap is not just a matter of production volume but also of the technology and processes involved in mining and refining these minerals. Mariana Minerals is highlighted for its innovative approach, integrating 'software and reinforcement learning to enhance autonomy in mining and refining operations,' which could revolutionize the industry by reducing operational costs and improving efficiency. Heron Power's development of solid-state transformers represents a significant technological leap in grid modernization, moving away from 'largely mechanical systems that were developed over a hundred years ago.' These advancements are crucial for meeting the growing electricity demands and supporting economic growth.",
+    "falsification_tracks": [
+      "Should the U.S. significantly increase its investment in critical minerals and close the supply gap with China within the next decade, the initial claim of a 50-year lag would be weakened.",
+      "If Mariana Minerals fails to deliver on its promise of integrating software and autonomy in mining and refining, resulting in no substantial operational cost reductions or efficiency improvements, the belief in the potential of such technologies would be challenged.",
+      "A failure by Heron Power to successfully deploy solid-state transformers on a large scale, or if these transformers do not meet the expected performance standards, would undermine the case for modernizing the electricity grid with this technology."
+    ],
+    "insight_title": "Energy, Minerals, and the Physical Stack Behind AI",
+    "source_name": "The a16z Show",
+    "source_date": "2026-05-13",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 4959,
+    "id": 5007,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -22238,7 +22340,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4960,
+    "id": 5008,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -22250,7 +22352,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4961,
+    "id": 5009,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -22262,7 +22364,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4962,
+    "id": 5010,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -22274,7 +22376,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4963,
+    "id": 5011,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -22286,7 +22388,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4964,
+    "id": 5012,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -22298,7 +22400,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4965,
+    "id": 5013,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -22310,7 +22412,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4966,
+    "id": 5014,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -22322,7 +22424,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4967,
+    "id": 5015,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -22334,7 +22436,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4968,
+    "id": 5016,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -22346,7 +22448,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4969,
+    "id": 5017,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -22358,7 +22460,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4970,
+    "id": 5018,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -22370,7 +22472,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4971,
+    "id": 5019,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -22382,7 +22484,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4972,
+    "id": 5020,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -22394,7 +22496,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4973,
+    "id": 5021,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -22406,7 +22508,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4974,
+    "id": 5022,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -22418,7 +22520,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4975,
+    "id": 5023,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -22430,7 +22532,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4976,
+    "id": 5024,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -22442,7 +22544,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4977,
+    "id": 5025,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -22454,7 +22556,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 4978,
+    "id": 5026,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -23269,7 +23371,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -23277,6 +23379,135 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 246,
+    "name": "Turner Coldwell",
+    "slug": "turner-coldwell",
+    "bio": "Turner Coldwell is the co-founder and CEO of Mariana Minerals, a company focused on integrating software and autonomy in mining and refining. He is known for his innovative approach to mining and refining through the use of software and reinforcement learning, aiming to modernize an industry that has been slow to adapt to technological advancements.",
+    "known_for": "Innovating in mining and refining through software and reinforcement learning, striving to modernize an industry that has been slow to adapt to technological advancements.",
+    "net_worth_usd": 2600000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/10968/cal-=tn-turner",
+    "net_worth_updated_at": "2026-05-13T12:05:05.403309",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-13 17:04:33",
+    "last_episode_title": "Energy, Minerals, and the Physical Stack Behind AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-13",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
+    "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
+    "supporting_takeaway": "Explore partnerships with firms leveraging AI and automation in traditional industries to enhance operational efficiency.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-13T12:05:04.479265",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Turner Coldwell",
+      "fetched_at": "2026-05-13T17:05:04.478916+00:00",
+      "cliff_notes": "Turner Coldwell is recognized for his work in the mining and refining industry, particularly for his efforts to integrate advanced software and autonomy. As the co-founder and CEO of Mariana Minerals, Coldwell is at the forefront of using technology to revolutionize an industry that has been slow to adapt to modern innovations. His background includes a stint at Tesla, which has influenced his belief in the power of innovation to transform traditional industries. At Mariana Minerals, Coldwell is making a significant bet on autonomy and refineries, utilizing reinforcement learning to remove humans from the operational loop and optimize refinery operations. His work is crucial in addressing the U.S.'s critical minerals supply, which lags significantly behind China, and in leveraging domestic technology to meet the accelerating demand for such minerals.",
+      "derived": {
+        "current_role": "Co-founder and CEO of Mariana Minerals",
+        "former_positions": "Worked at Tesla"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Turner Coldwell is recognized for his work in the mining and refining industry, particularly for his efforts to integrate advanced software and autonomy. As the co-founder and CEO of Mariana Minerals, Coldwell is at the forefront of using technology to revolutionize an industry that has been slow to adapt to modern innovations.",
+        "His background includes a stint at Tesla, which has influenced his belief in the power of innovation to transform traditional industries. At Mariana Minerals, Coldwell is making a significant bet on autonomy and refineries, utilizing reinforcement learning to remove humans from the operational loop and optimize refinery operations.",
+        "His work is crucial in addressing the U.S.'s critical minerals supply, which lags significantly behind China, and in leveraging domestic technology to meet the accelerating demand for such minerals."
+      ],
+      "sections": [
+        {
+          "heading": "Innovation in Mining",
+          "body": "Turner Coldwell is leading the charge in integrating software and autonomy into mining, a sector that has been traditionally slow to adopt new technologies."
+        },
+        {
+          "heading": "Reinforcement Learning",
+          "body": "At Mariana Minerals, Coldwell is using reinforcement learning to optimize refinery operations, aiming to remove humans from the decision-making process and improve efficiency."
+        },
+        {
+          "heading": "Critical Minerals Supply",
+          "body": "Coldwell emphasizes the importance of the U.S. catching up in critical minerals supply, which is currently far behind China, and the need to leverage domestic technology to meet the growing demand."
+        },
+        {
+          "heading": "Modernizing the Power Grid",
+          "body": "He points out that the U.S. power grid operates on mechanical systems designed before World War II, highlighting the urgent need for modernization in the energy sector."
+        }
+      ]
+    },
+    "net_worth": "$2.60B"
+  },
+  {
+    "id": 247,
+    "name": "Drew Beglino",
+    "slug": "drew-beglino",
+    "bio": "Drew Beglino is the co-founder and CEO of Heron Power, a company focused on developing solid-state transformers to modernize the electricity grid. With a background in innovation and a drive to update outdated systems, Beglino is working to revolutionize the way power is distributed and managed.",
+    "known_for": "Innovating in electricity grid modernization with solid-state transformers.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-13 17:04:33",
+    "last_episode_title": "Energy, Minerals, and the Physical Stack Behind AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-13",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
+    "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
+    "supporting_takeaway": "Explore partnerships with firms leveraging AI and automation in traditional industries to enhance operational efficiency.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-13T12:05:15.846496",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Drew Beglino",
+      "fetched_at": "2026-05-13T17:05:15.846346+00:00",
+      "cliff_notes": "Drew Beglino is recognized for his work in the field of electricity grid modernization. As the co-founder and CEO of Heron Power, he is leading the charge in developing solid-state transformers, a technology that could significantly upgrade the outdated mechanical systems currently in use. His background includes a stint at Tesla, where he gained valuable experience in system innovation and the belief in overcoming challenges for a worthwhile outcome. Beglino's focus is on leveraging American resources, such as Silicon Carbide, to create a more efficient and modern power grid, addressing the U.S.'s lag in critical minerals supply and the accelerating demand for such resources.",
+      "derived": {
+        "current_role": "Co-founder and CEO of Heron Power",
+        "former_positions": "Worked at Tesla;"
+      },
+      "infobox": {
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Drew Beglino is recognized for his work in the field of electricity grid modernization. As the co-founder and CEO of Heron Power, he is leading the charge in developing solid-state transformers, a technology that could significantly upgrade the outdated mechanical systems currently in use. His background includes a stint at Tesla, where he gained valuable experience in system innovation and the belief in overcoming challenges for a worthwhile outcome.",
+        "Beglino's focus is on leveraging American resources, such as Silicon Carbide, to create a more efficient and modern power grid, addressing the U.S.'s lag in critical minerals supply and the accelerating demand for such resources."
+      ],
+      "sections": [
+        {
+          "heading": "Grid Modernization",
+          "body": "Drew Beglino is focused on modernizing the electricity grid through the development of solid-state transformers, aiming to replace mechanical systems designed before World War II."
+        },
+        {
+          "heading": "Innovation and Autonomy",
+          "body": "Beglino advocates for innovation in old systems, drawing from his experience at Tesla, where he learned the importance of pushing through challenges for significant outcomes, including bets on autonomy and refineries."
+        },
+        {
+          "heading": "Critical Minerals Supply",
+          "body": "He highlights the U.S.'s lag in critical minerals supply, emphasizing the need to leverage domestic resources like Silicon Carbide, which is key for power semiconductors."
+        },
+        {
+          "heading": "Manufacturing and Domestic Production",
+          "body": "Beglino stresses the importance of manufacturing and producing domestically to keep up with the accelerating demand for power grid technology and resources."
+        }
+      ]
+    }
   },
   {
     "id": 244,
@@ -25931,7 +26162,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -28497,7 +28728,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -28557,7 +28788,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -28617,7 +28848,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",

@@ -801,7 +801,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -809,6 +809,135 @@
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 246,
+    "name": "Turner Coldwell",
+    "slug": "turner-coldwell",
+    "bio": "Turner Coldwell is the co-founder and CEO of Mariana Minerals, a company focused on integrating software and autonomy in mining and refining. He is known for his innovative approach to mining and refining through the use of software and reinforcement learning, aiming to modernize an industry that has been slow to adapt to technological advancements.",
+    "known_for": "Innovating in mining and refining through software and reinforcement learning, striving to modernize an industry that has been slow to adapt to technological advancements.",
+    "net_worth_usd": 2600000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/10968/cal-=tn-turner",
+    "net_worth_updated_at": "2026-05-13T12:05:05.403309",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-13 17:04:33",
+    "last_episode_title": "Energy, Minerals, and the Physical Stack Behind AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-13",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
+    "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
+    "supporting_takeaway": "Explore partnerships with firms leveraging AI and automation in traditional industries to enhance operational efficiency.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-13T12:05:04.479265",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Turner Coldwell",
+      "fetched_at": "2026-05-13T17:05:04.478916+00:00",
+      "cliff_notes": "Turner Coldwell is recognized for his work in the mining and refining industry, particularly for his efforts to integrate advanced software and autonomy. As the co-founder and CEO of Mariana Minerals, Coldwell is at the forefront of using technology to revolutionize an industry that has been slow to adapt to modern innovations. His background includes a stint at Tesla, which has influenced his belief in the power of innovation to transform traditional industries. At Mariana Minerals, Coldwell is making a significant bet on autonomy and refineries, utilizing reinforcement learning to remove humans from the operational loop and optimize refinery operations. His work is crucial in addressing the U.S.'s critical minerals supply, which lags significantly behind China, and in leveraging domestic technology to meet the accelerating demand for such minerals.",
+      "derived": {
+        "current_role": "Co-founder and CEO of Mariana Minerals",
+        "former_positions": "Worked at Tesla"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Turner Coldwell is recognized for his work in the mining and refining industry, particularly for his efforts to integrate advanced software and autonomy. As the co-founder and CEO of Mariana Minerals, Coldwell is at the forefront of using technology to revolutionize an industry that has been slow to adapt to modern innovations.",
+        "His background includes a stint at Tesla, which has influenced his belief in the power of innovation to transform traditional industries. At Mariana Minerals, Coldwell is making a significant bet on autonomy and refineries, utilizing reinforcement learning to remove humans from the operational loop and optimize refinery operations.",
+        "His work is crucial in addressing the U.S.'s critical minerals supply, which lags significantly behind China, and in leveraging domestic technology to meet the accelerating demand for such minerals."
+      ],
+      "sections": [
+        {
+          "heading": "Innovation in Mining",
+          "body": "Turner Coldwell is leading the charge in integrating software and autonomy into mining, a sector that has been traditionally slow to adopt new technologies."
+        },
+        {
+          "heading": "Reinforcement Learning",
+          "body": "At Mariana Minerals, Coldwell is using reinforcement learning to optimize refinery operations, aiming to remove humans from the decision-making process and improve efficiency."
+        },
+        {
+          "heading": "Critical Minerals Supply",
+          "body": "Coldwell emphasizes the importance of the U.S. catching up in critical minerals supply, which is currently far behind China, and the need to leverage domestic technology to meet the growing demand."
+        },
+        {
+          "heading": "Modernizing the Power Grid",
+          "body": "He points out that the U.S. power grid operates on mechanical systems designed before World War II, highlighting the urgent need for modernization in the energy sector."
+        }
+      ]
+    },
+    "net_worth": "$2.60B"
+  },
+  {
+    "id": 247,
+    "name": "Drew Beglino",
+    "slug": "drew-beglino",
+    "bio": "Drew Beglino is the co-founder and CEO of Heron Power, a company focused on developing solid-state transformers to modernize the electricity grid. With a background in innovation and a drive to update outdated systems, Beglino is working to revolutionize the way power is distributed and managed.",
+    "known_for": "Innovating in electricity grid modernization with solid-state transformers.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-13 17:04:33",
+    "last_episode_title": "Energy, Minerals, and the Physical Stack Behind AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-13",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
+    "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
+    "supporting_takeaway": "Explore partnerships with firms leveraging AI and automation in traditional industries to enhance operational efficiency.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-13T12:05:15.846496",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Drew Beglino",
+      "fetched_at": "2026-05-13T17:05:15.846346+00:00",
+      "cliff_notes": "Drew Beglino is recognized for his work in the field of electricity grid modernization. As the co-founder and CEO of Heron Power, he is leading the charge in developing solid-state transformers, a technology that could significantly upgrade the outdated mechanical systems currently in use. His background includes a stint at Tesla, where he gained valuable experience in system innovation and the belief in overcoming challenges for a worthwhile outcome. Beglino's focus is on leveraging American resources, such as Silicon Carbide, to create a more efficient and modern power grid, addressing the U.S.'s lag in critical minerals supply and the accelerating demand for such resources.",
+      "derived": {
+        "current_role": "Co-founder and CEO of Heron Power",
+        "former_positions": "Worked at Tesla;"
+      },
+      "infobox": {
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Drew Beglino is recognized for his work in the field of electricity grid modernization. As the co-founder and CEO of Heron Power, he is leading the charge in developing solid-state transformers, a technology that could significantly upgrade the outdated mechanical systems currently in use. His background includes a stint at Tesla, where he gained valuable experience in system innovation and the belief in overcoming challenges for a worthwhile outcome.",
+        "Beglino's focus is on leveraging American resources, such as Silicon Carbide, to create a more efficient and modern power grid, addressing the U.S.'s lag in critical minerals supply and the accelerating demand for such resources."
+      ],
+      "sections": [
+        {
+          "heading": "Grid Modernization",
+          "body": "Drew Beglino is focused on modernizing the electricity grid through the development of solid-state transformers, aiming to replace mechanical systems designed before World War II."
+        },
+        {
+          "heading": "Innovation and Autonomy",
+          "body": "Beglino advocates for innovation in old systems, drawing from his experience at Tesla, where he learned the importance of pushing through challenges for significant outcomes, including bets on autonomy and refineries."
+        },
+        {
+          "heading": "Critical Minerals Supply",
+          "body": "He highlights the U.S.'s lag in critical minerals supply, emphasizing the need to leverage domestic resources like Silicon Carbide, which is key for power semiconductors."
+        },
+        {
+          "heading": "Manufacturing and Domestic Production",
+          "body": "Beglino stresses the importance of manufacturing and producing domestically to keep up with the accelerating demand for power grid technology and resources."
+        }
+      ]
+    }
   },
   {
     "id": 244,
@@ -3463,7 +3592,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -6029,7 +6158,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -6089,7 +6218,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -6149,7 +6278,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",

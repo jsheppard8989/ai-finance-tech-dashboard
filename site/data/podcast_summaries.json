@@ -1,5 +1,21 @@
 [
   {
+    "id": 216,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Energy, Minerals, and the Physical Stack Behind AI",
+    "episode_date": "2026-05-13",
+    "summary": "The podcast discusses the critical minerals supply chain gap between the U.S. and China, the importance of integrating software and autonomy in mining and refining, and the need to modernize the electricity grid. It emphasizes the necessity of a durable industrial policy to attract private capital and the significance of labor dynamics in industrial competitiveness. The episode also highlights the potential of AI and autonomous systems in optimizing industrial operations.",
+    "key_takeaways": [
+      "Invest in companies that innovate in the critical minerals space to capitalize on U.S. re-industrialization efforts.",
+      "Explore partnerships with firms leveraging AI and automation in traditional industries to enhance operational efficiency.",
+      "Advocate for durable industrial policies that support long-term investment in manufacturing and energy sectors.",
+      "Identify and recruit talent from analogous industries to build a skilled workforce for emerging sectors.",
+      "Monitor developments in solid-state transformer technology and grid modernization as potential investment opportunities."
+    ],
+    "investment_thesis": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
+    "key_tickers": null
+  },
+  {
     "id": 215,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
@@ -119,25 +135,6 @@
     "key_tickers": [
       "PQ&T",
       "PQUS"
-    ]
-  },
-  {
-    "id": 208,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
-    "episode_date": "2026-05-09",
-    "summary": "This episode of 'Moonshots with Peter Diamandis' delves into the economic impact of AI, its role as a growth engine for GDP, and the geopolitical implications of AI regulation. The discussion also touches on the emerging market for AI insurance and the future of work in an AI-driven economy. Key insights include the surge in AI chip demand, innovative AI data center solutions, and the need for specialized AI insurance policies.",
-    "key_takeaways": [
-      "Invest in AI-driven companies and sectors poised for growth, especially in data centers and infrastructure.",
-      "Monitor regulatory developments related to AI to assess potential impacts on investment opportunities.",
-      "Explore opportunities in the emerging AI insurance market to address the growing need for specialized coverage.",
-      "Encourage workforce reskilling initiatives to prepare employees for the evolving job landscape influenced by AI."
-    ],
-    "investment_thesis": "AI is a significant driver of economic growth and innovation, presenting opportunities in AI-driven sectors, sustainable data center technologies, and AI insurance.",
-    "key_tickers": [
-      "GOOGL",
-      "AMD",
-      "INTC"
     ]
   }
 ]
