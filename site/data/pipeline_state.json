@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-13T12:06:49.671774",
-  "last_updated": "2026-05-13T12:06:49.671774",
-  "last_pipeline_run": "2026-05-13T12:06:49.671774",
+  "generated_at": "2026-05-13T13:38:20.092435",
+  "last_updated": "2026-05-13T13:38:20.092435",
+  "last_pipeline_run": "2026-05-13T13:38:20.092435",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -12,39 +12,20 @@
     "podcast_episodes": 189,
     "newsletters": 7,
     "daily_scores": 114,
-    "overton_terms_total": 151,
+    "overton_terms_total": 149,
     "latest_insights_total": 203,
     "today_mentions": {},
     "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "7e042ace-f75b-44fb-9f14-0e9e7495761f",
-      "podcast": "The a16z Show",
-      "title": "Energy, Minerals, and the Physical Stack Behind AI",
-      "published": "2026-05-13",
-      "rss_guid": "7e042ace-f75b-44fb-9f14-0e9e7495761f",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,

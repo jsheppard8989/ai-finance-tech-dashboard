@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-13T12:06:56.178064",
-  chartsVersion: "2026-05-13T12:06:47.810855",
+  generatedAt: "2026-05-13T13:38:27.419492",
+  chartsVersion: "2026-05-13T13:38:19.025619",
   priceSnapshot: {
   "GOOGL": {
-    "price": 401.78,
-    "change_pct": 16.66,
+    "price": 402.82,
+    "change_pct": 16.96,
     "name": "GOOGL",
-    "updated_at": "2026-05-13T12:06:47.810118"
+    "updated_at": "2026-05-13T13:38:19.025150"
   },
   "BTC": {
-    "price": 79177.04,
-    "change_pct": 3.76,
+    "price": 79702.0,
+    "change_pct": 4.45,
     "name": "BTC",
-    "updated_at": "2026-05-13T12:06:47.810134"
+    "updated_at": "2026-05-13T13:38:19.025161"
   },
   "NVDA": {
-    "price": 227.15,
-    "change_pct": 9.07,
+    "price": 226.99,
+    "change_pct": 8.99,
     "name": "NVDA",
-    "updated_at": "2026-05-13T12:06:47.810141"
+    "updated_at": "2026-05-13T13:38:19.025165"
   },
   "MSFT": {
-    "price": 405.49,
-    "change_pct": -4.5,
+    "price": 405.35,
+    "change_pct": -4.54,
     "name": "MSFT",
-    "updated_at": "2026-05-13T12:06:47.810147"
+    "updated_at": "2026-05-13T13:38:19.025168"
   },
   "WTI": {
-    "price": 4.22,
-    "change_pct": 10.47,
+    "price": 4.3,
+    "change_pct": 12.43,
     "name": "WTI",
-    "updated_at": "2026-05-13T12:06:47.810152"
+    "updated_at": "2026-05-13T13:38:19.025172"
   },
   "S&P 500": {
-    "price": 742.77,
-    "change_pct": 4.04,
+    "price": 742.97,
+    "change_pct": 4.07,
     "name": "S&P 500",
-    "updated_at": "2026-05-13T12:06:47.810158"
+    "updated_at": "2026-05-13T13:38:19.025175"
   },
   "META": {
-    "price": 615.3,
-    "change_pct": -8.85,
+    "price": 618.87,
+    "change_pct": -8.32,
     "name": "META",
-    "updated_at": "2026-05-13T12:06:47.810165"
+    "updated_at": "2026-05-13T13:38:19.025179"
   },
   "AMZN": {
-    "price": 270.23,
-    "change_pct": 2.36,
+    "price": 269.83,
+    "change_pct": 2.21,
     "name": "AMZN",
-    "updated_at": "2026-05-13T12:06:47.810169"
+    "updated_at": "2026-05-13T13:38:19.025182"
   },
   "TSLA": {
-    "price": 450.31,
-    "change_pct": 19.67,
+    "price": 447.2,
+    "change_pct": 18.84,
     "name": "TSLA",
-    "updated_at": "2026-05-13T12:06:47.810174"
+    "updated_at": "2026-05-13T13:38:19.025185"
   },
   "QQQ": {
-    "price": 714.88,
-    "change_pct": 7.68,
+    "price": 715.56,
+    "change_pct": 7.78,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-13T12:06:47.810180"
+    "updated_at": "2026-05-13T13:38:19.025188"
   },
   "BTC-USD": {
-    "price": 79177.04,
-    "change_pct": 3.76,
+    "price": 79702.0,
+    "change_pct": 4.45,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-13T12:06:47.810184"
+    "updated_at": "2026-05-13T13:38:19.025190"
   }
 },
   tickerScores: [
@@ -5091,42 +5091,6 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 176,
-      "term": "Autonomy in Mining and Refining",
-      "description": "The integration of software and reinforcement learning to enhance operational efficiency in mining and refining industries.",
-      "first_detected_date": "2026-05-13",
-      "last_mentioned_date": "2026-05-13",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies that leverage advanced technologies to reduce operational costs and improve efficiency in traditional industries.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 216,
-      "first_detected_speaker": "Turner Coldwell, Drew Beglino",
-      "last_mentioned_episode_id": 216,
-      "last_mentioned_speaker": "Turner Coldwell, Drew Beglino"
-    },
-    {
-      "id": 177,
-      "term": "Solid-State Transformers",
-      "description": "A modern electrical component used to transform voltage levels in the electricity grid, replacing outdated mechanical systems.",
-      "first_detected_date": "2026-05-13",
-      "last_mentioned_date": "2026-05-13",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies developing innovative solutions for grid modernization to meet growing electricity demands.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 216,
-      "first_detected_speaker": "Turner Coldwell, Drew Beglino",
-      "last_mentioned_episode_id": 216,
-      "last_mentioned_speaker": "Turner Coldwell, Drew Beglino"
-    },
-    {
       "id": 174,
       "term": "Capability-Bounded Approach",
       "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
@@ -8160,58 +8124,6 @@ const dashboardData = {
       "last_mentioned_episode_date": null
     },
     {
-      "id": 176,
-      "term": "Autonomy in Mining and Refining",
-      "description": "The integration of software and reinforcement learning to enhance operational efficiency in mining and refining industries.",
-      "first_detected_date": "2026-05-13",
-      "last_mentioned_date": "2026-05-13",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies that leverage advanced technologies to reduce operational costs and improve efficiency in traditional industries.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 216,
-      "first_detected_speaker": "Turner Coldwell, Drew Beglino",
-      "last_mentioned_episode_id": 216,
-      "last_mentioned_speaker": "Turner Coldwell, Drew Beglino",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Energy, Minerals, and the Physical Stack Behind AI",
-      "first_detected_episode_date": "2026-05-13",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Energy, Minerals, and the Physical Stack Behind AI",
-      "last_mentioned_episode_date": "2026-05-13"
-    },
-    {
-      "id": 177,
-      "term": "Solid-State Transformers",
-      "description": "A modern electrical component used to transform voltage levels in the electricity grid, replacing outdated mechanical systems.",
-      "first_detected_date": "2026-05-13",
-      "last_mentioned_date": "2026-05-13",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies developing innovative solutions for grid modernization to meet growing electricity demands.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 216,
-      "first_detected_speaker": "Turner Coldwell, Drew Beglino",
-      "last_mentioned_episode_id": 216,
-      "last_mentioned_speaker": "Turner Coldwell, Drew Beglino",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Energy, Minerals, and the Physical Stack Behind AI",
-      "first_detected_episode_date": "2026-05-13",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Energy, Minerals, and the Physical Stack Behind AI",
-      "last_mentioned_episode_date": "2026-05-13"
-    },
-    {
       "id": 174,
       "term": "Capability-Bounded Approach",
       "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
@@ -8444,6 +8356,58 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
       "last_mentioned_episode_date": "2026-05-04"
+    },
+    {
+      "id": 143,
+      "term": "Cross-Solver Tensions",
+      "description": "The challenges faced by companies that try to replace multiple functionalities within a single platform.",
+      "first_detected_date": "2026-05-01",
+      "last_mentioned_date": "2026-05-01",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the potential for new platforms that can address specific pain points within enterprise software more effectively than incumbents.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.76,
+      "resonance_pct": 19,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
+    },
+    {
+      "id": 144,
+      "term": "Descheduling",
+      "description": "The removal of a substance from a list of controlled substances, in this case, cannabis.",
+      "first_detected_date": "2026-05-01",
+      "last_mentioned_date": "2026-05-01",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Descheduling can lead to significant changes in the legal and operational landscape for businesses in the affected industry.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.76,
+      "resonance_pct": 19,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
     }
   ]
 },
@@ -22328,7 +22292,7 @@ const dashboardData = {
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 5007,
+    "id": 5055,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -22340,7 +22304,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5008,
+    "id": 5056,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -22352,7 +22316,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5009,
+    "id": 5057,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -22364,7 +22328,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5010,
+    "id": 5058,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -22376,7 +22340,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5011,
+    "id": 5059,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -22388,7 +22352,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5012,
+    "id": 5060,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -22400,7 +22364,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5013,
+    "id": 5061,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -22412,7 +22376,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5014,
+    "id": 5062,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -22424,7 +22388,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5015,
+    "id": 5063,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -22436,7 +22400,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5016,
+    "id": 5064,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -22448,7 +22412,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5017,
+    "id": 5065,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -22460,7 +22424,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5018,
+    "id": 5066,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -22472,7 +22436,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5019,
+    "id": 5067,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -22484,7 +22448,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5020,
+    "id": 5068,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -22496,7 +22460,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5021,
+    "id": 5069,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -22508,7 +22472,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5022,
+    "id": 5070,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -22520,7 +22484,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5023,
+    "id": 5071,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -22532,7 +22496,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5024,
+    "id": 5072,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -22544,7 +22508,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5025,
+    "id": 5073,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -22556,7 +22520,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5026,
+    "id": 5074,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -22775,7 +22739,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.78,
+    "mention_score_decayed": 1.74,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -24087,7 +24051,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -24150,7 +24114,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -24338,7 +24302,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -30419,7 +30383,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -30446,7 +30410,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",
