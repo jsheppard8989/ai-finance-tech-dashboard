@@ -1,5 +1,22 @@
 [
   {
+    "id": 215,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
+    "episode_date": "2026-05-12",
+    "summary": "In this episode, the hosts discuss Koch Industries' evolution from a small oil gathering company to a diversified conglomerate, emphasizing a capability-bounded approach, reinvestment strategy, and learning from failures. The conversation also touches on education reform, the empowering potential of AI, and the importance of removing barriers to individual potential, particularly in economic mobility and opportunity.",
+    "key_takeaways": [
+      "Koch Industries' capability-bounded approach allows for flexibility and innovation across sectors.",
+      "The company's reinvestment strategy of 90% of profits into new businesses fosters continuous innovation.",
+      "Learning from failures is a critical component of Koch Industries' growth strategy.",
+      "Bottom-up empowerment and accountability are key drivers of innovation and success within organizations.",
+      "Education reform, shifting from teach-to-test to individualized, project-based learning, can unlock student potential.",
+      "AI is viewed as an empowering tool that can enhance individual capabilities and democratize access to knowledge."
+    ],
+    "investment_thesis": "Invest in companies that demonstrate a capability-bounded approach, reinvestment in growth, and a culture of learning from failures to capitalize on innovation and long-term success.",
+    "key_tickers": null
+  },
+  {
     "id": 214,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
@@ -122,22 +139,5 @@
       "AMD",
       "INTC"
     ]
-  },
-  {
-    "id": 207,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-    "episode_date": "2026-05-08",
-    "summary": "In this episode, the hosts discuss the rapid growth of the AI market, with a focus on Anthropics' exponential revenue growth and the potential impact of Elon Web Services on cloud computing. They also address the economic benefits of AI, the regulatory landscape, and the resilience of the labor market. The podcast emphasizes the importance of tech leaders communicating the positive societal impacts of AI.",
-    "key_takeaways": [
-      "Elon Web Services could disrupt the cloud computing market, generating significant revenue for Elon Musk's ventures.",
-      "Anthropic's rapid revenue growth indicates strong demand for AI services and positions the company as a leader in the sector.",
-      "AI is contributing significantly to GDP growth and productivity improvements, creating investment opportunities in AI-driven companies.",
-      "The potential for increased regulation around AI poses both risks and opportunities for tech companies.",
-      "The labor market remains strong, suggesting that AI is not leading to widespread job losses.",
-      "There is uncertainty regarding the sustainability of profit margins as companies adopt AI-driven efficiencies."
-    ],
-    "investment_thesis": "Invest in companies leveraging AI for productivity improvements and those positioned to benefit from the rapid growth of the AI market, while monitoring regulatory developments and labor market trends.",
-    "key_tickers": null
   }
 ]

@@ -59,6 +59,25 @@
       "podcast_episode_id": 214
     },
     {
+      "id": 230,
+      "title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-05-12",
+      "summary": "In this episode, the hosts discuss Koch Industries' evolution from a small oil gathering company to a diversified conglomerate, emphasizing a capability-bounded approach, reinvestment strategy, and learning from failures. The conversation also touches on education reform, the empowering potential of AI, and the importance of removing barriers to individual potential, particularly in economic mobility and opportunity.",
+      "key_takeaway": "Invest in companies that demonstrate a capability-bounded approach, reinvestment in growth, and a culture of learning from failures to capitalize on innovation and long-term success.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 215
+    },
+    {
       "id": 226,
       "title": "Marc Andreessen on Builder Culture in the Age of AI",
       "source_type": "podcast",
@@ -199,7 +218,7 @@
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-09",
       "archived_date": null,
@@ -4225,6 +4244,42 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 174,
+      "term": "Capability-Bounded Approach",
+      "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
+      "first_detected_date": "2026-05-12",
+      "last_mentioned_date": "2026-05-12",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should look for companies that demonstrate this approach, as it may indicate potential for growth and diversification.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 215,
+      "first_detected_speaker": "Charles Koch, Chase Koch",
+      "last_mentioned_episode_id": 215,
+      "last_mentioned_speaker": "Charles Koch, Chase Koch"
+    },
+    {
+      "id": 175,
+      "term": "Meritocracy and Disruptive Innovation",
+      "description": "A culture within an organization that rewards talent and innovation, often leading to breakthrough ideas and business success.",
+      "first_detected_date": "2026-05-12",
+      "last_mentioned_date": "2026-05-12",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies that foster a meritocratic culture and encourage disruptive innovation.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 215,
+      "first_detected_speaker": "Charles Koch, Chase Koch",
+      "last_mentioned_episode_id": 215,
+      "last_mentioned_speaker": "Charles Koch, Chase Koch"
+    },
     {
       "id": 169,
       "term": "Accountability in Governance",
