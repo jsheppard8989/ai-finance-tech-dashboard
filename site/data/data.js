@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-14T06:55:19.842958",
-  chartsVersion: "2026-05-14T06:55:11.021548",
+  generatedAt: "2026-05-14T12:15:49.633060",
+  chartsVersion: "2026-05-14T12:15:33.394788",
   priceSnapshot: {
   "GOOGL": {
-    "price": 402.62,
-    "change_pct": 16.9,
+    "price": 398.99,
+    "change_pct": 13.89,
     "name": "GOOGL",
-    "updated_at": "2026-05-14T06:55:11.020568"
+    "updated_at": "2026-05-14T12:15:33.393865"
   },
   "BTC": {
-    "price": 79283.16,
-    "change_pct": 1.41,
+    "price": 81713.76,
+    "change_pct": 4.52,
     "name": "BTC",
-    "updated_at": "2026-05-14T06:55:11.020591"
+    "updated_at": "2026-05-14T12:15:33.393885"
   },
   "NVDA": {
-    "price": 225.83,
-    "change_pct": 8.43,
+    "price": 233.83,
+    "change_pct": 7.95,
     "name": "NVDA",
-    "updated_at": "2026-05-14T06:55:11.020600"
+    "updated_at": "2026-05-14T12:15:33.393894"
   },
   "MSFT": {
-    "price": 405.21,
-    "change_pct": -4.57,
+    "price": 408.42,
+    "change_pct": -3.86,
     "name": "MSFT",
-    "updated_at": "2026-05-14T06:55:11.020608"
+    "updated_at": "2026-05-14T12:15:33.393902"
   },
   "WTI": {
-    "price": 4.4,
-    "change_pct": 15.18,
+    "price": 4.51,
+    "change_pct": 19.18,
     "name": "WTI",
-    "updated_at": "2026-05-14T06:55:11.020617"
+    "updated_at": "2026-05-14T12:15:33.393910"
   },
   "S&P 500": {
-    "price": 742.31,
-    "change_pct": 3.97,
+    "price": 747.02,
+    "change_pct": 4.45,
     "name": "S&P 500",
-    "updated_at": "2026-05-14T06:55:11.020625"
+    "updated_at": "2026-05-14T12:15:33.393917"
   },
   "META": {
-    "price": 616.63,
-    "change_pct": -8.65,
+    "price": 619.3,
+    "change_pct": -8.74,
     "name": "META",
-    "updated_at": "2026-05-14T06:55:11.020634"
+    "updated_at": "2026-05-14T12:15:33.393925"
   },
   "AMZN": {
-    "price": 270.13,
-    "change_pct": 2.33,
+    "price": 268.16,
+    "change_pct": 2.7,
     "name": "AMZN",
-    "updated_at": "2026-05-14T06:55:11.020641"
+    "updated_at": "2026-05-14T12:15:33.393932"
   },
   "TSLA": {
-    "price": 445.27,
-    "change_pct": 18.33,
+    "price": 445.67,
+    "change_pct": 17.69,
     "name": "TSLA",
-    "updated_at": "2026-05-14T06:55:11.020649"
+    "updated_at": "2026-05-14T12:15:33.393939"
   },
   "QQQ": {
-    "price": 714.71,
-    "change_pct": 7.66,
+    "price": 718.93,
+    "change_pct": 8.24,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-14T06:55:11.020657"
+    "updated_at": "2026-05-14T12:15:33.393946"
   },
   "BTC-USD": {
-    "price": 79288.1,
-    "change_pct": 1.42,
+    "price": 81713.76,
+    "change_pct": 4.52,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-14T06:55:11.020664"
+    "updated_at": "2026-05-14T12:15:33.393953"
   }
 },
   tickerScores: [
@@ -828,6 +828,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 233,
+      "title": "Ben Horowitz - \"Your ONLY job is Right Product, Right Time\"",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-14",
+      "summary": "In this episode of The a16z Show, the focus is on the critical factors that determine a company's success, including delivering the right product at the right time and the importance of articulating the 'why' behind a company. The discussion highlights the evolving nature of a company's story, the challenges of late-stage pivots, and the increasing importance of creativity and relationship-building skills in talent acquisition. The episode also emphasizes the value of possessing customers and brand recognition as competitive advantages and the need for founders to solve hard problems rather than generating random ideas. Investors are advised to be convinced of a company's vision for alignment and commitment.",
+      "key_takeaway": "Invest in companies with a clear 'why', strong customer base, and the ability to adapt to market feedback. Prioritize creativity and relationship-building skills in talent acquisition.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 218
+    },
+    {
       "id": 231,
       "title": "Energy, Minerals, and the Physical Stack Behind AI",
       "source_type": "podcast",
@@ -998,7 +1021,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-10",
       "archived_date": null,
@@ -5111,6 +5134,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 178,
+      "term": "Product-Market Fit",
+      "description": "A term used to describe a situation where a product being offered is well-received in a particular market.",
+      "first_detected_date": "2026-05-14",
+      "last_mentioned_date": "2026-05-14",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should look for companies that have achieved product-market fit to gauge the potential for success.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 218,
+      "first_detected_speaker": "Ben Horowitz",
+      "last_mentioned_episode_id": 218,
+      "last_mentioned_speaker": "Ben Horowitz"
+    },
+    {
       "id": 174,
       "term": "Capability-Bounded Approach",
       "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
@@ -7803,6 +7844,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 233,
+      "title": "Ben Horowitz - \"Your ONLY job is Right Product, Right Time\"",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-14",
+      "summary": "In this episode of The a16z Show, the focus is on the critical factors that determine a company's success, including delivering the right product at the right time and the importance of articulating the 'why' behind a company. The discussion highlights the evolving nature of a company's story, the challenges of late-stage pivots, and the increasing importance of creativity and relationship-building skills in talent acquisition. The episode also emphasizes the value of possessing customers and brand recognition as competitive advantages and the need for founders to solve hard problems rather than generating random ideas. Investors are advised to be convinced of a company's vision for alignment and commitment.",
+      "key_takeaway": "Invest in companies with a clear 'why', strong customer base, and the ability to adapt to market feedback. Prioritize creativity and relationship-building skills in talent acquisition.",
+      "tickers_mentioned": "[\"AAPL\", \"MSFT\", \"GOOGL\", \"AMZN\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 218,
+      "episode_release_date": "2026-05-14",
+      "guest_name": "Ben Horowitz",
+      "key_tickers": []
+    },
+    {
       "id": 231,
       "title": "Energy, Minerals, and the Physical Stack Behind AI",
       "source_type": "podcast",
@@ -7945,26 +8006,6 @@ const dashboardData = {
       "podcast_episode_id": 211,
       "episode_release_date": "2026-05-11",
       "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 225,
-      "title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-05-10",
-      "summary": "In this episode, Spencer Pratt discusses his campaign for mayor of Los Angeles, focusing on themes of accountability, public safety, and economic revitalization. Pratt emphasizes the importance of transparency in city governance, enforcing existing laws to improve safety, streamlining business permits, and supporting independent filmmakers to rejuvenate Hollywood. He also critiques NGOs for mismanaging funds and calls for education reform in LAUSD. Pratt's vision is for a collaborative approach with business leaders to rebuild the city's infrastructure and economy, while fighting against socialist policies that he believes threaten the city's future.",
-      "key_takeaway": "Invest in initiatives that promote transparency in local governance, support independent filmmakers, and advocate for education reform to drive economic revitalization and improve public services in Los Angeles.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-10",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 210,
-      "episode_release_date": "2026-05-10",
-      "guest_name": "Spencer Pratt on Fixing LA",
       "key_tickers": []
     }
   ],
@@ -8142,6 +8183,32 @@ const dashboardData = {
       "last_mentioned_podcast": null,
       "last_mentioned_episode_title": null,
       "last_mentioned_episode_date": null
+    },
+    {
+      "id": 178,
+      "term": "Product-Market Fit",
+      "description": "A term used to describe a situation where a product being offered is well-received in a particular market.",
+      "first_detected_date": "2026-05-14",
+      "last_mentioned_date": "2026-05-14",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should look for companies that have achieved product-market fit to gauge the potential for success.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 218,
+      "first_detected_speaker": "Ben Horowitz",
+      "last_mentioned_episode_id": 218,
+      "last_mentioned_speaker": "Ben Horowitz",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Ben Horowitz - \"Your ONLY job is Right Product, Right Time\"",
+      "first_detected_episode_date": "2026-05-14",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Ben Horowitz - \"Your ONLY job is Right Product, Right Time\"",
+      "last_mentioned_episode_date": "2026-05-14"
     },
     {
       "id": 174,
@@ -8387,32 +8454,6 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential for new platforms that can address specific pain points within enterprise software more effectively than incumbents.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.74,
-      "resonance_pct": 18,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 144,
-      "term": "Descheduling",
-      "description": "The removal of a substance from a list of controlled substances, in this case, cannabis.",
-      "first_detected_date": "2026-05-01",
-      "last_mentioned_date": "2026-05-01",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Descheduling can lead to significant changes in the legal and operational landscape for businesses in the affected industry.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -22367,12 +22408,98 @@ const dashboardData = {
       "MSFT",
       "GOOGL"
     ]
+  },
+  "233": {
+    "id": 223,
+    "insight_id": 233,
+    "podcast_episode_id": 218,
+    "overview": "The competitive dynamic implied by the source material revolves around the ability of companies to articulate a compelling 'why' and adapt their strategies accordingly. What is contested is the balance between maintaining a clear, foundational purpose and the flexibility to pivot when market conditions demand it. The metric that arbitrates this uncertainty is the company's ability to align its strategy with its 'why', and to adapt to market feedback without losing sight of its core mission. The horizon of proof lies in the company's long-term success and its resilience in the face of market changes.",
+    "key_takeaways_detailed": [
+      "Invest in companies that can demonstrate a clear and evolving 'why', as it serves as a north star for strategic decisions and team alignment.",
+      "Monitor the adaptability of a company's strategy to market feedback as a measure of its resilience and potential for long-term success.",
+      "Prioritize companies that value and invest in creativity and relationship-building skills, as these are increasingly vital in a competitive landscape.",
+      "Be cautious of companies that undergo late-stage pivots, as this may indicate a lack of strategic foresight or an inability to execute on the original vision.",
+      "Look for companies that have established a strong customer base and brand recognition, as these can serve as significant competitive moats.",
+      "Focus on companies that are addressing market shortages, as these can lead to innovative solutions and substantial market opportunities."
+    ],
+    "investment_thesis": "The core logic of this investment thesis is that companies with a well-defined 'why', the ability to adapt to market feedback, and a strong customer base will outperform in the long term. This is because they can maintain strategic alignment, attract and retain talent, and leverage their brand strength to withstand market fluctuations. The thesis would be vindicated by observing companies that adhere to these principles achieving sustained growth and market leadership over a 3-5 year timeframe, while those that fail to do so struggle to maintain relevance and profitability.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a prime example of a company with a clear 'why' and a strong customer base. Its ability to innovate and adapt to market feedback has been a key factor in its sustained success.",
+        "positioning": "Positioned as a long-term strategic investment due to its consistent alignment with the investment thesis.",
+        "risk": "Key risks include failure to innovate, loss of market share to competitors, and changes in consumer preferences that Apple fails to anticipate."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's ability to pivot and adapt its strategy while maintaining a strong customer base makes it relevant to this thesis.",
+        "positioning": "Strategic long position, considering its diversified portfolio and continuous innovation.",
+        "risk": "The risk lies in Microsoft's ability to compete in new markets and maintain its customer base against emerging competitors."
+      },
+      "GOOGL": {
+        "rationale": "Google's strong brand recognition and its history of addressing market shortages, such as in cloud services, align with the thesis.",
+        "positioning": "Long-term strategic investment, given its market leadership and innovation track record.",
+        "risk": "Regulatory challenges and potential disruptions in the advertising market could pose significant risks."
+      },
+      "AMZN": {
+        "rationale": "Amazon's customer-centric approach and its ability to identify and address market shortages make it a key player in this thesis.",
+        "positioning": "Long-term strategic investment, considering its ecosystem and customer loyalty.",
+        "risk": "The risk includes increased competition in e-commerce and potential regulatory scrutiny."
+      },
+      "TSLA": {
+        "rationale": "Tesla's innovative approach to electric vehicles and energy solutions aligns with the thesis on addressing market shortages and having a strong brand.",
+        "positioning": "Strategic long position, given its market leadership in electric vehicles and potential for growth.",
+        "risk": "Key risks include competition in the electric vehicle market and potential disruptions in supply chains."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant shift in consumer behavior away from brand loyalty towards price sensitivity.",
+      "A market study indicating that companies with a less-defined 'why' are outperforming their peers.",
+      "Technological advancements that render creativity and relationship-building skills less relevant.",
+      "A surge in the number of successful late-stage pivots, challenging the conventional wisdom on their difficulty."
+    ],
+    "catalysts": [
+      "Release of new products or services that align with a company's 'why' and demonstrate its ability to innovate.",
+      "Market research reports highlighting the increasing importance of creativity and relationship-building skills.",
+      "Successful pivots by established companies that validate their strategic flexibility.",
+      "Regulatory changes that impact the ability of companies to compete based on customer possession and brand recognition.",
+      "Economic indicators that signal market shortages and the potential for innovative solutions."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-14T12:14:37.907348",
+    "updated_at": "2026-05-14 17:14:37",
+    "episode_evidence": "In the a16z Show, Ben Horowitz emphasizes the criticality of delivering the right product at the right time, as he states, 'If you know the why, I don't even have to tell you the what, because you know what to do.' This underscores the foundational role of a company's 'why' in guiding strategy and operations. Horowitz also points out the increasing importance of creativity and relationship-building skills, noting, 'Creativity and the ability to create and maintain relationships... are going to increase in importance.' This reflects a shift towards human-centric skills in an AI-driven world. Furthermore, he warns about the challenges of late-stage pivots, asserting, 'Pivot typically... don't work, particularly if you get to a certain scale.' This insight suggests that while adaptability is key, it must be balanced with a clear vision to avoid costly redirections.",
+    "falsification_tracks": [
+      "A significant number of successful late-stage pivots in the tech industry that contradict Horowitz's assertion about their infeasibility.",
+      "A consistent pattern where companies with weak 'why' narratives outperform those with a well-articulated purpose.",
+      "A decline in the demand for creativity and relationship-building skills in job market trends.",
+      "A market study showing that companies with a documented evolving story underperform those without such documentation."
+    ],
+    "insight_title": "Ben Horowitz - \"Your ONLY job is Right Product, Right Time\"",
+    "source_name": "The a16z Show",
+    "source_date": "2026-05-14",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 5200,
+    "id": 5249,
+    "name": "Ben Horowitz",
+    "slug": "ben-horowitz",
+    "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
+    "known_for": "Co-founding a16z and authoring 'The Hard Thing About Hard Things'.",
+    "last_main_idea": "Invest in companies with a clear 'why', strong customer base, and the ability to adapt to market feedback. Prioritize creativity and relationship-building skills in talent acquisition.",
+    "last_episode_title": "Ben Horowitz - \"Your ONLY job is Right Product, Right Time\"",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-14",
+    "appearance_count": 2
+  },
+  {
+    "id": 5250,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -22384,7 +22511,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5201,
+    "id": 5251,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -22396,7 +22523,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5202,
+    "id": 5252,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -22408,7 +22535,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5203,
+    "id": 5253,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -22420,7 +22547,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5204,
+    "id": 5254,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -22432,7 +22559,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5205,
+    "id": 5255,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -22444,7 +22571,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5206,
+    "id": 5256,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -22456,7 +22583,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5207,
+    "id": 5257,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -22468,7 +22595,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5208,
+    "id": 5258,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -22480,7 +22607,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5209,
+    "id": 5259,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -22492,7 +22619,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5210,
+    "id": 5260,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -22504,7 +22631,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5211,
+    "id": 5261,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -22516,7 +22643,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5212,
+    "id": 5262,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -22528,7 +22655,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5213,
+    "id": 5263,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -22540,7 +22667,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5214,
+    "id": 5264,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -22552,7 +22679,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5215,
+    "id": 5265,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -22564,7 +22691,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5216,
+    "id": 5266,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -22576,7 +22703,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5217,
+    "id": 5267,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -22588,7 +22715,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5218,
+    "id": 5268,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -22596,18 +22723,6 @@ const dashboardData = {
     "last_main_idea": "The rapid advancement of AI and consumer tech is creating new opportunities and challenges for venture capital, with a focus on the need for universal basic purpose and the potential for AI to disrupt traditional job markets.",
     "last_episode_title": "Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-19",
-    "appearance_count": 1
-  },
-  {
-    "id": 5219,
-    "name": "Navigating the SaaS Apocalypse",
-    "slug": "navigating-the-saas-apocalypse",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in software companies that can adapt to AI disruption and emerge stronger, with the potential for significant upside in the next 12 months.",
-    "last_episode_title": "Navigating the SaaS Apocalypse: Why AI Disruption is Mispriced | Deiya Pernas | Pernas Research",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-19",
     "appearance_count": 1
   }
@@ -23480,7 +23595,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -23507,7 +23622,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -23573,7 +23688,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -26271,7 +26386,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -28769,7 +28884,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -28829,7 +28944,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -28889,7 +29004,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",
@@ -30137,7 +30252,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
@@ -30195,7 +30310,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",

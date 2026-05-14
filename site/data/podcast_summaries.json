@@ -1,5 +1,25 @@
 [
   {
+    "id": 218,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Ben Horowitz - \"Your ONLY job is Right Product, Right Time\"",
+    "episode_date": "2026-05-14",
+    "summary": "In this episode of The a16z Show, the focus is on the critical factors that determine a company's success, including delivering the right product at the right time and the importance of articulating the 'why' behind a company. The discussion highlights the evolving nature of a company's story, the challenges of late-stage pivots, and the increasing importance of creativity and relationship-building skills in talent acquisition. The episode also emphasizes the value of possessing customers and brand recognition as competitive advantages and the need for founders to solve hard problems rather than generating random ideas. Investors are advised to be convinced of a company's vision for alignment and commitment.",
+    "key_takeaways": [
+      "Delivering the right product at the right time is a primary determinant of a company's success.",
+      "Founders must clearly articulate the 'why' behind their company to align the team, attract talent, and secure investment.",
+      "The story of a company should evolve alongside its strategy and be documented for clarity and alignment.",
+      "Late-stage pivots are generally difficult and should only be considered when absolutely necessary.",
+      "Identifying and addressing market shortages can lead to valuable business opportunities.",
+      "Possession of customers and brand recognition are critical competitive advantages in the current market.",
+      "Founders should focus on solving hard problems rather than generating random ideas.",
+      "Investors should be convinced of the company's vision to ensure alignment and commitment.",
+      "The ability to adapt and pivot based on market feedback is essential for long-term success."
+    ],
+    "investment_thesis": "Invest in companies with a clear 'why', strong customer base, and the ability to adapt to market feedback. Prioritize creativity and relationship-building skills in talent acquisition.",
+    "key_tickers": null
+  },
+  {
     "id": 217,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
@@ -118,23 +138,6 @@
       "Engage younger audiences with authentic communication to build trust and understanding."
     ],
     "investment_thesis": "Adopting AI tools and training can provide a competitive edge to organizations, while also necessitating the adaptation of job roles and educational programs to meet the demands of a rapidly evolving workforce.",
-    "key_tickers": null
-  },
-  {
-    "id": 210,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
-    "episode_date": "2026-05-10",
-    "summary": "In this episode, Spencer Pratt discusses his campaign for mayor of Los Angeles, focusing on themes of accountability, public safety, and economic revitalization. Pratt emphasizes the importance of transparency in city governance, enforcing existing laws to improve safety, streamlining business permits, and supporting independent filmmakers to rejuvenate Hollywood. He also critiques NGOs for mismanaging funds and calls for education reform in LAUSD. Pratt's vision is for a collaborative approach with business leaders to rebuild the city's infrastructure and economy, while fighting against socialist policies that he believes threaten the city's future.",
-    "key_takeaways": [
-      "Accountability in city governance is crucial for effective use of taxpayer money and building trust in government.",
-      "Enforcing existing laws is essential for restoring safety and order in Los Angeles, attracting businesses and residents.",
-      "Streamlining business permits can encourage entrepreneurship and stimulate local economies.",
-      "Supporting independent filmmakers can drive job creation and cultural revitalization in Hollywood.",
-      "Demanding transparency and accountability from NGOs involved in homelessness and disaster recovery is important.",
-      "Advocating for education reform in LAUSD to ensure effective use of funding and improve student outcomes is necessary."
-    ],
-    "investment_thesis": "Invest in initiatives that promote transparency in local governance, support independent filmmakers, and advocate for education reform to drive economic revitalization and improve public services in Los Angeles.",
     "key_tickers": null
   }
 ]
