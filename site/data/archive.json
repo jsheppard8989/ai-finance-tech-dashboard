@@ -24,6 +24,25 @@
       "podcast_episode_id": 218
     },
     {
+      "id": 234,
+      "title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-05-14",
+      "summary": "In this episode of Macro Voices, Mike Green and Rory Johnston discuss the impact of passive investment flows on market behavior, the potential economic slowdown due to energy shocks, and the strategic role of China in global oil markets. They also highlight the risks of demand destruction in emerging markets and the implications of labor market deterioration on Fed policy.",
+      "key_takeaway": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 219
+    },
+    {
       "id": 231,
       "title": "Energy, Minerals, and the Physical Stack Behind AI",
       "source_type": "podcast",
@@ -155,7 +174,7 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-11",
       "archived_date": null,
@@ -4307,22 +4326,22 @@
   "definitions": [],
   "overton": [
     {
-      "id": 178,
-      "term": "Product-Market Fit",
-      "description": "A term used to describe a situation where a product being offered is well-received in a particular market.",
+      "id": 179,
+      "term": "Passive Investment Dominance",
+      "description": "A market condition where passive investment flows dictate market behavior, leading to irrational pricing and potentially masking underlying economic weaknesses.",
       "first_detected_date": "2026-05-14",
       "last_mentioned_date": "2026-05-14",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should look for companies that have achieved product-market fit to gauge the potential for success.",
+      "investment_implications": "Investors should be cautious of market valuations driven by passive flows rather than fundamentals.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 218,
-      "first_detected_speaker": "Ben Horowitz",
-      "last_mentioned_episode_id": 218,
-      "last_mentioned_speaker": "Ben Horowitz"
+      "first_detected_episode_id": 219,
+      "first_detected_speaker": "Mike Green, Rory Johnston",
+      "last_mentioned_episode_id": 219,
+      "last_mentioned_speaker": "Mike Green, Rory Johnston"
     },
     {
       "id": 174,

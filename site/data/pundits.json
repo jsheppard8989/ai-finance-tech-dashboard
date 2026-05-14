@@ -3,57 +3,57 @@
     "id": 98,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
-    "bio": "Commodity Context founder",
-    "known_for": "Perspectives on energy markets and commodity pricing",
+    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
     "net_worth_usd": null,
-    "net_worth_source": null,
+    "net_worth_source": "",
     "net_worth_updated_at": "2026-03-28T22:05:57.557236",
     "voice_tone": "Informative and insightful",
     "voice_style": "Direct and focused on market dynamics",
     "voice_delivery_notes": "Paced with emphasis on key market indicators",
     "voice_profile_updated_at": "2026-03-29 09:09:13",
-    "last_seen": "2026-04-17 10:06:32",
-    "last_episode_title": "MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
-    "last_podcast_name": "MacroVoices",
-    "last_episode_date": "2026-04-16",
-    "mention_score": 5,
-    "mention_score_decayed": 2.68,
-    "last_main_idea": "Invest in sectors likely to benefit from increased inflation and supply chain disruptions, with a focus on energy, uranium, and domestic electrical infrastructure.",
-    "last_proof_cite": "MacroVoices \u2022 2026-04-16 \u2022 MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
-    "last_proof_snippet": "Markets may be underpricing the severity of supply chain disruptions.",
-    "supporting_takeaway": "Markets may be underpricing the severity of supply chain disruptions.",
+    "last_seen": "2026-05-14 18:46:46",
+    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-05-14",
+    "mention_score": 6,
+    "mention_score_decayed": 6,
+    "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
+    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
+    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
       "page_title": "Rory Johnston",
-      "fetched_at": "2026-03-20T09:36:30.218739+00:00",
-      "cliff_notes": "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy. Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies.",
+      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
+      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
       "derived": {
-        "current_role": "Founder, Commodity Context"
+        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy.",
-        "Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies."
+        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
+        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
       ],
       "sections": [
         {
-          "heading": "Energy Market Analysis",
-          "body": "Rory Johnston is well-known for his detailed analysis of energy markets, providing investors with critical insights into market dynamics and trends."
+          "heading": "Hormuz Crisis",
+          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
         },
         {
-          "heading": "Macroeconomic Trends",
-          "body": "Johnston's work often intersects with macroeconomic trends, offering a unique perspective on how energy markets influence and are influenced by broader economic factors."
+          "heading": "Energy Markets",
+          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
         },
         {
-          "heading": "Investment Strategy",
-          "body": "His expertise is highly valued by investors looking to make informed decisions in a volatile market, particularly in the context of commodities and energy."
+          "heading": "Geopolitical Risks",
+          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
         }
       ]
     }
@@ -270,7 +270,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.74,
+    "mention_score_decayed": 1.7,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -876,6 +876,70 @@
     "pundit_profile": null
   },
   {
+    "id": 249,
+    "name": "Mike Green",
+    "slug": "mike-green",
+    "bio": "Mike Green is a financial analyst with expertise in market behavior and macroeconomic trends. As the chief strategist and portfolio manager at Simplify Asset Management, he provides insights into passive investment flows and their impact on market valuations.",
+    "known_for": "Providing insights into passive investment flows and their impact on market valuations.",
+    "net_worth_usd": 14100000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001274906/michael-w-green",
+    "net_worth_updated_at": "2026-05-14T13:47:23.215889",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-14 18:46:46",
+    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-05-14",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
+    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-14T13:47:22.087480",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Mike Green",
+      "fetched_at": "2026-05-14T18:47:22.087331+00:00",
+      "cliff_notes": "Mike Green is a financial analyst with a focus on market behavior and macroeconomic trends. He is currently serving as the chief strategist and portfolio manager at Simplify Asset Management, where he offers valuable insights into passive investment flows and their effects on market valuations. Green's expertise allows him to provide a unique perspective on market dynamics, particularly in relation to passive investment funds. His views on market trends and the impact of geopolitical events on financial markets are highly sought after by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+      "derived": {
+        "current_role": "Chief Strategist and Portfolio Manager at Simplify Asset Management"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Mike Green is a financial analyst with a focus on market behavior and macroeconomic trends. He is currently serving as the chief strategist and portfolio manager at Simplify Asset Management, where he offers valuable insights into passive investment flows and their effects on market valuations. Green's expertise allows him to provide a unique perspective on market dynamics, particularly in relation to passive investment funds.",
+        "His views on market trends and the impact of geopolitical events on financial markets are highly sought after by professional finance, high-net worth individuals, family offices, and other sophisticated investors."
+      ],
+      "sections": [
+        {
+          "heading": "Passive Investment Flows",
+          "body": "Mike Green is known for his analysis of passive investment flows and their influence on market valuations, suggesting that these flows are a significant driver of market behavior rather than traditional macroeconomic analysis."
+        },
+        {
+          "heading": "Market Valuations",
+          "body": "Green discusses how passive investment fund flows can impact market valuations, noting that they have not been deterred by global crises such as the Hormuz conflict, leading to continued rises in indices like the S&P 500."
+        },
+        {
+          "heading": "Inflation Predictions",
+          "body": "Mike Green disagrees with some predictions of persistent secular inflation resulting from geopolitical conflicts, offering an alternative viewpoint on the economic implications of such events."
+        },
+        {
+          "heading": "Kevin Worsh's Influence",
+          "body": "Green has an interesting take on why he believes Kevin Worsh is more likely to aggregate, suggesting a significant role for Worsh in future economic scenarios."
+        }
+      ]
+    },
+    "net_worth": "$14.1M"
+  },
+  {
     "id": 246,
     "name": "Turner Coldwell",
     "slug": "turner-coldwell",
@@ -1330,7 +1394,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "AI is a significant driver of economic growth and innovation, presenting opportunities in AI-driven sectors, sustainable data center technologies, and AI insurance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-09 \u2022 Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
     "last_proof_snippet": "Google has crushed their earnings. Alpha that reported 109.9 billion dollars. 22% year on your growth, 62.6 billion in profit. Google Cloud hit 20 billion revenue with 63% growth. AI drove results across the entire Google ecosystem. The rev",
@@ -1392,7 +1456,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -1582,7 +1646,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -1645,7 +1709,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -1833,7 +1897,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -5778,7 +5842,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -5837,7 +5901,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",

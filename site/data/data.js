@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-14T12:15:49.633060",
-  chartsVersion: "2026-05-14T12:15:33.394788",
+  generatedAt: "2026-05-14T13:48:35.705113",
+  chartsVersion: "2026-05-14T13:48:30.009322",
   priceSnapshot: {
   "GOOGL": {
-    "price": 398.99,
-    "change_pct": 13.89,
+    "price": 399.91,
+    "change_pct": 14.15,
     "name": "GOOGL",
-    "updated_at": "2026-05-14T12:15:33.393865"
+    "updated_at": "2026-05-14T13:48:30.008611"
   },
   "BTC": {
-    "price": 81713.76,
-    "change_pct": 4.52,
+    "price": 81548.64,
+    "change_pct": 4.31,
     "name": "BTC",
-    "updated_at": "2026-05-14T12:15:33.393885"
+    "updated_at": "2026-05-14T13:48:30.008628"
   },
   "NVDA": {
-    "price": 233.83,
-    "change_pct": 7.95,
+    "price": 235.7,
+    "change_pct": 8.81,
     "name": "NVDA",
-    "updated_at": "2026-05-14T12:15:33.393894"
+    "updated_at": "2026-05-14T13:48:30.008635"
   },
   "MSFT": {
-    "price": 408.42,
-    "change_pct": -3.86,
+    "price": 408.75,
+    "change_pct": -3.78,
     "name": "MSFT",
-    "updated_at": "2026-05-14T12:15:33.393902"
+    "updated_at": "2026-05-14T13:48:30.008641"
   },
   "WTI": {
-    "price": 4.51,
-    "change_pct": 19.18,
+    "price": 4.43,
+    "change_pct": 17.2,
     "name": "WTI",
-    "updated_at": "2026-05-14T12:15:33.393910"
+    "updated_at": "2026-05-14T13:48:30.008646"
   },
   "S&P 500": {
-    "price": 747.02,
-    "change_pct": 4.45,
+    "price": 747.95,
+    "change_pct": 4.58,
     "name": "S&P 500",
-    "updated_at": "2026-05-14T12:15:33.393917"
+    "updated_at": "2026-05-14T13:48:30.008652"
   },
   "META": {
-    "price": 619.3,
-    "change_pct": -8.74,
+    "price": 616.39,
+    "change_pct": -9.17,
     "name": "META",
-    "updated_at": "2026-05-14T12:15:33.393925"
+    "updated_at": "2026-05-14T13:48:30.008658"
   },
   "AMZN": {
-    "price": 268.16,
-    "change_pct": 2.7,
+    "price": 267.68,
+    "change_pct": 2.51,
     "name": "AMZN",
-    "updated_at": "2026-05-14T12:15:33.393932"
+    "updated_at": "2026-05-14T13:48:30.008663"
   },
   "TSLA": {
-    "price": 445.67,
+    "price": 445.65,
     "change_pct": 17.69,
     "name": "TSLA",
-    "updated_at": "2026-05-14T12:15:33.393939"
+    "updated_at": "2026-05-14T13:48:30.008668"
   },
   "QQQ": {
-    "price": 718.93,
-    "change_pct": 8.24,
+    "price": 719.68,
+    "change_pct": 8.35,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-14T12:15:33.393946"
+    "updated_at": "2026-05-14T13:48:30.008673"
   },
   "BTC-USD": {
-    "price": 81713.76,
-    "change_pct": 4.52,
+    "price": 81548.64,
+    "change_pct": 4.31,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-14T12:15:33.393953"
+    "updated_at": "2026-05-14T13:48:30.008677"
   }
 },
   tickerScores: [
@@ -851,6 +851,25 @@ const dashboardData = {
       "podcast_episode_id": 218
     },
     {
+      "id": 234,
+      "title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-05-14",
+      "summary": "In this episode of Macro Voices, Mike Green and Rory Johnston discuss the impact of passive investment flows on market behavior, the potential economic slowdown due to energy shocks, and the strategic role of China in global oil markets. They also highlight the risks of demand destruction in emerging markets and the implications of labor market deterioration on Fed policy.",
+      "key_takeaway": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 219
+    },
+    {
       "id": 231,
       "title": "Energy, Minerals, and the Physical Stack Behind AI",
       "source_type": "podcast",
@@ -982,7 +1001,7 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-11",
       "archived_date": null,
@@ -5134,22 +5153,22 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 178,
-      "term": "Product-Market Fit",
-      "description": "A term used to describe a situation where a product being offered is well-received in a particular market.",
+      "id": 179,
+      "term": "Passive Investment Dominance",
+      "description": "A market condition where passive investment flows dictate market behavior, leading to irrational pricing and potentially masking underlying economic weaknesses.",
       "first_detected_date": "2026-05-14",
       "last_mentioned_date": "2026-05-14",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should look for companies that have achieved product-market fit to gauge the potential for success.",
+      "investment_implications": "Investors should be cautious of market valuations driven by passive flows rather than fundamentals.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 218,
-      "first_detected_speaker": "Ben Horowitz",
-      "last_mentioned_episode_id": 218,
-      "last_mentioned_speaker": "Ben Horowitz"
+      "first_detected_episode_id": 219,
+      "first_detected_speaker": "Mike Green, Rory Johnston",
+      "last_mentioned_episode_id": 219,
+      "last_mentioned_speaker": "Mike Green, Rory Johnston"
     },
     {
       "id": 174,
@@ -7864,6 +7883,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 234,
+      "title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-05-14",
+      "summary": "In this episode of Macro Voices, Mike Green and Rory Johnston discuss the impact of passive investment flows on market behavior, the potential economic slowdown due to energy shocks, and the strategic role of China in global oil markets. They also highlight the risks of demand destruction in emerging markets and the implications of labor market deterioration on Fed policy.",
+      "key_takeaway": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 219,
+      "episode_release_date": "2026-05-14",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 231,
       "title": "Energy, Minerals, and the Physical Stack Behind AI",
       "source_type": "podcast",
@@ -7985,26 +8024,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 215,
       "episode_release_date": "2026-05-12",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 226,
-      "title": "Marc Andreessen on Builder Culture in the Age of AI",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-05-11",
-      "summary": "This podcast episode discusses the transition of AI from a novelty to an essential infrastructure, its impact on productivity, job roles, and societal perspectives. The conversation covers the rise of 'AI Vampires,' the concept of 'suicidal empathy' in social reform, the SPLC controversy, and the generational divide in truth perception. The insights highlight the need for organizations to adapt to AI, monitor employee well-being, evaluate social initiatives, scrutinize influential organizations, adapt education to new job roles, and engage younger audiences authentically.",
-      "key_takeaway": "Adopting AI tools and training can provide a competitive edge to organizations, while also necessitating the adaptation of job roles and educational programs to meet the demands of a rapidly evolving workforce.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-11",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 211,
-      "episode_release_date": "2026-05-11",
       "guest_name": null,
       "key_tickers": []
     }
@@ -8185,29 +8204,29 @@ const dashboardData = {
       "last_mentioned_episode_date": null
     },
     {
-      "id": 178,
-      "term": "Product-Market Fit",
-      "description": "A term used to describe a situation where a product being offered is well-received in a particular market.",
+      "id": 179,
+      "term": "Passive Investment Dominance",
+      "description": "A market condition where passive investment flows dictate market behavior, leading to irrational pricing and potentially masking underlying economic weaknesses.",
       "first_detected_date": "2026-05-14",
       "last_mentioned_date": "2026-05-14",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should look for companies that have achieved product-market fit to gauge the potential for success.",
+      "investment_implications": "Investors should be cautious of market valuations driven by passive flows rather than fundamentals.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 218,
-      "first_detected_speaker": "Ben Horowitz",
-      "last_mentioned_episode_id": 218,
-      "last_mentioned_speaker": "Ben Horowitz",
+      "first_detected_episode_id": 219,
+      "first_detected_speaker": "Mike Green, Rory Johnston",
+      "last_mentioned_episode_id": 219,
+      "last_mentioned_speaker": "Mike Green, Rory Johnston",
       "overton_score": 1.0,
       "resonance_pct": 25,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Ben Horowitz - \"Your ONLY job is Right Product, Right Time\"",
+      "first_detected_podcast": "Macro Voices",
+      "first_detected_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
       "first_detected_episode_date": "2026-05-14",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Ben Horowitz - \"Your ONLY job is Right Product, Right Time\"",
+      "last_mentioned_podcast": "Macro Voices",
+      "last_mentioned_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
       "last_mentioned_episode_date": "2026-05-14"
     },
     {
@@ -22482,12 +22501,63 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-05-14",
     "key_tickers": []
+  },
+  "234": {
+    "id": 224,
+    "insight_id": 234,
+    "podcast_episode_id": 219,
+    "overview": "The unresolved tension in the market is the battle between passive investment flows and macroeconomic realities. Passive investments are currently overshadowing economic indicators, leading to potential mispricing in the market. The competitive dynamic is between the influence of passive investment strategies and the actual economic health, particularly in the context of energy shocks and geopolitical tensions. What converts belief in this thesis is concrete evidence of economic slowdown, labor market deterioration, or a significant shift in passive investment behavior.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the correlation between passive investment flows and market valuations, as deviations may signal an impending market correction.",
+      "Prepare for increased market volatility, especially in sectors heavily impacted by energy prices, as economic indicators begin to reflect the impacts of energy shocks.",
+      "Keep a close watch on U.S.-China negotiations, as the outcome could significantly influence global oil markets and, by extension, market stability.",
+      "Assess and potentially adjust exposure to emerging markets and sectors sensitive to energy prices, as rising costs could lead to demand destruction.",
+      "Monitor labor market indicators for signs of further deterioration, as this could lead to more aggressive Fed rate cuts and impact market sentiment."
+    ],
+    "investment_thesis": "The core investment thesis is that the current market behavior, driven by passive investment flows, is masking underlying economic weaknesses that could lead to a market correction. This thesis is tied to the belief that economic indicators, particularly those related to energy prices and labor market health, will eventually reflect the true state of the economy. The timeframe for this thesis is within the next 12 months, with vindication coming in the form of a significant market correction or a reversal in Fed rate policy due to economic slowdown.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc. is relevant due to its significant market capitalization and its exposure to global supply chains, which could be affected by geopolitical tensions and energy price fluctuations.",
+        "positioning": "A strategic long position in AAPL could be considered, given its resilience and innovation capabilities, but with a tactical hedge against potential supply chain disruptions or consumer demand destruction due to rising energy costs.",
+        "risk": "Key risks include geopolitical tensions escalating, leading to supply chain disruptions, and a potential economic slowdown affecting consumer spending on Apple's products."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A sustained period of economic growth that outpaces expectations, reducing the impact of passive investment flows on market behavior.",
+      "Geopolitical tensions easing, leading to a stabilization of energy prices and reduced market volatility.",
+      "A reversal in the trend of labor market deterioration, suggesting a stronger economy than currently priced in by passive investment flows."
+    ],
+    "catalysts": [
+      "Upcoming employment reports and economic indicators that could signal a change in the labor market's health.",
+      "Developments in U.S.-China negotiations and their impact on global oil markets.",
+      "Geopolitical events surrounding the Strait of Hormuz and their effect on energy supply constraints.",
+      "Fed policy meetings and communications that could indicate a shift in rate policy in response to economic indicators."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-14T13:47:41.150285",
+    "updated_at": "2026-05-14 18:47:41",
+    "episode_evidence": "In the Macro Voices podcast, Mike Green and Rory Johnston provide a nuanced perspective on the market's behavior, emphasizing the dominance of passive investment flows. Green points out, 'The markets can remain irrational far longer than you can remain solvent,' highlighting the disconnect between market valuations and underlying economic fundamentals. They discuss the Hormuz crisis, with Johnston noting, 'China is much more interested in this meeting than the U.S. is,' underscoring China's pivotal role in global oil markets. Green also warns of the labor market's deterioration, stating, 'We continue to lose jobs... our labor force is now starting to shrink in the United States,' which could have significant implications for Fed policy and market sentiment.",
+    "falsification_tracks": [
+      "If the S&P 500 continues to rise despite no significant fundamental improvements, suggesting that passive flows are indeed the dominant force.",
+      "A sudden spike in unemployment rates or a significant downturn in economic indicators that would challenge the current market optimism fueled by passive investment.",
+      "Should China and the U.S. reach a resolution on the Hormuz crisis that stabilizes oil prices, potentially reducing the risk of economic dislocation.",
+      "A reversal in the trend of labor market deterioration, indicating a healthier economy and potentially altering Fed policy expectations."
+    ],
+    "insight_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "source_name": "Macro Voices",
+    "source_date": "2026-05-14",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 5249,
+    "id": 5298,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -22499,7 +22569,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 5250,
+    "id": 5299,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -22511,7 +22581,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5251,
+    "id": 5300,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -22523,7 +22593,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5252,
+    "id": 5301,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -22535,7 +22605,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5253,
+    "id": 5302,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -22547,7 +22617,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5254,
+    "id": 5303,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -22559,7 +22629,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5255,
+    "id": 5304,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -22571,7 +22641,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5256,
+    "id": 5305,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -22583,7 +22653,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5257,
+    "id": 5306,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -22595,7 +22665,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5258,
+    "id": 5307,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -22607,7 +22677,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5259,
+    "id": 5308,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -22619,7 +22689,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5260,
+    "id": 5309,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -22631,7 +22701,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5261,
+    "id": 5310,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -22643,7 +22713,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5262,
+    "id": 5311,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -22655,7 +22725,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5263,
+    "id": 5312,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -22667,7 +22737,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5264,
+    "id": 5313,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -22679,7 +22749,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5265,
+    "id": 5314,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -22691,7 +22761,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5266,
+    "id": 5315,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -22703,7 +22773,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5267,
+    "id": 5316,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -22715,7 +22785,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5268,
+    "id": 5317,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -22732,57 +22802,57 @@ const dashboardData = {
     "id": 98,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
-    "bio": "Commodity Context founder",
-    "known_for": "Perspectives on energy markets and commodity pricing",
+    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
     "net_worth_usd": null,
-    "net_worth_source": null,
+    "net_worth_source": "",
     "net_worth_updated_at": "2026-03-28T22:05:57.557236",
     "voice_tone": "Informative and insightful",
     "voice_style": "Direct and focused on market dynamics",
     "voice_delivery_notes": "Paced with emphasis on key market indicators",
     "voice_profile_updated_at": "2026-03-29 09:09:13",
-    "last_seen": "2026-04-17 10:06:32",
-    "last_episode_title": "MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
-    "last_podcast_name": "MacroVoices",
-    "last_episode_date": "2026-04-16",
-    "mention_score": 5,
-    "mention_score_decayed": 2.68,
-    "last_main_idea": "Invest in sectors likely to benefit from increased inflation and supply chain disruptions, with a focus on energy, uranium, and domestic electrical infrastructure.",
-    "last_proof_cite": "MacroVoices \u2022 2026-04-16 \u2022 MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
-    "last_proof_snippet": "Markets may be underpricing the severity of supply chain disruptions.",
-    "supporting_takeaway": "Markets may be underpricing the severity of supply chain disruptions.",
+    "last_seen": "2026-05-14 18:46:46",
+    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-05-14",
+    "mention_score": 6,
+    "mention_score_decayed": 6,
+    "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
+    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
+    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
       "page_title": "Rory Johnston",
-      "fetched_at": "2026-03-20T09:36:30.218739+00:00",
-      "cliff_notes": "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy. Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies.",
+      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
+      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
       "derived": {
-        "current_role": "Founder, Commodity Context"
+        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy.",
-        "Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies."
+        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
+        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
       ],
       "sections": [
         {
-          "heading": "Energy Market Analysis",
-          "body": "Rory Johnston is well-known for his detailed analysis of energy markets, providing investors with critical insights into market dynamics and trends."
+          "heading": "Hormuz Crisis",
+          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
         },
         {
-          "heading": "Macroeconomic Trends",
-          "body": "Johnston's work often intersects with macroeconomic trends, offering a unique perspective on how energy markets influence and are influenced by broader economic factors."
+          "heading": "Energy Markets",
+          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
         },
         {
-          "heading": "Investment Strategy",
-          "body": "His expertise is highly valued by investors looking to make informed decisions in a volatile market, particularly in the context of commodities and energy."
+          "heading": "Geopolitical Risks",
+          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
         }
       ]
     }
@@ -22999,7 +23069,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.74,
+    "mention_score_decayed": 1.7,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -23605,6 +23675,70 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 249,
+    "name": "Mike Green",
+    "slug": "mike-green",
+    "bio": "Mike Green is a financial analyst with expertise in market behavior and macroeconomic trends. As the chief strategist and portfolio manager at Simplify Asset Management, he provides insights into passive investment flows and their impact on market valuations.",
+    "known_for": "Providing insights into passive investment flows and their impact on market valuations.",
+    "net_worth_usd": 14100000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001274906/michael-w-green",
+    "net_worth_updated_at": "2026-05-14T13:47:23.215889",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-14 18:46:46",
+    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-05-14",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
+    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-14T13:47:22.087480",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Mike Green",
+      "fetched_at": "2026-05-14T18:47:22.087331+00:00",
+      "cliff_notes": "Mike Green is a financial analyst with a focus on market behavior and macroeconomic trends. He is currently serving as the chief strategist and portfolio manager at Simplify Asset Management, where he offers valuable insights into passive investment flows and their effects on market valuations. Green's expertise allows him to provide a unique perspective on market dynamics, particularly in relation to passive investment funds. His views on market trends and the impact of geopolitical events on financial markets are highly sought after by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+      "derived": {
+        "current_role": "Chief Strategist and Portfolio Manager at Simplify Asset Management"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Mike Green is a financial analyst with a focus on market behavior and macroeconomic trends. He is currently serving as the chief strategist and portfolio manager at Simplify Asset Management, where he offers valuable insights into passive investment flows and their effects on market valuations. Green's expertise allows him to provide a unique perspective on market dynamics, particularly in relation to passive investment funds.",
+        "His views on market trends and the impact of geopolitical events on financial markets are highly sought after by professional finance, high-net worth individuals, family offices, and other sophisticated investors."
+      ],
+      "sections": [
+        {
+          "heading": "Passive Investment Flows",
+          "body": "Mike Green is known for his analysis of passive investment flows and their influence on market valuations, suggesting that these flows are a significant driver of market behavior rather than traditional macroeconomic analysis."
+        },
+        {
+          "heading": "Market Valuations",
+          "body": "Green discusses how passive investment fund flows can impact market valuations, noting that they have not been deterred by global crises such as the Hormuz conflict, leading to continued rises in indices like the S&P 500."
+        },
+        {
+          "heading": "Inflation Predictions",
+          "body": "Mike Green disagrees with some predictions of persistent secular inflation resulting from geopolitical conflicts, offering an alternative viewpoint on the economic implications of such events."
+        },
+        {
+          "heading": "Kevin Worsh's Influence",
+          "body": "Green has an interesting take on why he believes Kevin Worsh is more likely to aggregate, suggesting a significant role for Worsh in future economic scenarios."
+        }
+      ]
+    },
+    "net_worth": "$14.1M"
+  },
+  {
     "id": 246,
     "name": "Turner Coldwell",
     "slug": "turner-coldwell",
@@ -24059,7 +24193,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "AI is a significant driver of economic growth and innovation, presenting opportunities in AI-driven sectors, sustainable data center technologies, and AI insurance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-09 \u2022 Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
     "last_proof_snippet": "Google has crushed their earnings. Alpha that reported 109.9 billion dollars. 22% year on your growth, 62.6 billion in profit. Google Cloud hit 20 billion revenue with 63% growth. AI drove results across the entire Google ecosystem. The rev",
@@ -24121,7 +24255,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -24311,7 +24445,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -24374,7 +24508,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -24562,7 +24696,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -28507,7 +28641,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -28566,7 +28700,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
