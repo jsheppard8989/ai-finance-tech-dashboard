@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-14T05:06:39.281847",
-  chartsVersion: "2026-05-14T05:06:33.584999",
+  generatedAt: "2026-05-14T06:55:19.842958",
+  chartsVersion: "2026-05-14T06:55:11.021548",
   priceSnapshot: {
   "GOOGL": {
     "price": 402.62,
     "change_pct": 16.9,
     "name": "GOOGL",
-    "updated_at": "2026-05-14T05:06:33.584537"
+    "updated_at": "2026-05-14T06:55:11.020568"
   },
   "BTC": {
-    "price": 79651.06,
-    "change_pct": 1.88,
+    "price": 79283.16,
+    "change_pct": 1.41,
     "name": "BTC",
-    "updated_at": "2026-05-14T05:06:33.584548"
+    "updated_at": "2026-05-14T06:55:11.020591"
   },
   "NVDA": {
     "price": 225.83,
     "change_pct": 8.43,
     "name": "NVDA",
-    "updated_at": "2026-05-14T05:06:33.584552"
+    "updated_at": "2026-05-14T06:55:11.020600"
   },
   "MSFT": {
     "price": 405.21,
     "change_pct": -4.57,
     "name": "MSFT",
-    "updated_at": "2026-05-14T05:06:33.584556"
+    "updated_at": "2026-05-14T06:55:11.020608"
   },
   "WTI": {
     "price": 4.4,
     "change_pct": 15.18,
     "name": "WTI",
-    "updated_at": "2026-05-14T05:06:33.584559"
+    "updated_at": "2026-05-14T06:55:11.020617"
   },
   "S&P 500": {
     "price": 742.31,
     "change_pct": 3.97,
     "name": "S&P 500",
-    "updated_at": "2026-05-14T05:06:33.584563"
+    "updated_at": "2026-05-14T06:55:11.020625"
   },
   "META": {
     "price": 616.63,
     "change_pct": -8.65,
     "name": "META",
-    "updated_at": "2026-05-14T05:06:33.584566"
+    "updated_at": "2026-05-14T06:55:11.020634"
   },
   "AMZN": {
     "price": 270.13,
     "change_pct": 2.33,
     "name": "AMZN",
-    "updated_at": "2026-05-14T05:06:33.584569"
+    "updated_at": "2026-05-14T06:55:11.020641"
   },
   "TSLA": {
     "price": 445.27,
     "change_pct": 18.33,
     "name": "TSLA",
-    "updated_at": "2026-05-14T05:06:33.584573"
+    "updated_at": "2026-05-14T06:55:11.020649"
   },
   "QQQ": {
     "price": 714.71,
     "change_pct": 7.66,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-14T05:06:33.584576"
+    "updated_at": "2026-05-14T06:55:11.020657"
   },
   "BTC-USD": {
-    "price": 79651.06,
-    "change_pct": 1.88,
+    "price": 79288.1,
+    "change_pct": 1.42,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-14T05:06:33.584579"
+    "updated_at": "2026-05-14T06:55:11.020664"
   }
 },
   tickerScores: [
@@ -22372,7 +22372,7 @@ const dashboardData = {
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 5151,
+    "id": 5200,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -22384,7 +22384,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5152,
+    "id": 5201,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -22396,7 +22396,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5153,
+    "id": 5202,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -22408,7 +22408,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5154,
+    "id": 5203,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -22420,7 +22420,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5155,
+    "id": 5204,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -22432,7 +22432,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5156,
+    "id": 5205,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -22444,7 +22444,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5157,
+    "id": 5206,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -22456,7 +22456,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5158,
+    "id": 5207,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -22468,7 +22468,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5159,
+    "id": 5208,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -22480,7 +22480,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5160,
+    "id": 5209,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -22492,7 +22492,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5161,
+    "id": 5210,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -22504,7 +22504,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5162,
+    "id": 5211,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -22516,7 +22516,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5163,
+    "id": 5212,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -22528,7 +22528,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5164,
+    "id": 5213,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -22540,7 +22540,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5165,
+    "id": 5214,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -22552,7 +22552,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5166,
+    "id": 5215,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -22564,7 +22564,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5167,
+    "id": 5216,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -22576,7 +22576,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5168,
+    "id": 5217,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -22588,7 +22588,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5169,
+    "id": 5218,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -22600,7 +22600,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5170,
+    "id": 5219,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -30256,7 +30256,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-17 \u2022 Stealth Startups and the Digitization of the Physical World",
     "last_proof_snippet": "I don't know if some of you knew I was an angel investor in some companies. On the count of three, what's my favorite angel investment of all time? One, two, three. Thank you. Give it up. Travis Kalenik. Appreciate you. Alright. Wow. On a b",
