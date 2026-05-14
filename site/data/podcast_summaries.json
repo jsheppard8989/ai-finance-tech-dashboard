@@ -1,5 +1,25 @@
 [
   {
+    "id": 217,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
+    "episode_date": "2026-05-13",
+    "summary": "In this episode, Lynn Alden discusses the multi-decade changes in the economy due to the rise of AI, comparing it to the shift in blue-collar manufacturing in the 80s and 90s. Alden highlights the surge in the semiconductor industry due to increased AI spending, the cyclical nature of capex investments by hyperscalers, and the potential growth of stablecoins. Additionally, Alden anticipates the decoupling of Bitcoin from tech stocks and the impact of geopolitical tensions on global oil prices. The episode also touches on the societal and economic consequences of AI as depicted in Alden's new science fiction book.",
+    "key_takeaways": [
+      "Invest in semiconductor stocks and ETFs to capitalize on the surge in demand driven by AI.",
+      "Monitor the capex cycles of hyperscalers and consider the potential for lower returns when investing in tech stocks.",
+      "Explore opportunities in stablecoin projects and companies that facilitate their use, anticipating significant growth in the sector.",
+      "Keep an eye on Bitcoin's performance as a separate asset class, distinct from tech stocks, as it may decouple over time.",
+      "Consider energy stocks and commodities as hedges against geopolitical risks and rising oil prices.",
+      "Stay informed about the societal impacts of AI and how they may affect consumer behavior and labor markets."
+    ],
+    "investment_thesis": "Invest in sectors poised for growth due to AI adoption, particularly semiconductors and stablecoins, while being cautious about the cyclical nature of capex investments in hyperscaler companies.",
+    "key_tickers": [
+      "MSFT",
+      "GOOGL"
+    ]
+  },
+  {
     "id": 216,
     "podcast_name": "The a16z Show",
     "episode_title": "Energy, Minerals, and the Physical Stack Behind AI",
@@ -116,25 +136,5 @@
     ],
     "investment_thesis": "Invest in initiatives that promote transparency in local governance, support independent filmmakers, and advocate for education reform to drive economic revitalization and improve public services in Los Angeles.",
     "key_tickers": null
-  },
-  {
-    "id": 209,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
-    "episode_date": "2026-05-10",
-    "summary": "In this episode of Monetary Matters, Jack Farley interviews an expert from Pictay Asset Management, discussing their unique approach to quantitative investing using decision tree-based machine learning. The firm has launched two ETFs, PQ&T and PQUS, with the goal of outperforming benchmarks like MSCI EAFE and S&P 500 by 1-2% annually. The conversation highlights the importance of interpretability in quantitative models, the limitations of generative AI in alpha generation, and the firm's efficient model training process that reduces cloud computing costs.",
-    "key_takeaways": [
-      "Pictay Asset Management uses decision tree-based machine learning for quantitative investing, focusing on structured data.",
-      "The firm's ETFs aim for 1-2% annual outperformance over benchmarks like MSCI EAFE and S&P 500.",
-      "Machine learning in finance has accelerated due to advancements in data, cloud computing, and processing power.",
-      "Pictay's model uses 400 features from various sources to predict 20-day stock returns.",
-      "Generative AI is not used for alpha generation due to concerns over accuracy and bias.",
-      "The portfolio construction process targets a beta of 1 for index-like risk characteristics."
-    ],
-    "investment_thesis": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
-    "key_tickers": [
-      "PQ&T",
-      "PQUS"
-    ]
   }
 ]

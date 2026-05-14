@@ -20,6 +20,26 @@
       "podcast_episode_id": 216
     },
     {
+      "id": 232,
+      "title": "Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-13",
+      "summary": "In this episode, Lynn Alden discusses the multi-decade changes in the economy due to the rise of AI, comparing it to the shift in blue-collar manufacturing in the 80s and 90s. Alden highlights the surge in the semiconductor industry due to increased AI spending, the cyclical nature of capex investments by hyperscalers, and the potential growth of stablecoins. Additionally, Alden anticipates the decoupling of Bitcoin from tech stocks and the impact of geopolitical tensions on global oil prices. The episode also touches on the societal and economic consequences of AI as depicted in Alden's new science fiction book.",
+      "key_takeaway": "Invest in sectors poised for growth due to AI adoption, particularly semiconductors and stablecoins, while being cautious about the cyclical nature of capex investments in hyperscaler companies.",
+      "tickers_mentioned": [
+        "MSFT",
+        "GOOGL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 217
+    },
+    {
       "id": 227,
       "title": "Bitcoin & The Tale of Two Wolves",
       "source_type": "podcast",
@@ -132,7 +152,7 @@
         "PQUS"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-10",
       "archived_date": null,
