@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-15T12:22:33.277801",
-  chartsVersion: "2026-05-15T12:22:20.852857",
+  generatedAt: "2026-05-15T13:55:04.578216",
+  chartsVersion: "2026-05-15T13:54:58.662272",
   priceSnapshot: {
   "GOOGL": {
-    "price": 397.45,
-    "change_pct": 13.63,
+    "price": 396.42,
+    "change_pct": 13.34,
     "name": "GOOGL",
-    "updated_at": "2026-05-15T12:22:20.852091"
+    "updated_at": "2026-05-15T13:54:58.661187"
   },
   "BTC": {
-    "price": 79229.6,
-    "change_pct": 0.73,
+    "price": 79249.62,
+    "change_pct": 0.75,
     "name": "BTC",
-    "updated_at": "2026-05-15T12:22:20.852108"
+    "updated_at": "2026-05-15T13:54:58.661207"
   },
   "NVDA": {
-    "price": 228.64,
-    "change_pct": 7.26,
+    "price": 228.96,
+    "change_pct": 7.41,
     "name": "NVDA",
-    "updated_at": "2026-05-15T12:22:20.852115"
+    "updated_at": "2026-05-15T13:54:58.661216"
   },
   "MSFT": {
-    "price": 425.64,
-    "change_pct": -0.84,
+    "price": 425.61,
+    "change_pct": -0.85,
     "name": "MSFT",
-    "updated_at": "2026-05-15T12:22:20.852120"
+    "updated_at": "2026-05-15T13:54:58.661225"
   },
   "WTI": {
-    "price": 4.7,
-    "change_pct": 17.92,
+    "price": 4.74,
+    "change_pct": 18.92,
     "name": "WTI",
-    "updated_at": "2026-05-15T12:22:20.852126"
+    "updated_at": "2026-05-15T13:54:58.661232"
   },
   "S&P 500": {
-    "price": 741.99,
-    "change_pct": 4.26,
+    "price": 741.69,
+    "change_pct": 4.22,
     "name": "S&P 500",
-    "updated_at": "2026-05-15T12:22:20.852131"
+    "updated_at": "2026-05-15T13:54:58.661240"
   },
   "META": {
-    "price": 617.79,
-    "change_pct": -7.98,
+    "price": 617.52,
+    "change_pct": -8.02,
     "name": "META",
-    "updated_at": "2026-05-15T12:22:20.852137"
+    "updated_at": "2026-05-15T13:54:58.661248"
   },
   "AMZN": {
-    "price": 262.87,
-    "change_pct": 1.22,
+    "price": 263.5,
+    "change_pct": 1.46,
     "name": "AMZN",
-    "updated_at": "2026-05-15T12:22:20.852143"
+    "updated_at": "2026-05-15T13:54:58.661256"
   },
   "TSLA": {
-    "price": 426.63,
-    "change_pct": 13.46,
+    "price": 426.27,
+    "change_pct": 13.36,
     "name": "TSLA",
-    "updated_at": "2026-05-15T12:22:20.852147"
+    "updated_at": "2026-05-15T13:54:58.661263"
   },
   "QQQ": {
-    "price": 712.36,
-    "change_pct": 8.34,
+    "price": 713.08,
+    "change_pct": 8.44,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-15T12:22:20.852153"
+    "updated_at": "2026-05-15T13:54:58.661270"
   },
   "BTC-USD": {
-    "price": 79229.6,
-    "change_pct": 0.73,
+    "price": 79249.62,
+    "change_pct": 0.75,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-15T12:22:20.852157"
+    "updated_at": "2026-05-15T13:54:58.661277"
   }
 },
   tickerScores: [
@@ -828,6 +828,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 235,
+      "title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-15",
+      "summary": "In this episode, Andrew Perry discusses a five-pillar framework for market analysis, emphasizing liquidity's role in the current rally of US stocks. Perry predicts the S&P 500 could reach 7,700 and recommends long positions in US stocks while shorting Australian and European stocks. He also highlights agricultural commodities as a strategic investment due to supply chain issues and geopolitical factors.",
+      "key_takeaway": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
+      "tickers_mentioned": [
+        "S&P 500"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 220
+    },
+    {
       "id": 233,
       "title": "Ben Horowitz - \"Your ONLY job is Right Product, Right Time\"",
       "source_type": "podcast",
@@ -920,7 +939,7 @@ const dashboardData = {
         "BTC"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-12",
       "archived_date": null,
@@ -5153,6 +5172,42 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 180,
+      "term": "Five-Pillar Framework",
+      "description": "A market analysis framework consisting of story, liquidity, monetary policy, technical analysis, and risk management.",
+      "first_detected_date": "2026-05-15",
+      "last_mentioned_date": "2026-05-15",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors can use this framework to gain a comprehensive understanding of market dynamics.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 220,
+      "first_detected_speaker": "Andrew Perry",
+      "last_mentioned_episode_id": 220,
+      "last_mentioned_speaker": "Andrew Perry"
+    },
+    {
+      "id": 181,
+      "term": "MOVE Index",
+      "description": "An index that measures bond market volatility and is crucial for understanding liquidity conditions.",
+      "first_detected_date": "2026-05-15",
+      "last_mentioned_date": "2026-05-15",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should track the MOVE index to anticipate market corrections and adjust risk management strategies.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 220,
+      "first_detected_speaker": "Andrew Perry",
+      "last_mentioned_episode_id": 220,
+      "last_mentioned_speaker": "Andrew Perry"
+    },
+    {
       "id": 174,
       "term": "Capability-Bounded Approach",
       "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
@@ -7845,6 +7900,28 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 235,
+      "title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-15",
+      "summary": "In this episode, Andrew Perry discusses a five-pillar framework for market analysis, emphasizing liquidity's role in the current rally of US stocks. Perry predicts the S&P 500 could reach 7,700 and recommends long positions in US stocks while shorting Australian and European stocks. He also highlights agricultural commodities as a strategic investment due to supply chain issues and geopolitical factors.",
+      "key_takeaway": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
+      "tickers_mentioned": "[\"S&P 500\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 220,
+      "episode_release_date": "2026-05-15",
+      "guest_name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
+      "key_tickers": [
+        "S&P 500"
+      ]
+    },
+    {
       "id": 233,
       "title": "Ben Horowitz - \"Your ONLY job is Right Product, Right Time\"",
       "source_type": "podcast",
@@ -7925,28 +8002,6 @@ const dashboardData = {
       "key_tickers": [
         "MSFT",
         "GOOGL"
-      ]
-    },
-    {
-      "id": 227,
-      "title": "Bitcoin & The Tale of Two Wolves",
-      "source_type": "podcast",
-      "source_name": "The Jack Mallers Show",
-      "source_date": "2026-05-12",
-      "summary": "In this episode, Jack Mallers discusses the current economic landscape, highlighting the dichotomy between AI-driven productivity growth and geopolitical tensions. The U.S. government's deficit spending, consumer sentiment at an all-time low, and the impact of AI on EPS revisions are key themes. The discussion emphasizes Bitcoin's role as a hedge against potential financial instability and the importance of maintaining a long-term investment perspective through dollar-cost averaging.",
-      "key_takeaway": "Bitcoin serves as a strong hedge against potential financial instability amid geopolitical tensions and economic volatility.",
-      "tickers_mentioned": "[\"BTC\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-12",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 212,
-      "episode_release_date": "2026-05-12",
-      "guest_name": null,
-      "key_tickers": [
-        "BTC"
       ]
     },
     {
@@ -8186,6 +8241,58 @@ const dashboardData = {
       "last_mentioned_episode_date": null
     },
     {
+      "id": 180,
+      "term": "Five-Pillar Framework",
+      "description": "A market analysis framework consisting of story, liquidity, monetary policy, technical analysis, and risk management.",
+      "first_detected_date": "2026-05-15",
+      "last_mentioned_date": "2026-05-15",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors can use this framework to gain a comprehensive understanding of market dynamics.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 220,
+      "first_detected_speaker": "Andrew Perry",
+      "last_mentioned_episode_id": 220,
+      "last_mentioned_speaker": "Andrew Perry",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
+      "first_detected_episode_date": "2026-05-15",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
+      "last_mentioned_episode_date": "2026-05-15"
+    },
+    {
+      "id": 181,
+      "term": "MOVE Index",
+      "description": "An index that measures bond market volatility and is crucial for understanding liquidity conditions.",
+      "first_detected_date": "2026-05-15",
+      "last_mentioned_date": "2026-05-15",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should track the MOVE index to anticipate market corrections and adjust risk management strategies.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 220,
+      "first_detected_speaker": "Andrew Perry",
+      "last_mentioned_episode_id": 220,
+      "last_mentioned_speaker": "Andrew Perry",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
+      "first_detected_episode_date": "2026-05-15",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
+      "last_mentioned_episode_date": "2026-05-15"
+    },
+    {
       "id": 174,
       "term": "Capability-Bounded Approach",
       "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
@@ -8418,58 +8525,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
       "last_mentioned_episode_date": "2026-05-04"
-    },
-    {
-      "id": 143,
-      "term": "Cross-Solver Tensions",
-      "description": "The challenges faced by companies that try to replace multiple functionalities within a single platform.",
-      "first_detected_date": "2026-05-01",
-      "last_mentioned_date": "2026-05-01",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the potential for new platforms that can address specific pain points within enterprise software more effectively than incumbents.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.72,
-      "resonance_pct": 18,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 144,
-      "term": "Descheduling",
-      "description": "The removal of a substance from a list of controlled substances, in this case, cannabis.",
-      "first_detected_date": "2026-05-01",
-      "last_mentioned_date": "2026-05-01",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Descheduling can lead to significant changes in the legal and operational landscape for businesses in the affected industry.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.72,
-      "resonance_pct": 18,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
     }
   ]
 },
@@ -22534,12 +22589,78 @@ const dashboardData = {
     "source_name": "Macro Voices",
     "source_date": "2026-05-14",
     "key_tickers": []
+  },
+  "235": {
+    "id": 225,
+    "insight_id": 235,
+    "podcast_episode_id": 220,
+    "overview": "The unresolved tension in the market, as highlighted by Andrew Perry, is the balance between the current rally in US stocks and the underlying economic vulnerabilities of other regions, particularly Australia and Europe. The competitive dynamic is further complicated by the resilience of agricultural commodities amidst global supply chain disruptions and geopolitical tensions. The allocator-relevant implication is that investors must navigate these cross-currents, focusing on relative economic strength and the potential for agricultural commodities to serve as a hedge against broader market risks. The metric that arbitrates this uncertainty is the MOVE index, which provides insight into bond market volatility and, by extension, liquidity conditions.",
+    "key_takeaways_detailed": [
+      "Adopt a multi-dimensional analytical approach to market analysis, incorporating story, liquidity, monetary policy, technical analysis, and risk management to enhance investment decision-making.",
+      "Construct portfolios with a long bias on US stocks, considering the relative strength and technical indicators suggesting further upside, while being cautious of regional economic vulnerabilities in other markets.",
+      "Allocate to agricultural commodities, especially corn, wheat, and soybeans, as a strategic move to capitalize on supply chain disruptions and geopolitical tensions, with an eye on the upcoming Trump-China meeting as a potential catalyst.",
+      "Monitor the MOVE index closely to gauge changes in bond market volatility, which can signal shifts in liquidity conditions and market sentiment, influencing investment strategies.",
+      "Maintain a cautious market sentiment, focusing on risk management to avoid significant drawdowns, especially in the context of the bond market's volatility and yields pinned at 4.3%."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that the US stock market's current rally, supported by technical analysis and relative economic strength, presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions. This thesis is vindicated if the S&P 500 continues its upward trajectory towards 7,700, agricultural commodity prices remain resilient, and the MOVE index indicates stable liquidity conditions. Conversely, it would be invalidated by a significant downturn in the S&P 500, a resolution of supply chain issues leading to a drop in agricultural commodity prices, or a sharp increase in bond market volatility as indicated by the MOVE index.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc. (AAPL) is relevant to this thesis due to its significant weight in the S&P 500 and its resilience as a technology leader, which can benefit from the current market rally and potential upside in US stocks.",
+        "positioning": "Position long on AAPL as part of a strategic allocation to US stocks, leveraging its market leadership and potential for growth amidst the current market conditions.",
+        "risk": "Key risks include potential supply chain disruptions, which could affect Apple's global operations, and changes in consumer demand, which could impact its revenue and profitability."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A sudden increase in global liquidity could lead to a more aggressive market rally, potentially outpacing Perry's S&P 500 target.",
+      "Geopolitical tensions easing unexpectedly could reduce the appeal of agricultural commodities as a strategic investment.",
+      "A significant economic downturn in the US could undermine the case for long positions in US stocks, shifting the investment landscape."
+    ],
+    "catalysts": [
+      "The outcome of the Trump-China meeting, which could influence agricultural commodity prices and the overall market sentiment.",
+      "Any significant changes in the MOVE index, which would indicate shifts in bond market volatility and liquidity conditions.",
+      "Economic data releases from the US, Australia, and Europe, which could provide insights into the relative strength of these markets and influence investment decisions.",
+      "Developments in global supply chain issues, particularly regarding agricultural commodities, which could impact prices and investment strategies.",
+      "Geopolitical events that could escalate or de-escalate tensions, affecting the demand for agricultural commodities and market volatility."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-15T13:54:02.439619",
+    "updated_at": "2026-05-15 18:54:02",
+    "episode_evidence": "Andrew Perry's five-pillar framework for market analysis is grounded in his extensive trading experience, as he states, 'I've been through a lot of market crises, and I've learned a lot of lessons.' This framework encompasses story, liquidity, monetary policy, technical analysis, and risk management, providing a comprehensive lens through which to view market dynamics. Perry's prediction for the S&P 500 to reach 7,700 is based on technical analysis, which he believes is 'the most important volatility index in the market.' He also emphasizes the strategic importance of agricultural commodities, particularly noting, 'corn, wheat, and soy have held that date,' indicating their resilience amidst market volatility.",
+    "falsification_tracks": [
+      "If the S&P 500 fails to reach 7,500 within the next six months, Perry's technical analysis basis for the 7,700 target would be questioned.",
+      "A sustained increase in global liquidity measures, indicating a more abundant liquidity profile, would challenge Perry's current market assessment.",
+      "Should agricultural commodity prices decline significantly due to eased supply chain issues or reduced geopolitical tensions, Perry's bullish stance on these commodities would be undermined.",
+      "If the MOVE index shows a consistent decrease in bond market volatility over several months, it might suggest a more stable liquidity environment, contradicting Perry's current caution."
+    ],
+    "insight_title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-05-15",
+    "key_tickers": [
+      "S&P 500"
+    ]
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 5494,
+    "id": 5543,
+    "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
+    "slug": "you-dont-sell-blow-offs",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
+    "last_episode_title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-15",
+    "appearance_count": 1
+  },
+  {
+    "id": 5544,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -22551,7 +22672,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 5495,
+    "id": 5545,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -22563,7 +22684,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5496,
+    "id": 5546,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -22575,7 +22696,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5497,
+    "id": 5547,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -22587,7 +22708,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5498,
+    "id": 5548,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -22599,7 +22720,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5499,
+    "id": 5549,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -22611,7 +22732,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5500,
+    "id": 5550,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -22623,7 +22744,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5501,
+    "id": 5551,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -22635,7 +22756,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5502,
+    "id": 5552,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -22647,7 +22768,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5503,
+    "id": 5553,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -22659,7 +22780,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5504,
+    "id": 5554,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -22671,7 +22792,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5505,
+    "id": 5555,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -22683,7 +22804,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5506,
+    "id": 5556,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -22695,7 +22816,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5507,
+    "id": 5557,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -22707,7 +22828,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5508,
+    "id": 5558,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -22719,7 +22840,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5509,
+    "id": 5559,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -22731,7 +22852,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5510,
+    "id": 5560,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -22743,7 +22864,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5511,
+    "id": 5561,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -22755,7 +22876,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5512,
+    "id": 5562,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -22764,18 +22885,6 @@ const dashboardData = {
     "last_episode_title": "Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-20",
-    "appearance_count": 1
-  },
-  {
-    "id": 5513,
-    "name": "Anish Acharya on The Kevin Rose Show",
-    "slug": "anish-acharya-on-the-kevin-rose-show",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The rapid advancement of AI and consumer tech is creating new opportunities and challenges for venture capital, with a focus on the need for universal basic purpose and the potential for AI to disrupt traditional job markets.",
-    "last_episode_title": "Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-19",
     "appearance_count": 1
   }
 ],
@@ -22798,7 +22907,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 6,
-    "mention_score_decayed": 6,
+    "mention_score_decayed": 5.86,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -23051,7 +23160,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.7,
+    "mention_score_decayed": 1.66,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -23657,6 +23766,67 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 250,
+    "name": "Andrew Perry",
+    "slug": "andrew-perry",
+    "bio": "Andrew Perry is a seasoned market analyst with a specialization in liquidity and technical analysis. He is recognized for his five-pillar framework that guides market navigation under various conditions. Perry has an extensive background in macro investing, having worked with top hedge funds and major banks.",
+    "known_for": "His five-pillar framework for navigating market conditions.",
+    "net_worth_usd": 120000000.0,
+    "net_worth_source": "https://insidethemagic.net/2024/07/friends-fans-are-shocked-to-learn-how-little-actor-matthew-perry-had-when-he-died-bb1/",
+    "net_worth_updated_at": "2026-05-15T13:53:37.363665",
+    "voice_tone": "Confident and experienced.",
+    "voice_style": "Perry uses a structured approach, emphasizing data and technical indicators.",
+    "voice_delivery_notes": "Perry speaks with a steady pace, emphasizing key points with clarity.",
+    "voice_profile_updated_at": "2026-05-15 18:53:20",
+    "last_seen": "2026-05-15 18:53:20",
+    "last_episode_title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-15",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-15 \u2022 \u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
+    "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. I'm joined by Andrew Perry, veteran macro investors. He has worked at the top macro hedge funds, all the big banks, Andrew, welcome to monetary",
+    "supporting_takeaway": "Establish long positions in US stocks while shorting Australian and European stocks based on economic indicators.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-15T13:53:36.292311",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Andrew Perry",
+      "fetched_at": "2026-05-15T18:53:36.291867+00:00",
+      "cliff_notes": "Andrew Perry has carved a niche for himself as a veteran macro investor, with a career that spans across top macro hedge funds and major banks. His expertise lies in market analysis, particularly focusing on liquidity and technical analysis. Perry's five-pillar framework has become a cornerstone for investors looking to understand and navigate the complexities of market conditions. His insights are sought after for their ability to provide a comprehensive view of market dynamics, making him a respected figure in the financial industry.",
+      "derived": {
+        "current_role": "Veteran Macro Investor",
+        "former_positions": "Top macro hedge funds; major banks"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Andrew Perry has carved a niche for himself as a veteran macro investor, with a career that spans across top macro hedge funds and major banks. His expertise lies in market analysis, particularly focusing on liquidity and technical analysis. Perry's five-pillar framework has become a cornerstone for investors looking to understand and navigate the complexities of market conditions.",
+        "His insights are sought after for their ability to provide a comprehensive view of market dynamics, making him a respected figure in the financial industry."
+      ],
+      "sections": [
+        {
+          "heading": "Market Analysis",
+          "body": "Andrew Perry is known for his deep understanding of market analysis, with a particular emphasis on liquidity and technical analysis."
+        },
+        {
+          "heading": "Five-Pillar Framework",
+          "body": "Perry's five-pillar framework is a comprehensive tool that helps investors navigate market conditions, focusing on the rate of change basis and other critical factors."
+        },
+        {
+          "heading": "Macro Investing",
+          "body": "Throughout his career, Perry has been involved in macro investing, working with top hedge funds and gaining a reputation for his insightful analysis."
+        }
+      ]
+    },
+    "net_worth": "$120.0M"
+  },
+  {
     "id": 249,
     "name": "Mike Green",
     "slug": "mike-green",
@@ -23674,7 +23844,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -24175,7 +24345,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "AI is a significant driver of economic growth and innovation, presenting opportunities in AI-driven sectors, sustainable data center technologies, and AI insurance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-09 \u2022 Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
     "last_proof_snippet": "Google has crushed their earnings. Alpha that reported 109.9 billion dollars. 22% year on your growth, 62.6 billion in profit. Google Cloud hit 20 billion revenue with 63% growth. AI drove results across the entire Google ecosystem. The rev",
@@ -24237,7 +24407,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -24427,7 +24597,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -24490,7 +24660,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -24678,7 +24848,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -28623,7 +28793,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -28682,7 +28852,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
@@ -30691,7 +30861,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -30718,7 +30888,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",

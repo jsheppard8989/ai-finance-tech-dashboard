@@ -1,5 +1,23 @@
 [
   {
+    "id": 220,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
+    "episode_date": "2026-05-15",
+    "summary": "In this episode, Andrew Perry discusses a five-pillar framework for market analysis, emphasizing liquidity's role in the current rally of US stocks. Perry predicts the S&P 500 could reach 7,700 and recommends long positions in US stocks while shorting Australian and European stocks. He also highlights agricultural commodities as a strategic investment due to supply chain issues and geopolitical factors.",
+    "key_takeaways": [
+      "Implement a five-pillar framework for market analysis to enhance decision-making processes.",
+      "Establish long positions in US stocks while shorting Australian and European stocks based on economic indicators.",
+      "Allocate a portion of the portfolio to agricultural commodities, focusing on corn, wheat, and soybeans.",
+      "Regularly monitor liquidity conditions and the MOVE index to inform trading strategies and risk management.",
+      "Stay informed about geopolitical developments, particularly regarding agricultural trade agreements, to capitalize on market opportunities."
+    ],
+    "investment_thesis": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
+    "key_tickers": [
+      "S&P 500"
+    ]
+  },
+  {
     "id": 219,
     "podcast_name": "Macro Voices",
     "episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
@@ -120,23 +138,5 @@
     ],
     "investment_thesis": "Invest in firms with strong risk management practices and a culture of partnership to ensure stability and long-term success in a rapidly changing financial landscape.",
     "key_tickers": null
-  },
-  {
-    "id": 212,
-    "podcast_name": "The Jack Mallers Show",
-    "episode_title": "Bitcoin & The Tale of Two Wolves",
-    "episode_date": "2026-05-12",
-    "summary": "In this episode, Jack Mallers discusses the current economic landscape, highlighting the dichotomy between AI-driven productivity growth and geopolitical tensions. The U.S. government's deficit spending, consumer sentiment at an all-time low, and the impact of AI on EPS revisions are key themes. The discussion emphasizes Bitcoin's role as a hedge against potential financial instability and the importance of maintaining a long-term investment perspective through dollar-cost averaging.",
-    "key_takeaways": [
-      "Monitor geopolitical developments, especially in the Middle East, for their impact on oil prices and global supply chains.",
-      "Stay informed about government spending and fiscal policies, as they significantly influence market conditions.",
-      "Consider dollar-cost averaging into Bitcoin to mitigate risks of market volatility.",
-      "Analyze the implications of AI advancements on specific industries and adjust investment strategies accordingly.",
-      "Be cautious of high-leverage investments and assess the risk exposure in your portfolio."
-    ],
-    "investment_thesis": "Bitcoin serves as a strong hedge against potential financial instability amid geopolitical tensions and economic volatility.",
-    "key_tickers": [
-      "BTC"
-    ]
   }
 ]
