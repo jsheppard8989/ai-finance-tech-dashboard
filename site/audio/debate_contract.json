@@ -1,115 +1,115 @@
 {
-  "prompt": "Will any presidential candidate win outright in the first round of the Brazil election within the next 42 days?",
-  "expires_rule": "Resolves Friday 12:00 PM CST 2026-06-19",
-  "crux_theme": "Brazilian election dynamics",
+  "prompt": "Will any country leave NATO within the next 42 days?",
+  "expires_rule": "Resolves Friday 12:00 PM CST 2026-06-26",
+  "crux_theme": "NATO membership",
   "resolution_clarity": {
-    "source_of_truth": "Official Brazilian Electoral Commission",
+    "source_of_truth": "Official NATO communications and member state announcements",
     "resolution_sources": [
-      "https://www.tse.jus.br/",
-      "https://agenciabrasil.ebc.com.br/",
-      "http://portal.imprensanacional.org.br/"
+      "NATO press releases",
+      "Member state government statements",
+      "International news agencies (e.g., Reuters, Associated Press)"
     ],
     "resolution_criteria": [
-      "Official election results announcement from the Brazilian Electoral Commission (Tribunal Superior Eleitoral) or reputable news agencies like Ag\u00eancia Brasil and Imprensa Nacional."
+      "Official withdrawal or denunciation notices provided to NATO",
+      "Public declarations by member states to leave NATO"
     ]
   },
   "sides": {
     "a": "Affirmative (YES)",
     "b": "Negative (NO)"
   },
-  "friday_iso": "2026-05-08",
-  "week_label": "Week of 2026-05-08",
-  "debater_a": "Jared Isaacman",
-  "debater_b": "Tony James",
-  "generated_at": "2026-05-08T06:50:25.429271",
+  "friday_iso": "2026-05-15",
+  "week_label": "Week of 2026-05-15",
+  "debater_a": "David Wright",
+  "debater_b": "Peter Diamandis",
+  "generated_at": "2026-05-15T05:02:19.567431",
   "bet_status": "open",
   "audio_href": "./audio/emp_ai_the_debate_11labs.mp3",
   "debater_a_snapshot": {
-    "name": "Jared Isaacman",
-    "known_for": "Leading NASA's efforts to return to the moon and establish a permanent presence, emphasizing national security and economic potential.",
-    "bio": "Jared Isaacman is the NASA Administrator, responsible for overseeing NASA's space exploration programs. He is known for his commitment to returning to the moon and establishing a permanent presence there, emphasizing the importance of America's leadership in space exploration.",
-    "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-06",
-    "net_worth": "$1.40B",
+    "name": "David Wright",
+    "known_for": "His expertise in applying machine learning and AI to investment strategies, managing billions in assets.",
+    "bio": "David Wright is an expert in quantitative investing at Pictay Asset Management, where he serves as the co-head of the quantitative investments franchise. Wright is known for his work in applying machine learning to investment strategies, managing over $30 billion in the quant group, including the launch of two AI-enhanced ETFs.",
+    "last_main_idea": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-10",
+    "net_worth": "$31.7M",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Jared Isaacman",
-      "fetched_at": "2026-05-06T17:35:54.889908+00:00",
-      "cliff_notes": "Jared Isaacman serves as the NASA Administrator, tasked with overseeing the agency's space exploration programs. His tenure has been marked by a renewed focus on returning to the moon, a mission that holds significant scientific, economic, and national security implications. Isaacman has emphasized the importance of not only landing on the moon but also building the necessary infrastructure and systems to maintain a permanent presence. This approach aligns with broader goals of space dominance and the desire to outpace international rivals in lunar exploration and resource utilization. His leadership at NASA is seen as crucial in shaping the future of space exploration and maintaining America's competitive edge in the new space race.",
+      "page_title": "David Wright",
+      "fetched_at": "2026-05-10T18:55:31.699142+00:00",
+      "cliff_notes": "David Wright has made a significant impact in the field of quantitative investing, particularly at Pictay Asset Management where he is the co-head of the quantitative investments franchise. His work focuses on leveraging advanced technologies such as machine learning and artificial intelligence to enhance investment strategies, a field that is becoming increasingly important in the financial sector. Wright's role involves managing a substantial portfolio of over $30 billion and includes the recent launch of two AI-enhanced ETFs, PQ&T and PQUS, which underscore the growing integration of AI in asset management. His contributions to the application of AI in finance have positioned him as a key figure in the evolution of investment strategies.",
       "derived": {
-        "current_role": "NASA Administrator"
+        "current_role": "Co-head of Quantitative Investments at Pictay Asset Management"
       },
       "infobox": {
         "Born": "",
-        "Nationality": "American"
+        "Nationality": ""
       },
       "lead_paragraphs": [
-        "Jared Isaacman serves as the NASA Administrator, tasked with overseeing the agency's space exploration programs. His tenure has been marked by a renewed focus on returning to the moon, a mission that holds significant scientific, economic, and national security implications. Isaacman has emphasized the importance of not only landing on the moon but also building the necessary infrastructure and systems to maintain a permanent presence.",
-        "This approach aligns with broader goals of space dominance and the desire to outpace international rivals in lunar exploration and resource utilization. His leadership at NASA is seen as crucial in shaping the future of space exploration and maintaining America's competitive edge in the new space race."
+        "David Wright has made a significant impact in the field of quantitative investing, particularly at Pictay Asset Management where he is the co-head of the quantitative investments franchise. His work focuses on leveraging advanced technologies such as machine learning and artificial intelligence to enhance investment strategies, a field that is becoming increasingly important in the financial sector.",
+        "Wright's role involves managing a substantial portfolio of over $30 billion and includes the recent launch of two AI-enhanced ETFs, PQ&T and PQUS, which underscore the growing integration of AI in asset management. His contributions to the application of AI in finance have positioned him as a key figure in the evolution of investment strategies."
       ],
       "sections": [
         {
-          "heading": "Moon Mission",
-          "body": "Isaacman has been a driving force behind NASA's mission to return to the moon, with a focus on establishing a sustainable presence and exploring the lunar surface for scientific and economic opportunities."
+          "heading": "Quantitative Investing",
+          "body": "David Wright is a leading figure in the application of quantitative methods in investment strategies, particularly with the use of machine learning and AI."
         },
         {
-          "heading": "National Security",
-          "body": "He has underscored the importance of lunar missions for national security, arguing that America must not cede lunar real estate to rivals and that a moon base is a strategic asset."
+          "heading": "AI in Finance",
+          "body": "Wright has been instrumental in the development and management of AI-enhanced ETFs, showcasing the practical application of AI in asset management."
         },
         {
-          "heading": "Space Race",
-          "body": "Isaacman views the current efforts in space as a new space race, where the challenge is not just reaching the moon but also creating the capability for regular lunar surface operations, which is crucial for maintaining a lead in space exploration."
+          "heading": "ETF Innovation",
+          "body": "Under Wright's leadership, Pictay Asset Management has launched innovative ETFs that utilize AI to optimize international and US equity investments."
         }
       ]
     }
   },
   "debater_b_snapshot": {
-    "name": "Tony James",
-    "known_for": "His leadership in transforming Blackstone into a leading global investment firm and his influence on the development of private markets.",
-    "bio": "Tony James is a prominent figure in the world of finance, known for his role as the former President and COO of Blackstone, where he played a pivotal part in transforming the firm into a trillion-dollar asset manager. His career has been instrumental in the evolution of modern private markets.",
-    "last_main_idea": "Building a successful investment organization requires compounding talent, capital, and culture over time, focusing on long-term growth rather than short-term gains.",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-05",
-    "net_worth": "$4.20B",
+    "name": "Peter Diamandis",
+    "known_for": "His work in fostering technological advancements and incentivizing innovation through the XPRIZE model.",
+    "bio": "Founder and Executive Chairman of the XPRIZE Foundation, Co-Founder of Singularity University, and an entrepreneur focused on exponential technologies.",
+    "last_main_idea": "AI is a significant driver of economic growth and innovation, presenting opportunities in AI-driven sectors, sustainable data center technologies, and AI insurance.",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-05-09",
+    "net_worth": "$200.0M",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Tony James",
-      "fetched_at": "2026-05-06T04:46:22.401279+00:00",
-      "cliff_notes": "Tony James has had a distinguished career in finance, particularly in the realm of private markets. He joined Blackstone in 2002 and served as its President and COO, playing a significant role in the firm's growth into a trillion-dollar asset manager. His tenure at Blackstone was marked by a focus on compounding talent, capital, and culture, which has been attributed to the firm's enduring success. Prior to Blackstone, James held various roles at DLJ, contributing to his expertise in finance. His career has been a testament to the importance of foresight and strategic execution in the financial sector, and he has been a key figure in shaping the modern landscape of private markets.",
+      "page_title": "Peter Diamandis",
+      "fetched_at": "2026-04-20T03:06:22.117732+00:00",
+      "cliff_notes": "Peter Diamandis is a prominent figure in the fields of innovation and technology, particularly in space exploration. He founded the X PRIZE Foundation, which has been instrumental in driving advancements in technology through incentivizing competition. Diamandis has also been involved in the commercial space industry, aiming to make space travel more accessible. His work has had a significant impact on fostering innovation and has been influential in the tech and finance sectors, as his initiatives often lead to groundbreaking technological developments.",
       "derived": {
-        "current_role": "Vice Chairman of Blackstone; Executive Chairman of Blackstone\u2019s Credit Platform",
-        "former_positions": "President and COO of Blackstone; various roles at DLJ",
-        "boards": "Board member of Costco Wholesale Corporation",
-        "education": "Harvard Business School; Harvard College"
+        "current_role": "Founder and Executive Chairman, X PRIZE Foundation",
+        "education": "MD, Harvard Medical School; MBA, MIT Sloan School of Management",
+        "books_or_works": "Abundance: The Future is Better Than You Think; Bold: How to Go Big, Create Wealth and Impact the World"
       },
       "infobox": {
-        "Born": "1950",
+        "Born": "August 20, 1961",
         "Nationality": "American"
       },
       "lead_paragraphs": [
-        "Tony James has had a distinguished career in finance, particularly in the realm of private markets. He joined Blackstone in 2002 and served as its President and COO, playing a significant role in the firm's growth into a trillion-dollar asset manager. His tenure at Blackstone was marked by a focus on compounding talent, capital, and culture, which has been attributed to the firm's enduring success.",
-        "Prior to Blackstone, James held various roles at DLJ, contributing to his expertise in finance. His career has been a testament to the importance of foresight and strategic execution in the financial sector, and he has been a key figure in shaping the modern landscape of private markets."
+        "Peter Diamandis is a prominent figure in the fields of innovation and technology, particularly in space exploration. He founded the X PRIZE Foundation, which has been instrumental in driving advancements in technology through incentivizing competition. Diamandis has also been involved in the commercial space industry, aiming to make space travel more accessible.",
+        "His work has had a significant impact on fostering innovation and has been influential in the tech and finance sectors, as his initiatives often lead to groundbreaking technological developments."
       ],
       "sections": [
         {
-          "heading": "Leadership at Blackstone",
-          "body": "Tony James served as President and COO of Blackstone, contributing to its transformation into a leading global investment firm with over a trillion dollars in assets under management."
+          "heading": "Innovation and Technology",
+          "body": "Peter Diamandis is known for his work in fostering innovation and technological advancement, particularly through the X PRIZE Foundation."
         },
         {
-          "heading": "Private Markets Evolution",
-          "body": "Throughout his career, James has been at the forefront of the evolution of private markets, influencing the industry's growth and development."
+          "heading": "Space Exploration",
+          "body": "Diamandis has been a key figure in the commercial space industry, aiming to make space travel more accessible and fostering advancements in space technology."
         },
         {
-          "heading": "Strategic Vision",
-          "body": "His strategic vision and focus on long-term value creation have been key to the success of the organizations he has led, particularly Blackstone."
+          "heading": "X PRIZE Foundation",
+          "body": "As the founder and executive chairman of the X PRIZE Foundation, Diamandis has been instrumental in designing and managing public competitions that encourage technological development for the benefit of humanity."
         }
       ]
     }
   },
-  "prompt_hash": "3246fdeae917b883"
+  "prompt_hash": "d55edf9e41bea298"
 }

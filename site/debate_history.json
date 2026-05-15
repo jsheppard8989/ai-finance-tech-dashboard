@@ -1,6 +1,18 @@
 {
-  "rotation_index": 11,
+  "rotation_index": 12,
   "weeks": [
+    {
+      "friday_iso": "2026-05-08",
+      "week_label": "Week of 2026-05-08",
+      "prompt": "Will any presidential candidate win outright in the first round of the Brazil election within the next 42 days?",
+      "debater_a": "Jared Isaacman",
+      "debater_b": "Tony James",
+      "expires_rule": "Resolves Friday 12:00 PM CST 2026-06-19",
+      "resolution_status": "pending",
+      "resolution_notes": "",
+      "archived_at": "2026-05-15T05:02:19.567362",
+      "audio_href": "./audio/archive/debate_2026-05-08.mp3"
+    },
     {
       "friday_iso": "2026-05-01",
       "week_label": "Week of 2026-05-01",
