@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-15T23:43:27.163724",
-  "last_updated": "2026-05-15T23:43:27.163724",
-  "last_pipeline_run": "2026-05-15T23:43:27.163724",
+  "generated_at": "2026-05-16T05:01:52.990223",
+  "last_updated": "2026-05-16T05:01:52.990223",
+  "last_pipeline_run": "2026-05-16T05:01:52.990223",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -15,35 +15,17 @@
     "overton_terms_total": 149,
     "latest_insights_total": 209,
     "today_mentions": {},
-    "podcasts_analyzed": 3
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 2
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
-    {
-      "id": "c0e8b831-2dee-4ce8-ab97-f4fc3bdcb864",
-      "podcast": "The a16z Show",
-      "title": "Vitalik Buterin on Human Agency in the AI Era",
-      "published": "2026-05-15",
-      "rss_guid": "c0e8b831-2dee-4ce8-ab97-f4fc3bdcb864",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "9e723c14-33a2-4bd1-9e58-e475244f9446",
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
