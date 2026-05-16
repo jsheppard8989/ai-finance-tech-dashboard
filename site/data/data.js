@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-15T13:55:04.578216",
-  chartsVersion: "2026-05-15T13:54:58.662272",
+  generatedAt: "2026-05-15T22:03:47.063833",
+  chartsVersion: "2026-05-15T22:03:33.340152",
   priceSnapshot: {
   "GOOGL": {
-    "price": 396.42,
-    "change_pct": 13.34,
+    "price": 396.78,
+    "change_pct": 13.44,
     "name": "GOOGL",
-    "updated_at": "2026-05-15T13:54:58.661187"
+    "updated_at": "2026-05-15T22:03:33.339138"
   },
   "BTC": {
-    "price": 79249.62,
-    "change_pct": 0.75,
+    "price": 79106.14,
+    "change_pct": 0.72,
     "name": "BTC",
-    "updated_at": "2026-05-15T13:54:58.661207"
+    "updated_at": "2026-05-15T22:03:33.339159"
   },
   "NVDA": {
-    "price": 228.96,
-    "change_pct": 7.41,
+    "price": 225.32,
+    "change_pct": 5.7,
     "name": "NVDA",
-    "updated_at": "2026-05-15T13:54:58.661216"
+    "updated_at": "2026-05-15T22:03:33.339170"
   },
   "MSFT": {
-    "price": 425.61,
-    "change_pct": -0.85,
+    "price": 421.92,
+    "change_pct": -1.71,
     "name": "MSFT",
-    "updated_at": "2026-05-15T13:54:58.661225"
+    "updated_at": "2026-05-15T22:03:33.339178"
   },
   "WTI": {
-    "price": 4.74,
-    "change_pct": 18.92,
+    "price": 4.75,
+    "change_pct": 19.05,
     "name": "WTI",
-    "updated_at": "2026-05-15T13:54:58.661232"
+    "updated_at": "2026-05-15T22:03:33.339186"
   },
   "S&P 500": {
-    "price": 741.69,
-    "change_pct": 4.22,
+    "price": 739.17,
+    "change_pct": 3.86,
     "name": "S&P 500",
-    "updated_at": "2026-05-15T13:54:58.661240"
+    "updated_at": "2026-05-15T22:03:33.339193"
   },
   "META": {
-    "price": 617.52,
-    "change_pct": -8.02,
+    "price": 614.23,
+    "change_pct": -8.51,
     "name": "META",
-    "updated_at": "2026-05-15T13:54:58.661248"
+    "updated_at": "2026-05-15T22:03:33.339203"
   },
   "AMZN": {
-    "price": 263.5,
-    "change_pct": 1.46,
+    "price": 264.14,
+    "change_pct": 1.71,
     "name": "AMZN",
-    "updated_at": "2026-05-15T13:54:58.661256"
+    "updated_at": "2026-05-15T22:03:33.339211"
   },
   "TSLA": {
-    "price": 426.27,
-    "change_pct": 13.36,
+    "price": 422.24,
+    "change_pct": 12.29,
     "name": "TSLA",
-    "updated_at": "2026-05-15T13:54:58.661263"
+    "updated_at": "2026-05-15T22:03:33.339220"
   },
   "QQQ": {
-    "price": 713.08,
-    "change_pct": 8.44,
+    "price": 708.93,
+    "change_pct": 7.81,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-15T13:54:58.661270"
+    "updated_at": "2026-05-15T22:03:33.339228"
   },
   "BTC-USD": {
-    "price": 79249.62,
-    "change_pct": 0.75,
+    "price": 79106.12,
+    "change_pct": 0.72,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-15T13:54:58.661277"
+    "updated_at": "2026-05-15T22:03:33.339235"
   }
 },
   tickerScores: [
@@ -847,6 +847,27 @@ const dashboardData = {
       "podcast_episode_id": 220
     },
     {
+      "id": 236,
+      "title": "Eric Jang \u2013 Building AlphaGo from scratch",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-05-15",
+      "summary": "In this episode, Eric Jeng discusses the development of OffaGo, an AI for playing Go, and its broader implications for AI research and investment strategies. The conversation highlights a significant reduction in compute required to train AI models, the importance of understanding decision-making processes in AI, and the potential for AI to automate research processes. These insights underscore the growing accessibility and efficiency of AI technologies, with potential applications beyond gaming.",
+      "key_takeaway": "Invest in AI technologies that leverage advancements in MCTS and reduced compute requirements to create scalable and efficient solutions in various industries.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT",
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 221
+    },
+    {
       "id": 233,
       "title": "Ben Horowitz - \"Your ONLY job is Right Product, Right Time\"",
       "source_type": "podcast",
@@ -959,7 +980,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-12",
       "archived_date": null,
@@ -5172,40 +5193,40 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 180,
-      "term": "Five-Pillar Framework",
-      "description": "A market analysis framework consisting of story, liquidity, monetary policy, technical analysis, and risk management.",
+      "id": 182,
+      "term": "Monte Carlo Tree Search (MCTS)",
+      "description": "A search algorithm that combines tree search with neural networks to evaluate potential moves in games like Go, allowing AI to make informed decisions without exhaustively searching all possible outcomes.",
       "first_detected_date": "2026-05-15",
       "last_mentioned_date": "2026-05-15",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors can use this framework to gain a comprehensive understanding of market dynamics.",
+      "investment_implications": "Invest in companies developing MCTS-based technologies for applications beyond gaming, such as robotics and optimization problems.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 220,
-      "first_detected_speaker": "Andrew Perry",
-      "last_mentioned_episode_id": 220,
-      "last_mentioned_speaker": "Andrew Perry"
+      "first_detected_episode_id": 221,
+      "first_detected_speaker": "Eric Jeng",
+      "last_mentioned_episode_id": 221,
+      "last_mentioned_speaker": "Eric Jeng"
     },
     {
-      "id": 181,
-      "term": "MOVE Index",
-      "description": "An index that measures bond market volatility and is crucial for understanding liquidity conditions.",
+      "id": 183,
+      "term": "Off-Policy Learning",
+      "description": "A machine learning technique where an agent learns from data that was generated by a different policy, which can lead to inefficiencies if the training data does not reflect the current policy's distribution.",
       "first_detected_date": "2026-05-15",
       "last_mentioned_date": "2026-05-15",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should track the MOVE index to anticipate market corrections and adjust risk management strategies.",
+      "investment_implications": "Invest in AI development companies that implement mechanisms to ensure training data remains relevant and reflective of the current policy.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 220,
-      "first_detected_speaker": "Andrew Perry",
-      "last_mentioned_episode_id": 220,
-      "last_mentioned_speaker": "Andrew Perry"
+      "first_detected_episode_id": 221,
+      "first_detected_speaker": "Eric Jeng",
+      "last_mentioned_episode_id": 221,
+      "last_mentioned_speaker": "Eric Jeng"
     },
     {
       "id": 174,
@@ -7922,6 +7943,26 @@ const dashboardData = {
       ]
     },
     {
+      "id": 236,
+      "title": "Eric Jang \u2013 Building AlphaGo from scratch",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-05-15",
+      "summary": "In this episode, Eric Jeng discusses the development of OffaGo, an AI for playing Go, and its broader implications for AI research and investment strategies. The conversation highlights a significant reduction in compute required to train AI models, the importance of understanding decision-making processes in AI, and the potential for AI to automate research processes. These insights underscore the growing accessibility and efficiency of AI technologies, with potential applications beyond gaming.",
+      "key_takeaway": "Invest in AI technologies that leverage advancements in MCTS and reduced compute requirements to create scalable and efficient solutions in various industries.",
+      "tickers_mentioned": "[\"GOOGL\", \"MSFT\", \"NVDA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 221,
+      "episode_release_date": "2026-05-15",
+      "guest_name": "Eric Jeng",
+      "key_tickers": []
+    },
+    {
       "id": 233,
       "title": "Ben Horowitz - \"Your ONLY job is Right Product, Right Time\"",
       "source_type": "podcast",
@@ -8003,26 +8044,6 @@ const dashboardData = {
         "MSFT",
         "GOOGL"
       ]
-    },
-    {
-      "id": 228,
-      "title": "Lloyd Blankfein on Risk, Crisis, and Leadership",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-05-12",
-      "summary": "This episode of 'The a16z Show' delves into the importance of risk management in investment, emphasizing contingency planning over prediction. It highlights the role of leadership during crises, the culture of partnership at Goldman Sachs, and the firm's effective navigation through the financial crisis. The discussion also covers the impact of technology and AI on finance, the need for careful management of these advancements, and advice for young professionals to become well-rounded. The episode underscores the significance of maintaining relationships and reputation in business, especially during challenging times.",
-      "key_takeaway": "Invest in firms with strong risk management practices and a culture of partnership to ensure stability and long-term success in a rapidly changing financial landscape.",
-      "tickers_mentioned": "[\"GS\", \"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-12",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 213,
-      "episode_release_date": "2026-05-12",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 229,
@@ -8241,55 +8262,55 @@ const dashboardData = {
       "last_mentioned_episode_date": null
     },
     {
-      "id": 180,
-      "term": "Five-Pillar Framework",
-      "description": "A market analysis framework consisting of story, liquidity, monetary policy, technical analysis, and risk management.",
+      "id": 182,
+      "term": "Monte Carlo Tree Search (MCTS)",
+      "description": "A search algorithm that combines tree search with neural networks to evaluate potential moves in games like Go, allowing AI to make informed decisions without exhaustively searching all possible outcomes.",
       "first_detected_date": "2026-05-15",
       "last_mentioned_date": "2026-05-15",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors can use this framework to gain a comprehensive understanding of market dynamics.",
+      "investment_implications": "Invest in companies developing MCTS-based technologies for applications beyond gaming, such as robotics and optimization problems.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 220,
-      "first_detected_speaker": "Andrew Perry",
-      "last_mentioned_episode_id": 220,
-      "last_mentioned_speaker": "Andrew Perry",
+      "first_detected_episode_id": 221,
+      "first_detected_speaker": "Eric Jeng",
+      "last_mentioned_episode_id": 221,
+      "last_mentioned_speaker": "Eric Jeng",
       "overton_score": 1.0,
       "resonance_pct": 25,
-      "first_detected_podcast": "Monetary Matters with Jack Farley",
-      "first_detected_episode_title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
+      "first_detected_podcast": "Dwarkesh Podcast",
+      "first_detected_episode_title": "Eric Jang \u2013 Building AlphaGo from scratch",
       "first_detected_episode_date": "2026-05-15",
-      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
-      "last_mentioned_episode_title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
+      "last_mentioned_podcast": "Dwarkesh Podcast",
+      "last_mentioned_episode_title": "Eric Jang \u2013 Building AlphaGo from scratch",
       "last_mentioned_episode_date": "2026-05-15"
     },
     {
-      "id": 181,
-      "term": "MOVE Index",
-      "description": "An index that measures bond market volatility and is crucial for understanding liquidity conditions.",
+      "id": 183,
+      "term": "Off-Policy Learning",
+      "description": "A machine learning technique where an agent learns from data that was generated by a different policy, which can lead to inefficiencies if the training data does not reflect the current policy's distribution.",
       "first_detected_date": "2026-05-15",
       "last_mentioned_date": "2026-05-15",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should track the MOVE index to anticipate market corrections and adjust risk management strategies.",
+      "investment_implications": "Invest in AI development companies that implement mechanisms to ensure training data remains relevant and reflective of the current policy.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 220,
-      "first_detected_speaker": "Andrew Perry",
-      "last_mentioned_episode_id": 220,
-      "last_mentioned_speaker": "Andrew Perry",
+      "first_detected_episode_id": 221,
+      "first_detected_speaker": "Eric Jeng",
+      "last_mentioned_episode_id": 221,
+      "last_mentioned_speaker": "Eric Jeng",
       "overton_score": 1.0,
       "resonance_pct": 25,
-      "first_detected_podcast": "Monetary Matters with Jack Farley",
-      "first_detected_episode_title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
+      "first_detected_podcast": "Dwarkesh Podcast",
+      "first_detected_episode_title": "Eric Jang \u2013 Building AlphaGo from scratch",
       "first_detected_episode_date": "2026-05-15",
-      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
-      "last_mentioned_episode_title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
+      "last_mentioned_podcast": "Dwarkesh Podcast",
+      "last_mentioned_episode_title": "Eric Jang \u2013 Building AlphaGo from scratch",
       "last_mentioned_episode_date": "2026-05-15"
     },
     {
@@ -22643,12 +22664,73 @@ const dashboardData = {
     "key_tickers": [
       "S&P 500"
     ]
+  },
+  "236": {
+    "id": 226,
+    "insight_id": 236,
+    "podcast_episode_id": 221,
+    "overview": "The competitive dynamic in AI research is shifting towards more efficient and accessible technologies. The reduction in compute requirements and the development of MCTS with neural networks are key to this shift, democratizing AI development and potentially revolutionizing industries beyond gaming. The unresolved tension lies in the scalability and generalizability of these advancements. What converts belief is the consistent performance of AI models in diverse applications and the sustained reduction in computational costs.",
+    "key_takeaways_detailed": [
+      "Investors should track the performance of AI models in non-gaming environments to gauge the scalability of MCTS-based technologies.",
+      "Monitor the cost trends in compute resources to assess the economic sustainability of AI advancements.",
+      "Evaluate the robustness of value functions in AI models as a measure of their decision-making capabilities.",
+      "Assess the relevance of training data in off-policy learning scenarios to ensure AI models adapt effectively to policy changes.",
+      "Investigate the development of AI tools for automating research processes, as these could accelerate innovation across various fields."
+    ],
+    "investment_thesis": "The investment thesis is centered on the belief that AI technologies leveraging MCTS and reduced compute requirements will lead to scalable and efficient solutions across multiple industries. This thesis is vindicated by consistent performance improvements in AI models and the continued reduction in computational costs. Conversely, a failure to achieve these reductions or a lack of performance in non-gaming applications would invalidate the thesis.",
+    "ticker_analysis": {
+      "GOOGL": {
+        "rationale": "Google's DeepMind, which developed AlphaGo, is at the forefront of AI research, particularly in MCTS and neural networks.",
+        "positioning": "Strategic long position, as Google is likely to benefit from advancements in AI technology and has the resources to scale these solutions.",
+        "risk": "The risk of increased competition from smaller, more agile AI startups that can quickly adapt to new technologies."
+      },
+      "MSFT": {
+        "rationale": "Microsoft has significant investments in AI research and development, with a focus on making AI more accessible and efficient.",
+        "positioning": "Tactical long position, as Microsoft's AI advancements could provide short-term gains in productivity and efficiency.",
+        "risk": "The risk of technological obsolescence if Microsoft fails to keep pace with the rapid advancements in AI."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA's GPUs are critical for the compute power required for AI training, and the company is investing in AI-specific hardware.",
+        "positioning": "Strategic long position, as the reduction in compute requirements could increase the demand for NVIDIA's products.",
+        "risk": "The risk of a slowdown in AI development could reduce the demand for high-performance computing hardware."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that AI advancements are overhyped and that the reduction in compute requirements is not as significant as claimed.",
+      "Concerns that the generalizability of AI models trained with MCTS is limited and may not translate well to non-gaming applications.",
+      "Skepticism about the long-term sustainability of reduced compute costs, especially if there are fluctuations in the market for compute resources."
+    ],
+    "catalysts": [
+      "Publication of peer-reviewed papers validating the 40x reduction in compute requirements for AI training.",
+      "Successful deployment of MCTS-based AI models in non-gaming applications, such as healthcare or finance.",
+      "Announcements of new AI research tools that automate research processes and significantly reduce the time to market for new technologies.",
+      "Economic reports indicating a sustained decrease in the cost of compute resources."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-15T22:02:36.115299",
+    "updated_at": "2026-05-16 03:02:36",
+    "episode_evidence": "Eric Jeng's discussion on OffaGo, an AI developed for playing Go, provides a detailed look into the advancements in AI technology. Jeng emphasizes the significant reduction in computational resources required to train AI models, stating, 'What took a whole team of research scientists that DeepMind and millions of dollars of research and compute can now be done for a few thousand dollars.' This reduction is attributed to the development of more efficient algorithms and the use of neural networks in MCTS (Monte Carlo Tree Search). Jeng explains, 'MCTS is basically a search algorithm that is deciding what moves to play best, aided by neural networks.' This approach allows AI to make decisions without exhaustively searching all possible outcomes, which is a significant advancement in AI decision-making processes. Furthermore, Jeng highlights the importance of value functions in AI, noting that 'The core conceptual breakthrough was using neural nets to make this search problem tractable.'",
+    "falsification_tracks": [
+      "A failure to replicate the 40x reduction in compute requirements for AI training across multiple independent studies would cast doubt on the scalability of these advancements.",
+      "If OffaGo's AI technology fails to perform competitively against other AI models in Go, it would suggest limitations in the MCTS approach.",
+      "A significant increase in the cost of compute resources could undermine the economic viability of the reduced compute requirement narrative.",
+      "Observations of AI models trained with MCTS struggling to generalize to non-game applications would weaken the argument for the broad applicability of these technologies."
+    ],
+    "insight_title": "Eric Jang \u2013 Building AlphaGo from scratch",
+    "source_name": "Dwarkesh Podcast",
+    "source_date": "2026-05-15",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 5543,
+    "id": 5593,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -22660,7 +22742,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5544,
+    "id": 5594,
+    "name": "Eric Jeng",
+    "slug": "eric-jeng",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in AI technologies that leverage advancements in MCTS and reduced compute requirements to create scalable and efficient solutions in various industries.",
+    "last_episode_title": "Eric Jang \u2013 Building AlphaGo from scratch",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-05-15",
+    "appearance_count": 1
+  },
+  {
+    "id": 5595,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -22672,7 +22766,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 5545,
+    "id": 5596,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -22684,7 +22778,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5546,
+    "id": 5597,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -22696,7 +22790,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5547,
+    "id": 5598,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -22708,7 +22802,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5548,
+    "id": 5599,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -22720,7 +22814,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5549,
+    "id": 5600,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -22732,7 +22826,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5550,
+    "id": 5601,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -22744,7 +22838,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5551,
+    "id": 5602,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -22756,7 +22850,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5552,
+    "id": 5603,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -22768,7 +22862,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5553,
+    "id": 5604,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -22780,7 +22874,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5554,
+    "id": 5605,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -22792,7 +22886,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5555,
+    "id": 5606,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -22804,7 +22898,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5556,
+    "id": 5607,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -22816,7 +22910,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5557,
+    "id": 5608,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -22828,7 +22922,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5558,
+    "id": 5609,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -22840,7 +22934,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5559,
+    "id": 5610,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -22852,7 +22946,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5560,
+    "id": 5611,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -22864,7 +22958,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5561,
+    "id": 5612,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -22873,18 +22967,6 @@ const dashboardData = {
     "last_episode_title": "Marc Andreessen: Monitoring the Situation and the Future of Media",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-21",
-    "appearance_count": 1
-  },
-  {
-    "id": 5562,
-    "name": "GitHub Cofounder Scott Chacon",
-    "slug": "github-cofounder-scott-chacon",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in the evolution of software development tools that cater to the needs of both human developers and AI coding agents presents an opportunity for significant growth and innovation.",
-    "last_episode_title": "Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-20",
     "appearance_count": 1
   }
 ],
@@ -23031,7 +23113,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 3,
-    "mention_score_decayed": 2.44,
+    "mention_score_decayed": 2.38,
     "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
     "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
@@ -23567,7 +23649,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -23631,7 +23713,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -23691,7 +23773,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
@@ -23764,6 +23846,69 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 251,
+    "name": "Eric Jeng",
+    "slug": "eric-jeng",
+    "bio": "Eric Jeng is an AI researcher and developer known for his work on OffaGo, an AI designed for playing Go. He has held positions at ex-technologies as Vice President of AI and was a senior research scientist at Google DeepMind Robotics. Jeng has been on sabbatical, focusing on improving OffaGo and exploring the future of AI research and development.",
+    "known_for": "His significant contributions to AI research, particularly in the field of Go AI, and the development of OffaGo.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-16 03:01:30",
+    "last_episode_title": "Eric Jang \u2013 Building AlphaGo from scratch",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-05-15",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in AI technologies that leverage advancements in MCTS and reduced compute requirements to create scalable and efficient solutions in various industries.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-15 \u2022 Eric Jang \u2013 Building AlphaGo from scratch",
+    "last_proof_snippet": "Today I'm here with Eric Jeng, who was most recently Vice President of AI at one ex-technologies, before that senior research scientist at what is now Google DeepMind Robotics, and you've been on sabbatical for the last few months. One of t",
+    "supporting_takeaway": "Monitor advancements in AI that reduce compute requirements, enabling broader access to technology.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-15T22:02:03.008947",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Eric Jeng",
+      "fetched_at": "2026-05-16T03:02:03.008480+00:00",
+      "cliff_notes": "Eric Jeng is a prominent figure in the field of AI research, with a focus on Go AI. His career has seen him take on various roles, including Vice President of AI at ex-technologies and a senior research scientist at Google DeepMind Robotics. Jeng's work on OffaGo, an AI designed for playing Go, has been a significant part of his career, showcasing the potential of AI systems to tackle complex computational problems. His sabbatical has been dedicated to rebuilding and improving OffaGo, reflecting his passion for understanding and advancing AI capabilities. Jeng's contributions to AI research are noteworthy, as they provide insights into the future of AI development and its implications for various industries.",
+      "derived": {
+        "former_positions": "Vice President of AI at ex-technologies; Senior Research Scientist at Google DeepMind Robotics"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Eric Jeng is a prominent figure in the field of AI research, with a focus on Go AI. His career has seen him take on various roles, including Vice President of AI at ex-technologies and a senior research scientist at Google DeepMind Robotics. Jeng's work on OffaGo, an AI designed for playing Go, has been a significant part of his career, showcasing the potential of AI systems to tackle complex computational problems.",
+        "His sabbatical has been dedicated to rebuilding and improving OffaGo, reflecting his passion for understanding and advancing AI capabilities. Jeng's contributions to AI research are noteworthy, as they provide insights into the future of AI development and its implications for various industries."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Go",
+          "body": "Eric Jeng is recognized for his work on OffaGo, an AI system designed to play the game of Go. His contributions to this field have been pivotal in demonstrating the capabilities of AI in handling complex tasks."
+        },
+        {
+          "heading": "Career at Google DeepMind",
+          "body": "Jeng served as a senior research scientist at Google DeepMind Robotics, where he was involved in groundbreaking research that pushed the boundaries of AI, particularly in the context of game theory and strategy."
+        },
+        {
+          "heading": "Sabbatical and OffaGo",
+          "body": "During his sabbatical, Jeng has been dedicated to enhancing OffaGo, reflecting his commitment to advancing AI technology and understanding its implications for future research and development."
+        },
+        {
+          "heading": "AI Research and Development",
+          "body": "Jeng's work provides valuable insights into the future of AI, emphasizing the importance of continued research and development in the field to solve complex computational problems."
+        }
+      ]
+    }
   },
   {
     "id": 250,
@@ -24160,7 +24305,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in private credit funds that capitalize on the retreat of banks from riskier, smaller loans due to regulatory pressures, and consider preferred equity structures for upside potential with downside protection.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-12 \u2022 Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
     "last_proof_snippet": "The dominant media narrative at the moment is direct lending and private credit, a virtually synonymous, but that is obviously not how the industry is structured, but what is definitely true is that direct lending has taken the vast majorit",
@@ -24285,7 +24430,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-10 \u2022 Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
     "last_proof_snippet": "Very pleased today to be joined by David Wright, co-head of Pictay asset management's quantitative investments franchise, which manages over $30 billion in their quant group. This includes most recently two ETFs they launched PQ&T, their Pi",
@@ -24534,7 +24679,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-07 \u2022 MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -24724,7 +24869,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -24788,7 +24933,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -24971,7 +25116,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-04 \u2022 Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
     "last_proof_snippet": "Today I was speaking to one of the best and most data-driven analysts around, Warren Pious of 314 research. If you have been seeing the ball clearer than him, last time I spoke to him, Warren's calling for S&P to 7,000 by 2026, which obviou",
@@ -25035,7 +25180,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-04 \u2022 Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
     "last_proof_snippet": "AI is going to be more important, not less important, and so the proliferation of a Western AI stack to be a top priority for anyone who cares about freedom. The rules around AI are changing fast. There's a lot of regulation abroad around d",
@@ -25094,7 +25239,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -25165,7 +25310,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -25228,7 +25373,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in companies with high levels of intangible capital using a combination of fundamental and sentiment analysis to identify mispriced opportunities, especially in sectors affected by global events.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show you'll hear more about hfgm currently the number one morning star rated funds its inception in the U.S. macro trading category. Let's ge",
@@ -25355,7 +25500,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-30 \u2022 Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
     "last_proof_snippet": "AI is creating new opportunities to rethink how enterprise systems work, potentially leading to a platform shift.",
@@ -25602,7 +25747,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investment in the biotech sector may need to consider the geographic shift towards China for innovation and efficiency in drug development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-29 \u2022 The Shift in Global Drug Development",
     "last_proof_snippet": "China's clinical trial system has rapidly expanded, with reforms that streamline the approval process.",
@@ -26166,7 +26311,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in technologies and platforms that leverage cryptography and blockchain to provide verifiable information and restore trust in digital content.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-22 \u2022 Balaji Srinivasan: Prove Correct, Not Just Go Direct",
     "last_proof_snippet": "The growing distrust in media is due to the increasing cost of verifying content as synthetic content floods systems.",
@@ -26921,7 +27066,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in AI companies that are positioned to benefit from the rapid growth and valuation in the industry, and consider the broader implications of AI on the future of work and social structures.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-14 \u2022 Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
     "last_proof_snippet": "AI is expected to replace many white collar jobs in the near future.",
@@ -28055,7 +28200,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-04 \u2022 \u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
     "last_proof_snippet": "Shipping inefficiencies can lead to increased profits for ship owners.",
@@ -28360,7 +28505,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-01 \u2022 What Happens When a Public Company Goes All In on AI",
     "last_proof_snippet": "AI agents have significantly increased productivity, with one or two engineers on the tools being able to achieve 10-100x more output than before.",
@@ -29111,7 +29256,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
     "last_proof_snippet": "The world is transitioning into a multi-polar world, which has economic and investment implications.",
@@ -30346,7 +30491,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-18 \u2022 The Geopolitics of Technology and the Future Economy",
     "last_proof_snippet": "Helbert emphasizes the importance of hardware in the geopolitical technology war and the control over the internet's infrastructure.",
@@ -30410,7 +30555,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-19 \u2022 Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
     "last_proof_snippet": "The immediate impact of an oil shock is inflationary, but over time it could lead to a negative shock on the economy.",
@@ -30718,7 +30863,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
     "last_proof_snippet": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper | EP #230 Moonshots with Peter Diamandis Episode 230 00:00:00 When do we see a billion-dollar revenue company being run by an AI CEO",

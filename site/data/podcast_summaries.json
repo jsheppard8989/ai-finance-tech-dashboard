@@ -1,5 +1,21 @@
 [
   {
+    "id": 221,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "Eric Jang \u2013 Building AlphaGo from scratch",
+    "episode_date": "2026-05-15",
+    "summary": "In this episode, Eric Jeng discusses the development of OffaGo, an AI for playing Go, and its broader implications for AI research and investment strategies. The conversation highlights a significant reduction in compute required to train AI models, the importance of understanding decision-making processes in AI, and the potential for AI to automate research processes. These insights underscore the growing accessibility and efficiency of AI technologies, with potential applications beyond gaming.",
+    "key_takeaways": [
+      "Invest in companies utilizing MCTS for AI applications beyond gaming.",
+      "Monitor advancements in AI that reduce compute requirements, enabling broader access to technology.",
+      "Prioritize the development of robust value functions in AI models to enhance decision-making capabilities.",
+      "Implement strategies to ensure training data remains relevant to the current policy in off-policy learning scenarios.",
+      "Investigate AI tools that automate research processes to accelerate innovation and development."
+    ],
+    "investment_thesis": "Invest in AI technologies that leverage advancements in MCTS and reduced compute requirements to create scalable and efficient solutions in various industries.",
+    "key_tickers": null
+  },
+  {
     "id": 220,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
@@ -119,24 +135,6 @@
       "Monitor macroeconomic indicators and sector maturity to inform investment strategies and identify emerging opportunities."
     ],
     "investment_thesis": "Invest in private credit funds that capitalize on the retreat of banks from riskier, smaller loans due to regulatory pressures, and consider preferred equity structures for upside potential with downside protection.",
-    "key_tickers": null
-  },
-  {
-    "id": 213,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Lloyd Blankfein on Risk, Crisis, and Leadership",
-    "episode_date": "2026-05-12",
-    "summary": "This episode of 'The a16z Show' delves into the importance of risk management in investment, emphasizing contingency planning over prediction. It highlights the role of leadership during crises, the culture of partnership at Goldman Sachs, and the firm's effective navigation through the financial crisis. The discussion also covers the impact of technology and AI on finance, the need for careful management of these advancements, and advice for young professionals to become well-rounded. The episode underscores the significance of maintaining relationships and reputation in business, especially during challenging times.",
-    "key_takeaways": [
-      "Robust risk management frameworks should prioritize contingency planning.",
-      "Leadership in crises requires quick decision-making with incomplete information.",
-      "A partnership culture can enhance employee commitment and stability within organizations.",
-      "Maintaining strong client relationships is crucial for navigating financial crises.",
-      "Technology adoption in finance must be balanced with rigorous testing and risk assessment.",
-      "Investors should cautiously approach emerging technologies, considering long-term viability and ethical implications.",
-      "Young professionals should seek diverse experiences to enhance career resilience and adaptability."
-    ],
-    "investment_thesis": "Invest in firms with strong risk management practices and a culture of partnership to ensure stability and long-term success in a rapidly changing financial landscape.",
     "key_tickers": null
   }
 ]
