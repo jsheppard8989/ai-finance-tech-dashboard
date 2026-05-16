@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-15T22:03:47.063833",
-  chartsVersion: "2026-05-15T22:03:33.340152",
+  generatedAt: "2026-05-15T23:43:32.158084",
+  chartsVersion: "2026-05-15T23:43:25.462566",
   priceSnapshot: {
   "GOOGL": {
     "price": 396.78,
     "change_pct": 13.44,
     "name": "GOOGL",
-    "updated_at": "2026-05-15T22:03:33.339138"
+    "updated_at": "2026-05-15T23:43:25.461775"
   },
   "BTC": {
-    "price": 79106.14,
-    "change_pct": 0.72,
+    "price": 78950.63,
+    "change_pct": 0.53,
     "name": "BTC",
-    "updated_at": "2026-05-15T22:03:33.339159"
+    "updated_at": "2026-05-15T23:43:25.461792"
   },
   "NVDA": {
     "price": 225.32,
     "change_pct": 5.7,
     "name": "NVDA",
-    "updated_at": "2026-05-15T22:03:33.339170"
+    "updated_at": "2026-05-15T23:43:25.461799"
   },
   "MSFT": {
     "price": 421.92,
     "change_pct": -1.71,
     "name": "MSFT",
-    "updated_at": "2026-05-15T22:03:33.339178"
+    "updated_at": "2026-05-15T23:43:25.461805"
   },
   "WTI": {
     "price": 4.75,
     "change_pct": 19.05,
     "name": "WTI",
-    "updated_at": "2026-05-15T22:03:33.339186"
+    "updated_at": "2026-05-15T23:43:25.461811"
   },
   "S&P 500": {
     "price": 739.17,
     "change_pct": 3.86,
     "name": "S&P 500",
-    "updated_at": "2026-05-15T22:03:33.339193"
+    "updated_at": "2026-05-15T23:43:25.461816"
   },
   "META": {
     "price": 614.23,
     "change_pct": -8.51,
     "name": "META",
-    "updated_at": "2026-05-15T22:03:33.339203"
+    "updated_at": "2026-05-15T23:43:25.461822"
   },
   "AMZN": {
     "price": 264.14,
     "change_pct": 1.71,
     "name": "AMZN",
-    "updated_at": "2026-05-15T22:03:33.339211"
+    "updated_at": "2026-05-15T23:43:25.461828"
   },
   "TSLA": {
     "price": 422.24,
     "change_pct": 12.29,
     "name": "TSLA",
-    "updated_at": "2026-05-15T22:03:33.339220"
+    "updated_at": "2026-05-15T23:43:25.461833"
   },
   "QQQ": {
     "price": 708.93,
     "change_pct": 7.81,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-15T22:03:33.339228"
+    "updated_at": "2026-05-15T23:43:25.461839"
   },
   "BTC-USD": {
-    "price": 79106.12,
-    "change_pct": 0.72,
+    "price": 78950.63,
+    "change_pct": 0.53,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-15T22:03:33.339235"
+    "updated_at": "2026-05-15T23:43:25.461844"
   }
 },
   tickerScores: [
@@ -868,6 +868,25 @@ const dashboardData = {
       "podcast_episode_id": 221
     },
     {
+      "id": 237,
+      "title": "Vitalik Buterin on Human Agency in the AI Era",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-15",
+      "summary": "This podcast episode discusses the importance of sanctuary technologies that protect individual agency and privacy while ensuring safety. Vitalik Buterin emphasizes the need for active learning in the face of increasing centralization and powerful AI systems. The conversation highlights the shift from passive consumption to active creation as crucial for maintaining relevance and agency in a rapidly changing technological landscape.",
+      "key_takeaway": "Invest in technologies that empower individuals to maintain autonomy and control in a world where threats to personal safety and privacy are growing.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 222
+    },
+    {
       "id": 233,
       "title": "Ben Horowitz - \"Your ONLY job is Right Product, Right Time\"",
       "source_type": "podcast",
@@ -999,7 +1018,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-12",
       "archived_date": null,
@@ -5193,42 +5212,6 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 182,
-      "term": "Monte Carlo Tree Search (MCTS)",
-      "description": "A search algorithm that combines tree search with neural networks to evaluate potential moves in games like Go, allowing AI to make informed decisions without exhaustively searching all possible outcomes.",
-      "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-05-15",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies developing MCTS-based technologies for applications beyond gaming, such as robotics and optimization problems.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 221,
-      "first_detected_speaker": "Eric Jeng",
-      "last_mentioned_episode_id": 221,
-      "last_mentioned_speaker": "Eric Jeng"
-    },
-    {
-      "id": 183,
-      "term": "Off-Policy Learning",
-      "description": "A machine learning technique where an agent learns from data that was generated by a different policy, which can lead to inefficiencies if the training data does not reflect the current policy's distribution.",
-      "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-05-15",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in AI development companies that implement mechanisms to ensure training data remains relevant and reflective of the current policy.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 221,
-      "first_detected_speaker": "Eric Jeng",
-      "last_mentioned_episode_id": 221,
-      "last_mentioned_speaker": "Eric Jeng"
-    },
-    {
       "id": 174,
       "term": "Capability-Bounded Approach",
       "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
@@ -7963,6 +7946,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 237,
+      "title": "Vitalik Buterin on Human Agency in the AI Era",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-15",
+      "summary": "This podcast episode discusses the importance of sanctuary technologies that protect individual agency and privacy while ensuring safety. Vitalik Buterin emphasizes the need for active learning in the face of increasing centralization and powerful AI systems. The conversation highlights the shift from passive consumption to active creation as crucial for maintaining relevance and agency in a rapidly changing technological landscape.",
+      "key_takeaway": "Invest in technologies that empower individuals to maintain autonomy and control in a world where threats to personal safety and privacy are growing.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 222,
+      "episode_release_date": "2026-05-15",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 233,
       "title": "Ben Horowitz - \"Your ONLY job is Right Product, Right Time\"",
       "source_type": "podcast",
@@ -8044,26 +8047,6 @@ const dashboardData = {
         "MSFT",
         "GOOGL"
       ]
-    },
-    {
-      "id": 229,
-      "title": "Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-05-12",
-      "summary": "In this episode of Monetary Matters, host Jack Farley discusses the private credit market with Thomas Lloyd Jones, focusing on direct lending, regulatory impacts, and opportunities in transitional assets. The conversation highlights the concentration risk in direct lending, the influence of Basel III and IV on conservative lending, and the strategic use of preferred equity. The European private credit market's maturity is compared to the U.S., with insights on the student housing market in the UK and the importance of understanding investor bases.",
-      "key_takeaway": "Invest in private credit funds that capitalize on the retreat of banks from riskier, smaller loans due to regulatory pressures, and consider preferred equity structures for upside potential with downside protection.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-12",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 214,
-      "episode_release_date": "2026-05-12",
-      "guest_name": "Lending Where the Banks Won\u2019t Go",
-      "key_tickers": []
     },
     {
       "id": 230,
@@ -8260,58 +8243,6 @@ const dashboardData = {
       "last_mentioned_podcast": null,
       "last_mentioned_episode_title": null,
       "last_mentioned_episode_date": null
-    },
-    {
-      "id": 182,
-      "term": "Monte Carlo Tree Search (MCTS)",
-      "description": "A search algorithm that combines tree search with neural networks to evaluate potential moves in games like Go, allowing AI to make informed decisions without exhaustively searching all possible outcomes.",
-      "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-05-15",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies developing MCTS-based technologies for applications beyond gaming, such as robotics and optimization problems.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 221,
-      "first_detected_speaker": "Eric Jeng",
-      "last_mentioned_episode_id": 221,
-      "last_mentioned_speaker": "Eric Jeng",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "Dwarkesh Podcast",
-      "first_detected_episode_title": "Eric Jang \u2013 Building AlphaGo from scratch",
-      "first_detected_episode_date": "2026-05-15",
-      "last_mentioned_podcast": "Dwarkesh Podcast",
-      "last_mentioned_episode_title": "Eric Jang \u2013 Building AlphaGo from scratch",
-      "last_mentioned_episode_date": "2026-05-15"
-    },
-    {
-      "id": 183,
-      "term": "Off-Policy Learning",
-      "description": "A machine learning technique where an agent learns from data that was generated by a different policy, which can lead to inefficiencies if the training data does not reflect the current policy's distribution.",
-      "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-05-15",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in AI development companies that implement mechanisms to ensure training data remains relevant and reflective of the current policy.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 221,
-      "first_detected_speaker": "Eric Jeng",
-      "last_mentioned_episode_id": 221,
-      "last_mentioned_speaker": "Eric Jeng",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "Dwarkesh Podcast",
-      "first_detected_episode_title": "Eric Jang \u2013 Building AlphaGo from scratch",
-      "first_detected_episode_date": "2026-05-15",
-      "last_mentioned_podcast": "Dwarkesh Podcast",
-      "last_mentioned_episode_title": "Eric Jang \u2013 Building AlphaGo from scratch",
-      "last_mentioned_episode_date": "2026-05-15"
     },
     {
       "id": 174,
@@ -8546,6 +8477,58 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
       "last_mentioned_episode_date": "2026-05-04"
+    },
+    {
+      "id": 143,
+      "term": "Cross-Solver Tensions",
+      "description": "The challenges faced by companies that try to replace multiple functionalities within a single platform.",
+      "first_detected_date": "2026-05-01",
+      "last_mentioned_date": "2026-05-01",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the potential for new platforms that can address specific pain points within enterprise software more effectively than incumbents.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.72,
+      "resonance_pct": 18,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
+    },
+    {
+      "id": 144,
+      "term": "Descheduling",
+      "description": "The removal of a substance from a list of controlled substances, in this case, cannabis.",
+      "first_detected_date": "2026-05-01",
+      "last_mentioned_date": "2026-05-01",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Descheduling can lead to significant changes in the legal and operational landscape for businesses in the affected industry.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.72,
+      "resonance_pct": 18,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
     }
   ]
 },
@@ -22725,12 +22708,61 @@ const dashboardData = {
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-05-15",
     "key_tickers": []
+  },
+  "237": {
+    "id": 227,
+    "insight_id": 237,
+    "podcast_episode_id": 222,
+    "overview": "The unresolved tension highlighted by Vitalik Buterin is the tradeoff between centralized systems that offer safety and the loss of individual privacy and agency. The competitive dynamic is between traditional security models that centralize control and the emerging 'sanctuary technologies' that seek to empower individuals. The allocator-relevant implication is that as technology progresses, the balance between safety and individual autonomy will increasingly dictate the winners and losers in the market. The metric that arbitrates this uncertainty is the adoption rate and effectiveness of sanctuary technologies in preserving privacy while ensuring safety.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the development of sanctuary technologies, as their success could indicate a market shift towards prioritizing individual agency and privacy.",
+      "Organizations should consider the long-term implications of centralization on their business models and explore ways to integrate sanctuary principles to maintain relevance.",
+      "Active learning strategies should be integrated into corporate training to enhance adaptability and innovation in response to rapid technological changes.",
+      "Investors should evaluate the potential of companies that foster a culture of active learning and critical thinking, as these may be better positioned to navigate the complexities of the AI era."
+    ],
+    "investment_thesis": "The core logic is that in an increasingly centralized and AI-driven world, there is a growing demand for technologies that enhance individual agency and privacy. This demand will drive investment towards companies that can deliver sanctuary technologies. The thesis is vindicated if there is a measurable increase in the adoption of such technologies and a corresponding decline in centralized systems over a 5-year timeframe.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's focus on user privacy and its development of technologies that empower individuals, such as its App Tracking Transparency feature, aligns with the sanctuary technology concept.",
+        "positioning": "Positioned as a long-term strategic investment due to Apple's consistent track record in prioritizing user privacy and its potential to capitalize on the growing demand for sanctuary technologies.",
+        "risk": "Key risks include regulatory challenges that may impede Apple's ability to implement privacy-focused features and increased competition from companies offering alternative privacy solutions."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant increase in the market share of companies that rely on centralized data collection and processing could indicate a market preference for convenience over privacy and agency.",
+      "The failure of high-profile privacy-focused products or services could lead to a reevaluation of the demand for sanctuary technologies.",
+      "A shift in consumer behavior towards passive consumption of technology, indicating a reduced for active engagement and control."
+    ],
+    "catalysts": [
+      "Regulatory changes that enforce stricter privacy standards or limit data collection by tech giants.",
+      "The launch of new privacy-focused products or services by major tech companies.",
+      "Significant security breaches or privacy scandals that highlight the risks of centralized systems.",
+      "Advancements in AI and machine learning that enable more effective sanctuary technologies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-15T23:42:35.978213",
+    "updated_at": "2026-05-16 04:42:35",
+    "episode_evidence": "Vitalik Buterin's discussion on sanctuary technologies reveals a nuanced perspective on safety and privacy. He argues, 'The vision of safety that we're competing with is basically, oh, you know, let's trust the uncle in the sky... in exchange for taking away all of our privacy and all of our agency.' This statement underscores the tension between centralized systems that offer safety at the cost of individual autonomy and the need for technologies that empower individuals without compromising their privacy. Furthermore, Buterin emphasizes the importance of active learning, stating, 'Learning actively is just ten times more effective than learning possibly even for the standard amount of time spent.' This insight suggests that in an era of rapid technological change, those who engage actively with new information will be better positioned to adapt and thrive.",
+    "falsification_tracks": [
+      "If global peace indices show a consistent improvement over the next five years, it could challenge the assertion that the world is becoming less safe.",
+      "A significant decrease in reported cybercrimes or privacy breaches might indicate that current technologies are effectively addressing safety concerns without compromising privacy.",
+      "Should the adoption of AI and digital communication technologies plateau or decline, it could suggest that the market is not prioritizing individual agency and privacy as hypothesized."
+    ],
+    "insight_title": "Vitalik Buterin on Human Agency in the AI Era",
+    "source_name": "The a16z Show",
+    "source_date": "2026-05-15",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 5593,
+    "id": 5644,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -22742,7 +22774,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5594,
+    "id": 5645,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -22754,7 +22786,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5595,
+    "id": 5646,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -22766,7 +22798,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 5596,
+    "id": 5647,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -22778,7 +22810,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5597,
+    "id": 5648,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -22790,7 +22822,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5598,
+    "id": 5649,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -22802,7 +22834,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5599,
+    "id": 5650,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -22814,7 +22846,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5600,
+    "id": 5651,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -22826,7 +22858,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5601,
+    "id": 5652,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -22838,7 +22870,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5602,
+    "id": 5653,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -22850,7 +22882,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5603,
+    "id": 5654,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -22862,7 +22894,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5604,
+    "id": 5655,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -22874,7 +22906,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5605,
+    "id": 5656,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -22886,7 +22918,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5606,
+    "id": 5657,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -22898,7 +22930,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5607,
+    "id": 5658,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -22910,7 +22942,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5608,
+    "id": 5659,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -22922,7 +22954,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5609,
+    "id": 5660,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -22934,7 +22966,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5610,
+    "id": 5661,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -22946,7 +22978,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5611,
+    "id": 5662,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -22958,7 +22990,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5612,
+    "id": 5663,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -23158,6 +23190,68 @@ const dashboardData = {
       ]
     },
     "net_worth": "$12.3M"
+  },
+  {
+    "id": 164,
+    "name": "Vitalik Buterin",
+    "slug": "vitalik-buterin",
+    "bio": "Vitalik Buterin is a Russian-Canadian programmer and writer primarily known as the co-founder of Ethereum, a blockchain platform that supports smart contracts. He has been a significant figure in the blockchain and cryptocurrency space, contributing to the development of decentralized applications.",
+    "known_for": "His work on Ethereum and contributions to the development of decentralized applications.",
+    "net_worth_usd": 461000000.0,
+    "net_worth_source": "https://coincodex.com/article/22825/vitalik-buterin-net-worth/",
+    "net_worth_updated_at": "2026-04-09T22:05:44.682431",
+    "voice_tone": "Thoughtful and analytical.",
+    "voice_style": "Discusses complex ideas with clarity and depth.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points.",
+    "voice_profile_updated_at": "2026-05-16 04:42:04",
+    "last_seen": "2026-05-16 04:42:04",
+    "last_episode_title": "Vitalik Buterin on Human Agency in the AI Era",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-15",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Invest in technologies that empower individuals to maintain autonomy and control in a world where threats to personal safety and privacy are growing.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-15 \u2022 Vitalik Buterin on Human Agency in the AI Era",
+    "last_proof_snippet": "One of the challenges the world right now is that we're definitely in a less peaceful and less safe world than 10 or 15 years ago. The vision of safety that we're competing with is basically, oh, you know, let's trust the uncle in the sky a",
+    "supporting_takeaway": "Encourage active learning strategies within teams to enhance retention and understanding.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-15T23:42:12.204186",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Vitalik Buterin",
+      "fetched_at": "2026-05-16T04:42:12.203860+00:00",
+      "cliff_notes": "Vitalik Buterin was born in Russia and moved to Canada at a young age. He developed an interest in programming and mathematics early on. He began working on Bitcoin projects in 2011 and later proposed the concept of Ethereum in 2013. Ethereum, launched in 2015, introduced the idea of a decentralized platform that could run smart contracts, which has since revolutionized the blockchain space. Buterin's work has had a significant impact on the development of decentralized applications and the broader cryptocurrency ecosystem.",
+      "derived": {
+        "current_role": "Co-founder of Ethereum",
+        "education": "Dropout from University of Waterloo",
+        "books_or_works": "Ethereum Whitepaper"
+      },
+      "infobox": {
+        "Born": "1994",
+        "Nationality": "Russian-Canadian"
+      },
+      "lead_paragraphs": [
+        "Vitalik Buterin was born in Russia and moved to Canada at a young age. He developed an interest in programming and mathematics early on. He began working on Bitcoin projects in 2011 and later proposed the concept of Ethereum in 2013. Ethereum, launched in 2015, introduced the idea of a decentralized platform that could run smart contracts, which has since revolutionized the blockchain space.",
+        "Buterin's work has had a significant impact on the development of decentralized applications and the broader cryptocurrency ecosystem."
+      ],
+      "sections": [
+        {
+          "heading": "Ethereum",
+          "body": "Vitalik Buterin co-founded Ethereum, a blockchain platform that supports smart contracts, in 2015."
+        },
+        {
+          "heading": "Decentralized Applications",
+          "body": "Buterin's work on Ethereum has enabled the development of decentralized applications, which operate without a central authority."
+        },
+        {
+          "heading": "Blockchain Technology",
+          "body": "Buterin has been a prominent figure in the blockchain and cryptocurrency space, contributing to the development and understanding of this technology."
+        }
+      ]
+    },
+    "net_worth": "$461.0M"
   },
   {
     "id": 121,
@@ -24369,7 +24463,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in initiatives that promote transparency in local governance, support independent filmmakers, and advocate for education reform to drive economic revitalization and improve public services in Los Angeles.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-10 \u2022 Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
     "last_proof_snippet": "Spencer Pratt, welcome to the All In Podcast. Thank you for having me. You had an unbelievable debate performance the other night. I have so many friends that were texting and people obviously were tweeting about it. Let's start with that.",
@@ -25810,7 +25904,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -26246,7 +26340,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -26626,7 +26720,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
     "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
@@ -26754,7 +26848,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -26943,7 +27037,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-15 \u2022 Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
     "last_proof_snippet": "The company's revenue grew from $2.5 million to $250 million in just over a year, demonstrating the potential of AI in software development.",
@@ -27007,7 +27101,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-14 \u2022 \"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
     "last_proof_snippet": "Investing with a long-term perspective involves considering macroeconomic factors and their impact on smaller companies.",
@@ -27130,7 +27224,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
@@ -27314,7 +27408,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investing in companies with a strong cultural identity and clear strategic focus can provide an edge in technology markets, as demonstrated by the contrasting paths of Apple and Microsoft.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-10 \u2022 What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
     "last_proof_snippet": "Microsoft's strength in enterprise is due to the legendary compatibility of Windows, a key value for corporations.",
@@ -27511,7 +27605,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
     "last_proof_snippet": "Beach Point Capital Management primarily manages institutional capital, which is characterized as patient capital.",
@@ -27557,72 +27651,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 164,
-    "name": "Vitalik Buterin",
-    "slug": "vitalik-buterin",
-    "bio": "Vitalik Buterin is a programmer and writer primarily known as the co-founder of Ethereum, a blockchain platform that enables decentralized applications. His work in cryptocurrency and blockchain technology has made him a significant figure in the field.",
-    "known_for": "Co-founding Ethereum, a leading platform for decentralized applications and cryptocurrencies.",
-    "net_worth_usd": 461000000.0,
-    "net_worth_source": "https://coincodex.com/article/22825/vitalik-buterin-net-worth/",
-    "net_worth_updated_at": "2026-04-09T22:05:44.682431",
-    "voice_tone": "Thoughtful and measured",
-    "voice_style": "Analytical and philosophical",
-    "voice_delivery_notes": "Paced with emphasis on key philosophical points",
-    "voice_profile_updated_at": "2026-04-10 03:04:19",
-    "last_seen": "2026-04-10 03:04:19",
-    "last_episode_title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-09",
-    "mention_score": 1,
-    "mention_score_decayed": 0.45,
-    "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
-    "last_proof_snippet": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
-    "supporting_takeaway": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-09T22:05:43.619712",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Vitalik Buterin",
-      "fetched_at": "2026-04-10T03:05:43.619446+00:00",
-      "cliff_notes": "Vitalik Buterin was born in Russia and later moved to Canada with his family. He showed an early interest in programming and mathematics. He became involved with Bitcoin in his teenage years and began writing for Bitcoin Magazine. His dissatisfaction with the limitations of Bitcoin led him to propose Ethereum, a more flexible blockchain platform that could support a wide range of decentralized applications. Ethereum was launched in 2015, and Buterin has continued to play a central role in its development. He has also been an influential voice in discussions about the future of blockchain technology and its potential impact on society.",
-      "derived": {
-        "current_role": "Co-founder of Ethereum",
-        "education": "Dropout from University of Waterloo",
-        "books_or_works": "White paper on Ethereum; various articles on blockchain technology"
-      },
-      "infobox": {
-        "Born": "1994",
-        "Nationality": "Canadian"
-      },
-      "lead_paragraphs": [
-        "Vitalik Buterin was born in Russia and later moved to Canada with his family. He showed an early interest in programming and mathematics. He became involved with Bitcoin in his teenage years and began writing for Bitcoin Magazine. His dissatisfaction with the limitations of Bitcoin led him to propose Ethereum, a more flexible blockchain platform that could support a wide range of decentralized applications.",
-        "Ethereum was launched in 2015, and Buterin has continued to play a central role in its development. He has also been an influential voice in discussions about the future of blockchain technology and its potential impact on society."
-      ],
-      "sections": [
-        {
-          "heading": "Ethereum",
-          "body": "Buterin co-founded Ethereum, a blockchain platform that enables decentralized applications, in 2015. It has since become one of the largest and most influential blockchain networks."
-        },
-        {
-          "heading": "Blockchain Advocacy",
-          "body": "Buterin is a prominent advocate for blockchain technology, speaking and writing extensively on its potential applications and implications for the future."
-        },
-        {
-          "heading": "Decentralization",
-          "body": "A key aspect of Buterin's vision for Ethereum is its potential to decentralize power and control, reducing the influence of centralized authorities."
-        },
-        {
-          "heading": "Accelerationism",
-          "body": "Buterin has expressed views on accelerationism, the idea that technological progress should be accelerated rather than restrained, in order to achieve a better future."
-        }
-      ]
-    },
-    "net_worth": "$461.0M"
-  },
-  {
     "id": 165,
     "name": "Guillem Bert",
     "slug": "guillem-bert",
@@ -27640,7 +27668,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
@@ -27955,7 +27983,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
     "last_proof_snippet": "AI is a shortcut that can be beneficial but also presents challenges in debugging and understanding.",
@@ -28445,7 +28473,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_proof_snippet": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",
@@ -28881,7 +28909,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-27 \u2022 Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
     "last_proof_snippet": "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",
@@ -30425,7 +30453,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-18 \u2022 Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
     "last_proof_snippet": "Fetterman has a unique perspective, being popular among Republicans while maintaining his Democratic affiliation.",

@@ -1,5 +1,21 @@
 [
   {
+    "id": 222,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Vitalik Buterin on Human Agency in the AI Era",
+    "episode_date": "2026-05-15",
+    "summary": "This podcast episode discusses the importance of sanctuary technologies that protect individual agency and privacy while ensuring safety. Vitalik Buterin emphasizes the need for active learning in the face of increasing centralization and powerful AI systems. The conversation highlights the shift from passive consumption to active creation as crucial for maintaining relevance and agency in a rapidly changing technological landscape.",
+    "key_takeaways": [
+      "Invest in companies developing sanctuary technologies that prioritize user agency and privacy.",
+      "Encourage active learning strategies within teams to enhance retention and understanding.",
+      "Foster a culture that promotes proactive decision-making and critical thinking to enhance adaptability.",
+      "Implement active learning sessions within teams to improve engagement and retention of information.",
+      "Invest in technologies that enhance individual agency and privacy, particularly in the context of AI and digital communication."
+    ],
+    "investment_thesis": "Invest in technologies that empower individuals to maintain autonomy and control in a world where threats to personal safety and privacy are growing.",
+    "key_tickers": null
+  },
+  {
     "id": 221,
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "Eric Jang \u2013 Building AlphaGo from scratch",
@@ -120,21 +136,6 @@
       "AI is viewed as an empowering tool that can enhance individual capabilities and democratize access to knowledge."
     ],
     "investment_thesis": "Invest in companies that demonstrate a capability-bounded approach, reinvestment in growth, and a culture of learning from failures to capitalize on innovation and long-term success.",
-    "key_tickers": null
-  },
-  {
-    "id": 214,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
-    "episode_date": "2026-05-12",
-    "summary": "In this episode of Monetary Matters, host Jack Farley discusses the private credit market with Thomas Lloyd Jones, focusing on direct lending, regulatory impacts, and opportunities in transitional assets. The conversation highlights the concentration risk in direct lending, the influence of Basel III and IV on conservative lending, and the strategic use of preferred equity. The European private credit market's maturity is compared to the U.S., with insights on the student housing market in the UK and the importance of understanding investor bases.",
-    "key_takeaways": [
-      "Diversify investments within private credit to mitigate concentration risks associated with direct lending.",
-      "Focus on private credit funds that target transitional assets and sectors where banks are retreating due to regulatory pressures.",
-      "Evaluate preferred equity opportunities in funds to capture upside potential while maintaining downside protections.",
-      "Monitor macroeconomic indicators and sector maturity to inform investment strategies and identify emerging opportunities."
-    ],
-    "investment_thesis": "Invest in private credit funds that capitalize on the retreat of banks from riskier, smaller loans due to regulatory pressures, and consider preferred equity structures for upside potential with downside protection.",
     "key_tickers": null
   }
 ]
