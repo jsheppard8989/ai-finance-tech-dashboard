@@ -1,5 +1,37 @@
 [
   {
+    "id": 224,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
+    "episode_date": "2026-05-16",
+    "summary": "In this episode of Monetary Matters, Jack Farley discusses the current state of the market, focusing on unsustainable earnings expectations for the S&P 500, the potential bubble characterized by inflated earnings rather than price, and the concentration of wealth among tech companies. The conversation also touches on policymakers' inaction on inflation and strategies for navigating these market dynamics.",
+    "key_takeaways": [
+      "Reassess high-growth stock positions based on earnings sustainability and market conditions.",
+      "Implement trailing stop-loss orders to protect gains in a potentially volatile market.",
+      "Explore options strategies, such as selling out-of-the-money calls and buying puts, to hedge concentrated positions.",
+      "Monitor inflation trends closely and adjust investment strategies accordingly to mitigate risks associated with rising prices.",
+      "Diversify portfolios to reduce exposure to concentrated tech stocks and mitigate systemic risks."
+    ],
+    "investment_thesis": "The current market dynamics suggest a potential bubble, characterized by inflated earnings expectations rather than traditional valuation metrics, indicating the need for disciplined profit-taking strategies and portfolio diversification.",
+    "key_tickers": null
+  },
+  {
+    "id": 223,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+    "episode_date": "2026-05-16",
+    "summary": "This podcast episode discusses the exponential growth in AI demand, highlighting Anthropic's 80-fold growth and potential to reach a $100 billion revenue run rate by the end of 2026. The conversation emphasizes strategic partnerships, particularly between Anthropic and SpaceX, and the shift towards enterprise-oriented AI solutions. It also touches on the viability of ocean-based data centers and the importance of narrative in AI adoption. The episode suggests investment opportunities in AI infrastructure, chip manufacturing, and renewable energy technologies.",
+    "key_takeaways": [
+      "Invest in companies like Anthropic and those involved in AI infrastructure and chip manufacturing.",
+      "Monitor strategic partnerships in the AI space for potential investment opportunities.",
+      "Advocate for and support narratives that highlight the positive impacts of AI on society.",
+      "Explore opportunities in ocean-based data centers and renewable energy technologies.",
+      "Stay informed about government policies and initiatives related to AI and technology collaboration."
+    ],
+    "investment_thesis": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
+    "key_tickers": null
+  },
+  {
     "id": 222,
     "podcast_name": "The a16z Show",
     "episode_title": "Vitalik Buterin on Human Agency in the AI Era",
@@ -104,38 +136,5 @@
       "MSFT",
       "GOOGL"
     ]
-  },
-  {
-    "id": 216,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Energy, Minerals, and the Physical Stack Behind AI",
-    "episode_date": "2026-05-13",
-    "summary": "The podcast discusses the critical minerals supply chain gap between the U.S. and China, the importance of integrating software and autonomy in mining and refining, and the need to modernize the electricity grid. It emphasizes the necessity of a durable industrial policy to attract private capital and the significance of labor dynamics in industrial competitiveness. The episode also highlights the potential of AI and autonomous systems in optimizing industrial operations.",
-    "key_takeaways": [
-      "Invest in companies that innovate in the critical minerals space to capitalize on U.S. re-industrialization efforts.",
-      "Explore partnerships with firms leveraging AI and automation in traditional industries to enhance operational efficiency.",
-      "Advocate for durable industrial policies that support long-term investment in manufacturing and energy sectors.",
-      "Identify and recruit talent from analogous industries to build a skilled workforce for emerging sectors.",
-      "Monitor developments in solid-state transformer technology and grid modernization as potential investment opportunities."
-    ],
-    "investment_thesis": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
-    "key_tickers": null
-  },
-  {
-    "id": 215,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
-    "episode_date": "2026-05-12",
-    "summary": "In this episode, the hosts discuss Koch Industries' evolution from a small oil gathering company to a diversified conglomerate, emphasizing a capability-bounded approach, reinvestment strategy, and learning from failures. The conversation also touches on education reform, the empowering potential of AI, and the importance of removing barriers to individual potential, particularly in economic mobility and opportunity.",
-    "key_takeaways": [
-      "Koch Industries' capability-bounded approach allows for flexibility and innovation across sectors.",
-      "The company's reinvestment strategy of 90% of profits into new businesses fosters continuous innovation.",
-      "Learning from failures is a critical component of Koch Industries' growth strategy.",
-      "Bottom-up empowerment and accountability are key drivers of innovation and success within organizations.",
-      "Education reform, shifting from teach-to-test to individualized, project-based learning, can unlock student potential.",
-      "AI is viewed as an empowering tool that can enhance individual capabilities and democratize access to knowledge."
-    ],
-    "investment_thesis": "Invest in companies that demonstrate a capability-bounded approach, reinvestment in growth, and a culture of learning from failures to capitalize on innovation and long-term success.",
-    "key_tickers": null
   }
 ]

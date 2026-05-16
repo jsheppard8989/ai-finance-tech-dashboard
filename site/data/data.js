@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-16T12:32:47.950679",
-  chartsVersion: "2026-05-16T12:32:36.746630",
+  generatedAt: "2026-05-16T14:07:02.696192",
+  chartsVersion: "2026-05-16T14:06:51.162253",
   priceSnapshot: {
   "GOOGL": {
     "price": 396.78,
     "change_pct": 13.44,
     "name": "GOOGL",
-    "updated_at": "2026-05-16T12:32:36.745483"
+    "updated_at": "2026-05-16T14:06:51.161462"
   },
   "BTC": {
-    "price": 78241.9,
-    "change_pct": -0.38,
+    "price": 78222.81,
+    "change_pct": -0.4,
     "name": "BTC",
-    "updated_at": "2026-05-16T12:32:36.745505"
+    "updated_at": "2026-05-16T14:06:51.161479"
   },
   "NVDA": {
     "price": 225.32,
     "change_pct": 5.7,
     "name": "NVDA",
-    "updated_at": "2026-05-16T12:32:36.745516"
+    "updated_at": "2026-05-16T14:06:51.161486"
   },
   "MSFT": {
     "price": 421.92,
     "change_pct": -1.71,
     "name": "MSFT",
-    "updated_at": "2026-05-16T12:32:36.745524"
+    "updated_at": "2026-05-16T14:06:51.161492"
   },
   "WTI": {
     "price": 4.75,
     "change_pct": 19.05,
     "name": "WTI",
-    "updated_at": "2026-05-16T12:32:36.745533"
+    "updated_at": "2026-05-16T14:06:51.161498"
   },
   "S&P 500": {
     "price": 739.17,
     "change_pct": 3.86,
     "name": "S&P 500",
-    "updated_at": "2026-05-16T12:32:36.745541"
+    "updated_at": "2026-05-16T14:06:51.161503"
   },
   "META": {
     "price": 614.23,
     "change_pct": -8.51,
     "name": "META",
-    "updated_at": "2026-05-16T12:32:36.745550"
+    "updated_at": "2026-05-16T14:06:51.161509"
   },
   "AMZN": {
     "price": 264.14,
     "change_pct": 1.71,
     "name": "AMZN",
-    "updated_at": "2026-05-16T12:32:36.745558"
+    "updated_at": "2026-05-16T14:06:51.161514"
   },
   "TSLA": {
     "price": 422.24,
     "change_pct": 12.29,
     "name": "TSLA",
-    "updated_at": "2026-05-16T12:32:36.745565"
+    "updated_at": "2026-05-16T14:06:51.161520"
   },
   "QQQ": {
     "price": 708.93,
     "change_pct": 7.81,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-16T12:32:36.745573"
+    "updated_at": "2026-05-16T14:06:51.161525"
   },
   "BTC-USD": {
-    "price": 78241.9,
-    "change_pct": -0.38,
+    "price": 78222.81,
+    "change_pct": -0.4,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-16T12:32:36.745581"
+    "updated_at": "2026-05-16T14:06:51.161530"
   }
 },
   tickerScores: [
@@ -828,6 +828,48 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 238,
+      "title": "Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-16",
+      "summary": "In this episode of Monetary Matters, Jack Farley discusses the current state of the market, focusing on unsustainable earnings expectations for the S&P 500, the potential bubble characterized by inflated earnings rather than price, and the concentration of wealth among tech companies. The conversation also touches on policymakers' inaction on inflation and strategies for navigating these market dynamics.",
+      "key_takeaway": "The current market dynamics suggest a potential bubble, characterized by inflated earnings expectations rather than traditional valuation metrics, indicating the need for disciplined profit-taking strategies and portfolio diversification.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "FB"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 224
+    },
+    {
+      "id": 239,
+      "title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-05-16",
+      "summary": "This podcast episode discusses the exponential growth in AI demand, highlighting Anthropic's 80-fold growth and potential to reach a $100 billion revenue run rate by the end of 2026. The conversation emphasizes strategic partnerships, particularly between Anthropic and SpaceX, and the shift towards enterprise-oriented AI solutions. It also touches on the viability of ocean-based data centers and the importance of narrative in AI adoption. The episode suggests investment opportunities in AI infrastructure, chip manufacturing, and renewable energy technologies.",
+      "key_takeaway": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 223
+    },
+    {
       "id": 235,
       "title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
       "source_type": "podcast",
@@ -940,7 +982,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-13",
       "archived_date": null,
@@ -1037,7 +1079,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-13",
       "archived_date": null,
@@ -5212,6 +5254,42 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 184,
+      "term": "Enterprise-oriented AI",
+      "description": "AI solutions targeted at businesses to improve efficiency and productivity.",
+      "first_detected_date": "2026-05-16",
+      "last_mentioned_date": "2026-05-16",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies focusing on developing AI solutions for enterprise use.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 223,
+      "first_detected_speaker": "Peter Diamandis, Salim Ismail, Dave Blondon",
+      "last_mentioned_episode_id": 223,
+      "last_mentioned_speaker": "Peter Diamandis, Salim Ismail, Dave Blondon"
+    },
+    {
+      "id": 185,
+      "term": "Ocean-Based Data Centers",
+      "description": "Data centers located in the ocean, leveraging renewable energy and reducing land use.",
+      "first_detected_date": "2026-05-16",
+      "last_mentioned_date": "2026-05-16",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in technologies and companies developing infrastructure for ocean-based data centers.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 223,
+      "first_detected_speaker": "Peter Diamandis, Salim Ismail, Dave Blondon",
+      "last_mentioned_episode_id": 223,
+      "last_mentioned_speaker": "Peter Diamandis, Salim Ismail, Dave Blondon"
+    },
+    {
       "id": 174,
       "term": "Capability-Bounded Approach",
       "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
@@ -7904,6 +7982,46 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 238,
+      "title": "Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-16",
+      "summary": "In this episode of Monetary Matters, Jack Farley discusses the current state of the market, focusing on unsustainable earnings expectations for the S&P 500, the potential bubble characterized by inflated earnings rather than price, and the concentration of wealth among tech companies. The conversation also touches on policymakers' inaction on inflation and strategies for navigating these market dynamics.",
+      "key_takeaway": "The current market dynamics suggest a potential bubble, characterized by inflated earnings expectations rather than traditional valuation metrics, indicating the need for disciplined profit-taking strategies and portfolio diversification.",
+      "tickers_mentioned": "[\"AAPL\", \"MSFT\", \"GOOGL\", \"AMZN\", \"FB\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 224,
+      "episode_release_date": "2026-05-16",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 239,
+      "title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-05-16",
+      "summary": "This podcast episode discusses the exponential growth in AI demand, highlighting Anthropic's 80-fold growth and potential to reach a $100 billion revenue run rate by the end of 2026. The conversation emphasizes strategic partnerships, particularly between Anthropic and SpaceX, and the shift towards enterprise-oriented AI solutions. It also touches on the viability of ocean-based data centers and the importance of narrative in AI adoption. The episode suggests investment opportunities in AI infrastructure, chip manufacturing, and renewable energy technologies.",
+      "key_takeaway": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 223,
+      "episode_release_date": "2026-05-16",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 235,
       "title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
       "source_type": "podcast",
@@ -8006,26 +8124,6 @@ const dashboardData = {
       "key_tickers": []
     },
     {
-      "id": 231,
-      "title": "Energy, Minerals, and the Physical Stack Behind AI",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-05-13",
-      "summary": "The podcast discusses the critical minerals supply chain gap between the U.S. and China, the importance of integrating software and autonomy in mining and refining, and the need to modernize the electricity grid. It emphasizes the necessity of a durable industrial policy to attract private capital and the significance of labor dynamics in industrial competitiveness. The episode also highlights the potential of AI and autonomous systems in optimizing industrial operations.",
-      "key_takeaway": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-13",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 216,
-      "episode_release_date": "2026-05-13",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
       "id": 232,
       "title": "Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
       "source_type": "podcast",
@@ -8047,26 +8145,6 @@ const dashboardData = {
         "MSFT",
         "GOOGL"
       ]
-    },
-    {
-      "id": 230,
-      "title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-05-12",
-      "summary": "In this episode, the hosts discuss Koch Industries' evolution from a small oil gathering company to a diversified conglomerate, emphasizing a capability-bounded approach, reinvestment strategy, and learning from failures. The conversation also touches on education reform, the empowering potential of AI, and the importance of removing barriers to individual potential, particularly in economic mobility and opportunity.",
-      "key_takeaway": "Invest in companies that demonstrate a capability-bounded approach, reinvestment in growth, and a culture of learning from failures to capitalize on innovation and long-term success.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-13",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 215,
-      "episode_release_date": "2026-05-12",
-      "guest_name": null,
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -8192,6 +8270,58 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 184,
+      "term": "Enterprise-oriented AI",
+      "description": "AI solutions targeted at businesses to improve efficiency and productivity.",
+      "first_detected_date": "2026-05-16",
+      "last_mentioned_date": "2026-05-16",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies focusing on developing AI solutions for enterprise use.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 223,
+      "first_detected_speaker": "Peter Diamandis, Salim Ismail, Dave Blondon",
+      "last_mentioned_episode_id": 223,
+      "last_mentioned_speaker": "Peter Diamandis, Salim Ismail, Dave Blondon",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+      "first_detected_episode_date": "2026-05-16",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+      "last_mentioned_episode_date": "2026-05-16"
+    },
+    {
+      "id": 185,
+      "term": "Ocean-Based Data Centers",
+      "description": "Data centers located in the ocean, leveraging renewable energy and reducing land use.",
+      "first_detected_date": "2026-05-16",
+      "last_mentioned_date": "2026-05-16",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in technologies and companies developing infrastructure for ocean-based data centers.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 223,
+      "first_detected_speaker": "Peter Diamandis, Salim Ismail, Dave Blondon",
+      "last_mentioned_episode_id": 223,
+      "last_mentioned_speaker": "Peter Diamandis, Salim Ismail, Dave Blondon",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+      "first_detected_episode_date": "2026-05-16",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+      "last_mentioned_episode_date": "2026-05-16"
+    },
     {
       "id": 24,
       "term": "Risk Off Playbook",
@@ -8477,58 +8607,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
       "last_mentioned_episode_date": "2026-05-04"
-    },
-    {
-      "id": 143,
-      "term": "Cross-Solver Tensions",
-      "description": "The challenges faced by companies that try to replace multiple functionalities within a single platform.",
-      "first_detected_date": "2026-05-01",
-      "last_mentioned_date": "2026-05-01",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the potential for new platforms that can address specific pain points within enterprise software more effectively than incumbents.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.71,
-      "resonance_pct": 18,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 144,
-      "term": "Descheduling",
-      "description": "The removal of a substance from a list of controlled substances, in this case, cannabis.",
-      "first_detected_date": "2026-05-01",
-      "last_mentioned_date": "2026-05-01",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Descheduling can lead to significant changes in the legal and operational landscape for businesses in the affected industry.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.71,
-      "resonance_pct": 18,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
     }
   ]
 },
@@ -22757,12 +22835,137 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-05-15",
     "key_tickers": []
+  },
+  "238": {
+    "id": 228,
+    "insight_id": 238,
+    "podcast_episode_id": 224,
+    "overview": "The unresolved tension in the market, as discussed by Jack Farley, is the disconnect between the soaring earnings expectations, particularly in tech and AI stocks, and the actual economic growth as measured by GDP. This dynamic suggests a market that is primed for a correction, as not all companies can sustain such high growth rates. The competitive dynamic at play is between the inflated expectations of tech earnings and the reality of economic growth, with the potential for a bubble to form if these expectations are not met. The allocator-relevant implication is that investors who do not adjust their portfolios to account for this mismatch may face significant losses, while those who diversify and take profits may be better positioned to navigate the market's volatility.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor GDP growth and earnings reports to assess the sustainability of current market valuations.",
+      "Consider the impact of wealth concentration on market stability and the potential for a K-shaped economy, which could lead to uneven growth and increased market volatility.",
+      "Evaluate the effectiveness of policymakers' actions on inflation, as this will have a direct impact on the health of the market and the potential for a bubble to form or burst.",
+      "Implement a disciplined approach to profit-taking to mitigate risks in a market with inflated earnings expectations.",
+      "Diversify portfolios to include a mix of high-growth and stable earnings stocks to balance potential gains with risk management."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that the current market is experiencing a bubble characterized by inflated earnings expectations rather than price valuations. This bubble is driven by a concentration of wealth and earnings in tech companies, particularly AI stocks. The thesis suggests that if GDP growth does not match the earnings expectations, or if there is a significant shift in the distribution of wealth and earnings, the bubble could burst. The timeframe for this thesis is within the next 12-24 months, and it would be vindicated if GDP growth significantly underperforms earnings expectations or if there is a material shift in the market dynamics that reduces the concentration of wealth in tech companies.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple, as a leading tech company, is relevant to this thesis due to its significant influence on the S&P 500 and its representation of the tech sector's earnings concentration.",
+        "positioning": "Positioning should be strategic, considering Apple's role in the market. A long position could be maintained with a trailing stop to protect against potential market corrections.",
+        "risk": "Key risks include a slowdown in consumer spending, increased competition, and regulatory challenges that could impact Apple's earnings and market share."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's significant presence in the tech sector and its contributions to the S&P 500 earnings make it a relevant ticker for this thesis.",
+        "positioning": "A strategic long position in Microsoft could be considered, with an emphasis on hedging strategies to mitigate potential risks associated with market volatility.",
+        "risk": "Risks include reliance on the of cloud computing growth and the potential for regulatory scrutiny in the tech sector."
+      },
+      "GOOGL": {
+        "rationale": "Google's parent company, Alphabet, is a major contributor to the S&P 500 earnings and represents the concentration of wealth in tech companies.",
+        "positioning": "A long position in GOOGL could be complemented by options strategies, such as selling out-of-the-money calls, to generate income and hedge against potential downturns.",
+        "risk": "Key risks include changes in advertising spending, increased competition in the digital ad space, and potential regulatory actions against big tech."
+      },
+      "AMZN": {
+        "rationale": "Amazon's influence on the S&P 500 and its representation of the tech sector's earnings concentration make it a relevant ticker for this thesis.",
+        "positioning": "A long position in AMZN could be considered, with a focus on risk management through diversification and options strategies to protect against market volatility.",
+        "risk": "Risks include increased competition in e-commerce, potential regulatory challenges, and reliance on consumer spending patterns."
+      },
+      "FB": {
+        "rationale": "Facebook, now Meta Platforms, is a significant contributor to the S&P 500 earnings and represents the tech sector's concentration of wealth.",
+        "positioning": "A long position in FB could be complemented by hedging strategies, such as buying puts, to protect against potential market corrections.",
+        "risk": "Key risks include changes in user engagement, increased competition in social media, and potential regulatory actions against big tech."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant increase in GDP growth that aligns with or exceeds the earnings expectations of the S&P 500, reducing the perceived bubble risk.",
+      "A broad-based earnings growth across various sectors, reducing the concentration of wealth and earnings in tech companies.",
+      "Policymakers implementing effective measures to combat inflation, which could stabilize market expectations and reduce the risk of a bubble.",
+      "A shift in market sentiment towards value stocks, reducing the focus on high-growth tech stocks and potentially deflating the bubble."
+    ],
+    "catalysts": [
+      "Earnings reports from major tech companies that either confirm or refute the sustainability of current earnings expectations.",
+      "Economic data releases, such as GDP growth figures, that could either support or challenge the current market valuations.",
+      "Policy decisions from central banks and governments that could impact inflation and market stability.",
+      "Regulatory actions against tech companies that could impact their earnings and market valuations.",
+      "Technological breakthroughs or market disruptions that could alter the competitive landscape and impact the earnings of tech companies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-16T14:05:44.253423",
+    "updated_at": "2026-05-16 19:05:44",
+    "episode_evidence": "In the Monetary Matters podcast, Jack Farley delves into the intricacies of the current market, highlighting the unsustainable nature of earnings expectations for the S&P 500. He points out that while the S&P 500 is expected to earn $400 billion, the GDP growth is only projected to add $1.5 trillion, leading to a significant mismatch. Farley states, 'The expectations that can allow every stock to eat at its current expectations for growth... there will be enough pie for everyone,' indicating a belief in overinflated earnings expectations. Furthermore, he emphasizes the role of AI stocks, which are projected to contribute $250 billion in earnings next year, a figure that surpasses the total expected earnings growth for the S&P 500. This concentration of earnings in a few tech companies, as Farley mentions, 'The pie is increasingly being eaten by the top of the cake,' raises concerns about the sustainability of the market and the potential for a bubble.",
+    "falsification_tracks": [
+      "If the GDP growth exceeds projections significantly, making the $400 billion earnings expectations for the S&P 500 seem less unrealistic.",
+      "A substantial decrease in AI stocks' projected earnings, reducing their disproportionate impact on the S&P 500's total earnings.",
+      "Policymakers implementing aggressive measures to combat inflation, which could stabilize market expectations and reduce the risk of a bubble.",
+      "A sudden increase in the number of companies achieving their earnings projections, indicating a broader and more sustainable market growth."
+    ],
+    "insight_title": "Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-05-16",
+    "key_tickers": []
+  },
+  "239": {
+    "id": 229,
+    "insight_id": 239,
+    "podcast_episode_id": 223,
+    "overview": "The competitive dynamic in the AI market is intensifying, with Anthropic's rapid growth and strategic partnership with SpaceX highlighting the importance of alliances in advancing AI capabilities. The market is also witnessing a significant shift towards enterprise solutions, indicating a move away from consumer-centric models. This shift, coupled with the potential of ocean-based data centers, suggests a future where AI infrastructure and renewable energy technologies play a pivotal role. The unresolved tension lies in the ability of companies to capitalize on these trends and the potential for international collaboration to accelerate AI advancements.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the growth and partnership dynamics of AI companies, particularly those with significant enterprise solutions and infrastructure development.",
+      "The success of ocean-based data centers could be a bellwether for the future of sustainable AI infrastructure, making it a key area for investment consideration.",
+      "The narrative around AI's societal impact is crucial; companies that can effectively communicate the positive aspects of AI are more likely to gain public support and investment.",
+      "International collaboration, especially between the U.S. and China, could be a significant catalyst for AI advancements, presenting opportunities for those with a global outlook.",
+      "Investors should be alert to government policies and initiatives that could either support or hinder the development and adoption of AI technologies."
+    ],
+    "investment_thesis": "The investment thesis is centered on the exponential growth of AI, particularly in enterprise solutions and infrastructure. The timeframe for this thesis is through the end of 2026, with the vindication coming from Anthropic's ability to reach a $100 billion revenue run rate and the successful implementation of ocean-based data centers. Conversely, a failure to meet these milestones or a significant market downturn in AI would invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI and chip manufacturing positions it to benefit from the growing demand for AI technologies.",
+        "positioning": "Apple should be positioned strategically as a long-term investment, given its potential to capitalize on the AI market's growth.",
+        "risk": "Key risks include a slowdown in AI adoption, increased competition in chip manufacturing, and potential regulatory hurdles."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A potential overestimation of the AI market's growth, leading to a market bubble.",
+      "The possibility that enterprise solutions may not deliver the expected returns, affecting the revenue projections of companies like Anthropic.",
+      "Security and environmental concerns surrounding ocean-based data centers could limit their adoption.",
+      "Geopolitical tensions could hinder international collaboration, slowing down the pace of AI advancements."
+    ],
+    "catalysts": [
+      "Anthropic's next earnings report, which could provide insights into its growth trajectory.",
+      "Any announcements regarding new strategic partnerships in the AI space.",
+      "Developments in ocean-based data center projects and their regulatory approvals.",
+      "Policy changes or international agreements that could impact AI collaboration and development."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-16T14:06:03.565735",
+    "updated_at": "2026-05-16 19:06:03",
+    "episode_evidence": "Anthropic's exponential growth is underscored by its strategic partnership with SpaceX, as indicated by the statement, 'Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis.' This alliance not only signifies a significant boost to Anthropic's computational capabilities but also positions it to compete more effectively in the AI market. The podcast also highlights the enterprise shift in AI, with Anthropic recognizing the high-value potential of enterprise-oriented solutions, as Salim Ismail noted, 'Anthropic was the first major frontier lab to recognize that offering ultra high enterprise-oriented value tokens was the path to success.' Furthermore, the discussion on ocean-based data centers introduces a novel infrastructure approach, leveraging the U.S. Navy's control over the oceans to mitigate security risks, as Dave Blondon mentioned, 'The US Navy actually has total and unilateral control of all the world's oceans.'",
+    "falsification_tracks": [
+      "Should Anthropic fail to maintain its growth trajectory and does not reach the projected $100 billion revenue by the end of 2026, the demand for AI may be overestimated.",
+      "A significant downturn in the AI market or a shift away from enterprise solutions could undermine Anthropic's revenue projections.",
+      "Any security breaches or regulatory hurdles for ocean-based data centers could challenge their viability as a future infrastructure option.",
+      "A lack of progress in U.S.-China AI collaboration could slow down the pace of technological advancement in the field."
+    ],
+    "insight_title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-05-16",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 5797,
+    "id": 5848,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -22774,7 +22977,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5798,
+    "id": 5849,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -22786,7 +22989,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5799,
+    "id": 5850,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -22798,7 +23001,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 5800,
+    "id": 5851,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -22810,7 +23013,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5801,
+    "id": 5852,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -22822,7 +23025,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5802,
+    "id": 5853,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -22834,7 +23037,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5803,
+    "id": 5854,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -22846,7 +23049,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5804,
+    "id": 5855,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -22858,7 +23061,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5805,
+    "id": 5856,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -22870,7 +23073,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5806,
+    "id": 5857,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -22882,7 +23085,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5807,
+    "id": 5858,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -22894,7 +23097,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5808,
+    "id": 5859,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -22906,7 +23109,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5809,
+    "id": 5860,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -22918,7 +23121,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5810,
+    "id": 5861,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -22930,7 +23133,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5811,
+    "id": 5862,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -22942,7 +23145,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5812,
+    "id": 5863,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -22954,7 +23157,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5813,
+    "id": 5864,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -22966,7 +23169,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5814,
+    "id": 5865,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -22978,7 +23181,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5815,
+    "id": 5866,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -22990,7 +23193,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 5816,
+    "id": 5867,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -23021,7 +23224,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 6,
-    "mention_score_decayed": 5.86,
+    "mention_score_decayed": 5.73,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -23192,6 +23395,68 @@ const dashboardData = {
     "net_worth": "$12.3M"
   },
   {
+    "id": 46,
+    "name": "Peter Diamandis",
+    "slug": "peter-diamandis",
+    "bio": "Inventor, physician, and founder of multiple technology companies.",
+    "known_for": "Known for founding the X Prize Foundation.",
+    "net_worth_usd": 200000000.0,
+    "net_worth_source": "https://explore.st-aug.edu/exp/peter-diamandis-xprize-bio-wiki-age-height-family-wife-facts-books-quotes-and-net-worth",
+    "net_worth_updated_at": "2026-04-01T05:04:16.091231",
+    "voice_tone": "Informed and optimistic",
+    "voice_style": "Factual and forward-looking",
+    "voice_delivery_notes": "Clear and deliberate pace with emphasis on key economic and technological points",
+    "voice_profile_updated_at": "2026-05-09 18:46:41",
+    "last_seen": "2026-05-16 19:04:11",
+    "last_episode_title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-05-16",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+    "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
+    "supporting_takeaway": "Monitor strategic partnerships in the AI space for potential investment opportunities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-19T22:06:22.117953",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Peter Diamandis",
+      "fetched_at": "2026-04-20T03:06:22.117732+00:00",
+      "cliff_notes": "Peter Diamandis is a prominent figure in the fields of innovation and technology, particularly in space exploration. He founded the X PRIZE Foundation, which has been instrumental in driving advancements in technology through incentivizing competition. Diamandis has also been involved in the commercial space industry, aiming to make space travel more accessible. His work has had a significant impact on fostering innovation and has been influential in the tech and finance sectors, as his initiatives often lead to groundbreaking technological developments.",
+      "derived": {
+        "current_role": "Founder and Executive Chairman, X PRIZE Foundation",
+        "education": "MD, Harvard Medical School; MBA, MIT Sloan School of Management",
+        "books_or_works": "Abundance: The Future is Better Than You Think; Bold: How to Go Big, Create Wealth and Impact the World"
+      },
+      "infobox": {
+        "Born": "August 20, 1961",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Peter Diamandis is a prominent figure in the fields of innovation and technology, particularly in space exploration. He founded the X PRIZE Foundation, which has been instrumental in driving advancements in technology through incentivizing competition. Diamandis has also been involved in the commercial space industry, aiming to make space travel more accessible.",
+        "His work has had a significant impact on fostering innovation and has been influential in the tech and finance sectors, as his initiatives often lead to groundbreaking technological developments."
+      ],
+      "sections": [
+        {
+          "heading": "Innovation and Technology",
+          "body": "Peter Diamandis is known for his work in fostering innovation and technological advancement, particularly through the X PRIZE Foundation."
+        },
+        {
+          "heading": "Space Exploration",
+          "body": "Diamandis has been a key figure in the commercial space industry, aiming to make space travel more accessible and fostering advancements in space technology."
+        },
+        {
+          "heading": "X PRIZE Foundation",
+          "body": "As the founder and executive chairman of the X PRIZE Foundation, Diamandis has been instrumental in designing and managing public competitions that encourage technological development for the benefit of humanity."
+        }
+      ]
+    },
+    "net_worth": "$200.0M"
+  },
+  {
     "id": 164,
     "name": "Vitalik Buterin",
     "slug": "vitalik-buterin",
@@ -23336,7 +23601,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.66,
+    "mention_score_decayed": 1.62,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -23942,6 +24207,192 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 254,
+    "name": "Andy Constant",
+    "slug": "andy-constant",
+    "bio": "Andy Constant is a veteran macro trader and expert commentator on market trends and economic analysis. With a long career in the financial industry, he has worked at various firms such as Salmon Brothers, Bridgewater, and Brevan Howard. Constant is known for his insights into market bubbles and earnings expectations.",
+    "known_for": "His insights into market bubbles and earnings expectations.",
+    "net_worth_usd": 45000000.0,
+    "net_worth_source": "https://www.finance-monthly.com/andy-williams-net-worth-2025-classic-crooners-legacy-in-numbers/",
+    "net_worth_updated_at": "2026-05-16T14:04:52.261234",
+    "voice_tone": "Cautionary and analytical.",
+    "voice_style": "Data-driven and historically contextual.",
+    "voice_delivery_notes": "Pacing is measured, with emphasis on key financial figures.",
+    "voice_profile_updated_at": "2026-05-16 19:04:42",
+    "last_seen": "2026-05-16 19:04:42",
+    "last_episode_title": "Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-16",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The current market dynamics suggest a potential bubble, characterized by inflated earnings expectations rather than traditional valuation metrics, indicating the need for disciplined profit-taking strategies and portfolio diversification.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-16 \u2022 Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
+    "last_proof_snippet": "If we're in a bubble, why aren't we selling crazy P is? It's not the P that's the bubble, it's the E. The S&P in its entirety is expected to earn 400 billion. Where's the GDP that can do that? Now it could come from everywhere else. It coul",
+    "supporting_takeaway": "Implement trailing stop-loss orders to protect gains in a potentially volatile market.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-16T14:04:51.366211",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Andy Constant",
+      "fetched_at": "2026-05-16T19:04:51.365877+00:00",
+      "cliff_notes": "Andy Constant is a seasoned macro trader with a wealth of experience in the financial industry. He has held positions at several prominent firms, including Salmon Brothers, Bridgewater, and Brevan Howard. Constant's expertise lies in market trends and economic analysis, with a particular focus on market bubbles and earnings expectations. His insights into these areas have made him a sought-after commentator and analyst in the world of finance. Throughout his career, Constant has provided valuable perspectives on the state of the market and the potential for unsustainable growth expectations.",
+      "derived": {
+        "current_role": "Veteran Macro Trader",
+        "former_positions": "Salmon Brothers; Bridgewater; Brevan Howard"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Andy Constant is a seasoned macro trader with a wealth of experience in the financial industry. He has held positions at several prominent firms, including Salmon Brothers, Bridgewater, and Brevan Howard. Constant's expertise lies in market trends and economic analysis, with a particular focus on market bubbles and earnings expectations.",
+        "His insights into these areas have made him a sought-after commentator and analyst in the world of finance. Throughout his career, Constant has provided valuable perspectives on the state of the market and the potential for unsustainable growth expectations."
+      ],
+      "sections": [
+        {
+          "heading": "Market Bubbles",
+          "body": "Andy Constant is known for his analysis of market bubbles, examining the potential for unsustainable growth expectations in various sectors."
+        },
+        {
+          "heading": "Earnings Expectations",
+          "body": "Constant provides insights into earnings expectations, questioning the feasibility of current market projections and their impact on stock valuations."
+        },
+        {
+          "heading": "Macro Trading",
+          "body": "With a long career in macro trading, Andy Constant has developed a deep understanding of global market trends and their implications for investors."
+        },
+        {
+          "heading": "Financial Analysis",
+          "body": "Constant's expertise in financial analysis allows him to provide valuable perspectives on the state of the market and potential areas of concern."
+        }
+      ]
+    },
+    "net_worth": "$45.0M"
+  },
+  {
+    "id": 252,
+    "name": "Dave Blondon",
+    "slug": "dave-blondon",
+    "bio": "Dave Blondon is an investor and entrepreneur known for his expertise in technology investments. He is recognized for his insights into AI investing and his contributions to the tech industry.",
+    "known_for": "His deep understanding of AI investments and his role in guiding tech companies through rapid growth phases.",
+    "net_worth_usd": 11900000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001203475/david-b-blundin",
+    "net_worth_updated_at": "2026-05-16T14:05:00.481247",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-16 19:04:11",
+    "last_episode_title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-05-16",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+    "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
+    "supporting_takeaway": "Monitor strategic partnerships in the AI space for potential investment opportunities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-16T14:04:59.559577",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dave Blondon",
+      "fetched_at": "2026-05-16T19:04:59.559432+00:00",
+      "cliff_notes": "Dave Blondon has made a name for himself as an investor and entrepreneur with a focus on technology investments. His career has been marked by his ability to identify and support innovative tech companies, particularly in the field of artificial intelligence. Blondon's expertise has allowed him to contribute significantly to the tech industry, helping to shape its future and drive growth. His insights into AI investing have made him a sought-after voice in the tech community, and his work continues to influence the direction of technology and its impact on society.",
+      "derived": {
+        "current_role": "Investor and entrepreneur"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dave Blondon has made a name for himself as an investor and entrepreneur with a focus on technology investments. His career has been marked by his ability to identify and support innovative tech companies, particularly in the field of artificial intelligence. Blondon's expertise has allowed him to contribute significantly to the tech industry, helping to shape its future and drive growth.",
+        "His insights into AI investing have made him a sought-after voice in the tech community, and his work continues to influence the direction of technology and its impact on society."
+      ],
+      "sections": [
+        {
+          "heading": "AI Investments",
+          "body": "Dave Blondon is recognized for his expertise in AI investments, helping to guide tech companies through rapid growth phases and contributing to the tech industry's development."
+        },
+        {
+          "heading": "Tech Industry Influence",
+          "body": "Blondon's insights into AI investing have made him a sought-after voice in the tech community, influencing the direction of technology and its impact on society."
+        },
+        {
+          "heading": "Innovation and Growth",
+          "body": "Throughout his career, Dave Blondon has been instrumental in identifying and supporting innovative tech companies, particularly in the field of artificial intelligence."
+        }
+      ]
+    },
+    "net_worth": "$11.9M"
+  },
+  {
+    "id": 253,
+    "name": "Alex Karp",
+    "slug": "alex-karp",
+    "bio": "Alex Karp is the CEO of Palantir Technologies, a leading data analytics company. He has been instrumental in the company's growth and expansion, making Palantir a significant player in the tech industry.",
+    "known_for": "His leadership in steering Palantir's growth and its role in big data analytics, impacting various sectors including finance, healthcare, and national security.",
+    "net_worth_usd": 14300000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q19560940",
+    "net_worth_updated_at": "2026-05-16T14:05:08.730803",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-16 19:04:11",
+    "last_episode_title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-05-16",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+    "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
+    "supporting_takeaway": "Monitor strategic partnerships in the AI space for potential investment opportunities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-16T14:05:08.323875",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Karp",
+      "fetched_at": "2026-05-16T19:05:08.323724+00:00",
+      "cliff_notes": "Alex Karp is a German-American entrepreneur who serves as the CEO of Palantir Technologies. He co-founded Palantir in 2003 with Peter Thiel, Nathan Gettings, Joe Lonsdale, and Stephen Cohen. Karp has played a pivotal role in the company's growth, steering it towards becoming a major player in the data analytics space. Palantir's software is used by various sectors, including finance, healthcare, and national security, for tasks such as fraud detection, crisis management, and counterterrorism. Karp's leadership has positioned Palantir as a key player in the tech industry, with its services in high demand across different domains.",
+      "derived": {
+        "current_role": "CEO of Palantir Technologies",
+        "education": "Juris Doctor, Stanford Law School; Bachelor's degree, Stanford University"
+      },
+      "infobox": {
+        "Born": "1966",
+        "Nationality": "German-American"
+      },
+      "lead_paragraphs": [
+        "Alex Karp is a German-American entrepreneur who serves as the CEO of Palantir Technologies. He co-founded Palantir in 2003 with Peter Thiel, Nathan Gettings, Joe Lonsdale, and Stephen Cohen. Karp has played a pivotal role in the company's growth, steering it towards becoming a major player in the data analytics space. Palantir's software is used by various sectors, including finance, healthcare, and national security, for tasks such as fraud detection, crisis management, and counterterrorism.",
+        "Karp's leadership has positioned Palantir as a key player in the tech industry, with its services in high demand across different domains."
+      ],
+      "sections": [
+        {
+          "heading": "Palantir Founding",
+          "body": "Alex Karp co-founded Palantir Technologies in 2003, which has since grown to become a major player in the data analytics industry."
+        },
+        {
+          "heading": "Data Analytics",
+          "body": "Under Karp's leadership, Palantir has become renowned for its data analytics software, which is used across various sectors for tasks such as fraud detection and crisis management."
+        },
+        {
+          "heading": "Company Expansion",
+          "body": "Karp has been instrumental in Palantir's expansion, steering the company towards significant growth and establishing it as a key player in the tech industry."
+        }
+      ]
+    },
+    "net_worth": "$14.30B"
+  },
+  {
     "id": 251,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
@@ -24022,7 +24473,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-15",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-15 \u2022 \u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
     "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. I'm joined by Andrew Perry, veteran macro investors. He has worked at the top macro hedge funds, all the big banks, Andrew, welcome to monetary",
@@ -24083,7 +24534,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -24524,7 +24975,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-10 \u2022 Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
     "last_proof_snippet": "Very pleased today to be joined by David Wright, co-head of Pictay asset management's quantitative investments franchise, which manages over $30 billion in their quant group. This includes most recently two ETFs they launched PQ&T, their Pi",
@@ -24567,68 +25018,6 @@ const dashboardData = {
     "net_worth": "$31.7M"
   },
   {
-    "id": 46,
-    "name": "Peter Diamandis",
-    "slug": "peter-diamandis",
-    "bio": "Founder and Executive Chairman of the XPRIZE Foundation, Co-Founder of Singularity University, and an entrepreneur focused on exponential technologies.",
-    "known_for": "His work in fostering technological advancements and incentivizing innovation through the XPRIZE model.",
-    "net_worth_usd": 200000000.0,
-    "net_worth_source": "https://explore.st-aug.edu/exp/peter-diamandis-xprize-bio-wiki-age-height-family-wife-facts-books-quotes-and-net-worth",
-    "net_worth_updated_at": "2026-04-01T05:04:16.091231",
-    "voice_tone": "Informed and optimistic",
-    "voice_style": "Factual and forward-looking",
-    "voice_delivery_notes": "Clear and deliberate pace with emphasis on key economic and technological points",
-    "voice_profile_updated_at": "2026-05-09 18:46:41",
-    "last_seen": "2026-05-09 18:46:41",
-    "last_episode_title": "Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-05-09",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "AI is a significant driver of economic growth and innovation, presenting opportunities in AI-driven sectors, sustainable data center technologies, and AI insurance.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-09 \u2022 Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
-    "last_proof_snippet": "Google has crushed their earnings. Alpha that reported 109.9 billion dollars. 22% year on your growth, 62.6 billion in profit. Google Cloud hit 20 billion revenue with 63% growth. AI drove results across the entire Google ecosystem. The rev",
-    "supporting_takeaway": "Monitor regulatory developments related to AI to assess potential impacts on investment opportunities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-19T22:06:22.117953",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Peter Diamandis",
-      "fetched_at": "2026-04-20T03:06:22.117732+00:00",
-      "cliff_notes": "Peter Diamandis is a prominent figure in the fields of innovation and technology, particularly in space exploration. He founded the X PRIZE Foundation, which has been instrumental in driving advancements in technology through incentivizing competition. Diamandis has also been involved in the commercial space industry, aiming to make space travel more accessible. His work has had a significant impact on fostering innovation and has been influential in the tech and finance sectors, as his initiatives often lead to groundbreaking technological developments.",
-      "derived": {
-        "current_role": "Founder and Executive Chairman, X PRIZE Foundation",
-        "education": "MD, Harvard Medical School; MBA, MIT Sloan School of Management",
-        "books_or_works": "Abundance: The Future is Better Than You Think; Bold: How to Go Big, Create Wealth and Impact the World"
-      },
-      "infobox": {
-        "Born": "August 20, 1961",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Peter Diamandis is a prominent figure in the fields of innovation and technology, particularly in space exploration. He founded the X PRIZE Foundation, which has been instrumental in driving advancements in technology through incentivizing competition. Diamandis has also been involved in the commercial space industry, aiming to make space travel more accessible.",
-        "His work has had a significant impact on fostering innovation and has been influential in the tech and finance sectors, as his initiatives often lead to groundbreaking technological developments."
-      ],
-      "sections": [
-        {
-          "heading": "Innovation and Technology",
-          "body": "Peter Diamandis is known for his work in fostering innovation and technological advancement, particularly through the X PRIZE Foundation."
-        },
-        {
-          "heading": "Space Exploration",
-          "body": "Diamandis has been a key figure in the commercial space industry, aiming to make space travel more accessible and fostering advancements in space technology."
-        },
-        {
-          "heading": "X PRIZE Foundation",
-          "body": "As the founder and executive chairman of the X PRIZE Foundation, Diamandis has been instrumental in designing and managing public competitions that encourage technological development for the benefit of humanity."
-        }
-      ]
-    },
-    "net_worth": "$200.0M"
-  },
-  {
     "id": 240,
     "name": "David Reich",
     "slug": "david-reich",
@@ -24646,7 +25035,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -24836,7 +25225,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -24899,7 +25288,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -25087,7 +25476,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -28966,7 +29355,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -29025,7 +29414,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",

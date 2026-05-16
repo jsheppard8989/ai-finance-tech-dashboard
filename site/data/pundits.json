@@ -17,7 +17,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 6,
-    "mention_score_decayed": 5.86,
+    "mention_score_decayed": 5.73,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -188,6 +188,68 @@
     "net_worth": "$12.3M"
   },
   {
+    "id": 46,
+    "name": "Peter Diamandis",
+    "slug": "peter-diamandis",
+    "bio": "Inventor, physician, and founder of multiple technology companies.",
+    "known_for": "Known for founding the X Prize Foundation.",
+    "net_worth_usd": 200000000.0,
+    "net_worth_source": "https://explore.st-aug.edu/exp/peter-diamandis-xprize-bio-wiki-age-height-family-wife-facts-books-quotes-and-net-worth",
+    "net_worth_updated_at": "2026-04-01T05:04:16.091231",
+    "voice_tone": "Informed and optimistic",
+    "voice_style": "Factual and forward-looking",
+    "voice_delivery_notes": "Clear and deliberate pace with emphasis on key economic and technological points",
+    "voice_profile_updated_at": "2026-05-09 18:46:41",
+    "last_seen": "2026-05-16 19:04:11",
+    "last_episode_title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-05-16",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+    "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
+    "supporting_takeaway": "Monitor strategic partnerships in the AI space for potential investment opportunities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-19T22:06:22.117953",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Peter Diamandis",
+      "fetched_at": "2026-04-20T03:06:22.117732+00:00",
+      "cliff_notes": "Peter Diamandis is a prominent figure in the fields of innovation and technology, particularly in space exploration. He founded the X PRIZE Foundation, which has been instrumental in driving advancements in technology through incentivizing competition. Diamandis has also been involved in the commercial space industry, aiming to make space travel more accessible. His work has had a significant impact on fostering innovation and has been influential in the tech and finance sectors, as his initiatives often lead to groundbreaking technological developments.",
+      "derived": {
+        "current_role": "Founder and Executive Chairman, X PRIZE Foundation",
+        "education": "MD, Harvard Medical School; MBA, MIT Sloan School of Management",
+        "books_or_works": "Abundance: The Future is Better Than You Think; Bold: How to Go Big, Create Wealth and Impact the World"
+      },
+      "infobox": {
+        "Born": "August 20, 1961",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Peter Diamandis is a prominent figure in the fields of innovation and technology, particularly in space exploration. He founded the X PRIZE Foundation, which has been instrumental in driving advancements in technology through incentivizing competition. Diamandis has also been involved in the commercial space industry, aiming to make space travel more accessible.",
+        "His work has had a significant impact on fostering innovation and has been influential in the tech and finance sectors, as his initiatives often lead to groundbreaking technological developments."
+      ],
+      "sections": [
+        {
+          "heading": "Innovation and Technology",
+          "body": "Peter Diamandis is known for his work in fostering innovation and technological advancement, particularly through the X PRIZE Foundation."
+        },
+        {
+          "heading": "Space Exploration",
+          "body": "Diamandis has been a key figure in the commercial space industry, aiming to make space travel more accessible and fostering advancements in space technology."
+        },
+        {
+          "heading": "X PRIZE Foundation",
+          "body": "As the founder and executive chairman of the X PRIZE Foundation, Diamandis has been instrumental in designing and managing public competitions that encourage technological development for the benefit of humanity."
+        }
+      ]
+    },
+    "net_worth": "$200.0M"
+  },
+  {
     "id": 164,
     "name": "Vitalik Buterin",
     "slug": "vitalik-buterin",
@@ -332,7 +394,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.66,
+    "mention_score_decayed": 1.62,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -938,6 +1000,192 @@
     "pundit_profile": null
   },
   {
+    "id": 254,
+    "name": "Andy Constant",
+    "slug": "andy-constant",
+    "bio": "Andy Constant is a veteran macro trader and expert commentator on market trends and economic analysis. With a long career in the financial industry, he has worked at various firms such as Salmon Brothers, Bridgewater, and Brevan Howard. Constant is known for his insights into market bubbles and earnings expectations.",
+    "known_for": "His insights into market bubbles and earnings expectations.",
+    "net_worth_usd": 45000000.0,
+    "net_worth_source": "https://www.finance-monthly.com/andy-williams-net-worth-2025-classic-crooners-legacy-in-numbers/",
+    "net_worth_updated_at": "2026-05-16T14:04:52.261234",
+    "voice_tone": "Cautionary and analytical.",
+    "voice_style": "Data-driven and historically contextual.",
+    "voice_delivery_notes": "Pacing is measured, with emphasis on key financial figures.",
+    "voice_profile_updated_at": "2026-05-16 19:04:42",
+    "last_seen": "2026-05-16 19:04:42",
+    "last_episode_title": "Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-16",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The current market dynamics suggest a potential bubble, characterized by inflated earnings expectations rather than traditional valuation metrics, indicating the need for disciplined profit-taking strategies and portfolio diversification.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-16 \u2022 Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
+    "last_proof_snippet": "If we're in a bubble, why aren't we selling crazy P is? It's not the P that's the bubble, it's the E. The S&P in its entirety is expected to earn 400 billion. Where's the GDP that can do that? Now it could come from everywhere else. It coul",
+    "supporting_takeaway": "Implement trailing stop-loss orders to protect gains in a potentially volatile market.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-16T14:04:51.366211",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Andy Constant",
+      "fetched_at": "2026-05-16T19:04:51.365877+00:00",
+      "cliff_notes": "Andy Constant is a seasoned macro trader with a wealth of experience in the financial industry. He has held positions at several prominent firms, including Salmon Brothers, Bridgewater, and Brevan Howard. Constant's expertise lies in market trends and economic analysis, with a particular focus on market bubbles and earnings expectations. His insights into these areas have made him a sought-after commentator and analyst in the world of finance. Throughout his career, Constant has provided valuable perspectives on the state of the market and the potential for unsustainable growth expectations.",
+      "derived": {
+        "current_role": "Veteran Macro Trader",
+        "former_positions": "Salmon Brothers; Bridgewater; Brevan Howard"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Andy Constant is a seasoned macro trader with a wealth of experience in the financial industry. He has held positions at several prominent firms, including Salmon Brothers, Bridgewater, and Brevan Howard. Constant's expertise lies in market trends and economic analysis, with a particular focus on market bubbles and earnings expectations.",
+        "His insights into these areas have made him a sought-after commentator and analyst in the world of finance. Throughout his career, Constant has provided valuable perspectives on the state of the market and the potential for unsustainable growth expectations."
+      ],
+      "sections": [
+        {
+          "heading": "Market Bubbles",
+          "body": "Andy Constant is known for his analysis of market bubbles, examining the potential for unsustainable growth expectations in various sectors."
+        },
+        {
+          "heading": "Earnings Expectations",
+          "body": "Constant provides insights into earnings expectations, questioning the feasibility of current market projections and their impact on stock valuations."
+        },
+        {
+          "heading": "Macro Trading",
+          "body": "With a long career in macro trading, Andy Constant has developed a deep understanding of global market trends and their implications for investors."
+        },
+        {
+          "heading": "Financial Analysis",
+          "body": "Constant's expertise in financial analysis allows him to provide valuable perspectives on the state of the market and potential areas of concern."
+        }
+      ]
+    },
+    "net_worth": "$45.0M"
+  },
+  {
+    "id": 252,
+    "name": "Dave Blondon",
+    "slug": "dave-blondon",
+    "bio": "Dave Blondon is an investor and entrepreneur known for his expertise in technology investments. He is recognized for his insights into AI investing and his contributions to the tech industry.",
+    "known_for": "His deep understanding of AI investments and his role in guiding tech companies through rapid growth phases.",
+    "net_worth_usd": 11900000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001203475/david-b-blundin",
+    "net_worth_updated_at": "2026-05-16T14:05:00.481247",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-16 19:04:11",
+    "last_episode_title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-05-16",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+    "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
+    "supporting_takeaway": "Monitor strategic partnerships in the AI space for potential investment opportunities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-16T14:04:59.559577",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dave Blondon",
+      "fetched_at": "2026-05-16T19:04:59.559432+00:00",
+      "cliff_notes": "Dave Blondon has made a name for himself as an investor and entrepreneur with a focus on technology investments. His career has been marked by his ability to identify and support innovative tech companies, particularly in the field of artificial intelligence. Blondon's expertise has allowed him to contribute significantly to the tech industry, helping to shape its future and drive growth. His insights into AI investing have made him a sought-after voice in the tech community, and his work continues to influence the direction of technology and its impact on society.",
+      "derived": {
+        "current_role": "Investor and entrepreneur"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dave Blondon has made a name for himself as an investor and entrepreneur with a focus on technology investments. His career has been marked by his ability to identify and support innovative tech companies, particularly in the field of artificial intelligence. Blondon's expertise has allowed him to contribute significantly to the tech industry, helping to shape its future and drive growth.",
+        "His insights into AI investing have made him a sought-after voice in the tech community, and his work continues to influence the direction of technology and its impact on society."
+      ],
+      "sections": [
+        {
+          "heading": "AI Investments",
+          "body": "Dave Blondon is recognized for his expertise in AI investments, helping to guide tech companies through rapid growth phases and contributing to the tech industry's development."
+        },
+        {
+          "heading": "Tech Industry Influence",
+          "body": "Blondon's insights into AI investing have made him a sought-after voice in the tech community, influencing the direction of technology and its impact on society."
+        },
+        {
+          "heading": "Innovation and Growth",
+          "body": "Throughout his career, Dave Blondon has been instrumental in identifying and supporting innovative tech companies, particularly in the field of artificial intelligence."
+        }
+      ]
+    },
+    "net_worth": "$11.9M"
+  },
+  {
+    "id": 253,
+    "name": "Alex Karp",
+    "slug": "alex-karp",
+    "bio": "Alex Karp is the CEO of Palantir Technologies, a leading data analytics company. He has been instrumental in the company's growth and expansion, making Palantir a significant player in the tech industry.",
+    "known_for": "His leadership in steering Palantir's growth and its role in big data analytics, impacting various sectors including finance, healthcare, and national security.",
+    "net_worth_usd": 14300000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q19560940",
+    "net_worth_updated_at": "2026-05-16T14:05:08.730803",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-16 19:04:11",
+    "last_episode_title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-05-16",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+    "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
+    "supporting_takeaway": "Monitor strategic partnerships in the AI space for potential investment opportunities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-16T14:05:08.323875",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Karp",
+      "fetched_at": "2026-05-16T19:05:08.323724+00:00",
+      "cliff_notes": "Alex Karp is a German-American entrepreneur who serves as the CEO of Palantir Technologies. He co-founded Palantir in 2003 with Peter Thiel, Nathan Gettings, Joe Lonsdale, and Stephen Cohen. Karp has played a pivotal role in the company's growth, steering it towards becoming a major player in the data analytics space. Palantir's software is used by various sectors, including finance, healthcare, and national security, for tasks such as fraud detection, crisis management, and counterterrorism. Karp's leadership has positioned Palantir as a key player in the tech industry, with its services in high demand across different domains.",
+      "derived": {
+        "current_role": "CEO of Palantir Technologies",
+        "education": "Juris Doctor, Stanford Law School; Bachelor's degree, Stanford University"
+      },
+      "infobox": {
+        "Born": "1966",
+        "Nationality": "German-American"
+      },
+      "lead_paragraphs": [
+        "Alex Karp is a German-American entrepreneur who serves as the CEO of Palantir Technologies. He co-founded Palantir in 2003 with Peter Thiel, Nathan Gettings, Joe Lonsdale, and Stephen Cohen. Karp has played a pivotal role in the company's growth, steering it towards becoming a major player in the data analytics space. Palantir's software is used by various sectors, including finance, healthcare, and national security, for tasks such as fraud detection, crisis management, and counterterrorism.",
+        "Karp's leadership has positioned Palantir as a key player in the tech industry, with its services in high demand across different domains."
+      ],
+      "sections": [
+        {
+          "heading": "Palantir Founding",
+          "body": "Alex Karp co-founded Palantir Technologies in 2003, which has since grown to become a major player in the data analytics industry."
+        },
+        {
+          "heading": "Data Analytics",
+          "body": "Under Karp's leadership, Palantir has become renowned for its data analytics software, which is used across various sectors for tasks such as fraud detection and crisis management."
+        },
+        {
+          "heading": "Company Expansion",
+          "body": "Karp has been instrumental in Palantir's expansion, steering the company towards significant growth and establishing it as a key player in the tech industry."
+        }
+      ]
+    },
+    "net_worth": "$14.30B"
+  },
+  {
     "id": 251,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
@@ -1018,7 +1266,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-15",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-15 \u2022 \u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
     "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. I'm joined by Andrew Perry, veteran macro investors. He has worked at the top macro hedge funds, all the big banks, Andrew, welcome to monetary",
@@ -1079,7 +1327,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -1520,7 +1768,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-10 \u2022 Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
     "last_proof_snippet": "Very pleased today to be joined by David Wright, co-head of Pictay asset management's quantitative investments franchise, which manages over $30 billion in their quant group. This includes most recently two ETFs they launched PQ&T, their Pi",
@@ -1563,68 +1811,6 @@
     "net_worth": "$31.7M"
   },
   {
-    "id": 46,
-    "name": "Peter Diamandis",
-    "slug": "peter-diamandis",
-    "bio": "Founder and Executive Chairman of the XPRIZE Foundation, Co-Founder of Singularity University, and an entrepreneur focused on exponential technologies.",
-    "known_for": "His work in fostering technological advancements and incentivizing innovation through the XPRIZE model.",
-    "net_worth_usd": 200000000.0,
-    "net_worth_source": "https://explore.st-aug.edu/exp/peter-diamandis-xprize-bio-wiki-age-height-family-wife-facts-books-quotes-and-net-worth",
-    "net_worth_updated_at": "2026-04-01T05:04:16.091231",
-    "voice_tone": "Informed and optimistic",
-    "voice_style": "Factual and forward-looking",
-    "voice_delivery_notes": "Clear and deliberate pace with emphasis on key economic and technological points",
-    "voice_profile_updated_at": "2026-05-09 18:46:41",
-    "last_seen": "2026-05-09 18:46:41",
-    "last_episode_title": "Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-05-09",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "AI is a significant driver of economic growth and innovation, presenting opportunities in AI-driven sectors, sustainable data center technologies, and AI insurance.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-09 \u2022 Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
-    "last_proof_snippet": "Google has crushed their earnings. Alpha that reported 109.9 billion dollars. 22% year on your growth, 62.6 billion in profit. Google Cloud hit 20 billion revenue with 63% growth. AI drove results across the entire Google ecosystem. The rev",
-    "supporting_takeaway": "Monitor regulatory developments related to AI to assess potential impacts on investment opportunities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-19T22:06:22.117953",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Peter Diamandis",
-      "fetched_at": "2026-04-20T03:06:22.117732+00:00",
-      "cliff_notes": "Peter Diamandis is a prominent figure in the fields of innovation and technology, particularly in space exploration. He founded the X PRIZE Foundation, which has been instrumental in driving advancements in technology through incentivizing competition. Diamandis has also been involved in the commercial space industry, aiming to make space travel more accessible. His work has had a significant impact on fostering innovation and has been influential in the tech and finance sectors, as his initiatives often lead to groundbreaking technological developments.",
-      "derived": {
-        "current_role": "Founder and Executive Chairman, X PRIZE Foundation",
-        "education": "MD, Harvard Medical School; MBA, MIT Sloan School of Management",
-        "books_or_works": "Abundance: The Future is Better Than You Think; Bold: How to Go Big, Create Wealth and Impact the World"
-      },
-      "infobox": {
-        "Born": "August 20, 1961",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Peter Diamandis is a prominent figure in the fields of innovation and technology, particularly in space exploration. He founded the X PRIZE Foundation, which has been instrumental in driving advancements in technology through incentivizing competition. Diamandis has also been involved in the commercial space industry, aiming to make space travel more accessible.",
-        "His work has had a significant impact on fostering innovation and has been influential in the tech and finance sectors, as his initiatives often lead to groundbreaking technological developments."
-      ],
-      "sections": [
-        {
-          "heading": "Innovation and Technology",
-          "body": "Peter Diamandis is known for his work in fostering innovation and technological advancement, particularly through the X PRIZE Foundation."
-        },
-        {
-          "heading": "Space Exploration",
-          "body": "Diamandis has been a key figure in the commercial space industry, aiming to make space travel more accessible and fostering advancements in space technology."
-        },
-        {
-          "heading": "X PRIZE Foundation",
-          "body": "As the founder and executive chairman of the X PRIZE Foundation, Diamandis has been instrumental in designing and managing public competitions that encourage technological development for the benefit of humanity."
-        }
-      ]
-    },
-    "net_worth": "$200.0M"
-  },
-  {
     "id": 240,
     "name": "David Reich",
     "slug": "david-reich",
@@ -1642,7 +1828,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -1832,7 +2018,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -1895,7 +2081,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -2083,7 +2269,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -5962,7 +6148,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -6021,7 +6207,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",

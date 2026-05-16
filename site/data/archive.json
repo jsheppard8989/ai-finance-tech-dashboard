@@ -1,6 +1,48 @@
 {
   "insights": [
     {
+      "id": 238,
+      "title": "Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-16",
+      "summary": "In this episode of Monetary Matters, Jack Farley discusses the current state of the market, focusing on unsustainable earnings expectations for the S&P 500, the potential bubble characterized by inflated earnings rather than price, and the concentration of wealth among tech companies. The conversation also touches on policymakers' inaction on inflation and strategies for navigating these market dynamics.",
+      "key_takeaway": "The current market dynamics suggest a potential bubble, characterized by inflated earnings expectations rather than traditional valuation metrics, indicating the need for disciplined profit-taking strategies and portfolio diversification.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "FB"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 224
+    },
+    {
+      "id": 239,
+      "title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-05-16",
+      "summary": "This podcast episode discusses the exponential growth in AI demand, highlighting Anthropic's 80-fold growth and potential to reach a $100 billion revenue run rate by the end of 2026. The conversation emphasizes strategic partnerships, particularly between Anthropic and SpaceX, and the shift towards enterprise-oriented AI solutions. It also touches on the viability of ocean-based data centers and the importance of narrative in AI adoption. The episode suggests investment opportunities in AI infrastructure, chip manufacturing, and renewable energy technologies.",
+      "key_takeaway": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 223
+    },
+    {
       "id": 235,
       "title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
       "source_type": "podcast",
@@ -113,7 +155,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-13",
       "archived_date": null,
@@ -210,7 +252,7 @@
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-13",
       "archived_date": null,
@@ -4384,6 +4426,42 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 184,
+      "term": "Enterprise-oriented AI",
+      "description": "AI solutions targeted at businesses to improve efficiency and productivity.",
+      "first_detected_date": "2026-05-16",
+      "last_mentioned_date": "2026-05-16",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies focusing on developing AI solutions for enterprise use.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 223,
+      "first_detected_speaker": "Peter Diamandis, Salim Ismail, Dave Blondon",
+      "last_mentioned_episode_id": 223,
+      "last_mentioned_speaker": "Peter Diamandis, Salim Ismail, Dave Blondon"
+    },
+    {
+      "id": 185,
+      "term": "Ocean-Based Data Centers",
+      "description": "Data centers located in the ocean, leveraging renewable energy and reducing land use.",
+      "first_detected_date": "2026-05-16",
+      "last_mentioned_date": "2026-05-16",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in technologies and companies developing infrastructure for ocean-based data centers.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 223,
+      "first_detected_speaker": "Peter Diamandis, Salim Ismail, Dave Blondon",
+      "last_mentioned_episode_id": 223,
+      "last_mentioned_speaker": "Peter Diamandis, Salim Ismail, Dave Blondon"
+    },
     {
       "id": 174,
       "term": "Capability-Bounded Approach",
