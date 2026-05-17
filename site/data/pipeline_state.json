@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-16T14:06:53.191076",
-  "last_updated": "2026-05-16T14:06:53.191076",
-  "last_pipeline_run": "2026-05-16T14:06:53.191076",
+  "generated_at": "2026-05-16T22:01:48.656350",
+  "last_updated": "2026-05-16T22:01:48.656350",
+  "last_pipeline_run": "2026-05-16T22:01:48.656350",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -12,56 +12,20 @@
     "podcast_episodes": 197,
     "newsletters": 7,
     "daily_scores": 114,
-    "overton_terms_total": 151,
+    "overton_terms_total": 149,
     "latest_insights_total": 211,
     "today_mentions": {},
     "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 3,
-    "transcribed": 3,
-    "analyzed": 2,
-    "insight_created": 2,
-    "published": 2,
-    "total": 3
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
-    {
-      "id": "390a060e-5092-11f1-b301-0f046a95202f",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
-      "published": "2026-05-16",
-      "rss_guid": "390a060e-5092-11f1-b301-0f046a95202f",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
-    {
-      "id": "48e35844-5099-11f1-aec4-0b7a8ab1b6d5",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
-      "published": "2026-05-16",
-      "rss_guid": "48e35844-5099-11f1-aec4-0b7a8ab1b6d5",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "9e723c14-33a2-4bd1-9e58-e475244f9446",
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
