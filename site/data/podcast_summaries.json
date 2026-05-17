@@ -1,5 +1,22 @@
 [
   {
+    "id": 225,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "A Basel III Deep Dive | What to Know About How It Will Transform Banking Globally",
+    "episode_date": "2026-05-17",
+    "summary": "In this episode, Jack Farley discusses the incomplete implementation of Basel III in the U.S., its impact on capital requirements for large banks, and the changes in risk weights for traditional lending. The conversation also touches on operational risk, the modernization of the discount window, the empowerment of small banks, and the political dynamics surrounding Fannie Mae and Freddie Mac. Additionally, the podcast explores the increasing integration of AI into legal practices and its implications for the legal sector.",
+    "key_takeaways": [
+      "Monitor regulatory updates regarding Basel III implementation and its impact on capital requirements.",
+      "Assess banks' exposure to residential mortgages and investment-grade corporate lending as potential growth areas.",
+      "Evaluate banks' operational risk management frameworks to gauge their resilience against regulatory scrutiny.",
+      "Stay informed about changes to the discount window and liquidity provisions that could affect bank stability.",
+      "Watch for political developments regarding Fannie Mae and Freddie Mac, as these could influence mortgage-backed securities.",
+      "Consider the implications of AI integration in legal practices for investments in legal tech and traditional law firms."
+    ],
+    "investment_thesis": "Investors should closely monitor the regulatory environment, particularly Basel III implementation, as it can significantly impact bank valuations and lending capabilities. Additionally, the growing role of AI in legal practices presents both opportunities and challenges for the sector.",
+    "key_tickers": null
+  },
+  {
     "id": 224,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
@@ -116,25 +133,5 @@
     ],
     "investment_thesis": "Invest in companies with a clear 'why', strong customer base, and the ability to adapt to market feedback. Prioritize creativity and relationship-building skills in talent acquisition.",
     "key_tickers": null
-  },
-  {
-    "id": 217,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
-    "episode_date": "2026-05-13",
-    "summary": "In this episode, Lynn Alden discusses the multi-decade changes in the economy due to the rise of AI, comparing it to the shift in blue-collar manufacturing in the 80s and 90s. Alden highlights the surge in the semiconductor industry due to increased AI spending, the cyclical nature of capex investments by hyperscalers, and the potential growth of stablecoins. Additionally, Alden anticipates the decoupling of Bitcoin from tech stocks and the impact of geopolitical tensions on global oil prices. The episode also touches on the societal and economic consequences of AI as depicted in Alden's new science fiction book.",
-    "key_takeaways": [
-      "Invest in semiconductor stocks and ETFs to capitalize on the surge in demand driven by AI.",
-      "Monitor the capex cycles of hyperscalers and consider the potential for lower returns when investing in tech stocks.",
-      "Explore opportunities in stablecoin projects and companies that facilitate their use, anticipating significant growth in the sector.",
-      "Keep an eye on Bitcoin's performance as a separate asset class, distinct from tech stocks, as it may decouple over time.",
-      "Consider energy stocks and commodities as hedges against geopolitical risks and rising oil prices.",
-      "Stay informed about the societal impacts of AI and how they may affect consumer behavior and labor markets."
-    ],
-    "investment_thesis": "Invest in sectors poised for growth due to AI adoption, particularly semiconductors and stablecoins, while being cautious about the cyclical nature of capex investments in hyperscaler companies.",
-    "key_tickers": [
-      "MSFT",
-      "GOOGL"
-    ]
   }
 ]

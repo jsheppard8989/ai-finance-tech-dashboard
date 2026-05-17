@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-17T12:42:56.591372",
-  chartsVersion: "2026-05-17T12:42:51.106863",
+  generatedAt: "2026-05-17T14:16:07.703184",
+  chartsVersion: "2026-05-17T14:16:03.759993",
   priceSnapshot: {
   "GOOGL": {
     "price": 396.78,
     "change_pct": 13.44,
     "name": "GOOGL",
-    "updated_at": "2026-05-17T12:42:51.105728"
+    "updated_at": "2026-05-17T14:16:03.759569"
   },
   "BTC": {
-    "price": 77979.64,
-    "change_pct": -2.32,
+    "price": 78213.51,
+    "change_pct": -2.02,
     "name": "BTC",
-    "updated_at": "2026-05-17T12:42:51.105766"
+    "updated_at": "2026-05-17T14:16:03.759579"
   },
   "NVDA": {
     "price": 225.32,
     "change_pct": 5.7,
     "name": "NVDA",
-    "updated_at": "2026-05-17T12:42:51.105777"
+    "updated_at": "2026-05-17T14:16:03.759583"
   },
   "MSFT": {
     "price": 421.92,
     "change_pct": -1.71,
     "name": "MSFT",
-    "updated_at": "2026-05-17T12:42:51.105785"
+    "updated_at": "2026-05-17T14:16:03.759587"
   },
   "WTI": {
     "price": 4.75,
     "change_pct": 19.05,
     "name": "WTI",
-    "updated_at": "2026-05-17T12:42:51.105803"
+    "updated_at": "2026-05-17T14:16:03.759590"
   },
   "S&P 500": {
     "price": 739.17,
     "change_pct": 3.86,
     "name": "S&P 500",
-    "updated_at": "2026-05-17T12:42:51.105812"
+    "updated_at": "2026-05-17T14:16:03.759593"
   },
   "META": {
     "price": 614.23,
     "change_pct": -8.51,
     "name": "META",
-    "updated_at": "2026-05-17T12:42:51.105821"
+    "updated_at": "2026-05-17T14:16:03.759597"
   },
   "AMZN": {
     "price": 264.14,
     "change_pct": 1.71,
     "name": "AMZN",
-    "updated_at": "2026-05-17T12:42:51.105828"
+    "updated_at": "2026-05-17T14:16:03.759600"
   },
   "TSLA": {
     "price": 422.24,
     "change_pct": 12.29,
     "name": "TSLA",
-    "updated_at": "2026-05-17T12:42:51.105841"
+    "updated_at": "2026-05-17T14:16:03.759602"
   },
   "QQQ": {
     "price": 708.93,
     "change_pct": 7.81,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-17T12:42:51.105849"
+    "updated_at": "2026-05-17T14:16:03.759605"
   },
   "BTC-USD": {
-    "price": 77979.64,
-    "change_pct": -2.32,
+    "price": 78213.51,
+    "change_pct": -2.02,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-17T12:42:51.105857"
+    "updated_at": "2026-05-17T14:16:03.759608"
   }
 },
   tickerScores: [
@@ -828,6 +828,27 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 240,
+      "title": "A Basel III Deep Dive | What to Know About How It Will Transform Banking Globally",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-17",
+      "summary": "In this episode, Jack Farley discusses the incomplete implementation of Basel III in the U.S., its impact on capital requirements for large banks, and the changes in risk weights for traditional lending. The conversation also touches on operational risk, the modernization of the discount window, the empowerment of small banks, and the political dynamics surrounding Fannie Mae and Freddie Mac. Additionally, the podcast explores the increasing integration of AI into legal practices and its implications for the legal sector.",
+      "key_takeaway": "Investors should closely monitor the regulatory environment, particularly Basel III implementation, as it can significantly impact bank valuations and lending capabilities. Additionally, the growing role of AI in legal practices presents both opportunities and challenges for the sector.",
+      "tickers_mentioned": [
+        "JPM",
+        "WFC",
+        "GS"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 225
+    },
+    {
       "id": 238,
       "title": "Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
       "source_type": "podcast",
@@ -1002,7 +1023,7 @@ const dashboardData = {
         "GOOGL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-14",
       "archived_date": null,
@@ -5254,6 +5275,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 186,
+      "term": "Basel III",
+      "description": "A global regulatory standard for banks aimed at improving banking sector stability and resilience.",
+      "first_detected_date": "2026-05-17",
+      "last_mentioned_date": "2026-05-17",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should track the implementation status and potential impacts on banks' capital requirements and risk management.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 225,
+      "first_detected_speaker": "Jack Farley (hosts)",
+      "last_mentioned_episode_id": 225,
+      "last_mentioned_speaker": "Jack Farley (hosts)"
+    },
+    {
       "id": 174,
       "term": "Capability-Bounded Approach",
       "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
@@ -7946,6 +7985,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 240,
+      "title": "A Basel III Deep Dive | What to Know About How It Will Transform Banking Globally",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-17",
+      "summary": "In this episode, Jack Farley discusses the incomplete implementation of Basel III in the U.S., its impact on capital requirements for large banks, and the changes in risk weights for traditional lending. The conversation also touches on operational risk, the modernization of the discount window, the empowerment of small banks, and the political dynamics surrounding Fannie Mae and Freddie Mac. Additionally, the podcast explores the increasing integration of AI into legal practices and its implications for the legal sector.",
+      "key_takeaway": "Investors should closely monitor the regulatory environment, particularly Basel III implementation, as it can significantly impact bank valuations and lending capabilities. Additionally, the growing role of AI in legal practices presents both opportunities and challenges for the sector.",
+      "tickers_mentioned": "[\"JPM\", \"WFC\", \"GS\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 225,
+      "episode_release_date": "2026-05-17",
+      "guest_name": "A Basel III Deep Dive",
+      "key_tickers": []
+    },
+    {
       "id": 238,
       "title": "Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
       "source_type": "podcast",
@@ -8086,29 +8145,6 @@ const dashboardData = {
       "episode_release_date": "2026-05-14",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 232,
-      "title": "Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-05-13",
-      "summary": "In this episode, Lynn Alden discusses the multi-decade changes in the economy due to the rise of AI, comparing it to the shift in blue-collar manufacturing in the 80s and 90s. Alden highlights the surge in the semiconductor industry due to increased AI spending, the cyclical nature of capex investments by hyperscalers, and the potential growth of stablecoins. Additionally, Alden anticipates the decoupling of Bitcoin from tech stocks and the impact of geopolitical tensions on global oil prices. The episode also touches on the societal and economic consequences of AI as depicted in Alden's new science fiction book.",
-      "key_takeaway": "Invest in sectors poised for growth due to AI adoption, particularly semiconductors and stablecoins, while being cautious about the cyclical nature of capex investments in hyperscaler companies.",
-      "tickers_mentioned": "[\"MSFT\", \"GOOGL\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-14",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 217,
-      "episode_release_date": "2026-05-13",
-      "guest_name": "Lynn Alden",
-      "key_tickers": [
-        "MSFT",
-        "GOOGL"
-      ]
     }
   ],
   "definitions": [
@@ -8234,6 +8270,32 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 186,
+      "term": "Basel III",
+      "description": "A global regulatory standard for banks aimed at improving banking sector stability and resilience.",
+      "first_detected_date": "2026-05-17",
+      "last_mentioned_date": "2026-05-17",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should track the implementation status and potential impacts on banks' capital requirements and risk management.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 225,
+      "first_detected_speaker": "Jack Farley (hosts)",
+      "last_mentioned_episode_id": 225,
+      "last_mentioned_speaker": "Jack Farley (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "A Basel III Deep Dive | What to Know About How It Will Transform Banking Globally",
+      "first_detected_episode_date": "2026-05-17",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "A Basel III Deep Dive | What to Know About How It Will Transform Banking Globally",
+      "last_mentioned_episode_date": "2026-05-17"
+    },
     {
       "id": 24,
       "term": "Risk Off Playbook",
@@ -8530,32 +8592,6 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential for new platforms that can address specific pain points within enterprise software more effectively than incumbents.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.69,
-      "resonance_pct": 17,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 144,
-      "term": "Descheduling",
-      "description": "The removal of a substance from a list of controlled substances, in this case, cannabis.",
-      "first_detected_date": "2026-05-01",
-      "last_mentioned_date": "2026-05-01",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Descheduling can lead to significant changes in the legal and operational landscape for businesses in the affected industry.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -22924,12 +22960,85 @@ const dashboardData = {
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-05-16",
     "key_tickers": []
+  },
+  "240": {
+    "id": 230,
+    "insight_id": 240,
+    "podcast_episode_id": 225,
+    "overview": "The unresolved tension in the U.S. banking sector revolves around the incomplete implementation of Basel III and its divergent impacts on capital requirements and risk weights. This dynamic creates a competitive landscape where large banks may face increased capital demands while simultaneously being incentivized to engage in traditional lending due to lower risk weights. The empowerment of small banks through potential reductions in capital requirements adds another layer of complexity, potentially altering the competitive dynamics within the banking industry.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the regulatory updates on Basel III, as the final 30% of implementation could significantly alter the capital landscape and affect bank valuations.",
+      "Banks with a significant portion of their portfolios in residential mortgages and investment-grade corporate lending could benefit from the projected decrease in risk weights, potentially boosting their lending activities and economic impact.",
+      "The modernization of the discount window and changes in liquidity provisions are critical for investors to watch, as they can have a stabilizing effect on the banking system and prevent future liquidity crises.",
+      "Political developments surrounding Fannie Mae and Freddie Mac are pivotal for investors, as their exit from conservatorship could reshape the residential mortgage market and influence mortgage-backed securities.",
+      "Investors in legal tech should consider the dual-edged sword of AI integration in legal practices, which may enhance efficiency but also disrupt traditional legal services and potentially displace jobs."
+    ],
+    "investment_thesis": "The thesis is that the finalization of Basel III in the U.S. will have a profound impact on the banking sector, particularly on capital requirements and risk profiles. Over a 1-2 year timeframe, the observable development that would vindicate this thesis is the actual implementation of the remaining 30% of Basel III, which would lead to a clearer picture of how capital requirements and risk weights will be adjusted. Conversely, if the implementation is delayed or watered down, the thesis would be invalidated, suggesting a continuation of the status quo with its associated uncertainties.",
+    "ticker_analysis": {
+      "JPM": {
+        "rationale": "JPMorgan Chase, being one of the largest banks, is directly affected by changes in capital requirements and risk weights under Basel III.",
+        "positioning": "A strategic long position could be considered given the potential for increased lending in traditional areas and the bank's ability to adapt to regulatory changes.",
+        "risk": "Key risks include the speed and impact of Basel III implementation, economic downturns affecting lending activities, and potential cyber threats impacting operational risk."
+      },
+      "WFC": {
+        "rationale": "Wells Fargo's significant residential mortgage portfolio could benefit from the projected decrease in risk weights.",
+        "positioning": "A tactical long position might be appropriate to capitalize on potential regulatory-induced growth in traditional lending.",
+        "risk": "Regulatory changes not aligning with projections, and economic volatility affecting mortgage demand and defaults."
+      },
+      "GS": {
+        "rationale": "Goldman Sachs, with its investment banking focus, could be impacted by changes in risk weights for corporate lending.",
+        "positioning": "A strategic long position could be beneficial if the bank can leverage lower risk weights to increase lending activities.",
+        "risk": "Market conditions affecting corporate borrowing and the potential for increased competition in the lending space."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A sudden acceleration in inflation could lead to a more conservative regulatory approach, potentially increasing capital requirements unexpectedly.",
+      "A significant cyber-attack leading to substantial losses could result in higher operational risk weights, counteracting the projected decrease for traditional lending.",
+      "Political gridlock could delay or derail the empowerment of small banks, maintaining the status quo and not leveling the playing field as anticipated."
+    ],
+    "catalysts": [
+      "Finalization of the remaining 30% of Basel III implementation in the U.S.",
+      "Release of detailed regulatory proposals affecting risk weights for residential mortgages and corporate lending.",
+      "Cybersecurity incidents or changes in the threat landscape affecting operational risk assessments.",
+      "Political decisions regarding the exit of Fannie Mae and Freddie Mac from conservatorship.",
+      "Advancements in AI technology and its adoption rates in legal practices."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-17T14:15:19.277820",
+    "updated_at": "2026-05-17 19:15:19",
+    "episode_evidence": "The podcast with Jack Farley delves into the intricacies of Basel III's incomplete implementation in the U.S., highlighting that only about 70% of the framework is in place, as Farley states, 'We haven't quite gone around to finalizing it here in New York.' This partial implementation has led to a complex scenario where large banks anticipate a modest increase in capital requirements, potentially within a 0-5% range, yet there are concurrent changes that could paradoxically lower overall capital requirements by 5-7%. Farley elaborates on this dynamic, saying, 'You can expect to see a similar but obviously pointing decrease in capital requirements.' Additionally, the discussion underscores the favorable shift in risk weights for traditional lending, such as residential mortgages, which are expected to decrease, thereby incentivizing banks to engage more in these activities, as Farley points out: 'If you're engaged in lower risk residential mortgage lending... you get applied a little risk weight.'",
+    "falsification_tracks": [
+      "Implementation of the remaining 30% of Basel III occurs more rapidly than expected, leading to a significant shift in capital requirements.",
+      "A significant economic downturn leads to a reevaluation of Basel III requirements, altering the projected capital requirement changes.",
+      "Cybersecurity incidents lead to a substantial increase in operational risk weights, affecting the projected decrease in risk weights for traditional lending."
+    ],
+    "insight_title": "A Basel III Deep Dive | What to Know About How It Will Transform Banking Globally",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-05-17",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 6103,
+    "id": 6154,
+    "name": "A Basel III Deep Dive",
+    "slug": "a-basel-iii-deep-dive",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investors should closely monitor the regulatory environment, particularly Basel III implementation, as it can significantly impact bank valuations and lending capabilities. Additionally, the growing role of AI in legal practices presents both opportunities and challenges for the sector.",
+    "last_episode_title": "A Basel III Deep Dive | What to Know About How It Will Transform Banking Globally",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-17",
+    "appearance_count": 1
+  },
+  {
+    "id": 6155,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -22941,7 +23050,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6104,
+    "id": 6156,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -22953,7 +23062,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6105,
+    "id": 6157,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -22965,7 +23074,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 6106,
+    "id": 6158,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -22977,7 +23086,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6107,
+    "id": 6159,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -22989,7 +23098,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6108,
+    "id": 6160,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -23001,7 +23110,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6109,
+    "id": 6161,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -23013,7 +23122,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6110,
+    "id": 6162,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -23025,7 +23134,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6111,
+    "id": 6163,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -23037,7 +23146,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6112,
+    "id": 6164,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -23049,7 +23158,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6113,
+    "id": 6165,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -23061,7 +23170,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6114,
+    "id": 6166,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -23073,7 +23182,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6115,
+    "id": 6167,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -23085,7 +23194,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6116,
+    "id": 6168,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -23097,7 +23206,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6117,
+    "id": 6169,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -23109,7 +23218,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6118,
+    "id": 6170,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -23121,7 +23230,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6119,
+    "id": 6171,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -23133,7 +23242,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6120,
+    "id": 6172,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -23145,7 +23254,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6121,
+    "id": 6173,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -23154,18 +23263,6 @@ const dashboardData = {
     "last_episode_title": "Balaji Srinivasan: Prove Correct, Not Just Go Direct",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-22",
-    "appearance_count": 1
-  },
-  {
-    "id": 6122,
-    "name": "Marc Andreessen",
-    "slug": "marc-andreessen",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in media and understanding its evolution is crucial as it shapes societal behavior, influences politics, and impacts decision-making processes.",
-    "last_episode_title": "Marc Andreessen: Monitoring the Situation and the Future of Media",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-21",
     "appearance_count": 1
   }
 ],
@@ -23188,7 +23285,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 6,
-    "mention_score_decayed": 5.73,
+    "mention_score_decayed": 5.6,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -23376,7 +23473,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-16",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
     "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
@@ -23565,7 +23662,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.62,
+    "mention_score_decayed": 1.59,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -24188,7 +24285,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The current market dynamics suggest a potential bubble, characterized by inflated earnings expectations rather than traditional valuation metrics, indicating the need for disciplined profit-taking strategies and portfolio diversification.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-16 \u2022 Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
     "last_proof_snippet": "If we're in a bubble, why aren't we selling crazy P is? It's not the P that's the bubble, it's the E. The S&P in its entirety is expected to earn 400 billion. Where's the GDP that can do that? Now it could come from everywhere else. It coul",
@@ -24253,7 +24350,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
     "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
@@ -24313,7 +24410,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
     "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
@@ -24438,7 +24535,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-15 \u2022 \u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
     "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. I'm joined by Andrew Perry, veteran macro investors. He has worked at the top macro hedge funds, all the big banks, Andrew, welcome to monetary",
@@ -24499,7 +24596,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -24815,7 +24912,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in private credit funds that capitalize on the retreat of banks from riskier, smaller loans due to regulatory pressures, and consider preferred equity structures for upside potential with downside protection.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-12 \u2022 Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
     "last_proof_snippet": "The dominant media narrative at the moment is direct lending and private credit, a virtually synonymous, but that is obviously not how the industry is structured, but what is definitely true is that direct lending has taken the vast majorit",
@@ -24940,7 +25037,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-10 \u2022 Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
     "last_proof_snippet": "Very pleased today to be joined by David Wright, co-head of Pictay asset management's quantitative investments franchise, which manages over $30 billion in their quant group. This includes most recently two ETFs they launched PQ&T, their Pi",
@@ -25000,7 +25097,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -25190,7 +25287,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -25253,7 +25350,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -25317,7 +25414,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -25381,7 +25478,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -29320,7 +29417,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -29379,7 +29476,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
@@ -29638,7 +29735,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
     "last_proof_snippet": "The world is transitioning into a multi-polar world, which has economic and investment implications.",
@@ -31388,7 +31485,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -31415,7 +31512,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",
