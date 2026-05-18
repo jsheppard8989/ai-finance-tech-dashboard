@@ -4448,24 +4448,6 @@
   "definitions": [],
   "overton": [
     {
-      "id": 186,
-      "term": "Basel III",
-      "description": "A global regulatory standard for banks aimed at improving banking sector stability and resilience.",
-      "first_detected_date": "2026-05-17",
-      "last_mentioned_date": "2026-05-17",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should track the implementation status and potential impacts on banks' capital requirements and risk management.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 225,
-      "first_detected_speaker": "Jack Farley (hosts)",
-      "last_mentioned_episode_id": 225,
-      "last_mentioned_speaker": "Jack Farley (hosts)"
-    },
-    {
       "id": 174,
       "term": "Capability-Bounded Approach",
       "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
