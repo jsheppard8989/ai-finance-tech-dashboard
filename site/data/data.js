@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-18T12:06:12.526342",
-  chartsVersion: "2026-05-18T12:06:03.325773",
+  generatedAt: "2026-05-18T13:38:05.781339",
+  chartsVersion: "2026-05-18T13:37:59.322588",
   priceSnapshot: {
   "GOOGL": {
-    "price": 401.54,
-    "change_pct": 14.75,
+    "price": 397.88,
+    "change_pct": 13.7,
     "name": "GOOGL",
-    "updated_at": "2026-05-18T12:06:03.325000"
+    "updated_at": "2026-05-18T13:37:59.321837"
   },
   "BTC": {
-    "price": 76483.28,
-    "change_pct": -5.49,
+    "price": 76328.26,
+    "change_pct": -5.68,
     "name": "BTC",
-    "updated_at": "2026-05-18T12:06:03.325014"
+    "updated_at": "2026-05-18T13:37:59.321853"
   },
   "NVDA": {
-    "price": 222.3,
-    "change_pct": 6.24,
+    "price": 219.84,
+    "change_pct": 5.06,
     "name": "NVDA",
-    "updated_at": "2026-05-18T12:06:03.325020"
+    "updated_at": "2026-05-18T13:37:59.321860"
   },
   "MSFT": {
-    "price": 421.18,
-    "change_pct": -0.77,
+    "price": 423.51,
+    "change_pct": -0.22,
     "name": "MSFT",
-    "updated_at": "2026-05-18T12:06:03.325025"
+    "updated_at": "2026-05-18T13:37:59.321866"
   },
   "WTI": {
-    "price": 4.93,
-    "change_pct": 9.93,
+    "price": 4.89,
+    "change_pct": 9.04,
     "name": "WTI",
-    "updated_at": "2026-05-18T12:06:03.325030"
+    "updated_at": "2026-05-18T13:37:59.321871"
   },
   "S&P 500": {
-    "price": 736.95,
-    "change_pct": 3.56,
+    "price": 734.63,
+    "change_pct": 3.24,
     "name": "S&P 500",
-    "updated_at": "2026-05-18T12:06:03.325034"
+    "updated_at": "2026-05-18T13:37:59.321877"
   },
   "META": {
-    "price": 609.64,
-    "change_pct": -8.89,
+    "price": 611.0,
+    "change_pct": -8.69,
     "name": "META",
-    "updated_at": "2026-05-18T12:06:03.325039"
+    "updated_at": "2026-05-18T13:37:59.321884"
   },
   "AMZN": {
-    "price": 264.55,
-    "change_pct": 0.57,
+    "price": 263.68,
+    "change_pct": 0.25,
     "name": "AMZN",
-    "updated_at": "2026-05-18T12:06:03.325043"
+    "updated_at": "2026-05-18T13:37:59.321889"
   },
   "TSLA": {
-    "price": 410.78,
-    "change_pct": 10.19,
+    "price": 406.63,
+    "change_pct": 9.07,
     "name": "TSLA",
-    "updated_at": "2026-05-18T12:06:03.325048"
+    "updated_at": "2026-05-18T13:37:59.321894"
   },
   "QQQ": {
-    "price": 703.57,
-    "change_pct": 6.35,
+    "price": 700.27,
+    "change_pct": 5.85,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-18T12:06:03.325052"
+    "updated_at": "2026-05-18T13:37:59.321900"
   },
   "BTC-USD": {
-    "price": 76483.28,
-    "change_pct": -5.49,
+    "price": 76328.26,
+    "change_pct": -5.68,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-18T12:06:03.325057"
+    "updated_at": "2026-05-18T13:37:59.321905"
   }
 },
   tickerScores: [
@@ -5294,24 +5294,6 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 187,
-      "term": "Mental Health Analytics",
-      "description": "The application of data analysis to monitor and predict mental health states, particularly for high-stress professions like law enforcement.",
-      "first_detected_date": "2026-05-18",
-      "last_mentioned_date": "2026-05-18",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies providing mental health solutions tailored for first responders, focusing on analytics and proactive support.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 226,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": 226,
-      "last_mentioned_speaker": null
-    },
-    {
       "id": 174,
       "term": "Capability-Bounded Approach",
       "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
@@ -8290,32 +8272,6 @@ const dashboardData = {
   ],
   "overton": [
     {
-      "id": 187,
-      "term": "Mental Health Analytics",
-      "description": "The application of data analysis to monitor and predict mental health states, particularly for high-stress professions like law enforcement.",
-      "first_detected_date": "2026-05-18",
-      "last_mentioned_date": "2026-05-18",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies providing mental health solutions tailored for first responders, focusing on analytics and proactive support.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 226,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": 226,
-      "last_mentioned_speaker": null,
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "The Plan to Make American Crime Obsolete",
-      "first_detected_episode_date": "2026-05-18",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "The Plan to Make American Crime Obsolete",
-      "last_mentioned_episode_date": "2026-05-18"
-    },
-    {
       "id": 24,
       "term": "Risk Off Playbook",
       "description": "A set of investment strategies employed by investors to mitigate risk during times of market uncertainty or perceived danger.",
@@ -8611,6 +8567,32 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential for new platforms that can address specific pain points within enterprise software more effectively than incumbents.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.68,
+      "resonance_pct": 17,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
+    },
+    {
+      "id": 144,
+      "term": "Descheduling",
+      "description": "The removal of a substance from a list of controlled substances, in this case, cannabis.",
+      "first_detected_date": "2026-05-01",
+      "last_mentioned_date": "2026-05-01",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Descheduling can lead to significant changes in the legal and operational landscape for businesses in the affected industry.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -23093,7 +23075,7 @@ const dashboardData = {
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 6362,
+    "id": 6414,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -23105,7 +23087,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6363,
+    "id": 6415,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -23117,7 +23099,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6364,
+    "id": 6416,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -23129,7 +23111,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6365,
+    "id": 6417,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -23141,7 +23123,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 6366,
+    "id": 6418,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -23153,7 +23135,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6367,
+    "id": 6419,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -23165,7 +23147,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6368,
+    "id": 6420,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -23177,7 +23159,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6369,
+    "id": 6421,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -23189,7 +23171,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6370,
+    "id": 6422,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -23201,7 +23183,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6371,
+    "id": 6423,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -23213,7 +23195,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6372,
+    "id": 6424,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -23225,7 +23207,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6373,
+    "id": 6425,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -23237,7 +23219,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6374,
+    "id": 6426,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -23249,7 +23231,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6375,
+    "id": 6427,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -23261,7 +23243,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6376,
+    "id": 6428,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -23273,7 +23255,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6377,
+    "id": 6429,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -23285,7 +23267,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6378,
+    "id": 6430,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -23297,7 +23279,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6379,
+    "id": 6431,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -23309,7 +23291,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6380,
+    "id": 6432,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -23321,7 +23303,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6381,
+    "id": 6433,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -23729,7 +23711,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.59,
+    "mention_score_decayed": 1.55,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -25354,7 +25336,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -25417,7 +25399,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -25605,7 +25587,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
