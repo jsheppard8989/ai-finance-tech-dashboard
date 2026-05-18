@@ -15,7 +15,7 @@
 Friday morning America/Chicago after pipeline export:
 
 ```bash
-cd ~/.openclaw/workspace && python3 pipeline/debate_weekly.py
+cd $WORKSPACE_ROOT && python3 pipeline/debate_weekly.py
 ```
 
 Optional: `0 9 * * 5` (9am Fri CST) — adjust for host TZ.
@@ -47,4 +47,4 @@ Update `site/debate_history.json` via `--mark-resolved`, or edit the matching `w
 
 ## Archived audio
 
-Previous weeks’ MP3s are copied to `site/audio/archive/debate_YYYY-MM-DD.mp3` (large; add to `.gitignore` or store off-repo).
+Previous weeks’ MP3s are copied to `site/audio/archive/debate_YYYY-MM-DD.mp3`. The pipeline writes `site/audio/archive_manifest.json` (which files exist on disk). **Commit both the manifest and any archive MP3s** so GitHub Pages can serve history listen links; stale `audio_href` entries are cleared automatically when the file is missing.

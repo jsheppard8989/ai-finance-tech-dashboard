@@ -261,6 +261,11 @@
     .res-void { color: #a78bfa; }
     .history-prompt { color: #cbd5f5; max-width: 280px; line-height: 1.35; }
     .history-audio { font-size: 0.75rem; }
+    .history-audio-player {
+      width: min(220px, 100%);
+      height: 28px;
+      margin-top: 0.25rem;
+    }
     .audio-warning {
       margin-top: 0.55rem;
       font-size: 0.82rem;
@@ -362,7 +367,7 @@
 
     <div class="card" id="history-card">
       <h2>Prior weeks &amp; bet status</h2>
-      <p class="tagline">Outcomes use the same Affirmative green / Negative red as debater tags above. Jared records results as oracle until automated resolution. You can also set status via <code style="font-size:0.75rem;">debate_weekly.py --mark-resolved</code>. Archive audio when available.</p>
+      <p class="tagline">Outcomes use the same Affirmative green / Negative red as debater tags above. Jared records results as oracle until automated resolution. You can also set status via <code style="font-size:0.75rem;">debate_weekly.py --mark-resolved</code>. Listen controls appear only when that week’s archive MP3 is on the server.</p>
       <div id="history-empty" style="color:#8892b0;font-size:0.85rem;">No prior weeks recorded yet. After the first Friday rollover, history appears here.</div>
       <table class="history-table" id="history-table" style="display:none;">
         <thead>
@@ -402,6 +407,23 @@
           return await resp.json();
         } catch(e) {
           return { weeks: [] };
+        }
+      }
+
+      async function loadArchiveManifest() {
+        try {
+          const resp = await fetch('./audio/archive_manifest.json?v=' + Date.now(), { cache: 'no-cache' });
+          if (!resp.ok) return {};
+          const data = await resp.json();
+          const map = {};
+          (data.archives || []).forEach(function(entry) {
+            if (entry && entry.friday_iso && entry.audio_href) {
+              map[String(entry.friday_iso)] = String(entry.audio_href);
+            }
+          });
+          return map;
+        } catch(e) {
+          return {};
         }
       }
 
@@ -529,10 +551,11 @@
         );
       }
 
-      function renderHistory(weeks) {
+      function renderHistory(weeks, archiveByFriday) {
         var tbody = document.getElementById('history-tbody');
         var table = document.getElementById('history-table');
         var empty = document.getElementById('history-empty');
+        archiveByFriday = archiveByFriday || {};
         if (!weeks || !weeks.length) {
           if (table) table.style.display = 'none';
           if (empty) empty.style.display = 'block';
@@ -549,8 +572,10 @@
           else if (st === 'no') { cls = 'res-no'; label = 'Negative'; }
           else if (st === 'void') { cls = 'res-void'; label = 'Void'; }
           else if (st === 'pending' && lean === 'negative') { cls = 'res-pending-lean-no'; label = 'Pending'; }
-          var audio = w.audio_href
-            ? '<a class="history-audio" href="' + String(w.audio_href).replace(/"/g, '&quot;') + '">Archive</a>'
+          var frKey = String(w.friday_iso || '').trim();
+          var href = frKey ? archiveByFriday[frKey] : '';
+          var audio = href
+            ? '<audio class="history-audio-player" controls preload="none" src="' + String(href).replace(/"/g, '&quot;') + '"></audio>'
             : '—';
           var pr = (w.prompt || '').replace(/</g, '&lt;');
           if (pr.length > 220) pr = pr.slice(0, 217) + '…';
@@ -578,6 +603,7 @@
 
         const contract = await loadDebateContract();
         const hist = await loadDebateHistory();
+        const archiveByFriday = await loadArchiveManifest();
         const audioMeta = await loadDebateAudioMeta();
 
         const genAt = contract && contract.generated_at ? formatDate(contract.generated_at) : (data && data.generatedAt ? formatDate(data.generatedAt) : '—');
@@ -703,7 +729,7 @@
             punditCardHtml(pNo || punditStub('No side'), 'no', bLabel);
         }
 
-        renderHistory(Array.isArray(hist.weeks) ? hist.weeks : []);
+        renderHistory(Array.isArray(hist.weeks) ? hist.weeks : [], archiveByFriday);
       }
 
       if (document.readyState === 'loading') {

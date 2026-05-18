@@ -34,16 +34,16 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
-WORKSPACE = Path.home() / ".openclaw/workspace"
-PIPELINE = WORKSPACE / "pipeline"
-SITE_AUDIO = WORKSPACE / "site" / "audio"
-SITE_DATA = WORKSPACE / "site" / "data"
-DB_PATH = PIPELINE / "dashboard.db"
+from workspace_paths import DB_PATH, PIPELINE_DIR as PIPELINE, SITE_DATA_DIR as SITE_DATA, SITE_DIR
+
+WORKSPACE = SITE_DIR.parent
+SITE_AUDIO = SITE_DIR / "audio"
 PUNDITS_PATH = SITE_DATA / "pundits.json"
 CONTRACT_PATH = SITE_AUDIO / "debate_contract.json"
-HISTORY_PATH = WORKSPACE / "site" / "debate_history.json"
+HISTORY_PATH = SITE_DIR / "debate_history.json"
 SCRIPTS_STATE = PIPELINE / "state" / "last_debate_scripts.json"
 ARCHIVE_DIR = SITE_AUDIO / "archive"
+ARCHIVE_MANIFEST_PATH = SITE_AUDIO / "archive_manifest.json"
 OUT_MP3 = SITE_AUDIO / "emp_ai_the_debate_11labs.mp3"
 AUDIO_META_PATH = SITE_AUDIO / "debate_audio_meta.json"
 
@@ -130,7 +130,45 @@ def load_history() -> Dict[str, Any]:
     return h
 
 
+def archive_audio_href(friday_iso: str) -> str:
+    fr = (friday_iso or "").strip()
+    if not fr:
+        return ""
+    arc_mp3 = ARCHIVE_DIR / f"debate_{fr}.mp3"
+    return f"./audio/archive/debate_{fr}.mp3" if arc_mp3.exists() and arc_mp3.stat().st_size > 1000 else ""
+
+
+def sync_history_audio_refs(history: Dict[str, Any]) -> None:
+    """Drop stale audio_href entries when the archive MP3 is missing."""
+    for w in history.get("weeks", []):
+        fr = (w.get("friday_iso") or "").strip()
+        href = archive_audio_href(fr) if fr else ""
+        if href:
+            w["audio_href"] = href
+        else:
+            w.pop("audio_href", None)
+
+
+def write_archive_manifest() -> None:
+    """List archive MP3s present on disk (site + deploy use this for Listen links)."""
+    ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
+    entries: List[Dict[str, str]] = []
+    for path in sorted(ARCHIVE_DIR.glob("debate_*.mp3"), reverse=True):
+        if path.stat().st_size <= 1000:
+            continue
+        fr = path.stem.replace("debate_", "", 1)
+        if not fr:
+            continue
+        entries.append({"friday_iso": fr, "audio_href": f"./audio/archive/{path.name}"})
+    ARCHIVE_MANIFEST_PATH.write_text(
+        json.dumps({"generated_at": datetime.now().isoformat(), "archives": entries}, indent=2),
+        encoding="utf-8",
+    )
+
+
 def save_history(h: Dict[str, Any]) -> None:
+    sync_history_audio_refs(h)
+    write_archive_manifest()
     HISTORY_PATH.parent.mkdir(parents=True, exist_ok=True)
     HISTORY_PATH.write_text(json.dumps(h, indent=2), encoding="utf-8")
 
@@ -251,7 +289,7 @@ def fetch_yahoo_last_price(symbol: str) -> Optional[float]:
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(symbol, safe='')}?interval=1d&range=5d"
     req = urllib.request.Request(
         url,
-        headers={"User-Agent": "Mozilla/5.0 (OpenClaw debate_weekly)"},
+        headers={"User-Agent": "Mozilla/5.0 (debate_weekly; scarcity-abundance-dashboard)"},
     )
     try:
         with urllib.request.urlopen(req, timeout=20) as resp:
@@ -558,7 +596,7 @@ def archive_current_week(history: Dict[str, Any], prev_contract: Optional[Dict])
             shutil.copy2(OUT_MP3, arc_mp3)
         except Exception:
             pass
-    audio_href = f"./audio/archive/debate_{fr}.mp3" if arc_mp3.exists() else ""
+    audio_href = archive_audio_href(fr)
     history["weeks"].insert(
         0,
         {
@@ -874,7 +912,17 @@ def main() -> int:
     ap.add_argument("--mark-resolved", metavar="FRIDAY_ISO", help="With --status, update history")
     ap.add_argument("--status", choices=("yes", "no", "void", "pending"), help="Bet resolution for --mark-resolved")
     ap.add_argument("--notes", default="", help="Resolution notes")
+    ap.add_argument(
+        "--sync-archive",
+        action="store_true",
+        help="Refresh debate_history audio_href + archive_manifest.json from disk",
+    )
     args = ap.parse_args()
+
+    if args.sync_archive:
+        save_history(load_history())
+        print(f"✓ Synced {ARCHIVE_MANIFEST_PATH.name}")
+        return 0
 
     if args.mark_resolved:
         if not args.status:

@@ -35,8 +35,7 @@
       "resolution_status": "pending",
       "oracle_pending_lean": "negative",
       "resolution_notes": "Pending. Oracle (Jared) leans Negative\u2014would take the side that MSTR does not sell BTC in-window; contract still open.",
-      "archived_at": "2026-05-01T05:08:50.459570",
-      "audio_href": "./audio/archive/debate_2026-04-24.mp3"
+      "archived_at": "2026-05-01T05:08:50.459570"
     },
     {
       "friday_iso": "2026-04-03",
@@ -48,8 +47,7 @@
       "resolution_status": "yes",
       "resolution_notes": "Affirmative (contract YES).",
       "resolved_at": "2026-05-02T12:00:00.000000",
-      "archived_at": "2026-04-24T05:06:54.743979",
-      "audio_href": "./audio/archive/debate_2026-04-03.mp3"
+      "archived_at": "2026-04-24T05:06:54.743979"
     },
     {
       "friday_iso": "2026-03-20",
@@ -61,8 +59,7 @@
       "resolution_status": "no",
       "resolution_notes": "Negative (contract NO).",
       "resolved_at": "2026-05-02T12:00:00.000000",
-      "archived_at": "2026-04-03T15:10:33.175673",
-      "audio_href": "./audio/archive/debate_2026-03-20.mp3"
+      "archived_at": "2026-04-03T15:10:33.175673"
     },
     {
       "friday_iso": "2026-03-18",
@@ -74,8 +71,7 @@
       "resolution_status": "yes",
       "resolution_notes": "Affirmative (contract YES).",
       "resolved_at": "2026-05-02T12:00:00.000000",
-      "archived_at": "2026-03-19T16:41:25.173387",
-      "audio_href": "./audio/archive/debate_2026-03-18.mp3"
+      "archived_at": "2026-03-19T16:41:25.173387"
     }
   ]
 }

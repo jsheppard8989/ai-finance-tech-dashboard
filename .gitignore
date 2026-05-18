@@ -31,7 +31,12 @@ venv/
 Thumbs.db
 
 # Large files (don't commit audio/transcripts to git)
-audio/
+/audio/
+pipeline/audio/
+# Weekly debate archive MP3s (deployed to GitHub Pages for history listen links)
+site/audio/archive/*
+!site/audio/archive/
+!site/audio/archive/*.mp3
 whisper_queue/
 whisper_done/
 pipeline/audio/
@@ -69,9 +74,6 @@ pipeline/inbox/
 
 # Generated site data (JSON/JS exported from pipeline)
 site/data/
-
-# Weekly debate archives (large MP3s)
-site/audio/archive/
 
 # Encrypted prompt log — never commit decrypted plaintext
 prompts/jared_prompts.plain.txt
