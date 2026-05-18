@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-18T06:48:19.887509",
-  chartsVersion: "2026-05-18T06:48:03.668393",
+  generatedAt: "2026-05-18T12:06:12.526342",
+  chartsVersion: "2026-05-18T12:06:03.325773",
   priceSnapshot: {
   "GOOGL": {
-    "price": 396.78,
-    "change_pct": 13.44,
+    "price": 401.54,
+    "change_pct": 14.75,
     "name": "GOOGL",
-    "updated_at": "2026-05-18T06:48:03.667197"
+    "updated_at": "2026-05-18T12:06:03.325000"
   },
   "BTC": {
-    "price": 77220.02,
-    "change_pct": -4.58,
+    "price": 76483.28,
+    "change_pct": -5.49,
     "name": "BTC",
-    "updated_at": "2026-05-18T06:48:03.667224"
+    "updated_at": "2026-05-18T12:06:03.325014"
   },
   "NVDA": {
-    "price": 225.32,
-    "change_pct": 5.7,
+    "price": 222.3,
+    "change_pct": 6.24,
     "name": "NVDA",
-    "updated_at": "2026-05-18T06:48:03.667234"
+    "updated_at": "2026-05-18T12:06:03.325020"
   },
   "MSFT": {
-    "price": 421.92,
-    "change_pct": -1.71,
+    "price": 421.18,
+    "change_pct": -0.77,
     "name": "MSFT",
-    "updated_at": "2026-05-18T06:48:03.667249"
+    "updated_at": "2026-05-18T12:06:03.325025"
   },
   "WTI": {
-    "price": 4.75,
-    "change_pct": 19.05,
+    "price": 4.93,
+    "change_pct": 9.93,
     "name": "WTI",
-    "updated_at": "2026-05-18T06:48:03.667259"
+    "updated_at": "2026-05-18T12:06:03.325030"
   },
   "S&P 500": {
-    "price": 739.17,
-    "change_pct": 3.86,
+    "price": 736.95,
+    "change_pct": 3.56,
     "name": "S&P 500",
-    "updated_at": "2026-05-18T06:48:03.667267"
+    "updated_at": "2026-05-18T12:06:03.325034"
   },
   "META": {
-    "price": 614.23,
-    "change_pct": -8.51,
+    "price": 609.64,
+    "change_pct": -8.89,
     "name": "META",
-    "updated_at": "2026-05-18T06:48:03.667277"
+    "updated_at": "2026-05-18T12:06:03.325039"
   },
   "AMZN": {
-    "price": 264.14,
-    "change_pct": 1.71,
+    "price": 264.55,
+    "change_pct": 0.57,
     "name": "AMZN",
-    "updated_at": "2026-05-18T06:48:03.667283"
+    "updated_at": "2026-05-18T12:06:03.325043"
   },
   "TSLA": {
-    "price": 422.24,
-    "change_pct": 12.29,
+    "price": 410.78,
+    "change_pct": 10.19,
     "name": "TSLA",
-    "updated_at": "2026-05-18T06:48:03.667291"
+    "updated_at": "2026-05-18T12:06:03.325048"
   },
   "QQQ": {
-    "price": 708.93,
-    "change_pct": 7.81,
+    "price": 703.57,
+    "change_pct": 6.35,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-18T06:48:03.667296"
+    "updated_at": "2026-05-18T12:06:03.325052"
   },
   "BTC-USD": {
-    "price": 77220.02,
-    "change_pct": -4.58,
+    "price": 76483.28,
+    "change_pct": -5.49,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-18T06:48:03.667334"
+    "updated_at": "2026-05-18T12:06:03.325057"
   }
 },
   tickerScores: [
@@ -828,6 +828,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 241,
+      "title": "The Plan to Make American Crime Obsolete",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-18",
+      "summary": "This episode of 'The a16z Show' delves into the intersection of law enforcement and advanced technology, exploring how drones, AI, and data analytics are transforming public safety. The discussion highlights the critical need for technology to address staffing shortages and officer burnout, while also emphasizing the importance of collaboration between law enforcement and tech developers. The future of policing is envisioned as more investigative and nuanced, with a heavy reliance on data-driven decision-making.",
+      "key_takeaway": "Invest in companies that develop scalable technologies for law enforcement, with a focus on mental health solutions, data analytics, and AI-driven decision-making tools.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 226
+    },
+    {
       "id": 240,
       "title": "A Basel III Deep Dive | What to Know About How It Will Transform Banking Globally",
       "source_type": "podcast",
@@ -965,7 +984,7 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-14",
       "archived_date": null,
@@ -5275,6 +5294,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 187,
+      "term": "Mental Health Analytics",
+      "description": "The application of data analysis to monitor and predict mental health states, particularly for high-stress professions like law enforcement.",
+      "first_detected_date": "2026-05-18",
+      "last_mentioned_date": "2026-05-18",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies providing mental health solutions tailored for first responders, focusing on analytics and proactive support.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 226,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 226,
+      "last_mentioned_speaker": null
+    },
+    {
       "id": 174,
       "term": "Capability-Bounded Approach",
       "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
@@ -7967,6 +8004,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 241,
+      "title": "The Plan to Make American Crime Obsolete",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-18",
+      "summary": "This episode of 'The a16z Show' delves into the intersection of law enforcement and advanced technology, exploring how drones, AI, and data analytics are transforming public safety. The discussion highlights the critical need for technology to address staffing shortages and officer burnout, while also emphasizing the importance of collaboration between law enforcement and tech developers. The future of policing is envisioned as more investigative and nuanced, with a heavy reliance on data-driven decision-making.",
+      "key_takeaway": "Invest in companies that develop scalable technologies for law enforcement, with a focus on mental health solutions, data analytics, and AI-driven decision-making tools.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 226,
+      "episode_release_date": "2026-05-18",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 240,
       "title": "A Basel III Deep Dive | What to Know About How It Will Transform Banking Globally",
       "source_type": "podcast",
@@ -8086,26 +8143,6 @@ const dashboardData = {
       "podcast_episode_id": 222,
       "episode_release_date": "2026-05-15",
       "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 233,
-      "title": "Ben Horowitz - \"Your ONLY job is Right Product, Right Time\"",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-05-14",
-      "summary": "In this episode of The a16z Show, the focus is on the critical factors that determine a company's success, including delivering the right product at the right time and the importance of articulating the 'why' behind a company. The discussion highlights the evolving nature of a company's story, the challenges of late-stage pivots, and the increasing importance of creativity and relationship-building skills in talent acquisition. The episode also emphasizes the value of possessing customers and brand recognition as competitive advantages and the need for founders to solve hard problems rather than generating random ideas. Investors are advised to be convinced of a company's vision for alignment and commitment.",
-      "key_takeaway": "Invest in companies with a clear 'why', strong customer base, and the ability to adapt to market feedback. Prioritize creativity and relationship-building skills in talent acquisition.",
-      "tickers_mentioned": "[\"AAPL\", \"MSFT\", \"GOOGL\", \"AMZN\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-14",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 218,
-      "episode_release_date": "2026-05-14",
-      "guest_name": "Ben Horowitz",
       "key_tickers": []
     },
     {
@@ -8252,6 +8289,32 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 187,
+      "term": "Mental Health Analytics",
+      "description": "The application of data analysis to monitor and predict mental health states, particularly for high-stress professions like law enforcement.",
+      "first_detected_date": "2026-05-18",
+      "last_mentioned_date": "2026-05-18",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies providing mental health solutions tailored for first responders, focusing on analytics and proactive support.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 226,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 226,
+      "last_mentioned_speaker": null,
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "The Plan to Make American Crime Obsolete",
+      "first_detected_episode_date": "2026-05-18",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "The Plan to Make American Crime Obsolete",
+      "last_mentioned_episode_date": "2026-05-18"
+    },
     {
       "id": 24,
       "term": "Risk Off Playbook",
@@ -8548,32 +8611,6 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential for new platforms that can address specific pain points within enterprise software more effectively than incumbents.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.68,
-      "resonance_pct": 17,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 144,
-      "term": "Descheduling",
-      "description": "The removal of a substance from a list of controlled substances, in this case, cannabis.",
-      "first_detected_date": "2026-05-01",
-      "last_mentioned_date": "2026-05-01",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Descheduling can lead to significant changes in the legal and operational landscape for businesses in the affected industry.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -23003,12 +23040,60 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-05-17",
     "key_tickers": []
+  },
+  "241": {
+    "id": 231,
+    "insight_id": 241,
+    "podcast_episode_id": 226,
+    "overview": "The competitive dynamic in law enforcement is shifting towards technology adoption to address staffing shortages and officer burnout. The unresolved tension lies in bridging the gap between the rapid advancement of technology and the slower adoption rate by law enforcement agencies. The allocation tradeoff is between investing in technology that may not be immediately adopted versus waiting for proven, scalable solutions that law enforcement is willing to implement. The metric that arbitrates this uncertainty is the rate of successful technology integration and its impact on public safety outcomes.",
+    "key_takeaways_detailed": [
+      "Investors should consider the pace of technology adoption in law enforcement and the potential for initial investments to be slow-burn, with significant returns in the long term as adoption becomes more widespread.",
+      "Mental health solutions for law enforcement should be evaluated not just on their immediate effectiveness but also on their scalability and potential for integration with existing law enforcement frameworks.",
+      "The success of data-driven decision-making tools in law enforcement will be contingent on the quality and accessibility of data, as well as the ability of law enforcement to interpret and act on this data.",
+      "Investors should be aware of the regulatory environment surrounding law enforcement technology, as changes in policy can significantly impact the adoption and use of these tools."
+    ],
+    "investment_thesis": "The core logic is that as law enforcement agencies increasingly adopt advanced technologies to address staffing shortages and officer burnout, there is a significant opportunity for investment in companies that can provide scalable, reliable solutions. The timeframe for this thesis is medium to long term, as technology adoption in this sector is typically gradual. An observable development that would vindicate this thesis is a measurable increase in the number of law enforcement agencies adopting advanced technologies, along with a corresponding decrease in officer burnout rates and improvement in public safety outcomes.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's technology, particularly in the area of AI and data analytics, can be leveraged to develop tools for law enforcement, such as predictive policing and situational awareness systems.",
+        "positioning": "Strategic long position, as Apple's technology is likely to be at the forefront of innovation in law enforcement technology.",
+        "risk": "Key risks include regulatory changes that could limit the use of such technologies and potential backlash against the use of advanced surveillance tools."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant decrease in crime rates that could reduce the perceived need for advanced law enforcement technologies.",
+      "A shift in public opinion against the use of advanced surveillance technologies, which could lead to reduced demand for such products.",
+      "Technological advancements in other areas, such as cybersecurity, that could divert investment away from law enforcement technologies."
+    ],
+    "catalysts": [
+      "The release of new drone technology specifically designed for law enforcement use.",
+      "Successful pilot programs that demonstrate the effectiveness of mental health analytics in reducing officer burnout.",
+      "Changes in legislation that either encourage or restrict the use of advanced technologies in law enforcement."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-18T12:05:12.722651",
+    "updated_at": "2026-05-18 17:05:12",
+    "episode_evidence": "The podcast 'The a16z Show' provides a detailed look into the intersection of law enforcement and advanced technology. It is highlighted that drones are not just prototypes but are already deployed in real-time situations, such as responding to 911 calls before patrol cars leave the station, as stated by the host: 'Drones that respond to 911 calls before patrol car leave the station... These aren't prototypes. They're deployed today.' This showcases the practical application of technology in immediate law enforcement responses. Furthermore, the discussion emphasizes the use of body-worn camera analytics to monitor officer mental health, with the guest noting: 'We have analytics that's truly all that's running behind the body-worn camera... it can flag the situation as well for the supervisor.' This indicates a proactive approach to officer well-being, which is crucial in an environment prone to high stress and burnout.",
+    "falsification_tracks": [
+      "Should there be a significant increase in reported incidents of drone malfunctions or misuse in law enforcement, it would challenge the reliability and effectiveness of drone technology in policing.",
+      "A rise in officer burnout rates or mental health incidents despite the implementation of mental health analytics would suggest that current technologies are not adequately addressing officer well-being.",
+      "Failure to see a decrease in response times or improvement in situational awareness with the integration of advanced technologies would undermine the value proposition of these tools in law enforcement."
+    ],
+    "insight_title": "The Plan to Make American Crime Obsolete",
+    "source_name": "The a16z Show",
+    "source_date": "2026-05-18",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 6310,
+    "id": 6362,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -23020,7 +23105,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6311,
+    "id": 6363,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -23032,7 +23117,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6312,
+    "id": 6364,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -23044,7 +23129,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6313,
+    "id": 6365,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -23056,7 +23141,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 6314,
+    "id": 6366,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -23068,7 +23153,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6315,
+    "id": 6367,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -23080,7 +23165,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6316,
+    "id": 6368,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -23092,7 +23177,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6317,
+    "id": 6369,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -23104,7 +23189,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6318,
+    "id": 6370,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -23116,7 +23201,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6319,
+    "id": 6371,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -23128,7 +23213,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6320,
+    "id": 6372,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -23140,7 +23225,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6321,
+    "id": 6373,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -23152,7 +23237,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6322,
+    "id": 6374,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -23164,7 +23249,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6323,
+    "id": 6375,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -23176,7 +23261,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6324,
+    "id": 6376,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -23188,7 +23273,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6325,
+    "id": 6377,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -23200,7 +23285,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6326,
+    "id": 6378,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -23212,7 +23297,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6327,
+    "id": 6379,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -23224,7 +23309,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6328,
+    "id": 6380,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -23236,7 +23321,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6329,
+    "id": 6381,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -24240,7 +24325,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -24642,7 +24727,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -24708,7 +24793,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -27344,7 +27429,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -29776,7 +29861,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -29836,7 +29921,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -29896,7 +29981,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",

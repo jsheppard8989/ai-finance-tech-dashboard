@@ -260,6 +260,9 @@
     .res-no { color: #f97373; font-weight: 600; }
     .res-void { color: #a78bfa; }
     .history-prompt { color: #cbd5f5; max-width: 280px; line-height: 1.35; }
+    .history-resolves { white-space: nowrap; }
+    .history-resolves-date { font-weight: 600; color: #e8e8e8; }
+    .history-resolves-time { font-size: 0.72rem; color: #8892b0; margin-top: 0.15rem; }
     .history-audio { font-size: 0.75rem; }
     .history-audio-player {
       width: min(220px, 100%);
@@ -373,6 +376,7 @@
         <thead>
           <tr>
             <th>Week</th>
+            <th>Resolves</th>
             <th>Contract</th>
             <th>Debaters</th>
             <th>Outcome</th>
@@ -385,7 +389,7 @@
   </div>
 
   <script src="./js/common.js"></script>
-  <script src="./data/data.js?v=1779104899"></script>
+  <script src="./data/data.js?v=1779123972"></script>
   <script>
     (function() {
       const data = (typeof dashboardData !== 'undefined') ? dashboardData : null;
@@ -485,6 +489,38 @@
         return formatSiteCalendarDate(iso, { month: 'short', day: 'numeric', year: 'numeric' });
       }
 
+      function resolvesIsoFromWeek(w) {
+        if (!w) return '';
+        var iso = String(w.resolves_iso || '').trim();
+        if (iso) return iso.slice(0, 10);
+        var rule = String(w.expires_rule || '');
+        var m = rule.match(/\d{4}-\d{2}-\d{2}/);
+        if (m) return m[0];
+        var fr = String(w.friday_iso || '').trim().slice(0, 10);
+        if (!fr) return '';
+        try {
+          var parts = fr.split('-').map(Number);
+          var d = new Date(parts[0], parts[1] - 1, parts[2], 12, 0, 0);
+          d.setDate(d.getDate() + 42);
+          return d.getFullYear() + '-' +
+            String(d.getMonth() + 1).padStart(2, '0') + '-' +
+            String(d.getDate()).padStart(2, '0');
+        } catch (e) {
+          return '';
+        }
+      }
+
+      function formatResolvesCell(w) {
+        var iso = resolvesIsoFromWeek(w);
+        if (!iso) return '—';
+        return (
+          '<div class="history-resolves">' +
+          '<div class="history-resolves-date">' + formatDate(iso).replace(/</g, '&lt;') + '</div>' +
+          '<div class="history-resolves-time">Fri 12:00 PM CST</div>' +
+          '</div>'
+        );
+      }
+
       function punditCardHtml(p, pillClass, pillText) {
         const esc = (s) => String(s || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
         const name = esc((p.name || 'Debater').trim());
@@ -580,6 +616,7 @@
           var pr = (w.prompt || '').replace(/</g, '&lt;');
           if (pr.length > 220) pr = pr.slice(0, 217) + '…';
           return '<tr><td>' + (w.week_label || w.friday_iso || '—') + '</td>' +
+            '<td>' + formatResolvesCell(w) + '</td>' +
             '<td class="history-prompt">' + pr + '</td>' +
             '<td>' + (w.debater_a || '') + ' vs ' + (w.debater_b || '') + '</td>' +
             '<td class="' + cls + '">' + label + (w.resolution_notes ? '<div style="font-size:0.72rem;opacity:0.85;margin-top:0.2rem;">' + String(w.resolution_notes).replace(/</g, '&lt;').slice(0, 120) + '</div>' : '') + '</td>' +

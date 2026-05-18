@@ -1,5 +1,21 @@
 [
   {
+    "id": 226,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The Plan to Make American Crime Obsolete",
+    "episode_date": "2026-05-18",
+    "summary": "This episode of 'The a16z Show' delves into the intersection of law enforcement and advanced technology, exploring how drones, AI, and data analytics are transforming public safety. The discussion highlights the critical need for technology to address staffing shortages and officer burnout, while also emphasizing the importance of collaboration between law enforcement and tech developers. The future of policing is envisioned as more investigative and nuanced, with a heavy reliance on data-driven decision-making.",
+    "key_takeaways": [
+      "Law enforcement agencies are increasingly integrating advanced technologies to enhance operational capabilities and officer safety.",
+      "Mental health analytics are being used to proactively address officer well-being, reducing turnover and improving community relations.",
+      "Data-driven decision-making is becoming a cornerstone of modern policing, with AI and analytics playing a crucial role in intelligence gathering and crime prediction.",
+      "Founders in public safety technology must deeply understand the unique needs and challenges of law enforcement to build effective solutions.",
+      "Collaboration between law enforcement and technology developers is essential for the successful implementation of new tools and systems."
+    ],
+    "investment_thesis": "Invest in companies that develop scalable technologies for law enforcement, with a focus on mental health solutions, data analytics, and AI-driven decision-making tools.",
+    "key_tickers": null
+  },
+  {
     "id": 225,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "A Basel III Deep Dive | What to Know About How It Will Transform Banking Globally",
@@ -112,26 +128,6 @@
       "Labor market deterioration could prompt aggressive Fed rate cuts later in the year."
     ],
     "investment_thesis": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
-    "key_tickers": null
-  },
-  {
-    "id": 218,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Ben Horowitz - \"Your ONLY job is Right Product, Right Time\"",
-    "episode_date": "2026-05-14",
-    "summary": "In this episode of The a16z Show, the focus is on the critical factors that determine a company's success, including delivering the right product at the right time and the importance of articulating the 'why' behind a company. The discussion highlights the evolving nature of a company's story, the challenges of late-stage pivots, and the increasing importance of creativity and relationship-building skills in talent acquisition. The episode also emphasizes the value of possessing customers and brand recognition as competitive advantages and the need for founders to solve hard problems rather than generating random ideas. Investors are advised to be convinced of a company's vision for alignment and commitment.",
-    "key_takeaways": [
-      "Delivering the right product at the right time is a primary determinant of a company's success.",
-      "Founders must clearly articulate the 'why' behind their company to align the team, attract talent, and secure investment.",
-      "The story of a company should evolve alongside its strategy and be documented for clarity and alignment.",
-      "Late-stage pivots are generally difficult and should only be considered when absolutely necessary.",
-      "Identifying and addressing market shortages can lead to valuable business opportunities.",
-      "Possession of customers and brand recognition are critical competitive advantages in the current market.",
-      "Founders should focus on solving hard problems rather than generating random ideas.",
-      "Investors should be convinced of the company's vision to ensure alignment and commitment.",
-      "The ability to adapt and pivot based on market feedback is essential for long-term success."
-    ],
-    "investment_thesis": "Invest in companies with a clear 'why', strong customer base, and the ability to adapt to market feedback. Prioritize creativity and relationship-building skills in talent acquisition.",
     "key_tickers": null
   }
 ]

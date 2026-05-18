@@ -11,7 +11,8 @@
       "resolution_status": "pending",
       "resolution_notes": "",
       "archived_at": "2026-05-15T05:02:19.567362",
-      "audio_href": "./audio/archive/debate_2026-05-08.mp3"
+      "audio_href": "./audio/archive/debate_2026-05-08.mp3",
+      "resolves_iso": "2026-06-19"
     },
     {
       "friday_iso": "2026-05-01",
@@ -23,7 +24,8 @@
       "resolution_status": "pending",
       "resolution_notes": "",
       "archived_at": "2026-05-08T06:50:25.429216",
-      "audio_href": "./audio/archive/debate_2026-05-01.mp3"
+      "audio_href": "./audio/archive/debate_2026-05-01.mp3",
+      "resolves_iso": "2026-06-12"
     },
     {
       "friday_iso": "2026-04-24",
@@ -35,7 +37,8 @@
       "resolution_status": "pending",
       "oracle_pending_lean": "negative",
       "resolution_notes": "Pending. Oracle (Jared) leans Negative\u2014would take the side that MSTR does not sell BTC in-window; contract still open.",
-      "archived_at": "2026-05-01T05:08:50.459570"
+      "archived_at": "2026-05-01T05:08:50.459570",
+      "resolves_iso": "2026-06-05"
     },
     {
       "friday_iso": "2026-04-03",
@@ -47,7 +50,8 @@
       "resolution_status": "yes",
       "resolution_notes": "Affirmative (contract YES).",
       "resolved_at": "2026-05-02T12:00:00.000000",
-      "archived_at": "2026-04-24T05:06:54.743979"
+      "archived_at": "2026-04-24T05:06:54.743979",
+      "resolves_iso": "2026-05-15"
     },
     {
       "friday_iso": "2026-03-20",
@@ -59,7 +63,8 @@
       "resolution_status": "no",
       "resolution_notes": "Negative (contract NO).",
       "resolved_at": "2026-05-02T12:00:00.000000",
-      "archived_at": "2026-04-03T15:10:33.175673"
+      "archived_at": "2026-04-03T15:10:33.175673",
+      "resolves_iso": "2026-05-01"
     },
     {
       "friday_iso": "2026-03-18",
@@ -67,11 +72,12 @@
       "prompt": "Will S&P 500 companies announce at least 50,000 net layoffs explicitly attributed to automation or AI in public filings, press releases, or verified corporate social posts within the next 42 days?",
       "debater_a": "",
       "debater_b": "",
-      "expires_rule": "42-day Friday-noon CST (to be enforced by scheduler)",
+      "expires_rule": "Resolves Wednesday 12:00 PM CST 2026-04-29",
       "resolution_status": "yes",
       "resolution_notes": "Affirmative (contract YES).",
       "resolved_at": "2026-05-02T12:00:00.000000",
-      "archived_at": "2026-03-19T16:41:25.173387"
+      "archived_at": "2026-03-19T16:41:25.173387",
+      "resolves_iso": "2026-04-29"
     }
   ]
 }
