@@ -1,6 +1,28 @@
 {
   "insights": [
     {
+      "id": 242,
+      "title": "Bitcoin Doesn't Negotiate",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-05-19",
+      "summary": "In this episode, Jack Mallers discusses the current economic challenges including inflation, disrupted supply chains, and bond market instability. He highlights Bitcoin's potential as a hedge against fiat currency collapse and its growing acceptance in international transactions, such as Iran's adoption for tolls. The podcast emphasizes the importance of monitoring economic indicators and adjusting investment strategies accordingly.",
+      "key_takeaway": "Bitcoin is emerging as a strategic asset in a high-inflation, debt-ridden economic environment, offering a hedge against traditional fiat currencies.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "TSLA",
+        "GLD"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 227
+    },
+    {
       "id": 241,
       "title": "The Plan to Make American Crime Obsolete",
       "source_type": "podcast",
@@ -176,7 +198,7 @@
         "AAPL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-14",
       "archived_date": null,
@@ -4466,6 +4488,42 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 188,
+      "term": "Bitcoin as a Medium of Exchange",
+      "description": "The use of Bitcoin for international transactions, such as tolls, indicating its growing acceptance beyond speculative investment.",
+      "first_detected_date": "2026-05-19",
+      "last_mentioned_date": "2026-05-19",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider Bitcoin's role in international trade and its potential impact on currency markets.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 227,
+      "first_detected_speaker": "Jack Mallers (hosts)",
+      "last_mentioned_episode_id": 227,
+      "last_mentioned_speaker": "Jack Mallers (hosts)"
+    },
+    {
+      "id": 189,
+      "term": "Fiat Currency Collapse",
+      "description": "The potential failure of traditional government-backed currencies due to excessive debt and inflation.",
+      "first_detected_date": "2026-05-19",
+      "last_mentioned_date": "2026-05-19",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor fiat currency stability and consider diversifying into alternative assets like Bitcoin.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 227,
+      "first_detected_speaker": "Jack Mallers (hosts)",
+      "last_mentioned_episode_id": 227,
+      "last_mentioned_speaker": "Jack Mallers (hosts)"
+    },
     {
       "id": 174,
       "term": "Capability-Bounded Approach",

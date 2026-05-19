@@ -1,5 +1,22 @@
 [
   {
+    "id": 227,
+    "podcast_name": "The Jack Mallers Show",
+    "episode_title": "Bitcoin Doesn't Negotiate",
+    "episode_date": "2026-05-19",
+    "summary": "In this episode, Jack Mallers discusses the current economic challenges including inflation, disrupted supply chains, and bond market instability. He highlights Bitcoin's potential as a hedge against fiat currency collapse and its growing acceptance in international transactions, such as Iran's adoption for tolls. The podcast emphasizes the importance of monitoring economic indicators and adjusting investment strategies accordingly.",
+    "key_takeaways": [
+      "Bitcoin's price has dropped significantly, reflecting broader economic instability.",
+      "U.S. consumer crisis is intensifying as real wages turn negative, impacting loan delinquencies.",
+      "Rising PPI suggests imminent higher CPI, signaling increased inflation.",
+      "Bond market sell-offs indicate a potential sovereign debt crisis.",
+      "Iran's adoption of Bitcoin for transactions marks a significant step for its use as a medium of exchange.",
+      "Bitcoin is positioned as a hedge against extreme inflation and fiat currency collapse."
+    ],
+    "investment_thesis": "Bitcoin is emerging as a strategic asset in a high-inflation, debt-ridden economic environment, offering a hedge against traditional fiat currencies.",
+    "key_tickers": null
+  },
+  {
     "id": 226,
     "podcast_name": "The a16z Show",
     "episode_title": "The Plan to Make American Crime Obsolete",
@@ -113,21 +130,5 @@
     "key_tickers": [
       "S&P 500"
     ]
-  },
-  {
-    "id": 219,
-    "podcast_name": "Macro Voices",
-    "episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "episode_date": "2026-05-14",
-    "summary": "In this episode of Macro Voices, Mike Green and Rory Johnston discuss the impact of passive investment flows on market behavior, the potential economic slowdown due to energy shocks, and the strategic role of China in global oil markets. They also highlight the risks of demand destruction in emerging markets and the implications of labor market deterioration on Fed policy.",
-    "key_takeaways": [
-      "Passive investment flows are dictating market behavior, potentially masking underlying economic weaknesses.",
-      "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
-      "China's negotiations with the U.S. could significantly influence global oil markets and market stability.",
-      "Rising energy prices may lead to demand destruction, particularly in emerging markets.",
-      "Labor market deterioration could prompt aggressive Fed rate cuts later in the year."
-    ],
-    "investment_thesis": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
-    "key_tickers": null
   }
 ]
