@@ -1,5 +1,21 @@
 [
   {
+    "id": 228,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Rebuilding The American Shipyard",
+    "episode_date": "2026-05-19",
+    "summary": "This podcast discusses the challenges and opportunities in the defense industrial base, emphasizing the shift from innovation to production capabilities. Key themes include the need for modern manufacturing, the integration of autonomy and software, the importance of commercial markets, and workforce development. The conversation highlights the potential for first principles design to lower costs and the Pentagon's push for contractors to modernize.",
+    "key_takeaways": [
+      "Invest in companies focusing on modernizing defense production processes.",
+      "Evaluate firms using first principles design to reduce costs and improve efficiency.",
+      "Seek investments in companies integrating autonomy into their manufacturing.",
+      "Assess companies engaging with commercial markets for long-term stability.",
+      "Support companies investing in workforce training for modern manufacturing techniques."
+    ],
+    "investment_thesis": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
+    "key_tickers": null
+  },
+  {
     "id": 227,
     "podcast_name": "The Jack Mallers Show",
     "episode_title": "Bitcoin Doesn't Negotiate",
@@ -112,23 +128,5 @@
     ],
     "investment_thesis": "Invest in AI technologies that leverage advancements in MCTS and reduced compute requirements to create scalable and efficient solutions in various industries.",
     "key_tickers": null
-  },
-  {
-    "id": 220,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
-    "episode_date": "2026-05-15",
-    "summary": "In this episode, Andrew Perry discusses a five-pillar framework for market analysis, emphasizing liquidity's role in the current rally of US stocks. Perry predicts the S&P 500 could reach 7,700 and recommends long positions in US stocks while shorting Australian and European stocks. He also highlights agricultural commodities as a strategic investment due to supply chain issues and geopolitical factors.",
-    "key_takeaways": [
-      "Implement a five-pillar framework for market analysis to enhance decision-making processes.",
-      "Establish long positions in US stocks while shorting Australian and European stocks based on economic indicators.",
-      "Allocate a portion of the portfolio to agricultural commodities, focusing on corn, wheat, and soybeans.",
-      "Regularly monitor liquidity conditions and the MOVE index to inform trading strategies and risk management.",
-      "Stay informed about geopolitical developments, particularly regarding agricultural trade agreements, to capitalize on market opportunities."
-    ],
-    "investment_thesis": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
-    "key_tickers": [
-      "S&P 500"
-    ]
   }
 ]

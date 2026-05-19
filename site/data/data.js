@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-19T06:56:09.281890",
-  chartsVersion: "2026-05-19T06:55:54.310117",
+  generatedAt: "2026-05-19T12:14:41.852185",
+  chartsVersion: "2026-05-19T12:14:28.235664",
   priceSnapshot: {
   "GOOGL": {
-    "price": 396.94,
-    "change_pct": 13.43,
+    "price": 391.43,
+    "change_pct": 1.72,
     "name": "GOOGL",
-    "updated_at": "2026-05-19T06:55:54.309103"
+    "updated_at": "2026-05-19T12:14:28.235240"
   },
   "BTC": {
-    "price": 76633.59,
-    "change_pct": -5.89,
+    "price": 76855.65,
+    "change_pct": -5.61,
     "name": "BTC",
-    "updated_at": "2026-05-19T06:55:54.309128"
+    "updated_at": "2026-05-19T12:14:28.235251"
   },
   "NVDA": {
-    "price": 222.32,
-    "change_pct": 6.25,
+    "price": 223.74,
+    "change_pct": 12.11,
     "name": "NVDA",
-    "updated_at": "2026-05-19T06:55:54.309139"
+    "updated_at": "2026-05-19T12:14:28.235255"
   },
   "MSFT": {
-    "price": 423.54,
-    "change_pct": -0.22,
+    "price": 418.45,
+    "change_pct": 2.62,
     "name": "MSFT",
-    "updated_at": "2026-05-19T06:55:54.309148"
+    "updated_at": "2026-05-19T12:14:28.235258"
   },
   "WTI": {
-    "price": 4.91,
-    "change_pct": 9.6,
+    "price": 4.78,
+    "change_pct": 13.42,
     "name": "WTI",
-    "updated_at": "2026-05-19T06:55:54.309157"
+    "updated_at": "2026-05-19T12:14:28.235261"
   },
   "S&P 500": {
-    "price": 738.65,
-    "change_pct": 3.8,
+    "price": 736.95,
+    "change_pct": 2.55,
     "name": "S&P 500",
-    "updated_at": "2026-05-19T06:55:54.309167"
+    "updated_at": "2026-05-19T12:14:28.235265"
   },
   "META": {
-    "price": 611.21,
-    "change_pct": -8.65,
+    "price": 604.0,
+    "change_pct": -1.29,
     "name": "META",
-    "updated_at": "2026-05-19T06:55:54.309176"
+    "updated_at": "2026-05-19T12:14:28.235269"
   },
   "AMZN": {
-    "price": 264.86,
-    "change_pct": 0.69,
+    "price": 258.29,
+    "change_pct": -2.55,
     "name": "AMZN",
-    "updated_at": "2026-05-19T06:55:54.309185"
+    "updated_at": "2026-05-19T12:14:28.235273"
   },
   "TSLA": {
-    "price": 409.99,
-    "change_pct": 9.98,
+    "price": 403.24,
+    "change_pct": 5.66,
     "name": "TSLA",
-    "updated_at": "2026-05-19T06:55:54.309193"
+    "updated_at": "2026-05-19T12:14:28.235276"
   },
   "QQQ": {
-    "price": 705.88,
-    "change_pct": 6.7,
+    "price": 705.26,
+    "change_pct": 5.62,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-19T06:55:54.309201"
+    "updated_at": "2026-05-19T12:14:28.235279"
   },
   "BTC-USD": {
-    "price": 76652.38,
-    "change_pct": -5.86,
+    "price": 76855.65,
+    "change_pct": -5.61,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-19T06:55:54.309209"
+    "updated_at": "2026-05-19T12:14:28.235282"
   }
 },
   tickerScores: [
@@ -850,6 +850,27 @@ const dashboardData = {
       "podcast_episode_id": 227
     },
     {
+      "id": 243,
+      "title": "Rebuilding The American Shipyard",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-19",
+      "summary": "This podcast discusses the challenges and opportunities in the defense industrial base, emphasizing the shift from innovation to production capabilities. Key themes include the need for modern manufacturing, the integration of autonomy and software, the importance of commercial markets, and workforce development. The conversation highlights the potential for first principles design to lower costs and the Pentagon's push for contractors to modernize.",
+      "key_takeaway": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GD",
+        "NOC"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 228
+    },
+    {
       "id": 241,
       "title": "The Plan to Make American Crime Obsolete",
       "source_type": "podcast",
@@ -943,7 +964,7 @@ const dashboardData = {
         "S&P 500"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-15",
       "archived_date": null,
@@ -5316,6 +5337,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 190,
+      "term": "First Principles Design",
+      "description": "An approach to design that breaks down problems to their fundamental truths and rebuilds them from scratch, aiming to reduce costs and improve efficiency.",
+      "first_detected_date": "2026-05-19",
+      "last_mentioned_date": "2026-05-19",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies applying first principles design to lower production costs and compete internationally.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 228,
+      "first_detected_speaker": "Dino Mavruchus, Honorable Duffy",
+      "last_mentioned_episode_id": 228,
+      "last_mentioned_speaker": "Dino Mavruchus, Honorable Duffy"
+    },
+    {
       "id": 174,
       "term": "Capability-Bounded Approach",
       "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
@@ -8028,6 +8067,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 243,
+      "title": "Rebuilding The American Shipyard",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-19",
+      "summary": "This podcast discusses the challenges and opportunities in the defense industrial base, emphasizing the shift from innovation to production capabilities. Key themes include the need for modern manufacturing, the integration of autonomy and software, the importance of commercial markets, and workforce development. The conversation highlights the potential for first principles design to lower costs and the Pentagon's push for contractors to modernize.",
+      "key_takeaway": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
+      "tickers_mentioned": "[\"AAPL\", \"GD\", \"NOC\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 228,
+      "episode_release_date": "2026-05-19",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 241,
       "title": "The Plan to Make American Crime Obsolete",
       "source_type": "podcast",
@@ -8106,28 +8165,6 @@ const dashboardData = {
       "episode_release_date": "2026-05-16",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 235,
-      "title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-05-15",
-      "summary": "In this episode, Andrew Perry discusses a five-pillar framework for market analysis, emphasizing liquidity's role in the current rally of US stocks. Perry predicts the S&P 500 could reach 7,700 and recommends long positions in US stocks while shorting Australian and European stocks. He also highlights agricultural commodities as a strategic investment due to supply chain issues and geopolitical factors.",
-      "key_takeaway": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
-      "tickers_mentioned": "[\"S&P 500\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-15",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 220,
-      "episode_release_date": "2026-05-15",
-      "guest_name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
-      "key_tickers": [
-        "S&P 500"
-      ]
     },
     {
       "id": 236,
@@ -8293,6 +8330,32 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 190,
+      "term": "First Principles Design",
+      "description": "An approach to design that breaks down problems to their fundamental truths and rebuilds them from scratch, aiming to reduce costs and improve efficiency.",
+      "first_detected_date": "2026-05-19",
+      "last_mentioned_date": "2026-05-19",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies applying first principles design to lower production costs and compete internationally.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 228,
+      "first_detected_speaker": "Dino Mavruchus, Honorable Duffy",
+      "last_mentioned_episode_id": 228,
+      "last_mentioned_speaker": "Dino Mavruchus, Honorable Duffy",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Rebuilding The American Shipyard",
+      "first_detected_episode_date": "2026-05-19",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Rebuilding The American Shipyard",
+      "last_mentioned_episode_date": "2026-05-19"
+    },
     {
       "id": 24,
       "term": "Risk Off Playbook",
@@ -8589,32 +8652,6 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential for new platforms that can address specific pain points within enterprise software more effectively than incumbents.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.66,
-      "resonance_pct": 16,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 144,
-      "term": "Descheduling",
-      "description": "The removal of a substance from a list of controlled substances, in this case, cannabis.",
-      "first_detected_date": "2026-05-01",
-      "last_mentioned_date": "2026-05-01",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Descheduling can lead to significant changes in the legal and operational landscape for businesses in the affected industry.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -23159,12 +23196,73 @@ const dashboardData = {
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-05-19",
     "key_tickers": []
+  },
+  "243": {
+    "id": 233,
+    "insight_id": 243,
+    "podcast_episode_id": 228,
+    "overview": "The unresolved tension in the defense sector lies in the need to modernize production capabilities to meet the demands of a rapidly evolving geopolitical landscape while maintaining cost efficiency. The competitive dynamic is between traditional defense contractors and newer entrants that embrace modern manufacturing techniques, such as first principles design and autonomy integration. The metric that arbitrates this uncertainty is the speed and cost of production, which will determine the winners and losers in this sector. The horizon of proof is the ability to scale production while reducing costs, which will be tested by the Pentagon's push for modernization and the industry's response to these demands.",
+    "key_takeaways_detailed": [
+      "Investors should focus on companies that not only adopt modern manufacturing techniques but also demonstrate the ability to scale production while reducing costs, as this will be a key differentiator in the defense sector.",
+      "The integration of commercial markets with defense contracts is a strategic move that can provide a stable revenue stream and resources during peacetime, making it an important criterion for investment decisions.",
+      "Companies that can demonstrate a reduction in labor hours through the integration of autonomy and software in their manufacturing processes will have a competitive edge, as this directly addresses the primary constraint of production speed and cost.",
+      "Investors should monitor the Pentagon's incentives and requirements for modernization, as these will drive the adoption of new technologies and manufacturing processes within the defense sector.",
+      "Workforce development initiatives within defense-related companies are a critical factor to consider, as the ability to retrain and adapt the workforce to modern manufacturing techniques will impact production efficiency and innovation."
+    ],
+    "investment_thesis": "The core investment thesis is that companies which enhance production capabilities and efficiency in the defense sector, particularly through the adoption of modern manufacturing techniques and the integration of commercial markets, will outperform. This thesis is based on the need for the U.S. defense industrial base to modernize in order to compete with international manufacturers and meet the Pentagon's demands for faster and more cost-effective production. The timeframe for this thesis is medium to long-term, as significant changes in production capabilities and market integration will take time to implement and yield results. An observable development that would vindicate this thesis is a consistent increase in the speed and scale of production, along with a decrease in production costs, across the defense sector.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "While not a direct player in the defense sector, Apple's expertise in software and hardware integration could be leveraged by defense contractors looking to modernize their production capabilities.",
+        "positioning": "Strategic, as Apple's technology could be indirectly influential in the modernization of defense manufacturing processes.",
+        "risk": "The key risk is that Apple may not actively pursue opportunities in the defense sector, limiting the potential for technology transfer and integration."
+      },
+      "GD": {
+        "rationale": "General Dynamics is a traditional defense contractor that is well-positioned to modernize its production capabilities, given its scale and existing relationships with the Pentagon.",
+        "positioning": "Strategic, as the company's ability to adopt modern manufacturing techniques could lead to increased efficiency and cost savings.",
+        "risk": "The risk lies in the company's ability to successfully integrate new technologies and processes, which could be slower than anticipated."
+      },
+      "NOC": {
+        "rationale": "Northrop Grumman's focus on autonomous systems and advanced manufacturing makes it a key player in the modernization of the defense industrial base.",
+        "positioning": "Tactical, as the company's short-term performance could be significantly impacted by the pace of modernization and the adoption of new technologies.",
+        "risk": "The risk is that the integration of autonomy and software may not yield the expected efficiency gains, affecting the company's competitive position."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A potential increase in international competition that could outpace U.S. efforts to modernize, leading to a loss of market share for domestic defense contractors.",
+      "The possibility that the Pentagon's push for modernization may not be matched by an equivalent increase in budget allocations, limiting the sector's ability to invest in new technologies and processes.",
+      "The risk that the integration of commercial markets with defense contracts may not provide the expected stability and resources, particularly if peacetime defense spending decreases."
+    ],
+    "catalysts": [
+      "The release of the Pentagon's budget allocations for the upcoming fiscal year, which will indicate the level of investment in modern manufacturing and production capabilities.",
+      "Announcements of new contracts or partnerships between defense contractors and technology companies focused on modern manufacturing techniques.",
+      "Publication of industry reports or studies that provide benchmarks on the efficiency and cost of production in the defense sector, which can serve as a measure of progress towards modernization.",
+      "Regulatory changes or policy decisions that impact the defense sector, particularly those that encourage or require the adoption of modern manufacturing processes."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-19T12:13:40.714786",
+    "updated_at": "2026-05-19 17:13:40",
+    "episode_evidence": "The podcast underscores the defense industrial base's shift from innovation to production capabilities, with a focus on modern manufacturing techniques. Dino Mavruchus states, 'You have to bend the economic cost curve... you have to take a first principles design to the ship.' This approach is crucial for reducing material and labor costs, allowing U.S. manufacturers to compete with international counterparts. The integration of autonomy and software in shipbuilding is highlighted as a means to drastically cut labor hours, with Mavruchus providing a stark comparison: 'Marauders using about a 50,000 labor hour on our first ship... destroyers 7 to 9 million labor hours.' This points to the potential for significant efficiency gains through technology integration. The discussion also emphasizes the importance of engaging commercial markets to sustain production capabilities during peacetime, which is vital for maintaining a resilient defense sector.",
+    "falsification_tracks": [
+      "Should the U.S. defense budget allocations show a consistent decrease in funding for modern manufacturing and production capabilities, it would challenge the thesis of prioritizing production over innovation.",
+      "If there is a significant increase in labor hours required for shipbuilding, particularly in the case of autonomous platforms, it would suggest that the integration of autonomy is not yielding the expected efficiency gains.",
+      "A lack of private capital investments in defense contractors' modernization efforts would indicate a slower adoption of modern manufacturing techniques, contradicting the podcast's emphasis on the need for modernization.",
+      "Should there be a notable decline in the number of companies integrating commercial markets with defense contracts, it would undermine the argument for the importance of dual-market engagement for sustaining production capabilities."
+    ],
+    "insight_title": "Rebuilding The American Shipyard",
+    "source_name": "The a16z Show",
+    "source_date": "2026-05-19",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 6570,
+    "id": 6622,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -23176,7 +23274,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6571,
+    "id": 6623,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -23188,7 +23286,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6572,
+    "id": 6624,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -23200,7 +23298,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6573,
+    "id": 6625,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -23212,7 +23310,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 6574,
+    "id": 6626,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -23224,7 +23322,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6575,
+    "id": 6627,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -23236,7 +23334,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6576,
+    "id": 6628,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -23248,7 +23346,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6577,
+    "id": 6629,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -23260,7 +23358,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6578,
+    "id": 6630,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -23272,7 +23370,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6579,
+    "id": 6631,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -23284,7 +23382,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6580,
+    "id": 6632,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -23296,7 +23394,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6581,
+    "id": 6633,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -23308,7 +23406,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6582,
+    "id": 6634,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -23320,7 +23418,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6583,
+    "id": 6635,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -23332,7 +23430,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6584,
+    "id": 6636,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -23344,7 +23442,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6585,
+    "id": 6637,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -23356,7 +23454,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6586,
+    "id": 6638,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -23368,7 +23466,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6587,
+    "id": 6639,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -23380,7 +23478,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6588,
+    "id": 6640,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -23392,7 +23490,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6589,
+    "id": 6641,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -24396,7 +24494,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -24404,6 +24502,129 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 255,
+    "name": "Dino Mavruchus",
+    "slug": "dino-mavruchus",
+    "bio": "Dino Mavruchus is the CEO of Marathon Marine, a company focused on modernizing shipbuilding. He is known for his work in autonomous shipbuilding and the first principles design approach, aiming to revolutionize the industry by focusing on production, cost, and scale.",
+    "known_for": "Pioneering autonomous shipbuilding and applying first principles design to modernize ship production.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and visionary.",
+    "voice_style": "Factual and solution-oriented.",
+    "voice_delivery_notes": "Clear and assertive, with a focus on the future of shipbuilding.",
+    "voice_profile_updated_at": "2026-05-19 17:12:15",
+    "last_seen": "2026-05-19 17:12:15",
+    "last_episode_title": "Rebuilding The American Shipyard",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-19",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
+    "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
+    "supporting_takeaway": "Evaluate firms using first principles design to reduce costs and improve efficiency.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-19T12:12:39.355255",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dino Mavruchus",
+      "fetched_at": "2026-05-19T17:12:39.354917+00:00",
+      "cliff_notes": "Dino Mavruchus is recognized as a leader in the shipbuilding industry, particularly for his innovative approaches to autonomous shipbuilding and the application of first principles design. As the CEO of Marathon Marine, he has been instrumental in shifting the focus from technological innovation alone to encompassing production capabilities, cost efficiency, and scalability. Mavruchus emphasizes the importance of rebuilding the industrial base to meet the demands of the future, highlighting the vulnerabilities created by a sole supplier model in the defense industry. His vision involves new companies redesigning systems for autonomy, software integration, and speed, which are critical for the rapid and cost-effective production of ships.",
+      "derived": {
+        "current_role": "CEO of Marathon Marine"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dino Mavruchus is recognized as a leader in the shipbuilding industry, particularly for his innovative approaches to autonomous shipbuilding and the application of first principles design. As the CEO of Marathon Marine, he has been instrumental in shifting the focus from technological innovation alone to encompassing production capabilities, cost efficiency, and scalability.",
+        "Mavruchus emphasizes the importance of rebuilding the industrial base to meet the demands of the future, highlighting the vulnerabilities created by a sole supplier model in the defense industry. His vision involves new companies redesigning systems for autonomy, software integration, and speed, which are critical for the rapid and cost-effective production of ships."
+      ],
+      "sections": [
+        {
+          "heading": "Autonomous Shipbuilding",
+          "body": "Mavruchus is at the forefront of developing autonomous ships, which can potentially transform the maritime industry by increasing efficiency and reducing costs."
+        },
+        {
+          "heading": "First Principles Design",
+          "body": "He advocates for a first principles design approach in shipbuilding, which involves rethinking the fundamental aspects of ship design and production to achieve better outcomes."
+        },
+        {
+          "heading": "Production Constraints",
+          "body": "Mavruchus identifies production, rather than innovation, as the current constraint in defense, emphasizing the need for faster, more cost-effective, and scalable shipbuilding methods."
+        },
+        {
+          "heading": "Rebuilding the Industrial Base",
+          "body": "He calls for a rebuild of the industrial base, arguing that the current model creates vulnerabilities and is not profitable, and that a new approach is necessary for the next century."
+        }
+      ]
+    }
+  },
+  {
+    "id": 256,
+    "name": "Honorable Duffy",
+    "slug": "honorable-duffy",
+    "bio": "The Honorable Duffy is a former Assistant Secretary of the Navy with extensive experience in defense acquisition. He is known for his understanding of the challenges and opportunities within the defense industrial base and his advocacy for rebuilding the industrial base to meet future defense needs.",
+    "known_for": "Advocating for the modernization and rebuilding of the defense industrial base to address production constraints and vulnerabilities.",
+    "net_worth_usd": 85900000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001212809/terrence-a-duffy",
+    "net_worth_updated_at": "2026-05-19T12:12:51.136425",
+    "voice_tone": "Authoritative and pragmatic.",
+    "voice_style": "Direct and policy-focused.",
+    "voice_delivery_notes": "Emphasizes the need for change and collaboration in the defense sector.",
+    "voice_profile_updated_at": "2026-05-19 17:12:15",
+    "last_seen": "2026-05-19 17:12:15",
+    "last_episode_title": "Rebuilding The American Shipyard",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-19",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
+    "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
+    "supporting_takeaway": "Evaluate firms using first principles design to reduce costs and improve efficiency.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-19T12:12:50.208561",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Honorable Duffy",
+      "fetched_at": "2026-05-19T17:12:50.208420+00:00",
+      "cliff_notes": "The Honorable Duffy has had a distinguished career in defense acquisition, culminating in his role as Assistant Secretary of the Navy. He has been at the forefront of understanding the challenges and opportunities within the defense industrial base. Duffy has emphasized the need to rebuild the industrial base to address production constraints and vulnerabilities, focusing on the shift from innovation to production as the primary constraint in defense. His insights and advocacy have been influential in rethinking manufacturing, procurement, and the role of new companies in the defense sector.",
+      "derived": {
+        "former_positions": "Assistant Secretary of the Navy"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "The Honorable Duffy has had a distinguished career in defense acquisition, culminating in his role as Assistant Secretary of the Navy. He has been at the forefront of understanding the challenges and opportunities within the defense industrial base. Duffy has emphasized the need to rebuild the industrial base to address production constraints and vulnerabilities, focusing on the shift from innovation to production as the primary constraint in defense.",
+        "His insights and advocacy have been influential in rethinking manufacturing, procurement, and the role of new companies in the defense sector."
+      ],
+      "sections": [
+        {
+          "heading": "Defense Industrial Base",
+          "body": "Honorable Duffy is known for his expertise in understanding the challenges and opportunities within the defense industrial base, particularly the shift from innovation to production as the primary constraint."
+        },
+        {
+          "heading": "Rebuilding the Industrial Base",
+          "body": "Duffy has been a vocal advocate for rebuilding the defense industrial base to address production constraints and vulnerabilities, emphasizing the need for more founders, builders, and government support for change."
+        },
+        {
+          "heading": "Production Constraints",
+          "body": "Honorable Duffy highlights the increasing constraint in defense as production, rather than innovation, and the need for new approaches to manufacturing and procurement to meet future defense needs."
+        }
+      ]
+    },
+    "net_worth": "$85.9M"
   },
   {
     "id": 254,
@@ -24798,7 +25019,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -24864,7 +25085,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -27500,7 +27721,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -31300,7 +31521,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
@@ -31358,7 +31579,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",
