@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-19T12:14:29.697645",
-  "last_updated": "2026-05-19T12:14:29.697645",
-  "last_pipeline_run": "2026-05-19T12:14:29.697645",
+  "generated_at": "2026-05-19T13:46:32.864737",
+  "last_updated": "2026-05-19T13:46:32.864737",
+  "last_pipeline_run": "2026-05-19T13:46:32.864737",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -12,38 +12,20 @@
     "podcast_episodes": 201,
     "newsletters": 7,
     "daily_scores": 114,
-    "overton_terms_total": 150,
+    "overton_terms_total": 149,
     "latest_insights_total": 215,
     "today_mentions": {},
     "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 2
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
-    {
-      "id": "dbad563d-e6d7-43c8-a2b7-f27d374aae82",
-      "podcast": "The a16z Show",
-      "title": "Rebuilding The American Shipyard",
-      "published": "2026-05-19",
-      "rss_guid": "dbad563d-e6d7-43c8-a2b7-f27d374aae82",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "9e723c14-33a2-4bd1-9e58-e475244f9446",
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",

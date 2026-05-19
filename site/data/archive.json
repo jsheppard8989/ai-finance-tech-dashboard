@@ -4510,24 +4510,6 @@
   "definitions": [],
   "overton": [
     {
-      "id": 190,
-      "term": "First Principles Design",
-      "description": "An approach to design that breaks down problems to their fundamental truths and rebuilds them from scratch, aiming to reduce costs and improve efficiency.",
-      "first_detected_date": "2026-05-19",
-      "last_mentioned_date": "2026-05-19",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies applying first principles design to lower production costs and compete internationally.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 228,
-      "first_detected_speaker": "Dino Mavruchus, Honorable Duffy",
-      "last_mentioned_episode_id": 228,
-      "last_mentioned_speaker": "Dino Mavruchus, Honorable Duffy"
-    },
-    {
       "id": 174,
       "term": "Capability-Bounded Approach",
       "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",

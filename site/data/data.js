@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-19T12:14:41.852185",
-  chartsVersion: "2026-05-19T12:14:28.235664",
+  generatedAt: "2026-05-19T13:46:43.839234",
+  chartsVersion: "2026-05-19T13:46:31.140073",
   priceSnapshot: {
   "GOOGL": {
-    "price": 391.43,
-    "change_pct": 1.72,
+    "price": 389.74,
+    "change_pct": 1.28,
     "name": "GOOGL",
-    "updated_at": "2026-05-19T12:14:28.235240"
+    "updated_at": "2026-05-19T13:46:31.139599"
   },
   "BTC": {
-    "price": 76855.65,
-    "change_pct": -5.61,
+    "price": 76788.48,
+    "change_pct": -5.7,
     "name": "BTC",
-    "updated_at": "2026-05-19T12:14:28.235251"
+    "updated_at": "2026-05-19T13:46:31.139609"
   },
   "NVDA": {
-    "price": 223.74,
-    "change_pct": 12.11,
+    "price": 222.54,
+    "change_pct": 11.51,
     "name": "NVDA",
-    "updated_at": "2026-05-19T12:14:28.235255"
+    "updated_at": "2026-05-19T13:46:31.139612"
   },
   "MSFT": {
-    "price": 418.45,
-    "change_pct": 2.62,
+    "price": 418.94,
+    "change_pct": 2.74,
     "name": "MSFT",
-    "updated_at": "2026-05-19T12:14:28.235258"
+    "updated_at": "2026-05-19T13:46:31.139616"
   },
   "WTI": {
-    "price": 4.78,
-    "change_pct": 13.42,
+    "price": 4.72,
+    "change_pct": 12.11,
     "name": "WTI",
-    "updated_at": "2026-05-19T12:14:28.235261"
+    "updated_at": "2026-05-19T13:46:31.139619"
   },
   "S&P 500": {
-    "price": 736.95,
-    "change_pct": 2.55,
+    "price": 735.58,
+    "change_pct": 2.35,
     "name": "S&P 500",
-    "updated_at": "2026-05-19T12:14:28.235265"
+    "updated_at": "2026-05-19T13:46:31.139621"
   },
   "META": {
-    "price": 604.0,
-    "change_pct": -1.29,
+    "price": 601.86,
+    "change_pct": -1.64,
     "name": "META",
-    "updated_at": "2026-05-19T12:14:28.235269"
+    "updated_at": "2026-05-19T13:46:31.139625"
   },
   "AMZN": {
-    "price": 258.29,
-    "change_pct": -2.55,
+    "price": 259.24,
+    "change_pct": -2.19,
     "name": "AMZN",
-    "updated_at": "2026-05-19T12:14:28.235273"
+    "updated_at": "2026-05-19T13:46:31.139628"
   },
   "TSLA": {
-    "price": 403.24,
-    "change_pct": 5.66,
+    "price": 404.77,
+    "change_pct": 6.06,
     "name": "TSLA",
-    "updated_at": "2026-05-19T12:14:28.235276"
+    "updated_at": "2026-05-19T13:46:31.139631"
   },
   "QQQ": {
-    "price": 705.26,
-    "change_pct": 5.62,
+    "price": 703.55,
+    "change_pct": 5.36,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-19T12:14:28.235279"
+    "updated_at": "2026-05-19T13:46:31.139634"
   },
   "BTC-USD": {
-    "price": 76855.65,
-    "change_pct": -5.61,
+    "price": 76788.48,
+    "change_pct": -5.7,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-19T12:14:28.235282"
+    "updated_at": "2026-05-19T13:46:31.139636"
   }
 },
   tickerScores: [
@@ -5337,24 +5337,6 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 190,
-      "term": "First Principles Design",
-      "description": "An approach to design that breaks down problems to their fundamental truths and rebuilds them from scratch, aiming to reduce costs and improve efficiency.",
-      "first_detected_date": "2026-05-19",
-      "last_mentioned_date": "2026-05-19",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies applying first principles design to lower production costs and compete internationally.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 228,
-      "first_detected_speaker": "Dino Mavruchus, Honorable Duffy",
-      "last_mentioned_episode_id": 228,
-      "last_mentioned_speaker": "Dino Mavruchus, Honorable Duffy"
-    },
-    {
       "id": 174,
       "term": "Capability-Bounded Approach",
       "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
@@ -8331,32 +8313,6 @@ const dashboardData = {
   ],
   "overton": [
     {
-      "id": 190,
-      "term": "First Principles Design",
-      "description": "An approach to design that breaks down problems to their fundamental truths and rebuilds them from scratch, aiming to reduce costs and improve efficiency.",
-      "first_detected_date": "2026-05-19",
-      "last_mentioned_date": "2026-05-19",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies applying first principles design to lower production costs and compete internationally.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 228,
-      "first_detected_speaker": "Dino Mavruchus, Honorable Duffy",
-      "last_mentioned_episode_id": 228,
-      "last_mentioned_speaker": "Dino Mavruchus, Honorable Duffy",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Rebuilding The American Shipyard",
-      "first_detected_episode_date": "2026-05-19",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Rebuilding The American Shipyard",
-      "last_mentioned_episode_date": "2026-05-19"
-    },
-    {
       "id": 24,
       "term": "Risk Off Playbook",
       "description": "A set of investment strategies employed by investors to mitigate risk during times of market uncertainty or perceived danger.",
@@ -8652,6 +8608,32 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential for new platforms that can address specific pain points within enterprise software more effectively than incumbents.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.66,
+      "resonance_pct": 16,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
+    },
+    {
+      "id": 144,
+      "term": "Descheduling",
+      "description": "The removal of a substance from a list of controlled substances, in this case, cannabis.",
+      "first_detected_date": "2026-05-01",
+      "last_mentioned_date": "2026-05-01",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Descheduling can lead to significant changes in the legal and operational landscape for businesses in the affected industry.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -23262,7 +23244,7 @@ const dashboardData = {
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 6622,
+    "id": 6674,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -23274,7 +23256,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6623,
+    "id": 6675,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -23286,7 +23268,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6624,
+    "id": 6676,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -23298,7 +23280,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6625,
+    "id": 6677,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -23310,7 +23292,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 6626,
+    "id": 6678,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -23322,7 +23304,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6627,
+    "id": 6679,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -23334,7 +23316,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6628,
+    "id": 6680,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -23346,7 +23328,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6629,
+    "id": 6681,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -23358,7 +23340,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6630,
+    "id": 6682,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -23370,7 +23352,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6631,
+    "id": 6683,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -23382,7 +23364,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6632,
+    "id": 6684,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -23394,7 +23376,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6633,
+    "id": 6685,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -23406,7 +23388,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6634,
+    "id": 6686,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -23418,7 +23400,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6635,
+    "id": 6687,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -23430,7 +23412,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6636,
+    "id": 6688,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -23442,7 +23424,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6637,
+    "id": 6689,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -23454,7 +23436,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6638,
+    "id": 6690,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -23466,7 +23448,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6639,
+    "id": 6691,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -23478,7 +23460,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6640,
+    "id": 6692,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -23490,7 +23472,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6641,
+    "id": 6693,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -23898,7 +23880,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.55,
+    "mention_score_decayed": 1.52,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -25456,7 +25438,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -25646,7 +25628,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -25709,7 +25691,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -25897,7 +25879,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -29776,7 +29758,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -29835,7 +29817,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
@@ -31844,7 +31826,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -31871,7 +31853,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",
