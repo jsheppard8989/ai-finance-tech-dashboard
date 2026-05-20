@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-20T07:03:45.567160",
-  chartsVersion: "2026-05-20T07:03:39.126097",
+  generatedAt: "2026-05-20T12:21:37.234373",
+  chartsVersion: "2026-05-20T12:21:32.062622",
   priceSnapshot: {
   "GOOGL": {
-    "price": 387.66,
-    "change_pct": 0.74,
+    "price": 384.99,
+    "change_pct": -0.18,
     "name": "GOOGL",
-    "updated_at": "2026-05-20T07:03:39.124898"
+    "updated_at": "2026-05-20T12:21:32.061863"
   },
   "BTC": {
-    "price": 77387.63,
-    "change_pct": -3.28,
+    "price": 77435.01,
+    "change_pct": -3.22,
     "name": "BTC",
-    "updated_at": "2026-05-20T07:03:39.124940"
+    "updated_at": "2026-05-20T12:21:32.061880"
   },
   "NVDA": {
-    "price": 220.61,
-    "change_pct": 10.54,
+    "price": 225.03,
+    "change_pct": 13.39,
     "name": "NVDA",
-    "updated_at": "2026-05-20T07:03:39.124950"
+    "updated_at": "2026-05-20T12:21:32.061887"
   },
   "MSFT": {
-    "price": 417.42,
-    "change_pct": 2.36,
+    "price": 419.2,
+    "change_pct": 1.15,
     "name": "MSFT",
-    "updated_at": "2026-05-20T07:03:39.124958"
+    "updated_at": "2026-05-20T12:21:32.061894"
   },
   "WTI": {
-    "price": 4.76,
-    "change_pct": 13.06,
+    "price": 4.49,
+    "change_pct": 8.84,
     "name": "WTI",
-    "updated_at": "2026-05-20T07:03:39.124966"
+    "updated_at": "2026-05-20T12:21:32.061900"
   },
   "S&P 500": {
-    "price": 733.73,
-    "change_pct": 2.1,
+    "price": 739.88,
+    "change_pct": 2.67,
     "name": "S&P 500",
-    "updated_at": "2026-05-20T07:03:39.124980"
+    "updated_at": "2026-05-20T12:21:32.061905"
   },
   "META": {
-    "price": 602.61,
-    "change_pct": -1.52,
+    "price": 604.35,
+    "change_pct": -0.72,
     "name": "META",
-    "updated_at": "2026-05-20T07:03:39.124989"
+    "updated_at": "2026-05-20T12:21:32.061912"
   },
   "AMZN": {
-    "price": 259.34,
-    "change_pct": -2.16,
+    "price": 263.05,
+    "change_pct": -1.94,
     "name": "AMZN",
-    "updated_at": "2026-05-20T07:03:39.124996"
+    "updated_at": "2026-05-20T12:21:32.061917"
   },
   "TSLA": {
-    "price": 404.11,
-    "change_pct": 5.89,
+    "price": 413.57,
+    "change_pct": 5.82,
     "name": "TSLA",
-    "updated_at": "2026-05-20T07:03:39.125003"
+    "updated_at": "2026-05-20T12:21:32.061923"
   },
   "QQQ": {
-    "price": 701.53,
-    "change_pct": 5.06,
+    "price": 710.56,
+    "change_pct": 5.4,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-20T07:03:39.125028"
+    "updated_at": "2026-05-20T12:21:32.061929"
   },
   "BTC-USD": {
-    "price": 77385.57,
-    "change_pct": -3.28,
+    "price": 77435.01,
+    "change_pct": -3.22,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-20T07:03:39.125038"
+    "updated_at": "2026-05-20T12:21:32.061934"
   }
 },
   tickerScores: [
@@ -828,6 +828,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 244,
+      "title": "Marc Andreessen on AI, California, and the Future of America | Joe Rogan",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-20",
+      "summary": "In this episode of 'The a16z Show', the discussion revolves around the transformative impact of AI on various industries, with a focus on productivity, healthcare, and the future of work. The podcast highlights the concept of 'universal cognitive leverage', where AI tools expand individual capabilities, leading to increased productivity and innovation. The integration of AI in healthcare is expected to revolutionize diagnostics and treatment plans, while also addressing ethical concerns and the potential for job creation and transformation.",
+      "key_takeaway": "Invest in AI technologies to enhance productivity and drive innovation, with a focus on healthcare applications and ethical considerations.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "TSLA",
+        "MSFT",
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 229
+    },
+    {
       "id": 242,
       "title": "Bitcoin Doesn't Negotiate",
       "source_type": "podcast",
@@ -985,7 +1008,7 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-15",
       "archived_date": null,
@@ -5337,6 +5360,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 191,
+      "term": "Universal Cognitive Leverage",
+      "description": "The concept that AI tools will dramatically expand individual capabilities, leading to increased productivity and innovation across various sectors.",
+      "first_detected_date": "2026-05-20",
+      "last_mentioned_date": "2026-05-20",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider companies at the forefront of AI development and integration, particularly in sectors poised for significant productivity gains.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 229,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 229,
+      "last_mentioned_speaker": null
+    },
+    {
       "id": 174,
       "term": "Capability-Bounded Approach",
       "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
@@ -8029,6 +8070,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 244,
+      "title": "Marc Andreessen on AI, California, and the Future of America | Joe Rogan",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-20",
+      "summary": "In this episode of 'The a16z Show', the discussion revolves around the transformative impact of AI on various industries, with a focus on productivity, healthcare, and the future of work. The podcast highlights the concept of 'universal cognitive leverage', where AI tools expand individual capabilities, leading to increased productivity and innovation. The integration of AI in healthcare is expected to revolutionize diagnostics and treatment plans, while also addressing ethical concerns and the potential for job creation and transformation.",
+      "key_takeaway": "Invest in AI technologies to enhance productivity and drive innovation, with a focus on healthcare applications and ethical considerations.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"TSLA\", \"MSFT\", \"NVDA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 229,
+      "episode_release_date": "2026-05-20",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 242,
       "title": "Bitcoin Doesn't Negotiate",
       "source_type": "podcast",
@@ -8146,26 +8207,6 @@ const dashboardData = {
       "podcast_episode_id": 223,
       "episode_release_date": "2026-05-16",
       "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 236,
-      "title": "Eric Jang \u2013 Building AlphaGo from scratch",
-      "source_type": "podcast",
-      "source_name": "Dwarkesh Podcast",
-      "source_date": "2026-05-15",
-      "summary": "In this episode, Eric Jeng discusses the development of OffaGo, an AI for playing Go, and its broader implications for AI research and investment strategies. The conversation highlights a significant reduction in compute required to train AI models, the importance of understanding decision-making processes in AI, and the potential for AI to automate research processes. These insights underscore the growing accessibility and efficiency of AI technologies, with potential applications beyond gaming.",
-      "key_takeaway": "Invest in AI technologies that leverage advancements in MCTS and reduced compute requirements to create scalable and efficient solutions in various industries.",
-      "tickers_mentioned": "[\"GOOGL\", \"MSFT\", \"NVDA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-15",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 221,
-      "episode_release_date": "2026-05-15",
-      "guest_name": "Eric Jeng",
       "key_tickers": []
     },
     {
@@ -8312,6 +8353,32 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 191,
+      "term": "Universal Cognitive Leverage",
+      "description": "The concept that AI tools will dramatically expand individual capabilities, leading to increased productivity and innovation across various sectors.",
+      "first_detected_date": "2026-05-20",
+      "last_mentioned_date": "2026-05-20",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider companies at the forefront of AI development and integration, particularly in sectors poised for significant productivity gains.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 229,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 229,
+      "last_mentioned_speaker": null,
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Marc Andreessen on AI, California, and the Future of America | Joe Rogan",
+      "first_detected_episode_date": "2026-05-20",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Marc Andreessen on AI, California, and the Future of America | Joe Rogan",
+      "last_mentioned_episode_date": "2026-05-20"
+    },
     {
       "id": 24,
       "term": "Risk Off Playbook",
@@ -8608,32 +8675,6 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential for new platforms that can address specific pain points within enterprise software more effectively than incumbents.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.64,
-      "resonance_pct": 16,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 144,
-      "term": "Descheduling",
-      "description": "The removal of a substance from a list of controlled substances, in this case, cannabis.",
-      "first_detected_date": "2026-05-01",
-      "last_mentioned_date": "2026-05-01",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Descheduling can lead to significant changes in the legal and operational landscape for businesses in the affected industry.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -23239,12 +23280,83 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-05-19",
     "key_tickers": []
+  },
+  "244": {
+    "id": 234,
+    "insight_id": 244,
+    "podcast_episode_id": 229,
+    "overview": "The unresolved tension in the discussion revolves around the balance between AI's potential to enhance productivity and innovation versus the ethical and societal challenges it presents. The competitive dynamic is between those who can leverage AI effectively and those who cannot, which could lead to a widening gap in economic and healthcare outcomes. The allocator-relevant implication is that companies and sectors that successfully integrate AI will likely gain a competitive edge, while those that lag may face obsolescence. The metric that arbitrates this uncertainty is the rate of AI adoption and its impact on productivity and innovation across industries.",
+    "key_takeaways_detailed": [
+      "Investors should focus on companies that are at the forefront of AI integration, particularly in sectors like healthcare and coding, as these are likely to see the most significant gains in productivity and innovation.",
+      "Healthcare investors should monitor the development and adoption of AI technologies that can lead to personalized medicine and improved patient outcomes, as these could disrupt the industry significantly.",
+      "Companies should consider the ethical implications of AI in their deployment strategies, as neglecting these could lead to reputational damage and regulatory challenges.",
+      "Investors should be aware of the potential for AI to create new job categories and transform existing ones, which could impact labor markets and the demand for certain skill sets.",
+      "The development of general-purpose robots could lead to significant changes in the labor market, and investors should consider the impact on companies in industries that rely heavily on manual labor."
+    ],
+    "investment_thesis": "The core logic is that AI's ability to provide 'universal cognitive leverage' will lead to a significant increase in productivity and innovation across various sectors, particularly in healthcare and technical fields. This thesis is tied to the observable development of AI's integration into these sectors and the resulting improvements in efficiency and outcomes. The timeframe for this thesis is within the next decade, and it would be vindicated by consistent productivity growth and innovation in sectors that have adopted AI, while it would be invalidated by a lack of such growth or by significant ethical and societal challenges that hinder AI's adoption.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is relevant to this thesis due to its significant investments in AI and machine learning, which are integral to its product development and services.",
+        "positioning": "Positioning should be long-term strategic, as Apple's continued innovation in AI is likely to drive growth and maintain its competitive edge.",
+        "risk": "Key risks include regulatory challenges to data privacy and potential ethical concerns surrounding AI, which could impact Apple's AI development and deployment."
+      },
+      "GOOGL": {
+        "rationale": "Google, through its parent company Alphabet, is a leader in AI research and applications, making it central to the thesis on AI's transformative impact.",
+        "positioning": "Investors should consider a long position in Google, as its AI advancements could drive significant growth across its various business segments.",
+        "risk": "The risk includes potential backlash against AI biases and the ethical use of data, which could affect Google's reputation and operations."
+      },
+      "TSLA": {
+        "rationale": "Tesla's integration of AI in its electric vehicles and autonomous driving technology positions it as a key player in the AI revolution.",
+        "positioning": "A strategic long position in Tesla could be beneficial, as the company's AI advancements are central to its competitive advantage.",
+        "risk": "Regulatory hurdles and public perception of AI safety in autonomous vehicles present significant risks to Tesla's AI initiatives."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's extensive work in AI, including its cloud services and collaboration tools, makes it relevant to the thesis on AI's impact on productivity and innovation.",
+        "positioning": "Microsoft's diversified approach to AI suggests a strategic long position, as its AI technologies could drive growth across multiple sectors.",
+        "risk": "The risk includes competition from other tech giants and potential ethical concerns related to AI deployment, which could affect Microsoft's market position."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's GPUs are critical for AI and machine learning, making the company a key beneficiary of the AI revolution in various industries.",
+        "positioning": "A tactical long position in Nvidia could be appropriate, as its technology is essential for the development and deployment of AI applications.",
+        "risk": "The risk includes potential disruptions in the semiconductor supply chain and increased competition in the AI hardware market."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant increase in unemployment rates across sectors that have adopted AI could suggest that AI is not creating new jobs as predicted.",
+      "Regulatory actions that limit the use of AI due to ethical concerns or data privacy issues could slow down the adoption of AI technologies.",
+      "A lack of significant breakthroughs in drug discovery and environmental sustainability despite AI integration could indicate that AI's transformative potential is overestimated."
+    ],
+    "catalysts": [
+      "Regulatory rulings on data privacy and AI ethics could either accelerate or hinder the adoption of AI technologies.",
+      "Breakthroughs in AI-driven drug discovery and the approval of new drugs could serve as a catalyst for increased investment in AI healthcare applications.",
+      "The launch of general-purpose robots and their successful integration into various industries could a significant shift in the labor market and productivity.",
+      "Economic indicators such as productivity growth and innovation metrics across sectors that have adopted AI could provide insights into the effectiveness of AI integration.",
+      "Public sentiment and acceptance of AI, as influenced by high-profile AI successes or failures, could impact the pace of AI adoption and development."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-20T12:20:37.909455",
+    "updated_at": "2026-05-20 17:20:37",
+    "episode_evidence": "The podcast 'The a16z Show' features a discussion on the transformative impact of AI, with a focus on productivity, healthcare, and the future of work. Andreessen emphasizes the concept of 'universal cognitive leverage', stating, 'AI changes the equation. Instead of just storing or transmitting knowledge, these systems can increasingly reason, generate and act.' This suggests that AI tools are not merely automating tasks but are enhancing human capabilities, leading to increased productivity and innovation. In healthcare, the integration of AI is expected to revolutionize diagnostics and treatment plans, as highlighted by the guest: 'AI is already solving math problems that have been around for a hundred years... they're going to be developing new drugs because they're going to be curing cancer.' This indicates a significant shift in healthcare, where AI could lead to breakthroughs in drug discovery and personalized medicine.",
+    "falsification_tracks": [
+      "If productivity measures across sectors fail to show significant improvement over the next 5 years, the claim of 'universal cognitive leverage' would be weakened.",
+      "Should AI integration in healthcare not lead to tangible improvements in patient outcomes or efficiency within a decade, the transformative potential of AI in this field would be questioned.",
+      "If job creation and transformation do not materialize as predicted, with unemployment rates rising instead, the narrative of AI creating new opportunities would be challenged."
+    ],
+    "insight_title": "Marc Andreessen on AI, California, and the Future of America | Joe Rogan",
+    "source_name": "The a16z Show",
+    "source_date": "2026-05-20",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 6830,
+    "id": 6882,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -23256,7 +23368,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6831,
+    "id": 6883,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -23268,7 +23380,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6832,
+    "id": 6884,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -23280,7 +23392,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6833,
+    "id": 6885,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -23292,7 +23404,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 6834,
+    "id": 6886,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -23304,7 +23416,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6835,
+    "id": 6887,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -23316,7 +23428,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6836,
+    "id": 6888,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -23328,7 +23440,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6837,
+    "id": 6889,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -23340,7 +23452,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6838,
+    "id": 6890,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -23352,7 +23464,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6839,
+    "id": 6891,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -23364,7 +23476,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6840,
+    "id": 6892,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -23376,7 +23488,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6841,
+    "id": 6893,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -23388,7 +23500,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6842,
+    "id": 6894,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -23400,7 +23512,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6843,
+    "id": 6895,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -23412,7 +23524,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6844,
+    "id": 6896,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -23424,7 +23536,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6845,
+    "id": 6897,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -23436,7 +23548,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6846,
+    "id": 6898,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -23448,7 +23560,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6847,
+    "id": 6899,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -23460,7 +23572,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6848,
+    "id": 6900,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -23472,7 +23584,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 6849,
+    "id": 6901,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -24479,7 +24591,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -24506,7 +24618,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -24569,7 +24681,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -25004,7 +25116,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -25070,7 +25182,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -27706,7 +27818,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -30138,7 +30250,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -30198,7 +30310,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -30258,7 +30370,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",

@@ -1,5 +1,22 @@
 [
   {
+    "id": 229,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Marc Andreessen on AI, California, and the Future of America | Joe Rogan",
+    "episode_date": "2026-05-20",
+    "summary": "In this episode of 'The a16z Show', the discussion revolves around the transformative impact of AI on various industries, with a focus on productivity, healthcare, and the future of work. The podcast highlights the concept of 'universal cognitive leverage', where AI tools expand individual capabilities, leading to increased productivity and innovation. The integration of AI in healthcare is expected to revolutionize diagnostics and treatment plans, while also addressing ethical concerns and the potential for job creation and transformation.",
+    "key_takeaways": [
+      "AI is providing unprecedented cognitive leverage, fundamentally changing work across sectors.",
+      "The emergence of AI has led to a significant increase in productivity, with implications for economic growth.",
+      "AI integration in healthcare promises to revolutionize diagnostics, treatment plans, and patient care.",
+      "AI is expected to create new jobs and enhance existing roles, countering unemployment fears.",
+      "Ethical considerations around AI, including biases and misuse, are critical areas of concern.",
+      "The future of AI involves balancing its capabilities with addressing societal challenges."
+    ],
+    "investment_thesis": "Invest in AI technologies to enhance productivity and drive innovation, with a focus on healthcare applications and ethical considerations.",
+    "key_tickers": null
+  },
+  {
     "id": 228,
     "podcast_name": "The a16z Show",
     "episode_title": "Rebuilding The American Shipyard",
@@ -111,22 +128,6 @@
       "Invest in technologies that enhance individual agency and privacy, particularly in the context of AI and digital communication."
     ],
     "investment_thesis": "Invest in technologies that empower individuals to maintain autonomy and control in a world where threats to personal safety and privacy are growing.",
-    "key_tickers": null
-  },
-  {
-    "id": 221,
-    "podcast_name": "Dwarkesh Podcast",
-    "episode_title": "Eric Jang \u2013 Building AlphaGo from scratch",
-    "episode_date": "2026-05-15",
-    "summary": "In this episode, Eric Jeng discusses the development of OffaGo, an AI for playing Go, and its broader implications for AI research and investment strategies. The conversation highlights a significant reduction in compute required to train AI models, the importance of understanding decision-making processes in AI, and the potential for AI to automate research processes. These insights underscore the growing accessibility and efficiency of AI technologies, with potential applications beyond gaming.",
-    "key_takeaways": [
-      "Invest in companies utilizing MCTS for AI applications beyond gaming.",
-      "Monitor advancements in AI that reduce compute requirements, enabling broader access to technology.",
-      "Prioritize the development of robust value functions in AI models to enhance decision-making capabilities.",
-      "Implement strategies to ensure training data remains relevant to the current policy in off-policy learning scenarios.",
-      "Investigate AI tools that automate research processes to accelerate innovation and development."
-    ],
-    "investment_thesis": "Invest in AI technologies that leverage advancements in MCTS and reduced compute requirements to create scalable and efficient solutions in various industries.",
     "key_tickers": null
   }
 ]
