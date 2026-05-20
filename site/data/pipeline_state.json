@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-20T12:21:34.124439",
-  "last_updated": "2026-05-20T12:21:34.124439",
-  "last_pipeline_run": "2026-05-20T12:21:34.124439",
+  "generated_at": "2026-05-20T13:53:28.963069",
+  "last_updated": "2026-05-20T13:53:28.963069",
+  "last_pipeline_run": "2026-05-20T13:53:28.963069",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -12,38 +12,20 @@
     "podcast_episodes": 202,
     "newsletters": 7,
     "daily_scores": 114,
-    "overton_terms_total": 150,
+    "overton_terms_total": 149,
     "latest_insights_total": 216,
     "today_mentions": {},
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 2
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
-    {
-      "id": "a99b5b50-2b58-4dc2-b98c-d11e97cf0d43",
-      "podcast": "The a16z Show",
-      "title": "Marc Andreessen on AI, California, and the Future of America | Joe Rogan",
-      "published": "2026-05-20",
-      "rss_guid": "a99b5b50-2b58-4dc2-b98c-d11e97cf0d43",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "9e723c14-33a2-4bd1-9e58-e475244f9446",
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
