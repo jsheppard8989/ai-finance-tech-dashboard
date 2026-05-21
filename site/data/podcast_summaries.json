@@ -1,5 +1,23 @@
 [
   {
+    "id": 230,
+    "podcast_name": "The a16z Show",
+    "episode_title": "How Superhuman Took Over Silicon Valley Email",
+    "episode_date": "2026-05-21",
+    "summary": "This episode of the a16z Show delves into the product development and market strategy employed by Superhuman, a high-value email client. Key themes include the importance of product market fit, the use of a structured survey to measure user satisfaction, the power of storytelling in pitching, premium pricing strategies, and the application of game design principles to enhance user engagement. The discussion also introduces the concept of 'pro-sumurization', targeting power users with economic means but limited time. The episode emphasizes the need for founders to iterate based on user feedback and to be prepared to pivot their target market based on satisfaction metrics.",
+    "key_takeaways": [
+      "Implement a structured survey to measure user satisfaction and identify areas for improvement.",
+      "Develop a compelling narrative that highlights your product's unique value proposition for investors and co-founders.",
+      "Consider adopting a premium pricing model to enhance perceived value and attract serious users.",
+      "Incorporate game design principles into product development to create engaging user experiences.",
+      "Focus on the pro-sumur demographic when designing product features and marketing strategies.",
+      "Segment your user base to prioritize feedback from the most satisfied customers for product refinement.",
+      "Continuously iterate on product features based on user feedback to maintain product market fit."
+    ],
+    "investment_thesis": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
+    "key_tickers": null
+  },
+  {
     "id": 229,
     "podcast_name": "The a16z Show",
     "episode_title": "Marc Andreessen on AI, California, and the Future of America | Joe Rogan",
@@ -112,22 +130,6 @@
       "Stay informed about government policies and initiatives related to AI and technology collaboration."
     ],
     "investment_thesis": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
-    "key_tickers": null
-  },
-  {
-    "id": 222,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Vitalik Buterin on Human Agency in the AI Era",
-    "episode_date": "2026-05-15",
-    "summary": "This podcast episode discusses the importance of sanctuary technologies that protect individual agency and privacy while ensuring safety. Vitalik Buterin emphasizes the need for active learning in the face of increasing centralization and powerful AI systems. The conversation highlights the shift from passive consumption to active creation as crucial for maintaining relevance and agency in a rapidly changing technological landscape.",
-    "key_takeaways": [
-      "Invest in companies developing sanctuary technologies that prioritize user agency and privacy.",
-      "Encourage active learning strategies within teams to enhance retention and understanding.",
-      "Foster a culture that promotes proactive decision-making and critical thinking to enhance adaptability.",
-      "Implement active learning sessions within teams to improve engagement and retention of information.",
-      "Invest in technologies that enhance individual agency and privacy, particularly in the context of AI and digital communication."
-    ],
-    "investment_thesis": "Invest in technologies that empower individuals to maintain autonomy and control in a world where threats to personal safety and privacy are growing.",
     "key_tickers": null
   }
 ]

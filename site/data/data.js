@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-21T07:12:50.485285",
-  chartsVersion: "2026-05-21T07:12:40.951250",
+  generatedAt: "2026-05-21T12:37:14.155899",
+  chartsVersion: "2026-05-21T12:37:03.585966",
   priceSnapshot: {
   "GOOGL": {
-    "price": 388.91,
-    "change_pct": 0.83,
+    "price": 390.45,
+    "change_pct": 1.88,
     "name": "GOOGL",
-    "updated_at": "2026-05-21T07:12:40.950357"
+    "updated_at": "2026-05-21T12:37:03.584674"
   },
   "BTC": {
-    "price": 77110.8,
-    "change_pct": -3.84,
+    "price": 77885.99,
+    "change_pct": -2.87,
     "name": "BTC",
-    "updated_at": "2026-05-21T07:12:40.950375"
+    "updated_at": "2026-05-21T12:37:03.584698"
   },
   "NVDA": {
-    "price": 223.47,
-    "change_pct": 12.61,
+    "price": 221.74,
+    "change_pct": 11.72,
     "name": "NVDA",
-    "updated_at": "2026-05-21T07:12:40.950383"
+    "updated_at": "2026-05-21T12:37:03.584709"
   },
   "MSFT": {
-    "price": 421.06,
-    "change_pct": 1.6,
+    "price": 417.63,
+    "change_pct": 0.97,
     "name": "MSFT",
-    "updated_at": "2026-05-21T07:12:40.950390"
+    "updated_at": "2026-05-21T12:37:03.584719"
   },
   "WTI": {
-    "price": 4.48,
-    "change_pct": 8.47,
+    "price": 4.37,
+    "change_pct": -0.23,
     "name": "WTI",
-    "updated_at": "2026-05-21T07:12:40.950396"
+    "updated_at": "2026-05-21T12:37:03.584729"
   },
   "S&P 500": {
-    "price": 741.25,
-    "change_pct": 2.86,
+    "price": 742.69,
+    "change_pct": 3.44,
     "name": "S&P 500",
-    "updated_at": "2026-05-21T07:12:40.950402"
+    "updated_at": "2026-05-21T12:37:03.584738"
   },
   "META": {
-    "price": 605.06,
-    "change_pct": -0.61,
+    "price": 606.75,
+    "change_pct": -0.6,
     "name": "META",
-    "updated_at": "2026-05-21T07:12:40.950409"
+    "updated_at": "2026-05-21T12:37:03.584749"
   },
   "AMZN": {
-    "price": 265.01,
-    "change_pct": -1.21,
+    "price": 268.12,
+    "change_pct": -1.44,
     "name": "AMZN",
-    "updated_at": "2026-05-21T07:12:40.950415"
+    "updated_at": "2026-05-21T12:37:03.584759"
   },
   "TSLA": {
-    "price": 417.26,
-    "change_pct": 6.77,
+    "price": 421.15,
+    "change_pct": 7.3,
     "name": "TSLA",
-    "updated_at": "2026-05-21T07:12:40.950421"
+    "updated_at": "2026-05-21T12:37:03.584769"
   },
   "QQQ": {
-    "price": 713.15,
-    "change_pct": 5.79,
+    "price": 714.66,
+    "change_pct": 6.21,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-21T07:12:40.950427"
+    "updated_at": "2026-05-21T12:37:03.584778"
   },
   "BTC-USD": {
-    "price": 77110.8,
-    "change_pct": -3.84,
+    "price": 77885.99,
+    "change_pct": -2.87,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-21T07:12:40.950433"
+    "updated_at": "2026-05-21T12:37:03.584788"
   }
 },
   tickerScores: [
@@ -828,6 +828,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 245,
+      "title": "How Superhuman Took Over Silicon Valley Email",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-21",
+      "summary": "This episode of the a16z Show delves into the product development and market strategy employed by Superhuman, a high-value email client. Key themes include the importance of product market fit, the use of a structured survey to measure user satisfaction, the power of storytelling in pitching, premium pricing strategies, and the application of game design principles to enhance user engagement. The discussion also introduces the concept of 'pro-sumurization', targeting power users with economic means but limited time. The episode emphasizes the need for founders to iterate based on user feedback and to be prepared to pivot their target market based on satisfaction metrics.",
+      "key_takeaway": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 230
+    },
+    {
       "id": 244,
       "title": "Marc Andreessen on AI, California, and the Future of America | Joe Rogan",
       "source_type": "podcast",
@@ -1027,7 +1046,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-15",
       "archived_date": null,
@@ -5360,6 +5379,42 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 192,
+      "term": "Product Market Fit Engine",
+      "description": "A structured survey process that measures user satisfaction and identifies areas for improvement, focusing on the question, 'How would you feel if you could no longer use the product?'",
+      "first_detected_date": "2026-05-21",
+      "last_mentioned_date": "2026-05-21",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies that use quantifiable methods to assess product market fit and guide product development.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 230,
+      "first_detected_speaker": "Relow Vora",
+      "last_mentioned_episode_id": 230,
+      "last_mentioned_speaker": "Relow Vora"
+    },
+    {
+      "id": 193,
+      "term": "Pro-sumurization",
+      "description": "Targeting power users who have the economic means but limited time to engage with products.",
+      "first_detected_date": "2026-05-21",
+      "last_mentioned_date": "2026-05-21",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Consider investing in products that cater to the needs of pro-sumurs, focusing on high-value, time-saving solutions.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 230,
+      "first_detected_speaker": "Relow Vora",
+      "last_mentioned_episode_id": 230,
+      "last_mentioned_speaker": "Relow Vora"
+    },
+    {
       "id": 174,
       "term": "Capability-Bounded Approach",
       "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
@@ -8052,6 +8107,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 245,
+      "title": "How Superhuman Took Over Silicon Valley Email",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-21",
+      "summary": "This episode of the a16z Show delves into the product development and market strategy employed by Superhuman, a high-value email client. Key themes include the importance of product market fit, the use of a structured survey to measure user satisfaction, the power of storytelling in pitching, premium pricing strategies, and the application of game design principles to enhance user engagement. The discussion also introduces the concept of 'pro-sumurization', targeting power users with economic means but limited time. The episode emphasizes the need for founders to iterate based on user feedback and to be prepared to pivot their target market based on satisfaction metrics.",
+      "key_takeaway": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 230,
+      "episode_release_date": "2026-05-21",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 244,
       "title": "Marc Andreessen on AI, California, and the Future of America | Joe Rogan",
       "source_type": "podcast",
@@ -8190,26 +8265,6 @@ const dashboardData = {
       "episode_release_date": "2026-05-16",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 237,
-      "title": "Vitalik Buterin on Human Agency in the AI Era",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-05-15",
-      "summary": "This podcast episode discusses the importance of sanctuary technologies that protect individual agency and privacy while ensuring safety. Vitalik Buterin emphasizes the need for active learning in the face of increasing centralization and powerful AI systems. The conversation highlights the shift from passive consumption to active creation as crucial for maintaining relevance and agency in a rapidly changing technological landscape.",
-      "key_takeaway": "Invest in technologies that empower individuals to maintain autonomy and control in a world where threats to personal safety and privacy are growing.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-15",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 222,
-      "episode_release_date": "2026-05-15",
-      "guest_name": null,
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -8335,6 +8390,58 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 192,
+      "term": "Product Market Fit Engine",
+      "description": "A structured survey process that measures user satisfaction and identifies areas for improvement, focusing on the question, 'How would you feel if you could no longer use the product?'",
+      "first_detected_date": "2026-05-21",
+      "last_mentioned_date": "2026-05-21",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies that use quantifiable methods to assess product market fit and guide product development.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 230,
+      "first_detected_speaker": "Relow Vora",
+      "last_mentioned_episode_id": 230,
+      "last_mentioned_speaker": "Relow Vora",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "How Superhuman Took Over Silicon Valley Email",
+      "first_detected_episode_date": "2026-05-21",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "How Superhuman Took Over Silicon Valley Email",
+      "last_mentioned_episode_date": "2026-05-21"
+    },
+    {
+      "id": 193,
+      "term": "Pro-sumurization",
+      "description": "Targeting power users who have the economic means but limited time to engage with products.",
+      "first_detected_date": "2026-05-21",
+      "last_mentioned_date": "2026-05-21",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Consider investing in products that cater to the needs of pro-sumurs, focusing on high-value, time-saving solutions.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 230,
+      "first_detected_speaker": "Relow Vora",
+      "last_mentioned_episode_id": 230,
+      "last_mentioned_speaker": "Relow Vora",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "How Superhuman Took Over Silicon Valley Email",
+      "first_detected_episode_date": "2026-05-21",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "How Superhuman Took Over Silicon Valley Email",
+      "last_mentioned_episode_date": "2026-05-21"
+    },
     {
       "id": 24,
       "term": "Risk Off Playbook",
@@ -8620,58 +8727,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
       "last_mentioned_episode_date": "2026-05-04"
-    },
-    {
-      "id": 143,
-      "term": "Cross-Solver Tensions",
-      "description": "The challenges faced by companies that try to replace multiple functionalities within a single platform.",
-      "first_detected_date": "2026-05-01",
-      "last_mentioned_date": "2026-05-01",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the potential for new platforms that can address specific pain points within enterprise software more effectively than incumbents.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.63,
-      "resonance_pct": 16,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 144,
-      "term": "Descheduling",
-      "description": "The removal of a substance from a list of controlled substances, in this case, cannabis.",
-      "first_detected_date": "2026-05-01",
-      "last_mentioned_date": "2026-05-01",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Descheduling can lead to significant changes in the legal and operational landscape for businesses in the affected industry.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.63,
-      "resonance_pct": 16,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
     }
   ]
 },
@@ -23333,12 +23388,65 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-05-20",
     "key_tickers": []
+  },
+  "245": {
+    "id": 235,
+    "insight_id": 245,
+    "podcast_episode_id": 230,
+    "overview": "The competitive dynamic highlighted by the Superhuman case is the tension between creating a high-value product and ensuring broad market appeal. The unresolved tension lies in balancing premium pricing with user accessibility and satisfaction. What converts belief in Superhuman's strategy is the ability to maintain high user satisfaction and retention rates, which are arbitrated by the structured survey metrics and the application of game design principles.",
+    "key_takeaways_detailed": [
+      "Invest in companies that prioritize manual onboarding to enhance user experience and retention, as it can lead to a deeper understanding of user needs and higher satisfaction.",
+      "Consider the narrative of differentiation when evaluating startups, as a compelling story can be a strong indicator of a company's ability to stand out in a crowded market.",
+      "Assess the impact of premium pricing on user perception and retention; a well-executed premium strategy can enhance brand value and attract a committed user base.",
+      "Look for companies that apply game design principles to product development, as this can lead to more engaging and enjoyable user experiences, potentially increasing retention.",
+      "Evaluate the targeting of the pro-sumur demographic in product features and marketing strategies, as this can inform the potential for high-value user engagement.",
+      "Monitor how companies segment their user base for feedback, as focusing on the most satisfied customers can provide valuable insights for product refinement."
+    ],
+    "investment_thesis": "Investing in products with a strong product market fit, as demonstrated by high user satisfaction and retention, is a viable strategy. The observable development that would vindicate this thesis is the consistent growth in user base and revenue, particularly if the product employs game design principles and targets the pro-sumur demographic with a premium pricing strategy. Conversely, a significant drop in user satisfaction or retention rates, or a failure to attract and retain the pro-sumur demographic, would invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's focus on user experience and premium pricing makes it relevant to the Superhuman case. Its ability to maintain high user satisfaction through intuitive design and ecosystem integration aligns with the principles discussed.",
+        "positioning": "Positioning Apple as a strategic long-term investment, given its consistent innovation and strong brand value, which are likely to sustain high user satisfaction and retention.",
+        "risk": "Key risks include market saturation, increased competition, and potential missteps in product development that could affect user satisfaction and retention."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The high cost of premium pricing strategies may limit market reach and user base growth.",
+      "The application of game design principles may not resonate with all user demographics, potentially alienating certain segments.",
+      "Manual onboarding is resource-intensive and may not scale effectively as user base grows, impacting user satisfaction and retention rates."
+    ],
+    "catalysts": [
+      "Release of new product features or updates that enhance user engagement and satisfaction.",
+      "Announcement of partnerships or acquisitions that could expand the user base or improve product offerings.",
+      "Publication of user satisfaction and retention rate metrics that provide insights into the effectiveness of the product market fit engine.",
+      "Market research reports that validate the importance of the pro-sumur demographic in product development and marketing strategies.",
+      "Economic indicators that affect the disposable income and spending habits of the pro-sumur demographic."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-21T12:36:03.506746",
+    "updated_at": "2026-05-21 17:36:03",
+    "episode_evidence": "Superhuman's product development strategy is anchored in a deep understanding of user experience, achieved through manual onboarding sessions that ensure high retention and satisfaction rates. 'The companies that grew to product market fits almost always had more than 40% very disappointed,' noted Relow Vora, emphasizing the importance of a structured survey to measure user sentiment. Superhuman's premium pricing strategy from the outset was a deliberate move to position the product as high-value, attracting serious users who perceive the product as worth the cost. Vora explained, 'We priced it such that it spoke to how those people think about themselves.' The application of game design principles to product development is another unique aspect of Superhuman's approach, enhancing user engagement through playful and intuitive features, as Vora pointed out: 'The best products are made with toys because then the games are fun on multiple levels.'",
+    "falsification_tracks": [
+      "If user retention rates drop significantly below industry standards, it would challenge the effectiveness of Superhuman's onboarding process and user satisfaction metrics.",
+      "A decline in the percentage of users who express high disappointment if they could no longer use the product would undermine the product market fit engine's effectiveness.",
+      "If Superhuman's premium pricing leads to a significant loss in user base without a corresponding increase in perceived value, it would question the sustainability of their pricing strategy.",
+      "Should the application of game design principles fail to result in higher user engagement or retention, it would cast doubt on the strategy's impact on user experience."
+    ],
+    "insight_title": "How Superhuman Took Over Silicon Valley Email",
+    "source_name": "The a16z Show",
+    "source_date": "2026-05-21",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 7142,
+    "id": 7194,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -23350,7 +23458,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7143,
+    "id": 7195,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -23362,7 +23470,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7144,
+    "id": 7196,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -23374,7 +23482,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7145,
+    "id": 7197,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -23386,7 +23494,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 7146,
+    "id": 7198,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -23398,7 +23506,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7147,
+    "id": 7199,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -23410,7 +23518,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7148,
+    "id": 7200,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -23422,7 +23530,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7149,
+    "id": 7201,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -23434,7 +23542,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7150,
+    "id": 7202,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -23446,7 +23554,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7151,
+    "id": 7203,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -23458,7 +23566,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7152,
+    "id": 7204,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -23470,7 +23578,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7153,
+    "id": 7205,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -23482,7 +23590,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7154,
+    "id": 7206,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -23494,7 +23602,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7155,
+    "id": 7207,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -23506,7 +23614,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7156,
+    "id": 7208,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -23518,7 +23626,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7157,
+    "id": 7209,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -23530,7 +23638,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7158,
+    "id": 7210,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -23542,7 +23650,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7159,
+    "id": 7211,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -23554,7 +23662,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7160,
+    "id": 7212,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -23566,7 +23674,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7161,
+    "id": 7213,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -24573,7 +24681,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -24581,6 +24689,70 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 257,
+    "name": "Relow Vora",
+    "slug": "relow-vora",
+    "bio": "Relow Vora is the founder of Superhuman, a high-value email client. He is known for developing the 'product market fit engine' and applying game design principles to product development.",
+    "known_for": "Developing the 'product market fit engine' and applying game design principles to product development.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-21 17:35:27",
+    "last_episode_title": "How Superhuman Took Over Silicon Valley Email",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-21",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
+    "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
+    "supporting_takeaway": "Develop a compelling narrative that highlights your product's unique value proposition for investors and co-founders.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-21T12:35:36.207811",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Relow Vora",
+      "fetched_at": "2026-05-21T17:35:36.207346+00:00",
+      "cliff_notes": "Relow Vora is an entrepreneur and product developer known for his innovative approach to product-market fit and game design principles in product development. As the founder of Superhuman, a high-value email client, Vora has made a significant impact in the tech industry. His work on the 'product market fit engine' has been a game-changer, turning the concept of product-market fit into a systematic process. Before founding Superhuman, Vora built reported, showcasing his ability to create and develop innovative products. Vora's approach to product development and his focus on differentiation have made him a notable figure in the tech world.",
+      "derived": {
+        "current_role": "Founder of Superhuman",
+        "former_positions": "Before founding Superhuman, Relow built reported."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Relow Vora is an entrepreneur and product developer known for his innovative approach to product-market fit and game design principles in product development. As the founder of Superhuman, a high-value email client, Vora has made a significant impact in the tech industry. His work on the 'product market fit engine' has been a game-changer, turning the concept of product-market fit into a systematic process.",
+        "Before founding Superhuman, Vora built reported, showcasing his ability to create and develop innovative products. Vora's approach to product development and his focus on differentiation have made him a notable figure in the tech world."
+      ],
+      "sections": [
+        {
+          "heading": "Product Market Fit Engine",
+          "body": "Relow Vora developed the 'product market fit engine,' turning the concept of product-market fit into a systematic process."
+        },
+        {
+          "heading": "Game Design Principles",
+          "body": "Vora is known for applying game design principles to product development, creating engaging and user-friendly products."
+        },
+        {
+          "heading": "Superhuman Email Client",
+          "body": "As the founder of Superhuman, Vora has created a high-value email client that has made a significant impact in the tech industry."
+        },
+        {
+          "heading": "Differentiation",
+          "body": "Vora emphasizes the importance of differentiation in product development, focusing on creating unique and innovative products that stand out in the market."
+        }
+      ]
+    }
   },
   {
     "id": 255,
@@ -24600,7 +24772,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -24663,7 +24835,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -25098,7 +25270,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -25164,7 +25336,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -25976,7 +26148,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -27800,7 +27972,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -30232,7 +30404,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -30292,7 +30464,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -30352,7 +30524,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",
@@ -31600,7 +31772,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
