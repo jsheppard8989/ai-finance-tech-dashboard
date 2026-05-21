@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-20T23:40:31.086099",
-  chartsVersion: "2026-05-20T23:40:18.143156",
+  generatedAt: "2026-05-21T05:02:13.353653",
+  chartsVersion: "2026-05-21T05:02:01.091872",
   priceSnapshot: {
   "GOOGL": {
     "price": 388.91,
     "change_pct": 0.83,
     "name": "GOOGL",
-    "updated_at": "2026-05-20T23:40:18.142451"
+    "updated_at": "2026-05-21T05:02:01.091418"
   },
   "BTC": {
-    "price": 77934.96,
-    "change_pct": -2.81,
+    "price": 77558.67,
+    "change_pct": -3.28,
     "name": "BTC",
-    "updated_at": "2026-05-20T23:40:18.142468"
+    "updated_at": "2026-05-21T05:02:01.091428"
   },
   "NVDA": {
     "price": 223.47,
     "change_pct": 12.61,
     "name": "NVDA",
-    "updated_at": "2026-05-20T23:40:18.142475"
+    "updated_at": "2026-05-21T05:02:01.091432"
   },
   "MSFT": {
     "price": 421.06,
     "change_pct": 1.6,
     "name": "MSFT",
-    "updated_at": "2026-05-20T23:40:18.142480"
+    "updated_at": "2026-05-21T05:02:01.091436"
   },
   "WTI": {
     "price": 4.48,
     "change_pct": 8.47,
     "name": "WTI",
-    "updated_at": "2026-05-20T23:40:18.142486"
+    "updated_at": "2026-05-21T05:02:01.091439"
   },
   "S&P 500": {
     "price": 741.25,
     "change_pct": 2.86,
     "name": "S&P 500",
-    "updated_at": "2026-05-20T23:40:18.142491"
+    "updated_at": "2026-05-21T05:02:01.091442"
   },
   "META": {
     "price": 605.06,
     "change_pct": -0.61,
     "name": "META",
-    "updated_at": "2026-05-20T23:40:18.142497"
+    "updated_at": "2026-05-21T05:02:01.091446"
   },
   "AMZN": {
     "price": 265.01,
     "change_pct": -1.21,
     "name": "AMZN",
-    "updated_at": "2026-05-20T23:40:18.142502"
+    "updated_at": "2026-05-21T05:02:01.091449"
   },
   "TSLA": {
     "price": 417.26,
     "change_pct": 6.77,
     "name": "TSLA",
-    "updated_at": "2026-05-20T23:40:18.142507"
+    "updated_at": "2026-05-21T05:02:01.091452"
   },
   "QQQ": {
     "price": 713.15,
     "change_pct": 5.79,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-20T23:40:18.142512"
+    "updated_at": "2026-05-21T05:02:01.091455"
   },
   "BTC-USD": {
-    "price": 77934.96,
-    "change_pct": -2.81,
+    "price": 77558.67,
+    "change_pct": -3.28,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-20T23:40:18.142517"
+    "updated_at": "2026-05-21T05:02:01.091458"
   }
 },
   tickerScores: [
@@ -8352,7 +8352,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": null,
       "last_mentioned_speaker": null,
-      "overton_score": 0.89,
+      "overton_score": 0.87,
       "resonance_pct": 22,
       "first_detected_podcast": null,
       "first_detected_episode_title": null,
@@ -8378,7 +8378,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": null,
       "last_mentioned_speaker": null,
-      "overton_score": 0.89,
+      "overton_score": 0.87,
       "resonance_pct": 22,
       "first_detected_podcast": null,
       "first_detected_episode_title": null,
@@ -8404,8 +8404,8 @@ const dashboardData = {
       "first_detected_speaker": "Charles Koch, Chase Koch",
       "last_mentioned_episode_id": 215,
       "last_mentioned_speaker": "Charles Koch, Chase Koch",
-      "overton_score": 0.83,
-      "resonance_pct": 21,
+      "overton_score": 0.81,
+      "resonance_pct": 20,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
       "first_detected_episode_date": "2026-05-12",
@@ -8430,8 +8430,8 @@ const dashboardData = {
       "first_detected_speaker": "Charles Koch, Chase Koch",
       "last_mentioned_episode_id": 215,
       "last_mentioned_speaker": "Charles Koch, Chase Koch",
-      "overton_score": 0.83,
-      "resonance_pct": 21,
+      "overton_score": 0.81,
+      "resonance_pct": 20,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
       "first_detected_episode_date": "2026-05-12",
@@ -8456,7 +8456,7 @@ const dashboardData = {
       "first_detected_speaker": "Spencer Pratt",
       "last_mentioned_episode_id": 210,
       "last_mentioned_speaker": "Spencer Pratt",
-      "overton_score": 0.79,
+      "overton_score": 0.78,
       "resonance_pct": 20,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
@@ -8482,7 +8482,7 @@ const dashboardData = {
       "first_detected_speaker": "Spencer Pratt",
       "last_mentioned_episode_id": 210,
       "last_mentioned_speaker": "Spencer Pratt",
-      "overton_score": 0.79,
+      "overton_score": 0.78,
       "resonance_pct": 20,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
@@ -8508,7 +8508,7 @@ const dashboardData = {
       "first_detected_speaker": "Louis Vincent Gavre",
       "last_mentioned_episode_id": 203,
       "last_mentioned_speaker": "Louis Vincent Gavre",
-      "overton_score": 0.74,
+      "overton_score": 0.72,
       "resonance_pct": 18,
       "first_detected_podcast": "Macro Voices",
       "first_detected_episode_title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
@@ -8534,7 +8534,7 @@ const dashboardData = {
       "first_detected_speaker": "Demis Hassabis",
       "last_mentioned_episode_id": 204,
       "last_mentioned_speaker": "Demis Hassabis",
-      "overton_score": 0.74,
+      "overton_score": 0.72,
       "resonance_pct": 18,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
@@ -8560,7 +8560,7 @@ const dashboardData = {
       "first_detected_speaker": "Demis Hassabis",
       "last_mentioned_episode_id": 204,
       "last_mentioned_speaker": "Demis Hassabis",
-      "overton_score": 0.74,
+      "overton_score": 0.72,
       "resonance_pct": 18,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
@@ -8586,8 +8586,8 @@ const dashboardData = {
       "first_detected_speaker": "Tony James",
       "last_mentioned_episode_id": 199,
       "last_mentioned_speaker": "Tony James",
-      "overton_score": 0.71,
-      "resonance_pct": 18,
+      "overton_score": 0.69,
+      "resonance_pct": 17,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Building Blackstone, Backing Costco, with Tony James",
       "first_detected_episode_date": "2026-05-05",
@@ -8612,7 +8612,7 @@ const dashboardData = {
       "first_detected_speaker": "Sarah B. Rogers",
       "last_mentioned_episode_id": 195,
       "last_mentioned_speaker": "Sarah B. Rogers",
-      "overton_score": 0.69,
+      "overton_score": 0.68,
       "resonance_pct": 17,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
@@ -8638,7 +8638,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": null,
       "last_mentioned_speaker": null,
-      "overton_score": 0.64,
+      "overton_score": 0.63,
       "resonance_pct": 16,
       "first_detected_podcast": null,
       "first_detected_episode_title": null,
@@ -8664,7 +8664,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": null,
       "last_mentioned_speaker": null,
-      "overton_score": 0.64,
+      "overton_score": 0.63,
       "resonance_pct": 16,
       "first_detected_podcast": null,
       "first_detected_episode_title": null,
@@ -23338,7 +23338,7 @@ const dashboardData = {
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 7038,
+    "id": 7090,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -23350,7 +23350,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7039,
+    "id": 7091,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -23362,7 +23362,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7040,
+    "id": 7092,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -23374,7 +23374,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7041,
+    "id": 7093,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -23386,7 +23386,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 7042,
+    "id": 7094,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -23398,7 +23398,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7043,
+    "id": 7095,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -23410,7 +23410,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7044,
+    "id": 7096,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -23422,7 +23422,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7045,
+    "id": 7097,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -23434,7 +23434,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7046,
+    "id": 7098,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -23446,7 +23446,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7047,
+    "id": 7099,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -23458,7 +23458,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7048,
+    "id": 7100,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -23470,7 +23470,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7049,
+    "id": 7101,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -23482,7 +23482,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7050,
+    "id": 7102,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -23494,7 +23494,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7051,
+    "id": 7103,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -23506,7 +23506,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7052,
+    "id": 7104,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -23518,7 +23518,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7053,
+    "id": 7105,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -23530,7 +23530,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7054,
+    "id": 7106,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -23542,7 +23542,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7055,
+    "id": 7107,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -23554,7 +23554,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7056,
+    "id": 7108,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -23566,7 +23566,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7057,
+    "id": 7109,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -23850,7 +23850,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-15",
     "mention_score": 2,
-    "mention_score_decayed": 1.82,
+    "mention_score_decayed": 1.78,
     "last_main_idea": "Invest in technologies that empower individuals to maintain autonomy and control in a world where threats to personal safety and privacy are growing.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-15 \u2022 Vitalik Buterin on Human Agency in the AI Era",
     "last_proof_snippet": "One of the challenges the world right now is that we're definitely in a less peaceful and less safe world than 10 or 15 years ago. The vision of safety that we're competing with is basically, oh, you know, let's trust the uncle in the sky a",
@@ -24324,7 +24324,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-19 \u2022 MacroVoices-2026-03-19-Simon-White",
     "last_proof_snippet": "Simon White suggests that markets may be underpricing the second-order effects of the Iran conflict.",
@@ -25414,7 +25414,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Invest in initiatives that promote transparency in local governance, support independent filmmakers, and advocate for education reform to drive economic revitalization and improve public services in Los Angeles.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-10 \u2022 Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
     "last_proof_snippet": "Spencer Pratt, welcome to the All In Podcast. Thank you for having me. You had an unbelievable debate performance the other night. I have so many friends that were texting and people obviously were tweeting about it. Let's start with that.",
@@ -25601,7 +25601,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in incremental AI improvements, new compensation models for CEOs, and emerging biotech sectors focusing on longevity and healthspan.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-07 \u2022 Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
     "last_proof_snippet": "Demisis Abbas, the CEO of DeepMind, says AGI may not need a major breakthrough. I've argued in the past that we achieved AGI in the summer of 2020. We know. I would argue what AGI is, and we know how pleased to find it for me. For your AI,",
@@ -26036,7 +26036,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Building a successful investment organization requires compounding talent, capital, and culture over time, focusing on long-term growth rather than short-term gains.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-05 \u2022 Building Blackstone, Backing Costco, with Tony James",
     "last_proof_snippet": "If you think about the development of a successful company, there's kind of an Esker. It starts off small and entrepreneurial. Then there's this kind of escalation where you create a lot of value in a lot of size. People know Blackstone tod",
@@ -30412,7 +30412,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
@@ -30472,7 +30472,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
@@ -30531,7 +30531,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-26 \u2022 Exploring Psychedelics for Longevity and Personal Growth",
     "last_proof_snippet": "Johnson's experience with 5-MEO-DMT was profound, leading to a significant personal reset and a renewed sense of purpose.",
@@ -30783,7 +30783,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-23 \u2022 Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
     "last_proof_snippet": "Northwood aims to modernize and vertically integrate ground systems to connect satellites back to Earth.",
@@ -30843,7 +30843,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-23 \u2022 Interview with Michael Intrader at Nvidia's GTC Conference",
     "last_proof_snippet": "The company leverages its expertise in risk management from its hedge fund background to navigate volatility in crypto.",
@@ -30904,7 +30904,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-23 \u2022 Monetary Matters: Middle East Crisis and Global Market Impact",
     "last_proof_snippet": "The Strait of Hormuz remains under Iranian control, and no significant change in shipping has been observed.",
@@ -31089,7 +31089,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-20 \u2022 The Impact of AI on Mathematics and Scientific Discovery",
     "last_proof_snippet": "The application of AI in mathematics could lead to new discoveries and breakthroughs more quickly than traditional methods.",
