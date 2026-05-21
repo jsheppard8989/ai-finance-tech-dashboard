@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-21T12:37:14.155899",
-  chartsVersion: "2026-05-21T12:37:03.585966",
+  generatedAt: "2026-05-21T14:11:34.495520",
+  chartsVersion: "2026-05-21T14:11:19.619401",
   priceSnapshot: {
   "GOOGL": {
-    "price": 390.45,
-    "change_pct": 1.88,
+    "price": 388.42,
+    "change_pct": 1.35,
     "name": "GOOGL",
-    "updated_at": "2026-05-21T12:37:03.584674"
+    "updated_at": "2026-05-21T14:11:19.618849"
   },
   "BTC": {
-    "price": 77885.99,
-    "change_pct": -2.87,
+    "price": 77481.93,
+    "change_pct": -3.37,
     "name": "BTC",
-    "updated_at": "2026-05-21T12:37:03.584698"
+    "updated_at": "2026-05-21T14:11:19.618859"
   },
   "NVDA": {
-    "price": 221.74,
-    "change_pct": 11.72,
+    "price": 219.56,
+    "change_pct": 10.62,
     "name": "NVDA",
-    "updated_at": "2026-05-21T12:37:03.584709"
+    "updated_at": "2026-05-21T14:11:19.618863"
   },
   "MSFT": {
-    "price": 417.63,
-    "change_pct": 0.97,
+    "price": 418.94,
+    "change_pct": 1.29,
     "name": "MSFT",
-    "updated_at": "2026-05-21T12:37:03.584719"
+    "updated_at": "2026-05-21T14:11:19.618867"
   },
   "WTI": {
-    "price": 4.37,
-    "change_pct": -0.23,
+    "price": 4.42,
+    "change_pct": 0.91,
     "name": "WTI",
-    "updated_at": "2026-05-21T12:37:03.584729"
+    "updated_at": "2026-05-21T14:11:19.618871"
   },
   "S&P 500": {
-    "price": 742.69,
-    "change_pct": 3.44,
+    "price": 742.29,
+    "change_pct": 3.38,
     "name": "S&P 500",
-    "updated_at": "2026-05-21T12:37:03.584738"
+    "updated_at": "2026-05-21T14:11:19.618874"
   },
   "META": {
-    "price": 606.75,
-    "change_pct": -0.6,
+    "price": 606.96,
+    "change_pct": -0.57,
     "name": "META",
-    "updated_at": "2026-05-21T12:37:03.584749"
+    "updated_at": "2026-05-21T14:11:19.618879"
   },
   "AMZN": {
-    "price": 268.12,
-    "change_pct": -1.44,
+    "price": 267.92,
+    "change_pct": -1.52,
     "name": "AMZN",
-    "updated_at": "2026-05-21T12:37:03.584759"
+    "updated_at": "2026-05-21T14:11:19.618882"
   },
   "TSLA": {
-    "price": 421.15,
-    "change_pct": 7.3,
+    "price": 417.71,
+    "change_pct": 6.42,
     "name": "TSLA",
-    "updated_at": "2026-05-21T12:37:03.584769"
+    "updated_at": "2026-05-21T14:11:19.618886"
   },
   "QQQ": {
-    "price": 714.66,
-    "change_pct": 6.21,
+    "price": 713.15,
+    "change_pct": 5.98,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-21T12:37:03.584778"
+    "updated_at": "2026-05-21T14:11:19.618889"
   },
   "BTC-USD": {
-    "price": 77885.99,
-    "change_pct": -2.87,
+    "price": 77469.57,
+    "change_pct": -3.39,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-21T12:37:03.584788"
+    "updated_at": "2026-05-21T14:11:19.618892"
   }
 },
   tickerScores: [
@@ -847,6 +847,29 @@ const dashboardData = {
       "podcast_episode_id": 230
     },
     {
+      "id": 246,
+      "title": "MacroVoices #533 Morgan Downey: The Return of Oil 101",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-05-21",
+      "summary": "In this episode of Macro Voices, expert Morgan Downey discusses the potential impact of the Strait of Hormuz remaining closed on oil prices, predicting they could reach $150 to $200. The conversation highlights the oil market's muted reaction to the crisis, the industry's improved inventory efficiency, and the necessity for significant demand destruction to balance the market. Downey also emphasizes the shift in oil transportation dynamics with the development of alternative pipelines and the UAE's exit from OPEC, suggesting a change in production dynamics.",
+      "key_takeaway": "Investors should prepare for potential oil price volatility and consider hedging strategies, while also looking for investment opportunities in companies improving inventory efficiency and energy infrastructure projects.",
+      "tickers_mentioned": [
+        "AAPL",
+        "XOM",
+        "PBR",
+        "SLB",
+        "DVN"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 231
+    },
+    {
       "id": 244,
       "title": "Marc Andreessen on AI, California, and the Future of America | Joe Rogan",
       "source_type": "podcast",
@@ -968,7 +991,7 @@ const dashboardData = {
         "FB"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-16",
       "archived_date": null,
@@ -5379,42 +5402,6 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 192,
-      "term": "Product Market Fit Engine",
-      "description": "A structured survey process that measures user satisfaction and identifies areas for improvement, focusing on the question, 'How would you feel if you could no longer use the product?'",
-      "first_detected_date": "2026-05-21",
-      "last_mentioned_date": "2026-05-21",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies that use quantifiable methods to assess product market fit and guide product development.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 230,
-      "first_detected_speaker": "Relow Vora",
-      "last_mentioned_episode_id": 230,
-      "last_mentioned_speaker": "Relow Vora"
-    },
-    {
-      "id": 193,
-      "term": "Pro-sumurization",
-      "description": "Targeting power users who have the economic means but limited time to engage with products.",
-      "first_detected_date": "2026-05-21",
-      "last_mentioned_date": "2026-05-21",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Consider investing in products that cater to the needs of pro-sumurs, focusing on high-value, time-saving solutions.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 230,
-      "first_detected_speaker": "Relow Vora",
-      "last_mentioned_episode_id": 230,
-      "last_mentioned_speaker": "Relow Vora"
-    },
-    {
       "id": 174,
       "term": "Capability-Bounded Approach",
       "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
@@ -8127,6 +8114,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 246,
+      "title": "MacroVoices #533 Morgan Downey: The Return of Oil 101",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-05-21",
+      "summary": "In this episode of Macro Voices, expert Morgan Downey discusses the potential impact of the Strait of Hormuz remaining closed on oil prices, predicting they could reach $150 to $200. The conversation highlights the oil market's muted reaction to the crisis, the industry's improved inventory efficiency, and the necessity for significant demand destruction to balance the market. Downey also emphasizes the shift in oil transportation dynamics with the development of alternative pipelines and the UAE's exit from OPEC, suggesting a change in production dynamics.",
+      "key_takeaway": "Investors should prepare for potential oil price volatility and consider hedging strategies, while also looking for investment opportunities in companies improving inventory efficiency and energy infrastructure projects.",
+      "tickers_mentioned": "[\"AAPL\", \"XOM\", \"PBR\", \"SLB\", \"DVN\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 231,
+      "episode_release_date": "2026-05-21",
+      "guest_name": "expert Morgan Downey",
+      "key_tickers": []
+    },
+    {
       "id": 244,
       "title": "Marc Andreessen on AI, California, and the Future of America | Joe Rogan",
       "source_type": "podcast",
@@ -8224,26 +8231,6 @@ const dashboardData = {
       "podcast_episode_id": 225,
       "episode_release_date": "2026-05-17",
       "guest_name": "A Basel III Deep Dive",
-      "key_tickers": []
-    },
-    {
-      "id": 238,
-      "title": "Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-05-16",
-      "summary": "In this episode of Monetary Matters, Jack Farley discusses the current state of the market, focusing on unsustainable earnings expectations for the S&P 500, the potential bubble characterized by inflated earnings rather than price, and the concentration of wealth among tech companies. The conversation also touches on policymakers' inaction on inflation and strategies for navigating these market dynamics.",
-      "key_takeaway": "The current market dynamics suggest a potential bubble, characterized by inflated earnings expectations rather than traditional valuation metrics, indicating the need for disciplined profit-taking strategies and portfolio diversification.",
-      "tickers_mentioned": "[\"AAPL\", \"MSFT\", \"GOOGL\", \"AMZN\", \"FB\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-16",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 224,
-      "episode_release_date": "2026-05-16",
-      "guest_name": null,
       "key_tickers": []
     },
     {
@@ -8390,58 +8377,6 @@ const dashboardData = {
     }
   ],
   "overton": [
-    {
-      "id": 192,
-      "term": "Product Market Fit Engine",
-      "description": "A structured survey process that measures user satisfaction and identifies areas for improvement, focusing on the question, 'How would you feel if you could no longer use the product?'",
-      "first_detected_date": "2026-05-21",
-      "last_mentioned_date": "2026-05-21",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies that use quantifiable methods to assess product market fit and guide product development.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 230,
-      "first_detected_speaker": "Relow Vora",
-      "last_mentioned_episode_id": 230,
-      "last_mentioned_speaker": "Relow Vora",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "How Superhuman Took Over Silicon Valley Email",
-      "first_detected_episode_date": "2026-05-21",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "How Superhuman Took Over Silicon Valley Email",
-      "last_mentioned_episode_date": "2026-05-21"
-    },
-    {
-      "id": 193,
-      "term": "Pro-sumurization",
-      "description": "Targeting power users who have the economic means but limited time to engage with products.",
-      "first_detected_date": "2026-05-21",
-      "last_mentioned_date": "2026-05-21",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Consider investing in products that cater to the needs of pro-sumurs, focusing on high-value, time-saving solutions.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 230,
-      "first_detected_speaker": "Relow Vora",
-      "last_mentioned_episode_id": 230,
-      "last_mentioned_speaker": "Relow Vora",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "How Superhuman Took Over Silicon Valley Email",
-      "first_detected_episode_date": "2026-05-21",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "How Superhuman Took Over Silicon Valley Email",
-      "last_mentioned_episode_date": "2026-05-21"
-    },
     {
       "id": 24,
       "term": "Risk Off Playbook",
@@ -8727,6 +8662,58 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
       "last_mentioned_episode_date": "2026-05-04"
+    },
+    {
+      "id": 143,
+      "term": "Cross-Solver Tensions",
+      "description": "The challenges faced by companies that try to replace multiple functionalities within a single platform.",
+      "first_detected_date": "2026-05-01",
+      "last_mentioned_date": "2026-05-01",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the potential for new platforms that can address specific pain points within enterprise software more effectively than incumbents.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.63,
+      "resonance_pct": 16,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
+    },
+    {
+      "id": 144,
+      "term": "Descheduling",
+      "description": "The removal of a substance from a list of controlled substances, in this case, cannabis.",
+      "first_detected_date": "2026-05-01",
+      "last_mentioned_date": "2026-05-01",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Descheduling can lead to significant changes in the legal and operational landscape for businesses in the affected industry.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.63,
+      "resonance_pct": 16,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
     }
   ]
 },
@@ -23441,12 +23428,97 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-05-21",
     "key_tickers": []
+  },
+  "246": {
+    "id": 236,
+    "insight_id": 246,
+    "podcast_episode_id": 231,
+    "overview": "The unresolved tension in the oil market is the potential for a supply shock due to geopolitical tensions in the Strait of Hormuz, which could lead to a significant spike in oil prices. This dynamic is contested by the industry's improved inventory efficiency and the development of alternative pipelines, which could mitigate the impact of such an event. The allocator-relevant implication is that investors must consider the balance between the potential for high oil prices and the industry's adaptability, with the horizon of proof being the next few months to years as these dynamics play out.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the geopolitical situation in the Strait of Hormuz and be prepared for rapid changes in oil prices.",
+      "Companies that have improved inventory efficiency could offer a hedge against supply disruptions and are worth considering for investment.",
+      "The development of alternative pipelines presents an opportunity for investors to diversify their energy infrastructure investments.",
+      "The potential for high oil prices to cause economic turmoil suggests a need for stress-testing investment portfolios against such a scenario.",
+      "Investors should be aware of the UAE's exit from OPEC and its potential to disrupt traditional production dynamics, affecting oil prices."
+    ],
+    "investment_thesis": "The core logic is that geopolitical tensions in the Strait of Hormuz could lead to a supply shock, causing oil prices to spike to $150-$200 within a month. This thesis is vindicated if the Strait remains closed, and global strategic petroleum reserves are insufficient to offset the supply disruption. Conversely, it would be invalidated if alternative pipelines are rapidly developed, or if global demand destruction occurs due to high prices, leading to a decrease in oil prices.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's business model is less directly tied to oil prices, but high oil prices could impact consumer spending and the cost of materials used in their products.",
+        "positioning": "A long position in AAPL could be considered as a hedge against oil price volatility, given its diversified revenue streams and strong market position.",
+        "risk": "The key risk is a potential economic downturn caused by high oil prices, which could reduce consumer demand for Apple's products."
+      },
+      "XOM": {
+        "rationale": "Exxon Mobil is directly impacted by oil prices, with profitability tied to the cost and demand for oil.",
+        "positioning": "A long position in XOM could benefit from high oil prices, but the risk of demand destruction must be managed.",
+        "risk": "The risk of overreliance on oil as a primary energy source and the potential for alternative energy to disrupt the market."
+      },
+      "PBR": {
+        "rationale": "Petrobras, being a major oil producer, is directly affected by oil prices and has exposure to geopolitical risks.",
+        "positioning": "A long position in PBR could capitalize on high oil prices, but the geopolitical risks in the Strait of Hormuz must be considered.",
+        "risk": "The risk of supply disruptions due to geopolitical tensions and the potential for alternative energy sources to reduce demand."
+      },
+      "SLB": {
+        "rationale": "Schlumberger provides services to the oil and gas industry and could benefit from increased demand for oil exploration and production.",
+        "positioning": "A long position in SLB could be a play on the increased need for oil production in the face of high prices.",
+        "risk": "The risk of a slowdown in oil exploration due to high prices or a shift towards alternative energy sources."
+      },
+      "DVN": {
+        "rationale": "Devon Energy is an independent oil and gas company that could benefit from high oil prices, but is also exposed to supply chain disruptions.",
+        "positioning": "A long position in DVN could capitalize on high oil prices, but the risk of supply chain disruptions must be managed.",
+        "risk": "The risk of geopolitical tensions leading to supply chain disruptions and the potential for alternative energy to reduce demand."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The development of alternative energy sources could reduce the global dependence on oil, mitigating the impact of supply disruptions.",
+      "The potential for a global economic slowdown due to high oil prices could lead to a decrease in demand, offsetting the potential for price spikes.",
+      "The possibility that the oil industry's improved inventory efficiency could buffer against short-term supply disruptions, reducing the need for high oil prices."
+    ],
+    "catalysts": [
+      "Geopolitical developments in the Strait of Hormuz that could lead to supply disruptions.",
+      "Releases or changes in global strategic petroleum reserves that could impact oil prices.",
+      "Announcements or developments regarding the construction of alternative pipelines that could reduce the importance of the Strait of Hormuz.",
+      "Economic indicators that suggest a change in global oil demand, such as GDP growth rates or industrial production figures.",
+      "Policy decisions by major oil-producing countries that could impact production levels and global oil prices."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-21T14:10:09.314764",
+    "updated_at": "2026-05-21 19:10:09",
+    "episode_evidence": "Morgan Downey's discussion on Macro Voices highlights the potential for a significant spike in oil prices if the Strait of Hormuz remains closed, with a prediction that 'If the Strait stays closed for another month, we'll be looking at $150 to $200 oil prices.' This is underpinned by the current muted market reaction, which Downey attributes to strategic petroleum reserve releases and demand destruction. He notes an improvement in inventory efficiency, stating, 'They've produced their needs to store oil by 20-30% over the last five years.' This efficiency has helped mitigate the impact of supply disruptions. Downey also points out the necessity for a substantial demand destruction, emphasizing, 'We need higher prices immediately to kill oil demand.' The development of alternative pipelines and the UAE's exit from OPEC suggest a shift in oil transportation dynamics, with Downey asserting, 'The Strait of Hormuz has got five years left as a choke point.'",
+    "falsification_tracks": [
+      "A sustained period of open navigation through the Strait of Hormuz without incident would reduce the risk premium on oil prices.",
+      "A significant increase in strategic petroleum reserves globally that could offset short-term supply disruptions.",
+      "The development of alternative energy sources that reduce global dependence on oil, thereby decreasing demand.",
+      "An economic downturn that leads to a substantial and prolonged decrease in oil demand, independent of price increases.",
+      "The rapid construction and deployment of alternative pipelines that bypass the Strait of Hormuz, reducing its strategic importance."
+    ],
+    "insight_title": "MacroVoices #533 Morgan Downey: The Return of Oil 101",
+    "source_name": "Macro Voices",
+    "source_date": "2026-05-21",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 7194,
+    "id": 7246,
+    "name": "expert Morgan Downey",
+    "slug": "expert-morgan-downey",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investors should prepare for potential oil price volatility and consider hedging strategies, while also looking for investment opportunities in companies improving inventory efficiency and energy infrastructure projects.",
+    "last_episode_title": "MacroVoices #533 Morgan Downey: The Return of Oil 101",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-05-21",
+    "appearance_count": 1
+  },
+  {
+    "id": 7247,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -23458,7 +23530,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7195,
+    "id": 7248,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -23470,7 +23542,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7196,
+    "id": 7249,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -23482,7 +23554,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7197,
+    "id": 7250,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -23494,7 +23566,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 7198,
+    "id": 7251,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -23506,7 +23578,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7199,
+    "id": 7252,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -23518,7 +23590,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7200,
+    "id": 7253,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -23530,7 +23602,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7201,
+    "id": 7254,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -23542,7 +23614,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7202,
+    "id": 7255,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -23554,7 +23626,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7203,
+    "id": 7256,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -23566,7 +23638,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7204,
+    "id": 7257,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -23578,7 +23650,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7205,
+    "id": 7258,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -23590,7 +23662,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7206,
+    "id": 7259,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -23602,7 +23674,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7207,
+    "id": 7260,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -23614,7 +23686,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7208,
+    "id": 7261,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -23626,7 +23698,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7209,
+    "id": 7262,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -23638,7 +23710,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7210,
+    "id": 7263,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -23650,7 +23722,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7211,
+    "id": 7264,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -23662,7 +23734,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7212,
+    "id": 7265,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -23671,18 +23743,6 @@ const dashboardData = {
     "last_episode_title": "\u201cOverblown\u201d Sell-off in Software Loans | Matthew Bloomfield on Public BDCs (Business Development Companies) and Collateralized Loan Obligations (CLOs)",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-26",
-    "appearance_count": 1
-  },
-  {
-    "id": 7213,
-    "name": "Balaji Srinivasan",
-    "slug": "balaji-srinivasan",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in technologies and platforms that leverage cryptography and blockchain to provide verifiable information and restore trust in digital content.",
-    "last_episode_title": "Balaji Srinivasan: Prove Correct, Not Just Go Direct",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-22",
     "appearance_count": 1
   }
 ],
@@ -23705,7 +23765,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 6,
-    "mention_score_decayed": 5.22,
+    "mention_score_decayed": 5.1,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -23893,7 +23953,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.82,
+    "mention_score_decayed": 1.78,
     "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
     "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
@@ -24085,7 +24145,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.48,
+    "mention_score_decayed": 1.45,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -24691,6 +24751,65 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 258,
+    "name": "Morgan Downey",
+    "slug": "morgan-downey",
+    "bio": "Morgan Downey is an expert in the oil industry and energy markets. He is known for his insights on oil price predictions and market dynamics. Downey's 2009 book, 'Oil 101,' is a familiar reference for professional oil traders.",
+    "known_for": "His expertise in oil price predictions and market dynamics.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and knowledgeable.",
+    "voice_style": "Downey presents his arguments with a focus on data and market analysis.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key market predictions.",
+    "voice_profile_updated_at": "2026-05-21 19:09:22",
+    "last_seen": "2026-05-21 19:09:22",
+    "last_episode_title": "MacroVoices #533 Morgan Downey: The Return of Oil 101",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-05-21",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should prepare for potential oil price volatility and consider hedging strategies, while also looking for investment opportunities in companies improving inventory efficiency and energy infrastructure projects.",
+    "last_proof_cite": "Macro Voices \u2022 2026-05-21 \u2022 MacroVoices #533 Morgan Downey: The Return of Oil 101",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "Strategic petroleum reserve releases have temporarily prevented oil price spikes but are not sustainable.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-21T14:09:40.616092",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Morgan Downey",
+      "fetched_at": "2026-05-21T19:09:40.615941+00:00",
+      "cliff_notes": "Morgan Downey is recognized for his deep understanding of the oil industry and energy markets. His 2009 book, 'Oil 101,' has become a staple for professional oil traders, providing them with essential knowledge about the industry. Downey's insights into oil price predictions and market dynamics have made him a go-to expert in the field. His contributions to the understanding of energy markets have been influential, particularly in times of crisis, such as when he discussed the potential for oil prices to reach $150 to $200 if certain geopolitical situations persisted. His expertise is sought after by professionals in finance and macroeconomics, as evidenced by his appearance on Macrovoisers, a financial podcast targeting sophisticated investors.",
+      "derived": {
+        "books_or_works": "Oil 101"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Morgan Downey is recognized for his deep understanding of the oil industry and energy markets. His 2009 book, 'Oil 101,' has become a staple for professional oil traders, providing them with essential knowledge about the industry. Downey's insights into oil price predictions and market dynamics have made him a go-to expert in the field.",
+        "His contributions to the understanding of energy markets have been influential, particularly in times of crisis, such as when he discussed the potential for oil prices to reach $150 to $200 if certain geopolitical situations persisted. His expertise is sought after by professionals in finance and macroeconomics, as evidenced by his appearance on Macrovoisers, a financial podcast targeting sophisticated investors."
+      ],
+      "sections": [
+        {
+          "heading": "Oil Industry Expertise",
+          "body": "Morgan Downey is well-regarded for his comprehensive knowledge of the oil industry, which he shares through his book 'Oil 101' and various discussions on market dynamics."
+        },
+        {
+          "heading": "Market Dynamics",
+          "body": "Downey's analysis of market dynamics has been influential, particularly in predicting oil price movements and the impact of geopolitical events on the energy sector."
+        },
+        {
+          "heading": "Geopolitical Impact",
+          "body": "His insights into how geopolitical situations can affect oil prices are highly valued, as demonstrated by his discussion on the potential for prices to skyrocket if certain conditions are met."
+        }
+      ]
+    }
+  },
+  {
     "id": 257,
     "name": "Relow Vora",
     "slug": "relow-vora",
@@ -24895,7 +25014,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "The current market dynamics suggest a potential bubble, characterized by inflated earnings expectations rather than traditional valuation metrics, indicating the need for disciplined profit-taking strategies and portfolio diversification.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-16 \u2022 Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
     "last_proof_snippet": "If we're in a bubble, why aren't we selling crazy P is? It's not the P that's the bubble, it's the E. The S&P in its entirety is expected to earn 400 billion. Where's the GDP that can do that? Now it could come from everywhere else. It coul",
@@ -24960,7 +25079,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
     "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
@@ -25020,7 +25139,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
     "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
@@ -25145,7 +25264,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-15 \u2022 \u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
     "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. I'm joined by Andrew Perry, veteran macro investors. He has worked at the top macro hedge funds, all the big banks, Andrew, welcome to monetary",
@@ -25206,7 +25325,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -25647,7 +25766,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-10 \u2022 Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
     "last_proof_snippet": "Very pleased today to be joined by David Wright, co-head of Pictay asset management's quantitative investments franchise, which manages over $30 billion in their quant group. This includes most recently two ETFs they launched PQ&T, their Pi",
@@ -25707,7 +25826,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -25897,7 +26016,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -25960,7 +26079,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -26024,7 +26143,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -26088,7 +26207,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -32095,7 +32214,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -32122,7 +32241,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",

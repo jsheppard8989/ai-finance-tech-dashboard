@@ -20,6 +20,29 @@
       "podcast_episode_id": 230
     },
     {
+      "id": 246,
+      "title": "MacroVoices #533 Morgan Downey: The Return of Oil 101",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-05-21",
+      "summary": "In this episode of Macro Voices, expert Morgan Downey discusses the potential impact of the Strait of Hormuz remaining closed on oil prices, predicting they could reach $150 to $200. The conversation highlights the oil market's muted reaction to the crisis, the industry's improved inventory efficiency, and the necessity for significant demand destruction to balance the market. Downey also emphasizes the shift in oil transportation dynamics with the development of alternative pipelines and the UAE's exit from OPEC, suggesting a change in production dynamics.",
+      "key_takeaway": "Investors should prepare for potential oil price volatility and consider hedging strategies, while also looking for investment opportunities in companies improving inventory efficiency and energy infrastructure projects.",
+      "tickers_mentioned": [
+        "AAPL",
+        "XOM",
+        "PBR",
+        "SLB",
+        "DVN"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 231
+    },
+    {
       "id": 244,
       "title": "Marc Andreessen on AI, California, and the Future of America | Joe Rogan",
       "source_type": "podcast",
@@ -141,7 +164,7 @@
         "FB"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-16",
       "archived_date": null,
@@ -4551,42 +4574,6 @@
   ],
   "definitions": [],
   "overton": [
-    {
-      "id": 192,
-      "term": "Product Market Fit Engine",
-      "description": "A structured survey process that measures user satisfaction and identifies areas for improvement, focusing on the question, 'How would you feel if you could no longer use the product?'",
-      "first_detected_date": "2026-05-21",
-      "last_mentioned_date": "2026-05-21",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies that use quantifiable methods to assess product market fit and guide product development.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 230,
-      "first_detected_speaker": "Relow Vora",
-      "last_mentioned_episode_id": 230,
-      "last_mentioned_speaker": "Relow Vora"
-    },
-    {
-      "id": 193,
-      "term": "Pro-sumurization",
-      "description": "Targeting power users who have the economic means but limited time to engage with products.",
-      "first_detected_date": "2026-05-21",
-      "last_mentioned_date": "2026-05-21",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Consider investing in products that cater to the needs of pro-sumurs, focusing on high-value, time-saving solutions.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 230,
-      "first_detected_speaker": "Relow Vora",
-      "last_mentioned_episode_id": 230,
-      "last_mentioned_speaker": "Relow Vora"
-    },
     {
       "id": 174,
       "term": "Capability-Bounded Approach",
