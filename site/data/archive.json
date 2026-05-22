@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 248,
+      "title": "Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-22",
+      "summary": "The podcast discusses the importance of open source in AI innovation, the potential bubble in large language models (LLMs), the rise of robotics as the next frontier for AI, and the role of Hugging Face as a leading platform for AI model sharing. It highlights China's leading position in open source AI contributions and the need for the U.S. to strengthen its robotics sector to compete globally.",
+      "key_takeaway": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 233
+    },
+    {
       "id": 245,
       "title": "How Superhuman Took Over Silicon Valley Email",
       "source_type": "podcast",
@@ -160,7 +179,7 @@
         "GS"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-17",
       "archived_date": null,

@@ -1,5 +1,21 @@
 [
   {
+    "id": 233,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
+    "episode_date": "2026-05-22",
+    "summary": "The podcast discusses the importance of open source in AI innovation, the potential bubble in large language models (LLMs), the rise of robotics as the next frontier for AI, and the role of Hugging Face as a leading platform for AI model sharing. It highlights China's leading position in open source AI contributions and the need for the U.S. to strengthen its robotics sector to compete globally.",
+    "key_takeaways": [
+      "Invest in companies that prioritize open source initiatives to foster AI innovation.",
+      "Monitor the LLM market for signs of overvaluation and adjust investment strategies accordingly.",
+      "Support open source AI projects to enhance cybersecurity capabilities.",
+      "Identify and invest in robotics companies leveraging AI for new applications.",
+      "Collaborate with or invest in platforms like Hugging Face that cater specifically to AI developers."
+    ],
+    "investment_thesis": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
+    "key_tickers": null
+  },
+  {
     "id": 232,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
@@ -116,23 +132,6 @@
       "Collaboration between law enforcement and technology developers is essential for the successful implementation of new tools and systems."
     ],
     "investment_thesis": "Invest in companies that develop scalable technologies for law enforcement, with a focus on mental health solutions, data analytics, and AI-driven decision-making tools.",
-    "key_tickers": null
-  },
-  {
-    "id": 225,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "A Basel III Deep Dive | What to Know About How It Will Transform Banking Globally",
-    "episode_date": "2026-05-17",
-    "summary": "In this episode, Jack Farley discusses the incomplete implementation of Basel III in the U.S., its impact on capital requirements for large banks, and the changes in risk weights for traditional lending. The conversation also touches on operational risk, the modernization of the discount window, the empowerment of small banks, and the political dynamics surrounding Fannie Mae and Freddie Mac. Additionally, the podcast explores the increasing integration of AI into legal practices and its implications for the legal sector.",
-    "key_takeaways": [
-      "Monitor regulatory updates regarding Basel III implementation and its impact on capital requirements.",
-      "Assess banks' exposure to residential mortgages and investment-grade corporate lending as potential growth areas.",
-      "Evaluate banks' operational risk management frameworks to gauge their resilience against regulatory scrutiny.",
-      "Stay informed about changes to the discount window and liquidity provisions that could affect bank stability.",
-      "Watch for political developments regarding Fannie Mae and Freddie Mac, as these could influence mortgage-backed securities.",
-      "Consider the implications of AI integration in legal practices for investments in legal tech and traditional law firms."
-    ],
-    "investment_thesis": "Investors should closely monitor the regulatory environment, particularly Basel III implementation, as it can significantly impact bank valuations and lending capabilities. Additionally, the growing role of AI in legal practices presents both opportunities and challenges for the sector.",
     "key_tickers": null
   }
 ]

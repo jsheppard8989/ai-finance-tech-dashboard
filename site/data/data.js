@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-22T06:36:46.375266",
-  chartsVersion: "2026-05-22T06:36:41.064430",
+  generatedAt: "2026-05-22T12:04:56.226383",
+  chartsVersion: "2026-05-22T12:04:48.692206",
   priceSnapshot: {
   "GOOGL": {
-    "price": 387.66,
-    "change_pct": 1.15,
+    "price": 386.06,
+    "change_pct": -0.61,
     "name": "GOOGL",
-    "updated_at": "2026-05-22T06:36:41.063355"
+    "updated_at": "2026-05-22T12:04:48.691220"
   },
   "BTC": {
-    "price": 77243.26,
-    "change_pct": -4.24,
+    "price": 76896.6,
+    "change_pct": -4.67,
     "name": "BTC",
-    "updated_at": "2026-05-22T06:36:41.063369"
+    "updated_at": "2026-05-22T12:04:48.691240"
   },
   "NVDA": {
-    "price": 219.51,
-    "change_pct": 10.6,
+    "price": 217.42,
+    "change_pct": 10.65,
     "name": "NVDA",
-    "updated_at": "2026-05-22T06:36:41.063375"
+    "updated_at": "2026-05-22T12:04:48.691250"
   },
   "MSFT": {
-    "price": 419.09,
-    "change_pct": 1.54,
+    "price": 418.82,
+    "change_pct": 2.03,
     "name": "MSFT",
-    "updated_at": "2026-05-22T06:36:41.063381"
+    "updated_at": "2026-05-22T12:04:48.691258"
   },
   "WTI": {
-    "price": 4.39,
-    "change_pct": 0.45,
+    "price": 4.36,
+    "change_pct": 3.91,
     "name": "WTI",
-    "updated_at": "2026-05-22T06:36:41.063390"
+    "updated_at": "2026-05-22T12:04:48.691265"
   },
   "S&P 500": {
-    "price": 742.72,
-    "change_pct": 3.44,
+    "price": 747.77,
+    "change_pct": 3.32,
     "name": "S&P 500",
-    "updated_at": "2026-05-22T06:36:41.063395"
+    "updated_at": "2026-05-22T12:04:48.691272"
   },
   "META": {
-    "price": 607.38,
-    "change_pct": -0.5,
+    "price": 608.68,
+    "change_pct": 0.61,
     "name": "META",
-    "updated_at": "2026-05-22T06:36:41.063400"
+    "updated_at": "2026-05-22T12:04:48.691280"
   },
   "AMZN": {
-    "price": 268.46,
-    "change_pct": -1.32,
+    "price": 267.61,
+    "change_pct": -2.17,
     "name": "AMZN",
-    "updated_at": "2026-05-22T06:36:41.063406"
+    "updated_at": "2026-05-22T12:04:48.691288"
   },
   "TSLA": {
-    "price": 417.85,
-    "change_pct": 6.46,
+    "price": 427.37,
+    "change_pct": 9.76,
     "name": "TSLA",
-    "updated_at": "2026-05-22T06:36:41.063411"
+    "updated_at": "2026-05-22T12:04:48.691296"
   },
   "QQQ": {
-    "price": 714.51,
-    "change_pct": 6.19,
+    "price": 720.93,
+    "change_pct": 5.77,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-22T06:36:41.063415"
+    "updated_at": "2026-05-22T12:04:48.691304"
   },
   "BTC-USD": {
-    "price": 77243.26,
-    "change_pct": -4.24,
+    "price": 76905.96,
+    "change_pct": -4.66,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-22T06:36:41.063420"
+    "updated_at": "2026-05-22T12:04:48.691311"
   }
 },
   tickerScores: [
@@ -828,6 +828,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 248,
+      "title": "Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-22",
+      "summary": "The podcast discusses the importance of open source in AI innovation, the potential bubble in large language models (LLMs), the rise of robotics as the next frontier for AI, and the role of Hugging Face as a leading platform for AI model sharing. It highlights China's leading position in open source AI contributions and the need for the U.S. to strengthen its robotics sector to compete globally.",
+      "key_takeaway": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 233
+    },
+    {
       "id": 245,
       "title": "How Superhuman Took Over Silicon Valley Email",
       "source_type": "podcast",
@@ -987,7 +1006,7 @@ const dashboardData = {
         "GS"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-17",
       "archived_date": null,
@@ -8149,6 +8168,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 248,
+      "title": "Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-22",
+      "summary": "The podcast discusses the importance of open source in AI innovation, the potential bubble in large language models (LLMs), the rise of robotics as the next frontier for AI, and the role of Hugging Face as a leading platform for AI model sharing. It highlights China's leading position in open source AI contributions and the need for the U.S. to strengthen its robotics sector to compete globally.",
+      "key_takeaway": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 233,
+      "episode_release_date": "2026-05-22",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 245,
       "title": "How Superhuman Took Over Silicon Valley Email",
       "source_type": "podcast",
@@ -8288,26 +8327,6 @@ const dashboardData = {
       "podcast_episode_id": 226,
       "episode_release_date": "2026-05-18",
       "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 240,
-      "title": "A Basel III Deep Dive | What to Know About How It Will Transform Banking Globally",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-05-17",
-      "summary": "In this episode, Jack Farley discusses the incomplete implementation of Basel III in the U.S., its impact on capital requirements for large banks, and the changes in risk weights for traditional lending. The conversation also touches on operational risk, the modernization of the discount window, the empowerment of small banks, and the political dynamics surrounding Fannie Mae and Freddie Mac. Additionally, the podcast explores the increasing integration of AI into legal practices and its implications for the legal sector.",
-      "key_takeaway": "Investors should closely monitor the regulatory environment, particularly Basel III implementation, as it can significantly impact bank valuations and lending capabilities. Additionally, the growing role of AI in legal practices presents both opportunities and challenges for the sector.",
-      "tickers_mentioned": "[\"JPM\", \"WFC\", \"GS\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-17",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 225,
-      "episode_release_date": "2026-05-17",
-      "guest_name": "A Basel III Deep Dive",
       "key_tickers": []
     }
   ],
@@ -23616,12 +23635,63 @@ const dashboardData = {
     "key_tickers": [
       "GOOGL"
     ]
+  },
+  "248": {
+    "id": 238,
+    "insight_id": 248,
+    "podcast_episode_id": 233,
+    "overview": "The unresolved tension lies in the balance between the U.S.'s historical strength in open source AI and China's current lead, which could dictate future innovation and competitiveness in AI. The U.S.'s decline in open source initiatives contrasts with China's active contributions, potentially giving China an edge in developing cutting-edge AI technologies. The competitive dynamic is further complicated by the potential LLM investment bubble, which, if burst, could significantly impact the AI sector's growth. The metric that arbitrates this uncertainty is the sustained innovation and investment in open source AI, as well as the market's response to LLM valuations.",
+    "key_takeaways_detailed": [
+      "Investors should monitor China's open source AI contributions closely as a leading indicator of its competitive stance in AI development.",
+      "Diversification into AI sectors beyond LLMs could mitigate risks associated with potential market overvaluation in this space.",
+      "Support for open source AI projects, particularly those enhancing cybersecurity, could provide a defensive advantage against malicious actors in the cyber domain.",
+      "Investment in robotics companies should focus on those with innovative AI applications, as this sector is poised to unlock new use cases and drive industry advancements.",
+      "Collaboration with or investment in platforms like Hugging Face could offer a strategic advantage in the AI development ecosystem, given their specialized infrastructure for AI model sharing."
+    ],
+    "investment_thesis": "The core logic is that the competitive landscape in AI is shifting towards open source contributions, with China currently leading and the U.S. at risk of falling behind. This dynamic, along with the potential LLM bubble, suggests that investment in open source AI and robotics companies could yield significant returns, provided the LLM market does not experience a correction. The timeframe for this thesis is medium to long-term, as AI development and robotics applications typically require substantial R&D and time to mature. An observable development that would vindicate this thesis is a continued increase in China's open source AI contributions coupled with successful commercialization of robotics applications leveraging AI.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI for its products and services positions it to benefit from advancements in open source AI and robotics.",
+        "positioning": "Strategic long position, as Apple's innovation in AI and potential entry into new markets like robotics could drive shareholder value.",
+        "risk": "Key risks include increased competition from China in AI development and potential market corrections in the tech sector, which could impact Apple's valuation."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that closed APIs are more secure and efficient, which could lead to a resurgence of closed-source AI development.",
+      "The possibility that the LLM market continues to grow sustainably, defying the bubble narrative and attracting further investment.",
+      "A potential backlash against open source AI due to concerns over data privacy and intellectual property rights."
+    ],
+    "catalysts": [
+      "Publication of industry reports highlighting the growth of open source AI contributions, particularly from China.",
+      "Announcements from major tech companies regarding their investments in robotics and AI, indicating a shift towards these sectors.",
+      "Regulatory changes affecting data privacy and AI development, which could influence the open source landscape.",
+      "Market corrections or significant valuation changes in the LLM sector, signaling a potential bubble burst or continued growth."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-22T12:03:55.633399",
+    "updated_at": "2026-05-22 17:03:55",
+    "episode_evidence": "The podcast underscores the pivotal role of open source in AI innovation, with Clem DeLong noting, 'The U.S. was super strong with open source... unfortunately for the past few years these trends have changed.' This shift suggests a competitive dynamic where China's leading position in open source AI contributions could give it an edge in AI development. Additionally, the discussion on the LLM investment bubble is highlighted by DeLong's caution: 'If there's a bubble, it's probably in LLMs... we'll see what happens in the next few months.' This indicates a need for careful investment analysis in this space, as overvaluation could lead to significant losses. The podcast also emphasizes the importance of Hugging Face as a platform, with DeLong stating, 'The volume of data we're dealing with is much larger than what GitHub is doing.' This points to the platform's unique value in handling AI-specific data and artifacts, setting it apart from traditional code repositories like GitHub.",
+    "falsification_tracks": [
+      "Should China's contributions to open source AI decline significantly, it would challenge the narrative of its leading position in AI development.",
+      "A sustained period of profitability and growth in LLM companies would suggest that the market is not overvalued and the 'bubble' concern is unfounded.",
+      "Failure of Hugging Face to maintain its in AI model sharing, indicated by a drop in user engagement or market share, would undermine its competitive advantage.",
+      "A significant downturn in global investment in robotics, reflected in reduced funding rounds or lower valuations of robotics companies, would cast doubt on the sector's potential as the 'next frontier' for AI."
+    ],
+    "insight_title": "Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
+    "source_name": "The a16z Show",
+    "source_date": "2026-05-22",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 7460,
+    "id": 7514,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -23633,7 +23703,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7461,
+    "id": 7515,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -23645,7 +23715,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7462,
+    "id": 7516,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -23657,7 +23727,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7463,
+    "id": 7517,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -23669,7 +23739,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7464,
+    "id": 7518,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -23681,7 +23751,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7465,
+    "id": 7519,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -23693,7 +23763,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 7466,
+    "id": 7520,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -23705,7 +23775,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7467,
+    "id": 7521,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -23717,7 +23787,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7468,
+    "id": 7522,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -23729,7 +23799,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7469,
+    "id": 7523,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -23741,7 +23811,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7470,
+    "id": 7524,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -23753,7 +23823,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7471,
+    "id": 7525,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -23765,7 +23835,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7472,
+    "id": 7526,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -23777,7 +23847,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7473,
+    "id": 7527,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -23789,7 +23859,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7474,
+    "id": 7528,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -23801,7 +23871,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7475,
+    "id": 7529,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -23813,7 +23883,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7476,
+    "id": 7530,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -23825,7 +23895,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7477,
+    "id": 7531,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -23837,7 +23907,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7478,
+    "id": 7532,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -23849,7 +23919,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7479,
+    "id": 7533,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -24856,7 +24926,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -24864,6 +24934,68 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 260,
+    "name": "Clem DeLong",
+    "slug": "clem-delong",
+    "bio": "Clem DeLong is an expert in AI and cybersecurity, known for his thought leadership on AI innovation and security. He emphasizes the importance of not restricting AI technology based on risks but instead focusing on regulating bad actors. DeLong believes in the power of open source software and its role in building the modern internet.",
+    "known_for": "Thought leadership on AI innovation and security, advocating for open source software and regulation of bad actors rather than technology restrictions.",
+    "net_worth_usd": 16500000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/ceos/scott-delong-net-worth/",
+    "net_worth_updated_at": "2026-05-22T12:03:28.464318",
+    "voice_tone": "Informed and insightful.",
+    "voice_style": "Analytical with a focus on the future of AI.",
+    "voice_delivery_notes": "Clear and concise with emphasis on key points.",
+    "voice_profile_updated_at": "2026-05-22 17:03:17",
+    "last_seen": "2026-05-22 17:03:17",
+    "last_episode_title": "Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-22",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
+    "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
+    "supporting_takeaway": "Monitor the LLM market for signs of overvaluation and adjust investment strategies accordingly.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-22T12:03:27.322966",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Clem DeLong",
+      "fetched_at": "2026-05-22T17:03:27.322573+00:00",
+      "cliff_notes": "Clem DeLong is recognized for his expertise in AI and cybersecurity. He has been vocal about the importance of not restricting AI technology based on potential risks, drawing parallels to not tying everyone's hands because some can punch. Instead, he advocates for regulating bad actors and allowing the technology to flourish. DeLong highlights the success of open source software in building much of the modern internet and believes AI should follow a similar path. His insights into the dangers of closed APIs controlled by a few companies and the rise of China as a significant contributor to open source further underscore his influence in the field.",
+      "derived": {},
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Clem DeLong is recognized for his expertise in AI and cybersecurity. He has been vocal about the importance of not restricting AI technology based on potential risks, drawing parallels to not tying everyone's hands because some can punch. Instead, he advocates for regulating bad actors and allowing the technology to flourish.",
+        "DeLong highlights the success of open source software in building much of the modern internet and believes AI should follow a similar path. His insights into the dangers of closed APIs controlled by a few companies and the rise of China as a significant contributor to open source further underscore his influence in the field."
+      ],
+      "sections": [
+        {
+          "heading": "AI Innovation",
+          "body": "Clem DeLong emphasizes the importance of not restricting AI technology based on potential risks, advocating for a focus on regulating bad actors instead."
+        },
+        {
+          "heading": "Open Source Software",
+          "body": "DeLong highlights the success of open source software in building the modern internet and believes AI should follow a similar path, allowing researchers and developers to study, modify, and improve AI models."
+        },
+        {
+          "heading": "Regulation of Bad Actors",
+          "body": "Rather than restricting technology, DeLong advocates for fighting bad actors, such as hackers, through legal means to mitigate cybersecurity risks without hindering technological progress."
+        },
+        {
+          "heading": "China's Role in Open Source",
+          "body": "DeLong notes the emergence of China as a significant contributor to open source, which is crucial for the development and distribution of powerful AI models and other technologies."
+        }
+      ]
+    },
+    "net_worth": "$16.5M"
   },
   {
     "id": 259,
@@ -25564,7 +25696,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -25630,7 +25762,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -28266,7 +28398,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",

@@ -993,7 +993,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -1001,6 +1001,68 @@
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 260,
+    "name": "Clem DeLong",
+    "slug": "clem-delong",
+    "bio": "Clem DeLong is an expert in AI and cybersecurity, known for his thought leadership on AI innovation and security. He emphasizes the importance of not restricting AI technology based on risks but instead focusing on regulating bad actors. DeLong believes in the power of open source software and its role in building the modern internet.",
+    "known_for": "Thought leadership on AI innovation and security, advocating for open source software and regulation of bad actors rather than technology restrictions.",
+    "net_worth_usd": 16500000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/ceos/scott-delong-net-worth/",
+    "net_worth_updated_at": "2026-05-22T12:03:28.464318",
+    "voice_tone": "Informed and insightful.",
+    "voice_style": "Analytical with a focus on the future of AI.",
+    "voice_delivery_notes": "Clear and concise with emphasis on key points.",
+    "voice_profile_updated_at": "2026-05-22 17:03:17",
+    "last_seen": "2026-05-22 17:03:17",
+    "last_episode_title": "Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-22",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
+    "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
+    "supporting_takeaway": "Monitor the LLM market for signs of overvaluation and adjust investment strategies accordingly.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-22T12:03:27.322966",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Clem DeLong",
+      "fetched_at": "2026-05-22T17:03:27.322573+00:00",
+      "cliff_notes": "Clem DeLong is recognized for his expertise in AI and cybersecurity. He has been vocal about the importance of not restricting AI technology based on potential risks, drawing parallels to not tying everyone's hands because some can punch. Instead, he advocates for regulating bad actors and allowing the technology to flourish. DeLong highlights the success of open source software in building much of the modern internet and believes AI should follow a similar path. His insights into the dangers of closed APIs controlled by a few companies and the rise of China as a significant contributor to open source further underscore his influence in the field.",
+      "derived": {},
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Clem DeLong is recognized for his expertise in AI and cybersecurity. He has been vocal about the importance of not restricting AI technology based on potential risks, drawing parallels to not tying everyone's hands because some can punch. Instead, he advocates for regulating bad actors and allowing the technology to flourish.",
+        "DeLong highlights the success of open source software in building much of the modern internet and believes AI should follow a similar path. His insights into the dangers of closed APIs controlled by a few companies and the rise of China as a significant contributor to open source further underscore his influence in the field."
+      ],
+      "sections": [
+        {
+          "heading": "AI Innovation",
+          "body": "Clem DeLong emphasizes the importance of not restricting AI technology based on potential risks, advocating for a focus on regulating bad actors instead."
+        },
+        {
+          "heading": "Open Source Software",
+          "body": "DeLong highlights the success of open source software in building the modern internet and believes AI should follow a similar path, allowing researchers and developers to study, modify, and improve AI models."
+        },
+        {
+          "heading": "Regulation of Bad Actors",
+          "body": "Rather than restricting technology, DeLong advocates for fighting bad actors, such as hackers, through legal means to mitigate cybersecurity risks without hindering technological progress."
+        },
+        {
+          "heading": "China's Role in Open Source",
+          "body": "DeLong notes the emergence of China as a significant contributor to open source, which is crucial for the development and distribution of powerful AI models and other technologies."
+        }
+      ]
+    },
+    "net_worth": "$16.5M"
   },
   {
     "id": 259,
@@ -1701,7 +1763,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -1767,7 +1829,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -4403,7 +4465,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
