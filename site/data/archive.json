@@ -43,6 +43,25 @@
       "podcast_episode_id": 231
     },
     {
+      "id": 247,
+      "title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-05-21",
+      "summary": "This episode discusses Google's aggressive investment in AI infrastructure, the growing capabilities of AI in processing large amounts of data, and the adoption of AI products like Gemini Omni. It also touches on the importance of content verification with Synth ID and the demand for AI hardware as evidenced by Cerberus' record IPO. The podcast highlights the potential of AI to revolutionize sectors like healthcare and education and emphasizes the need for trust and authenticity in AI applications.",
+      "key_takeaway": "Investing in AI infrastructure and multi-modal AI applications presents a significant opportunity as Google and other tech companies continue to expand their capabilities and applications in this space.",
+      "tickers_mentioned": [
+        "GOOGL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 232
+    },
+    {
       "id": 244,
       "title": "Marc Andreessen on AI, California, and the Future of America | Joe Rogan",
       "source_type": "podcast",
@@ -183,7 +202,7 @@
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-16",
       "archived_date": null,

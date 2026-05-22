@@ -1,5 +1,23 @@
 [
   {
+    "id": 232,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
+    "episode_date": "2026-05-21",
+    "summary": "This episode discusses Google's aggressive investment in AI infrastructure, the growing capabilities of AI in processing large amounts of data, and the adoption of AI products like Gemini Omni. It also touches on the importance of content verification with Synth ID and the demand for AI hardware as evidenced by Cerberus' record IPO. The podcast highlights the potential of AI to revolutionize sectors like healthcare and education and emphasizes the need for trust and authenticity in AI applications.",
+    "key_takeaways": [
+      "Google's projected capital expenditures for 2023 indicate a significant commitment to AI infrastructure.",
+      "The introduction of Gemini Omni positions Google as a leader in multi-modal AI applications.",
+      "Persistent AI search capabilities could redefine user interaction with search engines.",
+      "Synth ID addresses authenticity concerns in AI-generated content, enhancing trust.",
+      "Cerberus' record IPO highlights the growing demand for specialized AI hardware."
+    ],
+    "investment_thesis": "Investing in AI infrastructure and multi-modal AI applications presents a significant opportunity as Google and other tech companies continue to expand their capabilities and applications in this space.",
+    "key_tickers": [
+      "GOOGL"
+    ]
+  },
+  {
     "id": 231,
     "podcast_name": "Macro Voices",
     "episode_title": "MacroVoices #533 Morgan Downey: The Return of Oil 101",
@@ -115,22 +133,6 @@
       "Consider the implications of AI integration in legal practices for investments in legal tech and traditional law firms."
     ],
     "investment_thesis": "Investors should closely monitor the regulatory environment, particularly Basel III implementation, as it can significantly impact bank valuations and lending capabilities. Additionally, the growing role of AI in legal practices presents both opportunities and challenges for the sector.",
-    "key_tickers": null
-  },
-  {
-    "id": 223,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
-    "episode_date": "2026-05-16",
-    "summary": "This podcast episode discusses the exponential growth in AI demand, highlighting Anthropic's 80-fold growth and potential to reach a $100 billion revenue run rate by the end of 2026. The conversation emphasizes strategic partnerships, particularly between Anthropic and SpaceX, and the shift towards enterprise-oriented AI solutions. It also touches on the viability of ocean-based data centers and the importance of narrative in AI adoption. The episode suggests investment opportunities in AI infrastructure, chip manufacturing, and renewable energy technologies.",
-    "key_takeaways": [
-      "Invest in companies like Anthropic and those involved in AI infrastructure and chip manufacturing.",
-      "Monitor strategic partnerships in the AI space for potential investment opportunities.",
-      "Advocate for and support narratives that highlight the positive impacts of AI on society.",
-      "Explore opportunities in ocean-based data centers and renewable energy technologies.",
-      "Stay informed about government policies and initiatives related to AI and technology collaboration."
-    ],
-    "investment_thesis": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
     "key_tickers": null
   }
 ]

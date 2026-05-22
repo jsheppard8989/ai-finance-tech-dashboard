@@ -3,66 +3,66 @@
     "price": 387.66,
     "change_pct": 1.15,
     "name": "GOOGL",
-    "updated_at": "2026-05-21T22:02:31.753503"
+    "updated_at": "2026-05-22T00:02:16.021918"
   },
   "BTC": {
-    "price": 77620.7,
-    "change_pct": -3.77,
+    "price": 77563.48,
+    "change_pct": -3.84,
     "name": "BTC",
-    "updated_at": "2026-05-21T22:02:31.753523"
+    "updated_at": "2026-05-22T00:02:16.021928"
   },
   "NVDA": {
     "price": 219.51,
     "change_pct": 10.6,
     "name": "NVDA",
-    "updated_at": "2026-05-21T22:02:31.753532"
+    "updated_at": "2026-05-22T00:02:16.021931"
   },
   "MSFT": {
     "price": 419.09,
-    "change_pct": 1.32,
+    "change_pct": 1.54,
     "name": "MSFT",
-    "updated_at": "2026-05-21T22:02:31.753540"
+    "updated_at": "2026-05-22T00:02:16.021935"
   },
   "WTI": {
     "price": 4.39,
-    "change_pct": 0.23,
+    "change_pct": 0.45,
     "name": "WTI",
-    "updated_at": "2026-05-21T22:02:31.753548"
+    "updated_at": "2026-05-22T00:02:16.021938"
   },
   "S&P 500": {
     "price": 742.72,
     "change_pct": 3.44,
     "name": "S&P 500",
-    "updated_at": "2026-05-21T22:02:31.753555"
+    "updated_at": "2026-05-22T00:02:16.021941"
   },
   "META": {
     "price": 607.38,
     "change_pct": -0.5,
     "name": "META",
-    "updated_at": "2026-05-21T22:02:31.753563"
+    "updated_at": "2026-05-22T00:02:16.021945"
   },
   "AMZN": {
     "price": 268.46,
     "change_pct": -1.32,
     "name": "AMZN",
-    "updated_at": "2026-05-21T22:02:31.753571"
+    "updated_at": "2026-05-22T00:02:16.021947"
   },
   "TSLA": {
     "price": 417.85,
     "change_pct": 6.46,
     "name": "TSLA",
-    "updated_at": "2026-05-21T22:02:31.753578"
+    "updated_at": "2026-05-22T00:02:16.021950"
   },
   "QQQ": {
     "price": 714.51,
     "change_pct": 6.19,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-21T22:02:31.753585"
+    "updated_at": "2026-05-22T00:02:16.021953"
   },
   "BTC-USD": {
-    "price": 77620.7,
-    "change_pct": -3.77,
+    "price": 77563.48,
+    "change_pct": -3.84,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-21T22:02:31.753592"
+    "updated_at": "2026-05-22T00:02:16.021956"
   }
 }

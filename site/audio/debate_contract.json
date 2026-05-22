@@ -1,115 +1,118 @@
 {
-  "prompt": "Will any country leave NATO within the next 42 days?",
-  "expires_rule": "Resolves Friday 12:00 PM CST 2026-06-26",
-  "crux_theme": "NATO membership",
+  "prompt": "Will MicroStrategy sell any Bitcoin within the next 42 days?",
+  "expires_rule": "Resolves Friday 12:00 PM CST 2026-07-03",
+  "crux_theme": "Crypto asset management",
   "resolution_clarity": {
-    "source_of_truth": "Official NATO communications and member state announcements",
+    "source_of_truth": "MicroStrategy official announcements and SEC filings",
     "resolution_sources": [
-      "NATO press releases",
-      "Member state government statements",
-      "International news agencies (e.g., Reuters, Associated Press)"
+      "MicroStrategy press releases",
+      "MicroStrategy 10-Q and 8-K filings",
+      "Company's official social media accounts (Twitter, LinkedIn, etc.)"
     ],
     "resolution_criteria": [
-      "Official withdrawal or denunciation notices provided to NATO",
-      "Public declarations by member states to leave NATO"
+      "Any sale of Bitcoin by MicroStrategy needs to be explicitly confirmed in an official announcement or SEC filing within the specified period."
     ]
   },
   "sides": {
     "a": "Affirmative (YES)",
     "b": "Negative (NO)"
   },
-  "friday_iso": "2026-05-15",
-  "week_label": "Week of 2026-05-15",
-  "debater_a": "David Wright",
-  "debater_b": "Peter Diamandis",
-  "generated_at": "2026-05-15T05:02:19.567431",
+  "resolves_iso": "2026-07-03",
+  "friday_iso": "2026-05-22",
+  "week_label": "Week of 2026-05-22",
+  "debater_a": "Alex Karp",
+  "debater_b": "Eric Jeng",
+  "generated_at": "2026-05-22T00:03:39.470315",
   "bet_status": "open",
   "audio_href": "./audio/emp_ai_the_debate_11labs.mp3",
   "debater_a_snapshot": {
-    "name": "David Wright",
-    "known_for": "His expertise in applying machine learning and AI to investment strategies, managing billions in assets.",
-    "bio": "David Wright is an expert in quantitative investing at Pictay Asset Management, where he serves as the co-head of the quantitative investments franchise. Wright is known for his work in applying machine learning to investment strategies, managing over $30 billion in the quant group, including the launch of two AI-enhanced ETFs.",
-    "last_main_idea": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-05-10",
-    "net_worth": "$31.7M",
+    "name": "Alex Karp",
+    "known_for": "His leadership in steering Palantir's growth and its role in big data analytics, impacting various sectors including finance, healthcare, and national security.",
+    "bio": "Alex Karp is the CEO of Palantir Technologies, a leading data analytics company. He has been instrumental in the company's growth and expansion, making Palantir a significant player in the tech industry.",
+    "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-05-16",
+    "net_worth": "$14.30B",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "David Wright",
-      "fetched_at": "2026-05-10T18:55:31.699142+00:00",
-      "cliff_notes": "David Wright has made a significant impact in the field of quantitative investing, particularly at Pictay Asset Management where he is the co-head of the quantitative investments franchise. His work focuses on leveraging advanced technologies such as machine learning and artificial intelligence to enhance investment strategies, a field that is becoming increasingly important in the financial sector. Wright's role involves managing a substantial portfolio of over $30 billion and includes the recent launch of two AI-enhanced ETFs, PQ&T and PQUS, which underscore the growing integration of AI in asset management. His contributions to the application of AI in finance have positioned him as a key figure in the evolution of investment strategies.",
+      "page_title": "Alex Karp",
+      "fetched_at": "2026-05-16T19:05:08.323724+00:00",
+      "cliff_notes": "Alex Karp is a German-American entrepreneur who serves as the CEO of Palantir Technologies. He co-founded Palantir in 2003 with Peter Thiel, Nathan Gettings, Joe Lonsdale, and Stephen Cohen. Karp has played a pivotal role in the company's growth, steering it towards becoming a major player in the data analytics space. Palantir's software is used by various sectors, including finance, healthcare, and national security, for tasks such as fraud detection, crisis management, and counterterrorism. Karp's leadership has positioned Palantir as a key player in the tech industry, with its services in high demand across different domains.",
       "derived": {
-        "current_role": "Co-head of Quantitative Investments at Pictay Asset Management"
+        "current_role": "CEO of Palantir Technologies",
+        "education": "Juris Doctor, Stanford Law School; Bachelor's degree, Stanford University"
+      },
+      "infobox": {
+        "Born": "1966",
+        "Nationality": "German-American"
+      },
+      "lead_paragraphs": [
+        "Alex Karp is a German-American entrepreneur who serves as the CEO of Palantir Technologies. He co-founded Palantir in 2003 with Peter Thiel, Nathan Gettings, Joe Lonsdale, and Stephen Cohen. Karp has played a pivotal role in the company's growth, steering it towards becoming a major player in the data analytics space. Palantir's software is used by various sectors, including finance, healthcare, and national security, for tasks such as fraud detection, crisis management, and counterterrorism.",
+        "Karp's leadership has positioned Palantir as a key player in the tech industry, with its services in high demand across different domains."
+      ],
+      "sections": [
+        {
+          "heading": "Palantir Founding",
+          "body": "Alex Karp co-founded Palantir Technologies in 2003, which has since grown to become a major player in the data analytics industry."
+        },
+        {
+          "heading": "Data Analytics",
+          "body": "Under Karp's leadership, Palantir has become renowned for its data analytics software, which is used across various sectors for tasks such as fraud detection and crisis management."
+        },
+        {
+          "heading": "Company Expansion",
+          "body": "Karp has been instrumental in Palantir's expansion, steering the company towards significant growth and establishing it as a key player in the tech industry."
+        }
+      ]
+    }
+  },
+  "debater_b_snapshot": {
+    "name": "Eric Jeng",
+    "known_for": "His significant contributions to AI research, particularly in the field of Go AI, and the development of OffaGo.",
+    "bio": "Eric Jeng is an AI researcher and developer known for his work on OffaGo, an AI designed for playing Go. He has held positions at ex-technologies as Vice President of AI and was a senior research scientist at Google DeepMind Robotics. Jeng has been on sabbatical, focusing on improving OffaGo and exploring the future of AI research and development.",
+    "last_main_idea": "Invest in AI technologies that leverage advancements in MCTS and reduced compute requirements to create scalable and efficient solutions in various industries.",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-05-15",
+    "net_worth": "$10.0M",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Eric Jeng",
+      "fetched_at": "2026-05-16T03:02:03.008480+00:00",
+      "cliff_notes": "Eric Jeng is a prominent figure in the field of AI research, with a focus on Go AI. His career has seen him take on various roles, including Vice President of AI at ex-technologies and a senior research scientist at Google DeepMind Robotics. Jeng's work on OffaGo, an AI designed for playing Go, has been a significant part of his career, showcasing the potential of AI systems to tackle complex computational problems. His sabbatical has been dedicated to rebuilding and improving OffaGo, reflecting his passion for understanding and advancing AI capabilities. Jeng's contributions to AI research are noteworthy, as they provide insights into the future of AI development and its implications for various industries.",
+      "derived": {
+        "former_positions": "Vice President of AI at ex-technologies; Senior Research Scientist at Google DeepMind Robotics"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "David Wright has made a significant impact in the field of quantitative investing, particularly at Pictay Asset Management where he is the co-head of the quantitative investments franchise. His work focuses on leveraging advanced technologies such as machine learning and artificial intelligence to enhance investment strategies, a field that is becoming increasingly important in the financial sector.",
-        "Wright's role involves managing a substantial portfolio of over $30 billion and includes the recent launch of two AI-enhanced ETFs, PQ&T and PQUS, which underscore the growing integration of AI in asset management. His contributions to the application of AI in finance have positioned him as a key figure in the evolution of investment strategies."
+        "Eric Jeng is a prominent figure in the field of AI research, with a focus on Go AI. His career has seen him take on various roles, including Vice President of AI at ex-technologies and a senior research scientist at Google DeepMind Robotics. Jeng's work on OffaGo, an AI designed for playing Go, has been a significant part of his career, showcasing the potential of AI systems to tackle complex computational problems.",
+        "His sabbatical has been dedicated to rebuilding and improving OffaGo, reflecting his passion for understanding and advancing AI capabilities. Jeng's contributions to AI research are noteworthy, as they provide insights into the future of AI development and its implications for various industries."
       ],
       "sections": [
         {
-          "heading": "Quantitative Investing",
-          "body": "David Wright is a leading figure in the application of quantitative methods in investment strategies, particularly with the use of machine learning and AI."
+          "heading": "AI and Go",
+          "body": "Eric Jeng is recognized for his work on OffaGo, an AI system designed to play the game of Go. His contributions to this field have been pivotal in demonstrating the capabilities of AI in handling complex tasks."
         },
         {
-          "heading": "AI in Finance",
-          "body": "Wright has been instrumental in the development and management of AI-enhanced ETFs, showcasing the practical application of AI in asset management."
+          "heading": "Career at Google DeepMind",
+          "body": "Jeng served as a senior research scientist at Google DeepMind Robotics, where he was involved in groundbreaking research that pushed the boundaries of AI, particularly in the context of game theory and strategy."
         },
         {
-          "heading": "ETF Innovation",
-          "body": "Under Wright's leadership, Pictay Asset Management has launched innovative ETFs that utilize AI to optimize international and US equity investments."
+          "heading": "Sabbatical and OffaGo",
+          "body": "During his sabbatical, Jeng has been dedicated to enhancing OffaGo, reflecting his commitment to advancing AI technology and understanding its implications for future research and development."
+        },
+        {
+          "heading": "AI Research and Development",
+          "body": "Jeng's work provides valuable insights into the future of AI, emphasizing the importance of continued research and development in the field to solve complex computational problems."
         }
       ]
     }
   },
-  "debater_b_snapshot": {
-    "name": "Peter Diamandis",
-    "known_for": "His work in fostering technological advancements and incentivizing innovation through the XPRIZE model.",
-    "bio": "Founder and Executive Chairman of the XPRIZE Foundation, Co-Founder of Singularity University, and an entrepreneur focused on exponential technologies.",
-    "last_main_idea": "AI is a significant driver of economic growth and innovation, presenting opportunities in AI-driven sectors, sustainable data center technologies, and AI insurance.",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-05-09",
-    "net_worth": "$200.0M",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Peter Diamandis",
-      "fetched_at": "2026-04-20T03:06:22.117732+00:00",
-      "cliff_notes": "Peter Diamandis is a prominent figure in the fields of innovation and technology, particularly in space exploration. He founded the X PRIZE Foundation, which has been instrumental in driving advancements in technology through incentivizing competition. Diamandis has also been involved in the commercial space industry, aiming to make space travel more accessible. His work has had a significant impact on fostering innovation and has been influential in the tech and finance sectors, as his initiatives often lead to groundbreaking technological developments.",
-      "derived": {
-        "current_role": "Founder and Executive Chairman, X PRIZE Foundation",
-        "education": "MD, Harvard Medical School; MBA, MIT Sloan School of Management",
-        "books_or_works": "Abundance: The Future is Better Than You Think; Bold: How to Go Big, Create Wealth and Impact the World"
-      },
-      "infobox": {
-        "Born": "August 20, 1961",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Peter Diamandis is a prominent figure in the fields of innovation and technology, particularly in space exploration. He founded the X PRIZE Foundation, which has been instrumental in driving advancements in technology through incentivizing competition. Diamandis has also been involved in the commercial space industry, aiming to make space travel more accessible.",
-        "His work has had a significant impact on fostering innovation and has been influential in the tech and finance sectors, as his initiatives often lead to groundbreaking technological developments."
-      ],
-      "sections": [
-        {
-          "heading": "Innovation and Technology",
-          "body": "Peter Diamandis is known for his work in fostering innovation and technological advancement, particularly through the X PRIZE Foundation."
-        },
-        {
-          "heading": "Space Exploration",
-          "body": "Diamandis has been a key figure in the commercial space industry, aiming to make space travel more accessible and fostering advancements in space technology."
-        },
-        {
-          "heading": "X PRIZE Foundation",
-          "body": "As the founder and executive chairman of the X PRIZE Foundation, Diamandis has been instrumental in designing and managing public competitions that encourage technological development for the benefit of humanity."
-        }
-      ]
-    }
-  },
-  "prompt_hash": "d55edf9e41bea298"
+  "prompt_hash": "801c6f7629ac1ac6"
 }

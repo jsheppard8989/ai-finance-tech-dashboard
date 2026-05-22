@@ -1,6 +1,19 @@
 {
-  "rotation_index": 12,
+  "rotation_index": 13,
   "weeks": [
+    {
+      "friday_iso": "2026-05-15",
+      "week_label": "Week of 2026-05-15",
+      "prompt": "Will any country leave NATO within the next 42 days?",
+      "debater_a": "David Wright",
+      "debater_b": "Peter Diamandis",
+      "expires_rule": "Resolves Friday 12:00 PM CST 2026-06-26",
+      "resolves_iso": "2026-06-26",
+      "resolution_status": "pending",
+      "resolution_notes": "",
+      "archived_at": "2026-05-22T00:03:39.470274",
+      "audio_href": "./audio/archive/debate_2026-05-15.mp3"
+    },
     {
       "friday_iso": "2026-05-08",
       "week_label": "Week of 2026-05-08",
