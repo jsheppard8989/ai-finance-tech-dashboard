@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-22T00:03:23.709480",
-  chartsVersion: "2026-05-22T00:02:16.022355",
+  generatedAt: "2026-05-22T05:01:44.185513",
+  chartsVersion: "2026-05-22T05:01:34.183234",
   priceSnapshot: {
   "GOOGL": {
     "price": 387.66,
     "change_pct": 1.15,
     "name": "GOOGL",
-    "updated_at": "2026-05-22T00:02:16.021918"
+    "updated_at": "2026-05-22T05:01:34.182679"
   },
   "BTC": {
-    "price": 77563.48,
-    "change_pct": -3.84,
+    "price": 77210.87,
+    "change_pct": -4.28,
     "name": "BTC",
-    "updated_at": "2026-05-22T00:02:16.021928"
+    "updated_at": "2026-05-22T05:01:34.182691"
   },
   "NVDA": {
     "price": 219.51,
     "change_pct": 10.6,
     "name": "NVDA",
-    "updated_at": "2026-05-22T00:02:16.021931"
+    "updated_at": "2026-05-22T05:01:34.182696"
   },
   "MSFT": {
     "price": 419.09,
     "change_pct": 1.54,
     "name": "MSFT",
-    "updated_at": "2026-05-22T00:02:16.021935"
+    "updated_at": "2026-05-22T05:01:34.182700"
   },
   "WTI": {
     "price": 4.39,
     "change_pct": 0.45,
     "name": "WTI",
-    "updated_at": "2026-05-22T00:02:16.021938"
+    "updated_at": "2026-05-22T05:01:34.182703"
   },
   "S&P 500": {
     "price": 742.72,
     "change_pct": 3.44,
     "name": "S&P 500",
-    "updated_at": "2026-05-22T00:02:16.021941"
+    "updated_at": "2026-05-22T05:01:34.182707"
   },
   "META": {
     "price": 607.38,
     "change_pct": -0.5,
     "name": "META",
-    "updated_at": "2026-05-22T00:02:16.021945"
+    "updated_at": "2026-05-22T05:01:34.182711"
   },
   "AMZN": {
     "price": 268.46,
     "change_pct": -1.32,
     "name": "AMZN",
-    "updated_at": "2026-05-22T00:02:16.021947"
+    "updated_at": "2026-05-22T05:01:34.182715"
   },
   "TSLA": {
     "price": 417.85,
     "change_pct": 6.46,
     "name": "TSLA",
-    "updated_at": "2026-05-22T00:02:16.021950"
+    "updated_at": "2026-05-22T05:01:34.182718"
   },
   "QQQ": {
     "price": 714.51,
     "change_pct": 6.19,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-22T00:02:16.021953"
+    "updated_at": "2026-05-22T05:01:34.182721"
   },
   "BTC-USD": {
-    "price": 77563.48,
-    "change_pct": -3.84,
+    "price": 77210.87,
+    "change_pct": -4.28,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-22T00:02:16.021956"
+    "updated_at": "2026-05-22T05:01:34.182724"
   }
 },
   tickerScores: [
@@ -5421,6 +5421,42 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 194,
+      "term": "Multi-modal AI",
+      "description": "AI that integrates various forms of media, such as text, images, and audio, to enhance user engagement and application versatility.",
+      "first_detected_date": "2026-05-21",
+      "last_mentioned_date": "2026-05-21",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider companies that are developing or leveraging multi-modal AI capabilities.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 232,
+      "first_detected_speaker": "Andrew Feldman",
+      "last_mentioned_episode_id": 232,
+      "last_mentioned_speaker": "Andrew Feldman"
+    },
+    {
+      "id": 195,
+      "term": "Synth ID",
+      "description": "A system for verifying the authenticity of AI-generated content, addressing concerns about misinformation and enhancing trust in AI applications.",
+      "first_detected_date": "2026-05-21",
+      "last_mentioned_date": "2026-05-21",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Content verification technologies are becoming increasingly important for maintaining credibility in digital communications.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 232,
+      "first_detected_speaker": "Andrew Feldman",
+      "last_mentioned_episode_id": 232,
+      "last_mentioned_speaker": "Andrew Feldman"
+    },
+    {
       "id": 174,
       "term": "Capability-Bounded Approach",
       "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
@@ -8399,6 +8435,58 @@ const dashboardData = {
   ],
   "overton": [
     {
+      "id": 194,
+      "term": "Multi-modal AI",
+      "description": "AI that integrates various forms of media, such as text, images, and audio, to enhance user engagement and application versatility.",
+      "first_detected_date": "2026-05-21",
+      "last_mentioned_date": "2026-05-21",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider companies that are developing or leveraging multi-modal AI capabilities.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 232,
+      "first_detected_speaker": "Andrew Feldman",
+      "last_mentioned_episode_id": 232,
+      "last_mentioned_speaker": "Andrew Feldman",
+      "overton_score": 0.98,
+      "resonance_pct": 24,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
+      "first_detected_episode_date": "2026-05-21",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
+      "last_mentioned_episode_date": "2026-05-21"
+    },
+    {
+      "id": 195,
+      "term": "Synth ID",
+      "description": "A system for verifying the authenticity of AI-generated content, addressing concerns about misinformation and enhancing trust in AI applications.",
+      "first_detected_date": "2026-05-21",
+      "last_mentioned_date": "2026-05-21",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Content verification technologies are becoming increasingly important for maintaining credibility in digital communications.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 232,
+      "first_detected_speaker": "Andrew Feldman",
+      "last_mentioned_episode_id": 232,
+      "last_mentioned_speaker": "Andrew Feldman",
+      "overton_score": 0.98,
+      "resonance_pct": 24,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
+      "first_detected_episode_date": "2026-05-21",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
+      "last_mentioned_episode_date": "2026-05-21"
+    },
+    {
       "id": 24,
       "term": "Risk Off Playbook",
       "description": "A set of investment strategies employed by investors to mitigate risk during times of market uncertainty or perceived danger.",
@@ -8683,58 +8771,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
       "last_mentioned_episode_date": "2026-05-04"
-    },
-    {
-      "id": 143,
-      "term": "Cross-Solver Tensions",
-      "description": "The challenges faced by companies that try to replace multiple functionalities within a single platform.",
-      "first_detected_date": "2026-05-01",
-      "last_mentioned_date": "2026-05-01",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the potential for new platforms that can address specific pain points within enterprise software more effectively than incumbents.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.62,
-      "resonance_pct": 16,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 144,
-      "term": "Descheduling",
-      "description": "The removal of a substance from a list of controlled substances, in this case, cannabis.",
-      "first_detected_date": "2026-05-01",
-      "last_mentioned_date": "2026-05-01",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Descheduling can lead to significant changes in the legal and operational landscape for businesses in the affected industry.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.62,
-      "resonance_pct": 16,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
     }
   ]
 },
@@ -23582,35 +23618,10 @@ const dashboardData = {
     ]
   }
 },
-  suggestedTerms: [
-  {
-    "id": 320,
-    "term": "Multi-modal AI",
-    "definition": "AI that integrates various forms of media, such as text, images, and audio, to enhance user engagement and application versatility.",
-    "investment_implications": "Investors should consider companies that are developing or leveraging multi-modal AI capabilities.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-05-22 05:00:24",
-    "priority_score": 80
-  },
-  {
-    "id": 321,
-    "term": "Synth ID",
-    "definition": "A system for verifying the authenticity of AI-generated content, addressing concerns about misinformation and enhancing trust in AI applications.",
-    "investment_implications": "Content verification technologies are becoming increasingly important for maintaining credibility in digital communications.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-05-22 05:00:24",
-    "priority_score": 80
-  }
-],
+  suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 7352,
+    "id": 7406,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -23622,7 +23633,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7353,
+    "id": 7407,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -23634,7 +23645,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7354,
+    "id": 7408,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -23646,7 +23657,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7355,
+    "id": 7409,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -23658,7 +23669,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7356,
+    "id": 7410,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -23670,7 +23681,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7357,
+    "id": 7411,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -23682,7 +23693,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 7358,
+    "id": 7412,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -23694,7 +23705,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7359,
+    "id": 7413,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -23706,7 +23717,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7360,
+    "id": 7414,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -23718,7 +23729,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7361,
+    "id": 7415,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -23730,7 +23741,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7362,
+    "id": 7416,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -23742,7 +23753,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7363,
+    "id": 7417,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -23754,7 +23765,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7364,
+    "id": 7418,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -23766,7 +23777,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7365,
+    "id": 7419,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -23778,7 +23789,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7366,
+    "id": 7420,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -23790,7 +23801,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7367,
+    "id": 7421,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -23802,7 +23813,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7368,
+    "id": 7422,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -23814,7 +23825,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7369,
+    "id": 7423,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -23826,7 +23837,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7370,
+    "id": 7424,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -23838,7 +23849,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7371,
+    "id": 7425,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -24596,7 +24607,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-19 \u2022 MacroVoices-2026-03-19-Simon-White",
     "last_proof_snippet": "Simon White suggests that markets may be underpricing the second-order effects of the Iran conflict.",
@@ -30433,7 +30444,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-27 \u2022 Investing in Sovereign Credit with Lupin Ramon",
     "last_proof_snippet": "Investors in sovereign debt must consider both the ability and willingness of governments to repay, which can be influenced by a multitude of qualitative factors.",
@@ -30498,7 +30509,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-27 \u2022 Lessons from SpaceX and Tesla: Building for the Physical Economy",
     "last_proof_snippet": "Preventing data silos and fostering communication is crucial for scaling.",
@@ -30563,7 +30574,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-27 \u2022 Lessons from SpaceX and Tesla: Building for the Physical Economy",
     "last_proof_snippet": "Preventing data silos and fostering communication is crucial for scaling.",
@@ -31046,7 +31057,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
     "last_proof_snippet": "Current power solutions like diesel generators are inefficient and create a tactical signature, making them a liability.",
@@ -31106,7 +31117,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
     "last_proof_snippet": "Current power solutions like diesel generators are inefficient and create a tactical signature, making them a liability.",
@@ -31170,7 +31181,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-24 \u2022 The Future of AI and its Impact on Society and Investment",
     "last_proof_snippet": "Recursive self-improvement in AI is not yet realized, but its potential is both exciting and terrifying.",
@@ -31422,7 +31433,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-22 \u2022 Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
     "last_proof_snippet": "Despite the price surge, U.S. nitrogen fertilizers are still some of the cheapest in the world, creating an arbitrage opportunity.",
@@ -31480,7 +31491,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-23 \u2022 California's Spending Woes and the Governor's Race",
     "last_proof_snippet": "High-speed rail project has spent $14 billion without delivering a product, highlighting a lack of accountability in state government.",
@@ -32351,7 +32362,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-13 \u2022 Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
     "last_proof_snippet": "All right, everybody. Welcome back to the number one podcast in the world. Free birds out saving the world, creating new potatoes or I don't know, Kim Wa. Maybe some Brussels sprouts. I'm not sure what he's working on at this point in his p",
