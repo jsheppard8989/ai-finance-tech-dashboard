@@ -1,5 +1,24 @@
 [
   {
+    "id": 234,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "Reiner Pope \u2013 Chip design from the bottom up",
+    "episode_date": "2026-05-22",
+    "summary": "This podcast episode delves into the intricacies of AI chip design, emphasizing the importance of efficient matrix multiplication and accumulation operations. It discusses the trade-offs between precision and performance, the impact of data movement on costs, and the differences between GPU and TPU architectures. Additionally, the episode touches on the total cost of ownership for GPU cloud services, highlighting operational efficiencies and fault management as key differentiators.",
+    "key_takeaways": [
+      "Invest in AI chip technologies that optimize multiply-accumulate operations for improved performance.",
+      "Prioritize precision in accumulation steps when designing AI models to enhance accuracy.",
+      "Explore low-precision arithmetic solutions to leverage quadratic scaling benefits in AI chip performance.",
+      "Design chips with minimized data movement requirements to reduce costs and improve efficiency.",
+      "Evaluate GPU cloud service providers based on total cost of ownership and operational efficiencies.",
+      "Optimize clock cycles in chip designs to maximize throughput and performance.",
+      "Assess the need for flexibility versus efficiency when choosing between FPGAs and ASICs for specific applications.",
+      "Understand the architectural differences between GPUs and TPUs to make informed hardware selections for AI workloads."
+    ],
+    "investment_thesis": "Invest in AI chip technologies that optimize multiply-accumulate operations and precision in accumulation steps for improved performance and accuracy, while considering the cost and efficiency of cloud services.",
+    "key_tickers": null
+  },
+  {
     "id": 233,
     "podcast_name": "The a16z Show",
     "episode_title": "Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
@@ -116,22 +135,6 @@
       "Bitcoin is positioned as a hedge against extreme inflation and fiat currency collapse."
     ],
     "investment_thesis": "Bitcoin is emerging as a strategic asset in a high-inflation, debt-ridden economic environment, offering a hedge against traditional fiat currencies.",
-    "key_tickers": null
-  },
-  {
-    "id": 226,
-    "podcast_name": "The a16z Show",
-    "episode_title": "The Plan to Make American Crime Obsolete",
-    "episode_date": "2026-05-18",
-    "summary": "This episode of 'The a16z Show' delves into the intersection of law enforcement and advanced technology, exploring how drones, AI, and data analytics are transforming public safety. The discussion highlights the critical need for technology to address staffing shortages and officer burnout, while also emphasizing the importance of collaboration between law enforcement and tech developers. The future of policing is envisioned as more investigative and nuanced, with a heavy reliance on data-driven decision-making.",
-    "key_takeaways": [
-      "Law enforcement agencies are increasingly integrating advanced technologies to enhance operational capabilities and officer safety.",
-      "Mental health analytics are being used to proactively address officer well-being, reducing turnover and improving community relations.",
-      "Data-driven decision-making is becoming a cornerstone of modern policing, with AI and analytics playing a crucial role in intelligence gathering and crime prediction.",
-      "Founders in public safety technology must deeply understand the unique needs and challenges of law enforcement to build effective solutions.",
-      "Collaboration between law enforcement and technology developers is essential for the successful implementation of new tools and systems."
-    ],
-    "investment_thesis": "Invest in companies that develop scalable technologies for law enforcement, with a focus on mental health solutions, data analytics, and AI-driven decision-making tools.",
     "key_tickers": null
   }
 ]

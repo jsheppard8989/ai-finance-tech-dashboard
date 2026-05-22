@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-22T12:04:56.226383",
-  chartsVersion: "2026-05-22T12:04:48.692206",
+  generatedAt: "2026-05-22T13:37:52.478325",
+  chartsVersion: "2026-05-22T13:37:47.964403",
   priceSnapshot: {
   "GOOGL": {
-    "price": 386.06,
-    "change_pct": -0.61,
+    "price": 384.81,
+    "change_pct": -0.93,
     "name": "GOOGL",
-    "updated_at": "2026-05-22T12:04:48.691220"
+    "updated_at": "2026-05-22T13:37:47.963904"
   },
   "BTC": {
-    "price": 76896.6,
-    "change_pct": -4.67,
+    "price": 76519.92,
+    "change_pct": -5.14,
     "name": "BTC",
-    "updated_at": "2026-05-22T12:04:48.691240"
+    "updated_at": "2026-05-22T13:37:47.963915"
   },
   "NVDA": {
-    "price": 217.42,
-    "change_pct": 10.65,
+    "price": 215.55,
+    "change_pct": 9.69,
     "name": "NVDA",
-    "updated_at": "2026-05-22T12:04:48.691250"
+    "updated_at": "2026-05-22T13:37:47.963919"
   },
   "MSFT": {
-    "price": 418.82,
-    "change_pct": 2.03,
+    "price": 419.3,
+    "change_pct": 2.15,
     "name": "MSFT",
-    "updated_at": "2026-05-22T12:04:48.691258"
+    "updated_at": "2026-05-22T13:37:47.963923"
   },
   "WTI": {
-    "price": 4.36,
-    "change_pct": 3.91,
+    "price": 4.45,
+    "change_pct": 6.03,
     "name": "WTI",
-    "updated_at": "2026-05-22T12:04:48.691265"
+    "updated_at": "2026-05-22T13:37:47.963926"
   },
   "S&P 500": {
-    "price": 747.77,
-    "change_pct": 3.32,
+    "price": 747.12,
+    "change_pct": 3.23,
     "name": "S&P 500",
-    "updated_at": "2026-05-22T12:04:48.691272"
+    "updated_at": "2026-05-22T13:37:47.963929"
   },
   "META": {
-    "price": 608.68,
-    "change_pct": 0.61,
+    "price": 611.19,
+    "change_pct": 1.03,
     "name": "META",
-    "updated_at": "2026-05-22T12:04:48.691280"
+    "updated_at": "2026-05-22T13:37:47.963933"
   },
   "AMZN": {
-    "price": 267.61,
-    "change_pct": -2.17,
+    "price": 268.06,
+    "change_pct": -2.01,
     "name": "AMZN",
-    "updated_at": "2026-05-22T12:04:48.691288"
+    "updated_at": "2026-05-22T13:37:47.963936"
   },
   "TSLA": {
-    "price": 427.37,
-    "change_pct": 9.76,
+    "price": 428.44,
+    "change_pct": 10.03,
     "name": "TSLA",
-    "updated_at": "2026-05-22T12:04:48.691296"
+    "updated_at": "2026-05-22T13:37:47.963940"
   },
   "QQQ": {
-    "price": 720.93,
-    "change_pct": 5.77,
+    "price": 719.59,
+    "change_pct": 5.57,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-22T12:04:48.691304"
+    "updated_at": "2026-05-22T13:37:47.963942"
   },
   "BTC-USD": {
-    "price": 76905.96,
-    "change_pct": -4.66,
+    "price": 76519.92,
+    "change_pct": -5.14,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-22T12:04:48.691311"
+    "updated_at": "2026-05-22T13:37:47.963945"
   }
 },
   tickerScores: [
@@ -847,6 +847,26 @@ const dashboardData = {
       "podcast_episode_id": 233
     },
     {
+      "id": 249,
+      "title": "Reiner Pope \u2013 Chip design from the bottom up",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-05-22",
+      "summary": "This podcast episode delves into the intricacies of AI chip design, emphasizing the importance of efficient matrix multiplication and accumulation operations. It discusses the trade-offs between precision and performance, the impact of data movement on costs, and the differences between GPU and TPU architectures. Additionally, the episode touches on the total cost of ownership for GPU cloud services, highlighting operational efficiencies and fault management as key differentiators.",
+      "key_takeaway": "Invest in AI chip technologies that optimize multiply-accumulate operations and precision in accumulation steps for improved performance and accuracy, while considering the cost and efficiency of cloud services.",
+      "tickers_mentioned": [
+        "NVDA",
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 234
+    },
+    {
       "id": 245,
       "title": "How Superhuman Took Over Silicon Valley Email",
       "source_type": "podcast",
@@ -985,7 +1005,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-18",
       "archived_date": null,
@@ -5440,6 +5460,42 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 196,
+      "term": "Multiply-Accumulate Operations",
+      "description": "Central to AI chip performance, enabling efficient matrix multiplications.",
+      "first_detected_date": "2026-05-22",
+      "last_mentioned_date": "2026-05-22",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Optimizing MAC operations can lead to significant performance improvements in AI applications.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 234,
+      "first_detected_speaker": "Dwarkesh (hosts)",
+      "last_mentioned_episode_id": 234,
+      "last_mentioned_speaker": "Dwarkesh (hosts)"
+    },
+    {
+      "id": 197,
+      "term": "Total Cost of Ownership",
+      "description": "Includes all costs related to the ownership of GPU cloud services, influenced by operational efficiencies and fault management.",
+      "first_detected_date": "2026-05-22",
+      "last_mentioned_date": "2026-05-22",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Understanding TCO can inform investment decisions in cloud service providers.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 234,
+      "first_detected_speaker": "Dwarkesh (hosts)",
+      "last_mentioned_episode_id": 234,
+      "last_mentioned_speaker": "Dwarkesh (hosts)"
+    },
+    {
       "id": 194,
       "term": "Multi-modal AI",
       "description": "AI that integrates various forms of media, such as text, images, and audio, to enhance user engagement and application versatility.",
@@ -8188,6 +8244,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 249,
+      "title": "Reiner Pope \u2013 Chip design from the bottom up",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-05-22",
+      "summary": "This podcast episode delves into the intricacies of AI chip design, emphasizing the importance of efficient matrix multiplication and accumulation operations. It discusses the trade-offs between precision and performance, the impact of data movement on costs, and the differences between GPU and TPU architectures. Additionally, the episode touches on the total cost of ownership for GPU cloud services, highlighting operational efficiencies and fault management as key differentiators.",
+      "key_takeaway": "Invest in AI chip technologies that optimize multiply-accumulate operations and precision in accumulation steps for improved performance and accuracy, while considering the cost and efficiency of cloud services.",
+      "tickers_mentioned": "[\"NVDA\", \"GOOGL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 234,
+      "episode_release_date": "2026-05-22",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 245,
       "title": "How Superhuman Took Over Silicon Valley Email",
       "source_type": "podcast",
@@ -8306,26 +8382,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 228,
       "episode_release_date": "2026-05-19",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 241,
-      "title": "The Plan to Make American Crime Obsolete",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-05-18",
-      "summary": "This episode of 'The a16z Show' delves into the intersection of law enforcement and advanced technology, exploring how drones, AI, and data analytics are transforming public safety. The discussion highlights the critical need for technology to address staffing shortages and officer burnout, while also emphasizing the importance of collaboration between law enforcement and tech developers. The future of policing is envisioned as more investigative and nuanced, with a heavy reliance on data-driven decision-making.",
-      "key_takeaway": "Invest in companies that develop scalable technologies for law enforcement, with a focus on mental health solutions, data analytics, and AI-driven decision-making tools.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-18",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 226,
-      "episode_release_date": "2026-05-18",
       "guest_name": null,
       "key_tickers": []
     }
@@ -8453,6 +8509,58 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 196,
+      "term": "Multiply-Accumulate Operations",
+      "description": "Central to AI chip performance, enabling efficient matrix multiplications.",
+      "first_detected_date": "2026-05-22",
+      "last_mentioned_date": "2026-05-22",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Optimizing MAC operations can lead to significant performance improvements in AI applications.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 234,
+      "first_detected_speaker": "Dwarkesh (hosts)",
+      "last_mentioned_episode_id": 234,
+      "last_mentioned_speaker": "Dwarkesh (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Dwarkesh Podcast",
+      "first_detected_episode_title": "Reiner Pope \u2013 Chip design from the bottom up",
+      "first_detected_episode_date": "2026-05-22",
+      "last_mentioned_podcast": "Dwarkesh Podcast",
+      "last_mentioned_episode_title": "Reiner Pope \u2013 Chip design from the bottom up",
+      "last_mentioned_episode_date": "2026-05-22"
+    },
+    {
+      "id": 197,
+      "term": "Total Cost of Ownership",
+      "description": "Includes all costs related to the ownership of GPU cloud services, influenced by operational efficiencies and fault management.",
+      "first_detected_date": "2026-05-22",
+      "last_mentioned_date": "2026-05-22",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Understanding TCO can inform investment decisions in cloud service providers.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 234,
+      "first_detected_speaker": "Dwarkesh (hosts)",
+      "last_mentioned_episode_id": 234,
+      "last_mentioned_speaker": "Dwarkesh (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Dwarkesh Podcast",
+      "first_detected_episode_title": "Reiner Pope \u2013 Chip design from the bottom up",
+      "first_detected_episode_date": "2026-05-22",
+      "last_mentioned_podcast": "Dwarkesh Podcast",
+      "last_mentioned_episode_title": "Reiner Pope \u2013 Chip design from the bottom up",
+      "last_mentioned_episode_date": "2026-05-22"
+    },
     {
       "id": 194,
       "term": "Multi-modal AI",
@@ -8738,58 +8846,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
       "last_mentioned_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "last_mentioned_episode_date": "2026-05-07"
-    },
-    {
-      "id": 156,
-      "term": "Compounding Talent, Capital, and Culture",
-      "description": "The concept of building an organization that not only generates returns but also systematically develops and retains talent, grows capital, and fosters a strong culture over time.",
-      "first_detected_date": "2026-05-05",
-      "last_mentioned_date": "2026-05-05",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should look for firms that demonstrate the ability to compound these elements for sustainable growth.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 199,
-      "first_detected_speaker": "Tony James",
-      "last_mentioned_episode_id": 199,
-      "last_mentioned_speaker": "Tony James",
-      "overton_score": 0.68,
-      "resonance_pct": 17,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Building Blackstone, Backing Costco, with Tony James",
-      "first_detected_episode_date": "2026-05-05",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Building Blackstone, Backing Costco, with Tony James",
-      "last_mentioned_episode_date": "2026-05-05"
-    },
-    {
-      "id": 153,
-      "term": "Western AI Stack",
-      "description": "A concept referring to AI technologies that align with Western values, such as individual consent and rule-based operations.",
-      "first_detected_date": "2026-05-04",
-      "last_mentioned_date": "2026-05-04",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the alignment of AI technologies with Western values as a potential differentiator in a globally competitive market.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 195,
-      "first_detected_speaker": "Sarah B. Rogers",
-      "last_mentioned_episode_id": 195,
-      "last_mentioned_speaker": "Sarah B. Rogers",
-      "overton_score": 0.66,
-      "resonance_pct": 16,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "first_detected_episode_date": "2026-05-04",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "last_mentioned_episode_date": "2026-05-04"
     }
   ]
 },
@@ -23686,12 +23742,67 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-05-22",
     "key_tickers": []
+  },
+  "249": {
+    "id": 239,
+    "insight_id": 249,
+    "podcast_episode_id": 234,
+    "overview": "The competitive dynamic in AI chip design is centered on optimizing matrix multiplication and managing precision to enhance performance and accuracy. The tradeoff between precision and performance is a key tension, with lower precision arithmetic offering potential efficiency gains. The total cost of ownership for GPU cloud services is another contested area, with operational efficiencies and fault management being critical differentiators. The allocator-relevant implication is that investments in AI chip technologies and cloud services should consider both the technical performance and the operational cost efficiencies.",
+    "key_takeaways_detailed": [
+      "Invest in AI chip technologies that not only optimize MAC operations but also integrate advanced error-correction mechanisms to maintain high precision in accumulation steps.",
+      "Monitor the development of new chip architectures that could potentially reduce the dominance of MAC operations in AI computations.",
+      "Keep abreast of advancements in chip cooling and data transfer technologies that might alter the cost dynamics of data movement within chips.",
+      "Evaluate cloud service providers based on their ability to innovate in operational efficiencies and fault management, as these could become key competitive advantages in the GPU cloud services market."
+    ],
+    "investment_thesis": "Investing in AI chip technologies that excel in MAC operations and precision in accumulation steps is likely to yield performance and accuracy benefits. However, the investment thesis is contingent on the continued relevance of MAC operations in AI and the cost implications of data movement. A timeframe of 3-5 years is appropriate to assess the impact of these factors on the performance of AI chips and cloud services. Observable developments that would vindicate this thesis include sustained growth in the demand for AI applications that rely heavily on matrix multiplications and continued high costs associated with data movement within chips.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "NVIDIA is a leading player in the GPU market, with a strong focus on AI and deep learning applications, making them relevant to the AI chip design thesis.",
+        "positioning": "Positioned strategically as a long-term investment due to their established market position and continuous innovation in AI chip technology.",
+        "risk": "The risk includes potential disruptions from new entrants with more efficient chip designs or shifts in AI application demands that reduce the importance of MAC operations."
+      },
+      "GOOGL": {
+        "rationale": "Google's TPU technology is a direct competitor to NVIDIA's GPUs in the AI processing space, offering an alternative architecture for AI workloads.",
+        "positioning": "Considered as a tactical investment to hedge against the dominance of GPU architectures in the AI market.",
+        "risk": "The risk is tied to the adoption rate of TPU technology and the potential for GPUs to maintain their performance lead through innovation."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The emergence of new AI applications that do not rely as heavily on matrix multiplication could reduce the demand for MAC-optimized chips.",
+      "Technological breakthroughs that enable more efficient data movement within chips could diminish the cost advantage of minimizing data movement in chip design.",
+      "A significant shift towards cloud service providers with lower operational costs could disrupt the current market dynamics and affect the competitive positioning of 'gold tier' providers."
+    ],
+    "catalysts": [
+      "New AI chip releases from major players that demonstrate significant improvements in MAC operations and precision.",
+      "Publications of independent benchmarks comparing the performance and cost-efficiency of different AI chip architectures.",
+      "Announcements from cloud service providers regarding innovations in operational efficiencies or fault management that could impact the total cost of ownership.",
+      "Release of new AI applications that could shift the demand towards either higher or lower precision arithmetic in chip design."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-22T13:37:09.383706",
+    "updated_at": "2026-05-22 18:37:09",
+    "episode_evidence": "The podcast episode with Reiner Pope provides a granular look into the complexities of AI chip design. Pope emphasizes the critical role of matrix multiplication in AI computations, stating, 'The main function that AI chips want to compute is multiplication of matrices.' This highlights the need for efficient multiply-accumulate (MAC) operations. Furthermore, he underscores the importance of precision in accumulation steps, noting, 'The precision will almost always be higher in the accumulation step than in a multiplication step.' This precision is vital to minimize rounding errors and enhance the accuracy of AI models. Additionally, Pope discusses the impact of data movement on costs, explaining that 'All of this work just moving the data from the register file to the logic unit is many times more expensive than the logic unit.' This insight underscores the need to design chips that minimize data movement to improve efficiency and reduce costs.",
+    "falsification_tracks": [
+      "Should new research indicate that alternative operations beyond MAC become more critical for AI performance, the focus on MAC optimization would be weakened.",
+      "If advancements in chip cooling technology significantly reduce the costs associated with data movement, the current emphasis on minimizing data movement might be less relevant.",
+      "A shift towards AI applications that require higher precision across all operations, not just in accumulation, could diminish the strategic advantage of focusing on precision in accumulation steps alone.",
+      "The emergence of new cloud service providers offering significantly lower operational costs could challenge the current cost leadership of 'gold tier' providers like kruzo."
+    ],
+    "insight_title": "Reiner Pope \u2013 Chip design from the bottom up",
+    "source_name": "Dwarkesh Podcast",
+    "source_date": "2026-05-22",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 7514,
+    "id": 7568,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -23703,7 +23814,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7515,
+    "id": 7569,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -23715,7 +23826,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7516,
+    "id": 7570,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -23727,7 +23838,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7517,
+    "id": 7571,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -23739,7 +23850,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7518,
+    "id": 7572,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -23751,7 +23862,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7519,
+    "id": 7573,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -23763,7 +23874,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 7520,
+    "id": 7574,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -23775,7 +23886,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7521,
+    "id": 7575,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -23787,7 +23898,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7522,
+    "id": 7576,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -23799,7 +23910,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7523,
+    "id": 7577,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -23811,7 +23922,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7524,
+    "id": 7578,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -23823,7 +23934,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7525,
+    "id": 7579,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -23835,7 +23946,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7526,
+    "id": 7580,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -23847,7 +23958,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7527,
+    "id": 7581,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -23859,7 +23970,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7528,
+    "id": 7582,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -23871,7 +23982,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7529,
+    "id": 7583,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -23883,7 +23994,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7530,
+    "id": 7584,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -23895,7 +24006,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7531,
+    "id": 7585,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -23907,7 +24018,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7532,
+    "id": 7586,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -23919,7 +24030,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7533,
+    "id": 7587,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -24330,7 +24441,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.45,
+    "mention_score_decayed": 1.41,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -25134,7 +25245,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -25198,7 +25309,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -25261,7 +25372,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -26323,7 +26434,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -26386,7 +26497,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -26574,7 +26685,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -30453,7 +30564,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -30512,7 +30623,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
