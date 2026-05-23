@@ -40,6 +40,25 @@
       "podcast_episode_id": 234
     },
     {
+      "id": 250,
+      "title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-05-22",
+      "summary": "In this episode, the hosts discuss the latest developments in AI, with a focus on recursive self-improvement and its potential to drive exponential advancements in AI capabilities. They also analyze Anthropic's strong earnings, SpaceX's upcoming IPO, and Nvidia's impressive Q1 results. The geopolitical tensions between the US and China, as well as the impact of rising inflation and interest rates on investment strategies, are also covered.",
+      "key_takeaway": "Invest in companies at the forefront of AI advancements, with a focus on those demonstrating strong revenue growth and innovative technologies.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 235
+    },
+    {
       "id": 245,
       "title": "How Superhuman Took Over Silicon Valley Email",
       "source_type": "podcast",
@@ -138,7 +157,7 @@
         "GLD"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-19",
       "archived_date": null,

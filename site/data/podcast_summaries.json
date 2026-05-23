@@ -1,5 +1,23 @@
 [
   {
+    "id": 235,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+    "episode_date": "2026-05-22",
+    "summary": "In this episode, the hosts discuss the latest developments in AI, with a focus on recursive self-improvement and its potential to drive exponential advancements in AI capabilities. They also analyze Anthropic's strong earnings, SpaceX's upcoming IPO, and Nvidia's impressive Q1 results. The geopolitical tensions between the US and China, as well as the impact of rising inflation and interest rates on investment strategies, are also covered.",
+    "key_takeaways": [
+      "Anthropic's earnings indicate a strong ROI in AI investments, with significant revenue growth projected across private language model companies.",
+      "Recursive self-improvement in AI models could lead to rapid advancements in capabilities, enhancing the performance of language models.",
+      "SpaceX's IPO aims to raise $75 billion at a valuation of $1.75 trillion, highlighting the value of space-based services and AI compute.",
+      "Nvidia's Q1 earnings showed 85% year-over-year revenue growth, driven by its AI and data center markets.",
+      "Geopolitical tensions, particularly between the US and China, impact trade and technology, with potential ramifications for global markets."
+    ],
+    "investment_thesis": "Invest in companies at the forefront of AI advancements, with a focus on those demonstrating strong revenue growth and innovative technologies.",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  {
     "id": 234,
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "Reiner Pope \u2013 Chip design from the bottom up",
@@ -118,23 +136,6 @@
       "Support companies investing in workforce training for modern manufacturing techniques."
     ],
     "investment_thesis": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
-    "key_tickers": null
-  },
-  {
-    "id": 227,
-    "podcast_name": "The Jack Mallers Show",
-    "episode_title": "Bitcoin Doesn't Negotiate",
-    "episode_date": "2026-05-19",
-    "summary": "In this episode, Jack Mallers discusses the current economic challenges including inflation, disrupted supply chains, and bond market instability. He highlights Bitcoin's potential as a hedge against fiat currency collapse and its growing acceptance in international transactions, such as Iran's adoption for tolls. The podcast emphasizes the importance of monitoring economic indicators and adjusting investment strategies accordingly.",
-    "key_takeaways": [
-      "Bitcoin's price has dropped significantly, reflecting broader economic instability.",
-      "U.S. consumer crisis is intensifying as real wages turn negative, impacting loan delinquencies.",
-      "Rising PPI suggests imminent higher CPI, signaling increased inflation.",
-      "Bond market sell-offs indicate a potential sovereign debt crisis.",
-      "Iran's adoption of Bitcoin for transactions marks a significant step for its use as a medium of exchange.",
-      "Bitcoin is positioned as a hedge against extreme inflation and fiat currency collapse."
-    ],
-    "investment_thesis": "Bitcoin is emerging as a strategic asset in a high-inflation, debt-ridden economic environment, offering a hedge against traditional fiat currencies.",
     "key_tickers": null
   }
 ]
