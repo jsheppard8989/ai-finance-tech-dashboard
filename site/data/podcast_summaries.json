@@ -1,5 +1,21 @@
 [
   {
+    "id": 236,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
+    "episode_date": "2026-05-23",
+    "summary": "This episode of 'Moonshots with Peter Diamandis' discusses SpaceX's potential $75 billion IPO, the advancements in AI forecasting with GPT 5.5, the disruption caused by OpenAI's personal finance feature in ChatGPT, Colossal's breakthrough in species revival, and public opposition to data center construction. The podcast provides insights into the market potential of these technologies and their implications for investors.",
+    "key_takeaways": [
+      "SpaceX's IPO aims to capitalize on a $28.5 trillion market, influencing investment strategies in aerospace and technology sectors.",
+      "AI forecasting tools like GPT 5.5 can enhance strategic planning and risk management with their improved accuracy.",
+      "OpenAI's personal finance feature in ChatGPT could reshape the financial advisory landscape, affecting fintech investments.",
+      "Investors in biotech and conservation should explore opportunities in synthetic biology and species revival technologies.",
+      "Public opposition to data center construction could hinder tech companies' growth strategies, necessitating community engagement."
+    ],
+    "investment_thesis": "Invest in companies and technologies that are at the forefront of space exploration, AI advancements, and synthetic biology, as these sectors are poised for significant growth and market disruption.",
+    "key_tickers": null
+  },
+  {
     "id": 235,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
@@ -120,22 +136,6 @@
       "The future of AI involves balancing its capabilities with addressing societal challenges."
     ],
     "investment_thesis": "Invest in AI technologies to enhance productivity and drive innovation, with a focus on healthcare applications and ethical considerations.",
-    "key_tickers": null
-  },
-  {
-    "id": 228,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Rebuilding The American Shipyard",
-    "episode_date": "2026-05-19",
-    "summary": "This podcast discusses the challenges and opportunities in the defense industrial base, emphasizing the shift from innovation to production capabilities. Key themes include the need for modern manufacturing, the integration of autonomy and software, the importance of commercial markets, and workforce development. The conversation highlights the potential for first principles design to lower costs and the Pentagon's push for contractors to modernize.",
-    "key_takeaways": [
-      "Invest in companies focusing on modernizing defense production processes.",
-      "Evaluate firms using first principles design to reduce costs and improve efficiency.",
-      "Seek investments in companies integrating autonomy into their manufacturing.",
-      "Assess companies engaging with commercial markets for long-term stability.",
-      "Support companies investing in workforce training for modern manufacturing techniques."
-    ],
-    "investment_thesis": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "key_tickers": null
   }
 ]

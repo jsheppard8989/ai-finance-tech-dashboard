@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-23T22:02:11.933200",
-  chartsVersion: "2026-05-23T22:01:59.639958",
+  generatedAt: "2026-05-23T23:39:47.191305",
+  chartsVersion: "2026-05-23T23:39:35.841668",
   priceSnapshot: {
   "GOOGL": {
     "price": 382.97,
     "change_pct": -1.41,
     "name": "GOOGL",
-    "updated_at": "2026-05-23T22:01:59.638912"
+    "updated_at": "2026-05-23T23:39:35.841194"
   },
   "BTC": {
-    "price": 76699.08,
-    "change_pct": -6.15,
+    "price": 76640.3,
+    "change_pct": -6.23,
     "name": "BTC",
-    "updated_at": "2026-05-23T22:01:59.638932"
+    "updated_at": "2026-05-23T23:39:35.841204"
   },
   "NVDA": {
     "price": 215.33,
     "change_pct": 9.58,
     "name": "NVDA",
-    "updated_at": "2026-05-23T22:01:59.638941"
+    "updated_at": "2026-05-23T23:39:35.841208"
   },
   "MSFT": {
     "price": 418.57,
     "change_pct": 1.97,
     "name": "MSFT",
-    "updated_at": "2026-05-23T22:01:59.638948"
+    "updated_at": "2026-05-23T23:39:35.841211"
   },
   "WTI": {
     "price": 4.43,
     "change_pct": 5.46,
     "name": "WTI",
-    "updated_at": "2026-05-23T22:01:59.638955"
+    "updated_at": "2026-05-23T23:39:35.841214"
   },
   "S&P 500": {
     "price": 745.64,
     "change_pct": 3.02,
     "name": "S&P 500",
-    "updated_at": "2026-05-23T22:01:59.638963"
+    "updated_at": "2026-05-23T23:39:35.841217"
   },
   "META": {
     "price": 610.26,
     "change_pct": 0.88,
     "name": "META",
-    "updated_at": "2026-05-23T22:01:59.638971"
+    "updated_at": "2026-05-23T23:39:35.841221"
   },
   "AMZN": {
     "price": 266.32,
     "change_pct": -2.64,
     "name": "AMZN",
-    "updated_at": "2026-05-23T22:01:59.638978"
+    "updated_at": "2026-05-23T23:39:35.841224"
   },
   "TSLA": {
     "price": 426.01,
     "change_pct": 9.41,
     "name": "TSLA",
-    "updated_at": "2026-05-23T22:01:59.638986"
+    "updated_at": "2026-05-23T23:39:35.841227"
   },
   "QQQ": {
     "price": 717.54,
     "change_pct": 5.27,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-23T22:01:59.638993"
+    "updated_at": "2026-05-23T23:39:35.841230"
   },
   "BTC-USD": {
-    "price": 76699.08,
-    "change_pct": -6.15,
+    "price": 76640.3,
+    "change_pct": -6.23,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-23T22:01:59.639000"
+    "updated_at": "2026-05-23T23:39:35.841233"
   }
 },
   tickerScores: [
@@ -828,6 +828,27 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 251,
+      "title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-05-23",
+      "summary": "This episode of 'Moonshots with Peter Diamandis' discusses SpaceX's potential $75 billion IPO, the advancements in AI forecasting with GPT 5.5, the disruption caused by OpenAI's personal finance feature in ChatGPT, Colossal's breakthrough in species revival, and public opposition to data center construction. The podcast provides insights into the market potential of these technologies and their implications for investors.",
+      "key_takeaway": "Invest in companies and technologies that are at the forefront of space exploration, AI advancements, and synthetic biology, as these sectors are poised for significant growth and market disruption.",
+      "tickers_mentioned": [
+        "TSLA",
+        "GOOGL",
+        "AMZN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-23",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 236
+    },
+    {
       "id": 248,
       "title": "Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
       "source_type": "podcast",
@@ -1005,7 +1026,7 @@ const dashboardData = {
         "NOC"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-19",
       "archived_date": null,
@@ -5479,6 +5500,42 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 198,
+      "term": "Ex-utero gestation",
+      "description": "The development of an embryo or fetus outside the body, using artificial means to support growth and development.",
+      "first_detected_date": "2026-05-23",
+      "last_mentioned_date": "2026-05-23",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider companies developing technologies for ex-utero gestation due to its potential in species revival and medical advancements.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 236,
+      "first_detected_speaker": "Peter Diamandis (hosts)",
+      "last_mentioned_episode_id": 236,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+    },
+    {
+      "id": 199,
+      "term": "AI forecasting",
+      "description": "The use of artificial intelligence to predict real-world events and outcomes based on data analysis.",
+      "first_detected_date": "2026-05-23",
+      "last_mentioned_date": "2026-05-23",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor advancements in AI forecasting as it can provide valuable insights for decision-making across various sectors.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 236,
+      "first_detected_speaker": "Peter Diamandis (hosts)",
+      "last_mentioned_episode_id": 236,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+    },
+    {
       "id": 194,
       "term": "Multi-modal AI",
       "description": "AI that integrates various forms of media, such as text, images, and audio, to enhance user engagement and application versatility.",
@@ -8207,6 +8264,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 251,
+      "title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-05-23",
+      "summary": "This episode of 'Moonshots with Peter Diamandis' discusses SpaceX's potential $75 billion IPO, the advancements in AI forecasting with GPT 5.5, the disruption caused by OpenAI's personal finance feature in ChatGPT, Colossal's breakthrough in species revival, and public opposition to data center construction. The podcast provides insights into the market potential of these technologies and their implications for investors.",
+      "key_takeaway": "Invest in companies and technologies that are at the forefront of space exploration, AI advancements, and synthetic biology, as these sectors are poised for significant growth and market disruption.",
+      "tickers_mentioned": "[\"TSLA\", \"GOOGL\", \"AMZN\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-23",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 236,
+      "episode_release_date": "2026-05-23",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 248,
       "title": "Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
       "source_type": "podcast",
@@ -8349,26 +8426,6 @@ const dashboardData = {
       "episode_release_date": "2026-05-20",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 243,
-      "title": "Rebuilding The American Shipyard",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-05-19",
-      "summary": "This podcast discusses the challenges and opportunities in the defense industrial base, emphasizing the shift from innovation to production capabilities. Key themes include the need for modern manufacturing, the integration of autonomy and software, the importance of commercial markets, and workforce development. The conversation highlights the potential for first principles design to lower costs and the Pentagon's push for contractors to modernize.",
-      "key_takeaway": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
-      "tickers_mentioned": "[\"AAPL\", \"GD\", \"NOC\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-19",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 228,
-      "episode_release_date": "2026-05-19",
-      "guest_name": null,
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -8494,6 +8551,58 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 198,
+      "term": "Ex-utero gestation",
+      "description": "The development of an embryo or fetus outside the body, using artificial means to support growth and development.",
+      "first_detected_date": "2026-05-23",
+      "last_mentioned_date": "2026-05-23",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider companies developing technologies for ex-utero gestation due to its potential in species revival and medical advancements.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 236,
+      "first_detected_speaker": "Peter Diamandis (hosts)",
+      "last_mentioned_episode_id": 236,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
+      "first_detected_episode_date": "2026-05-23",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
+      "last_mentioned_episode_date": "2026-05-23"
+    },
+    {
+      "id": 199,
+      "term": "AI forecasting",
+      "description": "The use of artificial intelligence to predict real-world events and outcomes based on data analysis.",
+      "first_detected_date": "2026-05-23",
+      "last_mentioned_date": "2026-05-23",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor advancements in AI forecasting as it can provide valuable insights for decision-making across various sectors.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 236,
+      "first_detected_speaker": "Peter Diamandis (hosts)",
+      "last_mentioned_episode_id": 236,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
+      "first_detected_episode_date": "2026-05-23",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
+      "last_mentioned_episode_date": "2026-05-23"
+    },
     {
       "id": 194,
       "term": "Multi-modal AI",
@@ -8779,58 +8888,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
       "last_mentioned_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "last_mentioned_episode_date": "2026-05-07"
-    },
-    {
-      "id": 156,
-      "term": "Compounding Talent, Capital, and Culture",
-      "description": "The concept of building an organization that not only generates returns but also systematically develops and retains talent, grows capital, and fosters a strong culture over time.",
-      "first_detected_date": "2026-05-05",
-      "last_mentioned_date": "2026-05-05",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should look for firms that demonstrate the ability to compound these elements for sustainable growth.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 199,
-      "first_detected_speaker": "Tony James",
-      "last_mentioned_episode_id": 199,
-      "last_mentioned_speaker": "Tony James",
-      "overton_score": 0.66,
-      "resonance_pct": 16,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Building Blackstone, Backing Costco, with Tony James",
-      "first_detected_episode_date": "2026-05-05",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Building Blackstone, Backing Costco, with Tony James",
-      "last_mentioned_episode_date": "2026-05-05"
-    },
-    {
-      "id": 153,
-      "term": "Western AI Stack",
-      "description": "A concept referring to AI technologies that align with Western values, such as individual consent and rule-based operations.",
-      "first_detected_date": "2026-05-04",
-      "last_mentioned_date": "2026-05-04",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the alignment of AI technologies with Western values as a potential differentiator in a globally competitive market.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 195,
-      "first_detected_speaker": "Sarah B. Rogers",
-      "last_mentioned_episode_id": 195,
-      "last_mentioned_speaker": "Sarah B. Rogers",
-      "overton_score": 0.64,
-      "resonance_pct": 16,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "first_detected_episode_date": "2026-05-04",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "last_mentioned_episode_date": "2026-05-04"
     }
   ]
 },
@@ -23846,12 +23903,77 @@ const dashboardData = {
     "key_tickers": [
       "NVDA"
     ]
+  },
+  "251": {
+    "id": 241,
+    "insight_id": 251,
+    "podcast_episode_id": 236,
+    "overview": "The competitive dynamic highlighted by the podcast revolves around the intersection of technology and market disruption. SpaceX's ambitious IPO and the advancements in AI forecasting with GPT 5.5 represent a contest between innovative technology and traditional market players. The tension is further amplified by the potential for AI to revolutionize personal finance and synthetic biology to reshape conservation efforts. The public's opposition to data center construction introduces a policy tradeoff between technological progress and environmental sustainability. The allocator-relevant implication is that investors must navigate these tensions, identifying winners and losers in a landscape where technology is both a disruptor and a target of public scrutiny. The metric that arbitrates this uncertainty is the market's response to these innovations, measured by adoption rates, regulatory outcomes, and public sentiment.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor SpaceX's progress in its IPO and subsequent market performance to gauge the broader impact on the aerospace and technology sectors.",
+      "Businesses should evaluate the integration of AI forecasting tools, considering the potential for improved decision-making and the risks associated with AI inaccuracies.",
+      "Fintech investors need to assess the competitive landscape in personal finance, taking into account the potential for AI-driven services to disrupt traditional financial advisory models.",
+      "Biotech investors should consider the ethical and practical implications of species revival technologies, as well as the potential for these technologies to create new market opportunities.",
+      "Tech companies planning data center expansions must engage with local communities to address environmental concerns, potentially influencing the pace and scale of their growth strategies."
+    ],
+    "investment_thesis": "The core investment thesis is that companies and technologies at the forefront of space exploration, AI advancements, and synthetic biology are poised for significant growth and market disruption. The timeframe for this thesis is medium to long-term, as these sectors require substantial investment and time to mature. An observable development that would vindicate this thesis is the successful execution of SpaceX's IPO and the subsequent growth of its market share, the widespread adoption of AI forecasting tools across industries, and the commercialization of species revival technologies. Conversely, if SpaceX's IPO underperforms, AI forecasting tools fail to deliver on their promises, or species revival technologies face significant ethical and regulatory hurdles, the thesis would be invalidated.",
+    "ticker_analysis": {
+      "TSLA": {
+        "rationale": "Tesla's involvement in space technology through SpaceX and its focus on sustainable energy make it a relevant ticker in the context of space exploration and technological advancement.",
+        "positioning": "Strategic long position, as Tesla's alignment with innovative technologies and sustainability trends could yield long-term growth.",
+        "risk": "Key risks include regulatory challenges, competition in the electric vehicle market, and the potential for SpaceX's IPO to overshadow Tesla's own technological achievements."
+      },
+      "GOOGL": {
+        "rationale": "Google, through its parent company Alphabet, has significant investments in AI and is a key player in the development of AI forecasting tools.",
+        "positioning": "Tactical long position, as Google's AI advancements could provide short-term gains, but the company also faces regulatory scrutiny and competition.",
+        "risk": "The risk of AI mispredictions, ethical concerns over data usage, and potential backlash against large tech companies could impact Google's performance."
+      },
+      "AMZN": {
+        "rationale": "Amazon's cloud computing services and potential involvement in space technology through its CEO's personal investments make it a relevant ticker.",
+        "positioning": "Strategic long position, as Amazon's cloud services could benefit from the growth of AI and space exploration technologies.",
+        "risk": "The risk of public opposition to data center construction and increasing competition in the cloud computing market could affect Amazon's growth."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The high valuation of SpaceX's IPO could be seen as overambitious, given the risks and uncertainties in the space industry.",
+      "AI forecasting tools like GPT 5.5 may face skepticism due to concerns over data privacy and the potential for misuse.",
+      "The disruption caused by OpenAI's personal finance feature could be overstated if traditional financial services adapt quickly to the changing landscape.",
+      "Species revival technologies may encounter ethical and practical challenges that limit their adoption and impact.",
+      "Public opposition to data center construction could be a temporary sentiment that shifts with better understanding and green technology advancements."
+    ],
+    "catalysts": [
+      "The outcome of SpaceX's IPO and its impact on the company's market valuation.",
+      "The release of GPT 5.5's performance metrics and its adoption by businesses across sectors.",
+      "Regulatory developments and market response to OpenAI's personal finance feature.",
+      "Further successful species revival efforts by Colossal and the ethical debates surrounding such technologies.",
+      "Community engagement outcomes and policy changes related to data center construction."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-23T23:38:58.378588",
+    "updated_at": "2026-05-24 04:38:58",
+    "episode_evidence": "SpaceX's recent filing for an IPO is a significant event in the aerospace industry, with the company targeting an addressable market of '$28.5 trillion,' as mentioned in the podcast. This valuation underscores SpaceX's ambitions in Starlink, AI infrastructure, and digital advertising, which are expected to be substantial revenue streams. GPT 5.5's performance is noteworthy, with '25% accuracy in forecasting real-world events,' indicating a substantial leap in AI's predictive capabilities. This advancement could have profound implications for various sectors, including finance, where OpenAI's personal finance feature in ChatGPT is set to disrupt the '$12 billion personal finance app market.' Colossal's success in hatching chicks with artificial eggs represents a breakthrough in synthetic biology, potentially leading to the revival of extinct species and enhancing biodiversity. Public opposition to data center construction, as revealed by a Gallup poll with '70% of Americans opposing,' highlights the social and environmental challenges that tech companies must address for sustainable growth.",
+    "falsification_tracks": [
+      "If SpaceX's IPO fails to raise the expected $75 billion or if the valuation drops significantly below $1.75 trillion, it would indicate weaker market confidence in SpaceX's future prospects.",
+      "A significant decline in the accuracy of GPT 5.5's predictions or the emergence of a more accurate forecasting model would challenge the current narrative of AI's predictive capabilities.",
+      "Should OpenAI's personal finance feature fail to gain traction or if regulatory hurdles impede its deployment, the disruption in the personal finance market would be less pronounced.",
+      "If Colossal's technology does not lead to further successful species revivals or if ethical concerns halt such efforts, the potential impact on biodiversity and synthetic biology would be diminished.",
+      "A shift in public opinion towards supporting data center construction, possibly due to better energy management or green initiatives, could alleviate current opposition and change the dynamics of tech company growth strategies."
+    ],
+    "insight_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-05-23",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 7946,
+    "id": 8000,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -23863,7 +23985,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7947,
+    "id": 8001,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -23875,7 +23997,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7948,
+    "id": 8002,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -23887,7 +24009,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7949,
+    "id": 8003,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -23899,7 +24021,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7950,
+    "id": 8004,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -23911,7 +24033,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7951,
+    "id": 8005,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -23923,7 +24045,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 7952,
+    "id": 8006,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -23935,7 +24057,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7953,
+    "id": 8007,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -23947,7 +24069,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7954,
+    "id": 8008,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -23959,7 +24081,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7955,
+    "id": 8009,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -23971,7 +24093,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7956,
+    "id": 8010,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -23983,7 +24105,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7957,
+    "id": 8011,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -23995,7 +24117,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7958,
+    "id": 8012,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -24007,7 +24129,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7959,
+    "id": 8013,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -24019,7 +24141,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7960,
+    "id": 8014,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -24031,7 +24153,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7961,
+    "id": 8015,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -24043,7 +24165,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7962,
+    "id": 8016,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -24055,7 +24177,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7963,
+    "id": 8017,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -24067,7 +24189,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7964,
+    "id": 8018,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -24079,7 +24201,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 7965,
+    "id": 8019,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -24897,7 +25019,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -24961,7 +25083,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -25021,7 +25143,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
@@ -26420,7 +26542,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-07 \u2022 MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -27241,7 +27363,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-30 \u2022 Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
     "last_proof_snippet": "AI is creating new opportunities to rethink how enterprise systems work, potentially leading to a platform shift.",
@@ -27488,7 +27610,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Investment in the biotech sector may need to consider the geographic shift towards China for innovation and efficiency in drug development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-29 \u2022 The Shift in Global Drug Development",
     "last_proof_snippet": "China's clinical trial system has rapidly expanded, with reforms that streamline the approval process.",
@@ -27551,7 +27673,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -27987,7 +28109,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -28367,7 +28489,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
     "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
@@ -28495,7 +28617,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -28684,7 +28806,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-15 \u2022 Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
     "last_proof_snippet": "The company's revenue grew from $2.5 million to $250 million in just over a year, demonstrating the potential of AI in software development.",
@@ -28748,7 +28870,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-14 \u2022 \"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
     "last_proof_snippet": "Investing with a long-term perspective involves considering macroeconomic factors and their impact on smaller companies.",
@@ -28807,7 +28929,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Invest in AI companies that are positioned to benefit from the rapid growth and valuation in the industry, and consider the broader implications of AI on the future of work and social structures.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-14 \u2022 Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
     "last_proof_snippet": "AI is expected to replace many white collar jobs in the near future.",
@@ -28871,7 +28993,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
@@ -29055,7 +29177,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Investing in companies with a strong cultural identity and clear strategic focus can provide an edge in technology markets, as demonstrated by the contrasting paths of Apple and Microsoft.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-10 \u2022 What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
     "last_proof_snippet": "Microsoft's strength in enterprise is due to the legendary compatibility of Windows, a key value for corporations.",
@@ -29252,7 +29374,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
     "last_proof_snippet": "Beach Point Capital Management primarily manages institutional capital, which is characterized as patient capital.",
@@ -29315,7 +29437,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
@@ -29875,7 +29997,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-04 \u2022 \u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
     "last_proof_snippet": "Shipping inefficiencies can lead to increased profits for ship owners.",
@@ -30120,7 +30242,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_proof_snippet": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",
@@ -30556,7 +30678,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-27 \u2022 Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
     "last_proof_snippet": "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",
@@ -31904,7 +32026,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_proof_snippet": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229 00:00:00 I am blown away by how far you've come. The things that you can do with Neural Nets now does completely",
@@ -31968,7 +32090,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "last_proof_cite": "The a16z Show \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
     "last_proof_snippet": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. If you were starting from scratch today,",
@@ -32030,7 +32152,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-19 \u2022 Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
     "last_proof_snippet": "Today's episode is brought to you by the Picta AI Enhance International Equity ETF, Ticker PQNT. You'll hear more about they're using AI to enhance international equity returns later in the show. For now, let's get into it. Very pleased tod",

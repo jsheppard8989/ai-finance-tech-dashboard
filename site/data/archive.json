@@ -1,6 +1,27 @@
 {
   "insights": [
     {
+      "id": 251,
+      "title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-05-23",
+      "summary": "This episode of 'Moonshots with Peter Diamandis' discusses SpaceX's potential $75 billion IPO, the advancements in AI forecasting with GPT 5.5, the disruption caused by OpenAI's personal finance feature in ChatGPT, Colossal's breakthrough in species revival, and public opposition to data center construction. The podcast provides insights into the market potential of these technologies and their implications for investors.",
+      "key_takeaway": "Invest in companies and technologies that are at the forefront of space exploration, AI advancements, and synthetic biology, as these sectors are poised for significant growth and market disruption.",
+      "tickers_mentioned": [
+        "TSLA",
+        "GOOGL",
+        "AMZN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-23",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 236
+    },
+    {
       "id": 248,
       "title": "Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
       "source_type": "podcast",
@@ -178,7 +199,7 @@
         "NOC"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-19",
       "archived_date": null,
@@ -4651,6 +4672,42 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 198,
+      "term": "Ex-utero gestation",
+      "description": "The development of an embryo or fetus outside the body, using artificial means to support growth and development.",
+      "first_detected_date": "2026-05-23",
+      "last_mentioned_date": "2026-05-23",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider companies developing technologies for ex-utero gestation due to its potential in species revival and medical advancements.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 236,
+      "first_detected_speaker": "Peter Diamandis (hosts)",
+      "last_mentioned_episode_id": 236,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+    },
+    {
+      "id": 199,
+      "term": "AI forecasting",
+      "description": "The use of artificial intelligence to predict real-world events and outcomes based on data analysis.",
+      "first_detected_date": "2026-05-23",
+      "last_mentioned_date": "2026-05-23",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor advancements in AI forecasting as it can provide valuable insights for decision-making across various sectors.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 236,
+      "first_detected_speaker": "Peter Diamandis (hosts)",
+      "last_mentioned_episode_id": 236,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+    },
     {
       "id": 194,
       "term": "Multi-modal AI",
