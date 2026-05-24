@@ -1,5 +1,21 @@
 [
   {
+    "id": 237,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
+    "episode_date": "2026-05-24",
+    "summary": "This episode of Monetary Matters with Jack Farley delves into the intricacies of private credit, highlighting challenges in capital raising, fund performance divergence, and the burgeoning data center financing market. The discussion underscores the impact of pro-cyclical capital raising on fund risk, the growing importance of non-sponsored lending, and the evolving secondary market for private credit. Key insights include the need for investors to scrutinize fund vintage exposure, consider closed-end funds for better risk-adjusted returns, and explore data center financing opportunities.",
+    "key_takeaways": [
+      "Analyze vintage exposure of private credit funds and consider the timing of capital inflows when assessing risk.",
+      "Allocate to closed-end funds to potentially achieve better risk-adjusted returns compared to interval funds.",
+      "Explore investment opportunities in data center financing, particularly those with stable cash flow structures.",
+      "Increase allocations to non-sponsored lending strategies to reduce exposure to higher default risks associated with sponsored lending.",
+      "Monitor the private credit secondary market for distressed asset opportunities and evaluate GP-led continuation funds for potential investments."
+    ],
+    "investment_thesis": "Investors should focus on the quality of underlying assets and cash flows in private credit, with a particular emphasis on non-sponsored lending and data center financing opportunities.",
+    "key_tickers": null
+  },
+  {
     "id": 236,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
@@ -119,23 +135,6 @@
       "Continuously iterate on product features based on user feedback to maintain product market fit."
     ],
     "investment_thesis": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
-    "key_tickers": null
-  },
-  {
-    "id": 229,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Marc Andreessen on AI, California, and the Future of America | Joe Rogan",
-    "episode_date": "2026-05-20",
-    "summary": "In this episode of 'The a16z Show', the discussion revolves around the transformative impact of AI on various industries, with a focus on productivity, healthcare, and the future of work. The podcast highlights the concept of 'universal cognitive leverage', where AI tools expand individual capabilities, leading to increased productivity and innovation. The integration of AI in healthcare is expected to revolutionize diagnostics and treatment plans, while also addressing ethical concerns and the potential for job creation and transformation.",
-    "key_takeaways": [
-      "AI is providing unprecedented cognitive leverage, fundamentally changing work across sectors.",
-      "The emergence of AI has led to a significant increase in productivity, with implications for economic growth.",
-      "AI integration in healthcare promises to revolutionize diagnostics, treatment plans, and patient care.",
-      "AI is expected to create new jobs and enhance existing roles, countering unemployment fears.",
-      "Ethical considerations around AI, including biases and misuse, are critical areas of concern.",
-      "The future of AI involves balancing its capabilities with addressing societal challenges."
-    ],
-    "investment_thesis": "Invest in AI technologies to enhance productivity and drive innovation, with a focus on healthcare applications and ethical considerations.",
     "key_tickers": null
   }
 ]

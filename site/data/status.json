@@ -1,8 +1,8 @@
 {
-  "last_pipeline_run": "2026-05-24T12:03:26.699651",
+  "last_pipeline_run": "2026-05-24T13:37:11.316575",
   "last_steps": {
-    "podcasts_analyzed": 0,
-    "overton_terms": 151,
+    "podcasts_analyzed": 1,
+    "overton_terms": 155,
     "pundits": 150
   },
   "main_page": {
@@ -12,11 +12,11 @@
   },
   "counts": {
     "ticker_mentions": 177,
-    "podcast_episodes": 209,
+    "podcast_episodes": 210,
     "newsletters": 7,
     "daily_scores": 115,
-    "overton_terms_total": 151,
-    "latest_insights_total": 223,
+    "overton_terms_total": 155,
+    "latest_insights_total": 224,
     "today_mentions": {}
   }
 }

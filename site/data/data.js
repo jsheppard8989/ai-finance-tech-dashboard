@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-24T12:03:29.725525",
-  chartsVersion: "2026-05-24T12:03:24.073334",
+  generatedAt: "2026-05-24T13:37:18.959710",
+  chartsVersion: "2026-05-24T13:37:09.107655",
   priceSnapshot: {
   "GOOGL": {
     "price": 382.97,
     "change_pct": -1.41,
     "name": "GOOGL",
-    "updated_at": "2026-05-24T12:03:24.072336"
+    "updated_at": "2026-05-24T13:37:09.107159"
   },
   "BTC": {
-    "price": 76569.37,
+    "price": 76571.42,
     "change_pct": -6.31,
     "name": "BTC",
-    "updated_at": "2026-05-24T12:03:24.072353"
+    "updated_at": "2026-05-24T13:37:09.107171"
   },
   "NVDA": {
     "price": 215.33,
     "change_pct": 9.58,
     "name": "NVDA",
-    "updated_at": "2026-05-24T12:03:24.072360"
+    "updated_at": "2026-05-24T13:37:09.107175"
   },
   "MSFT": {
     "price": 418.57,
     "change_pct": 1.97,
     "name": "MSFT",
-    "updated_at": "2026-05-24T12:03:24.072366"
+    "updated_at": "2026-05-24T13:37:09.107178"
   },
   "WTI": {
     "price": 4.43,
     "change_pct": 5.46,
     "name": "WTI",
-    "updated_at": "2026-05-24T12:03:24.072371"
+    "updated_at": "2026-05-24T13:37:09.107181"
   },
   "S&P 500": {
     "price": 745.64,
     "change_pct": 3.02,
     "name": "S&P 500",
-    "updated_at": "2026-05-24T12:03:24.072376"
+    "updated_at": "2026-05-24T13:37:09.107184"
   },
   "META": {
     "price": 610.26,
     "change_pct": 0.88,
     "name": "META",
-    "updated_at": "2026-05-24T12:03:24.072383"
+    "updated_at": "2026-05-24T13:37:09.107188"
   },
   "AMZN": {
     "price": 266.32,
     "change_pct": -2.64,
     "name": "AMZN",
-    "updated_at": "2026-05-24T12:03:24.072388"
+    "updated_at": "2026-05-24T13:37:09.107192"
   },
   "TSLA": {
     "price": 426.01,
     "change_pct": 9.41,
     "name": "TSLA",
-    "updated_at": "2026-05-24T12:03:24.072393"
+    "updated_at": "2026-05-24T13:37:09.107195"
   },
   "QQQ": {
     "price": 717.54,
     "change_pct": 5.27,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-24T12:03:24.072399"
+    "updated_at": "2026-05-24T13:37:09.107198"
   },
   "BTC-USD": {
-    "price": 76569.37,
+    "price": 76571.42,
     "change_pct": -6.31,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-24T12:03:24.072404"
+    "updated_at": "2026-05-24T13:37:09.107201"
   }
 },
   tickerScores: [
@@ -828,6 +828,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 252,
+      "title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-24",
+      "summary": "This episode of Monetary Matters with Jack Farley delves into the intricacies of private credit, highlighting challenges in capital raising, fund performance divergence, and the burgeoning data center financing market. The discussion underscores the impact of pro-cyclical capital raising on fund risk, the growing importance of non-sponsored lending, and the evolving secondary market for private credit. Key insights include the need for investors to scrutinize fund vintage exposure, consider closed-end funds for better risk-adjusted returns, and explore data center financing opportunities.",
+      "key_takeaway": "Investors should focus on the quality of underlying assets and cash flows in private credit, with a particular emphasis on non-sponsored lending and data center financing opportunities.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 237
+    },
+    {
       "id": 251,
       "title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
       "source_type": "podcast",
@@ -983,7 +1002,7 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-20",
       "archived_date": null,
@@ -5500,6 +5519,78 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 200,
+      "term": "Pro-Cyclical Capital Raising",
+      "description": "A pattern in which private credit funds raise capital during periods of strong performance, potentially leading to overexposure to recent vintages and increased risk during market downturns.",
+      "first_detected_date": "2026-05-24",
+      "last_mentioned_date": "2026-05-24",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should scrutinize the vintage exposure of private credit funds to mitigate risk.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 237,
+      "first_detected_speaker": "Jack Farley (hosts)",
+      "last_mentioned_episode_id": 237,
+      "last_mentioned_speaker": "Jack Farley (hosts)"
+    },
+    {
+      "id": 201,
+      "term": "Data Center Financing",
+      "description": "The financing of data centers, expected to grow substantially due to the increasing demand for AI and cloud computing infrastructure.",
+      "first_detected_date": "2026-05-24",
+      "last_mentioned_date": "2026-05-24",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should explore opportunities in data center financing for potential high cash flow and growth.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 237,
+      "first_detected_speaker": "Jack Farley (hosts)",
+      "last_mentioned_episode_id": 237,
+      "last_mentioned_speaker": "Jack Farley (hosts)"
+    },
+    {
+      "id": 202,
+      "term": "Non-Sponsored Lending",
+      "description": "Lending that is not backed by a sponsor, often providing more covenants and better protection for lenders compared to sponsored lending.",
+      "first_detected_date": "2026-05-24",
+      "last_mentioned_date": "2026-05-24",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Consider increasing allocations to non-sponsored lending strategies to mitigate risk.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 237,
+      "first_detected_speaker": "Jack Farley (hosts)",
+      "last_mentioned_episode_id": 237,
+      "last_mentioned_speaker": "Jack Farley (hosts)"
+    },
+    {
+      "id": 203,
+      "term": "Secondary Market Evolution",
+      "description": "The growth and changes in the private credit secondary market, including an increase in transactions and a shift towards GP-led continuation funds.",
+      "first_detected_date": "2026-05-24",
+      "last_mentioned_date": "2026-05-24",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Monitor the secondary market for potential buying opportunities, especially in distressed assets.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 237,
+      "first_detected_speaker": "Jack Farley (hosts)",
+      "last_mentioned_episode_id": 237,
+      "last_mentioned_speaker": "Jack Farley (hosts)"
+    },
+    {
       "id": 194,
       "term": "Multi-modal AI",
       "description": "AI that integrates various forms of media, such as text, images, and audio, to enhance user engagement and application versatility.",
@@ -8228,6 +8319,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 252,
+      "title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-24",
+      "summary": "This episode of Monetary Matters with Jack Farley delves into the intricacies of private credit, highlighting challenges in capital raising, fund performance divergence, and the burgeoning data center financing market. The discussion underscores the impact of pro-cyclical capital raising on fund risk, the growing importance of non-sponsored lending, and the evolving secondary market for private credit. Key insights include the need for investors to scrutinize fund vintage exposure, consider closed-end funds for better risk-adjusted returns, and explore data center financing opportunities.",
+      "key_takeaway": "Investors should focus on the quality of underlying assets and cash flows in private credit, with a particular emphasis on non-sponsored lending and data center financing opportunities.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 237,
+      "episode_release_date": "2026-05-24",
+      "guest_name": "What Doomer Narratives Miss About Private Credit",
+      "key_tickers": []
+    },
+    {
       "id": 251,
       "title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
       "source_type": "podcast",
@@ -8370,26 +8481,6 @@ const dashboardData = {
       "key_tickers": [
         "GOOGL"
       ]
-    },
-    {
-      "id": 244,
-      "title": "Marc Andreessen on AI, California, and the Future of America | Joe Rogan",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-05-20",
-      "summary": "In this episode of 'The a16z Show', the discussion revolves around the transformative impact of AI on various industries, with a focus on productivity, healthcare, and the future of work. The podcast highlights the concept of 'universal cognitive leverage', where AI tools expand individual capabilities, leading to increased productivity and innovation. The integration of AI in healthcare is expected to revolutionize diagnostics and treatment plans, while also addressing ethical concerns and the potential for job creation and transformation.",
-      "key_takeaway": "Invest in AI technologies to enhance productivity and drive innovation, with a focus on healthcare applications and ethical considerations.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"TSLA\", \"MSFT\", \"NVDA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-20",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 229,
-      "episode_release_date": "2026-05-20",
-      "guest_name": null,
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -8515,6 +8606,110 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 200,
+      "term": "Pro-Cyclical Capital Raising",
+      "description": "A pattern in which private credit funds raise capital during periods of strong performance, potentially leading to overexposure to recent vintages and increased risk during market downturns.",
+      "first_detected_date": "2026-05-24",
+      "last_mentioned_date": "2026-05-24",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should scrutinize the vintage exposure of private credit funds to mitigate risk.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 237,
+      "first_detected_speaker": "Jack Farley (hosts)",
+      "last_mentioned_episode_id": 237,
+      "last_mentioned_speaker": "Jack Farley (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
+      "first_detected_episode_date": "2026-05-24",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
+      "last_mentioned_episode_date": "2026-05-24"
+    },
+    {
+      "id": 201,
+      "term": "Data Center Financing",
+      "description": "The financing of data centers, expected to grow substantially due to the increasing demand for AI and cloud computing infrastructure.",
+      "first_detected_date": "2026-05-24",
+      "last_mentioned_date": "2026-05-24",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should explore opportunities in data center financing for potential high cash flow and growth.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 237,
+      "first_detected_speaker": "Jack Farley (hosts)",
+      "last_mentioned_episode_id": 237,
+      "last_mentioned_speaker": "Jack Farley (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
+      "first_detected_episode_date": "2026-05-24",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
+      "last_mentioned_episode_date": "2026-05-24"
+    },
+    {
+      "id": 202,
+      "term": "Non-Sponsored Lending",
+      "description": "Lending that is not backed by a sponsor, often providing more covenants and better protection for lenders compared to sponsored lending.",
+      "first_detected_date": "2026-05-24",
+      "last_mentioned_date": "2026-05-24",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Consider increasing allocations to non-sponsored lending strategies to mitigate risk.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 237,
+      "first_detected_speaker": "Jack Farley (hosts)",
+      "last_mentioned_episode_id": 237,
+      "last_mentioned_speaker": "Jack Farley (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
+      "first_detected_episode_date": "2026-05-24",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
+      "last_mentioned_episode_date": "2026-05-24"
+    },
+    {
+      "id": 203,
+      "term": "Secondary Market Evolution",
+      "description": "The growth and changes in the private credit secondary market, including an increase in transactions and a shift towards GP-led continuation funds.",
+      "first_detected_date": "2026-05-24",
+      "last_mentioned_date": "2026-05-24",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Monitor the secondary market for potential buying opportunities, especially in distressed assets.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 237,
+      "first_detected_speaker": "Jack Farley (hosts)",
+      "last_mentioned_episode_id": 237,
+      "last_mentioned_speaker": "Jack Farley (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
+      "first_detected_episode_date": "2026-05-24",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
+      "last_mentioned_episode_date": "2026-05-24"
+    },
     {
       "id": 194,
       "term": "Multi-modal AI",
@@ -8748,110 +8943,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Macro Voices",
       "last_mentioned_episode_title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
       "last_mentioned_episode_date": "2026-05-07"
-    },
-    {
-      "id": 161,
-      "term": "AGI",
-      "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
-      "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-05-07",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 204,
-      "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 204,
-      "last_mentioned_speaker": "Demis Hassabis",
-      "overton_score": 0.68,
-      "resonance_pct": 17,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
-      "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
-      "last_mentioned_episode_date": "2026-05-07"
-    },
-    {
-      "id": 162,
-      "term": "GLP-1 Drugs",
-      "description": "Glucagon-like peptide-1 receptor agonists, a class of drugs used for the treatment of type 2 diabetes and potentially obesity.",
-      "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-05-07",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in pharmaceutical companies developing GLP-1 drugs for longevity and healthspan enhancement.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 204,
-      "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 204,
-      "last_mentioned_speaker": "Demis Hassabis",
-      "overton_score": 0.68,
-      "resonance_pct": 17,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
-      "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
-      "last_mentioned_episode_date": "2026-05-07"
-    },
-    {
-      "id": 156,
-      "term": "Compounding Talent, Capital, and Culture",
-      "description": "The concept of building an organization that not only generates returns but also systematically develops and retains talent, grows capital, and fosters a strong culture over time.",
-      "first_detected_date": "2026-05-05",
-      "last_mentioned_date": "2026-05-05",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should look for firms that demonstrate the ability to compound these elements for sustainable growth.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 199,
-      "first_detected_speaker": "Tony James",
-      "last_mentioned_episode_id": 199,
-      "last_mentioned_speaker": "Tony James",
-      "overton_score": 0.64,
-      "resonance_pct": 16,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Building Blackstone, Backing Costco, with Tony James",
-      "first_detected_episode_date": "2026-05-05",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Building Blackstone, Backing Costco, with Tony James",
-      "last_mentioned_episode_date": "2026-05-05"
-    },
-    {
-      "id": 153,
-      "term": "Western AI Stack",
-      "description": "A concept referring to AI technologies that align with Western values, such as individual consent and rule-based operations.",
-      "first_detected_date": "2026-05-04",
-      "last_mentioned_date": "2026-05-04",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the alignment of AI technologies with Western values as a potential differentiator in a globally competitive market.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 195,
-      "first_detected_speaker": "Sarah B. Rogers",
-      "last_mentioned_episode_id": 195,
-      "last_mentioned_speaker": "Sarah B. Rogers",
-      "overton_score": 0.63,
-      "resonance_pct": 16,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "first_detected_episode_date": "2026-05-04",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "last_mentioned_episode_date": "2026-05-04"
     }
   ]
 },
@@ -23932,12 +24023,74 @@ const dashboardData = {
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-05-23",
     "key_tickers": []
+  },
+  "252": {
+    "id": 242,
+    "insight_id": 252,
+    "podcast_episode_id": 237,
+    "overview": "The unresolved tension in private credit lies in the balance between the cyclical nature of capital raising and the quest for stable, risk-adjusted returns. The competitive dynamic is further complicated by the divergence in performance between fund structures and the emerging opportunities in data center financing. Allocators must navigate the tradeoff between the allure of high returns in pro-cyclical funds and the relative stability offered by non-sponsored lending and data center investments. The metric that arbitrates this uncertainty is the fund's vintage exposure and the underlying asset quality, particularly in the context of market volatility and economic cycles.",
+    "key_takeaways_detailed": [
+      "Investors should map the vintage exposure of private credit funds to anticipate potential overexposure to market downturns and adjust their allocation strategies accordingly.",
+      "Given the performance divergence, investors might consider a hybrid approach, balancing interval and closed-end funds to optimize for both liquidity and risk-adjusted returns.",
+      "The projected growth in data center financing presents an opportunity for investors to capitalize on the infrastructure demands of AI and cloud computing, with a focus on cash flow stability.",
+      "Investors should monitor the non-sponsored lending space for potential shifts in default rates and recovery values, which could indicate a change in the risk-return profile of this segment.",
+      "As the secondary market evolves, investors should be prepared to act on distressed asset opportunities and evaluate the merits of GP-led continuation funds for potential inclusion in their portfolios."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that the structural changes within private credit, particularly the growth of data center financing and the shift towards non-sponsored lending, will offer investors a chance to diversify risk and seek stable returns amidst market volatility. This thesis is tied to the observable development of increased investment in data center infrastructure and the relative performance of non-sponsored lending compared to sponsored lending. The timeframe for vindication versus invalidation is medium to long-term, as these structural changes and market developments unfold over several years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in cloud services and AI positions it as a beneficiary of the growing data center financing market, which is driven by demand for these technologies.",
+        "positioning": "Strategically long, as Apple's continued expansion in cloud and AI is likely to benefit from the broader market trends in data center financing.",
+        "risk": "Key risks include changes in consumer demand for cloud services, increased competition in the AI space, and potential disruptions in global supply chains affecting data center operations."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant economic downturn could lead to reduced demand for data center services, affecting the growth projections for this market.",
+      "Regulatory changes impacting the tech industry could slow down investment in AI and cloud computing, potentially reducing the demand for data center infrastructure.",
+      "A shift in investor sentiment towards risk aversion could lead to a decrease in capital allocation to private credit, affecting the fundraising capabilities of interval funds."
+    ],
+    "catalysts": [
+      "Announcements of major investments in data center infrastructure by tech giants.",
+      "Release of industry reports confirming the growth trajectory of the data center financing market.",
+      "Regulatory decisions affecting the tech industry and the financing landscape for data centers.",
+      "Economic indicators signaling the health of the private credit market and the stability of non-sponsored lending."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-24T13:36:30.317705",
+    "updated_at": "2026-05-24 18:36:30",
+    "episode_evidence": "In the Monetary Matters podcast, Jack Farley and John Cocke of Corbin Capital dissect the nuances of private credit. They highlight the pro-cyclical nature of capital raising, where 'Interval funds inherently are pro-cyclical because they raise money when performance is good,' leading to potential overexposure to recent vintages and increased risk during downturns. The discussion also reveals a significant performance divergence, with Cocke noting a 'dispersion of returns' between interval and closed-end funds. Furthermore, the data center financing market is identified as a burgeoning opportunity, with an estimated 'trillion dollars... going to be invested in this asset class,' driven by AI and cloud computing demands. Lastly, non-sponsored lending is emphasized as a more stable investment, with 'higher recoveries... in the non-sponsor space,' contrasting with the increasing default risks in sponsor-backed loans.",
+    "falsification_tracks": [
+      "If the projected investment in data center financing fails to materialize or is significantly lower than the $1 trillion estimate, it would challenge the thesis of substantial growth in this market.",
+      "Should the default rates in private credit funds rise sharply, particularly in non-sponsored lending, it would undermine the argument for its stability and lower risk profile.",
+      "A sustained contraction in the secondary market for private credit, indicated by a decrease in transaction volume or value, would weaken the case for evolving liquidity options."
+    ],
+    "insight_title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-05-24",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 8162,
+    "id": 8216,
+    "name": "What Doomer Narratives Miss About Private Credit",
+    "slug": "what-doomer-narratives-miss-about-private-credit",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investors should focus on the quality of underlying assets and cash flows in private credit, with a particular emphasis on non-sponsored lending and data center financing opportunities.",
+    "last_episode_title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-24",
+    "appearance_count": 1
+  },
+  {
+    "id": 8217,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -23949,7 +24102,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8163,
+    "id": 8218,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -23961,7 +24114,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8164,
+    "id": 8219,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -23973,7 +24126,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8165,
+    "id": 8220,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -23985,7 +24138,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8166,
+    "id": 8221,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -23997,7 +24150,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8167,
+    "id": 8222,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -24009,7 +24162,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 8168,
+    "id": 8223,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -24021,7 +24174,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8169,
+    "id": 8224,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -24033,7 +24186,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8170,
+    "id": 8225,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -24045,7 +24198,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8171,
+    "id": 8226,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -24057,7 +24210,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8172,
+    "id": 8227,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -24069,7 +24222,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8173,
+    "id": 8228,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -24081,7 +24234,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8174,
+    "id": 8229,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -24093,7 +24246,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8175,
+    "id": 8230,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -24105,7 +24258,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8176,
+    "id": 8231,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -24117,7 +24270,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8177,
+    "id": 8232,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -24129,7 +24282,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8178,
+    "id": 8233,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -24141,7 +24294,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8179,
+    "id": 8234,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -24153,7 +24306,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8180,
+    "id": 8235,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -24162,18 +24315,6 @@ const dashboardData = {
     "last_episode_title": "From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-29",
-    "appearance_count": 1
-  },
-  {
-    "id": 8181,
-    "name": "David Sinclair",
-    "slug": "david-sinclair",
-    "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
-    "known_for": "Longevity science and authoring 'Lifespan: Why We Age\u2014and Why We Don't Have To'.",
-    "last_main_idea": "Investing in longevity and healthspan technologies and therapies offers significant growth potential as scientific advancements continue to extend human lifespan and improve quality of life.",
-    "last_episode_title": "David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-04-28",
     "appearance_count": 1
   }
 ],
@@ -24576,7 +24717,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.38,
+    "mention_score_decayed": 1.35,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -25380,7 +25521,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -25444,7 +25585,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -25507,7 +25648,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -25942,7 +26083,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -26008,7 +26149,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -26569,7 +26710,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -26632,7 +26773,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -26820,7 +26961,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",

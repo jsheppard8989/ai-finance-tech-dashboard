@@ -1,6 +1,18 @@
 [
   {
-    "id": 8162,
+    "id": 8216,
+    "name": "What Doomer Narratives Miss About Private Credit",
+    "slug": "what-doomer-narratives-miss-about-private-credit",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investors should focus on the quality of underlying assets and cash flows in private credit, with a particular emphasis on non-sponsored lending and data center financing opportunities.",
+    "last_episode_title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-24",
+    "appearance_count": 1
+  },
+  {
+    "id": 8217,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8163,
+    "id": 8218,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8164,
+    "id": 8219,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8165,
+    "id": 8220,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8166,
+    "id": 8221,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8167,
+    "id": 8222,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -72,7 +84,7 @@
     "appearance_count": 2
   },
   {
-    "id": 8168,
+    "id": 8223,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8169,
+    "id": 8224,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8170,
+    "id": 8225,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8171,
+    "id": 8226,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8172,
+    "id": 8227,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8173,
+    "id": 8228,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8174,
+    "id": 8229,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8175,
+    "id": 8230,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8176,
+    "id": 8231,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8177,
+    "id": 8232,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8178,
+    "id": 8233,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8179,
+    "id": 8234,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8180,
+    "id": 8235,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8181,
+    "id": 8236,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8182,
+    "id": 8237,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8183,
+    "id": 8238,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8184,
+    "id": 8239,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8185,
+    "id": 8240,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8186,
+    "id": 8241,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8187,
+    "id": 8242,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8188,
+    "id": 8243,
     "name": "banking specialist Chris Wayland",
     "slug": "banking-specialist-chris-wayland",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8189,
+    "id": 8244,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 8190,
+    "id": 8245,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-15",
-    "appearance_count": 1
-  },
-  {
-    "id": 8191,
-    "name": "\"I Don't Believe the Stagflation Narrative\"",
-    "slug": "i-dont-believe-the-stagflation-narrative",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
-    "last_episode_title": "\"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-14",
     "appearance_count": 1
   }
 ]
