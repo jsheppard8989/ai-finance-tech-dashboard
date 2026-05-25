@@ -1,5 +1,22 @@
 [
   {
+    "id": 239,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
+    "episode_date": "2026-05-25",
+    "summary": "In this episode, Jack Farley discusses the semiconductor cycle's expected downturn, the implications of a wave of IPOs as a late-cycle signal, and the current state of inflation primarily affecting food and energy. The conversation also covers the Fed's shift towards a neutral bias, the potential for the yield curve to steepen, and the challenges faced by emerging markets. Additionally, the impact of AI on inflation in the semiconductor sector and the labor market is explored, along with investment strategies in an inflationary environment and the upcoming AI-related IPOs.",
+    "key_takeaways": [
+      "The semiconductor cycle is predicted to peak and roll over by the end of 2023 or early 2024, signaling a potential downturn in semiconductor stocks.",
+      "Inflation pressures are currently isolated but could become more widespread if supply chain issues persist, particularly affecting food and energy sectors.",
+      "The Fed's communication is shifting towards a neutral bias, which may influence interest rate decisions and market expectations.",
+      "The long end of the yield curve is expected to steepen, with predictions of 6% yields on 30-year bonds, potentially benefiting risk assets.",
+      "Emerging markets are under pressure, with India showing resilience due to unique growth factors, while other markets struggle with a strong dollar and fading energy prices.",
+      "AI is contributing to inflationary pressures in the semiconductor sector, potentially leading to a scarcity of lower-margin semiconductors and impacting consumer electronics."
+    ],
+    "investment_thesis": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
+    "key_tickers": null
+  },
+  {
     "id": 238,
     "podcast_name": "The a16z Show",
     "episode_title": "Why AI Isn\u2019t Killing SaaS Yet",
@@ -120,22 +137,5 @@
     "key_tickers": [
       "GOOGL"
     ]
-  },
-  {
-    "id": 231,
-    "podcast_name": "Macro Voices",
-    "episode_title": "MacroVoices #533 Morgan Downey: The Return of Oil 101",
-    "episode_date": "2026-05-21",
-    "summary": "In this episode of Macro Voices, expert Morgan Downey discusses the potential impact of the Strait of Hormuz remaining closed on oil prices, predicting they could reach $150 to $200. The conversation highlights the oil market's muted reaction to the crisis, the industry's improved inventory efficiency, and the necessity for significant demand destruction to balance the market. Downey also emphasizes the shift in oil transportation dynamics with the development of alternative pipelines and the UAE's exit from OPEC, suggesting a change in production dynamics.",
-    "key_takeaways": [
-      "Oil prices could spike to $150 to $200 if the Strait of Hormuz remains closed for another month.",
-      "Strategic petroleum reserve releases have temporarily prevented oil price spikes but are not sustainable.",
-      "The oil industry has improved inventory efficiency by 20-30% over the past five years, mitigating supply disruptions.",
-      "A demand destruction of 10 million barrels per day is necessary to balance the oil market.",
-      "Investors should stress-test portfolios for scenarios involving $150 to $200 oil prices within the next month.",
-      "Investment opportunities may arise in energy infrastructure projects, particularly pipeline construction."
-    ],
-    "investment_thesis": "Investors should prepare for potential oil price volatility and consider hedging strategies, while also looking for investment opportunities in companies improving inventory efficiency and energy infrastructure projects.",
-    "key_tickers": null
   }
 ]

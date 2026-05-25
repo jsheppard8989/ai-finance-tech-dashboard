@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-25T12:05:26.493013",
-  chartsVersion: "2026-05-25T12:05:12.854419",
+  generatedAt: "2026-05-25T13:39:08.077114",
+  chartsVersion: "2026-05-25T13:38:59.242438",
   priceSnapshot: {
   "GOOGL": {
     "price": 382.97,
     "change_pct": -1.41,
     "name": "GOOGL",
-    "updated_at": "2026-05-25T12:05:12.853311"
+    "updated_at": "2026-05-25T13:38:59.241964"
   },
   "BTC": {
-    "price": 77691.26,
-    "change_pct": -3.46,
+    "price": 77535.98,
+    "change_pct": -3.66,
     "name": "BTC",
-    "updated_at": "2026-05-25T12:05:12.853331"
+    "updated_at": "2026-05-25T13:38:59.241974"
   },
   "NVDA": {
     "price": 215.33,
     "change_pct": 9.58,
     "name": "NVDA",
-    "updated_at": "2026-05-25T12:05:12.853340"
+    "updated_at": "2026-05-25T13:38:59.241978"
   },
   "MSFT": {
     "price": 418.57,
     "change_pct": 1.97,
     "name": "MSFT",
-    "updated_at": "2026-05-25T12:05:12.853349"
+    "updated_at": "2026-05-25T13:38:59.241982"
   },
   "WTI": {
     "price": 4.43,
     "change_pct": 5.46,
     "name": "WTI",
-    "updated_at": "2026-05-25T12:05:12.853357"
+    "updated_at": "2026-05-25T13:38:59.241985"
   },
   "S&P 500": {
     "price": 745.64,
     "change_pct": 3.02,
     "name": "S&P 500",
-    "updated_at": "2026-05-25T12:05:12.853365"
+    "updated_at": "2026-05-25T13:38:59.241988"
   },
   "META": {
     "price": 610.26,
     "change_pct": 0.88,
     "name": "META",
-    "updated_at": "2026-05-25T12:05:12.853374"
+    "updated_at": "2026-05-25T13:38:59.241991"
   },
   "AMZN": {
     "price": 266.32,
     "change_pct": -2.64,
     "name": "AMZN",
-    "updated_at": "2026-05-25T12:05:12.853383"
+    "updated_at": "2026-05-25T13:38:59.241994"
   },
   "TSLA": {
     "price": 426.01,
     "change_pct": 9.41,
     "name": "TSLA",
-    "updated_at": "2026-05-25T12:05:12.853391"
+    "updated_at": "2026-05-25T13:38:59.242001"
   },
   "QQQ": {
     "price": 717.54,
     "change_pct": 5.27,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-25T12:05:12.853399"
+    "updated_at": "2026-05-25T13:38:59.242004"
   },
   "BTC-USD": {
-    "price": 77691.26,
-    "change_pct": -3.46,
+    "price": 77535.98,
+    "change_pct": -3.66,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-25T12:05:12.853407"
+    "updated_at": "2026-05-25T13:38:59.242007"
   }
 },
   tickerScores: [
@@ -848,6 +848,25 @@ const dashboardData = {
       "podcast_episode_id": 238
     },
     {
+      "id": 254,
+      "title": "Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-25",
+      "summary": "In this episode, Jack Farley discusses the semiconductor cycle's expected downturn, the implications of a wave of IPOs as a late-cycle signal, and the current state of inflation primarily affecting food and energy. The conversation also covers the Fed's shift towards a neutral bias, the potential for the yield curve to steepen, and the challenges faced by emerging markets. Additionally, the impact of AI on inflation in the semiconductor sector and the labor market is explored, along with investment strategies in an inflationary environment and the upcoming AI-related IPOs.",
+      "key_takeaway": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 239
+    },
+    {
       "id": 252,
       "title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
       "source_type": "podcast",
@@ -980,7 +999,7 @@ const dashboardData = {
         "DVN"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-21",
       "archived_date": null,
@@ -5539,22 +5558,22 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 204,
-      "term": "Answer Engine Optimization (AEO)",
-      "description": "A new software category focused on tracking and optimizing AI performance.",
+      "id": 205,
+      "term": "AI Trade",
+      "description": "The shift in production and demand towards artificial intelligence-related products and services, impacting the semiconductor sector and consumer electronics supply.",
       "first_detected_date": "2026-05-25",
       "last_mentioned_date": "2026-05-25",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should look for opportunities in software that enhances AI capabilities rather than directly competing with traditional SaaS.",
+      "investment_implications": "Investors should consider the impact of AI on supply chains and consumer product availability when making investment decisions in the tech sector.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 238,
-      "first_detected_speaker": "John Doe",
-      "last_mentioned_episode_id": 238,
-      "last_mentioned_speaker": "John Doe"
+      "first_detected_episode_id": 239,
+      "first_detected_speaker": "Andreas Stino-Larson",
+      "last_mentioned_episode_id": 239,
+      "last_mentioned_speaker": "Andreas Stino-Larson"
     },
     {
       "id": 194,
@@ -8308,6 +8327,26 @@ const dashboardData = {
       ]
     },
     {
+      "id": 254,
+      "title": "Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-25",
+      "summary": "In this episode, Jack Farley discusses the semiconductor cycle's expected downturn, the implications of a wave of IPOs as a late-cycle signal, and the current state of inflation primarily affecting food and energy. The conversation also covers the Fed's shift towards a neutral bias, the potential for the yield curve to steepen, and the challenges faced by emerging markets. Additionally, the impact of AI on inflation in the semiconductor sector and the labor market is explored, along with investment strategies in an inflationary environment and the upcoming AI-related IPOs.",
+      "key_takeaway": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 239,
+      "episode_release_date": "2026-05-25",
+      "guest_name": "Things Are Going to Get Even Crazier",
+      "key_tickers": []
+    },
+    {
       "id": 252,
       "title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
       "source_type": "podcast",
@@ -8408,26 +8447,6 @@ const dashboardData = {
       "key_tickers": [
         "NVDA"
       ]
-    },
-    {
-      "id": 246,
-      "title": "MacroVoices #533 Morgan Downey: The Return of Oil 101",
-      "source_type": "podcast",
-      "source_name": "Macro Voices",
-      "source_date": "2026-05-21",
-      "summary": "In this episode of Macro Voices, expert Morgan Downey discusses the potential impact of the Strait of Hormuz remaining closed on oil prices, predicting they could reach $150 to $200. The conversation highlights the oil market's muted reaction to the crisis, the industry's improved inventory efficiency, and the necessity for significant demand destruction to balance the market. Downey also emphasizes the shift in oil transportation dynamics with the development of alternative pipelines and the UAE's exit from OPEC, suggesting a change in production dynamics.",
-      "key_takeaway": "Investors should prepare for potential oil price volatility and consider hedging strategies, while also looking for investment opportunities in companies improving inventory efficiency and energy infrastructure projects.",
-      "tickers_mentioned": "[\"AAPL\", \"XOM\", \"PBR\", \"SLB\", \"DVN\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-21",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 231,
-      "episode_release_date": "2026-05-21",
-      "guest_name": "expert Morgan Downey",
-      "key_tickers": []
     },
     {
       "id": 247,
@@ -8576,29 +8595,29 @@ const dashboardData = {
   ],
   "overton": [
     {
-      "id": 204,
-      "term": "Answer Engine Optimization (AEO)",
-      "description": "A new software category focused on tracking and optimizing AI performance.",
+      "id": 205,
+      "term": "AI Trade",
+      "description": "The shift in production and demand towards artificial intelligence-related products and services, impacting the semiconductor sector and consumer electronics supply.",
       "first_detected_date": "2026-05-25",
       "last_mentioned_date": "2026-05-25",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should look for opportunities in software that enhances AI capabilities rather than directly competing with traditional SaaS.",
+      "investment_implications": "Investors should consider the impact of AI on supply chains and consumer product availability when making investment decisions in the tech sector.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 238,
-      "first_detected_speaker": "John Doe",
-      "last_mentioned_episode_id": 238,
-      "last_mentioned_speaker": "John Doe",
+      "first_detected_episode_id": 239,
+      "first_detected_speaker": "Andreas Stino-Larson",
+      "last_mentioned_episode_id": 239,
+      "last_mentioned_speaker": "Andreas Stino-Larson",
       "overton_score": 1.0,
       "resonance_pct": 25,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Why AI Isn\u2019t Killing SaaS Yet",
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
       "first_detected_episode_date": "2026-05-25",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Why AI Isn\u2019t Killing SaaS Yet",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
       "last_mentioned_episode_date": "2026-05-25"
     },
     {
@@ -24099,12 +24118,63 @@ const dashboardData = {
       "FIGMA",
       "PERPLEXITY"
     ]
+  },
+  "254": {
+    "id": 244,
+    "insight_id": 254,
+    "podcast_episode_id": 239,
+    "overview": "The unresolved tension in the market revolves around the timing and impact of the semiconductor cycle's downturn and the broader effects of inflation. The competitive dynamic is between the current high valuations in the tech sector and the potential for a market correction as the cycle peaks. The policy tradeoff lies in the Fed's communication stance, which could either support or undermine market stability. Allocators need to consider who wins or loses in this scenario, with the metric being the resilience of semiconductor stocks and the institution arbitrating uncertainty being the Federal Reserve's policy decisions. The horizon of proof is within the next year, as the semiconductor cycle is expected to roll over by the end of 2023 or early 2024.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the semiconductor cycle and be prepared to adjust their exposure, particularly in the second half of 2023, to capitalize on or mitigate the downturn's impact.",
+      "In the face of inflation, focus on companies with robust supply chains and pricing power, as they are better positioned to navigate and potentially benefit from rising costs.",
+      "Given the potential for a neutral bias from the Fed, investors should be agile in their fixed income strategies, ready to respond to changes in interest rate expectations.",
+      "Consider a geographically diversified approach, with a particular focus on India, which shows resilience amidst challenges faced by other emerging markets.",
+      "Stay abreast of AI-related developments and their impact on the labor market, as this could signal shifts in sector performance and investment opportunities."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that the semiconductor cycle's downturn and the current state of inflation will significantly impact market dynamics. A downturn in the semiconductor cycle could lead to a revaluation of tech stocks, while inflationary pressures, if they persist, could affect consumer spending and corporate margins. The timeframe for this thesis is within the next 12 to 18 months, with the vindication coming in the form of a downturn in semiconductor stocks and a continued or increased trend in inflation affecting consumer goods. Conversely, if semiconductor stocks continue to rise and inflation subsides, the thesis would be invalidated.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a key player in the consumer electronics market, which is heavily influenced by the semiconductor cycle and AI-driven product development.",
+        "positioning": "Positioning should be strategic, with a focus on long-term growth potential, but with a tactical hedge in place to protect against potential downturns in the semiconductor cycle.",
+        "risk": "Key risks include supply chain disruptions due to geopolitical tensions and the impact of inflation on consumer spending power."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The semiconductor cycle may not roll over as predicted, and instead, continued demand for high-margin AI products could prolong the cycle.",
+      "Inflation may be more transient than anticipated, with supply chain issues resolving faster than expected, reducing price pressures.",
+      "The Fed could maintain a hawkish stance, leading to higher interest rates that could counteract inflation and support the dollar against emerging market currencies."
+    ],
+    "catalysts": [
+      "FOMC meetings and communications for shifts in policy bias.",
+      "CPI and PPI reports for continued or changing trends in inflation.",
+      "Semiconductor company earnings reports for signs of the cycle's peak.",
+      "Geopolitical developments, particularly regarding trade and supply chain disruptions.",
+      "AI-related IPOs and their impact on market sentiment and investment allocation."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-25T13:38:20.003891",
+    "updated_at": "2026-05-25 18:38:20",
+    "episode_evidence": "In the podcast, Andreas Stino-Larson provides a detailed perspective on the semiconductor cycle, stating, 'I think the semiconductor cycle will roll over to what's the end of the year early next year.' This prediction is grounded in the observation of a euphoric phase preceding the downturn, which is a common characteristic in market cycles. Additionally, he discusses the implications of a wave of IPOs as a late-cycle signal, suggesting market saturation. On the topic of inflation, Stino-Larson notes, 'I don't necessarily think the CPI prints that we've seen over the past couple of months are too worrisome yet,' indicating that while inflation is present, it is not yet a significant cause for alarm. These insights provide a deeper understanding of the mechanisms driving market dynamics and the potential implications for investors.",
+    "falsification_tracks": [
+      "If semiconductor stocks continue to rise beyond the end of 2023 without showing signs of a downturn, the prediction of a cycle peak would be challenged.",
+      "Should CPI prints remain stable or decrease over the next few months, the current assessment of inflation pressures being primarily isolated could be proven incorrect.",
+      "If the Fed maintains a hawkish stance and does not adopt a neutral bias, the expected flexibility in interest rate decisions would not materialize, affecting market expectations."
+    ],
+    "insight_title": "Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-05-25",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 8491,
+    "id": 8547,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -24116,7 +24186,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8492,
+    "id": 8548,
+    "name": "Things Are Going to Get Even Crazier",
+    "slug": "things-are-going-to-get-even-crazier",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
+    "last_episode_title": "Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-25",
+    "appearance_count": 1
+  },
+  {
+    "id": 8549,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -24128,7 +24210,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8493,
+    "id": 8550,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -24140,7 +24222,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8494,
+    "id": 8551,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -24152,7 +24234,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8495,
+    "id": 8552,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -24164,7 +24246,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8496,
+    "id": 8553,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -24176,7 +24258,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8497,
+    "id": 8554,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -24188,7 +24270,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8498,
+    "id": 8555,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -24200,7 +24282,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 8499,
+    "id": 8556,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -24212,7 +24294,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8500,
+    "id": 8557,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -24224,7 +24306,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8501,
+    "id": 8558,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -24236,7 +24318,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8502,
+    "id": 8559,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -24248,7 +24330,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8503,
+    "id": 8560,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -24260,7 +24342,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8504,
+    "id": 8561,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -24272,7 +24354,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8505,
+    "id": 8562,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -24284,7 +24366,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8506,
+    "id": 8563,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -24296,7 +24378,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8507,
+    "id": 8564,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -24308,7 +24390,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8508,
+    "id": 8565,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -24320,7 +24402,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8509,
+    "id": 8566,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -24329,18 +24411,6 @@ const dashboardData = {
     "last_episode_title": "Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
-    "appearance_count": 1
-  },
-  {
-    "id": 8510,
-    "name": "SpaceX IPO",
-    "slug": "spacex-ipo",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investors should look for opportunities in chaos, focusing on sectors with significant potential for growth and capital movement, such as SpaceX's IPO and the de-scheduling of cannabis.",
-    "last_episode_title": "SpaceX IPO: Why This Hedge Fund Manager is Fading the Hype | Moez Kassam",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-30",
     "appearance_count": 1
   }
 ],
@@ -24743,7 +24813,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.35,
+    "mention_score_decayed": 1.32,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -25349,6 +25419,71 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 263,
+    "name": "Andreas Stino-Larson",
+    "slug": "andreas-stino-larson",
+    "bio": "Andreas Stino-Larson is an expert in market analysis and economic trends, known for his insights on semiconductor cycles and market saturation signals. As a former hedge fund manager and editor of RealVision's macro research, he provides valuable perspectives on macroeconomic shifts and their implications for investors.",
+    "known_for": "His expertise in predicting semiconductor market cycles and identifying late-cycle signals in the economy.",
+    "net_worth_usd": 5000000.0,
+    "net_worth_source": "https://bigmagazines.com/andrew-santino-net-worth/",
+    "net_worth_updated_at": "2026-05-25T13:37:54.800852",
+    "voice_tone": "Confident and assertive.",
+    "voice_style": "Factual and data-driven.",
+    "voice_delivery_notes": "Clear and concise, with emphasis on key market predictions.",
+    "voice_profile_updated_at": "2026-05-25 18:37:29",
+    "last_seen": "2026-05-25 18:37:29",
+    "last_episode_title": "Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-25",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
+    "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
+    "supporting_takeaway": "Inflation pressures are currently isolated but could become more widespread if supply chain issues persist, particularly affecting food and energy sectors.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-25T13:37:53.893081",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Andreas Stino-Larson",
+      "fetched_at": "2026-05-25T18:37:53.892881+00:00",
+      "cliff_notes": "Andreas Stino-Larson has made a name for himself as an expert in market analysis and economic trends, particularly in the realm of semiconductor cycles and market saturation signals. His career has seen him transition from managing hedge funds to editing macro research for RealVision, where he shares his insights with a broader audience. Stino-Larson's ability to predict market cycles and identify key economic indicators has made him a sought-after voice in the investment community. His perspectives on macroeconomic shifts and their implications for investors have been influential in shaping market strategies and understanding the broader economic landscape.",
+      "derived": {
+        "current_role": "Editor of RealVision's Macro Research",
+        "former_positions": "Former Hedge Fund Manager"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Andreas Stino-Larson has made a name for himself as an expert in market analysis and economic trends, particularly in the realm of semiconductor cycles and market saturation signals. His career has seen him transition from managing hedge funds to editing macro research for RealVision, where he shares his insights with a broader audience.",
+        "Stino-Larson's ability to predict market cycles and identify key economic indicators has made him a sought-after voice in the investment community. His perspectives on macroeconomic shifts and their implications for investors have been influential in shaping market strategies and understanding the broader economic landscape."
+      ],
+      "sections": [
+        {
+          "heading": "Semiconductor Cycles",
+          "body": "Stino-Larson is well-regarded for his analysis of semiconductor market cycles, providing investors with valuable insights into market trends and potential shifts."
+        },
+        {
+          "heading": "Market Saturation Signals",
+          "body": "He has a keen eye for identifying signals of market saturation, which can be crucial for investors looking to time their entries and exits in the market."
+        },
+        {
+          "heading": "Macroeconomic Shifts",
+          "body": "As the editor of RealVision's macro research, Stino-Larson offers in-depth analysis of macroeconomic shifts and their impact on various sectors of the economy."
+        },
+        {
+          "heading": "Investment Strategies",
+          "body": "His expertise in market analysis has led to the development of investment strategies that take into account broader economic trends and cycles."
+        }
+      ]
+    },
+    "net_worth": "$5.0M"
+  },
+  {
     "id": 261,
     "name": "John Doe",
     "slug": "john-doe",
@@ -25611,7 +25746,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -25675,7 +25810,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -25738,7 +25873,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -26800,7 +26935,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -26863,7 +26998,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -27051,7 +27186,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -30930,7 +31065,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -30989,7 +31124,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",

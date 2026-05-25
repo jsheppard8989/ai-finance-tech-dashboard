@@ -21,6 +21,25 @@
       "podcast_episode_id": 238
     },
     {
+      "id": 254,
+      "title": "Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-25",
+      "summary": "In this episode, Jack Farley discusses the semiconductor cycle's expected downturn, the implications of a wave of IPOs as a late-cycle signal, and the current state of inflation primarily affecting food and energy. The conversation also covers the Fed's shift towards a neutral bias, the potential for the yield curve to steepen, and the challenges faced by emerging markets. Additionally, the impact of AI on inflation in the semiconductor sector and the labor market is explored, along with investment strategies in an inflationary environment and the upcoming AI-related IPOs.",
+      "key_takeaway": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 239
+    },
+    {
       "id": 252,
       "title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
       "source_type": "podcast",
@@ -153,7 +172,7 @@
         "DVN"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-21",
       "archived_date": null,
@@ -4712,22 +4731,22 @@
   "definitions": [],
   "overton": [
     {
-      "id": 204,
-      "term": "Answer Engine Optimization (AEO)",
-      "description": "A new software category focused on tracking and optimizing AI performance.",
+      "id": 205,
+      "term": "AI Trade",
+      "description": "The shift in production and demand towards artificial intelligence-related products and services, impacting the semiconductor sector and consumer electronics supply.",
       "first_detected_date": "2026-05-25",
       "last_mentioned_date": "2026-05-25",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should look for opportunities in software that enhances AI capabilities rather than directly competing with traditional SaaS.",
+      "investment_implications": "Investors should consider the impact of AI on supply chains and consumer product availability when making investment decisions in the tech sector.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 238,
-      "first_detected_speaker": "John Doe",
-      "last_mentioned_episode_id": 238,
-      "last_mentioned_speaker": "John Doe"
+      "first_detected_episode_id": 239,
+      "first_detected_speaker": "Andreas Stino-Larson",
+      "last_mentioned_episode_id": 239,
+      "last_mentioned_speaker": "Andreas Stino-Larson"
     },
     {
       "id": 194,
