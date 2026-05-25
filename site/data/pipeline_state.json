@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-24T23:33:59.233733",
-  "last_updated": "2026-05-24T23:33:59.233733",
-  "last_pipeline_run": "2026-05-24T23:33:59.233733",
+  "generated_at": "2026-05-25T05:02:26.005249",
+  "last_updated": "2026-05-25T05:02:26.005249",
+  "last_pipeline_run": "2026-05-25T05:02:26.005249",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -15,7 +15,7 @@
     "overton_terms_total": 151,
     "latest_insights_total": 224,
     "today_mentions": {},
-    "podcasts_analyzed": 1
+    "podcasts_analyzed": 0
   },
   "step_results": {
     "downloaded": 1,
@@ -23,7 +23,7 @@
     "analyzed": 0,
     "insight_created": 0,
     "published": 0,
-    "total": 1
+    "total": 2
   },
   "episodes": [
     {
@@ -82,9 +82,98 @@
         }
       },
       "status": "needs_analysis"
+    },
+    {
+      "id": "rss::the a16z show::why ai isn\u2019t killing saas yet",
+      "podcast": "The a16z Show",
+      "title": "Why AI Isn\u2019t Killing SaaS Yet",
+      "published": "2026-05-25",
+      "published_date": "2026-05-25",
+      "rss_guid": "",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "RSS-only: not in curation_log APPROVED list yet \u2014 run curate.py so it can be fetched.",
+        "transcribed": "Blocked until download completes.",
+        "analyzed": "Blocked until transcript exists.",
+        "insight_created": "Blocked until analysis completes.",
+        "published": "Blocked until export after insight promotion."
+      },
+      "first_blocker": "downloaded",
+      "remediation_by_stage": {
+        "downloaded": {
+          "action_id": "FETCH_AUDIO",
+          "steps": [
+            "Approve the episode in curation (curate.py refreshes pipeline/state/curation_log.json).",
+            "Download audio and enqueue transcription: fetch_latest.py --queue-only.",
+            "If MP3 never appears, inspect pipeline/logs/pipeline_schedule.err and fetch_latest output."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 curate.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 fetch_latest.py --queue-only"
+          ]
+        },
+        "transcribed": {
+          "action_id": "FETCH_BEFORE_TRANSCRIBE",
+          "steps": [
+            "Audio must exist before transcription. Complete FETCH_AUDIO first."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 curate.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 fetch_latest.py --queue-only"
+          ]
+        },
+        "analyzed": {
+          "action_id": "ANALYZE_TRANSCRIPTS",
+          "steps": [
+            "Run transcript analysis so is_processed=1 on podcast_episodes (analyze_transcript via auto_pipeline).",
+            "Ensure LLM keys in workspace .env (e.g. MOONSHOT_API_KEY) are set if the analyzer requires them.",
+            "Quick path: auto_pipeline.py --analyze-only analyzes then continues promotion/export steps in that run."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        },
+        "insight_created": {
+          "action_id": "PROMOTE_INSIGHT",
+          "steps": [
+            "Promotion to latest_insights runs inside auto_pipeline after analysis.",
+            "If analysis succeeded but insight is missing, re-run full auto_pipeline.py and check logs for promote_episodes_to_insights errors."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        },
+        "published": {
+          "action_id": "EXPORT_AND_PUBLISH",
+          "steps": [
+            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
+            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
+            "When added_to_site=1 on the episode row, this stage turns green."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        }
+      },
+      "status": "needs_download"
     }
   ],
   "available_from_rss": [
+    {
+      "podcast": "The a16z Show",
+      "title": "Why AI Isn\u2019t Killing SaaS Yet",
+      "published": "Mon, 25 May 2026 10:00:00 +0000",
+      "published_date": "2026-05-25",
+      "rss_guid": ""
+    },
     {
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "title": "Trump-Xi Summit, Benioff: \"Not My First SaaSpocalypse,\" OpenAI vs Apple, Multi-Sensory AI, El Ni\u00f1o",
@@ -100,7 +189,7 @@
       "title": "Trump-Xi Summit, Benioff: \"Not My First SaaSpocalypse,\" OpenAI vs Apple, Multi-Sensory AI, El Ni\u00f1o",
       "status": "needs_analysis",
       "published": "2026-05-15",
-      "age_days": 9,
+      "age_days": 10,
       "next_blocker": "analyzed"
     }
   ],
