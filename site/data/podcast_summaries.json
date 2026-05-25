@@ -1,5 +1,24 @@
 [
   {
+    "id": 238,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Why AI Isn\u2019t Killing SaaS Yet",
+    "episode_date": "2026-05-25",
+    "summary": "This podcast episode delves into the current state of SaaS and AI-driven models in the business landscape. Despite predictions of a SaaS apocalypse due to AI, traditional SaaS models continue to dominate business spending. Token-based pricing for SaaS tools is capturing a minuscule share of the market, and emerging software categories like Answer Engine Optimization (AEO) are on the rise. The episode discusses the slow adoption of new pricing models, the increasing cost-consciousness of AI spending, and the dynamic competitive landscape where new entrants are challenging incumbents.",
+    "key_takeaways": [
+      "Traditional SaaS models remain dominant despite AI-driven predictions of their decline.",
+      "Token-based pricing for SaaS tools is capturing only about 0.5% of total business spend, indicating slow market adoption.",
+      "Emerging software categories like AEO present new investment opportunities outside traditional SaaS narratives.",
+      "Businesses are becoming more cost-conscious regarding AI spending, with token costs increasing significantly over the past year.",
+      "The competitive landscape is dynamic, with new entrants frequently challenging incumbents in the AI and SaaS markets."
+    ],
+    "investment_thesis": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
+    "key_tickers": [
+      "FIGMA",
+      "PERPLEXITY"
+    ]
+  },
+  {
     "id": 237,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
@@ -117,24 +136,6 @@
       "Investment opportunities may arise in energy infrastructure projects, particularly pipeline construction."
     ],
     "investment_thesis": "Investors should prepare for potential oil price volatility and consider hedging strategies, while also looking for investment opportunities in companies improving inventory efficiency and energy infrastructure projects.",
-    "key_tickers": null
-  },
-  {
-    "id": 230,
-    "podcast_name": "The a16z Show",
-    "episode_title": "How Superhuman Took Over Silicon Valley Email",
-    "episode_date": "2026-05-21",
-    "summary": "This episode of the a16z Show delves into the product development and market strategy employed by Superhuman, a high-value email client. Key themes include the importance of product market fit, the use of a structured survey to measure user satisfaction, the power of storytelling in pitching, premium pricing strategies, and the application of game design principles to enhance user engagement. The discussion also introduces the concept of 'pro-sumurization', targeting power users with economic means but limited time. The episode emphasizes the need for founders to iterate based on user feedback and to be prepared to pivot their target market based on satisfaction metrics.",
-    "key_takeaways": [
-      "Implement a structured survey to measure user satisfaction and identify areas for improvement.",
-      "Develop a compelling narrative that highlights your product's unique value proposition for investors and co-founders.",
-      "Consider adopting a premium pricing model to enhance perceived value and attract serious users.",
-      "Incorporate game design principles into product development to create engaging user experiences.",
-      "Focus on the pro-sumur demographic when designing product features and marketing strategies.",
-      "Segment your user base to prioritize feedback from the most satisfied customers for product refinement.",
-      "Continuously iterate on product features based on user feedback to maintain product market fit."
-    ],
-    "investment_thesis": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "key_tickers": null
   }
 ]

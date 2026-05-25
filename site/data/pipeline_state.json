@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-05-25T06:35:56.686856",
-  "last_updated": "2026-05-25T06:35:56.686856",
-  "last_pipeline_run": "2026-05-25T06:35:56.686856",
+  "generated_at": "2026-05-25T12:05:16.215231",
+  "last_updated": "2026-05-25T12:05:16.215231",
+  "last_pipeline_run": "2026-05-25T12:05:16.215231",
   "main_page": {
     "overton": 13,
     "insights": 8,
-    "pundits": 150
+    "pundits": 151
   },
   "counts": {
     "ticker_mentions": 177,
-    "podcast_episodes": 210,
+    "podcast_episodes": 211,
     "newsletters": 7,
     "daily_scores": 115,
-    "overton_terms_total": 151,
-    "latest_insights_total": 224,
+    "overton_terms_total": 152,
+    "latest_insights_total": 225,
     "today_mentions": {},
-    "podcasts_analyzed": 0
+    "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 1,
-    "analyzed": 0,
-    "insight_created": 0,
-    "published": 0,
-    "total": 2
+    "downloaded": 3,
+    "transcribed": 2,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 3
   },
   "episodes": [
     {
-      "id": "0ca27533-0b5b-48e3-ac68-a89322634b7e",
-      "podcast": "The a16z Show",
-      "title": "Why AI Isn\u2019t Killing SaaS Yet",
+      "id": "5d0018ea-57c3-11f1-a81d-67e79219a9c0",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
       "published": "2026-05-25",
-      "rss_guid": "0ca27533-0b5b-48e3-ac68-a89322634b7e",
+      "rss_guid": "5d0018ea-57c3-11f1-a81d-67e79219a9c0",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -98,6 +98,24 @@
       "status": "needs_transcription"
     },
     {
+      "id": "0ca27533-0b5b-48e3-ac68-a89322634b7e",
+      "podcast": "The a16z Show",
+      "title": "Why AI Isn\u2019t Killing SaaS Yet",
+      "published": "2026-05-25",
+      "rss_guid": "0ca27533-0b5b-48e3-ac68-a89322634b7e",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
+    },
+    {
       "id": "9e723c14-33a2-4bd1-9e58-e475244f9446",
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "title": "Trump-Xi Summit, Benioff: \"Not My First SaaSpocalypse,\" OpenAI vs Apple, Multi-Sensory AI, El Ni\u00f1o",
@@ -157,9 +175,9 @@
   ],
   "available_from_rss": [
     {
-      "podcast": "The a16z Show",
-      "title": "Why AI Isn\u2019t Killing SaaS Yet",
-      "published": "Mon, 25 May 2026 10:00:00 +0000",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
+      "published": "Mon, 25 May 2026 15:16:00 -0000",
       "published_date": "2026-05-25",
       "rss_guid": ""
     },

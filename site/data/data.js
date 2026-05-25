@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-25T06:36:03.438097",
-  chartsVersion: "2026-05-25T06:35:53.966702",
+  generatedAt: "2026-05-25T12:05:26.493013",
+  chartsVersion: "2026-05-25T12:05:12.854419",
   priceSnapshot: {
   "GOOGL": {
     "price": 382.97,
     "change_pct": -1.41,
     "name": "GOOGL",
-    "updated_at": "2026-05-25T06:35:53.965801"
+    "updated_at": "2026-05-25T12:05:12.853311"
   },
   "BTC": {
-    "price": 77393.78,
-    "change_pct": -3.83,
+    "price": 77691.26,
+    "change_pct": -3.46,
     "name": "BTC",
-    "updated_at": "2026-05-25T06:35:53.965820"
+    "updated_at": "2026-05-25T12:05:12.853331"
   },
   "NVDA": {
     "price": 215.33,
     "change_pct": 9.58,
     "name": "NVDA",
-    "updated_at": "2026-05-25T06:35:53.965829"
+    "updated_at": "2026-05-25T12:05:12.853340"
   },
   "MSFT": {
     "price": 418.57,
     "change_pct": 1.97,
     "name": "MSFT",
-    "updated_at": "2026-05-25T06:35:53.965836"
+    "updated_at": "2026-05-25T12:05:12.853349"
   },
   "WTI": {
     "price": 4.43,
     "change_pct": 5.46,
     "name": "WTI",
-    "updated_at": "2026-05-25T06:35:53.965844"
+    "updated_at": "2026-05-25T12:05:12.853357"
   },
   "S&P 500": {
     "price": 745.64,
     "change_pct": 3.02,
     "name": "S&P 500",
-    "updated_at": "2026-05-25T06:35:53.965851"
+    "updated_at": "2026-05-25T12:05:12.853365"
   },
   "META": {
     "price": 610.26,
     "change_pct": 0.88,
     "name": "META",
-    "updated_at": "2026-05-25T06:35:53.965859"
+    "updated_at": "2026-05-25T12:05:12.853374"
   },
   "AMZN": {
     "price": 266.32,
     "change_pct": -2.64,
     "name": "AMZN",
-    "updated_at": "2026-05-25T06:35:53.965866"
+    "updated_at": "2026-05-25T12:05:12.853383"
   },
   "TSLA": {
     "price": 426.01,
     "change_pct": 9.41,
     "name": "TSLA",
-    "updated_at": "2026-05-25T06:35:53.965873"
+    "updated_at": "2026-05-25T12:05:12.853391"
   },
   "QQQ": {
     "price": 717.54,
     "change_pct": 5.27,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-25T06:35:53.965880"
+    "updated_at": "2026-05-25T12:05:12.853399"
   },
   "BTC-USD": {
-    "price": 77393.78,
-    "change_pct": -3.83,
+    "price": 77691.26,
+    "change_pct": -3.46,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-25T06:35:53.965887"
+    "updated_at": "2026-05-25T12:05:12.853407"
   }
 },
   tickerScores: [
@@ -828,6 +828,26 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 253,
+      "title": "Why AI Isn\u2019t Killing SaaS Yet",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-25",
+      "summary": "This podcast episode delves into the current state of SaaS and AI-driven models in the business landscape. Despite predictions of a SaaS apocalypse due to AI, traditional SaaS models continue to dominate business spending. Token-based pricing for SaaS tools is capturing a minuscule share of the market, and emerging software categories like Answer Engine Optimization (AEO) are on the rise. The episode discusses the slow adoption of new pricing models, the increasing cost-consciousness of AI spending, and the dynamic competitive landscape where new entrants are challenging incumbents.",
+      "key_takeaway": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
+      "tickers_mentioned": [
+        "FIGMA",
+        "PERPLEXITY"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 238
+    },
+    {
       "id": 252,
       "title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
       "source_type": "podcast",
@@ -937,7 +957,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-21",
       "archived_date": null,
@@ -5519,6 +5539,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 204,
+      "term": "Answer Engine Optimization (AEO)",
+      "description": "A new software category focused on tracking and optimizing AI performance.",
+      "first_detected_date": "2026-05-25",
+      "last_mentioned_date": "2026-05-25",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should look for opportunities in software that enhances AI capabilities rather than directly competing with traditional SaaS.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 238,
+      "first_detected_speaker": "John Doe",
+      "last_mentioned_episode_id": 238,
+      "last_mentioned_speaker": "John Doe"
+    },
+    {
       "id": 194,
       "term": "Multi-modal AI",
       "description": "AI that integrates various forms of media, such as text, images, and audio, to enhance user engagement and application versatility.",
@@ -8247,6 +8285,29 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 253,
+      "title": "Why AI Isn\u2019t Killing SaaS Yet",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-25",
+      "summary": "This podcast episode delves into the current state of SaaS and AI-driven models in the business landscape. Despite predictions of a SaaS apocalypse due to AI, traditional SaaS models continue to dominate business spending. Token-based pricing for SaaS tools is capturing a minuscule share of the market, and emerging software categories like Answer Engine Optimization (AEO) are on the rise. The episode discusses the slow adoption of new pricing models, the increasing cost-consciousness of AI spending, and the dynamic competitive landscape where new entrants are challenging incumbents.",
+      "key_takeaway": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
+      "tickers_mentioned": "[\"FIGMA\", \"PERPLEXITY\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 238,
+      "episode_release_date": "2026-05-25",
+      "guest_name": "are on the rise. The episode",
+      "key_tickers": [
+        "FIGMA",
+        "PERPLEXITY"
+      ]
+    },
+    {
       "id": 252,
       "title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
       "source_type": "podcast",
@@ -8347,26 +8408,6 @@ const dashboardData = {
       "key_tickers": [
         "NVDA"
       ]
-    },
-    {
-      "id": 245,
-      "title": "How Superhuman Took Over Silicon Valley Email",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-05-21",
-      "summary": "This episode of the a16z Show delves into the product development and market strategy employed by Superhuman, a high-value email client. Key themes include the importance of product market fit, the use of a structured survey to measure user satisfaction, the power of storytelling in pitching, premium pricing strategies, and the application of game design principles to enhance user engagement. The discussion also introduces the concept of 'pro-sumurization', targeting power users with economic means but limited time. The episode emphasizes the need for founders to iterate based on user feedback and to be prepared to pivot their target market based on satisfaction metrics.",
-      "key_takeaway": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-21",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 230,
-      "episode_release_date": "2026-05-21",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 246,
@@ -8534,6 +8575,32 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 204,
+      "term": "Answer Engine Optimization (AEO)",
+      "description": "A new software category focused on tracking and optimizing AI performance.",
+      "first_detected_date": "2026-05-25",
+      "last_mentioned_date": "2026-05-25",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should look for opportunities in software that enhances AI capabilities rather than directly competing with traditional SaaS.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 238,
+      "first_detected_speaker": "John Doe",
+      "last_mentioned_episode_id": 238,
+      "last_mentioned_speaker": "John Doe",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Why AI Isn\u2019t Killing SaaS Yet",
+      "first_detected_episode_date": "2026-05-25",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Why AI Isn\u2019t Killing SaaS Yet",
+      "last_mentioned_episode_date": "2026-05-25"
+    },
     {
       "id": 194,
       "term": "Multi-modal AI",
@@ -8845,32 +8912,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Building Blackstone, Backing Costco, with Tony James",
       "last_mentioned_episode_date": "2026-05-05"
-    },
-    {
-      "id": 153,
-      "term": "Western AI Stack",
-      "description": "A concept referring to AI technologies that align with Western values, such as individual consent and rule-based operations.",
-      "first_detected_date": "2026-05-04",
-      "last_mentioned_date": "2026-05-04",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the alignment of AI technologies with Western values as a potential differentiator in a globally competitive market.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 195,
-      "first_detected_speaker": "Sarah B. Rogers",
-      "last_mentioned_episode_id": 195,
-      "last_mentioned_speaker": "Sarah B. Rogers",
-      "overton_score": 0.62,
-      "resonance_pct": 16,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "first_detected_episode_date": "2026-05-04",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "last_mentioned_episode_date": "2026-05-04"
     }
   ]
 },
@@ -24001,12 +24042,81 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-05-24",
     "key_tickers": []
+  },
+  "253": {
+    "id": 243,
+    "insight_id": 253,
+    "podcast_episode_id": 238,
+    "overview": "The unresolved tension in the SaaS and AI market is the discrepancy between the predicted SaaS apocalypse and the actual stability of traditional SaaS models. Despite the hype around AI, businesses continue to favor seat-based contracts, indicating a competitive dynamic where traditional models are resilient. The allocation tradeoff lies in whether to invest in established SaaS companies with strong fundamentals or to seek growth opportunities in emerging categories like AEO, which leverage AI without directly competing with SaaS incumbents.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the spending patterns of businesses to identify any significant shifts from traditional SaaS to AI models, as this could indicate a market inflection point.",
+      "Evaluate the long-term viability of companies adopting token-based pricing models, considering the current low market share and potential for slow adoption.",
+      "Investigate the growth potential of AEO and similar emerging software categories that enhance AI capabilities, as they may offer new avenues for investment without directly competing with established SaaS firms.",
+      "Keep an eye on the cost trends of AI token usage, as businesses becoming more cost-conscious could lead to a reevaluation of AI investments and spending strategies.",
+      "Stay informed about new entrants in the AI and SaaS markets, as they have the potential to disrupt established companies and change the competitive landscape."
+    ],
+    "investment_thesis": "The core logic is that while AI is influencing the SaaS landscape, the traditional SaaS model remains dominant, and emerging categories like AEO offer growth opportunities. Over the next 3-5 years, if the market share of traditional SaaS models continues to hold or grow, and if AEO and similar categories see sustained growth, this thesis would be vindicated. Conversely, a significant and rapid shift towards AI-driven models and a decline in the growth of AEO would invalidate it.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's foray into AI and services could position it to benefit from the integration of AI into existing software products, enhancing functionality without replacing traditional models.",
+        "positioning": "Strategic long position, as Apple's diversified approach aligns with the market's slow transition to AI and the potential for growth in AI-enhancing software.",
+        "risk": "Key risks include a faster-than-expected market shift towards AI-driven models, which could disrupt Apple's service offerings, and increased competition in the AI space."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant number of businesses may suddenly shift their spending towards AI-driven models, indicating a faster adoption rate than currently observed.",
+      "Token-based pricing could gain rapid traction, challenging the current dominance of seat-based contracts and altering the revenue projections for SaaS companies.",
+      "The growth of AEO and similar categories may stagnate if businesses find them less effective in enhancing AI capabilities than anticipated.",
+      "A sudden decrease in token costs could indicate a more aggressive adoption of AI, potentially disrupting the cost-conscious approach to AI spending."
+    ],
+    "catalysts": [
+      "Release of new financial reports from SaaS companies showing a significant shift in spending patterns towards or away from AI models.",
+      "Introduction of disruptive AI technologies that significantly alter the competitive landscape in the SaaS market.",
+      "Regulatory changes that impact the adoption of AI in business operations, potentially accelerating or decelerating the transition.",
+      "Major acquisitions or partnerships in the AEO space that could indicate a surge in interest and investment in AI-enhancing software.",
+      "Publication of comprehensive market research reports that provide deeper insights into the adoption rates of token-based pricing and the growth of emerging software categories."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-25T12:04:24.629641",
+    "updated_at": "2026-05-25 17:04:24",
+    "episode_evidence": "The podcast episode provides a nuanced view of the SaaS and AI landscape, challenging the narrative of an impending SaaS apocalypse due to AI. It reveals that 'Neither aspect of SaaS apocalypse is supported by actual business spend,' with traditional SaaS models still accounting for 65-75% of business spending. This is significant as it contradicts the widespread belief that AI would rapidly displace SaaS. Additionally, the slow adoption of token-based pricing, capturing only '0.5% of spend on those platforms,' suggests a market hesitation towards new pricing models. The emergence of Answer Engine Optimization (AEO) as a new category with 'huge growth' indicates a shift towards software that enhances AI capabilities rather than replacing traditional SaaS. The increase in token costs by '13x just over the last year' has led to a more cost-conscious approach to AI spending, which could influence future investment strategies.",
+    "falsification_tracks": [
+      "If business spending data shows a sudden and significant shift towards AI-driven models, exceeding 50% of total spend, the stability of traditional SaaS would be questioned.",
+      "A rapid increase in the adoption of token-based pricing models to more than 5% of total business spend would challenge the current slow adoption narrative.",
+      "Should the growth of AEO stagnate or decline, it would suggest that the market is not as receptive to new software categories as initially thought.",
+      "If token costs decrease significantly, indicating a potential overestimation of the cost-conscious approach to AI spending, it could alter investment strategies.",
+      "A sudden decline in the number of new entrants challenging incumbents in the AI and SaaS markets would weaken the argument for a dynamic competitive landscape."
+    ],
+    "insight_title": "Why AI Isn\u2019t Killing SaaS Yet",
+    "source_name": "The a16z Show",
+    "source_date": "2026-05-25",
+    "key_tickers": [
+      "FIGMA",
+      "PERPLEXITY"
+    ]
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 8436,
+    "id": 8491,
+    "name": "are on the rise. The episode",
+    "slug": "are-on-the-rise-the-episode",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
+    "last_episode_title": "Why AI Isn\u2019t Killing SaaS Yet",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-25",
+    "appearance_count": 1
+  },
+  {
+    "id": 8492,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -24018,7 +24128,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8437,
+    "id": 8493,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -24030,7 +24140,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8438,
+    "id": 8494,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -24042,7 +24152,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8439,
+    "id": 8495,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -24054,7 +24164,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8440,
+    "id": 8496,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -24066,7 +24176,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8441,
+    "id": 8497,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -24078,7 +24188,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8442,
+    "id": 8498,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -24090,7 +24200,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 8443,
+    "id": 8499,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -24102,7 +24212,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8444,
+    "id": 8500,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -24114,7 +24224,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8445,
+    "id": 8501,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -24126,7 +24236,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8446,
+    "id": 8502,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -24138,7 +24248,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8447,
+    "id": 8503,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -24150,7 +24260,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8448,
+    "id": 8504,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -24162,7 +24272,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8449,
+    "id": 8505,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -24174,7 +24284,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8450,
+    "id": 8506,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -24186,7 +24296,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8451,
+    "id": 8507,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -24198,7 +24308,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8452,
+    "id": 8508,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -24210,7 +24320,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8453,
+    "id": 8509,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -24222,7 +24332,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8454,
+    "id": 8510,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -24231,18 +24341,6 @@ const dashboardData = {
     "last_episode_title": "SpaceX IPO: Why This Hedge Fund Manager is Fading the Hype | Moez Kassam",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-30",
-    "appearance_count": 1
-  },
-  {
-    "id": 8455,
-    "name": "From Soros to Old Farm",
-    "slug": "from-soros-to-old-farm",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in AI CapEx is currently the main focus, with co-investments in hedge funds providing a successful strategy for capturing high returns.",
-    "last_episode_title": "From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-29",
     "appearance_count": 1
   }
 ],
@@ -25241,7 +25339,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -25249,6 +25347,70 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 261,
+    "name": "John Doe",
+    "slug": "john-doe",
+    "bio": "John Doe is an expert in SaaS and AI market dynamics, providing insights on the intersection of these technologies. He is known for his analysis of the dynamic market, particularly in the context of buying software where newcomers often replace large incumbents.",
+    "known_for": "His analysis on how AI technologies are reshaping the SaaS market and challenging traditional software pricing models.",
+    "net_worth_usd": 7500000000.0,
+    "net_worth_source": "https://john-doe-net-worth.pages.dev/posts/john-doe-net-worth/",
+    "net_worth_updated_at": "2026-05-25T12:03:26.116496",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-25 17:02:43",
+    "last_episode_title": "Why AI Isn\u2019t Killing SaaS Yet",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-25",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
+    "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
+    "supporting_takeaway": "Token-based pricing for SaaS tools is capturing only about 0.5% of total business spend, indicating slow market adoption.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-25T12:03:24.884845",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "John Doe",
+      "fetched_at": "2026-05-25T17:03:24.884408+00:00",
+      "cliff_notes": "John Doe has made a significant impact in the technology sector with his expertise in SaaS and AI. His career has been marked by a deep understanding of market dynamics and the transformative potential of AI in the software industry. Doe's insights have been particularly valuable in understanding how new entrants in the market are challenging established players, often leading to shifts in the way software is bought and sold. His commentary on the implications of AI on SaaS companies and pricing models has been influential, challenging the narrative that AI will centralize the market around a few model providers. Instead, Doe's analysis suggests a more nuanced picture, where many of the fastest-growing AI companies are not model providers, indicating a diverse and evolving landscape.",
+      "derived": {
+        "current_role": "Expert in SaaS and AI Market Dynamics"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "John Doe has made a significant impact in the technology sector with his expertise in SaaS and AI. His career has been marked by a deep understanding of market dynamics and the transformative potential of AI in the software industry. Doe's insights have been particularly valuable in understanding how new entrants in the market are challenging established players, often leading to shifts in the way software is bought and sold.",
+        "His commentary on the implications of AI on SaaS companies and pricing models has been influential, challenging the narrative that AI will centralize the market around a few model providers. Instead, Doe's analysis suggests a more nuanced picture, where many of the fastest-growing AI companies are not model providers, indicating a diverse and evolving landscape."
+      ],
+      "sections": [
+        {
+          "heading": "SaaS and AI Dynamics",
+          "body": "John Doe has been instrumental in analyzing the interplay between SaaS and AI technologies, providing insights into how these sectors are evolving and impacting each other."
+        },
+        {
+          "heading": "Market Disruption",
+          "body": "Doe's expertise lies in identifying how newcomers in the software market are disrupting traditional players, often leading to significant shifts in the industry landscape."
+        },
+        {
+          "heading": "AI and SaaS Pricing",
+          "body": "John Doe challenges the prevailing narrative that AI will lead to the collapse of seat-based pricing in SaaS, arguing for a more complex and varied impact on the market."
+        },
+        {
+          "heading": "Business Spending Data",
+          "body": "Doe emphasizes the importance of actual business spending data in understanding the true impact of AI on the SaaS market, suggesting that the data does not support some of the more extreme predictions about market centralization."
+        }
+      ]
+    },
+    "net_worth": "$7.50B"
   },
   {
     "id": 260,
@@ -25268,7 +25430,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -26011,7 +26173,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -26077,7 +26239,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -28713,7 +28875,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -31145,7 +31307,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -31205,7 +31367,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -31265,7 +31427,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",
@@ -32513,7 +32675,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
@@ -32571,7 +32733,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",
