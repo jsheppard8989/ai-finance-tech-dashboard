@@ -124,6 +124,71 @@
     "net_worth": "$151.00B"
   },
   {
+    "id": 46,
+    "name": "Peter Diamandis",
+    "slug": "peter-diamandis",
+    "bio": "Founder and Executive Chairman of the X PRIZE Foundation, and Co-Founder and Vice-Chairman of Human Longevity Inc.",
+    "known_for": "Innovative entrepreneur focused on exponential technologies and their impact on industry disruption.",
+    "net_worth_usd": 200000000.0,
+    "net_worth_source": "https://explore.st-aug.edu/exp/peter-diamandis-xprize-bio-wiki-age-height-family-wife-facts-books-quotes-and-net-worth",
+    "net_worth_updated_at": "2026-04-01T05:04:16.091231",
+    "voice_tone": "Urgent and insightful",
+    "voice_style": "Passionate and visionary",
+    "voice_delivery_notes": "Emphasizes the importance and urgency of AI-native transformation",
+    "voice_profile_updated_at": "2026-05-26 18:35:46",
+    "last_seen": "2026-05-26 18:35:46",
+    "last_episode_title": "The Organizational Singularity: AI-Proof Your Company | EP #258",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-05-26",
+    "mention_score": 3,
+    "mention_score_decayed": 3,
+    "last_main_idea": "Invest in companies that are actively transitioning to AI-native organizations to capitalize on the potential for increased operational efficiency and reduced workforce costs.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-26 \u2022 The Organizational Singularity: AI-Proof Your Company | EP #258",
+    "last_proof_snippet": "Is there a line year business, a high margin line year of your business that two guys with open claw could replicate in 60 to 90 days? This is something across the board useful for everyone. When we wrote the exponential organizations book,",
+    "supporting_takeaway": "The 'fiduciary wedge' requires a legal and liability framework for AI integration.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-20T05:01:54.892751",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Peter Diamandis",
+      "fetched_at": "2026-05-20T10:01:54.892598+00:00",
+      "cliff_notes": "Peter Diamandis is a Greek-American entrepreneur known for his work in fostering innovation and technological advancement. He is the founder of the X Prize Foundation, which has spurred advancements in space travel and other fields through competition. Diamandis has also co-founded Singularity University, an institution focused on exponential technologies. His ventures have been influential in the tech industry, promoting the idea that technology can solve many of the world's grand challenges. Diamandis' work has been recognized for its potential to transform industries and create new markets.",
+      "derived": {
+        "current_role": "Founder & Executive Chairman, XPRIZE Foundation",
+        "former_positions": "Founder, Singularity University; Co-Founder, Planetary Resources; Co-Founder, Space Adventures Ltd.",
+        "boards": "Co-Founder, Zero Gravity Corporation; Board Member, Space Florida",
+        "education": "MD, Harvard Medical School; BS in Molecular Genetics, MIT",
+        "books_or_works": "Abundance: The Future Is Better Than You Think; Bold: How to Go Big, Create Wealth and Impact the World",
+        "teaching_summary": "Co-Founder & Vice-Chairman, Singularity University"
+      },
+      "infobox": {
+        "Born": "1961",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Peter Diamandis is a Greek-American entrepreneur known for his work in fostering innovation and technological advancement. He is the founder of the X Prize Foundation, which has spurred advancements in space travel and other fields through competition. Diamandis has also co-founded Singularity University, an institution focused on exponential technologies.",
+        "His ventures have been influential in the tech industry, promoting the idea that technology can solve many of the world's grand challenges. Diamandis' work has been recognized for its potential to transform industries and create new markets."
+      ],
+      "sections": [
+        {
+          "heading": "X Prize Foundation",
+          "body": "Founded by Diamandis, the X Prize Foundation has spurred innovation in fields such as space travel and healthcare through competition."
+        },
+        {
+          "heading": "Singularity University",
+          "body": "Diamandis co-founded Singularity University to educate and inspire leaders in leveraging exponential technologies for positive impact."
+        },
+        {
+          "heading": "Innovation and Technology",
+          "body": "Diamandis is a prominent figure in the field of innovation, advocating for the use of technology to solve global challenges."
+        }
+      ]
+    },
+    "net_worth": "$200.0M"
+  },
+  {
     "id": 54,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
@@ -186,71 +251,6 @@
       ]
     },
     "net_worth": "$12.3M"
-  },
-  {
-    "id": 46,
-    "name": "Peter Diamandis",
-    "slug": "peter-diamandis",
-    "bio": "Peter Diamandis is an inventor, physician, and entrepreneur known for founding the X Prize Foundation, which aims to encourage technological development through competition. He is also the founder of multiple technology companies and has been influential in the field of exponential technologies.",
-    "known_for": "Founding the X Prize Foundation to incentivize technological innovation.",
-    "net_worth_usd": 200000000.0,
-    "net_worth_source": "https://explore.st-aug.edu/exp/peter-diamandis-xprize-bio-wiki-age-height-family-wife-facts-books-quotes-and-net-worth",
-    "net_worth_updated_at": "2026-04-01T05:04:16.091231",
-    "voice_tone": "Informed and optimistic",
-    "voice_style": "Factual and forward-looking",
-    "voice_delivery_notes": "Clear and deliberate pace with emphasis on key economic and technological points",
-    "voice_profile_updated_at": "2026-05-09 18:46:41",
-    "last_seen": "2026-05-16 19:04:11",
-    "last_episode_title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-05-16",
-    "mention_score": 2,
-    "mention_score_decayed": 1.62,
-    "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
-    "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
-    "supporting_takeaway": "Monitor strategic partnerships in the AI space for potential investment opportunities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-20T05:01:54.892751",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Peter Diamandis",
-      "fetched_at": "2026-05-20T10:01:54.892598+00:00",
-      "cliff_notes": "Peter Diamandis is a Greek-American entrepreneur known for his work in fostering innovation and technological advancement. He is the founder of the X Prize Foundation, which has spurred advancements in space travel and other fields through competition. Diamandis has also co-founded Singularity University, an institution focused on exponential technologies. His ventures have been influential in the tech industry, promoting the idea that technology can solve many of the world's grand challenges. Diamandis' work has been recognized for its potential to transform industries and create new markets.",
-      "derived": {
-        "current_role": "Founder & Executive Chairman, XPRIZE Foundation",
-        "former_positions": "Founder, Singularity University; Co-Founder, Planetary Resources; Co-Founder, Space Adventures Ltd.",
-        "boards": "Co-Founder, Zero Gravity Corporation; Board Member, Space Florida",
-        "education": "MD, Harvard Medical School; BS in Molecular Genetics, MIT",
-        "books_or_works": "Abundance: The Future Is Better Than You Think; Bold: How to Go Big, Create Wealth and Impact the World",
-        "teaching_summary": "Co-Founder & Vice-Chairman, Singularity University"
-      },
-      "infobox": {
-        "Born": "1961",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Peter Diamandis is a Greek-American entrepreneur known for his work in fostering innovation and technological advancement. He is the founder of the X Prize Foundation, which has spurred advancements in space travel and other fields through competition. Diamandis has also co-founded Singularity University, an institution focused on exponential technologies.",
-        "His ventures have been influential in the tech industry, promoting the idea that technology can solve many of the world's grand challenges. Diamandis' work has been recognized for its potential to transform industries and create new markets."
-      ],
-      "sections": [
-        {
-          "heading": "X Prize Foundation",
-          "body": "Founded by Diamandis, the X Prize Foundation has spurred innovation in fields such as space travel and healthcare through competition."
-        },
-        {
-          "heading": "Singularity University",
-          "body": "Diamandis co-founded Singularity University to educate and inspire leaders in leveraging exponential technologies for positive impact."
-        },
-        {
-          "heading": "Innovation and Technology",
-          "body": "Diamandis is a prominent figure in the field of innovation, advocating for the use of technology to solve global challenges."
-        }
-      ]
-    },
-    "net_worth": "$200.0M"
   },
   {
     "id": 164,
@@ -397,7 +397,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.32,
+    "mention_score_decayed": 1.29,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -1020,7 +1020,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -1149,7 +1149,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -1330,7 +1330,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -1394,7 +1394,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -1457,7 +1457,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -1892,7 +1892,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -1958,7 +1958,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -2519,7 +2519,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -2582,7 +2582,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -2770,7 +2770,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -8717,7 +8717,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -8744,7 +8744,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",

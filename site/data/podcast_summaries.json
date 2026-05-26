@@ -1,5 +1,37 @@
 [
   {
+    "id": 242,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "The Organizational Singularity: AI-Proof Your Company | EP #258",
+    "episode_date": "2026-05-26",
+    "summary": "This podcast episode discusses the urgent need for organizations to transition from traditional hierarchical structures to AI-native, intelligence-driven models to survive in the face of disruption. Key themes include the concept of the 'organizational singularity', the 'fiduciary wedge', and the impact of AI on workforce requirements. The episode emphasizes the importance of rapid decision-making, the creation of digital twins, and the potential for companies to reduce their workforce by up to 75% as they integrate AI into their operations.",
+    "key_takeaways": [
+      "Organizations must evolve to AI-native models to avoid disruption by agile competitors.",
+      "The 'fiduciary wedge' requires a legal and liability framework for AI integration.",
+      "Streamlining processes can reduce organizational drag and improve decision-making.",
+      "AI agents can handle routine decisions, freeing humans for strategic tasks.",
+      "Backcasting exercises can help align strategic objectives with future market realities."
+    ],
+    "investment_thesis": "Invest in companies that are actively transitioning to AI-native organizations to capitalize on the potential for increased operational efficiency and reduced workforce costs.",
+    "key_tickers": null
+  },
+  {
+    "id": 241,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "How This Real Estate Investor is Betting on an AI Boom (It\u2019s Not Data Centers) | Tom Shapiro",
+    "episode_date": "2026-05-26",
+    "summary": "This episode of Monetary Matters with Jack Farley delves into the current state of the real estate market, focusing on the impact of employment, AI, and regional disparities on housing demand. The discussion highlights the risks posed by new housing legislation, the recovery of San Francisco's market due to AI companies, Brazil's real estate opportunities, and the growth potential in logistics and industrial sectors.",
+    "key_takeaways": [
+      "Employment levels are a key driver of housing demand, with a direct correlation to household formation rates.",
+      "The new housing bill may negatively impact the rental market by reducing the availability of built-to-rent units.",
+      "San Francisco's real estate market is recovering, driven by high AI company occupancy.",
+      "Brazil's real estate market is benefiting from its status as a major commodity exporter and demand for quality developments.",
+      "The logistics and industrial sectors are poised for growth due to reshoring trends and reduced new supply."
+    ],
+    "investment_thesis": "Invest in regions with strong employment growth and consider diversifying real estate investments to include San Francisco and Brazil, focusing on logistics and high-quality developments.",
+    "key_tickers": null
+  },
+  {
     "id": 240,
     "podcast_name": "The Jack Mallers Show",
     "episode_title": "Bitcoin Memorial Day Briefing",
@@ -102,40 +134,5 @@
     "key_tickers": [
       "NVDA"
     ]
-  },
-  {
-    "id": 234,
-    "podcast_name": "Dwarkesh Podcast",
-    "episode_title": "Reiner Pope \u2013 Chip design from the bottom up",
-    "episode_date": "2026-05-22",
-    "summary": "This podcast episode delves into the intricacies of AI chip design, emphasizing the importance of efficient matrix multiplication and accumulation operations. It discusses the trade-offs between precision and performance, the impact of data movement on costs, and the differences between GPU and TPU architectures. Additionally, the episode touches on the total cost of ownership for GPU cloud services, highlighting operational efficiencies and fault management as key differentiators.",
-    "key_takeaways": [
-      "Invest in AI chip technologies that optimize multiply-accumulate operations for improved performance.",
-      "Prioritize precision in accumulation steps when designing AI models to enhance accuracy.",
-      "Explore low-precision arithmetic solutions to leverage quadratic scaling benefits in AI chip performance.",
-      "Design chips with minimized data movement requirements to reduce costs and improve efficiency.",
-      "Evaluate GPU cloud service providers based on total cost of ownership and operational efficiencies.",
-      "Optimize clock cycles in chip designs to maximize throughput and performance.",
-      "Assess the need for flexibility versus efficiency when choosing between FPGAs and ASICs for specific applications.",
-      "Understand the architectural differences between GPUs and TPUs to make informed hardware selections for AI workloads."
-    ],
-    "investment_thesis": "Invest in AI chip technologies that optimize multiply-accumulate operations and precision in accumulation steps for improved performance and accuracy, while considering the cost and efficiency of cloud services.",
-    "key_tickers": null
-  },
-  {
-    "id": 233,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
-    "episode_date": "2026-05-22",
-    "summary": "The podcast discusses the importance of open source in AI innovation, the potential bubble in large language models (LLMs), the rise of robotics as the next frontier for AI, and the role of Hugging Face as a leading platform for AI model sharing. It highlights China's leading position in open source AI contributions and the need for the U.S. to strengthen its robotics sector to compete globally.",
-    "key_takeaways": [
-      "Invest in companies that prioritize open source initiatives to foster AI innovation.",
-      "Monitor the LLM market for signs of overvaluation and adjust investment strategies accordingly.",
-      "Support open source AI projects to enhance cybersecurity capabilities.",
-      "Identify and invest in robotics companies leveraging AI for new applications.",
-      "Collaborate with or invest in platforms like Hugging Face that cater specifically to AI developers."
-    ],
-    "investment_thesis": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
-    "key_tickers": null
   }
 ]

@@ -20,6 +20,48 @@
       "podcast_episode_id": 240
     },
     {
+      "id": 256,
+      "title": "The Organizational Singularity: AI-Proof Your Company | EP #258",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-05-26",
+      "summary": "This podcast episode discusses the urgent need for organizations to transition from traditional hierarchical structures to AI-native, intelligence-driven models to survive in the face of disruption. Key themes include the concept of the 'organizational singularity', the 'fiduciary wedge', and the impact of AI on workforce requirements. The episode emphasizes the importance of rapid decision-making, the creation of digital twins, and the potential for companies to reduce their workforce by up to 75% as they integrate AI into their operations.",
+      "key_takeaway": "Invest in companies that are actively transitioning to AI-native organizations to capitalize on the potential for increased operational efficiency and reduced workforce costs.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 242
+    },
+    {
+      "id": 257,
+      "title": "How This Real Estate Investor is Betting on an AI Boom (It\u2019s Not Data Centers) | Tom Shapiro",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-26",
+      "summary": "This episode of Monetary Matters with Jack Farley delves into the current state of the real estate market, focusing on the impact of employment, AI, and regional disparities on housing demand. The discussion highlights the risks posed by new housing legislation, the recovery of San Francisco's market due to AI companies, Brazil's real estate opportunities, and the growth potential in logistics and industrial sectors.",
+      "key_takeaway": "Invest in regions with strong employment growth and consider diversifying real estate investments to include San Francisco and Brazil, focusing on logistics and high-quality developments.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 241
+    },
+    {
       "id": 253,
       "title": "Why AI Isn\u2019t Killing SaaS Yet",
       "source_type": "podcast",
@@ -110,7 +152,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-22",
       "archived_date": null,
@@ -130,7 +172,7 @@
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-22",
       "archived_date": null,
@@ -4749,6 +4791,24 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 206,
+      "term": "AI Disruption in Employment",
+      "description": "The significant impact of artificial intelligence on employment levels, which in turn affects housing demand.",
+      "first_detected_date": "2026-05-26",
+      "last_mentioned_date": "2026-05-26",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor AI advancements and their effect on employment to anticipate shifts in housing market dynamics.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 241,
+      "first_detected_speaker": "Jack Farley (hosts)",
+      "last_mentioned_episode_id": 241,
+      "last_mentioned_speaker": "Jack Farley (hosts)"
+    },
     {
       "id": 194,
       "term": "Multi-modal AI",

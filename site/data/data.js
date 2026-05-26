@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-26T12:03:11.143927",
-  chartsVersion: "2026-05-26T12:03:04.158676",
+  generatedAt: "2026-05-26T13:37:42.375277",
+  chartsVersion: "2026-05-26T13:37:25.830693",
   priceSnapshot: {
   "GOOGL": {
-    "price": 386.64,
-    "change_pct": -2.87,
+    "price": 386.45,
+    "change_pct": -2.91,
     "name": "GOOGL",
-    "updated_at": "2026-05-26T12:03:04.157368"
+    "updated_at": "2026-05-26T13:37:25.829567"
   },
   "BTC": {
-    "price": 76468.01,
-    "change_pct": -3.54,
+    "price": 75936.72,
+    "change_pct": -4.21,
     "name": "BTC",
-    "updated_at": "2026-05-26T12:03:04.157399"
+    "updated_at": "2026-05-26T13:37:25.829586"
   },
   "NVDA": {
-    "price": 213.96,
-    "change_pct": 2.95,
+    "price": 213.76,
+    "change_pct": 2.85,
     "name": "NVDA",
-    "updated_at": "2026-05-26T12:03:04.157410"
+    "updated_at": "2026-05-26T13:37:25.829596"
   },
   "MSFT": {
-    "price": 414.17,
-    "change_pct": 0.27,
+    "price": 415.32,
+    "change_pct": 0.55,
     "name": "MSFT",
-    "updated_at": "2026-05-26T12:03:04.157419"
+    "updated_at": "2026-05-26T13:37:25.829604"
   },
   "WTI": {
     "price": 4.11,
-    "change_pct": 7.7,
+    "change_pct": 7.81,
     "name": "WTI",
-    "updated_at": "2026-05-26T12:03:04.157428"
+    "updated_at": "2026-05-26T13:37:25.829614"
   },
   "S&P 500": {
-    "price": 749.37,
-    "change_pct": 2.12,
+    "price": 749.81,
+    "change_pct": 2.18,
     "name": "S&P 500",
-    "updated_at": "2026-05-26T12:03:04.157438"
+    "updated_at": "2026-05-26T13:37:25.829623"
   },
   "META": {
-    "price": 609.88,
-    "change_pct": -0.49,
+    "price": 609.83,
+    "change_pct": -0.5,
     "name": "META",
-    "updated_at": "2026-05-26T12:03:04.157448"
+    "updated_at": "2026-05-26T13:37:25.829633"
   },
   "AMZN": {
-    "price": 262.96,
-    "change_pct": -4.37,
+    "price": 263.24,
+    "change_pct": -4.27,
     "name": "AMZN",
-    "updated_at": "2026-05-26T12:03:04.157458"
+    "updated_at": "2026-05-26T13:37:25.829641"
   },
   "TSLA": {
-    "price": 432.48,
-    "change_pct": 8.46,
+    "price": 433.93,
+    "change_pct": 8.83,
     "name": "TSLA",
-    "updated_at": "2026-05-26T12:03:04.157468"
+    "updated_at": "2026-05-26T13:37:25.829651"
   },
   "QQQ": {
-    "price": 728.24,
-    "change_pct": 4.67,
+    "price": 729.68,
+    "change_pct": 4.87,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-26T12:03:04.157477"
+    "updated_at": "2026-05-26T13:37:25.829659"
   },
   "BTC-USD": {
-    "price": 76468.01,
-    "change_pct": -3.54,
+    "price": 75936.72,
+    "change_pct": -4.21,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-26T12:03:04.157486"
+    "updated_at": "2026-05-26T13:37:25.829667"
   }
 },
   tickerScores: [
@@ -847,6 +847,48 @@ const dashboardData = {
       "podcast_episode_id": 240
     },
     {
+      "id": 256,
+      "title": "The Organizational Singularity: AI-Proof Your Company | EP #258",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-05-26",
+      "summary": "This podcast episode discusses the urgent need for organizations to transition from traditional hierarchical structures to AI-native, intelligence-driven models to survive in the face of disruption. Key themes include the concept of the 'organizational singularity', the 'fiduciary wedge', and the impact of AI on workforce requirements. The episode emphasizes the importance of rapid decision-making, the creation of digital twins, and the potential for companies to reduce their workforce by up to 75% as they integrate AI into their operations.",
+      "key_takeaway": "Invest in companies that are actively transitioning to AI-native organizations to capitalize on the potential for increased operational efficiency and reduced workforce costs.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 242
+    },
+    {
+      "id": 257,
+      "title": "How This Real Estate Investor is Betting on an AI Boom (It\u2019s Not Data Centers) | Tom Shapiro",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-26",
+      "summary": "This episode of Monetary Matters with Jack Farley delves into the current state of the real estate market, focusing on the impact of employment, AI, and regional disparities on housing demand. The discussion highlights the risks posed by new housing legislation, the recovery of San Francisco's market due to AI companies, Brazil's real estate opportunities, and the growth potential in logistics and industrial sectors.",
+      "key_takeaway": "Invest in regions with strong employment growth and consider diversifying real estate investments to include San Francisco and Brazil, focusing on logistics and high-quality developments.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 241
+    },
+    {
       "id": 253,
       "title": "Why AI Isn\u2019t Killing SaaS Yet",
       "source_type": "podcast",
@@ -937,7 +979,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-22",
       "archived_date": null,
@@ -957,7 +999,7 @@ const dashboardData = {
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-22",
       "archived_date": null,
@@ -5577,6 +5619,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 206,
+      "term": "AI Disruption in Employment",
+      "description": "The significant impact of artificial intelligence on employment levels, which in turn affects housing demand.",
+      "first_detected_date": "2026-05-26",
+      "last_mentioned_date": "2026-05-26",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor AI advancements and their effect on employment to anticipate shifts in housing market dynamics.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 241,
+      "first_detected_speaker": "Jack Farley (hosts)",
+      "last_mentioned_episode_id": 241,
+      "last_mentioned_speaker": "Jack Farley (hosts)"
+    },
+    {
       "id": 194,
       "term": "Multi-modal AI",
       "description": "AI that integrates various forms of media, such as text, images, and audio, to enhance user engagement and application versatility.",
@@ -8327,6 +8387,46 @@ const dashboardData = {
       ]
     },
     {
+      "id": 256,
+      "title": "The Organizational Singularity: AI-Proof Your Company | EP #258",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-05-26",
+      "summary": "This podcast episode discusses the urgent need for organizations to transition from traditional hierarchical structures to AI-native, intelligence-driven models to survive in the face of disruption. Key themes include the concept of the 'organizational singularity', the 'fiduciary wedge', and the impact of AI on workforce requirements. The episode emphasizes the importance of rapid decision-making, the creation of digital twins, and the potential for companies to reduce their workforce by up to 75% as they integrate AI into their operations.",
+      "key_takeaway": "Invest in companies that are actively transitioning to AI-native organizations to capitalize on the potential for increased operational efficiency and reduced workforce costs.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 242,
+      "episode_release_date": "2026-05-26",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 257,
+      "title": "How This Real Estate Investor is Betting on an AI Boom (It\u2019s Not Data Centers) | Tom Shapiro",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-26",
+      "summary": "This episode of Monetary Matters with Jack Farley delves into the current state of the real estate market, focusing on the impact of employment, AI, and regional disparities on housing demand. The discussion highlights the risks posed by new housing legislation, the recovery of San Francisco's market due to AI companies, Brazil's real estate opportunities, and the growth potential in logistics and industrial sectors.",
+      "key_takeaway": "Invest in regions with strong employment growth and consider diversifying real estate investments to include San Francisco and Brazil, focusing on logistics and high-quality developments.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 241,
+      "episode_release_date": "2026-05-26",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 253,
       "title": "Why AI Isn\u2019t Killing SaaS Yet",
       "source_type": "podcast",
@@ -8406,46 +8506,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 236,
       "episode_release_date": "2026-05-23",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 248,
-      "title": "Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-05-22",
-      "summary": "The podcast discusses the importance of open source in AI innovation, the potential bubble in large language models (LLMs), the rise of robotics as the next frontier for AI, and the role of Hugging Face as a leading platform for AI model sharing. It highlights China's leading position in open source AI contributions and the need for the U.S. to strengthen its robotics sector to compete globally.",
-      "key_takeaway": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-22",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 233,
-      "episode_release_date": "2026-05-22",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 249,
-      "title": "Reiner Pope \u2013 Chip design from the bottom up",
-      "source_type": "podcast",
-      "source_name": "Dwarkesh Podcast",
-      "source_date": "2026-05-22",
-      "summary": "This podcast episode delves into the intricacies of AI chip design, emphasizing the importance of efficient matrix multiplication and accumulation operations. It discusses the trade-offs between precision and performance, the impact of data movement on costs, and the differences between GPU and TPU architectures. Additionally, the episode touches on the total cost of ownership for GPU cloud services, highlighting operational efficiencies and fault management as key differentiators.",
-      "key_takeaway": "Invest in AI chip technologies that optimize multiply-accumulate operations and precision in accumulation steps for improved performance and accuracy, while considering the cost and efficiency of cloud services.",
-      "tickers_mentioned": "[\"NVDA\", \"GOOGL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-22",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 234,
-      "episode_release_date": "2026-05-22",
       "guest_name": null,
       "key_tickers": []
     },
@@ -8595,6 +8655,32 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 206,
+      "term": "AI Disruption in Employment",
+      "description": "The significant impact of artificial intelligence on employment levels, which in turn affects housing demand.",
+      "first_detected_date": "2026-05-26",
+      "last_mentioned_date": "2026-05-26",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor AI advancements and their effect on employment to anticipate shifts in housing market dynamics.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 241,
+      "first_detected_speaker": "Jack Farley (hosts)",
+      "last_mentioned_episode_id": 241,
+      "last_mentioned_speaker": "Jack Farley (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "How This Real Estate Investor is Betting on an AI Boom (It\u2019s Not Data Centers) | Tom Shapiro",
+      "first_detected_episode_date": "2026-05-26",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "How This Real Estate Investor is Betting on an AI Boom (It\u2019s Not Data Centers) | Tom Shapiro",
+      "last_mentioned_episode_date": "2026-05-26"
+    },
     {
       "id": 194,
       "term": "Multi-modal AI",
@@ -8906,32 +8992,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Building Blackstone, Backing Costco, with Tony James",
       "last_mentioned_episode_date": "2026-05-05"
-    },
-    {
-      "id": 153,
-      "term": "Western AI Stack",
-      "description": "A concept referring to AI technologies that align with Western values, such as individual consent and rule-based operations.",
-      "first_detected_date": "2026-05-04",
-      "last_mentioned_date": "2026-05-04",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the alignment of AI technologies with Western values as a potential differentiator in a globally competitive market.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 195,
-      "first_detected_speaker": "Sarah B. Rogers",
-      "last_mentioned_episode_id": 195,
-      "last_mentioned_speaker": "Sarah B. Rogers",
-      "overton_score": 0.6,
-      "resonance_pct": 15,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "first_detected_episode_date": "2026-05-04",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "last_mentioned_episode_date": "2026-05-04"
     }
   ]
 },
@@ -24232,12 +24292,138 @@ const dashboardData = {
     "key_tickers": [
       "BTC"
     ]
+  },
+  "256": {
+    "id": 246,
+    "insight_id": 256,
+    "podcast_episode_id": 242,
+    "overview": "The unresolved tension lies in the rapid and potentially disruptive shift from traditional hierarchical structures to AI-native organizations. The competitive dynamic is between companies that can swiftly adapt to this new paradigm and those that are slow to change, risking obsolescence. The metric that arbitrates this uncertainty is the speed and effectiveness of AI integration, which will determine winners and losers in this new landscape. The horizon of proof is the next 1-2 years, as suggested by the podcast, where we will likely see significant industry restructuring due to AI.",
+    "key_takeaways_detailed": [
+      "Invest in companies that demonstrate a clear strategy for AI integration and have begun the transition to AI-native models to capitalize on operational efficiency gains.",
+      "Monitor regulatory developments closely, as the 'fiduciary wedge' will significantly impact how companies can leverage AI while maintaining legal and ethical standards.",
+      "Keep an eye on workforce reduction trends as a leading indicator of successful AI integration; companies that can achieve the projected 75% reduction may have a competitive edge.",
+      "Look for companies that are creating 'digital twins' at the organizational edge, as this approach can indicate a successful strategy for minimizing disruption during the transition.",
+      "Be wary of companies that show resistance to change or lack a clear plan for AI integration, as they may face existential threats from more agile competitors."
+    ],
+    "investment_thesis": "The core logic is that the transition to AI-native organizations will create a bifurcated market where early adopters gain a significant competitive advantage. The observable development that would vindicate this thesis is a clear trend of companies successfully reducing their workforce while increasing operational efficiency through AI. Conversely, companies that fail to make this transition or experience increased operational inefficiencies and workforce unrest would invalidate the thesis. The timeframe for this thesis is, with significant changes expected within the next 1-2 years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI and its ability to integrate AI into its product lines and services positions it well for the AI-native transition.",
+        "positioning": "Strategically long, as Apple's ecosystem and R&D capabilities are likely to allow it to capitalize on the shift to AI-native operations.",
+        "risk": "Key risks include regulatory hurdles that could slow AI integration and increased competition from more agile startups that are able to leverage AI more effectively."
+      },
+      "GOOGL": {
+        "rationale": "Google's leadership in AI research and its broad range of services make it a prime candidate to benefit from the AI-native transition.",
+        "positioning": "Tactically long, as Google's AI capabilities can be rapidly deployed across its diverse offerings, providing a competitive edge.",
+        "risk": "The risk lies in Google's ability to maintain its lead in AI research and development amidst increasing competition."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's cloud services and AI tools position it to support other companies in their AI-native transition, creating a symbiotic relationship.",
+        "positioning": "Strategically long, as Microsoft's offerings are likely to be in high demand as companies look to transition to AI-native models.",
+        "risk": "The risk is that Microsoft may not be able to keep up with the rapid pace of AI innovation, potentially losing ground to more specialized competitors."
+      },
+      "AMZN": {
+        "rationale": "Amazon's extensive data collection and AI capabilities in logistics and retail give it a strong foundation for the AI-native transition.",
+        "positioning": "Tactically long, as Amazon's ability to leverage AI for efficiency gains could provide significant competitive advantages.",
+        "risk": "The risk is regulatory scrutiny over data usage and potential backlash against Amazon's market dominance."
+      },
+      "TSLA": {
+        "rationale": "Tesla's advanced use of AI in its electric vehicles and production processes positions it as a leader in the AI-native transition.",
+        "positioning": "Strategically long, as Tesla's innovative approach to AI could disrupt the automotive industry and beyond.",
+        "risk": "The risk is that Tesla may face challenges scaling its operations and maintaining quality control as it expands."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant number of companies successfully resist the transition to AI-native models and continue to thrive.",
+      "Regulatory environments that restrict the use of AI, slowing the transition and potentially favoring traditional hierarchical structures.",
+      "A lack of significant workforce reduction in companies that have integrated AI, suggesting that the projected 75% reduction may be overestimated."
+    ],
+    "catalysts": [
+      "Regulatory rulings that clarify the 'fiduciary wedge' and provide a framework for AI integration.",
+      "Major companies announcing significant workforce reductions as part of their AI-native transition.",
+      "Breakthroughs in AI technology that accelerate the transition to AI-native organizations.",
+      "Economic indicators that show a clear correlation between AI integration and increased operational efficiency.",
+      "The failure of companies to integrate AI, leading to disruption and potential market reorganization."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-26T13:36:16.674784",
+    "updated_at": "2026-05-26 18:36:16",
+    "episode_evidence": "The podcast episode underscores the imperative for companies to pivot towards AI-native structures to remain competitive. It introduces the 'organizational singularity', a concept where intelligence, not hierarchy, forms the backbone of an organization. Peter Diamandis states, 'If you don't retool your organization... you will be disrupted because someone doing it is going to just eat your lunch.' This highlights the urgency of the transition. The 'fiduciary wedge' is another pivotal concept, which Diamandis explains as the need for a 'legal container, a liability container' to manage AI integration. The episode also suggests that companies should be able to replicate high-margin lines of business with a significantly reduced team, indicating the potential for workforce reduction up to 75%. This is a stark claim that requires careful consideration of the workforce dynamics and the ethical implications of such a drastic reduction.",
+    "falsification_tracks": [
+      "A significant number of companies successfully integrate AI without reducing their workforce by the projected 75%.",
+      "The emergence of new legal frameworks that effectively manage the 'fiduciary wedge' without the need for drastic organizational restructuring.",
+      "A prolonged period where traditional hierarchical structures continue to outperform AI-native models in terms of operational efficiency and innovation."
+    ],
+    "insight_title": "The Organizational Singularity: AI-Proof Your Company | EP #258",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-05-26",
+    "key_tickers": []
+  },
+  "257": {
+    "id": 247,
+    "insight_id": 257,
+    "podcast_episode_id": 241,
+    "overview": "The unresolved tension in the real estate market revolves around the interplay between employment trends, legislative impacts, and regional disparities. The competitive dynamic is further complicated by the influence of AI on employment and housing demand, particularly in markets like San Francisco. The allocator-relevant implication is that investors must navigate these dynamics to identify regions with strong employment growth and consider the legislative risks posed by housing bills, which could arbitrate market outcomes. The horizon of proof lies in monitoring employment statistics, legislative developments, and market responses to these factors.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor local employment data to anticipate shifts in housing demand and adjust real estate holdings accordingly.",
+      "The potential impact of the new housing bill on the rental market suggests a need for portfolio diversification to mitigate risks associated with legislative changes.",
+      "San Francisco's real estate market, boosted by AI companies, presents an opportunity for investors to capitalize on the resurgence in demand for both residential and commercial properties.",
+      "Brazil's real estate market, driven by commodity exports and quality developments, offers a distinct investment avenue for those looking to diversify geographically.",
+      "Investors should consider the logistics and industrial sectors for growth, especially in regions where job growth is strong and warehouse space is in demand.",
+      "The capital markets' improvement should be weighed against the fundraising challenges faced by mid-sized firms, indicating a potential opportunity for well-capitalized investors to gain an edge."
+    ],
+    "investment_thesis": "The core investment thesis is that regions with strong employment growth, particularly those influenced by AI and tech companies, will experience a resurgence in housing demand. This is supported by the recovery of San Francisco's market and the potential for similar dynamics in other regions. The thesis is also contingent on the legislative environment, as changes in housing laws could significantly impact the rental market. A timeframe of 1-3 years is proposed to observe the effects of employment trends and legislative changes on the real estate market. Observable developments that would vindicate this thesis include sustained employment growth in targeted regions and a continued influx of AI companies into key markets, while an economic downturn or legislative changesrental properties would invalidate it.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple, with its significant investment in AI and tech, can serve as a proxy for the health of the AI-driven real estate recovery, particularly in markets like San Francisco where Apple has a presence.",
+        "positioning": "Positioning should be long-term strategic, as Apple's growth is tied to the broader tech industry, which is a key driver of real estate demand in certain markets.",
+        "risk": "Key risks include a slowdown in AI investment or a shift in tech industry dynamics that could reduce demand for office space in tech hubs."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A potential economic downturn could lead to job losses, reducing housing demand and challenging the thesis of a recovery in real estate markets.",
+      "Regulatory changesrental properties could lead to an oversupply of for-sale units, depressing property values.",
+      "A shift in global commodity prices could impact Brazil's real estate market, reducing the demand for quality developments.",
+      "Technological advancements could disrupt the logistics and industrial sectors, affecting the demand for warehouse space."
+    ],
+    "catalysts": [
+      "Upcoming employment reports and economic indicators that could signal a strengthening or weakening of the job market.",
+      "Legislative milestones regarding the new housing bill that could impact the rental market.",
+      "Announcements from major AI and tech companies regarding expansion plans, which could influence real estate demand in specific regions.",
+      "Global commodity price fluctuations that could affect Brazil's economy and real estate market.",
+      "Market research reports on logistics and industrial property demand, which could indicate growth potential or oversupply."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-26T13:36:35.388277",
+    "updated_at": "2026-05-26 18:36:35",
+    "episode_evidence": "The podcast 'Monetary Matters with Jack Farley' provides a nuanced view of the real estate market, emphasizing the multifaceted influences on housing demand. Jack Farley points out the significant impact of employment on housing demand, stating, 'When there are less jobs, that means there's less demand for housing.' This underscores the direct correlation between employment levels and household formation rates. Additionally, the discussion on the new housing bill reveals a potential market distortion, as Farley warns, 'The requirement to convert built to rent to... for sale product... is really, really problematic.' This could lead to a reduction in rental properties, exacerbating affordability issues. The podcast also highlights San Francisco's recovery, driven by AI companies occupying nearly 9 million square feet of office space, indicating a resurgence in the market. Lastly, Brazil's real estate market is noted for its recovery, attributed to its role as a commodity exporter and the demand for quality developments.",
+    "falsification_tracks": [
+      "If employment rates do not improve as expected in key regions, the thesis on housing demand recovery would be weakened.",
+      "Should the new housing bill not pass or be significantly altered to not impact the rental market, the risk assessment of the bill's impact would need reevaluation.",
+      "A sudden decrease in AI and tech company demand for office space in San Francisco would challenge the market's recovery narrative.",
+      "A downturn in global commodity prices affecting Brazil could undermine the thesis of a robust real estate market recovery there.",
+      "If logistics and industrial property demand fails to materialize as predicted, the growth potential in these sectors would be called into question."
+    ],
+    "insight_title": "How This Real Estate Investor is Betting on an AI Boom (It\u2019s Not Data Centers) | Tom Shapiro",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-05-26",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 8832,
+    "id": 8889,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -24249,7 +24435,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8833,
+    "id": 8890,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -24261,7 +24447,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8834,
+    "id": 8891,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -24273,7 +24459,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8835,
+    "id": 8892,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -24285,7 +24471,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8836,
+    "id": 8893,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -24297,7 +24483,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8837,
+    "id": 8894,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -24309,7 +24495,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8838,
+    "id": 8895,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -24321,7 +24507,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8839,
+    "id": 8896,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -24333,7 +24519,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8840,
+    "id": 8897,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -24345,7 +24531,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 8841,
+    "id": 8898,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -24357,7 +24543,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8842,
+    "id": 8899,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -24369,7 +24555,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8843,
+    "id": 8900,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -24381,7 +24567,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8844,
+    "id": 8901,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -24393,7 +24579,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8845,
+    "id": 8902,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -24405,7 +24591,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8846,
+    "id": 8903,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -24417,7 +24603,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8847,
+    "id": 8904,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -24429,7 +24615,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8848,
+    "id": 8905,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -24441,7 +24627,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8849,
+    "id": 8906,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -24453,7 +24639,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8850,
+    "id": 8907,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -24465,7 +24651,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8851,
+    "id": 8908,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -24603,6 +24789,71 @@ const dashboardData = {
     "net_worth": "$151.00B"
   },
   {
+    "id": 46,
+    "name": "Peter Diamandis",
+    "slug": "peter-diamandis",
+    "bio": "Founder and Executive Chairman of the X PRIZE Foundation, and Co-Founder and Vice-Chairman of Human Longevity Inc.",
+    "known_for": "Innovative entrepreneur focused on exponential technologies and their impact on industry disruption.",
+    "net_worth_usd": 200000000.0,
+    "net_worth_source": "https://explore.st-aug.edu/exp/peter-diamandis-xprize-bio-wiki-age-height-family-wife-facts-books-quotes-and-net-worth",
+    "net_worth_updated_at": "2026-04-01T05:04:16.091231",
+    "voice_tone": "Urgent and insightful",
+    "voice_style": "Passionate and visionary",
+    "voice_delivery_notes": "Emphasizes the importance and urgency of AI-native transformation",
+    "voice_profile_updated_at": "2026-05-26 18:35:46",
+    "last_seen": "2026-05-26 18:35:46",
+    "last_episode_title": "The Organizational Singularity: AI-Proof Your Company | EP #258",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-05-26",
+    "mention_score": 3,
+    "mention_score_decayed": 3,
+    "last_main_idea": "Invest in companies that are actively transitioning to AI-native organizations to capitalize on the potential for increased operational efficiency and reduced workforce costs.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-26 \u2022 The Organizational Singularity: AI-Proof Your Company | EP #258",
+    "last_proof_snippet": "Is there a line year business, a high margin line year of your business that two guys with open claw could replicate in 60 to 90 days? This is something across the board useful for everyone. When we wrote the exponential organizations book,",
+    "supporting_takeaway": "The 'fiduciary wedge' requires a legal and liability framework for AI integration.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-20T05:01:54.892751",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Peter Diamandis",
+      "fetched_at": "2026-05-20T10:01:54.892598+00:00",
+      "cliff_notes": "Peter Diamandis is a Greek-American entrepreneur known for his work in fostering innovation and technological advancement. He is the founder of the X Prize Foundation, which has spurred advancements in space travel and other fields through competition. Diamandis has also co-founded Singularity University, an institution focused on exponential technologies. His ventures have been influential in the tech industry, promoting the idea that technology can solve many of the world's grand challenges. Diamandis' work has been recognized for its potential to transform industries and create new markets.",
+      "derived": {
+        "current_role": "Founder & Executive Chairman, XPRIZE Foundation",
+        "former_positions": "Founder, Singularity University; Co-Founder, Planetary Resources; Co-Founder, Space Adventures Ltd.",
+        "boards": "Co-Founder, Zero Gravity Corporation; Board Member, Space Florida",
+        "education": "MD, Harvard Medical School; BS in Molecular Genetics, MIT",
+        "books_or_works": "Abundance: The Future Is Better Than You Think; Bold: How to Go Big, Create Wealth and Impact the World",
+        "teaching_summary": "Co-Founder & Vice-Chairman, Singularity University"
+      },
+      "infobox": {
+        "Born": "1961",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Peter Diamandis is a Greek-American entrepreneur known for his work in fostering innovation and technological advancement. He is the founder of the X Prize Foundation, which has spurred advancements in space travel and other fields through competition. Diamandis has also co-founded Singularity University, an institution focused on exponential technologies.",
+        "His ventures have been influential in the tech industry, promoting the idea that technology can solve many of the world's grand challenges. Diamandis' work has been recognized for its potential to transform industries and create new markets."
+      ],
+      "sections": [
+        {
+          "heading": "X Prize Foundation",
+          "body": "Founded by Diamandis, the X Prize Foundation has spurred innovation in fields such as space travel and healthcare through competition."
+        },
+        {
+          "heading": "Singularity University",
+          "body": "Diamandis co-founded Singularity University to educate and inspire leaders in leveraging exponential technologies for positive impact."
+        },
+        {
+          "heading": "Innovation and Technology",
+          "body": "Diamandis is a prominent figure in the field of innovation, advocating for the use of technology to solve global challenges."
+        }
+      ]
+    },
+    "net_worth": "$200.0M"
+  },
+  {
     "id": 54,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
@@ -24665,71 +24916,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$12.3M"
-  },
-  {
-    "id": 46,
-    "name": "Peter Diamandis",
-    "slug": "peter-diamandis",
-    "bio": "Peter Diamandis is an inventor, physician, and entrepreneur known for founding the X Prize Foundation, which aims to encourage technological development through competition. He is also the founder of multiple technology companies and has been influential in the field of exponential technologies.",
-    "known_for": "Founding the X Prize Foundation to incentivize technological innovation.",
-    "net_worth_usd": 200000000.0,
-    "net_worth_source": "https://explore.st-aug.edu/exp/peter-diamandis-xprize-bio-wiki-age-height-family-wife-facts-books-quotes-and-net-worth",
-    "net_worth_updated_at": "2026-04-01T05:04:16.091231",
-    "voice_tone": "Informed and optimistic",
-    "voice_style": "Factual and forward-looking",
-    "voice_delivery_notes": "Clear and deliberate pace with emphasis on key economic and technological points",
-    "voice_profile_updated_at": "2026-05-09 18:46:41",
-    "last_seen": "2026-05-16 19:04:11",
-    "last_episode_title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-05-16",
-    "mention_score": 2,
-    "mention_score_decayed": 1.62,
-    "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
-    "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
-    "supporting_takeaway": "Monitor strategic partnerships in the AI space for potential investment opportunities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-20T05:01:54.892751",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Peter Diamandis",
-      "fetched_at": "2026-05-20T10:01:54.892598+00:00",
-      "cliff_notes": "Peter Diamandis is a Greek-American entrepreneur known for his work in fostering innovation and technological advancement. He is the founder of the X Prize Foundation, which has spurred advancements in space travel and other fields through competition. Diamandis has also co-founded Singularity University, an institution focused on exponential technologies. His ventures have been influential in the tech industry, promoting the idea that technology can solve many of the world's grand challenges. Diamandis' work has been recognized for its potential to transform industries and create new markets.",
-      "derived": {
-        "current_role": "Founder & Executive Chairman, XPRIZE Foundation",
-        "former_positions": "Founder, Singularity University; Co-Founder, Planetary Resources; Co-Founder, Space Adventures Ltd.",
-        "boards": "Co-Founder, Zero Gravity Corporation; Board Member, Space Florida",
-        "education": "MD, Harvard Medical School; BS in Molecular Genetics, MIT",
-        "books_or_works": "Abundance: The Future Is Better Than You Think; Bold: How to Go Big, Create Wealth and Impact the World",
-        "teaching_summary": "Co-Founder & Vice-Chairman, Singularity University"
-      },
-      "infobox": {
-        "Born": "1961",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Peter Diamandis is a Greek-American entrepreneur known for his work in fostering innovation and technological advancement. He is the founder of the X Prize Foundation, which has spurred advancements in space travel and other fields through competition. Diamandis has also co-founded Singularity University, an institution focused on exponential technologies.",
-        "His ventures have been influential in the tech industry, promoting the idea that technology can solve many of the world's grand challenges. Diamandis' work has been recognized for its potential to transform industries and create new markets."
-      ],
-      "sections": [
-        {
-          "heading": "X Prize Foundation",
-          "body": "Founded by Diamandis, the X Prize Foundation has spurred innovation in fields such as space travel and healthcare through competition."
-        },
-        {
-          "heading": "Singularity University",
-          "body": "Diamandis co-founded Singularity University to educate and inspire leaders in leveraging exponential technologies for positive impact."
-        },
-        {
-          "heading": "Innovation and Technology",
-          "body": "Diamandis is a prominent figure in the field of innovation, advocating for the use of technology to solve global challenges."
-        }
-      ]
-    },
-    "net_worth": "$200.0M"
   },
   {
     "id": 164,
@@ -24876,7 +25062,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.32,
+    "mention_score_decayed": 1.29,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -25499,7 +25685,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -25628,7 +25814,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -25809,7 +25995,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -25873,7 +26059,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -25936,7 +26122,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -26371,7 +26557,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -26437,7 +26623,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -26998,7 +27184,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -27061,7 +27247,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -27249,7 +27435,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -33196,7 +33382,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -33223,7 +33409,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",
