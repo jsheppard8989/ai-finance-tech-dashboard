@@ -3,66 +3,66 @@
     "price": 382.97,
     "change_pct": -1.41,
     "name": "GOOGL",
-    "updated_at": "2026-05-25T23:35:40.335038"
+    "updated_at": "2026-05-26T05:03:10.669425"
   },
   "BTC": {
-    "price": 76676.33,
-    "change_pct": -3.28,
+    "price": 76545.09,
+    "change_pct": -3.45,
     "name": "BTC",
-    "updated_at": "2026-05-25T23:35:40.335050"
+    "updated_at": "2026-05-26T05:03:10.669454"
   },
   "NVDA": {
     "price": 215.33,
     "change_pct": 9.58,
     "name": "NVDA",
-    "updated_at": "2026-05-25T23:35:40.335054"
+    "updated_at": "2026-05-26T05:03:10.669465"
   },
   "MSFT": {
     "price": 418.57,
     "change_pct": 1.97,
     "name": "MSFT",
-    "updated_at": "2026-05-25T23:35:40.335058"
+    "updated_at": "2026-05-26T05:03:10.669475"
   },
   "WTI": {
     "price": 4.43,
     "change_pct": 5.46,
     "name": "WTI",
-    "updated_at": "2026-05-25T23:35:40.335061"
+    "updated_at": "2026-05-26T05:03:10.669484"
   },
   "S&P 500": {
     "price": 745.64,
     "change_pct": 3.02,
     "name": "S&P 500",
-    "updated_at": "2026-05-25T23:35:40.335064"
+    "updated_at": "2026-05-26T05:03:10.669493"
   },
   "META": {
     "price": 610.26,
     "change_pct": 0.88,
     "name": "META",
-    "updated_at": "2026-05-25T23:35:40.335068"
+    "updated_at": "2026-05-26T05:03:10.669503"
   },
   "AMZN": {
     "price": 266.32,
     "change_pct": -2.64,
     "name": "AMZN",
-    "updated_at": "2026-05-25T23:35:40.335071"
+    "updated_at": "2026-05-26T05:03:10.669512"
   },
   "TSLA": {
     "price": 426.01,
     "change_pct": 9.41,
     "name": "TSLA",
-    "updated_at": "2026-05-25T23:35:40.335074"
+    "updated_at": "2026-05-26T05:03:10.669520"
   },
   "QQQ": {
     "price": 717.54,
     "change_pct": 5.27,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-25T23:35:40.335078"
+    "updated_at": "2026-05-26T05:03:10.669529"
   },
   "BTC-USD": {
-    "price": 76676.33,
-    "change_pct": -3.28,
+    "price": 76545.09,
+    "change_pct": -3.45,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-25T23:35:40.335081"
+    "updated_at": "2026-05-26T05:03:10.669537"
   }
 }
