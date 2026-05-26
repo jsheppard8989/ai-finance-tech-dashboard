@@ -4731,24 +4731,6 @@
   "definitions": [],
   "overton": [
     {
-      "id": 205,
-      "term": "AI Trade",
-      "description": "The shift in production and demand towards artificial intelligence-related products and services, impacting the semiconductor sector and consumer electronics supply.",
-      "first_detected_date": "2026-05-25",
-      "last_mentioned_date": "2026-05-25",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the impact of AI on supply chains and consumer product availability when making investment decisions in the tech sector.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 239,
-      "first_detected_speaker": "Andreas Stino-Larson",
-      "last_mentioned_episode_id": 239,
-      "last_mentioned_speaker": "Andreas Stino-Larson"
-    },
-    {
       "id": 194,
       "term": "Multi-modal AI",
       "description": "AI that integrates various forms of media, such as text, images, and audio, to enhance user engagement and application versatility.",
