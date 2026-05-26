@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-26T05:03:26.435976",
-  chartsVersion: "2026-05-26T05:03:10.670668",
+  generatedAt: "2026-05-26T06:40:24.794645",
+  chartsVersion: "2026-05-26T06:40:14.213018",
   priceSnapshot: {
   "GOOGL": {
     "price": 382.97,
     "change_pct": -1.41,
     "name": "GOOGL",
-    "updated_at": "2026-05-26T05:03:10.669425"
+    "updated_at": "2026-05-26T06:40:14.212497"
   },
   "BTC": {
-    "price": 76545.09,
-    "change_pct": -3.45,
+    "price": 77142.25,
+    "change_pct": -2.69,
     "name": "BTC",
-    "updated_at": "2026-05-26T05:03:10.669454"
+    "updated_at": "2026-05-26T06:40:14.212508"
   },
   "NVDA": {
     "price": 215.33,
     "change_pct": 9.58,
     "name": "NVDA",
-    "updated_at": "2026-05-26T05:03:10.669465"
+    "updated_at": "2026-05-26T06:40:14.212512"
   },
   "MSFT": {
     "price": 418.57,
     "change_pct": 1.97,
     "name": "MSFT",
-    "updated_at": "2026-05-26T05:03:10.669475"
+    "updated_at": "2026-05-26T06:40:14.212515"
   },
   "WTI": {
     "price": 4.43,
     "change_pct": 5.46,
     "name": "WTI",
-    "updated_at": "2026-05-26T05:03:10.669484"
+    "updated_at": "2026-05-26T06:40:14.212518"
   },
   "S&P 500": {
     "price": 745.64,
     "change_pct": 3.02,
     "name": "S&P 500",
-    "updated_at": "2026-05-26T05:03:10.669493"
+    "updated_at": "2026-05-26T06:40:14.212522"
   },
   "META": {
     "price": 610.26,
     "change_pct": 0.88,
     "name": "META",
-    "updated_at": "2026-05-26T05:03:10.669503"
+    "updated_at": "2026-05-26T06:40:14.212526"
   },
   "AMZN": {
     "price": 266.32,
     "change_pct": -2.64,
     "name": "AMZN",
-    "updated_at": "2026-05-26T05:03:10.669512"
+    "updated_at": "2026-05-26T06:40:14.212529"
   },
   "TSLA": {
     "price": 426.01,
     "change_pct": 9.41,
     "name": "TSLA",
-    "updated_at": "2026-05-26T05:03:10.669520"
+    "updated_at": "2026-05-26T06:40:14.212532"
   },
   "QQQ": {
     "price": 717.54,
     "change_pct": 5.27,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-26T05:03:10.669529"
+    "updated_at": "2026-05-26T06:40:14.212535"
   },
   "BTC-USD": {
-    "price": 76545.09,
-    "change_pct": -3.45,
+    "price": 77142.25,
+    "change_pct": -2.69,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-26T05:03:10.669537"
+    "updated_at": "2026-05-26T06:40:14.212537"
   }
 },
   tickerScores: [
@@ -24156,7 +24156,7 @@ const dashboardData = {
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 8718,
+    "id": 8775,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -24168,7 +24168,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8719,
+    "id": 8776,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -24180,7 +24180,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8720,
+    "id": 8777,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -24192,7 +24192,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8721,
+    "id": 8778,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -24204,7 +24204,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8722,
+    "id": 8779,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -24216,7 +24216,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8723,
+    "id": 8780,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -24228,7 +24228,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8724,
+    "id": 8781,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -24240,7 +24240,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8725,
+    "id": 8782,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -24252,7 +24252,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8726,
+    "id": 8783,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -24264,7 +24264,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 8727,
+    "id": 8784,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -24276,7 +24276,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8728,
+    "id": 8785,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -24288,7 +24288,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8729,
+    "id": 8786,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -24300,7 +24300,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8730,
+    "id": 8787,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -24312,7 +24312,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8731,
+    "id": 8788,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -24324,7 +24324,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8732,
+    "id": 8789,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -24336,7 +24336,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8733,
+    "id": 8790,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -24348,7 +24348,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8734,
+    "id": 8791,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -24360,7 +24360,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8735,
+    "id": 8792,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -24372,7 +24372,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8736,
+    "id": 8793,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -24384,7 +24384,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8737,
+    "id": 8794,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -24474,7 +24474,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-15",
     "mention_score": 4,
-    "mention_score_decayed": 1.62,
+    "mention_score_decayed": 1.59,
     "last_main_idea": "Nvidia's role in the transformation of electrons to valuable tokens and the acceleration of computing tasks positions it well in the AI and broader technology market.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-15 \u2022 Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
     "last_proof_snippet": "Nvidia has built a large ecosystem of partners across the supply chain and in application development.",
@@ -24730,7 +24730,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-13",
     "mention_score": 2,
-    "mention_score_decayed": 1.55,
+    "mention_score_decayed": 1.52,
     "last_main_idea": "Invest in sectors poised for growth due to AI adoption, particularly semiconductors and stablecoins, while being cautious about the cyclical nature of capex investments in hyperscaler companies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-13 \u2022 Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show, you'll hear more about hfgm currently the number one morning star rated fund sits its inception in the US macro trading category. Let's",
@@ -24928,7 +24928,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-24",
     "mention_score": 2,
-    "mention_score_decayed": 1.0,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
     "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
@@ -24994,7 +24994,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-24",
     "mention_score": 2,
-    "mention_score_decayed": 1.0,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
     "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
@@ -25054,7 +25054,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-17",
     "mention_score": 2,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "The investment thesis presented revolves around the potential negative impacts of new real estate taxes on luxury property demand and the growing controversy and potential regulation surrounding data centers, which could affect technology and real estate investments.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-17 \u2022 OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out",
     "last_proof_snippet": "The tax may lead to a decrease in demand for second homes, potentially crashing the market for luxury properties.",
@@ -25115,7 +25115,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-02",
     "mention_score": 2,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
     "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
@@ -27611,7 +27611,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Investors should look for opportunities in chaos, focusing on sectors with significant potential for growth and capital movement, such as SpaceX's IPO and the de-scheduling of cannabis.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-30 \u2022 SpaceX IPO: Why This Hedge Fund Manager is Fading the Hype | Moez Kassam",
     "last_proof_snippet": "SpaceX's IPO could be one of the largest in history, with potential for significant capital movement.",
@@ -28050,7 +28050,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Investing in syndicated loans through BDCs like Palmer Square's offers a less risky asset class with greater transparency and historical performance, making it an attractive option in the current market environment.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-26 \u2022 \u201cOverblown\u201d Sell-off in Software Loans | Matthew Bloomfield on Public BDCs (Business Development Companies) and Collateralized Loan Obligations (CLOs)",
     "last_proof_snippet": "BDCs typically own private credit loans, but Palmer Square's BDC owns mostly broadly syndicated loans, which are perceived as less risky.",
@@ -28113,7 +28113,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
     "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
@@ -28176,7 +28176,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Invest in AI and data center infrastructure companies that benefit from a supportive regulatory environment and government-backed scientific research.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-24 \u2022 SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
     "last_proof_snippet": "Data centers are a critical component of AI infrastructure, and the president's stance on them is favorable for progress.",
@@ -28234,7 +28234,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Investing in AI, hardware, and pharma presents significant opportunities due to the large market cap potential and the need for innovation in computing.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-23 \u2022 Martin Shkreli on AI, Pharma, and What Actually Matters",
     "last_proof_snippet": "There is a surprising lack of startups in certain areas of AI and hardware, presenting opportunities for new entrants.",
@@ -28298,7 +28298,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "The Iran conflict and energy market disruptions present opportunities in commodities, particularly in the context of extreme backwardation and supply constraints, which could drive further price increases and investment returns.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-23 \u2022 MacroVoices #529 Ole S Hansen: Commodities in The Wake of The Iran Crisis",
     "last_proof_snippet": "Extreme backwardation in crude oil presents powerful return tailwinds for traders.",
@@ -28547,7 +28547,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investing in the evolution of software development tools that cater to the needs of both human developers and AI coding agents presents an opportunity for significant growth and innovation.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-20 \u2022 Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
     "last_proof_snippet": "Coding agents are struggling with traditional Git interfaces, necessitating new tool development.",
@@ -28612,7 +28612,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in companies at the forefront of AI development and application, as they are poised to shape the future of work, management, and the economy.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-18 \u2022 Sam Altman\u2019s Attack, Amazon vs. Starlink, and What Opus 4.7 Actually Means | #248",
     "last_proof_snippet": "99% of people are underreacting to and unaware of the potential impacts of AI on their lives and jobs.",
@@ -28675,7 +28675,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in software companies that can adapt to AI disruption and emerge stronger, with the potential for significant upside in the next 12 months.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-19 \u2022 Navigating the SaaS Apocalypse: Why AI Disruption is Mispriced | Deiya Pernas | Pernas Research",
     "last_proof_snippet": "The sell-off has led to valuations not seen in years, presenting opportunities for investors.",
@@ -28735,7 +28735,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "The rapid advancement of AI and consumer tech is creating new opportunities and challenges for venture capital, with a focus on the need for universal basic purpose and the potential for AI to disrupt traditional job markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-19 \u2022 Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
     "last_proof_snippet": "The cost structure for consumer products has shifted, with AI inference costs affecting the economics of venture funding.",
@@ -28865,7 +28865,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Invest in sectors likely to benefit from increased inflation and supply chain disruptions, with a focus on energy, uranium, and domestic electrical infrastructure.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-16 \u2022 MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
     "last_proof_snippet": "Markets may be underpricing the severity of supply chain disruptions.",
@@ -29058,7 +29058,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investing in HFGM global macro ETF, which is highly rated by Morningstar, may offer exposure to macroeconomic trends and government policies affecting financial markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-15 \u2022 Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
     "last_proof_snippet": "Historically, financial repression has been used during wartime to keep bond yields artificially low.",
@@ -29365,7 +29365,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-11 \u2022 SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
     "last_proof_snippet": "Starlink is seen as a profitable stepping stone for SpaceX's ambitions in space.",
@@ -29427,7 +29427,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-11 \u2022 SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
     "last_proof_snippet": "Starlink is seen as a profitable stepping stone for SpaceX's ambitions in space.",
@@ -29813,7 +29813,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in Pennsylvania due to its pro-growth policies, job creation, and improved business climate.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-08 \u2022 Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
     "last_proof_snippet": "Pennsylvania is ranked number one in charging Medicaid fraud and is pro-data center.",
@@ -29879,7 +29879,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-07 \u2022 Michael Nielsen \u2013 How science actually progresses",
     "last_proof_snippet": "The Michelson-Morley experiment was initially aimed at testing theories of the ether, which was a significant concept in physics before the advent of relativity.",
@@ -29940,7 +29940,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-07 \u2022 Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
     "last_proof_snippet": "The recent outperformance of emerging market equities is attributed to a fundamental repricing of relative value and the 'anywhere but US' theme.",
@@ -30000,7 +30000,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-07 \u2022 How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
     "last_proof_snippet": "The company is leveraging AI to design and build living products, which is a novel approach in synthetic biology.",
@@ -30126,7 +30126,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-06 \u2022 The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
     "last_proof_snippet": "The strategic significance of the US maintaining its position in the global technology and defense landscape.",
@@ -30186,7 +30186,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-06 \u2022 The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
     "last_proof_snippet": "The strategic significance of the US maintaining its position in the global technology and defense landscape.",
@@ -30246,7 +30246,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investing in companies that leverage coding agents could offer significant productivity gains and reshape the software development landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-06 \u2022 Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
     "last_proof_snippet": "The future of work may involve smaller teams leveraging coding agents to achieve more with less, challenging traditional company structures.",
@@ -30373,7 +30373,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
     "last_proof_snippet": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
@@ -30433,7 +30433,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
     "last_proof_snippet": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
@@ -30494,7 +30494,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
     "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
@@ -30678,7 +30678,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-31 \u2022 Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
     "last_proof_snippet": "Autonomous vehicles are becoming a reality, with a hybrid model expected to emerge where both human-driven and autonomous vehicles coexist.",
@@ -30739,7 +30739,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
     "last_proof_snippet": "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
@@ -30800,7 +30800,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
     "last_proof_snippet": "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
@@ -30865,7 +30865,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-31 \u2022 The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
     "last_proof_snippet": "The impact of regulation and policy on the cost of starting a hedge fund.",
@@ -33034,7 +33034,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Invest in technology-driven businesses with a strong founder's mindset that focus on building and scaling rather than introspection, as they are more likely to shape the future and create significant value.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-15 \u2022 The Intersection of Technology, Entrepreneurship, and the Future",
     "last_proof_snippet": "We just have this fundamental view. The technology is like on balance in an armistly powerful force in the world. And the big problem with the world is that there's not enough technology. There's not enough information. There's not enough i",
@@ -33061,7 +33061,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Invest in platinum as a hybrid precious and industrial metal with potential for growth outside of traditional economic cycles, and consider the impact of AI on productivity and government deficits on interest rates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-15 \u2022 Monetary Matters with Jack Farley: Precious Metals, Bonds, and Economic Cycles",
     "last_proof_snippet": "Join today by Alex Gorovich, founder and chief investment officer at Hauntay Asset Management and author of the second edition of the next perfect trade, the Magic Sword of Necessity. Alex, great to talk to you today. We haven't spoken in a",
