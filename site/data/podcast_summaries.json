@@ -1,5 +1,23 @@
 [
   {
+    "id": 240,
+    "podcast_name": "The Jack Mallers Show",
+    "episode_title": "Bitcoin Memorial Day Briefing",
+    "episode_date": "2026-05-26",
+    "summary": "In this episode, Jack Mallers discusses the current economic disparity between Wall Street and Main Street, the unsustainable debt levels of the U.S., and the increasing financial strain on consumers. He emphasizes the importance of Bitcoin as a hedge against fiat currency issues and economic mismanagement. Austrian economics concepts are introduced to highlight the subjective nature of value and the importance of voluntary exchange in economic productivity.",
+    "key_takeaways": [
+      "The S&P 500 is reaching all-time highs while consumer sentiment is at record lows, indicating a disconnect between financial markets and everyday economic realities.",
+      "The U.S. is approaching a crisis point where debt levels may require printing money to cover interest expenses, leading to potential hyperinflation.",
+      "Rising credit card delinquencies and low consumer sentiment indicate increasing financial pressure on U.S. households.",
+      "Venture capital investment in Bitcoin is high, but the number of deals is at a historic low, indicating a concentration of investment in fewer companies.",
+      "Understanding Austrian economics principles can help investors make better decisions in a complex economic landscape."
+    ],
+    "investment_thesis": "Bitcoin serves as a hedge against fiat currency issues and economic mismanagement, making it a valuable asset in times of economic instability.",
+    "key_tickers": [
+      "BTC"
+    ]
+  },
+  {
     "id": 239,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
@@ -119,23 +137,5 @@
     ],
     "investment_thesis": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "key_tickers": null
-  },
-  {
-    "id": 232,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
-    "episode_date": "2026-05-21",
-    "summary": "This episode discusses Google's aggressive investment in AI infrastructure, the growing capabilities of AI in processing large amounts of data, and the adoption of AI products like Gemini Omni. It also touches on the importance of content verification with Synth ID and the demand for AI hardware as evidenced by Cerberus' record IPO. The podcast highlights the potential of AI to revolutionize sectors like healthcare and education and emphasizes the need for trust and authenticity in AI applications.",
-    "key_takeaways": [
-      "Google's projected capital expenditures for 2023 indicate a significant commitment to AI infrastructure.",
-      "The introduction of Gemini Omni positions Google as a leader in multi-modal AI applications.",
-      "Persistent AI search capabilities could redefine user interaction with search engines.",
-      "Synth ID addresses authenticity concerns in AI-generated content, enhancing trust.",
-      "Cerberus' record IPO highlights the growing demand for specialized AI hardware."
-    ],
-    "investment_thesis": "Investing in AI infrastructure and multi-modal AI applications presents a significant opportunity as Google and other tech companies continue to expand their capabilities and applications in this space.",
-    "key_tickers": [
-      "GOOGL"
-    ]
   }
 ]

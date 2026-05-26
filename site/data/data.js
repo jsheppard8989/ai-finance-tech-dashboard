@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-26T06:40:24.794645",
-  chartsVersion: "2026-05-26T06:40:14.213018",
+  generatedAt: "2026-05-26T12:03:11.143927",
+  chartsVersion: "2026-05-26T12:03:04.158676",
   priceSnapshot: {
   "GOOGL": {
-    "price": 382.97,
-    "change_pct": -1.41,
+    "price": 386.64,
+    "change_pct": -2.87,
     "name": "GOOGL",
-    "updated_at": "2026-05-26T06:40:14.212497"
+    "updated_at": "2026-05-26T12:03:04.157368"
   },
   "BTC": {
-    "price": 77142.25,
-    "change_pct": -2.69,
+    "price": 76468.01,
+    "change_pct": -3.54,
     "name": "BTC",
-    "updated_at": "2026-05-26T06:40:14.212508"
+    "updated_at": "2026-05-26T12:03:04.157399"
   },
   "NVDA": {
-    "price": 215.33,
-    "change_pct": 9.58,
+    "price": 213.96,
+    "change_pct": 2.95,
     "name": "NVDA",
-    "updated_at": "2026-05-26T06:40:14.212512"
+    "updated_at": "2026-05-26T12:03:04.157410"
   },
   "MSFT": {
-    "price": 418.57,
-    "change_pct": 1.97,
+    "price": 414.17,
+    "change_pct": 0.27,
     "name": "MSFT",
-    "updated_at": "2026-05-26T06:40:14.212515"
+    "updated_at": "2026-05-26T12:03:04.157419"
   },
   "WTI": {
-    "price": 4.43,
-    "change_pct": 5.46,
+    "price": 4.11,
+    "change_pct": 7.7,
     "name": "WTI",
-    "updated_at": "2026-05-26T06:40:14.212518"
+    "updated_at": "2026-05-26T12:03:04.157428"
   },
   "S&P 500": {
-    "price": 745.64,
-    "change_pct": 3.02,
+    "price": 749.37,
+    "change_pct": 2.12,
     "name": "S&P 500",
-    "updated_at": "2026-05-26T06:40:14.212522"
+    "updated_at": "2026-05-26T12:03:04.157438"
   },
   "META": {
-    "price": 610.26,
-    "change_pct": 0.88,
+    "price": 609.88,
+    "change_pct": -0.49,
     "name": "META",
-    "updated_at": "2026-05-26T06:40:14.212526"
+    "updated_at": "2026-05-26T12:03:04.157448"
   },
   "AMZN": {
-    "price": 266.32,
-    "change_pct": -2.64,
+    "price": 262.96,
+    "change_pct": -4.37,
     "name": "AMZN",
-    "updated_at": "2026-05-26T06:40:14.212529"
+    "updated_at": "2026-05-26T12:03:04.157458"
   },
   "TSLA": {
-    "price": 426.01,
-    "change_pct": 9.41,
+    "price": 432.48,
+    "change_pct": 8.46,
     "name": "TSLA",
-    "updated_at": "2026-05-26T06:40:14.212532"
+    "updated_at": "2026-05-26T12:03:04.157468"
   },
   "QQQ": {
-    "price": 717.54,
-    "change_pct": 5.27,
+    "price": 728.24,
+    "change_pct": 4.67,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-26T06:40:14.212535"
+    "updated_at": "2026-05-26T12:03:04.157477"
   },
   "BTC-USD": {
-    "price": 77142.25,
-    "change_pct": -2.69,
+    "price": 76468.01,
+    "change_pct": -3.54,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-26T06:40:14.212537"
+    "updated_at": "2026-05-26T12:03:04.157486"
   }
 },
   tickerScores: [
@@ -828,6 +828,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 255,
+      "title": "Bitcoin Memorial Day Briefing",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-05-26",
+      "summary": "In this episode, Jack Mallers discusses the current economic disparity between Wall Street and Main Street, the unsustainable debt levels of the U.S., and the increasing financial strain on consumers. He emphasizes the importance of Bitcoin as a hedge against fiat currency issues and economic mismanagement. Austrian economics concepts are introduced to highlight the subjective nature of value and the importance of voluntary exchange in economic productivity.",
+      "key_takeaway": "Bitcoin serves as a hedge against fiat currency issues and economic mismanagement, making it a valuable asset in times of economic instability.",
+      "tickers_mentioned": [
+        "BTC"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 240
+    },
+    {
       "id": 253,
       "title": "Why AI Isn\u2019t Killing SaaS Yet",
       "source_type": "podcast",
@@ -1018,7 +1037,7 @@ const dashboardData = {
         "GOOGL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-22",
       "archived_date": null,
@@ -8286,6 +8305,28 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 255,
+      "title": "Bitcoin Memorial Day Briefing",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-05-26",
+      "summary": "In this episode, Jack Mallers discusses the current economic disparity between Wall Street and Main Street, the unsustainable debt levels of the U.S., and the increasing financial strain on consumers. He emphasizes the importance of Bitcoin as a hedge against fiat currency issues and economic mismanagement. Austrian economics concepts are introduced to highlight the subjective nature of value and the importance of voluntary exchange in economic productivity.",
+      "key_takeaway": "Bitcoin serves as a hedge against fiat currency issues and economic mismanagement, making it a valuable asset in times of economic instability.",
+      "tickers_mentioned": "[\"BTC\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 240,
+      "episode_release_date": "2026-05-26",
+      "guest_name": null,
+      "key_tickers": [
+        "BTC"
+      ]
+    },
+    {
       "id": 253,
       "title": "Why AI Isn\u2019t Killing SaaS Yet",
       "source_type": "podcast",
@@ -8428,28 +8469,6 @@ const dashboardData = {
       "guest_name": null,
       "key_tickers": [
         "NVDA"
-      ]
-    },
-    {
-      "id": 247,
-      "title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-05-21",
-      "summary": "This episode discusses Google's aggressive investment in AI infrastructure, the growing capabilities of AI in processing large amounts of data, and the adoption of AI products like Gemini Omni. It also touches on the importance of content verification with Synth ID and the demand for AI hardware as evidenced by Cerberus' record IPO. The podcast highlights the potential of AI to revolutionize sectors like healthcare and education and emphasizes the need for trust and authenticity in AI applications.",
-      "key_takeaway": "Investing in AI infrastructure and multi-modal AI applications presents a significant opportunity as Google and other tech companies continue to expand their capabilities and applications in this space.",
-      "tickers_mentioned": "[\"GOOGL\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-22",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 232,
-      "episode_release_date": "2026-05-21",
-      "guest_name": "This episode",
-      "key_tickers": [
-        "GOOGL"
       ]
     }
   ],
@@ -24151,12 +24170,74 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-05-25",
     "key_tickers": []
+  },
+  "255": {
+    "id": 245,
+    "insight_id": 255,
+    "podcast_episode_id": 240,
+    "overview": "The unresolved tension highlighted in the podcast is the growing economic disparity between Wall Street's bullish performance and Main Street's deteriorating financial health. This dynamic is contested by the increasing financial strain on consumers, as evidenced by high credit card delinquencies and low consumer sentiment. The allocator-relevant implication is that investors and businesses must navigate a bifurcated economic landscape, where traditional market indicators may not accurately reflect the broader economic health, particularly for consumer-facing sectors.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the consumer credit market closely, as high delinquency rates may foreshadow a downturn in consumer spending, affecting sectors heavily reliant on consumer demand.",
+      "The concentration of venture capital in Bitcoin suggests a potential overvaluation in a select few companies, prompting investors to scrutinize the fundamentals of these ventures and consider a diversified approach to Bitcoin investments.",
+      "Businesses, especially those in consumer discretionary sectors, should prepare for reduced consumer spending by optimizing cost structures and exploring alternative revenue streams.",
+      "Given the potential for currency devaluation and inflation, investors should consider a strategic allocation to Bitcoin as a hedge, while also being mindful of the market's volatility and the need for proper risk management.",
+      "The application of Austrian economics principles can offer a deeper understanding of market dynamics, prompting investors to focus on the subjective value of assets and the importance of voluntary exchange in economic transactions."
+    ],
+    "investment_thesis": "The core investment thesis is that the growing economic disparity between Wall Street and Main Street, coupled with unsustainable U.S. debt levels, positions Bitcoin as a potential hedge against fiat currency devaluation and economic mismanagement. This thesis is vindicated if consumer sentiment continues to decline, credit card delinquencies remain high, and the U.S. resorts to money printing to cover interest expenses, leading to currency devaluation. Conversely, it would be invalidated if economic policies successfully stabilize debt levels and consumer sentiment rebounds, reducing the need for alternative assets like Bitcoin.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc., being a consumer-facing technology giant, is sensitive to changes in consumer spending. Its performance can serve as a barometer for the health of Main Street.",
+        "positioning": "Positioning in AAPL should be strategic, considering its exposure to consumer demand. If consumer sentiment and spending continue to decline, a tactical short position might be considered, while a long position could be justified if there are signs of economic recovery and increased consumer spending.",
+        "risk": "Key risks include a potential downturn in consumer spending due to financial strain, as well as increased competition in the technology sector."
+      },
+      "MSFT": {
+        "rationale": "Microsoft, with its diverse product offerings, can provide insights into both corporate and consumer spending trends.",
+        "positioning": "A long position in MSFT could be strategic, given its resilience and potential to benefit from a shift towards digital solutions, but with a hedge against potential consumer spending declines.",
+        "risk": "Risks include economic downturns affecting both B2B and B2C segments, as well as regulatory challenges."
+      },
+      "TSLA": {
+        "rationale": "Tesla, as a leader in electric vehicles, can indicate consumer preferences and the potential for green technology adoption amidst economic challenges.",
+        "positioning": "A long position in TSLA could be tactical, betting on the continued growth of the electric vehicle market and consumer interest in sustainable technologies, despite broader economic headwinds.",
+        "risk": "The risk includes potential disruptions in supply chains, increased competition, and shifts in consumer preferences."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A sudden increase in consumer spending and a rebound in consumer sentiment could indicate a more robust economic recovery than anticipated, reducing the appeal of Bitcoin as a hedge.",
+      "The introduction of new financial policies or tools that effectively manage U.S. debt levels without resorting to money printing could diminish the perceived need for alternative assets like Bitcoin.",
+      "A significant shift in venture capital investment patterns towards a broader distribution of deals in the Bitcoin space could reduce market concentration risks and change the investment thesis."
+    ],
+    "catalysts": [
+      "Upcoming U.S. economic reports, including consumer spending and sentiment indices, which could provide further evidence of economic disparity or recovery.",
+      "Developments in U.S. debt management policies and the potential for money printing to cover interest expenses, which would be a key indicator of economic stability.",
+      "Announcements from venture capital firms regarding new investments or changes in investment strategies in the Bitcoin space, which could signal shifts in market dynamics.",
+      "Global economic events, such as changes in monetary policy or geopolitical conflicts, that could impact the value of fiat currencies and the appeal of Bitcoin as a hedge."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-26T12:02:13.761606",
+    "updated_at": "2026-05-26 17:02:13",
+    "episode_evidence": "In the podcast, Jack Mallers emphasizes the stark contrast between the performance of Wall Street and Main Street, noting that 'S&P 500 continues to push towards all-time highs while consumer sentiment and Main Street continues to push towards all-time lows.' This highlights a growing economic disparity, where market indices do not reflect the financial reality of the average consumer. Mallers also points out the alarming rise in U.S. credit card delinquencies, stating that they 'have jumped to 13.1%,' the highest in 15 years, indicating significant financial strain on consumers. These insights underscore the severity of the economic situation and the potential for social and economic instability due to the widening gap between financial markets and consumer well-being.",
+    "falsification_tracks": [
+      "If consumer sentiment were to rise significantly and credit card delinquencies drop below historical averages, it would challenge the narrative of increasing financial strain on consumers.",
+      "Should the U.S. successfully manage its debt levels without resorting to money printing, the prediction of a potential economic crisis due to unsustainable debt would be weakened.",
+      "A sustained increase in the number of venture capital deals in the Bitcoin space could indicate a broader distribution of investment, reducing the risk of market volatility due to capital concentration."
+    ],
+    "insight_title": "Bitcoin Memorial Day Briefing",
+    "source_name": "The Jack Mallers Show",
+    "source_date": "2026-05-26",
+    "key_tickers": [
+      "BTC"
+    ]
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 8775,
+    "id": 8832,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -24168,7 +24249,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8776,
+    "id": 8833,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -24180,7 +24261,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8777,
+    "id": 8834,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -24192,7 +24273,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8778,
+    "id": 8835,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -24204,7 +24285,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8779,
+    "id": 8836,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -24216,7 +24297,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8780,
+    "id": 8837,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -24228,7 +24309,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8781,
+    "id": 8838,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -24240,7 +24321,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8782,
+    "id": 8839,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -24252,7 +24333,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8783,
+    "id": 8840,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -24264,7 +24345,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 8784,
+    "id": 8841,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -24276,7 +24357,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8785,
+    "id": 8842,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -24288,7 +24369,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8786,
+    "id": 8843,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -24300,7 +24381,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8787,
+    "id": 8844,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -24312,7 +24393,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8788,
+    "id": 8845,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -24324,7 +24405,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8789,
+    "id": 8846,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -24336,7 +24417,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8790,
+    "id": 8847,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -24348,7 +24429,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8791,
+    "id": 8848,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -24360,7 +24441,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8792,
+    "id": 8849,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -24372,7 +24453,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8793,
+    "id": 8850,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -24384,7 +24465,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 8794,
+    "id": 8851,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -25391,7 +25472,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -25483,7 +25564,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -28992,7 +29073,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -31424,7 +31505,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -31484,7 +31565,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -31544,7 +31625,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",

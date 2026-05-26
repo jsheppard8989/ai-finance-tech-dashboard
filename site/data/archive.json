@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 255,
+      "title": "Bitcoin Memorial Day Briefing",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-05-26",
+      "summary": "In this episode, Jack Mallers discusses the current economic disparity between Wall Street and Main Street, the unsustainable debt levels of the U.S., and the increasing financial strain on consumers. He emphasizes the importance of Bitcoin as a hedge against fiat currency issues and economic mismanagement. Austrian economics concepts are introduced to highlight the subjective nature of value and the importance of voluntary exchange in economic productivity.",
+      "key_takeaway": "Bitcoin serves as a hedge against fiat currency issues and economic mismanagement, making it a valuable asset in times of economic instability.",
+      "tickers_mentioned": [
+        "BTC"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 240
+    },
+    {
       "id": 253,
       "title": "Why AI Isn\u2019t Killing SaaS Yet",
       "source_type": "podcast",
@@ -191,7 +210,7 @@
         "GOOGL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-22",
       "archived_date": null,
