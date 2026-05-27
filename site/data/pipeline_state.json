@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-27T12:05:28.102514",
-  "last_updated": "2026-05-27T12:05:28.102514",
-  "last_pipeline_run": "2026-05-27T12:05:28.102514",
+  "generated_at": "2026-05-27T13:37:16.066109",
+  "last_updated": "2026-05-27T13:37:16.066109",
+  "last_pipeline_run": "2026-05-27T13:37:16.066109",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -12,38 +12,20 @@
     "podcast_episodes": 217,
     "newsletters": 7,
     "daily_scores": 115,
-    "overton_terms_total": 153,
+    "overton_terms_total": 151,
     "latest_insights_total": 231,
     "today_mentions": {},
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 2
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
-    {
-      "id": "7cc1133c-61a7-4acb-8a73-6e4b7ba6228a",
-      "podcast": "The a16z Show",
-      "title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
-      "published": "2026-05-27",
-      "rss_guid": "7cc1133c-61a7-4acb-8a73-6e4b7ba6228a",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "9e723c14-33a2-4bd1-9e58-e475244f9446",
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
