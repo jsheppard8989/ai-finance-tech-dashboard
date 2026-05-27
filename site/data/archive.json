@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 259,
+      "title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-27",
+      "summary": "In this episode, the focus is on the increasing concentration risk in public markets and the shift towards private markets for diversification. The discussion highlights the evolution of credit markets, the impact of AI on enterprise software, and Apollo Global Management's strategy to democratize access to private markets. The conversation underscores the importance of clean sheet thinking and moral leadership in adapting to rapid market changes.",
+      "key_takeaway": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-27",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 244
+    },
+    {
       "id": 255,
       "title": "Bitcoin Memorial Day Briefing",
       "source_type": "podcast",
@@ -152,7 +171,7 @@
         "AMZN"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-23",
       "archived_date": null,
@@ -4810,6 +4829,42 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 207,
+      "term": "Clean Sheet Thinking",
+      "description": "A problem-solving approach that starts from a blank slate, free from preconceived notions or biases, to encourage innovative solutions.",
+      "first_detected_date": "2026-05-27",
+      "last_mentioned_date": "2026-05-27",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should seek firms that embrace clean sheet thinking to identify unique opportunities in a dynamic market.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 244,
+      "first_detected_speaker": "Mark Rowan",
+      "last_mentioned_episode_id": 244,
+      "last_mentioned_speaker": "Mark Rowan"
+    },
+    {
+      "id": 208,
+      "term": "Democratization of Private Markets",
+      "description": "The process of making private market investments more accessible to a broader range of investors through standardized information and daily pricing.",
+      "first_detected_date": "2026-05-27",
+      "last_mentioned_date": "2026-05-27",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Democratization allows more investors to participate in the growth of private companies, potentially leading to new investment opportunities.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 244,
+      "first_detected_speaker": "Mark Rowan",
+      "last_mentioned_episode_id": 244,
+      "last_mentioned_speaker": "Mark Rowan"
+    },
     {
       "id": 194,
       "term": "Multi-modal AI",

@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-27T06:36:40.629326",
-  chartsVersion: "2026-05-27T06:36:29.702616",
+  generatedAt: "2026-05-27T12:05:34.852472",
+  chartsVersion: "2026-05-27T12:05:25.590531",
   priceSnapshot: {
   "GOOGL": {
-    "price": 388.88,
-    "change_pct": -2.3,
+    "price": 391.94,
+    "change_pct": -1.52,
     "name": "GOOGL",
-    "updated_at": "2026-05-27T06:36:29.701579"
+    "updated_at": "2026-05-27T12:05:25.589738"
   },
   "BTC": {
-    "price": 75727.1,
-    "change_pct": -6.57,
+    "price": 75178.02,
+    "change_pct": -7.25,
     "name": "BTC",
-    "updated_at": "2026-05-27T06:36:29.701600"
+    "updated_at": "2026-05-27T12:05:25.589755"
   },
   "NVDA": {
-    "price": 214.86,
-    "change_pct": 3.38,
+    "price": 211.36,
+    "change_pct": -0.07,
     "name": "NVDA",
-    "updated_at": "2026-05-27T06:36:29.701610"
+    "updated_at": "2026-05-27T12:05:25.589762"
   },
   "MSFT": {
-    "price": 416.03,
-    "change_pct": 0.72,
+    "price": 413.58,
+    "change_pct": -1.5,
     "name": "MSFT",
-    "updated_at": "2026-05-27T06:36:29.701619"
+    "updated_at": "2026-05-27T12:05:25.589768"
   },
   "WTI": {
-    "price": 4.07,
-    "change_pct": 6.78,
+    "price": 3.83,
+    "change_pct": 0.35,
     "name": "WTI",
-    "updated_at": "2026-05-27T06:36:29.701627"
+    "updated_at": "2026-05-27T12:05:25.589774"
   },
   "S&P 500": {
-    "price": 750.59,
-    "change_pct": 2.28,
+    "price": 749.62,
+    "change_pct": 2.47,
     "name": "S&P 500",
-    "updated_at": "2026-05-27T06:36:29.701635"
+    "updated_at": "2026-05-27T12:05:25.589780"
   },
   "META": {
-    "price": 612.34,
-    "change_pct": -0.09,
+    "price": 611.21,
+    "change_pct": -0.91,
     "name": "META",
-    "updated_at": "2026-05-27T06:36:29.701650"
+    "updated_at": "2026-05-27T12:05:25.589785"
   },
   "AMZN": {
-    "price": 265.29,
-    "change_pct": -3.53,
+    "price": 271.4,
+    "change_pct": 0.08,
     "name": "AMZN",
-    "updated_at": "2026-05-27T06:36:29.701659"
+    "updated_at": "2026-05-27T12:05:25.589791"
   },
   "TSLA": {
-    "price": 433.59,
-    "change_pct": 8.74,
+    "price": 440.88,
+    "change_pct": 7.06,
     "name": "TSLA",
-    "updated_at": "2026-05-27T06:36:29.701667"
+    "updated_at": "2026-05-27T12:05:25.589797"
   },
   "QQQ": {
-    "price": 730.28,
-    "change_pct": 4.96,
+    "price": 727.91,
+    "change_pct": 4.74,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-27T06:36:29.701675"
+    "updated_at": "2026-05-27T12:05:25.589802"
   },
   "BTC-USD": {
-    "price": 75727.1,
-    "change_pct": -6.57,
+    "price": 75178.02,
+    "change_pct": -7.25,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-27T06:36:29.701683"
+    "updated_at": "2026-05-27T12:05:25.589807"
   }
 },
   tickerScores: [
@@ -828,6 +828,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 259,
+      "title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-27",
+      "summary": "In this episode, the focus is on the increasing concentration risk in public markets and the shift towards private markets for diversification. The discussion highlights the evolution of credit markets, the impact of AI on enterprise software, and Apollo Global Management's strategy to democratize access to private markets. The conversation underscores the importance of clean sheet thinking and moral leadership in adapting to rapid market changes.",
+      "key_takeaway": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-27",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 244
+    },
+    {
       "id": 255,
       "title": "Bitcoin Memorial Day Briefing",
       "source_type": "podcast",
@@ -979,7 +998,7 @@ const dashboardData = {
         "AMZN"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-23",
       "archived_date": null,
@@ -5638,6 +5657,42 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 207,
+      "term": "Clean Sheet Thinking",
+      "description": "A problem-solving approach that starts from a blank slate, free from preconceived notions or biases, to encourage innovative solutions.",
+      "first_detected_date": "2026-05-27",
+      "last_mentioned_date": "2026-05-27",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should seek firms that embrace clean sheet thinking to identify unique opportunities in a dynamic market.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 244,
+      "first_detected_speaker": "Mark Rowan",
+      "last_mentioned_episode_id": 244,
+      "last_mentioned_speaker": "Mark Rowan"
+    },
+    {
+      "id": 208,
+      "term": "Democratization of Private Markets",
+      "description": "The process of making private market investments more accessible to a broader range of investors through standardized information and daily pricing.",
+      "first_detected_date": "2026-05-27",
+      "last_mentioned_date": "2026-05-27",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Democratization allows more investors to participate in the growth of private companies, potentially leading to new investment opportunities.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 244,
+      "first_detected_speaker": "Mark Rowan",
+      "last_mentioned_episode_id": 244,
+      "last_mentioned_speaker": "Mark Rowan"
+    },
+    {
       "id": 194,
       "term": "Multi-modal AI",
       "description": "AI that integrates various forms of media, such as text, images, and audio, to enhance user engagement and application versatility.",
@@ -8366,6 +8421,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 259,
+      "title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-27",
+      "summary": "In this episode, the focus is on the increasing concentration risk in public markets and the shift towards private markets for diversification. The discussion highlights the evolution of credit markets, the impact of AI on enterprise software, and Apollo Global Management's strategy to democratize access to private markets. The conversation underscores the importance of clean sheet thinking and moral leadership in adapting to rapid market changes.",
+      "key_takeaway": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-27",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 244,
+      "episode_release_date": "2026-05-27",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 255,
       "title": "Bitcoin Memorial Day Briefing",
       "source_type": "podcast",
@@ -8509,26 +8584,6 @@ const dashboardData = {
       "episode_release_date": "2026-05-24",
       "guest_name": "What Doomer Narratives Miss About Private Credit",
       "key_tickers": []
-    },
-    {
-      "id": 251,
-      "title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-05-23",
-      "summary": "This episode of 'Moonshots with Peter Diamandis' discusses SpaceX's potential $75 billion IPO, the advancements in AI forecasting with GPT 5.5, the disruption caused by OpenAI's personal finance feature in ChatGPT, Colossal's breakthrough in species revival, and public opposition to data center construction. The podcast provides insights into the market potential of these technologies and their implications for investors.",
-      "key_takeaway": "Invest in companies and technologies that are at the forefront of space exploration, AI advancements, and synthetic biology, as these sectors are poised for significant growth and market disruption.",
-      "tickers_mentioned": "[\"TSLA\", \"GOOGL\", \"AMZN\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-23",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 236,
-      "episode_release_date": "2026-05-23",
-      "guest_name": null,
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -8654,6 +8709,58 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 207,
+      "term": "Clean Sheet Thinking",
+      "description": "A problem-solving approach that starts from a blank slate, free from preconceived notions or biases, to encourage innovative solutions.",
+      "first_detected_date": "2026-05-27",
+      "last_mentioned_date": "2026-05-27",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should seek firms that embrace clean sheet thinking to identify unique opportunities in a dynamic market.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 244,
+      "first_detected_speaker": "Mark Rowan",
+      "last_mentioned_episode_id": 244,
+      "last_mentioned_speaker": "Mark Rowan",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
+      "first_detected_episode_date": "2026-05-27",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
+      "last_mentioned_episode_date": "2026-05-27"
+    },
+    {
+      "id": 208,
+      "term": "Democratization of Private Markets",
+      "description": "The process of making private market investments more accessible to a broader range of investors through standardized information and daily pricing.",
+      "first_detected_date": "2026-05-27",
+      "last_mentioned_date": "2026-05-27",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Democratization allows more investors to participate in the growth of private companies, potentially leading to new investment opportunities.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 244,
+      "first_detected_speaker": "Mark Rowan",
+      "last_mentioned_episode_id": 244,
+      "last_mentioned_speaker": "Mark Rowan",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
+      "first_detected_episode_date": "2026-05-27",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
+      "last_mentioned_episode_date": "2026-05-27"
+    },
     {
       "id": 194,
       "term": "Multi-modal AI",
@@ -8939,58 +9046,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
       "last_mentioned_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "last_mentioned_episode_date": "2026-05-07"
-    },
-    {
-      "id": 156,
-      "term": "Compounding Talent, Capital, and Culture",
-      "description": "The concept of building an organization that not only generates returns but also systematically develops and retains talent, grows capital, and fosters a strong culture over time.",
-      "first_detected_date": "2026-05-05",
-      "last_mentioned_date": "2026-05-05",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should look for firms that demonstrate the ability to compound these elements for sustainable growth.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 199,
-      "first_detected_speaker": "Tony James",
-      "last_mentioned_episode_id": 199,
-      "last_mentioned_speaker": "Tony James",
-      "overton_score": 0.6,
-      "resonance_pct": 15,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Building Blackstone, Backing Costco, with Tony James",
-      "first_detected_episode_date": "2026-05-05",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Building Blackstone, Backing Costco, with Tony James",
-      "last_mentioned_episode_date": "2026-05-05"
-    },
-    {
-      "id": 153,
-      "term": "Western AI Stack",
-      "description": "A concept referring to AI technologies that align with Western values, such as individual consent and rule-based operations.",
-      "first_detected_date": "2026-05-04",
-      "last_mentioned_date": "2026-05-04",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the alignment of AI technologies with Western values as a potential differentiator in a globally competitive market.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 195,
-      "first_detected_speaker": "Sarah B. Rogers",
-      "last_mentioned_episode_id": 195,
-      "last_mentioned_speaker": "Sarah B. Rogers",
-      "overton_score": 0.59,
-      "resonance_pct": 15,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "first_detected_episode_date": "2026-05-04",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "last_mentioned_episode_date": "2026-05-04"
     }
   ]
 },
@@ -24465,12 +24520,60 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-05-26",
     "key_tickers": []
+  },
+  "259": {
+    "id": 249,
+    "insight_id": 259,
+    "podcast_episode_id": 244,
+    "overview": "The unresolved tension in the investment landscape is the increasing concentration risk in public markets versus the potential for diversification and growth in private markets. The competitive dynamic is between traditional public market investments and the emerging opportunities in private markets, particularly in sectors like AI and energy. The allocator-relevant implication is that investors who fail to diversify into private markets may miss out on significant growth opportunities, while those who overexpose to enterprise software may face declines in returns due to the impact of AI.",
+    "key_takeaways_detailed": [
+      "Investors should actively monitor the concentration levels in public markets and adjust their portfolios to mitigate risks associated with overreliance on a few stocks.",
+      "The potential for lower returns in enterprise software due to AI advancements suggests a need for investors to reassess their exposure and consider sectors less impacted by technological disruption.",
+      "Apollo's democratization efforts in private markets offer a new frontier for investors, requiring them to stay informed about market developments and adapt their investment strategies accordingly.",
+      "Investors should evaluate the culture and approach of firms like Apollo, which emphasize clean sheet thinking and moral leadership, as these attributes may provide a competitive edge in a rapidly changing market."
+    ],
+    "investment_thesis": "The core logic is that the increasing concentration in public markets necessitates a strategic shift towards private markets for diversification and growth. This shift is further justified by the potential for lower returns in enterprise software due to AI and the democratization of private markets by firms like Apollo. The thesis is vindicated if private markets continue to outperform public markets in terms of diversification and growth, and if the democratization efforts lead to increased investor participation. Conversely, it would be invalidated if private markets fail to deliver expected returns or if public market concentration risk diminishes significantly.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is one of the top 10 stocks in the S&P 500, and its performance significantly impacts the index. Understanding Apple's market dynamics is crucial for investors seeking diversification.",
+        "positioning": "Investors should consider a tactical long position in AAPL due to its strong market position and innovation capabilities, but also maintain a strategic hedge to mitigate concentration risk.",
+        "risk": "Key risks include increased regulatory scrutiny, market saturation, and potential disruptions from new technologies or competitors."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant increase in the number of IPOs, indicating a shift back towards public markets and potentially reducing the appeal of private markets.",
+      "A decline in the performance of private companies, suggesting that the risks associated with private investments may outweigh the benefits.",
+      "A technological breakthrough in enterprise software that mitigates the impact of AI, potentially stabilizing or increasing returns in this sector."
+    ],
+    "catalysts": [
+      "Regulatory changes that impact the accessibility and transparency of private markets.",
+      "Major technological advancements in AI that could significantly reshape the competitive landscape of enterprise software.",
+      "Economic indicators that signal a shift in market sentiment towards public or private markets."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-27T12:04:33.852993",
+    "updated_at": "2026-05-27 17:04:33",
+    "episode_evidence": "The podcast highlighted the significant concentration risk in public markets, with just 10 stocks accounting for nearly 50% of the S&P 500's value, as stated by Mark Rowan: '10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend.' This concentration poses a significant risk for investors seeking diversification. The discussion also underscored the importance of private markets, which represent 80% of global capital activity, and the need for investors to explore these markets for diversification. Apollo Global Management's strategy to democratize access to private markets was emphasized, with a focus on daily pricing and standardized information, as Rowan mentioned: 'We will be daily estimated value by June 30... this is about creating an ecosystem.' This approach aims to attract a broader range of investors and increase the size and accessibility of private markets.",
+    "falsification_tracks": [
+      "If the S&P 500's concentration risk diminishes significantly, with the top 10 stocks' market share dropping below 30%, the thesis on diversification through private markets would be weakened.",
+      "If private markets fail to attract a broader range of investors despite democratization efforts, it would suggest that the strategy to increase accessibility is not effective.",
+      "A sustained decline in the value of private companies like Thropic, OpenAI, and SpaceX could indicate that the shift to private markets is not yielding the expected returns."
+    ],
+    "insight_title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
+    "source_name": "The a16z Show",
+    "source_date": "2026-05-27",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 9117,
+    "id": 9174,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -24482,7 +24585,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9118,
+    "id": 9175,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -24494,7 +24597,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9119,
+    "id": 9176,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -24506,7 +24609,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9120,
+    "id": 9177,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -24518,7 +24621,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9121,
+    "id": 9178,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -24530,7 +24633,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9122,
+    "id": 9179,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -24542,7 +24645,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9123,
+    "id": 9180,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -24554,7 +24657,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9124,
+    "id": 9181,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -24566,7 +24669,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9125,
+    "id": 9182,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -24578,7 +24681,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 9126,
+    "id": 9183,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -24590,7 +24693,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9127,
+    "id": 9184,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -24602,7 +24705,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9128,
+    "id": 9185,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -24614,7 +24717,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9129,
+    "id": 9186,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -24626,7 +24729,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9130,
+    "id": 9187,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -24638,7 +24741,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9131,
+    "id": 9188,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -24650,7 +24753,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9132,
+    "id": 9189,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -24662,7 +24765,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9133,
+    "id": 9190,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -24674,7 +24777,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9134,
+    "id": 9191,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -24686,7 +24789,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9135,
+    "id": 9192,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -24698,7 +24801,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9136,
+    "id": 9193,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -25705,7 +25808,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -25713,6 +25816,67 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 265,
+    "name": "Mark Rowan",
+    "slug": "mark-rowan",
+    "bio": "Mark Rowan is the CEO of Apollo Global Management, a leading firm in the transition into retirement services and alternative asset management. He has been instrumental in the firm's growth and diversification, emphasizing clean sheet thinking and adaptability in a rapidly changing market.",
+    "known_for": "His leadership in transforming Apollo Global Management into one of the world's largest alternative asset managers and his insights on the importance of private markets for diversification.",
+    "net_worth_usd": 577000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/4157/marc-j-rowan",
+    "net_worth_updated_at": "2026-05-27T12:04:09.655698",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-27 17:03:40",
+    "last_episode_title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-27",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
+    "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
+    "supporting_takeaway": "High-growth private companies like Thropic, OpenAI, and SpaceX offer significant investment opportunities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-27T12:04:08.533279",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Mark Rowan",
+      "fetched_at": "2026-05-27T17:04:08.532910+00:00",
+      "cliff_notes": "Mark Rowan began his career at Drexel, where he gained experience in distressed investing. After leaving Drexel, he co-founded Apollo Global Management, which started as a distressed investing firm in the aftermath of a financial crisis. Under Rowan's leadership, Apollo has grown to become one of the world's largest alternative asset managers, with a focus on private equity, credit, and real estate. Rowan has emphasized the importance of clean sheet thinking and adaptability in a rapidly changing market, and has been vocal about the need for investors to diversify into private markets to gain exposure to high-growth companies that are not publicly traded. His insights on the future of technology and its impact on the economy have made him a respected voice in the investment community.",
+      "derived": {
+        "current_role": "CEO of Apollo Global Management",
+        "former_positions": "Distressed investing at Drexel; Founder of Apollo Global Management"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Mark Rowan began his career at Drexel, where he gained experience in distressed investing. After leaving Drexel, he co-founded Apollo Global Management, which started as a distressed investing firm in the aftermath of a financial crisis. Under Rowan's leadership, Apollo has grown to become one of the world's largest alternative asset managers, with a focus on private equity, credit, and real estate.",
+        "Rowan has emphasized the importance of clean sheet thinking and adaptability in a rapidly changing market, and has been vocal about the need for investors to diversify into private markets to gain exposure to high-growth companies that are not publicly traded. His insights on the future of technology and its impact on the economy have made him a respected voice in the investment community."
+      ],
+      "sections": [
+        {
+          "heading": "Apollo Global Management",
+          "body": "Mark Rowan has led Apollo Global Management's transition into retirement services and alternative asset management, making it one of the world's largest alternative asset managers."
+        },
+        {
+          "heading": "Private Markets",
+          "body": "Rowan has emphasized the importance of private markets for diversification, arguing that most investors have zero exposure to high-growth private companies like Thropic, OpenAI, SpaceX, and Rol."
+        },
+        {
+          "heading": "Technology and the Economy",
+          "body": "Rowan has spoken about the proliferation of AI across the economy and the assumption that every job will be replaced or enhanced by software, highlighting the need for investors to adapt to these changes."
+        }
+      ]
+    },
+    "net_worth": "$577.0M"
   },
   {
     "id": 264,
@@ -25854,7 +26018,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -25918,7 +26082,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -26661,7 +26825,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -26727,7 +26891,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -29363,7 +29527,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -33163,7 +33327,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
@@ -33221,7 +33385,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",

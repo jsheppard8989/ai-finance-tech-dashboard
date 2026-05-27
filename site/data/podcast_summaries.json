@@ -1,5 +1,21 @@
 [
   {
+    "id": 244,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
+    "episode_date": "2026-05-27",
+    "summary": "In this episode, the focus is on the increasing concentration risk in public markets and the shift towards private markets for diversification. The discussion highlights the evolution of credit markets, the impact of AI on enterprise software, and Apollo Global Management's strategy to democratize access to private markets. The conversation underscores the importance of clean sheet thinking and moral leadership in adapting to rapid market changes.",
+    "key_takeaways": [
+      "Investors should diversify into private markets to mitigate concentration risk in public markets.",
+      "High-growth private companies like Thropic, OpenAI, and SpaceX offer significant investment opportunities.",
+      "Understanding the evolving private credit market is crucial for identifying stable investment opportunities.",
+      "AI's impact on enterprise software may lead to lower private equity returns in this sector.",
+      "Apollo's democratization of private markets through daily pricing and standardized information could increase accessibility."
+    ],
+    "investment_thesis": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
+    "key_tickers": null
+  },
+  {
     "id": 243,
     "podcast_name": "The a16z Show",
     "episode_title": "Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
@@ -116,22 +132,6 @@
       "Monitor the private credit secondary market for distressed asset opportunities and evaluate GP-led continuation funds for potential investments."
     ],
     "investment_thesis": "Investors should focus on the quality of underlying assets and cash flows in private credit, with a particular emphasis on non-sponsored lending and data center financing opportunities.",
-    "key_tickers": null
-  },
-  {
-    "id": 236,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
-    "episode_date": "2026-05-23",
-    "summary": "This episode of 'Moonshots with Peter Diamandis' discusses SpaceX's potential $75 billion IPO, the advancements in AI forecasting with GPT 5.5, the disruption caused by OpenAI's personal finance feature in ChatGPT, Colossal's breakthrough in species revival, and public opposition to data center construction. The podcast provides insights into the market potential of these technologies and their implications for investors.",
-    "key_takeaways": [
-      "SpaceX's IPO aims to capitalize on a $28.5 trillion market, influencing investment strategies in aerospace and technology sectors.",
-      "AI forecasting tools like GPT 5.5 can enhance strategic planning and risk management with their improved accuracy.",
-      "OpenAI's personal finance feature in ChatGPT could reshape the financial advisory landscape, affecting fintech investments.",
-      "Investors in biotech and conservation should explore opportunities in synthetic biology and species revival technologies.",
-      "Public opposition to data center construction could hinder tech companies' growth strategies, necessitating community engagement."
-    ],
-    "investment_thesis": "Invest in companies and technologies that are at the forefront of space exploration, AI advancements, and synthetic biology, as these sectors are poised for significant growth and market disruption.",
     "key_tickers": null
   }
 ]
