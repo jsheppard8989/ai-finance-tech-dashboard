@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-26T22:02:42.486356",
-  "last_updated": "2026-05-26T22:02:42.486356",
-  "last_pipeline_run": "2026-05-26T22:02:42.486356",
+  "generated_at": "2026-05-26T23:34:29.051123",
+  "last_updated": "2026-05-26T23:34:29.051123",
+  "last_pipeline_run": "2026-05-26T23:34:29.051123",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -18,32 +18,14 @@
     "podcasts_analyzed": 4
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 2
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
-    {
-      "id": "1f41bb8a-925a-4d3e-95fc-f3790db1619e",
-      "podcast": "The a16z Show",
-      "title": "Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
-      "published": "2026-05-26",
-      "rss_guid": "1f41bb8a-925a-4d3e-95fc-f3790db1619e",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "9e723c14-33a2-4bd1-9e58-e475244f9446",
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
