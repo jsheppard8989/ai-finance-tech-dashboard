@@ -1,5 +1,22 @@
 [
   {
+    "id": 243,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
+    "episode_date": "2026-05-26",
+    "summary": "This episode of 'The a16z Show' delves into the emerging field of prediction markets, exploring their potential as a tool for information aggregation and decision-making in business and personal contexts. The discussion highlights the regulatory challenges these markets face, such as the recent law in Minnesota that criminalizes prediction markets, and the societal perceptions that may hinder their evolution. The podcast also touches on the historical context of financial markets, drawing parallels between their initial illegal status and the potential for prediction markets to gain legitimacy over time. Insights are provided on the cultural acceptance of risk in sports betting and the importance of balancing fun, risk, and legitimate information aggregation for broader acceptance of prediction markets.",
+    "key_takeaways": [
+      "Prediction markets aggregate information to forecast outcomes, enhancing decision-making for businesses and individuals.",
+      "Regulatory risks, such as Minnesota's ban on prediction markets, pose significant challenges to their growth and acceptance.",
+      "Decision markets can offer objective insights into corporate governance, helping to mitigate biases and agency problems.",
+      "Many financial markets were once illegal but gained acceptance as their value became evident, suggesting a similar trajectory for prediction markets.",
+      "Cultural acceptance of risk-taking in sports has made sports betting a dominant area in prediction markets.",
+      "Innovations in prediction markets require a balance between fun, risk, and legitimate information aggregation to gain broader acceptance."
+    ],
+    "investment_thesis": "Invest in companies developing prediction market platforms, focusing on those with strong legal compliance strategies and potential for cultural acceptance.",
+    "key_tickers": null
+  },
+  {
     "id": 242,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "The Organizational Singularity: AI-Proof Your Company | EP #258",
@@ -116,23 +133,5 @@
     ],
     "investment_thesis": "Invest in companies and technologies that are at the forefront of space exploration, AI advancements, and synthetic biology, as these sectors are poised for significant growth and market disruption.",
     "key_tickers": null
-  },
-  {
-    "id": 235,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-    "episode_date": "2026-05-22",
-    "summary": "In this episode, the hosts discuss the latest developments in AI, with a focus on recursive self-improvement and its potential to drive exponential advancements in AI capabilities. They also analyze Anthropic's strong earnings, SpaceX's upcoming IPO, and Nvidia's impressive Q1 results. The geopolitical tensions between the US and China, as well as the impact of rising inflation and interest rates on investment strategies, are also covered.",
-    "key_takeaways": [
-      "Anthropic's earnings indicate a strong ROI in AI investments, with significant revenue growth projected across private language model companies.",
-      "Recursive self-improvement in AI models could lead to rapid advancements in capabilities, enhancing the performance of language models.",
-      "SpaceX's IPO aims to raise $75 billion at a valuation of $1.75 trillion, highlighting the value of space-based services and AI compute.",
-      "Nvidia's Q1 earnings showed 85% year-over-year revenue growth, driven by its AI and data center markets.",
-      "Geopolitical tensions, particularly between the US and China, impact trade and technology, with potential ramifications for global markets."
-    ],
-    "investment_thesis": "Invest in companies at the forefront of AI advancements, with a focus on those demonstrating strong revenue growth and innovative technologies.",
-    "key_tickers": [
-      "NVDA"
-    ]
   }
 ]

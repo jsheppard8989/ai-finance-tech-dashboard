@@ -62,6 +62,25 @@
       "podcast_episode_id": 241
     },
     {
+      "id": 258,
+      "title": "Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-26",
+      "summary": "This episode of 'The a16z Show' delves into the emerging field of prediction markets, exploring their potential as a tool for information aggregation and decision-making in business and personal contexts. The discussion highlights the regulatory challenges these markets face, such as the recent law in Minnesota that criminalizes prediction markets, and the societal perceptions that may hinder their evolution. The podcast also touches on the historical context of financial markets, drawing parallels between their initial illegal status and the potential for prediction markets to gain legitimacy over time. Insights are provided on the cultural acceptance of risk in sports betting and the importance of balancing fun, risk, and legitimate information aggregation for broader acceptance of prediction markets.",
+      "key_takeaway": "Invest in companies developing prediction market platforms, focusing on those with strong legal compliance strategies and potential for cultural acceptance.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 243
+    },
+    {
       "id": 253,
       "title": "Why AI Isn\u2019t Killing SaaS Yet",
       "source_type": "podcast",
@@ -191,7 +210,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-22",
       "archived_date": null,
@@ -4791,24 +4810,6 @@
   ],
   "definitions": [],
   "overton": [
-    {
-      "id": 206,
-      "term": "AI Disruption in Employment",
-      "description": "The significant impact of artificial intelligence on employment levels, which in turn affects housing demand.",
-      "first_detected_date": "2026-05-26",
-      "last_mentioned_date": "2026-05-26",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should monitor AI advancements and their effect on employment to anticipate shifts in housing market dynamics.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 241,
-      "first_detected_speaker": "Jack Farley (hosts)",
-      "last_mentioned_episode_id": 241,
-      "last_mentioned_speaker": "Jack Farley (hosts)"
-    },
     {
       "id": 194,
       "term": "Multi-modal AI",
