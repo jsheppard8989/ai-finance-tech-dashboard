@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-28T06:35:53.820026",
-  chartsVersion: "2026-05-28T06:35:42.334304",
+  generatedAt: "2026-05-28T12:04:37.301714",
+  chartsVersion: "2026-05-28T12:04:24.777551",
   priceSnapshot: {
   "GOOGL": {
-    "price": 388.83,
-    "change_pct": -2.3,
+    "price": 389.14,
+    "change_pct": -2.91,
     "name": "GOOGL",
-    "updated_at": "2026-05-28T06:35:42.333591"
+    "updated_at": "2026-05-28T12:04:24.776444"
   },
   "BTC": {
-    "price": 73273.19,
-    "change_pct": -7.33,
+    "price": 73203.66,
+    "change_pct": -7.41,
     "name": "BTC",
-    "updated_at": "2026-05-28T06:35:42.333607"
+    "updated_at": "2026-05-28T12:04:24.776463"
   },
   "NVDA": {
-    "price": 212.6,
-    "change_pct": 0.52,
+    "price": 213.67,
+    "change_pct": -0.71,
     "name": "NVDA",
-    "updated_at": "2026-05-28T06:35:42.333614"
+    "updated_at": "2026-05-28T12:04:24.776473"
   },
   "MSFT": {
-    "price": 412.67,
-    "change_pct": -1.71,
+    "price": 425.06,
+    "change_pct": 2.62,
     "name": "MSFT",
-    "updated_at": "2026-05-28T06:35:42.333621"
+    "updated_at": "2026-05-28T12:04:24.776481"
   },
   "WTI": {
-    "price": 3.71,
-    "change_pct": -2.66,
+    "price": 3.69,
+    "change_pct": -0.25,
     "name": "WTI",
-    "updated_at": "2026-05-28T06:35:42.333626"
+    "updated_at": "2026-05-28T12:04:24.776489"
   },
   "S&P 500": {
-    "price": 750.46,
-    "change_pct": 2.58,
+    "price": 754.68,
+    "change_pct": 2.31,
     "name": "S&P 500",
-    "updated_at": "2026-05-28T06:35:42.333632"
+    "updated_at": "2026-05-28T12:04:24.776497"
   },
   "META": {
-    "price": 635.26,
-    "change_pct": 2.99,
+    "price": 630.59,
+    "change_pct": 3.44,
     "name": "META",
-    "updated_at": "2026-05-28T06:35:42.333638"
+    "updated_at": "2026-05-28T12:04:24.776505"
   },
   "AMZN": {
-    "price": 271.85,
-    "change_pct": 0.25,
+    "price": 270.34,
+    "change_pct": -0.86,
     "name": "AMZN",
-    "updated_at": "2026-05-28T06:35:42.333643"
+    "updated_at": "2026-05-28T12:04:24.776512"
   },
   "TSLA": {
-    "price": 440.36,
-    "change_pct": 6.94,
+    "price": 441.96,
+    "change_pct": 3.18,
     "name": "TSLA",
-    "updated_at": "2026-05-28T06:35:42.333648"
+    "updated_at": "2026-05-28T12:04:24.776520"
   },
   "QQQ": {
-    "price": 729.45,
-    "change_pct": 4.97,
+    "price": 736.31,
+    "change_pct": 3.53,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-28T06:35:42.333653"
+    "updated_at": "2026-05-28T12:04:24.776527"
   },
   "BTC-USD": {
-    "price": 73273.19,
-    "change_pct": -7.33,
+    "price": 73203.66,
+    "change_pct": -7.41,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-28T06:35:42.333658"
+    "updated_at": "2026-05-28T12:04:24.776534"
   }
 },
   tickerScores: [
@@ -828,6 +828,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 260,
+      "title": "Stablecoins, AI Agents, and The Future of Global Banking",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-28",
+      "summary": "The podcast discusses the growth and strategic pivots of Jeeps, a stablecoin-native financial operating system targeting global enterprises. Key themes include the company's robust financial infrastructure, regulatory licensing as a competitive advantage, and the strategic shift towards enterprise clients. The show also highlights the importance of AI integration for operational efficiency and the growing adoption of stablecoins in Latin America, particularly Argentina, as a practical solution for currency volatility.",
+      "key_takeaway": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 245
+    },
+    {
       "id": 259,
       "title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
       "source_type": "podcast",
@@ -977,7 +996,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-24",
       "archived_date": null,
@@ -5657,6 +5676,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 209,
+      "term": "Stablecoin-Native Financial Operating System",
+      "description": "A financial platform that is built to operate with stablecoins, offering services such as payments and underwriting in a seamless and compliant manner across multiple countries.",
+      "first_detected_date": "2026-05-28",
+      "last_mentioned_date": "2026-05-28",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the potential of stablecoin-native platforms in providing efficient cross-border financial services, especially in regions with high stablecoin adoption.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 245,
+      "first_detected_speaker": "Delip Tasman",
+      "last_mentioned_episode_id": 245,
+      "last_mentioned_speaker": "Delip Tasman"
+    },
+    {
       "id": 194,
       "term": "Multi-modal AI",
       "description": "AI that integrates various forms of media, such as text, images, and audio, to enhance user engagement and application versatility.",
@@ -8385,6 +8422,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 260,
+      "title": "Stablecoins, AI Agents, and The Future of Global Banking",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-28",
+      "summary": "The podcast discusses the growth and strategic pivots of Jeeps, a stablecoin-native financial operating system targeting global enterprises. Key themes include the company's robust financial infrastructure, regulatory licensing as a competitive advantage, and the strategic shift towards enterprise clients. The show also highlights the importance of AI integration for operational efficiency and the growing adoption of stablecoins in Latin America, particularly Argentina, as a practical solution for currency volatility.",
+      "key_takeaway": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 245,
+      "episode_release_date": "2026-05-28",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 259,
       "title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
       "source_type": "podcast",
@@ -8528,26 +8585,6 @@ const dashboardData = {
       "episode_release_date": "2026-05-25",
       "guest_name": "Things Are Going to Get Even Crazier",
       "key_tickers": []
-    },
-    {
-      "id": 252,
-      "title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-05-24",
-      "summary": "This episode of Monetary Matters with Jack Farley delves into the intricacies of private credit, highlighting challenges in capital raising, fund performance divergence, and the burgeoning data center financing market. The discussion underscores the impact of pro-cyclical capital raising on fund risk, the growing importance of non-sponsored lending, and the evolving secondary market for private credit. Key insights include the need for investors to scrutinize fund vintage exposure, consider closed-end funds for better risk-adjusted returns, and explore data center financing opportunities.",
-      "key_takeaway": "Investors should focus on the quality of underlying assets and cash flows in private credit, with a particular emphasis on non-sponsored lending and data center financing opportunities.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-24",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 237,
-      "episode_release_date": "2026-05-24",
-      "guest_name": "What Doomer Narratives Miss About Private Credit",
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -8673,6 +8710,32 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 209,
+      "term": "Stablecoin-Native Financial Operating System",
+      "description": "A financial platform that is built to operate with stablecoins, offering services such as payments and underwriting in a seamless and compliant manner across multiple countries.",
+      "first_detected_date": "2026-05-28",
+      "last_mentioned_date": "2026-05-28",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the potential of stablecoin-native platforms in providing efficient cross-border financial services, especially in regions with high stablecoin adoption.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 245,
+      "first_detected_speaker": "Delip Tasman",
+      "last_mentioned_episode_id": 245,
+      "last_mentioned_speaker": "Delip Tasman",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Stablecoins, AI Agents, and The Future of Global Banking",
+      "first_detected_episode_date": "2026-05-28",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Stablecoins, AI Agents, and The Future of Global Banking",
+      "last_mentioned_episode_date": "2026-05-28"
+    },
     {
       "id": 194,
       "term": "Multi-modal AI",
@@ -8984,32 +9047,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Building Blackstone, Backing Costco, with Tony James",
       "last_mentioned_episode_date": "2026-05-05"
-    },
-    {
-      "id": 153,
-      "term": "Western AI Stack",
-      "description": "A concept referring to AI technologies that align with Western values, such as individual consent and rule-based operations.",
-      "first_detected_date": "2026-05-04",
-      "last_mentioned_date": "2026-05-04",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the alignment of AI technologies with Western values as a potential differentiator in a globally competitive market.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 195,
-      "first_detected_speaker": "Sarah B. Rogers",
-      "last_mentioned_episode_id": 195,
-      "last_mentioned_speaker": "Sarah B. Rogers",
-      "overton_score": 0.57,
-      "resonance_pct": 14,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "first_detected_episode_date": "2026-05-04",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "last_mentioned_episode_date": "2026-05-04"
     }
   ]
 },
@@ -24532,12 +24569,64 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-05-27",
     "key_tickers": []
+  },
+  "260": {
+    "id": 250,
+    "insight_id": 260,
+    "podcast_episode_id": 245,
+    "overview": "The competitive dynamic implied by the source material revolves around Jeeps' ability to leverage its financial infrastructure and regulatory compliance to capture a larger share of the global enterprise market. The unresolved tension lies in the company's reliance on the continued growth and adoption of stablecoins, particularly in Latin America, and the successful integration of AI to maintain operational efficiency. The metric that arbitrates this uncertainty is the company's ability to secure regulatory licenses and scale its operations while adapting to technological advancements in programmable finance.",
+    "key_takeaways_detailed": [
+      "Investors should monitor Jeeps' progress in obtaining regulatory licenses as a leading indicator of their ability to expand and maintain competitive positioning in global markets.",
+      "The success of Jeeps' AI integration will be a critical factor in determining their operational scalability and cost management, with implications for profitability and shareholder value.",
+      "Jeeps' focus on enterprise clients presents an opportunity for higher profitability but also requires a continuous assessment of market dynamics to ensure the company remains aligned with the evolving needs of this segment.",
+      "The adoption of stablecoins in Latin America serves as a proxy for Jeeps' market penetration and relevance, with potential implications for their growth strategy and international expansion.",
+      "Investors should consider the potential impact of programmable money on Jeeps' future offerings, as this could disrupt traditional banking models and offer new avenues for revenue generation."
+    ],
+    "investment_thesis": "Jeeps' investment thesis is predicated on the company's ability to capitalize on the growing adoption of stablecoins and AI integration to enhance operational efficiency and expand into global markets. The timeframe for this thesis is medium to long-term, as the company's infrastructure and regulatory compliance efforts are expected to bear fruit over the next few years. An observable development that would vindicate this thesis is the continued growth in transaction volume and revenue, along with successful expansion into new markets through regulatory licensing. Conversely, a failure to secure these licenses or a decline in stablecoin adoption would invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's involvement in the fintech space, particularly with Apple Pay and its potential forays into digital currencies, makes it relevant to the thesis on Jeeps. Apple's technology and market reach could either complement or compete with Jeeps' offerings.",
+        "positioning": "A strategic long position in AAPL could be considered, as their technology advancements and potential entry into digital currencies could drive synergies with Jeeps' operations, especially if Apple decides to partner with or invest in companies like Jeeps.",
+        "risk": "The key risk for this position is regulatory hurdles that could impede Apple's expansion into digital currencies, which would limit the potential for collaboration or competition with Jeeps."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The global regulatory environment for stablecoins is still evolving, and potential crackdowns could hinder Jeeps' growth.",
+      "Enterprise clients may have specific regulatory and compliance needs that Jeeps has yet to fully address, potentially limiting their market penetration.",
+      "The rapid pace of technological change in AI and programmable finance could outpace Jeeps' ability to adapt, threatening their competitive advantage."
+    ],
+    "catalysts": [
+      "Announcements of new regulatory licenses obtained by Jeeps in key markets.",
+      "Release of Jeeps' financial results, particularly focusing on transaction volume and revenue growth.",
+      "Introduction of new AI-driven products or services by Jeeps that enhance operational efficiency.",
+      "Market research reports confirming the continued growth in stablecoin adoption, especially in Latin America.",
+      "Any significant technological advancements in programmable finance that Jeeps could leverage to further reduce operational costs."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-28T12:03:33.230664",
+    "updated_at": "2026-05-28 17:03:33",
+    "episode_evidence": "Jeeps' robust financial infrastructure is a cornerstone of its competitive advantage, as it allows the company to maintain its own ledger across multiple currencies in 25 countries, a feat that took 18 months to perfect, as Delip Tasman, CEO of Jeeps, mentioned: 'We maintain our own ledger in 25 countries... that took us 18 months to figure out.' This infrastructure not only enables rapid scaling but also ensures seamless customer experiences and high acceptance rates for payments. Jeeps' strategic shift towards enterprise clients has been a pivotal move, leading to a 10x increase in revenue and an 8x growth in transaction volume, as Tasman highlighted: 'Our revenue has grown about 10x... and our volume has grown 8x.' This shift has allowed Jeeps to enhance profitability and product offerings, catering to the needs of a more lucrative market segment. The integration of AI has been a game-changer for Jeeps, streamlining underwriting processes and customer service, and reducing the need for a large workforce, as Tasman pointed out: 'Our underwriting team today is four people... that just wouldn't have been possible two and a half years ago.'",
+    "falsification_tracks": [
+      "Should Jeeps fail to secure additional regulatory licenses in new markets, their ability to expand service offerings and maintain high margins could be significantly hindered.",
+      "A decline in the adoption rate of stablecoins in Latin America, particularly in Argentina, would undermine Jeeps' market relevance and growth potential.",
+      "Failure to integrate AI effectively into underwriting and customer service could lead to increased operational costs and reduced efficiency, negating the competitive advantage Jeeps has gained.",
+      "If Jeeps' transaction volume does not reach the projected $6 billion, it would cast doubt on the sustainability of their growth and the effectiveness of their strategic pivot."
+    ],
+    "insight_title": "Stablecoins, AI Agents, and The Future of Global Banking",
+    "source_name": "The a16z Show",
+    "source_date": "2026-05-28",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 9459,
+    "id": 9516,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -24549,7 +24638,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9460,
+    "id": 9517,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -24561,7 +24650,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9461,
+    "id": 9518,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -24573,7 +24662,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9462,
+    "id": 9519,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -24585,7 +24674,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9463,
+    "id": 9520,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -24597,7 +24686,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9464,
+    "id": 9521,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -24609,7 +24698,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9465,
+    "id": 9522,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -24621,7 +24710,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9466,
+    "id": 9523,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -24633,7 +24722,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9467,
+    "id": 9524,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -24645,7 +24734,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 9468,
+    "id": 9525,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -24657,7 +24746,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9469,
+    "id": 9526,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -24669,7 +24758,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9470,
+    "id": 9527,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -24681,7 +24770,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9471,
+    "id": 9528,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -24693,7 +24782,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9472,
+    "id": 9529,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -24705,7 +24794,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9473,
+    "id": 9530,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -24717,7 +24806,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9474,
+    "id": 9531,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -24729,7 +24818,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9475,
+    "id": 9532,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -24741,7 +24830,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9476,
+    "id": 9533,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -24753,7 +24842,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9477,
+    "id": 9534,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -24765,7 +24854,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9478,
+    "id": 9535,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -25772,7 +25861,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -25780,6 +25869,70 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 266,
+    "name": "Delip Tasman",
+    "slug": "delip-tasman",
+    "bio": "Delip Tasman is the CEO of Jeeps, a company at the forefront of the stablecoin-native financial services sector. He is known for leading the company's strategic growth and expansion, particularly in the use of stablecoins to facilitate financial transactions across borders.",
+    "known_for": "Leading Jeeps' expansion in the stablecoin-native financial services sector.",
+    "net_worth_usd": 1500000000.0,
+    "net_worth_source": "https://coinpaper.com/collections/crypto-people-net-worth",
+    "net_worth_updated_at": "2026-05-28T12:03:00.959412",
+    "voice_tone": "Confident and informative.",
+    "voice_style": "Factual and data-driven, with a focus on strategic insights.",
+    "voice_delivery_notes": "Clear and concise, with emphasis on key metrics and strategic decisions.",
+    "voice_profile_updated_at": "2026-05-28 17:02:37",
+    "last_seen": "2026-05-28 17:02:37",
+    "last_episode_title": "Stablecoins, AI Agents, and The Future of Global Banking",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-28",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
+    "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
+    "supporting_takeaway": "Prioritize companies actively obtaining regulatory licenses as a strategic advantage.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-28T12:03:00.034645",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Delip Tasman",
+      "fetched_at": "2026-05-28T17:03:00.034120+00:00",
+      "cliff_notes": "Delip Tasman serves as the CEO of Jeeps, a company that has been pivotal in the expansion of stablecoin-native financial services. Under his leadership, Jeeps has experienced significant growth, with a focus on leveraging stablecoins to enable cross-border financial transactions. Tasman's approach to building a global business bank that operates in multiple countries has been distinctive, starting with larger companies rather than smaller ones. This strategy has allowed Jeeps to achieve substantial growth, with revenue increasing by 10x and transaction volume by 8x. Tasman's vision aligns with the future of programmable money, positioning Jeeps at the intersection of financial innovation.",
+      "derived": {
+        "current_role": "CEO of Jeeps"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Delip Tasman serves as the CEO of Jeeps, a company that has been pivotal in the expansion of stablecoin-native financial services. Under his leadership, Jeeps has experienced significant growth, with a focus on leveraging stablecoins to enable cross-border financial transactions. Tasman's approach to building a global business bank that operates in multiple countries has been distinctive, starting with larger companies rather than smaller ones.",
+        "This strategy has allowed Jeeps to achieve substantial growth, with revenue increasing by 10x and transaction volume by 8x. Tasman's vision aligns with the future of programmable money, positioning Jeeps at the intersection of financial innovation."
+      ],
+      "sections": [
+        {
+          "heading": "Stablecoin Expansion",
+          "body": "Delip Tasman has been instrumental in expanding the use of stablecoins at Jeeps, which has resulted in significant growth for the company."
+        },
+        {
+          "heading": "Global Business Bank Vision",
+          "body": "Tasman envisions building a global business bank capable of operating across multiple countries, a vision that is central to Jeeps' strategic direction."
+        },
+        {
+          "heading": "Revenue and Volume Growth",
+          "body": "Under Tasman's leadership, Jeeps has seen a remarkable increase in both revenue and transaction volume, highlighting the company's success in the stablecoin-native financial services sector."
+        },
+        {
+          "heading": "Innovative Underwriting",
+          "body": "Jeeps' underwriting team, which Tasman has overseen, has managed to handle billions in transactions with a small team, demonstrating the efficiency and innovation within the company."
+        }
+      ]
+    },
+    "net_worth": "$1.50B"
   },
   {
     "id": 265,
@@ -25799,7 +25952,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -25982,7 +26135,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -26046,7 +26199,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -29491,7 +29644,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -31923,7 +32076,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -31983,7 +32136,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -32043,7 +32196,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",

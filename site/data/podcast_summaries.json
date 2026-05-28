@@ -1,5 +1,22 @@
 [
   {
+    "id": 245,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Stablecoins, AI Agents, and The Future of Global Banking",
+    "episode_date": "2026-05-28",
+    "summary": "The podcast discusses the growth and strategic pivots of Jeeps, a stablecoin-native financial operating system targeting global enterprises. Key themes include the company's robust financial infrastructure, regulatory licensing as a competitive advantage, and the strategic shift towards enterprise clients. The show also highlights the importance of AI integration for operational efficiency and the growing adoption of stablecoins in Latin America, particularly Argentina, as a practical solution for currency volatility.",
+    "key_takeaways": [
+      "Evaluate and invest in companies with strong, integrated financial infrastructures.",
+      "Prioritize companies actively obtaining regulatory licenses as a strategic advantage.",
+      "Consider shifting focus to mid-market and enterprise clients for higher profitability.",
+      "Implement AI solutions to streamline operations and reduce workforce requirements.",
+      "Assess local adoption of stablecoins and other technologies when entering new markets.",
+      "Explore opportunities in programmable finance to stay ahead of industry trends."
+    ],
+    "investment_thesis": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
+    "key_tickers": null
+  },
+  {
     "id": 244,
     "podcast_name": "The a16z Show",
     "episode_title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
@@ -117,21 +134,5 @@
       "FIGMA",
       "PERPLEXITY"
     ]
-  },
-  {
-    "id": 237,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
-    "episode_date": "2026-05-24",
-    "summary": "This episode of Monetary Matters with Jack Farley delves into the intricacies of private credit, highlighting challenges in capital raising, fund performance divergence, and the burgeoning data center financing market. The discussion underscores the impact of pro-cyclical capital raising on fund risk, the growing importance of non-sponsored lending, and the evolving secondary market for private credit. Key insights include the need for investors to scrutinize fund vintage exposure, consider closed-end funds for better risk-adjusted returns, and explore data center financing opportunities.",
-    "key_takeaways": [
-      "Analyze vintage exposure of private credit funds and consider the timing of capital inflows when assessing risk.",
-      "Allocate to closed-end funds to potentially achieve better risk-adjusted returns compared to interval funds.",
-      "Explore investment opportunities in data center financing, particularly those with stable cash flow structures.",
-      "Increase allocations to non-sponsored lending strategies to reduce exposure to higher default risks associated with sponsored lending.",
-      "Monitor the private credit secondary market for distressed asset opportunities and evaluate GP-led continuation funds for potential investments."
-    ],
-    "investment_thesis": "Investors should focus on the quality of underlying assets and cash flows in private credit, with a particular emphasis on non-sponsored lending and data center financing opportunities.",
-    "key_tickers": null
   }
 ]

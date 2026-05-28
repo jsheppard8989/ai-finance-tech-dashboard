@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 260,
+      "title": "Stablecoins, AI Agents, and The Future of Global Banking",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-28",
+      "summary": "The podcast discusses the growth and strategic pivots of Jeeps, a stablecoin-native financial operating system targeting global enterprises. Key themes include the company's robust financial infrastructure, regulatory licensing as a competitive advantage, and the strategic shift towards enterprise clients. The show also highlights the importance of AI integration for operational efficiency and the growing adoption of stablecoins in Latin America, particularly Argentina, as a practical solution for currency volatility.",
+      "key_takeaway": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 245
+    },
+    {
       "id": 259,
       "title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
       "source_type": "podcast",
@@ -150,7 +169,7 @@
         "AAPL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-24",
       "archived_date": null,
@@ -4829,6 +4848,24 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 209,
+      "term": "Stablecoin-Native Financial Operating System",
+      "description": "A financial platform that is built to operate with stablecoins, offering services such as payments and underwriting in a seamless and compliant manner across multiple countries.",
+      "first_detected_date": "2026-05-28",
+      "last_mentioned_date": "2026-05-28",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the potential of stablecoin-native platforms in providing efficient cross-border financial services, especially in regions with high stablecoin adoption.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 245,
+      "first_detected_speaker": "Delip Tasman",
+      "last_mentioned_episode_id": 245,
+      "last_mentioned_speaker": "Delip Tasman"
+    },
     {
       "id": 194,
       "term": "Multi-modal AI",
