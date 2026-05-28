@@ -1,5 +1,22 @@
 [
   {
+    "id": 246,
+    "podcast_name": "Macro Voices",
+    "episode_title": "MacroVoices #534 Dr. Pippa Malmgren: Superpower War or Superpower Hug?",
+    "episode_date": "2026-05-28",
+    "summary": "The podcast discusses the geopolitical tensions between the U.S. and Iran, focusing on the impact of the Strait of Hormuz closure on global oil supply and prices. It also covers the nuclear stalemate between Iran and the U.S., the potential for oil prices to reach $150-$200, the pressure on the gold market, the bounce in uranium stocks, and the implications for the 10-year Treasury yield. The discussion provides actionable insights for investors in commodities and global markets.",
+    "key_takeaways": [
+      "The Strait of Hormuz remains effectively closed, impacting global oil supply and potentially driving oil prices to $150-$200 if the situation persists.",
+      "Iran's possession of 441 kilograms of 60% enriched uranium complicates negotiations and adds to geopolitical tensions.",
+      "The U.S. dollar is expected to strengthen if the Iran conflict escalates, which could further push oil prices higher.",
+      "The gold market is under pressure, with a potential retest of the $4,100 low if the oil crisis continues without resolution.",
+      "Uranium stocks are showing signs of a bounce but remain vulnerable to broader market movements.",
+      "The 10-year Treasury yield is under pressure, but unresolved geopolitical tensions could lead to a rise in yields."
+    ],
+    "investment_thesis": "Investors should closely monitor geopolitical developments in the Iran conflict, as they could significantly impact oil prices and market sentiment, and consider hedging strategies against rising oil prices.",
+    "key_tickers": null
+  },
+  {
     "id": 245,
     "podcast_name": "The a16z Show",
     "episode_title": "Stablecoins, AI Agents, and The Future of Global Banking",
@@ -115,24 +132,5 @@
     ],
     "investment_thesis": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "key_tickers": null
-  },
-  {
-    "id": 238,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Why AI Isn\u2019t Killing SaaS Yet",
-    "episode_date": "2026-05-25",
-    "summary": "This podcast episode delves into the current state of SaaS and AI-driven models in the business landscape. Despite predictions of a SaaS apocalypse due to AI, traditional SaaS models continue to dominate business spending. Token-based pricing for SaaS tools is capturing a minuscule share of the market, and emerging software categories like Answer Engine Optimization (AEO) are on the rise. The episode discusses the slow adoption of new pricing models, the increasing cost-consciousness of AI spending, and the dynamic competitive landscape where new entrants are challenging incumbents.",
-    "key_takeaways": [
-      "Traditional SaaS models remain dominant despite AI-driven predictions of their decline.",
-      "Token-based pricing for SaaS tools is capturing only about 0.5% of total business spend, indicating slow market adoption.",
-      "Emerging software categories like AEO present new investment opportunities outside traditional SaaS narratives.",
-      "Businesses are becoming more cost-conscious regarding AI spending, with token costs increasing significantly over the past year.",
-      "The competitive landscape is dynamic, with new entrants frequently challenging incumbents in the AI and SaaS markets."
-    ],
-    "investment_thesis": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
-    "key_tickers": [
-      "FIGMA",
-      "PERPLEXITY"
-    ]
   }
 ]

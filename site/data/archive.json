@@ -20,6 +20,29 @@
       "podcast_episode_id": 245
     },
     {
+      "id": 261,
+      "title": "MacroVoices #534 Dr. Pippa Malmgren: Superpower War or Superpower Hug?",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-05-28",
+      "summary": "The podcast discusses the geopolitical tensions between the U.S. and Iran, focusing on the impact of the Strait of Hormuz closure on global oil supply and prices. It also covers the nuclear stalemate between Iran and the U.S., the potential for oil prices to reach $150-$200, the pressure on the gold market, the bounce in uranium stocks, and the implications for the 10-year Treasury yield. The discussion provides actionable insights for investors in commodities and global markets.",
+      "key_takeaway": "Investors should closely monitor geopolitical developments in the Iran conflict, as they could significantly impact oil prices and market sentiment, and consider hedging strategies against rising oil prices.",
+      "tickers_mentioned": [
+        "AAPL",
+        "XOM",
+        "GLD",
+        "CCJ",
+        "TLT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 246
+    },
+    {
       "id": 259,
       "title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
       "source_type": "podcast",
@@ -131,7 +154,7 @@
         "PERPLEXITY"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-25",
       "archived_date": null,
@@ -4848,24 +4871,6 @@
   ],
   "definitions": [],
   "overton": [
-    {
-      "id": 209,
-      "term": "Stablecoin-Native Financial Operating System",
-      "description": "A financial platform that is built to operate with stablecoins, offering services such as payments and underwriting in a seamless and compliant manner across multiple countries.",
-      "first_detected_date": "2026-05-28",
-      "last_mentioned_date": "2026-05-28",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the potential of stablecoin-native platforms in providing efficient cross-border financial services, especially in regions with high stablecoin adoption.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 245,
-      "first_detected_speaker": "Delip Tasman",
-      "last_mentioned_episode_id": 245,
-      "last_mentioned_speaker": "Delip Tasman"
-    },
     {
       "id": 194,
       "term": "Multi-modal AI",

@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-28T12:04:37.301714",
-  chartsVersion: "2026-05-28T12:04:24.777551",
+  generatedAt: "2026-05-28T13:37:52.273989",
+  chartsVersion: "2026-05-28T13:37:41.440668",
   priceSnapshot: {
   "GOOGL": {
-    "price": 389.14,
-    "change_pct": -2.91,
+    "price": 390.6,
+    "change_pct": -2.55,
     "name": "GOOGL",
-    "updated_at": "2026-05-28T12:04:24.776444"
+    "updated_at": "2026-05-28T13:37:41.439984"
   },
   "BTC": {
-    "price": 73203.66,
-    "change_pct": -7.41,
+    "price": 73493.38,
+    "change_pct": -7.05,
     "name": "BTC",
-    "updated_at": "2026-05-28T12:04:24.776463"
+    "updated_at": "2026-05-28T13:37:41.440035"
   },
   "NVDA": {
-    "price": 213.67,
-    "change_pct": -0.71,
+    "price": 214.45,
+    "change_pct": -0.35,
     "name": "NVDA",
-    "updated_at": "2026-05-28T12:04:24.776473"
+    "updated_at": "2026-05-28T13:37:41.440040"
   },
   "MSFT": {
-    "price": 425.06,
-    "change_pct": 2.62,
+    "price": 426.34,
+    "change_pct": 2.93,
     "name": "MSFT",
-    "updated_at": "2026-05-28T12:04:24.776481"
+    "updated_at": "2026-05-28T13:37:41.440044"
   },
   "WTI": {
-    "price": 3.69,
-    "change_pct": -0.25,
+    "price": 3.68,
+    "change_pct": -0.58,
     "name": "WTI",
-    "updated_at": "2026-05-28T12:04:24.776489"
+    "updated_at": "2026-05-28T13:37:41.440061"
   },
   "S&P 500": {
-    "price": 754.68,
-    "change_pct": 2.31,
+    "price": 754.34,
+    "change_pct": 2.27,
     "name": "S&P 500",
-    "updated_at": "2026-05-28T12:04:24.776497"
+    "updated_at": "2026-05-28T13:37:41.440070"
   },
   "META": {
-    "price": 630.59,
-    "change_pct": 3.44,
+    "price": 633.66,
+    "change_pct": 3.94,
     "name": "META",
-    "updated_at": "2026-05-28T12:04:24.776505"
+    "updated_at": "2026-05-28T13:37:41.440075"
   },
   "AMZN": {
-    "price": 270.34,
-    "change_pct": -0.86,
+    "price": 273.14,
+    "change_pct": 0.17,
     "name": "AMZN",
-    "updated_at": "2026-05-28T12:04:24.776512"
+    "updated_at": "2026-05-28T13:37:41.440078"
   },
   "TSLA": {
-    "price": 441.96,
-    "change_pct": 3.18,
+    "price": 441.83,
+    "change_pct": 3.15,
     "name": "TSLA",
-    "updated_at": "2026-05-28T12:04:24.776520"
+    "updated_at": "2026-05-28T13:37:41.440082"
   },
   "QQQ": {
-    "price": 736.31,
-    "change_pct": 3.53,
+    "price": 735.43,
+    "change_pct": 3.4,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-28T12:04:24.776527"
+    "updated_at": "2026-05-28T13:37:41.440085"
   },
   "BTC-USD": {
-    "price": 73203.66,
-    "change_pct": -7.41,
+    "price": 73493.38,
+    "change_pct": -7.05,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-28T12:04:24.776534"
+    "updated_at": "2026-05-28T13:37:41.440088"
   }
 },
   tickerScores: [
@@ -847,6 +847,29 @@ const dashboardData = {
       "podcast_episode_id": 245
     },
     {
+      "id": 261,
+      "title": "MacroVoices #534 Dr. Pippa Malmgren: Superpower War or Superpower Hug?",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-05-28",
+      "summary": "The podcast discusses the geopolitical tensions between the U.S. and Iran, focusing on the impact of the Strait of Hormuz closure on global oil supply and prices. It also covers the nuclear stalemate between Iran and the U.S., the potential for oil prices to reach $150-$200, the pressure on the gold market, the bounce in uranium stocks, and the implications for the 10-year Treasury yield. The discussion provides actionable insights for investors in commodities and global markets.",
+      "key_takeaway": "Investors should closely monitor geopolitical developments in the Iran conflict, as they could significantly impact oil prices and market sentiment, and consider hedging strategies against rising oil prices.",
+      "tickers_mentioned": [
+        "AAPL",
+        "XOM",
+        "GLD",
+        "CCJ",
+        "TLT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 246
+    },
+    {
       "id": 259,
       "title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
       "source_type": "podcast",
@@ -958,7 +981,7 @@ const dashboardData = {
         "PERPLEXITY"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-25",
       "archived_date": null,
@@ -5676,24 +5699,6 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 209,
-      "term": "Stablecoin-Native Financial Operating System",
-      "description": "A financial platform that is built to operate with stablecoins, offering services such as payments and underwriting in a seamless and compliant manner across multiple countries.",
-      "first_detected_date": "2026-05-28",
-      "last_mentioned_date": "2026-05-28",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the potential of stablecoin-native platforms in providing efficient cross-border financial services, especially in regions with high stablecoin adoption.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 245,
-      "first_detected_speaker": "Delip Tasman",
-      "last_mentioned_episode_id": 245,
-      "last_mentioned_speaker": "Delip Tasman"
-    },
-    {
       "id": 194,
       "term": "Multi-modal AI",
       "description": "AI that integrates various forms of media, such as text, images, and audio, to enhance user engagement and application versatility.",
@@ -8442,6 +8447,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 261,
+      "title": "MacroVoices #534 Dr. Pippa Malmgren: Superpower War or Superpower Hug?",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-05-28",
+      "summary": "The podcast discusses the geopolitical tensions between the U.S. and Iran, focusing on the impact of the Strait of Hormuz closure on global oil supply and prices. It also covers the nuclear stalemate between Iran and the U.S., the potential for oil prices to reach $150-$200, the pressure on the gold market, the bounce in uranium stocks, and the implications for the 10-year Treasury yield. The discussion provides actionable insights for investors in commodities and global markets.",
+      "key_takeaway": "Investors should closely monitor geopolitical developments in the Iran conflict, as they could significantly impact oil prices and market sentiment, and consider hedging strategies against rising oil prices.",
+      "tickers_mentioned": "[\"AAPL\", \"XOM\", \"GLD\", \"CCJ\", \"TLT\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 246,
+      "episode_release_date": "2026-05-28",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 259,
       "title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
       "source_type": "podcast",
@@ -8542,29 +8567,6 @@ const dashboardData = {
       "episode_release_date": "2026-05-26",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 253,
-      "title": "Why AI Isn\u2019t Killing SaaS Yet",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-05-25",
-      "summary": "This podcast episode delves into the current state of SaaS and AI-driven models in the business landscape. Despite predictions of a SaaS apocalypse due to AI, traditional SaaS models continue to dominate business spending. Token-based pricing for SaaS tools is capturing a minuscule share of the market, and emerging software categories like Answer Engine Optimization (AEO) are on the rise. The episode discusses the slow adoption of new pricing models, the increasing cost-consciousness of AI spending, and the dynamic competitive landscape where new entrants are challenging incumbents.",
-      "key_takeaway": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
-      "tickers_mentioned": "[\"FIGMA\", \"PERPLEXITY\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-25",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 238,
-      "episode_release_date": "2026-05-25",
-      "guest_name": "are on the rise. The episode",
-      "key_tickers": [
-        "FIGMA",
-        "PERPLEXITY"
-      ]
     },
     {
       "id": 254,
@@ -8710,32 +8712,6 @@ const dashboardData = {
     }
   ],
   "overton": [
-    {
-      "id": 209,
-      "term": "Stablecoin-Native Financial Operating System",
-      "description": "A financial platform that is built to operate with stablecoins, offering services such as payments and underwriting in a seamless and compliant manner across multiple countries.",
-      "first_detected_date": "2026-05-28",
-      "last_mentioned_date": "2026-05-28",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the potential of stablecoin-native platforms in providing efficient cross-border financial services, especially in regions with high stablecoin adoption.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 245,
-      "first_detected_speaker": "Delip Tasman",
-      "last_mentioned_episode_id": 245,
-      "last_mentioned_speaker": "Delip Tasman",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Stablecoins, AI Agents, and The Future of Global Banking",
-      "first_detected_episode_date": "2026-05-28",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Stablecoins, AI Agents, and The Future of Global Banking",
-      "last_mentioned_episode_date": "2026-05-28"
-    },
     {
       "id": 194,
       "term": "Multi-modal AI",
@@ -9047,6 +9023,32 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Building Blackstone, Backing Costco, with Tony James",
       "last_mentioned_episode_date": "2026-05-05"
+    },
+    {
+      "id": 153,
+      "term": "Western AI Stack",
+      "description": "A concept referring to AI technologies that align with Western values, such as individual consent and rule-based operations.",
+      "first_detected_date": "2026-05-04",
+      "last_mentioned_date": "2026-05-04",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the alignment of AI technologies with Western values as a potential differentiator in a globally competitive market.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 195,
+      "first_detected_speaker": "Sarah B. Rogers",
+      "last_mentioned_episode_id": 195,
+      "last_mentioned_speaker": "Sarah B. Rogers",
+      "overton_score": 0.57,
+      "resonance_pct": 14,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
+      "first_detected_episode_date": "2026-05-04",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
+      "last_mentioned_episode_date": "2026-05-04"
     }
   ]
 },
@@ -24621,12 +24623,84 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-05-28",
     "key_tickers": []
+  },
+  "261": {
+    "id": 251,
+    "insight_id": 261,
+    "podcast_episode_id": 246,
+    "overview": "The unresolved tension lies in the geopolitical standoff between the U.S. and Iran, with the Strait of Hormuz's closure acting as a chokepoint for global oil supply. This dynamic is contested by Iran's nuclear ambitions and the U.S.'s response, creating a complex scenario where oil prices are highly sensitive to diplomatic developments. The allocator-relevant implication is that the balance of power and diplomatic progress will arbitrate market uncertainty, with the potential for significant price swings in oil, gold, and uranium markets depending on the resolution or escalation of the conflict.",
+    "key_takeaways_detailed": [
+      "Investors should model scenarios where the Strait of Hormuz remains closed, assessing the impact on their portfolios under different oil price trajectories.",
+      "Given the potential for a U.S. dollar strengthening in the event of escalated conflict, investors should consider the currency impact on their international holdings.",
+      "The potential retest of gold's $4,100 low suggests a need for in gold investments, with a focus on market signals before making commitments.",
+      "Uranium stocks, despite showing a bounce, are subject to broader market volatility,",
+      "Treasury yields, currently under pressure, may serve as a barometer for economic sentiment, with rising yields potentially indicating increased borrowing costs and economic strain."
+    ],
+    "investment_thesis": "The core investment thesis is that the ongoing U.S.-Iran conflict, particularly the nuclear stalemate and the closure of the Strait of Hormuz, will continue to exert upward pressure on oil prices, with a potential threshold of $150-$200 per barrel if the situation persists. This thesis would be vindicated by continued diplomatic deadlock and escalating geopolitical tensions. Conversely, it would be invalidated by a diplomatic resolution or significant changes in global oil supply dynamics, such as increased production from other regions or a substantial shift towards alternative energies.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple, as a technology giant with a global supply chain, is indirectly affected by oil prices due to transportation costs and potential economic slowdowns. Its stock could be positioned as a hedge against inflationary pressures caused by high oil prices.",
+        "positioning": "A strategic long position in AAPL could be considered, as the company's strong balance sheet and innovation capabilities may allow it to weather economic volatility better than many other companies.",
+        "risk": "The key risk is a global economic downturn due to sustained high oil prices, which could reduce consumer spending and affect Apple's sales."
+      },
+      "XOM": {
+        "rationale": "Exxon Mobil, being a major oil and gas company, directly benefits from higher oil prices, which can increase its revenues and profitability.",
+        "positioning": "A tactical long position in XOM could be appropriate for investors looking to capitalize on short-term increases in oil prices.",
+        "risk": "The risk lies in geopolitical events leading to a sudden drop in oil prices or a global economic slowdown reducing demand for oil."
+      },
+      "GLD": {
+        "rationale": "The SPDR Gold Shares, tracking the price of gold, could be affected by the oil crisis, as investors often turn to gold as a safe-haven asset during geopolitical uncertainties.",
+        "positioning": "A cautious approach to GLD is advised, potentially using it as a hedge against inflation but being prepared for volatility.",
+        "risk": "The risk is a continued rise in oil prices leading to economic stress, which could reduce demand for gold as investors liquidate assets for cash."
+      },
+      "CCJ": {
+        "rationale": "Cameco, a major uranium producer, could see its stock price influenced by the dynamics of the nuclear energy market, which is affected by geopolitical tensions and the push for alternative energy sources.",
+        "positioning": "Investors might consider a long position in CCJ, anticipating a long-term bullish trend in uranium, but should be aware of the stock's vulnerability to market movements.",
+        "risk": "The risk includes potential oversupply in the uranium market or a slowdown in nuclear energy development due to safety concerns or policy shifts."
+      },
+      "TLT": {
+        "rationale": "The iShares 20+ Year Treasury Bond ETF reflects the health of the U.S. bond market and can indicate investor sentiment towards economic stability.",
+        "positioning": "A strategic long position in TLT could be considered to hedge against rising interest rates and economic uncertainty.",
+        "risk": "The risk is a sudden increase in Treasury yields due to inflationary pressures or changes in Federal Reserve policy, which could negatively impact the value of existing bonds."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A potential for increased shale oil production in the U.S. could mitigate the impact of the Strait of Hormuz closure on global oil supply.",
+      "The development of alternative energy sources could reduce the world's reliance on oil, dampening the impact of geopolitical tensions on oil prices.",
+      "Global economic resilience in the face of high oil prices could reduce the demand destruction predicted by analysts."
+    ],
+    "catalysts": [
+      "Announcements from the International Atomic Energy Agency (IAEA) regarding Iran's nuclear program.",
+      "Geopolitical developments such as diplomatic talks or military actions between the U.S. and Iran.",
+      "Economic indicators such as inflation rates and consumer spending, which can signal the impact of high oil prices on the global economy.",
+      "Developments in alternative energy technologies and policies supporting a shift away from fossil fuels.",
+      "Federal Reserve decisions on interest rates, which can influence the direction of Treasury yields and the overall economic climate."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-28T13:36:59.213715",
+    "updated_at": "2026-05-28 18:36:59",
+    "episode_evidence": "The podcast underscores the criticality of the Strait of Hormuz, with traffic levels at a mere 10% of normal, as stated by the host: 'The Strait of Hormuz remains effectively closed, with traffic levels below 10% of normal, impacting global oil supply.' This bottleneck significantly affects the global oil market, as the Strait is a key transit point for oil. Additionally, the discussion highlights Iran's nuclear capabilities, with 441 kilograms of 60% enriched uranium, as the guest points out: 'Iran possesses 441 kilograms of 60% enriched uranium, sufficient for multiple nuclear weapons, complicating negotiations.' The deadlock on this issue, with neither side showing willingness to negotiate, exacerbates geopolitical tensions and has direct implications for oil supply and prices.",
+    "falsification_tracks": [
+      "Should the Strait of Hormuz resume normal traffic levels, the thesis on oil price escalation would be weakened.",
+      "A diplomatic resolution or significant progress in U.S.-Iran nuclear negotiations would reduce the risk of oil price spikes.",
+      "A sustained drop in global oil demand due to economic downturns could counteract the supply constraints posed by the Strait's closure.",
+      "A significant increase in alternative energy sources or a breakthrough in nuclear energy could reduce the geopolitical premium on oil prices."
+    ],
+    "insight_title": "MacroVoices #534 Dr. Pippa Malmgren: Superpower War or Superpower Hug?",
+    "source_name": "Macro Voices",
+    "source_date": "2026-05-28",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 9516,
+    "id": 9573,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -24638,7 +24712,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9517,
+    "id": 9574,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -24650,7 +24724,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9518,
+    "id": 9575,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -24662,7 +24736,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9519,
+    "id": 9576,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -24674,7 +24748,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9520,
+    "id": 9577,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -24686,7 +24760,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9521,
+    "id": 9578,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -24698,7 +24772,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9522,
+    "id": 9579,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -24710,7 +24784,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9523,
+    "id": 9580,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -24722,7 +24796,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9524,
+    "id": 9581,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -24734,7 +24808,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 9525,
+    "id": 9582,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -24746,7 +24820,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9526,
+    "id": 9583,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -24758,7 +24832,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9527,
+    "id": 9584,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -24770,7 +24844,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9528,
+    "id": 9585,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -24782,7 +24856,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9529,
+    "id": 9586,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -24794,7 +24868,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9530,
+    "id": 9587,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -24806,7 +24880,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9531,
+    "id": 9588,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -24818,7 +24892,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9532,
+    "id": 9589,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -24830,7 +24904,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9533,
+    "id": 9590,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -24842,7 +24916,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9534,
+    "id": 9591,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -24854,7 +24928,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9535,
+    "id": 9592,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -25009,7 +25083,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-26",
     "mention_score": 3,
-    "mention_score_decayed": 2.93,
+    "mention_score_decayed": 2.86,
     "last_main_idea": "Invest in companies that are actively transitioning to AI-native organizations to capitalize on the potential for increased operational efficiency and reduced workforce costs.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-26 \u2022 The Organizational Singularity: AI-Proof Your Company | EP #258",
     "last_proof_snippet": "Is there a line year business, a high margin line year of your business that two guys with open claw could replicate in 60 to 90 days? This is something across the board useful for everyone. When we wrote the exponential organizations book,",
@@ -25265,7 +25339,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.26,
+    "mention_score_decayed": 1.23,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -26070,7 +26144,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -26380,7 +26454,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -26444,7 +26518,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -26507,7 +26581,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -26942,7 +27016,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -27008,7 +27082,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -27569,7 +27643,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -27632,7 +27706,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -27820,7 +27894,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -31699,7 +31773,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -31758,7 +31832,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
@@ -33767,7 +33841,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -33794,7 +33868,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",
