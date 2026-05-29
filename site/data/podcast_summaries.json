@@ -1,5 +1,23 @@
 [
   {
+    "id": 247,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Why $1B Exits are Dead",
+    "episode_date": "2026-05-29",
+    "summary": "This episode of 'The a16z Show' discusses the rapid growth of anthropocentric AI companies, their revenue generation surpassing tech giants, and the significant increase in high-value startup exits. The podcast highlights the low diffusion of AI technology into the economy, suggesting substantial growth potential. It also touches on the evolving venture capital landscape, supply chain constraints, and the competitive shift in AI models. The public market's capacity to absorb new high-growth companies is emphasized, with expectations of significant IPOs from AI companies.",
+    "key_takeaways": [
+      "Invest in AI companies showing rapid revenue growth, particularly those with innovative applications in various sectors.",
+      "Monitor the top 1% of startup exits to identify emerging trends and high-potential investment opportunities.",
+      "Explore sectors with low AI adoption for potential investment, as these areas are likely to experience significant growth.",
+      "Assess the supply chain dynamics of data centers and AI infrastructure to gauge the sustainability of AI investments.",
+      "Enhance operational support capabilities within venture capital firms to better assist portfolio companies in their growth phases.",
+      "Analyze the competitive landscape of AI models to identify which companies are likely to capture the most value in the future.",
+      "Stay informed about upcoming AI IPOs and their potential impact on public market valuations."
+    ],
+    "investment_thesis": "Invest in anthropocentric AI companies that are outpacing traditional tech giants in revenue growth, and focus on sectors with low AI adoption for significant growth potential.",
+    "key_tickers": null
+  },
+  {
     "id": 246,
     "podcast_name": "Macro Voices",
     "episode_title": "MacroVoices #534 Dr. Pippa Malmgren: Superpower War or Superpower Hug?",
@@ -115,22 +133,5 @@
     "key_tickers": [
       "BTC"
     ]
-  },
-  {
-    "id": 239,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
-    "episode_date": "2026-05-25",
-    "summary": "In this episode, Jack Farley discusses the semiconductor cycle's expected downturn, the implications of a wave of IPOs as a late-cycle signal, and the current state of inflation primarily affecting food and energy. The conversation also covers the Fed's shift towards a neutral bias, the potential for the yield curve to steepen, and the challenges faced by emerging markets. Additionally, the impact of AI on inflation in the semiconductor sector and the labor market is explored, along with investment strategies in an inflationary environment and the upcoming AI-related IPOs.",
-    "key_takeaways": [
-      "The semiconductor cycle is predicted to peak and roll over by the end of 2023 or early 2024, signaling a potential downturn in semiconductor stocks.",
-      "Inflation pressures are currently isolated but could become more widespread if supply chain issues persist, particularly affecting food and energy sectors.",
-      "The Fed's communication is shifting towards a neutral bias, which may influence interest rate decisions and market expectations.",
-      "The long end of the yield curve is expected to steepen, with predictions of 6% yields on 30-year bonds, potentially benefiting risk assets.",
-      "Emerging markets are under pressure, with India showing resilience due to unique growth factors, while other markets struggle with a strong dollar and fading energy prices.",
-      "AI is contributing to inflationary pressures in the semiconductor sector, potentially leading to a scarcity of lower-margin semiconductors and impacting consumer electronics."
-    ],
-    "investment_thesis": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
-    "key_tickers": null
   }
 ]

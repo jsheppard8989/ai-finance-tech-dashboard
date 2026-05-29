@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-29T06:36:54.330240",
-  chartsVersion: "2026-05-29T06:36:41.699018",
+  generatedAt: "2026-05-29T12:05:35.528686",
+  chartsVersion: "2026-05-29T12:05:30.403232",
   priceSnapshot: {
   "GOOGL": {
-    "price": 390.13,
-    "change_pct": -2.66,
+    "price": 382.18,
+    "change_pct": -1.66,
     "name": "GOOGL",
-    "updated_at": "2026-05-29T06:36:41.697449"
+    "updated_at": "2026-05-29T12:05:30.402465"
   },
   "BTC": {
-    "price": 73455.68,
-    "change_pct": -5.98,
+    "price": 73829.26,
+    "change_pct": -5.51,
     "name": "BTC",
-    "updated_at": "2026-05-29T06:36:41.697479"
+    "updated_at": "2026-05-29T12:05:30.402480"
   },
   "NVDA": {
-    "price": 214.25,
-    "change_pct": -0.44,
+    "price": 216.41,
+    "change_pct": -1.38,
     "name": "NVDA",
-    "updated_at": "2026-05-29T06:36:41.697490"
+    "updated_at": "2026-05-29T12:05:30.402487"
   },
   "MSFT": {
-    "price": 426.99,
-    "change_pct": 3.08,
+    "price": 443.28,
+    "change_pct": 7.65,
     "name": "MSFT",
-    "updated_at": "2026-05-29T06:36:41.697548"
+    "updated_at": "2026-05-29T12:05:30.402493"
   },
   "WTI": {
-    "price": 3.72,
-    "change_pct": 0.49,
+    "price": 3.62,
+    "change_pct": -6.6,
     "name": "WTI",
-    "updated_at": "2026-05-29T06:36:41.697565"
+    "updated_at": "2026-05-29T12:05:30.402499"
   },
   "S&P 500": {
-    "price": 754.6,
-    "change_pct": 2.3,
+    "price": 756.58,
+    "change_pct": 2.34,
     "name": "S&P 500",
-    "updated_at": "2026-05-29T06:36:41.697616"
+    "updated_at": "2026-05-29T12:05:30.402505"
   },
   "META": {
-    "price": 635.29,
-    "change_pct": 4.21,
+    "price": 625.17,
+    "change_pct": 4.39,
     "name": "META",
-    "updated_at": "2026-05-29T06:36:41.697649"
+    "updated_at": "2026-05-29T12:05:30.402510"
   },
   "AMZN": {
-    "price": 274.0,
-    "change_pct": 0.48,
+    "price": 270.99,
+    "change_pct": 0.75,
     "name": "AMZN",
-    "updated_at": "2026-05-29T06:36:41.697660"
+    "updated_at": "2026-05-29T12:05:30.402516"
   },
   "TSLA": {
-    "price": 442.1,
-    "change_pct": 3.21,
+    "price": 437.1,
+    "change_pct": -1.78,
     "name": "TSLA",
-    "updated_at": "2026-05-29T06:36:41.697687"
+    "updated_at": "2026-05-29T12:05:30.402521"
   },
   "QQQ": {
-    "price": 735.6,
-    "change_pct": 3.43,
+    "price": 738.05,
+    "change_pct": 3.47,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-29T06:36:41.697715"
+    "updated_at": "2026-05-29T12:05:30.402526"
   },
   "BTC-USD": {
-    "price": 73455.68,
-    "change_pct": -5.98,
+    "price": 73829.26,
+    "change_pct": -5.51,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-29T06:36:41.697725"
+    "updated_at": "2026-05-29T12:05:30.402531"
   }
 },
   tickerScores: [
@@ -828,6 +828,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 262,
+      "title": "Why $1B Exits are Dead",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-29",
+      "summary": "This episode of 'The a16z Show' discusses the rapid growth of anthropocentric AI companies, their revenue generation surpassing tech giants, and the significant increase in high-value startup exits. The podcast highlights the low diffusion of AI technology into the economy, suggesting substantial growth potential. It also touches on the evolving venture capital landscape, supply chain constraints, and the competitive shift in AI models. The public market's capacity to absorb new high-growth companies is emphasized, with expectations of significant IPOs from AI companies.",
+      "key_takeaway": "Invest in anthropocentric AI companies that are outpacing traditional tech giants in revenue growth, and focus on sectors with low AI adoption for significant growth potential.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA",
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 247
+    },
+    {
       "id": 260,
       "title": "Stablecoins, AI Agents, and The Future of Global Banking",
       "source_type": "podcast",
@@ -1000,7 +1023,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-25",
       "archived_date": null,
@@ -5699,6 +5722,42 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 210,
+      "term": "Anthropocentric AI",
+      "description": "AI companies that focus on human-centric applications and are adding revenue at a pace exceeding that of Meta, Google, or Microsoft.",
+      "first_detected_date": "2026-05-29",
+      "last_mentioned_date": "2026-05-29",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider anthropocentric AI companies for their rapid growth and potential to disrupt traditional tech giants.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 247,
+      "first_detected_speaker": "a16z (hosts)",
+      "last_mentioned_episode_id": 247,
+      "last_mentioned_speaker": "a16z (hosts)"
+    },
+    {
+      "id": 211,
+      "term": "AI Diffusion",
+      "description": "The penetration of AI technology into the economy, which is currently less than 5%, highlighting untapped potential for growth.",
+      "first_detected_date": "2026-05-29",
+      "last_mentioned_date": "2026-05-29",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should look for opportunities in sectors where AI adoption is still nascent, as these areas are likely to experience significant growth.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 247,
+      "first_detected_speaker": "a16z (hosts)",
+      "last_mentioned_episode_id": 247,
+      "last_mentioned_speaker": "a16z (hosts)"
+    },
+    {
       "id": 194,
       "term": "Multi-modal AI",
       "description": "AI that integrates various forms of media, such as text, images, and audio, to enhance user engagement and application versatility.",
@@ -8427,6 +8486,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 262,
+      "title": "Why $1B Exits are Dead",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-05-29",
+      "summary": "This episode of 'The a16z Show' discusses the rapid growth of anthropocentric AI companies, their revenue generation surpassing tech giants, and the significant increase in high-value startup exits. The podcast highlights the low diffusion of AI technology into the economy, suggesting substantial growth potential. It also touches on the evolving venture capital landscape, supply chain constraints, and the competitive shift in AI models. The public market's capacity to absorb new high-growth companies is emphasized, with expectations of significant IPOs from AI companies.",
+      "key_takeaway": "Invest in anthropocentric AI companies that are outpacing traditional tech giants in revenue growth, and focus on sectors with low AI adoption for significant growth potential.",
+      "tickers_mentioned": "[\"GOOGL\", \"MSFT\", \"AMZN\", \"TSLA\", \"NVDA\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 247,
+      "episode_release_date": "2026-05-29",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 260,
       "title": "Stablecoins, AI Agents, and The Future of Global Banking",
       "source_type": "podcast",
@@ -8567,26 +8646,6 @@ const dashboardData = {
       "episode_release_date": "2026-05-26",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 254,
-      "title": "Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-05-25",
-      "summary": "In this episode, Jack Farley discusses the semiconductor cycle's expected downturn, the implications of a wave of IPOs as a late-cycle signal, and the current state of inflation primarily affecting food and energy. The conversation also covers the Fed's shift towards a neutral bias, the potential for the yield curve to steepen, and the challenges faced by emerging markets. Additionally, the impact of AI on inflation in the semiconductor sector and the labor market is explored, along with investment strategies in an inflationary environment and the upcoming AI-related IPOs.",
-      "key_takeaway": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-25",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 239,
-      "episode_release_date": "2026-05-25",
-      "guest_name": "Things Are Going to Get Even Crazier",
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -8712,6 +8771,58 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 210,
+      "term": "Anthropocentric AI",
+      "description": "AI companies that focus on human-centric applications and are adding revenue at a pace exceeding that of Meta, Google, or Microsoft.",
+      "first_detected_date": "2026-05-29",
+      "last_mentioned_date": "2026-05-29",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider anthropocentric AI companies for their rapid growth and potential to disrupt traditional tech giants.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 247,
+      "first_detected_speaker": "a16z (hosts)",
+      "last_mentioned_episode_id": 247,
+      "last_mentioned_speaker": "a16z (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Why $1B Exits are Dead",
+      "first_detected_episode_date": "2026-05-29",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Why $1B Exits are Dead",
+      "last_mentioned_episode_date": "2026-05-29"
+    },
+    {
+      "id": 211,
+      "term": "AI Diffusion",
+      "description": "The penetration of AI technology into the economy, which is currently less than 5%, highlighting untapped potential for growth.",
+      "first_detected_date": "2026-05-29",
+      "last_mentioned_date": "2026-05-29",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should look for opportunities in sectors where AI adoption is still nascent, as these areas are likely to experience significant growth.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 247,
+      "first_detected_speaker": "a16z (hosts)",
+      "last_mentioned_episode_id": 247,
+      "last_mentioned_speaker": "a16z (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Why $1B Exits are Dead",
+      "first_detected_episode_date": "2026-05-29",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Why $1B Exits are Dead",
+      "last_mentioned_episode_date": "2026-05-29"
+    },
     {
       "id": 194,
       "term": "Multi-modal AI",
@@ -8997,58 +9108,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
       "last_mentioned_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "last_mentioned_episode_date": "2026-05-07"
-    },
-    {
-      "id": 156,
-      "term": "Compounding Talent, Capital, and Culture",
-      "description": "The concept of building an organization that not only generates returns but also systematically develops and retains talent, grows capital, and fosters a strong culture over time.",
-      "first_detected_date": "2026-05-05",
-      "last_mentioned_date": "2026-05-05",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should look for firms that demonstrate the ability to compound these elements for sustainable growth.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 199,
-      "first_detected_speaker": "Tony James",
-      "last_mentioned_episode_id": 199,
-      "last_mentioned_speaker": "Tony James",
-      "overton_score": 0.57,
-      "resonance_pct": 14,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Building Blackstone, Backing Costco, with Tony James",
-      "first_detected_episode_date": "2026-05-05",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Building Blackstone, Backing Costco, with Tony James",
-      "last_mentioned_episode_date": "2026-05-05"
-    },
-    {
-      "id": 153,
-      "term": "Western AI Stack",
-      "description": "A concept referring to AI technologies that align with Western values, such as individual consent and rule-based operations.",
-      "first_detected_date": "2026-05-04",
-      "last_mentioned_date": "2026-05-04",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the alignment of AI technologies with Western values as a potential differentiator in a globally competitive market.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 195,
-      "first_detected_speaker": "Sarah B. Rogers",
-      "last_mentioned_episode_id": 195,
-      "last_mentioned_speaker": "Sarah B. Rogers",
-      "overton_score": 0.56,
-      "resonance_pct": 14,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "first_detected_episode_date": "2026-05-04",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "last_mentioned_episode_date": "2026-05-04"
     }
   ]
 },
@@ -24695,12 +24754,88 @@ const dashboardData = {
     "source_name": "Macro Voices",
     "source_date": "2026-05-28",
     "key_tickers": []
+  },
+  "262": {
+    "id": 252,
+    "insight_id": 262,
+    "podcast_episode_id": 247,
+    "overview": "The unresolved tension lies in the rapid growth of anthropocentric AI companies and the low diffusion of AI technology into the broader economy. This dynamic suggests a market ripe for disruption but also fraught with the risk of overvaluation and potential bubbles. The competitive dynamic is further complicated by the evolving venture capital landscape and supply chain constraints. Allocators must consider who wins or loses in this scenario, with the public market's capacity to absorb new high-growth companies and the upcoming IPOs from AI companies like OpenAI and Anthropic arbitrating the uncertainty. The horizon of proof lies in the market's ability to sustain growth and the successful integration of AI into various sectors.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the operational support capabilities of venture capital firms to assess their ability to nurture early-stage AI companies.",
+      "The competitive landscape of AI models should be analyzed for signs of disruption, with a focus on smaller, more efficient models that could challenge current market leaders.",
+      "Investors should track the public market's response to AI IPOs as a metric for gauging the sector's overall health and growth potential.",
+      "The supply chain constraints in data centers and AI infrastructure should be watched as an indicator of market overheating or sustainable growth.",
+      "Investors should evaluate the potential for AI-driven innovations in sectors with low current AI adoption, as these areas may offer significant growth opportunities.",
+      "The public market's absorption capacity for new high-growth AI companies will be a key determinant of the sector's future valuation and investment appeal."
+    ],
+    "investment_thesis": "The core logic of this investment thesis is that anthropocentric AI companies are set to disrupt traditional tech giants by capturing significant market share through rapid revenue growth and innovation. The timeframe for this thesis is within the next 5 years, with the vindication coming from sustained high-growth in AI company revenues and successful market integration across various sectors. Conversely, if the growth of AI company revenues plateaus or if there is a significant market contraction in the AI sector, the thesis would be invalidated.",
+    "ticker_analysis": {
+      "GOOGL": {
+        "rationale": "Google, as a traditional tech giant, is relevant as it faces potential disruption from anthropocentric AI companies.",
+        "positioning": "Positioning should be cautious, considering a potential short position due to the competitive threat from AI companies.",
+        "risk": "Key risks include Google's ability to adapt and innovate in the face of rapid AI advancements by competitors."
+      },
+      "MSFT": {
+        "rationale": "Microsoft, similar to Google, is a tech giant that could be disrupted by the growth of anthropocentric AI companies.",
+        "positioning": "A strategic short position might be considered, given the potential for Microsoft to lose market share to AI innovators.",
+        "risk": "The risk lies in Microsoft's capacity to integrate and develop its own AI technologies to stay competitive."
+      },
+      "AMZN": {
+        "rationale": "Amazon, with its cloud computing division AWS, is directly involved in the supply chain for data centers, which is a critical component of AI infrastructure.",
+        "positioning": "A long position could be strategic, as Amazon may benefit from the growing demand for data center capacity.",
+        "risk": "The risk is tied to supply chain constraints and the potential for oversupply in the data center market."
+      },
+      "TSLA": {
+        "rationale": "Tesla's investment in AI for autonomous driving technology positions it as a company that could leverage anthropocentric AI advancements.",
+        "positioning": "A long position could be considered, as Tesla may benefit from the growth in AI technology adoption.",
+        "risk": "The risk is associated with the regulatory environment and the pace of adoption for autonomous driving technology."
+      },
+      "NVDA": {
+        "rationale": "Nvidia, with its focus on GPUs, is a key player in providing the hardware necessary for AI model training and deployment.",
+        "positioning": "A long position is appropriate, as Nvidia stands to gain from the increasing demand for AI infrastructure.",
+        "risk": "The risk includes potential disruptions in the semiconductor supply chain and competition from other hardware providers."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant slowdown in venture capital investment could indicate a market contraction, challenging the thesis of rapid growth in AI companies.",
+      "Traditional tech giants may invest heavily in AI research and development, potentially blunting the competitive edge of anthropocentric AI companies.",
+      "Regulatory changes that limit data usage or AI applications could hinder the growth of AI companies and their market penetration.",
+      "A shift in consumer preferences away from AI-driven products and services could reduce the demand for AI technology.",
+      "Economic downturns or recessions could reduce the overall investment in tech and AI, affecting the growth trajectory of AI companies."
+    ],
+    "catalysts": [
+      "Upcoming IPOs from major AI companies like OpenAI and Anthropic, which could set the tone for the sector's valuation and investor sentiment.",
+      "New regulatory rulings that either support or restrict AI development and deployment, impacting the sector's growth potential.",
+      "Technological breakthroughs in AI that could accelerate the diffusion of AI technology into the economy.",
+      "Economic indicators that signal the health of the venture capital market and the overall appetite for high-growth investments.",
+      "Supply chain reports that indicate changes in the availability of data center capacity and the potential for market bubbles."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-29T12:04:45.579689",
+    "updated_at": "2026-05-29 17:04:45",
+    "episode_evidence": "The 'a16z Show' episode underscores the remarkable growth of anthropocentric AI companies, with revenue generation outpacing traditional tech giants. 'Anthropic and OpenAI are adding more revenue per month than Meta, Google, or Microsoft,' highlighting the rapid shift in market dynamics. The top 1% of startup exits have seen a dramatic increase, from '$10 billion... now at $32 billion,' indicating a booming venture capital environment. The diffusion of AI technology into the economy is alarmingly low, at less than 5%, suggesting vast untapped potential for growth across sectors. The supply chain for data centers is constrained, which may prevent an AI bubble by limiting excess supply and maintaining demand, as stated, 'We're massively supply constrained... you can't get data center capacity at scale until late 28, early 29.'",
+    "falsification_tracks": [
+      "A significant decline in venture capital investment in AI startups, suggesting a market contraction.",
+      "A sudden increase in data center capacity, which could lead to oversupply and a potential bubble in the AI market.",
+      "A slowdown in the growth of AI company revenues, indicating market saturation or reduced demand.",
+      "Public market rejection of AI company IPOs, signaling a lack of confidence in the sector's growth potential.",
+      "A substantial decrease in the top 1% of startup exit values, indicating a downturn in the venture capital environment."
+    ],
+    "insight_title": "Why $1B Exits are Dead",
+    "source_name": "The a16z Show",
+    "source_date": "2026-05-29",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 9801,
+    "id": 9858,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -24712,7 +24847,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9802,
+    "id": 9859,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -24724,7 +24859,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9803,
+    "id": 9860,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -24736,7 +24871,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9804,
+    "id": 9861,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -24748,7 +24883,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9805,
+    "id": 9862,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -24760,7 +24895,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9806,
+    "id": 9863,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -24772,7 +24907,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9807,
+    "id": 9864,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -24784,7 +24919,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9808,
+    "id": 9865,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -24796,7 +24931,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9809,
+    "id": 9866,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -24808,7 +24943,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 9810,
+    "id": 9867,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -24820,7 +24955,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9811,
+    "id": 9868,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -24832,7 +24967,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9812,
+    "id": 9869,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -24844,7 +24979,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9813,
+    "id": 9870,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -24856,7 +24991,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9814,
+    "id": 9871,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -24868,7 +25003,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9815,
+    "id": 9872,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -24880,7 +25015,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9816,
+    "id": 9873,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -24892,7 +25027,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9817,
+    "id": 9874,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -24904,7 +25039,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9818,
+    "id": 9875,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -24916,7 +25051,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9819,
+    "id": 9876,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -24928,7 +25063,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9820,
+    "id": 9877,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -25935,7 +26070,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -25962,7 +26097,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -26026,7 +26161,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -26209,7 +26344,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -26273,7 +26408,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -27016,7 +27151,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -27082,7 +27217,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -29718,7 +29853,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
