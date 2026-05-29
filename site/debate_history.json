@@ -1,6 +1,19 @@
 {
-  "rotation_index": 13,
+  "rotation_index": 14,
   "weeks": [
+    {
+      "friday_iso": "2026-05-22",
+      "week_label": "Week of 2026-05-22",
+      "prompt": "Will MicroStrategy sell any Bitcoin within the next 42 days?",
+      "debater_a": "Alex Karp",
+      "debater_b": "Eric Jeng",
+      "expires_rule": "Resolves Friday 12:00 PM CST 2026-07-03",
+      "resolves_iso": "2026-07-03",
+      "resolution_status": "pending",
+      "resolution_notes": "",
+      "archived_at": "2026-05-29T05:02:27.984786",
+      "audio_href": "./audio/archive/debate_2026-05-22.mp3"
+    },
     {
       "friday_iso": "2026-05-15",
       "week_label": "Week of 2026-05-15",

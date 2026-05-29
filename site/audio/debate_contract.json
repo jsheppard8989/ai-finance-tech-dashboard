@@ -1,118 +1,117 @@
 {
-  "prompt": "Will MicroStrategy sell any Bitcoin within the next 42 days?",
-  "expires_rule": "Resolves Friday 12:00 PM CST 2026-07-03",
-  "crux_theme": "Crypto asset management",
+  "prompt": "Will Ukraine hold national elections for the parliament and/or presidency between February 12 and December 31, 2025?",
+  "expires_rule": "Resolves Friday 12:00 PM CST 2026-07-10",
+  "crux_theme": "Ukraine election timing",
   "resolution_clarity": {
-    "source_of_truth": "MicroStrategy official announcements and SEC filings",
+    "source_of_truth": "Official Ukrainian election commission announcements, international observer reports, and reputable news outlets.",
     "resolution_sources": [
-      "MicroStrategy press releases",
-      "MicroStrategy 10-Q and 8-K filings",
-      "Company's official social media accounts (Twitter, LinkedIn, etc.)"
+      "https://www.cvk.gov.ua/",
+      "https://www.osce.org/",
+      "https://www.nytimes.com/",
+      "https://www.reuters.com/"
     ],
     "resolution_criteria": [
-      "Any sale of Bitcoin by MicroStrategy needs to be explicitly confirmed in an official announcement or SEC filing within the specified period."
+      "Any official announcement or verified news report indicating the scheduling of national elections within the specified timeframe."
     ]
   },
   "sides": {
     "a": "Affirmative (YES)",
     "b": "Negative (NO)"
   },
-  "resolves_iso": "2026-07-03",
-  "friday_iso": "2026-05-22",
-  "week_label": "Week of 2026-05-22",
-  "debater_a": "Alex Karp",
-  "debater_b": "Eric Jeng",
-  "generated_at": "2026-05-22T00:03:39.470315",
+  "resolves_iso": "2026-07-10",
+  "friday_iso": "2026-05-29",
+  "week_label": "Week of 2026-05-29",
+  "debater_a": "Dino Mavruchus",
+  "debater_b": "Honorable Duffy",
+  "generated_at": "2026-05-29T05:02:27.984853",
   "bet_status": "open",
   "audio_href": "./audio/emp_ai_the_debate_11labs.mp3",
   "debater_a_snapshot": {
-    "name": "Alex Karp",
-    "known_for": "His leadership in steering Palantir's growth and its role in big data analytics, impacting various sectors including finance, healthcare, and national security.",
-    "bio": "Alex Karp is the CEO of Palantir Technologies, a leading data analytics company. He has been instrumental in the company's growth and expansion, making Palantir a significant player in the tech industry.",
-    "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-05-16",
-    "net_worth": "$14.30B",
+    "name": "Dino Mavruchus",
+    "known_for": "Pioneering autonomous shipbuilding and applying first principles design to modernize ship production.",
+    "bio": "Dino Mavruchus is the CEO of Marathon Marine, a company focused on modernizing shipbuilding. He is known for his work in autonomous shipbuilding and the first principles design approach, aiming to revolutionize the industry by focusing on production, cost, and scale.",
+    "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-19",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Alex Karp",
-      "fetched_at": "2026-05-16T19:05:08.323724+00:00",
-      "cliff_notes": "Alex Karp is a German-American entrepreneur who serves as the CEO of Palantir Technologies. He co-founded Palantir in 2003 with Peter Thiel, Nathan Gettings, Joe Lonsdale, and Stephen Cohen. Karp has played a pivotal role in the company's growth, steering it towards becoming a major player in the data analytics space. Palantir's software is used by various sectors, including finance, healthcare, and national security, for tasks such as fraud detection, crisis management, and counterterrorism. Karp's leadership has positioned Palantir as a key player in the tech industry, with its services in high demand across different domains.",
+      "page_title": "Dino Mavruchus",
+      "fetched_at": "2026-05-19T17:12:39.354917+00:00",
+      "cliff_notes": "Dino Mavruchus is recognized as a leader in the shipbuilding industry, particularly for his innovative approaches to autonomous shipbuilding and the application of first principles design. As the CEO of Marathon Marine, he has been instrumental in shifting the focus from technological innovation alone to encompassing production capabilities, cost efficiency, and scalability. Mavruchus emphasizes the importance of rebuilding the industrial base to meet the demands of the future, highlighting the vulnerabilities created by a sole supplier model in the defense industry. His vision involves new companies redesigning systems for autonomy, software integration, and speed, which are critical for the rapid and cost-effective production of ships.",
       "derived": {
-        "current_role": "CEO of Palantir Technologies",
-        "education": "Juris Doctor, Stanford Law School; Bachelor's degree, Stanford University"
-      },
-      "infobox": {
-        "Born": "1966",
-        "Nationality": "German-American"
-      },
-      "lead_paragraphs": [
-        "Alex Karp is a German-American entrepreneur who serves as the CEO of Palantir Technologies. He co-founded Palantir in 2003 with Peter Thiel, Nathan Gettings, Joe Lonsdale, and Stephen Cohen. Karp has played a pivotal role in the company's growth, steering it towards becoming a major player in the data analytics space. Palantir's software is used by various sectors, including finance, healthcare, and national security, for tasks such as fraud detection, crisis management, and counterterrorism.",
-        "Karp's leadership has positioned Palantir as a key player in the tech industry, with its services in high demand across different domains."
-      ],
-      "sections": [
-        {
-          "heading": "Palantir Founding",
-          "body": "Alex Karp co-founded Palantir Technologies in 2003, which has since grown to become a major player in the data analytics industry."
-        },
-        {
-          "heading": "Data Analytics",
-          "body": "Under Karp's leadership, Palantir has become renowned for its data analytics software, which is used across various sectors for tasks such as fraud detection and crisis management."
-        },
-        {
-          "heading": "Company Expansion",
-          "body": "Karp has been instrumental in Palantir's expansion, steering the company towards significant growth and establishing it as a key player in the tech industry."
-        }
-      ]
-    }
-  },
-  "debater_b_snapshot": {
-    "name": "Eric Jeng",
-    "known_for": "His significant contributions to AI research, particularly in the field of Go AI, and the development of OffaGo.",
-    "bio": "Eric Jeng is an AI researcher and developer known for his work on OffaGo, an AI designed for playing Go. He has held positions at ex-technologies as Vice President of AI and was a senior research scientist at Google DeepMind Robotics. Jeng has been on sabbatical, focusing on improving OffaGo and exploring the future of AI research and development.",
-    "last_main_idea": "Invest in AI technologies that leverage advancements in MCTS and reduced compute requirements to create scalable and efficient solutions in various industries.",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-05-15",
-    "net_worth": "$10.0M",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Eric Jeng",
-      "fetched_at": "2026-05-16T03:02:03.008480+00:00",
-      "cliff_notes": "Eric Jeng is a prominent figure in the field of AI research, with a focus on Go AI. His career has seen him take on various roles, including Vice President of AI at ex-technologies and a senior research scientist at Google DeepMind Robotics. Jeng's work on OffaGo, an AI designed for playing Go, has been a significant part of his career, showcasing the potential of AI systems to tackle complex computational problems. His sabbatical has been dedicated to rebuilding and improving OffaGo, reflecting his passion for understanding and advancing AI capabilities. Jeng's contributions to AI research are noteworthy, as they provide insights into the future of AI development and its implications for various industries.",
-      "derived": {
-        "former_positions": "Vice President of AI at ex-technologies; Senior Research Scientist at Google DeepMind Robotics"
+        "current_role": "CEO of Marathon Marine"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Eric Jeng is a prominent figure in the field of AI research, with a focus on Go AI. His career has seen him take on various roles, including Vice President of AI at ex-technologies and a senior research scientist at Google DeepMind Robotics. Jeng's work on OffaGo, an AI designed for playing Go, has been a significant part of his career, showcasing the potential of AI systems to tackle complex computational problems.",
-        "His sabbatical has been dedicated to rebuilding and improving OffaGo, reflecting his passion for understanding and advancing AI capabilities. Jeng's contributions to AI research are noteworthy, as they provide insights into the future of AI development and its implications for various industries."
+        "Dino Mavruchus is recognized as a leader in the shipbuilding industry, particularly for his innovative approaches to autonomous shipbuilding and the application of first principles design. As the CEO of Marathon Marine, he has been instrumental in shifting the focus from technological innovation alone to encompassing production capabilities, cost efficiency, and scalability.",
+        "Mavruchus emphasizes the importance of rebuilding the industrial base to meet the demands of the future, highlighting the vulnerabilities created by a sole supplier model in the defense industry. His vision involves new companies redesigning systems for autonomy, software integration, and speed, which are critical for the rapid and cost-effective production of ships."
       ],
       "sections": [
         {
-          "heading": "AI and Go",
-          "body": "Eric Jeng is recognized for his work on OffaGo, an AI system designed to play the game of Go. His contributions to this field have been pivotal in demonstrating the capabilities of AI in handling complex tasks."
+          "heading": "Autonomous Shipbuilding",
+          "body": "Mavruchus is at the forefront of developing autonomous ships, which can potentially transform the maritime industry by increasing efficiency and reducing costs."
         },
         {
-          "heading": "Career at Google DeepMind",
-          "body": "Jeng served as a senior research scientist at Google DeepMind Robotics, where he was involved in groundbreaking research that pushed the boundaries of AI, particularly in the context of game theory and strategy."
+          "heading": "First Principles Design",
+          "body": "He advocates for a first principles design approach in shipbuilding, which involves rethinking the fundamental aspects of ship design and production to achieve better outcomes."
         },
         {
-          "heading": "Sabbatical and OffaGo",
-          "body": "During his sabbatical, Jeng has been dedicated to enhancing OffaGo, reflecting his commitment to advancing AI technology and understanding its implications for future research and development."
+          "heading": "Production Constraints",
+          "body": "Mavruchus identifies production, rather than innovation, as the current constraint in defense, emphasizing the need for faster, more cost-effective, and scalable shipbuilding methods."
         },
         {
-          "heading": "AI Research and Development",
-          "body": "Jeng's work provides valuable insights into the future of AI, emphasizing the importance of continued research and development in the field to solve complex computational problems."
+          "heading": "Rebuilding the Industrial Base",
+          "body": "He calls for a rebuild of the industrial base, arguing that the current model creates vulnerabilities and is not profitable, and that a new approach is necessary for the next century."
         }
       ]
     }
   },
-  "prompt_hash": "801c6f7629ac1ac6"
+  "debater_b_snapshot": {
+    "name": "Honorable Duffy",
+    "known_for": "Advocating for the modernization and rebuilding of the defense industrial base to address production constraints and vulnerabilities.",
+    "bio": "The Honorable Duffy is a former Assistant Secretary of the Navy with extensive experience in defense acquisition. He is known for his understanding of the challenges and opportunities within the defense industrial base and his advocacy for rebuilding the industrial base to meet future defense needs.",
+    "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-19",
+    "net_worth": "$85.9M",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Honorable Duffy",
+      "fetched_at": "2026-05-19T17:12:50.208420+00:00",
+      "cliff_notes": "The Honorable Duffy has had a distinguished career in defense acquisition, culminating in his role as Assistant Secretary of the Navy. He has been at the forefront of understanding the challenges and opportunities within the defense industrial base. Duffy has emphasized the need to rebuild the industrial base to address production constraints and vulnerabilities, focusing on the shift from innovation to production as the primary constraint in defense. His insights and advocacy have been influential in rethinking manufacturing, procurement, and the role of new companies in the defense sector.",
+      "derived": {
+        "former_positions": "Assistant Secretary of the Navy"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "The Honorable Duffy has had a distinguished career in defense acquisition, culminating in his role as Assistant Secretary of the Navy. He has been at the forefront of understanding the challenges and opportunities within the defense industrial base. Duffy has emphasized the need to rebuild the industrial base to address production constraints and vulnerabilities, focusing on the shift from innovation to production as the primary constraint in defense.",
+        "His insights and advocacy have been influential in rethinking manufacturing, procurement, and the role of new companies in the defense sector."
+      ],
+      "sections": [
+        {
+          "heading": "Defense Industrial Base",
+          "body": "Honorable Duffy is known for his expertise in understanding the challenges and opportunities within the defense industrial base, particularly the shift from innovation to production as the primary constraint."
+        },
+        {
+          "heading": "Rebuilding the Industrial Base",
+          "body": "Duffy has been a vocal advocate for rebuilding the defense industrial base to address production constraints and vulnerabilities, emphasizing the need for more founders, builders, and government support for change."
+        },
+        {
+          "heading": "Production Constraints",
+          "body": "Honorable Duffy highlights the increasing constraint in defense as production, rather than innovation, and the need for new approaches to manufacturing and procurement to meet future defense needs."
+        }
+      ]
+    }
+  },
+  "prompt_hash": "a1cbee7640ceb47d"
 }
