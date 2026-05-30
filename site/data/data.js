@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-30T12:05:15.334627",
-  chartsVersion: "2026-05-30T12:05:01.706840",
+  generatedAt: "2026-05-30T13:37:47.232993",
+  chartsVersion: "2026-05-30T13:37:42.204456",
   priceSnapshot: {
   "GOOGL": {
     "price": 380.34,
     "change_pct": -2.14,
     "name": "GOOGL",
-    "updated_at": "2026-05-30T12:05:01.705715"
+    "updated_at": "2026-05-30T13:37:42.203680"
   },
   "BTC": {
-    "price": 73821.95,
-    "change_pct": -4.66,
+    "price": 73909.32,
+    "change_pct": -4.55,
     "name": "BTC",
-    "updated_at": "2026-05-30T12:05:01.705737"
+    "updated_at": "2026-05-30T13:37:42.203698"
   },
   "NVDA": {
     "price": 211.14,
     "change_pct": -3.78,
     "name": "NVDA",
-    "updated_at": "2026-05-30T12:05:01.705748"
+    "updated_at": "2026-05-30T13:37:42.203705"
   },
   "MSFT": {
     "price": 450.24,
     "change_pct": 9.34,
     "name": "MSFT",
-    "updated_at": "2026-05-30T12:05:01.705758"
+    "updated_at": "2026-05-30T13:37:42.203710"
   },
   "WTI": {
     "price": 3.68,
     "change_pct": -5.19,
     "name": "WTI",
-    "updated_at": "2026-05-30T12:05:01.705767"
+    "updated_at": "2026-05-30T13:37:42.203716"
   },
   "S&P 500": {
     "price": 756.48,
     "change_pct": 2.32,
     "name": "S&P 500",
-    "updated_at": "2026-05-30T12:05:01.705776"
+    "updated_at": "2026-05-30T13:37:42.203721"
   },
   "META": {
     "price": 632.51,
     "change_pct": 5.62,
     "name": "META",
-    "updated_at": "2026-05-30T12:05:01.705786"
+    "updated_at": "2026-05-30T13:37:42.203727"
   },
   "AMZN": {
     "price": 270.64,
     "change_pct": 0.61,
     "name": "AMZN",
-    "updated_at": "2026-05-30T12:05:01.705795"
+    "updated_at": "2026-05-30T13:37:42.203732"
   },
   "TSLA": {
     "price": 435.79,
     "change_pct": -2.07,
     "name": "TSLA",
-    "updated_at": "2026-05-30T12:05:01.705804"
+    "updated_at": "2026-05-30T13:37:42.203737"
   },
   "QQQ": {
     "price": 738.31,
     "change_pct": 3.51,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-30T12:05:01.705813"
+    "updated_at": "2026-05-30T13:37:42.203742"
   },
   "BTC-USD": {
-    "price": 73821.95,
-    "change_pct": -4.66,
+    "price": 73909.32,
+    "change_pct": -4.55,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-30T12:05:01.705822"
+    "updated_at": "2026-05-30T13:37:42.203747"
   }
 },
   tickerScores: [
@@ -828,6 +828,28 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 264,
+      "title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-05-30",
+      "summary": "This episode of Moonshots with Peter Diamandis discusses the latest trends in AI, space exploration, and entrepreneurship. Key themes include the Vatican's stance on AI personhood, shifting perspectives on job displacement, advancements in AI coding, regulatory pushback, the rise of solo founders, SpaceX's innovation, and the potential merger of Tesla and SpaceX.",
+      "key_takeaway": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "TSLA",
+        "SPCE"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 249
+    },
+    {
       "id": 262,
       "title": "Why $1B Exits are Dead",
       "source_type": "podcast",
@@ -967,7 +989,7 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-26",
       "archived_date": null,
@@ -5743,6 +5765,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 213,
+      "term": "Deep Sweet Benchmark",
+      "description": "A new coding benchmark that measures AI's ability to solve complex software engineering tasks.",
+      "first_detected_date": "2026-05-30",
+      "last_mentioned_date": "2026-05-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should track advancements in AI coding benchmarks as they indicate the maturity and potential applications of AI in software development.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 249,
+      "first_detected_speaker": "Sam Altman",
+      "last_mentioned_episode_id": 249,
+      "last_mentioned_speaker": "Sam Altman"
+    },
+    {
       "id": 194,
       "term": "Multi-modal AI",
       "description": "AI that integrates various forms of media, such as text, images, and audio, to enhance user engagement and application versatility.",
@@ -8471,6 +8511,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 264,
+      "title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-05-30",
+      "summary": "This episode of Moonshots with Peter Diamandis discusses the latest trends in AI, space exploration, and entrepreneurship. Key themes include the Vatican's stance on AI personhood, shifting perspectives on job displacement, advancements in AI coding, regulatory pushback, the rise of solo founders, SpaceX's innovation, and the potential merger of Tesla and SpaceX.",
+      "key_takeaway": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"TSLA\", \"SPCE\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 249,
+      "episode_release_date": "2026-05-30",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 262,
       "title": "Why $1B Exits are Dead",
       "source_type": "podcast",
@@ -8567,26 +8627,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 244,
       "episode_release_date": "2026-05-27",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 256,
-      "title": "The Organizational Singularity: AI-Proof Your Company | EP #258",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-05-26",
-      "summary": "This podcast episode discusses the urgent need for organizations to transition from traditional hierarchical structures to AI-native, intelligence-driven models to survive in the face of disruption. Key themes include the concept of the 'organizational singularity', the 'fiduciary wedge', and the impact of AI on workforce requirements. The episode emphasizes the importance of rapid decision-making, the creation of digital twins, and the potential for companies to reduce their workforce by up to 75% as they integrate AI into their operations.",
-      "key_takeaway": "Invest in companies that are actively transitioning to AI-native organizations to capitalize on the potential for increased operational efficiency and reduced workforce costs.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-26",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 242,
-      "episode_release_date": "2026-05-26",
       "guest_name": null,
       "key_tickers": []
     },
@@ -8754,6 +8794,32 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 213,
+      "term": "Deep Sweet Benchmark",
+      "description": "A new coding benchmark that measures AI's ability to solve complex software engineering tasks.",
+      "first_detected_date": "2026-05-30",
+      "last_mentioned_date": "2026-05-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should track advancements in AI coding benchmarks as they indicate the maturity and potential applications of AI in software development.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 249,
+      "first_detected_speaker": "Sam Altman",
+      "last_mentioned_episode_id": 249,
+      "last_mentioned_speaker": "Sam Altman",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
+      "first_detected_episode_date": "2026-05-30",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
+      "last_mentioned_episode_date": "2026-05-30"
+    },
     {
       "id": 194,
       "term": "Multi-modal AI",
@@ -9065,32 +9131,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Building Blackstone, Backing Costco, with Tony James",
       "last_mentioned_episode_date": "2026-05-05"
-    },
-    {
-      "id": 153,
-      "term": "Western AI Stack",
-      "description": "A concept referring to AI technologies that align with Western values, such as individual consent and rule-based operations.",
-      "first_detected_date": "2026-05-04",
-      "last_mentioned_date": "2026-05-04",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the alignment of AI technologies with Western values as a potential differentiator in a globally competitive market.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 195,
-      "first_detected_speaker": "Sarah B. Rogers",
-      "last_mentioned_episode_id": 195,
-      "last_mentioned_speaker": "Sarah B. Rogers",
-      "overton_score": 0.55,
-      "resonance_pct": 14,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "first_detected_episode_date": "2026-05-04",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "last_mentioned_episode_date": "2026-05-04"
     }
   ]
 },
@@ -24872,12 +24912,77 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-05-29",
     "key_tickers": []
+  },
+  "264": {
+    "id": 254,
+    "insight_id": 264,
+    "podcast_episode_id": 249,
+    "overview": "The unresolved tension in the source material revolves around the balance between technological advancement and ethical, societal, and regulatory considerations in AI and space exploration. The Vatican's stance against AI personhood and the potential job displacement narrative are key battlegrounds. What converts belief in this landscape is concrete evidence of either the positive societal impact of AI or the materialization of job displacement fears. The horizon of proof lies in regulatory actions, societal acceptance, and the tangible outcomes of AI integration into various sectors.",
+    "key_takeaways_detailed": [
+      "Investors should track the Vatican's influence on global AI policy, as it could significantly impact the operating environment for AI companies.",
+      "Reevaluate the job creation potential of AI, considering Altman's view that a job apocalypse may not materialize, and look for companies fostering AI-augmented job roles.",
+      "Monitor the performance of AI coding tools in real-world scenarios to gauge their true impact on software development and efficiency.",
+      "Keep abreast of solo AI startups, as they may offer unique investment opportunities and indicate the democratization of AI entrepreneurship.",
+      "Assess the potential synergies and risks of a Tesla-SpaceX merger, considering the combined entity's influence on space and AI sectors."
+    ],
+    "investment_thesis": "The investment thesis is centered on the rapid innovation and adaptability in AI and space exploration sectors. We expect companies that can navigate the complex interplay between technological advancement and regulatory compliance to outperform. The timeframe is medium to long-term, as significant growth and disruption are anticipated. An observable development that would vindicate this thesis is the successful integration of AI into various industries without causing substantial job displacement, coupled with regulatory frameworks that foster innovation. Conversely, a rise in unemployment due to AI or stringent regulations stifling innovation would invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI for its products and services positions it to benefit from advancements in AI technology.",
+        "positioning": "Strategic long position, as Apple's ecosystem can leverage AI advancements to enhance user experience and drive growth.",
+        "risk": "Regulatory crackdown on AI could hinder Apple's AI development, and job displacement narratives could affect consumer sentiment."
+      },
+      "GOOGL": {
+        "rationale": "Google's leadership in AI research and applications across its broad service offerings makes it a key player in the AI revolution.",
+        "positioning": "Strategic long position, as Google's AI capabilities are integral to its competitive advantage and future growth.",
+        "risk": "Pushback against AI from regulatory bodies or societal groups could impede Google's AI initiatives."
+      },
+      "TSLA": {
+        "rationale": "Tesla's integration of AI in its electric vehicles and potential synergies with SpaceX make it a compelling investment in the AI and space sectors.",
+        "positioning": "Strategic long position, considering the potential for innovation and market leadership in electric vehicles and space technology.",
+        "risk": "The merger with SpaceX could face regulatory hurdles, and the high valuation could be at risk if the synergies do not materialize."
+      },
+      "SPCE": {
+        "rationale": "Virgin Galactic's focus on commercial space travel aligns with the trend of rapid iteration and innovation in space technology.",
+        "positioning": "Tactical long position, as the company could benefit from the growing interest in space exploration and tourism.",
+        "risk": "The company's success is highly dependent on the regulatory environment and the pace of technological advancements in space travel."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant increase in unemployment rates across tech-heavy economies could challenge the narrative of AI creating new job opportunities.",
+      "Religious and ethical opposition to AI could gain more traction, leading to widespread calls for stricter regulations that could hinder innovation.",
+      "A failure in high-profile AI projects or space missions could lead to a loss of public and investor confidence in the rapid advancement of these technologies."
+    ],
+    "catalysts": [
+      "Regulatory decisions from global bodies regarding AI ethics and usage.",
+      "Job creation statistics that either support or contradict the narrative of AI-led job displacement.",
+      "Successful or failed launches and iterations of SpaceX's Starship, as they indicate the pace of innovation in space technology.",
+      "Any official announcement or rumors regarding the potential merger between Tesla and SpaceX."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-30T13:36:59.590861",
+    "updated_at": "2026-05-30 18:36:59",
+    "episode_evidence": "The podcast episode with Peter Diamandis on Moonshots delves into the multifaceted landscape of AI and space exploration. Pope Leo the 14th's encyclical on AI, as mentioned by Diamandis, is a pivotal moment, with the Vatican advocating for 'government regulation, worker protections, and a ban on autonomous weapons', as he states. This stance is significant as it could set a precedent for other religious and societal groups, influencing global policy. Sam Altman's revision of his views on AI and job displacement is equally noteworthy; he now believes that 'I don't think we're going to have that kind of job apocalypse that some of the companies in our space are talking about.' This shift challenges the prevailing narrative of AI-led mass unemployment, suggesting a more nuanced impact on the job market. The advancements in AI coding are also highlighted by the Deep Sweet benchmark, where GPT-5.5 scored 70%, meaning 'it can solve seven out of ten hard real world software engineering tasks completely on its own,' indicating a substantial leap in AI's practical capabilities.",
+    "falsification_tracks": [
+      "If the Vatican's stance leads to widespread religious opposition to AI advancements, it could slow down technological progress.",
+      "Should job displacement due to AI accelerate despite Altman's revised views, it could undermine confidence in AI's societal benefits.",
+      "Failure of AI coding tools to meet the benchmarks set by GPT-5.5 in real-world applications would challenge the narrative of rapid AI advancement."
+    ],
+    "insight_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-05-30",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 10200,
+    "id": 10257,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -24889,7 +24994,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10201,
+    "id": 10258,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -24901,7 +25006,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10202,
+    "id": 10259,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -24913,7 +25018,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10203,
+    "id": 10260,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -24925,7 +25030,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10204,
+    "id": 10261,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -24937,7 +25042,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10205,
+    "id": 10262,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -24949,7 +25054,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10206,
+    "id": 10263,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -24961,7 +25066,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10207,
+    "id": 10264,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -24973,7 +25078,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10208,
+    "id": 10265,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -24985,7 +25090,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 10209,
+    "id": 10266,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -24997,7 +25102,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10210,
+    "id": 10267,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -25009,7 +25114,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10211,
+    "id": 10268,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -25021,7 +25126,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10212,
+    "id": 10269,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -25033,7 +25138,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10213,
+    "id": 10270,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -25045,7 +25150,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10214,
+    "id": 10271,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -25057,7 +25162,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10215,
+    "id": 10272,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -25069,7 +25174,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10216,
+    "id": 10273,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -25081,7 +25186,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10217,
+    "id": 10274,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -25093,7 +25198,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10218,
+    "id": 10275,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -25105,7 +25210,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10219,
+    "id": 10276,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -25260,7 +25365,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-26",
     "mention_score": 3,
-    "mention_score_decayed": 2.8,
+    "mention_score_decayed": 2.74,
     "last_main_idea": "Invest in companies that are actively transitioning to AI-native organizations to capitalize on the potential for increased operational efficiency and reduced workforce costs.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-26 \u2022 The Organizational Singularity: AI-Proof Your Company | EP #258",
     "last_proof_snippet": "Is there a line year business, a high margin line year of your business that two guys with open claw could replicate in 60 to 90 days? This is something across the board useful for everyone. When we wrote the exponential organizations book,",
@@ -25370,6 +25475,67 @@ const dashboardData = {
       ]
     },
     "net_worth": "$12.3M"
+  },
+  {
+    "id": 73,
+    "name": "Sam Altman",
+    "slug": "sam-altman",
+    "bio": "Sam Altman is a prominent figure in the AI community, known for his leadership at OpenAI and his evolving views on AI's impact on jobs and the future of work. He has been influential in shaping discussions around the ethical and societal implications of AI advancements.",
+    "known_for": "His leadership at OpenAI and his revised views on AI's impact on jobs and the future of work.",
+    "net_worth_usd": 2100000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Sam_Altman",
+    "net_worth_updated_at": "2026-03-19T15:49:02.565192",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-30 18:36:25",
+    "last_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-05-30",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
+    "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
+    "supporting_takeaway": "Reassess AI investment strategies based on evolving job market narratives.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-30T13:36:34.383434",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sam Altman",
+      "fetched_at": "2026-05-30T18:36:34.383095+00:00",
+      "cliff_notes": "Sam Altman is an American entrepreneur and investor who has made significant contributions to the field of artificial intelligence. He is best known for his role as the President of OpenAI, a research and deployment company that aims to develop artificial general intelligence in a way that benefits humanity as a whole. Altman has been vocal about the potential risks and benefits of AI, and his views have evolved over time. Initially cautioning about the potential for mass white-collar displacement, he has since revised his stance, acknowledging that the job apocalypse some predicted may not materialize. His work at OpenAI and his public discourse have made him a key figure in the ongoing conversation about the future of AI and its impact on society.",
+      "derived": {
+        "current_role": "President of OpenAI",
+        "education": "Stanford University; dropout"
+      },
+      "infobox": {
+        "Born": "1985",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Sam Altman is an American entrepreneur and investor who has made significant contributions to the field of artificial intelligence. He is best known for his role as the President of OpenAI, a research and deployment company that aims to develop artificial general intelligence in a way that benefits humanity as a whole. Altman has been vocal about the potential risks and benefits of AI, and his views have evolved over time.",
+        "Initially cautioning about the potential for mass white-collar displacement, he has since revised his stance, acknowledging that the job apocalypse some predicted may not materialize. His work at OpenAI and his public discourse have made him a key figure in the ongoing conversation about the future of AI and its impact on society."
+      ],
+      "sections": [
+        {
+          "heading": "Leadership at OpenAI",
+          "body": "Sam Altman serves as the President of OpenAI, where he leads the development and deployment of artificial general intelligence with a focus on ensuring its benefits are widely distributed."
+        },
+        {
+          "heading": "Views on AI and Jobs",
+          "body": "Initially warning about the potential for AI to displace white-collar jobs, Altman has since revised his views, suggesting that the so-called job apocalypse may not occur as predicted."
+        },
+        {
+          "heading": "Influence in AI Community",
+          "body": "Altman's leadership and public statements have made him a prominent voice in the AI community, influencing discussions on the ethical and societal implications of AI advancements."
+        }
+      ]
+    },
+    "net_worth": "$2.10B"
   },
   {
     "id": 164,
@@ -25516,7 +25682,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.2,
+    "mention_score_decayed": 1.18,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -26383,7 +26549,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -26693,7 +26859,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -26757,7 +26923,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -26820,7 +26986,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -27882,7 +28048,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -27945,7 +28111,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -28133,7 +28299,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -32012,7 +32178,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -32071,7 +32237,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
@@ -33920,68 +34086,6 @@ const dashboardData = {
     "net_worth": "$37.60B"
   },
   {
-    "id": 73,
-    "name": "Sam Altman",
-    "slug": "sam-altman",
-    "bio": "Sam Altman is a prominent figure in the tech industry, known for his work in startup incubation and contributions to artificial intelligence. He is currently the President of Y Combinator and Co-Chair of OpenAI. Altman has been influential in shaping the future of technology and entrepreneurship.",
-    "known_for": "His leadership in startup incubation and his role in advancing artificial intelligence through OpenAI.",
-    "net_worth_usd": 2100000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Sam_Altman",
-    "net_worth_updated_at": "2026-03-19T15:49:02.565192",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-17 03:03:31",
-    "last_episode_title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-02-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.18,
-    "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
-    "last_proof_snippet": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper | EP #230 Moonshots with Peter Diamandis Episode 230 00:00:00 When do we see a billion-dollar revenue company being run by an AI CEO",
-    "supporting_takeaway": "U.S. jobs are disappearing at a rate not seen since the Great Recession, indicating tasks are being automated out of existence.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:23:16.367259",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Sam Altman",
-      "fetched_at": "2026-03-20T02:23:16.367009+00:00",
-      "cliff_notes": "Sam Altman is an American entrepreneur and investor who has made significant contributions to the fields of startup incubation and artificial intelligence. He began his career in tech by founding Loopt, a location-based social network, which was later sold. Altman then joined Y Combinator, a startup accelerator, where he rose to become its President. In this role, he has been instrumental in nurturing and launching numerous successful startups. Concurrently, Altman co-founded OpenAI, a research laboratory focused on ensuring that artificial general intelligence benefits humanity. His work in both these domains has positioned him as a key player in the tech industry, influencing the trajectory of entrepreneurship and AI development.",
-      "derived": {
-        "current_role": "President of Y Combinator; Co-Chair of OpenAI",
-        "former_positions": "President of Y Combinator; Co-Chair of OpenAI",
-        "education": "Stanford University; dropout"
-      },
-      "infobox": {
-        "Born": "1985",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Sam Altman is an American entrepreneur and investor who has made significant contributions to the fields of startup incubation and artificial intelligence. He began his career in tech by founding Loopt, a location-based social network, which was later sold. Altman then joined Y Combinator, a startup accelerator, where he rose to become its President.",
-        "In this role, he has been instrumental in nurturing and launching numerous successful startups. Concurrently, Altman co-founded OpenAI, a research laboratory focused on ensuring that artificial general intelligence benefits humanity. His work in both these domains has positioned him as a key player in the tech industry, influencing the trajectory of entrepreneurship and AI development."
-      ],
-      "sections": [
-        {
-          "heading": "Startup Incubation",
-          "body": "Sam Altman has been a driving force in the startup ecosystem, particularly through his leadership at Y Combinator, which has helped launch and scale many successful companies."
-        },
-        {
-          "heading": "Artificial Intelligence",
-          "body": "Altman co-founded OpenAI, a research organization dedicated to the responsible development and application of AI technologies, ensuring they are aligned with the interests of humanity."
-        },
-        {
-          "heading": "Future of Work",
-          "body": "Altman has expressed views on the future of work, particularly in relation to AI and automation, suggesting that the next few years will be pivotal in setting the course for the next century."
-        }
-      ]
-    },
-    "net_worth": "$2.10B"
-  },
-  {
     "id": 66,
     "name": "Mark Suster",
     "slug": "mark-suster",
@@ -34080,7 +34184,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -34107,7 +34211,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",

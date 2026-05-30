@@ -1,6 +1,28 @@
 {
   "insights": [
     {
+      "id": 264,
+      "title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-05-30",
+      "summary": "This episode of Moonshots with Peter Diamandis discusses the latest trends in AI, space exploration, and entrepreneurship. Key themes include the Vatican's stance on AI personhood, shifting perspectives on job displacement, advancements in AI coding, regulatory pushback, the rise of solo founders, SpaceX's innovation, and the potential merger of Tesla and SpaceX.",
+      "key_takeaway": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "TSLA",
+        "SPCE"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 249
+    },
+    {
       "id": 262,
       "title": "Why $1B Exits are Dead",
       "source_type": "podcast",
@@ -140,7 +162,7 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-26",
       "archived_date": null,
@@ -4915,6 +4937,24 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 213,
+      "term": "Deep Sweet Benchmark",
+      "description": "A new coding benchmark that measures AI's ability to solve complex software engineering tasks.",
+      "first_detected_date": "2026-05-30",
+      "last_mentioned_date": "2026-05-30",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should track advancements in AI coding benchmarks as they indicate the maturity and potential applications of AI in software development.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 249,
+      "first_detected_speaker": "Sam Altman",
+      "last_mentioned_episode_id": 249,
+      "last_mentioned_speaker": "Sam Altman"
+    },
     {
       "id": 194,
       "term": "Multi-modal AI",

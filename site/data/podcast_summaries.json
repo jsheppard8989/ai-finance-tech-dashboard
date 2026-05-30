@@ -1,5 +1,22 @@
 [
   {
+    "id": 249,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
+    "episode_date": "2026-05-30",
+    "summary": "This episode of Moonshots with Peter Diamandis discusses the latest trends in AI, space exploration, and entrepreneurship. Key themes include the Vatican's stance on AI personhood, shifting perspectives on job displacement, advancements in AI coding, regulatory pushback, the rise of solo founders, SpaceX's innovation, and the potential merger of Tesla and SpaceX.",
+    "key_takeaways": [
+      "Monitor Vatican's stance on AI for potential policy implications.",
+      "Reassess AI investment strategies based on evolving job market narratives.",
+      "Explore AI coding tools for software development efficiency.",
+      "Investigate opportunities in the rise of solo AI founders.",
+      "Consider SpaceX's iterative innovation model for tech investments.",
+      "Evaluate the market impact of a potential Tesla-SpaceX merger."
+    ],
+    "investment_thesis": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
+    "key_tickers": null
+  },
+  {
     "id": 248,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Pope vs AI, Anthropic's Digital God, AI Job Loss Narrative Flips, Open Source Crackdown Coming?",
@@ -98,22 +115,6 @@
       "Innovations in prediction markets require a balance between fun, risk, and legitimate information aggregation to gain broader acceptance."
     ],
     "investment_thesis": "Invest in companies developing prediction market platforms, focusing on those with strong legal compliance strategies and potential for cultural acceptance.",
-    "key_tickers": null
-  },
-  {
-    "id": 242,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "The Organizational Singularity: AI-Proof Your Company | EP #258",
-    "episode_date": "2026-05-26",
-    "summary": "This podcast episode discusses the urgent need for organizations to transition from traditional hierarchical structures to AI-native, intelligence-driven models to survive in the face of disruption. Key themes include the concept of the 'organizational singularity', the 'fiduciary wedge', and the impact of AI on workforce requirements. The episode emphasizes the importance of rapid decision-making, the creation of digital twins, and the potential for companies to reduce their workforce by up to 75% as they integrate AI into their operations.",
-    "key_takeaways": [
-      "Organizations must evolve to AI-native models to avoid disruption by agile competitors.",
-      "The 'fiduciary wedge' requires a legal and liability framework for AI integration.",
-      "Streamlining processes can reduce organizational drag and improve decision-making.",
-      "AI agents can handle routine decisions, freeing humans for strategic tasks.",
-      "Backcasting exercises can help align strategic objectives with future market realities."
-    ],
-    "investment_thesis": "Invest in companies that are actively transitioning to AI-native organizations to capitalize on the potential for increased operational efficiency and reduced workforce costs.",
     "key_tickers": null
   },
   {
