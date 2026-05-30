@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-29T23:35:54.381244",
-  "last_updated": "2026-05-29T23:35:54.381244",
-  "last_pipeline_run": "2026-05-29T23:35:54.381244",
+  "generated_at": "2026-05-30T05:01:45.650076",
+  "last_updated": "2026-05-30T05:01:45.650076",
+  "last_pipeline_run": "2026-05-30T05:01:45.650076",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -12,38 +12,20 @@
     "podcast_episodes": 221,
     "newsletters": 7,
     "daily_scores": 115,
-    "overton_terms_total": 152,
+    "overton_terms_total": 151,
     "latest_insights_total": 235,
     "today_mentions": {},
-    "podcasts_analyzed": 2
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 2
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
-    {
-      "id": "6c43a3ce-5efe-45fd-81db-29504c064b52",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Pope vs AI, Anthropic's Digital God, AI Job Loss Narrative Flips, Open Source Crackdown Coming?",
-      "published": "2026-05-29",
-      "rss_guid": "6c43a3ce-5efe-45fd-81db-29504c064b52",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "9e723c14-33a2-4bd1-9e58-e475244f9446",
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
@@ -118,7 +100,7 @@
       "title": "Trump-Xi Summit, Benioff: \"Not My First SaaSpocalypse,\" OpenAI vs Apple, Multi-Sensory AI, El Ni\u00f1o",
       "status": "needs_analysis",
       "published": "2026-05-15",
-      "age_days": 14,
+      "age_days": 15,
       "next_blocker": "analyzed"
     }
   ],

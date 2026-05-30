@@ -4916,24 +4916,6 @@
   "definitions": [],
   "overton": [
     {
-      "id": 212,
-      "term": "AI Washing",
-      "description": "The practice of companies attributing layoffs to AI to mask underlying operational issues.",
-      "first_detected_date": "2026-05-29",
-      "last_mentioned_date": "2026-05-29",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should be wary of companies that may be using AI washing as it could indicate deeper problems or misrepresentation of their business health.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 248,
-      "first_detected_speaker": "David Sachs, Bill Gurley",
-      "last_mentioned_episode_id": 248,
-      "last_mentioned_speaker": "David Sachs, Bill Gurley"
-    },
-    {
       "id": 194,
       "term": "Multi-modal AI",
       "description": "AI that integrates various forms of media, such as text, images, and audio, to enhance user engagement and application versatility.",
