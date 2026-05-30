@@ -24,6 +24,27 @@
       "podcast_episode_id": 247
     },
     {
+      "id": 263,
+      "title": "Pope vs AI, Anthropic's Digital God, AI Job Loss Narrative Flips, Open Source Crackdown Coming?",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-05-29",
+      "summary": "In this episode, the hosts of 'All-In with Chamath, Jason, Sacks & Friedberg' delve into the complex relationship between artificial intelligence (AI) and the job market. They debate whether AI will lead to mass unemployment or job creation, discuss the concept of AI washing, and consider the role of open-source AI models in fostering competition. The conversation also touches on regulatory capture concerns and the need for empathy towards those affected by job displacement due to technological advancements.",
+      "key_takeaway": "Investors should consider the dual impact of AI on job creation and displacement, focusing on companies that are AI-enabled and those that support open-source AI solutions to foster a competitive and innovative market.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 248
+    },
+    {
       "id": 260,
       "title": "Stablecoins, AI Agents, and The Future of Global Banking",
       "source_type": "podcast",
@@ -96,7 +117,7 @@
         "BTC"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-26",
       "archived_date": null,
@@ -4894,6 +4915,24 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 212,
+      "term": "AI Washing",
+      "description": "The practice of companies attributing layoffs to AI to mask underlying operational issues.",
+      "first_detected_date": "2026-05-29",
+      "last_mentioned_date": "2026-05-29",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should be wary of companies that may be using AI washing as it could indicate deeper problems or misrepresentation of their business health.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 248,
+      "first_detected_speaker": "David Sachs, Bill Gurley",
+      "last_mentioned_episode_id": 248,
+      "last_mentioned_speaker": "David Sachs, Bill Gurley"
+    },
     {
       "id": 194,
       "term": "Multi-modal AI",

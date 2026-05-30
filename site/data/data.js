@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-29T22:01:59.291609",
-  chartsVersion: "2026-05-29T22:01:46.194770",
+  generatedAt: "2026-05-29T23:35:56.517866",
+  chartsVersion: "2026-05-29T23:35:52.689133",
   priceSnapshot: {
   "GOOGL": {
     "price": 380.34,
     "change_pct": -2.14,
     "name": "GOOGL",
-    "updated_at": "2026-05-29T22:01:46.194084"
+    "updated_at": "2026-05-29T23:35:52.688550"
   },
   "BTC": {
-    "price": 73655.14,
-    "change_pct": -4.87,
+    "price": 73134.59,
+    "change_pct": -5.55,
     "name": "BTC",
-    "updated_at": "2026-05-29T22:01:46.194099"
+    "updated_at": "2026-05-29T23:35:52.688564"
   },
   "NVDA": {
     "price": 211.14,
     "change_pct": -3.78,
     "name": "NVDA",
-    "updated_at": "2026-05-29T22:01:46.194104"
+    "updated_at": "2026-05-29T23:35:52.688569"
   },
   "MSFT": {
     "price": 450.24,
     "change_pct": 9.34,
     "name": "MSFT",
-    "updated_at": "2026-05-29T22:01:46.194109"
+    "updated_at": "2026-05-29T23:35:52.688573"
   },
   "WTI": {
     "price": 3.68,
     "change_pct": -5.19,
     "name": "WTI",
-    "updated_at": "2026-05-29T22:01:46.194114"
+    "updated_at": "2026-05-29T23:35:52.688579"
   },
   "S&P 500": {
     "price": 756.48,
     "change_pct": 2.32,
     "name": "S&P 500",
-    "updated_at": "2026-05-29T22:01:46.194119"
+    "updated_at": "2026-05-29T23:35:52.688583"
   },
   "META": {
     "price": 632.51,
     "change_pct": 5.62,
     "name": "META",
-    "updated_at": "2026-05-29T22:01:46.194125"
+    "updated_at": "2026-05-29T23:35:52.688587"
   },
   "AMZN": {
     "price": 270.64,
     "change_pct": 0.61,
     "name": "AMZN",
-    "updated_at": "2026-05-29T22:01:46.194129"
+    "updated_at": "2026-05-29T23:35:52.688590"
   },
   "TSLA": {
     "price": 435.79,
     "change_pct": -2.07,
     "name": "TSLA",
-    "updated_at": "2026-05-29T22:01:46.194134"
+    "updated_at": "2026-05-29T23:35:52.688594"
   },
   "QQQ": {
     "price": 738.31,
     "change_pct": 3.51,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-29T22:01:46.194139"
+    "updated_at": "2026-05-29T23:35:52.688597"
   },
   "BTC-USD": {
-    "price": 73655.14,
-    "change_pct": -4.87,
+    "price": 73134.59,
+    "change_pct": -5.55,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-29T22:01:46.194144"
+    "updated_at": "2026-05-29T23:35:52.688601"
   }
 },
   tickerScores: [
@@ -851,6 +851,27 @@ const dashboardData = {
       "podcast_episode_id": 247
     },
     {
+      "id": 263,
+      "title": "Pope vs AI, Anthropic's Digital God, AI Job Loss Narrative Flips, Open Source Crackdown Coming?",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-05-29",
+      "summary": "In this episode, the hosts of 'All-In with Chamath, Jason, Sacks & Friedberg' delve into the complex relationship between artificial intelligence (AI) and the job market. They debate whether AI will lead to mass unemployment or job creation, discuss the concept of AI washing, and consider the role of open-source AI models in fostering competition. The conversation also touches on regulatory capture concerns and the need for empathy towards those affected by job displacement due to technological advancements.",
+      "key_takeaway": "Investors should consider the dual impact of AI on job creation and displacement, focusing on companies that are AI-enabled and those that support open-source AI solutions to foster a competitive and innovative market.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 248
+    },
+    {
       "id": 260,
       "title": "Stablecoins, AI Agents, and The Future of Global Banking",
       "source_type": "podcast",
@@ -923,7 +944,7 @@ const dashboardData = {
         "BTC"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-26",
       "archived_date": null,
@@ -5722,6 +5743,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 212,
+      "term": "AI Washing",
+      "description": "The practice of companies attributing layoffs to AI to mask underlying operational issues.",
+      "first_detected_date": "2026-05-29",
+      "last_mentioned_date": "2026-05-29",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should be wary of companies that may be using AI washing as it could indicate deeper problems or misrepresentation of their business health.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 248,
+      "first_detected_speaker": "David Sachs, Bill Gurley",
+      "last_mentioned_episode_id": 248,
+      "last_mentioned_speaker": "David Sachs, Bill Gurley"
+    },
+    {
       "id": 194,
       "term": "Multi-modal AI",
       "description": "AI that integrates various forms of media, such as text, images, and audio, to enhance user engagement and application versatility.",
@@ -8470,6 +8509,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 263,
+      "title": "Pope vs AI, Anthropic's Digital God, AI Job Loss Narrative Flips, Open Source Crackdown Coming?",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-05-29",
+      "summary": "In this episode, the hosts of 'All-In with Chamath, Jason, Sacks & Friedberg' delve into the complex relationship between artificial intelligence (AI) and the job market. They debate whether AI will lead to mass unemployment or job creation, discuss the concept of AI washing, and consider the role of open-source AI models in fostering competition. The conversation also touches on regulatory capture concerns and the need for empathy towards those affected by job displacement due to technological advancements.",
+      "key_takeaway": "Investors should consider the dual impact of AI on job creation and displacement, focusing on companies that are AI-enabled and those that support open-source AI solutions to foster a competitive and innovative market.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 248,
+      "episode_release_date": "2026-05-29",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 260,
       "title": "Stablecoins, AI Agents, and The Future of Global Banking",
       "source_type": "podcast",
@@ -8528,28 +8587,6 @@ const dashboardData = {
       "episode_release_date": "2026-05-27",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 255,
-      "title": "Bitcoin Memorial Day Briefing",
-      "source_type": "podcast",
-      "source_name": "The Jack Mallers Show",
-      "source_date": "2026-05-26",
-      "summary": "In this episode, Jack Mallers discusses the current economic disparity between Wall Street and Main Street, the unsustainable debt levels of the U.S., and the increasing financial strain on consumers. He emphasizes the importance of Bitcoin as a hedge against fiat currency issues and economic mismanagement. Austrian economics concepts are introduced to highlight the subjective nature of value and the importance of voluntary exchange in economic productivity.",
-      "key_takeaway": "Bitcoin serves as a hedge against fiat currency issues and economic mismanagement, making it a valuable asset in times of economic instability.",
-      "tickers_mentioned": "[\"BTC\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-26",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 240,
-      "episode_release_date": "2026-05-26",
-      "guest_name": null,
-      "key_tickers": [
-        "BTC"
-      ]
     },
     {
       "id": 256,
@@ -8735,6 +8772,32 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 212,
+      "term": "AI Washing",
+      "description": "The practice of companies attributing layoffs to AI to mask underlying operational issues.",
+      "first_detected_date": "2026-05-29",
+      "last_mentioned_date": "2026-05-29",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should be wary of companies that may be using AI washing as it could indicate deeper problems or misrepresentation of their business health.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 248,
+      "first_detected_speaker": "David Sachs, Bill Gurley",
+      "last_mentioned_episode_id": 248,
+      "last_mentioned_speaker": "David Sachs, Bill Gurley",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "first_detected_episode_title": "Pope vs AI, Anthropic's Digital God, AI Job Loss Narrative Flips, Open Source Crackdown Coming?",
+      "first_detected_episode_date": "2026-05-29",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "Pope vs AI, Anthropic's Digital God, AI Job Loss Narrative Flips, Open Source Crackdown Coming?",
+      "last_mentioned_episode_date": "2026-05-29"
+    },
     {
       "id": 194,
       "term": "Multi-modal AI",
@@ -9046,32 +9109,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Building Blackstone, Backing Costco, with Tony James",
       "last_mentioned_episode_date": "2026-05-05"
-    },
-    {
-      "id": 153,
-      "term": "Western AI Stack",
-      "description": "A concept referring to AI technologies that align with Western values, such as individual consent and rule-based operations.",
-      "first_detected_date": "2026-05-04",
-      "last_mentioned_date": "2026-05-04",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the alignment of AI technologies with Western values as a potential differentiator in a globally competitive market.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 195,
-      "first_detected_speaker": "Sarah B. Rogers",
-      "last_mentioned_episode_id": 195,
-      "last_mentioned_speaker": "Sarah B. Rogers",
-      "overton_score": 0.56,
-      "resonance_pct": 14,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "first_detected_episode_date": "2026-05-04",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "last_mentioned_episode_date": "2026-05-04"
     }
   ]
 },
@@ -24794,12 +24831,71 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-05-29",
     "key_tickers": []
+  },
+  "263": {
+    "id": 253,
+    "insight_id": 263,
+    "podcast_episode_id": 248,
+    "overview": "The unresolved tension in the AI job market revolves around the balance between job displacement due to automation and job creation through new roles and industries. The competitive dynamic is between companies that effectively integrate AI, creating new opportunities, and those that do not, potentially leading to job losses. The metric that arbitrates this uncertainty is the rate of job creation versus displacement across different sectors, particularly in tech and software development.",
+    "key_takeaways_detailed": [
+      "Investors should track the job creation rate in AI and tech sectors as a leading indicator of AI's impact on employment.",
+      "Monitor legal developments around AI washing to assess potential risks for companies that misrepresent AI's impact on their operations.",
+      "Consider the diversity of AI solutions in a company's portfolio as a measure of their resilience against market monopolization.",
+      "Evaluate companies' commitment to open-source AI to gauge their potential to foster a competitive and innovative market.",
+      "Assess the regulatory environment for signs of capture that could favor certain companies, impacting the broader competitive landscape."
+    ],
+    "investment_thesis": "The core logic is that AI will lead to a net increase in jobs, particularly in tech and software development, as new roles are created to manage and develop AI technologies. This thesis is vindicated if job growth in these sectors continues to outpace job losses in other areas due to AI automation. Conversely, if job losses due to AI automation exceed job creation, particularly in tech and software development, the thesis would be invalidated.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI for its products and services positions it to benefit from job creation in the tech sector.",
+        "positioning": "Strategic long position, as Apple's innovation and integration of AI are likely to drive job creation and company growth.",
+        "risk": "Key risks include regulatory challenges that could hinder AI development and potential backlash against AI washing if Apple is implicated."
+      },
+      "GOOGL": {
+        "rationale": "Google's leadership in AI research and development could lead to job creation in the AI sector.",
+        "positioning": "Tactical long position, as Google's AI advancements could drive short-term gains but are also subject to regulatory and competitive risks.",
+        "risk": "Regulatory capture could disadvantage Google if the AI space becomes less competitive."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's broad AI offerings across various sectors position it to benefit from the job creation potential of AI.",
+        "positioning": "Strategic long position, as Microsoft's diversified AI portfolio could provide stability and growth.",
+        "risk": "The risk of AI washing could affect Microsoft if it misrepresents AI's impact on its operations."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant increase in unemployment rates, suggesting that job losses due to AI are not being offset by new job creation.",
+      "A decline in investment in AI research and development, indicating a potential slowdown in job creation in the tech sector.",
+      "A rise in monopolistic practices in the AI space, which could stifle competition and job creation."
+    ],
+    "catalysts": [
+      "Upcoming labor market reports that could show a continued increase in job postings for software developers.",
+      "Regulatory rulings on AI that could either promote competition or lead to capture by a few dominant players.",
+      "Major AI conferences and announcements that could indicate the direction of AI development and its potential impact on the job market."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-29T23:35:13.493742",
+    "updated_at": "2026-05-30 04:35:13",
+    "episode_evidence": "The podcast 'All-In with Chamath, Jason, Sacks & Friedberg' provides a nuanced view on AI's impact on the job market. David Sachs asserts, 'AI will lead to job gains, not job loss,' citing a 15% year-over-year increase in job postings for software developers. This suggests that while AI automates certain tasks, it also creates new roles, particularly in tech and software development. Bill Gurley adds, 'Competition exists. If you just do more for less, someone else is going to come along and do more for less,' indicating that competition will prevent AI from leading to obscene profits and instead drive innovation and new job opportunities. The hosts also warn about 'AI washing,' where companies might attribute layoffs to AI to mask other operational issues, which could have legal and reputational implications.",
+    "falsification_tracks": [
+      "If job postings for software developers decline significantly over the next year, it would challenge the narrative of AI leading to job gains.",
+      "A rise in legal actions against companies for AI washing would indicate that this is a widespread issue, affecting the credibility of corporate communications on AI.",
+      "Should monopolization in the AI space increase, with fewer companies controlling AI technologies, it would undermine the argument for open-source AI fostering competition and innovation."
+    ],
+    "insight_title": "Pope vs AI, Anthropic's Digital God, AI Job Loss Narrative Flips, Open Source Crackdown Coming?",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-05-29",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 9972,
+    "id": 10029,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -24811,7 +24907,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9973,
+    "id": 10030,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -24823,7 +24919,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9974,
+    "id": 10031,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -24835,7 +24931,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9975,
+    "id": 10032,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -24847,7 +24943,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9976,
+    "id": 10033,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -24859,7 +24955,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9977,
+    "id": 10034,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -24871,7 +24967,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9978,
+    "id": 10035,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -24883,7 +24979,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9979,
+    "id": 10036,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -24895,7 +24991,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9980,
+    "id": 10037,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -24907,7 +25003,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 9981,
+    "id": 10038,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -24919,7 +25015,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9982,
+    "id": 10039,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -24931,7 +25027,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9983,
+    "id": 10040,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -24943,7 +25039,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9984,
+    "id": 10041,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -24955,7 +25051,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9985,
+    "id": 10042,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -24967,7 +25063,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9986,
+    "id": 10043,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -24979,7 +25075,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9987,
+    "id": 10044,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -24991,7 +25087,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9988,
+    "id": 10045,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -25003,7 +25099,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9989,
+    "id": 10046,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -25015,7 +25111,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9990,
+    "id": 10047,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -25027,7 +25123,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 9991,
+    "id": 10048,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -25845,7 +25941,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -25909,7 +26005,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -25969,7 +26065,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
@@ -26042,6 +26138,68 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 267,
+    "name": "Bill Gurley",
+    "slug": "bill-gurley",
+    "bio": "Bill Gurley is a renowned venture capitalist with a focus on technology and business insights. He is particularly recognized for his perspectives on AI's role in automation and the significance of competition in preventing job loss.",
+    "known_for": "His insights on the intersection of AI, automation, and the job market.",
+    "net_worth_usd": 600000000.0,
+    "net_worth_source": "https://www.peopleandmedia.com/bill-gurley-net-worth/",
+    "net_worth_updated_at": "2026-05-29T23:34:48.080484",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-30 04:33:59",
+    "last_episode_title": "Pope vs AI, Anthropic's Digital God, AI Job Loss Narrative Flips, Open Source Crackdown Coming?",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-05-29",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should consider the dual impact of AI on job creation and displacement, focusing on companies that are AI-enabled and those that support open-source AI solutions to foster a competitive and innovative market.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-29 \u2022 Pope vs AI, Anthropic's Digital God, AI Job Loss Narrative Flips, Open Source Crackdown Coming?",
+    "last_proof_snippet": "Okay, we are gathered here today in Holy Unity, brothers and sisters, to convene and discuss on this most holy day, the day, the all-in podcast drops. Many topics, AI data centers, China, justice, human dignity, Dario on winding these SPVs",
+    "supporting_takeaway": "AI washing, attributing layoffs to AI, could lead to legal and reputational risks for companies.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-29T23:34:47.051614",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Bill Gurley",
+      "fetched_at": "2026-05-30T04:34:47.051457+00:00",
+      "cliff_notes": "Bill Gurley is a venture capitalist with a deep understanding of the technology industry, particularly in the areas of artificial intelligence and automation. He began his career in investment banking and venture capital, eventually becoming a General Partner at Benchmark, a leading venture capital firm. Gurley is known for his investment in several successful tech companies, including Uber, Zillow, and Grubhub. His expertise extends to the impact of technology on the job market, where he has voiced concerns about the potential for automation to displace human workers. His insights into these areas have made him a sought-after commentator and speaker in the tech and business communities.",
+      "derived": {
+        "current_role": "General Partner at Benchmark;",
+        "former_positions": "General Partner at Benchmark;",
+        "education": "MBA from The University of Chicago Booth School of Business; BS in Mechanical Engineering from Purdue University;"
+      },
+      "infobox": {
+        "Born": "1969",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Bill Gurley is a venture capitalist with a deep understanding of the technology industry, particularly in the areas of artificial intelligence and automation. He began his career in investment banking and venture capital, eventually becoming a General Partner at Benchmark, a leading venture capital firm. Gurley is known for his investment in several successful tech companies, including Uber, Zillow, and Grubhub.",
+        "His expertise extends to the impact of technology on the job market, where he has voiced concerns about the potential for automation to displace human workers. His insights into these areas have made him a sought-after commentator and speaker in the tech and business communities."
+      ],
+      "sections": [
+        {
+          "heading": "Venture Capital Insights",
+          "body": "Gurley is recognized for his investment acumen, particularly in the tech sector, where he has identified and backed several successful startups."
+        },
+        {
+          "heading": "AI and Automation",
+          "body": "He has been vocal about the transformative potential of AI and automation, discussing both the opportunities and the challenges these technologies present."
+        },
+        {
+          "heading": "Job Market Impact",
+          "body": "Gurley has expressed concerns about the impact of automation on the job market, emphasizing the need for competition to prevent significant job loss."
+        }
+      ]
+    },
+    "net_worth": "$600.0M"
   },
   {
     "id": 266,
@@ -27679,7 +27837,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-07 \u2022 MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -28500,7 +28658,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-30 \u2022 Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
     "last_proof_snippet": "AI is creating new opportunities to rethink how enterprise systems work, potentially leading to a platform shift.",
@@ -28747,7 +28905,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Investment in the biotech sector may need to consider the geographic shift towards China for innovation and efficiency in drug development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-29 \u2022 The Shift in Global Drug Development",
     "last_proof_snippet": "China's clinical trial system has rapidly expanded, with reforms that streamline the approval process.",
@@ -28810,7 +28968,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -29246,7 +29404,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -29311,7 +29469,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in technologies and platforms that leverage cryptography and blockchain to provide verifiable information and restore trust in digital content.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-22 \u2022 Balaji Srinivasan: Prove Correct, Not Just Go Direct",
     "last_proof_snippet": "The growing distrust in media is due to the increasing cost of verifying content as synthetic content floods systems.",
@@ -29626,7 +29784,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
     "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
@@ -29754,7 +29912,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -29943,7 +30101,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-15 \u2022 Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
     "last_proof_snippet": "The company's revenue grew from $2.5 million to $250 million in just over a year, demonstrating the potential of AI in software development.",
@@ -30007,7 +30165,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-14 \u2022 \"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
     "last_proof_snippet": "Investing with a long-term perspective involves considering macroeconomic factors and their impact on smaller companies.",
@@ -30066,7 +30224,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in AI companies that are positioned to benefit from the rapid growth and valuation in the industry, and consider the broader implications of AI on the future of work and social structures.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-14 \u2022 Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
     "last_proof_snippet": "AI is expected to replace many white collar jobs in the near future.",
@@ -30314,7 +30472,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investing in companies with a strong cultural identity and clear strategic focus can provide an edge in technology markets, as demonstrated by the contrasting paths of Apple and Microsoft.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-10 \u2022 What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
     "last_proof_snippet": "Microsoft's strength in enterprise is due to the legendary compatibility of Windows, a key value for corporations.",
@@ -30511,7 +30669,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
     "last_proof_snippet": "Beach Point Capital Management primarily manages institutional capital, which is characterized as patient capital.",
@@ -30574,7 +30732,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
@@ -30889,7 +31047,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
     "last_proof_snippet": "AI is a shortcut that can be beneficial but also presents challenges in debugging and understanding.",
@@ -31134,7 +31292,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-04 \u2022 \u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
     "last_proof_snippet": "Shipping inefficiencies can lead to increased profits for ship owners.",
@@ -31379,7 +31537,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_proof_snippet": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",
@@ -33163,7 +33321,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_proof_snippet": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229 00:00:00 I am blown away by how far you've come. The things that you can do with Neural Nets now does completely",
@@ -33227,7 +33385,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "last_proof_cite": "The a16z Show \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
     "last_proof_snippet": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. If you were starting from scratch today,",
@@ -33289,7 +33447,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-19 \u2022 Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
     "last_proof_snippet": "Today's episode is brought to you by the Picta AI Enhance International Equity ETF, Ticker PQNT. You'll hear more about they're using AI to enhance international equity returns later in the show. For now, let's get into it. Very pleased tod",
@@ -33797,7 +33955,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
     "last_proof_snippet": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper | EP #230 Moonshots with Peter Diamandis Episode 230 00:00:00 When do we see a billion-dollar revenue company being run by an AI CEO",
