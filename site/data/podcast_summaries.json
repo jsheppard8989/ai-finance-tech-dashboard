@@ -1,5 +1,21 @@
 [
   {
+    "id": 250,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish | Jim Masturzo | Research Affiliates",
+    "episode_date": "2026-05-31",
+    "summary": "In this episode, Jack Farley discusses the diminishing effectiveness of the traditional 60-40 portfolio model due to positive correlations between stocks and bonds. He highlights the likelihood of sustained inflation, the potential of TIPS as an investment, and the complexities surrounding AI's impact on software companies. Farley also touches on market overvaluation, the pitfalls of relying on overly optimistic earnings forecasts, and the anticipated rise in commodity prices, particularly in agriculture, due to supply chain disruptions and geopolitical tensions.",
+    "key_takeaways": [
+      "Reevaluate traditional 60-40 portfolio allocations to include true diversifiers.",
+      "Invest in Treasury Inflation-Protected Securities (TIPS) to hedge against expected inflation.",
+      "Be cautious with software sector investments, focusing on fundamentals over AI-related hype.",
+      "Adjust earnings forecasts conservatively to avoid market mispricing.",
+      "Increase exposure to commodities, especially agricultural, to capitalize on rising prices."
+    ],
+    "investment_thesis": "In a market with changing dynamics, seek alternative diversifiers and inflation hedges while being cautious of overvalued markets and optimistic earnings forecasts.",
+    "key_tickers": null
+  },
+  {
     "id": 249,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
@@ -115,22 +131,6 @@
       "Innovations in prediction markets require a balance between fun, risk, and legitimate information aggregation to gain broader acceptance."
     ],
     "investment_thesis": "Invest in companies developing prediction market platforms, focusing on those with strong legal compliance strategies and potential for cultural acceptance.",
-    "key_tickers": null
-  },
-  {
-    "id": 241,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "How This Real Estate Investor is Betting on an AI Boom (It\u2019s Not Data Centers) | Tom Shapiro",
-    "episode_date": "2026-05-26",
-    "summary": "This episode of Monetary Matters with Jack Farley delves into the current state of the real estate market, focusing on the impact of employment, AI, and regional disparities on housing demand. The discussion highlights the risks posed by new housing legislation, the recovery of San Francisco's market due to AI companies, Brazil's real estate opportunities, and the growth potential in logistics and industrial sectors.",
-    "key_takeaways": [
-      "Employment levels are a key driver of housing demand, with a direct correlation to household formation rates.",
-      "The new housing bill may negatively impact the rental market by reducing the availability of built-to-rent units.",
-      "San Francisco's real estate market is recovering, driven by high AI company occupancy.",
-      "Brazil's real estate market is benefiting from its status as a major commodity exporter and demand for quality developments.",
-      "The logistics and industrial sectors are poised for growth due to reshoring trends and reduced new supply."
-    ],
-    "investment_thesis": "Invest in regions with strong employment growth and consider diversifying real estate investments to include San Francisco and Brazil, focusing on logistics and high-quality developments.",
     "key_tickers": null
   }
 ]

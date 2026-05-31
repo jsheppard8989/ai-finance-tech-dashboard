@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-31T12:03:55.217130",
-  chartsVersion: "2026-05-31T12:03:44.929651",
+  generatedAt: "2026-05-31T13:36:18.825210",
+  chartsVersion: "2026-05-31T13:36:14.432589",
   priceSnapshot: {
   "GOOGL": {
     "price": 380.34,
     "change_pct": -2.14,
     "name": "GOOGL",
-    "updated_at": "2026-05-31T12:03:44.928460"
+    "updated_at": "2026-05-31T13:36:14.432074"
   },
   "BTC": {
-    "price": 73421.63,
-    "change_pct": -4.59,
+    "price": 73553.77,
+    "change_pct": -4.42,
     "name": "BTC",
-    "updated_at": "2026-05-31T12:03:44.928480"
+    "updated_at": "2026-05-31T13:36:14.432085"
   },
   "NVDA": {
     "price": 211.14,
     "change_pct": -3.78,
     "name": "NVDA",
-    "updated_at": "2026-05-31T12:03:44.928490"
+    "updated_at": "2026-05-31T13:36:14.432089"
   },
   "MSFT": {
     "price": 450.24,
     "change_pct": 9.34,
     "name": "MSFT",
-    "updated_at": "2026-05-31T12:03:44.928498"
+    "updated_at": "2026-05-31T13:36:14.432093"
   },
   "WTI": {
     "price": 3.68,
     "change_pct": -5.19,
     "name": "WTI",
-    "updated_at": "2026-05-31T12:03:44.928506"
+    "updated_at": "2026-05-31T13:36:14.432097"
   },
   "S&P 500": {
     "price": 756.48,
     "change_pct": 2.32,
     "name": "S&P 500",
-    "updated_at": "2026-05-31T12:03:44.928514"
+    "updated_at": "2026-05-31T13:36:14.432101"
   },
   "META": {
     "price": 632.51,
     "change_pct": 5.62,
     "name": "META",
-    "updated_at": "2026-05-31T12:03:44.928523"
+    "updated_at": "2026-05-31T13:36:14.432104"
   },
   "AMZN": {
     "price": 270.64,
     "change_pct": 0.61,
     "name": "AMZN",
-    "updated_at": "2026-05-31T12:03:44.928531"
+    "updated_at": "2026-05-31T13:36:14.432108"
   },
   "TSLA": {
     "price": 435.79,
     "change_pct": -2.07,
     "name": "TSLA",
-    "updated_at": "2026-05-31T12:03:44.928538"
+    "updated_at": "2026-05-31T13:36:14.432111"
   },
   "QQQ": {
     "price": 738.31,
     "change_pct": 3.51,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-31T12:03:44.928546"
+    "updated_at": "2026-05-31T13:36:14.432115"
   },
   "BTC-USD": {
-    "price": 73421.63,
-    "change_pct": -4.59,
+    "price": 73553.77,
+    "change_pct": -4.42,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-31T12:03:44.928554"
+    "updated_at": "2026-05-31T13:36:14.432118"
   }
 },
   tickerScores: [
@@ -828,6 +828,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 265,
+      "title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish | Jim Masturzo | Research Affiliates",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-31",
+      "summary": "In this episode, Jack Farley discusses the diminishing effectiveness of the traditional 60-40 portfolio model due to positive correlations between stocks and bonds. He highlights the likelihood of sustained inflation, the potential of TIPS as an investment, and the complexities surrounding AI's impact on software companies. Farley also touches on market overvaluation, the pitfalls of relying on overly optimistic earnings forecasts, and the anticipated rise in commodity prices, particularly in agriculture, due to supply chain disruptions and geopolitical tensions.",
+      "key_takeaway": "In a market with changing dynamics, seek alternative diversifiers and inflation hedges while being cautious of overvalued markets and optimistic earnings forecasts.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-31",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 250
+    },
+    {
       "id": 264,
       "title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
       "source_type": "podcast",
@@ -1008,7 +1027,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-26",
       "archived_date": null,
@@ -5765,6 +5784,42 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 214,
+      "term": "60-40 Portfolio",
+      "description": "A traditional investment portfolio allocation strategy consisting of 60% equities and 40% bonds.",
+      "first_detected_date": "2026-05-31",
+      "last_mentioned_date": "2026-05-31",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors may need to reassess this model due to increased correlations between stocks and bonds.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 250,
+      "first_detected_speaker": "Jack Farley (hosts)",
+      "last_mentioned_episode_id": 250,
+      "last_mentioned_speaker": "Jack Farley (hosts)"
+    },
+    {
+      "id": 215,
+      "term": "TIPS",
+      "description": "Treasury Inflation-Protected Securities, a type of U.S. Treasury security whose principal is tied to the Consumer Price Index, offering a hedge against inflation.",
+      "first_detected_date": "2026-05-31",
+      "last_mentioned_date": "2026-05-31",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Considered a strategic investment in an environment of expected elevated inflation.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 250,
+      "first_detected_speaker": "Jack Farley (hosts)",
+      "last_mentioned_episode_id": 250,
+      "last_mentioned_speaker": "Jack Farley (hosts)"
+    },
+    {
       "id": 194,
       "term": "Multi-modal AI",
       "description": "AI that integrates various forms of media, such as text, images, and audio, to enhance user engagement and application versatility.",
@@ -8493,6 +8548,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 265,
+      "title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish | Jim Masturzo | Research Affiliates",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-05-31",
+      "summary": "In this episode, Jack Farley discusses the diminishing effectiveness of the traditional 60-40 portfolio model due to positive correlations between stocks and bonds. He highlights the likelihood of sustained inflation, the potential of TIPS as an investment, and the complexities surrounding AI's impact on software companies. Farley also touches on market overvaluation, the pitfalls of relying on overly optimistic earnings forecasts, and the anticipated rise in commodity prices, particularly in agriculture, due to supply chain disruptions and geopolitical tensions.",
+      "key_takeaway": "In a market with changing dynamics, seek alternative diversifiers and inflation hedges while being cautious of overvalued markets and optimistic earnings forecasts.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-05-31",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 250,
+      "episode_release_date": "2026-05-31",
+      "guest_name": "Overvaluation Meets Macro Risk",
+      "key_tickers": []
+    },
+    {
       "id": 264,
       "title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
       "source_type": "podcast",
@@ -8609,26 +8684,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 244,
       "episode_release_date": "2026-05-27",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 257,
-      "title": "How This Real Estate Investor is Betting on an AI Boom (It\u2019s Not Data Centers) | Tom Shapiro",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-05-26",
-      "summary": "This episode of Monetary Matters with Jack Farley delves into the current state of the real estate market, focusing on the impact of employment, AI, and regional disparities on housing demand. The discussion highlights the risks posed by new housing legislation, the recovery of San Francisco's market due to AI companies, Brazil's real estate opportunities, and the growth potential in logistics and industrial sectors.",
-      "key_takeaway": "Invest in regions with strong employment growth and consider diversifying real estate investments to include San Francisco and Brazil, focusing on logistics and high-quality developments.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-26",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 241,
-      "episode_release_date": "2026-05-26",
       "guest_name": null,
       "key_tickers": []
     },
@@ -8776,6 +8831,58 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 214,
+      "term": "60-40 Portfolio",
+      "description": "A traditional investment portfolio allocation strategy consisting of 60% equities and 40% bonds.",
+      "first_detected_date": "2026-05-31",
+      "last_mentioned_date": "2026-05-31",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors may need to reassess this model due to increased correlations between stocks and bonds.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 250,
+      "first_detected_speaker": "Jack Farley (hosts)",
+      "last_mentioned_episode_id": 250,
+      "last_mentioned_speaker": "Jack Farley (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish | Jim Masturzo | Research Affiliates",
+      "first_detected_episode_date": "2026-05-31",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish | Jim Masturzo | Research Affiliates",
+      "last_mentioned_episode_date": "2026-05-31"
+    },
+    {
+      "id": 215,
+      "term": "TIPS",
+      "description": "Treasury Inflation-Protected Securities, a type of U.S. Treasury security whose principal is tied to the Consumer Price Index, offering a hedge against inflation.",
+      "first_detected_date": "2026-05-31",
+      "last_mentioned_date": "2026-05-31",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Considered a strategic investment in an environment of expected elevated inflation.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 250,
+      "first_detected_speaker": "Jack Farley (hosts)",
+      "last_mentioned_episode_id": 250,
+      "last_mentioned_speaker": "Jack Farley (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish | Jim Masturzo | Research Affiliates",
+      "first_detected_episode_date": "2026-05-31",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish | Jim Masturzo | Research Affiliates",
+      "last_mentioned_episode_date": "2026-05-31"
+    },
     {
       "id": 194,
       "term": "Multi-modal AI",
@@ -9061,58 +9168,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
       "last_mentioned_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "last_mentioned_episode_date": "2026-05-07"
-    },
-    {
-      "id": 156,
-      "term": "Compounding Talent, Capital, and Culture",
-      "description": "The concept of building an organization that not only generates returns but also systematically develops and retains talent, grows capital, and fosters a strong culture over time.",
-      "first_detected_date": "2026-05-05",
-      "last_mentioned_date": "2026-05-05",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should look for firms that demonstrate the ability to compound these elements for sustainable growth.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 199,
-      "first_detected_speaker": "Tony James",
-      "last_mentioned_episode_id": 199,
-      "last_mentioned_speaker": "Tony James",
-      "overton_score": 0.55,
-      "resonance_pct": 14,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Building Blackstone, Backing Costco, with Tony James",
-      "first_detected_episode_date": "2026-05-05",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Building Blackstone, Backing Costco, with Tony James",
-      "last_mentioned_episode_date": "2026-05-05"
-    },
-    {
-      "id": 153,
-      "term": "Western AI Stack",
-      "description": "A concept referring to AI technologies that align with Western values, such as individual consent and rule-based operations.",
-      "first_detected_date": "2026-05-04",
-      "last_mentioned_date": "2026-05-04",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the alignment of AI technologies with Western values as a potential differentiator in a globally competitive market.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 195,
-      "first_detected_speaker": "Sarah B. Rogers",
-      "last_mentioned_episode_id": 195,
-      "last_mentioned_speaker": "Sarah B. Rogers",
-      "overton_score": 0.54,
-      "resonance_pct": 14,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "first_detected_episode_date": "2026-05-04",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "last_mentioned_episode_date": "2026-05-04"
     }
   ]
 },
@@ -24959,12 +25014,77 @@ const dashboardData = {
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-05-30",
     "key_tickers": []
+  },
+  "265": {
+    "id": 255,
+    "insight_id": 265,
+    "podcast_episode_id": 250,
+    "overview": "The unresolved tension lies in the shift from traditional portfolio allocations to new strategies that can withstand positive correlations between stocks and bonds, as well as the sustained inflation expected due to ongoing debt and deficit issues. The competitive dynamic is between the old guard of investment strategies and the emerging need for alternative diversifiers and inflation hedges. What converts belief in this thesis is the sustained performance of alternative investments and the continued rise in inflation, which would validate the need for a shift in portfolio strategy.",
+    "key_takeaways_detailed": [
+      "Investors should consider allocating to alternative diversifiers such as trend-following strategies and long-short equity to mitigate risks in a correlated market.",
+      "The allocation to TIPS should be revisited regularly to ensure the portfolio is adequately hedged against inflation, with adjustments based on the inflation data.",
+      "Due diligence on software companies should focus on fundamentals and long-term growth prospects rather than short-term AI-related hype.",
+      "A more conservative approach to earnings forecasts is advised, potentially using historical earnings growth rates as a baseline for valuation.",
+      "Exposure to commodities, with a focus on agricultural products, should be considered to capitalize on and hedge against rising prices and supply chain disruptions."
+    ],
+    "investment_thesis": "The core logic is that in a market with changing dynamics, characterized by positive correlations between stocks and bonds and sustained inflation, investors should seek alternative diversifiers and inflation hedges. This thesis is vindicated if alternative investments outperform traditional 60-40 portfolios and if inflation remains elevated over the next 12-24 months. Conversely, it would be invalidated if stock and bond correlations revert to historical negative levels and if inflation falls back to historical averages.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple, as a technology giant with significant software and services offerings, is relevant due to the complexities surrounding AI's impact on software companies.",
+        "positioning": "Positioning should be strategic, focusing on long-term growth prospects and the company's ability to leverage AI for innovation, rather than short-term earnings expectations.",
+        "risk": "Key risks include overreliance on the iPhone for revenue, potential regulatory challenges, and the company's ability to maintain innovation in a competitive market."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that stock and bond correlations will revert to historical negative levels, reducing the need for alternative diversifiers.",
+      "The possibility that inflation will be temporary and will not require a significant shift in portfolio allocations towards TIPS.",
+      "Skepticism around the long-term profitability of AI for software companies, suggesting that current valuations may be justified."
+    ],
+    "catalysts": [
+      "Release of new inflation data from the Federal Reserve or BLS that confirms or refutes the sustained inflation thesis.",
+      "Earnings reports from major software companies that either support or challenge the narrative around AI's impact on profitability.",
+      "Geopolitical events that could either escalate or de-escalate, impacting the supply chain and commodity prices.",
+      "Central bank policy decisions that could influence interest rates and the effectiveness of TIPS as an investment.",
+      "Technological breakthroughs or failures in AI that significantly impact the software sector's valuation and growth prospects."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-05-31T13:35:34.010056",
+    "updated_at": "2026-05-31 18:35:34",
+    "episode_evidence": "Jack Farley's discussion on the diminishing effectiveness of the traditional 60-40 portfolio model is grounded in the observation that 'stocks and bonds selling off together' due to positive correlations, which challenges the historical diversification benefits of this strategy. He cites the likelihood of sustained inflation, noting that 'inflation is going to be higher in the future than it's been historically,' which supports the case for TIPS as an investment. Farley also points out the complexities in the software sector, questioning the narrative that 'AI is moving so fast... does it make sense?' in terms of immediate earnings impact. The market overvaluation is quantified by the S&P trading at '40 times trailing 10-year earnings,' significantly higher than the long-term average, indicating a potential mispricing influenced by overly optimistic earnings forecasts. Lastly, the anticipated rise in commodity prices, especially in agriculture, is attributed to 'supply chain disruptions and geopolitical tensions,' which are causing 'stocks at rates we've never seen.'",
+    "falsification_tracks": [
+      "A sustained period of negative correlation between stocks and bonds would weaken the argument for alternative diversifiers.",
+      "If inflation rates fall below 2% consistently over the next year, the case for TIPS as an inflation hedge would be diminished.",
+      "Should software companies report earnings that significantly outpace market expectations due to AI advancements, the skepticism around AI's impact would be challenged.",
+      "A correction in the S&P to below 25 times trailing 10-year earnings would suggest less overvaluation and potentially alter the market outlook.",
+      "Resolution of major geopolitical tensions and supply chain normalization could reduce the anticipated rise in agricultural commodity prices."
+    ],
+    "insight_title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish | Jim Masturzo | Research Affiliates",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-05-31",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 10542,
+    "id": 10599,
+    "name": "Overvaluation Meets Macro Risk",
+    "slug": "overvaluation-meets-macro-risk",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "In a market with changing dynamics, seek alternative diversifiers and inflation hedges while being cautious of overvalued markets and optimistic earnings forecasts.",
+    "last_episode_title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish | Jim Masturzo | Research Affiliates",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-31",
+    "appearance_count": 1
+  },
+  {
+    "id": 10600,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -24976,7 +25096,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10543,
+    "id": 10601,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -24988,7 +25108,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10544,
+    "id": 10602,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -25000,7 +25120,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10545,
+    "id": 10603,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -25012,7 +25132,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10546,
+    "id": 10604,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -25024,7 +25144,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10547,
+    "id": 10605,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -25036,7 +25156,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10548,
+    "id": 10606,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -25048,7 +25168,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10549,
+    "id": 10607,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -25060,7 +25180,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10550,
+    "id": 10608,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -25072,7 +25192,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 10551,
+    "id": 10609,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -25084,7 +25204,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10552,
+    "id": 10610,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -25096,7 +25216,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10553,
+    "id": 10611,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -25108,7 +25228,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10554,
+    "id": 10612,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -25120,7 +25240,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10555,
+    "id": 10613,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -25132,7 +25252,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10556,
+    "id": 10614,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -25144,7 +25264,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10557,
+    "id": 10615,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -25156,7 +25276,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10558,
+    "id": 10616,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -25168,7 +25288,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10559,
+    "id": 10617,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -25180,7 +25300,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10560,
+    "id": 10618,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -25189,18 +25309,6 @@ const dashboardData = {
     "last_episode_title": "Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-04",
-    "appearance_count": 1
-  },
-  {
-    "id": 10561,
-    "name": "Why Fundamentals Fail the New Economy",
-    "slug": "why-fundamentals-fail-the-new-economy",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in companies with high levels of intangible capital using a combination of fundamental and sentiment analysis to identify mispriced opportunities, especially in sectors affected by global events.",
-    "last_episode_title": "Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-05-01",
     "appearance_count": 1
   }
 ],
@@ -25347,7 +25455,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-26",
     "mention_score": 3,
-    "mention_score_decayed": 2.74,
+    "mention_score_decayed": 2.67,
     "last_main_idea": "Invest in companies that are actively transitioning to AI-native organizations to capitalize on the potential for increased operational efficiency and reduced workforce costs.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-26 \u2022 The Organizational Singularity: AI-Proof Your Company | EP #258",
     "last_proof_snippet": "Is there a line year business, a high margin line year of your business that two guys with open claw could replicate in 60 to 90 days? This is something across the board useful for everyone. When we wrote the exponential organizations book,",
@@ -25664,7 +25772,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.18,
+    "mention_score_decayed": 1.15,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -26841,7 +26949,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -26905,7 +27013,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -26968,7 +27076,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -27403,7 +27511,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -27469,7 +27577,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -28030,7 +28138,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -28093,7 +28201,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -28281,7 +28389,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
