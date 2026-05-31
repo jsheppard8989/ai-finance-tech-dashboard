@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-05-31T06:36:43.327882",
-  chartsVersion: "2026-05-31T06:36:33.970270",
+  generatedAt: "2026-05-31T12:03:55.217130",
+  chartsVersion: "2026-05-31T12:03:44.929651",
   priceSnapshot: {
   "GOOGL": {
     "price": 380.34,
     "change_pct": -2.14,
     "name": "GOOGL",
-    "updated_at": "2026-05-31T06:36:33.969778"
+    "updated_at": "2026-05-31T12:03:44.928460"
   },
   "BTC": {
-    "price": 73813.88,
-    "change_pct": -4.08,
+    "price": 73421.63,
+    "change_pct": -4.59,
     "name": "BTC",
-    "updated_at": "2026-05-31T06:36:33.969790"
+    "updated_at": "2026-05-31T12:03:44.928480"
   },
   "NVDA": {
     "price": 211.14,
     "change_pct": -3.78,
     "name": "NVDA",
-    "updated_at": "2026-05-31T06:36:33.969794"
+    "updated_at": "2026-05-31T12:03:44.928490"
   },
   "MSFT": {
     "price": 450.24,
     "change_pct": 9.34,
     "name": "MSFT",
-    "updated_at": "2026-05-31T06:36:33.969797"
+    "updated_at": "2026-05-31T12:03:44.928498"
   },
   "WTI": {
     "price": 3.68,
     "change_pct": -5.19,
     "name": "WTI",
-    "updated_at": "2026-05-31T06:36:33.969801"
+    "updated_at": "2026-05-31T12:03:44.928506"
   },
   "S&P 500": {
     "price": 756.48,
     "change_pct": 2.32,
     "name": "S&P 500",
-    "updated_at": "2026-05-31T06:36:33.969805"
+    "updated_at": "2026-05-31T12:03:44.928514"
   },
   "META": {
     "price": 632.51,
     "change_pct": 5.62,
     "name": "META",
-    "updated_at": "2026-05-31T06:36:33.969808"
+    "updated_at": "2026-05-31T12:03:44.928523"
   },
   "AMZN": {
     "price": 270.64,
     "change_pct": 0.61,
     "name": "AMZN",
-    "updated_at": "2026-05-31T06:36:33.969811"
+    "updated_at": "2026-05-31T12:03:44.928531"
   },
   "TSLA": {
     "price": 435.79,
     "change_pct": -2.07,
     "name": "TSLA",
-    "updated_at": "2026-05-31T06:36:33.969815"
+    "updated_at": "2026-05-31T12:03:44.928538"
   },
   "QQQ": {
     "price": 738.31,
     "change_pct": 3.51,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-05-31T06:36:33.969817"
+    "updated_at": "2026-05-31T12:03:44.928546"
   },
   "BTC-USD": {
-    "price": 73813.88,
-    "change_pct": -4.08,
+    "price": 73421.63,
+    "change_pct": -4.59,
     "name": "Bitcoin USD",
-    "updated_at": "2026-05-31T06:36:33.969820"
+    "updated_at": "2026-05-31T12:03:44.928554"
   }
 },
   tickerScores: [
@@ -24964,7 +24964,7 @@ const dashboardData = {
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 10485,
+    "id": 10542,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -24976,7 +24976,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10486,
+    "id": 10543,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -24988,7 +24988,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10487,
+    "id": 10544,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -25000,7 +25000,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10488,
+    "id": 10545,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -25012,7 +25012,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10489,
+    "id": 10546,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -25024,7 +25024,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10490,
+    "id": 10547,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -25036,7 +25036,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10491,
+    "id": 10548,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -25048,7 +25048,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10492,
+    "id": 10549,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -25060,7 +25060,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10493,
+    "id": 10550,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -25072,7 +25072,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 10494,
+    "id": 10551,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -25084,7 +25084,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10495,
+    "id": 10552,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -25096,7 +25096,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10496,
+    "id": 10553,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -25108,7 +25108,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10497,
+    "id": 10554,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -25120,7 +25120,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10498,
+    "id": 10555,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -25132,7 +25132,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10499,
+    "id": 10556,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -25144,7 +25144,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10500,
+    "id": 10557,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -25156,7 +25156,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10501,
+    "id": 10558,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -25168,7 +25168,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10502,
+    "id": 10559,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -25180,7 +25180,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10503,
+    "id": 10560,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -25192,7 +25192,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10504,
+    "id": 10561,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -26349,7 +26349,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -26413,7 +26413,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -26596,7 +26596,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -26660,7 +26660,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -30105,7 +30105,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
