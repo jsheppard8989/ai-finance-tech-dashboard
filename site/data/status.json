@@ -1,7 +1,7 @@
 {
-  "last_pipeline_run": "2026-05-30T23:34:46.645602",
+  "last_pipeline_run": "2026-05-31T05:01:35.606058",
   "last_steps": {
-    "podcasts_analyzed": 1,
+    "podcasts_analyzed": 0,
     "overton_terms": 151,
     "pundits": 156
   },
