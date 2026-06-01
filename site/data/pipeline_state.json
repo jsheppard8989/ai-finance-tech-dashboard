@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-01T12:05:33.202034",
-  "last_updated": "2026-06-01T12:05:33.202034",
-  "last_pipeline_run": "2026-06-01T12:05:33.202034",
+  "generated_at": "2026-06-01T13:37:59.284897",
+  "last_updated": "2026-06-01T13:37:59.284897",
+  "last_pipeline_run": "2026-06-01T13:37:59.284897",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -12,39 +12,20 @@
     "podcast_episodes": 224,
     "newsletters": 7,
     "daily_scores": 115,
-    "overton_terms_total": 152,
+    "overton_terms_total": 151,
     "latest_insights_total": 238,
     "today_mentions": {},
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "0de90798-284e-449f-8940-f9968f01dcfe",
-      "podcast": "The a16z Show",
-      "title": "Building AI Agents for Enterprise Operations",
-      "published": "2026-06-01",
-      "rss_guid": "0de90798-284e-449f-8940-f9968f01dcfe",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
