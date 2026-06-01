@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 266,
+      "title": "Building AI Agents for Enterprise Operations",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-01",
+      "summary": "In this episode, the a16z Show explores Happy Robot's approach to solving enterprise coordination problems using voice AI, particularly in logistics and supply chain. The company has successfully integrated its voice agents into major logistics firms, emphasizing the importance of understanding conversation context and enhancing human capabilities. Happy Robot's forward-deployed engineering model allows for rapid customization of AI solutions, and the company is expanding into other sectors, recognizing the universality of coordination challenges across industries.",
+      "key_takeaway": "Invest in companies that leverage voice AI to solve enterprise coordination challenges, with a focus on scalability across industries and human-AI collaboration.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 251
+    },
+    {
       "id": 265,
       "title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish | Jim Masturzo | Research Affiliates",
       "source_type": "podcast",
@@ -219,7 +238,7 @@
         "AAPL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-26",
       "archived_date": null,
@@ -4956,6 +4975,24 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 216,
+      "term": "Forward-Deployed Engineering Model",
+      "description": "A model where engineers are embedded within customer organizations to develop and customize solutions tailored to their specific needs.",
+      "first_detected_date": "2026-06-01",
+      "last_mentioned_date": "2026-06-01",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider companies that adopt forward-deployed engineering models for their potential to innovate and adapt quickly to customer requirements.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 251,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 251,
+      "last_mentioned_speaker": null
+    },
     {
       "id": 194,
       "term": "Multi-modal AI",

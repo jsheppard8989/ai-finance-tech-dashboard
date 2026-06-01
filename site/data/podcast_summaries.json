@@ -1,5 +1,21 @@
 [
   {
+    "id": 251,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Building AI Agents for Enterprise Operations",
+    "episode_date": "2026-06-01",
+    "summary": "In this episode, the a16z Show explores Happy Robot's approach to solving enterprise coordination problems using voice AI, particularly in logistics and supply chain. The company has successfully integrated its voice agents into major logistics firms, emphasizing the importance of understanding conversation context and enhancing human capabilities. Happy Robot's forward-deployed engineering model allows for rapid customization of AI solutions, and the company is expanding into other sectors, recognizing the universality of coordination challenges across industries.",
+    "key_takeaways": [
+      "Happy Robot identifies enterprise coordination as a broader problem than just logistics, allowing for technology scalability across industries.",
+      "Contextual awareness in AI interactions is crucial for enhancing user experiences and operational efficiency.",
+      "The forward-deployed engineering model accelerates product development and ensures solutions are tailored to specific business needs.",
+      "Human-AI collaboration can lead to increased employee satisfaction and improved business outcomes by automating routine tasks.",
+      "A structured approach to AI implementation, starting with simple tasks and scaling to complex processes, facilitates adoption and learning."
+    ],
+    "investment_thesis": "Invest in companies that leverage voice AI to solve enterprise coordination challenges, with a focus on scalability across industries and human-AI collaboration.",
+    "key_tickers": null
+  },
+  {
     "id": 250,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish | Jim Masturzo | Research Affiliates",
@@ -114,23 +130,6 @@
       "Apollo's democratization of private markets through daily pricing and standardized information could increase accessibility."
     ],
     "investment_thesis": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
-    "key_tickers": null
-  },
-  {
-    "id": 243,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
-    "episode_date": "2026-05-26",
-    "summary": "This episode of 'The a16z Show' delves into the emerging field of prediction markets, exploring their potential as a tool for information aggregation and decision-making in business and personal contexts. The discussion highlights the regulatory challenges these markets face, such as the recent law in Minnesota that criminalizes prediction markets, and the societal perceptions that may hinder their evolution. The podcast also touches on the historical context of financial markets, drawing parallels between their initial illegal status and the potential for prediction markets to gain legitimacy over time. Insights are provided on the cultural acceptance of risk in sports betting and the importance of balancing fun, risk, and legitimate information aggregation for broader acceptance of prediction markets.",
-    "key_takeaways": [
-      "Prediction markets aggregate information to forecast outcomes, enhancing decision-making for businesses and individuals.",
-      "Regulatory risks, such as Minnesota's ban on prediction markets, pose significant challenges to their growth and acceptance.",
-      "Decision markets can offer objective insights into corporate governance, helping to mitigate biases and agency problems.",
-      "Many financial markets were once illegal but gained acceptance as their value became evident, suggesting a similar trajectory for prediction markets.",
-      "Cultural acceptance of risk-taking in sports has made sports betting a dominant area in prediction markets.",
-      "Innovations in prediction markets require a balance between fun, risk, and legitimate information aggregation to gain broader acceptance."
-    ],
-    "investment_thesis": "Invest in companies developing prediction market platforms, focusing on those with strong legal compliance strategies and potential for cultural acceptance.",
     "key_tickers": null
   }
 ]

@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-01T06:37:15.912275",
-  chartsVersion: "2026-06-01T06:37:03.921430",
+  generatedAt: "2026-06-01T12:05:44.589187",
+  chartsVersion: "2026-06-01T12:05:30.853922",
   priceSnapshot: {
   "GOOGL": {
-    "price": 380.34,
-    "change_pct": -2.14,
+    "price": 375.92,
+    "change_pct": -2.95,
     "name": "GOOGL",
-    "updated_at": "2026-06-01T06:37:03.920366"
+    "updated_at": "2026-06-01T12:05:30.853125"
   },
   "BTC": {
-    "price": 72587.26,
-    "change_pct": -5.42,
+    "price": 71466.59,
+    "change_pct": -6.89,
     "name": "BTC",
-    "updated_at": "2026-06-01T06:37:03.920387"
+    "updated_at": "2026-06-01T12:05:30.853141"
   },
   "NVDA": {
-    "price": 211.14,
-    "change_pct": -3.78,
+    "price": 221.72,
+    "change_pct": 0.43,
     "name": "NVDA",
-    "updated_at": "2026-06-01T06:37:03.920396"
+    "updated_at": "2026-06-01T12:05:30.853148"
   },
   "MSFT": {
-    "price": 450.24,
-    "change_pct": 9.34,
+    "price": 461.32,
+    "change_pct": 13.38,
     "name": "MSFT",
-    "updated_at": "2026-06-01T06:37:03.920405"
+    "updated_at": "2026-06-01T12:05:30.853154"
   },
   "WTI": {
-    "price": 3.68,
-    "change_pct": -5.19,
+    "price": 3.93,
+    "change_pct": -6.32,
     "name": "WTI",
-    "updated_at": "2026-06-01T06:37:03.920413"
+    "updated_at": "2026-06-01T12:05:30.853160"
   },
   "S&P 500": {
-    "price": 756.48,
-    "change_pct": 2.32,
+    "price": 757.49,
+    "change_pct": 2.62,
     "name": "S&P 500",
-    "updated_at": "2026-06-01T06:37:03.920421"
+    "updated_at": "2026-06-01T12:05:30.853166"
   },
   "META": {
-    "price": 632.51,
-    "change_pct": 5.62,
+    "price": 611.51,
+    "change_pct": 1.41,
     "name": "META",
-    "updated_at": "2026-06-01T06:37:03.920430"
+    "updated_at": "2026-06-01T12:05:30.853172"
   },
   "AMZN": {
-    "price": 270.64,
-    "change_pct": 0.61,
+    "price": 261.76,
+    "change_pct": -1.53,
     "name": "AMZN",
-    "updated_at": "2026-06-01T06:37:03.920438"
+    "updated_at": "2026-06-01T12:05:30.853177"
   },
   "TSLA": {
-    "price": 435.79,
-    "change_pct": -2.07,
+    "price": 420.27,
+    "change_pct": -3.04,
     "name": "TSLA",
-    "updated_at": "2026-06-01T06:37:03.920446"
+    "updated_at": "2026-06-01T12:05:30.853183"
   },
   "QQQ": {
-    "price": 738.31,
-    "change_pct": 3.51,
+    "price": 742.29,
+    "change_pct": 4.96,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-01T06:37:03.920454"
+    "updated_at": "2026-06-01T12:05:30.853188"
   },
   "BTC-USD": {
-    "price": 72587.26,
-    "change_pct": -5.42,
+    "price": 71466.59,
+    "change_pct": -6.89,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-01T06:37:03.920461"
+    "updated_at": "2026-06-01T12:05:30.853192"
   }
 },
   tickerScores: [
@@ -828,6 +828,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 266,
+      "title": "Building AI Agents for Enterprise Operations",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-01",
+      "summary": "In this episode, the a16z Show explores Happy Robot's approach to solving enterprise coordination problems using voice AI, particularly in logistics and supply chain. The company has successfully integrated its voice agents into major logistics firms, emphasizing the importance of understanding conversation context and enhancing human capabilities. Happy Robot's forward-deployed engineering model allows for rapid customization of AI solutions, and the company is expanding into other sectors, recognizing the universality of coordination challenges across industries.",
+      "key_takeaway": "Invest in companies that leverage voice AI to solve enterprise coordination challenges, with a focus on scalability across industries and human-AI collaboration.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 251
+    },
+    {
       "id": 265,
       "title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish | Jim Masturzo | Research Affiliates",
       "source_type": "podcast",
@@ -1046,7 +1065,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-26",
       "archived_date": null,
@@ -5784,6 +5803,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 216,
+      "term": "Forward-Deployed Engineering Model",
+      "description": "A model where engineers are embedded within customer organizations to develop and customize solutions tailored to their specific needs.",
+      "first_detected_date": "2026-06-01",
+      "last_mentioned_date": "2026-06-01",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider companies that adopt forward-deployed engineering models for their potential to innovate and adapt quickly to customer requirements.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 251,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 251,
+      "last_mentioned_speaker": null
+    },
+    {
       "id": 194,
       "term": "Multi-modal AI",
       "description": "AI that integrates various forms of media, such as text, images, and audio, to enhance user engagement and application versatility.",
@@ -8512,6 +8549,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 266,
+      "title": "Building AI Agents for Enterprise Operations",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-01",
+      "summary": "In this episode, the a16z Show explores Happy Robot's approach to solving enterprise coordination problems using voice AI, particularly in logistics and supply chain. The company has successfully integrated its voice agents into major logistics firms, emphasizing the importance of understanding conversation context and enhancing human capabilities. Happy Robot's forward-deployed engineering model allows for rapid customization of AI solutions, and the company is expanding into other sectors, recognizing the universality of coordination challenges across industries.",
+      "key_takeaway": "Invest in companies that leverage voice AI to solve enterprise coordination challenges, with a focus on scalability across industries and human-AI collaboration.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 251,
+      "episode_release_date": "2026-06-01",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 265,
       "title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish | Jim Masturzo | Research Affiliates",
       "source_type": "podcast",
@@ -8650,26 +8707,6 @@ const dashboardData = {
       "episode_release_date": "2026-05-27",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 258,
-      "title": "Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-05-26",
-      "summary": "This episode of 'The a16z Show' delves into the emerging field of prediction markets, exploring their potential as a tool for information aggregation and decision-making in business and personal contexts. The discussion highlights the regulatory challenges these markets face, such as the recent law in Minnesota that criminalizes prediction markets, and the societal perceptions that may hinder their evolution. The podcast also touches on the historical context of financial markets, drawing parallels between their initial illegal status and the potential for prediction markets to gain legitimacy over time. Insights are provided on the cultural acceptance of risk in sports betting and the importance of balancing fun, risk, and legitimate information aggregation for broader acceptance of prediction markets.",
-      "key_takeaway": "Invest in companies developing prediction market platforms, focusing on those with strong legal compliance strategies and potential for cultural acceptance.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-26",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 243,
-      "episode_release_date": "2026-05-26",
-      "guest_name": null,
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -8795,6 +8832,32 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 216,
+      "term": "Forward-Deployed Engineering Model",
+      "description": "A model where engineers are embedded within customer organizations to develop and customize solutions tailored to their specific needs.",
+      "first_detected_date": "2026-06-01",
+      "last_mentioned_date": "2026-06-01",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider companies that adopt forward-deployed engineering models for their potential to innovate and adapt quickly to customer requirements.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 251,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 251,
+      "last_mentioned_speaker": null,
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Building AI Agents for Enterprise Operations",
+      "first_detected_episode_date": "2026-06-01",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Building AI Agents for Enterprise Operations",
+      "last_mentioned_episode_date": "2026-06-01"
+    },
     {
       "id": 194,
       "term": "Multi-modal AI",
@@ -9106,32 +9169,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Building Blackstone, Backing Costco, with Tony James",
       "last_mentioned_episode_date": "2026-05-05"
-    },
-    {
-      "id": 153,
-      "term": "Western AI Stack",
-      "description": "A concept referring to AI technologies that align with Western values, such as individual consent and rule-based operations.",
-      "first_detected_date": "2026-05-04",
-      "last_mentioned_date": "2026-05-04",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the alignment of AI technologies with Western values as a potential differentiator in a globally competitive market.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 195,
-      "first_detected_speaker": "Sarah B. Rogers",
-      "last_mentioned_episode_id": 195,
-      "last_mentioned_speaker": "Sarah B. Rogers",
-      "overton_score": 0.52,
-      "resonance_pct": 13,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "first_detected_episode_date": "2026-05-04",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "last_mentioned_episode_date": "2026-05-04"
     }
   ]
 },
@@ -25031,12 +25068,61 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-05-31",
     "key_tickers": []
+  },
+  "266": {
+    "id": 256,
+    "insight_id": 266,
+    "podcast_episode_id": 251,
+    "overview": "The competitive dynamic implied by the source material is the race to dominate the voice AI market for enterprise coordination, with Happy Robot leading the charge in logistics and expanding into other sectors. The unresolved tension is whether Happy Robot can maintain its innovative edge and market position as other tech giants potentially enter the space. The metric that arbitrates this uncertainty is the company's ability to scale its technology across industries and enhance its AI's contextual understanding, which directly impacts operational efficiency and user satisfaction.",
+    "key_takeaways_detailed": [
+      "Investors should monitor Happy Robot's ability to maintain and expand its partnerships with major logistics firms as a key indicator of market acceptance and technological leadership.",
+      "Companies should assess their own enterprise coordination challenges and consider how Happy Robot's voice AI could be integrated to improve operational efficiency, with a focus on the scalability of solutions across different business functions.",
+      "As Happy Robot expands into new sectors, the success of these ventures will be a critical factor in evaluating the company's long-term growth potential and the broader applicability of its technology.",
+      "Investors should also consider the potential for Happy Robot's technology to disrupt traditional work models, focusing on how the collaboration between human employees and AI agents can lead to increased productivity and satisfaction."
+    ],
+    "investment_thesis": "The core logic of investing in Happy Robot is based on the company's ability to solve universal enterprise coordination problems using voice AI, with a focus on scalability and human-AI collaboration. The investment thesis is vindicated if Happy Robot continues to expand its market presence across different sectors and if it successfully integrates more complex decision-making processes into its AI solutions, as indicated by the company's statement, 'We might start somewhere in the bottom of the pyramid but very fast we're going up the pyramid.' Conversely, if the company fails to scale or if competitors offer more effective context-aware solutions, the thesis would be invalidated.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investments in AI and its potential to integrate voice AI solutions like Happy Robot's into its ecosystem make it a relevant ticker for this thesis.",
+        "positioning": "Positioning should be strategic and long-term, as Apple's integration of advanced AI technologies could significantly impact its market position and growth potential.",
+        "risk": "Key risks include competition from other tech giants with similar AI initiatives and potential regulatory hurdles that could slow down the adoption of voice AI in enterprise operations."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The argument that voice AI may not be as effective in noisy industrial environments as Happy Robot claims, potentially limiting the technology's applicability.",
+      "The possibility that the integration of AI into enterprise operations could lead to job displacement rather than enhancement, which could face social and regulatory pushback.",
+      "The skepticism around the ability of voice AI to understand complex contextual cues in a manner that is as effective as human judgment."
+    ],
+    "catalysts": [
+      "Announcements of new partnerships or expansions into additional sectors by Happy Robot.",
+      "Release of new voice AI features that demonstrate significant improvements in context understanding and negotiation capabilities.",
+      "Publications of case studies or reports that highlight the success of Happy Robot's technology in improving operational efficiency and user satisfaction.",
+      "Regulatory developments that either support or hinder the adoption of voice AI in enterprise operations."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-01T12:04:44.728133",
+    "updated_at": "2026-06-01 17:04:44",
+    "episode_evidence": "Happy Robot's approach to voice AI in enterprise operations is grounded in the belief that 'This is not a supply chain specific problem... it's actually an enterprise coordination problem.' This perspective allows the company to scale its technology across various sectors, not just logistics. The company's success is evident in its deployment across major logistics firms, including nine of the top ten freight brokers in the U.S., and its expansion into sectors like utilities and telecommunications. Happy Robot's forward-deployed engineering model is highlighted by the statement, 'We started like hiring and building this forward-deployed motion with FDs, forward-deploying engineers.' This model enables rapid customization and adaptation of AI solutions to meet specific customer needs, a key differentiator in the competitive landscape of AI solutions for enterprise operations.",
+    "falsification_tracks": [
+      "If Happy Robot fails to maintain its partnerships with the top freight brokers or experiences a significant reduction in the number of agents deployed, it would indicate a loss of market confidence in their technology.",
+      "A lack of expansion into new sectors or a failure to integrate with major players in utilities and telecommunications would weaken the thesis of the universality of coordination challenges across industries.",
+      "Should competitors successfully deploy context-aware AI solutions that outperform Happy Robot's in terms of user experience and operational efficiency, it would challenge the company's market position."
+    ],
+    "insight_title": "Building AI Agents for Enterprise Operations",
+    "source_name": "The a16z Show",
+    "source_date": "2026-06-01",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 10831,
+    "id": 10889,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -25048,7 +25134,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10832,
+    "id": 10890,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -25060,7 +25146,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10833,
+    "id": 10891,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -25072,7 +25158,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10834,
+    "id": 10892,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -25084,7 +25170,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10835,
+    "id": 10893,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -25096,7 +25182,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10836,
+    "id": 10894,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -25108,7 +25194,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10837,
+    "id": 10895,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -25120,7 +25206,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10838,
+    "id": 10896,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -25132,7 +25218,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10839,
+    "id": 10897,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -25144,7 +25230,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10840,
+    "id": 10898,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -25156,7 +25242,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 10841,
+    "id": 10899,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -25168,7 +25254,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10842,
+    "id": 10900,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -25180,7 +25266,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10843,
+    "id": 10901,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -25192,7 +25278,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10844,
+    "id": 10902,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -25204,7 +25290,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10845,
+    "id": 10903,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -25216,7 +25302,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10846,
+    "id": 10904,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -25228,7 +25314,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10847,
+    "id": 10905,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -25240,7 +25326,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10848,
+    "id": 10906,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -25252,7 +25338,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10849,
+    "id": 10907,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -25264,7 +25350,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 10850,
+    "id": 10908,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -26332,7 +26418,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -26421,7 +26507,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -26485,7 +26571,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -26668,7 +26754,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -26732,7 +26818,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -27475,7 +27561,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -27541,7 +27627,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -32609,7 +32695,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -32669,7 +32755,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -32729,7 +32815,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",
@@ -33977,7 +34063,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
@@ -34035,7 +34121,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",
