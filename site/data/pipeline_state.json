@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-31T23:39:19.027429",
-  "last_updated": "2026-05-31T23:39:19.027429",
-  "last_pipeline_run": "2026-05-31T23:39:19.027429",
+  "generated_at": "2026-06-01T05:02:19.005452",
+  "last_updated": "2026-06-01T05:02:19.005452",
+  "last_pipeline_run": "2026-06-01T05:02:19.005452",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -15,11 +15,11 @@
     "overton_terms_total": 151,
     "latest_insights_total": 237,
     "today_mentions": {},
-    "podcasts_analyzed": 1
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
+    "downloaded": 0,
+    "transcribed": 0,
     "analyzed": 0,
     "insight_created": 0,
     "published": 0,
@@ -27,25 +27,50 @@
   },
   "episodes": [
     {
-      "id": "9e723c14-33a2-4bd1-9e58-e475244f9446",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Trump-Xi Summit, Benioff: \"Not My First SaaSpocalypse,\" OpenAI vs Apple, Multi-Sensory AI, El Ni\u00f1o",
-      "published": "2026-05-15",
-      "rss_guid": "9e723c14-33a2-4bd1-9e58-e475244f9446",
+      "id": "rss::the a16z show::building ai agents for enterprise operations",
+      "podcast": "The a16z Show",
+      "title": "Building AI Agents for Enterprise Operations",
+      "published": "2026-06-01",
+      "published_date": "2026-06-01",
+      "rss_guid": "",
       "stages": {
-        "downloaded": true,
-        "transcribed": true,
+        "downloaded": false,
+        "transcribed": false,
         "analyzed": false,
         "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
+        "downloaded": "RSS-only: not in curation_log APPROVED list yet \u2014 run curate.py so it can be fetched.",
+        "transcribed": "Blocked until download completes.",
+        "analyzed": "Blocked until transcript exists.",
+        "insight_created": "Blocked until analysis completes.",
+        "published": "Blocked until export after insight promotion."
       },
-      "first_blocker": "analyzed",
+      "first_blocker": "downloaded",
       "remediation_by_stage": {
+        "downloaded": {
+          "action_id": "FETCH_AUDIO",
+          "steps": [
+            "Approve the episode in curation (curate.py refreshes pipeline/state/curation_log.json).",
+            "Download audio and enqueue transcription: fetch_latest.py --queue-only.",
+            "If MP3 never appears, inspect pipeline/logs/pipeline_schedule.err and fetch_latest output."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 curate.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 fetch_latest.py --queue-only"
+          ]
+        },
+        "transcribed": {
+          "action_id": "FETCH_BEFORE_TRANSCRIBE",
+          "steps": [
+            "Audio must exist before transcription. Complete FETCH_AUDIO first."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 curate.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 fetch_latest.py --queue-only"
+          ]
+        },
         "analyzed": {
           "action_id": "ANALYZE_TRANSCRIPTS",
           "steps": [
@@ -81,29 +106,19 @@
           ]
         }
       },
-      "status": "needs_analysis"
+      "status": "needs_download"
     }
   ],
   "available_from_rss": [
     {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Trump-Xi Summit, Benioff: \"Not My First SaaSpocalypse,\" OpenAI vs Apple, Multi-Sensory AI, El Ni\u00f1o",
-      "published": "Fri, 15 May 2026 21:21:00 +0000",
-      "published_date": "2026-05-15",
+      "podcast": "The a16z Show",
+      "title": "Building AI Agents for Enterprise Operations",
+      "published": "Mon, 1 Jun 2026 10:00:00 +0000",
+      "published_date": "2026-06-01",
       "rss_guid": ""
     }
   ],
-  "stale_episodes": [
-    {
-      "id": "9e723c14-33a2-4bd1-9e58-e475244f9446",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Trump-Xi Summit, Benioff: \"Not My First SaaSpocalypse,\" OpenAI vs Apple, Multi-Sensory AI, El Ni\u00f1o",
-      "status": "needs_analysis",
-      "published": "2026-05-15",
-      "age_days": 16,
-      "next_blocker": "analyzed"
-    }
-  ],
+  "stale_episodes": [],
   "stale_threshold_days": 2,
   "rss_filter_criteria": {
     "cutoff_date": "2026-02-01",
