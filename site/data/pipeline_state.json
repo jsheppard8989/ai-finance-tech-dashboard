@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-31T13:36:16.326325",
-  "last_updated": "2026-05-31T13:36:16.326325",
-  "last_pipeline_run": "2026-05-31T13:36:16.326325",
+  "generated_at": "2026-05-31T22:01:54.953100",
+  "last_updated": "2026-05-31T22:01:54.953100",
+  "last_pipeline_run": "2026-05-31T22:01:54.953100",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -12,38 +12,20 @@
     "podcast_episodes": 223,
     "newsletters": 7,
     "daily_scores": 115,
-    "overton_terms_total": 153,
+    "overton_terms_total": 151,
     "latest_insights_total": 237,
     "today_mentions": {},
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 2
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
-    {
-      "id": "6e1cd892-5d05-11f1-b36b-2f034939e3ad",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish | Jim Masturzo | Research Affiliates",
-      "published": "2026-05-31",
-      "rss_guid": "6e1cd892-5d05-11f1-b36b-2f034939e3ad",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "9e723c14-33a2-4bd1-9e58-e475244f9446",
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
