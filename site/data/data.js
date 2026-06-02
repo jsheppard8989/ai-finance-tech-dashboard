@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-01T22:03:18.793458",
-  chartsVersion: "2026-06-01T22:03:05.885289",
+  generatedAt: "2026-06-01T23:42:06.983930",
+  chartsVersion: "2026-06-01T23:42:03.383141",
   priceSnapshot: {
   "GOOGL": {
     "price": 376.37,
     "change_pct": -2.83,
     "name": "GOOGL",
-    "updated_at": "2026-06-01T22:03:05.884354"
+    "updated_at": "2026-06-01T23:42:03.382627"
   },
   "BTC": {
-    "price": 70759.36,
-    "change_pct": -8.65,
+    "price": 70915.54,
+    "change_pct": -8.45,
     "name": "BTC",
-    "updated_at": "2026-06-01T22:03:05.884373"
+    "updated_at": "2026-06-01T23:42:03.382638"
   },
   "NVDA": {
     "price": 224.36,
     "change_pct": 1.62,
     "name": "NVDA",
-    "updated_at": "2026-06-01T22:03:05.884382"
+    "updated_at": "2026-06-01T23:42:03.382642"
   },
   "MSFT": {
     "price": 460.52,
     "change_pct": 13.18,
     "name": "MSFT",
-    "updated_at": "2026-06-01T22:03:05.884390"
+    "updated_at": "2026-06-01T23:42:03.382645"
   },
   "WTI": {
     "price": 3.99,
     "change_pct": -5.01,
     "name": "WTI",
-    "updated_at": "2026-06-01T22:03:05.884398"
+    "updated_at": "2026-06-01T23:42:03.382649"
   },
   "S&P 500": {
     "price": 758.54,
     "change_pct": 2.76,
     "name": "S&P 500",
-    "updated_at": "2026-06-01T22:03:05.884405"
+    "updated_at": "2026-06-01T23:42:03.382652"
   },
   "META": {
     "price": 600.47,
     "change_pct": -0.42,
     "name": "META",
-    "updated_at": "2026-06-01T22:03:05.884413"
+    "updated_at": "2026-06-01T23:42:03.382656"
   },
   "AMZN": {
     "price": 261.26,
     "change_pct": -1.72,
     "name": "AMZN",
-    "updated_at": "2026-06-01T22:03:05.884420"
+    "updated_at": "2026-06-01T23:42:03.382659"
   },
   "TSLA": {
     "price": 415.88,
     "change_pct": -4.05,
     "name": "TSLA",
-    "updated_at": "2026-06-01T22:03:05.884427"
+    "updated_at": "2026-06-01T23:42:03.382662"
   },
   "QQQ": {
     "price": 742.74,
     "change_pct": 5.02,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-01T22:03:05.884435"
+    "updated_at": "2026-06-01T23:42:03.382665"
   },
   "BTC-USD": {
-    "price": 70759.36,
-    "change_pct": -8.65,
+    "price": 70915.54,
+    "change_pct": -8.45,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-01T22:03:05.884441"
+    "updated_at": "2026-06-01T23:42:03.382668"
   }
 },
   tickerScores: [
@@ -847,6 +847,28 @@ const dashboardData = {
       "podcast_episode_id": 251
     },
     {
+      "id": 267,
+      "title": "Opus 4.8 Beats GPT 5.5, the $220B OpenAI Foundation, and Hassabis\u2019s 2029 AGI Prediction | EP #260",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-06-01",
+      "summary": "This episode of 'Moonshots with Peter Diamandis' discusses the competitive landscape of AI, with Anthropic's Opus 4.8 outperforming GPT-5.5 in coding benchmarks. It also touches on the timeline for Artificial General Intelligence (AGI), the impact of AI on e-commerce with Amazon's AI shopping assistant, the valuation and influence of the OpenAI Foundation, advancements in health tech with a device detecting early-stage lung cancer, the U.S. government's investment in quantum computing, proactive government engagement in workforce transitions with AI, and the challenges in aerospace development with Blue Origin's rocket explosion.",
+      "key_takeaway": "Invest in companies at the forefront of AI, quantum computing, and health tech advancements, as these sectors are poised for significant growth and disruption.",
+      "tickers_mentioned": [
+        "AMZN",
+        "GOOGL",
+        "IBM",
+        "MSFT"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 252
+    },
+    {
       "id": 265,
       "title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish | Jim Masturzo | Research Affiliates",
       "source_type": "podcast",
@@ -985,7 +1007,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-27",
       "archived_date": null,
@@ -8551,6 +8573,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 267,
+      "title": "Opus 4.8 Beats GPT 5.5, the $220B OpenAI Foundation, and Hassabis\u2019s 2029 AGI Prediction | EP #260",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-06-01",
+      "summary": "This episode of 'Moonshots with Peter Diamandis' discusses the competitive landscape of AI, with Anthropic's Opus 4.8 outperforming GPT-5.5 in coding benchmarks. It also touches on the timeline for Artificial General Intelligence (AGI), the impact of AI on e-commerce with Amazon's AI shopping assistant, the valuation and influence of the OpenAI Foundation, advancements in health tech with a device detecting early-stage lung cancer, the U.S. government's investment in quantum computing, proactive government engagement in workforce transitions with AI, and the challenges in aerospace development with Blue Origin's rocket explosion.",
+      "key_takeaway": "Invest in companies at the forefront of AI, quantum computing, and health tech advancements, as these sectors are poised for significant growth and disruption.",
+      "tickers_mentioned": "[\"AMZN\", \"GOOGL\", \"IBM\", \"MSFT\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 252,
+      "episode_release_date": "2026-06-01",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 265,
       "title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish | Jim Masturzo | Research Affiliates",
       "source_type": "podcast",
@@ -8667,26 +8709,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 246,
       "episode_release_date": "2026-05-28",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 259,
-      "title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-05-27",
-      "summary": "In this episode, the focus is on the increasing concentration risk in public markets and the shift towards private markets for diversification. The discussion highlights the evolution of credit markets, the impact of AI on enterprise software, and Apollo Global Management's strategy to democratize access to private markets. The conversation underscores the importance of clean sheet thinking and moral leadership in adapting to rapid market changes.",
-      "key_takeaway": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-27",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 244,
-      "episode_release_date": "2026-05-27",
       "guest_name": null,
       "key_tickers": []
     }
@@ -25099,12 +25121,79 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-06-01",
     "key_tickers": []
+  },
+  "267": {
+    "id": 257,
+    "insight_id": 267,
+    "podcast_episode_id": 252,
+    "overview": "The competitive dynamic in AI is highlighted by Anthropic's Opus 4.8 outperforming GPT-5.5, indicating a rapidly evolving landscape where innovation is key. The debate over the timeline for AGI and its current capabilities presents a tension between technological optimism and skepticism. What is contested is not just the timeline but the very definition and measurement of AGI. What converts belief in this context is consistent performance in benchmarks and real-world applications that demonstrate AGI's capabilities.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor AI benchmark performances as a proxy for competitive advantage and innovation within the AI sector.",
+      "The divergence in AGI timelines presents an opportunity to reassess investment strategies, with an emphasis on companies that are likely to benefit from either an accelerated or delayed AGI development.",
+      "Retailers and e-commerce platforms should consider the implications of Amazon's AI shopping assistant on consumer behavior and the potential for AI-driven personalization to disrupt traditional retail models.",
+      "Health tech investors should look for companies that are not only developing diagnostic tools but also those that can scale and integrate these tools into broader healthcare systems.",
+      "Quantum computing investments should be evaluated based on the potential for the U.S. to lead in this space, with a focus on the capabilities and applications of the technology rather than just the investment amount.",
+      "Government initiatives like California's dashboard for tracking AI-related job losses can serve as a leading indicator for the impact of AI on the workforce, guiding both policy and corporate responses."
+    ],
+    "investment_thesis": "Investing in companies at the forefront of AI, quantum computing, and health tech advancements is a strategic move, as these sectors are expected to experience significant growth and disruption. The timeframe for this thesis is medium to long-term, as the development and adoption of these technologies are likely to be gradual but transformative. An observable development that would vindicate this thesis is the consistent outperformance of these companies in relevant benchmarks and the successful commercialization of their technologies. Conversely, a lack of significant progress or a shift in technological focus could invalidate the thesis.",
+    "ticker_analysis": {
+      "AMZN": {
+        "rationale": "Amazon, with its AI shopping assistant, is at the forefront of e-commerce transformation and AI application in retail.",
+        "positioning": "Strategic long position, as Amazon's AI advancements are likely to reinforce its market leadership and drive shareholder value.",
+        "risk": "The risk of regulatory challenges to Amazon's market dominance and the potential for competitors to develop superior AI-driven solutions."
+      },
+      "GOOGL": {
+        "rationale": "Google, through its subsidiary DeepMind, is a key player in the development of AGI and has significant investments in AI research.",
+        "positioning": "Strategic long position, as Google's leadership in AI could drive innovation and provide first-mover advantages.",
+        "risk": "The risk of AGI development being slower than expected or facing significant ethical and regulatory hurdles."
+      },
+      "IBM": {
+        "rationale": "IBM's investment in a quantum chip foundry positions it as a leader in the emerging field of quantum computing.",
+        "positioning": "Tactical long position, as quantum computing is still in its early stages, and IBM's success could be a catalyst for growth.",
+        "risk": "The risk of technological setbacks or delays in the development and adoption of quantum computing technology."
+      },
+      "MSFT": {
+        "rationale": "Microsoft has a significant presence in the AI space and is investing in health tech advancements, making it a contender in the digital transformation of healthcare.",
+        "positioning": "Strategic long position, as Microsoft's diversified approach to AI and health tech could yield significant returns.",
+        "risk": "The risk of Microsoft's AI and health tech initiatives not delivering expected results or being outpaced by competitors."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The pace of AI development could be slower than anticipated, leading to a reduced impact on industries and a slower disruption of the status quo.",
+      "The valuation of the OpenAI Foundation could be overestimated, potentially leading to a reassessment of the value of AI-focused philanthropic entities.",
+      "The development of quantum computing could face unforeseen technical challenges, delaying its commercialization and impact on various sectors."
+    ],
+    "catalysts": [
+      "The release of new AI benchmarks and the performance of different AI models will be a key catalyst in the competitive landscape.",
+      "The commercial success of Amazon's AI shopping assistant and its adoption by other retailers will indicate the direction of e-commerce transformation.",
+      "Advancements in health tech, particularly in early cancer detection, will be a catalyst for investment in the health tech sector.",
+      "Milestones in quantum computing, such as the successful operation of quantum chips, will signal the progress and potential of this technology.",
+      "Policy decisions and regulatory changes related to AI and its impact on the workforce will be a significant catalyst for companies and investors."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-01T23:41:24.036670",
+    "updated_at": "2026-06-02 04:41:24",
+    "episode_evidence": "Anthropic's AI model, Opus 4.8, has shown a significant lead over GPT-5.5 in coding benchmarks, as stated by the host: 'Opus 4.8 now leads the artificial analysis intelligence index at 61.4, 1.2 points ahead of GPT 5.5.' This performance edge underscores the dynamic and competitive nature of the AI industry. In terms of Artificial General Intelligence (AGI), Demis Hassabis of DeepMind has aligned with Ray Kurzweil's projection, setting the timeline for AGI at 2029, despite skepticism from others who argue that AGI capabilities have already been present since 2020, as Alex mentioned: 'I think we've arguably had some form of artificial general intelligence since 2020.' These differing perspectives on AGI's timeline and capabilities are crucial for understanding the pace of AI development and its potential impact on various sectors.",
+    "falsification_tracks": [
+      "If Anthropic's AI models consistently underperform in future benchmarks, it would challenge the current competitive landscape narrative.",
+      "Should the timeline for AGI be significantly delayed beyond 2029, it would alter investment strategies and expectations within the tech sector.",
+      "If Amazon's AI shopping assistant fails to maintain high conversion rates or if similar technologies from competitors outperform it, the narrative of e-commerce transformation would be weakened."
+    ],
+    "insight_title": "Opus 4.8 Beats GPT 5.5, the $220B OpenAI Foundation, and Hassabis\u2019s 2029 AGI Prediction | EP #260",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-06-01",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 11005,
+    "id": 11063,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -25116,7 +25205,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11006,
+    "id": 11064,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -25128,7 +25217,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11007,
+    "id": 11065,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -25140,7 +25229,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11008,
+    "id": 11066,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -25152,7 +25241,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11009,
+    "id": 11067,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -25164,7 +25253,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11010,
+    "id": 11068,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -25176,7 +25265,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11011,
+    "id": 11069,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -25188,7 +25277,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11012,
+    "id": 11070,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -25200,7 +25289,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11013,
+    "id": 11071,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -25212,7 +25301,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11014,
+    "id": 11072,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -25224,7 +25313,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 11015,
+    "id": 11073,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -25236,7 +25325,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11016,
+    "id": 11074,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -25248,7 +25337,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11017,
+    "id": 11075,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -25260,7 +25349,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11018,
+    "id": 11076,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -25272,7 +25361,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11019,
+    "id": 11077,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -25284,7 +25373,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11020,
+    "id": 11078,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -25296,7 +25385,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11021,
+    "id": 11079,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -25308,7 +25397,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11022,
+    "id": 11080,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -25320,7 +25409,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11023,
+    "id": 11081,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -25332,7 +25421,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11024,
+    "id": 11082,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -25677,7 +25766,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-15",
     "mention_score": 2,
-    "mention_score_decayed": 1.38,
+    "mention_score_decayed": 1.35,
     "last_main_idea": "Invest in technologies that empower individuals to maintain autonomy and control in a world where threats to personal safety and privacy are growing.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-15 \u2022 Vitalik Buterin on Human Agency in the AI Era",
     "last_proof_snippet": "One of the challenges the world right now is that we're definitely in a less peaceful and less safe world than 10 or 15 years ago. The vision of safety that we're competing with is basically, oh, you know, let's trust the uncle in the sky a",
@@ -26427,7 +26516,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investors should consider the dual impact of AI on job creation and displacement, focusing on companies that are AI-enabled and those that support open-source AI solutions to foster a competitive and innovative market.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-29 \u2022 Pope vs AI, Anthropic's Digital God, AI Job Loss Narrative Flips, Open Source Crackdown Coming?",
     "last_proof_snippet": "Okay, we are gathered here today in Holy Unity, brothers and sisters, to convene and discuss on this most holy day, the day, the all-in podcast drops. Many topics, AI data centers, China, justice, human dignity, Dario on winding these SPVs",
@@ -29238,7 +29327,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -29674,7 +29763,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -30054,7 +30143,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
     "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
@@ -30371,7 +30460,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-15 \u2022 Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
     "last_proof_snippet": "The company's revenue grew from $2.5 million to $250 million in just over a year, demonstrating the potential of AI in software development.",
@@ -30435,7 +30524,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-14 \u2022 \"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
     "last_proof_snippet": "Investing with a long-term perspective involves considering macroeconomic factors and their impact on smaller companies.",
@@ -30558,7 +30647,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
@@ -30742,7 +30831,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Investing in companies with a strong cultural identity and clear strategic focus can provide an edge in technology markets, as demonstrated by the contrasting paths of Apple and Microsoft.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-10 \u2022 What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
     "last_proof_snippet": "Microsoft's strength in enterprise is due to the legendary compatibility of Windows, a key value for corporations.",
@@ -30939,7 +31028,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
     "last_proof_snippet": "Beach Point Capital Management primarily manages institutional capital, which is characterized as patient capital.",
@@ -31002,7 +31091,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
@@ -31317,7 +31406,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
     "last_proof_snippet": "AI is a shortcut that can be beneficial but also presents challenges in debugging and understanding.",
@@ -31807,7 +31896,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_proof_snippet": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",
@@ -32243,7 +32332,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-27 \u2022 Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
     "last_proof_snippet": "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",
@@ -33591,7 +33680,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_proof_snippet": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229 00:00:00 I am blown away by how far you've come. The things that you can do with Neural Nets now does completely",
@@ -33655,7 +33744,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "last_proof_cite": "The a16z Show \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
     "last_proof_snippet": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. If you were starting from scratch today,",
@@ -33717,7 +33806,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-19 \u2022 Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
     "last_proof_snippet": "Today's episode is brought to you by the Picta AI Enhance International Equity ETF, Ticker PQNT. You'll hear more about they're using AI to enhance international equity returns later in the show. For now, let's get into it. Very pleased tod",

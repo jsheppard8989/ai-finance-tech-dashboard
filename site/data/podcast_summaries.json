@@ -1,5 +1,23 @@
 [
   {
+    "id": 252,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Opus 4.8 Beats GPT 5.5, the $220B OpenAI Foundation, and Hassabis\u2019s 2029 AGI Prediction | EP #260",
+    "episode_date": "2026-06-01",
+    "summary": "This episode of 'Moonshots with Peter Diamandis' discusses the competitive landscape of AI, with Anthropic's Opus 4.8 outperforming GPT-5.5 in coding benchmarks. It also touches on the timeline for Artificial General Intelligence (AGI), the impact of AI on e-commerce with Amazon's AI shopping assistant, the valuation and influence of the OpenAI Foundation, advancements in health tech with a device detecting early-stage lung cancer, the U.S. government's investment in quantum computing, proactive government engagement in workforce transitions with AI, and the challenges in aerospace development with Blue Origin's rocket explosion.",
+    "key_takeaways": [
+      "Anthropic's Opus 4.8 leads in AI coding benchmarks, indicating a competitive AI landscape.",
+      "Divergent views on AGI timelines can influence investment strategies in AI and tech sectors.",
+      "Amazon's AI shopping assistant significantly increases conversion rates, impacting e-commerce strategies.",
+      "OpenAI Foundation, valued at up to $260 billion, focuses on economic futures and AI dividends, shaping the future of work.",
+      "A handheld device from China detects early-stage lung cancer with 95% accuracy, showcasing health tech advancements.",
+      "The U.S. government invests $2 billion in a quantum chip foundry, aiming to lead in quantum computing.",
+      "California's initiative to track AI-related job losses reflects proactive government engagement in workforce transitions."
+    ],
+    "investment_thesis": "Invest in companies at the forefront of AI, quantum computing, and health tech advancements, as these sectors are poised for significant growth and disruption.",
+    "key_tickers": null
+  },
+  {
     "id": 251,
     "podcast_name": "The a16z Show",
     "episode_title": "Building AI Agents for Enterprise Operations",
@@ -114,22 +132,6 @@
       "Explore opportunities in programmable finance to stay ahead of industry trends."
     ],
     "investment_thesis": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
-    "key_tickers": null
-  },
-  {
-    "id": 244,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
-    "episode_date": "2026-05-27",
-    "summary": "In this episode, the focus is on the increasing concentration risk in public markets and the shift towards private markets for diversification. The discussion highlights the evolution of credit markets, the impact of AI on enterprise software, and Apollo Global Management's strategy to democratize access to private markets. The conversation underscores the importance of clean sheet thinking and moral leadership in adapting to rapid market changes.",
-    "key_takeaways": [
-      "Investors should diversify into private markets to mitigate concentration risk in public markets.",
-      "High-growth private companies like Thropic, OpenAI, and SpaceX offer significant investment opportunities.",
-      "Understanding the evolving private credit market is crucial for identifying stable investment opportunities.",
-      "AI's impact on enterprise software may lead to lower private equity returns in this sector.",
-      "Apollo's democratization of private markets through daily pricing and standardized information could increase accessibility."
-    ],
-    "investment_thesis": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "key_tickers": null
   }
 ]

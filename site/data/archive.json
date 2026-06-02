@@ -20,6 +20,28 @@
       "podcast_episode_id": 251
     },
     {
+      "id": 267,
+      "title": "Opus 4.8 Beats GPT 5.5, the $220B OpenAI Foundation, and Hassabis\u2019s 2029 AGI Prediction | EP #260",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-06-01",
+      "summary": "This episode of 'Moonshots with Peter Diamandis' discusses the competitive landscape of AI, with Anthropic's Opus 4.8 outperforming GPT-5.5 in coding benchmarks. It also touches on the timeline for Artificial General Intelligence (AGI), the impact of AI on e-commerce with Amazon's AI shopping assistant, the valuation and influence of the OpenAI Foundation, advancements in health tech with a device detecting early-stage lung cancer, the U.S. government's investment in quantum computing, proactive government engagement in workforce transitions with AI, and the challenges in aerospace development with Blue Origin's rocket explosion.",
+      "key_takeaway": "Invest in companies at the forefront of AI, quantum computing, and health tech advancements, as these sectors are poised for significant growth and disruption.",
+      "tickers_mentioned": [
+        "AMZN",
+        "GOOGL",
+        "IBM",
+        "MSFT"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 252
+    },
+    {
       "id": 265,
       "title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish | Jim Masturzo | Research Affiliates",
       "source_type": "podcast",
@@ -158,7 +180,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-27",
       "archived_date": null,
