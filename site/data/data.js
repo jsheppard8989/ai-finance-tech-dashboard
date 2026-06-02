@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-02T06:39:10.945030",
-  chartsVersion: "2026-06-02T06:39:04.076121",
+  generatedAt: "2026-06-02T12:07:00.880732",
+  chartsVersion: "2026-06-02T12:06:53.248202",
   priceSnapshot: {
   "GOOGL": {
-    "price": 376.37,
-    "change_pct": -2.83,
+    "price": 367.87,
+    "change_pct": -8.63,
     "name": "GOOGL",
-    "updated_at": "2026-06-02T06:39:04.074123"
+    "updated_at": "2026-06-02T12:06:53.247073"
   },
   "BTC": {
-    "price": 69419.99,
-    "change_pct": -10.38,
+    "price": 67439.06,
+    "change_pct": -12.93,
     "name": "BTC",
-    "updated_at": "2026-06-02T06:39:04.074158"
+    "updated_at": "2026-06-02T12:06:53.247096"
   },
   "NVDA": {
-    "price": 224.36,
-    "change_pct": 1.62,
+    "price": 225.24,
+    "change_pct": -0.26,
     "name": "NVDA",
-    "updated_at": "2026-06-02T06:39:04.074172"
+    "updated_at": "2026-06-02T12:06:53.247106"
   },
   "MSFT": {
-    "price": 460.52,
-    "change_pct": 13.18,
+    "price": 444.36,
+    "change_pct": 9.9,
     "name": "MSFT",
-    "updated_at": "2026-06-02T06:39:04.074183"
+    "updated_at": "2026-06-02T12:06:53.247115"
   },
   "WTI": {
-    "price": 3.99,
-    "change_pct": -5.01,
+    "price": 4.05,
+    "change_pct": -7.75,
     "name": "WTI",
-    "updated_at": "2026-06-02T06:39:04.074194"
+    "updated_at": "2026-06-02T12:06:53.247124"
   },
   "S&P 500": {
-    "price": 758.54,
-    "change_pct": 2.76,
+    "price": 759.81,
+    "change_pct": 2.36,
     "name": "S&P 500",
-    "updated_at": "2026-06-02T06:39:04.074206"
+    "updated_at": "2026-06-02T12:06:53.247133"
   },
   "META": {
-    "price": 600.47,
-    "change_pct": -0.42,
+    "price": 605.59,
+    "change_pct": -1.79,
     "name": "META",
-    "updated_at": "2026-06-02T06:39:04.074218"
+    "updated_at": "2026-06-02T12:06:53.247142"
   },
   "AMZN": {
-    "price": 261.26,
-    "change_pct": -1.72,
+    "price": 258.82,
+    "change_pct": -4.19,
     "name": "AMZN",
-    "updated_at": "2026-06-02T06:39:04.074227"
+    "updated_at": "2026-06-02T12:06:53.247151"
   },
   "TSLA": {
-    "price": 415.88,
-    "change_pct": -4.05,
+    "price": 422.08,
+    "change_pct": -5.21,
     "name": "TSLA",
-    "updated_at": "2026-06-02T06:39:04.074237"
+    "updated_at": "2026-06-02T12:06:53.247159"
   },
   "QQQ": {
-    "price": 742.74,
-    "change_pct": 5.02,
+    "price": 745.81,
+    "change_pct": 4.35,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-02T06:39:04.074247"
+    "updated_at": "2026-06-02T12:06:53.247167"
   },
   "BTC-USD": {
-    "price": 69419.99,
-    "change_pct": -10.38,
+    "price": 67436.84,
+    "change_pct": -12.94,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-02T06:39:04.074257"
+    "updated_at": "2026-06-02T12:06:53.247175"
   }
 },
   tickerScores: [
@@ -828,6 +828,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 268,
+      "title": "Real Boom? Fake Money?",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-06-02",
+      "summary": "In this episode, Jack Mallers discusses the current economic landscape, focusing on Bitcoin's price, the looming U.S. federal debt crisis, bond market pressures, Federal Reserve's monetary policy dilemma, the surge in AI investments, and the potential weakening of the U.S. dollar. He also touches on seasonal trends in Bitcoin's performance and emphasizes the importance of personal health and nutrition.",
+      "key_takeaway": "Investors should consider diversifying away from U.S. treasuries and evaluate the sustainability of AI investments while preparing for potential dollar devaluation and Bitcoin's seasonal underperformance.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 253
+    },
+    {
       "id": 266,
       "title": "Building AI Agents for Enterprise Operations",
       "source_type": "podcast",
@@ -965,7 +984,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-28",
       "archived_date": null,
@@ -5825,6 +5844,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 217,
+      "term": "AI Investment Surge",
+      "description": "A significant increase in investments in artificial intelligence, driving a large portion of U.S. GDP growth.",
+      "first_detected_date": "2026-06-02",
+      "last_mentioned_date": "2026-06-02",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should be cautious about the sustainability of AI investments and the potential for a market correction.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 253,
+      "first_detected_speaker": "Jack Mallers (hosts)",
+      "last_mentioned_episode_id": 253,
+      "last_mentioned_speaker": "Jack Mallers (hosts)"
+    },
+    {
       "id": 194,
       "term": "Multi-modal AI",
       "description": "AI that integrates various forms of media, such as text, images, and audio, to enhance user engagement and application versatility.",
@@ -8553,6 +8590,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 268,
+      "title": "Real Boom? Fake Money?",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-06-02",
+      "summary": "In this episode, Jack Mallers discusses the current economic landscape, focusing on Bitcoin's price, the looming U.S. federal debt crisis, bond market pressures, Federal Reserve's monetary policy dilemma, the surge in AI investments, and the potential weakening of the U.S. dollar. He also touches on seasonal trends in Bitcoin's performance and emphasizes the importance of personal health and nutrition.",
+      "key_takeaway": "Investors should consider diversifying away from U.S. treasuries and evaluate the sustainability of AI investments while preparing for potential dollar devaluation and Bitcoin's seasonal underperformance.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 253,
+      "episode_release_date": "2026-06-02",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 266,
       "title": "Building AI Agents for Enterprise Operations",
       "source_type": "podcast",
@@ -8669,26 +8726,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 248,
       "episode_release_date": "2026-05-29",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 260,
-      "title": "Stablecoins, AI Agents, and The Future of Global Banking",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-05-28",
-      "summary": "The podcast discusses the growth and strategic pivots of Jeeps, a stablecoin-native financial operating system targeting global enterprises. Key themes include the company's robust financial infrastructure, regulatory licensing as a competitive advantage, and the strategic shift towards enterprise clients. The show also highlights the importance of AI integration for operational efficiency and the growing adoption of stablecoins in Latin America, particularly Argentina, as a practical solution for currency volatility.",
-      "key_takeaway": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-28",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 245,
-      "episode_release_date": "2026-05-28",
       "guest_name": null,
       "key_tickers": []
     },
@@ -8836,6 +8873,32 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 217,
+      "term": "AI Investment Surge",
+      "description": "A significant increase in investments in artificial intelligence, driving a large portion of U.S. GDP growth.",
+      "first_detected_date": "2026-06-02",
+      "last_mentioned_date": "2026-06-02",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should be cautious about the sustainability of AI investments and the potential for a market correction.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 253,
+      "first_detected_speaker": "Jack Mallers (hosts)",
+      "last_mentioned_episode_id": 253,
+      "last_mentioned_speaker": "Jack Mallers (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The Jack Mallers Show",
+      "first_detected_episode_title": "Real Boom? Fake Money?",
+      "first_detected_episode_date": "2026-06-02",
+      "last_mentioned_podcast": "The Jack Mallers Show",
+      "last_mentioned_episode_title": "Real Boom? Fake Money?",
+      "last_mentioned_episode_date": "2026-06-02"
+    },
     {
       "id": 194,
       "term": "Multi-modal AI",
@@ -9147,32 +9210,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Building Blackstone, Backing Costco, with Tony James",
       "last_mentioned_episode_date": "2026-05-05"
-    },
-    {
-      "id": 153,
-      "term": "Western AI Stack",
-      "description": "A concept referring to AI technologies that align with Western values, such as individual consent and rule-based operations.",
-      "first_detected_date": "2026-05-04",
-      "last_mentioned_date": "2026-05-04",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the alignment of AI technologies with Western values as a potential differentiator in a globally competitive market.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 195,
-      "first_detected_speaker": "Sarah B. Rogers",
-      "last_mentioned_episode_id": 195,
-      "last_mentioned_speaker": "Sarah B. Rogers",
-      "overton_score": 0.51,
-      "resonance_pct": 13,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "first_detected_episode_date": "2026-05-04",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-      "last_mentioned_episode_date": "2026-05-04"
     }
   ]
 },
@@ -25188,12 +25225,64 @@ const dashboardData = {
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-06-01",
     "key_tickers": []
+  },
+  "268": {
+    "id": 258,
+    "insight_id": 268,
+    "podcast_episode_id": 253,
+    "overview": "The unresolved tension highlighted by Jack Mallers is the precarious balance between the U.S. federal debt crisis, the Federal Reserve's monetary policy, and the impact of AI investments on the economy. The competitive dynamic is between traditional financial instruments and emerging technologies like Bitcoin, with the policy tradeoff being how to manage inflation without causing economic collapse. The allocator-relevant implication is that investors face uncertainty in a landscape where the U.S. dollar's strength is contested, and the sustainability of AI investments could dictate economic direction. The metric that arbitrates this uncertainty is the Federal Reserve's policy decisions and the actual performance of AI investments in driving economic growth.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the yield curve and consider alternative investments to bonds, given the potential for soaring yields and a sovereign debt crisis.",
+      "The potential weakening of the U.S. dollar suggests a strategic allocation to Bitcoin and other hard assets as a hedge against inflation.",
+      "The sustainability of AI investments should be evaluated on a case-by-case basis, considering the scale of investment versus the tangible economic impact.",
+      "Investors should be prepared for market volatility and potentially increased risk aversion if the Federal Reserve's policy leads to economic instability.",
+      "Diversification strategies should include a mix of traditional and digital assets, considering the projected underperformance of Bitcoin in certain seasons."
+    ],
+    "investment_thesis": "The core logic is that the U.S. federal debt crisis, combined with the Federal Reserve's monetary policy dilemma and the uncertain sustainability of AI investments, creates an environment where traditional financial instruments are at risk. This situation could lead to a shift towards alternative assets like Bitcoin, which may offer a hedge against dollar devaluation and economic instability. The thesis is vindicated if the U.S. federal debt continues to rise as projected, the Federal Reserve's policy leads to increased market volatility, and AI investments fail to deliver expected returns, causing a market correction. This would be invalidated if the U.S. successfully manages its debt, the Federal Reserve finds a stable policy equilibrium, and AI investments drive significant economic growth.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI and its status as a major tech company make it a relevant ticker in the context of AI investment sustainability and the potential impact on the economy.",
+        "positioning": "Positioning in AAPL should be strategic, considering its exposure to AI investments and its ability to weather economic fluctuations. Long-term investors might view AAPL as a stable investment, while short-term traders could use tactical positions to capitalize on market volatility.",
+        "risk": "Key risks include the sustainability of AI investments, potential market corrections due to economic policy, and the overall health of the consumer electronics market."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant economic upturn could reduce the urgency of the federal debt crisis narrative.",
+      "Unexpected technological breakthroughs could justify the scale of AI investments and their contribution to GDP growth.",
+      "A change in global energy dynamics could alleviate the pressure on bond markets and alter the debt financing landscape."
+    ],
+    "catalysts": [
+      "Federal Reserve policy announcements and changes in interest rates.",
+      "U.S. federal debt reports and GDP growth figures.",
+      "Quarterly earnings reports from major tech companies to assess the ROI of AI investments.",
+      "Global energy market shifts and their impact on bond sales and yields.",
+      "Bitcoin's price movements and its performance relative to the U.S. dollar."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-02T12:06:01.202972",
+    "updated_at": "2026-06-02 17:06:01",
+    "episode_evidence": "Jack Mallers' discussion on the economic landscape provides a detailed perspective on Bitcoin's current price, which stands at $70,900, a significant 43.8% off its all-time high of $126,160. He emphasizes the looming U.S. federal debt crisis, with a projection that federal debt will rise from 101% of GDP to 175% by 2036, as stated: 'Higher than any point in the nation's history...growing deficits will push federal debt to 175% of GDP.' This indicates a severe misallocation of capital. Mallers also points out the pressures on the bond market, with countries selling bonds to finance energy needs, leading to soaring yields: 'Western bond yields are going to soar because everyone's going to dump these pieces of trash.' Furthermore, he discusses the Federal Reserve's dilemma, caught between raising rates to combat inflation and cutting rates to avoid economic collapse, as he puts it: 'The Fed is stuck...there's no way they can cut rates.'",
+    "falsification_tracks": [
+      "Should the U.S. federal debt not reach 175% of GDP by 2036, the severity of the projected financial crisis would be reduced.",
+      "If bond yields do not continue to rise, the pressure on the bond market and the associated risks to the economy would be mitigated.",
+      "A change in Federal Reserve policy that effectively balances inflation and economic stability would challenge the current dilemma narrative.",
+      "A significant slowdown in AI investments or a clear demonstration of substantial ROI could alter the perception of AI investment sustainability."
+    ],
+    "insight_title": "Real Boom? Fake Money?",
+    "source_name": "The Jack Mallers Show",
+    "source_date": "2026-06-02",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 11179,
+    "id": 11237,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -25205,7 +25294,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11180,
+    "id": 11238,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -25217,7 +25306,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11181,
+    "id": 11239,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -25229,7 +25318,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11182,
+    "id": 11240,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -25241,7 +25330,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11183,
+    "id": 11241,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -25253,7 +25342,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11184,
+    "id": 11242,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -25265,7 +25354,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11185,
+    "id": 11243,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -25277,7 +25366,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11186,
+    "id": 11244,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -25289,7 +25378,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11187,
+    "id": 11245,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -25301,7 +25390,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11188,
+    "id": 11246,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -25313,7 +25402,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 11189,
+    "id": 11247,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -25325,7 +25414,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11190,
+    "id": 11248,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -25337,7 +25426,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11191,
+    "id": 11249,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -25349,7 +25438,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11192,
+    "id": 11250,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -25361,7 +25450,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11193,
+    "id": 11251,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -25373,7 +25462,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11194,
+    "id": 11252,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -25385,7 +25474,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11195,
+    "id": 11253,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -25397,7 +25486,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11196,
+    "id": 11254,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -25409,7 +25498,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11197,
+    "id": 11255,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -25421,7 +25510,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11198,
+    "id": 11256,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -26489,7 +26578,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -26578,7 +26667,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -26642,7 +26731,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -26825,7 +26914,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -26889,7 +26978,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -27632,7 +27721,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -27698,7 +27787,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -30334,7 +30423,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",

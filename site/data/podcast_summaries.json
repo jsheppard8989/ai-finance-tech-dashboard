@@ -1,5 +1,22 @@
 [
   {
+    "id": 253,
+    "podcast_name": "The Jack Mallers Show",
+    "episode_title": "Real Boom? Fake Money?",
+    "episode_date": "2026-06-02",
+    "summary": "In this episode, Jack Mallers discusses the current economic landscape, focusing on Bitcoin's price, the looming U.S. federal debt crisis, bond market pressures, Federal Reserve's monetary policy dilemma, the surge in AI investments, and the potential weakening of the U.S. dollar. He also touches on seasonal trends in Bitcoin's performance and emphasizes the importance of personal health and nutrition.",
+    "key_takeaways": [
+      "U.S. federal debt is projected to rise significantly, impacting investor confidence in U.S. financial instruments.",
+      "The bond market is under pressure due to countries selling bonds to finance energy needs, leading to soaring yields.",
+      "The Federal Reserve faces a dilemma between raising rates to combat inflation and cutting rates to avoid economic collapse.",
+      "AI investments are driving a significant portion of U.S. GDP growth, but their sustainability and return on investment are questionable.",
+      "The U.S. dollar is expected to weaken against Bitcoin and other currencies due to ongoing money printing.",
+      "Bitcoin typically underperforms in summer months due to lower volatility."
+    ],
+    "investment_thesis": "Investors should consider diversifying away from U.S. treasuries and evaluate the sustainability of AI investments while preparing for potential dollar devaluation and Bitcoin's seasonal underperformance.",
+    "key_tickers": null
+  },
+  {
     "id": 252,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Opus 4.8 Beats GPT 5.5, the $220B OpenAI Foundation, and Hassabis\u2019s 2029 AGI Prediction | EP #260",
@@ -115,23 +132,6 @@
       "The 10-year Treasury yield is under pressure, but unresolved geopolitical tensions could lead to a rise in yields."
     ],
     "investment_thesis": "Investors should closely monitor geopolitical developments in the Iran conflict, as they could significantly impact oil prices and market sentiment, and consider hedging strategies against rising oil prices.",
-    "key_tickers": null
-  },
-  {
-    "id": 245,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Stablecoins, AI Agents, and The Future of Global Banking",
-    "episode_date": "2026-05-28",
-    "summary": "The podcast discusses the growth and strategic pivots of Jeeps, a stablecoin-native financial operating system targeting global enterprises. Key themes include the company's robust financial infrastructure, regulatory licensing as a competitive advantage, and the strategic shift towards enterprise clients. The show also highlights the importance of AI integration for operational efficiency and the growing adoption of stablecoins in Latin America, particularly Argentina, as a practical solution for currency volatility.",
-    "key_takeaways": [
-      "Evaluate and invest in companies with strong, integrated financial infrastructures.",
-      "Prioritize companies actively obtaining regulatory licenses as a strategic advantage.",
-      "Consider shifting focus to mid-market and enterprise clients for higher profitability.",
-      "Implement AI solutions to streamline operations and reduce workforce requirements.",
-      "Assess local adoption of stablecoins and other technologies when entering new markets.",
-      "Explore opportunities in programmable finance to stay ahead of industry trends."
-    ],
-    "investment_thesis": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "key_tickers": null
   }
 ]
