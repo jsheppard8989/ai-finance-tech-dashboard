@@ -1,5 +1,23 @@
 [
   {
+    "id": 254,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
+    "episode_date": "2026-06-02",
+    "summary": "In this episode, the panel discusses OpenAI's massive fundraising efforts, the implications of compute scarcity, and the strategic importance of balancing consumer and enterprise offerings in the AI sector. They also delve into the economic model of AI compute, the shift from capex to opex models, and the potential for ad-based revenue streams. The conversation highlights the competitive advantage of leveraging user data for personalization and the integration of memory and context in AI models to drive enterprise value.",
+    "key_takeaways": [
+      "OpenAI has raised over $120 billion, positioning it as a leader in AI infrastructure.",
+      "Compute scarcity is projected to last through 2026, emphasizing the importance of strategic investments in data centers and cloud partnerships.",
+      "OpenAI's dual focus on consumer and enterprise offerings allows for diversified revenue streams and market capture.",
+      "AI compute's economic model suggests significant revenue potential, with one gigawatt generating around $10 billion annually.",
+      "The transition from capex to opex models through cloud service provider partnerships enhances financial flexibility.",
+      "Integrating memory and context into AI models is expected to drive significant value for enterprises.",
+      "OpenAI's exploration of ad-based revenue models while maintaining a free tier could provide a sustainable revenue stream."
+    ],
+    "investment_thesis": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
+    "key_tickers": null
+  },
+  {
     "id": 253,
     "podcast_name": "The Jack Mallers Show",
     "episode_title": "Real Boom? Fake Money?",
@@ -115,23 +133,6 @@
       "Stay informed about upcoming AI IPOs and their potential impact on public market valuations."
     ],
     "investment_thesis": "Invest in anthropocentric AI companies that are outpacing traditional tech giants in revenue growth, and focus on sectors with low AI adoption for significant growth potential.",
-    "key_tickers": null
-  },
-  {
-    "id": 246,
-    "podcast_name": "Macro Voices",
-    "episode_title": "MacroVoices #534 Dr. Pippa Malmgren: Superpower War or Superpower Hug?",
-    "episode_date": "2026-05-28",
-    "summary": "The podcast discusses the geopolitical tensions between the U.S. and Iran, focusing on the impact of the Strait of Hormuz closure on global oil supply and prices. It also covers the nuclear stalemate between Iran and the U.S., the potential for oil prices to reach $150-$200, the pressure on the gold market, the bounce in uranium stocks, and the implications for the 10-year Treasury yield. The discussion provides actionable insights for investors in commodities and global markets.",
-    "key_takeaways": [
-      "The Strait of Hormuz remains effectively closed, impacting global oil supply and potentially driving oil prices to $150-$200 if the situation persists.",
-      "Iran's possession of 441 kilograms of 60% enriched uranium complicates negotiations and adds to geopolitical tensions.",
-      "The U.S. dollar is expected to strengthen if the Iran conflict escalates, which could further push oil prices higher.",
-      "The gold market is under pressure, with a potential retest of the $4,100 low if the oil crisis continues without resolution.",
-      "Uranium stocks are showing signs of a bounce but remain vulnerable to broader market movements.",
-      "The 10-year Treasury yield is under pressure, but unresolved geopolitical tensions could lead to a rise in yields."
-    ],
-    "investment_thesis": "Investors should closely monitor geopolitical developments in the Iran conflict, as they could significantly impact oil prices and market sentiment, and consider hedging strategies against rising oil prices.",
     "key_tickers": null
   }
 ]

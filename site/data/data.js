@@ -3,74 +3,74 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-02T12:07:00.880732",
-  chartsVersion: "2026-06-02T12:06:53.248202",
+  generatedAt: "2026-06-02T13:40:38.448119",
+  chartsVersion: "2026-06-02T13:40:31.953481",
   priceSnapshot: {
   "GOOGL": {
-    "price": 367.87,
-    "change_pct": -8.63,
+    "price": 364.91,
+    "change_pct": -9.37,
     "name": "GOOGL",
-    "updated_at": "2026-06-02T12:06:53.247073"
+    "updated_at": "2026-06-02T13:40:31.952558"
   },
   "BTC": {
-    "price": 67439.06,
-    "change_pct": -12.93,
+    "price": 67098.47,
+    "change_pct": -13.37,
     "name": "BTC",
-    "updated_at": "2026-06-02T12:06:53.247096"
+    "updated_at": "2026-06-02T13:40:31.952578"
   },
   "NVDA": {
-    "price": 225.24,
-    "change_pct": -0.26,
+    "price": 221.94,
+    "change_pct": -1.72,
     "name": "NVDA",
-    "updated_at": "2026-06-02T12:06:53.247106"
+    "updated_at": "2026-06-02T13:40:31.952587"
   },
   "MSFT": {
-    "price": 444.36,
-    "change_pct": 9.9,
+    "price": 442.32,
+    "change_pct": 9.39,
     "name": "MSFT",
-    "updated_at": "2026-06-02T12:06:53.247115"
+    "updated_at": "2026-06-02T13:40:31.952595"
   },
   "WTI": {
-    "price": 4.05,
-    "change_pct": -7.75,
+    "price": 4.04,
+    "change_pct": -7.98,
     "name": "WTI",
-    "updated_at": "2026-06-02T12:06:53.247124"
+    "updated_at": "2026-06-02T13:40:31.952602"
   },
   "S&P 500": {
-    "price": 759.81,
-    "change_pct": 2.36,
+    "price": 758.66,
+    "change_pct": 2.2,
     "name": "S&P 500",
-    "updated_at": "2026-06-02T12:06:53.247133"
+    "updated_at": "2026-06-02T13:40:31.952609"
   },
   "META": {
-    "price": 605.59,
-    "change_pct": -1.79,
+    "price": 603.55,
+    "change_pct": -2.12,
     "name": "META",
-    "updated_at": "2026-06-02T12:06:53.247142"
+    "updated_at": "2026-06-02T13:40:31.952617"
   },
   "AMZN": {
-    "price": 258.82,
-    "change_pct": -4.19,
+    "price": 258.06,
+    "change_pct": -4.47,
     "name": "AMZN",
-    "updated_at": "2026-06-02T12:06:53.247151"
+    "updated_at": "2026-06-02T13:40:31.952624"
   },
   "TSLA": {
-    "price": 422.08,
-    "change_pct": -5.21,
+    "price": 421.91,
+    "change_pct": -5.25,
     "name": "TSLA",
-    "updated_at": "2026-06-02T12:06:53.247159"
+    "updated_at": "2026-06-02T13:40:31.952631"
   },
   "QQQ": {
-    "price": 745.81,
-    "change_pct": 4.35,
+    "price": 743.64,
+    "change_pct": 4.05,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-02T12:06:53.247167"
+    "updated_at": "2026-06-02T13:40:31.952638"
   },
   "BTC-USD": {
-    "price": 67436.84,
-    "change_pct": -12.94,
+    "price": 67093.2,
+    "change_pct": -13.38,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-02T12:06:53.247175"
+    "updated_at": "2026-06-02T13:40:31.952646"
   }
 },
   tickerScores: [
@@ -847,6 +847,29 @@ const dashboardData = {
       "podcast_episode_id": 253
     },
     {
+      "id": 269,
+      "title": "OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-02",
+      "summary": "In this episode, the panel discusses OpenAI's massive fundraising efforts, the implications of compute scarcity, and the strategic importance of balancing consumer and enterprise offerings in the AI sector. They also delve into the economic model of AI compute, the shift from capex to opex models, and the potential for ad-based revenue streams. The conversation highlights the competitive advantage of leveraging user data for personalization and the integration of memory and context in AI models to drive enterprise value.",
+      "key_takeaway": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 254
+    },
+    {
       "id": 266,
       "title": "Building AI Agents for Enterprise Operations",
       "source_type": "podcast",
@@ -1007,7 +1030,7 @@ const dashboardData = {
         "TLT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-28",
       "archived_date": null,
@@ -5844,22 +5867,22 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 217,
-      "term": "AI Investment Surge",
-      "description": "A significant increase in investments in artificial intelligence, driving a large portion of U.S. GDP growth.",
+      "id": 218,
+      "term": "AI Infrastructure Layer",
+      "description": "A foundational platform that supports multiple AI applications and interfaces, enabling scalability and accessibility.",
       "first_detected_date": "2026-06-02",
       "last_mentioned_date": "2026-06-02",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should be cautious about the sustainability of AI investments and the potential for a market correction.",
+      "investment_implications": "Invest in companies building robust AI infrastructure layers to capture a wide range of market opportunities.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 253,
-      "first_detected_speaker": "Jack Mallers (hosts)",
-      "last_mentioned_episode_id": 253,
-      "last_mentioned_speaker": "Jack Mallers (hosts)"
+      "first_detected_episode_id": 254,
+      "first_detected_speaker": "Sarah Fryer",
+      "last_mentioned_episode_id": 254,
+      "last_mentioned_speaker": "Sarah Fryer"
     },
     {
       "id": 194,
@@ -8610,6 +8633,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 269,
+      "title": "OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-02",
+      "summary": "In this episode, the panel discusses OpenAI's massive fundraising efforts, the implications of compute scarcity, and the strategic importance of balancing consumer and enterprise offerings in the AI sector. They also delve into the economic model of AI compute, the shift from capex to opex models, and the potential for ad-based revenue streams. The conversation highlights the competitive advantage of leveraging user data for personalization and the integration of memory and context in AI models to drive enterprise value.",
+      "key_takeaway": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"NVDA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 254,
+      "episode_release_date": "2026-06-02",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 266,
       "title": "Building AI Agents for Enterprise Operations",
       "source_type": "podcast",
@@ -8726,26 +8769,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 248,
       "episode_release_date": "2026-05-29",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 261,
-      "title": "MacroVoices #534 Dr. Pippa Malmgren: Superpower War or Superpower Hug?",
-      "source_type": "podcast",
-      "source_name": "Macro Voices",
-      "source_date": "2026-05-28",
-      "summary": "The podcast discusses the geopolitical tensions between the U.S. and Iran, focusing on the impact of the Strait of Hormuz closure on global oil supply and prices. It also covers the nuclear stalemate between Iran and the U.S., the potential for oil prices to reach $150-$200, the pressure on the gold market, the bounce in uranium stocks, and the implications for the 10-year Treasury yield. The discussion provides actionable insights for investors in commodities and global markets.",
-      "key_takeaway": "Investors should closely monitor geopolitical developments in the Iran conflict, as they could significantly impact oil prices and market sentiment, and consider hedging strategies against rising oil prices.",
-      "tickers_mentioned": "[\"AAPL\", \"XOM\", \"GLD\", \"CCJ\", \"TLT\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-28",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 246,
-      "episode_release_date": "2026-05-28",
       "guest_name": null,
       "key_tickers": []
     }
@@ -8874,29 +8897,29 @@ const dashboardData = {
   ],
   "overton": [
     {
-      "id": 217,
-      "term": "AI Investment Surge",
-      "description": "A significant increase in investments in artificial intelligence, driving a large portion of U.S. GDP growth.",
+      "id": 218,
+      "term": "AI Infrastructure Layer",
+      "description": "A foundational platform that supports multiple AI applications and interfaces, enabling scalability and accessibility.",
       "first_detected_date": "2026-06-02",
       "last_mentioned_date": "2026-06-02",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should be cautious about the sustainability of AI investments and the potential for a market correction.",
+      "investment_implications": "Invest in companies building robust AI infrastructure layers to capture a wide range of market opportunities.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 253,
-      "first_detected_speaker": "Jack Mallers (hosts)",
-      "last_mentioned_episode_id": 253,
-      "last_mentioned_speaker": "Jack Mallers (hosts)",
+      "first_detected_episode_id": 254,
+      "first_detected_speaker": "Sarah Fryer",
+      "last_mentioned_episode_id": 254,
+      "last_mentioned_speaker": "Sarah Fryer",
       "overton_score": 1.0,
       "resonance_pct": 25,
-      "first_detected_podcast": "The Jack Mallers Show",
-      "first_detected_episode_title": "Real Boom? Fake Money?",
+      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "first_detected_episode_title": "OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
       "first_detected_episode_date": "2026-06-02",
-      "last_mentioned_podcast": "The Jack Mallers Show",
-      "last_mentioned_episode_title": "Real Boom? Fake Money?",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
       "last_mentioned_episode_date": "2026-06-02"
     },
     {
@@ -25277,12 +25300,83 @@ const dashboardData = {
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-06-02",
     "key_tickers": []
+  },
+  "269": {
+    "id": 259,
+    "insight_id": 269,
+    "podcast_episode_id": 254,
+    "overview": "The unresolved tension in the AI sector revolves around the balance between securing scarce compute resources and leveraging user data for personalization to drive enterprise value. The competitive dynamic is further complicated by the shift from capex to opex models, which could redefine how companies finance their operations. The allocator-relevant implication is that companies adept at navigating these challenges will gain a significant edge, while those that fail to adapt may struggle to remain competitive. The metric that arbitrates this uncertainty is the ability to scale AI compute infrastructure efficiently and effectively, with the horizon of proof being the next few years as the market continues to evolve.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor OpenAI's partnerships and acquisitions in the data center space to assess their ability to secure and scale compute resources.",
+      "The transition to an opex model could offer a competitive advantage in terms of financial flexibility; however, it also requires a robust operational infrastructure to manage.",
+      "The integration of memory and context in AI models is not just a technical feature but a strategic differentiator that can significantly impact customer retention and satisfaction.",
+      "The potential for ad-based revenue streams, while maintaining user experience, could provide a new dimension to the monetization of AI platforms.",
+      "Investors should be alert to the rapid advancements in AI model efficiency, as significant cost reductions could disrupt the current cost structures of AI operations."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that companies with strong fundraising capabilities, access to scarce compute resources, and a balanced approach to consumer and enterprise offerings will outperform in the AI sector. This thesis is predicated on the ability of these companies to leverage user data for personalization and integrate memory and context into their AI models, thereby enhancing enterprise value. The timeframe for this thesis is the next 3-5 years, with vindication coming in the form of sustained growth in AI compute infrastructure, successful implementation of opex models, and the development of effective ad-based revenue streams.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI and machine learning, along with its vast consumer base, positions it to benefit from the trends discussed, particularly in personalization and consumer AI offerings.",
+        "positioning": "Strategic long position, as Apple's ecosystem can leverage AI advancements to enhance user experience and drive enterprise value.",
+        "risk": "Key risks include failure to innovate in the AI space and increased competition from other tech giants, which could erode Apple's market share and profitability."
+      },
+      "GOOGL": {
+        "rationale": "Google's deep expertise in AI and its cloud computing services make it a key player in the AI sector, with potential to benefit from the shift to opex models and the need for scalable compute resources.",
+        "positioning": "Tactical long position, as Google can capitalize on the growing demand for AI compute and cloud services, but with an eye on regulatory risks.",
+        "risk": "Regulatory challenges and increased competition in cloud services could hinder Google's ability to monetize its AI capabilities effectively."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's broad portfolio, including Azure and its AI initiatives, aligns with the trends of securing compute resources and balancing consumer and enterprise offerings.",
+        "positioning": "Strategic long position, given Microsoft's potential to leverage its cloud services and AI technologies to drive growth across both segments.",
+        "risk": "The risk lies in Microsoft's ability to compete effectively in the rapidly evolving AI space and to maintain its market position against aggressive competitors."
+      },
+      "AMZN": {
+        "rationale": "Amazon, with its AWS cloud platform, is well-positioned to capitalize on the demand for AI compute, especially as companies shift towards opex models.",
+        "positioning": "Strategic long position, as Amazon can benefit from the growing need for cloud services and AI infrastructure, but with consideration of the competitive landscape.",
+        "risk": "The risk is the potential for market saturation in cloud services and the emergence of new competitors that could disrupt Amazon's dominance."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's leadership in GPU technology is crucial for AI compute, positioning the company to benefit from the growing demand for AI infrastructure.",
+        "positioning": "Strategic long position, as Nvidia's technology is fundamental to the development and deployment of AI models, with a focus on technological advancements.",
+        "risk": "The risk includes the potential for technological disruption and increased competition in the GPU market, which could affect Nvidia's profitability and growth."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The AI sector may become oversaturated, leading to a decrease in the value of AI compute and a shift in market dynamics.",
+      "There could be a regulatory backlash against data usage for personalization, impacting the competitive advantage of companies like OpenAI.",
+      "A potential economic downturn could reduce the capital available for investment in AI infrastructure, affecting the sector's growth prospects."
+    ],
+    "catalysts": [
+      "Announcements of new partnerships or acquisitions in the data center space by AI companies.",
+      "Release of new AI models or technologies that significantly improve efficiency or capabilities.",
+      "Regulatory rulings that impact data usage and privacy, potentially affecting the AI sector's operations.",
+      "Economic indicators that signal a shift in market sentiment towards or away from tech and AI investments.",
+      "Quarterly earnings reports from major AI and cloud service providers that could indicate trends in the sector's financial health."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-02T13:39:41.259873",
+    "updated_at": "2026-06-02 18:39:41",
+    "episode_evidence": "OpenAI's fundraising efforts, highlighted by the staggering $120 billion, underscore the company's ambition to dominate the AI sector. 'We think AI is the biggest era that we've seen today... you've got to grab it,' Sarah Fryer emphasized, indicating the strategic importance of capitalizing on the current AI boom. The compute scarcity issue was palpable, with Fryer noting, 'Compute is a very scarce resource at the moment... in 2026 we still won't have enough compute,' which suggests that securing access to compute resources is a critical differentiator in the AI market. OpenAI's economic model, where 'One gigawatt equals about $10 billion a year of revenue to OpenAI,' as stated by Fryer, reveals the massive revenue potential of scaling AI compute infrastructure. This model also implies a significant shift from capex to opex, as OpenAI partners with CSPs to manage costs more flexibly, 'CSPs do for us... they shift capex into opx,' Fryer explained. The integration of memory and context into AI models was also highlighted as a key differentiator, 'That makes the model more powerful for me,' indicating the potential for enhanced personalization and decision-making capabilities.",
+    "falsification_tracks": [
+      "If OpenAI fails to secure partnerships for additional compute resources, the thesis of their strategic advantage is weakened.",
+      "Should the projected revenue from AI compute not materialize, potentially due to technological stagnation or market saturation, the economic model's validity would be questioned.",
+      "A significant downturn in the AI market, reflected in reduced investment and lower valuations of AI companies, would challenge the current bullish narrative on AI's financial potential."
+    ],
+    "insight_title": "OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-06-02",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 11237,
+    "id": 11295,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -25294,7 +25388,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11238,
+    "id": 11296,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -25306,7 +25400,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11239,
+    "id": 11297,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -25318,7 +25412,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11240,
+    "id": 11298,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -25330,7 +25424,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11241,
+    "id": 11299,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -25342,7 +25436,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11242,
+    "id": 11300,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -25354,7 +25448,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11243,
+    "id": 11301,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -25366,7 +25460,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11244,
+    "id": 11302,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -25378,7 +25472,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11245,
+    "id": 11303,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -25390,7 +25484,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11246,
+    "id": 11304,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -25402,7 +25496,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 11247,
+    "id": 11305,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -25414,7 +25508,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11248,
+    "id": 11306,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -25426,7 +25520,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11249,
+    "id": 11307,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -25438,7 +25532,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11250,
+    "id": 11308,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -25450,7 +25544,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11251,
+    "id": 11309,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -25462,7 +25556,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11252,
+    "id": 11310,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -25474,7 +25568,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11253,
+    "id": 11311,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -25486,7 +25580,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11254,
+    "id": 11312,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -25498,7 +25592,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11255,
+    "id": 11313,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -25510,7 +25604,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11256,
+    "id": 11314,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -25665,7 +25759,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-26",
     "mention_score": 3,
-    "mention_score_decayed": 2.61,
+    "mention_score_decayed": 2.55,
     "last_main_idea": "Invest in companies that are actively transitioning to AI-native organizations to capitalize on the potential for increased operational efficiency and reduced workforce costs.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-26 \u2022 The Organizational Singularity: AI-Proof Your Company | EP #258",
     "last_proof_snippet": "Is there a line year business, a high margin line year of your business that two guys with open claw could replicate in 60 to 90 days? This is something across the board useful for everyone. When we wrote the exponential organizations book,",
@@ -25794,7 +25888,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.91,
+    "mention_score_decayed": 1.87,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -25982,7 +26076,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.12,
+    "mention_score_decayed": 1.1,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -26588,6 +26682,66 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 268,
+    "name": "Sarah Fryer",
+    "slug": "sarah-fryer",
+    "bio": "Sarah Fryer is a prominent figure in the AI industry, known for her role as CFO at OpenAI. She has been instrumental in shaping the company's strategy and operations, contributing to its success in fund-raising and global impact. Fryer's expertise in AI infrastructure and economic models has positioned her as a key thought leader in the field.",
+    "known_for": "Her pivotal role in guiding OpenAI's financial strategy and her insights into the implications of AI on global productivity and economic models.",
+    "net_worth_usd": 265000000.0,
+    "net_worth_source": "https://bionewsly.com/sarah-friar/",
+    "net_worth_updated_at": "2026-06-02T13:39:07.640116",
+    "voice_tone": "Confident and informative",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Clear and concise, with emphasis on key financial figures",
+    "voice_profile_updated_at": "2026-06-02 18:38:57",
+    "last_seen": "2026-06-02 18:38:57",
+    "last_episode_title": "OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-06-02",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-02 \u2022 OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
+    "last_proof_snippet": "Open AI's CFO, Sarah Fryer. We've got to get right to it. You have just completed what I would find as the most successful fund-raising rail in history. We're going to raise actually north of $120 billion. We think AI is the biggest era tha",
+    "supporting_takeaway": "Compute scarcity is projected to last through 2026, emphasizing the importance of strategic investments in data centers and cloud partnerships.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-02T13:39:06.614514",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sarah Fryer",
+      "fetched_at": "2026-06-02T18:39:06.614035+00:00",
+      "cliff_notes": "Sarah Fryer has made a significant impact in the field of artificial intelligence, particularly in her capacity as the CFO of OpenAI. Her expertise lies in AI infrastructure and economic models, which has been crucial in understanding and leveraging AI's potential for global productivity and economic growth. Fryer's leadership at OpenAI has been marked by a successful fund-raising campaign, raising over $120 billion, which underscores her ability to navigate the complex financial landscape of the AI industry. Her contributions to the strategic direction of OpenAI and her insights into the broader implications of AI on society and the economy have positioned her as a key figure in the tech and finance sectors.",
+      "derived": {
+        "current_role": "CFO at OpenAI"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Sarah Fryer has made a significant impact in the field of artificial intelligence, particularly in her capacity as the CFO of OpenAI. Her expertise lies in AI infrastructure and economic models, which has been crucial in understanding and leveraging AI's potential for global productivity and economic growth. Fryer's leadership at OpenAI has been marked by a successful fund-raising campaign, raising over $120 billion, which underscores her ability to navigate the complex financial landscape of the AI industry.",
+        "Her contributions to the strategic direction of OpenAI and her insights into the broader implications of AI on society and the economy have positioned her as a key figure in the tech and finance sectors."
+      ],
+      "sections": [
+        {
+          "heading": "AI Fund-Raising",
+          "body": "Sarah Fryer played a central role in what is considered one of the most successful fund-raising efforts in history, raising over $120 billion for OpenAI, highlighting her financial acumen and the significance of AI in the current tech landscape."
+        },
+        {
+          "heading": "Economic Models and AI",
+          "body": "Fryer's understanding of economic models in the context of AI has been pivotal in shaping discussions around how AI can influence global productivity and potentially lead to increased affluence and improved living standards."
+        },
+        {
+          "heading": "Strategic Insights",
+          "body": "As a key figure at OpenAI, Sarah Fryer provides strategic insights into the company's operations and the broader implications of AI, contributing to the discourse on the technology's impact on society and the economy."
+        }
+      ]
+    },
+    "net_worth": "$265.0M"
+  },
+  {
     "id": 267,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
@@ -26849,7 +27003,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -27159,7 +27313,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -27223,7 +27377,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -27286,7 +27440,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -28158,7 +28312,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -28348,7 +28502,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -28411,7 +28565,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -28599,7 +28753,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -34484,7 +34638,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -34511,7 +34665,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",

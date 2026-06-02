@@ -20,6 +20,29 @@
       "podcast_episode_id": 253
     },
     {
+      "id": 269,
+      "title": "OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-02",
+      "summary": "In this episode, the panel discusses OpenAI's massive fundraising efforts, the implications of compute scarcity, and the strategic importance of balancing consumer and enterprise offerings in the AI sector. They also delve into the economic model of AI compute, the shift from capex to opex models, and the potential for ad-based revenue streams. The conversation highlights the competitive advantage of leveraging user data for personalization and the integration of memory and context in AI models to drive enterprise value.",
+      "key_takeaway": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 254
+    },
+    {
       "id": 266,
       "title": "Building AI Agents for Enterprise Operations",
       "source_type": "podcast",
@@ -180,7 +203,7 @@
         "TLT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-28",
       "archived_date": null,
@@ -5017,22 +5040,22 @@
   "definitions": [],
   "overton": [
     {
-      "id": 217,
-      "term": "AI Investment Surge",
-      "description": "A significant increase in investments in artificial intelligence, driving a large portion of U.S. GDP growth.",
+      "id": 218,
+      "term": "AI Infrastructure Layer",
+      "description": "A foundational platform that supports multiple AI applications and interfaces, enabling scalability and accessibility.",
       "first_detected_date": "2026-06-02",
       "last_mentioned_date": "2026-06-02",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should be cautious about the sustainability of AI investments and the potential for a market correction.",
+      "investment_implications": "Invest in companies building robust AI infrastructure layers to capture a wide range of market opportunities.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 253,
-      "first_detected_speaker": "Jack Mallers (hosts)",
-      "last_mentioned_episode_id": 253,
-      "last_mentioned_speaker": "Jack Mallers (hosts)"
+      "first_detected_episode_id": 254,
+      "first_detected_speaker": "Sarah Fryer",
+      "last_mentioned_episode_id": 254,
+      "last_mentioned_speaker": "Sarah Fryer"
     },
     {
       "id": 194,
