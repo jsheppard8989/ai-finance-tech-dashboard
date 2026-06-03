@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-02T22:04:05.491629",
-  chartsVersion: "2026-06-02T22:03:59.988466",
+  generatedAt: "2026-06-02T23:37:30.564712",
+  chartsVersion: "2026-06-02T23:37:23.637694",
   priceSnapshot: {
   "GOOGL": {
     "price": 361.85,
     "change_pct": -10.13,
     "name": "GOOGL",
-    "updated_at": "2026-06-02T22:03:59.987717"
+    "updated_at": "2026-06-02T23:37:23.636862"
   },
   "BTC": {
-    "price": 66510.81,
-    "change_pct": -14.22,
+    "price": 66270.69,
+    "change_pct": -14.53,
     "name": "BTC",
-    "updated_at": "2026-06-02T22:03:59.987734"
+    "updated_at": "2026-06-02T23:37:23.636879"
   },
   "NVDA": {
     "price": 222.82,
     "change_pct": -1.33,
     "name": "NVDA",
-    "updated_at": "2026-06-02T22:03:59.987741"
+    "updated_at": "2026-06-02T23:37:23.636886"
   },
   "MSFT": {
     "price": 441.31,
     "change_pct": 9.14,
     "name": "MSFT",
-    "updated_at": "2026-06-02T22:03:59.987747"
+    "updated_at": "2026-06-02T23:37:23.636892"
   },
   "WTI": {
     "price": 4.02,
     "change_pct": -8.43,
     "name": "WTI",
-    "updated_at": "2026-06-02T22:03:59.987752"
+    "updated_at": "2026-06-02T23:37:23.636897"
   },
   "S&P 500": {
     "price": 759.57,
     "change_pct": 2.33,
     "name": "S&P 500",
-    "updated_at": "2026-06-02T22:03:59.987758"
+    "updated_at": "2026-06-02T23:37:23.636903"
   },
   "META": {
     "price": 597.63,
     "change_pct": -3.08,
     "name": "META",
-    "updated_at": "2026-06-02T22:03:59.987764"
+    "updated_at": "2026-06-02T23:37:23.636909"
   },
   "AMZN": {
     "price": 256.52,
     "change_pct": -5.04,
     "name": "AMZN",
-    "updated_at": "2026-06-02T22:03:59.987769"
+    "updated_at": "2026-06-02T23:37:23.636914"
   },
   "TSLA": {
     "price": 423.74,
     "change_pct": -4.84,
     "name": "TSLA",
-    "updated_at": "2026-06-02T22:03:59.987774"
+    "updated_at": "2026-06-02T23:37:23.636919"
   },
   "AAPL": {
     "price": 315.2,
     "change_pct": 5.46,
     "name": "AAPL",
-    "updated_at": "2026-06-02T22:03:59.987779"
+    "updated_at": "2026-06-02T23:37:23.636924"
   },
   "QQQ": {
     "price": 746.16,
     "change_pct": 4.4,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-02T22:03:59.987784"
+    "updated_at": "2026-06-02T23:37:23.636929"
   },
   "BTC-USD": {
-    "price": 66510.81,
-    "change_pct": -14.22,
+    "price": 66270.69,
+    "change_pct": -14.53,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-02T22:03:59.987791"
+    "updated_at": "2026-06-02T23:37:23.636936"
   }
 },
   tickerScores: [
@@ -25485,7 +25485,7 @@ const dashboardData = {
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 11353,
+    "id": 11411,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -25497,7 +25497,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11354,
+    "id": 11412,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -25509,7 +25509,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11355,
+    "id": 11413,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -25521,7 +25521,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11356,
+    "id": 11414,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -25533,7 +25533,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11357,
+    "id": 11415,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -25545,7 +25545,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11358,
+    "id": 11416,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -25557,7 +25557,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11359,
+    "id": 11417,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -25569,7 +25569,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11360,
+    "id": 11418,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -25581,7 +25581,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11361,
+    "id": 11419,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -25593,7 +25593,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11362,
+    "id": 11420,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -25605,7 +25605,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 11363,
+    "id": 11421,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -25617,7 +25617,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11364,
+    "id": 11422,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -25629,7 +25629,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11365,
+    "id": 11423,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -25641,7 +25641,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11366,
+    "id": 11424,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -25653,7 +25653,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11367,
+    "id": 11425,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -25665,7 +25665,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11368,
+    "id": 11426,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -25677,7 +25677,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11369,
+    "id": 11427,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -25689,7 +25689,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11370,
+    "id": 11428,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -25701,7 +25701,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11371,
+    "id": 11429,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -25713,7 +25713,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11372,
+    "id": 11430,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -26934,7 +26934,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investors should consider the dual impact of AI on job creation and displacement, focusing on companies that are AI-enabled and those that support open-source AI solutions to foster a competitive and innovative market.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-29 \u2022 Pope vs AI, Anthropic's Digital God, AI Job Loss Narrative Flips, Open Source Crackdown Coming?",
     "last_proof_snippet": "Okay, we are gathered here today in Holy Unity, brothers and sisters, to convene and discuss on this most holy day, the day, the all-in podcast drops. Many topics, AI data centers, China, justice, human dignity, Dario on winding these SPVs",
@@ -30181,7 +30181,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -30561,7 +30561,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
     "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
@@ -30689,7 +30689,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -30878,7 +30878,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-15 \u2022 Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
     "last_proof_snippet": "The company's revenue grew from $2.5 million to $250 million in just over a year, demonstrating the potential of AI in software development.",
@@ -30942,7 +30942,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-14 \u2022 \"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
     "last_proof_snippet": "Investing with a long-term perspective involves considering macroeconomic factors and their impact on smaller companies.",
@@ -31759,7 +31759,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
     "last_proof_snippet": "AI is a shortcut that can be beneficial but also presents challenges in debugging and understanding.",
@@ -34229,7 +34229,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-18 \u2022 Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
     "last_proof_snippet": "Fetterman has a unique perspective, being popular among Republicans while maintaining his Democratic affiliation.",

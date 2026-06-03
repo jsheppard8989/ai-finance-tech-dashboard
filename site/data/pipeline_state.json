@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-02T22:04:02.290060",
-  "last_updated": "2026-06-02T22:04:02.290060",
-  "last_pipeline_run": "2026-06-02T22:04:02.290060",
+  "generated_at": "2026-06-02T23:37:25.639371",
+  "last_updated": "2026-06-02T23:37:25.639371",
+  "last_pipeline_run": "2026-06-02T23:37:25.639371",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -20,33 +20,14 @@
     "podcasts_analyzed": 3
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "fc07d92d-1c17-43d4-b106-f2dfc460e3b9",
-      "podcast": "The a16z Show",
-      "title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
-      "published": "2026-06-02",
-      "rss_guid": "fc07d92d-1c17-43d4-b106-f2dfc460e3b9",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
