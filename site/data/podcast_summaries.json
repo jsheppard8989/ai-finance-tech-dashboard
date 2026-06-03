@@ -1,5 +1,26 @@
 [
   {
+    "id": 257,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
+    "episode_date": "2026-06-03",
+    "summary": "In this podcast, Bill Ackman discusses his investment philosophy, emphasizing a shift towards long-term, durable business quality and understanding risk and disruption. Ackman identifies undervalued companies like Microsoft, Meta, and Amazon, and stresses the importance of founder-led companies. He also highlights the impact of social media on market dynamics and the potential for significant returns in venture investments, particularly in AI.",
+    "key_takeaways": [
+      "Invest in businesses with durable, non-disruptible growth for stable returns.",
+      "Assess the vulnerability of portfolio companies to new entrants and technological advancements.",
+      "Consider undervalued legacy companies with strong fundamentals and growth prospects.",
+      "Favor founder-led companies for their ability to navigate challenges and drive innovation.",
+      "Explore strategies that focus on long-term compounding rather than short-term gains.",
+      "Stay informed about social media trends and their potential impact on market dynamics."
+    ],
+    "investment_thesis": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
+    "key_tickers": [
+      "MSFT",
+      "META",
+      "AMZN"
+    ]
+  },
+  {
     "id": 256,
     "podcast_name": "The a16z Show",
     "episode_title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
@@ -118,23 +139,6 @@
       "Increase exposure to commodities, especially agricultural, to capitalize on rising prices."
     ],
     "investment_thesis": "In a market with changing dynamics, seek alternative diversifiers and inflation hedges while being cautious of overvalued markets and optimistic earnings forecasts.",
-    "key_tickers": null
-  },
-  {
-    "id": 249,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
-    "episode_date": "2026-05-30",
-    "summary": "This episode of Moonshots with Peter Diamandis discusses the latest trends in AI, space exploration, and entrepreneurship. Key themes include the Vatican's stance on AI personhood, shifting perspectives on job displacement, advancements in AI coding, regulatory pushback, the rise of solo founders, SpaceX's innovation, and the potential merger of Tesla and SpaceX.",
-    "key_takeaways": [
-      "Monitor Vatican's stance on AI for potential policy implications.",
-      "Reassess AI investment strategies based on evolving job market narratives.",
-      "Explore AI coding tools for software development efficiency.",
-      "Investigate opportunities in the rise of solo AI founders.",
-      "Consider SpaceX's iterative innovation model for tech investments.",
-      "Evaluate the market impact of a potential Tesla-SpaceX merger."
-    ],
-    "investment_thesis": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "key_tickers": null
   }
 ]

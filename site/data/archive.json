@@ -24,6 +24,27 @@
       "podcast_episode_id": 256
     },
     {
+      "id": 272,
+      "title": "Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-03",
+      "summary": "In this podcast, Bill Ackman discusses his investment philosophy, emphasizing a shift towards long-term, durable business quality and understanding risk and disruption. Ackman identifies undervalued companies like Microsoft, Meta, and Amazon, and stresses the importance of founder-led companies. He also highlights the impact of social media on market dynamics and the potential for significant returns in venture investments, particularly in AI.",
+      "key_takeaway": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
+      "tickers_mentioned": [
+        "MSFT",
+        "META",
+        "AMZN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 257
+    },
+    {
       "id": 268,
       "title": "Real Boom? Fake Money?",
       "source_type": "podcast",
@@ -161,7 +182,7 @@
         "SPCE"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-30",
       "archived_date": null,
@@ -5084,40 +5105,22 @@
   "definitions": [],
   "overton": [
     {
-      "id": 221,
-      "term": "Internet First Ideology",
-      "description": "A political and technological perspective that prioritizes digital networks and global connectivity over traditional nationalism and socialism.",
+      "id": 223,
+      "term": "Founder-Led Companies",
+      "description": "Companies led by their founders, who often have a vested interest and decision-making authority.",
       "first_detected_date": "2026-06-03",
       "last_mentioned_date": "2026-06-03",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should look for companies that leverage digital infrastructure and global connectivity as a core part of their business model.",
+      "investment_implications": "Favor investments in founder-led companies for their ability to navigate challenges and drive innovation.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 256,
-      "first_detected_speaker": "a16z Host (hosts)",
-      "last_mentioned_episode_id": 256,
-      "last_mentioned_speaker": "a16z Host (hosts)"
-    },
-    {
-      "id": 222,
-      "term": "Decentralization of Tech Communities",
-      "description": "The shift away from Silicon Valley as the central hub for tech innovation towards a more globally distributed model.",
-      "first_detected_date": "2026-06-03",
-      "last_mentioned_date": "2026-06-03",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should explore tech ecosystems emerging in regions outside traditional tech hubs for new investment opportunities.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 256,
-      "first_detected_speaker": "a16z Host (hosts)",
-      "last_mentioned_episode_id": 256,
-      "last_mentioned_speaker": "a16z Host (hosts)"
+      "first_detected_episode_id": 257,
+      "first_detected_speaker": "Bill Ackman",
+      "last_mentioned_episode_id": 257,
+      "last_mentioned_speaker": "Bill Ackman"
     },
     {
       "id": 219,

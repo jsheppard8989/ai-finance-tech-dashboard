@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-03T12:08:11.030984",
-  chartsVersion: "2026-06-03T12:07:49.675366",
+  generatedAt: "2026-06-03T13:41:51.811842",
+  chartsVersion: "2026-06-03T13:41:36.470299",
   priceSnapshot: {
   "GOOGL": {
-    "price": 360.7,
-    "change_pct": -10.07,
+    "price": 360.08,
+    "change_pct": -10.22,
     "name": "GOOGL",
-    "updated_at": "2026-06-03T12:07:49.674071"
+    "updated_at": "2026-06-03T13:41:36.469520"
   },
   "BTC": {
-    "price": 65711.08,
-    "change_pct": -15.25,
+    "price": 65947.93,
+    "change_pct": -14.95,
     "name": "BTC",
-    "updated_at": "2026-06-03T12:07:49.674091"
-  },
-  "NVDA": {
-    "price": 215.66,
-    "change_pct": -8.52,
-    "name": "NVDA",
-    "updated_at": "2026-06-03T12:07:49.674099"
+    "updated_at": "2026-06-03T13:41:36.469538"
   },
   "MSFT": {
-    "price": 424.79,
-    "change_pct": 3.98,
+    "price": 428.4,
+    "change_pct": 4.86,
     "name": "MSFT",
-    "updated_at": "2026-06-03T12:07:49.674107"
+    "updated_at": "2026-06-03T13:41:36.469546"
+  },
+  "NVDA": {
+    "price": 215.74,
+    "change_pct": -8.48,
+    "name": "NVDA",
+    "updated_at": "2026-06-03T13:41:36.469552"
   },
   "WTI": {
-    "price": 4.18,
-    "change_pct": -5.74,
+    "price": 4.09,
+    "change_pct": -7.81,
     "name": "WTI",
-    "updated_at": "2026-06-03T12:07:49.674115"
-  },
-  "S&P 500": {
-    "price": 754.72,
-    "change_pct": 0.88,
-    "name": "S&P 500",
-    "updated_at": "2026-06-03T12:07:49.674123"
+    "updated_at": "2026-06-03T13:41:36.469558"
   },
   "META": {
-    "price": 618.14,
-    "change_pct": -0.05,
+    "price": 623.41,
+    "change_pct": 0.81,
     "name": "META",
-    "updated_at": "2026-06-03T12:07:49.674131"
+    "updated_at": "2026-06-03T13:41:36.469564"
   },
   "AMZN": {
-    "price": 248.45,
-    "change_pct": -7.02,
+    "price": 248.66,
+    "change_pct": -6.95,
     "name": "AMZN",
-    "updated_at": "2026-06-03T12:07:49.674138"
+    "updated_at": "2026-06-03T13:41:36.469570"
+  },
+  "S&P 500": {
+    "price": 755.65,
+    "change_pct": 1.0,
+    "name": "S&P 500",
+    "updated_at": "2026-06-03T13:41:36.469576"
   },
   "TSLA": {
-    "price": 421.49,
-    "change_pct": -4.92,
+    "price": 423.85,
+    "change_pct": -4.39,
     "name": "TSLA",
-    "updated_at": "2026-06-03T12:07:49.674146"
+    "updated_at": "2026-06-03T13:41:36.469581"
   },
   "AAPL": {
-    "price": 310.24,
-    "change_pct": 4.04,
+    "price": 309.43,
+    "change_pct": 3.76,
     "name": "AAPL",
-    "updated_at": "2026-06-03T12:07:49.674154"
+    "updated_at": "2026-06-03T13:41:36.469587"
   },
   "QQQ": {
-    "price": 742.65,
-    "change_pct": 3.18,
+    "price": 744.57,
+    "change_pct": 3.44,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-03T12:07:49.674161"
+    "updated_at": "2026-06-03T13:41:36.469592"
   },
   "BTC-USD": {
-    "price": 65720.55,
-    "change_pct": -15.24,
+    "price": 65947.93,
+    "change_pct": -14.95,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-03T12:07:49.674170"
+    "updated_at": "2026-06-03T13:41:36.469599"
   }
 },
   tickerScores: [
@@ -111,30 +111,30 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "NVDA",
-    "total_score": 376.0,
-    "raw_mention_count": 13,
+    "ticker": "MSFT",
+    "total_score": 442.0,
+    "raw_mention_count": 21,
     "unique_sources": 2,
     "podcast_mentions": 5,
-    "newsletter_mentions": 8,
+    "newsletter_mentions": 16,
     "rank": 3,
-    "score": 376.0,
-    "mentions": 13,
+    "score": 442.0,
+    "mentions": 21,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
     "contexts": []
   },
   {
-    "ticker": "MSFT",
-    "total_score": 372.0,
-    "raw_mention_count": 20,
+    "ticker": "NVDA",
+    "total_score": 376.0,
+    "raw_mention_count": 13,
     "unique_sources": 2,
-    "podcast_mentions": 4,
-    "newsletter_mentions": 16,
+    "podcast_mentions": 5,
+    "newsletter_mentions": 8,
     "rank": 4,
-    "score": 372.0,
-    "mentions": 20,
+    "score": 376.0,
+    "mentions": 13,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -156,30 +156,15 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "S&P 500",
-    "total_score": 278.0,
-    "raw_mention_count": 4,
-    "unique_sources": 1,
-    "podcast_mentions": 4,
-    "newsletter_mentions": 0,
-    "rank": 6,
-    "score": 278.0,
-    "mentions": 4,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
     "ticker": "META",
-    "total_score": 237.0,
-    "raw_mention_count": 15,
+    "total_score": 307.0,
+    "raw_mention_count": 16,
     "unique_sources": 2,
-    "podcast_mentions": 3,
+    "podcast_mentions": 4,
     "newsletter_mentions": 12,
-    "rank": 7,
-    "score": 237.0,
-    "mentions": 15,
+    "rank": 6,
+    "score": 307.0,
+    "mentions": 16,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -187,13 +172,28 @@ const dashboardData = {
   },
   {
     "ticker": "AMZN",
-    "total_score": 234.0,
+    "total_score": 304.0,
+    "raw_mention_count": 5,
+    "unique_sources": 1,
+    "podcast_mentions": 5,
+    "newsletter_mentions": 0,
+    "rank": 7,
+    "score": 304.0,
+    "mentions": 5,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
+    "ticker": "S&P 500",
+    "total_score": 278.0,
     "raw_mention_count": 4,
     "unique_sources": 1,
     "podcast_mentions": 4,
     "newsletter_mentions": 0,
     "rank": 8,
-    "score": 234.0,
+    "score": 278.0,
     "mentions": 4,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -857,6 +857,27 @@ const dashboardData = {
       "podcast_episode_id": 256
     },
     {
+      "id": 272,
+      "title": "Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-03",
+      "summary": "In this podcast, Bill Ackman discusses his investment philosophy, emphasizing a shift towards long-term, durable business quality and understanding risk and disruption. Ackman identifies undervalued companies like Microsoft, Meta, and Amazon, and stresses the importance of founder-led companies. He also highlights the impact of social media on market dynamics and the potential for significant returns in venture investments, particularly in AI.",
+      "key_takeaway": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
+      "tickers_mentioned": [
+        "MSFT",
+        "META",
+        "AMZN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 257
+    },
+    {
       "id": 268,
       "title": "Real Boom? Fake Money?",
       "source_type": "podcast",
@@ -994,7 +1015,7 @@ const dashboardData = {
         "SPCE"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-30",
       "archived_date": null,
@@ -5917,40 +5938,22 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 221,
-      "term": "Internet First Ideology",
-      "description": "A political and technological perspective that prioritizes digital networks and global connectivity over traditional nationalism and socialism.",
+      "id": 223,
+      "term": "Founder-Led Companies",
+      "description": "Companies led by their founders, who often have a vested interest and decision-making authority.",
       "first_detected_date": "2026-06-03",
       "last_mentioned_date": "2026-06-03",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should look for companies that leverage digital infrastructure and global connectivity as a core part of their business model.",
+      "investment_implications": "Favor investments in founder-led companies for their ability to navigate challenges and drive innovation.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 256,
-      "first_detected_speaker": "a16z Host (hosts)",
-      "last_mentioned_episode_id": 256,
-      "last_mentioned_speaker": "a16z Host (hosts)"
-    },
-    {
-      "id": 222,
-      "term": "Decentralization of Tech Communities",
-      "description": "The shift away from Silicon Valley as the central hub for tech innovation towards a more globally distributed model.",
-      "first_detected_date": "2026-06-03",
-      "last_mentioned_date": "2026-06-03",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should explore tech ecosystems emerging in regions outside traditional tech hubs for new investment opportunities.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 256,
-      "first_detected_speaker": "a16z Host (hosts)",
-      "last_mentioned_episode_id": 256,
-      "last_mentioned_speaker": "a16z Host (hosts)"
+      "first_detected_episode_id": 257,
+      "first_detected_speaker": "Bill Ackman",
+      "last_mentioned_episode_id": 257,
+      "last_mentioned_speaker": "Bill Ackman"
     },
     {
       "id": 219,
@@ -8737,6 +8740,30 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 272,
+      "title": "Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-03",
+      "summary": "In this podcast, Bill Ackman discusses his investment philosophy, emphasizing a shift towards long-term, durable business quality and understanding risk and disruption. Ackman identifies undervalued companies like Microsoft, Meta, and Amazon, and stresses the importance of founder-led companies. He also highlights the impact of social media on market dynamics and the potential for significant returns in venture investments, particularly in AI.",
+      "key_takeaway": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
+      "tickers_mentioned": "[\"MSFT\", \"META\", \"AMZN\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 257,
+      "episode_release_date": "2026-06-03",
+      "guest_name": "Bill Ackman",
+      "key_tickers": [
+        "MSFT",
+        "META",
+        "AMZN"
+      ]
+    },
+    {
       "id": 268,
       "title": "Real Boom? Fake Money?",
       "source_type": "podcast",
@@ -8858,26 +8885,6 @@ const dashboardData = {
       "podcast_episode_id": 250,
       "episode_release_date": "2026-05-31",
       "guest_name": "Overvaluation Meets Macro Risk",
-      "key_tickers": []
-    },
-    {
-      "id": 264,
-      "title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-05-30",
-      "summary": "This episode of Moonshots with Peter Diamandis discusses the latest trends in AI, space exploration, and entrepreneurship. Key themes include the Vatican's stance on AI personhood, shifting perspectives on job displacement, advancements in AI coding, regulatory pushback, the rise of solo founders, SpaceX's innovation, and the potential merger of Tesla and SpaceX.",
-      "key_takeaway": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"TSLA\", \"SPCE\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-30",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 249,
-      "episode_release_date": "2026-05-30",
-      "guest_name": null,
       "key_tickers": []
     }
   ],
@@ -9005,55 +9012,29 @@ const dashboardData = {
   ],
   "overton": [
     {
-      "id": 221,
-      "term": "Internet First Ideology",
-      "description": "A political and technological perspective that prioritizes digital networks and global connectivity over traditional nationalism and socialism.",
+      "id": 223,
+      "term": "Founder-Led Companies",
+      "description": "Companies led by their founders, who often have a vested interest and decision-making authority.",
       "first_detected_date": "2026-06-03",
       "last_mentioned_date": "2026-06-03",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should look for companies that leverage digital infrastructure and global connectivity as a core part of their business model.",
+      "investment_implications": "Favor investments in founder-led companies for their ability to navigate challenges and drive innovation.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 256,
-      "first_detected_speaker": "a16z Host (hosts)",
-      "last_mentioned_episode_id": 256,
-      "last_mentioned_speaker": "a16z Host (hosts)",
+      "first_detected_episode_id": 257,
+      "first_detected_speaker": "Bill Ackman",
+      "last_mentioned_episode_id": 257,
+      "last_mentioned_speaker": "Bill Ackman",
       "overton_score": 1.0,
       "resonance_pct": 25,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
+      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "first_detected_episode_title": "Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
       "first_detected_episode_date": "2026-06-03",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
-      "last_mentioned_episode_date": "2026-06-03"
-    },
-    {
-      "id": 222,
-      "term": "Decentralization of Tech Communities",
-      "description": "The shift away from Silicon Valley as the central hub for tech innovation towards a more globally distributed model.",
-      "first_detected_date": "2026-06-03",
-      "last_mentioned_date": "2026-06-03",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should explore tech ecosystems emerging in regions outside traditional tech hubs for new investment opportunities.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 256,
-      "first_detected_speaker": "a16z Host (hosts)",
-      "last_mentioned_episode_id": 256,
-      "last_mentioned_speaker": "a16z Host (hosts)",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
-      "first_detected_episode_date": "2026-06-03",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
       "last_mentioned_episode_date": "2026-06-03"
     },
     {
@@ -9340,6 +9321,32 @@ const dashboardData = {
       "first_detected_episode_date": "2026-05-07",
       "last_mentioned_podcast": "Macro Voices",
       "last_mentioned_episode_title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
+      "last_mentioned_episode_date": "2026-05-07"
+    },
+    {
+      "id": 161,
+      "term": "AGI",
+      "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
+      "first_detected_date": "2026-05-07",
+      "last_mentioned_date": "2026-05-07",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 204,
+      "first_detected_speaker": "Demis Hassabis",
+      "last_mentioned_episode_id": 204,
+      "last_mentioned_speaker": "Demis Hassabis",
+      "overton_score": 0.54,
+      "resonance_pct": 14,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
+      "first_detected_episode_date": "2026-05-07",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "last_mentioned_episode_date": "2026-05-07"
     }
   ]
@@ -25609,12 +25616,77 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-06-03",
     "key_tickers": []
+  },
+  "272": {
+    "id": 262,
+    "insight_id": 272,
+    "podcast_episode_id": 257,
+    "overview": "The unresolved tension in Ackman's investment strategy revolves around the market's undervaluation of established companies with strong fundamentals and the potential for disruption in the AI sector. The competitive dynamic is between legacy companies, which Ackman believes are undervalued, and newer, trendier investments that currently capture market attention. The allocator-relevant implication is that investors who follow Ackman's philosophy may gain an edge by identifying and investing in these undervalued companies, but they must also be prepared to navigate the uncertainty of market dynamics influenced by social media and retail investor movements.",
+    "key_takeaways_detailed": [
+      "Investors should conduct a detailed analysis of the capital and talent accessibility within their portfolio companies to assess their vulnerability to disruption.",
+      "Consider the potential for increased market volatility driven by social media influence and adjust investment strategies accordingly to manage risk.",
+      "Evaluate the leadership structure of potential investments, giving preference to founder-led companies that may offer more resilience in the face of market and technological changes.",
+      "Monitor the average tenure of CEOs in the S&P 500 as an indicator of the market's focus on short-term versus long-term strategies.",
+      "Stay abreast of developments in the AI sector and be prepared to adjust investment allocations based on the pace of innovation and market adoption."
+    ],
+    "investment_thesis": "Ackman's core investment thesis is that by focusing on long-term, durable business quality and understanding the risk of disruption, particularly in the AI sector, investors can achieve more stable and significant returns. This thesis is contested by the current market preference for newer, high-multiple stocks. The observable development that would vindicate Ackman's thesis is a consistent outperformance of the identified undervalued companies and a significant return on venture investments in AI over the next 3-5 years. Conversely, if these companies underperform and AI investments fail to deliver expected returns, the thesis would be invalidated.",
+    "ticker_analysis": {
+      "MSFT": {
+        "rationale": "Microsoft is identified by Ackman as an undervalued company with strong fundamentals, making it a key investment in line with his philosophy.",
+        "positioning": "Strategically long, as Microsoft's continued innovation and market position suggest potential for significant upside.",
+        "risk": "Key risks include failure to adapt to new technological advancements and increased competition in the cloud computing space."
+      },
+      "META": {
+        "rationale": "Meta, formerly Facebook, is seen as undervalued by Ackman, offering an opportunity for investors to capitalize on its market position and growth prospects.",
+        "positioning": "Tactically long, with the potential for short-term gains as market sentiment shifts and the company continues to expand in areas like virtual reality.",
+        "risk": "Regulatory challenges and data privacy concerns could pose significant risks to Meta's growth and valuation."
+      },
+      "AMZN": {
+        "rationale": "Amazon is highlighted by Ackman for its undervalued status despite its strong market position and growth potential.",
+        "positioning": "Strategically long, as Amazon's diversification and expansion into new markets offer long-term growth opportunities.",
+        "risk": "Increased competition, particularly in e-commerce and cloud services, could impact Amazon's growth and profitability."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The market may continue to favor newer, high-growth tech stocks over established companies, despite their strong fundamentals.",
+      "The potential for disruption in the AI sector may be overestimated, with established companies proving more resilient than anticipated.",
+      "Social media influence on market dynamics may lead to increased volatility, making long-term investment strategies more challenging to execute."
+    ],
+    "catalysts": [
+      "Quarterly earnings reports from Microsoft, Meta, and Amazon that exceed market expectations could serve as a catalyst for reevaluating their valuations.",
+      "Significant advancements in AI technology that disrupt existing business models could validate Ackman's emphasis on understanding the risk of disruption.",
+      "Regulatory rulings that impact data privacy and antitrust issues could have a material impact on the valuation of tech companies, particularly those in the social media space.",
+      "The release of new products or services by these companies that gain significant market traction could act as a catalyst for increased investor interest.",
+      "Changes in the average tenure of S&P 500 CEOs, indicating a shift towards longer-term strategic planning, could influence market behavior and investment strategies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-03T13:40:50.835694",
+    "updated_at": "2026-06-03 18:40:50",
+    "episode_evidence": "Bill Ackman's investment philosophy is deeply rooted in the belief that 'durable kind of growth' is paramount, as he states, 'the most important factor... is durable kind of growth.' This philosophy is further emphasized by his assertion that the 'probability of your being disrupted has gone up enormously,' highlighting the increased risk of disruption due to the accessibility of capital and talent. Ackman identifies companies like Microsoft, Meta, and Amazon as undervalued, which he believes are 'old-fashioned companies... they're undervalued in your mind,' suggesting that the market is currently undervaluing these companies with strong fundamentals. He also underscores the significance of founder-led companies, noting that the 'average life of an S&P 500 CEO is probably... three and a half years,' implying that the short tenure of CEOs might lead to a focus on short-term results over long-term strategy.",
+    "falsification_tracks": [
+      "If Microsoft, Meta, and Amazon fail to deliver consistent growth and innovation over the next two years, Ackman's thesis on their undervaluation could be weakened.",
+      "A significant increase in the average tenure of S&P 500 CEOs, indicating a shift towards long-term strategic planning, could challenge Ackman's emphasis on founder-led companies.",
+      "If venture investments in AI do not yield the expected high returns within the projected timeframe, it would cast doubt on Ackman's assertion about the potential for significant returns in this sector."
+    ],
+    "insight_title": "Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-06-03",
+    "key_tickers": [
+      "MSFT",
+      "META",
+      "AMZN"
+    ]
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 11585,
+    "id": 11644,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -25626,7 +25698,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11586,
+    "id": 11645,
+    "name": "Bill Ackman",
+    "slug": "bill-ackman",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
+    "last_episode_title": "Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-06-03",
+    "appearance_count": 1
+  },
+  {
+    "id": 11646,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -25638,7 +25722,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11587,
+    "id": 11647,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -25650,7 +25734,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11588,
+    "id": 11648,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -25662,7 +25746,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11589,
+    "id": 11649,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -25674,7 +25758,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11590,
+    "id": 11650,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -25686,7 +25770,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11591,
+    "id": 11651,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -25698,7 +25782,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11592,
+    "id": 11652,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -25710,7 +25794,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11593,
+    "id": 11653,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -25722,7 +25806,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11594,
+    "id": 11654,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -25734,7 +25818,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11595,
+    "id": 11655,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -25746,7 +25830,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 11596,
+    "id": 11656,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -25758,7 +25842,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11597,
+    "id": 11657,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -25770,7 +25854,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11598,
+    "id": 11658,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -25782,7 +25866,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11599,
+    "id": 11659,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -25794,7 +25878,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11600,
+    "id": 11660,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -25806,7 +25890,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11601,
+    "id": 11661,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -25818,7 +25902,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11602,
+    "id": 11662,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -25830,7 +25914,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11603,
+    "id": 11663,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -25839,18 +25923,6 @@ const dashboardData = {
     "last_episode_title": "Building Blackstone, Backing Costco, with Tony James",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-05",
-    "appearance_count": 1
-  },
-  {
-    "id": 11604,
-    "name": "Sarah Rogers",
-    "slug": "sarah-rogers",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
-    "last_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-04",
     "appearance_count": 1
   }
 ],
@@ -25997,7 +26069,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-26",
     "mention_score": 3,
-    "mention_score_decayed": 2.55,
+    "mention_score_decayed": 2.49,
     "last_main_idea": "Invest in companies that are actively transitioning to AI-native organizations to capitalize on the potential for increased operational efficiency and reduced workforce costs.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-26 \u2022 The Organizational Singularity: AI-Proof Your Company | EP #258",
     "last_proof_snippet": "Is there a line year business, a high margin line year of your business that two guys with open claw could replicate in 60 to 90 days? This is something across the board useful for everyone. When we wrote the exponential organizations book,",
@@ -26192,7 +26264,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.87,
+    "mention_score_decayed": 1.82,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -26380,7 +26452,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.1,
+    "mention_score_decayed": 1.07,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -26986,6 +27058,71 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 269,
+    "name": "Bill Ackman",
+    "slug": "bill-ackman",
+    "bio": "Bill Ackman is an investor and the CEO of Pershing Square Capital Management, a hedge fund known for its activist investing and value investing strategies. Ackman is recognized for his bold moves in the market, including taking significant short positions and advocating for changes within companies he invests in.",
+    "known_for": "His activist investing approach and significant influence on the companies he targets for investment.",
+    "net_worth_usd": 9100000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q1586871",
+    "net_worth_updated_at": "2026-06-03T13:40:17.848317",
+    "voice_tone": "Confident and assertive.",
+    "voice_style": "Factual and analytical.",
+    "voice_delivery_notes": "Clear and deliberate pace with emphasis on key points.",
+    "voice_profile_updated_at": "2026-06-03 18:39:50",
+    "last_seen": "2026-06-03 18:39:50",
+    "last_episode_title": "Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-06-03",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-03 \u2022 Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
+    "last_proof_snippet": "One of the most provocative and interesting investors in the country. A legendary activist investor. Pershing square CEO and founder Bill Acling. Taking a short position and going public with it is a pretty serious business. Interestingly,",
+    "supporting_takeaway": "Assess the vulnerability of portfolio companies to new entrants and technological advancements.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-03T13:40:17.449679",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Bill Ackman",
+      "fetched_at": "2026-06-03T18:40:17.449179+00:00",
+      "cliff_notes": "Bill Ackman is an American investor and hedge fund manager who has made a name for himself through his activist investing approach. As the CEO and founder of Pershing Square Capital Management, Ackman has taken on high-profile short positions and pushed for corporate governance changes in companies he has invested in. His strategies have led to significant returns for his investors and have made him a prominent figure in the investment world. Ackman's willingness to publicly disclose his positions and engage with the management of the companies he targets has earned him both admiration and criticism within the financial community.",
+      "derived": {
+        "current_role": "CEO of Pershing Square Capital Management",
+        "education": "MBA from Harvard Business School; BS from Harvard College"
+      },
+      "infobox": {
+        "Born": "1966",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Bill Ackman is an American investor and hedge fund manager who has made a name for himself through his activist investing approach. As the CEO and founder of Pershing Square Capital Management, Ackman has taken on high-profile short positions and pushed for corporate governance changes in companies he has invested in. His strategies have led to significant returns for his investors and have made him a prominent figure in the investment world.",
+        "Ackman's willingness to publicly disclose his positions and engage with the management of the companies he targets has earned him both admiration and criticism within the financial community."
+      ],
+      "sections": [
+        {
+          "heading": "Activist Investing",
+          "body": "Bill Ackman is known for his activist investing approach, where he takes significant stakes in companies and pushes for changes to improve their performance."
+        },
+        {
+          "heading": "Value Investing",
+          "body": "Ackman employs a value investing strategy, seeking out undervalued companies and advocating for changes to unlock their potential value."
+        },
+        {
+          "heading": "High-Profile Short Positions",
+          "body": "Ackman has taken notable short positions in companies like Herbalife, causing significant market movements and drawing both support and criticism."
+        },
+        {
+          "heading": "Corporate Governance",
+          "body": "As an activist investor, Ackman often engages with company management to push for changes in corporate governance and strategy to increase shareholder value."
+        }
+      ]
+    },
+    "net_worth": "$9.10B"
+  },
+  {
     "id": 268,
     "name": "Sarah Fryer",
     "slug": "sarah-fryer",
@@ -27003,7 +27140,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-02",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-02 \u2022 OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
     "last_proof_snippet": "Open AI's CFO, Sarah Fryer. We've got to get right to it. You have just completed what I would find as the most successful fund-raising rail in history. We're going to raise actually north of $120 billion. We think AI is the biggest era tha",
@@ -27307,7 +27444,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -27617,7 +27754,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -27681,7 +27818,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -27744,7 +27881,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -28616,7 +28753,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -28806,7 +28943,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -28869,7 +29006,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -29057,7 +29194,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -32871,7 +33008,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -32930,7 +33067,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
