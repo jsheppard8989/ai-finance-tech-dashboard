@@ -3,74 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-02T13:40:38.448119",
-  chartsVersion: "2026-06-02T13:40:31.953481",
+  generatedAt: "2026-06-02T22:04:05.491629",
+  chartsVersion: "2026-06-02T22:03:59.988466",
   priceSnapshot: {
   "GOOGL": {
-    "price": 364.91,
-    "change_pct": -9.37,
+    "price": 361.85,
+    "change_pct": -10.13,
     "name": "GOOGL",
-    "updated_at": "2026-06-02T13:40:31.952558"
+    "updated_at": "2026-06-02T22:03:59.987717"
   },
   "BTC": {
-    "price": 67098.47,
-    "change_pct": -13.37,
+    "price": 66510.81,
+    "change_pct": -14.22,
     "name": "BTC",
-    "updated_at": "2026-06-02T13:40:31.952578"
+    "updated_at": "2026-06-02T22:03:59.987734"
   },
   "NVDA": {
-    "price": 221.94,
-    "change_pct": -1.72,
+    "price": 222.82,
+    "change_pct": -1.33,
     "name": "NVDA",
-    "updated_at": "2026-06-02T13:40:31.952587"
+    "updated_at": "2026-06-02T22:03:59.987741"
   },
   "MSFT": {
-    "price": 442.32,
-    "change_pct": 9.39,
+    "price": 441.31,
+    "change_pct": 9.14,
     "name": "MSFT",
-    "updated_at": "2026-06-02T13:40:31.952595"
+    "updated_at": "2026-06-02T22:03:59.987747"
   },
   "WTI": {
-    "price": 4.04,
-    "change_pct": -7.98,
+    "price": 4.02,
+    "change_pct": -8.43,
     "name": "WTI",
-    "updated_at": "2026-06-02T13:40:31.952602"
+    "updated_at": "2026-06-02T22:03:59.987752"
   },
   "S&P 500": {
-    "price": 758.66,
-    "change_pct": 2.2,
+    "price": 759.57,
+    "change_pct": 2.33,
     "name": "S&P 500",
-    "updated_at": "2026-06-02T13:40:31.952609"
+    "updated_at": "2026-06-02T22:03:59.987758"
   },
   "META": {
-    "price": 603.55,
-    "change_pct": -2.12,
+    "price": 597.63,
+    "change_pct": -3.08,
     "name": "META",
-    "updated_at": "2026-06-02T13:40:31.952617"
+    "updated_at": "2026-06-02T22:03:59.987764"
   },
   "AMZN": {
-    "price": 258.06,
-    "change_pct": -4.47,
+    "price": 256.52,
+    "change_pct": -5.04,
     "name": "AMZN",
-    "updated_at": "2026-06-02T13:40:31.952624"
+    "updated_at": "2026-06-02T22:03:59.987769"
   },
   "TSLA": {
-    "price": 421.91,
-    "change_pct": -5.25,
+    "price": 423.74,
+    "change_pct": -4.84,
     "name": "TSLA",
-    "updated_at": "2026-06-02T13:40:31.952631"
+    "updated_at": "2026-06-02T22:03:59.987774"
+  },
+  "AAPL": {
+    "price": 315.2,
+    "change_pct": 5.46,
+    "name": "AAPL",
+    "updated_at": "2026-06-02T22:03:59.987779"
   },
   "QQQ": {
-    "price": 743.64,
-    "change_pct": 4.05,
+    "price": 746.16,
+    "change_pct": 4.4,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-02T13:40:31.952638"
+    "updated_at": "2026-06-02T22:03:59.987784"
   },
   "BTC-USD": {
-    "price": 67093.2,
-    "change_pct": -13.38,
+    "price": 66510.81,
+    "change_pct": -14.22,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-02T13:40:31.952646"
+    "updated_at": "2026-06-02T22:03:59.987791"
   }
 },
   tickerScores: [
@@ -210,13 +216,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "AAPL",
+    "total_score": 211.0,
+    "raw_mention_count": 14,
+    "unique_sources": 2,
+    "podcast_mentions": 2,
+    "newsletter_mentions": 12,
+    "rank": 10,
+    "score": 211.0,
+    "mentions": 14,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "SPX",
     "total_score": 204.0,
     "raw_mention_count": 3,
     "unique_sources": 1,
     "podcast_mentions": 3,
     "newsletter_mentions": 0,
-    "rank": 10,
+    "rank": 11,
     "score": 204.0,
     "mentions": 3,
     "conviction_level": "medium",
@@ -231,7 +252,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 3,
     "newsletter_mentions": 0,
-    "rank": 11,
+    "rank": 12,
     "score": 202.0,
     "mentions": 3,
     "conviction_level": "medium",
@@ -246,7 +267,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 3,
     "newsletter_mentions": 0,
-    "rank": 12,
+    "rank": 13,
     "score": 194.0,
     "mentions": 3,
     "conviction_level": "medium",
@@ -261,7 +282,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 3,
     "newsletter_mentions": 0,
-    "rank": 13,
+    "rank": 14,
     "score": 190.0,
     "mentions": 3,
     "conviction_level": "medium",
@@ -276,24 +297,9 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 14,
+    "rank": 15,
     "score": 146.0,
     "mentions": 2,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "AAPL",
-    "total_score": 145.0,
-    "raw_mention_count": 13,
-    "unique_sources": 2,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 12,
-    "rank": 15,
-    "score": 145.0,
-    "mentions": 13,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -315,13 +321,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "DELL",
+    "total_score": 134.0,
+    "raw_mention_count": 2,
+    "unique_sources": 1,
+    "podcast_mentions": 2,
+    "newsletter_mentions": 0,
+    "rank": 17,
+    "score": 134.0,
+    "mentions": 2,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "URANIUM",
     "total_score": 128.0,
     "raw_mention_count": 2,
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 17,
+    "rank": 18,
     "score": 128.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -336,7 +357,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 18,
+    "rank": 19,
     "score": 120.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -351,7 +372,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 19,
+    "rank": 20,
     "score": 112.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -366,7 +387,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 20,
+    "rank": 21,
     "score": 84.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -381,7 +402,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 21,
+    "rank": 22,
     "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -396,7 +417,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 22,
+    "rank": 23,
     "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -411,7 +432,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 23,
+    "rank": 24,
     "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -426,7 +447,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 24,
+    "rank": 25,
     "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -441,7 +462,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 25,
+    "rank": 26,
     "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -456,7 +477,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 26,
+    "rank": 27,
     "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -471,7 +492,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 27,
+    "rank": 28,
     "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -486,7 +507,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 28,
+    "rank": 29,
     "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -501,7 +522,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 29,
+    "rank": 30,
     "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -516,7 +537,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 30,
+    "rank": 31,
     "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -531,7 +552,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 31,
+    "rank": 32,
     "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -541,21 +562,6 @@ const dashboardData = {
   },
   {
     "ticker": "ARBOB GASOLINE",
-    "total_score": 70.0,
-    "raw_mention_count": 1,
-    "unique_sources": 1,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
-    "rank": 32,
-    "score": 70.0,
-    "mentions": 1,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "DELL",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -870,6 +876,27 @@ const dashboardData = {
       "podcast_episode_id": 254
     },
     {
+      "id": 270,
+      "title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-02",
+      "summary": "In this episode, the discussion revolves around Nvidia's announcement of the RTX Spark Superchip and its implications for the future of personal computing. The shift from CPU to GPU and neural processors is highlighted as a critical development for device performance and cost efficiency. The concept of 'tokens' in AI usage underscores the need for local processing to avoid high cloud-based AI service costs. The competitive landscape is set to change with AI-optimized hardware potentially disrupting the traditional Windows device market. The strategies of Apple and Nvidia in integrating CUDA APIs and AI will be crucial in shaping their market positions.",
+      "key_takeaway": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
+      "tickers_mentioned": [
+        "NVDA",
+        "AAPL",
+        "DELL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 255
+    },
+    {
       "id": 266,
       "title": "Building AI Agents for Enterprise Operations",
       "source_type": "podcast",
@@ -967,7 +994,7 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-29",
       "archived_date": null,
@@ -5867,22 +5894,40 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 218,
-      "term": "AI Infrastructure Layer",
-      "description": "A foundational platform that supports multiple AI applications and interfaces, enabling scalability and accessibility.",
+      "id": 219,
+      "term": "AI-native computing",
+      "description": "The integration of AI processing capabilities into computing devices, allowing for more efficient and cost-effective AI usage.",
       "first_detected_date": "2026-06-02",
       "last_mentioned_date": "2026-06-02",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Invest in companies building robust AI infrastructure layers to capture a wide range of market opportunities.",
+      "investment_implications": "Investors should consider companies pioneering AI-native computing for potential growth opportunities.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 254,
-      "first_detected_speaker": "Sarah Fryer",
-      "last_mentioned_episode_id": 254,
-      "last_mentioned_speaker": "Sarah Fryer"
+      "first_detected_episode_id": 255,
+      "first_detected_speaker": "Steven Sinofsky",
+      "last_mentioned_episode_id": 255,
+      "last_mentioned_speaker": "Steven Sinofsky"
+    },
+    {
+      "id": 220,
+      "term": "Local processing",
+      "description": "The processing of data on local devices rather than in the cloud, reducing costs and potentially improving performance.",
+      "first_detected_date": "2026-06-02",
+      "last_mentioned_date": "2026-06-02",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should evaluate companies that optimize for local processing to enhance user experience and reduce operational costs.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 255,
+      "first_detected_speaker": "Steven Sinofsky",
+      "last_mentioned_episode_id": 255,
+      "last_mentioned_speaker": "Steven Sinofsky"
     },
     {
       "id": 194,
@@ -8653,6 +8698,30 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 270,
+      "title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-02",
+      "summary": "In this episode, the discussion revolves around Nvidia's announcement of the RTX Spark Superchip and its implications for the future of personal computing. The shift from CPU to GPU and neural processors is highlighted as a critical development for device performance and cost efficiency. The concept of 'tokens' in AI usage underscores the need for local processing to avoid high cloud-based AI service costs. The competitive landscape is set to change with AI-optimized hardware potentially disrupting the traditional Windows device market. The strategies of Apple and Nvidia in integrating CUDA APIs and AI will be crucial in shaping their market positions.",
+      "key_takeaway": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
+      "tickers_mentioned": "[\"NVDA\", \"AAPL\", \"DELL\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 255,
+      "episode_release_date": "2026-06-02",
+      "guest_name": null,
+      "key_tickers": [
+        "NVDA",
+        "AAPL",
+        "DELL"
+      ]
+    },
+    {
       "id": 266,
       "title": "Building AI Agents for Enterprise Operations",
       "source_type": "podcast",
@@ -8729,26 +8798,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 249,
       "episode_release_date": "2026-05-30",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 262,
-      "title": "Why $1B Exits are Dead",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-05-29",
-      "summary": "This episode of 'The a16z Show' discusses the rapid growth of anthropocentric AI companies, their revenue generation surpassing tech giants, and the significant increase in high-value startup exits. The podcast highlights the low diffusion of AI technology into the economy, suggesting substantial growth potential. It also touches on the evolving venture capital landscape, supply chain constraints, and the competitive shift in AI models. The public market's capacity to absorb new high-growth companies is emphasized, with expectations of significant IPOs from AI companies.",
-      "key_takeaway": "Invest in anthropocentric AI companies that are outpacing traditional tech giants in revenue growth, and focus on sectors with low AI adoption for significant growth potential.",
-      "tickers_mentioned": "[\"GOOGL\", \"MSFT\", \"AMZN\", \"TSLA\", \"NVDA\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-29",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 247,
-      "episode_release_date": "2026-05-29",
       "guest_name": null,
       "key_tickers": []
     },
@@ -8897,29 +8946,55 @@ const dashboardData = {
   ],
   "overton": [
     {
-      "id": 218,
-      "term": "AI Infrastructure Layer",
-      "description": "A foundational platform that supports multiple AI applications and interfaces, enabling scalability and accessibility.",
+      "id": 219,
+      "term": "AI-native computing",
+      "description": "The integration of AI processing capabilities into computing devices, allowing for more efficient and cost-effective AI usage.",
       "first_detected_date": "2026-06-02",
       "last_mentioned_date": "2026-06-02",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Invest in companies building robust AI infrastructure layers to capture a wide range of market opportunities.",
+      "investment_implications": "Investors should consider companies pioneering AI-native computing for potential growth opportunities.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 254,
-      "first_detected_speaker": "Sarah Fryer",
-      "last_mentioned_episode_id": 254,
-      "last_mentioned_speaker": "Sarah Fryer",
+      "first_detected_episode_id": 255,
+      "first_detected_speaker": "Steven Sinofsky",
+      "last_mentioned_episode_id": 255,
+      "last_mentioned_speaker": "Steven Sinofsky",
       "overton_score": 1.0,
       "resonance_pct": 25,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
       "first_detected_episode_date": "2026-06-02",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
+      "last_mentioned_episode_date": "2026-06-02"
+    },
+    {
+      "id": 220,
+      "term": "Local processing",
+      "description": "The processing of data on local devices rather than in the cloud, reducing costs and potentially improving performance.",
+      "first_detected_date": "2026-06-02",
+      "last_mentioned_date": "2026-06-02",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should evaluate companies that optimize for local processing to enhance user experience and reduce operational costs.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 255,
+      "first_detected_speaker": "Steven Sinofsky",
+      "last_mentioned_episode_id": 255,
+      "last_mentioned_speaker": "Steven Sinofsky",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
+      "first_detected_episode_date": "2026-06-02",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
       "last_mentioned_episode_date": "2026-06-02"
     },
     {
@@ -9207,32 +9282,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
       "last_mentioned_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "last_mentioned_episode_date": "2026-05-07"
-    },
-    {
-      "id": 156,
-      "term": "Compounding Talent, Capital, and Culture",
-      "description": "The concept of building an organization that not only generates returns but also systematically develops and retains talent, grows capital, and fosters a strong culture over time.",
-      "first_detected_date": "2026-05-05",
-      "last_mentioned_date": "2026-05-05",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should look for firms that demonstrate the ability to compound these elements for sustainable growth.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 199,
-      "first_detected_speaker": "Tony James",
-      "last_mentioned_episode_id": 199,
-      "last_mentioned_speaker": "Tony James",
-      "overton_score": 0.52,
-      "resonance_pct": 13,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Building Blackstone, Backing Costco, with Tony James",
-      "first_detected_episode_date": "2026-05-05",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Building Blackstone, Backing Costco, with Tony James",
-      "last_mentioned_episode_date": "2026-05-05"
     }
   ]
 },
@@ -25371,12 +25420,72 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-02",
     "key_tickers": []
+  },
+  "270": {
+    "id": 260,
+    "insight_id": 270,
+    "podcast_episode_id": 255,
+    "overview": "The unresolved tension in the tech industry is the transition from traditional computing to AI-native computing, with Nvidia and Apple at the forefront of this shift. The competitive dynamic revolves around who can best integrate AI capabilities into their hardware and software, potentially disrupting the established Windows device market. The metric that arbitrates this uncertainty is market share and consumer adoption of AI-optimized devices. The horizon of proof lies in the success of Nvidia's RTX Spark Superchip and the strategic moves of Apple and Nvidia in AI integration.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the performance and market reception of Nvidia's RTX Spark Superchip to gauge the effectiveness of AI-native computing hardware.",
+      "Companies should consider the strategic implications of local AI processing capabilities, as this could significantly reduce costs and improve user experience.",
+      "The competitive positioning of Dell's XPS 13 and Apple's MacBook Neo will serve as a litmus test for consumer preferences in AI-optimized devices.",
+      "Investors should assess the potential for AI-native computing to disrupt traditional computing markets, focusing on the strategic moves of key players like Nvidia and Apple."
+    ],
+    "investment_thesis": "The core logic is that the shift towards AI-native computing will create a new competitive landscape in personal computing, with companies that successfully integrate AI capabilities into their hardware and software poised to gain a significant market advantage. This thesis is tied to the observable development of market share shifts towards AI-optimized devices and the success of Nvidia's RTX Spark Superchip. If these developments do not materialize, or if traditional computing maintains its dominance, the thesis would be invalidated.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's integration of AI capabilities and CUDA APIs is central to the thesis, as it positions the company to lead in AI-native computing.",
+        "positioning": "Apple should be positioned long-term, as its strategic moves in AI integration are expected to solidify its market position.",
+        "risk": "Key risks include failure to effectively integrate AI capabilities, leading to a loss of competitive edge in the AI-native computing market."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's RTX Spark Superchip is a direct play on the AI-native computing trend, making it a key ticker to watch.",
+        "positioning": "Nvidia should be positioned long-term, as the success of the RTX Spark Superchip could significantly boost its market share.",
+        "risk": "The risk lies in the chip's market reception and the ability to compete effectively with Apple in AI integration."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The traditional computing market may resist the shift to AI-native computing, maintaining its dominance through established user bases and software ecosystems.",
+      "The cost of transitioning to AI-native computing could be prohibitive for some consumers and businesses, slowing the adoption of new technologies.",
+      "The development of AI capabilities may not meet the expectations of consumers, leading to a slower than anticipated adoption rate."
+    ],
+    "catalysts": [
+      "Nvidia's next product announcements and partnerships in the AI-native computing space.",
+      "Apple's strategic moves in integrating AI capabilities into its devices and software.",
+      "Market share reports indicating a shift towards AI-optimized devices.",
+      "Consumer feedback and sales performance of AI-optimized devices like Dell's XPS 13 and Apple's MacBook Neo.",
+      "Developments in CUDA APIs and their integration into personal computing devices."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-02T22:03:16.755982",
+    "updated_at": "2026-06-03 03:03:16",
+    "episode_evidence": "Nvidia's RTX Spark Superchip announcement is a significant milestone in the evolution of personal computing, as it integrates CPU and GPU capabilities into a single chip, which could lead to more efficient processing and cost savings. Steven Sinofsky highlighted this by stating, 'The big announced...was Nvidia announcing what they called the RTX Spark Superchip.' This shift towards local processing to avoid high cloud-based AI service costs, as Sinofsky pointed out, 'The problem is tokens...how much of compute can it move to your local device where you basically have infinitely free tokens?' is a strategic move that could democratize AI tools and reduce operational costs. Furthermore, the competitive landscape is poised to change, with AI-optimized hardware potentially disrupting the traditional Windows device market, as Sinofsky suggested, 'The way that I think this can play out...is...the Fortune 500...will be able just far to Windows devices.'",
+    "falsification_tracks": [
+      "Nvidia's RTX Spark Superchip fails to gain significant market share within the next year, indicating a lack of demand for AI-native computing hardware.",
+      "Apple and Nvidia do not make substantial progress in integrating CUDA APIs and AI, suggesting that their strategies are not as effective as anticipated.",
+      "Dell's XPS 13 fails to compete effectively with Apple's MacBook Neo, indicating that hardware optimization for AI applications is not a significant factor in consumer preferences.",
+      "The market does not show a clear trend towards AI-optimized hardware, suggesting that the traditional Windows device market remains dominant."
+    ],
+    "insight_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
+    "source_name": "The a16z Show",
+    "source_date": "2026-06-02",
+    "key_tickers": [
+      "NVDA",
+      "AAPL",
+      "DELL"
+    ]
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 11295,
+    "id": 11353,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -25388,7 +25497,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11296,
+    "id": 11354,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -25400,7 +25509,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11297,
+    "id": 11355,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -25412,7 +25521,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11298,
+    "id": 11356,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -25424,7 +25533,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11299,
+    "id": 11357,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -25436,7 +25545,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11300,
+    "id": 11358,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -25448,7 +25557,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11301,
+    "id": 11359,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -25460,7 +25569,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11302,
+    "id": 11360,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -25472,7 +25581,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11303,
+    "id": 11361,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -25484,7 +25593,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11304,
+    "id": 11362,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -25496,7 +25605,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 11305,
+    "id": 11363,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -25508,7 +25617,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11306,
+    "id": 11364,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -25520,7 +25629,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11307,
+    "id": 11365,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -25532,7 +25641,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11308,
+    "id": 11366,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -25544,7 +25653,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11309,
+    "id": 11367,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -25556,7 +25665,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11310,
+    "id": 11368,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -25568,7 +25677,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11311,
+    "id": 11369,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -25580,7 +25689,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11312,
+    "id": 11370,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -25592,7 +25701,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11313,
+    "id": 11371,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -25604,7 +25713,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11314,
+    "id": 11372,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -25635,7 +25744,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 6,
-    "mention_score_decayed": 3.96,
+    "mention_score_decayed": 3.87,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -25824,7 +25933,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 3,
-    "mention_score_decayed": 1.61,
+    "mention_score_decayed": 1.57,
     "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
     "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
@@ -25869,6 +25978,72 @@ const dashboardData = {
       ]
     },
     "net_worth": "$12.3M"
+  },
+  {
+    "id": 171,
+    "name": "Steven Sinofsky",
+    "slug": "steven-sinofsky",
+    "bio": "Steven Sinofsky is a former Microsoft executive and industry expert on personal computing and software development. Over nearly three decades at Microsoft, he helped shape products that define the PC era, including Windows, Office, and Surface. Sinofsky has witnessed one of the technology industry's longest-running rivalries, Microsoft and Apple, and continues to provide insights on the evolution of personal computing.",
+    "known_for": "His tenure at Microsoft and insights on the evolution of personal computing.",
+    "net_worth_usd": 300000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/3984/steven-j-sinofsky",
+    "net_worth_updated_at": "2026-04-10T22:06:00.230554",
+    "voice_tone": "Reflective and insightful",
+    "voice_style": "Analytical and comparative",
+    "voice_delivery_notes": "Paced with emphasis on key historical moments and technological differences",
+    "voice_profile_updated_at": "2026-04-11 03:05:18",
+    "last_seen": "2026-06-03 03:02:03",
+    "last_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-02",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
+    "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
+    "supporting_takeaway": "The shift to local processing could reduce costs associated with cloud-based AI services and democratize AI tool access.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-02T22:02:42.225895",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Steven Sinofsky",
+      "fetched_at": "2026-06-03T03:02:42.225549+00:00",
+      "cliff_notes": "Steven Sinofsky is best known for his nearly three-decade tenure at Microsoft, where he played a pivotal role in shaping some of the most defining products of the personal computing era, including Windows, Office, and Surface. As President of the Windows Division, Sinofsky was instrumental in guiding the development and marketing of the Windows operating system, which remains the backbone of the PC industry. His tenure also saw him navigate the intense rivalry between Microsoft and Apple, providing him with a unique perspective on product design, platforms, hardware, and software. Since leaving Microsoft, Sinofsky has continued to offer valuable insights into the future of computing, particularly in areas such as AI and resource constraints. His front-row seat to the personal computing revolution has made him a sought-after commentator and thought leader in the tech industry.",
+      "derived": {
+        "former_positions": "President of the Windows Division at Microsoft; Senior Vice President at Microsoft",
+        "education": "Bachelor of Science in Computer Science and Engineering from the University of Illinois at Urbana-Champaign"
+      },
+      "infobox": {
+        "Born": "1965",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Steven Sinofsky is best known for his nearly three-decade tenure at Microsoft, where he played a pivotal role in shaping some of the most defining products of the personal computing era, including Windows, Office, and Surface. As President of the Windows Division, Sinofsky was instrumental in guiding the development and marketing of the Windows operating system, which remains the backbone of the PC industry.",
+        "His tenure also saw him navigate the intense rivalry between Microsoft and Apple, providing him with a unique perspective on product design, platforms, hardware, and software. Since leaving Microsoft, Sinofsky has continued to offer valuable insights into the future of computing, particularly in areas such as AI and resource constraints.",
+        "His front-row seat to the personal computing revolution has made him a sought-after commentator and thought leader in the tech industry."
+      ],
+      "sections": [
+        {
+          "heading": "Microsoft Tenure",
+          "body": "Steven Sinofsky spent nearly three decades at Microsoft, where he held various leadership roles, including President of the Windows Division and Senior Vice President. He was instrumental in shaping products like Windows, Office, and Surface, which have defined the personal computing era."
+        },
+        {
+          "heading": "Windows Development",
+          "body": "As President of the Windows Division, Sinofsky played a crucial role in the development and marketing of the Windows operating system. His leadership helped guide the product through numerous iterations, ensuring its continued relevance in the face of evolving competition and market demands."
+        },
+        {
+          "heading": "Microsoft vs. Apple",
+          "body": "Sinofsky's tenure at Microsoft coincided with one of the technology industry's longest-running rivalries: Microsoft vs. Apple. His unique perspective on product design, platforms, hardware, and software has provided valuable insights into the dynamics of this intense competition."
+        },
+        {
+          "heading": "Future of Computing",
+          "body": "Since leaving Microsoft, Steven Sinofsky has continued to offer insights into the future of computing, particularly in areas such as AI and resource constraints. He believes that AI presents an opportunity to change the dynamic of personal computing, making it more forward-looking and less reliant on backward compatibility."
+        }
+      ]
+    },
+    "net_worth": "$300.0M"
   },
   {
     "id": 73,
@@ -26483,7 +26658,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -26547,7 +26722,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -26607,7 +26782,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
@@ -26946,7 +27121,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in companies developing prediction market platforms, focusing on those with strong legal compliance strategies and potential for cultural acceptance.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-26 \u2022 Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
     "last_proof_snippet": "Well, so, start at the beginning. The basic vision is that speculative markets are shown to be a unmatched mechanism for aggregating information and telling us about stuff. And initially, most people who come to this area think about, let's",
@@ -27254,7 +27429,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investors should prepare for potential oil price volatility and consider hedging strategies, while also looking for investment opportunities in companies improving inventory efficiency and energy infrastructure projects.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-21 \u2022 MacroVoices #533 Morgan Downey: The Return of Oil 101",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -27500,7 +27675,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "The current market dynamics suggest a potential bubble, characterized by inflated earnings expectations rather than traditional valuation metrics, indicating the need for disciplined profit-taking strategies and portfolio diversification.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-16 \u2022 Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
     "last_proof_snippet": "If we're in a bubble, why aren't we selling crazy P is? It's not the P that's the bubble, it's the E. The S&P in its entirety is expected to earn 400 billion. Where's the GDP that can do that? Now it could come from everywhere else. It coul",
@@ -27565,7 +27740,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
     "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
@@ -27625,7 +27800,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
     "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
@@ -27686,7 +27861,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in AI technologies that leverage advancements in MCTS and reduced compute requirements to create scalable and efficient solutions in various industries.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-15 \u2022 Eric Jang \u2013 Building AlphaGo from scratch",
     "last_proof_snippet": "Today I'm here with Eric Jeng, who was most recently Vice President of AI at one ex-technologies, before that senior research scientist at what is now Google DeepMind Robotics, and you've been on sabbatical for the last few months. One of t",
@@ -27750,7 +27925,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-15 \u2022 \u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
     "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. I'm joined by Andrew Perry, veteran macro investors. He has worked at the top macro hedge funds, all the big banks, Andrew, welcome to monetary",
@@ -27811,7 +27986,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -28127,7 +28302,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in private credit funds that capitalize on the retreat of banks from riskier, smaller loans due to regulatory pressures, and consider preferred equity structures for upside potential with downside protection.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-12 \u2022 Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
     "last_proof_snippet": "The dominant media narrative at the moment is direct lending and private credit, a virtually synonymous, but that is obviously not how the industry is structured, but what is definitely true is that direct lending has taken the vast majorit",
@@ -28252,7 +28427,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-10 \u2022 Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
     "last_proof_snippet": "Very pleased today to be joined by David Wright, co-head of Pictay asset management's quantitative investments franchise, which manages over $30 billion in their quant group. This includes most recently two ETFs they launched PQ&T, their Pi",
@@ -28439,7 +28614,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-07 \u2022 MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -28629,7 +28804,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -28693,7 +28868,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -28876,7 +29051,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-04 \u2022 Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
     "last_proof_snippet": "Today I was speaking to one of the best and most data-driven analysts around, Warren Pious of 314 research. If you have been seeing the ball clearer than him, last time I spoke to him, Warren's calling for S&P to 7,000 by 2026, which obviou",
@@ -28940,7 +29115,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-04 \u2022 Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
     "last_proof_snippet": "AI is going to be more important, not less important, and so the proliferation of a Western AI stack to be a top priority for anyone who cares about freedom. The rules around AI are changing fast. There's a lot of regulation abroad around d",
@@ -28999,7 +29174,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -29070,7 +29245,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -29133,7 +29308,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in companies with high levels of intangible capital using a combination of fundamental and sentiment analysis to identify mispriced opportunities, especially in sectors affected by global events.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show you'll hear more about hfgm currently the number one morning star rated funds its inception in the U.S. macro trading category. Let's ge",
@@ -29260,7 +29435,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-30 \u2022 Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
     "last_proof_snippet": "AI is creating new opportunities to rethink how enterprise systems work, potentially leading to a platform shift.",
@@ -29507,7 +29682,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investment in the biotech sector may need to consider the geographic shift towards China for innovation and efficiency in drug development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-29 \u2022 The Shift in Global Drug Development",
     "last_proof_snippet": "China's clinical trial system has rapidly expanded, with reforms that streamline the approval process.",
@@ -29570,7 +29745,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -30071,7 +30246,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in technologies and platforms that leverage cryptography and blockchain to provide verifiable information and restore trust in digital content.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-22 \u2022 Balaji Srinivasan: Prove Correct, Not Just Go Direct",
     "last_proof_snippet": "The growing distrust in media is due to the increasing cost of verifying content as synthetic content floods systems.",
@@ -30826,7 +31001,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Invest in AI companies that are positioned to benefit from the rapid growth and valuation in the industry, and consider the broader implications of AI on the future of work and social structures.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-14 \u2022 Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
     "last_proof_snippet": "AI is expected to replace many white collar jobs in the near future.",
@@ -30890,7 +31065,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
@@ -31055,71 +31230,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.20B"
-  },
-  {
-    "id": 171,
-    "name": "Steven Sinofsky",
-    "slug": "steven-sinofsky",
-    "bio": "Steven Sinofsky is a board partner at a16z and the former president of the Windows Division at Microsoft. He is known for his leadership at Microsoft and insights into the software industry.",
-    "known_for": "His leadership at Microsoft and insights into the software industry.",
-    "net_worth_usd": 300000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/3984/steven-j-sinofsky",
-    "net_worth_updated_at": "2026-04-10T22:06:00.230554",
-    "voice_tone": "Reflective and insightful",
-    "voice_style": "Analytical and comparative",
-    "voice_delivery_notes": "Paced with emphasis on key historical moments and technological differences",
-    "voice_profile_updated_at": "2026-04-11 03:05:18",
-    "last_seen": "2026-04-11 03:05:18",
-    "last_episode_title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-10",
-    "mention_score": 1,
-    "mention_score_decayed": 0.3,
-    "last_main_idea": "Investing in companies with a strong cultural identity and clear strategic focus can provide an edge in technology markets, as demonstrated by the contrasting paths of Apple and Microsoft.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-10 \u2022 What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
-    "last_proof_snippet": "Microsoft's strength in enterprise is due to the legendary compatibility of Windows, a key value for corporations.",
-    "supporting_takeaway": "Microsoft's strength in enterprise is due to the legendary compatibility of Windows, a key value for corporations.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-10T22:05:58.972843",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Steven Sinofsky",
-      "fetched_at": "2026-04-11T03:05:58.972325+00:00",
-      "cliff_notes": "Steven Sinofsky is a prominent figure in the technology industry, known for his leadership at Microsoft and his insights into the software industry. He served as the president of the Windows Division at Microsoft, where he played a key role in shaping the company's strategy and product development. Under his leadership, Microsoft focused on creating a culture of artists, which led to the development of innovative products and a significant scale of operations. Sinofsky's tenure at Microsoft was marked by the company's continued dominance in the PC market and its response to the rise of Apple's iPhone. After leaving Microsoft, Sinofsky joined a16z as a board partner, where he continues to contribute his expertise and insights to the technology industry.",
-      "derived": {
-        "current_role": "Board Partner at a16z",
-        "former_positions": "President of the Windows Division at Microsoft"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Steven Sinofsky is a prominent figure in the technology industry, known for his leadership at Microsoft and his insights into the software industry. He served as the president of the Windows Division at Microsoft, where he played a key role in shaping the company's strategy and product development. Under his leadership, Microsoft focused on creating a culture of artists, which led to the development of innovative products and a significant scale of operations.",
-        "Sinofsky's tenure at Microsoft was marked by the company's continued dominance in the PC market and its response to the rise of Apple's iPhone. After leaving Microsoft, Sinofsky joined a16z as a board partner, where he continues to contribute his expertise and insights to the technology industry."
-      ],
-      "sections": [
-        {
-          "heading": "Leadership at Microsoft",
-          "body": "Steven Sinofsky served as the president of the Windows Division at Microsoft, where he played a key role in shaping the company's strategy and product development."
-        },
-        {
-          "heading": "Cultural Impact",
-          "body": "Sinofsky created a culture of artists at Microsoft, which led to the development of innovative products and a significant scale of operations."
-        },
-        {
-          "heading": "Response to iPhone",
-          "body": "During Sinofsky's tenure at Microsoft, the company faced the rise of Apple's iPhone and had to adapt its strategy accordingly."
-        },
-        {
-          "heading": "Post-Microsoft Career",
-          "body": "After leaving Microsoft, Sinofsky joined a16z as a board partner, where he continues to contribute his expertise and insights to the technology industry."
-        }
-      ]
-    },
-    "net_worth": "$300.0M"
   },
   {
     "id": 169,
@@ -34185,7 +34295,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-18 \u2022 The Geopolitics of Technology and the Future Economy",
     "last_proof_snippet": "Helbert emphasizes the importance of hardware in the geopolitical technology war and the control over the internet's infrastructure.",
@@ -34249,7 +34359,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-19 \u2022 Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
     "last_proof_snippet": "The immediate impact of an oil shock is inflationary, but over time it could lead to a negative shock on the economy.",

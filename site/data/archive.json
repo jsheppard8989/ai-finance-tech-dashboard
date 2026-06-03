@@ -43,6 +43,27 @@
       "podcast_episode_id": 254
     },
     {
+      "id": 270,
+      "title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-02",
+      "summary": "In this episode, the discussion revolves around Nvidia's announcement of the RTX Spark Superchip and its implications for the future of personal computing. The shift from CPU to GPU and neural processors is highlighted as a critical development for device performance and cost efficiency. The concept of 'tokens' in AI usage underscores the need for local processing to avoid high cloud-based AI service costs. The competitive landscape is set to change with AI-optimized hardware potentially disrupting the traditional Windows device market. The strategies of Apple and Nvidia in integrating CUDA APIs and AI will be crucial in shaping their market positions.",
+      "key_takeaway": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
+      "tickers_mentioned": [
+        "NVDA",
+        "AAPL",
+        "DELL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 255
+    },
+    {
       "id": 266,
       "title": "Building AI Agents for Enterprise Operations",
       "source_type": "podcast",
@@ -140,7 +161,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-29",
       "archived_date": null,
@@ -5040,22 +5061,40 @@
   "definitions": [],
   "overton": [
     {
-      "id": 218,
-      "term": "AI Infrastructure Layer",
-      "description": "A foundational platform that supports multiple AI applications and interfaces, enabling scalability and accessibility.",
+      "id": 219,
+      "term": "AI-native computing",
+      "description": "The integration of AI processing capabilities into computing devices, allowing for more efficient and cost-effective AI usage.",
       "first_detected_date": "2026-06-02",
       "last_mentioned_date": "2026-06-02",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Invest in companies building robust AI infrastructure layers to capture a wide range of market opportunities.",
+      "investment_implications": "Investors should consider companies pioneering AI-native computing for potential growth opportunities.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 254,
-      "first_detected_speaker": "Sarah Fryer",
-      "last_mentioned_episode_id": 254,
-      "last_mentioned_speaker": "Sarah Fryer"
+      "first_detected_episode_id": 255,
+      "first_detected_speaker": "Steven Sinofsky",
+      "last_mentioned_episode_id": 255,
+      "last_mentioned_speaker": "Steven Sinofsky"
+    },
+    {
+      "id": 220,
+      "term": "Local processing",
+      "description": "The processing of data on local devices rather than in the cloud, reducing costs and potentially improving performance.",
+      "first_detected_date": "2026-06-02",
+      "last_mentioned_date": "2026-06-02",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should evaluate companies that optimize for local processing to enhance user experience and reduce operational costs.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 255,
+      "first_detected_speaker": "Steven Sinofsky",
+      "last_mentioned_episode_id": 255,
+      "last_mentioned_speaker": "Steven Sinofsky"
     },
     {
       "id": 194,
