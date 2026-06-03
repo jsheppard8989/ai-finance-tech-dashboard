@@ -1,5 +1,21 @@
 [
   {
+    "id": 256,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
+    "episode_date": "2026-06-03",
+    "summary": "This podcast episode delves into the changing dynamics between nation-states and digital networks, with a focus on the rise of 'internet first' ideology. It discusses the decline of Silicon Valley's dominance and the need for a decentralized approach to tech innovation. The conversation also touches on supply chain vulnerabilities, particularly in relation to the U.S. military's reliance on Chinese manufacturing, and the importance of empathy in negotiations. The episode concludes with a call for a realistic assessment of geopolitical dynamics and the future of global power structures.",
+    "key_takeaways": [
+      "Investors should consider companies that align with the 'internet first' ideology, especially those using decentralized technologies.",
+      "The decline of Silicon Valley indicates a need to explore emerging tech ecosystems in other regions, diversifying investment opportunities.",
+      "Investors in defense and technology sectors should evaluate companies' supply chain strategies and resilience, given the U.S. military's dependency on Chinese manufacturing.",
+      "Business leaders should incorporate empathetic strategies in negotiations to enhance cooperation and outcomes.",
+      "Policymakers and investors should support initiatives that enhance domestic manufacturing capabilities to strengthen supply chains."
+    ],
+    "investment_thesis": "Invest in companies that are part of decentralized tech ecosystems and those leveraging 'internet first' ideologies, while advocating for rational industrial policies to strengthen supply chains.",
+    "key_tickers": null
+  },
+  {
     "id": 255,
     "podcast_name": "The a16z Show",
     "episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
@@ -119,22 +135,6 @@
       "Evaluate the market impact of a potential Tesla-SpaceX merger."
     ],
     "investment_thesis": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
-    "key_tickers": null
-  },
-  {
-    "id": 248,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "Pope vs AI, Anthropic's Digital God, AI Job Loss Narrative Flips, Open Source Crackdown Coming?",
-    "episode_date": "2026-05-29",
-    "summary": "In this episode, the hosts of 'All-In with Chamath, Jason, Sacks & Friedberg' delve into the complex relationship between artificial intelligence (AI) and the job market. They debate whether AI will lead to mass unemployment or job creation, discuss the concept of AI washing, and consider the role of open-source AI models in fostering competition. The conversation also touches on regulatory capture concerns and the need for empathy towards those affected by job displacement due to technological advancements.",
-    "key_takeaways": [
-      "AI's impact on the job market is a contentious issue with arguments for both job gains and losses.",
-      "AI washing, attributing layoffs to AI, could lead to legal and reputational risks for companies.",
-      "Open-source AI models are seen as crucial for preventing monopolization and ensuring data sovereignty.",
-      "Regulatory capture in the AI space could lead to stifled innovation and market concentration.",
-      "Companies must balance AI implementation with workforce management to avoid unnecessary job losses."
-    ],
-    "investment_thesis": "Investors should consider the dual impact of AI on job creation and displacement, focusing on companies that are AI-enabled and those that support open-source AI solutions to foster a competitive and innovative market.",
     "key_tickers": null
   }
 ]

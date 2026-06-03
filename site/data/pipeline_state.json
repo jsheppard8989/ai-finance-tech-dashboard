@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-03T06:34:34.630178",
-  "last_updated": "2026-06-03T06:34:34.630178",
-  "last_pipeline_run": "2026-06-03T06:34:34.630178",
+  "generated_at": "2026-06-03T12:07:53.760414",
+  "last_updated": "2026-06-03T12:07:53.760414",
+  "last_pipeline_run": "2026-06-03T12:07:53.760414",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -9,23 +9,23 @@
   },
   "counts": {
     "ticker_mentions": 179,
-    "podcast_episodes": 228,
+    "podcast_episodes": 229,
     "newsletters": 7,
     "daily_scores": 117,
-    "overton_terms_total": 153,
-    "latest_insights_total": 242,
+    "overton_terms_total": 155,
+    "latest_insights_total": 243,
     "today_mentions": {
       "podcast": 2
     },
-    "podcasts_analyzed": 0
+    "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 0,
-    "analyzed": 0,
-    "insight_created": 0,
-    "published": 0,
-    "total": 1
+    "downloaded": 2,
+    "transcribed": 1,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 2
   },
   "episodes": [
     {
@@ -34,6 +34,24 @@
       "title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
       "published": "2026-06-03",
       "rss_guid": "0efb210b-f2bb-46ca-a785-98c4b831fad5",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
+    },
+    {
+      "id": "f0eded00-102b-4d07-a079-f6f4492ecbdf",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
+      "published": "2026-06-03",
+      "rss_guid": "f0eded00-102b-4d07-a079-f6f4492ecbdf",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -102,9 +120,9 @@
   ],
   "available_from_rss": [
     {
-      "podcast": "The a16z Show",
-      "title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
-      "published": "Wed, 3 Jun 2026 10:00:00 +0000",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
+      "published": "Wed, 03 Jun 2026 03:06:00 +0000",
       "published_date": "2026-06-03",
       "rss_guid": ""
     }

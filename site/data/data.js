@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-03T06:34:46.210044",
-  chartsVersion: "2026-06-03T06:34:31.707839",
+  generatedAt: "2026-06-03T12:08:11.030984",
+  chartsVersion: "2026-06-03T12:07:49.675366",
   priceSnapshot: {
   "GOOGL": {
-    "price": 361.85,
-    "change_pct": -10.13,
+    "price": 360.7,
+    "change_pct": -10.07,
     "name": "GOOGL",
-    "updated_at": "2026-06-03T06:34:31.706727"
+    "updated_at": "2026-06-03T12:07:49.674071"
   },
   "BTC": {
-    "price": 67110.5,
-    "change_pct": -13.45,
+    "price": 65711.08,
+    "change_pct": -15.25,
     "name": "BTC",
-    "updated_at": "2026-06-03T06:34:31.706746"
+    "updated_at": "2026-06-03T12:07:49.674091"
   },
   "NVDA": {
-    "price": 222.82,
-    "change_pct": -1.33,
+    "price": 215.66,
+    "change_pct": -8.52,
     "name": "NVDA",
-    "updated_at": "2026-06-03T06:34:31.706756"
+    "updated_at": "2026-06-03T12:07:49.674099"
   },
   "MSFT": {
-    "price": 441.31,
-    "change_pct": 9.14,
+    "price": 424.79,
+    "change_pct": 3.98,
     "name": "MSFT",
-    "updated_at": "2026-06-03T06:34:31.706763"
+    "updated_at": "2026-06-03T12:07:49.674107"
   },
   "WTI": {
-    "price": 4.02,
-    "change_pct": -8.43,
+    "price": 4.18,
+    "change_pct": -5.74,
     "name": "WTI",
-    "updated_at": "2026-06-03T06:34:31.706771"
+    "updated_at": "2026-06-03T12:07:49.674115"
   },
   "S&P 500": {
-    "price": 759.57,
-    "change_pct": 2.33,
+    "price": 754.72,
+    "change_pct": 0.88,
     "name": "S&P 500",
-    "updated_at": "2026-06-03T06:34:31.706779"
+    "updated_at": "2026-06-03T12:07:49.674123"
   },
   "META": {
-    "price": 597.63,
-    "change_pct": -3.08,
+    "price": 618.14,
+    "change_pct": -0.05,
     "name": "META",
-    "updated_at": "2026-06-03T06:34:31.706787"
+    "updated_at": "2026-06-03T12:07:49.674131"
   },
   "AMZN": {
-    "price": 256.52,
-    "change_pct": -5.04,
+    "price": 248.45,
+    "change_pct": -7.02,
     "name": "AMZN",
-    "updated_at": "2026-06-03T06:34:31.706794"
+    "updated_at": "2026-06-03T12:07:49.674138"
   },
   "TSLA": {
-    "price": 423.74,
-    "change_pct": -4.84,
+    "price": 421.49,
+    "change_pct": -4.92,
     "name": "TSLA",
-    "updated_at": "2026-06-03T06:34:31.706802"
+    "updated_at": "2026-06-03T12:07:49.674146"
   },
   "AAPL": {
-    "price": 315.2,
-    "change_pct": 5.46,
+    "price": 310.24,
+    "change_pct": 4.04,
     "name": "AAPL",
-    "updated_at": "2026-06-03T06:34:31.706809"
+    "updated_at": "2026-06-03T12:07:49.674154"
   },
   "QQQ": {
-    "price": 746.16,
-    "change_pct": 4.4,
+    "price": 742.65,
+    "change_pct": 3.18,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-03T06:34:31.706817"
+    "updated_at": "2026-06-03T12:07:49.674161"
   },
   "BTC-USD": {
-    "price": 67100.0,
-    "change_pct": -13.46,
+    "price": 65720.55,
+    "change_pct": -15.24,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-03T06:34:31.706826"
+    "updated_at": "2026-06-03T12:07:49.674170"
   }
 },
   tickerScores: [
@@ -834,6 +834,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 271,
+      "title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-03",
+      "summary": "This podcast episode delves into the changing dynamics between nation-states and digital networks, with a focus on the rise of 'internet first' ideology. It discusses the decline of Silicon Valley's dominance and the need for a decentralized approach to tech innovation. The conversation also touches on supply chain vulnerabilities, particularly in relation to the U.S. military's reliance on Chinese manufacturing, and the importance of empathy in negotiations. The episode concludes with a call for a realistic assessment of geopolitical dynamics and the future of global power structures.",
+      "key_takeaway": "Invest in companies that are part of decentralized tech ecosystems and those leveraging 'internet first' ideologies, while advocating for rational industrial policies to strengthen supply chains.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "TSLA",
+        "AMZN",
+        "FB"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 256
+    },
+    {
       "id": 268,
       "title": "Real Boom? Fake Money?",
       "source_type": "podcast",
@@ -1015,7 +1038,7 @@ const dashboardData = {
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-29",
       "archived_date": null,
@@ -5894,6 +5917,42 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 221,
+      "term": "Internet First Ideology",
+      "description": "A political and technological perspective that prioritizes digital networks and global connectivity over traditional nationalism and socialism.",
+      "first_detected_date": "2026-06-03",
+      "last_mentioned_date": "2026-06-03",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should look for companies that leverage digital infrastructure and global connectivity as a core part of their business model.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 256,
+      "first_detected_speaker": "a16z Host (hosts)",
+      "last_mentioned_episode_id": 256,
+      "last_mentioned_speaker": "a16z Host (hosts)"
+    },
+    {
+      "id": 222,
+      "term": "Decentralization of Tech Communities",
+      "description": "The shift away from Silicon Valley as the central hub for tech innovation towards a more globally distributed model.",
+      "first_detected_date": "2026-06-03",
+      "last_mentioned_date": "2026-06-03",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should explore tech ecosystems emerging in regions outside traditional tech hubs for new investment opportunities.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 256,
+      "first_detected_speaker": "a16z Host (hosts)",
+      "last_mentioned_episode_id": 256,
+      "last_mentioned_speaker": "a16z Host (hosts)"
+    },
+    {
       "id": 219,
       "term": "AI-native computing",
       "description": "The integration of AI processing capabilities into computing devices, allowing for more efficient and cost-effective AI usage.",
@@ -8658,6 +8717,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 271,
+      "title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-03",
+      "summary": "This podcast episode delves into the changing dynamics between nation-states and digital networks, with a focus on the rise of 'internet first' ideology. It discusses the decline of Silicon Valley's dominance and the need for a decentralized approach to tech innovation. The conversation also touches on supply chain vulnerabilities, particularly in relation to the U.S. military's reliance on Chinese manufacturing, and the importance of empathy in negotiations. The episode concludes with a call for a realistic assessment of geopolitical dynamics and the future of global power structures.",
+      "key_takeaway": "Invest in companies that are part of decentralized tech ecosystems and those leveraging 'internet first' ideologies, while advocating for rational industrial policies to strengthen supply chains.",
+      "tickers_mentioned": "[\"AAPL\", \"MSFT\", \"TSLA\", \"AMZN\", \"FB\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 256,
+      "episode_release_date": "2026-06-03",
+      "guest_name": "ideology. It",
+      "key_tickers": []
+    },
+    {
       "id": 268,
       "title": "Real Boom? Fake Money?",
       "source_type": "podcast",
@@ -8800,26 +8879,6 @@ const dashboardData = {
       "episode_release_date": "2026-05-30",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 263,
-      "title": "Pope vs AI, Anthropic's Digital God, AI Job Loss Narrative Flips, Open Source Crackdown Coming?",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-05-29",
-      "summary": "In this episode, the hosts of 'All-In with Chamath, Jason, Sacks & Friedberg' delve into the complex relationship between artificial intelligence (AI) and the job market. They debate whether AI will lead to mass unemployment or job creation, discuss the concept of AI washing, and consider the role of open-source AI models in fostering competition. The conversation also touches on regulatory capture concerns and the need for empathy towards those affected by job displacement due to technological advancements.",
-      "key_takeaway": "Investors should consider the dual impact of AI on job creation and displacement, focusing on companies that are AI-enabled and those that support open-source AI solutions to foster a competitive and innovative market.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-29",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 248,
-      "episode_release_date": "2026-05-29",
-      "guest_name": null,
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -8945,6 +9004,58 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 221,
+      "term": "Internet First Ideology",
+      "description": "A political and technological perspective that prioritizes digital networks and global connectivity over traditional nationalism and socialism.",
+      "first_detected_date": "2026-06-03",
+      "last_mentioned_date": "2026-06-03",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should look for companies that leverage digital infrastructure and global connectivity as a core part of their business model.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 256,
+      "first_detected_speaker": "a16z Host (hosts)",
+      "last_mentioned_episode_id": 256,
+      "last_mentioned_speaker": "a16z Host (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
+      "first_detected_episode_date": "2026-06-03",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
+      "last_mentioned_episode_date": "2026-06-03"
+    },
+    {
+      "id": 222,
+      "term": "Decentralization of Tech Communities",
+      "description": "The shift away from Silicon Valley as the central hub for tech innovation towards a more globally distributed model.",
+      "first_detected_date": "2026-06-03",
+      "last_mentioned_date": "2026-06-03",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should explore tech ecosystems emerging in regions outside traditional tech hubs for new investment opportunities.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 256,
+      "first_detected_speaker": "a16z Host (hosts)",
+      "last_mentioned_episode_id": 256,
+      "last_mentioned_speaker": "a16z Host (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
+      "first_detected_episode_date": "2026-06-03",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
+      "last_mentioned_episode_date": "2026-06-03"
+    },
     {
       "id": 219,
       "term": "AI-native computing",
@@ -9229,58 +9340,6 @@ const dashboardData = {
       "first_detected_episode_date": "2026-05-07",
       "last_mentioned_podcast": "Macro Voices",
       "last_mentioned_episode_title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
-      "last_mentioned_episode_date": "2026-05-07"
-    },
-    {
-      "id": 161,
-      "term": "AGI",
-      "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
-      "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-05-07",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 204,
-      "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 204,
-      "last_mentioned_speaker": "Demis Hassabis",
-      "overton_score": 0.54,
-      "resonance_pct": 14,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
-      "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
-      "last_mentioned_episode_date": "2026-05-07"
-    },
-    {
-      "id": 162,
-      "term": "GLP-1 Drugs",
-      "description": "Glucagon-like peptide-1 receptor agonists, a class of drugs used for the treatment of type 2 diabetes and potentially obesity.",
-      "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-05-07",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in pharmaceutical companies developing GLP-1 drugs for longevity and healthspan enhancement.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 204,
-      "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 204,
-      "last_mentioned_speaker": "Demis Hassabis",
-      "overton_score": 0.54,
-      "resonance_pct": 14,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
-      "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "last_mentioned_episode_date": "2026-05-07"
     }
   ]
@@ -25480,12 +25539,94 @@ const dashboardData = {
       "AAPL",
       "DELL"
     ]
+  },
+  "271": {
+    "id": 261,
+    "insight_id": 271,
+    "podcast_episode_id": 256,
+    "overview": "The unresolved tension highlighted in the podcast is the balance of power between nation-states and digital networks, with the 'internet first' ideology challenging traditional state-centric approaches. This dynamic is contested by the decline of Silicon Valley and the rise of decentralized tech communities, which could reshape global tech innovation landscapes. The allocator-relevant implication is that investors must navigate the shift towards digital infrastructure's importance in governance and the geopolitical implications of supply chain vulnerabilities, particularly in the context of U.S.-China relations.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the development of 'internet first' companies that leverage decentralized technologies, as these may offer significant growth opportunities in a changing geopolitical landscape.",
+      "The potential for a coalition of global technic capitalism could provide a counterbalance to authoritarian regimes, suggesting that investors should consider the geopolitical alignment of their tech investments.",
+      "Business leaders should integrate empathetic negotiation strategies to enhance cooperation and outcomes, particularly in international dealings where understanding diverse motivations is crucial.",
+      "Policymakers and investors should advocate for and support initiatives that enhance domestic manufacturing capabilities to reduce supply chain vulnerabilities and strengthen national security."
+    ],
+    "investment_thesis": "The core logic of this investment thesis is that the rise of 'internet first' ideologies and the decentralization of tech innovation will lead to a redistribution of power and wealth in the global tech sector. This shift, combined with the need for a rational industrial policy to address supply chain vulnerabilities, presents opportunities for investors to capitalize on emerging tech ecosystems and companies that align with these trends. The thesis is vindicated if we observe a continued decline in Silicon Valley's dominance, the emergence of new tech hubs, and increased investment in domestic manufacturing capabilities. Conversely, it would be invalidated if these trends reverse, and traditional state power structures reassert dominance over digital networks.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a key player in the tech industry and has a global supply chain that could be affected by the trends discussed in the podcast. Its ability to adapt to a decentralized tech ecosystem and the 'internet first' ideology will be crucial.",
+        "positioning": "Positioning in Apple should be strategic, considering its potential to lead or be disrupted by the changes in tech innovation and supply chain dynamics.",
+        "risk": "Key risks include Apple's reliance on foreign manufacturing, particularly in China, and its ability to compete in a decentralized tech landscape."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's cloud services and global presence make it relevant to the discussion on decentralized tech ecosystems and the 'internet first' ideology.",
+        "positioning": "Microsoft can be positioned long due to its potential to benefit from the shift towards digital infrastructure and cloud-based services.",
+        "risk": "The risk lies in Microsoft's ability to maintain its competitive edge in a rapidly changing tech landscape and to navigate geopolitical tensions."
+      },
+      "TSLA": {
+        "rationale": "Tesla's innovative approach to electric vehicles and energy solutions aligns with the 'internet first' ideology and the need for a rational industrial policy.",
+        "positioning": "Tesla can be positioned long, as it is at the forefront of technological innovation and has the potential to disrupt traditional automotive and energy sectors.",
+        "risk": "The risk is associated with Tesla's reliance on a global supply chain and its ability to scale production while maintaining quality and safety standards."
+      },
+      "AMZN": {
+        "rationale": "Amazon's extensive cloud infrastructure and global logistics network position it to benefit from the decentralization of tech and the need for robust supply chain management.",
+        "positioning": "Amazon can be positioned long, considering its potential to capitalize on the shift towards digital networks and the importance of supply chain resilience.",
+        "risk": "The risk includes Amazon's exposure to regulatory scrutiny and the potential for increased competition in the cloud services market."
+      },
+      "FB": {
+        "rationale": "Facebook's role in digital networks and its global user base make it relevant to the discussion on the 'internet first' ideology and the decentralization of tech communities.",
+        "positioning": "Facebook can be positioned long, as it has the potential to leverage its digital network to maintain its dominance in social media and advertising.",
+        "risk": "The risk is associated with Facebook's ability to navigate regulatory challenges and maintain user trust in a decentralized tech ecosystem."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The resurgence of Silicon Valley as the dominant hub for tech innovation, which would challenge the thesis of a decentralized tech ecosystem.",
+      "A significant increase in protectionist policies that could hinder the growth of 'internet first' companies and the global flow of digital networks.",
+      "The failure of new tech hubs to emerge, suggesting that the decentralization of tech communities may not be as imminent or widespread as predicted."
+    ],
+    "catalysts": [
+      "The outcome of U.S.-China trade negotiations, which could significantly impact supply chain dynamics and the need for a rational industrial policy.",
+      "The development of new tech hubs and the success of decentralized tech ecosystems in regions outside of Silicon Valley.",
+      "Regulatory developments in the tech sector, particularly those related to data privacy and antitrust, which could shape the future of digital networks and 'internet first' companies.",
+      "Geopolitical events, such as conflicts or alliances, that could alter the balance of power between nation-states and digital networks.",
+      "Technological breakthroughs in areas like artificial intelligence, blockchain, and renewable energy, which could accelerate the shift towards 'internet first' ideologies and decentralized tech communities."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-03T12:06:56.487097",
+    "updated_at": "2026-06-03 17:06:56",
+    "episode_evidence": "The podcast episode with Balaji and Steven Glinert provides a nuanced perspective on the evolving relationship between nation-states and digital networks. They discuss the 'internet first' ideology, which is described as 'the skilled alternative to both the nationalism and socialism', suggesting a shift towards prioritizing digital networks over traditional state power structures. This ideology is significant as it could redefine political and economic strategies, emphasizing digital infrastructure's role in governance. The conversation also addresses the decline of Silicon Valley's dominance, with the assertion that 'Silicon Valley's we know it is actually over... we need to decentralize Silicon Valley around the world.' This implies a potential dispersion of tech innovation hubs, which could lead to new investment opportunities in emerging tech ecosystems globally. Furthermore, the podcast highlights the U.S. military's reliance on Chinese manufacturing, stating that 'The U.S. military exhausted its inventory of some types of long-range missiles within the first week of a Taiwan conflict.' This underscores the critical need for a rational industrial policy to manage supply chains and mitigate national security risks.",
+    "falsification_tracks": [
+      "The emergence of new tech innovation hubs outside of Silicon Valley fails to materialize, indicating a continued centralization of tech ecosystems.",
+      "The U.S. military successfully diversifies its supply chain, reducing dependency on Chinese manufacturing, which would diminish the urgency of the discussed supply chain vulnerabilities.",
+      "A significant increase in domestic manufacturing capabilities in the U.S., which would challenge the current narrative of supply chain vulnerabilities and the need for a rational industrial policy."
+    ],
+    "insight_title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
+    "source_name": "The a16z Show",
+    "source_date": "2026-06-03",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 11527,
+    "id": 11585,
+    "name": "ideology. It",
+    "slug": "ideology-it",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in companies that are part of decentralized tech ecosystems and those leveraging 'internet first' ideologies, while advocating for rational industrial policies to strengthen supply chains.",
+    "last_episode_title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-03",
+    "appearance_count": 1
+  },
+  {
+    "id": 11586,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -25497,7 +25638,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11528,
+    "id": 11587,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -25509,7 +25650,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11529,
+    "id": 11588,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -25521,7 +25662,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11530,
+    "id": 11589,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -25533,7 +25674,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11531,
+    "id": 11590,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -25545,7 +25686,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11532,
+    "id": 11591,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -25557,7 +25698,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11533,
+    "id": 11592,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -25569,7 +25710,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11534,
+    "id": 11593,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -25581,7 +25722,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11535,
+    "id": 11594,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -25593,7 +25734,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11536,
+    "id": 11595,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -25605,7 +25746,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 11537,
+    "id": 11596,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -25617,7 +25758,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11538,
+    "id": 11597,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -25629,7 +25770,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11539,
+    "id": 11598,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -25641,7 +25782,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11540,
+    "id": 11599,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -25653,7 +25794,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11541,
+    "id": 11600,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -25665,7 +25806,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11542,
+    "id": 11601,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -25677,7 +25818,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11543,
+    "id": 11602,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -25689,7 +25830,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11544,
+    "id": 11603,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -25701,7 +25842,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11545,
+    "id": 11604,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -25709,18 +25850,6 @@ const dashboardData = {
     "last_main_idea": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
     "last_episode_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-04",
-    "appearance_count": 1
-  },
-  {
-    "id": 11546,
-    "name": "Warren Pies",
-    "slug": "warren-pies",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
-    "last_episode_title": "Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-04",
     "appearance_count": 1
   }
@@ -26847,7 +26976,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -26996,7 +27125,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -27060,7 +27189,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -27243,7 +27372,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -27307,7 +27436,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -28050,7 +28179,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -28116,7 +28245,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -30752,7 +30881,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -33119,7 +33248,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -33179,7 +33308,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -33239,7 +33368,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",
@@ -34487,7 +34616,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
@@ -34545,7 +34674,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",
