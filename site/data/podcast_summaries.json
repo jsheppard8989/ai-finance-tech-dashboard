@@ -1,5 +1,21 @@
 [
   {
+    "id": 259,
+    "podcast_name": "The a16z Show",
+    "episode_title": "AI Eats the World? A Reality Check with Benedict Evans",
+    "episode_date": "2026-06-04",
+    "summary": "The podcast discusses the rapid adoption of AI, particularly in coding, and its implications for the future. Key themes include the uncertainty of AI's impact on software development, job structures, and user engagement. The conversation also touches on the potential for AI to automate previously impossible tasks and the need for new workflows and organizational structures. The future of AI is seen as dependent on its ability to create new value propositions beyond automation.",
+    "key_takeaways": [
+      "Invest in companies integrating AI in coding and software development for high returns.",
+      "Diversify investment portfolios to hedge against the unpredictability of AI's evolution.",
+      "Analyze AI companies' business models to assess their potential for capturing value and pricing power.",
+      "Explore AI applications that could automate previously impossible tasks, creating new market opportunities.",
+      "Prepare for workforce transitions by investing in reskilling programs for employees affected by AI integration."
+    ],
+    "investment_thesis": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
+    "key_tickers": null
+  },
+  {
     "id": 258,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
@@ -122,22 +138,6 @@
       "California's initiative to track AI-related job losses reflects proactive government engagement in workforce transitions."
     ],
     "investment_thesis": "Invest in companies at the forefront of AI, quantum computing, and health tech advancements, as these sectors are poised for significant growth and disruption.",
-    "key_tickers": null
-  },
-  {
-    "id": 251,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Building AI Agents for Enterprise Operations",
-    "episode_date": "2026-06-01",
-    "summary": "In this episode, the a16z Show explores Happy Robot's approach to solving enterprise coordination problems using voice AI, particularly in logistics and supply chain. The company has successfully integrated its voice agents into major logistics firms, emphasizing the importance of understanding conversation context and enhancing human capabilities. Happy Robot's forward-deployed engineering model allows for rapid customization of AI solutions, and the company is expanding into other sectors, recognizing the universality of coordination challenges across industries.",
-    "key_takeaways": [
-      "Happy Robot identifies enterprise coordination as a broader problem than just logistics, allowing for technology scalability across industries.",
-      "Contextual awareness in AI interactions is crucial for enhancing user experiences and operational efficiency.",
-      "The forward-deployed engineering model accelerates product development and ensures solutions are tailored to specific business needs.",
-      "Human-AI collaboration can lead to increased employee satisfaction and improved business outcomes by automating routine tasks.",
-      "A structured approach to AI implementation, starting with simple tasks and scaling to complex processes, facilitates adoption and learning."
-    ],
-    "investment_thesis": "Invest in companies that leverage voice AI to solve enterprise coordination challenges, with a focus on scalability across industries and human-AI collaboration.",
     "key_tickers": null
   }
 ]

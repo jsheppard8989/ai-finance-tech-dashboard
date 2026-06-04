@@ -2,19 +2,6 @@
   "rotation_index": 14,
   "weeks": [
     {
-      "friday_iso": "2026-05-22",
-      "week_label": "Week of 2026-05-22",
-      "prompt": "Will MicroStrategy sell any Bitcoin within the next 42 days?",
-      "debater_a": "Alex Karp",
-      "debater_b": "Eric Jeng",
-      "expires_rule": "Resolves Friday 12:00 PM CST 2026-07-03",
-      "resolves_iso": "2026-07-03",
-      "resolution_status": "pending",
-      "resolution_notes": "",
-      "archived_at": "2026-05-29T05:02:27.984786",
-      "audio_href": "./audio/archive/debate_2026-05-22.mp3"
-    },
-    {
       "friday_iso": "2026-05-15",
       "week_label": "Week of 2026-05-15",
       "prompt": "Will any country leave NATO within the next 42 days?",
@@ -60,9 +47,9 @@
       "debater_a": "Garrett Langley",
       "debater_b": "Alex Finn",
       "expires_rule": "Resolves Friday 12:00 PM CST 2026-06-05",
-      "resolution_status": "pending",
-      "oracle_pending_lean": "negative",
-      "resolution_notes": "Pending. Oracle (Jared) leans Negative\u2014would take the side that MSTR does not sell BTC in-window; contract still open.",
+      "resolution_status": "yes",
+      "resolution_notes": "Affirmative (contract YES). Strategy sold 32 BTC.",
+      "resolved_at": "2026-06-04T08:40:00-05:00",
       "archived_at": "2026-05-01T05:08:50.459570",
       "resolves_iso": "2026-06-05"
     },

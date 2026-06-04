@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-04T06:37:18.768741",
-  chartsVersion: "2026-06-04T06:37:12.583846",
+  generatedAt: "2026-06-04T12:06:11.438621",
+  chartsVersion: "2026-06-04T12:05:46.433701",
   priceSnapshot: {
   "GOOGL": {
-    "price": 358.99,
-    "change_pct": -10.49,
+    "price": 371.89,
+    "change_pct": -6.27,
     "name": "GOOGL",
-    "updated_at": "2026-06-04T06:37:12.582607"
+    "updated_at": "2026-06-04T12:05:46.432690"
   },
   "BTC": {
-    "price": 62325.32,
-    "change_pct": -17.44,
+    "price": 63423.36,
+    "change_pct": -15.98,
     "name": "BTC",
-    "updated_at": "2026-06-04T06:37:12.582632"
+    "updated_at": "2026-06-04T12:05:46.432710"
   },
   "MSFT": {
-    "price": 427.34,
-    "change_pct": 4.6,
+    "price": 426.8,
+    "change_pct": 1.37,
     "name": "MSFT",
-    "updated_at": "2026-06-04T06:37:12.582644"
+    "updated_at": "2026-06-04T12:05:46.432719"
   },
   "NVDA": {
-    "price": 214.75,
-    "change_pct": -8.9,
+    "price": 218.16,
+    "change_pct": -3.18,
     "name": "NVDA",
-    "updated_at": "2026-06-04T06:37:12.582655"
+    "updated_at": "2026-06-04T12:05:46.432727"
   },
   "WTI": {
-    "price": 4.01,
-    "change_pct": -9.69,
+    "price": 4.08,
+    "change_pct": -13.91,
     "name": "WTI",
-    "updated_at": "2026-06-04T06:37:12.582665"
+    "updated_at": "2026-06-04T12:05:46.432734"
   },
   "META": {
-    "price": 622.98,
-    "change_pct": 0.74,
+    "price": 629.88,
+    "change_pct": 2.55,
     "name": "META",
-    "updated_at": "2026-06-04T06:37:12.582676"
+    "updated_at": "2026-06-04T12:05:46.432741"
   },
   "AMZN": {
-    "price": 250.02,
-    "change_pct": -6.44,
+    "price": 253.88,
+    "change_pct": -3.88,
     "name": "AMZN",
-    "updated_at": "2026-06-04T06:37:12.582687"
+    "updated_at": "2026-06-04T12:05:46.432749"
   },
   "S&P 500": {
-    "price": 754.24,
-    "change_pct": 0.81,
+    "price": 756.67,
+    "change_pct": 2.37,
     "name": "S&P 500",
-    "updated_at": "2026-06-04T06:37:12.582696"
+    "updated_at": "2026-06-04T12:05:46.432756"
   },
   "TSLA": {
-    "price": 423.7,
-    "change_pct": -4.42,
+    "price": 419.41,
+    "change_pct": -0.67,
     "name": "TSLA",
-    "updated_at": "2026-06-04T06:37:12.582707"
+    "updated_at": "2026-06-04T12:05:46.432764"
   },
   "AAPL": {
-    "price": 310.26,
-    "change_pct": 4.04,
+    "price": 311.14,
+    "change_pct": 3.63,
     "name": "AAPL",
-    "updated_at": "2026-06-04T06:37:12.582717"
+    "updated_at": "2026-06-04T12:05:46.432771"
   },
   "QQQ": {
-    "price": 744.21,
-    "change_pct": 3.39,
+    "price": 740.34,
+    "change_pct": 4.43,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-04T06:37:12.582726"
+    "updated_at": "2026-06-04T12:05:46.432778"
   },
   "BTC-USD": {
-    "price": 62325.32,
-    "change_pct": -17.44,
+    "price": 63423.63,
+    "change_pct": -15.98,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-04T06:37:12.582738"
+    "updated_at": "2026-06-04T12:05:46.432787"
   }
 },
   tickerScores: [
@@ -834,6 +834,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 274,
+      "title": "AI Eats the World? A Reality Check with Benedict Evans",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-04",
+      "summary": "The podcast discusses the rapid adoption of AI, particularly in coding, and its implications for the future. Key themes include the uncertainty of AI's impact on software development, job structures, and user engagement. The conversation also touches on the potential for AI to automate previously impossible tasks and the need for new workflows and organizational structures. The future of AI is seen as dependent on its ability to create new value propositions beyond automation.",
+      "key_takeaway": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 259
+    },
+    {
       "id": 271,
       "title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
       "source_type": "podcast",
@@ -971,7 +994,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-01",
       "archived_date": null,
@@ -8721,6 +8744,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 274,
+      "title": "AI Eats the World? A Reality Check with Benedict Evans",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-04",
+      "summary": "The podcast discusses the rapid adoption of AI, particularly in coding, and its implications for the future. Key themes include the uncertainty of AI's impact on software development, job structures, and user engagement. The conversation also touches on the potential for AI to automate previously impossible tasks and the need for new workflows and organizational structures. The future of AI is seen as dependent on its ability to create new value propositions beyond automation.",
+      "key_takeaway": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 259,
+      "episode_release_date": "2026-06-04",
+      "guest_name": "Benedict Evans",
+      "key_tickers": []
+    },
+    {
       "id": 271,
       "title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
       "source_type": "podcast",
@@ -8847,26 +8890,6 @@ const dashboardData = {
         "AAPL",
         "DELL"
       ]
-    },
-    {
-      "id": 266,
-      "title": "Building AI Agents for Enterprise Operations",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-06-01",
-      "summary": "In this episode, the a16z Show explores Happy Robot's approach to solving enterprise coordination problems using voice AI, particularly in logistics and supply chain. The company has successfully integrated its voice agents into major logistics firms, emphasizing the importance of understanding conversation context and enhancing human capabilities. Happy Robot's forward-deployed engineering model allows for rapid customization of AI solutions, and the company is expanding into other sectors, recognizing the universality of coordination challenges across industries.",
-      "key_takeaway": "Invest in companies that leverage voice AI to solve enterprise coordination challenges, with a focus on scalability across industries and human-AI collaboration.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-01",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 251,
-      "episode_release_date": "2026-06-01",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 267,
@@ -25731,12 +25754,95 @@ const dashboardData = {
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-06-03",
     "key_tickers": []
+  },
+  "274": {
+    "id": 264,
+    "insight_id": 274,
+    "podcast_episode_id": 259,
+    "overview": "The unresolved tension in the AI space is the balance between the rapid technological advancement and the slow adaptation of job structures and user engagement. The competitive dynamic is centered on who can harness AI to create new value propositions beyond automation, which will dictate the winners and losers in this space. The metric that arbitrates this uncertainty is the rate of adoption and integration of AI into existing workflows and the creation of new business models that leverage AI's capabilities.",
+    "key_takeaways_detailed": [
+      "Investors should focus on companies that demonstrate a clear path to integrating AI into their coding processes, as these are likely to be the early beneficiaries of the AI revolution.",
+      "Diversification in AI investments is crucial to manage the risk of unpredictable technological advancements and market shifts.",
+      "Companies should evaluate their business models to ensure they are positioned to capture value from AI, especially as foundation models become commodities.",
+      "Operators should explore how AI can redefine their business processes, focusing on tasks that were previously impossible to automate, to gain a competitive edge.",
+      "Investing in reskilling programs is essential for companies to prepare for the changing job landscape and to ensure their workforce can adapt to new roles created by AI integration."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that AI, particularly in coding, is at an inflection point where its rapid adoption and potential to automate previously impossible tasks create significant value propositions. The timeframe for this thesis is within the next 5 years, where observable developments such as sustained growth in the AI coding market, increased capex by tech companies, and the emergence of new business models leveraging AI would vindicate the thesis. Conversely, a stagnation in market growth, reduced investment in AI by major companies, or a lack of innovation in AI applications would invalidate it.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI for its products and services makes it a key player in the AI revolution.",
+        "positioning": "Apple should be positioned long-term due to its potential to leverage AI across its ecosystem, from software to hardware.",
+        "risk": "Key risks include a slowdown in AI adoption rates and increased competition from other tech giants in the AI space."
+      },
+      "GOOGL": {
+        "rationale": "Google's leadership in AI research and development positions it well to capitalize on the AI-driven coding market.",
+        "positioning": "Google should be considered a strategic long position due to its broad AI capabilities and potential for new value creation.",
+        "risk": "The risk lies in Google's ability to monetize its AI investments and maintain its competitive edge in a rapidly evolving market."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's extensive cloud services and AI tools provide a strong foundation for growth in the AI sector.",
+        "positioning": "Microsoft is well-suited for a tactical long position, leveraging its current market position and AI investments.",
+        "risk": "The risk is tied to Microsoft's ability to innovate and compete with newer, more agile AI-focused companies."
+      },
+      "AMZN": {
+        "rationale": "Amazon's AWS is a major player in cloud computing, which is integral to AI development and deployment.",
+        "positioning": "Amazon should be held as a strategic long, given its cloud infrastructure and potential for AI integration across its services.",
+        "risk": "The risk is associated with Amazon's ability to maintain its market share in cloud services amidst increasing competition."
+      },
+      "TSLA": {
+        "rationale": "Tesla's use of AI in automotive technology, particularly in autonomous driving, positions it at the forefront of AI application.",
+        "positioning": "Tesla can be considered a tactical long, as its AI advancements could significantly impact the automotive industry.",
+        "risk": "The risk is in the regulatory environment and the pace of AI adoption in the automotive sector."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "AI development may not progress as quickly as anticipated, leading to a slower adoption rate and less disruption than expected.",
+      "The integration of AI into job structures could be more gradual, with less significant changes to job roles and organizational structures than predicted.",
+      "The commoditization of foundation models may not occur as rapidly, allowing companies to maintain pricing power and value capture for a longer period."
+    ],
+    "catalysts": [
+      "Regulatory changes that either accelerate or hinder AI development and deployment.",
+      "Breakthroughs in AI technology that significantly change the competitive landscape.",
+      "Major tech companies announcing significant investments or divestitures in AI, indicating a shift in strategic focus.",
+      "Economic indicators that reflect the impact of AI on job structures and user engagement.",
+      "Market research reports that provide updated figures on the growth of the AI coding market."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-04T12:05:02.129611",
+    "updated_at": "2026-06-04 17:05:02",
+    "episode_evidence": "The podcast with Benedict Evans delves into the transformative potential of AI, particularly in coding, which has seen a remarkable growth from $9 billion to $47 billion in a single year. This rapid adoption underscores the urgency for investors to consider AI-driven coding companies for their portfolios. Evans highlights the uncertainty surrounding AI's long-term impact, stating, 'Most of the sort of fundamental questions... didn't really have answers.' This uncertainty extends to the future of job structures, as AI's integration could lead to significant changes in job roles and organizational structures, as Evans ponders, 'What happens if you automate a class of stuff that used to get done by people?' The potential for AI to automate previously impossible tasks is vast, but the actual applications and their effectiveness are still being explored, as Evans points out, 'What stuff was just completely impossible, like computationally cost prohibitive, that now that's within reach?'",
+    "falsification_tracks": [
+      "If the AI coding market fails to grow at the projected rate or experiences a significant downturn, it would challenge the current bullish narrative on AI adoption.",
+      "Should major tech companies not allocate a significant portion of their revenue to capex, as projected, it could indicate a shift in their strategic focus away from AI development.",
+      "If job automation through AI does not lead to significant changes in job roles or organizational structures within the predicted timeframe, it would suggest a slower adoption rate and less disruptive impact than currently anticipated."
+    ],
+    "insight_title": "AI Eats the World? A Reality Check with Benedict Evans",
+    "source_name": "The a16z Show",
+    "source_date": "2026-06-04",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 11886,
+    "id": 11947,
+    "name": "Benedict Evans",
+    "slug": "benedict-evans",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
+    "last_episode_title": "AI Eats the World? A Reality Check with Benedict Evans",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-04",
+    "appearance_count": 1
+  },
+  {
+    "id": 11948,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -25748,7 +25854,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11887,
+    "id": 11949,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -25760,7 +25866,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11888,
+    "id": 11950,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -25772,7 +25878,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11889,
+    "id": 11951,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -25784,7 +25890,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11890,
+    "id": 11952,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -25796,7 +25902,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11891,
+    "id": 11953,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -25808,7 +25914,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11892,
+    "id": 11954,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -25820,7 +25926,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11893,
+    "id": 11955,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -25832,7 +25938,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11894,
+    "id": 11956,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -25844,7 +25950,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11895,
+    "id": 11957,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -25856,7 +25962,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11896,
+    "id": 11958,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -25868,7 +25974,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11897,
+    "id": 11959,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -25880,7 +25986,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11898,
+    "id": 11960,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -25892,7 +25998,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 11899,
+    "id": 11961,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -25904,7 +26010,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11900,
+    "id": 11962,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -25916,7 +26022,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11901,
+    "id": 11963,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -25928,7 +26034,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11902,
+    "id": 11964,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -25940,7 +26046,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11903,
+    "id": 11965,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -25952,7 +26058,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11904,
+    "id": 11966,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -25961,18 +26067,6 @@ const dashboardData = {
     "last_episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
-    "appearance_count": 1
-  },
-  {
-    "id": 11905,
-    "name": "NASA Administrator Jared Isaacman",
-    "slug": "nasa-administrator-jared-isaacman",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
-    "last_episode_title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-06",
     "appearance_count": 1
   }
 ],
@@ -27098,7 +27192,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -27106,6 +27200,69 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 271,
+    "name": "Benedict Evans",
+    "slug": "benedict-evans",
+    "bio": "Benedict Evans is a renowned technology analyst known for his insights on technology trends and market shifts. He was a partner at Andreessen Horowitz, where he focused on the intersection of technology and business. His expertise in understanding the accelerating adoption of technology and its impact on various industries has made him a sought-after commentator in the tech world.",
+    "known_for": "His unique perspective on AI and its integration into various sectors, as well as his presentations on how technology adoption accelerates over time.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Curious and exploratory",
+    "voice_style": "Analytical with a focus on the implications of AI on various sectors",
+    "voice_delivery_notes": "Paced with emphasis on key points about AI's impact",
+    "voice_profile_updated_at": "2026-06-04 17:04:20",
+    "last_seen": "2026-06-04 17:04:20",
+    "last_episode_title": "AI Eats the World? A Reality Check with Benedict Evans",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-04",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
+    "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
+    "supporting_takeaway": "Diversify investment portfolios to hedge against the unpredictability of AI's evolution.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-04T12:04:30.166635",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Benedict Evans",
+      "fetched_at": "2026-06-04T17:04:30.166172+00:00",
+      "cliff_notes": "Benedict Evans began his career in technology, eventually becoming a partner at Andreessen Horowitz, a venture capital firm known for its investments in technology companies. His work at the firm allowed him to gain a deep understanding of the tech industry and its trends. Evans is particularly known for his presentations and writings on technology adoption and its accelerating pace, as well as his views on AI and its potential to disrupt various sectors. His insights have been influential in shaping conversations around technology's role in business and society, making him a respected voice in the tech community.",
+      "derived": {
+        "former_positions": "Partner at Andreessen Horowitz;"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Benedict Evans began his career in technology, eventually becoming a partner at Andreessen Horowitz, a venture capital firm known for its investments in technology companies. His work at the firm allowed him to gain a deep understanding of the tech industry and its trends. Evans is particularly known for his presentations and writings on technology adoption and its accelerating pace, as well as his views on AI and its potential to disrupt various sectors.",
+        "His insights have been influential in shaping conversations around technology's role in business and society, making him a respected voice in the tech community."
+      ],
+      "sections": [
+        {
+          "heading": "Technology Trends",
+          "body": "Benedict Evans is recognized for his analysis of technology trends, particularly how they accelerate and impact various industries."
+        },
+        {
+          "heading": "AI and Industry",
+          "body": "Evans has a unique perspective on AI, examining its integration into different sectors and the myths surrounding its implementation."
+        },
+        {
+          "heading": "Accelerating Adoption",
+          "body": "He has presented on the concept of accelerating technology adoption, explaining how new technologies quickly become integrated into everyday life."
+        },
+        {
+          "heading": "Tech Infrastructure",
+          "body": "Evans discusses the global infrastructure built for technology and the enormous growth in its use, which has changed lives but also presents economic challenges."
+        }
+      ]
+    }
   },
   {
     "id": 270,
@@ -27379,7 +27536,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -27443,7 +27600,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -27626,7 +27783,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -27690,7 +27847,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -28433,7 +28590,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -28499,7 +28656,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -31135,7 +31292,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",

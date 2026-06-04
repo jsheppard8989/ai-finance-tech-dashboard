@@ -389,7 +389,7 @@
   </div>
 
   <script src="./js/common.js"></script>
-  <script src="./data/data.js?v=1780573038"></script>
+  <script src="./data/data.js?v=1780592771"></script>
   <script>
     (function() {
       const data = (typeof dashboardData !== 'undefined') ? dashboardData : null;
@@ -556,6 +556,14 @@
           var cliff = (prof.cliff_notes || '').trim();
           var leads = Array.isArray(prof.lead_paragraphs) ? prof.lead_paragraphs.slice(0, 2).map(function(x) { return String(x || '').trim(); }).filter(Boolean) : [];
           var leadTxt = leads.length ? leads.join('\n\n') : '';
+          if (cliff && leadTxt) {
+            var norm = function(s) { return String(s || '').replace(/\s+/g, ' ').trim().toLowerCase(); };
+            var c = norm(cliff);
+            var l = norm(leadTxt);
+            if (c === l || c.indexOf(l) >= 0 || l.indexOf(c) >= 0) {
+              leadTxt = '';
+            }
+          }
           if (cliff || leadTxt) {
             expandBlock =
               '<details class="pundit-expand">' +

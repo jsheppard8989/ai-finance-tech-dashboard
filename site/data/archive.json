@@ -1,6 +1,29 @@
 {
   "insights": [
     {
+      "id": 274,
+      "title": "AI Eats the World? A Reality Check with Benedict Evans",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-04",
+      "summary": "The podcast discusses the rapid adoption of AI, particularly in coding, and its implications for the future. Key themes include the uncertainty of AI's impact on software development, job structures, and user engagement. The conversation also touches on the potential for AI to automate previously impossible tasks and the need for new workflows and organizational structures. The future of AI is seen as dependent on its ability to create new value propositions beyond automation.",
+      "key_takeaway": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 259
+    },
+    {
       "id": 271,
       "title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
       "source_type": "podcast",
@@ -138,7 +161,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-01",
       "archived_date": null,

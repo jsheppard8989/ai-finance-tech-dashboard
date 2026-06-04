@@ -1120,7 +1120,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -1128,6 +1128,69 @@
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 271,
+    "name": "Benedict Evans",
+    "slug": "benedict-evans",
+    "bio": "Benedict Evans is a renowned technology analyst known for his insights on technology trends and market shifts. He was a partner at Andreessen Horowitz, where he focused on the intersection of technology and business. His expertise in understanding the accelerating adoption of technology and its impact on various industries has made him a sought-after commentator in the tech world.",
+    "known_for": "His unique perspective on AI and its integration into various sectors, as well as his presentations on how technology adoption accelerates over time.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Curious and exploratory",
+    "voice_style": "Analytical with a focus on the implications of AI on various sectors",
+    "voice_delivery_notes": "Paced with emphasis on key points about AI's impact",
+    "voice_profile_updated_at": "2026-06-04 17:04:20",
+    "last_seen": "2026-06-04 17:04:20",
+    "last_episode_title": "AI Eats the World? A Reality Check with Benedict Evans",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-04",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
+    "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
+    "supporting_takeaway": "Diversify investment portfolios to hedge against the unpredictability of AI's evolution.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-04T12:04:30.166635",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Benedict Evans",
+      "fetched_at": "2026-06-04T17:04:30.166172+00:00",
+      "cliff_notes": "Benedict Evans began his career in technology, eventually becoming a partner at Andreessen Horowitz, a venture capital firm known for its investments in technology companies. His work at the firm allowed him to gain a deep understanding of the tech industry and its trends. Evans is particularly known for his presentations and writings on technology adoption and its accelerating pace, as well as his views on AI and its potential to disrupt various sectors. His insights have been influential in shaping conversations around technology's role in business and society, making him a respected voice in the tech community.",
+      "derived": {
+        "former_positions": "Partner at Andreessen Horowitz;"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Benedict Evans began his career in technology, eventually becoming a partner at Andreessen Horowitz, a venture capital firm known for its investments in technology companies. His work at the firm allowed him to gain a deep understanding of the tech industry and its trends. Evans is particularly known for his presentations and writings on technology adoption and its accelerating pace, as well as his views on AI and its potential to disrupt various sectors.",
+        "His insights have been influential in shaping conversations around technology's role in business and society, making him a respected voice in the tech community."
+      ],
+      "sections": [
+        {
+          "heading": "Technology Trends",
+          "body": "Benedict Evans is recognized for his analysis of technology trends, particularly how they accelerate and impact various industries."
+        },
+        {
+          "heading": "AI and Industry",
+          "body": "Evans has a unique perspective on AI, examining its integration into different sectors and the myths surrounding its implementation."
+        },
+        {
+          "heading": "Accelerating Adoption",
+          "body": "He has presented on the concept of accelerating technology adoption, explaining how new technologies quickly become integrated into everyday life."
+        },
+        {
+          "heading": "Tech Infrastructure",
+          "body": "Evans discusses the global infrastructure built for technology and the enormous growth in its use, which has changed lives but also presents economic challenges."
+        }
+      ]
+    }
   },
   {
     "id": 270,
@@ -1401,7 +1464,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -1465,7 +1528,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -1648,7 +1711,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -1712,7 +1775,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -2455,7 +2518,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -2521,7 +2584,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -5157,7 +5220,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
