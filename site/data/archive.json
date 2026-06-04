@@ -5105,24 +5105,6 @@
   "definitions": [],
   "overton": [
     {
-      "id": 223,
-      "term": "Founder-Led Companies",
-      "description": "Companies led by their founders, who often have a vested interest and decision-making authority.",
-      "first_detected_date": "2026-06-03",
-      "last_mentioned_date": "2026-06-03",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Favor investments in founder-led companies for their ability to navigate challenges and drive innovation.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 257,
-      "first_detected_speaker": "Bill Ackman",
-      "last_mentioned_episode_id": 257,
-      "last_mentioned_speaker": "Bill Ackman"
-    },
-    {
       "id": 219,
       "term": "AI-native computing",
       "description": "The integration of AI processing capabilities into computing devices, allowing for more efficient and cost-effective AI usage.",
