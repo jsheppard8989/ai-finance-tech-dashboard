@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-03T22:02:40.375999",
-  chartsVersion: "2026-06-03T22:02:33.541237",
+  generatedAt: "2026-06-03T23:40:08.079521",
+  chartsVersion: "2026-06-03T23:40:03.999835",
   priceSnapshot: {
   "GOOGL": {
     "price": 358.99,
     "change_pct": -10.49,
     "name": "GOOGL",
-    "updated_at": "2026-06-03T22:02:33.539964"
+    "updated_at": "2026-06-03T23:40:03.999031"
   },
   "BTC": {
-    "price": 63354.97,
-    "change_pct": -16.07,
+    "price": 64340.25,
+    "change_pct": -14.77,
     "name": "BTC",
-    "updated_at": "2026-06-03T22:02:33.539987"
+    "updated_at": "2026-06-03T23:40:03.999048"
   },
   "MSFT": {
     "price": 427.34,
     "change_pct": 4.6,
     "name": "MSFT",
-    "updated_at": "2026-06-03T22:02:33.539999"
+    "updated_at": "2026-06-03T23:40:03.999055"
   },
   "NVDA": {
     "price": 214.75,
     "change_pct": -8.9,
     "name": "NVDA",
-    "updated_at": "2026-06-03T22:02:33.540009"
+    "updated_at": "2026-06-03T23:40:03.999060"
   },
   "WTI": {
     "price": 4.01,
     "change_pct": -9.69,
     "name": "WTI",
-    "updated_at": "2026-06-03T22:02:33.540019"
+    "updated_at": "2026-06-03T23:40:03.999066"
   },
   "META": {
     "price": 622.98,
     "change_pct": 0.74,
     "name": "META",
-    "updated_at": "2026-06-03T22:02:33.540029"
+    "updated_at": "2026-06-03T23:40:03.999072"
   },
   "AMZN": {
     "price": 250.02,
     "change_pct": -6.44,
     "name": "AMZN",
-    "updated_at": "2026-06-03T22:02:33.540039"
+    "updated_at": "2026-06-03T23:40:03.999077"
   },
   "S&P 500": {
     "price": 754.24,
     "change_pct": 0.81,
     "name": "S&P 500",
-    "updated_at": "2026-06-03T22:02:33.540049"
+    "updated_at": "2026-06-03T23:40:03.999083"
   },
   "TSLA": {
     "price": 423.7,
     "change_pct": -4.42,
     "name": "TSLA",
-    "updated_at": "2026-06-03T22:02:33.540059"
+    "updated_at": "2026-06-03T23:40:03.999088"
   },
   "AAPL": {
     "price": 310.26,
     "change_pct": 4.04,
     "name": "AAPL",
-    "updated_at": "2026-06-03T22:02:33.540069"
+    "updated_at": "2026-06-03T23:40:03.999093"
   },
   "QQQ": {
     "price": 744.21,
     "change_pct": 3.39,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-03T22:02:33.540079"
+    "updated_at": "2026-06-03T23:40:03.999098"
   },
   "BTC-USD": {
-    "price": 63382.08,
-    "change_pct": -16.04,
+    "price": 64340.25,
+    "change_pct": -14.77,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-03T22:02:33.540091"
+    "updated_at": "2026-06-03T23:40:03.999105"
   }
 },
   tickerScores: [
@@ -878,6 +878,25 @@ const dashboardData = {
       "podcast_episode_id": 257
     },
     {
+      "id": 273,
+      "title": "Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-06-03",
+      "summary": "In this episode, Ray Kurzweil discusses the exponential growth of AI capabilities, predicting that AGI will be achieved by 2029. The conversation covers the rapid advancements in large language models, the critical role of robotics in AGI development, and the integration of AI into governance and decision-making processes. Kurzweil's historical accuracy in forecasting technological advancements is highlighted, along with the need for a shift in educational paradigms to focus on mindset and problem-solving skills. Ethical considerations for AI, including personhood and rights, are also discussed.",
+      "key_takeaway": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 258
+    },
+    {
       "id": 268,
       "title": "Real Boom? Fake Money?",
       "source_type": "podcast",
@@ -993,7 +1012,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-05-31",
       "archived_date": null,
@@ -8746,6 +8765,26 @@ const dashboardData = {
       ]
     },
     {
+      "id": 273,
+      "title": "Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-06-03",
+      "summary": "In this episode, Ray Kurzweil discusses the exponential growth of AI capabilities, predicting that AGI will be achieved by 2029. The conversation covers the rapid advancements in large language models, the critical role of robotics in AGI development, and the integration of AI into governance and decision-making processes. Kurzweil's historical accuracy in forecasting technological advancements is highlighted, along with the need for a shift in educational paradigms to focus on mindset and problem-solving skills. Ethical considerations for AI, including personhood and rights, are also discussed.",
+      "key_takeaway": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 258,
+      "episode_release_date": "2026-06-03",
+      "guest_name": "Why AGI Is Close but Not Here Yet",
+      "key_tickers": []
+    },
+    {
       "id": 268,
       "title": "Real Boom? Fake Money?",
       "source_type": "podcast",
@@ -8847,26 +8886,6 @@ const dashboardData = {
       "podcast_episode_id": 252,
       "episode_release_date": "2026-06-01",
       "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 265,
-      "title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish | Jim Masturzo | Research Affiliates",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-05-31",
-      "summary": "In this episode, Jack Farley discusses the diminishing effectiveness of the traditional 60-40 portfolio model due to positive correlations between stocks and bonds. He highlights the likelihood of sustained inflation, the potential of TIPS as an investment, and the complexities surrounding AI's impact on software companies. Farley also touches on market overvaluation, the pitfalls of relying on overly optimistic earnings forecasts, and the anticipated rise in commodity prices, particularly in agriculture, due to supply chain disruptions and geopolitical tensions.",
-      "key_takeaway": "In a market with changing dynamics, seek alternative diversifiers and inflation hedges while being cautious of overvalued markets and optimistic earnings forecasts.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-05-31",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 250,
-      "episode_release_date": "2026-05-31",
-      "guest_name": "Overvaluation Meets Macro Risk",
       "key_tickers": []
     }
   ],
@@ -25663,12 +25682,61 @@ const dashboardData = {
       "META",
       "AMZN"
     ]
+  },
+  "273": {
+    "id": 263,
+    "insight_id": 273,
+    "podcast_episode_id": 258,
+    "overview": "The unresolved tension in the AI space is the balance between rapid technological advancement and the ethical, educational, and governance frameworks needed to manage these changes. The competitive dynamic is between companies that can leverage AI advancements for innovation and those that cannot adapt quickly enough. The allocator-relevant implication is that investments in AI will be arbitrated by the ability of companies to integrate AI into their operations effectively and ethically, with a horizon of proof being the achievement of AGI and its impact on various sectors.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the development of large language models and robotics as indicators of a company's ability to innovate in the AI space.",
+      "Companies should assess their readiness for AGI by evaluating their current AI integration and planning for future enhancements.",
+      "Educational institutions must prioritize the development of problem-solving skills and adaptability to prepare students for a future where AI plays a significant role.",
+      "Policymakers need to engage with AI ethics to create frameworks that guide the responsible development and use of AI in governance."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that companies positioned at the forefront of AI advancements, particularly in large language models and robotics, will drive the next wave of innovation and growth. The timeframe for this thesis is until the predicted achievement of AGI by 2029. An observable development that would vindicate this thesis is continued rapid advancements in AI capabilities and successful integration into business operations and governance. Conversely, a significant slowdown in AI development or widespread ethical controversies could invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI research and development, particularly in Siri and machine learning, positions the company to benefit from the growth of AI capabilities.",
+        "positioning": "Apple should be positioned as a strategic long-term investment due to its potential to leverage AI advancements in its product ecosystem.",
+        "risk": "Key risks include a slowdown in AI innovation and the potential for ethical controversies surrounding AI use, which could impact Apple's reputation and market position."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant number of AI projects failing to meet their goals could indicate overestimation of current AI capabilities.",
+      "Regulatory crackdowns on AI development due to ethical concerns could slow the pace of advancement and investment returns.",
+      "A shift in consumer preferences away from AI-driven solutions could reduce the demand for AI technologies."
+    ],
+    "catalysts": [
+      "The release of new large language models and their performance metrics.",
+      "Regulatory decisions regarding AI use in governance and decision-making.",
+      "Breakthroughs in robotics that demonstrate significant advancements in AI capabilities.",
+      "Publications of peer-reviewed papers validating or challenging Kurzweil's AGI timeline."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-03T23:39:20.535528",
+    "updated_at": "2026-06-04 04:39:20",
+    "episode_evidence": "Ray Kurzweil's discussion on the exponential growth of AI capabilities is grounded in his observation that 'Large language models have only been effective for the last six months.' This rapid advancement underscores the pace at which AI is evolving. Kurzweil's prediction of achieving AGI by 2029 is supported by his historical accuracy, with a prediction accuracy of '86%,' as he states, 'AGI will happen between 2026 and 2029.' The integration of AI into governance is highlighted by Kurzweil's assertion that 'AI is going to be making basically most of the decisions within a few years.' This points to a future where AI plays a critical role in policy creation and enforcement, which has significant implications for how societies will be governed.",
+    "falsification_tracks": [
+      "If there is a significant slowdown in the development of large language models, with no major breakthroughs for more than a year, it would challenge the prediction of AGI by 2029.",
+      "Should Ray Kurzweil's prediction accuracy drop significantly below 86%, it would reduce the credibility of his AGI timeline prediction.",
+      "If AI integration into governance leads to increased inefficiencies or ethical controversies without clear solutions, it could slow the adoption of AI in decision-making processes."
+    ],
+    "insight_title": "Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-06-03",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 11704,
+    "id": 11764,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -25680,7 +25748,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11705,
+    "id": 11765,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -25692,7 +25760,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11706,
+    "id": 11766,
+    "name": "Why AGI Is Close but Not Here Yet",
+    "slug": "why-agi-is-close-but-not-here-yet",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
+    "last_episode_title": "Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-06-03",
+    "appearance_count": 1
+  },
+  {
+    "id": 11767,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -25704,7 +25784,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11707,
+    "id": 11768,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -25716,7 +25796,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11708,
+    "id": 11769,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -25728,7 +25808,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11709,
+    "id": 11770,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -25740,7 +25820,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11710,
+    "id": 11771,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -25752,7 +25832,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11711,
+    "id": 11772,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -25764,7 +25844,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11712,
+    "id": 11773,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -25776,7 +25856,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11713,
+    "id": 11774,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -25788,7 +25868,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11714,
+    "id": 11775,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -25800,7 +25880,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11715,
+    "id": 11776,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -25812,7 +25892,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 11716,
+    "id": 11777,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -25824,7 +25904,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11717,
+    "id": 11778,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -25836,7 +25916,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11718,
+    "id": 11779,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -25848,7 +25928,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11719,
+    "id": 11780,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -25860,7 +25940,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11720,
+    "id": 11781,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -25872,7 +25952,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11721,
+    "id": 11782,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -25884,7 +25964,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11722,
+    "id": 11783,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -25893,18 +25973,6 @@ const dashboardData = {
     "last_episode_title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
-    "appearance_count": 1
-  },
-  {
-    "id": 11723,
-    "name": "Tony James",
-    "slug": "tony-james",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Building a successful investment organization requires compounding talent, capital, and culture over time, focusing on long-term growth rather than short-term gains.",
-    "last_episode_title": "Building Blackstone, Backing Costco, with Tony James",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-05",
     "appearance_count": 1
   }
 ],
@@ -26841,7 +26909,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -26905,7 +26973,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -27038,6 +27106,73 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 270,
+    "name": "Ray Kurzweil",
+    "slug": "ray-kurzweil",
+    "bio": "Ray Kurzweil is a futurist, inventor, and author renowned for his predictions about artificial intelligence and technological advancements. He is particularly known for his views on the timeline for achieving Artificial General Intelligence (AGI) and the impact of exponential growth in technology.",
+    "known_for": "Predicting the timeline for achieving Artificial General Intelligence (AGI) and the impact of exponential growth in technology.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-06-04 04:38:41",
+    "last_episode_title": "Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-06-03",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
+    "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
+    "supporting_takeaway": "Prepare for AGI by developing strategies to integrate AI into business operations and decision-making processes.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-03T23:38:54.900029",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ray Kurzweil",
+      "fetched_at": "2026-06-04T04:38:54.899681+00:00",
+      "cliff_notes": "Ray Kurzweil is a futurist, inventor, and author who has made a significant impact on the fields of artificial intelligence and technological advancement. He began his career as an inventor, creating the first CCD flatbed scanner, the first text-to-speech synthesizer, and the first omni-font optical character recognition technology. Kurzweil has founded several companies, including Kurzweil Computer Products and Kurzweil Music Systems. He has also held positions as the Principal at Kurzweil Technologies and the Founding Director of Engineering at Google. Kurzweil is well-known for his predictions about the timeline for achieving Artificial General Intelligence (AGI) and the impact of exponential growth in technology. His work has influenced investors, technologists, and policymakers, making him a key figure in discussions about the future of technology.",
+      "derived": {
+        "former_positions": "Founding Director of Engineering at Google; Principal at Kurzweil Technologies; Inventor and Consultant",
+        "education": "BS in Computer Science and Literature from MIT; Honorary Doctorates from several institutions",
+        "books_or_works": "The Singularity is Near; How to Create a Mind; The Age of Spiritual Machines",
+        "teaching_summary": "Guest lectures at MIT and other institutions"
+      },
+      "infobox": {
+        "Born": "1948",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Ray Kurzweil is a futurist, inventor, and author who has made a significant impact on the fields of artificial intelligence and technological advancement. He began his career as an inventor, creating the first CCD flatbed scanner, the first text-to-speech synthesizer, and the first omni-font optical character recognition technology.",
+        "Kurzweil has founded several companies, including Kurzweil Computer Products and Kurzweil Music Systems. He has also held positions as the Principal at Kurzweil Technologies and the Founding Director of Engineering at Google. Kurzweil is well-known for his predictions about the timeline for achieving Artificial General Intelligence (AGI) and the impact of exponential growth in technology.",
+        "His work has influenced investors, technologists, and policymakers, making him a key figure in discussions about the future of technology."
+      ],
+      "sections": [
+        {
+          "heading": "Inventions",
+          "body": "Ray Kurzweil is known for his numerous inventions, including the first CCD flatbed scanner, the first text-to-speech synthesizer, and the first omni-font optical character recognition technology."
+        },
+        {
+          "heading": "Futurist Predictions",
+          "body": "Kurzweil is renowned for his predictions about the timeline for achieving Artificial General Intelligence (AGI) and the impact of exponential growth in technology."
+        },
+        {
+          "heading": "Books and Publications",
+          "body": "Ray Kurzweil has authored several influential books, including 'The Singularity is Near,' 'How to Create a Mind,' and 'The Age of Spiritual Machines.'"
+        },
+        {
+          "heading": "Impact on Technology",
+          "body": "Kurzweil's work has influenced investors, technologists, and policymakers, making him a key figure in discussions about the future of technology."
+        }
+      ]
+    }
   },
   {
     "id": 269,
@@ -27182,7 +27317,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investors should consider the dual impact of AI on job creation and displacement, focusing on companies that are AI-enabled and those that support open-source AI solutions to foster a competitive and innovative market.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-29 \u2022 Pope vs AI, Anthropic's Digital God, AI Job Loss Narrative Flips, Open Source Crackdown Coming?",
     "last_proof_snippet": "Okay, we are gathered here today in Holy Unity, brothers and sisters, to convene and discuss on this most holy day, the day, the all-in podcast drops. Many topics, AI data centers, China, justice, human dignity, Dario on winding these SPVs",
@@ -28862,7 +28997,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-07 \u2022 MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -29683,7 +29818,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-30 \u2022 Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
     "last_proof_snippet": "AI is creating new opportunities to rethink how enterprise systems work, potentially leading to a platform shift.",
@@ -29993,7 +30128,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -30429,7 +30564,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -30809,7 +30944,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
     "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
@@ -30937,7 +31072,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -31126,7 +31261,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-15 \u2022 Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
     "last_proof_snippet": "The company's revenue grew from $2.5 million to $250 million in just over a year, demonstrating the potential of AI in software development.",
@@ -31190,7 +31325,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-14 \u2022 \"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
     "last_proof_snippet": "Investing with a long-term perspective involves considering macroeconomic factors and their impact on smaller companies.",
@@ -31249,7 +31384,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Invest in AI companies that are positioned to benefit from the rapid growth and valuation in the industry, and consider the broader implications of AI on the future of work and social structures.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-14 \u2022 Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
     "last_proof_snippet": "AI is expected to replace many white collar jobs in the near future.",
@@ -31629,7 +31764,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
     "last_proof_snippet": "Beach Point Capital Management primarily manages institutional capital, which is characterized as patient capital.",
@@ -31692,7 +31827,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
@@ -32252,7 +32387,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-04 \u2022 \u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
     "last_proof_snippet": "Shipping inefficiencies can lead to increased profits for ship owners.",
@@ -32497,7 +32632,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_proof_snippet": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",
@@ -32933,7 +33068,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-27 \u2022 Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
     "last_proof_snippet": "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",
@@ -34281,7 +34416,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_proof_snippet": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229 00:00:00 I am blown away by how far you've come. The things that you can do with Neural Nets now does completely",
@@ -34345,7 +34480,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "last_proof_cite": "The a16z Show \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
     "last_proof_snippet": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. If you were starting from scratch today,",
@@ -34407,7 +34542,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-19 \u2022 Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
     "last_proof_snippet": "Today's episode is brought to you by the Picta AI Enhance International Equity ETF, Ticker PQNT. You'll hear more about they're using AI to enhance international equity returns later in the show. For now, let's get into it. Very pleased tod",

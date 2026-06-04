@@ -1,5 +1,20 @@
 [
   {
+    "id": 258,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
+    "episode_date": "2026-06-03",
+    "summary": "In this episode, Ray Kurzweil discusses the exponential growth of AI capabilities, predicting that AGI will be achieved by 2029. The conversation covers the rapid advancements in large language models, the critical role of robotics in AGI development, and the integration of AI into governance and decision-making processes. Kurzweil's historical accuracy in forecasting technological advancements is highlighted, along with the need for a shift in educational paradigms to focus on mindset and problem-solving skills. Ethical considerations for AI, including personhood and rights, are also discussed.",
+    "key_takeaways": [
+      "Invest in AI companies demonstrating rapid growth and innovation in large language models and robotics.",
+      "Prepare for AGI by developing strategies to integrate AI into business operations and decision-making processes.",
+      "Advocate for educational reforms that emphasize mindset and problem-solving skills to better prepare future generations.",
+      "Engage in discussions about AI ethics and governance to shape responsible AI development and implementation."
+    ],
+    "investment_thesis": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
+    "key_tickers": null
+  },
+  {
     "id": 257,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
@@ -123,22 +138,6 @@
       "A structured approach to AI implementation, starting with simple tasks and scaling to complex processes, facilitates adoption and learning."
     ],
     "investment_thesis": "Invest in companies that leverage voice AI to solve enterprise coordination challenges, with a focus on scalability across industries and human-AI collaboration.",
-    "key_tickers": null
-  },
-  {
-    "id": 250,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish | Jim Masturzo | Research Affiliates",
-    "episode_date": "2026-05-31",
-    "summary": "In this episode, Jack Farley discusses the diminishing effectiveness of the traditional 60-40 portfolio model due to positive correlations between stocks and bonds. He highlights the likelihood of sustained inflation, the potential of TIPS as an investment, and the complexities surrounding AI's impact on software companies. Farley also touches on market overvaluation, the pitfalls of relying on overly optimistic earnings forecasts, and the anticipated rise in commodity prices, particularly in agriculture, due to supply chain disruptions and geopolitical tensions.",
-    "key_takeaways": [
-      "Reevaluate traditional 60-40 portfolio allocations to include true diversifiers.",
-      "Invest in Treasury Inflation-Protected Securities (TIPS) to hedge against expected inflation.",
-      "Be cautious with software sector investments, focusing on fundamentals over AI-related hype.",
-      "Adjust earnings forecasts conservatively to avoid market mispricing.",
-      "Increase exposure to commodities, especially agricultural, to capitalize on rising prices."
-    ],
-    "investment_thesis": "In a market with changing dynamics, seek alternative diversifiers and inflation hedges while being cautious of overvalued markets and optimistic earnings forecasts.",
     "key_tickers": null
   }
 ]
