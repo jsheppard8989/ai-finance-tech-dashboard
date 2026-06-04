@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-03T23:40:05.856025",
-  "last_updated": "2026-06-03T23:40:05.856025",
-  "last_pipeline_run": "2026-06-03T23:40:05.856025",
+  "generated_at": "2026-06-04T05:02:03.557247",
+  "last_updated": "2026-06-04T05:02:03.557247",
+  "last_pipeline_run": "2026-06-04T05:02:03.557247",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -15,36 +15,17 @@
     "overton_terms_total": 153,
     "latest_insights_total": 245,
     "today_mentions": {},
-    "podcasts_analyzed": 3
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "81213ee0-5f73-11f1-acb7-53daf6d02fb9",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
-      "published": "2026-06-03",
-      "rss_guid": "81213ee0-5f73-11f1-acb7-53daf6d02fb9",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
