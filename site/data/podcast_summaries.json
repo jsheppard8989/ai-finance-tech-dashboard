@@ -1,5 +1,39 @@
 [
   {
+    "id": 261,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "Alex Imas and Phil Trammell \u2013 What remains scarce after AGI?",
+    "episode_date": "2026-06-04",
+    "summary": "The podcast discusses the impact of automation and AI on the economy, focusing on the resilience of sectors requiring human interaction, the stability of labor share, and the potential for developing countries to leapfrog traditional development stages. It emphasizes the need for comprehensive data on automation and the importance of equitable wealth distribution in an AI-driven economy. The discussion also highlights the potential concentration of power and wealth in AI development and the need for a positive narrative around AI's impact on jobs.",
+    "key_takeaways": [
+      "Invest in sectors emphasizing human interaction, such as healthcare and education, which are likely to remain valuable despite automation.",
+      "Consider using prediction markets to aggregate forecasts about labor market changes for more reliable insights.",
+      "Support initiatives to improve data collection and analysis related to automation and labor dynamics.",
+      "Explore investment opportunities in developing countries rapidly adopting AI technologies for potential leapfrogging effects.",
+      "Engage in discussions about regulatory frameworks to ensure equitable distribution of AI's benefits and prevent wealth concentration."
+    ],
+    "investment_thesis": "Invest in relational sectors and advocate for equitable access to AI technologies to capitalize on the human economy and prevent wealth concentration in an automated future.",
+    "key_tickers": null
+  },
+  {
+    "id": 260,
+    "podcast_name": "Macro Voices",
+    "episode_title": "MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
+    "episode_date": "2026-06-04",
+    "summary": "In this episode, the discussion revolves around the potential prolonged U.S. blockade of Iran and its impact on oil prices, the shift towards economic statecraft, and the signals of market exhaustion in the S&P 500. The podcast also covers the breakout potential of the U.S. dollar, the stability of oil prices, the pressure on gold prices, the quiet uranium market, and the strong momentum in copper prices. Additionally, the 10-year Treasury yield is discussed in the context of inflation expectations.",
+    "key_takeaways": [
+      "Monitor geopolitical developments in Iran for potential oil price spikes.",
+      "Consider investing in infrastructure and industrial sectors due to a shift towards economic statecraft.",
+      "Reduce exposure to overbought equity markets or implement hedging strategies.",
+      "Watch for a breakout in the U.S. dollar and adjust commodity investments accordingly.",
+      "Prepare for volatility in oil markets and consider energy sector investments.",
+      "Implement protective strategies for gold investments, especially if the 200-day moving average fails.",
+      "Position for potential seasonal upticks in uranium prices as summer approaches."
+    ],
+    "investment_thesis": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
+    "key_tickers": null
+  },
+  {
     "id": 259,
     "podcast_name": "The a16z Show",
     "episode_title": "AI Eats the World? A Reality Check with Benedict Evans",
@@ -103,41 +137,6 @@
       "OpenAI's exploration of ad-based revenue models while maintaining a free tier could provide a sustainable revenue stream."
     ],
     "investment_thesis": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
-    "key_tickers": null
-  },
-  {
-    "id": 253,
-    "podcast_name": "The Jack Mallers Show",
-    "episode_title": "Real Boom? Fake Money?",
-    "episode_date": "2026-06-02",
-    "summary": "In this episode, Jack Mallers discusses the current economic landscape, focusing on Bitcoin's price, the looming U.S. federal debt crisis, bond market pressures, Federal Reserve's monetary policy dilemma, the surge in AI investments, and the potential weakening of the U.S. dollar. He also touches on seasonal trends in Bitcoin's performance and emphasizes the importance of personal health and nutrition.",
-    "key_takeaways": [
-      "U.S. federal debt is projected to rise significantly, impacting investor confidence in U.S. financial instruments.",
-      "The bond market is under pressure due to countries selling bonds to finance energy needs, leading to soaring yields.",
-      "The Federal Reserve faces a dilemma between raising rates to combat inflation and cutting rates to avoid economic collapse.",
-      "AI investments are driving a significant portion of U.S. GDP growth, but their sustainability and return on investment are questionable.",
-      "The U.S. dollar is expected to weaken against Bitcoin and other currencies due to ongoing money printing.",
-      "Bitcoin typically underperforms in summer months due to lower volatility."
-    ],
-    "investment_thesis": "Investors should consider diversifying away from U.S. treasuries and evaluate the sustainability of AI investments while preparing for potential dollar devaluation and Bitcoin's seasonal underperformance.",
-    "key_tickers": null
-  },
-  {
-    "id": 252,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "Opus 4.8 Beats GPT 5.5, the $220B OpenAI Foundation, and Hassabis\u2019s 2029 AGI Prediction | EP #260",
-    "episode_date": "2026-06-01",
-    "summary": "This episode of 'Moonshots with Peter Diamandis' discusses the competitive landscape of AI, with Anthropic's Opus 4.8 outperforming GPT-5.5 in coding benchmarks. It also touches on the timeline for Artificial General Intelligence (AGI), the impact of AI on e-commerce with Amazon's AI shopping assistant, the valuation and influence of the OpenAI Foundation, advancements in health tech with a device detecting early-stage lung cancer, the U.S. government's investment in quantum computing, proactive government engagement in workforce transitions with AI, and the challenges in aerospace development with Blue Origin's rocket explosion.",
-    "key_takeaways": [
-      "Anthropic's Opus 4.8 leads in AI coding benchmarks, indicating a competitive AI landscape.",
-      "Divergent views on AGI timelines can influence investment strategies in AI and tech sectors.",
-      "Amazon's AI shopping assistant significantly increases conversion rates, impacting e-commerce strategies.",
-      "OpenAI Foundation, valued at up to $260 billion, focuses on economic futures and AI dividends, shaping the future of work.",
-      "A handheld device from China detects early-stage lung cancer with 95% accuracy, showcasing health tech advancements.",
-      "The U.S. government invests $2 billion in a quantum chip foundry, aiming to lead in quantum computing.",
-      "California's initiative to track AI-related job losses reflects proactive government engagement in workforce transitions."
-    ],
-    "investment_thesis": "Invest in companies at the forefront of AI, quantum computing, and health tech advancements, as these sectors are poised for significant growth and disruption.",
     "key_tickers": null
   }
 ]

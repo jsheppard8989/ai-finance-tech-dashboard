@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-04T12:06:11.438621",
-  chartsVersion: "2026-06-04T12:05:46.433701",
+  generatedAt: "2026-06-04T13:40:35.428469",
+  chartsVersion: "2026-06-04T13:40:19.612694",
   priceSnapshot: {
   "GOOGL": {
-    "price": 371.89,
-    "change_pct": -6.27,
+    "price": 372.65,
+    "change_pct": -6.08,
     "name": "GOOGL",
-    "updated_at": "2026-06-04T12:05:46.432690"
+    "updated_at": "2026-06-04T13:40:19.611337"
   },
   "BTC": {
-    "price": 63423.36,
-    "change_pct": -15.98,
+    "price": 63880.58,
+    "change_pct": -15.38,
     "name": "BTC",
-    "updated_at": "2026-06-04T12:05:46.432710"
+    "updated_at": "2026-06-04T13:40:19.611362"
   },
   "MSFT": {
-    "price": 426.8,
-    "change_pct": 1.37,
+    "price": 428.52,
+    "change_pct": 1.78,
     "name": "MSFT",
-    "updated_at": "2026-06-04T12:05:46.432719"
+    "updated_at": "2026-06-04T13:40:19.611374"
   },
   "NVDA": {
-    "price": 218.16,
-    "change_pct": -3.18,
+    "price": 220.13,
+    "change_pct": -2.3,
     "name": "NVDA",
-    "updated_at": "2026-06-04T12:05:46.432727"
+    "updated_at": "2026-06-04T13:40:19.611384"
   },
   "WTI": {
-    "price": 4.08,
-    "change_pct": -13.91,
+    "price": 4.11,
+    "change_pct": -13.25,
     "name": "WTI",
-    "updated_at": "2026-06-04T12:05:46.432734"
+    "updated_at": "2026-06-04T13:40:19.611393"
   },
   "META": {
-    "price": 629.88,
-    "change_pct": 2.55,
+    "price": 626.72,
+    "change_pct": 2.03,
     "name": "META",
-    "updated_at": "2026-06-04T12:05:46.432741"
+    "updated_at": "2026-06-04T13:40:19.611403"
   },
   "AMZN": {
-    "price": 253.88,
-    "change_pct": -3.88,
+    "price": 254.67,
+    "change_pct": -3.59,
     "name": "AMZN",
-    "updated_at": "2026-06-04T12:05:46.432749"
+    "updated_at": "2026-06-04T13:40:19.611413"
   },
   "S&P 500": {
-    "price": 756.67,
-    "change_pct": 2.37,
+    "price": 757.75,
+    "change_pct": 2.51,
     "name": "S&P 500",
-    "updated_at": "2026-06-04T12:05:46.432756"
+    "updated_at": "2026-06-04T13:40:19.611423"
   },
   "TSLA": {
-    "price": 419.41,
-    "change_pct": -0.67,
+    "price": 419.82,
+    "change_pct": -0.57,
     "name": "TSLA",
-    "updated_at": "2026-06-04T12:05:46.432764"
+    "updated_at": "2026-06-04T13:40:19.611432"
   },
   "AAPL": {
-    "price": 311.14,
-    "change_pct": 3.63,
+    "price": 311.89,
+    "change_pct": 3.88,
     "name": "AAPL",
-    "updated_at": "2026-06-04T12:05:46.432771"
+    "updated_at": "2026-06-04T13:40:19.611442"
   },
   "QQQ": {
-    "price": 740.34,
-    "change_pct": 4.43,
+    "price": 742.63,
+    "change_pct": 4.75,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-04T12:05:46.432778"
+    "updated_at": "2026-06-04T13:40:19.611451"
   },
   "BTC-USD": {
-    "price": 63423.63,
-    "change_pct": -15.98,
+    "price": 63846.9,
+    "change_pct": -15.42,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-04T12:05:46.432787"
+    "updated_at": "2026-06-04T13:40:19.611462"
   }
 },
   tickerScores: [
@@ -857,6 +857,50 @@ const dashboardData = {
       "podcast_episode_id": 259
     },
     {
+      "id": 275,
+      "title": "Alex Imas and Phil Trammell \u2013 What remains scarce after AGI?",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-06-04",
+      "summary": "The podcast discusses the impact of automation and AI on the economy, focusing on the resilience of sectors requiring human interaction, the stability of labor share, and the potential for developing countries to leapfrog traditional development stages. It emphasizes the need for comprehensive data on automation and the importance of equitable wealth distribution in an AI-driven economy. The discussion also highlights the potential concentration of power and wealth in AI development and the need for a positive narrative around AI's impact on jobs.",
+      "key_takeaway": "Invest in relational sectors and advocate for equitable access to AI technologies to capitalize on the human economy and prevent wealth concentration in an automated future.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 261
+    },
+    {
+      "id": 276,
+      "title": "MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-06-04",
+      "summary": "In this episode, the discussion revolves around the potential prolonged U.S. blockade of Iran and its impact on oil prices, the shift towards economic statecraft, and the signals of market exhaustion in the S&P 500. The podcast also covers the breakout potential of the U.S. dollar, the stability of oil prices, the pressure on gold prices, the quiet uranium market, and the strong momentum in copper prices. Additionally, the 10-year Treasury yield is discussed in the context of inflation expectations.",
+      "key_takeaway": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
+      "tickers_mentioned": [
+        "AAPL",
+        "XOM",
+        "GOLD",
+        "FCX",
+        "UUU"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 260
+    },
+    {
       "id": 271,
       "title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
       "source_type": "podcast",
@@ -931,7 +975,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-02",
       "archived_date": null,
@@ -1016,7 +1060,7 @@ const dashboardData = {
         "MSFT"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-01",
       "archived_date": null,
@@ -8764,6 +8808,46 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 275,
+      "title": "Alex Imas and Phil Trammell \u2013 What remains scarce after AGI?",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-06-04",
+      "summary": "The podcast discusses the impact of automation and AI on the economy, focusing on the resilience of sectors requiring human interaction, the stability of labor share, and the potential for developing countries to leapfrog traditional development stages. It emphasizes the need for comprehensive data on automation and the importance of equitable wealth distribution in an AI-driven economy. The discussion also highlights the potential concentration of power and wealth in AI development and the need for a positive narrative around AI's impact on jobs.",
+      "key_takeaway": "Invest in relational sectors and advocate for equitable access to AI technologies to capitalize on the human economy and prevent wealth concentration in an automated future.",
+      "tickers_mentioned": "[\"AAPL\", \"MSFT\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 261,
+      "episode_release_date": "2026-06-04",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 276,
+      "title": "MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-06-04",
+      "summary": "In this episode, the discussion revolves around the potential prolonged U.S. blockade of Iran and its impact on oil prices, the shift towards economic statecraft, and the signals of market exhaustion in the S&P 500. The podcast also covers the breakout potential of the U.S. dollar, the stability of oil prices, the pressure on gold prices, the quiet uranium market, and the strong momentum in copper prices. Additionally, the 10-year Treasury yield is discussed in the context of inflation expectations.",
+      "key_takeaway": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
+      "tickers_mentioned": "[\"AAPL\", \"XOM\", \"GOLD\", \"FCX\", \"UUU\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 260,
+      "episode_release_date": "2026-06-04",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 271,
       "title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
       "source_type": "podcast",
@@ -8828,26 +8912,6 @@ const dashboardData = {
       "key_tickers": []
     },
     {
-      "id": 268,
-      "title": "Real Boom? Fake Money?",
-      "source_type": "podcast",
-      "source_name": "The Jack Mallers Show",
-      "source_date": "2026-06-02",
-      "summary": "In this episode, Jack Mallers discusses the current economic landscape, focusing on Bitcoin's price, the looming U.S. federal debt crisis, bond market pressures, Federal Reserve's monetary policy dilemma, the surge in AI investments, and the potential weakening of the U.S. dollar. He also touches on seasonal trends in Bitcoin's performance and emphasizes the importance of personal health and nutrition.",
-      "key_takeaway": "Investors should consider diversifying away from U.S. treasuries and evaluate the sustainability of AI investments while preparing for potential dollar devaluation and Bitcoin's seasonal underperformance.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-02",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 253,
-      "episode_release_date": "2026-06-02",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
       "id": 269,
       "title": "OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
       "source_type": "podcast",
@@ -8890,26 +8954,6 @@ const dashboardData = {
         "AAPL",
         "DELL"
       ]
-    },
-    {
-      "id": 267,
-      "title": "Opus 4.8 Beats GPT 5.5, the $220B OpenAI Foundation, and Hassabis\u2019s 2029 AGI Prediction | EP #260",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-06-01",
-      "summary": "This episode of 'Moonshots with Peter Diamandis' discusses the competitive landscape of AI, with Anthropic's Opus 4.8 outperforming GPT-5.5 in coding benchmarks. It also touches on the timeline for Artificial General Intelligence (AGI), the impact of AI on e-commerce with Amazon's AI shopping assistant, the valuation and influence of the OpenAI Foundation, advancements in health tech with a device detecting early-stage lung cancer, the U.S. government's investment in quantum computing, proactive government engagement in workforce transitions with AI, and the challenges in aerospace development with Blue Origin's rocket explosion.",
-      "key_takeaway": "Invest in companies at the forefront of AI, quantum computing, and health tech advancements, as these sectors are poised for significant growth and disruption.",
-      "tickers_mentioned": "[\"AMZN\", \"GOOGL\", \"IBM\", \"MSFT\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-01",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 252,
-      "episode_release_date": "2026-06-01",
-      "guest_name": null,
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -25825,12 +25869,146 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-06-04",
     "key_tickers": []
+  },
+  "275": {
+    "id": 265,
+    "insight_id": 275,
+    "podcast_episode_id": 261,
+    "overview": "The unresolved tension in the podcast revolves around the balance between the potential of AI to create a 'human economy' and the risk of wealth and power concentration. The competitive dynamic is between sectors that can leverage human interaction for value and those that may become obsolete with automation. The policy tradeoff is between fostering innovation in AI and ensuring equitable access to its benefits. Allocators must consider who wins or loses in this scenario, with the metric being the ability to adapt to or leverage AI technologies, and the horizon of proof being the next economic cycle.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the growth and resilience of relational sectors, such as healthcare and education, as indicators of the 'human economy'.",
+      "Policymakers and investors should track the development of prediction markets to gauge their potential in improving labor market forecasting.",
+      "Advocacy for a 'Manhattan project for data' is crucial for investors to better understand the dynamics of job creation and destruction in an automated economy.",
+      "Investors should scout for opportunities in developing countries that demonstrate rapid AI adoption, as these could offer significant growth potential.",
+      "Engagement in policy discussions is necessary to shape regulatory frameworks that promote equitable wealth distribution in an AI-driven economy."
+    ],
+    "investment_thesis": "The core logic is that the 'human economy' will persist and potentially thrive in an AI-driven world, with relational sectors being key beneficiaries. The timeframe for this thesis is the next decade, as AI technologies continue to mature and integrate into the economy. An observable development that would vindicate this thesis is a continued high labor share in the economy and a growing GDP contribution from sectors emphasizing human interaction. Conversely, a significant decline in labor share or a stagnation in GDP growth from relational sectors would invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI and its integration across its product lines positions it to benefit from the 'human economy', as it can leverage AI to enhance user interaction and experience.",
+        "positioning": "Strategic long position, as Apple's continued innovation in AI is likely to bolster its market position and profitability.",
+        "risk": "Key risks include regulatory challenges to data privacy and potential disruptions in the global supply chain that could impact production and sales."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's broad AI offerings and cloud services provide a platform for businesses to adopt AI, positioning it to benefit from the growth of the 'human economy'.",
+        "positioning": "Strategic long position, as Microsoft's AI and cloud services are integral to the digital transformation of businesses.",
+        "risk": "Risks include increased competition in the cloud space and potential regulatory hurdles that could limit data usage and AI development."
+      },
+      "TSLA": {
+        "rationale": "Tesla's leadership in electric vehicles and autonomous driving technology places it at the forefront of AI integration in the automotive industry.",
+        "positioning": "Tactical long position, as Tesla's technology could disrupt traditional automotive markets and create new opportunities in mobility services.",
+        "risk": "Key risks include regulatory challenges to autonomous driving and potential supply chain disruptions affecting production."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant increase in automation in relational sectors could reduce the value of human interaction, challenging the 'human economy' thesis.",
+      "A shift in consumer preferences towards fully automated services could undermine the importance of human involvement in economic activities.",
+      "Developing countries may face barriers to AI adoption, such as lack of infrastructure or skilled labor, which could limit their ability to leapfrog traditional development stages."
+    ],
+    "catalysts": [
+      "Regulatory rulings on data privacy and AI usage could significantly impact the development and adoption of AI technologies.",
+      "Economic reports showing changes in labor share and unemployment rates will provide insights into the impact of automation on the labor market.",
+      "Advancements in AI technology and its integration into various sectors will be a key indicator of the 'human economy's' resilience.",
+      "Global economic shifts, such as changes in trade policies or currency valuations, could influence the competitiveness of AI-driven industries."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-04T13:39:06.750566",
+    "updated_at": "2026-06-04 18:39:06",
+    "episode_evidence": "The podcast delves into the nuanced effects of automation and AI on the economy, emphasizing the resilience of sectors that require human interaction. Alex Imas points out, 'If we have automation where a lot of other things stop being scarce, we will still have scarcity in things that humans are involved in.' This underscores the enduring value of relational sectors, where human involvement is integral. Additionally, the discussion highlights the surprising stability of labor share, which remains over 60% despite automation, as Phil Trammell notes, 'The fact that it's almost like some people are worried it's an accounting error... that it's kept being so constant.' This challenges the common narrative of automation leading to significant job displacement and suggests a more complex interplay between technology and labor markets.",
+    "falsification_tracks": [
+      "If labor share in the economy drops below 60% for an extended period, it would challenge the thesis of labor share stability.",
+      "A significant and sustained increase in unemployment rates across various sectors could indicate that automation is leading to job displacement contrary to the podcast's assertions.",
+      "Should developing countries fail to adopt AI technologies and show no signs of leapfrogging traditional development stages, it would undermine the potential for AI to catalyze economic growth in these regions."
+    ],
+    "insight_title": "Alex Imas and Phil Trammell \u2013 What remains scarce after AGI?",
+    "source_name": "Dwarkesh Podcast",
+    "source_date": "2026-06-04",
+    "key_tickers": []
+  },
+  "276": {
+    "id": 266,
+    "insight_id": 276,
+    "podcast_episode_id": 260,
+    "overview": "The unresolved tension in the podcast revolves around the U.S.'s prolonged blockade of Iran and its impact on global oil prices and market dynamics. The competitive dynamic is between the U.S.'s economic statecraft and the global market's response to geopolitical tensions. The allocation-relevant implication is that investors must navigate the uncertainty created by these tensions, with the potential for market volatility arbitrated by geopolitical developments and economic policies. The horizon of proof lies in the actual duration of the blockade and the market's reaction to it.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the duration of the U.S. blockade of Iran and its impact on oil supply, as this could be a leading indicator of oil price movements.",
+      "The potential shift towards economic statecraft suggests a reevaluation of investment strategies, with a focus on sectors that could benefit from infrastructure and industrial development.",
+      "Market participants should be prepared for increased volatility in the S&P 500 and consider strategies to mitigate the risk of a market correction.",
+      "The breakout potential of the U.S. dollar could have significant implications for international trade and commodity investments, requiring active monitoring and potential adjustments to portfolios.",
+      "Investors should be cautious with gold investments, as the critical support level at the 200-day moving average may not hold under escalating geopolitical tensions."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that the prolonged U.S. blockade of Iran and the shift towards economic statecraft will create a period of heightened market volatility and potential sector-specific investment opportunities. This thesis is tied to the observable development of oil prices, market indices, and policy announcements. A timeframe of 6-12 months is suggested to assess the impact of these developments. The thesis would be vindicated if oil prices spike, the S&P 500 corrects, and sectors related to infrastructure and industrial production outperform. Conversely, it would be invalidated if the blockade is lifted sooner than expected, oil prices remain stable, and market indices continue to rally without significant corrections.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc., being a technology giant with a global supply chain, is relevant due to its potential impact from both the economic statecraft and market volatility discussed.",
+        "positioning": "A strategic long position in AAPL could be considered, as the company's resilience and innovation capabilities may allow it to navigate market volatility and benefit from a potential focus on rebuilding the physical economy.",
+        "risk": "Key risks include disruptions in the global supply chain due to geopolitical tensions and potential market corrections that could affect technology stocks."
+      },
+      "XOM": {
+        "rationale": "Exxon Mobil, as a major oil and gas company, is directly impacted by oil price fluctuations and geopolitical developments in the energy sector.",
+        "positioning": "A tactical long position in XOM could be considered to capitalize on potential oil price spikes due to the U.S. blockade of Iran.",
+        "risk": "The key risk is a sudden drop in oil prices if the blockade is lifted earlier than expected or if global supply increases unexpectedly."
+      },
+      "GOLD": {
+        "rationale": "The VanEck Vectors Gold Miners ETF, which tracks companies involved in gold mining, is relevant due to the pressure on gold prices discussed in the podcast.",
+        "positioning": "A tactical short position in GOLD could be considered, as gold prices may decline if the 200-day moving average fails to hold.",
+        "risk": "The key risk is a sudden increase in gold prices due to escalating geopolitical tensions or a flight to safety by investors."
+      },
+      "FCX": {
+        "rationale": "Freeport-McMoRan, a major copper producer, is relevant due to the strong momentum in copper prices mentioned in the podcast.",
+        "positioning": "A strategic long position in FCX could be considered to benefit from the continued strength in copper prices and the potential for further increases.",
+        "risk": "Key risks include a slowdown in global economic growth or a decrease in demand for copper, which could negatively impact prices."
+      },
+      "UUU": {
+        "rationale": "Uranium Energy Corp., a company focused on uranium mining, is relevant due to the potential seasonal uptick in uranium prices discussed.",
+        "positioning": "A tactical long position in UUU could be considered, anticipating a potential increase in uranium prices in late summer.",
+        "risk": "The key risk is a continued quietness in the uranium market or a delay in the expected seasonal uptick, which could affect uranium prices."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The U.S. may decide to lift the blockade of Iran earlier than expected, reducing the impact on oil prices and market volatility.",
+      "Global oil supply may increase due to alternative sources or a relaxation of production cuts by OPEC, mitigating the impact of the blockade.",
+      "The S&P 500 may continue to rally without a significant correction, challenging the market exhaustion signals.",
+      "Gold prices may hold above the 200-day moving average, indicating continued investor confidence despite geopolitical tensions.",
+      "Uranium prices may remain quiet without a seasonal uptick, affecting the of price increases."
+    ],
+    "catalysts": [
+      "Announcements regarding the duration of the U.S. blockade of Iran and its impact on oil supply.",
+      "Policy shifts towards economic statecraft and their implications for infrastructure and industrial sectors.",
+      "Market reactions to the S&P 500's signs of exhaustion and potential corrections.",
+      "Movements in the U.S. dollar index and their impact on commodity prices and international trade.",
+      "Developments in the 10-year Treasury yield and its influence on inflation expectations and market dynamics."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-04T13:39:32.960017",
+    "updated_at": "2026-06-04 18:39:32",
+    "episode_evidence": "The podcast episode with Michael Every on MacroVoices #535 delves into the intricacies of the U.S. blockade of Iran and its broader implications. Every points out that 'President Trump even made the comment that the U.S. blockade of Iran could be lifted as soon as Labor Day,' which, if accurate, suggests a prolonged period of geopolitical tension. This blockade's duration could significantly disrupt oil supply chains, as Iran is a key OPEC member. Additionally, Every discusses a shift towards 'economic statecraft with a greater focus on rebuilding the physical economy,' indicating a potential policy pivot that could have far-reaching investment implications. The S&P 500's signs of exhaustion are also noteworthy, with the market showing 'early signs of exhaustion' after a significant rally, which could foreshadow a market correction. These insights underscore the complexity of current market dynamics and the importance of geopolitical developments in shaping economic outcomes.",
+    "falsification_tracks": [
+      "Should the U.S. announce a premature end to the blockade of Iran, the thesis of prolonged geopolitical standoff would be weakened.",
+      "A sudden drop in oil prices or a significant increase in global oil supply would challenge the expectation of oil price spikes due to the blockade.",
+      "A sharp decline in the 10-year Treasury yield would suggest that inflation expectations are not rising, contradicting the current narrative of market pressure.",
+      "A sustained rally in the S&P 500 without a significant correction would cast doubt on the market exhaustion signals discussed."
+    ],
+    "insight_title": "MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
+    "source_name": "Macro Voices",
+    "source_date": "2026-06-04",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 11947,
+    "id": 12009,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -25842,7 +26020,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11948,
+    "id": 12010,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -25854,7 +26032,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11949,
+    "id": 12011,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -25866,7 +26044,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11950,
+    "id": 12012,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -25878,7 +26056,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11951,
+    "id": 12013,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -25890,7 +26068,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11952,
+    "id": 12014,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -25902,7 +26080,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11953,
+    "id": 12015,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -25914,7 +26092,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11954,
+    "id": 12016,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -25926,7 +26104,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11955,
+    "id": 12017,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -25938,7 +26116,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11956,
+    "id": 12018,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -25950,7 +26128,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11957,
+    "id": 12019,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -25962,7 +26140,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11958,
+    "id": 12020,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -25974,7 +26152,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11959,
+    "id": 12021,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -25986,7 +26164,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11960,
+    "id": 12022,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -25998,7 +26176,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 11961,
+    "id": 12023,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -26010,7 +26188,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11962,
+    "id": 12024,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -26022,7 +26200,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11963,
+    "id": 12025,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -26034,7 +26212,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11964,
+    "id": 12026,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -26046,7 +26224,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11965,
+    "id": 12027,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -26058,7 +26236,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 11966,
+    "id": 12028,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -26213,7 +26391,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-26",
     "mention_score": 3,
-    "mention_score_decayed": 2.49,
+    "mention_score_decayed": 2.44,
     "last_main_idea": "Invest in companies that are actively transitioning to AI-native organizations to capitalize on the potential for increased operational efficiency and reduced workforce costs.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-26 \u2022 The Organizational Singularity: AI-Proof Your Company | EP #258",
     "last_proof_snippet": "Is there a line year business, a high margin line year of your business that two guys with open claw could replicate in 60 to 90 days? This is something across the board useful for everyone. When we wrote the exponential organizations book,",
@@ -26325,6 +26503,78 @@ const dashboardData = {
     "net_worth": "$12.3M"
   },
   {
+    "id": 122,
+    "name": "Michael Every",
+    "slug": "michael-every",
+    "bio": "Michael Every is a renowned financial analyst with a focus on global markets and economic policies. He is recognized for his insightful commentary on geopolitical issues and their impact on financial markets. Every's expertise is sought after by professional finance, high-net worth individuals, and sophisticated investors.",
+    "known_for": "His incisive analysis on the intersection of geopolitics, inflation, and market trends.",
+    "net_worth_usd": 70000000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-politicians/michael-bloomberg-net-worth/",
+    "net_worth_updated_at": "2026-03-31T20:09:40.488239",
+    "voice_tone": "Authoritative and insightful",
+    "voice_style": "Factual and analytical",
+    "voice_delivery_notes": "Clear and deliberate pace with emphasis on key economic indicators",
+    "voice_profile_updated_at": "2026-06-04 18:37:25",
+    "last_seen": "2026-06-04 18:37:26",
+    "last_episode_title": "MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-06-04",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
+    "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "Consider investing in infrastructure and industrial sectors due to a shift towards economic statecraft.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-04T13:38:40.048685",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Michael Every",
+      "fetched_at": "2026-06-04T18:38:40.048477+00:00",
+      "cliff_notes": "Michael Every has carved out a niche as a financial analyst with a particular focus on the intricacies of global markets and their relationship with economic policies. His career has been marked by a deep dive into geopolitical events and their financial repercussions, making him a go-to source for understanding complex market dynamics. Every's commentary is valued for its clarity and ability to distill complex economic and political scenarios into actionable insights for investors. His work has been influential in shaping investment strategies amidst global uncertainties, particularly in the realms of inflation, trade, and geopolitical tensions.",
+      "derived": {
+        "current_role": "Robobank Strategist"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Michael Every has carved out a niche as a financial analyst with a particular focus on the intricacies of global markets and their relationship with economic policies. His career has been marked by a deep dive into geopolitical events and their financial repercussions, making him a go-to source for understanding complex market dynamics.",
+        "Every's commentary is valued for its clarity and ability to distill complex economic and political scenarios into actionable insights for investors. His work has been influential in shaping investment strategies amidst global uncertainties, particularly in the realms of inflation, trade, and geopolitical tensions."
+      ],
+      "sections": [
+        {
+          "heading": "Geopolitical Impact on Markets",
+          "body": "Every is known for his analysis on how geopolitical events, such as the U.S. blockade of Iran, affect global markets and inflation."
+        },
+        {
+          "heading": "Economic Statecraft",
+          "body": "His work often encompasses the strategic use of economic tools by nations to achieve foreign policy goals."
+        },
+        {
+          "heading": "Inflation Outlook",
+          "body": "Every provides detailed insights into the inflationary trends and their implications for global economies."
+        },
+        {
+          "heading": "China's Role in Global Economy",
+          "body": "He frequently discusses China's economic policies and their impact on international trade and markets."
+        },
+        {
+          "heading": "President Trump's Economic Policies",
+          "body": "Every has commented on the economic policies of President Trump, including the potential lifting of the Iran blockade."
+        },
+        {
+          "heading": "Statecraft Ambitions",
+          "body": "His analysis includes the examination of statecraft ambitions through the lens of economic and financial strategies."
+        }
+      ]
+    },
+    "net_worth": "$70.00B"
+  },
+  {
     "id": 171,
     "name": "Steven Sinofsky",
     "slug": "steven-sinofsky",
@@ -26408,7 +26658,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.82,
+    "mention_score_decayed": 1.78,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -26596,7 +26846,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.07,
+    "mention_score_decayed": 1.05,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -27349,7 +27599,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-03 \u2022 Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
     "last_proof_snippet": "One of the most provocative and interesting investors in the country. A legendary activist investor. Pershing square CEO and founder Bill Acling. Taking a short position and going public with it is a pretty serious business. Interestingly,",
@@ -27414,7 +27664,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-02 \u2022 OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
     "last_proof_snippet": "Open AI's CFO, Sarah Fryer. We've got to get right to it. You have just completed what I would find as the most successful fund-raising rail in history. We're going to raise actually north of $120 billion. We think AI is the biggest era tha",
@@ -27718,7 +27968,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -28028,7 +28278,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -28092,7 +28342,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -28155,7 +28405,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -29027,7 +29277,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -29217,7 +29467,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -29280,7 +29530,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -29468,7 +29718,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -33581,65 +33831,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$10.00B"
-  },
-  {
-    "id": 122,
-    "name": "Michael Every",
-    "slug": "michael-every",
-    "bio": "Michael Every is a Global Strategist for Economics and Markets at Robo Banks, known for his exceptional ability to translate political statements into market implications. His insights are highly valued by professional finance, high-net worth individuals, family offices, and sophisticated investors.",
-    "known_for": "His ability to translate political statements into market implications and his expertise in macroeconomics.",
-    "net_worth_usd": 70000000000.0,
-    "net_worth_source": "https://www.celebritynetworth.com/richest-politicians/michael-bloomberg-net-worth/",
-    "net_worth_updated_at": "2026-03-31T20:09:40.488239",
-    "voice_tone": "Cautious and skeptical",
-    "voice_style": "Direct and candid, with a focus on the complexities of the current geopolitical situation",
-    "voice_delivery_notes": "Paced with pauses for emphasis, highlighting the uncertainty of the situation",
-    "voice_profile_updated_at": "2026-03-26 19:14:35",
-    "last_seen": "2026-03-26 19:14:35",
-    "last_episode_title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
-    "last_podcast_name": "MacroVoices",
-    "last_episode_date": "2026-03-26",
-    "mention_score": 1,
-    "mention_score_decayed": 0.2,
-    "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
-    "last_proof_cite": "MacroVoices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
-    "last_proof_snippet": "The world is transitioning into a multi-polar world, which has economic and investment implications.",
-    "supporting_takeaway": "The world is transitioning into a multi-polar world, which has economic and investment implications.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T14:15:50.429943",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Michael Every",
-      "fetched_at": "2026-03-26T19:15:50.429788+00:00",
-      "cliff_notes": "Michael Every is recognized for his exceptional track record in translating political statements into market implications. As a Global Strategist for Economics and Markets at Robo Banks, he provides valuable insights to professional finance, high-net worth individuals, family offices, and sophisticated investors. His expertise in macroeconomics and geopolitical analysis has made him a sought-after commentator in the world of finance. Every's ability to dissect complex political situations and predict their impact on the market has earned him a reputation as a trusted voice in the industry.",
-      "derived": {
-        "current_role": "Global Strategist for Economics and Markets at Robo Banks"
-      },
-      "infobox": {
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Michael Every is recognized for his exceptional track record in translating political statements into market implications. As a Global Strategist for Economics and Markets at Robo Banks, he provides valuable insights to professional finance, high-net worth individuals, family offices, and sophisticated investors. His expertise in macroeconomics and geopolitical analysis has made him a sought-after commentator in the world of finance.",
-        "Every's ability to dissect complex political situations and predict their impact on the market has earned him a reputation as a trusted voice in the industry."
-      ],
-      "sections": [
-        {
-          "heading": "Macroeconomics",
-          "body": "Michael Every is known for his expertise in macroeconomics, providing insights into the broader implications of political and economic events on the global market."
-        },
-        {
-          "heading": "Geopolitical Analysis",
-          "body": "Every's geopolitical analysis is highly regarded, as he is able to dissect complex political situations and predict their impact on the market."
-        },
-        {
-          "heading": "Market Implications",
-          "body": "His ability to translate political statements into market implications has made him a trusted voice in the world of finance, providing valuable insights to investors and financial professionals."
-        }
-      ]
-    },
-    "net_worth": "$70.00B"
   },
   {
     "id": 118,

@@ -24,6 +24,50 @@
       "podcast_episode_id": 259
     },
     {
+      "id": 275,
+      "title": "Alex Imas and Phil Trammell \u2013 What remains scarce after AGI?",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-06-04",
+      "summary": "The podcast discusses the impact of automation and AI on the economy, focusing on the resilience of sectors requiring human interaction, the stability of labor share, and the potential for developing countries to leapfrog traditional development stages. It emphasizes the need for comprehensive data on automation and the importance of equitable wealth distribution in an AI-driven economy. The discussion also highlights the potential concentration of power and wealth in AI development and the need for a positive narrative around AI's impact on jobs.",
+      "key_takeaway": "Invest in relational sectors and advocate for equitable access to AI technologies to capitalize on the human economy and prevent wealth concentration in an automated future.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 261
+    },
+    {
+      "id": 276,
+      "title": "MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-06-04",
+      "summary": "In this episode, the discussion revolves around the potential prolonged U.S. blockade of Iran and its impact on oil prices, the shift towards economic statecraft, and the signals of market exhaustion in the S&P 500. The podcast also covers the breakout potential of the U.S. dollar, the stability of oil prices, the pressure on gold prices, the quiet uranium market, and the strong momentum in copper prices. Additionally, the 10-year Treasury yield is discussed in the context of inflation expectations.",
+      "key_takeaway": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
+      "tickers_mentioned": [
+        "AAPL",
+        "XOM",
+        "GOLD",
+        "FCX",
+        "UUU"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 260
+    },
+    {
       "id": 271,
       "title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
       "source_type": "podcast",
@@ -98,7 +142,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-02",
       "archived_date": null,
@@ -183,7 +227,7 @@
         "MSFT"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-01",
       "archived_date": null,
