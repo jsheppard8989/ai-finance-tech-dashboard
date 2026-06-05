@@ -1,117 +1,122 @@
 {
-  "prompt": "Will Ukraine hold national elections for the parliament and/or presidency between February 12 and December 31, 2025?",
-  "expires_rule": "Resolves Friday 12:00 PM CST 2026-07-10",
-  "crux_theme": "Ukraine election timing",
+  "prompt": "Will the price of Bitcoin exceed $75,000 within the next 42 days?",
+  "expires_rule": "Resolves Friday 12:00 PM CST 2026-07-17",
+  "crux_theme": "Bitcoin price movement",
   "resolution_clarity": {
-    "source_of_truth": "Official Ukrainian election commission announcements, international observer reports, and reputable news outlets.",
+    "source_of_truth": "Bitcoin trading exchanges",
     "resolution_sources": [
-      "https://www.cvk.gov.ua/",
-      "https://www.osce.org/",
-      "https://www.nytimes.com/",
-      "https://www.reuters.com/"
+      "Coinbase",
+      "Bitstamp",
+      "Binance"
     ],
     "resolution_criteria": [
-      "Any official announcement or verified news report indicating the scheduling of national elections within the specified timeframe."
+      "The market will resolve to 'Yes' if Bitcoin's (BTC-USD) per coin trading price exceeds $75,000 on any of the specified exchanges at any time within the next 42 days from contract date."
     ]
   },
   "sides": {
     "a": "Affirmative (YES)",
     "b": "Negative (NO)"
   },
-  "resolves_iso": "2026-07-10",
-  "friday_iso": "2026-05-29",
-  "week_label": "Week of 2026-05-29",
-  "debater_a": "Dino Mavruchus",
-  "debater_b": "Honorable Duffy",
-  "generated_at": "2026-05-29T05:02:27.984853",
+  "resolves_iso": "2026-07-17",
+  "friday_iso": "2026-06-05",
+  "week_label": "Week of 2026-06-05",
+  "debater_a": "Andreas Stino-Larson",
+  "debater_b": "John Doe",
+  "generated_at": "2026-06-05T05:02:16.444829",
   "bet_status": "open",
   "audio_href": "./audio/emp_ai_the_debate_11labs.mp3",
   "debater_a_snapshot": {
-    "name": "Dino Mavruchus",
-    "known_for": "Pioneering autonomous shipbuilding and applying first principles design to modernize ship production.",
-    "bio": "Dino Mavruchus is the CEO of Marathon Marine, a company focused on modernizing shipbuilding. He is known for his work in autonomous shipbuilding and the first principles design approach, aiming to revolutionize the industry by focusing on production, cost, and scale.",
-    "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-19",
+    "name": "Andreas Stino-Larson",
+    "known_for": "His expertise in predicting semiconductor market cycles and identifying late-cycle signals in the economy.",
+    "bio": "Andreas Stino-Larson is an expert in market analysis and economic trends, known for his insights on semiconductor cycles and market saturation signals. As a former hedge fund manager and editor of RealVision's macro research, he provides valuable perspectives on macroeconomic shifts and their implications for investors.",
+    "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-25",
+    "net_worth": "$5.0M",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Dino Mavruchus",
-      "fetched_at": "2026-05-19T17:12:39.354917+00:00",
-      "cliff_notes": "Dino Mavruchus is recognized as a leader in the shipbuilding industry, particularly for his innovative approaches to autonomous shipbuilding and the application of first principles design. As the CEO of Marathon Marine, he has been instrumental in shifting the focus from technological innovation alone to encompassing production capabilities, cost efficiency, and scalability. Mavruchus emphasizes the importance of rebuilding the industrial base to meet the demands of the future, highlighting the vulnerabilities created by a sole supplier model in the defense industry. His vision involves new companies redesigning systems for autonomy, software integration, and speed, which are critical for the rapid and cost-effective production of ships.",
+      "page_title": "Andreas Stino-Larson",
+      "fetched_at": "2026-05-25T18:37:53.892881+00:00",
+      "cliff_notes": "Andreas Stino-Larson has made a name for himself as an expert in market analysis and economic trends, particularly in the realm of semiconductor cycles and market saturation signals. His career has seen him transition from managing hedge funds to editing macro research for RealVision, where he shares his insights with a broader audience. Stino-Larson's ability to predict market cycles and identify key economic indicators has made him a sought-after voice in the investment community. His perspectives on macroeconomic shifts and their implications for investors have been influential in shaping market strategies and understanding the broader economic landscape.",
       "derived": {
-        "current_role": "CEO of Marathon Marine"
+        "current_role": "Editor of RealVision's Macro Research",
+        "former_positions": "Former Hedge Fund Manager"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Dino Mavruchus is recognized as a leader in the shipbuilding industry, particularly for his innovative approaches to autonomous shipbuilding and the application of first principles design. As the CEO of Marathon Marine, he has been instrumental in shifting the focus from technological innovation alone to encompassing production capabilities, cost efficiency, and scalability.",
-        "Mavruchus emphasizes the importance of rebuilding the industrial base to meet the demands of the future, highlighting the vulnerabilities created by a sole supplier model in the defense industry. His vision involves new companies redesigning systems for autonomy, software integration, and speed, which are critical for the rapid and cost-effective production of ships."
+        "Andreas Stino-Larson has made a name for himself as an expert in market analysis and economic trends, particularly in the realm of semiconductor cycles and market saturation signals. His career has seen him transition from managing hedge funds to editing macro research for RealVision, where he shares his insights with a broader audience.",
+        "Stino-Larson's ability to predict market cycles and identify key economic indicators has made him a sought-after voice in the investment community. His perspectives on macroeconomic shifts and their implications for investors have been influential in shaping market strategies and understanding the broader economic landscape."
       ],
       "sections": [
         {
-          "heading": "Autonomous Shipbuilding",
-          "body": "Mavruchus is at the forefront of developing autonomous ships, which can potentially transform the maritime industry by increasing efficiency and reducing costs."
+          "heading": "Semiconductor Cycles",
+          "body": "Stino-Larson is well-regarded for his analysis of semiconductor market cycles, providing investors with valuable insights into market trends and potential shifts."
         },
         {
-          "heading": "First Principles Design",
-          "body": "He advocates for a first principles design approach in shipbuilding, which involves rethinking the fundamental aspects of ship design and production to achieve better outcomes."
+          "heading": "Market Saturation Signals",
+          "body": "He has a keen eye for identifying signals of market saturation, which can be crucial for investors looking to time their entries and exits in the market."
         },
         {
-          "heading": "Production Constraints",
-          "body": "Mavruchus identifies production, rather than innovation, as the current constraint in defense, emphasizing the need for faster, more cost-effective, and scalable shipbuilding methods."
+          "heading": "Macroeconomic Shifts",
+          "body": "As the editor of RealVision's macro research, Stino-Larson offers in-depth analysis of macroeconomic shifts and their impact on various sectors of the economy."
         },
         {
-          "heading": "Rebuilding the Industrial Base",
-          "body": "He calls for a rebuild of the industrial base, arguing that the current model creates vulnerabilities and is not profitable, and that a new approach is necessary for the next century."
+          "heading": "Investment Strategies",
+          "body": "His expertise in market analysis has led to the development of investment strategies that take into account broader economic trends and cycles."
         }
       ]
     }
   },
   "debater_b_snapshot": {
-    "name": "Honorable Duffy",
-    "known_for": "Advocating for the modernization and rebuilding of the defense industrial base to address production constraints and vulnerabilities.",
-    "bio": "The Honorable Duffy is a former Assistant Secretary of the Navy with extensive experience in defense acquisition. He is known for his understanding of the challenges and opportunities within the defense industrial base and his advocacy for rebuilding the industrial base to meet future defense needs.",
-    "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
+    "name": "John Doe",
+    "known_for": "His analysis on how AI technologies are reshaping the SaaS market and challenging traditional software pricing models.",
+    "bio": "John Doe is an expert in SaaS and AI market dynamics, providing insights on the intersection of these technologies. He is known for his analysis of the dynamic market, particularly in the context of buying software where newcomers often replace large incumbents.",
+    "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-19",
-    "net_worth": "$85.9M",
+    "last_episode_date": "2026-05-25",
+    "net_worth": "$7.50B",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Honorable Duffy",
-      "fetched_at": "2026-05-19T17:12:50.208420+00:00",
-      "cliff_notes": "The Honorable Duffy has had a distinguished career in defense acquisition, culminating in his role as Assistant Secretary of the Navy. He has been at the forefront of understanding the challenges and opportunities within the defense industrial base. Duffy has emphasized the need to rebuild the industrial base to address production constraints and vulnerabilities, focusing on the shift from innovation to production as the primary constraint in defense. His insights and advocacy have been influential in rethinking manufacturing, procurement, and the role of new companies in the defense sector.",
+      "page_title": "John Doe",
+      "fetched_at": "2026-05-25T17:03:24.884408+00:00",
+      "cliff_notes": "John Doe has made a significant impact in the technology sector with his expertise in SaaS and AI. His career has been marked by a deep understanding of market dynamics and the transformative potential of AI in the software industry. Doe's insights have been particularly valuable in understanding how new entrants in the market are challenging established players, often leading to shifts in the way software is bought and sold. His commentary on the implications of AI on SaaS companies and pricing models has been influential, challenging the narrative that AI will centralize the market around a few model providers. Instead, Doe's analysis suggests a more nuanced picture, where many of the fastest-growing AI companies are not model providers, indicating a diverse and evolving landscape.",
       "derived": {
-        "former_positions": "Assistant Secretary of the Navy"
+        "current_role": "Expert in SaaS and AI Market Dynamics"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "The Honorable Duffy has had a distinguished career in defense acquisition, culminating in his role as Assistant Secretary of the Navy. He has been at the forefront of understanding the challenges and opportunities within the defense industrial base. Duffy has emphasized the need to rebuild the industrial base to address production constraints and vulnerabilities, focusing on the shift from innovation to production as the primary constraint in defense.",
-        "His insights and advocacy have been influential in rethinking manufacturing, procurement, and the role of new companies in the defense sector."
+        "John Doe has made a significant impact in the technology sector with his expertise in SaaS and AI. His career has been marked by a deep understanding of market dynamics and the transformative potential of AI in the software industry. Doe's insights have been particularly valuable in understanding how new entrants in the market are challenging established players, often leading to shifts in the way software is bought and sold.",
+        "His commentary on the implications of AI on SaaS companies and pricing models has been influential, challenging the narrative that AI will centralize the market around a few model providers. Instead, Doe's analysis suggests a more nuanced picture, where many of the fastest-growing AI companies are not model providers, indicating a diverse and evolving landscape."
       ],
       "sections": [
         {
-          "heading": "Defense Industrial Base",
-          "body": "Honorable Duffy is known for his expertise in understanding the challenges and opportunities within the defense industrial base, particularly the shift from innovation to production as the primary constraint."
+          "heading": "SaaS and AI Dynamics",
+          "body": "John Doe has been instrumental in analyzing the interplay between SaaS and AI technologies, providing insights into how these sectors are evolving and impacting each other."
         },
         {
-          "heading": "Rebuilding the Industrial Base",
-          "body": "Duffy has been a vocal advocate for rebuilding the defense industrial base to address production constraints and vulnerabilities, emphasizing the need for more founders, builders, and government support for change."
+          "heading": "Market Disruption",
+          "body": "Doe's expertise lies in identifying how newcomers in the software market are disrupting traditional players, often leading to significant shifts in the industry landscape."
         },
         {
-          "heading": "Production Constraints",
-          "body": "Honorable Duffy highlights the increasing constraint in defense as production, rather than innovation, and the need for new approaches to manufacturing and procurement to meet future defense needs."
+          "heading": "AI and SaaS Pricing",
+          "body": "John Doe challenges the prevailing narrative that AI will lead to the collapse of seat-based pricing in SaaS, arguing for a more complex and varied impact on the market."
+        },
+        {
+          "heading": "Business Spending Data",
+          "body": "Doe emphasizes the importance of actual business spending data in understanding the true impact of AI on the SaaS market, suggesting that the data does not support some of the more extreme predictions about market centralization."
         }
       ]
     }
   },
-  "prompt_hash": "a1cbee7640ceb47d"
+  "prompt_hash": "f77a13f070f88300"
 }

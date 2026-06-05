@@ -1,6 +1,19 @@
 {
-  "rotation_index": 14,
+  "rotation_index": 15,
   "weeks": [
+    {
+      "friday_iso": "2026-05-29",
+      "week_label": "Week of 2026-05-29",
+      "prompt": "Will Ukraine hold national elections for the parliament and/or presidency between February 12 and December 31, 2025?",
+      "debater_a": "Dino Mavruchus",
+      "debater_b": "Honorable Duffy",
+      "expires_rule": "Resolves Friday 12:00 PM CST 2026-07-10",
+      "resolves_iso": "2026-07-10",
+      "resolution_status": "pending",
+      "resolution_notes": "",
+      "archived_at": "2026-06-05T05:02:16.444718",
+      "audio_href": "./audio/archive/debate_2026-05-29.mp3"
+    },
     {
       "friday_iso": "2026-05-15",
       "week_label": "Week of 2026-05-15",
