@@ -1,6 +1,6 @@
 [
   {
-    "id": 12009,
+    "id": 12071,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -12,7 +12,19 @@
     "appearance_count": 1
   },
   {
-    "id": 12010,
+    "id": 12072,
+    "name": "Thomas Laffont",
+    "slug": "thomas-laffont",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in AI leaders and monitor Unicorn liquidity events for potential high returns, while considering the power law effect in market dynamics.",
+    "last_episode_title": "Thomas Laffont: The $4T AI IPO Wave, 2026's Unicorn Economy, and the 10X Paradox",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-06-04",
+    "appearance_count": 1
+  },
+  {
+    "id": 12073,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12011,
+    "id": 12074,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12012,
+    "id": 12075,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12013,
+    "id": 12076,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12014,
+    "id": 12077,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12015,
+    "id": 12078,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12016,
+    "id": 12079,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12017,
+    "id": 12080,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12018,
+    "id": 12081,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12019,
+    "id": 12082,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12020,
+    "id": 12083,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12021,
+    "id": 12084,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12022,
+    "id": 12085,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -168,7 +180,7 @@
     "appearance_count": 2
   },
   {
-    "id": 12023,
+    "id": 12086,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12024,
+    "id": 12087,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12025,
+    "id": 12088,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12026,
+    "id": 12089,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12027,
+    "id": 12090,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12028,
+    "id": 12091,
     "name": "Crypto Fund 5",
     "slug": "crypto-fund-5",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12029,
+    "id": 12092,
     "name": "NASA Administrator Jared Isaacman",
     "slug": "nasa-administrator-jared-isaacman",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12030,
+    "id": 12093,
     "name": "Tony James",
     "slug": "tony-james",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12031,
+    "id": 12094,
     "name": "Sarah Rogers",
     "slug": "sarah-rogers",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12032,
+    "id": 12095,
     "name": "Warren Pies",
     "slug": "warren-pies",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12033,
+    "id": 12096,
     "name": "Why Fundamentals Fail the New Economy",
     "slug": "why-fundamentals-fail-the-new-economy",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12034,
+    "id": 12097,
     "name": "SpaceX IPO",
     "slug": "spacex-ipo",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12035,
+    "id": 12098,
     "name": "From Soros to Old Farm",
     "slug": "from-soros-to-old-farm",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12036,
+    "id": 12099,
     "name": "David Sinclair",
     "slug": "david-sinclair",
     "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 12037,
+    "id": 12100,
     "name": "\u201cOverblown\u201d Sell-off in Software Loans",
     "slug": "overblown-sell-off-in-software-loans",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "\u201cOverblown\u201d Sell-off in Software Loans | Matthew Bloomfield on Public BDCs (Business Development Companies) and Collateralized Loan Obligations (CLOs)",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-26",
-    "appearance_count": 1
-  },
-  {
-    "id": 12038,
-    "name": "Balaji Srinivasan",
-    "slug": "balaji-srinivasan",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in technologies and platforms that leverage cryptography and blockchain to provide verifiable information and restore trust in digital content.",
-    "last_episode_title": "Balaji Srinivasan: Prove Correct, Not Just Go Direct",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-22",
     "appearance_count": 1
   }
 ]

@@ -68,6 +68,25 @@
       "podcast_episode_id": 260
     },
     {
+      "id": 277,
+      "title": "Thomas Laffont: The $4T AI IPO Wave, 2026's Unicorn Economy, and the 10X Paradox",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-04",
+      "summary": "The podcast discusses the resurgence of the Unicorn Economy, with a 70% increase since September 2024, and the dominant role of AI in fundraising. The top 10 AI companies are capturing a significant share of funding, indicating a concentration of investment in high-performing firms. The Unicorn ecosystem is showing signs of recovery, with more liquidity events expected in 2026. SpaceX's valuation is closely linked to its operational metrics, specifically its launch cadence. The AI ecosystem is projected to double in size by the end of 2024, presenting substantial investment opportunities. The market dynamics suggest a power law effect, with a few companies capturing the majority of gains.",
+      "key_takeaway": "Invest in AI leaders and monitor Unicorn liquidity events for potential high returns, while considering the power law effect in market dynamics.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 262
+    },
+    {
       "id": 271,
       "title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
       "source_type": "podcast",
@@ -165,7 +184,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-02",
       "archived_date": null,

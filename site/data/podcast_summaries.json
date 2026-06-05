@@ -1,5 +1,21 @@
 [
   {
+    "id": 262,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Thomas Laffont: The $4T AI IPO Wave, 2026's Unicorn Economy, and the 10X Paradox",
+    "episode_date": "2026-06-04",
+    "summary": "The podcast discusses the resurgence of the Unicorn Economy, with a 70% increase since September 2024, and the dominant role of AI in fundraising. The top 10 AI companies are capturing a significant share of funding, indicating a concentration of investment in high-performing firms. The Unicorn ecosystem is showing signs of recovery, with more liquidity events expected in 2026. SpaceX's valuation is closely linked to its operational metrics, specifically its launch cadence. The AI ecosystem is projected to double in size by the end of 2024, presenting substantial investment opportunities. The market dynamics suggest a power law effect, with a few companies capturing the majority of gains.",
+    "key_takeaways": [
+      "Invest in established AI companies capturing significant market share and funding.",
+      "Monitor upcoming IPOs and liquidity events in the Unicorn ecosystem for investment opportunities.",
+      "Analyze operational metrics like launch cadence for aerospace companies to inform valuation assessments.",
+      "Diversify investments across sectors poised for growth due to AI advancements.",
+      "Consider a concentrated investment strategy focusing on high-potential companies to maximize returns."
+    ],
+    "investment_thesis": "Invest in AI leaders and monitor Unicorn liquidity events for potential high returns, while considering the power law effect in market dynamics.",
+    "key_tickers": null
+  },
+  {
     "id": 261,
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "Alex Imas and Phil Trammell \u2013 What remains scarce after AGI?",
@@ -120,23 +136,5 @@
       "AAPL",
       "DELL"
     ]
-  },
-  {
-    "id": 254,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
-    "episode_date": "2026-06-02",
-    "summary": "In this episode, the panel discusses OpenAI's massive fundraising efforts, the implications of compute scarcity, and the strategic importance of balancing consumer and enterprise offerings in the AI sector. They also delve into the economic model of AI compute, the shift from capex to opex models, and the potential for ad-based revenue streams. The conversation highlights the competitive advantage of leveraging user data for personalization and the integration of memory and context in AI models to drive enterprise value.",
-    "key_takeaways": [
-      "OpenAI has raised over $120 billion, positioning it as a leader in AI infrastructure.",
-      "Compute scarcity is projected to last through 2026, emphasizing the importance of strategic investments in data centers and cloud partnerships.",
-      "OpenAI's dual focus on consumer and enterprise offerings allows for diversified revenue streams and market capture.",
-      "AI compute's economic model suggests significant revenue potential, with one gigawatt generating around $10 billion annually.",
-      "The transition from capex to opex models through cloud service provider partnerships enhances financial flexibility.",
-      "Integrating memory and context into AI models is expected to drive significant value for enterprises.",
-      "OpenAI's exploration of ad-based revenue models while maintaining a free tier could provide a sustainable revenue stream."
-    ],
-    "investment_thesis": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
-    "key_tickers": null
   }
 ]
