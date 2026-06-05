@@ -1,5 +1,22 @@
 [
   {
+    "id": 263,
+    "podcast_name": "The a16z Show",
+    "episode_title": "AI Agents and the Fight for Customer Data",
+    "episode_date": "2026-06-05",
+    "summary": "This episode of The a16z Show discusses the critical role of centralized data access for AI agents and the shift in data infrastructure to support AI-centric models. It highlights the risks posed by SaaS companies restricting data access and the importance of open APIs for AI functionality. The episode also touches on the fallacy of data gravity, the benefits of the FiveTran and DBT merger, and the increasing demand for robust software infrastructure driven by AI.",
+    "key_takeaways": [
+      "Centralized data platforms are essential for effective AI operations in business contexts.",
+      "SaaS vendors' data access restrictions can complicate AI functionality and operational efficiency.",
+      "The concept of data gravity is often overstated, and moving data can be less costly than perceived.",
+      "Open APIs are crucial for AI agents to interact with various data sources effectively.",
+      "The merger between FiveTran and DBT is expected to enhance data management and modeling capabilities.",
+      "AI is driving demand for robust software infrastructure rather than commoditizing it."
+    ],
+    "investment_thesis": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
+    "key_tickers": null
+  },
+  {
     "id": 262,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Thomas Laffont: The $4T AI IPO Wave, 2026's Unicorn Economy, and the 10X Paradox",
@@ -116,25 +133,5 @@
     ],
     "investment_thesis": "Invest in companies that are part of decentralized tech ecosystems and those leveraging 'internet first' ideologies, while advocating for rational industrial policies to strengthen supply chains.",
     "key_tickers": null
-  },
-  {
-    "id": 255,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
-    "episode_date": "2026-06-02",
-    "summary": "In this episode, the discussion revolves around Nvidia's announcement of the RTX Spark Superchip and its implications for the future of personal computing. The shift from CPU to GPU and neural processors is highlighted as a critical development for device performance and cost efficiency. The concept of 'tokens' in AI usage underscores the need for local processing to avoid high cloud-based AI service costs. The competitive landscape is set to change with AI-optimized hardware potentially disrupting the traditional Windows device market. The strategies of Apple and Nvidia in integrating CUDA APIs and AI will be crucial in shaping their market positions.",
-    "key_takeaways": [
-      "Nvidia's RTX Spark Superchip marks a significant advancement in AI-native computing by combining CPU and GPU capabilities.",
-      "The shift to local processing could reduce costs associated with cloud-based AI services and democratize AI tool access.",
-      "Competitive dynamics between Nvidia and Apple in AI integration and hardware optimization will shape consumer preferences.",
-      "Dell's XPS 13 is positioned as a strong competitor to Apple's MacBook Neo, emphasizing AI capabilities.",
-      "Nvidia's historical role as an outsider in the PC industry provides context for its current strategies and future potential."
-    ],
-    "investment_thesis": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
-    "key_tickers": [
-      "NVDA",
-      "AAPL",
-      "DELL"
-    ]
   }
 ]

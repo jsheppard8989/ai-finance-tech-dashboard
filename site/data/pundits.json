@@ -1202,6 +1202,70 @@
     "pundit_profile": null
   },
   {
+    "id": 273,
+    "name": "George Prager",
+    "slug": "george-prager",
+    "bio": "George Prager is an expert in data infrastructure and AI integration, known for his thought leadership in these fields. He has been instrumental in shaping the way companies approach data management and AI adoption, emphasizing the importance of integrating AI into everyday business operations.",
+    "known_for": "His insights on the evolution of data infrastructure to support AI and the potential for AI-native companies to disrupt traditional enterprises.",
+    "net_worth_usd": 4900000.0,
+    "net_worth_source": "https://www.networthspot.com/prageru/net-worth/",
+    "net_worth_updated_at": "2026-06-05T12:06:32.852060",
+    "voice_tone": "Assertive and knowledgeable.",
+    "voice_style": "Direct and insightful, with a focus on practical implications.",
+    "voice_delivery_notes": "Clear and concise, with emphasis on key points.",
+    "voice_profile_updated_at": "2026-06-05 17:06:11",
+    "last_seen": "2026-06-05 17:06:11",
+    "last_episode_title": "AI Agents and the Fight for Customer Data",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-05",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
+    "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
+    "supporting_takeaway": "SaaS vendors' data access restrictions can complicate AI functionality and operational efficiency.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-05T12:06:31.930153",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "George Prager",
+      "fetched_at": "2026-06-05T17:06:31.929801+00:00",
+      "cliff_notes": "George Prager's career has been deeply rooted in the intersection of data management and artificial intelligence. He has been a prominent voice advocating for the transformation of traditional data infrastructure to accommodate the growing capabilities of AI. Prager's work has focused on the shift from using data to answer business questions to building infrastructure that supports AI-driven decision-making. He the rise of AI as not just a technological advancement but a fundamental change in how businesses operate, with AI agents becoming integral parts of teams, much like human colleagues. His contributions to the field have been influential in steering the conversation around AI integration and its implications for enterprise data strategies.",
+      "derived": {
+        "current_role": "Expert in Data Infrastructure and AI Integration"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "George Prager's career has been deeply rooted in the intersection of data management and artificial intelligence. He has been a prominent voice advocating for the transformation of traditional data infrastructure to accommodate the growing capabilities of AI. Prager's work has focused on the shift from using data to answer business questions to building infrastructure that supports AI-driven decision-making.",
+        "He the rise of AI as not just a technological advancement but a fundamental change in how businesses operate, with AI agents becoming integral parts of teams, much like human colleagues. His contributions to the field have been influential in steering the conversation around AI integration and its implications for enterprise data strategies."
+      ],
+      "sections": [
+        {
+          "heading": "Data Infrastructure Evolution",
+          "body": "George Prager has been a key figure in discussing the evolution of data infrastructure to support AI, emphasizing the need for businesses to adapt their data strategies to leverage AI capabilities effectively."
+        },
+        {
+          "heading": "AI Integration in Business",
+          "body": "Prager highlights the importance of integrating AI into everyday business operations, suggesting that the future of enterprise software consumption will involve treating AI agents much like human team members."
+        },
+        {
+          "heading": "AI-native Companies",
+          "body": "He posits that AI-native companies have the potential to disrupt traditional enterprises, as they are better positioned to leverage AI in their operations, possibly outpacing established companies in terms of innovation and efficiency."
+        },
+        {
+          "heading": "Challenges in AI Adoption",
+          "body": "Prager identifies that the challenge for enterprises is no longer about collecting data but managing it in a way that AI can effectively use it, suggesting a paradigm shift from data collection to data utilization."
+        }
+      ]
+    },
+    "net_worth": "$4.9M"
+  },
+  {
     "id": 271,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
@@ -1219,7 +1283,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -1536,7 +1600,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -1600,7 +1664,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -1783,7 +1847,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -1847,7 +1911,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -2590,7 +2654,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -2656,7 +2720,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -5292,7 +5356,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -7600,7 +7664,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -7660,7 +7724,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -7720,7 +7784,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",

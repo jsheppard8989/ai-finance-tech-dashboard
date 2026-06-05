@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-05T06:39:28.921659",
-  chartsVersion: "2026-06-05T06:39:15.162601",
+  generatedAt: "2026-06-05T12:07:52.481356",
+  chartsVersion: "2026-06-05T12:07:47.535374",
   priceSnapshot: {
   "GOOGL": {
-    "price": 372.19,
-    "change_pct": -6.2,
+    "price": 369.15,
+    "change_pct": -7.0,
     "name": "GOOGL",
-    "updated_at": "2026-06-05T06:39:15.161423"
+    "updated_at": "2026-06-05T12:07:47.534595"
   },
   "BTC": {
-    "price": 62237.03,
-    "change_pct": -18.83,
+    "price": 61242.26,
+    "change_pct": -20.13,
     "name": "BTC",
-    "updated_at": "2026-06-05T06:39:15.161446"
+    "updated_at": "2026-06-05T12:07:47.534611"
   },
   "MSFT": {
-    "price": 428.05,
-    "change_pct": 1.67,
+    "price": 420.42,
+    "change_pct": -0.52,
     "name": "MSFT",
-    "updated_at": "2026-06-05T06:39:15.161457"
+    "updated_at": "2026-06-05T12:07:47.534617"
   },
   "NVDA": {
-    "price": 218.66,
-    "change_pct": -2.84,
+    "price": 207.48,
+    "change_pct": -6.57,
     "name": "NVDA",
-    "updated_at": "2026-06-05T06:39:15.161466"
+    "updated_at": "2026-06-05T12:07:47.534623"
   },
   "WTI": {
-    "price": 4.1,
-    "change_pct": -13.49,
+    "price": 3.85,
+    "change_pct": -21.41,
     "name": "WTI",
-    "updated_at": "2026-06-05T06:39:15.161476"
+    "updated_at": "2026-06-05T12:07:47.534629"
   },
   "META": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 609.75,
+    "change_pct": -0.24,
     "name": "META",
-    "updated_at": "2026-06-05T06:39:15.161483"
+    "updated_at": "2026-06-05T12:07:47.534634"
   },
   "AMZN": {
-    "price": 253.79,
-    "change_pct": -3.92,
+    "price": 253.51,
+    "change_pct": -4.29,
     "name": "AMZN",
-    "updated_at": "2026-06-05T06:39:15.161493"
+    "updated_at": "2026-06-05T12:07:47.534640"
   },
   "S&P 500": {
-    "price": 757.09,
-    "change_pct": 2.42,
+    "price": 743.47,
+    "change_pct": 0.65,
     "name": "S&P 500",
-    "updated_at": "2026-06-05T06:39:15.161503"
+    "updated_at": "2026-06-05T12:07:47.534646"
   },
   "TSLA": {
-    "price": 418.45,
-    "change_pct": -0.9,
+    "price": 396.41,
+    "change_pct": -3.31,
     "name": "TSLA",
-    "updated_at": "2026-06-05T06:39:15.161512"
+    "updated_at": "2026-06-05T12:07:47.534651"
   },
   "AAPL": {
-    "price": 311.23,
-    "change_pct": 3.66,
+    "price": 309.66,
+    "change_pct": 3.97,
     "name": "AAPL",
-    "updated_at": "2026-06-05T06:39:15.161521"
+    "updated_at": "2026-06-05T12:07:47.534656"
   },
   "QQQ": {
-    "price": 740.61,
-    "change_pct": 4.47,
+    "price": 715.03,
+    "change_pct": 1.3,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-05T06:39:15.161530"
+    "updated_at": "2026-06-05T12:07:47.534661"
   },
   "BTC-USD": {
-    "price": 62231.96,
-    "change_pct": -18.83,
+    "price": 61242.26,
+    "change_pct": -20.13,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-05T06:39:15.161540"
+    "updated_at": "2026-06-05T12:07:47.534668"
   }
 },
   tickerScores: [
@@ -834,6 +834,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 278,
+      "title": "AI Agents and the Fight for Customer Data",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-05",
+      "summary": "This episode of The a16z Show discusses the critical role of centralized data access for AI agents and the shift in data infrastructure to support AI-centric models. It highlights the risks posed by SaaS companies restricting data access and the importance of open APIs for AI functionality. The episode also touches on the fallacy of data gravity, the benefits of the FiveTran and DBT merger, and the increasing demand for robust software infrastructure driven by AI.",
+      "key_takeaway": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "CRM"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 263
+    },
+    {
       "id": 274,
       "title": "AI Eats the World? A Reality Check with Benedict Evans",
       "source_type": "podcast",
@@ -1038,7 +1061,7 @@ const dashboardData = {
         "DELL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-02",
       "archived_date": null,
@@ -6043,6 +6066,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 224,
+      "term": "AI-Centric Models",
+      "description": "Data infrastructure models designed to support and leverage artificial intelligence for business intelligence and operational efficiency.",
+      "first_detected_date": "2026-06-05",
+      "last_mentioned_date": "2026-06-05",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Look for companies investing in AI-centric data infrastructure for competitive advantage.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 263,
+      "first_detected_speaker": "George Prager",
+      "last_mentioned_episode_id": 263,
+      "last_mentioned_speaker": "George Prager"
+    },
+    {
       "id": 219,
       "term": "AI-native computing",
       "description": "The integration of AI processing capabilities into computing devices, allowing for more efficient and cost-effective AI usage.",
@@ -8807,6 +8848,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 278,
+      "title": "AI Agents and the Fight for Customer Data",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-05",
+      "summary": "This episode of The a16z Show discusses the critical role of centralized data access for AI agents and the shift in data infrastructure to support AI-centric models. It highlights the risks posed by SaaS companies restricting data access and the importance of open APIs for AI functionality. The episode also touches on the fallacy of data gravity, the benefits of the FiveTran and DBT merger, and the increasing demand for robust software infrastructure driven by AI.",
+      "key_takeaway": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
+      "tickers_mentioned": "[\"AAPL\", \"MSFT\", \"GOOGL\", \"AMZN\", \"CRM\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 263,
+      "episode_release_date": "2026-06-05",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 274,
       "title": "AI Eats the World? A Reality Check with Benedict Evans",
       "source_type": "podcast",
@@ -8949,30 +9010,6 @@ const dashboardData = {
       "episode_release_date": "2026-06-03",
       "guest_name": "Why AGI Is Close but Not Here Yet",
       "key_tickers": []
-    },
-    {
-      "id": 270,
-      "title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-06-02",
-      "summary": "In this episode, the discussion revolves around Nvidia's announcement of the RTX Spark Superchip and its implications for the future of personal computing. The shift from CPU to GPU and neural processors is highlighted as a critical development for device performance and cost efficiency. The concept of 'tokens' in AI usage underscores the need for local processing to avoid high cloud-based AI service costs. The competitive landscape is set to change with AI-optimized hardware potentially disrupting the traditional Windows device market. The strategies of Apple and Nvidia in integrating CUDA APIs and AI will be crucial in shaping their market positions.",
-      "key_takeaway": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
-      "tickers_mentioned": "[\"NVDA\", \"AAPL\", \"DELL\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-02",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 255,
-      "episode_release_date": "2026-06-02",
-      "guest_name": null,
-      "key_tickers": [
-        "NVDA",
-        "AAPL",
-        "DELL"
-      ]
     }
   ],
   "definitions": [
@@ -9098,6 +9135,32 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 224,
+      "term": "AI-Centric Models",
+      "description": "Data infrastructure models designed to support and leverage artificial intelligence for business intelligence and operational efficiency.",
+      "first_detected_date": "2026-06-05",
+      "last_mentioned_date": "2026-06-05",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Look for companies investing in AI-centric data infrastructure for competitive advantage.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 263,
+      "first_detected_speaker": "George Prager",
+      "last_mentioned_episode_id": 263,
+      "last_mentioned_speaker": "George Prager",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "AI Agents and the Fight for Customer Data",
+      "first_detected_episode_date": "2026-06-05",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "AI Agents and the Fight for Customer Data",
+      "last_mentioned_episode_date": "2026-06-05"
+    },
     {
       "id": 219,
       "term": "AI-native computing",
@@ -9394,32 +9457,6 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 204,
-      "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 204,
-      "last_mentioned_speaker": "Demis Hassabis",
-      "overton_score": 0.51,
-      "resonance_pct": 13,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
-      "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
-      "last_mentioned_episode_date": "2026-05-07"
-    },
-    {
-      "id": 162,
-      "term": "GLP-1 Drugs",
-      "description": "Glucagon-like peptide-1 receptor agonists, a class of drugs used for the treatment of type 2 diabetes and potentially obesity.",
-      "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-05-07",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in pharmaceutical companies developing GLP-1 drugs for longevity and healthspan enhancement.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -26072,12 +26109,82 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-04",
     "key_tickers": []
+  },
+  "278": {
+    "id": 268,
+    "insight_id": 278,
+    "podcast_episode_id": 263,
+    "overview": "The unresolved tension in the source material revolves around the control and accessibility of data in the age of AI. As companies shift towards AI-centric models, the competitive dynamic is between those who can effectively centralize and control their data and those who are hindered by restrictive SaaS vendors. The allocation tradeoff lies in whether to invest in infrastructure that supports open data practices or to rely on potentially restrictive SaaS offerings. What converts belief in this dynamic is the ability of companies to maintain control over their data and the emergence of AI-native companies that disrupt traditional SaaS models.",
+    "key_takeaways_detailed": [
+      "Invest in companies that are proactive in establishing centralized data platforms, as this infrastructure is crucial for leveraging AI effectively.",
+      "Monitor the regulatory environment for any shifts towards data access regulations that could impact SaaS companies' ability to restrict data.",
+      "Consider the potential for AI-native companies to disrupt traditional SaaS players by offering more open and flexible data access, which could be a significant differentiator in the market.",
+      "Evaluate the long-term viability of companies that rely on data gravity as a competitive advantage, as this concept may be challenged by technological advancements."
+    ],
+    "investment_thesis": "The core logic is that companies which prioritize open data practices and robust software infrastructure will outperform those that do not, as they can better capitalize on AI-driven operational efficiencies and data management. This thesis is vindicated if there is a continued shift towards AI-centric models and if companies that invest in open data practices see increased market share and profitability. Conversely, it is invalidated if SaaS companies successfully maintain restrictive data practices without significant market pushback, or if AI development plateaus and does not drive increased demand for infrastructure.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's focus on data privacy and control, along with its robust software ecosystem, positions it well to capitalize on the need for centralized data platforms and open APIs.",
+        "positioning": "Strategic long position, as Apple's investments in software and services are likely to pay off in an AI-centric world.",
+        "risk": "Key risks include regulatory challenges to data privacy practices and competition from AI-native companies that offer more open data access."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's extensive cloud offerings and commitment to open APIs make it a key player in the shift towards AI-centric models.",
+        "positioning": "Strategic long position, as Microsoft's cloud services are integral to supporting AI applications and data management.",
+        "risk": "The risk lies in Microsoft's ability to maintain its competitive edge against emerging AI-native companies and potential shifts in data access regulations."
+      },
+      "GOOGL": {
+        "rationale": "Google's cloud services and AI capabilities position it to benefit from the increased demand for robust software infrastructure.",
+        "positioning": "Tactical long position, as Google can leverage its AI expertise to drive growth in its cloud business.",
+        "risk": "The risk is that Google may face challenges from more agile AI-native companies and potential backlash against its data access policies."
+      },
+      "AMZN": {
+        "rationale": "Amazon's AWS is a major player in cloud services, and its commitment to open APIs aligns with the needs of AI-centric models.",
+        "positioning": "Strategic long position, as AWS is likely to benefit from the increased demand for infrastructure to support AI.",
+        "risk": "The risk is that Amazon may face increased competition from both traditional tech giants and AI-native companies."
+      },
+      "CRM": {
+        "rationale": "Salesforce's customer relationship management platform is heavily reliant on data access, making it vulnerable to shifts in data practices.",
+        "positioning": "Tactical short position, as Salesforce may struggle if it cannot adapt to more open data practices.",
+        "risk": "The risk is that Salesforce may successfully adapt to the changing data landscape and maintain its market leadership."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant number of SaaS companies successfully maintain restrictive data access policies without losing market share.",
+      "The development of AI applications plateaus, reducing the demand for robust software infrastructure.",
+      "Regulatory changes that favor data localization and restrict data movement, reinforcing the concept of data gravity."
+    ],
+    "catalysts": [
+      "Regulatory rulings on data access and privacy that could impact SaaS companies' ability to restrict data.",
+      "Announcements of new partnerships or mergers in the AI and data management space that could shift the competitive landscape.",
+      "Release of new AI applications that demonstrate the importance of centralized data platforms and open APIs.",
+      "Financial reports from SaaS companies that show the impact of data access restrictions on their bottom line.",
+      "Technological breakthroughs that make data movement more cost-effective and efficient, challenging the concept of data gravity."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-05T12:07:10.860200",
+    "updated_at": "2026-06-05 17:07:10",
+    "episode_evidence": "The podcast episode underscores the pivotal role of centralized data for AI agents, with George Prager stating, 'If you don't do that, then it's using chatGBT from before chatGBT was connected to the internet.' This highlights the necessity of a connected data platform for AI to provide actionable insights. The discussion also emphasizes the risks of SaaS companies restricting data access, as Prager points out, 'Any time vendors put up walls and try to regulate data access is that you need to have all your data in one place.' This suggests that data access restrictions can impede the operational efficiency that AI promises. Furthermore, the episode challenges the notion of 'data gravity,' with Prager asserting, 'I think data gravity is completely fake.' This implies that the perceived high costs of data movement are often exaggerated, and modern data practices can make data relocation more feasible and cost-effective.",
+    "falsification_tracks": [
+      "A significant number of SaaS companies begin to offer more open data access policies, reducing the urgency of centralized data platforms.",
+      "Emergence of new technologies that make data movement less costly and more efficient, undermining the argument against 'data gravity'.",
+      "AI applications demonstrate a significant decrease in demand for robust software infrastructure, suggesting that AI commodifies rather than enhances infrastructure needs."
+    ],
+    "insight_title": "AI Agents and the Fight for Customer Data",
+    "source_name": "The a16z Show",
+    "source_date": "2026-06-05",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 12260,
+    "id": 12323,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -26089,7 +26196,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12261,
+    "id": 12324,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -26101,7 +26208,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12262,
+    "id": 12325,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -26113,7 +26220,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12263,
+    "id": 12326,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -26125,7 +26232,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12264,
+    "id": 12327,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -26137,7 +26244,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12265,
+    "id": 12328,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -26149,7 +26256,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12266,
+    "id": 12329,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -26161,7 +26268,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12267,
+    "id": 12330,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -26173,7 +26280,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12268,
+    "id": 12331,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -26185,7 +26292,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12269,
+    "id": 12332,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -26197,7 +26304,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12270,
+    "id": 12333,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -26209,7 +26316,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12271,
+    "id": 12334,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -26221,7 +26328,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12272,
+    "id": 12335,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -26233,7 +26340,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12273,
+    "id": 12336,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -26245,7 +26352,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12274,
+    "id": 12337,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -26257,7 +26364,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 12275,
+    "id": 12338,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -26269,7 +26376,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12276,
+    "id": 12339,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -26281,7 +26388,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12277,
+    "id": 12340,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -26293,7 +26400,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12278,
+    "id": 12341,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -26305,7 +26412,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12279,
+    "id": 12342,
     "name": "David Reich",
     "slug": "david-reich",
     "bio": null,
@@ -27521,6 +27628,70 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 273,
+    "name": "George Prager",
+    "slug": "george-prager",
+    "bio": "George Prager is an expert in data infrastructure and AI integration, known for his thought leadership in these fields. He has been instrumental in shaping the way companies approach data management and AI adoption, emphasizing the importance of integrating AI into everyday business operations.",
+    "known_for": "His insights on the evolution of data infrastructure to support AI and the potential for AI-native companies to disrupt traditional enterprises.",
+    "net_worth_usd": 4900000.0,
+    "net_worth_source": "https://www.networthspot.com/prageru/net-worth/",
+    "net_worth_updated_at": "2026-06-05T12:06:32.852060",
+    "voice_tone": "Assertive and knowledgeable.",
+    "voice_style": "Direct and insightful, with a focus on practical implications.",
+    "voice_delivery_notes": "Clear and concise, with emphasis on key points.",
+    "voice_profile_updated_at": "2026-06-05 17:06:11",
+    "last_seen": "2026-06-05 17:06:11",
+    "last_episode_title": "AI Agents and the Fight for Customer Data",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-05",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
+    "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
+    "supporting_takeaway": "SaaS vendors' data access restrictions can complicate AI functionality and operational efficiency.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-05T12:06:31.930153",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "George Prager",
+      "fetched_at": "2026-06-05T17:06:31.929801+00:00",
+      "cliff_notes": "George Prager's career has been deeply rooted in the intersection of data management and artificial intelligence. He has been a prominent voice advocating for the transformation of traditional data infrastructure to accommodate the growing capabilities of AI. Prager's work has focused on the shift from using data to answer business questions to building infrastructure that supports AI-driven decision-making. He the rise of AI as not just a technological advancement but a fundamental change in how businesses operate, with AI agents becoming integral parts of teams, much like human colleagues. His contributions to the field have been influential in steering the conversation around AI integration and its implications for enterprise data strategies.",
+      "derived": {
+        "current_role": "Expert in Data Infrastructure and AI Integration"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "George Prager's career has been deeply rooted in the intersection of data management and artificial intelligence. He has been a prominent voice advocating for the transformation of traditional data infrastructure to accommodate the growing capabilities of AI. Prager's work has focused on the shift from using data to answer business questions to building infrastructure that supports AI-driven decision-making.",
+        "He the rise of AI as not just a technological advancement but a fundamental change in how businesses operate, with AI agents becoming integral parts of teams, much like human colleagues. His contributions to the field have been influential in steering the conversation around AI integration and its implications for enterprise data strategies."
+      ],
+      "sections": [
+        {
+          "heading": "Data Infrastructure Evolution",
+          "body": "George Prager has been a key figure in discussing the evolution of data infrastructure to support AI, emphasizing the need for businesses to adapt their data strategies to leverage AI capabilities effectively."
+        },
+        {
+          "heading": "AI Integration in Business",
+          "body": "Prager highlights the importance of integrating AI into everyday business operations, suggesting that the future of enterprise software consumption will involve treating AI agents much like human team members."
+        },
+        {
+          "heading": "AI-native Companies",
+          "body": "He posits that AI-native companies have the potential to disrupt traditional enterprises, as they are better positioned to leverage AI in their operations, possibly outpacing established companies in terms of innovation and efficiency."
+        },
+        {
+          "heading": "Challenges in AI Adoption",
+          "body": "Prager identifies that the challenge for enterprises is no longer about collecting data but managing it in a way that AI can effectively use it, suggesting a paradigm shift from data collection to data utilization."
+        }
+      ]
+    },
+    "net_worth": "$4.9M"
+  },
+  {
     "id": 271,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
@@ -27538,7 +27709,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -27855,7 +28026,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -27919,7 +28090,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -28102,7 +28273,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -28166,7 +28337,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -28909,7 +29080,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -28975,7 +29146,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -31611,7 +31782,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -33919,7 +34090,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -33979,7 +34150,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -34039,7 +34210,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",
