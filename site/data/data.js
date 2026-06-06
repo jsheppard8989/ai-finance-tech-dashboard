@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-06T12:02:41.322277",
-  chartsVersion: "2026-06-06T12:02:28.079508",
+  generatedAt: "2026-06-06T13:37:02.412041",
+  chartsVersion: "2026-06-06T13:36:41.751557",
   priceSnapshot: {
   "GOOGL": {
     "price": 368.53,
     "change_pct": -7.16,
     "name": "GOOGL",
-    "updated_at": "2026-06-06T12:02:28.078459"
+    "updated_at": "2026-06-06T13:36:41.750449"
   },
   "BTC": {
-    "price": 60816.75,
-    "change_pct": -21.0,
+    "price": 60543.79,
+    "change_pct": -21.35,
     "name": "BTC",
-    "updated_at": "2026-06-06T12:02:28.078480"
+    "updated_at": "2026-06-06T13:36:41.750472"
   },
   "MSFT": {
     "price": 416.67,
     "change_pct": -1.41,
     "name": "MSFT",
-    "updated_at": "2026-06-06T12:02:28.078490"
+    "updated_at": "2026-06-06T13:36:41.750483"
   },
   "NVDA": {
     "price": 205.1,
     "change_pct": -7.64,
     "name": "NVDA",
-    "updated_at": "2026-06-06T12:02:28.078498"
+    "updated_at": "2026-06-06T13:36:41.750493"
   },
   "WTI": {
     "price": 3.7,
     "change_pct": -24.48,
     "name": "WTI",
-    "updated_at": "2026-06-06T12:02:28.078507"
+    "updated_at": "2026-06-06T13:36:41.750503"
   },
   "META": {
     "price": 593.0,
     "change_pct": -2.98,
     "name": "META",
-    "updated_at": "2026-06-06T12:02:28.078516"
+    "updated_at": "2026-06-06T13:36:41.750513"
   },
   "AMZN": {
     "price": 246.03,
     "change_pct": -7.11,
     "name": "AMZN",
-    "updated_at": "2026-06-06T12:02:28.078525"
+    "updated_at": "2026-06-06T13:36:41.750524"
   },
   "S&P 500": {
     "price": 737.55,
     "change_pct": -0.15,
     "name": "S&P 500",
-    "updated_at": "2026-06-06T12:02:28.078534"
+    "updated_at": "2026-06-06T13:36:41.750533"
   },
   "TSLA": {
     "price": 391.0,
     "change_pct": -4.63,
     "name": "TSLA",
-    "updated_at": "2026-06-06T12:02:28.078542"
+    "updated_at": "2026-06-06T13:36:41.750542"
   },
   "AAPL": {
     "price": 307.34,
     "change_pct": 3.19,
     "name": "AAPL",
-    "updated_at": "2026-06-06T12:02:28.078550"
+    "updated_at": "2026-06-06T13:36:41.750552"
   },
   "QQQ": {
     "price": 705.06,
     "change_pct": -0.12,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-06T12:02:28.078558"
+    "updated_at": "2026-06-06T13:36:41.750561"
   },
   "BTC-USD": {
-    "price": 60804.69,
-    "change_pct": -21.01,
+    "price": 60525.93,
+    "change_pct": -21.38,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-06T12:02:28.078568"
+    "updated_at": "2026-06-06T13:36:41.750572"
   }
 },
   tickerScores: [
@@ -834,6 +834,69 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 280,
+      "title": "Anthropic Files $965B IPO, Trump Signs AI Executive Order, and ChatGPT Crosses 1B Users | EP #262",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-06-06",
+      "summary": "This episode of 'Moonshots with Peter Diamandis' delves into the latest trends in AI and longevity, exploring investment opportunities and market implications. Key themes include Anthropic's IPO potential, the shift in U.S. AI regulation, OpenAI's user growth, the proposal for a sovereign wealth fund, Russia's investment in anti-aging research, and Verve 102's gene editing therapy. The podcast provides insights into how these developments could impact investment strategies and market dynamics.",
+      "key_takeaway": "Invest in AI and longevity sectors to capitalize on rapid technological advancements and market growth.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT",
+        "AMZN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 267
+    },
+    {
+      "id": 281,
+      "title": "The IPO Comeback: Why Tech Giants Are Finally Going Public | All-In Liquidity IPO Panel",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-06",
+      "summary": "This podcast episode discusses the anticipated record year for IPOs in 2026, driven by advancements in AI and space technologies. Planet Labs, which operates the largest Earth imaging fleet, is highlighted for its use of AI to enhance data accessibility. The cost reduction in satellite launches and the miniaturization of satellites are identified as key trends, with potential implications for space-based data centers. The benefits of going public for companies are also discussed, including increased credibility and access to capital.",
+      "key_takeaway": "Invest in companies at the forefront of AI and space technology advancements, as they are poised for significant growth and innovation.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 266
+    },
+    {
+      "id": 282,
+      "title": "Building Search for AI Agents with Exa CEO Will Bryk",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-06",
+      "summary": "In this episode, we explore the future of search technology with a focus on AI agents. Exah, a company leveraging transformer technology, aims to revolutionize search by providing comprehensive results tailored for AI agents, contrasting with traditional human-centric search engines. The podcast discusses the importance of company culture, the potential of AI integration in search, and the research-driven approach to innovation. Key insights highlight the market opportunity for AI-driven search technologies, the need for comprehensive results in business and AI decision-making, and the cultural impact on performance.",
+      "key_takeaway": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "IBM"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 265
+    },
+    {
       "id": 278,
       "title": "AI Agents and the Fight for Customer Data",
       "source_type": "podcast",
@@ -891,7 +954,7 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-04",
       "archived_date": null,
@@ -998,7 +1061,7 @@ const dashboardData = {
         "AMZN"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-03",
       "archived_date": null,
@@ -1017,7 +1080,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-03",
       "archived_date": null,
@@ -6085,6 +6148,96 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 225,
+      "term": "Space-Based Data Centers",
+      "description": "Data centers potentially located in space to leverage solar energy and reduced operational costs.",
+      "first_detected_date": "2026-06-06",
+      "last_mentioned_date": "2026-06-06",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies exploring space-based infrastructure for data processing and storage.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 266,
+      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "last_mentioned_episode_id": 266,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+    },
+    {
+      "id": 226,
+      "term": "AI Silicon Market",
+      "description": "The market for specialized silicon architectures designed to outperform traditional GPUs in AI processing speed and efficiency.",
+      "first_detected_date": "2026-06-06",
+      "last_mentioned_date": "2026-06-06",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in firms developing next-generation AI hardware and architectures.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 266,
+      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "last_mentioned_episode_id": 266,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+    },
+    {
+      "id": 227,
+      "term": "AI Regulation",
+      "description": "The U.S. government's approach to AI development without heavy regulation, emphasizing voluntary model sharing.",
+      "first_detected_date": "2026-06-06",
+      "last_mentioned_date": "2026-06-06",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the impact of less regulation on AI innovation and market dynamics.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 267,
+      "first_detected_speaker": "Peter Diamandis (hosts)",
+      "last_mentioned_episode_id": 267,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+    },
+    {
+      "id": 228,
+      "term": "Sovereign Wealth Fund",
+      "description": "A proposal by Senator Bernie Sanders to create a fund that gives the public a stake in AI companies, ensuring public ownership of AI-generated wealth.",
+      "first_detected_date": "2026-06-06",
+      "last_mentioned_date": "2026-06-06",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor the potential for public ownership stakes in AI companies and their implications for market structure.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 267,
+      "first_detected_speaker": "Peter Diamandis (hosts)",
+      "last_mentioned_episode_id": 267,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+    },
+    {
+      "id": 229,
+      "term": "Gene Editing Therapy",
+      "description": "Verve 102 is a gene editing therapy that permanently reduces LDL cholesterol with a single infusion, potentially curing heart disease.",
+      "first_detected_date": "2026-06-06",
+      "last_mentioned_date": "2026-06-06",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should explore opportunities in gene editing therapies as they may disrupt traditional healthcare treatment models.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 267,
+      "first_detected_speaker": "Peter Diamandis (hosts)",
+      "last_mentioned_episode_id": 267,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+    },
+    {
       "id": 219,
       "term": "AI-native computing",
       "description": "The integration of AI processing capabilities into computing devices, allowing for more efficient and cost-effective AI usage.",
@@ -8849,6 +9002,66 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 280,
+      "title": "Anthropic Files $965B IPO, Trump Signs AI Executive Order, and ChatGPT Crosses 1B Users | EP #262",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-06-06",
+      "summary": "This episode of 'Moonshots with Peter Diamandis' delves into the latest trends in AI and longevity, exploring investment opportunities and market implications. Key themes include Anthropic's IPO potential, the shift in U.S. AI regulation, OpenAI's user growth, the proposal for a sovereign wealth fund, Russia's investment in anti-aging research, and Verve 102's gene editing therapy. The podcast provides insights into how these developments could impact investment strategies and market dynamics.",
+      "key_takeaway": "Invest in AI and longevity sectors to capitalize on rapid technological advancements and market growth.",
+      "tickers_mentioned": "[\"GOOGL\", \"MSFT\", \"AMZN\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 267,
+      "episode_release_date": "2026-06-06",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 281,
+      "title": "The IPO Comeback: Why Tech Giants Are Finally Going Public | All-In Liquidity IPO Panel",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-06",
+      "summary": "This podcast episode discusses the anticipated record year for IPOs in 2026, driven by advancements in AI and space technologies. Planet Labs, which operates the largest Earth imaging fleet, is highlighted for its use of AI to enhance data accessibility. The cost reduction in satellite launches and the miniaturization of satellites are identified as key trends, with potential implications for space-based data centers. The benefits of going public for companies are also discussed, including increased credibility and access to capital.",
+      "key_takeaway": "Invest in companies at the forefront of AI and space technology advancements, as they are poised for significant growth and innovation.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 266,
+      "episode_release_date": "2026-06-06",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 282,
+      "title": "Building Search for AI Agents with Exa CEO Will Bryk",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-06",
+      "summary": "In this episode, we explore the future of search technology with a focus on AI agents. Exah, a company leveraging transformer technology, aims to revolutionize search by providing comprehensive results tailored for AI agents, contrasting with traditional human-centric search engines. The podcast discusses the importance of company culture, the potential of AI integration in search, and the research-driven approach to innovation. Key insights highlight the market opportunity for AI-driven search technologies, the need for comprehensive results in business and AI decision-making, and the cultural impact on performance.",
+      "key_takeaway": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"IBM\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 265,
+      "episode_release_date": "2026-06-06",
+      "guest_name": "Exa CEO Will Bryk",
+      "key_tickers": []
+    },
+    {
       "id": 278,
       "title": "AI Agents and the Fight for Customer Data",
       "source_type": "podcast",
@@ -8886,26 +9099,6 @@ const dashboardData = {
       "podcast_episode_id": 264,
       "episode_release_date": "2026-06-05",
       "guest_name": "Dan Loeb",
-      "key_tickers": []
-    },
-    {
-      "id": 274,
-      "title": "AI Eats the World? A Reality Check with Benedict Evans",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-06-04",
-      "summary": "The podcast discusses the rapid adoption of AI, particularly in coding, and its implications for the future. Key themes include the uncertainty of AI's impact on software development, job structures, and user engagement. The conversation also touches on the potential for AI to automate previously impossible tasks and the need for new workflows and organizational structures. The future of AI is seen as dependent on its ability to create new value propositions beyond automation.",
-      "key_takeaway": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-04",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 259,
-      "episode_release_date": "2026-06-04",
-      "guest_name": "Benedict Evans",
       "key_tickers": []
     },
     {
@@ -8966,50 +9159,6 @@ const dashboardData = {
       "podcast_episode_id": 262,
       "episode_release_date": "2026-06-04",
       "guest_name": "Thomas Laffont",
-      "key_tickers": []
-    },
-    {
-      "id": 272,
-      "title": "Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-06-03",
-      "summary": "In this podcast, Bill Ackman discusses his investment philosophy, emphasizing a shift towards long-term, durable business quality and understanding risk and disruption. Ackman identifies undervalued companies like Microsoft, Meta, and Amazon, and stresses the importance of founder-led companies. He also highlights the impact of social media on market dynamics and the potential for significant returns in venture investments, particularly in AI.",
-      "key_takeaway": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
-      "tickers_mentioned": "[\"MSFT\", \"META\", \"AMZN\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-03",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 257,
-      "episode_release_date": "2026-06-03",
-      "guest_name": "Bill Ackman",
-      "key_tickers": [
-        "MSFT",
-        "META",
-        "AMZN"
-      ]
-    },
-    {
-      "id": 273,
-      "title": "Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-06-03",
-      "summary": "In this episode, Ray Kurzweil discusses the exponential growth of AI capabilities, predicting that AGI will be achieved by 2029. The conversation covers the rapid advancements in large language models, the critical role of robotics in AGI development, and the integration of AI into governance and decision-making processes. Kurzweil's historical accuracy in forecasting technological advancements is highlighted, along with the need for a shift in educational paradigms to focus on mindset and problem-solving skills. Ethical considerations for AI, including personhood and rights, are also discussed.",
-      "key_takeaway": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-03",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 258,
-      "episode_release_date": "2026-06-03",
-      "guest_name": "Why AGI Is Close but Not Here Yet",
       "key_tickers": []
     }
   ],
@@ -9136,6 +9285,136 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 225,
+      "term": "Space-Based Data Centers",
+      "description": "Data centers potentially located in space to leverage solar energy and reduced operational costs.",
+      "first_detected_date": "2026-06-06",
+      "last_mentioned_date": "2026-06-06",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies exploring space-based infrastructure for data processing and storage.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 266,
+      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "last_mentioned_episode_id": 266,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "first_detected_episode_title": "The IPO Comeback: Why Tech Giants Are Finally Going Public | All-In Liquidity IPO Panel",
+      "first_detected_episode_date": "2026-06-06",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "The IPO Comeback: Why Tech Giants Are Finally Going Public | All-In Liquidity IPO Panel",
+      "last_mentioned_episode_date": "2026-06-06"
+    },
+    {
+      "id": 226,
+      "term": "AI Silicon Market",
+      "description": "The market for specialized silicon architectures designed to outperform traditional GPUs in AI processing speed and efficiency.",
+      "first_detected_date": "2026-06-06",
+      "last_mentioned_date": "2026-06-06",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in firms developing next-generation AI hardware and architectures.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 266,
+      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "last_mentioned_episode_id": 266,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "first_detected_episode_title": "The IPO Comeback: Why Tech Giants Are Finally Going Public | All-In Liquidity IPO Panel",
+      "first_detected_episode_date": "2026-06-06",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "The IPO Comeback: Why Tech Giants Are Finally Going Public | All-In Liquidity IPO Panel",
+      "last_mentioned_episode_date": "2026-06-06"
+    },
+    {
+      "id": 227,
+      "term": "AI Regulation",
+      "description": "The U.S. government's approach to AI development without heavy regulation, emphasizing voluntary model sharing.",
+      "first_detected_date": "2026-06-06",
+      "last_mentioned_date": "2026-06-06",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the impact of less regulation on AI innovation and market dynamics.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 267,
+      "first_detected_speaker": "Peter Diamandis (hosts)",
+      "last_mentioned_episode_id": 267,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Anthropic Files $965B IPO, Trump Signs AI Executive Order, and ChatGPT Crosses 1B Users | EP #262",
+      "first_detected_episode_date": "2026-06-06",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Anthropic Files $965B IPO, Trump Signs AI Executive Order, and ChatGPT Crosses 1B Users | EP #262",
+      "last_mentioned_episode_date": "2026-06-06"
+    },
+    {
+      "id": 228,
+      "term": "Sovereign Wealth Fund",
+      "description": "A proposal by Senator Bernie Sanders to create a fund that gives the public a stake in AI companies, ensuring public ownership of AI-generated wealth.",
+      "first_detected_date": "2026-06-06",
+      "last_mentioned_date": "2026-06-06",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor the potential for public ownership stakes in AI companies and their implications for market structure.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 267,
+      "first_detected_speaker": "Peter Diamandis (hosts)",
+      "last_mentioned_episode_id": 267,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Anthropic Files $965B IPO, Trump Signs AI Executive Order, and ChatGPT Crosses 1B Users | EP #262",
+      "first_detected_episode_date": "2026-06-06",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Anthropic Files $965B IPO, Trump Signs AI Executive Order, and ChatGPT Crosses 1B Users | EP #262",
+      "last_mentioned_episode_date": "2026-06-06"
+    },
+    {
+      "id": 229,
+      "term": "Gene Editing Therapy",
+      "description": "Verve 102 is a gene editing therapy that permanently reduces LDL cholesterol with a single infusion, potentially curing heart disease.",
+      "first_detected_date": "2026-06-06",
+      "last_mentioned_date": "2026-06-06",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should explore opportunities in gene editing therapies as they may disrupt traditional healthcare treatment models.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 267,
+      "first_detected_speaker": "Peter Diamandis (hosts)",
+      "last_mentioned_episode_id": 267,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Anthropic Files $965B IPO, Trump Signs AI Executive Order, and ChatGPT Crosses 1B Users | EP #262",
+      "first_detected_episode_date": "2026-06-06",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Anthropic Files $965B IPO, Trump Signs AI Executive Order, and ChatGPT Crosses 1B Users | EP #262",
+      "last_mentioned_episode_date": "2026-06-06"
+    },
     {
       "id": 219,
       "term": "AI-native computing",
@@ -9343,136 +9622,6 @@ const dashboardData = {
       "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "last_mentioned_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
       "last_mentioned_episode_date": "2026-05-12"
-    },
-    {
-      "id": 169,
-      "term": "Accountability in Governance",
-      "description": "The concept of holding government officials responsible for the effective use of taxpayer money and the delivery of public services.",
-      "first_detected_date": "2026-05-10",
-      "last_mentioned_date": "2026-05-10",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors can advocate for transparency and accountability in local government spending to ensure funds are used effectively.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 210,
-      "first_detected_speaker": "Spencer Pratt",
-      "last_mentioned_episode_id": 210,
-      "last_mentioned_speaker": "Spencer Pratt",
-      "overton_score": 0.54,
-      "resonance_pct": 14,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
-      "first_detected_episode_date": "2026-05-10",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
-      "last_mentioned_episode_date": "2026-05-10"
-    },
-    {
-      "id": 170,
-      "term": "Streamlining Business Permits",
-      "description": "The process of simplifying and reducing bureaucratic hurdles in the permitting process for small businesses to encourage entrepreneurship and stimulate local economies.",
-      "first_detected_date": "2026-05-10",
-      "last_mentioned_date": "2026-05-10",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Supporting initiatives that streamline business permits can help small businesses grow and contribute to local economic development.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 210,
-      "first_detected_speaker": "Spencer Pratt",
-      "last_mentioned_episode_id": 210,
-      "last_mentioned_speaker": "Spencer Pratt",
-      "overton_score": 0.54,
-      "resonance_pct": 14,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
-      "first_detected_episode_date": "2026-05-10",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
-      "last_mentioned_episode_date": "2026-05-10"
-    },
-    {
-      "id": 160,
-      "term": "Strategic Commodity Stockpiling",
-      "description": "The act of countries building up physical reserves of commodities to mitigate risks associated with geopolitical tensions.",
-      "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-05-07",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider commodities as a long-term investment strategy due to potential increased demand.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 203,
-      "first_detected_speaker": "Louis Vincent Gavre",
-      "last_mentioned_episode_id": 203,
-      "last_mentioned_speaker": "Louis Vincent Gavre",
-      "overton_score": 0.5,
-      "resonance_pct": 12,
-      "first_detected_podcast": "Macro Voices",
-      "first_detected_episode_title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
-      "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Macro Voices",
-      "last_mentioned_episode_title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
-      "last_mentioned_episode_date": "2026-05-07"
-    },
-    {
-      "id": 161,
-      "term": "AGI",
-      "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
-      "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-05-07",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 204,
-      "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 204,
-      "last_mentioned_speaker": "Demis Hassabis",
-      "overton_score": 0.5,
-      "resonance_pct": 12,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
-      "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
-      "last_mentioned_episode_date": "2026-05-07"
-    },
-    {
-      "id": 162,
-      "term": "GLP-1 Drugs",
-      "description": "Glucagon-like peptide-1 receptor agonists, a class of drugs used for the treatment of type 2 diabetes and potentially obesity.",
-      "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-05-07",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in pharmaceutical companies developing GLP-1 drugs for longevity and healthspan enhancement.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 204,
-      "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 204,
-      "last_mentioned_speaker": "Demis Hassabis",
-      "overton_score": 0.5,
-      "resonance_pct": 12,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
-      "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
-      "last_mentioned_episode_date": "2026-05-07"
     }
   ]
 },
@@ -26228,12 +26377,206 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-05",
     "key_tickers": []
+  },
+  "280": {
+    "id": 270,
+    "insight_id": 280,
+    "podcast_episode_id": 267,
+    "overview": "The unresolved tension in the AI and longevity sectors lies in the balance between rapid technological advancement and the regulatory framework that governs it. The competitive dynamic is between AI companies racing for innovation and the government's role in fostering an environment that encourages growth without compromising ethical considerations. The allocation-relevant implication is that investors who can accurately gauge the pace of AI development and the government's regulatory response will be better positioned to capitalize on the opportunities in this space. The metric that arbitrates this uncertainty is the market's reaction to key events such as IPOs and regulatory changes, with a short-to-medium-term horizon for proof.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the regulatory environment for AI, as changes could significantly impact the valuation and growth prospects of companies in this sector.",
+      "Businesses should be agile in adapting to a less regulated AI environment, which could lead to faster innovation cycles and competitive advantages.",
+      "Integration of AI tools should be a strategic priority for businesses to enhance user engagement and operational efficiency, potentially leading to a first-mover advantage.",
+      "Companies operating in the AI space should anticipate potential public ownership stakes as a condition for operating in the U.S., which could reshape their capital structures and governance models.",
+      "Investors should diversify their portfolios to include longevity sector investments, as research and funding in this area are gaining momentum, with potential for high returns.",
+      "Healthcare investors should keep abreast of developments in gene editing therapies, as these could disrupt traditional treatment models and have significant implications for healthcare costs and outcomes."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that the intersection of AI and longevity sectors will drive significant market growth and create investment opportunities. The timeframe for this thesis is medium to long-term, as the development and commercialization of AI and longevity technologies are expected to unfold over the next decade. An observable development that would vindicate this thesis is the continued growth in AI company valuations following high-profile IPOs, such as Anthropic's, and breakthroughs in longevity research leading to commercial products. Conversely, a series of failed AI IPOs or stagnation in longevity research would invalidate the thesis.",
+    "ticker_analysis": {
+      "GOOGL": {
+        "rationale": "Google, through its subsidiary DeepMind, is a major player in AI development and has significant investments in longevity research.",
+        "positioning": "Strategic long position, as Google is well-positioned to benefit from advancements in AI and longevity sectors.",
+        "risk": "Regulatory changes that hinder AI development and increased competition in the AI space could pose risks to Google's market position."
+      },
+      "MSFT": {
+        "rationale": "Microsoft is developing its own AI models, indicating a strategic shift towards internal development and potential reduction in reliance on OpenAI.",
+        "positioning": "Tactical long position, as Microsoft's AI development could provide a competitive edge in the technology sector.",
+        "risk": "Failure to successfully develop and market AI models could lead to underperformance compared to competitors."
+      },
+      "AMZN": {
+        "rationale": "Amazon has a vested interest in AI through its cloud computing services and potential applications in logistics and e-commerce.",
+        "positioning": "Strategic long position, as Amazon's integration of AI could enhance efficiency and drive growth.",
+        "risk": "Amazon faces risks from increased competition in cloud services and potential regulatory scrutiny over its market dominance."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "AI development may face ethical and societal pushback, leading to increased regulation that could slow down innovation.",
+      "The longevity sector could experience a 'valley of death' where initial enthusiasm for anti-aging research does not translate into commercially viable products.",
+      "There is a risk of overvaluation in the AI sector, with companies trading at high multiples that may not be sustainable in the long term."
+    ],
+    "catalysts": [
+      "Anthropic's IPO and its market performance on the first day.",
+      "U.S. government announcements regarding AI regulation and potential policy changes.",
+      "OpenAI's user growth milestones and any significant product launches.",
+      "Russian government updates on anti-aging research progress and funding allocations.",
+      "Clinical trial results and regulatory approvals for gene editing therapies like Verve 102."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-06T13:35:23.298834",
+    "updated_at": "2026-06-06 18:35:23",
+    "episode_evidence": "Anthropic's confidential filing for an IPO is a significant event in the AI industry, with predictions of a staggering $1.8 trillion market cap on its first day, as stated by Polymarket's assessment: 'Polymarket gives it a 60% chance and Anthropic surpasses 1.8 trillion in market cap on its first day.' This valuation underscores the market's appetite for AI companies and could set a new benchmark for future AI IPOs. The U.S. government's approach to AI regulation, as highlighted by President Trump's executive order, favors a light-touch strategy: 'The order asks AI labs to voluntarily give government access to new models 30 days before public release.' This approach could accelerate innovation by reducing bureaucratic hurdles, potentially giving U.S. companies a competitive edge in the global AI race. OpenAI's rapid growth to 1 billion monthly active users, a milestone noted by Peter Diamandis as 'Nothing in history has scaled this fast,' indicates a massive shift in how AI is being integrated into everyday applications, suggesting a substantial market opportunity for AI-driven solutions.",
+    "falsification_tracks": [
+      "Anthropic's IPO results in a market cap significantly lower than $1.8 trillion, indicating a lower market appetite for AI companies than anticipated.",
+      "The U.S. government implements stricter regulations on AI development, contradicting the current voluntary model sharing approach.",
+      "OpenAI experiences a significant drop in monthly active users, suggesting a potential market saturation or reduced demand for AI tools."
+    ],
+    "insight_title": "Anthropic Files $965B IPO, Trump Signs AI Executive Order, and ChatGPT Crosses 1B Users | EP #262",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-06-06",
+    "key_tickers": []
+  },
+  "281": {
+    "id": 271,
+    "insight_id": 281,
+    "podcast_episode_id": 266,
+    "overview": "The competitive dynamic highlighted in the podcast revolves around the intersection of AI and space technology, with a particular focus on how these advancements are driving a surge in IPOs and potentially revolutionizing data management through space-based data centers. The unresolved tension lies in the scalability and cost-effectiveness of these technologies, as well as their ability to disrupt traditional data processing and storage methods. The metric that arbitrates this uncertainty is the number and success of tech IPOs in 2026, particularly those in AI and space sectors, which will serve as a litmus test for the market's readiness to embrace these innovations.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the progress of companies like Planet Labs, which could indicate the broader health of the AI and space technology sectors.",
+      "The success of space-based data centers will hinge on continued reductions in launch costs and advancements in solar energy technology for space applications.",
+      "The trend towards earlier IPOs suggests a need for investors to reassess their investment horizons and potentially adjust their strategies to capitalize on the public market participation of innovative tech companies.",
+      "The demand for specialized AI silicon architectures presents an opportunity for investors to identify and support companies at the forefront of this technological shift."
+    ],
+    "investment_thesis": "The investment thesis is centered on the anticipated growth and innovation in AI and space technology sectors, which are expected to drive a record year for IPOs in 2026. This growth is contingent upon the continued reduction in satellite launch costs and the miniaturization of satellites, which would validate the thesis. Conversely, a stagnation or increase in launch costs, or a slowdown in satellite technology advancements, would invalidate it. The timeframe for this thesis is the year 2026, with the success of IPOs in these sectors serving as the primary observable development to vindicate or challenge the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's foray into AI and potential satellite technology could make it a relevant player in the space, especially with its resources to invest in cutting-edge technologies.",
+        "positioning": "A strategic long position in Apple could be considered, given its potential to benefit from the trends discussed in the podcast.",
+        "risk": "Key risks include Apple's ability to successfully integrate and commercialize AI and satellite technologies, as well as competition from more specialized tech companies."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A potential market downturn could reduce investor appetite for tech IPOs, affecting the anticipated record year for IPOs.",
+      "Regulatory hurdles or increased scrutiny could slow down the pace of innovation in AI and space technology sectors.",
+      "Technological setbacks or failures in satellite launches could undermine the cost reduction narrative and the viability of space-based data centers."
+    ],
+    "catalysts": [
+      "The actual number of tech IPOs in 2026 and their performance will be a key milestone.",
+      "Advancements in AI silicon architectures and their adoption in the market.",
+      "Any significant breakthroughs in satellite launch technologies or the successful deployment of space-based data centers.",
+      "Policy changes or regulatory decisions affecting the space and tech sectors."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-06T13:35:38.327057",
+    "updated_at": "2026-06-06 18:35:38",
+    "episode_evidence": "The podcast episode underscores the significance of 2026 as a landmark year for IPOs, particularly within the realms of AI and space technology. A standout example is Planet Labs, which operates the largest Earth imaging fleet and leverages AI to enhance data accessibility, as highlighted by the host: 'AI is now enabling... more people can get access to this.' The cost reduction in satellite launches, which has decreased by four to five times over the last decade according to a guest, 'Rocket costs have come down about four or five X over the last 10 years,' is a key driver in this trend. This reduction, coupled with the miniaturization of satellites, allows for more efficient and cost-effective data collection, as illustrated by the comparison: 'The same satellite that used to cost $1 billion... now costs a few kilograms.' These technological advancements are poised to reshape the landscape of data centers, potentially moving them to space as launch costs continue to decrease, as suggested by the statement: 'When launch costs come down to about $200 to $300 a kilogram, it would be cheaper to put the data centers in space.'",
+    "falsification_tracks": [
+      "If the number of tech IPOs in 2026 falls below the average of the previous five years, it would challenge the prediction of a record year.",
+      "Should satellite launch costs not continue their downward trend or if miniaturization technologies fail to advance, the feasibility of space-based data centers could be compromised.",
+      "If Planet Labs or similar companies fail to maintain growth in security-related applications, which account for 60% of their revenue, it could signal a weaker market for satellite data services."
+    ],
+    "insight_title": "The IPO Comeback: Why Tech Giants Are Finally Going Public | All-In Liquidity IPO Panel",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-06-06",
+    "key_tickers": []
+  },
+  "282": {
+    "id": 272,
+    "insight_id": 282,
+    "podcast_episode_id": 265,
+    "overview": "The competitive dynamic in the search technology market is shifting towards AI-driven solutions, with Exah at the forefront of this change. The unresolved tension lies in the ability of companies like Exah to disrupt the traditional search engine paradigm, which has been dominated by human-centric models. The market is at a crossroads where the integration of AI agents into daily tasks could either accelerate this shift or maintain the status quo. What converts belief in Exah's potential is the successful implementation and adoption of their AI-centric search solutions, which could significantly outperform traditional methods in providing comprehensive and context-rich information.",
+    "key_takeaways_detailed": [
+      "Investors should monitor Exah's progress in securing partnerships and customer adoption as a leading indicator of market acceptance for AI-driven search solutions.",
+      "The success of Exah's search engine will be contingent upon its ability to provide more comprehensive results than traditional search engines, particularly in high-stakes sectors like finance and healthcare.",
+      "Exah's focus on research and development could serve as a differentiator in the market; investors should track the company's innovation pipeline and patent filings.",
+      "The cultural emphasis on employee passion and alignment with company goals at Exah could be a leading indicator of innovation and productivity within the company.",
+      "Investors should consider the potential for regulatory changes that could impact AI integration and data privacy, which may affect the adoption of AI-driven search technologies."
+    ],
+    "investment_thesis": "Exah's investment thesis is predicated on the rapid growth of AI agent integration into everyday tasks, which will drive demand for advanced search solutions. The timeframe for this thesis is the next decade, with the potential for Exah to capture a significant market share by the 2030s. An observable development that would vindicate this thesis is a consistent increase in the number of AI-driven searches and a corresponding decrease in traditional human searches. Conversely, if the adoption of AI agents in daily tasks plateaus or declines, it would invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's Siri is a prominent AI agent, and the company's investment in AI could position it to benefit from advancements in AI-driven search technology.",
+        "positioning": "Long-term strategic position, as Apple's integration of AI into its ecosystem could accelerate with the growth of AI-driven search solutions.",
+        "risk": "Key risks include competition from other tech giants with more advanced AI capabilities and potential regulatory hurdles affecting AI data usage."
+      },
+      "GOOGL": {
+        "rationale": "Google is a dominant player in search technology and has significant resources to develop AI-driven search solutions.",
+        "positioning": "Tactical long position, as Google could quickly adapt to the changing search landscape and maintain its market leadership.",
+        "risk": "The risk lies in Google's ability to innovate quickly enough to stay ahead of specialized AI search competitors like Exah."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's Cortana and investments in AI research make it a contender in the AI-driven search market.",
+        "positioning": "Strategic long position, as Microsoft's broad technology portfolio could benefit from advancements in AI search technology.",
+        "risk": "The risk is that Microsoft may not prioritize AI search development, allowing more agile competitors to gain market share."
+      },
+      "AMZN": {
+        "rationale": "Amazon's Alexa is a key player in the AI agent market, and the company's cloud services could support AI-driven search solutions.",
+        "positioning": "Tactical long position, as Amazon could leverage its cloud infrastructure to offer advanced AI search services.",
+        "risk": "The risk is that Amazon may face challenges in differentiating its AI search offerings in a competitive market."
+      },
+      "IBM": {
+        "rationale": "IBM's Watson is a well-known AI platform, and the company has a history of innovation in search and AI technologies.",
+        "positioning": "Strategic long position, as IBM's AI capabilities could be leveraged to develop competitive AI-driven search solutions.",
+        "risk": "The risk is that IBM may not be able to compete with more agile startups like Exah in the rapidly evolving AI search market."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The integration of AI agents may not occur as quickly as predicted, maintaining the dominance of human-centric search engines.",
+      "Traditional search engines could adapt more quickly than expected to the needs of AI agents, reducing the competitive advantage of specialized companies like Exah.",
+      "There may be significant regulatory hurdles that slow down the adoption of AI-driven search technologies, impacting Exah's growth prospects."
+    ],
+    "catalysts": [
+      "The release of Exah's next-generation search engine and its performance metrics against traditional search engines.",
+      "Partnership announcements with major tech companies or businesses adopting Exah's search solutions for AI agents.",
+      "Regulatory developments that either support or hinder the growth of AI-driven search technologies.",
+      "Market research reports that provide insights into the growth of AI agent integration and the corresponding search volume.",
+      "Exah's patent filings and research publications that indicate the direction and pace of their innovation in search technology."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-06T13:35:58.786849",
+    "updated_at": "2026-06-06 18:35:58",
+    "episode_evidence": "Exah's approach to search technology is fundamentally different from traditional search engines, as it is designed to cater to AI agents rather than humans. Will Brick, Exah's CEO, explains that 'The world of agents searching is just completely different for human searching.' This distinction is crucial because AI agents require more comprehensive and contextual information to function effectively. Unlike human users who might be satisfied with a list of top results, AI agents need 'complete information about every topic,' as Brick emphasizes. This requirement for comprehensiveness is a significant shift from the current search paradigm and presents a substantial opportunity for companies like Exah that can deliver on this front. Furthermore, Exah's research-driven approach is evident in their exploration of various technologies, such as reinforcement learning and efficient retrieval methods, which are aimed at enhancing the capabilities of their search engine. Brick states, 'We want to be the research lab that helps improve the ecosystem.' This commitment to innovation positions Exah at the forefront of the evolving search technology landscape.",
+    "falsification_tracks": [
+      "If Exah fails to secure significant partnerships or customers within the next 18 months, it could indicate that the market for AI-driven search solutions is not developing as rapidly as anticipated.",
+      "Should major tech companies like Google or Microsoft release their own AI agent-specific search solutions that gain significant market traction, Exah's competitive advantage could be diminished.",
+      "If there is a lack of progress in AI agent integration into everyday tasks, as predicted, it would challenge the thesis that the search market will shift towards AI-centric solutions."
+    ],
+    "insight_title": "Building Search for AI Agents with Exa CEO Will Bryk",
+    "source_name": "The a16z Show",
+    "source_date": "2026-06-06",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 12704,
+    "id": 12768,
+    "name": "Exa CEO Will Bryk",
+    "slug": "exa-ceo-will-bryk",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
+    "last_episode_title": "Building Search for AI Agents with Exa CEO Will Bryk",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-06",
+    "appearance_count": 1
+  },
+  {
+    "id": 12769,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -26245,7 +26588,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12705,
+    "id": 12770,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -26257,7 +26600,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12706,
+    "id": 12771,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -26269,7 +26612,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12707,
+    "id": 12772,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -26281,7 +26624,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12708,
+    "id": 12773,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -26293,7 +26636,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12709,
+    "id": 12774,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -26305,7 +26648,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12710,
+    "id": 12775,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -26317,7 +26660,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12711,
+    "id": 12776,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -26329,7 +26672,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12712,
+    "id": 12777,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -26341,7 +26684,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12713,
+    "id": 12778,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -26353,7 +26696,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12714,
+    "id": 12779,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -26365,7 +26708,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12715,
+    "id": 12780,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -26377,7 +26720,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12716,
+    "id": 12781,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -26389,7 +26732,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12717,
+    "id": 12782,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -26401,7 +26744,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12718,
+    "id": 12783,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -26413,7 +26756,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12719,
+    "id": 12784,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -26425,7 +26768,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 12720,
+    "id": 12785,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -26437,7 +26780,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12721,
+    "id": 12786,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -26449,7 +26792,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12722,
+    "id": 12787,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -26457,18 +26800,6 @@ const dashboardData = {
     "last_main_idea": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
     "last_episode_title": "Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
     "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-05-10",
-    "appearance_count": 1
-  },
-  {
-    "id": 12723,
-    "name": "Spencer Pratt on Fixing LA",
-    "slug": "spencer-pratt-on-fixing-la",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in initiatives that promote transparency in local governance, support independent filmmakers, and advocate for education reform to drive economic revitalization and improve public services in Los Angeles.",
-    "last_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-10",
     "appearance_count": 1
   }
@@ -26616,7 +26947,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-26",
     "mention_score": 3,
-    "mention_score_decayed": 2.38,
+    "mention_score_decayed": 2.33,
     "last_main_idea": "Invest in companies that are actively transitioning to AI-native organizations to capitalize on the potential for increased operational efficiency and reduced workforce costs.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-26 \u2022 The Organizational Singularity: AI-Proof Your Company | EP #258",
     "last_proof_snippet": "Is there a line year business, a high margin line year of your business that two guys with open claw could replicate in 60 to 90 days? This is something across the board useful for everyone. When we wrote the exponential organizations book,",
@@ -26883,7 +27214,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.74,
+    "mention_score_decayed": 1.7,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -27071,7 +27402,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 1.02,
+    "mention_score_decayed": 1.0,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -27677,6 +28008,66 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 276,
+    "name": "Will Brick",
+    "slug": "will-brick",
+    "bio": "Will Brick is the CEO of Exah, a company focused on revolutionizing search through AI agents. He is known for leading the development of a search engine designed for AI agents and businesses, aiming to provide comprehensive and accurate information.",
+    "known_for": "Developing a search engine tailored for AI agents and businesses, aiming to provide more comprehensive and accurate search results.",
+    "net_worth_usd": 600000000000.0,
+    "net_worth_source": "https://eu.36kr.com/en/p/3632035908748551",
+    "net_worth_updated_at": "2026-06-06T13:34:55.125676",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-06-06 18:33:29",
+    "last_episode_title": "Building Search for AI Agents with Exa CEO Will Bryk",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-06",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
+    "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
+    "supporting_takeaway": "Evaluate company culture and employee engagement as indicators of potential for innovation and growth.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-06T13:34:54.181615",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Will Brick",
+      "fetched_at": "2026-06-06T18:34:54.181176+00:00",
+      "cliff_notes": "Will Brick is recognized for his leadership in the field of AI-driven search technology. As the CEO of Exah, he has been instrumental in developing a search engine that caters specifically to the needs of AI agents and businesses. His vision is to create a search platform that can provide not just a handful of results but thousands, enabling a deeper understanding of topics and more accurate information dissemination. This approach stands in contrast to traditional search engines, which are often limited in the scope and depth of their results. Brick's work at Exah is significant as it addresses the growing demand for sophisticated search capabilities in an increasingly AI-centric world, with potential implications for various industries and the way information is accessed and utilized.",
+      "derived": {
+        "current_role": "CEO of Exah"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Will Brick is recognized for his leadership in the field of AI-driven search technology. As the CEO of Exah, he has been instrumental in developing a search engine that caters specifically to the needs of AI agents and businesses. His vision is to create a search platform that can provide not just a handful of results but thousands, enabling a deeper understanding of topics and more accurate information dissemination.",
+        "This approach stands in contrast to traditional search engines, which are often limited in the scope and depth of their results. Brick's work at Exah is significant as it addresses the growing demand for sophisticated search capabilities in an increasingly AI-centric world, with potential implications for various industries and the way information is accessed and utilized."
+      ],
+      "sections": [
+        {
+          "heading": "AI-Centric Search",
+          "body": "Will Brick is pioneering a new approach to search that is specifically designed for AI agents, aiming to provide a more comprehensive set of results compared to traditional search engines."
+        },
+        {
+          "heading": "Information Accuracy",
+          "body": "Brick's work emphasizes the importance of accurate information, suggesting that with accurate data, most people would be reasonable, highlighting the impact of misinformation in today's digital landscape."
+        },
+        {
+          "heading": "Exah's Vision",
+          "body": "Exah, under Brick's leadership, envisions a search engine that can deliver thousands or even tens of thousands of results, catering to the needs of AI agents that require exhaustive information for complex tasks."
+        }
+      ]
+    },
+    "net_worth": "$600.00B"
+  },
+  {
     "id": 275,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
@@ -27759,7 +28150,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -27823,7 +28214,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -28140,7 +28531,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -28204,7 +28595,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -28387,7 +28778,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -28451,7 +28842,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -28632,7 +29023,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -28696,7 +29087,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -28759,7 +29150,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -29194,7 +29585,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -29260,7 +29651,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -29821,7 +30212,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -29884,7 +30275,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -30072,7 +30463,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",

@@ -1,5 +1,54 @@
 [
   {
+    "id": 267,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Anthropic Files $965B IPO, Trump Signs AI Executive Order, and ChatGPT Crosses 1B Users | EP #262",
+    "episode_date": "2026-06-06",
+    "summary": "This episode of 'Moonshots with Peter Diamandis' delves into the latest trends in AI and longevity, exploring investment opportunities and market implications. Key themes include Anthropic's IPO potential, the shift in U.S. AI regulation, OpenAI's user growth, the proposal for a sovereign wealth fund, Russia's investment in anti-aging research, and Verve 102's gene editing therapy. The podcast provides insights into how these developments could impact investment strategies and market dynamics.",
+    "key_takeaways": [
+      "Monitor Anthropic's IPO for investment opportunities and market trends.",
+      "Prepare for a less regulated AI environment by adapting business strategies accordingly.",
+      "Integrate AI tools into your business to enhance user engagement and operational efficiency.",
+      "Stay informed about potential public ownership stakes in AI companies as proposed by policymakers.",
+      "Explore investment opportunities in the longevity sector as research and funding increase.",
+      "Keep an eye on gene editing therapies like Verve 102 for potential disruptions in healthcare."
+    ],
+    "investment_thesis": "Invest in AI and longevity sectors to capitalize on rapid technological advancements and market growth.",
+    "key_tickers": null
+  },
+  {
+    "id": 266,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "The IPO Comeback: Why Tech Giants Are Finally Going Public | All-In Liquidity IPO Panel",
+    "episode_date": "2026-06-06",
+    "summary": "This podcast episode discusses the anticipated record year for IPOs in 2026, driven by advancements in AI and space technologies. Planet Labs, which operates the largest Earth imaging fleet, is highlighted for its use of AI to enhance data accessibility. The cost reduction in satellite launches and the miniaturization of satellites are identified as key trends, with potential implications for space-based data centers. The benefits of going public for companies are also discussed, including increased credibility and access to capital.",
+    "key_takeaways": [
+      "2026 is projected to be a record year for IPOs, especially in AI and space technologies.",
+      "Planet Labs uses AI to enhance Earth imaging data for various sectors.",
+      "The cost of launching satellites has significantly decreased, enabling new applications.",
+      "Miniaturization of satellites is transforming data collection and processing.",
+      "The future of data centers may shift to space due to cost and energy advantages.",
+      "Public companies benefit from increased credibility and access to capital."
+    ],
+    "investment_thesis": "Invest in companies at the forefront of AI and space technology advancements, as they are poised for significant growth and innovation.",
+    "key_tickers": null
+  },
+  {
+    "id": 265,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Building Search for AI Agents with Exa CEO Will Bryk",
+    "episode_date": "2026-06-06",
+    "summary": "In this episode, we explore the future of search technology with a focus on AI agents. Exah, a company leveraging transformer technology, aims to revolutionize search by providing comprehensive results tailored for AI agents, contrasting with traditional human-centric search engines. The podcast discusses the importance of company culture, the potential of AI integration in search, and the research-driven approach to innovation. Key insights highlight the market opportunity for AI-driven search technologies, the need for comprehensive results in business and AI decision-making, and the cultural impact on performance.",
+    "key_takeaways": [
+      "Invest in companies focusing on AI-driven search technologies to capture a growing market segment.",
+      "Evaluate company culture and employee engagement as indicators of potential for innovation and growth.",
+      "Monitor advancements in search technologies, particularly those enhancing retrieval efficiency and comprehensiveness.",
+      "Consider the implications of AI agents on traditional business models and search paradigms when making investment decisions."
+    ],
+    "investment_thesis": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
+    "key_tickers": null
+  },
+  {
     "id": 264,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
@@ -82,57 +131,5 @@
     ],
     "investment_thesis": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "key_tickers": null
-  },
-  {
-    "id": 259,
-    "podcast_name": "The a16z Show",
-    "episode_title": "AI Eats the World? A Reality Check with Benedict Evans",
-    "episode_date": "2026-06-04",
-    "summary": "The podcast discusses the rapid adoption of AI, particularly in coding, and its implications for the future. Key themes include the uncertainty of AI's impact on software development, job structures, and user engagement. The conversation also touches on the potential for AI to automate previously impossible tasks and the need for new workflows and organizational structures. The future of AI is seen as dependent on its ability to create new value propositions beyond automation.",
-    "key_takeaways": [
-      "Invest in companies integrating AI in coding and software development for high returns.",
-      "Diversify investment portfolios to hedge against the unpredictability of AI's evolution.",
-      "Analyze AI companies' business models to assess their potential for capturing value and pricing power.",
-      "Explore AI applications that could automate previously impossible tasks, creating new market opportunities.",
-      "Prepare for workforce transitions by investing in reskilling programs for employees affected by AI integration."
-    ],
-    "investment_thesis": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
-    "key_tickers": null
-  },
-  {
-    "id": 258,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
-    "episode_date": "2026-06-03",
-    "summary": "In this episode, Ray Kurzweil discusses the exponential growth of AI capabilities, predicting that AGI will be achieved by 2029. The conversation covers the rapid advancements in large language models, the critical role of robotics in AGI development, and the integration of AI into governance and decision-making processes. Kurzweil's historical accuracy in forecasting technological advancements is highlighted, along with the need for a shift in educational paradigms to focus on mindset and problem-solving skills. Ethical considerations for AI, including personhood and rights, are also discussed.",
-    "key_takeaways": [
-      "Invest in AI companies demonstrating rapid growth and innovation in large language models and robotics.",
-      "Prepare for AGI by developing strategies to integrate AI into business operations and decision-making processes.",
-      "Advocate for educational reforms that emphasize mindset and problem-solving skills to better prepare future generations.",
-      "Engage in discussions about AI ethics and governance to shape responsible AI development and implementation."
-    ],
-    "investment_thesis": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
-    "key_tickers": null
-  },
-  {
-    "id": 257,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
-    "episode_date": "2026-06-03",
-    "summary": "In this podcast, Bill Ackman discusses his investment philosophy, emphasizing a shift towards long-term, durable business quality and understanding risk and disruption. Ackman identifies undervalued companies like Microsoft, Meta, and Amazon, and stresses the importance of founder-led companies. He also highlights the impact of social media on market dynamics and the potential for significant returns in venture investments, particularly in AI.",
-    "key_takeaways": [
-      "Invest in businesses with durable, non-disruptible growth for stable returns.",
-      "Assess the vulnerability of portfolio companies to new entrants and technological advancements.",
-      "Consider undervalued legacy companies with strong fundamentals and growth prospects.",
-      "Favor founder-led companies for their ability to navigate challenges and drive innovation.",
-      "Explore strategies that focus on long-term compounding rather than short-term gains.",
-      "Stay informed about social media trends and their potential impact on market dynamics."
-    ],
-    "investment_thesis": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
-    "key_tickers": [
-      "MSFT",
-      "META",
-      "AMZN"
-    ]
   }
 ]
