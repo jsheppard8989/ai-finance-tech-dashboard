@@ -24,6 +24,25 @@
       "podcast_episode_id": 263
     },
     {
+      "id": 279,
+      "title": "Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-05",
+      "summary": "In this podcast, Dan Loeb discusses the resurgence of short selling as a critical investment strategy in the current market environment. He highlights the shift from stock picking to bond and credit picking, and emphasizes the importance of understanding technological trends and consumer behavior. Loeb also identifies the home building industry as a sector presenting short-selling opportunities due to its structural impairments. Furthermore, he underscores the role of human judgment in investing and his philanthropic focus on addressing systemic issues like income inequality and education reform.",
+      "key_takeaway": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 264
+    },
+    {
       "id": 274,
       "title": "AI Eats the World? A Reality Check with Benedict Evans",
       "source_type": "podcast",
@@ -125,7 +144,7 @@
         "FB"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-03",
       "archived_date": null,

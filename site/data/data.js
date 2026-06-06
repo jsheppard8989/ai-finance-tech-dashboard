@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-05T22:02:50.787215",
-  chartsVersion: "2026-06-05T22:02:29.513187",
+  generatedAt: "2026-06-05T23:37:49.900211",
+  chartsVersion: "2026-06-05T23:37:38.755940",
   priceSnapshot: {
   "GOOGL": {
     "price": 368.53,
     "change_pct": -7.16,
     "name": "GOOGL",
-    "updated_at": "2026-06-05T22:02:29.511947"
+    "updated_at": "2026-06-05T23:37:38.754424"
   },
   "BTC": {
-    "price": 60881.11,
-    "change_pct": -20.91,
+    "price": 59780.06,
+    "change_pct": -22.34,
     "name": "BTC",
-    "updated_at": "2026-06-05T22:02:29.511967"
+    "updated_at": "2026-06-05T23:37:38.754441"
   },
   "MSFT": {
     "price": 416.67,
     "change_pct": -1.41,
     "name": "MSFT",
-    "updated_at": "2026-06-05T22:02:29.511977"
+    "updated_at": "2026-06-05T23:37:38.754448"
   },
   "NVDA": {
     "price": 205.1,
     "change_pct": -7.64,
     "name": "NVDA",
-    "updated_at": "2026-06-05T22:02:29.511985"
+    "updated_at": "2026-06-05T23:37:38.754454"
   },
   "WTI": {
     "price": 3.7,
     "change_pct": -24.48,
     "name": "WTI",
-    "updated_at": "2026-06-05T22:02:29.511993"
+    "updated_at": "2026-06-05T23:37:38.754459"
   },
   "META": {
     "price": 593.0,
     "change_pct": -2.98,
     "name": "META",
-    "updated_at": "2026-06-05T22:02:29.512000"
+    "updated_at": "2026-06-05T23:37:38.754466"
   },
   "AMZN": {
     "price": 246.03,
     "change_pct": -7.11,
     "name": "AMZN",
-    "updated_at": "2026-06-05T22:02:29.512008"
+    "updated_at": "2026-06-05T23:37:38.754472"
   },
   "S&P 500": {
     "price": 737.55,
     "change_pct": -0.15,
     "name": "S&P 500",
-    "updated_at": "2026-06-05T22:02:29.512016"
+    "updated_at": "2026-06-05T23:37:38.754478"
   },
   "TSLA": {
     "price": 391.0,
     "change_pct": -4.63,
     "name": "TSLA",
-    "updated_at": "2026-06-05T22:02:29.512023"
+    "updated_at": "2026-06-05T23:37:38.754483"
   },
   "AAPL": {
     "price": 307.34,
     "change_pct": 3.19,
     "name": "AAPL",
-    "updated_at": "2026-06-05T22:02:29.512031"
+    "updated_at": "2026-06-05T23:37:38.754489"
   },
   "QQQ": {
     "price": 705.06,
     "change_pct": -0.12,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-05T22:02:29.512038"
+    "updated_at": "2026-06-05T23:37:38.754494"
   },
   "BTC-USD": {
-    "price": 60872.16,
-    "change_pct": -20.93,
+    "price": 59780.06,
+    "change_pct": -22.34,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-05T22:02:29.512047"
+    "updated_at": "2026-06-05T23:37:38.754500"
   }
 },
   tickerScores: [
@@ -857,6 +857,25 @@ const dashboardData = {
       "podcast_episode_id": 263
     },
     {
+      "id": 279,
+      "title": "Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-05",
+      "summary": "In this podcast, Dan Loeb discusses the resurgence of short selling as a critical investment strategy in the current market environment. He highlights the shift from stock picking to bond and credit picking, and emphasizes the importance of understanding technological trends and consumer behavior. Loeb also identifies the home building industry as a sector presenting short-selling opportunities due to its structural impairments. Furthermore, he underscores the role of human judgment in investing and his philanthropic focus on addressing systemic issues like income inequality and education reform.",
+      "key_takeaway": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 264
+    },
+    {
       "id": 274,
       "title": "AI Eats the World? A Reality Check with Benedict Evans",
       "source_type": "podcast",
@@ -958,7 +977,7 @@ const dashboardData = {
         "FB"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-03",
       "archived_date": null,
@@ -8850,6 +8869,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 279,
+      "title": "Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-05",
+      "summary": "In this podcast, Dan Loeb discusses the resurgence of short selling as a critical investment strategy in the current market environment. He highlights the shift from stock picking to bond and credit picking, and emphasizes the importance of understanding technological trends and consumer behavior. Loeb also identifies the home building industry as a sector presenting short-selling opportunities due to its structural impairments. Furthermore, he underscores the role of human judgment in investing and his philanthropic focus on addressing systemic issues like income inequality and education reform.",
+      "key_takeaway": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 264,
+      "episode_release_date": "2026-06-05",
+      "guest_name": "Dan Loeb",
+      "key_tickers": []
+    },
+    {
       "id": 274,
       "title": "AI Eats the World? A Reality Check with Benedict Evans",
       "source_type": "podcast",
@@ -8927,26 +8966,6 @@ const dashboardData = {
       "podcast_episode_id": 262,
       "episode_release_date": "2026-06-04",
       "guest_name": "Thomas Laffont",
-      "key_tickers": []
-    },
-    {
-      "id": 271,
-      "title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-06-03",
-      "summary": "This podcast episode delves into the changing dynamics between nation-states and digital networks, with a focus on the rise of 'internet first' ideology. It discusses the decline of Silicon Valley's dominance and the need for a decentralized approach to tech innovation. The conversation also touches on supply chain vulnerabilities, particularly in relation to the U.S. military's reliance on Chinese manufacturing, and the importance of empathy in negotiations. The episode concludes with a call for a realistic assessment of geopolitical dynamics and the future of global power structures.",
-      "key_takeaway": "Invest in companies that are part of decentralized tech ecosystems and those leveraging 'internet first' ideologies, while advocating for rational industrial policies to strengthen supply chains.",
-      "tickers_mentioned": "[\"AAPL\", \"MSFT\", \"TSLA\", \"AMZN\", \"FB\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-03",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 256,
-      "episode_release_date": "2026-06-03",
-      "guest_name": "ideology. It",
       "key_tickers": []
     },
     {
@@ -26161,12 +26180,72 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-06-05",
     "key_tickers": []
+  },
+  "279": {
+    "id": 269,
+    "insight_id": 279,
+    "podcast_episode_id": 264,
+    "overview": "The unresolved tension in the investment landscape is the shift from stock picking to bond and credit picking, which requires investors to adapt their strategies. The competitive dynamic is centered around identifying overvalued sectors and companies, particularly in the home building industry, which Loeb sees as structurally impaired. The metric that arbitrates this uncertainty is the adaptability of management teams and the resilience of businesses in the face of market changes. The horizon of proof lies in the ability to capitalize on short-selling opportunities and to navigate the credit markets effectively.",
+    "key_takeaways_detailed": [
+      "Investors should develop a framework for identifying sectors and companies that are overvalued or structurally impaired, with a focus on the home building industry as highlighted by Loeb.",
+      "Enhance credit market analysis to identify opportunities in bond and credit picking, which is becoming increasingly important in the current market environment.",
+      "Implement a qualitative assessment process that goes beyond financial metrics to evaluate the adaptability and quality of management teams.",
+      "Conduct thorough industry analyses to uncover sectors with inherent weaknesses, such as the home building industry, for potential short opportunities.",
+      "Leverage personal networks and insights to enhance investment decision-making processes, as human judgment remains vital in assessing opportunities and risks."
+    ],
+    "investment_thesis": "The core logic is that in the current market environment, short selling and credit picking are becoming more critical investment strategies. Investors should focus on identifying overvalued sectors and companies, particularly in the home building industry, which is structurally impaired due to unsustainable pricing and rising costs. The timeframe for this thesis is medium to long-term, as market conditions and structural impairments do not change rapidly. An observable development that would vindicate this thesis is a continued rise in construction costs and a stagnation or decline in home prices, indicating further structural issues in the home building industry.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is relevant to this thesis as it operates in a technology sector that is heavily influenced by consumer behavior and technological trends, which Loeb emphasizes as important for investment decision-making.",
+        "positioning": "Positioning in Apple would be strategic and long-term, focusing on its ability to innovate and adapt to changing consumer behavior and technological advancements.",
+        "risk": "Key risks include a slowdown in consumer spending, increased competition, and potential disruptions in the global supply chain."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant economic upturn that boosts consumer confidence and spending, which could lead to increased demand in the home building industry.",
+      "Technological advancements that disrupt the current market dynamics and create new investment opportunities outside of short selling and credit picking."
+    ],
+    "catalysts": [
+      "Federal Reserve's interest rate decisions, which can significantly impact credit markets and the overall investment landscape.",
+      "Economic indicators such as GDP growth, unemployment rates, and inflation, which can influence market sentiment and investment strategies.",
+      "Regulatory changes in the financial sector that could affect credit markets and the availability of credit.",
+      "Technological breakthroughs that can disrupt existing business models and create new investment opportunities."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-05T23:37:04.858501",
+    "updated_at": "2026-06-06 04:37:04",
+    "episode_evidence": "Dan Loeb's podcast discussion underscores the resurgence of short selling as a critical investment strategy, with the market transitioning from stock picking to bond and credit picking. Loeb states, 'The lost art of short selling has come back, and it's absolutely critical.' This shift necessitates a more selective approach, as he mentions, 'This is a bond and credit pickers market.' Loeb's investment philosophy has evolved to prioritize business quality and management adaptability, as he explains, 'We really look for a management team that we think will be adaptable.' He identifies the home building industry as structurally impaired, presenting short-selling opportunities due to unsustainable pricing and rising costs, 'The home building industry was first structurally impaired because of the way that they were all pretending to be NVR.'",
+    "falsification_tracks": [
+      "A sustained increase in home prices and a decrease in construction costs could indicate a healthier home building industry, reducing the conviction in short-selling opportunities.",
+      "If credit spreads tighten significantly across the market, it might suggest a return to a more favorable environment for stock picking rather than credit picking."
+    ],
+    "insight_title": "Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-06-05",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 12449,
+    "id": 12512,
+    "name": "Dan Loeb",
+    "slug": "dan-loeb",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
+    "last_episode_title": "Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-06-05",
+    "appearance_count": 1
+  },
+  {
+    "id": 12513,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -26178,7 +26257,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12450,
+    "id": 12514,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -26190,7 +26269,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12451,
+    "id": 12515,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -26202,7 +26281,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12452,
+    "id": 12516,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -26214,7 +26293,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12453,
+    "id": 12517,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -26226,7 +26305,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12454,
+    "id": 12518,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -26238,7 +26317,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12455,
+    "id": 12519,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -26250,7 +26329,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12456,
+    "id": 12520,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -26262,7 +26341,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12457,
+    "id": 12521,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -26274,7 +26353,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12458,
+    "id": 12522,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -26286,7 +26365,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12459,
+    "id": 12523,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -26298,7 +26377,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12460,
+    "id": 12524,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -26310,7 +26389,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12461,
+    "id": 12525,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -26322,7 +26401,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12462,
+    "id": 12526,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -26334,7 +26413,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12463,
+    "id": 12527,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -26346,7 +26425,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 12464,
+    "id": 12528,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -26358,7 +26437,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12465,
+    "id": 12529,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -26370,7 +26449,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12466,
+    "id": 12530,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -26382,7 +26461,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 12467,
+    "id": 12531,
     "name": "Spencer Pratt on Fixing LA",
     "slug": "spencer-pratt-on-fixing-la",
     "bio": null,
@@ -26391,18 +26470,6 @@ const dashboardData = {
     "last_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-10",
-    "appearance_count": 1
-  },
-  {
-    "id": 12468,
-    "name": "David Reich",
-    "slug": "david-reich",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
-    "last_episode_title": "David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-05-08",
     "appearance_count": 1
   }
 ],
@@ -27411,7 +27478,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -27475,7 +27542,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -27535,7 +27602,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
@@ -27608,6 +27675,71 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 275,
+    "name": "Dan Loeb",
+    "slug": "dan-loeb",
+    "bio": "Dan Loeb is the founder and CEO of Third Point LLC, a hedge fund and asset management firm known for its event-driven investment strategies. He is also recognized for his philanthropic efforts in education and criminal justice reform.",
+    "known_for": "His aggressive investment strategies and activist approach to portfolio management.",
+    "net_worth_usd": 3800000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q5218659",
+    "net_worth_updated_at": "2026-06-05T23:36:43.080709",
+    "voice_tone": "Confident and assertive",
+    "voice_style": "Direct and insightful, providing clear investment perspectives",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key investment points",
+    "voice_profile_updated_at": "2026-06-06 04:36:20",
+    "last_seen": "2026-06-06 04:36:20",
+    "last_episode_title": "Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-06-05",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
+    "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
+    "supporting_takeaway": "The market has transitioned from a stock-picking focus to a bond and credit-picking environment.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-05T23:36:42.692487",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dan Loeb",
+      "fetched_at": "2026-06-06T04:36:42.692144+00:00",
+      "cliff_notes": "Dan Loeb is an American investor and philanthropist who founded Third Point LLC in 1995. His hedge fund is renowned for its event-driven investment strategies, which often involve taking significant stakes in companies and pushing for changes to boost their value. Loeb's activist approach has led to high-profile campaigns targeting companies like Yahoo and Nestl\u00e9. Beyond his investment career, Loeb is also known for his philanthropic endeavors, particularly in the areas of education and criminal justice reform. His use of social media, notably Twitter, has made him a prominent public figure in the financial world, where he shares his views and engages with a broad audience.",
+      "derived": {
+        "current_role": "CEO and CIO of Third Point LLC",
+        "education": "B.A. in Economics from Columbia University; J.D. from Columbia Law School"
+      },
+      "infobox": {
+        "Born": "1961",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Dan Loeb is an American investor and philanthropist who founded Third Point LLC in 1995. His hedge fund is renowned for its event-driven investment strategies, which often involve taking significant stakes in companies and pushing for changes to boost their value. Loeb's activist approach has led to high-profile campaigns targeting companies like Yahoo and Nestl\u00e9.",
+        "Beyond his investment career, Loeb is also known for his philanthropic endeavors, particularly in the areas of education and criminal justice reform. His use of social media, notably Twitter, has made him a prominent public figure in the financial world, where he shares his views and engages with a broad audience."
+      ],
+      "sections": [
+        {
+          "heading": "Investment Philosophy",
+          "body": "Dan Loeb is known for his event-driven investment strategies, which often involve taking significant stakes in underperforming companies and advocating for changes to improve their performance."
+        },
+        {
+          "heading": "Activist Investor",
+          "body": "Loeb's Third Point LLC has been involved in numerous high-profile activist campaigns, pushing for corporate governance changes and strategic shifts to increase shareholder value."
+        },
+        {
+          "heading": "Philanthropy",
+          "body": "Apart from his investment career, Loeb is actively involved in philanthropy, with a focus on education and criminal justice reform, aiming to make a positive impact on society."
+        },
+        {
+          "heading": "Public Persona",
+          "body": "Loeb has become a prominent public figure in the financial world, using social media platforms like Twitter to share his views and engage with a wide audience, which has further amplified his influence."
+        }
+      ]
+    },
+    "net_worth": "$3.80B"
   },
   {
     "id": 273,
@@ -27946,7 +28078,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investors should consider the dual impact of AI on job creation and displacement, focusing on companies that are AI-enabled and those that support open-source AI solutions to foster a competitive and innovative market.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-29 \u2022 Pope vs AI, Anthropic's Digital God, AI Job Loss Narrative Flips, Open Source Crackdown Coming?",
     "last_proof_snippet": "Okay, we are gathered here today in Holy Unity, brothers and sisters, to convene and discuss on this most holy day, the day, the all-in podcast drops. Many topics, AI data centers, China, justice, human dignity, Dario on winding these SPVs",
@@ -29626,7 +29758,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-07 \u2022 MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -30447,7 +30579,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-30 \u2022 Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
     "last_proof_snippet": "AI is creating new opportunities to rethink how enterprise systems work, potentially leading to a platform shift.",
@@ -30757,7 +30889,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -31193,7 +31325,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -31573,7 +31705,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
     "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
@@ -31701,7 +31833,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -32077,7 +32209,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
@@ -33261,7 +33393,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_proof_snippet": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",
@@ -33697,7 +33829,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-27 \u2022 Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
     "last_proof_snippet": "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",
@@ -34986,7 +35118,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_proof_snippet": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229 00:00:00 I am blown away by how far you've come. The things that you can do with Neural Nets now does completely",
@@ -35050,7 +35182,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "last_proof_cite": "The a16z Show \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
     "last_proof_snippet": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. If you were starting from scratch today,",
@@ -35112,7 +35244,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-19 \u2022 Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
     "last_proof_snippet": "Today's episode is brought to you by the Picta AI Enhance International Equity ETF, Ticker PQNT. You'll hear more about they're using AI to enhance international equity returns later in the show. For now, let's get into it. Very pleased tod",

@@ -1,5 +1,22 @@
 [
   {
+    "id": 264,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
+    "episode_date": "2026-06-05",
+    "summary": "In this podcast, Dan Loeb discusses the resurgence of short selling as a critical investment strategy in the current market environment. He highlights the shift from stock picking to bond and credit picking, and emphasizes the importance of understanding technological trends and consumer behavior. Loeb also identifies the home building industry as a sector presenting short-selling opportunities due to its structural impairments. Furthermore, he underscores the role of human judgment in investing and his philanthropic focus on addressing systemic issues like income inequality and education reform.",
+    "key_takeaways": [
+      "Short selling is becoming increasingly important as market conditions shift.",
+      "The market has transitioned from a stock-picking focus to a bond and credit-picking environment.",
+      "Loeb's investment strategy has evolved to prioritize business quality and management adaptability.",
+      "The home building industry presents short-selling opportunities due to structural impairments.",
+      "Human judgment remains crucial in assessing management teams and capturing unique opportunities.",
+      "Addressing systemic issues through philanthropy can lead to more sustainable societal improvements."
+    ],
+    "investment_thesis": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
+    "key_tickers": null
+  },
+  {
     "id": 263,
     "podcast_name": "The a16z Show",
     "episode_title": "AI Agents and the Fight for Customer Data",
@@ -117,21 +134,5 @@
       "META",
       "AMZN"
     ]
-  },
-  {
-    "id": 256,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
-    "episode_date": "2026-06-03",
-    "summary": "This podcast episode delves into the changing dynamics between nation-states and digital networks, with a focus on the rise of 'internet first' ideology. It discusses the decline of Silicon Valley's dominance and the need for a decentralized approach to tech innovation. The conversation also touches on supply chain vulnerabilities, particularly in relation to the U.S. military's reliance on Chinese manufacturing, and the importance of empathy in negotiations. The episode concludes with a call for a realistic assessment of geopolitical dynamics and the future of global power structures.",
-    "key_takeaways": [
-      "Investors should consider companies that align with the 'internet first' ideology, especially those using decentralized technologies.",
-      "The decline of Silicon Valley indicates a need to explore emerging tech ecosystems in other regions, diversifying investment opportunities.",
-      "Investors in defense and technology sectors should evaluate companies' supply chain strategies and resilience, given the U.S. military's dependency on Chinese manufacturing.",
-      "Business leaders should incorporate empathetic strategies in negotiations to enhance cooperation and outcomes.",
-      "Policymakers and investors should support initiatives that enhance domestic manufacturing capabilities to strengthen supply chains."
-    ],
-    "investment_thesis": "Invest in companies that are part of decentralized tech ecosystems and those leveraging 'internet first' ideologies, while advocating for rational industrial policies to strengthen supply chains.",
-    "key_tickers": null
   }
 ]
