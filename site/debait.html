@@ -389,7 +389,7 @@
   </div>
 
   <script src="./js/common.js"></script>
-  <script src="./data/data.js?v=1780720669"></script>
+  <script src="./data/data.js?v=1780740099"></script>
   <script>
     (function() {
       const data = (typeof dashboardData !== 'undefined') ? dashboardData : null;
@@ -486,7 +486,13 @@
       }
 
       function formatDate(iso) {
-        return formatSiteCalendarDate(iso, { month: 'short', day: 'numeric', year: 'numeric' });
+        if (typeof formatSiteCalendarDate === 'function') {
+          return formatSiteCalendarDate(iso, { month: 'short', day: 'numeric', year: 'numeric' });
+        }
+        if (iso == null || iso === '') return '—';
+        var d = new Date(String(iso));
+        if (isNaN(d.getTime())) return String(iso);
+        return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
       }
 
       function resolvesIsoFromWeek(w) {
@@ -634,6 +640,7 @@
       }
 
       async function initDebate() {
+        try {
         const filtered = await getPunditLookupList();
 
         const qEl = document.getElementById('debate-question');
@@ -775,6 +782,13 @@
         }
 
         renderHistory(Array.isArray(hist.weeks) ? hist.weeks : [], archiveByFriday);
+        } catch (e) {
+          const qEl = document.getElementById('debate-question');
+          if (qEl && (!qEl.textContent || /loading debate topic/i.test(qEl.textContent))) {
+            qEl.textContent = 'Debate page failed to fully initialize. Refresh once; if this persists, run pipeline export and redeploy site assets.';
+          }
+          try { console.error('debait init failed', e); } catch (_) {}
+        }
       }
 
       if (document.readyState === 'loading') {
