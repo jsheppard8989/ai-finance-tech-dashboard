@@ -1,5 +1,25 @@
 [
   {
+    "id": 268,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone | Michael Fritzell | Asian Century Stocks",
+    "episode_date": "2026-06-06",
+    "summary": "In this episode, Jack Farley discusses the potential bubble in South Korean memory chip companies, the speculative nature of the South Korean stock market, the competitive threat from Chinese memory chip manufacturers, and the investment opportunities in Southeast Asia. The conversation also touches on governance reforms in Japan and Korea, the impact of a potential new cold war on Asian trade dynamics, and the strategic allocation of assets towards Asian equities.",
+    "key_takeaways": [
+      "South Korean memory chip companies are projected to generate $200 billion in profits by 2028, indicating a potential bubble in their stock valuations.",
+      "The South Korean stock market is experiencing significant speculation, particularly in memory chip and AI stocks.",
+      "Chinese memory chip manufacturers are expected to ramp up production by 2027, posing a competitive threat to South Korean firms.",
+      "Governance reforms in Japan and Korea may lead to increased activism and improved company valuations.",
+      "Southeast Asia, particularly Thailand and the Philippines, offers attractive investment opportunities in undervalued small-cap stocks.",
+      "Investors are encouraged to consider reallocating assets towards Asian equities due to favorable valuations and growth prospects."
+    ],
+    "investment_thesis": "Investors should focus on undervalued companies in Asia, particularly in South Korea and Southeast Asia, due to favorable valuations and growth prospects.",
+    "key_tickers": [
+      "SK HYNIX",
+      "SAMSUNG ELECTRONICS"
+    ]
+  },
+  {
     "id": 267,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Anthropic Files $965B IPO, Trump Signs AI Executive Order, and ChatGPT Crosses 1B Users | EP #262",
@@ -96,22 +116,6 @@
       "Consider a concentrated investment strategy focusing on high-potential companies to maximize returns."
     ],
     "investment_thesis": "Invest in AI leaders and monitor Unicorn liquidity events for potential high returns, while considering the power law effect in market dynamics.",
-    "key_tickers": null
-  },
-  {
-    "id": 261,
-    "podcast_name": "Dwarkesh Podcast",
-    "episode_title": "Alex Imas and Phil Trammell \u2013 What remains scarce after AGI?",
-    "episode_date": "2026-06-04",
-    "summary": "The podcast discusses the impact of automation and AI on the economy, focusing on the resilience of sectors requiring human interaction, the stability of labor share, and the potential for developing countries to leapfrog traditional development stages. It emphasizes the need for comprehensive data on automation and the importance of equitable wealth distribution in an AI-driven economy. The discussion also highlights the potential concentration of power and wealth in AI development and the need for a positive narrative around AI's impact on jobs.",
-    "key_takeaways": [
-      "Invest in sectors emphasizing human interaction, such as healthcare and education, which are likely to remain valuable despite automation.",
-      "Consider using prediction markets to aggregate forecasts about labor market changes for more reliable insights.",
-      "Support initiatives to improve data collection and analysis related to automation and labor dynamics.",
-      "Explore investment opportunities in developing countries rapidly adopting AI technologies for potential leapfrogging effects.",
-      "Engage in discussions about regulatory frameworks to ensure equitable distribution of AI's benefits and prevent wealth concentration."
-    ],
-    "investment_thesis": "Invest in relational sectors and advocate for equitable access to AI technologies to capitalize on the human economy and prevent wealth concentration in an automated future.",
     "key_tickers": null
   },
   {
