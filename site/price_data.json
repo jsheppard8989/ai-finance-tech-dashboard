@@ -3,72 +3,72 @@
     "price": 368.53,
     "change_pct": -7.16,
     "name": "GOOGL",
-    "updated_at": "2026-06-06T23:38:51.568391"
+    "updated_at": "2026-06-07T05:01:42.955799"
   },
   "BTC": {
-    "price": 61660.3,
-    "change_pct": -20.21,
+    "price": 62446.85,
+    "change_pct": -19.19,
     "name": "BTC",
-    "updated_at": "2026-06-06T23:38:51.568408"
+    "updated_at": "2026-06-07T05:01:42.955817"
   },
   "MSFT": {
     "price": 416.67,
     "change_pct": -1.41,
     "name": "MSFT",
-    "updated_at": "2026-06-06T23:38:51.568415"
+    "updated_at": "2026-06-07T05:01:42.955824"
   },
   "NVDA": {
     "price": 205.1,
     "change_pct": -7.64,
     "name": "NVDA",
-    "updated_at": "2026-06-06T23:38:51.568421"
+    "updated_at": "2026-06-07T05:01:42.955830"
   },
   "WTI": {
     "price": 3.7,
     "change_pct": -24.48,
     "name": "WTI",
-    "updated_at": "2026-06-06T23:38:51.568427"
+    "updated_at": "2026-06-07T05:01:42.955835"
   },
   "META": {
     "price": 593.0,
     "change_pct": -2.98,
     "name": "META",
-    "updated_at": "2026-06-06T23:38:51.568433"
+    "updated_at": "2026-06-07T05:01:42.955841"
   },
   "AMZN": {
     "price": 246.03,
     "change_pct": -7.11,
     "name": "AMZN",
-    "updated_at": "2026-06-06T23:38:51.568440"
+    "updated_at": "2026-06-07T05:01:42.955848"
   },
   "S&P 500": {
     "price": 737.55,
     "change_pct": -0.15,
     "name": "S&P 500",
-    "updated_at": "2026-06-06T23:38:51.568446"
+    "updated_at": "2026-06-07T05:01:42.955854"
   },
   "TSLA": {
     "price": 391.0,
     "change_pct": -4.63,
     "name": "TSLA",
-    "updated_at": "2026-06-06T23:38:51.568451"
+    "updated_at": "2026-06-07T05:01:42.955859"
   },
   "AAPL": {
     "price": 307.34,
     "change_pct": 3.19,
     "name": "AAPL",
-    "updated_at": "2026-06-06T23:38:51.568456"
+    "updated_at": "2026-06-07T05:01:42.955865"
   },
   "QQQ": {
     "price": 705.06,
     "change_pct": -0.12,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-06T23:38:51.568461"
+    "updated_at": "2026-06-07T05:01:42.955870"
   },
   "BTC-USD": {
-    "price": 61660.3,
-    "change_pct": -20.21,
+    "price": 62446.85,
+    "change_pct": -19.19,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-06T23:38:51.568468"
+    "updated_at": "2026-06-07T05:01:42.955877"
   }
 }
