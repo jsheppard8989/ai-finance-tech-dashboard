@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-07T06:35:57.831052",
-  chartsVersion: "2026-06-07T06:35:41.187071",
+  generatedAt: "2026-06-07T12:03:05.229295",
+  chartsVersion: "2026-06-07T12:02:48.908166",
   priceSnapshot: {
   "GOOGL": {
     "price": 368.53,
     "change_pct": -7.16,
     "name": "GOOGL",
-    "updated_at": "2026-06-07T06:35:41.186337"
+    "updated_at": "2026-06-07T12:02:48.906984"
   },
   "BTC": {
-    "price": 62509.79,
-    "change_pct": -19.11,
+    "price": 62108.59,
+    "change_pct": -19.63,
     "name": "BTC",
-    "updated_at": "2026-06-07T06:35:41.186354"
+    "updated_at": "2026-06-07T12:02:48.907007"
   },
   "MSFT": {
     "price": 416.67,
     "change_pct": -1.41,
     "name": "MSFT",
-    "updated_at": "2026-06-07T06:35:41.186361"
+    "updated_at": "2026-06-07T12:02:48.907019"
   },
   "NVDA": {
     "price": 205.1,
     "change_pct": -7.64,
     "name": "NVDA",
-    "updated_at": "2026-06-07T06:35:41.186366"
+    "updated_at": "2026-06-07T12:02:48.907029"
   },
   "WTI": {
     "price": 3.7,
     "change_pct": -24.48,
     "name": "WTI",
-    "updated_at": "2026-06-07T06:35:41.186372"
+    "updated_at": "2026-06-07T12:02:48.907039"
   },
   "META": {
     "price": 593.0,
     "change_pct": -2.98,
     "name": "META",
-    "updated_at": "2026-06-07T06:35:41.186378"
+    "updated_at": "2026-06-07T12:02:48.907048"
   },
   "AMZN": {
     "price": 246.03,
     "change_pct": -7.11,
     "name": "AMZN",
-    "updated_at": "2026-06-07T06:35:41.186384"
+    "updated_at": "2026-06-07T12:02:48.907058"
   },
   "S&P 500": {
     "price": 737.55,
     "change_pct": -0.15,
     "name": "S&P 500",
-    "updated_at": "2026-06-07T06:35:41.186390"
+    "updated_at": "2026-06-07T12:02:48.907067"
   },
   "TSLA": {
     "price": 391.0,
     "change_pct": -4.63,
     "name": "TSLA",
-    "updated_at": "2026-06-07T06:35:41.186395"
+    "updated_at": "2026-06-07T12:02:48.907091"
   },
   "AAPL": {
     "price": 307.34,
     "change_pct": 3.19,
     "name": "AAPL",
-    "updated_at": "2026-06-07T06:35:41.186401"
+    "updated_at": "2026-06-07T12:02:48.907099"
   },
   "QQQ": {
     "price": 705.06,
     "change_pct": -0.12,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-07T06:35:41.186406"
+    "updated_at": "2026-06-07T12:02:48.907105"
   },
   "BTC-USD": {
-    "price": 62509.79,
-    "change_pct": -19.11,
+    "price": 62108.59,
+    "change_pct": -19.63,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-07T06:35:41.186413"
+    "updated_at": "2026-06-07T12:02:48.907113"
   }
 },
   tickerScores: [
@@ -26546,7 +26546,7 @@ const dashboardData = {
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 13028,
+    "id": 13093,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -26558,7 +26558,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13029,
+    "id": 13094,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -26570,7 +26570,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13030,
+    "id": 13095,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -26582,7 +26582,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13031,
+    "id": 13096,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -26594,7 +26594,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13032,
+    "id": 13097,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -26606,7 +26606,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13033,
+    "id": 13098,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -26618,7 +26618,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13034,
+    "id": 13099,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -26630,7 +26630,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13035,
+    "id": 13100,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -26642,7 +26642,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13036,
+    "id": 13101,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -26654,7 +26654,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13037,
+    "id": 13102,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -26666,7 +26666,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13038,
+    "id": 13103,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -26678,7 +26678,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13039,
+    "id": 13104,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -26690,7 +26690,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13040,
+    "id": 13105,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -26702,7 +26702,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13041,
+    "id": 13106,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -26714,7 +26714,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13042,
+    "id": 13107,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -26726,7 +26726,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13043,
+    "id": 13108,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -26738,7 +26738,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13044,
+    "id": 13109,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -26750,7 +26750,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 13045,
+    "id": 13110,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -26762,7 +26762,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13046,
+    "id": 13111,
     "name": "Lending Where the Banks Won\u2019t Go",
     "slug": "lending-where-the-banks-wont-go",
     "bio": null,
@@ -26774,7 +26774,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13047,
+    "id": 13112,
     "name": "Why Generative AI Still Can\u2019t Trade",
     "slug": "why-generative-ai-still-cant-trade",
     "bio": null,
@@ -27980,7 +27980,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -28540,7 +28540,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -28787,7 +28787,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -32296,7 +32296,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
