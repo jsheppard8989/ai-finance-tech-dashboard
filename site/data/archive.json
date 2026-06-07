@@ -5335,24 +5335,6 @@
   "definitions": [],
   "overton": [
     {
-      "id": 230,
-      "term": "Memory Chip Bubble",
-      "description": "A potential overvaluation in the stock market, particularly affecting memory chip companies like SK Hynix and Samsung Electronics.",
-      "first_detected_date": "2026-06-06",
-      "last_mentioned_date": "2026-06-06",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should be cautious about entering positions in these stocks and consider the potential for a correction.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 268,
-      "first_detected_speaker": "Michael Fritzell",
-      "last_mentioned_episode_id": 268,
-      "last_mentioned_speaker": "Michael Fritzell"
-    },
-    {
       "id": 219,
       "term": "AI-native computing",
       "description": "The integration of AI processing capabilities into computing devices, allowing for more efficient and cost-effective AI usage.",
