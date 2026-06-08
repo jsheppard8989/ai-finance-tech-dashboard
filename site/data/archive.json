@@ -1,6 +1,46 @@
 {
   "insights": [
     {
+      "id": 284,
+      "title": "\u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-06-07",
+      "summary": "In this episode of Monetary Matters, Jack Farley discusses the impact of the closure of the Strait of Hormuz on global oil supplies and prices. The conversation covers the disruption in supply chains, cuts in global refinery runs, the critical situation of U.S. inventory levels, and the potential for price volatility. The discussion also touches on China's role in the market and the geopolitical landscape's influence on oil supply routes.",
+      "key_takeaway": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
+      "tickers_mentioned": [
+        "AAPL",
+        "XOM",
+        "VLO"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 269
+    },
+    {
+      "id": 285,
+      "title": "Inside the Private Stock Market Boom: SpaceX, Anthropic, OpenAI & the Rise of Secondaries",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-07",
+      "summary": "This podcast episode discusses the rapid growth of the private market for AI companies, the increasing role of secondary market transactions as exit strategies, and the trend of companies staying private longer. The show also touches on the democratization of private investments, the changing dynamics in venture capital, and the potential risks and opportunities for retail investors in private markets.",
+      "key_takeaway": "Invest in rapidly growing private AI companies and consider secondary market transactions for liquidity and potential gains.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 270
+    },
+    {
       "id": 280,
       "title": "Anthropic Files $965B IPO, Trump Signs AI Executive Order, and ChatGPT Crosses 1B Users | EP #262",
       "source_type": "podcast",
@@ -185,7 +225,7 @@
         "UUU"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-04",
       "archived_date": null,
@@ -204,7 +244,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-04",
       "archived_date": null,
@@ -5334,6 +5374,42 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 232,
+      "term": "Secondary Market Transactions",
+      "description": "The buying and selling of shares or other securities of private companies that are not listed on a public exchange.",
+      "first_detected_date": "2026-06-07",
+      "last_mentioned_date": "2026-06-07",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Secondary market transactions offer an alternative exit strategy and liquidity option for investors in private companies.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 270,
+      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "last_mentioned_episode_id": 270,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+    },
+    {
+      "id": 233,
+      "term": "Structured Liquidity Programs",
+      "description": "Programs offered by financial institutions that provide structured liquidity solutions for shareholders in private companies.",
+      "first_detected_date": "2026-06-07",
+      "last_mentioned_date": "2026-06-07",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "These programs can legitimize private equity as a viable asset class for retail investors, offering a path to participate in the private markets.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 270,
+      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "last_mentioned_episode_id": 270,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+    },
     {
       "id": 219,
       "term": "AI-native computing",

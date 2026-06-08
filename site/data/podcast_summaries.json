@@ -1,5 +1,37 @@
 [
   {
+    "id": 270,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Inside the Private Stock Market Boom: SpaceX, Anthropic, OpenAI & the Rise of Secondaries",
+    "episode_date": "2026-06-07",
+    "summary": "This podcast episode discusses the rapid growth of the private market for AI companies, the increasing role of secondary market transactions as exit strategies, and the trend of companies staying private longer. The show also touches on the democratization of private investments, the changing dynamics in venture capital, and the potential risks and opportunities for retail investors in private markets.",
+    "key_takeaways": [
+      "Invest in private AI companies showing strong growth metrics, focusing on those with proven business models.",
+      "Participate in secondary market transactions to capitalize on liquidity opportunities.",
+      "Monitor the evolving landscape of private company valuations and consider diversifying investments into private equity.",
+      "Stay informed about regulatory changes regarding investor accreditation that could affect access to private investments.",
+      "Evaluate venture capital firms based on their liquidity management strategies and historical performance in returning capital to investors."
+    ],
+    "investment_thesis": "Invest in rapidly growing private AI companies and consider secondary market transactions for liquidity and potential gains.",
+    "key_tickers": null
+  },
+  {
+    "id": 269,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "\u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
+    "episode_date": "2026-06-07",
+    "summary": "In this episode of Monetary Matters, Jack Farley discusses the impact of the closure of the Strait of Hormuz on global oil supplies and prices. The conversation covers the disruption in supply chains, cuts in global refinery runs, the critical situation of U.S. inventory levels, and the potential for price volatility. The discussion also touches on China's role in the market and the geopolitical landscape's influence on oil supply routes.",
+    "key_takeaways": [
+      "Monitor geopolitical developments in the Middle East, particularly regarding the Strait of Hormuz, to anticipate supply changes.",
+      "Track U.S. inventory reports weekly to gauge the health of the crude and refined product markets.",
+      "Consider hedging against potential price spikes in oil and refined products due to low inventory levels.",
+      "Analyze China's import data for signs of increased demand that could affect global oil prices.",
+      "Prepare for potential supply shortages in refined products and adjust procurement strategies accordingly."
+    ],
+    "investment_thesis": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
+    "key_tickers": null
+  },
+  {
     "id": 268,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone | Michael Fritzell | Asian Century Stocks",
@@ -100,40 +132,6 @@
       "AI is driving demand for robust software infrastructure rather than commoditizing it."
     ],
     "investment_thesis": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
-    "key_tickers": null
-  },
-  {
-    "id": 262,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "Thomas Laffont: The $4T AI IPO Wave, 2026's Unicorn Economy, and the 10X Paradox",
-    "episode_date": "2026-06-04",
-    "summary": "The podcast discusses the resurgence of the Unicorn Economy, with a 70% increase since September 2024, and the dominant role of AI in fundraising. The top 10 AI companies are capturing a significant share of funding, indicating a concentration of investment in high-performing firms. The Unicorn ecosystem is showing signs of recovery, with more liquidity events expected in 2026. SpaceX's valuation is closely linked to its operational metrics, specifically its launch cadence. The AI ecosystem is projected to double in size by the end of 2024, presenting substantial investment opportunities. The market dynamics suggest a power law effect, with a few companies capturing the majority of gains.",
-    "key_takeaways": [
-      "Invest in established AI companies capturing significant market share and funding.",
-      "Monitor upcoming IPOs and liquidity events in the Unicorn ecosystem for investment opportunities.",
-      "Analyze operational metrics like launch cadence for aerospace companies to inform valuation assessments.",
-      "Diversify investments across sectors poised for growth due to AI advancements.",
-      "Consider a concentrated investment strategy focusing on high-potential companies to maximize returns."
-    ],
-    "investment_thesis": "Invest in AI leaders and monitor Unicorn liquidity events for potential high returns, while considering the power law effect in market dynamics.",
-    "key_tickers": null
-  },
-  {
-    "id": 260,
-    "podcast_name": "Macro Voices",
-    "episode_title": "MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
-    "episode_date": "2026-06-04",
-    "summary": "In this episode, the discussion revolves around the potential prolonged U.S. blockade of Iran and its impact on oil prices, the shift towards economic statecraft, and the signals of market exhaustion in the S&P 500. The podcast also covers the breakout potential of the U.S. dollar, the stability of oil prices, the pressure on gold prices, the quiet uranium market, and the strong momentum in copper prices. Additionally, the 10-year Treasury yield is discussed in the context of inflation expectations.",
-    "key_takeaways": [
-      "Monitor geopolitical developments in Iran for potential oil price spikes.",
-      "Consider investing in infrastructure and industrial sectors due to a shift towards economic statecraft.",
-      "Reduce exposure to overbought equity markets or implement hedging strategies.",
-      "Watch for a breakout in the U.S. dollar and adjust commodity investments accordingly.",
-      "Prepare for volatility in oil markets and consider energy sector investments.",
-      "Implement protective strategies for gold investments, especially if the 200-day moving average fails.",
-      "Position for potential seasonal upticks in uranium prices as summer approaches."
-    ],
-    "investment_thesis": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "key_tickers": null
   }
 ]
