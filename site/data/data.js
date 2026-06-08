@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-08T06:35:28.546177",
-  chartsVersion: "2026-06-08T06:35:18.192758",
+  generatedAt: "2026-06-08T12:02:38.127061",
+  chartsVersion: "2026-06-08T12:02:26.050952",
   priceSnapshot: {
   "GOOGL": {
-    "price": 368.53,
-    "change_pct": -7.16,
+    "price": 361.72,
+    "change_pct": -6.69,
     "name": "GOOGL",
-    "updated_at": "2026-06-08T06:35:18.192003"
+    "updated_at": "2026-06-08T12:02:26.050154"
   },
   "BTC": {
-    "price": 63567.35,
-    "change_pct": -16.17,
+    "price": 63371.04,
+    "change_pct": -16.43,
     "name": "BTC",
-    "updated_at": "2026-06-08T06:35:18.192021"
+    "updated_at": "2026-06-08T12:02:26.050170"
   },
   "MSFT": {
-    "price": 416.67,
-    "change_pct": -1.41,
+    "price": 409.43,
+    "change_pct": -1.7,
     "name": "MSFT",
-    "updated_at": "2026-06-08T06:35:18.192028"
+    "updated_at": "2026-06-08T12:02:26.050176"
   },
   "NVDA": {
-    "price": 205.1,
-    "change_pct": -7.64,
+    "price": 208.22,
+    "change_pct": -5.51,
     "name": "NVDA",
-    "updated_at": "2026-06-08T06:35:18.192033"
+    "updated_at": "2026-06-08T12:02:26.050183"
   },
   "WTI": {
-    "price": 3.7,
-    "change_pct": -24.48,
+    "price": 3.91,
+    "change_pct": -17.57,
     "name": "WTI",
-    "updated_at": "2026-06-08T06:35:18.192039"
+    "updated_at": "2026-06-08T12:02:26.050189"
   },
   "META": {
-    "price": 593.0,
-    "change_pct": -2.98,
+    "price": 586.05,
+    "change_pct": -2.75,
     "name": "META",
-    "updated_at": "2026-06-08T06:35:18.192045"
+    "updated_at": "2026-06-08T12:02:26.050195"
   },
   "AMZN": {
-    "price": 246.03,
-    "change_pct": -7.11,
+    "price": 245.3,
+    "change_pct": -5.41,
     "name": "AMZN",
-    "updated_at": "2026-06-08T06:35:18.192051"
+    "updated_at": "2026-06-08T12:02:26.050201"
   },
   "S&P 500": {
-    "price": 737.55,
-    "change_pct": -0.15,
+    "price": 741.17,
+    "change_pct": 1.01,
     "name": "S&P 500",
-    "updated_at": "2026-06-08T06:35:18.192056"
+    "updated_at": "2026-06-08T12:02:26.050206"
   },
   "TSLA": {
-    "price": 391.0,
-    "change_pct": -4.63,
+    "price": 406.45,
+    "change_pct": 0.58,
     "name": "TSLA",
-    "updated_at": "2026-06-08T06:35:18.192062"
+    "updated_at": "2026-06-08T12:02:26.050211"
   },
   "AAPL": {
-    "price": 307.34,
-    "change_pct": 3.19,
+    "price": 313.09,
+    "change_pct": 4.72,
     "name": "AAPL",
-    "updated_at": "2026-06-08T06:35:18.192067"
+    "updated_at": "2026-06-08T12:02:26.050217"
   },
   "QQQ": {
-    "price": 705.06,
-    "change_pct": -0.12,
+    "price": 717.97,
+    "change_pct": 2.34,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-08T06:35:18.192073"
+    "updated_at": "2026-06-08T12:02:26.050222"
   },
   "BTC-USD": {
-    "price": 63567.35,
-    "change_pct": -16.17,
+    "price": 63371.04,
+    "change_pct": -16.43,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-08T06:35:18.192079"
+    "updated_at": "2026-06-08T12:02:26.050228"
   }
 },
   tickerScores: [
@@ -26736,7 +26736,7 @@ const dashboardData = {
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 13425,
+    "id": 13492,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -26748,7 +26748,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13426,
+    "id": 13493,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -26760,7 +26760,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13427,
+    "id": 13494,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -26772,7 +26772,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13428,
+    "id": 13495,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -26784,7 +26784,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13429,
+    "id": 13496,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -26796,7 +26796,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13430,
+    "id": 13497,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -26808,7 +26808,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13431,
+    "id": 13498,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -26820,7 +26820,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13432,
+    "id": 13499,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -26832,7 +26832,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13433,
+    "id": 13500,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -26844,7 +26844,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13434,
+    "id": 13501,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -26856,7 +26856,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13435,
+    "id": 13502,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -26868,7 +26868,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13436,
+    "id": 13503,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -26880,7 +26880,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13437,
+    "id": 13504,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -26892,7 +26892,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13438,
+    "id": 13505,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -26904,7 +26904,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13439,
+    "id": 13506,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -26916,7 +26916,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13440,
+    "id": 13507,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -26928,7 +26928,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13441,
+    "id": 13508,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -26940,7 +26940,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13442,
+    "id": 13509,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -26952,7 +26952,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13443,
+    "id": 13510,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -26964,7 +26964,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 13444,
+    "id": 13511,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,
@@ -32546,7 +32546,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -34854,7 +34854,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -34914,7 +34914,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -34974,7 +34974,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",
