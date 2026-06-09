@@ -1,5 +1,39 @@
 [
   {
+    "id": 274,
+    "podcast_name": "The Jack Mallers Show",
+    "episode_title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
+    "episode_date": "2026-06-09",
+    "summary": "This episode of 'The Jack Mallers Show' discusses the current state of Bitcoin's market cap, the potential liquidity crisis due to geopolitical tensions, and MicroStrategy's complex capital structure. The podcast highlights Bitcoin's role as a 'smoke alarm' for fiat liquidity and the challenges MicroStrategy faces in satisfying all stakeholders amidst a bear market. The discussion also touches on the potential for AI and Bitcoin to catalyze a new Renaissance.",
+    "key_takeaways": [
+      "Monitor geopolitical developments and liquidity indicators to assess potential impacts on Bitcoin's price.",
+      "Evaluate MicroStrategy's financial obligations and their implications for Bitcoin holders.",
+      "Consider dollar-cost averaging strategies to mitigate short-term volatility in Bitcoin investments.",
+      "Stay informed about capital rotation trends and their effects on Bitcoin ETFs and market sentiment.",
+      "Engage with the Bitcoin community to share insights and strategies for navigating the current market environment."
+    ],
+    "investment_thesis": "Bitcoin serves as a leading indicator of fiat liquidity and a potential hedge against inflation, while MicroStrategy's complex capital structure poses risks to Bitcoin holders.",
+    "key_tickers": [
+      "BTC"
+    ]
+  },
+  {
+    "id": 273,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+    "episode_date": "2026-06-09",
+    "summary": "In this episode, the a16z Show explores the intersection of AI and the job market. The discussion centers on how AI is projected to create new jobs even as it automates existing ones, with a focus on the historical context of technological revolutions and their impact on employment. The conversation also touches on the potential for AI to reduce poverty and improve living standards, as well as the challenges faced by the upper middle class in the face of AI-driven disruptions.",
+    "key_takeaways": [
+      "AI is expected to create new jobs in sectors like energy, biomedical, elderly care, and niche entertainment.",
+      "Historical technological revolutions have often led to job creation rather than permanent unemployment.",
+      "Productivity growth, enhanced by AI, is key to economic advancement and improving living standards.",
+      "The upper middle class may face significant disruptions due to AI, potentially leading to social and political instability.",
+      "AI has the potential to reduce extreme poverty by making goods and services more affordable."
+    ],
+    "investment_thesis": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
+    "key_tickers": null
+  },
+  {
     "id": 272,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Nikesh Arora: Mythos is Real, Analytical SaaS is Dead, and Google can be a $10T company",
@@ -84,40 +118,6 @@
       "SK HYNIX",
       "SAMSUNG ELECTRONICS"
     ]
-  },
-  {
-    "id": 267,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "Anthropic Files $965B IPO, Trump Signs AI Executive Order, and ChatGPT Crosses 1B Users | EP #262",
-    "episode_date": "2026-06-06",
-    "summary": "This episode of 'Moonshots with Peter Diamandis' delves into the latest trends in AI and longevity, exploring investment opportunities and market implications. Key themes include Anthropic's IPO potential, the shift in U.S. AI regulation, OpenAI's user growth, the proposal for a sovereign wealth fund, Russia's investment in anti-aging research, and Verve 102's gene editing therapy. The podcast provides insights into how these developments could impact investment strategies and market dynamics.",
-    "key_takeaways": [
-      "Monitor Anthropic's IPO for investment opportunities and market trends.",
-      "Prepare for a less regulated AI environment by adapting business strategies accordingly.",
-      "Integrate AI tools into your business to enhance user engagement and operational efficiency.",
-      "Stay informed about potential public ownership stakes in AI companies as proposed by policymakers.",
-      "Explore investment opportunities in the longevity sector as research and funding increase.",
-      "Keep an eye on gene editing therapies like Verve 102 for potential disruptions in healthcare."
-    ],
-    "investment_thesis": "Invest in AI and longevity sectors to capitalize on rapid technological advancements and market growth.",
-    "key_tickers": null
-  },
-  {
-    "id": 266,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "The IPO Comeback: Why Tech Giants Are Finally Going Public | All-In Liquidity IPO Panel",
-    "episode_date": "2026-06-06",
-    "summary": "This podcast episode discusses the anticipated record year for IPOs in 2026, driven by advancements in AI and space technologies. Planet Labs, which operates the largest Earth imaging fleet, is highlighted for its use of AI to enhance data accessibility. The cost reduction in satellite launches and the miniaturization of satellites are identified as key trends, with potential implications for space-based data centers. The benefits of going public for companies are also discussed, including increased credibility and access to capital.",
-    "key_takeaways": [
-      "2026 is projected to be a record year for IPOs, especially in AI and space technologies.",
-      "Planet Labs uses AI to enhance Earth imaging data for various sectors.",
-      "The cost of launching satellites has significantly decreased, enabling new applications.",
-      "Miniaturization of satellites is transforming data collection and processing.",
-      "The future of data centers may shift to space due to cost and energy advantages.",
-      "Public companies benefit from increased credibility and access to capital."
-    ],
-    "investment_thesis": "Invest in companies at the forefront of AI and space technology advancements, as they are poised for significant growth and innovation.",
-    "key_tickers": null
   },
   {
     "id": 265,

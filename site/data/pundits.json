@@ -1192,7 +1192,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -1200,6 +1200,194 @@
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 42,
+    "name": "Jack Mallers",
+    "slug": "jack-mallers",
+    "bio": "Host of 'The Jack Mallers Show', an expert in Bitcoin and financial markets.",
+    "known_for": "Bitcoin advocacy and market analysis.",
+    "net_worth_usd": 50000000.0,
+    "net_worth_source": "https://www.datawallet.com/crypto/jack-mallers-net-worth",
+    "net_worth_updated_at": "2026-04-01T05:04:14.863404",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-06-09 17:03:08",
+    "last_episode_title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
+    "last_podcast_name": "The Jack Mallers Show",
+    "last_episode_date": "2026-06-09",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Bitcoin serves as a leading indicator of fiat liquidity and a potential hedge against inflation, while MicroStrategy's complex capital structure poses risks to Bitcoin holders.",
+    "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-09 \u2022 Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
+    "last_proof_snippet": "Yo, welcome back to another episode of The Jack Mallers Show, I am your host, Jack, and you are listening to yet another edition of Mailbag Monday, episode 121. The title of today's episode is Bitcoin's cell-off explained, capital rotation,",
+    "supporting_takeaway": "Evaluate MicroStrategy's financial obligations and their implications for Bitcoin holders.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-22T00:00:51.108693",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jack Mallers",
+      "fetched_at": "2026-05-22T05:00:51.108543+00:00",
+      "cliff_notes": "Jack Mallers is an entrepreneur who has made a significant impact in the world of cryptocurrency and financial technology. As the CEO of Strike, he has led the development of a platform that leverages the Bitcoin Lightning Network to facilitate payments, making Bitcoin more accessible for everyday transactions. His innovative approach to cryptocurrency payments has garnered attention from investors and the tech community, as it addresses the challenges of integrating digital currencies into the mainstream financial ecosystem. Mallers' work at Strike is particularly noteworthy for its potential to revolutionize how people and businesses conduct transactions, offering a faster and more efficient alternative to traditional payment methods.",
+      "derived": {
+        "current_role": "CEO of Strike"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Jack Mallers is an entrepreneur who has made a significant impact in the world of cryptocurrency and financial technology. As the CEO of Strike, he has led the development of a platform that leverages the Bitcoin Lightning Network to facilitate payments, making Bitcoin more accessible for everyday transactions. His innovative approach to cryptocurrency payments has garnered attention from investors and the tech community, as it addresses the challenges of integrating digital currencies into the mainstream financial ecosystem.",
+        "Mallers' work at Strike is particularly noteworthy for its potential to revolutionize how people and businesses conduct transactions, offering a faster and more efficient alternative to traditional payment methods."
+      ],
+      "sections": [
+        {
+          "heading": "Strike Development",
+          "body": "Jack Mallers is known for developing Strike, a platform that simplifies Bitcoin Lightning Network payments, making Bitcoin more accessible for everyday use."
+        },
+        {
+          "heading": "Bitcoin Integration",
+          "body": "Mallers' efforts have been focused on integrating Bitcoin into everyday transactions, aiming to make cryptocurrency payments as common as traditional fiat currency transactions."
+        },
+        {
+          "heading": "Financial Technology Innovation",
+          "body": "As an entrepreneur in the financial technology sector, Mallers has been at the forefront of innovations that aim to bridge the gap between traditional finance and the emerging world of cryptocurrencies."
+        }
+      ]
+    },
+    "net_worth": "$50.0M"
+  },
+  {
+    "id": 279,
+    "name": "Tyler Cowan",
+    "slug": "tyler-cowan",
+    "bio": "Tyler Cowen is an economist and author known for his work on economic growth and technological change. His book 'Average is Over' discusses the impact of AI on the job market, exploring the potential for AI to create unemployment or reduce the amount of work required. Cowen's insights into the future of work and the role of AI in shaping economic growth make him a valuable voice for investors and tech listeners.",
+    "known_for": "His book 'Average is Over' which discusses the impact of AI on the job market.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Optimistic yet cautious about the future of work.",
+    "voice_style": "Analytical and fact-based, drawing on economic theory and historical precedents.",
+    "voice_delivery_notes": "Clear and measured, with emphasis on key economic insights.",
+    "voice_profile_updated_at": "2026-06-09 17:02:55",
+    "last_seen": "2026-06-09 17:02:55",
+    "last_episode_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-09",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+    "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
+    "supporting_takeaway": "Historical technological revolutions have often led to job creation rather than permanent unemployment.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-09T12:03:22.135972",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Tyler Cowan",
+      "fetched_at": "2026-06-09T17:03:22.135483+00:00",
+      "cliff_notes": "Tyler Cowen is an economist and author who has made significant contributions to the fields of economic growth and technological change. He is a professor of economics at George Mason University and has written several influential books, including 'Average is Over' and 'The Great Stagnation'. Cowen's work explores the impact of AI on the job market and the future of work, as well as the broader implications of technological change for economic growth. His insights into these topics make him an important voice for investors and tech listeners, as they seek to understand and navigate the rapidly evolving landscape of the global economy.",
+      "derived": {
+        "current_role": "Professor of Economics, George Mason University",
+        "education": "Ph.D. in Economics, Harvard University",
+        "books_or_works": "Average is Over; The Great Stagnation; Discover Your Inner Economist",
+        "teaching_summary": "Professor of Economics, George Mason University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Tyler Cowen is an economist and author who has made significant contributions to the fields of economic growth and technological change. He is a professor of economics at George Mason University and has written several influential books, including 'Average is Over' and 'The Great Stagnation'. Cowen's work explores the impact of AI on the job market and the future of work, as well as the broader implications of technological change for economic growth.",
+        "His insights into these topics make him an important voice for investors and tech listeners, as they seek to understand and navigate the rapidly evolving landscape of the global economy."
+      ],
+      "sections": [
+        {
+          "heading": "Economic Growth",
+          "body": "Tyler Cowen has written extensively on the topic of economic growth, exploring the factors that drive it and the challenges that can hinder it."
+        },
+        {
+          "heading": "Technological Change",
+          "body": "Cowen's work often focuses on the impact of technological change on the economy, including the potential for AI to reshape the job market and the nature of work."
+        },
+        {
+          "heading": "The Future of Work",
+          "body": "In his book 'Average is Over', Cowen discusses the potential for AI to create unemployment or reduce the amount of work required, offering insights into the future of work and its implications for economic growth."
+        },
+        {
+          "heading": "AI and Unemployment",
+          "body": "Cowen argues that while AI has the potential to create unemployment, it could also lead to a reduction in the amount of work required, which he frames as a positive development."
+        }
+      ]
+    }
+  },
+  {
+    "id": 280,
+    "name": "Alex Tabarrok",
+    "slug": "alex-tabarrok",
+    "bio": "Alex Tabarrok is an economist and author known for his work on the effects of technology on the economy. He is particularly recognized for his book 'Launching the Innovation Renaissance,' which delves into the role of innovation in economic growth. Tabarrok has contributed significantly to discussions on AI, its implications on work, and the future of the economy.",
+    "known_for": "His insights on the impact of AI on the workforce and his book 'Launching the Innovation Renaissance' which explores the role of innovation in economic growth.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and assertive, with a focus on the positive aspects of technological change.",
+    "voice_style": "Persuasive and forward-looking, emphasizing the potential benefits of AI for society.",
+    "voice_delivery_notes": "Passionate and engaging, with a clear articulation of complex economic concepts.",
+    "voice_profile_updated_at": "2026-06-09 17:02:55",
+    "last_seen": "2026-06-09 17:02:55",
+    "last_episode_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-09",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+    "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
+    "supporting_takeaway": "Historical technological revolutions have often led to job creation rather than permanent unemployment.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-09T12:03:36.167542",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Tabarrok",
+      "fetched_at": "2026-06-09T17:03:36.167261+00:00",
+      "cliff_notes": "Alex Tabarrok is an economist and author with a focus on the intersection of technology and economic growth. He holds the Bartley J. Madden Chair in Economics at the Mercatus Center at George Mason University, where he is also a professor of economics. Tabarrok is well-known for his book 'Launching the Innovation Renaissance,' which discusses the importance of innovation in driving economic growth. He has been a significant voice in the discourse surrounding AI and its potential effects on the workforce, productivity, and economic dynamics. Tabarrok's work is influential in tech, finance, and policy circles, as he provides a unique perspective on how technological advancements can shape the future of work and the economy.",
+      "derived": {
+        "current_role": "Bartley J. Madden Chair in Economics at the Mercatus Center at George Mason University",
+        "education": "Ph.D. in economics from George Mason University",
+        "books_or_works": "Launching the Innovation Renaissance; co-author of the popular economics blog Marginal Revolution",
+        "teaching_summary": "Professor of economics at George Mason University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Alex Tabarrok is an economist and author with a focus on the intersection of technology and economic growth. He holds the Bartley J. Madden Chair in Economics at the Mercatus Center at George Mason University, where he is also a professor of economics. Tabarrok is well-known for his book 'Launching the Innovation Renaissance,' which discusses the importance of innovation in driving economic growth.",
+        "He has been a significant voice in the discourse surrounding AI and its potential effects on the workforce, productivity, and economic dynamics. Tabarrok's work is influential in tech, finance, and policy circles, as he provides a unique perspective on how technological advancements can shape the future of work and the economy."
+      ],
+      "sections": [
+        {
+          "heading": "Innovation and Economic Growth",
+          "body": "Alex Tabarrok is recognized for his work on the impact of innovation on economic growth, as highlighted in his book 'Launching the Innovation Renaissance.'"
+        },
+        {
+          "heading": "AI and the Workforce",
+          "body": "Tabarrok has contributed to the conversation on AI's implications for the workforce, discussing potential job displacement and the need to adapt to technological changes."
+        },
+        {
+          "heading": "Economic Policy",
+          "body": "As a professor and economist, Tabarrok influences economic policy discussions through his research and teachings at George Mason University."
+        }
+      ]
+    }
   },
   {
     "id": 278,
@@ -1495,7 +1683,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -1812,7 +2000,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -1876,7 +2064,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -2059,7 +2247,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -2123,7 +2311,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -2866,7 +3054,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -2932,7 +3120,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -9244,7 +9432,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
@@ -9302,7 +9490,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",

@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-09T06:35:40.538613",
-  chartsVersion: "2026-06-09T06:35:27.569465",
+  generatedAt: "2026-06-09T12:05:40.890845",
+  chartsVersion: "2026-06-09T12:05:29.661335",
   priceSnapshot: {
   "GOOGL": {
-    "price": 363.31,
-    "change_pct": -6.23,
+    "price": 361.48,
+    "change_pct": -7.0,
     "name": "GOOGL",
-    "updated_at": "2026-06-09T06:35:27.568391"
+    "updated_at": "2026-06-09T12:05:29.660011"
   },
   "BTC": {
-    "price": 62580.34,
-    "change_pct": -15.82,
+    "price": 61619.59,
+    "change_pct": -17.12,
     "name": "BTC",
-    "updated_at": "2026-06-09T06:35:27.568412"
+    "updated_at": "2026-06-09T12:05:29.660028"
   },
   "MSFT": {
-    "price": 411.74,
-    "change_pct": -1.15,
+    "price": 401.12,
+    "change_pct": -4.53,
     "name": "MSFT",
-    "updated_at": "2026-06-09T06:35:27.568421"
+    "updated_at": "2026-06-09T12:05:29.660036"
   },
   "NVDA": {
-    "price": 208.64,
-    "change_pct": -5.32,
+    "price": 203.08,
+    "change_pct": -9.02,
     "name": "NVDA",
-    "updated_at": "2026-06-09T06:35:27.568429"
+    "updated_at": "2026-06-09T12:05:29.660043"
   },
   "WTI": {
-    "price": 3.95,
-    "change_pct": -16.83,
+    "price": 3.81,
+    "change_pct": -14.88,
     "name": "WTI",
-    "updated_at": "2026-06-09T06:35:27.568436"
+    "updated_at": "2026-06-09T12:05:29.660050"
   },
   "META": {
-    "price": 585.39,
-    "change_pct": -2.86,
+    "price": 584.91,
+    "change_pct": -3.33,
     "name": "META",
-    "updated_at": "2026-06-09T06:35:27.568444"
+    "updated_at": "2026-06-09T12:05:29.660057"
   },
   "AMZN": {
-    "price": 245.22,
-    "change_pct": -5.44,
+    "price": 242.07,
+    "change_pct": -8.66,
     "name": "AMZN",
-    "updated_at": "2026-06-09T06:35:27.568452"
+    "updated_at": "2026-06-09T12:05:29.660065"
   },
   "S&P 500": {
-    "price": 739.22,
-    "change_pct": 0.75,
+    "price": 728.19,
+    "change_pct": -1.76,
     "name": "S&P 500",
-    "updated_at": "2026-06-09T06:35:27.568459"
+    "updated_at": "2026-06-09T12:05:29.660072"
   },
   "TSLA": {
-    "price": 408.95,
-    "change_pct": 1.2,
+    "price": 390.25,
+    "change_pct": -6.47,
     "name": "TSLA",
-    "updated_at": "2026-06-09T06:35:27.568466"
+    "updated_at": "2026-06-09T12:05:29.660080"
   },
   "AAPL": {
-    "price": 301.54,
-    "change_pct": 0.86,
+    "price": 290.08,
+    "change_pct": -4.03,
     "name": "AAPL",
-    "updated_at": "2026-06-09T06:35:27.568473"
+    "updated_at": "2026-06-09T12:05:29.660086"
   },
   "QQQ": {
-    "price": 716.07,
-    "change_pct": 2.07,
+    "price": 695.8,
+    "change_pct": -2.43,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-09T06:35:27.568482"
+    "updated_at": "2026-06-09T12:05:29.660093"
   },
   "BTC-USD": {
-    "price": 62563.29,
-    "change_pct": -15.85,
+    "price": 61527.51,
+    "change_pct": -17.24,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-09T06:35:27.568491"
+    "updated_at": "2026-06-09T12:05:29.660102"
   }
 },
   tickerScores: [
@@ -834,6 +834,48 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 288,
+      "title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-06-09",
+      "summary": "This episode of 'The Jack Mallers Show' discusses the current state of Bitcoin's market cap, the potential liquidity crisis due to geopolitical tensions, and MicroStrategy's complex capital structure. The podcast highlights Bitcoin's role as a 'smoke alarm' for fiat liquidity and the challenges MicroStrategy faces in satisfying all stakeholders amidst a bear market. The discussion also touches on the potential for AI and Bitcoin to catalyze a new Renaissance.",
+      "key_takeaway": "Bitcoin serves as a leading indicator of fiat liquidity and a potential hedge against inflation, while MicroStrategy's complex capital structure poses risks to Bitcoin holders.",
+      "tickers_mentioned": [
+        "BTC"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 274
+    },
+    {
+      "id": 289,
+      "title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-09",
+      "summary": "In this episode, the a16z Show explores the intersection of AI and the job market. The discussion centers on how AI is projected to create new jobs even as it automates existing ones, with a focus on the historical context of technological revolutions and their impact on employment. The conversation also touches on the potential for AI to reduce poverty and improve living standards, as well as the challenges faced by the upper middle class in the face of AI-driven disruptions.",
+      "key_takeaway": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "TSLA",
+        "MSFT",
+        "AMZN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 273
+    },
+    {
       "id": 286,
       "title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
       "source_type": "podcast",
@@ -925,7 +967,7 @@ const dashboardData = {
         "AMZN"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-06",
       "archived_date": null,
@@ -944,7 +986,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-06",
       "archived_date": null,
@@ -6246,6 +6288,78 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 235,
+      "term": "Job Creation Amidst Automation",
+      "description": "The phenomenon where AI automates certain jobs while simultaneously creating new opportunities across various sectors.",
+      "first_detected_date": "2026-06-09",
+      "last_mentioned_date": "2026-06-09",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should focus on sectors like energy and healthcare that will expand due to AI advancements.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 273,
+      "first_detected_speaker": "Tyler Cowan, Alex Tabarrok",
+      "last_mentioned_episode_id": 273,
+      "last_mentioned_speaker": "Tyler Cowan, Alex Tabarrok"
+    },
+    {
+      "id": 236,
+      "term": "Historical Context of Technological Change",
+      "description": "The perspective that historical technological revolutions have often resulted in job creation rather than permanent unemployment.",
+      "first_detected_date": "2026-06-09",
+      "last_mentioned_date": "2026-06-09",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors can adopt a long-term view, anticipating new job creation as AI evolves.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 273,
+      "first_detected_speaker": "Tyler Cowan, Alex Tabarrok",
+      "last_mentioned_episode_id": 273,
+      "last_mentioned_speaker": "Tyler Cowan, Alex Tabarrok"
+    },
+    {
+      "id": 237,
+      "term": "Economic Growth and Productivity",
+      "description": "The concept that productivity growth is essential for economic advancement and improving living standards.",
+      "first_detected_date": "2026-06-09",
+      "last_mentioned_date": "2026-06-09",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in technologies and companies that enhance productivity across industries.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 273,
+      "first_detected_speaker": "Tyler Cowan, Alex Tabarrok",
+      "last_mentioned_episode_id": 273,
+      "last_mentioned_speaker": "Tyler Cowan, Alex Tabarrok"
+    },
+    {
+      "id": 238,
+      "term": "Smoke Alarm of Fiat Liquidity",
+      "description": "A metaphor for Bitcoin's role as an early warning system for issues in the traditional financial system, as it reacts to changes in liquidity before other assets.",
+      "first_detected_date": "2026-06-09",
+      "last_mentioned_date": "2026-06-09",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor Bitcoin's price movements as an indicator of potential liquidity issues in the broader market.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 274,
+      "first_detected_speaker": "Jack Mallers",
+      "last_mentioned_episode_id": 274,
+      "last_mentioned_speaker": "Jack Mallers"
+    },
+    {
       "id": 234,
       "term": "AI Personhood",
       "description": "The concept of granting legal personhood to AI entities, which could lead to new governance models and influence global legal frameworks.",
@@ -9064,6 +9178,48 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 288,
+      "title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-06-09",
+      "summary": "This episode of 'The Jack Mallers Show' discusses the current state of Bitcoin's market cap, the potential liquidity crisis due to geopolitical tensions, and MicroStrategy's complex capital structure. The podcast highlights Bitcoin's role as a 'smoke alarm' for fiat liquidity and the challenges MicroStrategy faces in satisfying all stakeholders amidst a bear market. The discussion also touches on the potential for AI and Bitcoin to catalyze a new Renaissance.",
+      "key_takeaway": "Bitcoin serves as a leading indicator of fiat liquidity and a potential hedge against inflation, while MicroStrategy's complex capital structure poses risks to Bitcoin holders.",
+      "tickers_mentioned": "[\"BTC\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 274,
+      "episode_release_date": "2026-06-09",
+      "guest_name": "Bitcoin Selloff Explained",
+      "key_tickers": [
+        "BTC"
+      ]
+    },
+    {
+      "id": 289,
+      "title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-09",
+      "summary": "In this episode, the a16z Show explores the intersection of AI and the job market. The discussion centers on how AI is projected to create new jobs even as it automates existing ones, with a focus on the historical context of technological revolutions and their impact on employment. The conversation also touches on the potential for AI to reduce poverty and improve living standards, as well as the challenges faced by the upper middle class in the face of AI-driven disruptions.",
+      "key_takeaway": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"TSLA\", \"MSFT\", \"AMZN\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 273,
+      "episode_release_date": "2026-06-09",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 286,
       "title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
       "source_type": "podcast",
@@ -9143,46 +9299,6 @@ const dashboardData = {
       "podcast_episode_id": 270,
       "episode_release_date": "2026-06-07",
       "guest_name": "Inside the Private Stock Market Boom",
-      "key_tickers": []
-    },
-    {
-      "id": 280,
-      "title": "Anthropic Files $965B IPO, Trump Signs AI Executive Order, and ChatGPT Crosses 1B Users | EP #262",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-06-06",
-      "summary": "This episode of 'Moonshots with Peter Diamandis' delves into the latest trends in AI and longevity, exploring investment opportunities and market implications. Key themes include Anthropic's IPO potential, the shift in U.S. AI regulation, OpenAI's user growth, the proposal for a sovereign wealth fund, Russia's investment in anti-aging research, and Verve 102's gene editing therapy. The podcast provides insights into how these developments could impact investment strategies and market dynamics.",
-      "key_takeaway": "Invest in AI and longevity sectors to capitalize on rapid technological advancements and market growth.",
-      "tickers_mentioned": "[\"GOOGL\", \"MSFT\", \"AMZN\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-06",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 267,
-      "episode_release_date": "2026-06-06",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 281,
-      "title": "The IPO Comeback: Why Tech Giants Are Finally Going Public | All-In Liquidity IPO Panel",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-06-06",
-      "summary": "This podcast episode discusses the anticipated record year for IPOs in 2026, driven by advancements in AI and space technologies. Planet Labs, which operates the largest Earth imaging fleet, is highlighted for its use of AI to enhance data accessibility. The cost reduction in satellite launches and the miniaturization of satellites are identified as key trends, with potential implications for space-based data centers. The benefits of going public for companies are also discussed, including increased credibility and access to capital.",
-      "key_takeaway": "Invest in companies at the forefront of AI and space technology advancements, as they are poised for significant growth and innovation.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-06",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 266,
-      "episode_release_date": "2026-06-06",
-      "guest_name": null,
       "key_tickers": []
     },
     {
@@ -9352,6 +9468,110 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 235,
+      "term": "Job Creation Amidst Automation",
+      "description": "The phenomenon where AI automates certain jobs while simultaneously creating new opportunities across various sectors.",
+      "first_detected_date": "2026-06-09",
+      "last_mentioned_date": "2026-06-09",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should focus on sectors like energy and healthcare that will expand due to AI advancements.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 273,
+      "first_detected_speaker": "Tyler Cowan, Alex Tabarrok",
+      "last_mentioned_episode_id": 273,
+      "last_mentioned_speaker": "Tyler Cowan, Alex Tabarrok",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+      "first_detected_episode_date": "2026-06-09",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+      "last_mentioned_episode_date": "2026-06-09"
+    },
+    {
+      "id": 236,
+      "term": "Historical Context of Technological Change",
+      "description": "The perspective that historical technological revolutions have often resulted in job creation rather than permanent unemployment.",
+      "first_detected_date": "2026-06-09",
+      "last_mentioned_date": "2026-06-09",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors can adopt a long-term view, anticipating new job creation as AI evolves.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 273,
+      "first_detected_speaker": "Tyler Cowan, Alex Tabarrok",
+      "last_mentioned_episode_id": 273,
+      "last_mentioned_speaker": "Tyler Cowan, Alex Tabarrok",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+      "first_detected_episode_date": "2026-06-09",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+      "last_mentioned_episode_date": "2026-06-09"
+    },
+    {
+      "id": 237,
+      "term": "Economic Growth and Productivity",
+      "description": "The concept that productivity growth is essential for economic advancement and improving living standards.",
+      "first_detected_date": "2026-06-09",
+      "last_mentioned_date": "2026-06-09",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in technologies and companies that enhance productivity across industries.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 273,
+      "first_detected_speaker": "Tyler Cowan, Alex Tabarrok",
+      "last_mentioned_episode_id": 273,
+      "last_mentioned_speaker": "Tyler Cowan, Alex Tabarrok",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+      "first_detected_episode_date": "2026-06-09",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+      "last_mentioned_episode_date": "2026-06-09"
+    },
+    {
+      "id": 238,
+      "term": "Smoke Alarm of Fiat Liquidity",
+      "description": "A metaphor for Bitcoin's role as an early warning system for issues in the traditional financial system, as it reacts to changes in liquidity before other assets.",
+      "first_detected_date": "2026-06-09",
+      "last_mentioned_date": "2026-06-09",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor Bitcoin's price movements as an indicator of potential liquidity issues in the broader market.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 274,
+      "first_detected_speaker": "Jack Mallers",
+      "last_mentioned_episode_id": 274,
+      "last_mentioned_speaker": "Jack Mallers",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The Jack Mallers Show",
+      "first_detected_episode_title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
+      "first_detected_episode_date": "2026-06-09",
+      "last_mentioned_podcast": "The Jack Mallers Show",
+      "last_mentioned_episode_title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
+      "last_mentioned_episode_date": "2026-06-09"
+    },
     {
       "id": 234,
       "term": "AI Personhood",
@@ -9585,110 +9805,6 @@ const dashboardData = {
       "last_mentioned_podcast": null,
       "last_mentioned_episode_title": null,
       "last_mentioned_episode_date": null
-    },
-    {
-      "id": 174,
-      "term": "Capability-Bounded Approach",
-      "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
-      "first_detected_date": "2026-05-12",
-      "last_mentioned_date": "2026-05-12",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should look for companies that demonstrate this approach, as it may indicate potential for growth and diversification.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 215,
-      "first_detected_speaker": "Charles Koch, Chase Koch",
-      "last_mentioned_episode_id": 215,
-      "last_mentioned_speaker": "Charles Koch, Chase Koch",
-      "overton_score": 0.52,
-      "resonance_pct": 13,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
-      "first_detected_episode_date": "2026-05-12",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
-      "last_mentioned_episode_date": "2026-05-12"
-    },
-    {
-      "id": 175,
-      "term": "Meritocracy and Disruptive Innovation",
-      "description": "A culture within an organization that rewards talent and innovation, often leading to breakthrough ideas and business success.",
-      "first_detected_date": "2026-05-12",
-      "last_mentioned_date": "2026-05-12",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies that foster a meritocratic culture and encourage disruptive innovation.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 215,
-      "first_detected_speaker": "Charles Koch, Chase Koch",
-      "last_mentioned_episode_id": 215,
-      "last_mentioned_speaker": "Charles Koch, Chase Koch",
-      "overton_score": 0.52,
-      "resonance_pct": 13,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
-      "first_detected_episode_date": "2026-05-12",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
-      "last_mentioned_episode_date": "2026-05-12"
-    },
-    {
-      "id": 169,
-      "term": "Accountability in Governance",
-      "description": "The concept of holding government officials responsible for the effective use of taxpayer money and the delivery of public services.",
-      "first_detected_date": "2026-05-10",
-      "last_mentioned_date": "2026-05-10",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors can advocate for transparency and accountability in local government spending to ensure funds are used effectively.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 210,
-      "first_detected_speaker": "Spencer Pratt",
-      "last_mentioned_episode_id": 210,
-      "last_mentioned_speaker": "Spencer Pratt",
-      "overton_score": 0.5,
-      "resonance_pct": 12,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
-      "first_detected_episode_date": "2026-05-10",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
-      "last_mentioned_episode_date": "2026-05-10"
-    },
-    {
-      "id": 170,
-      "term": "Streamlining Business Permits",
-      "description": "The process of simplifying and reducing bureaucratic hurdles in the permitting process for small businesses to encourage entrepreneurship and stimulate local economies.",
-      "first_detected_date": "2026-05-10",
-      "last_mentioned_date": "2026-05-10",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Supporting initiatives that streamline business permits can help small businesses grow and contribute to local economic development.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 210,
-      "first_detected_speaker": "Spencer Pratt",
-      "last_mentioned_episode_id": 210,
-      "last_mentioned_speaker": "Spencer Pratt",
-      "overton_score": 0.5,
-      "resonance_pct": 12,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
-      "first_detected_episode_date": "2026-05-10",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
-      "last_mentioned_episode_date": "2026-05-10"
     }
   ]
 },
@@ -26892,12 +27008,148 @@ const dashboardData = {
     "key_tickers": [
       "PANW"
     ]
+  },
+  "288": {
+    "id": 278,
+    "insight_id": 288,
+    "podcast_episode_id": 274,
+    "overview": "The unresolved tension lies in the interplay between Bitcoin's market behavior as a leading indicator of fiat liquidity and the complex capital structure of MicroStrategy, which holds a substantial portion of Bitcoin. The competitive dynamic is between Bitcoin's role as a hedge against inflation and the potential sell-off by MicroStrategy to meet its financial obligations. The allocator-relevant implication is that the resolution of this tension will determine who wins or loses in the Bitcoin market\u2014investors looking for a store of value versus those concerned about short-term liquidity and market sentiment. The metric arbitrating this uncertainty is Bitcoin's price movement in response to MicroStrategy's actions and broader market liquidity.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor Bitcoin's price movements as a proxy for market liquidity, especially in the context of ongoing geopolitical tensions.",
+      "The sustainability of MicroStrategy's business model in a bear market is a critical factor for Bitcoin investors, as it could lead to forced selling of Bitcoin holdings.",
+      "Diversification strategies may be necessary to mitigate the risks associated with MicroStrategy's financial health and its impact on the Bitcoin market.",
+      "Long-term investors in Bitcoin should consider the potential for increased volatility due to MicroStrategy's capital structure and the broader economic environment.",
+      "Investors should be prepared for potential market disruptions caused by large-scale Bitcoin sell-offs, especially if MicroStrategy faces liquidity constraints."
+    ],
+    "investment_thesis": "The investment thesis is that Bitcoin's price will be influenced by the interplay between its role as a leading indicator of fiat liquidity and the financial health of significant holders like MicroStrategy. Over the medium term, if geopolitical tensions persist and MicroStrategy's financial obligations come under increased pressure, Bitcoin's price could face downward pressure. Conversely, if MicroStrategy successfully manages its capital structure without significant Bitcoin sales, and geopolitical tensions ease, Bitcoin could regain its position as a store of value. The observable development that would vindicate this thesis is a correlation between Bitcoin's price movements and MicroStrategy's financial reports, as well as geopolitical events affecting global liquidity.",
+    "ticker_analysis": {
+      "MSTR": {
+        "rationale": "MicroStrategy's stock is directly tied to the company's Bitcoin holdings and financial health, making it a relevant ticker for investors interested in the intersection of Bitcoin and corporate capital structures.",
+        "positioning": "Investors should consider a tactical short position in MSTR if they believe that MicroStrategy will face liquidity issues and may need to sell Bitcoin, which could pressure both MSTR and Bitcoin prices.",
+        "risk": "The key risk is that MicroStrategy may find alternative ways to meet its financial obligations without selling Bitcoin, which could lead to a short squeeze in MSTR and an unexpected increase in Bitcoin prices."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A potential contrarian view is that MicroStrategy's Bitcoin holdings could act as a catalyst for institutional adoption, leading to a positive impact on Bitcoin's price.",
+      "Another opposing angle is that the current geopolitical tensions could lead to a flight to safety, with Bitcoin potentially benefiting as an alternative to traditional assets.",
+      "Skeptics might argue that the correlation between Bitcoin and fiat liquidity is not as strong as suggested, and that other factors, such as technological advancements, play a more significant role in Bitcoin's price movements."
+    ],
+    "catalysts": [
+      "MicroStrategy's next earnings report and any announcements regarding its capital structure or Bitcoin holdings.",
+      "Geopolitical developments, particularly around the Strait of Hormuz and other global hotspots, that could impact global liquidity.",
+      "Bitcoin ETF flows and any significant changes in market sentiment towards Bitcoin as an investment.",
+      "Regulatory developments in the cryptocurrency space that could impact Bitcoin's perception as a store of value or its liquidity.",
+      "The outcome of any significant legal or financial challenges faced by MicroStrategy that could affect its ability to hold or sell its Bitcoin holdings."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-09T12:04:13.516349",
+    "updated_at": "2026-06-09 17:04:13",
+    "episode_evidence": "The podcast 'The Jack Mallers Show' delves into the intricacies of Bitcoin's market dynamics and MicroStrategy's financial structure. Mallers emphasizes Bitcoin's role as a 'smoke alarm' for fiat liquidity, stating, 'Bitcoin tends to lead because it's the only functioning smoke alarm of fiat liquidity.' This highlights Bitcoin's sensitivity to broader market liquidity, which is currently under strain due to geopolitical tensions, such as the closure of the Strait of Hormuz. Regarding MicroStrategy, the discussion points out the company's substantial Bitcoin holdings, which comprise about 4% of all Bitcoin, valued at around $57 billion. However, this is juxtaposed with a complex capital stack, including $22 billion in debt and preferred equity, and annual preferred equity obligations of $1.7 billion, as Mallers mentions, 'You can't pay $2 billion a year with no income without sacrificing one group when markets get tough.' This raises concerns about the company's liquidity and the potential impact on Bitcoin prices if MicroStrategy needs to sell its holdings.",
+    "falsification_tracks": [
+      "Should the Strait of Hormuz reopen and geopolitical tensions ease, reducing the risk of a liquidity crisis, the conviction in Bitcoin's role as a liquidity indicator would be weakened.",
+      "If MicroStrategy successfully manages to meet its preferred equity obligations without selling significant amounts of Bitcoin, the market's concern over its capital structure would be reduced.",
+      "A sustained increase in Bitcoin's price and stability could indicate that the market's rotation and liquidity concerns are overblown, challenging the current bearish sentiment.",
+      "A significant inflow into Bitcoin ETFs could signal a reversal of the capital rotation trend, potentially alleviating downward pressure on Bitcoin's price."
+    ],
+    "insight_title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
+    "source_name": "The Jack Mallers Show",
+    "source_date": "2026-06-09",
+    "key_tickers": [
+      "BTC"
+    ]
+  },
+  "289": {
+    "id": 279,
+    "insight_id": 289,
+    "podcast_episode_id": 273,
+    "overview": "The unresolved tension in the discussion revolves around the pace and nature of job displacement versus creation due to AI. While historical precedent suggests that technological revolutions have led to new job opportunities, the rapid advancement of AI presents a unique challenge. The competitive dynamic is between those sectors and individuals who can adapt and leverage AI for growth versus those who cannot. The allocator-relevant implication is that the winners will be those who can anticipate and invest in sectors poised for growth due to AI, while the losers will be those caught in the disruption without the means to adapt.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the development of AI technologies within the energy, biomedical, and elderly care sectors, as these are expected to require significant human oversight and create new job opportunities.",
+      "Consider the potential for AI to disrupt traditional career paths, particularly for the upper middle class, and be prepared for social and political implications that may arise from economic disparities.",
+      "Look for companies that are not only developing AI technologies but also integrating them into existing workflows to enhance productivity, as this could be a significant driver of future economic growth.",
+      "Advocate for and invest in education and training programs that prepare the workforce for AI-related fields, as this will be crucial in bridging the gap between those who can leverage AI and those who cannot.",
+      "Stay informed about the ethical implications and potential regulatory changes surrounding AI to anticipate and navigate the evolving legal and social landscape."
+    ],
+    "investment_thesis": "The core logic is that AI will act as a catalyst for job creation and economic growth, particularly in sectors requiring human oversight and in niche markets. The timeframe for this thesis is within the next decade, as AI technologies continue to mature and integrate into various industries. An observable development that would vindicate this thesis is a consistent increase in productivity growth across industries that have adopted AI, along with a corresponding decrease in unemployment rates or an increase in new job categories related to AI.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a key player in AI technology, with significant investments in AI for its products and services.",
+        "positioning": "Positioning should be long-term and strategic, as Apple's continued innovation in AI is likely to drive growth and maintain its competitive edge.",
+        "risk": "Key risks include regulatory challenges to data privacy and potential disruptions in the global supply chain that could affect Apple's ability to innovate and deliver AI-driven products."
+      },
+      "GOOGL": {
+        "rationale": "Google's parent company, Alphabet, is at the forefront of AI research and development, with applications across various sectors.",
+        "positioning": "A strategic long position is appropriate, given Alphabet's broad exposure to AI and potential for significant returns as AI technologies mature.",
+        "risk": "The risk includes potential antitrust actions that could limit Google's ability to leverage its AI technologies across markets."
+      },
+      "TSLA": {
+        "rationale": "Tesla's integration of AI in its electric vehicles and energy products positions it as a leader in the application of AI in the automotive and energy sectors.",
+        "positioning": "A tactical long position can be considered, as Tesla's AI advancements could provide short-term gains, though the stock is known for its volatility.",
+        "risk": "The risk includes competition from traditional automakers entering the electric vehicle market and potential disruptions in battery supply chains."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's cloud computing services and AI tools are integral to the digital transformation of businesses.",
+        "positioning": "A strategic long position is suitable, as Microsoft's AI offerings are likely to contribute to consistent growth and stability.",
+        "risk": "Risks include increased competition in the cloud computing space and potential regulatory challenges to data handling and privacy."
+      },
+      "AMZN": {
+        "rationale": "Amazon's use of AI in logistics, customer service, and product recommendations positions it to benefit from AI-driven efficiency gains.",
+        "positioning": "A long-term strategic position is appropriate, as Amazon's continued investment in AI is expected to enhance its market dominance.",
+        "risk": "Key risks include potential backlash against Amazon's market power and challenges in managing a large, distributed workforce in the context of AI-driven automation."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "Economic indicators showing a sustained decline in productivity growth could suggest that AI is not driving economic advancement as expected.",
+      "A significant increase in unemployment rates or a lack of new job creation in sectors affected by AI could indicate that the job market is not adapting as predicted.",
+      "Social unrest or political movements against AI adoption could signal a societal pushback against the technology, potentially slowing its integration and impact."
+    ],
+    "catalysts": [
+      "The release of new AI technologies by major companies and their impact on productivity and job creation.",
+      "Economic reports and forecasts that provide insights into the relationship between AI adoption and economic growth.",
+      "Regulatory rulings on data privacy and AI use, which could significantly impact the development and application of AI technologies.",
+      "Advancements in AI integration within specific sectors, such as healthcare or energy, and their effect on job creation and economic growth.",
+      "Global events or crises that could accelerate or decelerate the adoption of AI, such as pandemics or economic downturns."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-09T12:04:41.713156",
+    "updated_at": "2026-06-09 17:04:41",
+    "episode_evidence": "The a16z Show episode featuring Tyler Cowen and Alex Tabarrok provides a nuanced view on AI's impact on the job market. Cowen notes, 'AI creates many, many jobs, even though it will take away some jobs,' highlighting the dual nature of AI's influence. Tabarrok emphasizes the historical context, stating, 'The fears of the Luddite were in terms that's wrong... the mechanical looms... have made us better off.' This suggests that technological advancements, including AI, have historically led to job creation rather than unemployment. Tabarrok also points out the potential for AI to reduce poverty: 'Extreme poverty is not the only part of the story... the median American today has more income than roughly 93% of the world's population.' These insights underscore the transformative potential of AI in creating new opportunities and improving living standards.",
+    "falsification_tracks": [
+      "If labor market studies consistently show a net loss of jobs across various sectors due to AI, the thesis of job creation amidst automation would be weakened.",
+      "Should economic forecasts from reputable institutions predict a sustained decline in productivity growth, this would challenge the claim that AI will drive economic advancement and improve living standards."
+    ],
+    "insight_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+    "source_name": "The a16z Show",
+    "source_date": "2026-06-09",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 13832,
+    "id": 13901,
+    "name": "Bitcoin Selloff Explained",
+    "slug": "bitcoin-selloff-explained",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Bitcoin serves as a leading indicator of fiat liquidity and a potential hedge against inflation, while MicroStrategy's complex capital structure poses risks to Bitcoin holders.",
+    "last_episode_title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
+    "last_podcast_name": "The Jack Mallers Show",
+    "last_episode_date": "2026-06-09",
+    "appearance_count": 1
+  },
+  {
+    "id": 13902,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -26909,7 +27161,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13833,
+    "id": 13903,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -26921,7 +27173,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13834,
+    "id": 13904,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -26933,7 +27185,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13835,
+    "id": 13905,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -26945,7 +27197,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13836,
+    "id": 13906,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -26957,7 +27209,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13837,
+    "id": 13907,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -26969,7 +27221,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13838,
+    "id": 13908,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -26981,7 +27233,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13839,
+    "id": 13909,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -26993,7 +27245,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13840,
+    "id": 13910,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -27005,7 +27257,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13841,
+    "id": 13911,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -27017,7 +27269,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13842,
+    "id": 13912,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -27029,7 +27281,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13843,
+    "id": 13913,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -27041,7 +27293,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13844,
+    "id": 13914,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -27053,7 +27305,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13845,
+    "id": 13915,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -27065,7 +27317,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13846,
+    "id": 13916,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -27077,7 +27329,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13847,
+    "id": 13917,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -27089,7 +27341,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13848,
+    "id": 13918,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -27101,7 +27353,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13849,
+    "id": 13919,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -27113,7 +27365,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13850,
+    "id": 13920,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -27121,18 +27373,6 @@ const dashboardData = {
     "last_main_idea": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
     "last_episode_title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
     "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-05-15",
-    "appearance_count": 1
-  },
-  {
-    "id": 13851,
-    "name": "Eric Jeng",
-    "slug": "eric-jeng",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in AI technologies that leverage advancements in MCTS and reduced compute requirements to create scalable and efficient solutions in various industries.",
-    "last_episode_title": "Eric Jang \u2013 Building AlphaGo from scratch",
-    "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-15",
     "appearance_count": 1
   }
@@ -28331,7 +28571,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -28339,6 +28579,194 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 42,
+    "name": "Jack Mallers",
+    "slug": "jack-mallers",
+    "bio": "Host of 'The Jack Mallers Show', an expert in Bitcoin and financial markets.",
+    "known_for": "Bitcoin advocacy and market analysis.",
+    "net_worth_usd": 50000000.0,
+    "net_worth_source": "https://www.datawallet.com/crypto/jack-mallers-net-worth",
+    "net_worth_updated_at": "2026-04-01T05:04:14.863404",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-06-09 17:03:08",
+    "last_episode_title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
+    "last_podcast_name": "The Jack Mallers Show",
+    "last_episode_date": "2026-06-09",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Bitcoin serves as a leading indicator of fiat liquidity and a potential hedge against inflation, while MicroStrategy's complex capital structure poses risks to Bitcoin holders.",
+    "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-09 \u2022 Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
+    "last_proof_snippet": "Yo, welcome back to another episode of The Jack Mallers Show, I am your host, Jack, and you are listening to yet another edition of Mailbag Monday, episode 121. The title of today's episode is Bitcoin's cell-off explained, capital rotation,",
+    "supporting_takeaway": "Evaluate MicroStrategy's financial obligations and their implications for Bitcoin holders.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-22T00:00:51.108693",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jack Mallers",
+      "fetched_at": "2026-05-22T05:00:51.108543+00:00",
+      "cliff_notes": "Jack Mallers is an entrepreneur who has made a significant impact in the world of cryptocurrency and financial technology. As the CEO of Strike, he has led the development of a platform that leverages the Bitcoin Lightning Network to facilitate payments, making Bitcoin more accessible for everyday transactions. His innovative approach to cryptocurrency payments has garnered attention from investors and the tech community, as it addresses the challenges of integrating digital currencies into the mainstream financial ecosystem. Mallers' work at Strike is particularly noteworthy for its potential to revolutionize how people and businesses conduct transactions, offering a faster and more efficient alternative to traditional payment methods.",
+      "derived": {
+        "current_role": "CEO of Strike"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Jack Mallers is an entrepreneur who has made a significant impact in the world of cryptocurrency and financial technology. As the CEO of Strike, he has led the development of a platform that leverages the Bitcoin Lightning Network to facilitate payments, making Bitcoin more accessible for everyday transactions. His innovative approach to cryptocurrency payments has garnered attention from investors and the tech community, as it addresses the challenges of integrating digital currencies into the mainstream financial ecosystem.",
+        "Mallers' work at Strike is particularly noteworthy for its potential to revolutionize how people and businesses conduct transactions, offering a faster and more efficient alternative to traditional payment methods."
+      ],
+      "sections": [
+        {
+          "heading": "Strike Development",
+          "body": "Jack Mallers is known for developing Strike, a platform that simplifies Bitcoin Lightning Network payments, making Bitcoin more accessible for everyday use."
+        },
+        {
+          "heading": "Bitcoin Integration",
+          "body": "Mallers' efforts have been focused on integrating Bitcoin into everyday transactions, aiming to make cryptocurrency payments as common as traditional fiat currency transactions."
+        },
+        {
+          "heading": "Financial Technology Innovation",
+          "body": "As an entrepreneur in the financial technology sector, Mallers has been at the forefront of innovations that aim to bridge the gap between traditional finance and the emerging world of cryptocurrencies."
+        }
+      ]
+    },
+    "net_worth": "$50.0M"
+  },
+  {
+    "id": 279,
+    "name": "Tyler Cowan",
+    "slug": "tyler-cowan",
+    "bio": "Tyler Cowen is an economist and author known for his work on economic growth and technological change. His book 'Average is Over' discusses the impact of AI on the job market, exploring the potential for AI to create unemployment or reduce the amount of work required. Cowen's insights into the future of work and the role of AI in shaping economic growth make him a valuable voice for investors and tech listeners.",
+    "known_for": "His book 'Average is Over' which discusses the impact of AI on the job market.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Optimistic yet cautious about the future of work.",
+    "voice_style": "Analytical and fact-based, drawing on economic theory and historical precedents.",
+    "voice_delivery_notes": "Clear and measured, with emphasis on key economic insights.",
+    "voice_profile_updated_at": "2026-06-09 17:02:55",
+    "last_seen": "2026-06-09 17:02:55",
+    "last_episode_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-09",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+    "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
+    "supporting_takeaway": "Historical technological revolutions have often led to job creation rather than permanent unemployment.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-09T12:03:22.135972",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Tyler Cowan",
+      "fetched_at": "2026-06-09T17:03:22.135483+00:00",
+      "cliff_notes": "Tyler Cowen is an economist and author who has made significant contributions to the fields of economic growth and technological change. He is a professor of economics at George Mason University and has written several influential books, including 'Average is Over' and 'The Great Stagnation'. Cowen's work explores the impact of AI on the job market and the future of work, as well as the broader implications of technological change for economic growth. His insights into these topics make him an important voice for investors and tech listeners, as they seek to understand and navigate the rapidly evolving landscape of the global economy.",
+      "derived": {
+        "current_role": "Professor of Economics, George Mason University",
+        "education": "Ph.D. in Economics, Harvard University",
+        "books_or_works": "Average is Over; The Great Stagnation; Discover Your Inner Economist",
+        "teaching_summary": "Professor of Economics, George Mason University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Tyler Cowen is an economist and author who has made significant contributions to the fields of economic growth and technological change. He is a professor of economics at George Mason University and has written several influential books, including 'Average is Over' and 'The Great Stagnation'. Cowen's work explores the impact of AI on the job market and the future of work, as well as the broader implications of technological change for economic growth.",
+        "His insights into these topics make him an important voice for investors and tech listeners, as they seek to understand and navigate the rapidly evolving landscape of the global economy."
+      ],
+      "sections": [
+        {
+          "heading": "Economic Growth",
+          "body": "Tyler Cowen has written extensively on the topic of economic growth, exploring the factors that drive it and the challenges that can hinder it."
+        },
+        {
+          "heading": "Technological Change",
+          "body": "Cowen's work often focuses on the impact of technological change on the economy, including the potential for AI to reshape the job market and the nature of work."
+        },
+        {
+          "heading": "The Future of Work",
+          "body": "In his book 'Average is Over', Cowen discusses the potential for AI to create unemployment or reduce the amount of work required, offering insights into the future of work and its implications for economic growth."
+        },
+        {
+          "heading": "AI and Unemployment",
+          "body": "Cowen argues that while AI has the potential to create unemployment, it could also lead to a reduction in the amount of work required, which he frames as a positive development."
+        }
+      ]
+    }
+  },
+  {
+    "id": 280,
+    "name": "Alex Tabarrok",
+    "slug": "alex-tabarrok",
+    "bio": "Alex Tabarrok is an economist and author known for his work on the effects of technology on the economy. He is particularly recognized for his book 'Launching the Innovation Renaissance,' which delves into the role of innovation in economic growth. Tabarrok has contributed significantly to discussions on AI, its implications on work, and the future of the economy.",
+    "known_for": "His insights on the impact of AI on the workforce and his book 'Launching the Innovation Renaissance' which explores the role of innovation in economic growth.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and assertive, with a focus on the positive aspects of technological change.",
+    "voice_style": "Persuasive and forward-looking, emphasizing the potential benefits of AI for society.",
+    "voice_delivery_notes": "Passionate and engaging, with a clear articulation of complex economic concepts.",
+    "voice_profile_updated_at": "2026-06-09 17:02:55",
+    "last_seen": "2026-06-09 17:02:55",
+    "last_episode_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-09",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+    "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
+    "supporting_takeaway": "Historical technological revolutions have often led to job creation rather than permanent unemployment.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-09T12:03:36.167542",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Tabarrok",
+      "fetched_at": "2026-06-09T17:03:36.167261+00:00",
+      "cliff_notes": "Alex Tabarrok is an economist and author with a focus on the intersection of technology and economic growth. He holds the Bartley J. Madden Chair in Economics at the Mercatus Center at George Mason University, where he is also a professor of economics. Tabarrok is well-known for his book 'Launching the Innovation Renaissance,' which discusses the importance of innovation in driving economic growth. He has been a significant voice in the discourse surrounding AI and its potential effects on the workforce, productivity, and economic dynamics. Tabarrok's work is influential in tech, finance, and policy circles, as he provides a unique perspective on how technological advancements can shape the future of work and the economy.",
+      "derived": {
+        "current_role": "Bartley J. Madden Chair in Economics at the Mercatus Center at George Mason University",
+        "education": "Ph.D. in economics from George Mason University",
+        "books_or_works": "Launching the Innovation Renaissance; co-author of the popular economics blog Marginal Revolution",
+        "teaching_summary": "Professor of economics at George Mason University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Alex Tabarrok is an economist and author with a focus on the intersection of technology and economic growth. He holds the Bartley J. Madden Chair in Economics at the Mercatus Center at George Mason University, where he is also a professor of economics. Tabarrok is well-known for his book 'Launching the Innovation Renaissance,' which discusses the importance of innovation in driving economic growth.",
+        "He has been a significant voice in the discourse surrounding AI and its potential effects on the workforce, productivity, and economic dynamics. Tabarrok's work is influential in tech, finance, and policy circles, as he provides a unique perspective on how technological advancements can shape the future of work and the economy."
+      ],
+      "sections": [
+        {
+          "heading": "Innovation and Economic Growth",
+          "body": "Alex Tabarrok is recognized for his work on the impact of innovation on economic growth, as highlighted in his book 'Launching the Innovation Renaissance.'"
+        },
+        {
+          "heading": "AI and the Workforce",
+          "body": "Tabarrok has contributed to the conversation on AI's implications for the workforce, discussing potential job displacement and the need to adapt to technological changes."
+        },
+        {
+          "heading": "Economic Policy",
+          "body": "As a professor and economist, Tabarrok influences economic policy discussions through his research and teachings at George Mason University."
+        }
+      ]
+    }
   },
   {
     "id": 278,
@@ -28634,7 +29062,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -28951,7 +29379,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -29015,7 +29443,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -29198,7 +29626,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -29262,7 +29690,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -30005,7 +30433,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -30071,7 +30499,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -36383,7 +36811,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
@@ -36441,7 +36869,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",
