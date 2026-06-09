@@ -270,7 +270,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 1.82,
+    "mention_score_decayed": 1.78,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -408,7 +408,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.62,
+    "mention_score_decayed": 1.59,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -596,7 +596,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -1202,6 +1202,71 @@
     "pundit_profile": null
   },
   {
+    "id": 281,
+    "name": "Bill Maris",
+    "slug": "bill-maris",
+    "bio": "Bill Maris is the founder of Section 32, a venture capital fund focused on AI and selective investments. Prior to this, he was the founder and CEO of Google Ventures and Google's Vice President of Special Projects, where he incubated projects like Waymo and Google X.",
+    "known_for": "Advocating for the use of AI in venture capital and making selective investments in transformative technologies.",
+    "net_worth_usd": 1300000000.0,
+    "net_worth_source": "https://www.zenithmaps.com/2557840/unveiling-the-billionaire-bill-maris039/",
+    "net_worth_updated_at": "2026-06-09T13:37:49.429597",
+    "voice_tone": "Confident and knowledgeable.",
+    "voice_style": "Factual and data-driven.",
+    "voice_delivery_notes": "Clear and assertive, with a focus on the transformative potential of AI.",
+    "voice_profile_updated_at": "2026-06-09 18:37:34",
+    "last_seen": "2026-06-09 18:37:34",
+    "last_episode_title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-06-09",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
+    "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
+    "supporting_takeaway": "AI-driven portfolio construction and investment strategies can provide a competitive edge in venture capital.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-09T13:37:48.302408",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Bill Maris",
+      "fetched_at": "2026-06-09T18:37:48.302178+00:00",
+      "cliff_notes": "Bill Maris began his career in technology by founding a web hosting and data center company. He later joined Google, where he played a pivotal role in the establishment and leadership of Google Ventures, which became a significant force in venture capital. As the Vice President of Special Projects at Google, Maris was instrumental in the incubation of several high-profile projects, including Waymo, Google X, Calico, and others. His focus on AI and its potential to revolutionize industries led him to found Section 32, a venture capital fund that selectively invests in companies poised to make a significant impact with the advent of AI technology.",
+      "derived": {
+        "current_role": "Founder of Section 32",
+        "former_positions": "Founder and CEO of Google Ventures; Vice President of Special Projects at Google"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Bill Maris began his career in technology by founding a web hosting and data center company. He later joined Google, where he played a pivotal role in the establishment and leadership of Google Ventures, which became a significant force in venture capital. As the Vice President of Special Projects at Google, Maris was instrumental in the incubation of several high-profile projects, including Waymo, Google X, Calico, and others.",
+        "His focus on AI and its potential to revolutionize industries led him to found Section 32, a venture capital fund that selectively invests in companies poised to make a significant impact with the advent of AI technology."
+      ],
+      "sections": [
+        {
+          "heading": "Venture Capital and AI",
+          "body": "Bill Maris is known for his advocacy of using AI in venture capital, aiming to make selective investments in companies that can bring about significant changes with the help of AI technology."
+        },
+        {
+          "heading": "Google Ventures",
+          "body": "As the founder and CEO of Google Ventures, Maris helped shape the venture capital arm of Google, investing in a wide range of startups and playing a role in the development of many successful companies."
+        },
+        {
+          "heading": "Incubation of Major Projects",
+          "body": "In his role as Google's Vice President of Special Projects, Maris was responsible for incubating projects like Waymo, Google X, and Calico, which have gone on to become influential in their respective fields."
+        },
+        {
+          "heading": "Section 32",
+          "body": "Maris founded Section 32, a venture capital fund that focuses on investing in companies that are at the forefront of AI and other transformative technologies, aiming for financial returns and significant societal impact."
+        }
+      ]
+    },
+    "net_worth": "$1.30B"
+  },
+  {
     "id": 42,
     "name": "Jack Mallers",
     "slug": "jack-mallers",
@@ -1333,9 +1398,9 @@
     "slug": "alex-tabarrok",
     "bio": "Alex Tabarrok is an economist and author known for his work on the effects of technology on the economy. He is particularly recognized for his book 'Launching the Innovation Renaissance,' which delves into the role of innovation in economic growth. Tabarrok has contributed significantly to discussions on AI, its implications on work, and the future of the economy.",
     "known_for": "His insights on the impact of AI on the workforce and his book 'Launching the Innovation Renaissance' which explores the role of innovation in economic growth.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
+    "net_worth_usd": 15300000000.0,
+    "net_worth_source": "https://www.businessinsider.com/alex-karp-bio-palantir-ceo",
+    "net_worth_updated_at": "2026-06-09T13:37:35.686786",
     "voice_tone": "Confident and assertive, with a focus on the positive aspects of technological change.",
     "voice_style": "Persuasive and forward-looking, emphasizing the potential benefits of AI for society.",
     "voice_delivery_notes": "Passionate and engaging, with a clear articulation of complex economic concepts.",
@@ -1387,7 +1452,8 @@
           "body": "As a professor and economist, Tabarrok influences economic policy discussions through his research and teachings at George Mason University."
         }
       ]
-    }
+    },
+    "net_worth": "$15.30B"
   },
   {
     "id": 278,
@@ -1407,7 +1473,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -1494,7 +1560,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -1619,7 +1685,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -1878,7 +1944,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-02 \u2022 OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
     "last_proof_snippet": "Open AI's CFO, Sarah Fryer. We've got to get right to it. You have just completed what I would find as the most successful fund-raising rail in history. We're going to raise actually north of $120 billion. We think AI is the biggest era tha",
@@ -2182,7 +2248,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -2492,7 +2558,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -2556,7 +2622,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -2619,7 +2685,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -3681,7 +3747,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -3744,7 +3810,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -3932,7 +3998,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",

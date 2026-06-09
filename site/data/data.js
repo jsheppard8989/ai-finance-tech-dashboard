@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-09T12:05:40.890845",
-  chartsVersion: "2026-06-09T12:05:29.661335",
+  generatedAt: "2026-06-09T13:39:04.008742",
+  chartsVersion: "2026-06-09T13:38:58.714530",
   priceSnapshot: {
   "GOOGL": {
-    "price": 361.48,
-    "change_pct": -7.0,
+    "price": 365.93,
+    "change_pct": -5.85,
     "name": "GOOGL",
-    "updated_at": "2026-06-09T12:05:29.660011"
+    "updated_at": "2026-06-09T13:38:58.713764"
   },
   "BTC": {
-    "price": 61619.59,
-    "change_pct": -17.12,
+    "price": 61705.31,
+    "change_pct": -17.0,
     "name": "BTC",
-    "updated_at": "2026-06-09T12:05:29.660028"
+    "updated_at": "2026-06-09T13:38:58.713781"
   },
   "MSFT": {
-    "price": 401.12,
-    "change_pct": -4.53,
+    "price": 404.03,
+    "change_pct": -3.84,
     "name": "MSFT",
-    "updated_at": "2026-06-09T12:05:29.660036"
+    "updated_at": "2026-06-09T13:38:58.713788"
   },
   "NVDA": {
-    "price": 203.08,
-    "change_pct": -9.02,
+    "price": 207.01,
+    "change_pct": -7.26,
     "name": "NVDA",
-    "updated_at": "2026-06-09T12:05:29.660043"
+    "updated_at": "2026-06-09T13:38:58.713795"
   },
   "WTI": {
-    "price": 3.81,
-    "change_pct": -14.88,
+    "price": 3.8,
+    "change_pct": -14.99,
     "name": "WTI",
-    "updated_at": "2026-06-09T12:05:29.660050"
+    "updated_at": "2026-06-09T13:38:58.713801"
   },
   "META": {
-    "price": 584.91,
-    "change_pct": -3.33,
+    "price": 589.79,
+    "change_pct": -2.52,
     "name": "META",
-    "updated_at": "2026-06-09T12:05:29.660057"
+    "updated_at": "2026-06-09T13:38:58.713807"
   },
   "AMZN": {
-    "price": 242.07,
-    "change_pct": -8.66,
+    "price": 245.47,
+    "change_pct": -7.37,
     "name": "AMZN",
-    "updated_at": "2026-06-09T12:05:29.660065"
+    "updated_at": "2026-06-09T13:38:58.713813"
   },
   "S&P 500": {
-    "price": 728.19,
-    "change_pct": -1.76,
+    "price": 736.05,
+    "change_pct": -0.7,
     "name": "S&P 500",
-    "updated_at": "2026-06-09T12:05:29.660072"
+    "updated_at": "2026-06-09T13:38:58.713818"
   },
   "TSLA": {
-    "price": 390.25,
-    "change_pct": -6.47,
+    "price": 397.26,
+    "change_pct": -4.79,
     "name": "TSLA",
-    "updated_at": "2026-06-09T12:05:29.660080"
+    "updated_at": "2026-06-09T13:38:58.713824"
   },
   "AAPL": {
-    "price": 290.08,
-    "change_pct": -4.03,
+    "price": 291.73,
+    "change_pct": -3.48,
     "name": "AAPL",
-    "updated_at": "2026-06-09T12:05:29.660086"
+    "updated_at": "2026-06-09T13:38:58.713829"
   },
   "QQQ": {
-    "price": 695.8,
-    "change_pct": -2.43,
+    "price": 705.71,
+    "change_pct": -1.04,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-09T12:05:29.660093"
+    "updated_at": "2026-06-09T13:38:58.713834"
   },
   "BTC-USD": {
-    "price": 61527.51,
-    "change_pct": -17.24,
+    "price": 61705.31,
+    "change_pct": -17.0,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-09T12:05:29.660102"
+    "updated_at": "2026-06-09T13:38:58.713841"
   }
 },
   tickerScores: [
@@ -876,6 +876,25 @@ const dashboardData = {
       "podcast_episode_id": 273
     },
     {
+      "id": 290,
+      "title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-09",
+      "summary": "In this episode, Bill Maris, founder of Section 32, discusses the venture capital landscape, emphasizing the outperformance of smaller funds, the pivotal role of AI in portfolio construction, and the risks associated with late-stage investing. Maris also touches on the impact of large tech companies on AI pricing and the potential for AI to revolutionize industries. The conversation sheds light on the competitive dynamics of venture capital and the necessity for funds to adapt to the evolving market.",
+      "key_takeaway": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 275
+    },
+    {
       "id": 286,
       "title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
       "source_type": "podcast",
@@ -1009,7 +1028,7 @@ const dashboardData = {
         "IBM"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-06",
       "archived_date": null,
@@ -6288,76 +6307,40 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 235,
-      "term": "Job Creation Amidst Automation",
-      "description": "The phenomenon where AI automates certain jobs while simultaneously creating new opportunities across various sectors.",
+      "id": 239,
+      "term": "AI-driven portfolio construction",
+      "description": "The use of artificial intelligence to optimize the selection and allocation of investments within a portfolio.",
       "first_detected_date": "2026-06-09",
       "last_mentioned_date": "2026-06-09",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should focus on sectors like energy and healthcare that will expand due to AI advancements.",
+      "investment_implications": "Investors should consider funds that integrate AI for enhanced decision-making and risk management.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 273,
-      "first_detected_speaker": "Tyler Cowan, Alex Tabarrok",
-      "last_mentioned_episode_id": 273,
-      "last_mentioned_speaker": "Tyler Cowan, Alex Tabarrok"
+      "first_detected_episode_id": 275,
+      "first_detected_speaker": "Bill Maris",
+      "last_mentioned_episode_id": 275,
+      "last_mentioned_speaker": "Bill Maris"
     },
     {
-      "id": 236,
-      "term": "Historical Context of Technological Change",
-      "description": "The perspective that historical technological revolutions have often resulted in job creation rather than permanent unemployment.",
+      "id": 240,
+      "term": "Concentrated bets",
+      "description": "Investing a significant portion of capital in a limited number of high-potential opportunities rather than diversifying broadly.",
       "first_detected_date": "2026-06-09",
       "last_mentioned_date": "2026-06-09",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors can adopt a long-term view, anticipating new job creation as AI evolves.",
+      "investment_implications": "Venture capitalists should focus on a few key investments to maximize returns, as suggested by the performance of smaller funds.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 273,
-      "first_detected_speaker": "Tyler Cowan, Alex Tabarrok",
-      "last_mentioned_episode_id": 273,
-      "last_mentioned_speaker": "Tyler Cowan, Alex Tabarrok"
-    },
-    {
-      "id": 237,
-      "term": "Economic Growth and Productivity",
-      "description": "The concept that productivity growth is essential for economic advancement and improving living standards.",
-      "first_detected_date": "2026-06-09",
-      "last_mentioned_date": "2026-06-09",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in technologies and companies that enhance productivity across industries.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 273,
-      "first_detected_speaker": "Tyler Cowan, Alex Tabarrok",
-      "last_mentioned_episode_id": 273,
-      "last_mentioned_speaker": "Tyler Cowan, Alex Tabarrok"
-    },
-    {
-      "id": 238,
-      "term": "Smoke Alarm of Fiat Liquidity",
-      "description": "A metaphor for Bitcoin's role as an early warning system for issues in the traditional financial system, as it reacts to changes in liquidity before other assets.",
-      "first_detected_date": "2026-06-09",
-      "last_mentioned_date": "2026-06-09",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should monitor Bitcoin's price movements as an indicator of potential liquidity issues in the broader market.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 274,
-      "first_detected_speaker": "Jack Mallers",
-      "last_mentioned_episode_id": 274,
-      "last_mentioned_speaker": "Jack Mallers"
+      "first_detected_episode_id": 275,
+      "first_detected_speaker": "Bill Maris",
+      "last_mentioned_episode_id": 275,
+      "last_mentioned_speaker": "Bill Maris"
     },
     {
       "id": 234,
@@ -9220,6 +9203,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 290,
+      "title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-09",
+      "summary": "In this episode, Bill Maris, founder of Section 32, discusses the venture capital landscape, emphasizing the outperformance of smaller funds, the pivotal role of AI in portfolio construction, and the risks associated with late-stage investing. Maris also touches on the impact of large tech companies on AI pricing and the potential for AI to revolutionize industries. The conversation sheds light on the competitive dynamics of venture capital and the necessity for funds to adapt to the evolving market.",
+      "key_takeaway": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 275,
+      "episode_release_date": "2026-06-09",
+      "guest_name": "Bill Maris",
+      "key_tickers": []
+    },
+    {
       "id": 286,
       "title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
       "source_type": "podcast",
@@ -9299,26 +9302,6 @@ const dashboardData = {
       "podcast_episode_id": 270,
       "episode_release_date": "2026-06-07",
       "guest_name": "Inside the Private Stock Market Boom",
-      "key_tickers": []
-    },
-    {
-      "id": 282,
-      "title": "Building Search for AI Agents with Exa CEO Will Bryk",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-06-06",
-      "summary": "In this episode, we explore the future of search technology with a focus on AI agents. Exah, a company leveraging transformer technology, aims to revolutionize search by providing comprehensive results tailored for AI agents, contrasting with traditional human-centric search engines. The podcast discusses the importance of company culture, the potential of AI integration in search, and the research-driven approach to innovation. Key insights highlight the market opportunity for AI-driven search technologies, the need for comprehensive results in business and AI decision-making, and the cultural impact on performance.",
-      "key_takeaway": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"IBM\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-06",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 265,
-      "episode_release_date": "2026-06-06",
-      "guest_name": "Exa CEO Will Bryk",
       "key_tickers": []
     },
     {
@@ -9469,107 +9452,55 @@ const dashboardData = {
   ],
   "overton": [
     {
-      "id": 235,
-      "term": "Job Creation Amidst Automation",
-      "description": "The phenomenon where AI automates certain jobs while simultaneously creating new opportunities across various sectors.",
+      "id": 239,
+      "term": "AI-driven portfolio construction",
+      "description": "The use of artificial intelligence to optimize the selection and allocation of investments within a portfolio.",
       "first_detected_date": "2026-06-09",
       "last_mentioned_date": "2026-06-09",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should focus on sectors like energy and healthcare that will expand due to AI advancements.",
+      "investment_implications": "Investors should consider funds that integrate AI for enhanced decision-making and risk management.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 273,
-      "first_detected_speaker": "Tyler Cowan, Alex Tabarrok",
-      "last_mentioned_episode_id": 273,
-      "last_mentioned_speaker": "Tyler Cowan, Alex Tabarrok",
+      "first_detected_episode_id": 275,
+      "first_detected_speaker": "Bill Maris",
+      "last_mentioned_episode_id": 275,
+      "last_mentioned_speaker": "Bill Maris",
       "overton_score": 1.0,
       "resonance_pct": 25,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "first_detected_episode_title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
       "first_detected_episode_date": "2026-06-09",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
       "last_mentioned_episode_date": "2026-06-09"
     },
     {
-      "id": 236,
-      "term": "Historical Context of Technological Change",
-      "description": "The perspective that historical technological revolutions have often resulted in job creation rather than permanent unemployment.",
+      "id": 240,
+      "term": "Concentrated bets",
+      "description": "Investing a significant portion of capital in a limited number of high-potential opportunities rather than diversifying broadly.",
       "first_detected_date": "2026-06-09",
       "last_mentioned_date": "2026-06-09",
       "mention_count": 1,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors can adopt a long-term view, anticipating new job creation as AI evolves.",
+      "investment_implications": "Venture capitalists should focus on a few key investments to maximize returns, as suggested by the performance of smaller funds.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 273,
-      "first_detected_speaker": "Tyler Cowan, Alex Tabarrok",
-      "last_mentioned_episode_id": 273,
-      "last_mentioned_speaker": "Tyler Cowan, Alex Tabarrok",
+      "first_detected_episode_id": 275,
+      "first_detected_speaker": "Bill Maris",
+      "last_mentioned_episode_id": 275,
+      "last_mentioned_speaker": "Bill Maris",
       "overton_score": 1.0,
       "resonance_pct": 25,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "first_detected_episode_title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
       "first_detected_episode_date": "2026-06-09",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
-      "last_mentioned_episode_date": "2026-06-09"
-    },
-    {
-      "id": 237,
-      "term": "Economic Growth and Productivity",
-      "description": "The concept that productivity growth is essential for economic advancement and improving living standards.",
-      "first_detected_date": "2026-06-09",
-      "last_mentioned_date": "2026-06-09",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in technologies and companies that enhance productivity across industries.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 273,
-      "first_detected_speaker": "Tyler Cowan, Alex Tabarrok",
-      "last_mentioned_episode_id": 273,
-      "last_mentioned_speaker": "Tyler Cowan, Alex Tabarrok",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
-      "first_detected_episode_date": "2026-06-09",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
-      "last_mentioned_episode_date": "2026-06-09"
-    },
-    {
-      "id": 238,
-      "term": "Smoke Alarm of Fiat Liquidity",
-      "description": "A metaphor for Bitcoin's role as an early warning system for issues in the traditional financial system, as it reacts to changes in liquidity before other assets.",
-      "first_detected_date": "2026-06-09",
-      "last_mentioned_date": "2026-06-09",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should monitor Bitcoin's price movements as an indicator of potential liquidity issues in the broader market.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 274,
-      "first_detected_speaker": "Jack Mallers",
-      "last_mentioned_episode_id": 274,
-      "last_mentioned_speaker": "Jack Mallers",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "The Jack Mallers Show",
-      "first_detected_episode_title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
-      "first_detected_episode_date": "2026-06-09",
-      "last_mentioned_podcast": "The Jack Mallers Show",
-      "last_mentioned_episode_title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
       "last_mentioned_episode_date": "2026-06-09"
     },
     {
@@ -9805,6 +9736,58 @@ const dashboardData = {
       "last_mentioned_podcast": null,
       "last_mentioned_episode_title": null,
       "last_mentioned_episode_date": null
+    },
+    {
+      "id": 174,
+      "term": "Capability-Bounded Approach",
+      "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
+      "first_detected_date": "2026-05-12",
+      "last_mentioned_date": "2026-05-12",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should look for companies that demonstrate this approach, as it may indicate potential for growth and diversification.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 215,
+      "first_detected_speaker": "Charles Koch, Chase Koch",
+      "last_mentioned_episode_id": 215,
+      "last_mentioned_speaker": "Charles Koch, Chase Koch",
+      "overton_score": 0.52,
+      "resonance_pct": 13,
+      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "first_detected_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
+      "first_detected_episode_date": "2026-05-12",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
+      "last_mentioned_episode_date": "2026-05-12"
+    },
+    {
+      "id": 175,
+      "term": "Meritocracy and Disruptive Innovation",
+      "description": "A culture within an organization that rewards talent and innovation, often leading to breakthrough ideas and business success.",
+      "first_detected_date": "2026-05-12",
+      "last_mentioned_date": "2026-05-12",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies that foster a meritocratic culture and encourage disruptive innovation.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 215,
+      "first_detected_speaker": "Charles Koch, Chase Koch",
+      "last_mentioned_episode_id": 215,
+      "last_mentioned_speaker": "Charles Koch, Chase Koch",
+      "overton_score": 0.52,
+      "resonance_pct": 13,
+      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "first_detected_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
+      "first_detected_episode_date": "2026-05-12",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
+      "last_mentioned_episode_date": "2026-05-12"
     }
   ]
 },
@@ -27132,12 +27115,63 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-06-09",
     "key_tickers": []
+  },
+  "290": {
+    "id": 280,
+    "insight_id": 290,
+    "podcast_episode_id": 275,
+    "overview": "The unresolved tension in the venture capital landscape, as highlighted by Bill Maris, is the balance between the agility and focus of smaller funds and the scale of larger ones. Smaller funds, with their ability to concentrate efforts and resources, are positioned to outperform larger, more diversified funds. The competitive dynamic is further complicated by the advent of AI, which promises to revolutionize portfolio construction and investment strategies. Allocators must consider how the integration of AI can provide a competitive edge and whether the current late-stage investment focus is sustainable in the long term.",
+    "key_takeaways_detailed": [
+      "Investors should allocate to smaller funds with a proven track record in AI integration to capitalize on higher potential returns and nimble investment strategies.",
+      "Venture capital funds that fail to adopt AI-driven portfolio construction may face competitive disadvantages as the technology becomes more prevalent in the industry.",
+      "Diversification across fund sizes and investment stages is crucial to mitigate risks associated with market fluctuations and the potential for late-stage investment valuations to correct.",
+      "Monitor the development and adoption of AI technologies within the venture capital space to identify funds that are ahead of the curve in leveraging these tools for competitive advantage.",
+      "Keep a close watch on regulatory changes and market dynamics that could influence the sustainability of late-stage investments and shift the focus back to early-stage opportunities."
+    ],
+    "investment_thesis": "The core logic is that smaller, more focused venture capital funds that leverage AI for portfolio construction will outperform larger, less agile funds. This is due to their ability to concentrate investments and the potential of AI to enhance decision-making. The thesis is vindicated if, over a 3-5 year timeframe, smaller funds continue to show higher returns and if AI integration becomes a standard practice leading to superior performance. Conversely, it would be invalidated if larger funds begin to match or exceed the returns of smaller funds or if AI fails to deliver the expected benefits in portfolio management.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI and its potential to disrupt the market with AI services makes it a relevant ticker in this thesis.",
+        "positioning": "Positioned long on AAPL as a strategic investment, given its potential to leverage AI for competitive advantage and its ability to influence AI pricing in the market.",
+        "risk": "Key risks include regulatory challenges to AI deployment and potential backlash against tech giants' market dominance, which could limit Apple's ability to monetize its AI services."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The emergence of new, larger venture capital funds that consistently outperform smaller funds could challenge the thesis on the benefits of smaller funds.",
+      "A significant downturn in the tech sector that disproportionately affects smaller funds due to their higher concentration of tech investments.",
+      "Regulatory changes that limit the use of AI in investment strategies, leveling the playing field between funds that have adopted AI and those that have not."
+    ],
+    "catalysts": [
+      "Publication of new industry reports or studies that provide further evidence on the performance of smaller versus larger venture capital funds.",
+      "Announcements from major tech companies regarding their AI pricing strategies and the potential impact on the market.",
+      "Regulatory rulings that affect the use of AI in investment strategies or the structure of venture capital funds.",
+      "Market downturns or upturns that test the resilience and performance of different fund sizes and investment strategies.",
+      "Advancements in AI technology that significantly alter the venture capital landscape and the competitive dynamics between funds."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-09T13:38:20.887964",
+    "updated_at": "2026-06-09 18:38:20",
+    "episode_evidence": "Bill Maris, founder of Section 32, emphasizes the importance of fund size in venture capital performance, stating, 'Funds smaller than 750 million average return of 4.76x and funds larger than a billion, 2.42x.' This suggests that smaller funds can be more agile and focused, leading to higher returns. Maris also underscores the transformative potential of AI in venture capital, saying, 'If you apply the right kind of computer science at the right time to the right problem, you will get to the right answers.' He advocates for the use of AI in portfolio construction, which can enhance decision-making through data analysis and simulations. Furthermore, Maris discusses the risks associated with late-stage investing, hinting at the inflated valuations and the need for a balanced approach between early and late-stage investments, 'The pendulum will swing back, so I don't think just staying late stage... will be a long term.'",
+    "falsification_tracks": [
+      "If the average return on investment for funds under $750 million falls below that of funds over $1 billion for three consecutive quarters, the thesis on smaller funds outperforming is weakened.",
+      "Should AI-driven portfolio construction fail to deliver superior returns across a significant number of venture capital funds over a two-year period, the importance of AI in venture capital would be questioned.",
+      "A sustained period of market downturns where late-stage investments outperform early-stage investments could challenge Maris's skepticism about the sustainability of late-stage venture capital strategies."
+    ],
+    "insight_title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-06-09",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 13901,
+    "id": 13971,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -27149,7 +27183,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13902,
+    "id": 13972,
+    "name": "Bill Maris",
+    "slug": "bill-maris",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
+    "last_episode_title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-06-09",
+    "appearance_count": 1
+  },
+  {
+    "id": 13973,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -27161,7 +27207,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13903,
+    "id": 13974,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -27173,7 +27219,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13904,
+    "id": 13975,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -27185,7 +27231,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13905,
+    "id": 13976,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -27197,7 +27243,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13906,
+    "id": 13977,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -27209,7 +27255,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13907,
+    "id": 13978,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -27221,7 +27267,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13908,
+    "id": 13979,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -27233,7 +27279,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13909,
+    "id": 13980,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -27245,7 +27291,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13910,
+    "id": 13981,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -27257,7 +27303,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13911,
+    "id": 13982,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -27269,7 +27315,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13912,
+    "id": 13983,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -27281,7 +27327,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13913,
+    "id": 13984,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -27293,7 +27339,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13914,
+    "id": 13985,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -27305,7 +27351,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13915,
+    "id": 13986,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -27317,7 +27363,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13916,
+    "id": 13987,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -27329,7 +27375,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13917,
+    "id": 13988,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -27341,7 +27387,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13918,
+    "id": 13989,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -27353,7 +27399,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13919,
+    "id": 13990,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -27362,18 +27408,6 @@ const dashboardData = {
     "last_episode_title": "A Basel III Deep Dive | What to Know About How It Will Transform Banking Globally",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-17",
-    "appearance_count": 1
-  },
-  {
-    "id": 13920,
-    "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
-    "slug": "you-dont-sell-blow-offs",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
-    "last_episode_title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-05-15",
     "appearance_count": 1
   }
 ],
@@ -27649,7 +27683,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 1.82,
+    "mention_score_decayed": 1.78,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -27787,7 +27821,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.62,
+    "mention_score_decayed": 1.59,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -27975,7 +28009,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -28581,6 +28615,71 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 281,
+    "name": "Bill Maris",
+    "slug": "bill-maris",
+    "bio": "Bill Maris is the founder of Section 32, a venture capital fund focused on AI and selective investments. Prior to this, he was the founder and CEO of Google Ventures and Google's Vice President of Special Projects, where he incubated projects like Waymo and Google X.",
+    "known_for": "Advocating for the use of AI in venture capital and making selective investments in transformative technologies.",
+    "net_worth_usd": 1300000000.0,
+    "net_worth_source": "https://www.zenithmaps.com/2557840/unveiling-the-billionaire-bill-maris039/",
+    "net_worth_updated_at": "2026-06-09T13:37:49.429597",
+    "voice_tone": "Confident and knowledgeable.",
+    "voice_style": "Factual and data-driven.",
+    "voice_delivery_notes": "Clear and assertive, with a focus on the transformative potential of AI.",
+    "voice_profile_updated_at": "2026-06-09 18:37:34",
+    "last_seen": "2026-06-09 18:37:34",
+    "last_episode_title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-06-09",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
+    "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
+    "supporting_takeaway": "AI-driven portfolio construction and investment strategies can provide a competitive edge in venture capital.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-09T13:37:48.302408",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Bill Maris",
+      "fetched_at": "2026-06-09T18:37:48.302178+00:00",
+      "cliff_notes": "Bill Maris began his career in technology by founding a web hosting and data center company. He later joined Google, where he played a pivotal role in the establishment and leadership of Google Ventures, which became a significant force in venture capital. As the Vice President of Special Projects at Google, Maris was instrumental in the incubation of several high-profile projects, including Waymo, Google X, Calico, and others. His focus on AI and its potential to revolutionize industries led him to found Section 32, a venture capital fund that selectively invests in companies poised to make a significant impact with the advent of AI technology.",
+      "derived": {
+        "current_role": "Founder of Section 32",
+        "former_positions": "Founder and CEO of Google Ventures; Vice President of Special Projects at Google"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Bill Maris began his career in technology by founding a web hosting and data center company. He later joined Google, where he played a pivotal role in the establishment and leadership of Google Ventures, which became a significant force in venture capital. As the Vice President of Special Projects at Google, Maris was instrumental in the incubation of several high-profile projects, including Waymo, Google X, Calico, and others.",
+        "His focus on AI and its potential to revolutionize industries led him to found Section 32, a venture capital fund that selectively invests in companies poised to make a significant impact with the advent of AI technology."
+      ],
+      "sections": [
+        {
+          "heading": "Venture Capital and AI",
+          "body": "Bill Maris is known for his advocacy of using AI in venture capital, aiming to make selective investments in companies that can bring about significant changes with the help of AI technology."
+        },
+        {
+          "heading": "Google Ventures",
+          "body": "As the founder and CEO of Google Ventures, Maris helped shape the venture capital arm of Google, investing in a wide range of startups and playing a role in the development of many successful companies."
+        },
+        {
+          "heading": "Incubation of Major Projects",
+          "body": "In his role as Google's Vice President of Special Projects, Maris was responsible for incubating projects like Waymo, Google X, and Calico, which have gone on to become influential in their respective fields."
+        },
+        {
+          "heading": "Section 32",
+          "body": "Maris founded Section 32, a venture capital fund that focuses on investing in companies that are at the forefront of AI and other transformative technologies, aiming for financial returns and significant societal impact."
+        }
+      ]
+    },
+    "net_worth": "$1.30B"
+  },
+  {
     "id": 42,
     "name": "Jack Mallers",
     "slug": "jack-mallers",
@@ -28712,9 +28811,9 @@ const dashboardData = {
     "slug": "alex-tabarrok",
     "bio": "Alex Tabarrok is an economist and author known for his work on the effects of technology on the economy. He is particularly recognized for his book 'Launching the Innovation Renaissance,' which delves into the role of innovation in economic growth. Tabarrok has contributed significantly to discussions on AI, its implications on work, and the future of the economy.",
     "known_for": "His insights on the impact of AI on the workforce and his book 'Launching the Innovation Renaissance' which explores the role of innovation in economic growth.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
+    "net_worth_usd": 15300000000.0,
+    "net_worth_source": "https://www.businessinsider.com/alex-karp-bio-palantir-ceo",
+    "net_worth_updated_at": "2026-06-09T13:37:35.686786",
     "voice_tone": "Confident and assertive, with a focus on the positive aspects of technological change.",
     "voice_style": "Persuasive and forward-looking, emphasizing the potential benefits of AI for society.",
     "voice_delivery_notes": "Passionate and engaging, with a clear articulation of complex economic concepts.",
@@ -28766,7 +28865,8 @@ const dashboardData = {
           "body": "As a professor and economist, Tabarrok influences economic policy discussions through his research and teachings at George Mason University."
         }
       ]
-    }
+    },
+    "net_worth": "$15.30B"
   },
   {
     "id": 278,
@@ -28786,7 +28886,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -28873,7 +28973,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -28998,7 +29098,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -29257,7 +29357,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-02 \u2022 OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
     "last_proof_snippet": "Open AI's CFO, Sarah Fryer. We've got to get right to it. You have just completed what I would find as the most successful fund-raising rail in history. We're going to raise actually north of $120 billion. We think AI is the biggest era tha",
@@ -29561,7 +29661,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -29871,7 +29971,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -29935,7 +30035,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -29998,7 +30098,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -31060,7 +31160,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -31123,7 +31223,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -31311,7 +31411,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",

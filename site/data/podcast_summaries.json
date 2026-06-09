@@ -1,5 +1,21 @@
 [
   {
+    "id": 275,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
+    "episode_date": "2026-06-09",
+    "summary": "In this episode, Bill Maris, founder of Section 32, discusses the venture capital landscape, emphasizing the outperformance of smaller funds, the pivotal role of AI in portfolio construction, and the risks associated with late-stage investing. Maris also touches on the impact of large tech companies on AI pricing and the potential for AI to revolutionize industries. The conversation sheds light on the competitive dynamics of venture capital and the necessity for funds to adapt to the evolving market.",
+    "key_takeaways": [
+      "Smaller venture funds under $750 million outperform larger funds with a 4.76x return versus 2.42x for those over $1 billion.",
+      "AI-driven portfolio construction and investment strategies can provide a competitive edge in venture capital.",
+      "Late-stage venture capital strategies may not be sustainable due to inflated valuations and the potential for lower returns.",
+      "Large tech companies could disrupt the AI market by significantly lowering prices for AI services, affecting smaller competitors.",
+      "AI technology is in its early stages and is poised for rapid advancements, similar to the progression from early gaming consoles to modern systems."
+    ],
+    "investment_thesis": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
+    "key_tickers": null
+  },
+  {
     "id": 274,
     "podcast_name": "The Jack Mallers Show",
     "episode_title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
@@ -118,20 +134,5 @@
       "SK HYNIX",
       "SAMSUNG ELECTRONICS"
     ]
-  },
-  {
-    "id": 265,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Building Search for AI Agents with Exa CEO Will Bryk",
-    "episode_date": "2026-06-06",
-    "summary": "In this episode, we explore the future of search technology with a focus on AI agents. Exah, a company leveraging transformer technology, aims to revolutionize search by providing comprehensive results tailored for AI agents, contrasting with traditional human-centric search engines. The podcast discusses the importance of company culture, the potential of AI integration in search, and the research-driven approach to innovation. Key insights highlight the market opportunity for AI-driven search technologies, the need for comprehensive results in business and AI decision-making, and the cultural impact on performance.",
-    "key_takeaways": [
-      "Invest in companies focusing on AI-driven search technologies to capture a growing market segment.",
-      "Evaluate company culture and employee engagement as indicators of potential for innovation and growth.",
-      "Monitor advancements in search technologies, particularly those enhancing retrieval efficiency and comprehensiveness.",
-      "Consider the implications of AI agents on traditional business models and search paradigms when making investment decisions."
-    ],
-    "investment_thesis": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
-    "key_tickers": null
   }
 ]
