@@ -1,5 +1,21 @@
 [
   {
+    "id": 271,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
+    "episode_date": "2026-06-08",
+    "summary": "This podcast episode discusses the rapid advancements in AI, particularly Anthropic's Claude, which is now writing over 80% of its own codebase. The show also touches on Argentina's bold economic strategy to become a global AI hub with minimal regulations and legal personhood for AI. Additionally, the U.S. job market's resilience and the potential for AI to create more jobs than it eliminates are explored. The episode suggests that major IPOs from companies like SpaceX and Anthropic could reshape market dynamics, and it anticipates a backlash against AI among younger demographics.",
+    "key_takeaways": [
+      "Anthropic's AI Claude is now writing the majority of its own code, indicating significant recursive self-improvement capabilities.",
+      "Argentina is positioning itself as a global AI hub by offering no regulations and establishing legal personhood for AI entities.",
+      "The U.S. job market added 172,000 jobs in May, suggesting AI will create more jobs than it eliminates.",
+      "Investors should monitor AI companies for rapid advancements and consider the implications of self-improving AI on market dynamics.",
+      "Investors should explore opportunities in Argentina and consider the implications of regulatory environments on AI investments globally."
+    ],
+    "investment_thesis": "Invest in companies at the forefront of AI development and in regions with favorable AI regulatory environments to capitalize on the rapid advancements and market opportunities in AI.",
+    "key_tickers": null
+  },
+  {
     "id": 270,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Inside the Private Stock Market Boom: SpaceX, Anthropic, OpenAI & the Rise of Secondaries",
@@ -115,23 +131,6 @@
       "Addressing systemic issues through philanthropy can lead to more sustainable societal improvements."
     ],
     "investment_thesis": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
-    "key_tickers": null
-  },
-  {
-    "id": 263,
-    "podcast_name": "The a16z Show",
-    "episode_title": "AI Agents and the Fight for Customer Data",
-    "episode_date": "2026-06-05",
-    "summary": "This episode of The a16z Show discusses the critical role of centralized data access for AI agents and the shift in data infrastructure to support AI-centric models. It highlights the risks posed by SaaS companies restricting data access and the importance of open APIs for AI functionality. The episode also touches on the fallacy of data gravity, the benefits of the FiveTran and DBT merger, and the increasing demand for robust software infrastructure driven by AI.",
-    "key_takeaways": [
-      "Centralized data platforms are essential for effective AI operations in business contexts.",
-      "SaaS vendors' data access restrictions can complicate AI functionality and operational efficiency.",
-      "The concept of data gravity is often overstated, and moving data can be less costly than perceived.",
-      "Open APIs are crucial for AI agents to interact with various data sources effectively.",
-      "The merger between FiveTran and DBT is expected to enhance data management and modeling capabilities.",
-      "AI is driving demand for robust software infrastructure rather than commoditizing it."
-    ],
-    "investment_thesis": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "key_tickers": null
   }
 ]

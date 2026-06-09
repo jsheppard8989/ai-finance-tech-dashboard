@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-08T13:34:59.243265",
-  chartsVersion: "2026-06-08T13:34:53.432940",
+  generatedAt: "2026-06-08T22:03:42.567012",
+  chartsVersion: "2026-06-08T22:03:25.320732",
   priceSnapshot: {
   "GOOGL": {
-    "price": 364.77,
-    "change_pct": -5.9,
+    "price": 363.31,
+    "change_pct": -6.23,
     "name": "GOOGL",
-    "updated_at": "2026-06-08T13:34:53.431948"
+    "updated_at": "2026-06-08T22:03:25.319552"
   },
   "BTC": {
-    "price": 63510.95,
-    "change_pct": -16.24,
+    "price": 62812.05,
+    "change_pct": -15.51,
     "name": "BTC",
-    "updated_at": "2026-06-08T13:34:53.431968"
+    "updated_at": "2026-06-08T22:03:25.319572"
   },
   "MSFT": {
-    "price": 412.0,
-    "change_pct": -1.08,
+    "price": 411.74,
+    "change_pct": -1.15,
     "name": "MSFT",
-    "updated_at": "2026-06-08T13:34:53.431977"
+    "updated_at": "2026-06-08T22:03:25.319582"
   },
   "NVDA": {
-    "price": 209.22,
-    "change_pct": -5.05,
+    "price": 208.64,
+    "change_pct": -5.32,
     "name": "NVDA",
-    "updated_at": "2026-06-08T13:34:53.431985"
+    "updated_at": "2026-06-08T22:03:25.319591"
   },
   "WTI": {
     "price": 3.95,
-    "change_pct": -16.73,
+    "change_pct": -16.83,
     "name": "WTI",
-    "updated_at": "2026-06-08T13:34:53.431993"
+    "updated_at": "2026-06-08T22:03:25.319599"
   },
   "META": {
-    "price": 588.62,
-    "change_pct": -2.32,
+    "price": 585.39,
+    "change_pct": -2.86,
     "name": "META",
-    "updated_at": "2026-06-08T13:34:53.432001"
+    "updated_at": "2026-06-08T22:03:25.319609"
   },
   "AMZN": {
-    "price": 244.25,
-    "change_pct": -5.82,
+    "price": 245.22,
+    "change_pct": -5.44,
     "name": "AMZN",
-    "updated_at": "2026-06-08T13:34:53.432009"
+    "updated_at": "2026-06-08T22:03:25.319618"
   },
   "S&P 500": {
-    "price": 741.86,
-    "change_pct": 1.11,
+    "price": 739.22,
+    "change_pct": 0.75,
     "name": "S&P 500",
-    "updated_at": "2026-06-08T13:34:53.432017"
+    "updated_at": "2026-06-08T22:03:25.319627"
   },
   "TSLA": {
-    "price": 412.8,
-    "change_pct": 2.15,
+    "price": 408.95,
+    "change_pct": 1.2,
     "name": "TSLA",
-    "updated_at": "2026-06-08T13:34:53.432024"
+    "updated_at": "2026-06-08T22:03:25.319635"
   },
   "AAPL": {
-    "price": 303.96,
-    "change_pct": 1.67,
+    "price": 301.54,
+    "change_pct": 0.86,
     "name": "AAPL",
-    "updated_at": "2026-06-08T13:34:53.432031"
+    "updated_at": "2026-06-08T22:03:25.319643"
   },
   "QQQ": {
-    "price": 719.49,
-    "change_pct": 2.56,
+    "price": 716.07,
+    "change_pct": 2.07,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-08T13:34:53.432038"
+    "updated_at": "2026-06-08T22:03:25.319651"
   },
   "BTC-USD": {
-    "price": 63498.24,
-    "change_pct": -16.26,
+    "price": 62812.05,
+    "change_pct": -15.51,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-08T13:34:53.432047"
+    "updated_at": "2026-06-08T22:03:25.319660"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 286,
+      "title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-06-08",
+      "summary": "This podcast episode discusses the rapid advancements in AI, particularly Anthropic's Claude, which is now writing over 80% of its own codebase. The show also touches on Argentina's bold economic strategy to become a global AI hub with minimal regulations and legal personhood for AI. Additionally, the U.S. job market's resilience and the potential for AI to create more jobs than it eliminates are explored. The episode suggests that major IPOs from companies like SpaceX and Anthropic could reshape market dynamics, and it anticipates a backlash against AI among younger demographics.",
+      "key_takeaway": "Invest in companies at the forefront of AI development and in regions with favorable AI regulatory environments to capitalize on the rapid advancements and market opportunities in AI.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 271
+    },
+    {
       "id": 284,
       "title": "\u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
       "source_type": "podcast",
@@ -972,7 +991,7 @@ const dashboardData = {
         "CRM"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-05",
       "archived_date": null,
@@ -6208,6 +6227,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 234,
+      "term": "AI Personhood",
+      "description": "The concept of granting legal personhood to AI entities, which could lead to new governance models and influence global legal frameworks.",
+      "first_detected_date": "2026-06-08",
+      "last_mentioned_date": "2026-06-08",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the implications of AI personhood on the legal and operational aspects of AI companies.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 271,
+      "first_detected_speaker": "Peter Diamandis",
+      "last_mentioned_episode_id": 271,
+      "last_mentioned_speaker": "Peter Diamandis"
+    },
+    {
       "id": 232,
       "term": "Secondary Market Transactions",
       "description": "The buying and selling of shares or other securities of private companies that are not listed on a public exchange.",
@@ -9008,6 +9045,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 286,
+      "title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-06-08",
+      "summary": "This podcast episode discusses the rapid advancements in AI, particularly Anthropic's Claude, which is now writing over 80% of its own codebase. The show also touches on Argentina's bold economic strategy to become a global AI hub with minimal regulations and legal personhood for AI. Additionally, the U.S. job market's resilience and the potential for AI to create more jobs than it eliminates are explored. The episode suggests that major IPOs from companies like SpaceX and Anthropic could reshape market dynamics, and it anticipates a backlash against AI among younger demographics.",
+      "key_takeaway": "Invest in companies at the forefront of AI development and in regions with favorable AI regulatory environments to capitalize on the rapid advancements and market opportunities in AI.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 271,
+      "episode_release_date": "2026-06-08",
+      "guest_name": "Emerging Situation",
+      "key_tickers": []
+    },
+    {
       "id": 284,
       "title": "\u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
       "source_type": "podcast",
@@ -9129,26 +9186,6 @@ const dashboardData = {
         "SK HYNIX",
         "SAMSUNG ELECTRONICS"
       ]
-    },
-    {
-      "id": 278,
-      "title": "AI Agents and the Fight for Customer Data",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-06-05",
-      "summary": "This episode of The a16z Show discusses the critical role of centralized data access for AI agents and the shift in data infrastructure to support AI-centric models. It highlights the risks posed by SaaS companies restricting data access and the importance of open APIs for AI functionality. The episode also touches on the fallacy of data gravity, the benefits of the FiveTran and DBT merger, and the increasing demand for robust software infrastructure driven by AI.",
-      "key_takeaway": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
-      "tickers_mentioned": "[\"AAPL\", \"MSFT\", \"GOOGL\", \"AMZN\", \"CRM\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-05",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 263,
-      "episode_release_date": "2026-06-05",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 279,
@@ -9294,6 +9331,32 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 234,
+      "term": "AI Personhood",
+      "description": "The concept of granting legal personhood to AI entities, which could lead to new governance models and influence global legal frameworks.",
+      "first_detected_date": "2026-06-08",
+      "last_mentioned_date": "2026-06-08",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the implications of AI personhood on the legal and operational aspects of AI companies.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 271,
+      "first_detected_speaker": "Peter Diamandis",
+      "last_mentioned_episode_id": 271,
+      "last_mentioned_speaker": "Peter Diamandis",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
+      "first_detected_episode_date": "2026-06-08",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
+      "last_mentioned_episode_date": "2026-06-08"
+    },
     {
       "id": 232,
       "term": "Secondary Market Transactions",
@@ -9605,32 +9668,6 @@ const dashboardData = {
       "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "last_mentioned_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
       "last_mentioned_episode_date": "2026-05-10"
-    },
-    {
-      "id": 160,
-      "term": "Strategic Commodity Stockpiling",
-      "description": "The act of countries building up physical reserves of commodities to mitigate risks associated with geopolitical tensions.",
-      "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-05-07",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider commodities as a long-term investment strategy due to potential increased demand.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 203,
-      "first_detected_speaker": "Louis Vincent Gavre",
-      "last_mentioned_episode_id": 203,
-      "last_mentioned_speaker": "Louis Vincent Gavre",
-      "overton_score": 0.48,
-      "resonance_pct": 12,
-      "first_detected_podcast": "Macro Voices",
-      "first_detected_episode_title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
-      "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Macro Voices",
-      "last_mentioned_episode_title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
-      "last_mentioned_episode_date": "2026-05-07"
     }
   ]
 },
@@ -26731,12 +26768,74 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-07",
     "key_tickers": []
+  },
+  "286": {
+    "id": 276,
+    "insight_id": 286,
+    "podcast_episode_id": 271,
+    "overview": "The unresolved tension lies in the rapid advancements of AI, particularly in recursive self-improvement, and the potential for regulatory environments to either accelerate or hinder these developments. The competitive dynamic is between countries like Argentina, which is positioning itself as an AI haven, and more regulated markets. The metric that arbitrates this uncertainty is the speed of AI development and the success of countries in attracting AI investments. The horizon of proof is the end of 2027, by which time Claude's capabilities will be a significant indicator of AI's trajectory.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the development timelines of AI companies like Anthropic to assess the pace of recursive self-improvement and its impact on market dynamics.",
+      "Consider diversifying investments geographically to include regions with favorable AI regulatory environments, such as Argentina, to capitalize on the potential for rapid AI growth.",
+      "Evaluate the resilience and adaptability of companies within the investment portfolio to the changing job market dynamics brought on by AI advancements.",
+      "Stay informed about the potential quasi-nationalization of AI labs and its implications for governance structures and investment strategies.",
+      "Engage with legal and policy experts to understand the evolving implications of AI personhood and non-human corporations on investment decisions."
+    ],
+    "investment_thesis": "The core logic is that the rapid advancements in AI, driven by recursive self-improvement capabilities, will create significant market opportunities. Favorable regulatory environments, such as those proposed in Argentina, could accelerate these advancements. The observable development that would vindicate this thesis is the successful establishment of Argentina as a global AI hub and the continued growth of the U.S. job market despite AI automation. Conversely, a failure in these areas would invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI and machine learning makes it a key player in the AI landscape. Its ability to leverage AI advancements for product development and market expansion is crucial.",
+        "positioning": "Positioning should be long-term strategic, as Apple's AI capabilities are likely to contribute to its competitive advantage in the technology sector.",
+        "risk": "Key risks include regulatory hurdles that could slow down AI development and the potential for AI to disrupt traditional revenue streams within Apple's business model."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "AI development may not progress as quickly as anticipated, leading to slower market transformation.",
+      "Regulatory environments could become more restrictive, hindering the growth of AI companies and limiting the potential for market opportunities.",
+      "The job market may not adapt as expected, leading to increased unemployment and social unrest due to AI automation."
+    ],
+    "catalysts": [
+      "Anthropic's Claude achieving its projected capabilities by the end of 2027.",
+      "Argentina's success in attracting AI companies and establishing itself as a global AI hub.",
+      "U.S. job market statistics showing continued growth and the creation of new roles in the AI landscape.",
+      "Legal developments regarding AI personhood and the establishment of non-human corporations."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-08T22:02:42.639946",
+    "updated_at": "2026-06-09 03:02:42",
+    "episode_evidence": "Anthropic's Claude has demonstrated a remarkable capability in recursive self-improvement, with over 80% of its codebase being written by the AI itself, as stated in the podcast: 'More than 80% of the code merged into their code base is written by Claude.' This indicates a significant leap in AI's ability to evolve autonomously. Argentina's President Milley's proposal to establish legal personhood for AI entities and invite AI companies with minimal regulations is a bold move, as highlighted in the podcast: 'Argentina invites AI to free itself... positioning Argentina as the global haven for AI companies.' This strategy could potentially attract significant investment and reshape the global AI landscape. The U.S. job market's resilience is evident with the addition of 172,000 jobs in May, which exceeded expectations, despite the stock market's negative reaction due to interest rate hike fears: 'The U.S. job market added 172,000 jobs in May.'",
+    "falsification_tracks": [
+      "If Anthropic's Claude fails to meet the projected timeline of handling week-long tasks autonomously by the end of 2027, it would suggest slower AI development than anticipated.",
+      "Should Argentina's AI strategy not attract significant investment or fail to establish itself as a global AI hub, it would challenge the thesis of favorable regulatory environments driving AI advancements.",
+      "If the U.S. job market fails to continue adding jobs or experiences a significant downturn, it would counter the narrative of AI creating more jobs than it eliminates."
+    ],
+    "insight_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-06-08",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 13559,
+    "id": 13626,
+    "name": "Emerging Situation",
+    "slug": "emerging-situation",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in companies at the forefront of AI development and in regions with favorable AI regulatory environments to capitalize on the rapid advancements and market opportunities in AI.",
+    "last_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-06-08",
+    "appearance_count": 1
+  },
+  {
+    "id": 13627,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -26748,7 +26847,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13560,
+    "id": 13628,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -26760,7 +26859,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13561,
+    "id": 13629,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -26772,7 +26871,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13562,
+    "id": 13630,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -26784,7 +26883,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13563,
+    "id": 13631,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -26796,7 +26895,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13564,
+    "id": 13632,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -26808,7 +26907,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13565,
+    "id": 13633,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -26820,7 +26919,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13566,
+    "id": 13634,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -26832,7 +26931,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13567,
+    "id": 13635,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -26844,7 +26943,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13568,
+    "id": 13636,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -26856,7 +26955,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13569,
+    "id": 13637,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -26868,7 +26967,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13570,
+    "id": 13638,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -26880,7 +26979,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13571,
+    "id": 13639,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -26892,7 +26991,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13572,
+    "id": 13640,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -26904,7 +27003,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13573,
+    "id": 13641,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -26916,7 +27015,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13574,
+    "id": 13642,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -26928,7 +27027,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13575,
+    "id": 13643,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -26940,7 +27039,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13576,
+    "id": 13644,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -26952,7 +27051,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13577,
+    "id": 13645,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -26962,18 +27061,6 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-14",
     "appearance_count": 2
-  },
-  {
-    "id": 13578,
-    "name": "Lynn Alden",
-    "slug": "lynn-alden",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in sectors poised for growth due to AI adoption, particularly semiconductors and stablecoins, while being cautious about the cyclical nature of capex investments in hyperscaler companies.",
-    "last_episode_title": "Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-05-13",
-    "appearance_count": 1
   }
 ],
   pundits: [
@@ -26995,7 +27082,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 6,
-    "mention_score_decayed": 3.45,
+    "mention_score_decayed": 3.37,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -27035,6 +27122,71 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 46,
+    "name": "Peter Diamandis",
+    "slug": "peter-diamandis",
+    "bio": "Founder and Executive Chairman of the XPRIZE Foundation, Co-Founder and Vice-Chairman of Human Longevity Inc.",
+    "known_for": "Innovator and entrepreneur focused on exponential technologies",
+    "net_worth_usd": 200000000.0,
+    "net_worth_source": "https://explore.st-aug.edu/exp/peter-diamandis-xprize-bio-wiki-age-height-family-wife-facts-books-quotes-and-net-worth",
+    "net_worth_updated_at": "2026-04-01T05:04:16.091231",
+    "voice_tone": "Enthusiastic and forward-looking",
+    "voice_style": "Visionary and motivational",
+    "voice_delivery_notes": "Pacing is moderate with emphasis on key AI advancements",
+    "voice_profile_updated_at": "2026-06-09 03:02:10",
+    "last_seen": "2026-06-09 03:02:10",
+    "last_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-06-08",
+    "mention_score": 4,
+    "mention_score_decayed": 4,
+    "last_main_idea": "Invest in companies at the forefront of AI development and in regions with favorable AI regulatory environments to capitalize on the rapid advancements and market opportunities in AI.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-08 \u2022 Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
+    "last_proof_snippet": "anthropic just published what I think is probably one of the most important documents in the AI company has ever released. More than 80% of the code merchant to their code base is written by Claude. The AI is building itself. The AI is recu",
+    "supporting_takeaway": "Argentina is positioning itself as a global AI hub by offering no regulations and establishing legal personhood for AI entities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-20T05:01:54.892751",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Peter Diamandis",
+      "fetched_at": "2026-05-20T10:01:54.892598+00:00",
+      "cliff_notes": "Peter Diamandis is a Greek-American entrepreneur known for his work in fostering innovation and technological advancement. He is the founder of the X Prize Foundation, which has spurred advancements in space travel and other fields through competition. Diamandis has also co-founded Singularity University, an institution focused on exponential technologies. His ventures have been influential in the tech industry, promoting the idea that technology can solve many of the world's grand challenges. Diamandis' work has been recognized for its potential to transform industries and create new markets.",
+      "derived": {
+        "current_role": "Founder & Executive Chairman, XPRIZE Foundation",
+        "former_positions": "Founder, Singularity University; Co-Founder, Planetary Resources; Co-Founder, Space Adventures Ltd.",
+        "boards": "Co-Founder, Zero Gravity Corporation; Board Member, Space Florida",
+        "education": "MD, Harvard Medical School; BS in Molecular Genetics, MIT",
+        "books_or_works": "Abundance: The Future Is Better Than You Think; Bold: How to Go Big, Create Wealth and Impact the World",
+        "teaching_summary": "Co-Founder & Vice-Chairman, Singularity University"
+      },
+      "infobox": {
+        "Born": "1961",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Peter Diamandis is a Greek-American entrepreneur known for his work in fostering innovation and technological advancement. He is the founder of the X Prize Foundation, which has spurred advancements in space travel and other fields through competition. Diamandis has also co-founded Singularity University, an institution focused on exponential technologies.",
+        "His ventures have been influential in the tech industry, promoting the idea that technology can solve many of the world's grand challenges. Diamandis' work has been recognized for its potential to transform industries and create new markets."
+      ],
+      "sections": [
+        {
+          "heading": "X Prize Foundation",
+          "body": "Founded by Diamandis, the X Prize Foundation has spurred innovation in fields such as space travel and healthcare through competition."
+        },
+        {
+          "heading": "Singularity University",
+          "body": "Diamandis co-founded Singularity University to educate and inspire leaders in leveraging exponential technologies for positive impact."
+        },
+        {
+          "heading": "Innovation and Technology",
+          "body": "Diamandis is a prominent figure in the field of innovation, advocating for the use of technology to solve global challenges."
+        }
+      ]
+    },
+    "net_worth": "$200.0M"
   },
   {
     "id": 96,
@@ -27102,71 +27254,6 @@ const dashboardData = {
     "net_worth": "$151.00B"
   },
   {
-    "id": 46,
-    "name": "Peter Diamandis",
-    "slug": "peter-diamandis",
-    "bio": "Founder and Executive Chairman of the X PRIZE Foundation, and Co-Founder and Vice-Chairman of Human Longevity Inc.",
-    "known_for": "Innovative entrepreneur focused on exponential technologies and their impact on industry disruption.",
-    "net_worth_usd": 200000000.0,
-    "net_worth_source": "https://explore.st-aug.edu/exp/peter-diamandis-xprize-bio-wiki-age-height-family-wife-facts-books-quotes-and-net-worth",
-    "net_worth_updated_at": "2026-04-01T05:04:16.091231",
-    "voice_tone": "Urgent and insightful",
-    "voice_style": "Passionate and visionary",
-    "voice_delivery_notes": "Emphasizes the importance and urgency of AI-native transformation",
-    "voice_profile_updated_at": "2026-05-26 18:35:46",
-    "last_seen": "2026-05-26 18:35:46",
-    "last_episode_title": "The Organizational Singularity: AI-Proof Your Company | EP #258",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-05-26",
-    "mention_score": 3,
-    "mention_score_decayed": 2.27,
-    "last_main_idea": "Invest in companies that are actively transitioning to AI-native organizations to capitalize on the potential for increased operational efficiency and reduced workforce costs.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-26 \u2022 The Organizational Singularity: AI-Proof Your Company | EP #258",
-    "last_proof_snippet": "Is there a line year business, a high margin line year of your business that two guys with open claw could replicate in 60 to 90 days? This is something across the board useful for everyone. When we wrote the exponential organizations book,",
-    "supporting_takeaway": "The 'fiduciary wedge' requires a legal and liability framework for AI integration.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-20T05:01:54.892751",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Peter Diamandis",
-      "fetched_at": "2026-05-20T10:01:54.892598+00:00",
-      "cliff_notes": "Peter Diamandis is a Greek-American entrepreneur known for his work in fostering innovation and technological advancement. He is the founder of the X Prize Foundation, which has spurred advancements in space travel and other fields through competition. Diamandis has also co-founded Singularity University, an institution focused on exponential technologies. His ventures have been influential in the tech industry, promoting the idea that technology can solve many of the world's grand challenges. Diamandis' work has been recognized for its potential to transform industries and create new markets.",
-      "derived": {
-        "current_role": "Founder & Executive Chairman, XPRIZE Foundation",
-        "former_positions": "Founder, Singularity University; Co-Founder, Planetary Resources; Co-Founder, Space Adventures Ltd.",
-        "boards": "Co-Founder, Zero Gravity Corporation; Board Member, Space Florida",
-        "education": "MD, Harvard Medical School; BS in Molecular Genetics, MIT",
-        "books_or_works": "Abundance: The Future Is Better Than You Think; Bold: How to Go Big, Create Wealth and Impact the World",
-        "teaching_summary": "Co-Founder & Vice-Chairman, Singularity University"
-      },
-      "infobox": {
-        "Born": "1961",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Peter Diamandis is a Greek-American entrepreneur known for his work in fostering innovation and technological advancement. He is the founder of the X Prize Foundation, which has spurred advancements in space travel and other fields through competition. Diamandis has also co-founded Singularity University, an institution focused on exponential technologies.",
-        "His ventures have been influential in the tech industry, promoting the idea that technology can solve many of the world's grand challenges. Diamandis' work has been recognized for its potential to transform industries and create new markets."
-      ],
-      "sections": [
-        {
-          "heading": "X Prize Foundation",
-          "body": "Founded by Diamandis, the X Prize Foundation has spurred innovation in fields such as space travel and healthcare through competition."
-        },
-        {
-          "heading": "Singularity University",
-          "body": "Diamandis co-founded Singularity University to educate and inspire leaders in leveraging exponential technologies for positive impact."
-        },
-        {
-          "heading": "Innovation and Technology",
-          "body": "Diamandis is a prominent figure in the field of innovation, advocating for the use of technology to solve global challenges."
-        }
-      ]
-    },
-    "net_worth": "$200.0M"
-  },
-  {
     "id": 54,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
@@ -27184,7 +27271,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 3,
-    "mention_score_decayed": 1.4,
+    "mention_score_decayed": 1.37,
     "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
     "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
@@ -27248,7 +27335,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 1.87,
+    "mention_score_decayed": 1.82,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -27320,7 +27407,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-02",
     "mention_score": 2,
-    "mention_score_decayed": 1.78,
+    "mention_score_decayed": 1.74,
     "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
     "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
@@ -27386,7 +27473,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.66,
+    "mention_score_decayed": 1.62,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -27981,7 +28068,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -28045,7 +28132,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -28105,7 +28192,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
@@ -28257,7 +28344,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investors should focus on undervalued companies in Asia, particularly in South Korea and Southeast Asia, due to favorable valuations and growth prospects.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-06 \u2022 The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone | Michael Fritzell | Asian Century Stocks",
     "last_proof_snippet": "South Korea, I do think it is a bubble, because the estimates for profits, for Eski Heinigs and Samsung electronics, we're now talking 200 billion US dollars in that profit estimates for 2028. And that will make them the most profitable com",
@@ -28603,7 +28690,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-03 \u2022 Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
     "last_proof_snippet": "One of the most provocative and interesting investors in the country. A legendary activist investor. Pershing square CEO and founder Bill Acling. Taking a short position and going public with it is a pretty serious business. Interestingly,",
@@ -28668,7 +28755,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-02 \u2022 OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
     "last_proof_snippet": "Open AI's CFO, Sarah Fryer. We've got to get right to it. You have just completed what I would find as the most successful fund-raising rail in history. We're going to raise actually north of $120 billion. We think AI is the biggest era tha",
@@ -28915,7 +29002,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in companies developing prediction market platforms, focusing on those with strong legal compliance strategies and potential for cultural acceptance.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-26 \u2022 Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
     "last_proof_snippet": "Well, so, start at the beginning. The basic vision is that speculative markets are shown to be a unmatched mechanism for aggregating information and telling us about stuff. And initially, most people who come to this area think about, let's",
@@ -28972,7 +29059,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -29223,7 +29310,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investors should prepare for potential oil price volatility and consider hedging strategies, while also looking for investment opportunities in companies improving inventory efficiency and energy infrastructure projects.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-21 \u2022 MacroVoices #533 Morgan Downey: The Return of Oil 101",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -29469,7 +29556,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "The current market dynamics suggest a potential bubble, characterized by inflated earnings expectations rather than traditional valuation metrics, indicating the need for disciplined profit-taking strategies and portfolio diversification.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-16 \u2022 Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
     "last_proof_snippet": "If we're in a bubble, why aren't we selling crazy P is? It's not the P that's the bubble, it's the E. The S&P in its entirety is expected to earn 400 billion. Where's the GDP that can do that? Now it could come from everywhere else. It coul",
@@ -29534,7 +29621,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
     "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
@@ -29594,7 +29681,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
     "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
@@ -29655,7 +29742,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in AI technologies that leverage advancements in MCTS and reduced compute requirements to create scalable and efficient solutions in various industries.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-15 \u2022 Eric Jang \u2013 Building AlphaGo from scratch",
     "last_proof_snippet": "Today I'm here with Eric Jeng, who was most recently Vice President of AI at one ex-technologies, before that senior research scientist at what is now Google DeepMind Robotics, and you've been on sabbatical for the last few months. One of t",
@@ -29719,7 +29806,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-15 \u2022 \u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
     "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. I'm joined by Andrew Perry, veteran macro investors. He has worked at the top macro hedge funds, all the big banks, Andrew, welcome to monetary",
@@ -29780,7 +29867,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -30096,7 +30183,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in private credit funds that capitalize on the retreat of banks from riskier, smaller loans due to regulatory pressures, and consider preferred equity structures for upside potential with downside protection.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-12 \u2022 Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
     "last_proof_snippet": "The dominant media narrative at the moment is direct lending and private credit, a virtually synonymous, but that is obviously not how the industry is structured, but what is definitely true is that direct lending has taken the vast majorit",
@@ -30221,7 +30308,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-10 \u2022 Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
     "last_proof_snippet": "Very pleased today to be joined by David Wright, co-head of Pictay asset management's quantitative investments franchise, which manages over $30 billion in their quant group. This includes most recently two ETFs they launched PQ&T, their Pi",
@@ -30281,7 +30368,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -30408,7 +30495,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-07 \u2022 MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -30598,7 +30685,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -30662,7 +30749,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -30845,7 +30932,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-04 \u2022 Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
     "last_proof_snippet": "Today I was speaking to one of the best and most data-driven analysts around, Warren Pious of 314 research. If you have been seeing the ball clearer than him, last time I spoke to him, Warren's calling for S&P to 7,000 by 2026, which obviou",
@@ -30909,7 +30996,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-04 \u2022 Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
     "last_proof_snippet": "AI is going to be more important, not less important, and so the proliferation of a Western AI stack to be a top priority for anyone who cares about freedom. The rules around AI are changing fast. There's a lot of regulation abroad around d",
@@ -30968,7 +31055,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -31039,7 +31126,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -31102,7 +31189,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in companies with high levels of intangible capital using a combination of fundamental and sentiment analysis to identify mispriced opportunities, especially in sectors affected by global events.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show you'll hear more about hfgm currently the number one morning star rated funds its inception in the U.S. macro trading category. Let's ge",
@@ -31229,7 +31316,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-30 \u2022 Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
     "last_proof_snippet": "AI is creating new opportunities to rethink how enterprise systems work, potentially leading to a platform shift.",
@@ -31476,7 +31563,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investment in the biotech sector may need to consider the geographic shift towards China for innovation and efficiency in drug development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-29 \u2022 The Shift in Global Drug Development",
     "last_proof_snippet": "China's clinical trial system has rapidly expanded, with reforms that streamline the approval process.",
@@ -32040,7 +32127,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in technologies and platforms that leverage cryptography and blockchain to provide verifiable information and restore trust in digital content.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-22 \u2022 Balaji Srinivasan: Prove Correct, Not Just Go Direct",
     "last_proof_snippet": "The growing distrust in media is due to the increasing cost of verifying content as synthetic content floods systems.",
@@ -33798,7 +33885,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-04 \u2022 \u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
     "last_proof_snippet": "Shipping inefficiencies can lead to increased profits for ship owners.",

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-08T13:34:56.388255",
-  "last_updated": "2026-06-08T13:34:56.388255",
-  "last_pipeline_run": "2026-06-08T13:34:56.388255",
+  "generated_at": "2026-06-08T22:03:28.845311",
+  "last_updated": "2026-06-08T22:03:28.845311",
+  "last_pipeline_run": "2026-06-08T22:03:28.845311",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -9,21 +9,21 @@
   },
   "counts": {
     "ticker_mentions": 184,
-    "podcast_episodes": 243,
+    "podcast_episodes": 244,
     "newsletters": 7,
     "daily_scores": 122,
-    "overton_terms_total": 155,
-    "latest_insights_total": 257,
+    "overton_terms_total": 156,
+    "latest_insights_total": 258,
     "today_mentions": {},
-    "podcasts_analyzed": 0
+    "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 0,
-    "analyzed": 0,
-    "insight_created": 0,
-    "published": 0,
-    "total": 1
+    "downloaded": 2,
+    "transcribed": 1,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 2
   },
   "episodes": [
     {
@@ -32,6 +32,24 @@
       "title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
       "published": "2026-06-08",
       "rss_guid": "5a30b9ce-635f-11f1-952a-7373b2279cf8",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
+    },
+    {
+      "id": "0db36c6e-32d0-414d-aa42-61551ba5cec9",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Nikesh Arora: Mythos is Real, Analytical SaaS is Dead, and Google can be a $10T company",
+      "published": "2026-06-08",
+      "rss_guid": "0db36c6e-32d0-414d-aa42-61551ba5cec9",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -100,9 +118,9 @@
   ],
   "available_from_rss": [
     {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
-      "published": "Mon, 08 Jun 2026 18:30:00 -0000",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Nikesh Arora: Mythos is Real, Analytical SaaS is Dead, and Google can be a $10T company",
+      "published": "Mon, 08 Jun 2026 19:34:00 +0000",
       "published_date": "2026-06-08",
       "rss_guid": ""
     }

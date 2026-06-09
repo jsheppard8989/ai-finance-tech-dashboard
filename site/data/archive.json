@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 286,
+      "title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-06-08",
+      "summary": "This podcast episode discusses the rapid advancements in AI, particularly Anthropic's Claude, which is now writing over 80% of its own codebase. The show also touches on Argentina's bold economic strategy to become a global AI hub with minimal regulations and legal personhood for AI. Additionally, the U.S. job market's resilience and the potential for AI to create more jobs than it eliminates are explored. The episode suggests that major IPOs from companies like SpaceX and Anthropic could reshape market dynamics, and it anticipates a backlash against AI among younger demographics.",
+      "key_takeaway": "Invest in companies at the forefront of AI development and in regions with favorable AI regulatory environments to capitalize on the rapid advancements and market opportunities in AI.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 271
+    },
+    {
       "id": 284,
       "title": "\u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
       "source_type": "podcast",
@@ -139,7 +158,7 @@
         "CRM"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-05",
       "archived_date": null,
@@ -5374,6 +5393,24 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 234,
+      "term": "AI Personhood",
+      "description": "The concept of granting legal personhood to AI entities, which could lead to new governance models and influence global legal frameworks.",
+      "first_detected_date": "2026-06-08",
+      "last_mentioned_date": "2026-06-08",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the implications of AI personhood on the legal and operational aspects of AI companies.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 271,
+      "first_detected_speaker": "Peter Diamandis",
+      "last_mentioned_episode_id": 271,
+      "last_mentioned_speaker": "Peter Diamandis"
+    },
     {
       "id": 232,
       "term": "Secondary Market Transactions",
