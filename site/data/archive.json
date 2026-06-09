@@ -20,6 +20,25 @@
       "podcast_episode_id": 271
     },
     {
+      "id": 287,
+      "title": "Nikesh Arora: Mythos is Real, Analytical SaaS is Dead, and Google can be a $10T company",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-08",
+      "summary": "This podcast episode delves into the transformative impact of AI on business operations, particularly in the cybersecurity sector. It highlights the rapid growth of Palo Alto Networks as a testament to the sector's strength. The discussion underscores the democratization of intelligence through AI, the accelerated detection of software vulnerabilities, and the obsolescence of traditional SaaS models. It also anticipates increased demand for infrastructure software and the emergence of AI agents in enterprise software, potentially disrupting the application layer of software and emphasizing the ongoing importance of hardware for low-latency applications.",
+      "key_takeaway": "Invest in companies leveraging AI to transform cybersecurity and business operations, focusing on infrastructure software and the potential of AI agents in enterprise solutions.",
+      "tickers_mentioned": [
+        "PANW"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 272
+    },
+    {
       "id": 284,
       "title": "\u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
       "source_type": "podcast",
@@ -177,7 +196,7 @@
         "AAPL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-05",
       "archived_date": null,

@@ -570,7 +570,7 @@
     "contexts": []
   },
   {
-    "ticker": "SMP-500",
+    "ticker": "PANW",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -585,14 +585,14 @@
     "contexts": []
   },
   {
-    "ticker": "CRM",
-    "total_score": 68.0,
+    "ticker": "SMP-500",
+    "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 40,
-    "score": 68.0,
+    "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -600,7 +600,7 @@
     "contexts": []
   },
   {
-    "ticker": "MINE",
+    "ticker": "CRM",
     "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -615,14 +615,14 @@
     "contexts": []
   },
   {
-    "ticker": "ETH",
-    "total_score": 66.0,
+    "ticker": "MINE",
+    "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 42,
-    "score": 66.0,
+    "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -630,7 +630,7 @@
     "contexts": []
   },
   {
-    "ticker": "ILMN",
+    "ticker": "ETH",
     "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -645,7 +645,7 @@
     "contexts": []
   },
   {
-    "ticker": "PLTR",
+    "ticker": "ILMN",
     "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -660,14 +660,14 @@
     "contexts": []
   },
   {
-    "ticker": "CRSP",
-    "total_score": 64.0,
+    "ticker": "PLTR",
+    "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 45,
-    "score": 64.0,
+    "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -675,7 +675,7 @@
     "contexts": []
   },
   {
-    "ticker": "GOOG",
+    "ticker": "CRSP",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -690,7 +690,7 @@
     "contexts": []
   },
   {
-    "ticker": "HG",
+    "ticker": "GOOG",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -705,7 +705,7 @@
     "contexts": []
   },
   {
-    "ticker": "HOOD",
+    "ticker": "HG",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -720,7 +720,7 @@
     "contexts": []
   },
   {
-    "ticker": "SF",
+    "ticker": "HOOD",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -735,14 +735,14 @@
     "contexts": []
   },
   {
-    "ticker": "USDX",
-    "total_score": 62.0,
+    "ticker": "SF",
+    "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 50,
-    "score": 62.0,
+    "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",

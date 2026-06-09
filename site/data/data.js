@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-08T22:03:42.567012",
-  chartsVersion: "2026-06-08T22:03:25.320732",
+  generatedAt: "2026-06-08T23:38:08.738062",
+  chartsVersion: "2026-06-08T23:37:54.211604",
   priceSnapshot: {
   "GOOGL": {
     "price": 363.31,
     "change_pct": -6.23,
     "name": "GOOGL",
-    "updated_at": "2026-06-08T22:03:25.319552"
+    "updated_at": "2026-06-08T23:37:54.211095"
   },
   "BTC": {
-    "price": 62812.05,
-    "change_pct": -15.51,
+    "price": 63260.17,
+    "change_pct": -14.91,
     "name": "BTC",
-    "updated_at": "2026-06-08T22:03:25.319572"
+    "updated_at": "2026-06-08T23:37:54.211106"
   },
   "MSFT": {
     "price": 411.74,
     "change_pct": -1.15,
     "name": "MSFT",
-    "updated_at": "2026-06-08T22:03:25.319582"
+    "updated_at": "2026-06-08T23:37:54.211110"
   },
   "NVDA": {
     "price": 208.64,
     "change_pct": -5.32,
     "name": "NVDA",
-    "updated_at": "2026-06-08T22:03:25.319591"
+    "updated_at": "2026-06-08T23:37:54.211114"
   },
   "WTI": {
     "price": 3.95,
     "change_pct": -16.83,
     "name": "WTI",
-    "updated_at": "2026-06-08T22:03:25.319599"
+    "updated_at": "2026-06-08T23:37:54.211117"
   },
   "META": {
     "price": 585.39,
     "change_pct": -2.86,
     "name": "META",
-    "updated_at": "2026-06-08T22:03:25.319609"
+    "updated_at": "2026-06-08T23:37:54.211120"
   },
   "AMZN": {
     "price": 245.22,
     "change_pct": -5.44,
     "name": "AMZN",
-    "updated_at": "2026-06-08T22:03:25.319618"
+    "updated_at": "2026-06-08T23:37:54.211124"
   },
   "S&P 500": {
     "price": 739.22,
     "change_pct": 0.75,
     "name": "S&P 500",
-    "updated_at": "2026-06-08T22:03:25.319627"
+    "updated_at": "2026-06-08T23:37:54.211127"
   },
   "TSLA": {
     "price": 408.95,
     "change_pct": 1.2,
     "name": "TSLA",
-    "updated_at": "2026-06-08T22:03:25.319635"
+    "updated_at": "2026-06-08T23:37:54.211131"
   },
   "AAPL": {
     "price": 301.54,
     "change_pct": 0.86,
     "name": "AAPL",
-    "updated_at": "2026-06-08T22:03:25.319643"
+    "updated_at": "2026-06-08T23:37:54.211134"
   },
   "QQQ": {
     "price": 716.07,
     "change_pct": 2.07,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-08T22:03:25.319651"
+    "updated_at": "2026-06-08T23:37:54.211137"
   },
   "BTC-USD": {
-    "price": 62812.05,
-    "change_pct": -15.51,
+    "price": 63260.17,
+    "change_pct": -14.91,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-08T22:03:25.319660"
+    "updated_at": "2026-06-08T23:37:54.211141"
   }
 },
   tickerScores: [
@@ -651,7 +651,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SMP-500",
+    "ticker": "PANW",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -666,14 +666,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRM",
-    "total_score": 68.0,
+    "ticker": "SMP-500",
+    "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 40,
-    "score": 68.0,
+    "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -681,7 +681,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "MINE",
+    "ticker": "CRM",
     "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -696,14 +696,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ETH",
-    "total_score": 66.0,
+    "ticker": "MINE",
+    "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 42,
-    "score": 66.0,
+    "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -711,7 +711,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ILMN",
+    "ticker": "ETH",
     "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -726,7 +726,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PLTR",
+    "ticker": "ILMN",
     "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -741,14 +741,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRSP",
-    "total_score": 64.0,
+    "ticker": "PLTR",
+    "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 45,
-    "score": 64.0,
+    "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -756,7 +756,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "GOOG",
+    "ticker": "CRSP",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -771,7 +771,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "HG",
+    "ticker": "GOOG",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -786,7 +786,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "HOOD",
+    "ticker": "HG",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -801,7 +801,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SF",
+    "ticker": "HOOD",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -816,14 +816,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "USDX",
-    "total_score": 62.0,
+    "ticker": "SF",
+    "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 50,
-    "score": 62.0,
+    "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -851,6 +851,25 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 271
+    },
+    {
+      "id": 287,
+      "title": "Nikesh Arora: Mythos is Real, Analytical SaaS is Dead, and Google can be a $10T company",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-08",
+      "summary": "This podcast episode delves into the transformative impact of AI on business operations, particularly in the cybersecurity sector. It highlights the rapid growth of Palo Alto Networks as a testament to the sector's strength. The discussion underscores the democratization of intelligence through AI, the accelerated detection of software vulnerabilities, and the obsolescence of traditional SaaS models. It also anticipates increased demand for infrastructure software and the emergence of AI agents in enterprise software, potentially disrupting the application layer of software and emphasizing the ongoing importance of hardware for low-latency applications.",
+      "key_takeaway": "Invest in companies leveraging AI to transform cybersecurity and business operations, focusing on infrastructure software and the potential of AI agents in enterprise solutions.",
+      "tickers_mentioned": [
+        "PANW"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 272
     },
     {
       "id": 284,
@@ -1010,7 +1029,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-05",
       "archived_date": null,
@@ -9065,6 +9084,28 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 287,
+      "title": "Nikesh Arora: Mythos is Real, Analytical SaaS is Dead, and Google can be a $10T company",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-08",
+      "summary": "This podcast episode delves into the transformative impact of AI on business operations, particularly in the cybersecurity sector. It highlights the rapid growth of Palo Alto Networks as a testament to the sector's strength. The discussion underscores the democratization of intelligence through AI, the accelerated detection of software vulnerabilities, and the obsolescence of traditional SaaS models. It also anticipates increased demand for infrastructure software and the emergence of AI agents in enterprise software, potentially disrupting the application layer of software and emphasizing the ongoing importance of hardware for low-latency applications.",
+      "key_takeaway": "Invest in companies leveraging AI to transform cybersecurity and business operations, focusing on infrastructure software and the potential of AI agents in enterprise solutions.",
+      "tickers_mentioned": "[\"PANW\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 272,
+      "episode_release_date": "2026-06-08",
+      "guest_name": "Nikesh Arora",
+      "key_tickers": [
+        "PANW"
+      ]
+    },
+    {
       "id": 284,
       "title": "\u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
       "source_type": "podcast",
@@ -9186,26 +9227,6 @@ const dashboardData = {
         "SK HYNIX",
         "SAMSUNG ELECTRONICS"
       ]
-    },
-    {
-      "id": 279,
-      "title": "Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-06-05",
-      "summary": "In this podcast, Dan Loeb discusses the resurgence of short selling as a critical investment strategy in the current market environment. He highlights the shift from stock picking to bond and credit picking, and emphasizes the importance of understanding technological trends and consumer behavior. Loeb also identifies the home building industry as a sector presenting short-selling opportunities due to its structural impairments. Furthermore, he underscores the role of human judgment in investing and his philanthropic focus on addressing systemic issues like income inequality and education reform.",
-      "key_takeaway": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-05",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 264,
-      "episode_release_date": "2026-06-05",
-      "guest_name": "Dan Loeb",
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -26818,12 +26839,65 @@ const dashboardData = {
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-06-08",
     "key_tickers": []
+  },
+  "287": {
+    "id": 277,
+    "insight_id": 287,
+    "podcast_episode_id": 272,
+    "overview": "The unresolved tension in the cybersecurity sector is the race between the advancement of AI in detecting vulnerabilities and the evolving sophistication of cyber threats. The competitive dynamic is between traditional SaaS models and the emerging AI-driven models that can analyze data directly. The metric that arbitrates this uncertainty is the speed and accuracy of vulnerability detection, as well as the cost efficiency of AI models compared to traditional SaaS. The horizon of proof lies in the market adoption of AI-driven cybersecurity solutions and the financial performance of companies that pivot to leverage AI.",
+    "key_takeaways_detailed": [
+      "Invest in cybersecurity companies that have a strong AI research and development pipeline, as they are better positioned to stay ahead in the race against cyber threats.",
+      "Monitor the cost of AI-driven vulnerability assessment tools, as continued reductions could make them more accessible to a broader range of businesses, increasing market penetration.",
+      "Keep an eye on the performance of infrastructure software companies, as their ability to scale will be crucial in supporting the growing data needs of AI applications.",
+      "Consider the potential for AI agents to disrupt traditional enterprise software models, and look for companies that are pioneering these solutions to gain a competitive edge.",
+      "Assess the hardware industry's ability to support low-latency applications, as this will be a critical factor in the adoption of AI in sectors like financial services."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that AI will continue to revolutionize the cybersecurity sector, making traditional SaaS models obsolete and driving demand for infrastructure software. The timeframe for this thesis is within the next 5 years, as AI models continue to improve and become more cost-effective. An observable development that would vindicate this thesis is a continued increase in market cap for companies leveraging AI in cybersecurity, along with a decline in market share for traditional SaaS companies. Conversely, a significant slowdown in AI adoption or a resurgence of traditional SaaS models would invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is relevant to this thesis due to its significant investment in AI and cybersecurity, as well as its position in the hardware industry, which is critical for low-latency applications.",
+        "positioning": "Position Apple as a long-term strategic investment, given its robust R&D in AI and its ability to leverage this technology across its product ecosystem.",
+        "risk": "Key risks include a slowdown in AI adoption across industries, which could impact Apple's growth in this area, and increased competition from other tech giants in the AI space."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant number of businesses continue to rely on traditional SaaS models, suggesting a slower transition to AI-driven solutions.",
+      "Cybersecurity threats evolve at a pace that outstrips the development of AI-driven defense mechanisms, leading to increased vulnerabilities.",
+      "The hardware industry fails to keep up with the demands of low-latency applications, hindering the adoption of AI in certain sectors."
+    ],
+    "catalysts": [
+      "New regulations that mandate the use of AI in cybersecurity, accelerating the obsolescence of traditional SaaS models.",
+      "Breakthroughs in AI technology that significantly reduce the cost of vulnerability detection, making AI solutions more accessible.",
+      "Major cybersecurity breaches that highlight the inadequacy of traditional defense mechanisms, prompting a shift towards AI-driven solutions.",
+      "Announcements from infrastructure software companies regarding significant improvements in data storage and management capabilities."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-08T23:37:22.080621",
+    "updated_at": "2026-06-09 04:37:22",
+    "episode_evidence": "The podcast episode provides a detailed look into the transformative power of AI in business operations, with a specific focus on cybersecurity. One of the most striking examples is the rapid growth of Palo Alto Networks, which has seen its market cap surge from $17 billion to $238 billion, as stated by the host: 'Palo Alto Networks has grown from a $17 billion to a $238 billion market cap, indicating strong performance in the cybersecurity sector.' This growth underscores the sector's strength and the potential for AI to drive significant value. The discussion also highlights the democratization of intelligence through AI, as the guest explains: 'AI is democratizing intelligence.' This means that AI can provide consistent outputs across large teams, improving business operations and efficiency. Furthermore, the use of AI in vulnerability detection is emphasized, with the guest noting: 'In six weeks we found vulnerabilities which had normally taken us five to seven years to find.' This showcases the accelerated pace at which AI can identify and address software vulnerabilities, a critical capability in the cybersecurity landscape.",
+    "falsification_tracks": [
+      "Palo Alto Networks' market cap falls below $200 billion, suggesting a downturn in the cybersecurity sector.",
+      "AI-driven vulnerability detection tools fail to identify a significant number of vulnerabilities within expected time frames, indicating reduced effectiveness.",
+      "Traditional SaaS companies show a resurgence in market share, suggesting that the shift to AI models is not as pronounced as predicted.",
+      "Infrastructure software companies fail to meet the increased demand for data storage and management, indicating a slower adoption of AI and data-heavy applications."
+    ],
+    "insight_title": "Nikesh Arora: Mythos is Real, Analytical SaaS is Dead, and Google can be a $10T company",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-06-08",
+    "key_tickers": [
+      "PANW"
+    ]
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 13626,
+    "id": 13694,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -26835,7 +26909,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13627,
+    "id": 13695,
+    "name": "Nikesh Arora",
+    "slug": "nikesh-arora",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in companies leveraging AI to transform cybersecurity and business operations, focusing on infrastructure software and the potential of AI agents in enterprise solutions.",
+    "last_episode_title": "Nikesh Arora: Mythos is Real, Analytical SaaS is Dead, and Google can be a $10T company",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-06-08",
+    "appearance_count": 1
+  },
+  {
+    "id": 13696,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -26847,7 +26933,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13628,
+    "id": 13697,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -26859,7 +26945,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13629,
+    "id": 13698,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -26871,7 +26957,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13630,
+    "id": 13699,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -26883,7 +26969,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13631,
+    "id": 13700,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -26895,7 +26981,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13632,
+    "id": 13701,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -26907,7 +26993,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13633,
+    "id": 13702,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -26919,7 +27005,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13634,
+    "id": 13703,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -26931,7 +27017,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13635,
+    "id": 13704,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -26943,7 +27029,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13636,
+    "id": 13705,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -26955,7 +27041,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13637,
+    "id": 13706,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -26967,7 +27053,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13638,
+    "id": 13707,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -26979,7 +27065,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13639,
+    "id": 13708,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -26991,7 +27077,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13640,
+    "id": 13709,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -27003,7 +27089,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13641,
+    "id": 13710,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -27015,7 +27101,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13642,
+    "id": 13711,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -27027,7 +27113,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13643,
+    "id": 13712,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -27039,7 +27125,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 13644,
+    "id": 13713,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -27049,18 +27135,6 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-15",
     "appearance_count": 1
-  },
-  {
-    "id": 13645,
-    "name": "Ben Horowitz",
-    "slug": "ben-horowitz",
-    "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
-    "known_for": "Co-founding a16z and authoring 'The Hard Thing About Hard Things'.",
-    "last_main_idea": "Invest in companies with a clear 'why', strong customer base, and the ability to adapt to market feedback. Prioritize creativity and relationship-building skills in talent acquisition.",
-    "last_episode_title": "Ben Horowitz - \"Your ONLY job is Right Product, Right Time\"",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-14",
-    "appearance_count": 2
   }
 ],
   pundits: [
@@ -28431,7 +28505,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -28815,7 +28889,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investors should consider the dual impact of AI on job creation and displacement, focusing on companies that are AI-enabled and those that support open-source AI solutions to foster a competitive and innovative market.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-29 \u2022 Pope vs AI, Anthropic's Digital God, AI Job Loss Narrative Flips, Open Source Crackdown Coming?",
     "last_proof_snippet": "Okay, we are gathered here today in Holy Unity, brothers and sisters, to convene and discuss on this most holy day, the day, the all-in podcast drops. Many topics, AI data centers, China, justice, human dignity, Dario on winding these SPVs",
@@ -31626,7 +31700,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -32442,7 +32516,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
     "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
@@ -32570,7 +32644,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -32946,7 +33020,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
@@ -33262,7 +33336,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
     "last_proof_snippet": "Beach Point Capital Management primarily manages institutional capital, which is characterized as patient capital.",
@@ -33325,7 +33399,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
@@ -35855,7 +35929,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_proof_snippet": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229 00:00:00 I am blown away by how far you've come. The things that you can do with Neural Nets now does completely",
@@ -35919,7 +35993,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "last_proof_cite": "The a16z Show \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
     "last_proof_snippet": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. If you were starting from scratch today,",
@@ -35981,7 +36055,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-19 \u2022 Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
     "last_proof_snippet": "Today's episode is brought to you by the Picta AI Enhance International Equity ETF, Ticker PQNT. You'll hear more about they're using AI to enhance international equity returns later in the show. For now, let's get into it. Very pleased tod",
