@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-09T13:39:01.420149",
-  "last_updated": "2026-06-09T13:39:01.420149",
-  "last_pipeline_run": "2026-06-09T13:39:01.420149",
+  "generated_at": "2026-06-09T22:01:43.051467",
+  "last_updated": "2026-06-09T22:01:43.051467",
+  "last_pipeline_run": "2026-06-09T22:01:43.051467",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -12,41 +12,20 @@
     "podcast_episodes": 248,
     "newsletters": 7,
     "daily_scores": 123,
-    "overton_terms_total": 158,
+    "overton_terms_total": 156,
     "latest_insights_total": 262,
-    "today_mentions": {
-      "podcast": 1
-    },
+    "today_mentions": {},
     "podcasts_analyzed": 3
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "2fd1390d-47ba-41af-a0a6-41edc870cd53",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
-      "published": "2026-06-09",
-      "rss_guid": "2fd1390d-47ba-41af-a0a6-41edc870cd53",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
