@@ -26,7 +26,7 @@ except ImportError:
     BeautifulSoup = None  # type: ignore
 
 GROKIPEDIA_ORIGIN = "https://grokipedia.com"
-USER_AGENT = "OpenClaw/1.0 (private dashboard; respectful crawl; contact via site)"
+USER_AGENT = "ScarcityAbundanceDashboard/1.0 (private dashboard; respectful crawl; contact via site)"
 
 _REQUEST_DELAY_SEC = 1.25
 

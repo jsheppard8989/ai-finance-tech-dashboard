@@ -5,8 +5,9 @@
 # Default max: 120 minutes (2 hours).
 
 set -e
-WORKSPACE="${HOME}/.openclaw/workspace"
-PIPELINE="${WORKSPACE}/pipeline"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+WORKSPACE="$(cd "$SCRIPT_DIR/.." && pwd)"
+PIPELINE="$SCRIPT_DIR"
 MAX_MINUTES="${1:-120}"
 
 cd "$PIPELINE"

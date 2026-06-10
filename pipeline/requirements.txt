@@ -24,6 +24,9 @@ python-dotenv>=1.0.0
 # Local fast transcription (recommended for podcasts - no API, fewer errors)
 faster-whisper>=1.0.0
 
+# Optional: Stage A transcript digest (Gemini / Anthropic / OpenAI)
+# anthropic>=0.34.0
+
 # Optional: For enhanced podcast processing
 # pydub>=0.25.0
 # speechrecognition>=3.10.0

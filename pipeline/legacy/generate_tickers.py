@@ -6,11 +6,13 @@ Run this to populate ticker scores when daily_scores table is empty.
 
 import sqlite3
 import json
+import sys
 from pathlib import Path
 from datetime import datetime
 
-DB_PATH = Path.home() / ".openclaw/workspace/pipeline/dashboard.db"
-DATA_DIR = Path.home() / ".openclaw/workspace/site/data"
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from workspace_paths import DB_PATH, SITE_DATA_DIR as DATA_DIR
+
 
 def generate_ticker_data():
     """Generate ticker scores from insights data."""

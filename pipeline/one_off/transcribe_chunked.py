@@ -5,12 +5,14 @@ Transcribe large audio files by splitting them into chunks.
 import os
 import subprocess
 import json
+import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from workspace_paths import AUDIO_DIR, TRANSCRIPT_DIR
+
 # Config
-AUDIO_DIR = Path.home() / ".openclaw/workspace/audio"
 SPLIT_DIR = AUDIO_DIR / "split"
-TRANSCRIPT_DIR = Path.home() / ".openclaw/workspace/pipeline/transcripts"
 TRANSCRIPT_DIR.mkdir(exist_ok=True)
 SPLIT_DIR.mkdir(exist_ok=True)
 

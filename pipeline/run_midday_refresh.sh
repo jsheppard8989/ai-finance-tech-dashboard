@@ -13,10 +13,11 @@
 
 set -euo pipefail
 
-WORKSPACE="${HOME}/.openclaw/workspace"
-PIPELINE_DIR="${WORKSPACE}/pipeline"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+WORKSPACE="$(cd "$SCRIPT_DIR/.." && pwd)"
+PIPELINE_DIR="$SCRIPT_DIR"
 
-cd "${PIPELINE_DIR}"
+cd "$PIPELINE_DIR"
 
 echo "=== Midday price + chart refresh ($(date)) ==="
 

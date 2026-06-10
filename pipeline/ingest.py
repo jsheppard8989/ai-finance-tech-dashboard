@@ -27,9 +27,9 @@ IMAP_SERVER = "imap.gmail.com"
 IMAP_PORT = 993
 TARGET_FOLDER = "NEWSLETTERS"  # Gmail label/folder to check
 
+from workspace_paths import INBOX_DIR, NEWSLETTER_PROCESSED_DIR as PROCESSED_DIR
+
 # Directories
-INBOX_DIR = Path.home() / ".openclaw/workspace/pipeline/inbox"
-PROCESSED_DIR = Path.home() / ".openclaw/workspace/pipeline/processed"
 
 # Ensure directories exist
 INBOX_DIR.mkdir(parents=True, exist_ok=True)

@@ -11,11 +11,9 @@ from datetime import datetime
 from typing import Dict, List, Optional
 import json as _json
 
+from workspace_paths import AUDIO_DIR, DB_PATH, SITE_DATA_DIR, STATE_DIR, TRANSCRIPT_DIR
+
 # Paths
-AUDIO_DIR = Path.home() / ".openclaw/workspace/audio"
-TRANSCRIPT_DIR = Path.home() / ".openclaw/workspace/pipeline/transcripts"
-DB_PATH = Path.home() / ".openclaw/workspace/pipeline/dashboard.db"
-STATE_DIR = Path.home() / ".openclaw/workspace/pipeline/state"
 CURATION_LOG = STATE_DIR / "curation_log.json"
 STATUS_FILE = STATE_DIR / "pipeline_status.json"
 
@@ -276,7 +274,7 @@ class PodcastPipelineTracker:
     
     def _check_published_status(self, ep_id: str, episode_info: Dict, status: Dict):
         """Check if episode is in the published data.js."""
-        data_js = Path.home() / ".openclaw/workspace/site/data/data.js"
+        data_js = SITE_DATA_DIR / "data.js"
         
         if not data_js.exists():
             status['stages']['published'] = {'complete': False, 'reason': 'data.js not found (run export).'}

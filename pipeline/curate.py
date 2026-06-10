@@ -12,11 +12,9 @@ import hashlib
 from pathlib import Path
 from datetime import datetime, date
 
+from workspace_paths import AUDIO_DIR, DB_PATH, FEEDS_FILE, STATE_DIR, TRANSCRIPT_DIR
+
 # Config
-AUDIO_DIR = Path.home() / ".openclaw/workspace/audio"
-TRANSCRIPT_DIR = Path.home() / ".openclaw/workspace/pipeline/transcripts"
-FEEDS_FILE = Path.home() / ".openclaw/workspace/podcast_feeds.txt"
-STATE_DIR = Path.home() / ".openclaw/workspace/pipeline/state"
 CURATION_LOG = STATE_DIR / "curation_log.json"
 # Forward-looking: only consider episodes from the current calendar month (no backfill of prior months).
 CURRENT_MONTH_ONLY = True
@@ -121,8 +119,8 @@ def fetch_feed_metadata(feed_url, skip_if_in_db=True):
                 rss_guid = guid_el.text.strip() if guid_el is not None and guid_el.text else ''
                 if skip_if_in_db and rss_guid:
                     import sqlite3 as _sq
-                    from pathlib import Path as _P
-                    _c = _sq.connect(str(_P.home() / '.openclaw/workspace/pipeline/dashboard.db'))
+
+                    _c = _sq.connect(str(DB_PATH))
                     existing = _c.execute('SELECT id FROM podcast_episodes WHERE rss_guid=?', (rss_guid,)).fetchone()
                     _c.close()
                     if existing:
@@ -175,7 +173,7 @@ def get_feed_episodes_not_in_db():
     if not all_episodes:
         return []
     # Single DB check: all rss_guids we have
-    db_path = Path.home() / ".openclaw/workspace/pipeline/dashboard.db"
+    db_path = DB_PATH
     if not db_path.exists():
         return [{"podcast": e["podcast"], "title": e["title"], "published": e.get("published", ""), "published_date": e.get("published_date")} for e in all_episodes]
     conn = sqlite3.connect(str(db_path))
@@ -316,7 +314,7 @@ def main():
     print(f"\nFound {len(feeds)} podcast feeds")
     
     if not feeds:
-        print("\nNo feeds found. Create ~/.openclaw/workspace/podcast_feeds.txt")
+        print(f"\nNo feeds found. Create {FEEDS_FILE}")
         print("Add one feed URL per line")
         return
     

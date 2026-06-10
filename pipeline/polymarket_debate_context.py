@@ -80,7 +80,7 @@ def fetch_polymarket_debate_context(
             GAMMA_EVENTS,
             params=params,
             timeout=timeout_sec,
-            headers={"User-Agent": "OpenClawDebate/1.0 (context; +local)"},
+            headers={"User-Agent": "DebateContext/1.0 (scarcity-abundance-dashboard; +local)"},
         )
         r.raise_for_status()
         events = r.json()

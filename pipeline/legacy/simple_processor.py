@@ -6,10 +6,13 @@ Fallback when AI APIs are unavailable - extracts tickers and basic sentiment.
 
 import re
 import json
+import sys
 from pathlib import Path
 from datetime import datetime, date
 
-TRANSCRIPT_DIR = Path.home() / ".openclaw/workspace/pipeline/transcripts"
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from workspace_paths import PIPELINE_DIR, TRANSCRIPT_DIR
+
 
 # Ticker patterns
 TICKER_PATTERN = r'\b([A-Z]{3,5})\b'
@@ -123,7 +126,7 @@ def main():
             print(f"  ⏭ Skipped (too short)")
     
     # Save results
-    output_file = Path.home() / ".openclaw/workspace/pipeline/simple_analysis.json"
+    output_file = PIPELINE_DIR / "simple_analysis.json"
     with open(output_file, 'w') as f:
         json.dump(results, f, indent=2)
     

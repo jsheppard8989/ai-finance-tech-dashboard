@@ -21,9 +21,9 @@ from pathlib import Path
 if "OMP_NUM_THREADS" not in os.environ:
     os.environ["OMP_NUM_THREADS"] = "4"
 
+from workspace_paths import PIPELINE_AUDIO_DIR as AUDIO_DIR, TRANSCRIPT_DIR
+
 # Paths
-AUDIO_DIR = Path.home() / ".openclaw/workspace/pipeline/audio"
-TRANSCRIPT_DIR = Path.home() / ".openclaw/workspace/pipeline/transcripts"
 AUDIO_DIR.mkdir(parents=True, exist_ok=True)
 TRANSCRIPT_DIR.mkdir(parents=True, exist_ok=True)
 

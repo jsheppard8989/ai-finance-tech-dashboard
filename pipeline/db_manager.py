@@ -12,9 +12,13 @@ from typing import List, Dict, Optional, Tuple
 from dataclasses import dataclass
 from contextlib import contextmanager
 
-# Database path
-DB_PATH = Path.home() / ".openclaw/workspace/pipeline/dashboard.db"
+from workspace_paths import DB_PATH, workspace_root
 SCHEMA_PATH = Path(__file__).parent / "schema.sql"
+
+# Main-page Overton list size (historically 8; +5 for denser board)
+OVERTON_MAIN_PAGE_LIMIT = 13
+# Same visual scale as pundit Presence bars (decayed score before capping to 100%)
+RESONANCE_SCORE_CAP = 4.0
 
 @dataclass
 class TickerMention:
@@ -64,7 +68,7 @@ def _transcript_proof_snippet(transcript_path: Optional[str], max_chars: int = 2
         return ""
     p = Path(transcript_path.strip())
     if not p.is_absolute():
-        p = (Path.home() / ".openclaw/workspace" / p).resolve()
+        p = (workspace_root() / p).resolve()
     if not p.is_file():
         return ""
     try:
@@ -206,6 +210,28 @@ class DashboardDB:
                 )
             """)
             conn.execute("CREATE INDEX IF NOT EXISTS idx_ideas_source ON ideas(source_type, source_id)")
+
+            # Episode + speaker attribution for emerging → Overton pipeline
+            for col_sql in [
+                "ALTER TABLE suggested_terms ADD COLUMN first_seen_episode_id INTEGER",
+                "ALTER TABLE suggested_terms ADD COLUMN last_seen_episode_id INTEGER",
+                "ALTER TABLE suggested_terms ADD COLUMN first_seen_speaker TEXT",
+                "ALTER TABLE suggested_terms ADD COLUMN last_seen_speaker TEXT",
+            ]:
+                try:
+                    conn.execute(col_sql)
+                except sqlite3.OperationalError:
+                    pass
+            for col_sql in [
+                "ALTER TABLE overton_terms ADD COLUMN first_detected_episode_id INTEGER",
+                "ALTER TABLE overton_terms ADD COLUMN first_detected_speaker TEXT",
+                "ALTER TABLE overton_terms ADD COLUMN last_mentioned_episode_id INTEGER",
+                "ALTER TABLE overton_terms ADD COLUMN last_mentioned_speaker TEXT",
+            ]:
+                try:
+                    conn.execute(col_sql)
+                except sqlite3.OperationalError:
+                    pass
 
     # === Ticker Aliases ===
 
@@ -833,10 +859,12 @@ class DashboardDB:
         }
         
         with self._get_connection() as conn:
-            # Get active insights (limited to most recent 8). Include key_tickers from episode (AI JSON) for cards and Deep Dive.
+            # Active insights: only those with a Deep Dive row (modal + cards stay in sync).
+            # display_on_main is managed by the pipeline after generate_deepdives.py succeeds.
             cursor = conn.execute("""
                 SELECT li.*, pe.episode_date as episode_release_date, pe.guest_name as guest_name, pe.key_tickers as key_tickers
                 FROM latest_insights li
+                INNER JOIN deep_dive_content ddc ON ddc.insight_id = li.id
                 LEFT JOIN podcast_episodes pe ON li.podcast_episode_id = pe.id
                 WHERE li.display_on_main = 1
                 ORDER BY li.display_order, li.source_date DESC
@@ -863,14 +891,97 @@ class DashboardDB:
             """)
             content['definitions'] = [dict(row) for row in cursor.fetchall()]
             
-            # Get active Overton terms (limited to emerging)
+            # Active Overton terms: rank by Resonance score (mentions × 30-day recency half-life),
+            # same family as pundit Presence decay in export_for_website — then take top N.
             cursor = conn.execute("""
                 SELECT * FROM overton_terms
                 WHERE display_on_main = 1 AND status = 'active'
-                ORDER BY mention_count DESC
-                LIMIT 8
             """)
-            content['overton'] = [dict(row) for row in cursor.fetchall()]
+            overton_rows = [dict(row) for row in cursor.fetchall()]
+
+            def _episode_brief(eid) -> Tuple[Optional[str], Optional[str], Optional[str]]:
+                if not eid:
+                    return None, None, None
+                cur = conn.execute(
+                    """
+                    SELECT podcast_name, episode_title, episode_date
+                    FROM podcast_episodes WHERE id = ?
+                    """,
+                    (int(eid),),
+                )
+                r = cur.fetchone()
+                if not r:
+                    return None, None, None
+                d = r["episode_date"]
+                ds = str(d)[:10] if d is not None else None
+                return r["podcast_name"], r["episode_title"], ds
+
+            try:
+                from datetime import date as _date
+                from math import exp as _exp, log as _log
+
+                half_life_days = 30.0
+                lam = _log(2.0) / half_life_days
+                today = _date.today()
+
+                def _overton_attention_score(term: dict) -> float:
+                    mc = int(term.get("mention_count") or 0)
+                    last_raw = term.get("last_mentioned_date") or term.get("first_detected_date")
+                    days = 0
+                    if last_raw:
+                        try:
+                            if isinstance(last_raw, str):
+                                ld = _date.fromisoformat(str(last_raw)[:10])
+                            elif hasattr(last_raw, "year"):
+                                ld = last_raw
+                            else:
+                                ld = today
+                            days = max(0, (today - ld).days)
+                        except Exception:
+                            days = 0
+                    return float(mc) * _exp(-lam * float(days))
+
+                for t in overton_rows:
+                    t["overton_score"] = round(_overton_attention_score(t), 2)
+                    sc = float(t.get("overton_score") or 0.0)
+                    t["resonance_pct"] = int(
+                        max(0, min(100, round(100 * min(1.0, sc / float(RESONANCE_SCORE_CAP)))))
+                    )
+                    fp, ft, fd = _episode_brief(t.get("first_detected_episode_id"))
+                    t["first_detected_podcast"] = fp
+                    t["first_detected_episode_title"] = ft
+                    t["first_detected_episode_date"] = fd
+                    lp, lt, ld = _episode_brief(t.get("last_mentioned_episode_id"))
+                    t["last_mentioned_podcast"] = lp
+                    t["last_mentioned_episode_title"] = lt
+                    t["last_mentioned_episode_date"] = ld
+                overton_rows.sort(
+                    key=lambda t: (
+                        float(t.get("overton_score") or 0),
+                        int(t.get("mention_count") or 0),
+                    ),
+                    reverse=True,
+                )
+            except Exception:
+                for t in overton_rows:
+                    t["overton_score"] = float(int(t.get("mention_count") or 0))
+                    sc = float(t.get("overton_score") or 0.0)
+                    t["resonance_pct"] = int(
+                        max(0, min(100, round(100 * min(1.0, sc / float(RESONANCE_SCORE_CAP)))))
+                    )
+                    fp, ft, fd = _episode_brief(t.get("first_detected_episode_id"))
+                    t["first_detected_podcast"] = fp
+                    t["first_detected_episode_title"] = ft
+                    t["first_detected_episode_date"] = fd
+                    lp, lt, ld = _episode_brief(t.get("last_mentioned_episode_id"))
+                    t["last_mentioned_podcast"] = lp
+                    t["last_mentioned_episode_title"] = lt
+                    t["last_mentioned_episode_date"] = ld
+                overton_rows.sort(
+                    key=lambda t: (float(t.get("overton_score") or 0),),
+                    reverse=True,
+                )
+            content["overton"] = overton_rows[:OVERTON_MAIN_PAGE_LIMIT]
         
         return content
     
@@ -1028,39 +1139,61 @@ class DashboardDB:
         definition: Optional[str] = None,
         investment_implications: Optional[str] = None,
         source_context: Optional[str] = None,
+        *,
+        episode_id: Optional[int] = None,
+        detected_by: Optional[str] = None,
     ) -> bool:
         """Insert or update suggested_terms from AI episode analysis. Returns True if new."""
         term_clean = (term or "").strip()
         if not term_clean or len(term_clean) < 3:
             return False
+        db_episode_id = int(episode_id) if episode_id is not None else None
+        speaker = (detected_by or "").strip() or None
         with self._get_connection() as conn:
             row = conn.execute(
                 "SELECT id, mention_count FROM suggested_terms WHERE LOWER(TRIM(term)) = LOWER(?)",
                 (term_clean,),
             ).fetchone()
             if row:
+                sets = [
+                    "mention_count = mention_count + 1",
+                    "last_mentioned_date = date('now')",
+                    "relevance_score = MIN(COALESCE(relevance_score, 50) + 5, 100)",
+                    "definition = COALESCE(?, definition)",
+                    "investment_implications = COALESCE(?, investment_implications)",
+                    "source_context = COALESCE(?, source_context)",
+                ]
+                params = [definition, investment_implications, source_context]
+                if db_episode_id is not None:
+                    sets.append("last_seen_episode_id = ?")
+                    params.append(db_episode_id)
+                if speaker:
+                    sets.append("last_seen_speaker = ?")
+                    params.append(speaker)
+                params.append(row["id"])
                 conn.execute(
-                    """
-                    UPDATE suggested_terms
-                    SET mention_count = mention_count + 1,
-                        last_mentioned_date = date('now'),
-                        relevance_score = MIN(COALESCE(relevance_score, 50) + 5, 100),
-                        definition = COALESCE(?, definition),
-                        investment_implications = COALESCE(?, investment_implications),
-                        source_context = COALESCE(?, source_context)
-                    WHERE id = ?
-                    """,
-                    (definition, investment_implications, source_context, row["id"]),
+                    f"UPDATE suggested_terms SET {', '.join(sets)} WHERE id = ?",
+                    tuple(params),
                 )
                 return False
             conn.execute(
                 """
                 INSERT INTO suggested_terms
                 (term, definition, investment_implications, source_type, source_context,
-                 mention_count, source_diversity, relevance_score, last_mentioned_date, status)
-                VALUES (?, ?, ?, 'auto_extracted', ?, 1, 1, 50, date('now'), 'pending')
+                 mention_count, source_diversity, relevance_score, last_mentioned_date, status,
+                 first_seen_episode_id, last_seen_episode_id, first_seen_speaker, last_seen_speaker)
+                VALUES (?, ?, ?, 'auto_extracted', ?, 1, 1, 50, date('now'), 'pending', ?, ?, ?, ?)
                 """,
-                (term_clean, definition, investment_implications, source_context),
+                (
+                    term_clean,
+                    definition,
+                    investment_implications,
+                    source_context,
+                    db_episode_id,
+                    db_episode_id,
+                    speaker,
+                    speaker,
+                ),
             )
             return True
 

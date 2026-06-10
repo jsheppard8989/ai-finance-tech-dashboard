@@ -11,7 +11,8 @@ import sqlite3
 from pathlib import Path
 from datetime import datetime
 
-sys.path.insert(0, str(Path(__file__).parent))
+PIPELINE_ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(PIPELINE_ROOT))
 
 # Try to import OpenAI
 try:
@@ -20,8 +21,7 @@ except ImportError:
     print("OpenAI not installed")
     sys.exit(1)
 
-DB_PATH = Path.home() / ".openclaw/workspace/pipeline/dashboard.db"
-TRANSCRIPT_DIR = Path.home() / ".openclaw/workspace/pipeline/transcripts"
+from workspace_paths import DB_PATH, TRANSCRIPT_DIR
 
 # Correct podcast names based on filename patterns
 FILENAME_TO_PODCAST = {
@@ -42,8 +42,10 @@ EPISODE_IDS = {
 
 
 def get_ai_client():
-    auth_profiles_path = Path.home() / ".openclaw/agents/main/agent/auth-profiles.json"
-    if auth_profiles_path.exists():
+    from workspace_paths import agent_auth_profiles_path
+
+    auth_profiles_path = agent_auth_profiles_path()
+    if auth_profiles_path and auth_profiles_path.exists():
         with open(auth_profiles_path, 'r') as f:
             auth_data = json.load(f)
             profiles = auth_data.get('profiles', {})

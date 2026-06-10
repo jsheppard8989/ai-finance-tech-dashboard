@@ -11,8 +11,9 @@ import subprocess
 from pathlib import Path
 from datetime import datetime
 
-TRANSCRIPT_DIR = Path.home() / ".openclaw/workspace/pipeline/transcripts"
-STATE_DIR = Path.home() / ".openclaw/workspace/pipeline/state"
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from workspace_paths import STATE_DIR, TRANSCRIPT_DIR
+
 PENDING_FILE = STATE_DIR / "pending_approval.json"
 CURATED_FILE = STATE_DIR / "curated_episodes.json"
 

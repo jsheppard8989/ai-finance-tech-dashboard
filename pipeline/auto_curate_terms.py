@@ -8,11 +8,13 @@ Borderline terms flagged for manual review.
 import json
 import sys
 from pathlib import Path
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
+from typing import Optional
 
 sys.path.insert(0, str(Path(__file__).parent))
 from db_manager import get_db
 from manage_suggested_terms import SuggestedTermsManager
+from workspace_paths import STATE_DIR
 
 # Priority score (must match db_manager.get_suggested_terms_for_website):
 #   mention_count * 10 + source_diversity * 20 + relevance_score
@@ -153,30 +155,105 @@ def auto_promote_term(db, term_data):
         return True
 
 
+def _episode_date_str(conn, eid) -> Optional[str]:
+    if not eid:
+        return None
+    r = conn.execute(
+        "SELECT date(episode_date) AS d FROM podcast_episodes WHERE id = ?",
+        (int(eid),),
+    ).fetchone()
+    if not r or not r["d"]:
+        return None
+    return str(r["d"])[:10]
+
+
+def _first_detected_date_for_overton(conn, term_data: dict) -> str:
+    d = _episode_date_str(conn, term_data.get("first_seen_episode_id"))
+    if d:
+        return d
+    sub = term_data.get("submitted_date")
+    if sub and len(str(sub)) >= 10:
+        s = str(sub)
+        if s[4:5] == "-" and s[7:8] == "-":
+            return s[:10]
+    return date.today().isoformat()
+
+
+def _last_mentioned_date_for_overton(conn, term_data: dict, first_d: str) -> str:
+    d = _episode_date_str(conn, term_data.get("last_seen_episode_id"))
+    if d:
+        return d
+    d2 = _episode_date_str(conn, term_data.get("first_seen_episode_id"))
+    if d2:
+        return d2
+    return first_d
+
+
 def _ensure_overton_term(conn, term_data):
     """Insert or update overton_terms so the term appears in the Overton Window."""
     term = term_data['term']
     description = term_data.get('definition') or f"Curated concept: {term}"
     investment_implications = term_data.get('investment_implications')
     mention_count = term_data.get('mention_count', 1)
+    feid = term_data.get("first_seen_episode_id")
+    fspeaker = (term_data.get("first_seen_speaker") or "").strip() or None
+    leid = term_data.get("last_seen_episode_id")
+    lspeaker = (term_data.get("last_seen_speaker") or "").strip() or None
     cursor = conn.execute("SELECT id FROM overton_terms WHERE term = ?", (term,))
     if cursor.fetchone():
-        conn.execute("""
+        last_md = _last_mentioned_date_for_overton(conn, term_data, date.today().isoformat())
+        conn.execute(
+            """
             UPDATE overton_terms
             SET description = COALESCE(?, description),
                 investment_implications = COALESCE(?, investment_implications),
-                last_mentioned_date = date('now'),
+                last_mentioned_date = ?,
                 mention_count = MAX(mention_count, ?),
                 status = 'active',
-                display_on_main = 1
+                display_on_main = 1,
+                last_mentioned_episode_id = COALESCE(?, last_mentioned_episode_id),
+                last_mentioned_speaker = COALESCE(?, last_mentioned_speaker),
+                first_detected_episode_id = COALESCE(first_detected_episode_id, ?),
+                first_detected_speaker = COALESCE(first_detected_speaker, ?)
             WHERE term = ?
-        """, (description, investment_implications, mention_count, term))
+            """,
+            (
+                description,
+                investment_implications,
+                last_md,
+                mention_count,
+                leid or feid,
+                lspeaker or fspeaker,
+                feid,
+                fspeaker,
+                term,
+            ),
+        )
     else:
-        conn.execute("""
+        first_d = _first_detected_date_for_overton(conn, term_data)
+        last_d = _last_mentioned_date_for_overton(conn, term_data, first_d)
+        conn.execute(
+            """
             INSERT INTO overton_terms
-            (term, description, first_detected_date, last_mentioned_date, mention_count, status, investment_implications, display_on_main)
-            VALUES (?, ?, date('now'), date('now'), ?, 'active', ?, 1)
-        """, (term, description, mention_count, investment_implications))
+            (term, description, first_detected_date, last_mentioned_date, mention_count,
+             status, investment_implications, display_on_main,
+             first_detected_episode_id, first_detected_speaker,
+             last_mentioned_episode_id, last_mentioned_speaker)
+            VALUES (?, ?, ?, ?, ?, 'active', ?, 1, ?, ?, ?, ?)
+            """,
+            (
+                term,
+                description,
+                first_d,
+                last_d,
+                mention_count,
+                investment_implications,
+                feid,
+                fspeaker,
+                leid or feid,
+                lspeaker or fspeaker,
+            ),
+        )
 
 
 def get_borderline_terms_for_review(db):
@@ -221,7 +298,15 @@ def main():
     
     if not pending_terms:
         print("\nNo pending terms to curate.")
-        return {'promoted': 0, 'review': 0, 'skipped': 0}
+        return {
+            "promoted": 0,
+            "review": 0,
+            "skipped": 0,
+            "review_terms": [],
+            "pending_before": 0,
+            "pending_after": 0,
+            "run_iso": datetime.now().isoformat(),
+        }
     
     print(f"\n📊 Analyzing {len(pending_terms)} pending terms...")
     print("-"*60)
@@ -259,17 +344,35 @@ def main():
     print(f"  Flagged for review: {len(review_queue)}")
     print(f"  Skipped (low relevance): {skipped}")
     
+    with db._get_connection() as conn:
+        after_row = conn.execute(
+            "SELECT COUNT(*) AS n FROM suggested_terms WHERE status = 'pending'"
+        ).fetchone()
+    pending_after = int(after_row["n"]) if after_row and after_row["n"] is not None else 0
+
     # Return review info for potential notification
     return {
-        'promoted': promoted,
-        'review': len(review_queue),
-        'skipped': skipped,
-        'review_terms': review_queue
+        "promoted": promoted,
+        "review": len(review_queue),
+        "skipped": skipped,
+        "review_terms": review_queue,
+        "pending_before": len(pending_terms),
+        "pending_after": pending_after,
+        "run_iso": datetime.now().isoformat(),
     }
 
 
 if __name__ == "__main__":
     results = main()
+    try:
+        STATE_DIR.mkdir(parents=True, exist_ok=True)
+        slim = {k: v for k, v in results.items() if k != "review_terms"}
+        (STATE_DIR / "term_curation_last_run.json").write_text(
+            json.dumps(slim, indent=2),
+            encoding="utf-8",
+        )
+    except Exception as e:
+        print(f"  ⚠ Could not write term curation state: {e}")
     
     # Print review terms for potential iMessage notification
     if results['review_terms']:

@@ -10,13 +10,13 @@ from __future__ import annotations
 import json
 import sqlite3
 from datetime import date
+import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from workspace_paths import TRANSCRIPT_DIR as TRANSCRIPTS_DIR
+
 from db_manager import DashboardDB, PodcastEpisode, DB_PATH
-
-
-ROOT = Path.home() / ".openclaw/workspace"
-TRANSCRIPTS_DIR = ROOT / "pipeline" / "transcripts"
 
 
 def load_sidecar(stem: str) -> dict:

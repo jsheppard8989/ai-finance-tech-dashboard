@@ -6,14 +6,16 @@ Extracts concepts, maps supply chains, finds hidden plays.
 
 import json
 import re
+import sys
 from pathlib import Path
 from collections import defaultdict
 from datetime import datetime
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from workspace_paths import INBOX_DIR, PIPELINE_DIR, TRANSCRIPT_DIR
+
 # Directories
-INBOX_DIR = Path.home() / ".openclaw/workspace/pipeline/inbox"
-TRANSCRIPT_DIR = Path.home() / ".openclaw/workspace/pipeline/transcripts"
-RESEARCH_DIR = Path.home() / ".openclaw/workspace/pipeline/research"
+RESEARCH_DIR = PIPELINE_DIR / "research"
 
 RESEARCH_DIR.mkdir(parents=True, exist_ok=True)
 

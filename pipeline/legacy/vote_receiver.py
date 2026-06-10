@@ -6,11 +6,15 @@ Stores votes in JSON file for processing by pipeline.
 
 import json
 import os
+import sys
 from datetime import datetime
 from pathlib import Path
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
-VOTE_FILE = Path.home() / ".openclaw/workspace/pipeline/state/votes.json"
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from workspace_paths import STATE_DIR
+
+VOTE_FILE = STATE_DIR / "votes.json"
 
 class VoteHandler(BaseHTTPRequestHandler):
     def do_OPTIONS(self):

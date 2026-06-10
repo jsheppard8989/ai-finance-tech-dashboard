@@ -6,8 +6,8 @@ This script:
 1. Finds all insights without deep_dive_content
 2. Retrieves source content (transcript for podcasts, content for newsletters)
 3. Uses AI to generate deep dives with: source-grounded evidence, falsification tracks,
-   and overlap rejection vs the insight card (retries up to 3)
-4. Stores in deep_dive_content table (episode_evidence, falsification_tracks columns)
+   overlap rejection vs the insight card including overview-specific similarity (retries up to 4)
+4. Stores in deep_dive_content table (`positioning_guidance` / `risk_factors` DB columns kept but no longer populated)
 
 To run manually:
     python3 generate_deepdives.py
@@ -31,6 +31,15 @@ from typing import Any, Dict, List, Optional, Tuple
 sys.path.insert(0, str(Path(__file__).parent))
 
 from workspace_paths import DB_PATH, INBOX_DIR, TRANSCRIPT_DIR
+
+# Optional Stage A digest (same markdown file used for Insight + Deep Dive)
+def _load_podcast_source_text(transcript_path: Path) -> str:
+    from transcript_digest import load_digest_or_raw
+
+    text, is_digest = load_digest_or_raw(transcript_path)
+    if is_digest and text:
+        print("  ℹ Deep Dive source: using evidence-preserving digest (.digest.md)", flush=True)
+    return text
 
 try:
     from openai import OpenAI
@@ -72,8 +81,10 @@ def _load_dotenv_for_deepdives() -> None:
 
 
 # Reject Deep Dives that mostly paraphrase the insight card (cheap overlap check).
-INSIGHT_OVERLAP_REJECT = 0.68
-MAX_GENERATION_ATTEMPTS = 3
+INSIGHT_OVERLAP_REJECT = 0.62
+# Overview alone tends to regress into a longer Insight summary; judge it separately too.
+OVERVIEW_CARD_OVERLAP_REJECT = 0.55
+MAX_GENERATION_ATTEMPTS = 4
 SOURCE_SNIPPET_CHARS = 12000
 
 
@@ -110,6 +121,15 @@ def insight_body_overlap_ratio(summary: str, key_takeaway: str, content: Dict[st
     if len(baseline) < 40 or len(packed) < 80:
         return 0.0
     return SequenceMatcher(None, baseline, packed).ratio()
+
+
+def overview_vs_card_overlap(summary: str, key_takeaway: str, overview: str) -> float:
+    """Similarity between overview only and Insight card baseline (cheap anti-parrot check)."""
+    baseline = _norm_text(f"{summary or ''}\n{key_takeaway or ''}")
+    ov = _norm_text(overview or "")
+    if len(baseline) < 40 or len(ov) < 80:
+        return 0.0
+    return SequenceMatcher(None, baseline, ov).ratio()
 
 
 def _episode_evidence_text(ev_raw: Any) -> str:
@@ -245,8 +265,7 @@ def get_source_content(insight_id: int, source_type: str, episode_id: int = None
             if not transcript_path.is_absolute():
                 transcript_path = Path(__file__).parent / transcript_path
             if transcript_path.exists():
-                with open(transcript_path, encoding='utf-8') as f:
-                    return f.read()
+                return _load_podcast_source_text(transcript_path)
     
     elif source_type == 'newsletter':
         # Get from inbox JSON - match by title (which corresponds to email subject)
@@ -338,7 +357,7 @@ def generate_deep_dive_with_ai(
 
     prompt = f"""You are an elite investment analyst writing a "Deep Dive" that MUST add depth beyond the insight card — not a longer restatement of it.
 
-ALREADY-PUBLISHED INSIGHT CARD (do NOT paraphrase this; add new angles, mechanisms, and source-grounded detail):
+ALREADY-PUBLISHED INSIGHT CARD (treat this as ALREADY SHOWN TO THE USER; do not paraphrase it or replay its thematic bullets):
 Summary: {insight_summary or "(none)"}
 Key takeaway: {key_takeaway or "(none)"}
 
@@ -355,11 +374,11 @@ Return ONLY valid JSON with these keys:
     "3-5 bullets: specific, observable data, events, or market outcomes that would materially REDUCE conviction in the thesis (or flip it). Each bullet must be testable — not vibes.",
     "Example: 'If X metric prints below Y for two consecutive quarters, the labor-shortage narrative is weakened.'"
   ],
-  "overview": "1-2 tight paragraphs: frame the debate and why it matters NOW — avoid repeating the insight summary sentences.",
+  "overview": "EXACTLY 2 short paragraphs totaling ~120–220 words. Paragraph 1: name the unresolved tension / competitive dynamic / policy tradeoff implied by the source — NOT what was SAID sentence-by-sentence and NOT thematic recap (forbidden roles: synopsis, elongated headline, 'guest argued X therefore Y' unless X is genuinely new versus the Insight card). Paragraph 2: allocator-relevant implication: WHO wins or loses, what metric or institution arbitrates uncertainty, horizon of proof. HARD BAN on reusing distinctive multi-word phrases from the Insight Summary/Key takeaway (if you recycle the card's wording, rewrite completely). Prefer structure ('what is contested', 'what converts belief') over narration.",
   "key_takeaways_detailed": [
-    "4-6 bullets: actionable, distinct from the insight card bullets"
+    "4-6 bullets: actionable, distinct from BOTH the Insight card bullets AND episode_evidence (no copy-paste; each bullet must add framing, contingency, or a decision rule)"
   ],
-  "investment_thesis": "Core logic, timeframe, and what has to go right",
+  "investment_thesis": "Core logic tied to contested claims in the SOURCE (not repetition of Insight summary). Include timeframe AND what observable development would vindicate vs invalidate it.",
   "ticker_analysis": {{
     "AAPL": {{
       "rationale": "Why this ticker is relevant to this thesis",
@@ -367,15 +386,14 @@ Return ONLY valid JSON with these keys:
       "risk": "Key risks for this specific position"
     }}
   }},
-  "positioning_guidance": "Sizing, hedges, time horizon",
-  "risk_factors": ["3-5 risks"],
-  "contrarian_signals": ["2-3 opposing angles"],
-  "catalysts": ["3-5 milestones or dates to watch"]
+  "contrarian_signals": ["2-4 opposing angles an informed skeptic would raise"],
+  "catalysts": ["3-5 milestones, rulings, prints, or dates to watch"]
 }}
 
 Hard rules:
 - episode_evidence MUST cite the SOURCE MATERIAL; do not invent quotes. If a detail is not in the source, say so in analysis elsewhere, not inside quoted lines.
-- overview + investment_thesis + key_takeaways_detailed must NOT be a close paraphrase of the Summary/Key takeaway above — add mechanism, second-order effects, or contested assumptions.
+- overview + investment_thesis + key_takeaways_detailed must NOT read like a light edit of the Summary/Key takeaway — they must reflect mechanism, second-order effects, allocation tradeoffs, or institutional process the card did not carry.
+- Put portfolio 'how to size / hedge' thinking inside ticker_analysis or investment_thesis if needed; do NOT output separate positioning or generic risk lists.
 - falsification_tracks must be concrete (what would change your mind).
 - ticker_analysis: 3-6 REAL tickers from the source as keys. NEVER use TICKER1, TICKER2, placeholders.
 - English only.
@@ -413,8 +431,8 @@ def store_deep_dive(insight_id: int, episode_id: int, content: dict) -> bool:
                 json.dumps(content.get("key_takeaways_detailed", [])),
                 content.get("investment_thesis", ""),
                 json.dumps(content.get("ticker_analysis", {})),
-                content.get("positioning_guidance", ""),
-                json.dumps(content.get("risk_factors", [])),
+                "",
+                json.dumps([]),
                 json.dumps(content.get("contrarian_signals", [])),
                 json.dumps(content.get("catalysts", [])),
                 _episode_evidence_text(content.get("episode_evidence")),
@@ -524,15 +542,30 @@ def run_deep_dive_generation_attempts(
             return None
 
         overlap = insight_body_overlap_ratio(insight_summary, key_takeaway, content)
+        ov_sim = overview_vs_card_overlap(insight_summary, key_takeaway, str(content.get("overview") or ""))
         ok_struct, struct_reason = deep_dive_structural_ok(content)
 
-        if overlap > INSIGHT_OVERLAP_REJECT:
+        if overlap > INSIGHT_OVERLAP_REJECT or ov_sim > OVERVIEW_CARD_OVERLAP_REJECT:
+            parts = []
+            if overlap > INSIGHT_OVERLAP_REJECT:
+                parts.append(
+                    f"Aggregate Deep Dive prose is too similar to the insight card (overlap {overlap:.2f})."
+                )
+            if ov_sim > OVERVIEW_CARD_OVERLAP_REJECT:
+                parts.append(
+                    f"Overview alone is too similar to the insight card (overlap {ov_sim:.2f})."
+                )
             retry_hint = (
-                f"Previous output was too similar to the insight card (overlap {overlap:.2f}). "
-                "Rewrite overview, investment_thesis, and key_takeaways_detailed to add NEW mechanisms, "
-                "second-order effects, or contested assumptions — do not restate the summary."
+                " ".join(parts)
+                + " Rewrite overview from scratch: focus on unresolved tension, who arbitrates truth, and allocator tradeoffs — "
+                "zero reuse of distinctive phrases from Summary/Key takeaway. "
+                "Rewrite investment_thesis and key_takeaways_detailed to add NEW mechanisms and contingencies — do not restate the card."
             )
-            print(f"    ⚠ Attempt {attempt}: insight overlap {overlap:.2f} > {INSIGHT_OVERLAP_REJECT}", flush=True)
+            print(
+                f"    ⚠ Attempt {attempt}: insight overlap {overlap:.2f} (max {INSIGHT_OVERLAP_REJECT}); "
+                f"overview vs card {ov_sim:.2f} (max {OVERVIEW_CARD_OVERLAP_REJECT})",
+                flush=True,
+            )
             if attempt >= MAX_GENERATION_ATTEMPTS:
                 print(f"    ✗ Giving up after {MAX_GENERATION_ATTEMPTS} attempts (still too similar to insight)", flush=True)
                 return None
@@ -547,7 +580,10 @@ def run_deep_dive_generation_attempts(
             continue
 
         if attempt > 1:
-            print(f"    ✓ Passed overlap {overlap:.2f} and structural checks on attempt {attempt}", flush=True)
+            print(
+                f"    ✓ Passed overlap aggregate={overlap:.2f}, overview-vs-card={ov_sim:.2f} on attempt {attempt}",
+                flush=True,
+            )
         return content
 
     return None

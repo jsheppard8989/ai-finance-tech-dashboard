@@ -19,9 +19,9 @@ import os
 import sys
 from pathlib import Path
 
-WORKSPACE = Path.home() / ".openclaw/workspace"
-PIPELINE = WORKSPACE / "pipeline"
-SITE_AUDIO = WORKSPACE / "site" / "audio"
+from workspace_paths import PIPELINE_DIR as PIPELINE, SITE_DIR, WORKSPACE_ROOT as WORKSPACE
+
+SITE_AUDIO = SITE_DIR / "audio"
 SCRIPTS_STATE = PIPELINE / "state" / "last_debate_scripts.json"
 OUT_PATH = SITE_AUDIO / "emp_ai_the_debate_11labs.mp3"
 

@@ -138,6 +138,43 @@ def archive_audio_href(friday_iso: str) -> str:
     return f"./audio/archive/debate_{fr}.mp3" if arc_mp3.exists() and arc_mp3.stat().st_size > 1000 else ""
 
 
+def resolves_iso_from_friday(friday_iso: str) -> str:
+    fr = (friday_iso or "").strip()[:10]
+    if not fr:
+        return ""
+    try:
+        friday_date = datetime.strptime(fr, "%Y-%m-%d").date()
+        return (friday_date + timedelta(days=42)).isoformat()
+    except Exception:
+        return ""
+
+
+def parse_resolves_iso_from_expires_rule(expires_rule: str) -> str:
+    m = re.search(r"\d{4}-\d{2}-\d{2}", expires_rule or "")
+    return m.group(0) if m else ""
+
+
+def sync_history_resolves_dates(history: Dict[str, Any]) -> None:
+    """Ensure each history week has resolves_iso (contract Friday + 42 days)."""
+    for w in history.get("weeks", []):
+        iso = (w.get("resolves_iso") or "").strip()
+        if not iso:
+            iso = parse_resolves_iso_from_expires_rule(w.get("expires_rule") or "")
+        if not iso:
+            iso = resolves_iso_from_friday(w.get("friday_iso") or "")
+        if not iso:
+            continue
+        w["resolves_iso"] = iso
+        rule = (w.get("expires_rule") or "").strip()
+        if not rule or not parse_resolves_iso_from_expires_rule(rule):
+            try:
+                res_date = datetime.strptime(iso, "%Y-%m-%d").date()
+                day_name = res_date.strftime("%A")
+                w["expires_rule"] = f"Resolves {day_name} 12:00 PM CST {iso}"
+            except Exception:
+                w["expires_rule"] = f"Resolves Friday 12:00 PM CST {iso}"
+
+
 def sync_history_audio_refs(history: Dict[str, Any]) -> None:
     """Drop stale audio_href entries when the archive MP3 is missing."""
     for w in history.get("weeks", []):
@@ -167,6 +204,7 @@ def write_archive_manifest() -> None:
 
 
 def save_history(h: Dict[str, Any]) -> None:
+    sync_history_resolves_dates(h)
     sync_history_audio_refs(h)
     write_archive_manifest()
     HISTORY_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -409,12 +447,86 @@ def validate_prompt_macro_sanity(
     return True, ""
 
 
+def _extract_prompt_calendar_dates(prompt: str) -> List[Tuple[str, datetime.date]]:
+    dates: List[Tuple[str, datetime.date]] = []
+    seen: set = set()
+    text = prompt or ""
+
+    for m in re.finditer(r"\b\d{4}-\d{2}-\d{2}\b", text):
+        raw = m.group(0)
+        try:
+            d = datetime.strptime(raw, "%Y-%m-%d").date()
+        except Exception:
+            continue
+        key = (raw, d.isoformat())
+        if key in seen:
+            continue
+        seen.add(key)
+        dates.append((raw, d))
+
+    month_re = re.compile(
+        r"\b("
+        r"Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|"
+        r"Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|"
+        r"Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?"
+        r")\s+(\d{1,2})(?:,)?\s+(\d{4})\b",
+        flags=re.IGNORECASE,
+    )
+    for m in month_re.finditer(text):
+        raw = m.group(0)
+        mon = m.group(1)
+        day = m.group(2)
+        yr = m.group(3)
+        d = None
+        for fmt in ("%b %d %Y", "%B %d %Y"):
+            try:
+                d = datetime.strptime(f"{mon} {day} {yr}", fmt).date()
+                break
+            except Exception:
+                continue
+        if not d:
+            continue
+        key = (raw, d.isoformat())
+        if key in seen:
+            continue
+        seen.add(key)
+        dates.append((raw, d))
+
+    return dates
+
+
+def validate_prompt_temporal_window(prompt: str, friday_iso: str, resolves_iso: str) -> Tuple[bool, str]:
+    """
+    Hard fail when explicit calendar dates in the prompt fall outside the contract window.
+    """
+    try:
+        window_start = datetime.strptime((friday_iso or "")[:10], "%Y-%m-%d").date()
+        window_end = datetime.strptime((resolves_iso or "")[:10], "%Y-%m-%d").date()
+    except Exception:
+        return False, "invalid contract date window (friday_iso/resolves_iso)"
+
+    for raw, d in _extract_prompt_calendar_dates(prompt or ""):
+        if d < window_start:
+            return (
+                False,
+                f"Prompt date '{raw}' is before friday_iso {window_start.isoformat()} (outside 42-day contract window).",
+            )
+        if d > window_end:
+            return (
+                False,
+                f"Prompt date '{raw}' is after resolves_iso {window_end.isoformat()} (outside 42-day contract window).",
+            )
+    return True, ""
+
+
 def generate_contract(
     client_kind: str,
     client: Any,
     overton: List[str],
     insights: List[str],
     avoid_prompts: List[str],
+    friday_iso: str = "",
+    resolves_iso: str = "",
     polymarket_context: str = "",
     macro_reference_block: str = "",
     retry_hint: str = "",
@@ -430,6 +542,7 @@ PRIMARY SOURCE OF TRUTH FOR TOPICS:
 - The user message includes LIVE Polymarket markets AND a LIVE macro reference block. Prefer adapting ONE Polymarket market into a paraphrased Yes/No (policy, macro, election, rates, crypto regulation, etc.).
 - Do NOT invent synthetic index price strikes from memory (e.g. outdated S&P levels). If the question involves S&P / SPX / S&P 500, you MUST follow the numeric rules in the LIVE REFERENCE block.
 - If you cannot meet those rules, choose a non-index Polymarket theme instead of a bad index question.
+- STRICT TEMPORAL WINDOW: the contract Friday and resolution date are provided below. Any explicit calendar date mentioned in the prompt/criteria must fall inside that window. Do not use past-year windows.
 
 Anti-stale rules:
 - Each week must feel NEW: different theme AND different numeric thresholds than recent weeks unless unavoidable.
@@ -446,7 +559,12 @@ Anti-stale rules:
     macro = (macro_reference_block or "").strip() or "(No live macro reference — prefer non-numeric Polymarket themes.)"
     banned_block = f"\n\n{banned_nums}\n" if banned_nums else "\n"
     retry_block = f"\n\nVALIDATION RETRY — fix this issue and regenerate JSON only:\n{retry_hint}\n" if retry_hint.strip() else ""
-    user = f"""{macro}
+    user = f"""Contract date window (HARD CONSTRAINT):
+- friday_iso: {friday_iso or "(missing)"}
+- resolves_iso: {resolves_iso or "(missing)"}
+- Prompt/criteria must stay inside this window OR use only "within the next 42 days".
+
+{macro}
 
 {ctx}
 
@@ -606,6 +724,7 @@ def archive_current_week(history: Dict[str, Any], prev_contract: Optional[Dict])
             "debater_a": prev_contract.get("debater_a", ""),
             "debater_b": prev_contract.get("debater_b", ""),
             "expires_rule": prev_contract.get("expires_rule", ""),
+            "resolves_iso": (prev_contract.get("resolves_iso") or resolves_iso_from_friday(fr)),
             "resolution_status": "pending",
             "resolution_notes": "",
             "archived_at": datetime.now().isoformat(),
@@ -785,8 +904,9 @@ def _enforce_contract_resolution_dates(contract: Dict[str, Any], friday_iso: str
     date_long = resolution_date.strftime("%b %d, %Y")  # May 31, 2025
     day_name = resolution_date.strftime("%A")  # Should be Friday
 
-    # expires_rule
+    # expires_rule + machine-readable resolves date for the site history table
     contract["expires_rule"] = f"Resolves {day_name} 12:00 PM CST {date_iso}"
+    contract["resolves_iso"] = date_iso
 
     # resolution_clarity.resolution_criteria
     rc = contract.get("resolution_clarity") or {}
@@ -984,6 +1104,7 @@ def main() -> int:
         poly = "(Polymarket module not available.)"
 
     macro_block, spx_ref, btc_ref = build_macro_reference_block()
+    resolves_iso = resolves_iso_from_friday(friday)
     retry_hint = ""
     contract_core: Optional[Dict[str, Any]] = None
     contract_ok = False
@@ -994,22 +1115,30 @@ def main() -> int:
             overton,
             insights,
             avoid,
+            friday_iso=friday,
+            resolves_iso=resolves_iso,
             polymarket_context=poly,
             macro_reference_block=macro_block,
             retry_hint=retry_hint,
         )
         # Deterministic enforcement: friday_iso + 42 days (fixes wrong YEAR issues).
         contract_core = _enforce_contract_resolution_dates(contract_core, friday)
-        ok, err = validate_prompt_macro_sanity(
+        ok_macro, err_macro = validate_prompt_macro_sanity(
             (contract_core.get("prompt") or "").strip(),
             spx_ref,
             btc_ref,
         )
-        if ok:
+        ok_time, err_time = validate_prompt_temporal_window(
+            (contract_core.get("prompt") or "").strip(),
+            friday,
+            (contract_core.get("resolves_iso") or resolves_iso),
+        )
+        if ok_macro and ok_time:
             contract_ok = True
             break
-        retry_hint = err
-        print(f"  ⚠ Contract macro sanity check {attempt + 1}/3 failed: {err}")
+        errs = [e for e in (err_macro if not ok_macro else "", err_time if not ok_time else "") if e]
+        retry_hint = " | ".join(errs) if errs else "validation failed"
+        print(f"  ⚠ Contract validation {attempt + 1}/3 failed: {retry_hint}")
 
     if not contract_ok or not contract_core:
         print("✗ Could not generate a contract that passes live-market sanity checks after 3 tries.")

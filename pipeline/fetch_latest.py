@@ -20,16 +20,24 @@ import shutil
 from pathlib import Path
 from datetime import datetime
 
-# Config
-AUDIO_DIR = Path.home() / ".openclaw/workspace/audio"
-TRANSCRIPT_DIR = Path.home() / ".openclaw/workspace/pipeline/transcripts"
-FEEDS_FILE = Path.home() / ".openclaw/workspace/podcast_feeds.txt"
-LOG_FILE = Path.home() / ".openclaw/workspace/pipeline/state/fetch_log.json"
+from workspace_paths import (
+    AUDIO_DIR,
+    DB_PATH,
+    FEEDS_FILE,
+    PIPELINE_AUDIO_DIR,
+    PIPELINE_DIR,
+    TRANSCRIPT_DIR,
+    WHISPER_DONE_DIR,
+    WHISPER_QUEUE_DIR,
+)
 # Hard stop: do not download anything older than Feb 2026
 from cutoff_date import is_before_cutoff
 
+LOG_FILE = PIPELINE_DIR / "state" / "fetch_log.json"
+
 AUDIO_DIR.mkdir(exist_ok=True)
-TRANSCRIPT_DIR.mkdir(exist_ok=True)
+TRANSCRIPT_DIR.mkdir(parents=True, exist_ok=True)
+PIPELINE_AUDIO_DIR.mkdir(parents=True, exist_ok=True)
 
 def load_feeds():
     """Load podcast feed URLs from file."""
@@ -42,11 +50,12 @@ def load_feeds():
                     feeds.append(line)
     return feeds
 
-def fetch_latest_episode(feed_url, max_age_days=14):
-    """Fetch the most recent episode from an RSS feed.
-    
-    Returns None if the latest episode is older than max_age_days,
-    or if its rss_guid already exists in the database.
+def fetch_latest_episode(feed_url, max_age_days=14, max_items_scan=25):
+    """Pick the newest RSS episode for this feed that passes date rules and is not already in the DB.
+
+    Feeds are usually ordered newest-first, but we **scan multiple `<item>` rows** (not only the first).
+    Otherwise, when item #1 is already ingested (e.g. April 30) and item #2 is new (May 1), we would
+    incorrectly return "no work" and never download the newer episode.
     """
     try:
         req = urllib.request.Request(feed_url, headers={'User-Agent': 'Mozilla/5.0'})
@@ -63,90 +72,92 @@ def fetch_latest_episode(feed_url, max_age_days=14):
             if title_elem is not None:
                 podcast_title = title_elem.text
         
-        # Find first item (most recent episode)
-        item = root.find('.//item')
-        if item is None:
-            return None
-        
-        title = ""
-        enclosure_url = ""
-        pub_date_str = ""
-        rss_guid = ""
-
-        title_elem = item.find('title')
-        if title_elem is not None and title_elem.text:
-            title = title_elem.text
-
-        enclosure = item.find('enclosure')
-        if enclosure is not None:
-            enclosure_url = enclosure.get('url', '')
-
-        pub_elem = item.find('pubDate')
-        if pub_elem is not None and pub_elem.text:
-            pub_date_str = pub_elem.text
-
-        guid_elem = item.find('guid')
-        if guid_elem is not None and guid_elem.text:
-            rss_guid = guid_elem.text.strip()
-
-        if not title or not enclosure_url:
+        items = root.findall('.//item')[:max_items_scan]
+        if not items:
             return None
 
-        # Parse published date
-        pub_date_iso = None
-        if pub_date_str:
-            try:
-                from email.utils import parsedate_to_datetime
-                pub_date_iso = parsedate_to_datetime(pub_date_str).strftime('%Y-%m-%d')
-            except Exception:
-                pass
+        try:
+            from curate import CURRENT_MONTH_ONLY
+        except Exception:
+            CURRENT_MONTH_ONLY = True
 
-        if pub_date_iso:
-            from datetime import date
-            pub = date.fromisoformat(pub_date_iso)
-            # Forward-looking: only current calendar month (same as curate)
-            try:
-                from curate import CURRENT_MONTH_ONLY
-            except Exception:
-                CURRENT_MONTH_ONLY = True
-            if CURRENT_MONTH_ONLY:
-                today = date.today()
-                if (pub.year, pub.month) != (today.year, today.month):
-                    print(f"  ⏭ Skipping '{title[:50]}' — published {pub_date_iso} (not in current month)")
-                    return None
-            elif max_age_days is not None:
-                age_days = (date.today() - pub).days
-                if age_days > max_age_days:
-                    print(f"  ⏭ Skipping '{title[:50]}' — published {pub_date_iso} ({age_days}d ago, >{max_age_days}d limit)")
-                    return None
+        from datetime import date
 
-            if is_before_cutoff(pub_date_iso):
-                print(f"  ⏭ Skipping '{title[:50]}' — published {pub_date_iso} (before cutoff)")
-                return None
+        for item in items:
+            title = ""
+            enclosure_url = ""
+            pub_date_str = ""
+            rss_guid = ""
 
-        # Gate: skip if rss_guid already in database
-        if rss_guid:
-            import sqlite3 as _sqlite3
-            from pathlib import Path as _Path
-            db_path = _Path.home() / ".openclaw/workspace/pipeline/dashboard.db"
-            _conn = _sqlite3.connect(str(db_path))
-            existing = _conn.execute(
-                "SELECT id FROM podcast_episodes WHERE rss_guid=?", (rss_guid,)
-            ).fetchone()
-            _conn.close()
-            if existing:
-                print(f"  ⏭ Already have '{title[:50]}' (guid match, ep_id={existing[0]})")
-                return None
+            title_elem = item.find('title')
+            if title_elem is not None and title_elem.text:
+                title = title_elem.text
 
-        return {
-            'podcast': podcast_title,
-            'title': title,
-            'audio_url': enclosure_url,
-            'published': pub_date_str,
-            'published_date': pub_date_iso,
-            'rss_guid': rss_guid,
-            'feed': feed_url
-        }
+            enclosure = item.find('enclosure')
+            if enclosure is not None:
+                enclosure_url = enclosure.get('url', '')
+
+            pub_elem = item.find('pubDate')
+            if pub_elem is not None and pub_elem.text:
+                pub_date_str = pub_elem.text
+
+            guid_elem = item.find('guid')
+            if guid_elem is not None and guid_elem.text:
+                rss_guid = guid_elem.text.strip()
+
+            if not title or not enclosure_url:
+                continue
+
+            # Parse published date
+            pub_date_iso = None
+            if pub_date_str:
+                try:
+                    from email.utils import parsedate_to_datetime
+                    pub_date_iso = parsedate_to_datetime(pub_date_str).strftime('%Y-%m-%d')
+                except Exception:
+                    pass
+
+            if pub_date_iso:
+                pub = date.fromisoformat(pub_date_iso)
+                if CURRENT_MONTH_ONLY:
+                    today = date.today()
+                    if (pub.year, pub.month) != (today.year, today.month):
+                        print(f"  ⏭ Skipping '{title[:50]}' — published {pub_date_iso} (not in current month)")
+                        continue
+                elif max_age_days is not None:
+                    age_days = (date.today() - pub).days
+                    if age_days > max_age_days:
+                        print(f"  ⏭ Skipping '{title[:50]}' — published {pub_date_iso} ({age_days}d ago, >{max_age_days}d limit)")
+                        continue
+
+                if is_before_cutoff(pub_date_iso):
+                    print(f"  ⏭ Skipping '{title[:50]}' — published {pub_date_iso} (before cutoff)")
+                    continue
+
+            # Gate: skip if rss_guid already in database
+            if rss_guid:
+                import sqlite3 as _sqlite3
+
+                _conn = _sqlite3.connect(str(DB_PATH))
+                existing = _conn.execute(
+                    "SELECT id FROM podcast_episodes WHERE rss_guid=?", (rss_guid,)
+                ).fetchone()
+                _conn.close()
+                if existing:
+                    print(f"  ⏭ Already have '{title[:50]}' (guid match, ep_id={existing[0]}) — scanning feed for next…")
+                    continue
+
+            return {
+                'podcast': podcast_title,
+                'title': title,
+                'audio_url': enclosure_url,
+                'published': pub_date_str,
+                'published_date': pub_date_iso,
+                'rss_guid': rss_guid,
+                'feed': feed_url
+            }
+
+        return None
 
     except Exception as e:
         print(f"  ✗ Error fetching {feed_url}: {e}")
@@ -160,7 +171,7 @@ def check_feeds(limit_per_feed=5):
 
     feeds = load_feeds()
     if not feeds:
-        print("No feeds found. Check ~/.openclaw/workspace/podcast_feeds.txt")
+        print(f"No feeds found. Check {FEEDS_FILE}")
         return
 
     print("=" * 70)
@@ -279,14 +290,10 @@ def download_episode(episode):
                 pass
         return None
 
-WHISPER_QUEUE_DIR = Path.home() / ".openclaw/workspace/whisper_queue"
-WHISPER_DONE_DIR  = Path.home() / ".openclaw/workspace/whisper_done"
-
-
 def _delete_audio_for_stem(stem: str) -> int:
-    """Delete MP3s for this transcript stem from audio/ and whisper_queue/. Returns count deleted."""
+    """Delete episode audio for this transcript stem under workspace/audio, whisper_queue, pipeline/audio."""
     deleted = 0
-    for base_dir in (AUDIO_DIR, WHISPER_QUEUE_DIR):
+    for base_dir in (AUDIO_DIR, WHISPER_QUEUE_DIR, PIPELINE_AUDIO_DIR):
         if not base_dir.exists():
             continue
         for ext in (".mp3", ".m4a"):
@@ -300,17 +307,79 @@ def _delete_audio_for_stem(stem: str) -> int:
     return deleted
 
 
+def cleanup_audio_for_site_published_episodes() -> int:
+    """
+    Remove downloaded episode audio once an episode is on the site (DB added_to_site=1),
+    is fully processed (is_processed=1), and the transcript file still exists on disk.
+
+    Keeps transcripts and site assets under site/audio. Skips entirely if DISABLE_AUDIO_CLEANUP=1.
+
+    Call after export/publish (e.g. after a successful git push) so unpublished work-in-flight
+    still keeps its MP3s.
+
+    Returns the number of audio files removed.
+    """
+    if os.environ.get("DISABLE_AUDIO_CLEANUP", "").strip().lower() in ("1", "true", "yes"):
+        print("  ⏭ Audio cleanup skipped (DISABLE_AUDIO_CLEANUP is set)")
+        return 0
+    try:
+        from db_manager import get_db
+    except ImportError:
+        print("  ⚠ Audio cleanup skipped: db_manager unavailable")
+        return 0
+
+    db = get_db()
+    deleted_total = 0
+    stems_done: set[str] = set()
+    query = """
+        SELECT DISTINCT transcript_path
+        FROM podcast_episodes
+        WHERE added_to_site = 1
+          AND is_processed = 1
+          AND transcript_path IS NOT NULL
+          AND TRIM(transcript_path) != ''
+    """
+    try:
+        with db._get_connection() as conn:
+            rows = conn.execute(query).fetchall()
+        for row in rows:
+            raw = (row["transcript_path"] or "").strip()
+            if not raw:
+                continue
+            tp = Path(raw)
+            if not tp.is_absolute():
+                tp = (PIPELINE_DIR / tp).resolve()
+            else:
+                tp = tp.resolve()
+            if tp.suffix.lower() != ".txt":
+                continue
+            if not tp.is_file():
+                continue
+            stem = tp.stem
+            if stem in stems_done:
+                continue
+            stems_done.add(stem)
+            deleted_total += _delete_audio_for_stem(stem)
+        if deleted_total:
+            print(
+                f"  ✓ Post-publish audio cleanup: removed {deleted_total} file(s) "
+                f"(kept transcripts; unpublished episodes untouched)"
+            )
+        return deleted_total
+    except Exception as e:
+        print(f"  ⚠ Audio cleanup skipped: {e}")
+        return 0
+
+
 def sweep_completed_transcripts():
     """
-    Sweep any completed transcripts from whisper_done into the pipeline transcripts dir.
-    After moving, delete the corresponding source MP3s from audio/ and whisper_queue/
-    so they don't accumulate and waste disk.
+    Sweep completed transcripts from whisper_done into pipeline/transcripts.
+    Source MP3s are left in place until the episode is on the site — see cleanup_audio_for_site_published_episodes().
     """
     WHISPER_DONE_DIR.mkdir(parents=True, exist_ok=True)
     TRANSCRIPT_DIR.mkdir(parents=True, exist_ok=True)
 
     moved = 0
-    stems_moved = []
 
     # Move transcript text files
     for txt in WHISPER_DONE_DIR.glob("*.txt"):
@@ -318,7 +387,6 @@ def sweep_completed_transcripts():
         if not dest.exists():
             shutil.move(str(txt), str(dest))
             moved += 1
-            stems_moved.append(txt.stem)
 
     # Move matching metadata files
     for meta in WHISPER_DONE_DIR.glob("*.meta.json"):
@@ -327,35 +395,23 @@ def sweep_completed_transcripts():
             shutil.move(str(meta), str(dest))
             moved += 1
 
-    # Delete source MP3s for transcripts we just swept (free disk space)
-    for stem in stems_moved:
-        _delete_audio_for_stem(stem)
+    # Keep corresponding MP3s until the episode is on the site (see cleanup_audio_for_site_published_episodes).
 
     if moved:
         print(f"  ✓ Swept {moved} completed transcript file(s) from whisper_done into transcripts")
 
-    # Cleanup: remove any orphan MP3s that already have a transcript (e.g. from previous runs)
-    cleanup_orphan_audio()
-
 
 def cleanup_orphan_audio():
     """
-    Delete MP3s in audio/ and whisper_queue/ when a matching transcript exists
-    in pipeline/transcripts. Keeps disk usage down.
+    Deprecated: transcripts alone no longer trigger audio deletion.
+    Audio is removed only after episodes are marked on-site — see cleanup_audio_for_site_published_episodes().
     """
-    if not TRANSCRIPT_DIR.exists():
-        return
-    deleted_total = 0
-    for txt in TRANSCRIPT_DIR.glob("*.txt"):
-        n = _delete_audio_for_stem(txt.stem)
-        deleted_total += n
-    if deleted_total:
-        print(f"  ✓ Cleaned up {deleted_total} orphan audio file(s) (transcript already exists)")
+    cleanup_audio_for_site_published_episodes()
 
 def transcribe_via_launchagent(audio_path, episode, poll_interval=15, timeout_secs=3600):
     """
     Submit audio to the whisper LaunchAgent queue and poll for completion.
-    The LaunchAgent runs outside the OpenClaw sandbox, avoiding OOM SIGKILL.
+    The LaunchAgent runs outside the constrained automation sandbox, avoiding OOM SIGKILL.
     Returns path to transcript file on success, None on failure/timeout.
     """
     import json as _json, time
@@ -513,6 +569,12 @@ def main():
     if "--queue-only" in sys.argv:
         os.environ["USE_QUEUE_ONLY"] = "1"
 
+    if "--cleanup-published-audio" in sys.argv:
+        print("Cleaning up workspace audio for site-published episodes (transcripts retained)...")
+        n = cleanup_audio_for_site_published_episodes()
+        print(f"Done ({n} audio file(s) removed).")
+        return
+
     print("=" * 70)
     print("Fetch & Transcribe Latest Podcast Episodes")
     print("=" * 70)
@@ -524,7 +586,7 @@ def main():
     print(f"\nFound {len(feeds)} podcast feeds")
     
     if not feeds:
-        print("\nNo feeds found. Check ~/.openclaw/workspace/podcast_feeds.txt")
+        print(f"\nNo feeds found. Check {FEEDS_FILE}")
         return
     
     results = []

@@ -6,11 +6,12 @@ This adds detailed analysis based on the transcript content.
 
 import sqlite3
 import json
+import sys
 from pathlib import Path
 from datetime import datetime
 
-# Database path
-DB_PATH = Path.home() / ".openclaw/workspace/pipeline/dashboard.db"
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from workspace_paths import DB_PATH
 
 def get_db_connection():
     conn = sqlite3.connect(DB_PATH)

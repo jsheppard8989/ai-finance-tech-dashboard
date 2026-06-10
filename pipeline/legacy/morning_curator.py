@@ -6,11 +6,13 @@ Checks for new podcasts and sends iMessage for approval
 
 import json
 import subprocess
+import sys
 from pathlib import Path
 from datetime import datetime
 
-TRANSCRIPT_DIR = Path.home() / ".openclaw/workspace/pipeline/transcripts"
-STATE_DIR = Path.home() / ".openclaw/workspace/pipeline/state"
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from workspace_paths import STATE_DIR, TRANSCRIPT_DIR, WORKSPACE_ROOT
+
 CURATION_LOG = STATE_DIR / "curation_log.json"
 
 
@@ -70,7 +72,7 @@ def get_unprocessed_episodes():
 
 def send_imessage(phone_number, message):
     """Send iMessage using the send_imessage.sh script."""
-    script = Path.home() / ".openclaw/workspace/send_imessage.sh"
+    script = WORKSPACE_ROOT / "send_imessage.sh"
     
     if not script.exists():
         print(f"iMessage script not found at {script}")

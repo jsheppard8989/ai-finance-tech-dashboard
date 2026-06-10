@@ -3,8 +3,8 @@
 Sweep completed transcripts from whisper_done into the pipeline, then run
 analyze → promote → export so the site gets new episodes (e.g. All-In Feb 28).
 
-Usage:
-  cd ~/.openclaw/workspace/pipeline
+Usage (from repo):
+  cd <repo>/pipeline
   python3 sweep_whisper_done_and_publish.py
 
 Does not fetch or transcribe; use fetch_latest.py for that.
@@ -15,10 +15,8 @@ import subprocess
 import sys
 from pathlib import Path
 
-WORKSPACE = Path.home() / ".openclaw/workspace"
-WHISPER_DONE = WORKSPACE / "whisper_done"
-TRANSCRIPT_DIR = WORKSPACE / "pipeline" / "transcripts"
-PIPELINE_DIR = WORKSPACE / "pipeline"
+from workspace_paths import PIPELINE_DIR, TRANSCRIPT_DIR, WHISPER_DONE_DIR as WHISPER_DONE
+
 
 
 def sweep_whisper_done():

@@ -3,10 +3,15 @@ import urllib.request
 import xml.etree.ElementTree as ET
 import time
 import json
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from workspace_paths import TRANSCRIPTION_LOG_JSON
 
 # Configurations
 FEED_URL = 'https://feeds.megaphone.fm/DVVTS2890392624'
-LOG_FILE = '/Users/jaredsheppard/.openclaw/workspace/transcription_log.json'
+LOG_FILE = str(TRANSCRIPTION_LOG_JSON)
 
 # Initialize the queue
 transcription_queue = queue.Queue()

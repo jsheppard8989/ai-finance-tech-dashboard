@@ -1,12 +1,14 @@
 #!/usr/bin/env bash
-# Run by LaunchDaemon every 5 minutes. If we're in the 10pm or 5am window and
-# haven't run in the last 90 minutes, run the pipeline. Multiple chances so we
-# don't rely on one exact minute.
+# Run by LaunchDaemon every 5 minutes. If we're inside a run window and the
+# pipeline has not run in the last 90 minutes, run it. Wide windows + frequent
+# checks avoid missing the narrow slot when the clock ticks.
 set -e
-WORKSPACE="${HOME}/.openclaw/workspace"
-STATE="${WORKSPACE}/pipeline/state"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+WORKSPACE="$(cd "$SCRIPT_DIR/.." && pwd)"
+PIPELINE="$SCRIPT_DIR"
+STATE="${PIPELINE}/state"
 MARKER="${STATE}/last_evening_run.txt"
-LOG_DIR="${WORKSPACE}/pipeline/logs"
+LOG_DIR="${PIPELINE}/logs"
 mkdir -p "$LOG_DIR" "$STATE"
 exec >> "${LOG_DIR}/pipeline_schedule.out" 2>> "${LOG_DIR}/pipeline_schedule.err"
 
@@ -16,13 +18,17 @@ echo "$(date -Iseconds)" > "${STATE}/daemon_last_check.txt"
 HOUR=$(date +%H | sed 's/^0//')
 MIN=$(date +%M | sed 's/^0//')
 
-# 10pm window: 22:00-22:20
-# 5am window: 05:00-05:20
+# Morning: 05:00–07:59
+# Midday: 12:00–14:59
+# Evening: 22:00–23:59
 in_window=0
-if [ "$HOUR" -eq 22 ] && [ "$MIN" -le 20 ]; then
+if [ "$HOUR" -ge 5 ] && [ "$HOUR" -le 7 ]; then
   in_window=1
 fi
-if [ "$HOUR" -eq 5 ] && [ "$MIN" -le 20 ]; then
+if [ "$HOUR" -ge 12 ] && [ "$HOUR" -le 14 ]; then
+  in_window=1
+fi
+if [ "$HOUR" -ge 22 ] && [ "$HOUR" -le 23 ]; then
   in_window=1
 fi
 [ "$in_window" -eq 0 ] && exit 0
@@ -38,4 +44,4 @@ if [ -f "$MARKER" ]; then
 fi
 
 echo "$(date -Iseconds) run_if_scheduled: in window, running pipeline"
-"${WORKSPACE}/pipeline/run_evening_pipeline.sh" 120
+"${PIPELINE}/run_evening_pipeline.sh" 120

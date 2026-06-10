@@ -15,9 +15,17 @@ import sqlite3
 sys.path.insert(0, str(Path(__file__).parent))
 from db_manager import get_db
 from site_text_sanitize import strip_cjk_public_text
+from workspace_paths import (
+    DB_PATH,
+    PIPELINE_DIR,
+    SITE_DATA_DIR,
+    SITE_DIR,
+    STATE_DIR,
+    WHISPER_QUEUE_DIR,
+    WORKSPACE_ROOT,
+)
 
-WORKSPACE_ROOT = Path.home() / ".openclaw/workspace"
-SITE_ROOT = WORKSPACE_ROOT / "site"
+SITE_ROOT = SITE_DIR
 
 
 def bump_data_js_cache_in_site_html() -> None:
@@ -56,11 +64,10 @@ def _count_podcasts_analyzed_today() -> int:
     Return count of podcast_episodes rows created today (local date).
     Used for status.json last_steps so notifications are per-run/day, not lifetime totals.
     """
-    db_path = Path.home() / ".openclaw/workspace/pipeline/dashboard.db"
-    if not db_path.exists():
+    if not DB_PATH.exists():
         return 0
     try:
-        conn = sqlite3.connect(str(db_path))
+        conn = sqlite3.connect(str(DB_PATH))
         cursor = conn.execute(
             """
             SELECT COUNT(*) FROM podcast_episodes
@@ -81,7 +88,7 @@ def export_website_data():
     print("="*60)
     
     db = get_db()
-    site_dir = Path.home() / ".openclaw/workspace/site/data"
+    site_dir = SITE_DATA_DIR
     site_dir.mkdir(parents=True, exist_ok=True)
     
     stats = db.export_for_website(site_dir)
@@ -128,6 +135,124 @@ def _parse_iso_date_prefix(s: str):
         except Exception:
             return None
     return None
+
+
+def _count_mp3_in_dir(d: Path) -> int:
+    if not d.is_dir():
+        return 0
+    return len(list(d.glob("*.mp3")))
+
+
+STAGE_ORDER = ("downloaded", "transcribed", "analyzed", "insight_created", "published")
+
+
+def _remediation_for_stage(
+    stage: str,
+    *,
+    has_db_row: bool,
+    downloaded: bool,
+    transcribed: bool,
+    analyzed: bool,
+    insight_created: bool,
+    whisper_queue_mp3: int,
+    pipe: str,
+    ws: str,
+) -> dict:
+    """
+    Machine-oriented remediation for pipeline_state.json (LLM / simple automations).
+    `commands` are exemplar shell lines; adjust paths if WORKSPACE_ROOT differs.
+    """
+    pipe = pipe.replace("\\", "/")
+    ws = ws.replace("\\", "/")
+    base: dict = {"action_id": "", "steps": [], "commands": []}
+
+    if stage == "downloaded":
+        return {
+            **base,
+            "action_id": "FETCH_AUDIO",
+            "steps": [
+                "Approve the episode in curation (curate.py refreshes pipeline/state/curation_log.json).",
+                "Download audio and enqueue transcription: fetch_latest.py --queue-only.",
+                "If MP3 never appears, inspect pipeline/logs/pipeline_schedule.err and fetch_latest output.",
+            ],
+            "commands": [
+                f"cd {pipe} && python3 curate.py",
+                f"cd {pipe} && python3 fetch_latest.py --queue-only",
+            ],
+        }
+
+    if stage == "transcribed":
+        if not downloaded:
+            return {
+                **base,
+                "action_id": "FETCH_BEFORE_TRANSCRIBE",
+                "steps": [
+                    "Audio must exist before transcription. Complete FETCH_AUDIO first.",
+                ],
+                "commands": [f"cd {pipe} && python3 curate.py", f"cd {pipe} && python3 fetch_latest.py --queue-only"],
+            }
+        extra_q = []
+        if whisper_queue_mp3 > 0:
+            extra_q.append(
+                f"There are {whisper_queue_mp3} MP3 file(s) in whisper_queue/ waiting for the worker."
+            )
+        return {
+            **base,
+            "action_id": "TRANSCRIBE",
+            "steps": [
+                *extra_q,
+                "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
+                "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
+                "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/.",
+            ],
+            "commands": [
+                f"cd {ws} && ./whisper_worker.sh",
+                f"cd {pipe} && python3 auto_pipeline.py",
+            ],
+        }
+
+    if stage == "analyzed":
+        return {
+            **base,
+            "action_id": "ANALYZE_TRANSCRIPTS",
+            "steps": [
+                "Run transcript analysis so is_processed=1 on podcast_episodes (analyze_transcript via auto_pipeline).",
+                "Ensure LLM keys in workspace .env (e.g. MOONSHOT_API_KEY) are set if the analyzer requires them.",
+                "Quick path: auto_pipeline.py --analyze-only analyzes then continues promotion/export steps in that run.",
+            ],
+            "commands": [
+                f"cd {pipe} && python3 auto_pipeline.py --analyze-only",
+                f"cd {pipe} && python3 auto_pipeline.py",
+            ],
+        }
+
+    if stage == "insight_created":
+        return {
+            **base,
+            "action_id": "PROMOTE_INSIGHT",
+            "steps": [
+                "Promotion to latest_insights runs inside auto_pipeline after analysis.",
+                "If analysis succeeded but insight is missing, re-run full auto_pipeline.py and check logs for promote_episodes_to_insights errors.",
+            ],
+            "commands": [f"cd {pipe} && python3 auto_pipeline.py"],
+        }
+
+    if stage == "published":
+        return {
+            **base,
+            "action_id": "EXPORT_AND_PUBLISH",
+            "steps": [
+                "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
+                "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
+                "When added_to_site=1 on the episode row, this stage turns green.",
+            ],
+            "commands": [
+                f"cd {pipe} && python3 generate_deepdives.py",
+                f"cd {pipe} && python3 auto_pipeline.py",
+            ],
+        }
+
+    return {**base, "action_id": "UNKNOWN", "steps": ["Re-run export_data / auto_pipeline and inspect logs."], "commands": []}
 
 
 def _export_pipeline_state(site_dir: Path):
@@ -224,14 +349,16 @@ def _export_pipeline_state(site_dir: Path):
 
     def stage_reason_missing(missing_stage: str, has_db_row: bool) -> str:
         if not has_db_row:
-            return "Not in DB yet (approved, but not pulled into pipeline DB)."
-        # DB row exists; reason depends on stage.
+            return (
+                "No podcast_episodes row yet (curated APPROVED but DB not updated). "
+                "Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
+            )
         mapping = {
-            "downloaded": "audio_url missing (fetch step not reflected in DB yet).",
-            "transcribed": "transcript_path missing (transcribe step not reflected in DB yet).",
-            "analyzed": "is_processed=0 (analysis step not reflected in DB yet).",
-            "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet).",
-            "published": "added_to_site=0 (export/publish step not reflected in DB yet).",
+            "downloaded": "No audio_url/transcript_path on DB row and no local audio file in curation — run fetch.",
+            "transcribed": "No transcript on DB/disk — whisper_queue must drain (whisper_worker.sh) then auto_pipeline.",
+            "analyzed": "Transcript exists but is_processed=0 — run auto_pipeline analysis (or --analyze-only).",
+            "insight_created": "Analyzed but no latest_insights row — re-run auto_pipeline (insight promotion step).",
+            "published": "Insight exists but added_to_site=0 — Deep Dives + export must succeed; run auto_pipeline.",
         }
         return mapping.get(missing_stage, "Missing stage.")
 
@@ -299,6 +426,10 @@ def _export_pipeline_state(site_dir: Path):
             else:
                 txt_name = meta_path.stem + ".txt"
             rss_to_transcript_txt[rg] = meta_path.with_name(txt_name)
+
+    whisper_queue_mp3 = _count_mp3_in_dir(WHISPER_QUEUE_DIR)
+    pipe_dir = str(PIPELINE_DIR)
+    ws_dir = str(WORKSPACE_ROOT)
 
     for ep in curated_eps:
         podcast = ep.get("podcast", "") or ""
@@ -405,6 +536,30 @@ def _export_pipeline_state(site_dir: Path):
         status = derive_status(downloaded, transcribed, analyzed, insight_created, published)
         ep_key = rss_guid if rss_guid else f"{podcast}_{title[:40]}".replace(" ", "_").lower()
 
+        stages_dict = {
+            "downloaded": downloaded,
+            "transcribed": transcribed,
+            "analyzed": analyzed,
+            "insight_created": insight_created,
+            "published": published,
+        }
+        remediation_by_stage: dict[str, dict] = {}
+        for sk in STAGE_ORDER:
+            if stages_dict.get(sk):
+                continue
+            remediation_by_stage[sk] = _remediation_for_stage(
+                sk,
+                has_db_row=has_db_row,
+                downloaded=downloaded,
+                transcribed=transcribed,
+                analyzed=analyzed,
+                insight_created=insight_created,
+                whisper_queue_mp3=whisper_queue_mp3,
+                pipe=pipe_dir,
+                ws=ws_dir,
+            )
+        first_blocker = next((sk for sk in STAGE_ORDER if not stages_dict.get(sk)), None)
+
         # Increment stage counts
         if downloaded:
             stage_counts["downloaded"] += 1
@@ -424,14 +579,10 @@ def _export_pipeline_state(site_dir: Path):
                 "title": pe.get("episode_title") if pe and pe.get("episode_title") else title,
                 "published": published_str,
                 "rss_guid": rss_guid,
-                "stages": {
-                    "downloaded": downloaded,
-                    "transcribed": transcribed,
-                    "analyzed": analyzed,
-                    "insight_created": insight_created,
-                    "published": published,
-                },
+                "stages": stages_dict,
                 "stage_reasons": st_reasons,
+                "first_blocker": first_blocker,
+                "remediation_by_stage": remediation_by_stage,
                 "status": status,
             }
         )
@@ -498,6 +649,26 @@ def _export_pipeline_state(site_dir: Path):
         if _episode_identity_key(str(ep.get("podcast") or ""), str(ep.get("title") or "")) in curated_identity_set:
             continue
 
+        stages_ph = {
+            "downloaded": False,
+            "transcribed": False,
+            "analyzed": False,
+            "insight_created": False,
+            "published": False,
+        }
+        rem_ph: dict[str, dict] = {}
+        for sk in STAGE_ORDER:
+            rem_ph[sk] = _remediation_for_stage(
+                sk,
+                has_db_row=False,
+                downloaded=False,
+                transcribed=False,
+                analyzed=False,
+                insight_created=False,
+                whisper_queue_mp3=whisper_queue_mp3,
+                pipe=pipe_dir,
+                ws=ws_dir,
+            )
         tracked_feed_placeholders.append(
             {
                 "id": ep_id,
@@ -508,20 +679,16 @@ def _export_pipeline_state(site_dir: Path):
                 "published": placeholder_published_date or (ep.get("published", "") or ""),
                 "published_date": placeholder_published_date,
                 "rss_guid": ep.get("rss_guid", ""),
-                "stages": {
-                    "downloaded": False,
-                    "transcribed": False,
-                    "analyzed": False,
-                    "insight_created": False,
-                    "published": False,
-                },
+                "stages": stages_ph,
                 "stage_reasons": {
-                    "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
-                    "transcribed": "Waiting for download first.",
-                    "analyzed": "Waiting for transcript first.",
-                    "insight_created": "Depends on analyze step first.",
-                    "published": "Not on site until export after analysis and insight promotion.",
+                    "downloaded": "RSS-only: not in curation_log APPROVED list yet — run curate.py so it can be fetched.",
+                    "transcribed": "Blocked until download completes.",
+                    "analyzed": "Blocked until transcript exists.",
+                    "insight_created": "Blocked until analysis completes.",
+                    "published": "Blocked until export after insight promotion.",
                 },
+                "first_blocker": "downloaded",
+                "remediation_by_stage": rem_ph,
                 "status": "needs_download",
             }
         )
@@ -597,7 +764,16 @@ def _export_pipeline_state(site_dir: Path):
         "stale_episodes": stale_episodes,
         "stale_threshold_days": stale_threshold_days,
         "rss_filter_criteria": rss_filter_criteria,
-        "note": "Canonical pipeline_state built from DB rows + curation approvals. Stage completion is deterministic.",
+        "automation_hints": {
+            "stage_order": list(STAGE_ORDER),
+            "whisper_queue_pending_mp3": whisper_queue_mp3,
+            "fix_order": "For each episode, read first_blocker then remediation_by_stage[first_blocker].",
+            "end_to_end": f"cd {pipe_dir} && python3 auto_pipeline.py",
+            "analyze_only": f"cd {pipe_dir} && python3 auto_pipeline.py --analyze-only",
+            "whisper_worker": f"cd {ws_dir} && ./whisper_worker.sh",
+            "schema": "episode.remediation_by_stage[stage] = {action_id, steps[], commands[]}",
+        },
+        "note": "Canonical pipeline_state from DB + curation. Red stages include stage_reasons (human) and remediation_by_stage (action_id, steps, commands) for automation.",
     }
 
     payload = strip_cjk_public_text(payload)
@@ -638,7 +814,7 @@ def generate_website_js():
     print("="*60)
     
     db = get_db()
-    site_dir = Path.home() / ".openclaw/workspace/site/data"
+    site_dir = SITE_DATA_DIR
     
     # Get all data including archive
     archive = strip_cjk_public_text(db.export_archive_data())
@@ -656,7 +832,7 @@ def generate_website_js():
 
     # Chart metadata for cache-busting
     charts_version = None
-    last_chart_run_path = Path.home() / ".openclaw/workspace/pipeline/state/last_chart_run.json"
+    last_chart_run_path = STATE_DIR / "last_chart_run.json"
     if last_chart_run_path.exists():
         try:
             with open(last_chart_run_path, "r") as f:

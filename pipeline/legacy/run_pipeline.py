@@ -12,6 +12,8 @@ import json
 
 # Add pipeline directory to path
 sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from workspace_paths import INBOX_DIR, SITE_DATA_DIR, WORKSPACE_ROOT
 
 from db_manager import get_db, TickerMention, PodcastEpisode, DailyScore
 from pipeline_tracker import PodcastPipelineTracker
@@ -59,7 +61,7 @@ def import_newsletters_to_db():
     print("="*60)
     
     db = get_db()
-    inbox_dir = Path.home() / ".openclaw/workspace/pipeline/inbox"
+    inbox_dir = INBOX_DIR
     processed_dir = inbox_dir / "processed_db"
     processed_dir.mkdir(exist_ok=True)
     
@@ -228,7 +230,7 @@ def export_website_data():
     print("="*60)
     
     db = get_db()
-    site_dir = Path.home() / ".openclaw/workspace/site/data"
+    site_dir = SITE_DATA_DIR
     
     stats = db.export_for_website(site_dir)
     print(f"✓ Exported: {stats}")
@@ -241,7 +243,7 @@ def generate_website_js():
     print("="*60)
     
     db = get_db()
-    site_dir = Path.home() / ".openclaw/workspace/site/data"
+    site_dir = SITE_DATA_DIR
     
     # Get all data including archive
     archive = db.export_archive_data()
@@ -289,7 +291,7 @@ def push_to_github():
     print("="*60)
     
     # Check if git is configured
-    workspace_dir = Path.home() / ".openclaw/workspace"
+    workspace_dir = WORKSPACE_ROOT
     git_dir = workspace_dir / ".git"
     
     if not git_dir.exists():
@@ -342,7 +344,7 @@ def push_to_github():
     except subprocess.CalledProcessError as e:
         print(f"⚠ Git push failed: {e}")
         print("  You may need to run manually:")
-        print("  cd ~/.openclaw/workspace")
+        print(f"  cd {WORKSPACE_ROOT}")
         print("  git push origin main")
         return False
     except Exception as e:

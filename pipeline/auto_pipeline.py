@@ -25,12 +25,10 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from db_manager import get_db, DailyScore
 from datetime import date
+from workspace_paths import PIPELINE_DIR, SITE_DIR, STATE_DIR, WORKSPACE_ROOT as WORKSPACE
 
-WORKSPACE = Path.home() / ".openclaw/workspace"
-PIPELINE_DIR = WORKSPACE / "pipeline"
-SITE_DIR = WORKSPACE / "site"
-STATE_DIR = PIPELINE_DIR / "state"
 LOCK_FILE = STATE_DIR / "auto_pipeline.lock"
+TERM_CURATION_STATE_FILE = STATE_DIR / "term_curation_last_run.json"
 
 
 def _load_dotenv(env_path: Path) -> None:
@@ -46,7 +44,14 @@ def _load_dotenv(env_path: Path) -> None:
                 if "=" in line:
                     k, v = line.split("=", 1)
                     k, v = k.strip(), v.strip()
-                    if k and v and k not in os.environ:
+                    if not k or not v:
+                        continue
+                    # Prefer .env for API keys when the shell left an empty placeholder.
+                    prev = str(os.environ.get(k, "")).strip()
+                    if k.endswith("_API_KEY") or k in ("GITHUB_PUSH_TOKEN", "MOONSHOT_API_KEY"):
+                        if not prev:
+                            os.environ[k] = v
+                    elif k not in os.environ:
                         os.environ[k] = v
     except Exception:
         pass
@@ -133,11 +138,23 @@ def run_script(name: str, script: str, timeout: int = 300, extra_args: list = No
         return False
 
 
+def load_term_curation_summary() -> dict:
+    """Best-effort load of auto_curate_terms run summary."""
+    if not TERM_CURATION_STATE_FILE.exists():
+        return {}
+    try:
+        data = json.loads(TERM_CURATION_STATE_FILE.read_text(encoding="utf-8"))
+        return data if isinstance(data, dict) else {}
+    except Exception:
+        return {}
+
+
 def analyze_transcripts() -> int:
     """Run AI analysis on unprocessed transcripts."""
     print("\n" + "="*60)
     print("STEP: Transcript AI Analysis")
     print("="*60)
+    _load_dotenv(WORKSPACE / ".env")
     try:
         from analyze_transcript import process_all_transcripts
         result = process_all_transcripts()
@@ -317,12 +334,61 @@ def aggregate_scores():
     return len(scores)
 
 
+def sync_main_insights_with_deepdives(max_on_main: int = 8) -> int:
+    """Turn on main-page display only for insights that already have Deep Dive content.
+
+    Clears display_on_main for all non-archived rows, then enables the top ``max_on_main``
+    by source_date among insights that have a ``deep_dive_content`` row. Aligns
+    ``podcast_episodes.added_to_site`` with whether the episode is on the main insight list.
+    """
+    db = get_db()
+    with db._get_connection() as conn:
+        conn.execute(
+            """
+            UPDATE latest_insights SET display_on_main = 0
+            WHERE archived_date IS NULL
+            """
+        )
+        rows = conn.execute(
+            """
+            SELECT li.id FROM latest_insights li
+            INNER JOIN deep_dive_content ddc ON ddc.insight_id = li.id
+            WHERE li.archived_date IS NULL
+            ORDER BY li.source_date DESC, li.id DESC
+            LIMIT ?
+            """,
+            (max_on_main,),
+        ).fetchall()
+        main_ids = [int(r["id"]) for r in rows]
+        for iid in main_ids:
+            conn.execute(
+                "UPDATE latest_insights SET display_on_main = 1 WHERE id = ?",
+                (iid,),
+            )
+        conn.execute(
+            """
+            UPDATE podcast_episodes
+            SET added_to_site = CASE
+                WHEN id IN (
+                    SELECT podcast_episode_id FROM latest_insights
+                    WHERE display_on_main = 1 AND podcast_episode_id IS NOT NULL
+                ) THEN 1 ELSE 0 END
+            WHERE id IN (
+                SELECT DISTINCT podcast_episode_id FROM latest_insights
+                WHERE podcast_episode_id IS NOT NULL
+            )
+            """
+        )
+    print(f"  ✓ Main insight list synced with Deep Dives ({len(main_ids)} on main)")
+    return len(main_ids)
+
+
 def promote_episodes_to_insights() -> int:
     """Promote newly-analyzed podcast episodes into latest_insights for website display.
     
     Picks up any podcast_episodes that are is_processed=1 but have no corresponding
-    latest_insights row, and inserts insight cards for them.
-    Auto-archives old insights beyond the 8 most recent to keep the main page fresh.
+    latest_insights row, and inserts insight rows with display_on_main=0 until Deep Dives
+    exist; auto_pipeline calls sync_main_insights_with_deepdives() after generate_deepdives.
     """
     print("\n" + "="*60)
     print("STEP: Promote Episodes to Insights")
@@ -334,7 +400,8 @@ def promote_episodes_to_insights() -> int:
         # Find processed episodes not yet in latest_insights
         cursor = conn.execute("""
             SELECT pe.id, pe.podcast_name, pe.episode_title, pe.episode_date,
-                   pe.summary, pe.key_takeaways, pe.key_tickers, pe.investment_thesis
+                   pe.summary, pe.key_takeaways, pe.key_tickers, pe.investment_thesis,
+                   pe.transcript_path
             FROM podcast_episodes pe
             WHERE pe.is_processed = 1
               AND pe.id NOT IN (
@@ -347,8 +414,21 @@ def promote_episodes_to_insights() -> int:
 
     print(f"Found {len(episodes)} processed episodes not yet in insights")
 
+    from analyze_transcript import is_hostile_transcript_stem
+
     for ep in episodes:
         ep = dict(ep)
+
+        tp = (ep.get("transcript_path") or "").strip()
+        if tp:
+            stem = Path(tp).stem
+            pn = (ep.get("podcast_name") or "").strip()
+            if is_hostile_transcript_stem(stem) and pn in ("Unknown Podcast", "Unknown", ""):
+                print(
+                    f"  ⏭ Not promoting episode {ep['id']}: transcript stem is URL-like/CDN "
+                    f"and podcast_name is unknown — fix or delete this row."
+                )
+                continue
 
         # Derive key_takeaway from investment_thesis or first key_takeaway bullet
         key_takeaway = ep['investment_thesis'] or ''
@@ -393,7 +473,7 @@ def promote_episodes_to_insights() -> int:
                     (title, source_type, source_name, source_date, summary,
                      key_takeaway, tickers_mentioned, sentiment,
                      display_on_main, display_order, added_date, podcast_episode_id)
-                VALUES (?, 'podcast', ?, ?, ?, ?, ?, ?, 1, 0, ?, ?)
+                VALUES (?, 'podcast', ?, ?, ?, ?, ?, ?, 0, 0, ?, ?)
             """, (
                 ep['episode_title'],
                 ep['podcast_name'],
@@ -405,54 +485,13 @@ def promote_episodes_to_insights() -> int:
                 str(date.today()),
                 ep['id']
             ))
-            # When an episode gets a promoted "latest_insights" card, it's considered
-            # "published" for the site until exported/marked in pipeline_state.json.
-            conn.execute(
-                "UPDATE podcast_episodes SET added_to_site = 1 WHERE id = ?",
-                (ep['id'],),
-            )
             promoted += 1
-            print(f"  ✓ Promoted: '{ep['episode_title'][:60]}' (sentiment={sentiment})")
+            print(
+                f"  ✓ Queued insight (awaiting Deep Dive before main page): "
+                f"'{ep['episode_title'][:60]}' (sentiment={sentiment})"
+            )
 
-    # Auto-archive oldest insights beyond 8 on main page
-    with db._get_connection() as conn:
-        main_ids = conn.execute("""
-            SELECT id FROM latest_insights
-            WHERE display_on_main = 1 AND archived_date IS NULL
-            ORDER BY source_date DESC, id DESC
-        """).fetchall()
-
-        if len(main_ids) > 8:
-            to_archive = [row['id'] for row in main_ids[8:]]
-            for insight_id in to_archive:
-                conn.execute("""
-                    UPDATE latest_insights
-                    SET display_on_main = 0,
-                        archived_date = date('now'),
-                        archived_reason = 'Auto-archived: keep 8 most recent on main'
-                    WHERE id = ?
-                """, (insight_id,))
-            print(f"  ✓ Auto-archived {len(to_archive)} older insights")
-
-        # Keep the Pipeline Health "Site" stage aligned with what is actually
-        # on the main page (active insights). This controls when episodes drop off
-        # the "Episodes In Pipeline" dashboard.
-        to_add = conn.execute("""
-            SELECT COUNT(*) AS c
-            FROM podcast_episodes
-            WHERE added_to_site = 0
-              AND id IN (SELECT DISTINCT podcast_episode_id FROM latest_insights WHERE display_on_main = 1)
-        """).fetchone()['c']
-        if to_add:
-            conn.execute("""
-                UPDATE podcast_episodes
-                SET added_to_site = 1
-                WHERE added_to_site = 0
-                  AND id IN (SELECT DISTINCT podcast_episode_id FROM latest_insights WHERE display_on_main = 1)
-            """)
-            print(f"  ✓ Marked {to_add} episode(s) added_to_site for active main insights")
-
-    print(f"✓ Promoted {promoted} new insight(s) to website")
+    print(f"✓ Promoted {promoted} new podcast insight row(s) (off main until Deep Dive + sync)")
     return promoted
 
 
@@ -621,7 +660,7 @@ Return JSON with:
                     (title, source_type, source_name, source_date, summary,
                      key_takeaway, tickers_mentioned, sentiment,
                      display_on_main, display_order, added_date)
-                VALUES (?, 'newsletter', ?, ?, ?, ?, ?, ?, 1, 0, ?)
+                VALUES (?, 'newsletter', ?, ?, ?, ?, ?, ?, 0, 0, ?)
             """, (
                 insight_title,
                 sender_name,
@@ -713,6 +752,44 @@ def git_push(commit_msg: str, pathspecs=None) -> bool:
         except Exception:
             pass
     try:
+        # Integrate remote main before commit/push so we avoid non-fast-forward rejections
+        # when GitHub (or another machine) advanced main after our last fetch.
+        skip_pull = os.environ.get("SKIP_GIT_PULL_BEFORE_PUSH", "").strip().lower() in (
+            "1",
+            "true",
+            "yes",
+        )
+        if not skip_pull:
+            print("Git: fetch + pull --rebase --autostash origin main (before commit/push)...")
+            r_fetch = subprocess.run(
+                ["git", "fetch", "origin"],
+                capture_output=True,
+                text=True,
+                cwd=WORKSPACE,
+                timeout=120,
+            )
+            if r_fetch.returncode != 0:
+                msg = (r_fetch.stderr or r_fetch.stdout or "git fetch failed").strip()
+                print(f"✗ {msg}")
+                send_notification("Pipeline: Git fetch failed", msg[:900], priority=1)
+                return False
+            r_pull = subprocess.run(
+                ["git", "pull", "--rebase", "--autostash", "origin", "main"],
+                capture_output=True,
+                text=True,
+                cwd=WORKSPACE,
+                timeout=180,
+            )
+            if r_pull.returncode != 0:
+                msg = (r_pull.stderr or r_pull.stdout or "git pull --rebase failed").strip()
+                print(f"✗ {msg}")
+                send_notification(
+                    "Pipeline: Git pull failed before push",
+                    msg[:900] + "\n\nResolve conflicts, then push manually.",
+                    priority=1,
+                )
+                return False
+
         status_cmd = ["git", "status", "--porcelain"]
         if pathspecs:
             status_cmd.extend(["--"] + list(pathspecs))
@@ -730,19 +807,56 @@ def git_push(commit_msg: str, pathspecs=None) -> bool:
             subprocess.run(["git", "commit", "-m", commit_msg], check=True,
                            cwd=WORKSPACE, capture_output=True)
 
-        push_result = subprocess.run(
-            ["git", "push", "origin", "main"],
-            capture_output=True, text=True, cwd=WORKSPACE, timeout=60
-        )
+        def _do_push() -> subprocess.CompletedProcess:
+            return subprocess.run(
+                ["git", "push", "origin", "main"],
+                capture_output=True,
+                text=True,
+                cwd=WORKSPACE,
+                timeout=60,
+            )
+
+        push_result = _do_push()
         if push_result.returncode != 0:
             err = (push_result.stderr or push_result.stdout or str(push_result)).strip()
-            print(f"✗ Git push failed: {err}")
-            send_notification(
-                "Pipeline: Git push failed",
-                f"Site not updated on GitHub. Run 'git push origin main' from the workspace.\n\n{err[:500]}",
-                priority=1
+            # Remote often advances between pull and push (another clone, GitHub UI, CI).
+            # One extra fetch + rebase + push usually clears "fetch first" without manual steps.
+            transient = (
+                "fetch first" in err.lower()
+                or "non-fast-forward" in err.lower()
+                or "rejected" in err.lower()
             )
-            return False
+            if transient and not skip_pull:
+                print("Git: push rejected (remote moved); retrying after pull --rebase --autostash...")
+                r2 = subprocess.run(
+                    ["git", "fetch", "origin"],
+                    capture_output=True,
+                    text=True,
+                    cwd=WORKSPACE,
+                    timeout=120,
+                )
+                if r2.returncode == 0:
+                    r3 = subprocess.run(
+                        ["git", "pull", "--rebase", "--autostash", "origin", "main"],
+                        capture_output=True,
+                        text=True,
+                        cwd=WORKSPACE,
+                        timeout=180,
+                    )
+                    if r3.returncode == 0:
+                        push_result = _do_push()
+            if push_result.returncode != 0:
+                err = (push_result.stderr or push_result.stdout or str(push_result)).strip()
+                print(f"✗ Git push failed: {err}")
+                send_notification(
+                    "Pipeline: Git push failed",
+                    "Site not updated on GitHub. From the repo root run:\n"
+                    "  git fetch origin && git pull --rebase --autostash origin main\n"
+                    "then resolve any conflicts and: git push origin main\n\n"
+                    f"{err[:500]}",
+                    priority=1,
+                )
+                return False
         if result.stdout.strip():
             print(f"✓ Pushed to GitHub: {commit_msg}")
         else:
@@ -781,6 +895,18 @@ def build_summary(results: dict) -> str:
         lines.append(f"📧 {new_newsletters} newsletter(s) imported")
     if scores:
         lines.append(f"📈 {scores} tickers scored")
+    terms_promoted = int(results.get("terms_promoted", 0) or 0)
+    terms_review = int(results.get("terms_review", 0) or 0)
+    terms_pending_after = results.get("terms_pending_after")
+    if terms_promoted or terms_review or terms_pending_after is not None:
+        extra = []
+        if terms_promoted:
+            extra.append(f"{terms_promoted} promoted")
+        if terms_review:
+            extra.append(f"{terms_review} flagged for review")
+        if terms_pending_after is not None:
+            extra.append(f"{int(terms_pending_after)} pending")
+        lines.append("📋 Emerging terms: " + ", ".join(extra))
 
     # Get top tickers
     try:
@@ -793,7 +919,10 @@ def build_summary(results: dict) -> str:
     except Exception:
         pass
 
-    lines.append(f"\n🌐 Website updated")
+    if results.get("deep_dives_ok") is False:
+        lines.append("\n⚠ Site export skipped (Deep Dive step did not complete).")
+    else:
+        lines.append("\n🌐 Website export ran (see git push result for publish).")
     return "\n".join(lines)
 
 
@@ -826,12 +955,6 @@ def main():
                 errors.append("ingest")
 
         # Always: analyze + export
-        # Clean up orphan MP3s (audio/ and whisper_queue/) when transcript exists — saves disk
-        try:
-            from fetch_latest import cleanup_orphan_audio
-            cleanup_orphan_audio()
-        except Exception as e:
-            print(f"  ⚠ Orphan audio cleanup skipped: {e}")
         results['transcripts_analyzed'] = analyze_transcripts()
 
         # Optional: semantic layer AI pipeline (entities/appearances/ideas)
@@ -871,8 +994,20 @@ def main():
             print(f"  ⚠ Pundit enrichment skipped: {e}")
             results['pundits_enriched'] = 0
 
-        # Generate Deep Dives for any insights that don't have one (so site always has full content)
-        run_script("Generate Deep Dives", "generate_deepdives.py", timeout=900)
+        # Deep Dives must succeed before we expose insights on the main page or publish site data.
+        dd_ok = run_script("Generate Deep Dives", "generate_deepdives.py", timeout=900)
+        results["deep_dives_ok"] = bool(dd_ok)
+        if dd_ok:
+            results["main_insights_synced"] = sync_main_insights_with_deepdives()
+        else:
+            errors.append("deep_dives")
+            results["main_insights_synced"] = 0
+            send_notification(
+                "Pipeline: Deep Dives failed",
+                "generate_deepdives.py did not complete successfully. Export and git push were skipped; "
+                "insights stay off the main list until the next successful run.",
+                priority=1,
+            )
 
         run_script("Fetch Prices", "fetch_prices.py", timeout=120)
         # Generate 2-week charts and price data for the website
@@ -884,27 +1019,54 @@ def main():
                 priority=1,
             )
         run_script("Auto-Curate Terms", "auto_curate_terms.py", timeout=60)
+        term_summary = load_term_curation_summary()
+        results["terms_promoted"] = int(term_summary.get("promoted", 0) or 0)
+        results["terms_review"] = int(term_summary.get("review", 0) or 0)
+        if "pending_after" in term_summary:
+            results["terms_pending_after"] = int(term_summary.get("pending_after", 0) or 0)
+        if "pending_before" in term_summary:
+            results["terms_pending_before"] = int(term_summary.get("pending_before", 0) or 0)
         run_script("Extract Podcast Guests", "extract_guests.py", timeout=180)
 
-        if not export_website():
-            errors.append("export")
-        else:
-            if not maybe_run_weekly_debate_after_export():
+        export_ok = False
+        if dd_ok:
+            export_ok = export_website()
+            if not export_ok:
+                errors.append("export")
+            elif not maybe_run_weekly_debate_after_export():
                 errors.append("weekly_debate")
                 send_notification(
                     "Pipeline: Weekly debate failed",
                     "debate_weekly.py failed after export; debate contract/audio were not updated.",
                     priority=1,
                 )
+        else:
+            print("  ⏭ Skipping export and git push (Deep Dive step did not complete).")
 
         # Build commit message
         ts = datetime.now().strftime("%Y-%m-%d %H:%M")
         commit_msg = f"Pipeline update {ts}: {results['transcripts_analyzed']} podcasts, {results['insights_promoted']} insights, {results['newsletters_imported']} newsletters"
-        git_push(commit_msg, pathspecs=["site"])
+        pushed_ok = git_push(commit_msg, pathspecs=["site"]) if export_ok else False
+        if not export_ok and dd_ok:
+            print("  ⚠ Skipping git push (export failed).")
+
+        # Drop episode downloads once commits are published (transcripts retained)
+        if pushed_ok:
+            try:
+                from fetch_latest import cleanup_audio_for_site_published_episodes
+
+                cleanup_audio_for_site_published_episodes()
+            except Exception as e:
+                print(f"  ⚠ Post-publish audio cleanup skipped: {e}")
 
         # Send summary notification
         summary = build_summary(results)
-        if results.get('transcripts_analyzed', 0) > 0 or results.get('newsletters_imported', 0) > 0:
+        if (
+            results.get('transcripts_analyzed', 0) > 0
+            or results.get('newsletters_imported', 0) > 0
+            or results.get("terms_promoted", 0) > 0
+            or results.get("terms_review", 0) > 0
+        ):
             send_notification("Pipeline Update", summary)
         else:
             print("Nothing new — skipping notification")

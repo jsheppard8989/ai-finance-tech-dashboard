@@ -13,14 +13,12 @@ import pandas as pd
 import sqlite3
 import json
 
+from workspace_paths import DB_PATH, SITE_CHARTS_DIR as CHARTS_DIR, STATE_DIR
+
 # Config
-CHARTS_DIR = Path.home() / ".openclaw/workspace/site/charts"
 CHARTS_DIR.mkdir(exist_ok=True)
 
-DB_PATH = Path.home() / ".openclaw/workspace/pipeline/dashboard.db"
-
 # State file to record last successful chart run (for cache-busting & diagnostics)
-STATE_DIR = Path.home() / ".openclaw/workspace/pipeline/state"
 STATE_DIR.mkdir(parents=True, exist_ok=True)
 LAST_CHART_RUN_FILE = STATE_DIR / "last_chart_run.json"
 

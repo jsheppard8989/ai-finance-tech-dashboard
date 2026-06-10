@@ -12,6 +12,10 @@ from typing import FrozenSet
 
 EXCLUDED_PUNDIT_NAMES: FrozenSet[str] = frozenset(
     {
+        # a16z — firm GPs / hosts (appear on many episodes as "guests"; not third-party pundits)
+        "Ben Horowitz",
+        "Marc Andreessen",
+        "Mark Andreessen",  # common spelling slip / ASR
         # Moonshots / recurring co-hosts & variants
         "Dylan",
         "Moonshots",
@@ -19,6 +23,7 @@ EXCLUDED_PUNDIT_NAMES: FrozenSet[str] = frozenset(
         "Dave Blund",
         "Dave Blundin",
         "David Sacks",
+        "David Sachs",  # ASR typo for David Sacks (All-In host)
         "David Friedberg",
         # Alex Wissner-Gross (co-host; ASR sometimes says "Alex Wey"; on-air "AWG")
         "Alexander Wissner-Gross",

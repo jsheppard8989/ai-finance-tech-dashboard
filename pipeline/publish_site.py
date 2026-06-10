@@ -22,10 +22,10 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-WORKSPACE = Path.home() / ".openclaw/workspace"
-PIPELINE = WORKSPACE / "pipeline"
-SITE_DATA = WORKSPACE / "site" / "data"
-STATE_DIR = PIPELINE / "state"
+from workspace_paths import PIPELINE_DIR, SITE_DATA_DIR, STATE_DIR, WORKSPACE_ROOT as WORKSPACE
+
+PIPELINE = PIPELINE_DIR
+SITE_DATA = SITE_DATA_DIR
 LAST_PUBLISH = STATE_DIR / "last_publish.json"
 LAST_ATTEMPT = STATE_DIR / "last_publish_attempt.json"
 
@@ -145,6 +145,13 @@ def main() -> int:
     if not pushed:
         _write_attempt(False, "git push failed (see notification)")
         return 1
+
+    try:
+        from fetch_latest import cleanup_audio_for_site_published_episodes
+
+        cleanup_audio_for_site_published_episodes()
+    except Exception as e:
+        print(f"  ⚠ Post-publish audio cleanup: {e}")
 
     sha = ""
     try:

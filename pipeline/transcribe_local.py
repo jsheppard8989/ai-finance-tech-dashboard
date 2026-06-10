@@ -9,10 +9,9 @@ import subprocess
 import sys
 from pathlib import Path
 
+from workspace_paths import AUDIO_DIR as WORKSPACE_AUDIO_DIR, PIPELINE_AUDIO_DIR as AUDIO_DIR, TRANSCRIPT_DIR
+
 # Config
-AUDIO_DIR = Path.home() / ".openclaw/workspace/pipeline/audio"
-WORKSPACE_AUDIO_DIR = Path.home() / ".openclaw/workspace/audio"
-TRANSCRIPT_DIR = Path.home() / ".openclaw/workspace/pipeline/transcripts"
 TRANSCRIPT_DIR.mkdir(parents=True, exist_ok=True)
 AUDIO_DIR.mkdir(parents=True, exist_ok=True)
 

@@ -13,10 +13,11 @@ from datetime import datetime
 from typing import Optional
 
 sys.path.insert(0, str(Path(__file__).parent))
+from workspace_paths import PIPELINE_DIR
 from db_manager import get_db
 
 # Grokipedia-style overrides: curated bios, known-for, fixes, and blocklist
-OVERRIDES_PATH = Path.home() / ".openclaw/workspace/pipeline/guest_overrides.json"
+OVERRIDES_PATH = PIPELINE_DIR / "guest_overrides.json"
 _OVERRIDES_CACHE = None
 
 
@@ -75,7 +76,7 @@ def extract_guest_name(episode_title: str, summary: str, podcast_name: str = "")
         if p and (name.lower() in p or p in name.lower()):
             return False
         lower = name.lower()
-        if any(x in lower for x in ("the panel", "podcast", " episode ", " part 2", " part 1", "openclaw", "monetary matters")):
+        if any(x in lower for x in ("the panel", "podcast", " episode ", " part 2", " part 1", "monetary matters")):
             return False
         if name.count(",") >= 1 or (len(name) > 45 and not re.match(r"^[A-Z][a-z]+(?:\s+[A-Z][a-z]+)+$", name)):
             return False

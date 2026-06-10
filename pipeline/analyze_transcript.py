@@ -13,6 +13,7 @@ from datetime import datetime, date
 from typing import List, Dict, Optional, Tuple
 
 sys.path.insert(0, str(Path(__file__).parent))
+from workspace_paths import DB_PATH, PROCESSING_MARKER_DIR as PROCESSED_MARKER_DIR, STATE_DIR, TRANSCRIPT_DIR
 from db_manager import get_db, PodcastEpisode, TickerMention
 from person_name_safety import is_placeholder_person_name
 from pundit_exclusions import is_excluded_pundit_name
@@ -33,10 +34,21 @@ except ImportError:
     GEMINI_AVAILABLE = False
     print("  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai")
 
-# Paths
-TRANSCRIPT_DIR = Path.home() / ".openclaw/workspace/pipeline/transcripts"
-PROCESSED_MARKER_DIR = Path.home() / ".openclaw/workspace/pipeline/processed"
 PROCESSED_MARKER_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def _emerging_term_attributed_speaker(analysis: Dict) -> Optional[str]:
+    """Label for 'who' surfaced an emerging term: primary guests, else hosts."""
+    guests = analysis.get("guests") or []
+    names = [(g.get("name") or "").strip() for g in guests if (g.get("name") or "").strip()]
+    if names:
+        return ", ".join(names[:3])
+    hosts = analysis.get("hosts") or []
+    hnames = [(h.get("name") or "").strip() for h in hosts if (h.get("name") or "").strip()]
+    if hnames:
+        return ", ".join(hnames[:2]) + " (hosts)"
+    return None
+
 
 # Podcast name mappings from filename patterns
 PODCAST_PATTERNS = {
@@ -83,8 +95,10 @@ def get_ai_client() -> Optional[any]:
 
     # Helper lambdas so we can reuse the same init logic in both normal and override paths.
     def _init_moonshot():
-        auth_profiles_path = Path.home() / ".openclaw/agents/main/agent/auth-profiles.json"
-        if not (auth_profiles_path.exists() and OPENAI_AVAILABLE):
+        from workspace_paths import agent_auth_profiles_path
+
+        auth_profiles_path = agent_auth_profiles_path()
+        if not (auth_profiles_path and auth_profiles_path.exists() and OPENAI_AVAILABLE):
             return None
         try:
             with open(auth_profiles_path) as f:
@@ -100,6 +114,19 @@ def get_ai_client() -> Optional[any]:
                         return ("moonshot", client)
         except Exception as e:
             print(f"  ⚠ Moonshot init failed: {e}")
+        return None
+
+    def _init_moonshot_env():
+        """Moonshot from MOONSHOT_API_KEY in environment (.env)."""
+        kimi_key = os.environ.get("MOONSHOT_API_KEY", "").strip()
+        if not (kimi_key and OPENAI_AVAILABLE):
+            return None
+        try:
+            client = OpenAI(api_key=kimi_key, base_url="https://api.moonshot.ai/v1")
+            print("  Using Moonshot/Kimi API (MOONSHOT_API_KEY)")
+            return ("moonshot", client)
+        except Exception as e:
+            print(f"  ⚠ Moonshot env init failed: {e}")
         return None
 
     def _init_gemini():
@@ -132,6 +159,9 @@ def get_ai_client() -> Optional[any]:
         client = _init_moonshot()
         if client:
             return client
+        client = _init_moonshot_env()
+        if client:
+            return client
     elif backend_override == "gemini":
         client = _init_gemini()
         if client:
@@ -146,6 +176,10 @@ def get_ai_client() -> Optional[any]:
     if client:
         return client
 
+    client = _init_moonshot_env()
+    if client:
+        return client
+
     client = _init_gemini()
     if client:
         return client
@@ -154,7 +188,7 @@ def get_ai_client() -> Optional[any]:
     if client:
         return client
 
-    print("  ⚠ No AI API keys found. Set GEMINI_API_KEY or OPENAI_API_KEY")
+    print("  ⚠ No AI client: set MOONSHOT_API_KEY, GEMINI_API_KEY, or OPENAI_API_KEY (or Moonshot in Cursor auth profiles).")
     return None
 
 
@@ -201,6 +235,40 @@ def parse_podcast_info(filename: str, content: str = '') -> Tuple[str, str]:
     
     # 4. Final fallback
     return 'Unknown Podcast', stem
+
+
+def is_hostile_transcript_stem(stem: str) -> bool:
+    """True when the transcript basename is a raw URL or URL-encoding, not a stable human slug.
+
+    Anchor/Simplecast sometimes write audio under encoded CDN paths; those stems must never
+    become insight titles or 'episode_title' without proper RSS sidecar metadata.
+    """
+    s = (stem or "").strip()
+    if not s:
+        return True
+    low = s.lower()
+    if low.startswith("http"):
+        return True
+    if "%2f" in low or "%3a" in low or s.count("%") >= 3:
+        return True
+    if "cloudfront.net" in low or "d3ctxlq" in low:
+        return True
+    return False
+
+
+def sidecar_identity_trustworthy(sidecar: dict) -> bool:
+    """Enough sidecar metadata to publish (podcast + title, or rss_guid)."""
+    if not sidecar:
+        return False
+    if (sidecar.get("rss_guid") or "").strip():
+        return True
+    pn = (sidecar.get("podcast_name") or "").strip()
+    et = (sidecar.get("episode_title") or "").strip()
+    if not et:
+        return False
+    if pn and pn not in ("Unknown", "Unknown Podcast"):
+        return True
+    return False
 
 
 def extract_date_from_content(content: str) -> Optional[date]:
@@ -260,8 +328,7 @@ def is_transcript_processed(transcript_path: Path) -> bool:
         if not episode_id or episode_id <= 0:
             return False
         import sqlite3 as _sqlite3
-        db_path = Path.home() / ".openclaw/workspace/pipeline/dashboard.db"
-        conn = _sqlite3.connect(str(db_path))
+        conn = _sqlite3.connect(str(DB_PATH))
         cur = conn.execute("SELECT 1 FROM podcast_episodes WHERE id = ?", (episode_id,))
         exists = cur.fetchone() is not None
         conn.close()
@@ -284,7 +351,7 @@ def mark_transcript_processed(transcript_path: Path, episode_id: int):
     if episode_id and episode_id > 0:
         try:
             import sqlite3 as _sqlite3
-            _conn = _sqlite3.connect(str(Path.home() / ".openclaw/workspace/pipeline/dashboard.db"))
+            _conn = _sqlite3.connect(str(DB_PATH))
             _conn.execute("UPDATE podcast_episodes SET is_processed = 1 WHERE id = ?", (episode_id,))
             _conn.commit()
             _conn.close()
@@ -292,8 +359,18 @@ def mark_transcript_processed(transcript_path: Path, episode_id: int):
             print(f"    ⚠ Could not set is_processed in DB for episode {episode_id}: {e}")
 
 
-def analyze_transcript_with_ai(client_info, transcript_content: str, podcast_name: str) -> Dict:
-    """Use AI to extract structured data from transcript."""
+def analyze_transcript_with_ai(
+    client_info,
+    transcript_content: str,
+    podcast_name: str,
+    *,
+    content_from_digest: bool = False,
+) -> Dict:
+    """Use AI to extract structured data from transcript.
+
+    If ``content_from_digest`` is True, the text is already an evidence-preserving
+    Stage A markdown digest — do not apply lossy sampling.
+    """
     
     if client_info is None:
         return None
@@ -302,8 +379,9 @@ def analyze_transcript_with_ai(client_info, transcript_content: str, podcast_nam
     
     # Smart sampling: send beginning + middle + end rather than just truncating top
     # This gives the AI context from across the full episode, not just the intro
+    # Skip when using Stage A digest (already compressed, evidence-preserving).
     max_chars = 12000
-    if len(transcript_content) > max_chars:
+    if not content_from_digest and len(transcript_content) > max_chars:
         chunk = max_chars // 3
         beginning = transcript_content[:chunk]
         mid_start = len(transcript_content) // 2 - chunk // 2
@@ -315,9 +393,17 @@ def analyze_transcript_with_ai(client_info, transcript_content: str, podcast_nam
             ending
         )
     
+    digest_note = ""
+    if content_from_digest:
+        digest_note = (
+            "NOTE: The following is an evidence-preserving markdown DIGEST (ads/filler removed; "
+            "quotes, tickers, and facts retained). Extract insights from this digest.\n\n"
+        )
+
     prompt = (
         "You are an expert financial analyst and podcast curator. "
         f"Analyze this podcast transcript from \"{podcast_name}\" and extract structured investment insights.\n\n"
+        f"{digest_note}"
         "IMPORTANT: Write all of the following in English only (summary, key_takeaways, investment_thesis, guest bios, emerging_terms). "
         "Do not use other languages even if the transcript or topic is in another language.\n\n"
         "TRANSCRIPT:\n"
@@ -470,7 +556,7 @@ def episode_exists_in_db(
     """
     import sqlite3 as _sqlite3
     try:
-        conn = _sqlite3.connect(str(Path.home() / ".openclaw/workspace/pipeline/dashboard.db"))
+        conn = _sqlite3.connect(str(DB_PATH))
 
         # 1. GUID match — most reliable
         if rss_guid:
@@ -534,10 +620,8 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
         print(f"    ⏭ Too short, skipping")
         return None
 
-    # Parse podcast info (pass content for fallback content-based detection)
-    podcast_name, episode_slug = parse_podcast_info(transcript_path.name, content)
-
-    # Load sidecar metadata (rss_guid, published_date, etc.)
+    # Load sidecar before podcast inference so we can require trustworthy RSS metadata
+    # for URL-encoded / CDN transcript filenames (prevents "Unknown Podcast" + URL titles).
     meta_file = transcript_path.parent / f"{transcript_path.stem}.meta.json"
     sidecar = {}
     if meta_file.exists():
@@ -546,7 +630,30 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
                 sidecar = json.load(mf)
         except Exception:
             pass
-    rss_guid = sidecar.get('rss_guid', '') or ''
+
+    podcast_name, episode_slug = parse_podcast_info(transcript_path.name, content)
+    sc_pod = (sidecar.get("podcast_name") or "").strip()
+    if sc_pod and sc_pod not in ("Unknown", "Unknown Podcast"):
+        podcast_name = sc_pod
+
+    stem = transcript_path.stem
+    if is_hostile_transcript_stem(stem) and not sidecar_identity_trustworthy(sidecar):
+        print(
+            "    ⏭ Skipping: filename is URL-encoded/CDN; add rss_guid or "
+            "(podcast_name + episode_title) to sidecar .meta.json before analysis."
+        )
+        mark_transcript_processed(transcript_path, -1)
+        return None
+
+    if podcast_name in ("Unknown Podcast", "Unknown") and not sidecar_identity_trustworthy(sidecar):
+        print(
+            "    ⏭ Skipping: podcast unknown and sidecar lacks rss_guid or "
+            "podcast_name + episode_title (cannot attribute episode safely)."
+        )
+        mark_transcript_processed(transcript_path, -1)
+        return None
+
+    rss_guid = sidecar.get("rss_guid", "") or ""
 
     published_raw = sidecar.get("published_date") or sidecar.get("published") or ""
     sidecar_has_date = bool(published_raw)
@@ -567,8 +674,26 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
         mark_transcript_processed(transcript_path, -1)  # Mark as processed to avoid re-checking
         return None
     
-    # Analyze with AI
-    analysis = analyze_transcript_with_ai(client_info, content, podcast_name)
+    # Optional Stage A: evidence-preserving markdown digest (cheap LLM) for long episodes
+    analysis_source = content
+    used_digest = False
+    try:
+        from transcript_digest import ensure_digest_file
+
+        dp = ensure_digest_file(transcript_path, podcast_name, content, force=False)
+        if dp is not None and dp.exists():
+            analysis_source = dp.read_text(encoding="utf-8")
+            used_digest = True
+    except Exception as exc:
+        print(f"    ⚠ transcript_digest skipped: {exc}")
+
+    # Analyze with AI (full transcript or Stage A digest)
+    analysis = analyze_transcript_with_ai(
+        client_info,
+        analysis_source,
+        podcast_name,
+        content_from_digest=used_digest,
+    )
     if not analysis:
         print(f"    ✗ AI analysis failed")
         return None
@@ -605,6 +730,12 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
     sidecar_episode_title = (sidecar.get("episode_title") or "").strip()
     if sidecar_episode_title:
         episode_title = sidecar_episode_title
+
+    title_s = (episode_title or "").strip()
+    if "%" in title_s or title_s.lower().startswith("http") or "cloudfront.net" in title_s.lower():
+        print("    ⏭ Skipping: episode title still looks like a URL/encoding artifact after sidecar/AI merge.")
+        mark_transcript_processed(transcript_path, -1)
+        return None
     
     # CRITICAL: Check database again with the final title (sidecar or AI/derived)
     if episode_exists_in_db(
@@ -740,20 +871,28 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
 
     # Ingest emerging terms from AI into suggested_terms (Emerging Terms box)
     source_context = f"{podcast_name} • {episode_title[:80]}"
+    detected_by = _emerging_term_attributed_speaker(analysis)
     for et in analysis.get('emerging_terms') or []:
         term = (et.get('term') or '').strip()
         if not term:
             continue
         definition = (et.get('definition') or '').strip() or None
         investment_angle = (et.get('investment_angle') or '').strip() or None
-        if db.upsert_suggested_term_from_ai(term, definition, investment_angle, source_context):
+        if db.upsert_suggested_term_from_ai(
+            term,
+            definition,
+            investment_angle,
+            source_context,
+            episode_id=episode_id,
+            detected_by=detected_by,
+        ):
             print(f"    + Emerging term: {term[:50]}")
 
     # Store rss_guid and published_date from sidecar
     if episode_id and (rss_guid or sidecar.get('published_date')):
         try:
             import sqlite3 as _sqlite3
-            _conn = _sqlite3.connect(str(Path.home() / ".openclaw/workspace/pipeline/dashboard.db"))
+            _conn = _sqlite3.connect(str(DB_PATH))
             _conn.execute(
                 "UPDATE podcast_episodes SET rss_guid=?, published_date=? WHERE id=?",
                 (rss_guid or None, sidecar.get('published_date') or None, episode_id)
@@ -817,7 +956,7 @@ def process_all_transcripts() -> Dict[str, any]:
     errors = 0
     
     # Load existing analysis failures (if any)
-    failures_path = Path.home() / ".openclaw/workspace/pipeline/state/analysis_failures.json"
+    failures_path = STATE_DIR / "analysis_failures.json"
     try:
         if failures_path.exists():
             with open(failures_path, "r") as f:

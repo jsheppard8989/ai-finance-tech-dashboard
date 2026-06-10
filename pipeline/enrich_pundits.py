@@ -31,6 +31,7 @@ except ImportError:
 from pathlib import Path
 
 sys.path.append(str(Path(__file__).parent))
+from workspace_paths import PIPELINE_DIR as PIPELINE, WORKSPACE_ROOT as WORKSPACE, workspace_root
 from db_manager import get_db  # type: ignore
 from person_name_safety import is_placeholder_person_name
 
@@ -43,9 +44,6 @@ try:
     from pundit_profile_llm import fetch_pundit_profile_via_llm  # type: ignore
 except ImportError:
     fetch_pundit_profile_via_llm = None  # type: ignore
-
-WORKSPACE = Path.home() / ".openclaw/workspace"
-PIPELINE = WORKSPACE / "pipeline"
 
 from pundit_exclusions import is_excluded_pundit_name
 
@@ -172,7 +170,7 @@ def _wikidata_search_entity_id(name: str) -> Optional[str]:
     try:
         resp = requests.get(
             "https://www.wikidata.org/w/api.php",
-            headers={"User-Agent": "OpenClaw/1.0 (ai-finance-tech-dashboard; no-reply)"},  # Wikidata requires UA
+            headers={"User-Agent": "ScarcityAbundanceDashboard/1.0 (ai-finance-tech-dashboard; no-reply)"},  # Wikidata requires UA
             params={
                 "action": "wbsearchentities",
                 "format": "json",
@@ -208,7 +206,7 @@ def _wikidata_net_worth_usd(entity_id: str) -> Tuple[Optional[float], Optional[s
     try:
         resp = requests.get(
             "https://www.wikidata.org/w/api.php",
-            headers={"User-Agent": "OpenClaw/1.0 (ai-finance-tech-dashboard; no-reply)"},  # Wikidata requires UA
+            headers={"User-Agent": "ScarcityAbundanceDashboard/1.0 (ai-finance-tech-dashboard; no-reply)"},  # Wikidata requires UA
             params={
                 "action": "wbgetentities",
                 "format": "json",
@@ -296,7 +294,7 @@ def fetch_net_worth_from_search(name: str, known_for: str = "") -> Tuple[Optiona
             headers={
                 "X-Subscription-Token": brave_key.strip(),
                 "Accept": "application/json",
-                "User-Agent": "OpenClaw/1.0 (ai-finance-tech-dashboard; no-reply)",
+                "User-Agent": "ScarcityAbundanceDashboard/1.0 (ai-finance-tech-dashboard; no-reply)",
             },
             params={"q": query, "count": 10},
             timeout=20,
@@ -344,7 +342,7 @@ def _load_latest_transcript_excerpt(conn, entity_id: int, max_chars: int = 5000)
         return ""
     tpath = Path(p)
     if not tpath.is_absolute():
-        tpath = (Path.home() / ".openclaw/workspace" / p).resolve()
+        tpath = (workspace_root() / p).resolve()
     if not tpath.exists():
         return ""
     try:

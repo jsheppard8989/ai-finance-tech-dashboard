@@ -11,7 +11,7 @@ from pathlib import Path
 from datetime import datetime, timedelta
 from typing import List, Dict, Optional
 
-DB_PATH = Path.home() / ".openclaw/workspace/pipeline/dashboard.db"
+from workspace_paths import DB_PATH
 
 class SuggestedTermsManager:
     """Manage suggested terms workflow."""

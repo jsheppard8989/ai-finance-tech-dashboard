@@ -9,15 +9,16 @@ import sqlite3
 from pathlib import Path
 from datetime import datetime, timedelta
 
-DB_PATH = Path.home() / ".openclaw/workspace/pipeline/dashboard.db"
-PRICE_FILE = Path.home() / ".openclaw/workspace/site/price_data.json"
+from workspace_paths import DB_PATH, SITE_DATA_DIR, SITE_DIR
+
+PRICE_FILE = SITE_DIR / "price_data.json"
 
 def get_tickers_from_data():
     """Get all tickers that need prices from ticker_scores.json and database."""
     tickers = set()
     
     # Load from ticker_scores.json (primary source)
-    ticker_scores_file = Path.home() / ".openclaw/workspace/site/data/ticker_scores.json"
+    ticker_scores_file = SITE_DATA_DIR / "ticker_scores.json"
     if ticker_scores_file.exists():
         try:
             with open(ticker_scores_file, 'r') as f:
