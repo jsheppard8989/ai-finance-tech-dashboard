@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.scarcity.pipeline.catchup</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline/run_evening_catchup.sh</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline</string>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <!-- Always-on Mac: RunAtLoad only fires at login, so add a daily backup after the 22:00 calendar job. -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>22</integer>
+        <key>Minute</key>
+        <integer>10</integer>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline/logs/pipeline_catchup.out</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline/logs/pipeline_catchup.err</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>HOME</key>
+        <string>/Users/jaredsheppard</string>
+        <key>PATH</key>
+        <string>/Users/jaredsheppard/anaconda3/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+        <key>WORKSPACE_ROOT</key>
+        <string>/Users/jaredsheppard/projects/ai-finance-tech-dashboard</string>
+    </dict>
+</dict>
+</plist>

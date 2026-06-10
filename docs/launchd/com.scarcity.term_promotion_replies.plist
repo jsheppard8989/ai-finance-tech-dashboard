@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Program must be Contents/MacOS/TermPromotionRepliesRunner — same basename as
+  CFBundleExecutable — or macOS Full Disk Access ignores the process (errno 1 on chat.db).
+  PYTHONHOME loads conda stdlib/site-packages. Remove + re-add the .app in FDA after changes.
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.scarcity.term_promotion_replies</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline/TermPromotionRepliesRunner.app/Contents/MacOS/TermPromotionRepliesRunner</string>
+        <string>/Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline/process_term_promotion_replies.py</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline</string>
+
+    <key>StartInterval</key>
+    <integer>120</integer>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline/logs/term_promotion_replies.out</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline/logs/term_promotion_replies.err</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>HOME</key>
+        <string>/Users/jaredsheppard</string>
+        <key>PATH</key>
+        <string>/Users/jaredsheppard/anaconda3/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+        <key>WORKSPACE_ROOT</key>
+        <string>/Users/jaredsheppard/projects/ai-finance-tech-dashboard</string>
+        <key>PYTHONHOME</key>
+        <string>/Users/jaredsheppard/anaconda3</string>
+    </dict>
+</dict>
+</plist>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.scarcity.pipeline.schedule</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline/run_evening_pipeline.sh</string>
+        <string>120</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline</string>
+
+    <key>StartCalendarInterval</key>
+    <array>
+        <dict>
+            <key>Hour</key>
+            <integer>22</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>Hour</key>
+            <integer>5</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>Hour</key>
+            <integer>12</integer>
+            <key>Minute</key>
+            <integer>30</integer>
+        </dict>
+        <dict>
+            <key>Hour</key>
+            <integer>15</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+    </array>
+
+    <key>StandardOutPath</key>
+    <string>/Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline/logs/pipeline_schedule.out</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline/logs/pipeline_schedule.err</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>HOME</key>
+        <string>/Users/jaredsheppard</string>
+        <key>PATH</key>
+        <string>/Users/jaredsheppard/anaconda3/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+        <key>WORKSPACE_ROOT</key>
+        <string>/Users/jaredsheppard/projects/ai-finance-tech-dashboard</string>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>
