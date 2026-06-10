@@ -536,8 +536,8 @@
         const mentionScore = (p.mention_score || p.appearance_count || 0);
         const decayed = (typeof p.mention_score_decayed === 'number') ? p.mention_score_decayed : mentionScore;
         const cap = 4.0;
-        const norm = Math.max(0, Math.min(1, (decayed || 0) / cap));
-        const presencePct = Math.max(0, Math.min(100, Math.round(norm * 100)));
+        const presenceNorm = Math.max(0, Math.min(1, (decayed || 0) / cap));
+        const presencePct = Math.max(0, Math.min(100, Math.round(presenceNorm * 100)));
         let whoText = '';
         if (known) whoText = known;
         else if (bio) whoText = bio;
@@ -563,9 +563,9 @@
           var leads = Array.isArray(prof.lead_paragraphs) ? prof.lead_paragraphs.slice(0, 2).map(function(x) { return String(x || '').trim(); }).filter(Boolean) : [];
           var leadTxt = leads.length ? leads.join('\n\n') : '';
           if (cliff && leadTxt) {
-            var norm = function(s) { return String(s || '').replace(/\s+/g, ' ').trim().toLowerCase(); };
-            var c = norm(cliff);
-            var l = norm(leadTxt);
+            var normalizeProfileText = function(s) { return String(s || '').replace(/\s+/g, ' ').trim().toLowerCase(); };
+            var c = normalizeProfileText(cliff);
+            var l = normalizeProfileText(leadTxt);
             if (c === l || c.indexOf(l) >= 0 || l.indexOf(c) >= 0) {
               leadTxt = '';
             }
