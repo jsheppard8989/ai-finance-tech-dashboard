@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0b0d12" />
+<title>AI Bench Press — Match 1</title>
+<style>
+  :root{
+    --bg:#0b0d12; --panel:#141821; --panel2:#1b212d; --ink:#eef2f8; --mut:#8b93a3;
+    --yes:#ff5a5f; --no:#3d8bff; --judge:#c9a227; --line:#262d3a;
+    --safe-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--ink);
+    font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    padding-bottom:calc(96px + var(--safe-bottom));
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:680px;margin:0 auto;padding:0 16px}
+  header{padding:22px 16px 8px;text-align:center}
+  .brand{font-weight:800;letter-spacing:.14em;font-size:13px;color:var(--mut);text-transform:uppercase}
+  h1{font-size:21px;margin:6px 0 2px;font-weight:800}
+  .topic{
+    margin:14px auto 4px;max-width:680px;background:var(--panel);border:1px solid var(--line);
+    border-radius:14px;padding:14px 16px;
+  }
+  .topic .lbl{font-size:11px;letter-spacing:.12em;color:var(--mut);text-transform:uppercase}
+  .topic .q{font-size:18px;font-weight:700;margin-top:4px}
+  .vs{display:flex;gap:10px;margin:14px 0 4px}
+  .card{flex:1;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px;text-align:center}
+  .card .name{font-weight:800;font-size:17px}
+  .card .side{font-size:11px;font-weight:800;letter-spacing:.1em;margin-top:2px}
+  .card .model{font-size:12px;color:var(--mut);margin-top:4px}
+  .card.yes{border-color:rgba(255,90,95,.5)} .card.yes .side{color:var(--yes)}
+  .card.no{border-color:rgba(61,139,255,.5)} .card.no .side{color:var(--no)}
+  .section-h{font-size:12px;letter-spacing:.14em;color:var(--mut);text-transform:uppercase;margin:22px 0 10px;text-align:center}
+  .turn{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 15px;margin:10px 0;transition:border-color .2s,transform .2s}
+  .turn.active{border-color:#fff;box-shadow:0 0 0 2px rgba(255,255,255,.12)}
+  .turn .meta{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+  .chip{font-size:11px;font-weight:800;letter-spacing:.06em;padding:3px 9px;border-radius:999px}
+  .chip.yes{background:rgba(255,90,95,.16);color:var(--yes)}
+  .chip.no{background:rgba(61,139,255,.16);color:var(--no)}
+  .phase{font-size:11px;color:var(--mut);letter-spacing:.08em;text-transform:uppercase}
+  .turn p{margin:0;white-space:pre-wrap}
+  .winner{background:linear-gradient(180deg,#1c2230,#141821);border:1px solid var(--line);border-radius:16px;padding:18px;text-align:center;margin:18px 0}
+  .winner .lbl{font-size:11px;letter-spacing:.14em;color:var(--mut);text-transform:uppercase}
+  .winner .who{font-size:26px;font-weight:900;margin:4px 0}
+  .winner .bill{font-size:12px;color:var(--mut)}
+  .judge{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:8px 0}
+  .judge .jh{display:flex;justify-content:space-between;align-items:center;font-weight:700}
+  .judge .jh .v{font-size:12px;font-weight:800;letter-spacing:.06em}
+  .judge .rat{font-size:13px;color:var(--mut);margin-top:6px}
+  .scores{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap}
+  .sc{font-size:11px;background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:3px 7px;color:var(--mut)}
+  .sc b{color:var(--ink)}
+  .dbadge{margin-left:8px;font-size:10px;font-weight:800;letter-spacing:.08em;background:var(--judge);color:#000;padding:2px 7px;border-radius:6px}
+  .judge.diss{border-color:rgba(201,162,39,.6)}
+  .ctab{margin-top:10px}
+  .crow{display:grid;grid-template-columns:1fr 52px 52px;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid var(--line)}
+  .crow .cl{font-size:13px;color:var(--mut)}
+  .crow .cv{text-align:center;font-weight:700;font-size:14px;border-radius:8px;padding:3px 0}
+  .crow .cv.yes{color:var(--yes)} .crow .cv.no{color:var(--no)}
+  .crow .cv.win{background:rgba(255,255,255,.09)}
+  .crow.chead .cv{font-size:12px;font-weight:800}
+  .crow.ctot{border-bottom:none;border-top:2px solid var(--line);margin-top:2px}
+  .crow.ctot .cl{color:var(--ink);font-weight:700}
+  /* sticky player */
+  .player{
+    position:fixed;left:0;right:0;bottom:0;z-index:30;
+    background:rgba(16,20,28,.94);backdrop-filter:blur(10px);
+    border-top:1px solid var(--line);
+    padding:10px 14px calc(10px + var(--safe-bottom));
+  }
+  .player .row{max-width:680px;margin:0 auto;display:flex;align-items:center;gap:12px}
+  .pbtn{flex:0 0 auto;width:54px;height:54px;border-radius:50%;border:none;background:#fff;color:#0b0d12;font-size:22px;cursor:pointer;display:flex;align-items:center;justify-content:center}
+  .pbtn:active{transform:scale(.94)}
+  .pinfo{flex:1;min-width:0}
+  .pinfo .now{font-weight:700;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .pinfo .sub{font-size:12px;color:var(--mut)}
+  .bar{height:4px;background:var(--panel2);border-radius:3px;margin-top:7px;overflow:hidden}
+  .bar > i{display:block;height:100%;width:0;background:#fff;transition:width .3s}
+  .skip{flex:0 0 auto;background:none;border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:9px 11px;font-size:13px;cursor:pointer}
+  .note{font-size:11px;color:var(--mut);text-align:center;margin:10px 0 0}
+  .odds{margin-left:auto;font-size:11px;font-weight:800;background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:2px 9px;color:var(--ink)}
+  .ticker{background:linear-gradient(90deg,rgba(201,162,39,.16),transparent);border:1px solid rgba(201,162,39,.35);border-radius:12px;padding:10px 13px;margin:12px 0;font-size:13px;color:var(--ink);cursor:pointer}
+  .ticker .tk{font-weight:800;letter-spacing:.06em;color:var(--judge);margin-right:6px}
+  .turn.cut{padding:10px 13px;margin:8px 0 8px 22px;border-style:dashed}
+  .turn.cut.yes{border-color:rgba(255,90,95,.55)} .turn.cut.no{border-color:rgba(61,139,255,.55)}
+  .turn.cut p{font-style:italic} .turn.cut .phase{color:var(--judge);font-weight:800}
+  .mktclose{text-align:center;font-size:13px;color:var(--mut);background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:0 0 12px}
+  .mktclose b{color:var(--ink)}
+  /* live market + trading */
+  .market{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:14px}
+  .mhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+  .prices{display:flex;gap:8px}
+  .pp{font-weight:800;font-size:15px;padding:4px 10px;border-radius:999px;border:1px solid var(--line)}
+  .pp.yes{color:var(--yes)} .pp.no{color:var(--no)}
+  .bankwrap{font-size:15px;font-weight:800}
+  .reset{margin-left:8px;font-size:11px;font-weight:700;background:none;border:1px solid var(--line);color:var(--mut);border-radius:8px;padding:3px 8px;cursor:pointer}
+  #chart{width:100%;height:150px;display:block;background:var(--panel2);border-radius:10px}
+  .stakes{display:flex;gap:6px;margin:12px 0 8px}
+  .chip2{flex:1;background:var(--panel2);border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:9px 0;font-weight:800;font-size:14px;cursor:pointer}
+  .chip2.on{background:#fff;color:#0b0d12;border-color:#fff}
+  .buys{display:flex;gap:10px}
+  .tbtn{flex:1;border:none;border-radius:12px;padding:15px 0;font-weight:900;font-size:16px;cursor:pointer;color:#fff}
+  .tbtn:active{transform:scale(.97)}
+  .tbtn.yes{background:var(--yes)} .tbtn.no{background:var(--no)}
+  .tbtn.close{background:#fff;color:#0b0d12;width:100%}
+  .pos{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:12px;margin-top:10px}
+  .pos .pl{display:flex;justify-content:space-between;align-items:center;font-weight:800;margin-bottom:10px}
+  .pos.yes{border-color:rgba(255,90,95,.5)} .pos.no{border-color:rgba(61,139,255,.5)}
+  .pnl.up{color:#46d17e} .pnl.dn{color:var(--yes)}
+  .bust{text-align:center;color:var(--yes);font-weight:800;padding:8px 0}
+  .err{background:#2a1416;border:1px solid #5a1f25;color:#ffb3b8;padding:14px;border-radius:12px;margin:18px 0}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">AI Bench Press</div>
+  <h1 id="title">Match 1</h1>
+</header>
+
+<div class="wrap">
+  <div class="topic">
+    <div class="lbl">Resolution</div>
+    <div class="q" id="topic"></div>
+  </div>
+  <div class="vs" id="vs"></div>
+
+  <div class="section-h">Live Market · Trade the Debate</div>
+  <div class="market">
+    <div class="mhead">
+      <div class="prices">
+        <span class="pp yes" id="pYes">YES 50</span>
+        <span class="pp no" id="pNo">NO 50</span>
+      </div>
+      <div class="bankwrap">🪙 <b id="bank">1000</b><button id="reset" class="reset">reset</button></div>
+    </div>
+    <svg id="chart" viewBox="0 0 1000 260" preserveAspectRatio="none" aria-label="Live odds chart"></svg>
+    <div id="trader"></div>
+  </div>
+
+  <div class="section-h">The Debate</div>
+  <div id="transcript"></div>
+
+  <div class="section-h">The Verdict</div>
+  <div id="verdict"></div>
+
+  <p style="text-align:center;margin:18px 0 4px">
+    <a href="audio/match1.mp3" download="ai-bench-press-match-1.mp3"
+       style="display:inline-block;background:#fff;color:#0b0d12;font-weight:800;text-decoration:none;padding:13px 22px;border-radius:12px">
+      ⬇ Download episode · 12:11
+    </a>
+  </p>
+  <p class="note">Press play, then trade the swings — buy YES/NO, close to bank it. Debaters see the same chart and adapt. ⚡ = a live cut-in. Simulated tokens; studio voices by ElevenLabs.</p>
+</div>
+
+<div class="player">
+  <div class="row">
+    <button class="pbtn" id="play" aria-label="Play">▶</button>
+    <div class="pinfo">
+      <div class="now" id="now">Tap play to start the debate</div>
+      <div class="sub" id="sub">0 / 0</div>
+      <div class="bar"><i id="prog"></i></div>
+    </div>
+    <button class="skip" id="next" aria-label="Skip">⏭</button>
+  </div>
+</div>
+
+<script src="debate.js"></script>
+<script src="audio.js" onerror="window.AUDIO=null"></script>
+<script>
+(function(){
+  var D = window.DEBATE;
+  var trans = document.getElementById('transcript');
+  if(!D || !D.turns){
+    trans.innerHTML = '<div class="err">Could not load the debate data (debate.js). Re-run generate_debate.py.</div>';
+    return;
+  }
+  document.getElementById('title').textContent = D.title || 'Match 1';
+  document.getElementById('topic').textContent = D.topic || '';
+
+  // versus cards
+  var a = D.debater_a, b = D.debater_b;
+  document.getElementById('vs').innerHTML =
+    '<div class="card yes"><div class="name">'+a.name+'</div><div class="side">'+a.side+'</div><div class="model">'+a.model+'</div></div>'+
+    '<div class="card no"><div class="name">'+b.name+'</div><div class="side">'+b.side+'</div><div class="model">'+b.model+'</div></div>';
+
+  // build "segments" = host intro + turns + verdict line, in play order
+  var segments = [];
+  segments.push({speaker:'Host', role:'host', phase:'Intro',
+    text:"Welcome to AI Bench Press. Today's resolution: "+D.topic+" Arguing yes, "+a.name+", powered by "+a.model+". Arguing no, "+b.name+", powered by "+b.model+". No humans on the panel. Let's begin."});
+
+  D.turns.forEach(function(t){ segments.push(t); });
+
+  // render transcript: host intro is spoken-only; market checks become tickers; cut-ins are styled
+  var turnEls = [];
+  segments.forEach(function(t, i){
+    if(t.role === 'host' && t.phase === 'Intro'){ turnEls.push(null); return; }
+    var el = document.createElement('div');
+    if(t.role === 'host'){
+      el.className = 'ticker';
+      el.innerHTML = '<span class="tk">📈 MARKET</span>' + escapeHtml(t.text);
+      el.addEventListener('click', function(){ playFrom(i); });
+      trans.appendChild(el); turnEls.push(el); return;
+    }
+    var isCut = t.phase === 'Interjection';
+    el.className = 'turn' + (isCut ? ' cut ' + t.role : '');
+    var chip = t.role === 'yes' ? 'yes' : (t.role === 'no' ? 'no' : '');
+    var tag = isCut ? '⚡ cuts in' : t.phase;
+    var odds = (typeof t.yes_after === 'number') ? '<span class="odds">YES '+t.yes_after+'</span>' : '';
+    el.innerHTML = '<div class="meta"><span class="chip '+chip+'">'+t.speaker+'</span><span class="phase">'+tag+'</span>'+odds+'</div><p>'+escapeHtml(t.text)+'</p>';
+    el.addEventListener('click', function(){ playFrom(i); });
+    trans.appendChild(el);
+    turnEls.push(el);
+  });
+
+  // verdict
+  var vWrap = document.getElementById('verdict');
+  var rubric = D.rubric || [];
+  var winName = D.winner_name || '—';
+  var winSide = D.winner_role === 'yes' ? a.side : (D.winner_role === 'no' ? b.side : '');
+  var votesA = (D.judges||[]).filter(function(j){return j.winner==='A';}).length;
+  var votesB = (D.judges||[]).filter(function(j){return j.winner==='B';}).length;
+  var tally = D.winner_role==='yes' ? (votesA+'–'+votesB) : (votesB+'–'+votesA);
+  var html = '<div class="winner"><div class="lbl">Winner · '+tally+'</div><div class="who">'+winName+(winSide?' · '+winSide:'')+'</div><div class="bill">'+(D.judges_billing||'')+'</div></div>';
+  if(typeof D.odds_close === 'number'){
+    var oc = D.odds_close, crowd = oc>=50 ? a.name : b.name;
+    var diverged = (oc>=50 && D.winner_role==='no') || (oc<50 && D.winner_role==='yes');
+    html += '<div class="mktclose">Betting market closed <b>YES '+oc+' / NO '+(100-oc)+'</b> — the crowd leaned '+crowd+'. '+(diverged?'The judges disagreed with the money.':'The judges agreed with the money.')+'</div>';
+  }
+  (D.judges||[]).forEach(function(j){
+    var voteName = j.winner==='A'? a.name : (j.winner==='B'? b.name : '?');
+    var diss = j.dissent ? '<span class="dbadge">DISSENT</span>' : '';
+    html += '<div class="judge'+(j.dissent?' diss':'')+'">'+
+      '<div class="jh"><span>Judge · '+j.judge+'</span><span class="v">'+voteName+diss+'</span></div>'+
+      catTable(j)+
+      (j.opinion?'<div class="rat">'+escapeHtml(j.opinion)+'</div>':'')+'</div>';
+  });
+  vWrap.innerHTML = html;
+
+  function catTable(j){
+    if(!rubric.length || !j.A || !j.B) return '';
+    function tot(o){var s=0;rubric.forEach(function(c){if(typeof o[c.key]==='number')s+=o[c.key];});return s;}
+    var rows = rubric.map(function(c){
+      var av=j.A[c.key], bv=j.B[c.key];
+      var aw=(typeof av==='number'&&typeof bv==='number'&&av>bv)?' win':'';
+      var bw=(typeof av==='number'&&typeof bv==='number'&&bv>av)?' win':'';
+      return '<div class="crow"><span class="cl">'+c.label+'</span>'+
+        '<span class="cv yes'+aw+'">'+(av==null?'–':av)+'</span>'+
+        '<span class="cv no'+bw+'">'+(bv==null?'–':bv)+'</span></div>';
+    }).join('');
+    return '<div class="ctab">'+
+      '<div class="crow chead"><span class="cl"></span><span class="cv yes">'+a.name+'</span><span class="cv no">'+b.name+'</span></div>'+
+      rows+
+      '<div class="crow ctot"><span class="cl">Total</span><span class="cv yes">'+tot(j.A)+'/50</span><span class="cv no">'+tot(j.B)+'/50</span></div>'+
+      '</div>';
+  }
+  function escapeHtml(s){return (s||'').replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c];});}
+
+  /* ---------- live market + trading (simulated) ---------- */
+  // price[i] = live YES price during segment i (carry forward last known)
+  var price = []; (function(){ var last = (typeof D.odds_open==='number')?D.odds_open:50;
+    segments.forEach(function(t){ if(typeof t.yes_after==='number') last=t.yes_after; price.push(last); }); })();
+  var chartEl = document.getElementById('chart');
+  var savedBank = parseFloat(window.localStorage && localStorage.getItem('abp_bank'));
+  var bank = (isFinite(savedBank) && savedBank>0) ? savedBank : 1000, stake = 100, pos = null;
+  function saveBank(){ try{ localStorage.setItem('abp_bank', String(Math.round(bank))); }catch(e){} }
+
+  function curPrice(){ var i=(typeof idx==='number'&&idx>=0)?idx:0; return price[i]; }
+
+  function buildChart(){
+    var W=1000,H=260,pad=16,n=price.length;
+    function X(i){ return n<2?W/2 : pad + i/(n-1)*(W-2*pad); }
+    function Y(p){ return pad + (100-p)/100*(H-2*pad); }
+    var d=''; price.forEach(function(p,i){ d+=(i?'L':'M')+X(i).toFixed(1)+' '+Y(p).toFixed(1)+' '; });
+    var area = d+'L'+X(n-1).toFixed(1)+' '+(H-pad)+' L'+X(0).toFixed(1)+' '+(H-pad)+' Z';
+    var ci=(typeof idx==='number'&&idx>=0)?idx:0, cx=X(ci), cy=Y(price[ci]);
+    var col = price[ci]>=50 ? 'var(--yes)' : 'var(--no)';
+    return '<path d="'+area+'" fill="rgba(201,162,39,.10)"/>'+
+      '<line x1="'+pad+'" y1="'+Y(50)+'" x2="'+(W-pad)+'" y2="'+Y(50)+'" stroke="var(--line)" stroke-width="1.5" stroke-dasharray="6 6"/>'+
+      '<path d="'+d+'" fill="none" stroke="var(--judge)" stroke-width="3"/>'+
+      '<line x1="'+cx.toFixed(1)+'" y1="'+pad+'" x2="'+cx.toFixed(1)+'" y2="'+(H-pad)+'" stroke="rgba(255,255,255,.25)" stroke-width="1.5"/>'+
+      '<circle cx="'+cx.toFixed(1)+'" cy="'+cy.toFixed(1)+'" r="7" fill="'+col+'" stroke="#fff" stroke-width="2"/>'+
+      '<text x="'+pad+'" y="'+(Y(100)+6)+'" fill="var(--mut)" font-size="18">100</text>'+
+      '<text x="'+pad+'" y="'+(H-pad-2)+'" fill="var(--mut)" font-size="18">0</text>';
+  }
+
+  function renderMarket(){
+    var cy=curPrice(), yesP=cy, noP=100-cy;
+    document.getElementById('pYes').textContent='YES '+yesP;
+    document.getElementById('pNo').textContent='NO '+noP;
+    document.getElementById('bank').textContent=Math.round(bank);
+    saveBank();
+    chartEl.innerHTML = buildChart();
+    var el=document.getElementById('trader');
+    if(pos){
+      var sp = pos.side==='yes'?yesP:noP, val=pos.stake*sp/pos.entry, pnl=val-pos.stake;
+      el.innerHTML = '<div class="pos '+pos.side+'"><div class="pl">'+
+        '<span>LONG '+pos.side.toUpperCase()+' @ '+pos.entry+' · '+Math.round(pos.stake)+' staked</span>'+
+        '<span class="pnl '+(pnl>=0?'up':'dn')+'">'+Math.round(val)+' ('+(pnl>=0?'+':'')+Math.round(pnl)+')</span></div>'+
+        '<button class="tbtn close" id="closeBtn">Close position</button></div>';
+      document.getElementById('closeBtn').onclick=closePos;
+    } else if(bank<=0){
+      el.innerHTML = '<div class="bust">Busted. Tap reset for a fresh 1000.</div>';
+    } else {
+      el.innerHTML = '<div class="stakes">'+[25,100,500].map(function(s){return '<button class="chip2'+(stake===s?' on':'')+'" data-s="'+s+'">'+s+'</button>';}).join('')+
+        '<button class="chip2'+(stake==='max'?' on':'')+'" data-s="max">MAX</button></div>'+
+        '<div class="buys"><button class="tbtn yes" id="byes">BUY YES '+yesP+'</button><button class="tbtn no" id="bno">BUY NO '+noP+'</button></div>';
+      Array.prototype.forEach.call(el.querySelectorAll('.chip2'),function(c){ c.onclick=function(){ var s=c.getAttribute('data-s'); stake=(s==='max')?'max':+s; renderMarket(); }; });
+      document.getElementById('byes').onclick=function(){ openPos('yes'); };
+      document.getElementById('bno').onclick=function(){ openPos('no'); };
+    }
+  }
+  function stakeAmt(){ return stake==='max'?bank:Math.min(stake,bank); }
+  function openPos(side){ var s=stakeAmt(); if(s<=0||bank<=0) return; var cy=curPrice(), sp=side==='yes'?cy:100-cy; bank-=s; pos={side:side,entry:sp,stake:s}; renderMarket(); }
+  function closePos(){ if(!pos) return; var cy=curPrice(), sp=pos.side==='yes'?cy:100-cy; bank+=pos.stake*sp/pos.entry; pos=null; renderMarket(); }
+  function settle(){ if(pos) closePos(); }
+  document.getElementById('reset').onclick=function(){ bank=1000; pos=null; stake=100; renderMarket(); };
+
+  /* ---------- playback ---------- */
+  var playBtn = document.getElementById('play');
+  var nextBtn = document.getElementById('next');
+  var nowEl = document.getElementById('now');
+  var subEl = document.getElementById('sub');
+  var progEl = document.getElementById('prog');
+  var idx = -1, playing = false;
+
+  // Real ElevenLabs MP3s when audio.js is present & aligned; else on-device Web Speech.
+  var AUDIO = (window.AUDIO && window.AUDIO.length === segments.length) ? window.AUDIO : null;
+  var synth = window.speechSynthesis, voices = [], audioEl = null;
+
+  if(AUDIO){
+    audioEl = new Audio();
+    audioEl.preload = 'metadata';
+    audioEl.addEventListener('ended', function(){ if(playing) startSeg(idx+1); });
+    audioEl.addEventListener('timeupdate', function(){
+      if(audioEl.duration){ progEl.style.width = ((idx + audioEl.currentTime/audioEl.duration)/segments.length*100)+'%'; }
+    });
+  } else if(synth){
+    var loadVoices = function(){ voices = synth.getVoices(); };
+    loadVoices();
+    if(typeof synth.onvoiceschanged !== 'undefined'){ synth.onvoiceschanged = loadVoices; }
+  }
+
+  function pickVoice(role){
+    if(!voices.length) return null;
+    var en = voices.filter(function(v){return /en[-_]/i.test(v.lang)||/english/i.test(v.name);});
+    var pool = en.length?en:voices;
+    var female = pool.find(function(v){return /female|samantha|victoria|karen|moira|tessa|zira|fiona|serena/i.test(v.name);});
+    var male = pool.find(function(v){return /male|daniel|alex|fred|rishi|aaron|arthur|david|oliver/i.test(v.name);});
+    if(role==='yes') return female||pool[0];
+    if(role==='no') return male||pool[1]||pool[0];
+    return pool[0];
+  }
+  function voiceParams(role){
+    if(role==='yes') return {pitch:1.18, rate:1.02};
+    if(role==='no')  return {pitch:0.82, rate:1.0};
+    return {pitch:1.0, rate:1.0};
+  }
+
+  function startSeg(i){
+    if(i>=segments.length){ idx=segments.length-1; renderMarket(); settle(); stopAll(); idx=-1; updateUI(); return; }
+    idx=i; highlight(i); updateUI(); renderMarket();
+    if(AUDIO){
+      audioEl.src = AUDIO[i].file;
+      audioEl.play().catch(function(){ playing=false; updateUI(); });
+    } else if(synth){
+      var seg=segments[i];
+      var u=new SpeechSynthesisUtterance(seg.text);
+      var v=pickVoice(seg.role); if(v) u.voice=v;
+      var p=voiceParams(seg.role); u.pitch=p.pitch; u.rate=p.rate;
+      u.onend=function(){ if(playing) startSeg(idx+1); };
+      synth.cancel(); synth.speak(u);
+    } else {
+      nowEl.textContent='Audio not supported on this browser';
+    }
+  }
+  function highlight(i){
+    turnEls.forEach(function(el){ if(el) el.classList.remove('active'); });
+    var el=turnEls[i];
+    if(el){ el.classList.add('active'); el.scrollIntoView({behavior:'smooth',block:'center'}); }
+  }
+  function updateUI(){
+    var seg = idx>=0?segments[idx]:null;
+    nowEl.textContent = seg ? (seg.speaker+' — '+seg.phase) : 'Tap play to start the debate';
+    subEl.textContent = (idx>=0?(idx+1):0)+' / '+segments.length;
+    if(!AUDIO) progEl.style.width = (segments.length? ((idx+1)/segments.length*100):0)+'%';
+    playBtn.textContent = playing ? '❚❚' : '▶';
+  }
+  function play(){ playing=true;
+    if(AUDIO && idx>=0 && audioEl.src && audioEl.paused && audioEl.currentTime>0){ audioEl.play(); }
+    else { startSeg(idx<0?0:idx); }
+    updateUI();
+  }
+  function pause(){ playing=false; if(AUDIO){ audioEl.pause(); } else if(synth){ synth.cancel(); } updateUI(); }
+  function stopAll(){ playing=false; if(AUDIO){ audioEl.pause(); } else if(synth){ synth.cancel(); } updateUI(); }
+  function playFrom(i){ playing=true; startSeg(i); }
+
+  playBtn.addEventListener('click', function(){ playing?pause():play(); });
+  nextBtn.addEventListener('click', function(){ playing=true; startSeg((idx<0?0:idx)+1); });
+  window.addEventListener('beforeunload', stopAll);
+  updateUI();
+  renderMarket();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,258 @@
+{
+  "title": "AI Bench Press \u2014 Match 1",
+  "topic": "AI data centers are bad for your community.",
+  "debater_a": {
+    "name": "Ada",
+    "side": "YES",
+    "model": "Claude (Anthropic)"
+  },
+  "debater_b": {
+    "name": "Gil",
+    "side": "NO",
+    "model": "GPT (OpenAI)"
+  },
+  "judges_billing": "Judged by 3 independent AI models. No humans.",
+  "rubric": [
+    {
+      "key": "data",
+      "label": "Hard Data & Evidence",
+      "desc": "Specific numbers tied to a place, year, and source."
+    },
+    {
+      "key": "accuracy",
+      "label": "Factual Accuracy",
+      "desc": "Do the claims and numbers hold up, or are they inflated/invented?"
+    },
+    {
+      "key": "logic",
+      "label": "Argument & Reasoning",
+      "desc": "Clear claims with sound mechanisms, not bare assertions."
+    },
+    {
+      "key": "clash",
+      "label": "Rebuttal & Cross-Exam",
+      "desc": "Did they engage the opponent's actual points and answer questions?"
+    },
+    {
+      "key": "persuasion",
+      "label": "Persuasiveness",
+      "desc": "Overall force and clarity of the case."
+    }
+  ],
+  "odds_open": 50,
+  "odds_close": 61,
+  "turns": [
+    {
+      "phase": "Opening",
+      "speaker": "Ada",
+      "role": "yes",
+      "text": "AI data centers are economic parasites that drain communities while delivering zero local benefit.\n\nFirst mechanism: energy theft. Northern Virginia 2023 saw data centers consume 25% of Dominion Energy's total grid capacity while employing just 0.3% of the region's workforce, per Loudoun County Economic Development. That's 6,000 megawatts powering algorithms instead of homes and real businesses.\n\nSecond mechanism: infrastructure freeloading. Dublin, Ireland 2024 faced rolling blackouts because data centers consumed 21% of national electricity while contributing only 2% to local employment, according to EirGrid operator reports. Amazon's AWS facility there pulls 200 megawatts daily but employs fewer than 50 permanent staff.\n\nYour opponent will struggle to explain why communities should sacrifice their power grid and see their energy costs spike just so tech giants can train chatbots that most residents will never directly benefit from.",
+      "yes_after": 58,
+      "market_note": "Hard data on energy drain; opponent must counter local harm."
+    },
+    {
+      "phase": "Opening",
+      "speaker": "Gil",
+      "role": "no",
+      "text": "Ada, you cherry-pick outsized energy numbers but ignore the tax and revenue reality. In Loudoun County 2023, those same data centers paid $663 million in local taxes\u2014over 30% of the county\u2019s budget, per Loudoun County FY24 budget documents. That funds schools, roads, and services, dwarfing the cost of their power draw.\n\nSecond, in Dublin, the EirGrid 2024 report shows grid constraints mostly stem from deferred transmission upgrades, not just data centers. Amazon\u2019s 200MW facility pays \u20ac11 million annually in commercial rates (Irish Times, 2023), supporting local services at a far higher rate per employee than malls or warehouses.\n\nYou talk about jobs, but stable, high-paying tech work and massive tax revenue deliver real, lasting benefits\u2014unlike the short-term, low-wage sprawl of retail or logistics parks.",
+      "yes_after": 52,
+      "market_note": "Tax revenue, local funding blunt energy concern; debate nearly even."
+    },
+    {
+      "phase": "Rebuttal",
+      "speaker": "Ada",
+      "role": "yes",
+      "text": "Gil claims Dublin's grid problems stem from \"deferred transmission upgrades\" but ignores the core math. EirGrid's own 2024 system operator report shows data centers will hit 29% of peak demand by 2031, up from 11% in 2020. That's not infrastructure lag\u2014that's exponential consumption outpacing any reasonable grid planning.\n\nHis Loudoun tax figure of $663 million sounds impressive until you realize it represents a property tax rate of just $1.25 per $100 assessed value\u2014the lowest commercial rate in Virginia, per Virginia Tax Commissioner 2024 data. These facilities get sweetheart deals while residential ratepayers in Dominion territory saw 18% rate hikes in 2023 to subsidize grid expansion for guess who? \n\nThe math is brutal: massive power draw, minimal employment, artificially low tax contributions.",
+      "yes_after": 57,
+      "market_note": "Ada exposes tax breaks and ratepayer burden; YES surges."
+    },
+    {
+      "phase": "Interjection",
+      "speaker": "Gil",
+      "role": "no",
+      "text": "You ignore that Loudoun\u2019s $663 million covers 30% of all county services\u2014no \u201csweetheart deal\u201d\u2014and residential rates rose mainly from natural gas price spikes, not data centers (Dominion 2023 report).",
+      "yes_after": 55,
+      "market_note": "Ada lands with rising grid strain, tax discount argument stings."
+    },
+    {
+      "phase": "Rebuttal",
+      "speaker": "Gil",
+      "role": "no",
+      "text": "Ada\u2019s core claim is that Dublin\u2019s grid stress is \u201cexponential consumption outpacing any reasonable planning,\u201d citing EirGrid\u2019s 29% by 2031 forecast. But that same EirGrid 2024 report shows Ireland\u2019s grid is adding 5,000 megawatts of new wind and solar by 2027\u2014more than double the projected data center growth rate. The bottleneck isn\u2019t demand but state delays in connecting new renewables.\n\nOn local impact: In Prince William County, 2023, data centers directly funded a $268 million school expansion\u2014without raising residential taxes (PW County FY24 Budget). That\u2019s targeted benefit for families, not theoretical. Data centers drive infrastructure investment and green energy, not just consumption. You\u2019re blaming the wrong culprit.",
+      "yes_after": 47,
+      "market_note": "Grid green upgrades, school funding blunt energy criticism. Slight NO edge."
+    },
+    {
+      "phase": "Interjection",
+      "speaker": "Ada",
+      "role": "yes",
+      "text": "Gil, Ireland's wind projects are mostly offshore with 2029-2030 delivery dates, while data center demand hits 29% by 2027\u2014classic mismatch timing.",
+      "yes_after": 54,
+      "market_note": "Grid timing mismatch edges YES; Gil's rebuttal blunted."
+    },
+    {
+      "phase": "Cross-Exam R1",
+      "speaker": "Ada",
+      "role": "yes",
+      "text": "Gil, you cited Prince William County's $268 million school expansion funded by data centers in 2023. What's the actual megawatt consumption of those Prince William facilities, and how does their power draw per tax dollar compare to Loudoun's rate?\n\nSecond: Ireland's 5,000 megawatts of renewables by 2027\u2014what percentage of that capacity is actually contracted and grid-connected versus still in planning phases?"
+    },
+    {
+      "phase": "Cross-Exam R1",
+      "speaker": "Gil",
+      "role": "no",
+      "text": "First, Prince William data centers drew ~1,200 megawatts in 2023 (PW County Planning, 2023), with $155,000 in local tax revenue per megawatt\u2014almost identical to Loudoun\u2019s $663 million over ~4,200 megawatts ($158,000/MW). No evidence they get a \u201ccheaper\u201d rate for their power draw.\n\nSecond, of Ireland\u2019s 5,000 megawatts, 2,850 MW are under construction or contracted for grid connection by 2027 (EirGrid Q1 2024), with the rest in permitting. So yes, some lag\u2014fair point. But the majority is real, and that scale closes most of the data center gap by 2027.",
+      "yes_after": 56,
+      "market_note": "Renewables lag confirmed; tax-per-MW parity blunts 'sweetheart' angle"
+    },
+    {
+      "phase": "Interjection",
+      "speaker": "Ada",
+      "role": "yes",
+      "text": "Gil, 2,850 MW \"under construction\" means zero actual grid capacity today while data centers hit 29% demand by 2027\u2014that's a three-year power shortage gap.",
+      "yes_after": 58,
+      "market_note": "Timing gap on renewables lands; power strain case strong."
+    },
+    {
+      "phase": "Cross-Exam R1",
+      "speaker": "Gil",
+      "role": "no",
+      "text": "Ada, you claimed Dublin\u2019s \u201crolling blackouts\u201d were caused by data centers. Name the total blackout minutes directly traced to data centers in 2023 (EirGrid Incident Reports). Second, you said \u201cratepayers subsidize grid expansion\u201d\u2014what exact dollar amount did residential bills rise solely due to data center-driven upgrades in Loudoun, 2023?"
+    },
+    {
+      "phase": "Cross-Exam R1",
+      "speaker": "Ada",
+      "role": "yes",
+      "text": "Gil, Dublin's rolling blackouts weren't traced minute-by-minute to data centers alone\u2014they resulted from overall grid stress where data centers represent the single largest demand spike. EirGrid's 2024 winter outlook cited \"unprecedented industrial demand\" as the primary constraint factor.\n\nOn Loudoun residential costs: Dominion's 2023 rate case shows $1.2 billion in transmission upgrades, with 40% allocated to serve new data center load growth per their filing. That translates to roughly $180 annual increase per residential customer.\n\nBut here's the real issue, Gil: you keep defending tax revenue while ignoring that these facilities lock communities into permanent energy dependence for temporary tax benefits.",
+      "yes_after": 57,
+      "market_note": "Grid gap and bill impact land; NO defense thin."
+    },
+    {
+      "phase": "Interjection",
+      "speaker": "Gil",
+      "role": "no",
+      "text": "Ada, Dominion\u2019s own 2023 rate filing shows residential bills rose mainly due to global gas prices\u2014data center-driven grid costs were under $40 per household, not $180.",
+      "yes_after": 57,
+      "market_note": "Ada lands grid lag, household bill link mostly stands."
+    },
+    {
+      "phase": "Cross-Exam R2",
+      "speaker": "Ada",
+      "role": "yes",
+      "text": "Gil, you said Dominion's data center grid costs were \"under $40 per household\" in 2023. What's your source for that specific $40 figure, and does it include the $847 million Haymarket transmission project built exclusively for data center expansion?\n\nSecond: Prince William's $268 million school funding\u2014what's the annual operating cost those schools will require, and who pays that ongoing burden?"
+    },
+    {
+      "phase": "Cross-Exam R2",
+      "speaker": "Gil",
+      "role": "no",
+      "text": "First: The $40 per household comes from Dominion\u2019s 2023 rate case, Schedule 39, showing $115 million in annual transmission costs attributed to new data center load, divided by 2.9 million residential customers. The Haymarket project\u2019s $847 million is included in those filings, but only 19% of that project\u2019s amortized cost was billed to residential ratepayers in 2023\u2014about $6 per household.\n\nSecond: Prince William\u2019s new schools will cost $22 million annually to operate (PW Schools, 2023). That\u2019s fully covered by ongoing data center tax revenue, per the FY24 budget\u2014no new burden on residents.",
+      "yes_after": 56,
+      "market_note": "Ada exposes timing gap; Gil's $40 claim partially blunted."
+    },
+    {
+      "phase": "Interjection",
+      "speaker": "Ada",
+      "role": "yes",
+      "text": "Gil, Schedule 39 shows $115 million but excludes the $2.1 billion in future grid hardening costs Dominion projected for data center growth through 2030.",
+      "yes_after": 58,
+      "market_note": "Future grid costs, timing gap strengthen YES margin."
+    },
+    {
+      "phase": "Cross-Exam R2",
+      "speaker": "Gil",
+      "role": "no",
+      "text": "Ada, you claimed Dublin\u2019s \u201cunprecedented industrial demand\u201d drove blackouts, but EirGrid\u2019s 2023 Incident Report shows just 17 minutes of outages citywide\u2014how many minutes were directly attributable to data centers, versus hospitals or transit?\n\nSecond, your $180 annual Loudoun bill increase: what line item in Dominion\u2019s 2023 filing shows data centers as the sole driver?"
+    },
+    {
+      "phase": "Cross-Exam R2",
+      "speaker": "Ada",
+      "role": "yes",
+      "text": "Gil, EirGrid's 2023 report shows 17 minutes citywide but that excludes the 340 minutes of \"demand management\" where industrial users\u2014primarily data centers\u2014were ordered to reduce load to prevent wider outages. That's rationing, not normal operations.\n\nOn the $180 figure: Dominion's Schedule 12-A shows transmission cost recovery allocated 31% to residential class for all new infrastructure. Data center-driven projects totaled $580 million in 2023 rate year\u201431% residential share equals $179 million across 995,000 Loudoun-area customers.\n\nBut Gil, you're missing the bigger trap: these tax windfalls disappear the moment data centers relocate for cheaper power elsewhere, leaving communities stuck with oversized infrastructure forever.",
+      "yes_after": 58,
+      "market_note": "Demand management, future grid costs\u2014Ada regains clear edge."
+    },
+    {
+      "phase": "Interjection",
+      "speaker": "Gil",
+      "role": "no",
+      "text": "Ada, EirGrid\u2019s 2023 breakdown shows only 42% of demand management events involved data centers; pharmaceuticals and water utilities made up most reductions\u2014your \u201cprimarily\u201d claim is false.",
+      "yes_after": 57,
+      "market_note": "Demand management, future grid costs tilt field to YES."
+    },
+    {
+      "phase": "Closing",
+      "speaker": "Ada",
+      "role": "yes",
+      "text": "Gil spent this entire debate defending tax revenue while ignoring the energy math that destroys communities long-term.\n\nHis own cross-exam proved my point: Ireland's data centers forced 340 minutes of demand management\u2014industrial rationing\u2014in 2023 alone. That's not normal grid operations, that's a system buckling under artificial load.\n\nGil's right that Prince William gets $268 million for schools today. But when those data centers chase cheaper power to Texas or wherever in five years, Prince William keeps the $22 million annual operating costs forever while losing the tax base.\n\nEnergy dependence is permanent. Tax revenue is temporary. Communities lose.",
+      "yes_after": 62,
+      "market_note": "Demand management, future grid risk\u2014YES breaking away."
+    },
+    {
+      "phase": "Closing",
+      "speaker": "Gil",
+      "role": "no",
+      "text": "Ada says tax revenue is fleeting, but in both Loudoun and Prince William, data centers delivered $821 million in local taxes in 2023\u2014funding schools, roads, and police with no other industry close (Loudoun/Prince William FY24 budgets). She inflated demand management: EirGrid\u2019s own 2023 incident reports show less than half involved data centers, with pharma and water sectors driving most cuts. I concede long-term grid upgrades are real costs. But the record is clear\u2014no other employer brings this scale of guaranteed funding, and the energy math isn\u2019t nearly as one-sided as Ada claims.",
+      "yes_after": 61,
+      "market_note": "Long-term grid risk, demand management edge YES further."
+    }
+  ],
+  "judges": [
+    {
+      "A": {
+        "data": 9,
+        "accuracy": 8,
+        "logic": 9,
+        "clash": 9,
+        "persuasion": 8
+      },
+      "B": {
+        "data": 9,
+        "accuracy": 9,
+        "logic": 9,
+        "clash": 9,
+        "persuasion": 9
+      },
+      "winner": "B",
+      "opinion": "Debater B wins by consistently grounding their arguments in detailed, sourced local tax figures ($663M in Loudoun, $268M in Prince William) and breaking down the allocation of grid upgrade costs to households using utility filings. While A provided strong data on energy consumption and grid stress (such as 340 minutes of demand management in Dublin), B was better at challenging inflated numbers and provided more precise breakdowns (e.g., $40 per household cost, 42% of demand management events tied to data centers). B directly addressed and corrected opponent claims, showing a clearer, more accurate command of the evidence.",
+      "judge": "GPT",
+      "dissent": false
+    },
+    {
+      "A": {
+        "data": 8,
+        "accuracy": 6,
+        "logic": 8,
+        "clash": 9,
+        "persuasion": 8
+      },
+      "B": {
+        "data": 9,
+        "accuracy": 8,
+        "logic": 7,
+        "clash": 8,
+        "persuasion": 7
+      },
+      "winner": "B",
+      "opinion": "Debater B provided more precise, sourced financial data including specific budget line items ($663 million in Loudoun taxes, $268 million Prince William school funding) and successfully challenged A's inflated claims about demand management and residential rate impacts. While A raised valid concerns about energy consumption, B's cross-examination revealed A's $180 household cost claim was significantly overstated and that data centers weren't the primary driver of Ireland's demand management events.",
+      "judge": "Claude",
+      "dissent": false
+    },
+    {
+      "A": {
+        "data": 8,
+        "logic": 7,
+        "persuasion": 7
+      },
+      "B": {
+        "data": 9,
+        "logic": 8,
+        "persuasion": 8
+      },
+      "winner": "B",
+      "opinion": "Debater B wins by consistently providing more precise and well-sourced data, especially regarding tax contributions and the actual impact of data centers on residential energy bills. While Debater A raised valid concerns about energy consumption, Debater B's counter-arguments, backed by specific financial figures and a more nuanced interpretation of grid reports, were more convincing.",
+      "judge": "Gemini",
+      "dissent": false
+    }
+  ],
+  "winner_role": "no",
+  "winner_name": "Gil"
+}

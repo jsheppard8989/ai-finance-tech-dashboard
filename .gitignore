@@ -78,5 +78,10 @@ pipeline/inbox/
 # Generated site data (JSON/JS exported from pipeline)
 site/data/
 
+# AI Bench Press generated audio/cache
+ai-bench-press/audio/seg_*.mp3
+ai-bench-press/audio.js
+ai-bench-press/__pycache__/
+
 # Encrypted prompt log — never commit decrypted plaintext
 prompts/jared_prompts.plain.txt
