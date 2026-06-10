@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 291,
+      "title": "Dan Dreyfus: America's Critical Minerals Crisis is Here",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-10",
+      "summary": "The podcast discusses the critical role of the US semiconductor industry and the looming shortages of essential minerals required for technological advancements and infrastructure. It highlights the need for significant investment in the US electric grid, the surge in copper demand, and the government's intervention to bolster domestic mining. The conversation underscores the strategic importance of commodities like copper and silver in an inflationary environment and the potential for investment in this space.",
+      "key_takeaway": "Investing in critical minerals and infrastructure modernization presents a strategic opportunity to capitalize on supply-demand imbalances and government support, while also hedging against inflation.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 276
+    },
+    {
       "id": 288,
       "title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
       "source_type": "podcast",
@@ -215,7 +234,7 @@
         "SAMSUNG ELECTRONICS"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-06",
       "archived_date": null,

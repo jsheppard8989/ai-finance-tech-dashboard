@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-09T23:36:11.987445",
-  chartsVersion: "2026-06-09T23:35:57.596408",
+  generatedAt: "2026-06-10T05:02:39.411642",
+  chartsVersion: "2026-06-10T05:02:35.715344",
   priceSnapshot: {
   "GOOGL": {
     "price": NaN,
     "change_pct": NaN,
     "name": "GOOGL",
-    "updated_at": "2026-06-09T23:35:57.595420"
+    "updated_at": "2026-06-10T05:02:35.714800"
   },
   "BTC": {
-    "price": 61314.99,
-    "change_pct": -16.62,
+    "price": 61276.59,
+    "change_pct": -16.67,
     "name": "BTC",
-    "updated_at": "2026-06-09T23:35:57.595443"
+    "updated_at": "2026-06-10T05:02:35.714814"
   },
   "MSFT": {
     "price": NaN,
     "change_pct": NaN,
     "name": "MSFT",
-    "updated_at": "2026-06-09T23:35:57.595451"
+    "updated_at": "2026-06-10T05:02:35.714818"
   },
   "NVDA": {
     "price": NaN,
     "change_pct": NaN,
     "name": "NVDA",
-    "updated_at": "2026-06-09T23:35:57.595458"
+    "updated_at": "2026-06-10T05:02:35.714822"
   },
   "WTI": {
     "price": NaN,
     "change_pct": NaN,
     "name": "WTI",
-    "updated_at": "2026-06-09T23:35:57.595464"
+    "updated_at": "2026-06-10T05:02:35.714825"
   },
   "META": {
     "price": NaN,
     "change_pct": NaN,
     "name": "META",
-    "updated_at": "2026-06-09T23:35:57.595470"
+    "updated_at": "2026-06-10T05:02:35.714828"
   },
   "AMZN": {
     "price": NaN,
     "change_pct": NaN,
     "name": "AMZN",
-    "updated_at": "2026-06-09T23:35:57.595476"
+    "updated_at": "2026-06-10T05:02:35.714831"
   },
   "S&P 500": {
     "price": NaN,
     "change_pct": NaN,
     "name": "S&P 500",
-    "updated_at": "2026-06-09T23:35:57.595482"
+    "updated_at": "2026-06-10T05:02:35.714834"
   },
   "TSLA": {
     "price": NaN,
     "change_pct": NaN,
     "name": "TSLA",
-    "updated_at": "2026-06-09T23:35:57.595488"
+    "updated_at": "2026-06-10T05:02:35.714837"
   },
   "AAPL": {
     "price": NaN,
     "change_pct": NaN,
     "name": "AAPL",
-    "updated_at": "2026-06-09T23:35:57.595494"
+    "updated_at": "2026-06-10T05:02:35.714840"
   },
   "QQQ": {
     "price": NaN,
     "change_pct": NaN,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-09T23:35:57.595499"
+    "updated_at": "2026-06-10T05:02:35.714844"
   },
   "BTC-USD": {
-    "price": 61307.78,
-    "change_pct": -16.63,
+    "price": 61276.59,
+    "change_pct": -16.67,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-09T23:35:57.595508"
+    "updated_at": "2026-06-10T05:02:35.714851"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 291,
+      "title": "Dan Dreyfus: America's Critical Minerals Crisis is Here",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-10",
+      "summary": "The podcast discusses the critical role of the US semiconductor industry and the looming shortages of essential minerals required for technological advancements and infrastructure. It highlights the need for significant investment in the US electric grid, the surge in copper demand, and the government's intervention to bolster domestic mining. The conversation underscores the strategic importance of commodities like copper and silver in an inflationary environment and the potential for investment in this space.",
+      "key_takeaway": "Investing in critical minerals and infrastructure modernization presents a strategic opportunity to capitalize on supply-demand imbalances and government support, while also hedging against inflation.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 276
+    },
+    {
       "id": 288,
       "title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
       "source_type": "podcast",
@@ -1048,7 +1067,7 @@ const dashboardData = {
         "SAMSUNG ELECTRONICS"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-06",
       "archived_date": null,
@@ -9125,6 +9144,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 291,
+      "title": "Dan Dreyfus: America's Critical Minerals Crisis is Here",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-10",
+      "summary": "The podcast discusses the critical role of the US semiconductor industry and the looming shortages of essential minerals required for technological advancements and infrastructure. It highlights the need for significant investment in the US electric grid, the surge in copper demand, and the government's intervention to bolster domestic mining. The conversation underscores the strategic importance of commodities like copper and silver in an inflationary environment and the potential for investment in this space.",
+      "key_takeaway": "Investing in critical minerals and infrastructure modernization presents a strategic opportunity to capitalize on supply-demand imbalances and government support, while also hedging against inflation.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 276,
+      "episode_release_date": "2026-06-10",
+      "guest_name": "Dan Dreyfus",
+      "key_tickers": []
+    },
+    {
       "id": 288,
       "title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
       "source_type": "podcast",
@@ -9267,29 +9306,6 @@ const dashboardData = {
       "episode_release_date": "2026-06-07",
       "guest_name": "Inside the Private Stock Market Boom",
       "key_tickers": []
-    },
-    {
-      "id": 283,
-      "title": "The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone | Michael Fritzell | Asian Century Stocks",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-06-06",
-      "summary": "In this episode, Jack Farley discusses the potential bubble in South Korean memory chip companies, the speculative nature of the South Korean stock market, the competitive threat from Chinese memory chip manufacturers, and the investment opportunities in Southeast Asia. The conversation also touches on governance reforms in Japan and Korea, the impact of a potential new cold war on Asian trade dynamics, and the strategic allocation of assets towards Asian equities.",
-      "key_takeaway": "Investors should focus on undervalued companies in Asia, particularly in South Korea and Southeast Asia, due to favorable valuations and growth prospects.",
-      "tickers_mentioned": "[\"SK HYNIX\", \"SAMSUNG ELECTRONICS\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-06",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 268,
-      "episode_release_date": "2026-06-06",
-      "guest_name": null,
-      "key_tickers": [
-        "SK HYNIX",
-        "SAMSUNG ELECTRONICS"
-      ]
     }
   ],
   "definitions": [
@@ -9432,7 +9448,7 @@ const dashboardData = {
       "first_detected_speaker": "Peter Diamandis",
       "last_mentioned_episode_id": 271,
       "last_mentioned_speaker": "Peter Diamandis",
-      "overton_score": 0.98,
+      "overton_score": 0.95,
       "resonance_pct": 24,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
@@ -9458,8 +9474,8 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 270,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "overton_score": 0.95,
-      "resonance_pct": 24,
+      "overton_score": 0.93,
+      "resonance_pct": 23,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "Inside the Private Stock Market Boom: SpaceX, Anthropic, OpenAI & the Rise of Secondaries",
       "first_detected_episode_date": "2026-06-07",
@@ -9484,8 +9500,8 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 270,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "overton_score": 0.95,
-      "resonance_pct": 24,
+      "overton_score": 0.93,
+      "resonance_pct": 23,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "Inside the Private Stock Market Boom: SpaceX, Anthropic, OpenAI & the Rise of Secondaries",
       "first_detected_episode_date": "2026-06-07",
@@ -9510,7 +9526,7 @@ const dashboardData = {
       "first_detected_speaker": "Steven Sinofsky",
       "last_mentioned_episode_id": 255,
       "last_mentioned_speaker": "Steven Sinofsky",
-      "overton_score": 0.85,
+      "overton_score": 0.83,
       "resonance_pct": 21,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
@@ -9536,7 +9552,7 @@ const dashboardData = {
       "first_detected_speaker": "Steven Sinofsky",
       "last_mentioned_episode_id": 255,
       "last_mentioned_speaker": "Steven Sinofsky",
-      "overton_score": 0.85,
+      "overton_score": 0.83,
       "resonance_pct": 21,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
@@ -9562,7 +9578,7 @@ const dashboardData = {
       "first_detected_speaker": "Andrew Feldman",
       "last_mentioned_episode_id": 232,
       "last_mentioned_speaker": "Andrew Feldman",
-      "overton_score": 0.64,
+      "overton_score": 0.63,
       "resonance_pct": 16,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
@@ -9588,7 +9604,7 @@ const dashboardData = {
       "first_detected_speaker": "Andrew Feldman",
       "last_mentioned_episode_id": 232,
       "last_mentioned_speaker": "Andrew Feldman",
-      "overton_score": 0.64,
+      "overton_score": 0.63,
       "resonance_pct": 16,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
@@ -9614,7 +9630,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": null,
       "last_mentioned_speaker": null,
-      "overton_score": 0.56,
+      "overton_score": 0.55,
       "resonance_pct": 14,
       "first_detected_podcast": null,
       "first_detected_episode_title": null,
@@ -9640,7 +9656,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": null,
       "last_mentioned_speaker": null,
-      "overton_score": 0.56,
+      "overton_score": 0.55,
       "resonance_pct": 14,
       "first_detected_podcast": null,
       "first_detected_episode_title": null,
@@ -9666,7 +9682,7 @@ const dashboardData = {
       "first_detected_speaker": "Charles Koch, Chase Koch",
       "last_mentioned_episode_id": 215,
       "last_mentioned_speaker": "Charles Koch, Chase Koch",
-      "overton_score": 0.52,
+      "overton_score": 0.51,
       "resonance_pct": 13,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
@@ -9692,7 +9708,7 @@ const dashboardData = {
       "first_detected_speaker": "Charles Koch, Chase Koch",
       "last_mentioned_episode_id": 215,
       "last_mentioned_speaker": "Charles Koch, Chase Koch",
-      "overton_score": 0.52,
+      "overton_score": 0.51,
       "resonance_pct": 13,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
@@ -9718,7 +9734,7 @@ const dashboardData = {
       "first_detected_speaker": "Spencer Pratt",
       "last_mentioned_episode_id": 210,
       "last_mentioned_speaker": "Spencer Pratt",
-      "overton_score": 0.5,
+      "overton_score": 0.49,
       "resonance_pct": 12,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
@@ -9744,7 +9760,7 @@ const dashboardData = {
       "first_detected_speaker": "Spencer Pratt",
       "last_mentioned_episode_id": 210,
       "last_mentioned_speaker": "Spencer Pratt",
-      "overton_score": 0.5,
+      "overton_score": 0.49,
       "resonance_pct": 12,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
@@ -27130,12 +27146,75 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-09",
     "key_tickers": []
+  },
+  "291": {
+    "id": 281,
+    "insight_id": 291,
+    "podcast_episode_id": 276,
+    "overview": "The unresolved tension lies in the US's dependency on foreign, particularly Chinese, supply of critical minerals, which are essential for the nation's technological and infrastructure needs. The competitive dynamic is further complicated by the need to modernize the US electric grid and invest in renewable energy, both of which are heavily reliant on these minerals. The allocator-relevant implication is that the entities that can secure access to these critical minerals, either through domestic mining or strategic international partnerships, will gain a significant advantage. The metric arbitrating this uncertainty is the ability to scale domestic production and the resilience of the supply chain in the face of geopolitical tensions.",
+    "key_takeaways_detailed": [
+      "Investors should focus on companies that have established strong positions in the exploration and extraction of critical minerals, especially those with operations in the US, to benefit from the anticipated surge in demand and government support.",
+      "Monitor policy developments closely, as government initiatives can significantly impact the speed and scale of domestic mining operations, creating potential investment opportunities in the mining and infrastructure sectors.",
+      "Consider the environmental and social governance (ESG) implications of investing in mining companies, as sustainable practices will become increasingly important in this space.",
+      "Look for companies that are investing in technology to improve the efficiency of copper extraction and reduce environmental impact, as these could offer a competitive edge in a tightening market.",
+      "Stay abreast of global geopolitical developments, as shifts in trade policies or international relations can rapidly alter the supply dynamics of critical minerals."
+    ],
+    "investment_thesis": "The investment thesis is centered on the strategic importance of critical minerals, particularly copper, in the context of US infrastructure modernization and the transition to renewable energy. The timeframe for this thesis is medium to long-term, as significant investments in mining and infrastructure are required to meet future demand. An observable development that would vindicate this thesis is a continued increase in copper prices due to supply constraints, coupled with successful government initiatives to bolster domestic mining. Conversely, the thesis would be invalidated if there were substantial new discoveries of copper that could meet global demand, reducing the urgency for domestic production and investment in the sector.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a major consumer of semiconductors and minerals used in technology, making it relevant to the thesis as it is impacted by supply chain dynamics and potential shortages.",
+        "positioning": "Positioning should be strategic, considering Apple's ability to navigate supply chain challenges and its investment in renewable energy, which could mitigate risks associated with mineral shortages.",
+        "risk": "Key risks include potential disruptions in the supply of critical minerals, which could impact production and costs, and geopolitical tensions that could affect the global supply chain."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that technological advancements could reduce the demand for physical minerals, making investments in mining companies less attractive.",
+      "The possibility that international trade agreements could ease the supply constraints of critical minerals, reducing the need for domestic mining investments.",
+      "Concerns that environmental regulations could slow down the development of new mines, potentially limiting the ability to meet the increased demand for minerals."
+    ],
+    "catalysts": [
+      "US government announcements regarding new investments in domestic mining and infrastructure projects.",
+      "Global geopolitical events that impact the supply of critical minerals, such as trade disputes or changes in export policies.",
+      "Technological breakthroughs that could either increase the efficiency of mineral extraction or reduce the demand for certain minerals.",
+      "Market reports on the progress of renewable energy adoption and the corresponding demand for critical minerals.",
+      "Quarterly earnings reports from major mining companies that could indicate the health of the industry and the potential for future growth."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-10T05:02:02.679956",
+    "updated_at": "2026-06-10 10:02:02",
+    "episode_evidence": "The podcast underscores the critical nature of the US semiconductor industry and the impending shortages of essential minerals, which are vital for technological progress and infrastructure. It is highlighted that 'China has an absolute grip... on all of these critical minerals,' which poses a significant risk to US interests. The demand for copper is particularly alarming, with the projection that 'Over the next 18 years, we're going to need as much copper as we mined in the last 10,000 years.' This demand is driven by the rise of electric vehicles, data centers, and military applications, which are all critical areas for the US's future economic and security interests. The government's response has been to offer 'equity investments, expedited permits, and off-take agreements' to stimulate domestic mining operations, aiming to reduce dependency on foreign supply and bolster national security.",
+    "falsification_tracks": [
+      "Should China significantly relax its export restrictions on critical minerals, reducing the urgency for US self-sufficiency.",
+      "A substantial discovery of new copper reserves outside of China that could meet global demand, diminishing the strategic importance of domestic mining.",
+      "If the US government fails to pass legislation or allocate sufficient funds to support domestic mining and infrastructure modernization, hindering the progress towards self-sufficiency."
+    ],
+    "insight_title": "Dan Dreyfus: America's Critical Minerals Crisis is Here",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-06-10",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 14113,
+    "id": 14184,
+    "name": "Dan Dreyfus",
+    "slug": "dan-dreyfus",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in critical minerals and infrastructure modernization presents a strategic opportunity to capitalize on supply-demand imbalances and government support, while also hedging against inflation.",
+    "last_episode_title": "Dan Dreyfus: America's Critical Minerals Crisis is Here",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-06-10",
+    "appearance_count": 1
+  },
+  {
+    "id": 14185,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -27147,7 +27226,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14114,
+    "id": 14186,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -27159,7 +27238,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14115,
+    "id": 14187,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -27171,7 +27250,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14116,
+    "id": 14188,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -27183,7 +27262,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14117,
+    "id": 14189,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -27195,7 +27274,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14118,
+    "id": 14190,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -27207,7 +27286,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14119,
+    "id": 14191,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -27219,7 +27298,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14120,
+    "id": 14192,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -27231,7 +27310,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14121,
+    "id": 14193,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -27243,7 +27322,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14122,
+    "id": 14194,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -27255,7 +27334,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14123,
+    "id": 14195,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -27267,7 +27346,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14124,
+    "id": 14196,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -27279,7 +27358,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14125,
+    "id": 14197,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -27291,7 +27370,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14126,
+    "id": 14198,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -27303,7 +27382,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14127,
+    "id": 14199,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -27315,7 +27394,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14128,
+    "id": 14200,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -27327,7 +27406,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14129,
+    "id": 14201,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -27339,7 +27418,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14130,
+    "id": 14202,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -27351,7 +27430,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14131,
+    "id": 14203,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -27360,18 +27439,6 @@ const dashboardData = {
     "last_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-21",
-    "appearance_count": 1
-  },
-  {
-    "id": 14132,
-    "name": "A Basel III Deep Dive",
-    "slug": "a-basel-iii-deep-dive",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investors should closely monitor the regulatory environment, particularly Basel III implementation, as it can significantly impact bank valuations and lending capabilities. Additionally, the growing role of AI in legal practices presents both opportunities and challenges for the sector.",
-    "last_episode_title": "A Basel III Deep Dive | What to Know About How It Will Transform Banking Globally",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-05-17",
     "appearance_count": 1
   }
 ],
@@ -27846,7 +27913,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-15",
     "mention_score": 2,
-    "mention_score_decayed": 1.15,
+    "mention_score_decayed": 1.12,
     "last_main_idea": "Invest in technologies that empower individuals to maintain autonomy and control in a world where threats to personal safety and privacy are growing.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-15 \u2022 Vitalik Buterin on Human Agency in the AI Era",
     "last_proof_snippet": "One of the challenges the world right now is that we're definitely in a less peaceful and less safe world than 10 or 15 years ago. The vision of safety that we're competing with is basically, oh, you know, let's trust the uncle in the sky a",
@@ -28320,7 +28387,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-19 \u2022 MacroVoices-2026-03-19-Simon-White",
     "last_proof_snippet": "Simon White suggests that markets may be underpricing the second-order effects of the Iran conflict.",
@@ -28997,7 +29064,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -29189,7 +29256,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
@@ -29816,7 +29883,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investing in AI infrastructure and multi-modal AI applications presents a significant opportunity as Google and other tech companies continue to expand their capabilities and applications in this space.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-21 \u2022 Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
     "last_proof_snippet": "If he said five years ago, hey, Google's going to six exits, cat bags, and the stock will go up. Nobody in the right mind would have said, that's even possible. Quadrillions, billions, hundreds of billions, trillions, it gets numbing after",
@@ -30626,7 +30693,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in companies that demonstrate a capability-bounded approach, reinvestment in growth, and a culture of learning from failures to capitalize on innovation and long-term success.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-12 \u2022 Charles & Chase Koch on How They Quietly Built a $150B Empire",
     "last_proof_snippet": "What an honor to be here. Thank you for hosting us, Forbes, and welcome. This will be put out at the all-in interview. So I'm really excited to share this conversation with everyone on the world, on the internet, and to get some time with C",
@@ -30689,7 +30756,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in companies that demonstrate a capability-bounded approach, reinvestment in growth, and a culture of learning from failures to capitalize on innovation and long-term success.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-12 \u2022 Charles & Chase Koch on How They Quietly Built a $150B Empire",
     "last_proof_snippet": "What an honor to be here. Thank you for hosting us, Forbes, and welcome. This will be put out at the all-in interview. So I'm really excited to share this conversation with everyone on the world, on the internet, and to get some time with C",
@@ -30813,7 +30880,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in initiatives that promote transparency in local governance, support independent filmmakers, and advocate for education reform to drive economic revitalization and improve public services in Los Angeles.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-10 \u2022 Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
     "last_proof_snippet": "Spencer Pratt, welcome to the All In Podcast. Thank you for having me. You had an unbelievable debate performance the other night. I have so many friends that were texting and people obviously were tweeting about it. Let's start with that.",
@@ -31000,7 +31067,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in incremental AI improvements, new compensation models for CEOs, and emerging biotech sectors focusing on longevity and healthspan.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-07 \u2022 Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
     "last_proof_snippet": "Demisis Abbas, the CEO of DeepMind, says AGI may not need a major breakthrough. I've argued in the past that we achieved AGI in the summer of 2020. We know. I would argue what AGI is, and we know how pleased to find it for me. For your AI,",
@@ -31435,7 +31502,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Building a successful investment organization requires compounding talent, capital, and culture over time, focusing on long-term growth rather than short-term gains.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-05 \u2022 Building Blackstone, Backing Costco, with Tony James",
     "last_proof_snippet": "If you think about the development of a successful company, there's kind of an Esker. It starts off small and entrepreneurial. Then there's this kind of escalation where you create a lot of value in a lot of size. People know Blackstone tod",
@@ -32064,7 +32131,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investing in AI CapEx is currently the main focus, with co-investments in hedge funds providing a successful strategy for capturing high returns.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-29 \u2022 From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
     "last_proof_snippet": "Co-investing with hedge funds is a successful strategy Kavanaugh learned from Scott Beston at Soros Fund Management.",
@@ -35312,7 +35379,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-27 \u2022 Investing in Sovereign Credit with Lupin Ramon",
     "last_proof_snippet": "Investors in sovereign debt must consider both the ability and willingness of governments to repay, which can be influenced by a multitude of qualitative factors.",
@@ -35377,7 +35444,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-27 \u2022 Lessons from SpaceX and Tesla: Building for the Physical Economy",
     "last_proof_snippet": "Preventing data silos and fostering communication is crucial for scaling.",
@@ -35442,7 +35509,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-27 \u2022 Lessons from SpaceX and Tesla: Building for the Physical Economy",
     "last_proof_snippet": "Preventing data silos and fostering communication is crucial for scaling.",
@@ -35687,7 +35754,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
@@ -35747,7 +35814,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
@@ -35806,7 +35873,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-26 \u2022 Exploring Psychedelics for Longevity and Personal Growth",
     "last_proof_snippet": "Johnson's experience with 5-MEO-DMT was profound, leading to a significant personal reset and a renewed sense of purpose.",
@@ -36058,7 +36125,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-23 \u2022 Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
     "last_proof_snippet": "Northwood aims to modernize and vertically integrate ground systems to connect satellites back to Earth.",
@@ -36118,7 +36185,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-23 \u2022 Interview with Michael Intrader at Nvidia's GTC Conference",
     "last_proof_snippet": "The company leverages its expertise in risk management from its hedge fund background to navigate volatility in crypto.",
@@ -36179,7 +36246,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-23 \u2022 Monetary Matters: Middle East Crisis and Global Market Impact",
     "last_proof_snippet": "The Strait of Hormuz remains under Iranian control, and no significant change in shipping has been observed.",
@@ -36364,7 +36431,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-20 \u2022 The Impact of AI on Mathematics and Scientific Discovery",
     "last_proof_snippet": "The application of AI in mathematics could lead to new discoveries and breakthroughs more quickly than traditional methods.",

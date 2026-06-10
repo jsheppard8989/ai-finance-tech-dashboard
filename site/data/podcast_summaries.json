@@ -1,5 +1,21 @@
 [
   {
+    "id": 276,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Dan Dreyfus: America's Critical Minerals Crisis is Here",
+    "episode_date": "2026-06-10",
+    "summary": "The podcast discusses the critical role of the US semiconductor industry and the looming shortages of essential minerals required for technological advancements and infrastructure. It highlights the need for significant investment in the US electric grid, the surge in copper demand, and the government's intervention to bolster domestic mining. The conversation underscores the strategic importance of commodities like copper and silver in an inflationary environment and the potential for investment in this space.",
+    "key_takeaways": [
+      "Invest in companies involved in the extraction and processing of critical minerals, especially copper and silver.",
+      "Monitor government initiatives aimed at revitalizing domestic mining and infrastructure projects for investment opportunities.",
+      "Allocate capital to commodities as a hedge against inflation and currency debasement.",
+      "Invest in companies focused on modernizing the electric grid and other critical infrastructure.",
+      "Stay informed about geopolitical developments impacting the supply of critical minerals."
+    ],
+    "investment_thesis": "Investing in critical minerals and infrastructure modernization presents a strategic opportunity to capitalize on supply-demand imbalances and government support, while also hedging against inflation.",
+    "key_tickers": null
+  },
+  {
     "id": 275,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
@@ -114,25 +130,5 @@
     ],
     "investment_thesis": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "key_tickers": null
-  },
-  {
-    "id": 268,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone | Michael Fritzell | Asian Century Stocks",
-    "episode_date": "2026-06-06",
-    "summary": "In this episode, Jack Farley discusses the potential bubble in South Korean memory chip companies, the speculative nature of the South Korean stock market, the competitive threat from Chinese memory chip manufacturers, and the investment opportunities in Southeast Asia. The conversation also touches on governance reforms in Japan and Korea, the impact of a potential new cold war on Asian trade dynamics, and the strategic allocation of assets towards Asian equities.",
-    "key_takeaways": [
-      "South Korean memory chip companies are projected to generate $200 billion in profits by 2028, indicating a potential bubble in their stock valuations.",
-      "The South Korean stock market is experiencing significant speculation, particularly in memory chip and AI stocks.",
-      "Chinese memory chip manufacturers are expected to ramp up production by 2027, posing a competitive threat to South Korean firms.",
-      "Governance reforms in Japan and Korea may lead to increased activism and improved company valuations.",
-      "Southeast Asia, particularly Thailand and the Philippines, offers attractive investment opportunities in undervalued small-cap stocks.",
-      "Investors are encouraged to consider reallocating assets towards Asian equities due to favorable valuations and growth prospects."
-    ],
-    "investment_thesis": "Investors should focus on undervalued companies in Asia, particularly in South Korea and Southeast Asia, due to favorable valuations and growth prospects.",
-    "key_tickers": [
-      "SK HYNIX",
-      "SAMSUNG ELECTRONICS"
-    ]
   }
 ]
