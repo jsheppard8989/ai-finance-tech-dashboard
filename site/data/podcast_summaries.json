@@ -1,5 +1,21 @@
 [
   {
+    "id": 277,
+    "podcast_name": "The a16z Show",
+    "episode_title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
+    "episode_date": "2026-06-10",
+    "summary": "This episode of 'The a16z Show' explores the transformative potential of AI in healthcare and the future of work. It discusses how AI can reduce administrative costs in healthcare, the importance of curiosity in the AI-driven economy, the evolving role of customer support, and the shift towards flatter organizational structures. The podcast emphasizes the need for organizations to experiment with AI, integrate it into daily workflows, and establish clear guardrails to foster innovation while managing costs.",
+    "key_takeaways": [
+      "AI can significantly reduce administrative costs in healthcare, making it more accessible and affordable.",
+      "Curiosity and a willingness to experiment with AI tools will be key traits of successful employees in the AI-driven economy.",
+      "Customer support roles are evolving to become more integrated with sales and operations, enhancing overall member experience.",
+      "Organizations should embrace a culture of experimentation with AI, accepting initial costs for long-term benefits.",
+      "The future of work will involve a shift from hierarchical management to flatter structures, emphasizing individual contributions and collaboration."
+    ],
+    "investment_thesis": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
+    "key_tickers": null
+  },
+  {
     "id": 276,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Dan Dreyfus: America's Critical Minerals Crisis is Here",
@@ -113,22 +129,6 @@
       "Evaluate venture capital firms based on their liquidity management strategies and historical performance in returning capital to investors."
     ],
     "investment_thesis": "Invest in rapidly growing private AI companies and consider secondary market transactions for liquidity and potential gains.",
-    "key_tickers": null
-  },
-  {
-    "id": 269,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "\u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
-    "episode_date": "2026-06-07",
-    "summary": "In this episode of Monetary Matters, Jack Farley discusses the impact of the closure of the Strait of Hormuz on global oil supplies and prices. The conversation covers the disruption in supply chains, cuts in global refinery runs, the critical situation of U.S. inventory levels, and the potential for price volatility. The discussion also touches on China's role in the market and the geopolitical landscape's influence on oil supply routes.",
-    "key_takeaways": [
-      "Monitor geopolitical developments in the Middle East, particularly regarding the Strait of Hormuz, to anticipate supply changes.",
-      "Track U.S. inventory reports weekly to gauge the health of the crude and refined product markets.",
-      "Consider hedging against potential price spikes in oil and refined products due to low inventory levels.",
-      "Analyze China's import data for signs of increased demand that could affect global oil prices.",
-      "Prepare for potential supply shortages in refined products and adjust procurement strategies accordingly."
-    ],
-    "investment_thesis": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "key_tickers": null
   }
 ]

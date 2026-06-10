@@ -59,71 +59,6 @@
     }
   },
   {
-    "id": 46,
-    "name": "Peter Diamandis",
-    "slug": "peter-diamandis",
-    "bio": "Founder and Executive Chairman of the XPRIZE Foundation, Co-Founder and Vice-Chairman of Human Longevity Inc.",
-    "known_for": "Innovator and entrepreneur focused on exponential technologies",
-    "net_worth_usd": 200000000.0,
-    "net_worth_source": "https://explore.st-aug.edu/exp/peter-diamandis-xprize-bio-wiki-age-height-family-wife-facts-books-quotes-and-net-worth",
-    "net_worth_updated_at": "2026-04-01T05:04:16.091231",
-    "voice_tone": "Enthusiastic and forward-looking",
-    "voice_style": "Visionary and motivational",
-    "voice_delivery_notes": "Pacing is moderate with emphasis on key AI advancements",
-    "voice_profile_updated_at": "2026-06-09 03:02:10",
-    "last_seen": "2026-06-09 03:02:10",
-    "last_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-06-08",
-    "mention_score": 4,
-    "mention_score_decayed": 3.91,
-    "last_main_idea": "Invest in companies at the forefront of AI development and in regions with favorable AI regulatory environments to capitalize on the rapid advancements and market opportunities in AI.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-08 \u2022 Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
-    "last_proof_snippet": "anthropic just published what I think is probably one of the most important documents in the AI company has ever released. More than 80% of the code merchant to their code base is written by Claude. The AI is building itself. The AI is recu",
-    "supporting_takeaway": "Argentina is positioning itself as a global AI hub by offering no regulations and establishing legal personhood for AI entities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-20T05:01:54.892751",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Peter Diamandis",
-      "fetched_at": "2026-05-20T10:01:54.892598+00:00",
-      "cliff_notes": "Peter Diamandis is a Greek-American entrepreneur known for his work in fostering innovation and technological advancement. He is the founder of the X Prize Foundation, which has spurred advancements in space travel and other fields through competition. Diamandis has also co-founded Singularity University, an institution focused on exponential technologies. His ventures have been influential in the tech industry, promoting the idea that technology can solve many of the world's grand challenges. Diamandis' work has been recognized for its potential to transform industries and create new markets.",
-      "derived": {
-        "current_role": "Founder & Executive Chairman, XPRIZE Foundation",
-        "former_positions": "Founder, Singularity University; Co-Founder, Planetary Resources; Co-Founder, Space Adventures Ltd.",
-        "boards": "Co-Founder, Zero Gravity Corporation; Board Member, Space Florida",
-        "education": "MD, Harvard Medical School; BS in Molecular Genetics, MIT",
-        "books_or_works": "Abundance: The Future Is Better Than You Think; Bold: How to Go Big, Create Wealth and Impact the World",
-        "teaching_summary": "Co-Founder & Vice-Chairman, Singularity University"
-      },
-      "infobox": {
-        "Born": "1961",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Peter Diamandis is a Greek-American entrepreneur known for his work in fostering innovation and technological advancement. He is the founder of the X Prize Foundation, which has spurred advancements in space travel and other fields through competition. Diamandis has also co-founded Singularity University, an institution focused on exponential technologies.",
-        "His ventures have been influential in the tech industry, promoting the idea that technology can solve many of the world's grand challenges. Diamandis' work has been recognized for its potential to transform industries and create new markets."
-      ],
-      "sections": [
-        {
-          "heading": "X Prize Foundation",
-          "body": "Founded by Diamandis, the X Prize Foundation has spurred innovation in fields such as space travel and healthcare through competition."
-        },
-        {
-          "heading": "Singularity University",
-          "body": "Diamandis co-founded Singularity University to educate and inspire leaders in leveraging exponential technologies for positive impact."
-        },
-        {
-          "heading": "Innovation and Technology",
-          "body": "Diamandis is a prominent figure in the field of innovation, advocating for the use of technology to solve global challenges."
-        }
-      ]
-    },
-    "net_worth": "$200.0M"
-  },
-  {
     "id": 96,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
@@ -1192,7 +1127,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -1200,6 +1135,70 @@
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 282,
+    "name": "Sachin Jane",
+    "slug": "sachin-jane",
+    "bio": "Sachin Jane is a partner at a16z, focusing on investing in AI and machine learning startups. He is particularly interested in the applications of AI in healthcare and the future of work.",
+    "known_for": "His expertise in AI applications in healthcare and the future of work, and his role in shaping the technology's impact on society.",
+    "net_worth_usd": 50000000.0,
+    "net_worth_source": "https://www.celebsagewiki.com/sachin-h-jain",
+    "net_worth_updated_at": "2026-06-10T12:05:47.279021",
+    "voice_tone": "Confident and insightful",
+    "voice_style": "Analytical and solution-oriented",
+    "voice_delivery_notes": "Clear and concise, with a focus on actionable insights",
+    "voice_profile_updated_at": "2026-06-10 17:05:35",
+    "last_seen": "2026-06-10 17:05:35",
+    "last_episode_title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-10",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
+    "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
+    "supporting_takeaway": "Curiosity and a willingness to experiment with AI tools will be key traits of successful employees in the AI-driven economy.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-10T12:05:46.282423",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sachin Jane",
+      "fetched_at": "2026-06-10T17:05:46.282058+00:00",
+      "cliff_notes": "Sachin Jane is a partner at a16z, a venture capital firm, where he specializes in investing in AI and machine learning startups. His focus is on the intersection of AI and healthcare, as well as the broader implications of AI on the future of work. Jane is passionate about ensuring that AI technology benefits all of society, particularly in the realm of healthcare, which he sees as one of the most complex and administrative industries. He believes AI has the potential to reshape how healthcare organizations operate and how patients experience the system, moving away from a focus on administration towards direct patient care. Jane's work at a16z and his insights into the transformative power of AI have made him a key figure in the technology and healthcare sectors.",
+      "derived": {
+        "current_role": "Partner at a16z"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Sachin Jane is a partner at a16z, a venture capital firm, where he specializes in investing in AI and machine learning startups. His focus is on the intersection of AI and healthcare, as well as the broader implications of AI on the future of work. Jane is passionate about ensuring that AI technology benefits all of society, particularly in the realm of healthcare, which he sees as one of the most complex and administrative industries.",
+        "He believes AI has the potential to reshape how healthcare organizations operate and how patients experience the system, moving away from a focus on administration towards direct patient care. Jane's work at a16z and his insights into the transformative power of AI have made him a key figure in the technology and healthcare sectors."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Healthcare",
+          "body": "Sachin Jane is a strong advocate for the use of AI in healthcare, arguing that it can make important things like healthcare more affordable and accessible to society."
+        },
+        {
+          "heading": "Future of Work",
+          "body": "Jane's work at a16z involves exploring how AI will shape the future of work, focusing on the potential for AI to do work on behalf of humans and fundamentally change how organizations operate."
+        },
+        {
+          "heading": "Human-AI Connection",
+          "body": "Jane emphasizes the emotional connection that AI can make with humans, seeing it as a powerful and beautiful aspect of this technology that should be embraced rather than feared."
+        },
+        {
+          "heading": "Healthcare Spending",
+          "body": "He points out that a significant portion of healthcare spending is tied to administration rather than direct patient care, and believes AI can help change this dynamic."
+        }
+      ]
+    },
+    "net_worth": "$50.0M"
   },
   {
     "id": 281,
@@ -1284,7 +1283,7 @@
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Bitcoin serves as a leading indicator of fiat liquidity and a potential hedge against inflation, while MicroStrategy's complex capital structure poses risks to Bitcoin holders.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-09 \u2022 Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
     "last_proof_snippet": "Yo, welcome back to another episode of The Jack Mallers Show, I am your host, Jack, and you are listening to yet another edition of Mailbag Monday, episode 121. The title of today's episode is Bitcoin's cell-off explained, capital rotation,",
@@ -1344,7 +1343,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -1410,7 +1409,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -1685,7 +1684,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -1749,7 +1748,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -2066,7 +2065,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -2130,7 +2129,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -2313,7 +2312,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -2377,7 +2376,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -3120,7 +3119,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -3186,7 +3185,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -5822,7 +5821,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -8130,7 +8129,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -8190,7 +8189,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -8250,7 +8249,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",

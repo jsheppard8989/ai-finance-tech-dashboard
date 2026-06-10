@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-10T06:38:51.296782",
-  chartsVersion: "2026-06-10T06:38:30.305534",
+  generatedAt: "2026-06-10T12:07:16.500793",
+  chartsVersion: "2026-06-10T12:06:59.275428",
   priceSnapshot: {
   "GOOGL": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 358.04,
+    "change_pct": -7.59,
     "name": "GOOGL",
-    "updated_at": "2026-06-10T06:38:30.304470"
+    "updated_at": "2026-06-10T12:06:59.274349"
   },
   "BTC": {
-    "price": 60917.51,
-    "change_pct": -17.16,
+    "price": 62209.49,
+    "change_pct": -15.4,
     "name": "BTC",
-    "updated_at": "2026-06-10T06:38:30.304493"
+    "updated_at": "2026-06-10T12:06:59.274369"
   },
   "MSFT": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 403.02,
+    "change_pct": -3.83,
     "name": "MSFT",
-    "updated_at": "2026-06-10T06:38:30.304501"
+    "updated_at": "2026-06-10T12:06:59.274378"
   },
   "NVDA": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 203.05,
+    "change_pct": -7.39,
     "name": "NVDA",
-    "updated_at": "2026-06-10T06:38:30.304509"
+    "updated_at": "2026-06-10T12:06:59.274385"
   },
   "WTI": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 4.31,
+    "change_pct": -1.82,
     "name": "WTI",
-    "updated_at": "2026-06-10T06:38:30.304515"
+    "updated_at": "2026-06-10T12:06:59.274393"
   },
   "META": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 577.42,
+    "change_pct": -4.93,
     "name": "META",
-    "updated_at": "2026-06-10T06:38:30.304522"
+    "updated_at": "2026-06-10T12:06:59.274401"
   },
   "AMZN": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 239.04,
+    "change_pct": -10.96,
     "name": "AMZN",
-    "updated_at": "2026-06-10T06:38:30.304529"
+    "updated_at": "2026-06-10T12:06:59.274410"
   },
   "S&P 500": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 730.33,
+    "change_pct": -1.67,
     "name": "S&P 500",
-    "updated_at": "2026-06-10T06:38:30.304536"
+    "updated_at": "2026-06-10T12:06:59.274417"
   },
   "TSLA": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 384.28,
+    "change_pct": -8.03,
     "name": "TSLA",
-    "updated_at": "2026-06-10T06:38:30.304541"
+    "updated_at": "2026-06-10T12:06:59.274424"
   },
   "AAPL": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 292.42,
+    "change_pct": -4.12,
     "name": "AAPL",
-    "updated_at": "2026-06-10T06:38:30.304548"
+    "updated_at": "2026-06-10T12:06:59.274431"
   },
   "QQQ": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 698.28,
+    "change_pct": -2.27,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-10T06:38:30.304555"
+    "updated_at": "2026-06-10T12:06:59.274439"
   },
   "BTC-USD": {
-    "price": 60912.22,
-    "change_pct": -17.17,
+    "price": 62226.0,
+    "change_pct": -15.38,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-10T06:38:30.304564"
+    "updated_at": "2026-06-10T12:06:59.274447"
   }
 },
   tickerScores: [
@@ -853,6 +853,25 @@ const dashboardData = {
       "podcast_episode_id": 276
     },
     {
+      "id": 292,
+      "title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-10",
+      "summary": "This episode of 'The a16z Show' explores the transformative potential of AI in healthcare and the future of work. It discusses how AI can reduce administrative costs in healthcare, the importance of curiosity in the AI-driven economy, the evolving role of customer support, and the shift towards flatter organizational structures. The podcast emphasizes the need for organizations to experiment with AI, integrate it into daily workflows, and establish clear guardrails to foster innovation while managing costs.",
+      "key_takeaway": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 277
+    },
+    {
       "id": 288,
       "title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
       "source_type": "podcast",
@@ -965,7 +984,7 @@ const dashboardData = {
         "VLO"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-07",
       "archived_date": null,
@@ -6326,6 +6345,42 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 241,
+      "term": "AI-driven economy",
+      "description": "An economic environment where artificial intelligence plays a central role in driving productivity, innovation, and competitiveness.",
+      "first_detected_date": "2026-06-10",
+      "last_mentioned_date": "2026-06-10",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies that are at the forefront of AI adoption and integration.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 277,
+      "first_detected_speaker": "Sachin Jane",
+      "last_mentioned_episode_id": 277,
+      "last_mentioned_speaker": "Sachin Jane"
+    },
+    {
+      "id": 242,
+      "term": "Flatter organizational structures",
+      "description": "Organizational structures that emphasize collaboration and individual contributions over hierarchical management.",
+      "first_detected_date": "2026-06-10",
+      "last_mentioned_date": "2026-06-10",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Look for companies that are reevaluating their organizational structures to promote innovation and employee empowerment.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 277,
+      "first_detected_speaker": "Sachin Jane",
+      "last_mentioned_episode_id": 277,
+      "last_mentioned_speaker": "Sachin Jane"
+    },
+    {
       "id": 234,
       "term": "AI Personhood",
       "description": "The concept of granting legal personhood to AI entities, which could lead to new governance models and influence global legal frameworks.",
@@ -9164,6 +9219,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 292,
+      "title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-10",
+      "summary": "This episode of 'The a16z Show' explores the transformative potential of AI in healthcare and the future of work. It discusses how AI can reduce administrative costs in healthcare, the importance of curiosity in the AI-driven economy, the evolving role of customer support, and the shift towards flatter organizational structures. The podcast emphasizes the need for organizations to experiment with AI, integrate it into daily workflows, and establish clear guardrails to foster innovation while managing costs.",
+      "key_takeaway": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 277,
+      "episode_release_date": "2026-06-10",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 288,
       "title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
       "source_type": "podcast",
@@ -9266,26 +9341,6 @@ const dashboardData = {
       "key_tickers": [
         "PANW"
       ]
-    },
-    {
-      "id": 284,
-      "title": "\u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-06-07",
-      "summary": "In this episode of Monetary Matters, Jack Farley discusses the impact of the closure of the Strait of Hormuz on global oil supplies and prices. The conversation covers the disruption in supply chains, cuts in global refinery runs, the critical situation of U.S. inventory levels, and the potential for price volatility. The discussion also touches on China's role in the market and the geopolitical landscape's influence on oil supply routes.",
-      "key_takeaway": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
-      "tickers_mentioned": "[\"AAPL\", \"XOM\", \"VLO\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-07",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 269,
-      "episode_release_date": "2026-06-07",
-      "guest_name": "\u201cSleepwalking into Crisis\u201d",
-      "key_tickers": []
     },
     {
       "id": 285,
@@ -9431,6 +9486,58 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 241,
+      "term": "AI-driven economy",
+      "description": "An economic environment where artificial intelligence plays a central role in driving productivity, innovation, and competitiveness.",
+      "first_detected_date": "2026-06-10",
+      "last_mentioned_date": "2026-06-10",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies that are at the forefront of AI adoption and integration.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 277,
+      "first_detected_speaker": "Sachin Jane",
+      "last_mentioned_episode_id": 277,
+      "last_mentioned_speaker": "Sachin Jane",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
+      "first_detected_episode_date": "2026-06-10",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
+      "last_mentioned_episode_date": "2026-06-10"
+    },
+    {
+      "id": 242,
+      "term": "Flatter organizational structures",
+      "description": "Organizational structures that emphasize collaboration and individual contributions over hierarchical management.",
+      "first_detected_date": "2026-06-10",
+      "last_mentioned_date": "2026-06-10",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Look for companies that are reevaluating their organizational structures to promote innovation and employee empowerment.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 277,
+      "first_detected_speaker": "Sachin Jane",
+      "last_mentioned_episode_id": 277,
+      "last_mentioned_speaker": "Sachin Jane",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
+      "first_detected_episode_date": "2026-06-10",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
+      "last_mentioned_episode_date": "2026-06-10"
+    },
     {
       "id": 234,
       "term": "AI Personhood",
@@ -9716,58 +9823,6 @@ const dashboardData = {
       "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "last_mentioned_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
       "last_mentioned_episode_date": "2026-05-12"
-    },
-    {
-      "id": 169,
-      "term": "Accountability in Governance",
-      "description": "The concept of holding government officials responsible for the effective use of taxpayer money and the delivery of public services.",
-      "first_detected_date": "2026-05-10",
-      "last_mentioned_date": "2026-05-10",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors can advocate for transparency and accountability in local government spending to ensure funds are used effectively.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 210,
-      "first_detected_speaker": "Spencer Pratt",
-      "last_mentioned_episode_id": 210,
-      "last_mentioned_speaker": "Spencer Pratt",
-      "overton_score": 0.49,
-      "resonance_pct": 12,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
-      "first_detected_episode_date": "2026-05-10",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
-      "last_mentioned_episode_date": "2026-05-10"
-    },
-    {
-      "id": 170,
-      "term": "Streamlining Business Permits",
-      "description": "The process of simplifying and reducing bureaucratic hurdles in the permitting process for small businesses to encourage entrepreneurship and stimulate local economies.",
-      "first_detected_date": "2026-05-10",
-      "last_mentioned_date": "2026-05-10",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Supporting initiatives that streamline business permits can help small businesses grow and contribute to local economic development.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 210,
-      "first_detected_speaker": "Spencer Pratt",
-      "last_mentioned_episode_id": 210,
-      "last_mentioned_speaker": "Spencer Pratt",
-      "overton_score": 0.49,
-      "resonance_pct": 12,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
-      "first_detected_episode_date": "2026-05-10",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
-      "last_mentioned_episode_date": "2026-05-10"
     }
   ]
 },
@@ -27197,12 +27252,60 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-10",
     "key_tickers": []
+  },
+  "292": {
+    "id": 282,
+    "insight_id": 292,
+    "podcast_episode_id": 277,
+    "overview": "The unresolved tension in the healthcare sector is the high administrative costs that overshadow direct patient care, creating a pressing need for efficiency improvements. The competitive dynamic revolves around which companies can successfully integrate AI to streamline operations and enhance patient experiences. The allocator-relevant implication is that investors should focus on companies that not only adopt AI but also foster a culture of curiosity and experimentation, as these are the metrics that arbitrate the success of AI integration in the healthcare sector.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the administrative cost ratios of healthcare companies as a key performance indicator of AI integration success.",
+      "Look for companies that report increased employee engagement with AI tools and a culture that values curiosity, as these are likely to see higher innovation and productivity.",
+      "Evaluate the customer support strategies of companies, with a focus on how they integrate with sales and operations to enhance the customer experience.",
+      "Consider the organizational structure of companies, as flatter structures that promote individual contributions and collaboration may indicate a more agile and innovative organization."
+    ],
+    "investment_thesis": "The core logic is that AI integration in healthcare can significantly reduce administrative costs, thereby increasing the accessibility and affordability of healthcare. This thesis is vindicated if healthcare companies that actively integrate AI show a decrease in administrative costs as a percentage of total spending and an increase in patient satisfaction and accessibility over a 3-5 year timeframe.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in health technology, including AI, positions it to benefit from the transformation of healthcare through improved efficiency and patient experience.",
+        "positioning": "Strategic long position, as Apple's ecosystem and focus on user experience align with the need for improved healthcare accessibility and efficiency.",
+        "risk": "Key risks include regulatory hurdles in healthcare technology and potential missteps in integrating AI into their health products, which could slow down the realization of the investment thesis."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "AI integration may not yield the expected cost savings due to implementation challenges or resistance from healthcare providers.",
+      "The cultural shift towards curiosity and experimentation may be slower than anticipated, limiting the speed of AI adoption and its benefits.",
+      "Customer support integration with other departments may face resistance, leading to slower improvements in the customer experience."
+    ],
+    "catalysts": [
+      "New regulations that encourage or mandate the use of AI in healthcare administration.",
+      "Successful case studies from early adopters of AI in healthcare that demonstrate significant cost savings and improved patient outcomes.",
+      "Technological breakthroughs that make AI more accessible and easier to integrate into existing healthcare systems."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-10T12:06:13.972223",
+    "updated_at": "2026-06-10 17:06:13",
+    "episode_evidence": "The transformative potential of AI in healthcare is underscored by the staggering statistic that '45% of healthcare spending is tied to administration rather than direct patient care,' as stated by Sachin Jain. This implies that a significant portion of healthcare costs could be redirected towards patient care if administrative inefficiencies are addressed. The discussion also highlights the importance of curiosity in the AI-driven economy, with Jain emphasizing, 'What wins is curiosity.' This suggests that employees who are curious and willing to experiment with AI tools will be the most successful, driving innovation and competitive advantage. The evolving role of customer support is also highlighted, with Jain noting, 'Customer support is merging with sales, with operations, with collections.' This integration is crucial for enhancing the overall member experience and driving revenue growth.",
+    "falsification_tracks": [
+      "A sustained increase in administrative costs as a percentage of total healthcare spending over multiple quarters would challenge the thesis that AI can significantly reduce these costs.",
+      "If employee productivity and innovation do not improve alongside the increased use of AI tools, it would suggest that curiosity and engagement with AI are not as crucial as claimed.",
+      "A failure to see a merger of customer support with sales and operations, or a lack of enhancement in the overall customer experience, would undermine the argument for the evolving role of customer support."
+    ],
+    "insight_title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
+    "source_name": "The a16z Show",
+    "source_date": "2026-06-10",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 14256,
+    "id": 14328,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -27214,7 +27317,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14257,
+    "id": 14329,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -27226,7 +27329,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14258,
+    "id": 14330,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -27238,7 +27341,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14259,
+    "id": 14331,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -27250,7 +27353,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14260,
+    "id": 14332,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -27262,7 +27365,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14261,
+    "id": 14333,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -27274,7 +27377,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14262,
+    "id": 14334,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -27286,7 +27389,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14263,
+    "id": 14335,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -27298,7 +27401,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14264,
+    "id": 14336,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -27310,7 +27413,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14265,
+    "id": 14337,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -27322,7 +27425,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14266,
+    "id": 14338,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -27334,7 +27437,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14267,
+    "id": 14339,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -27346,7 +27449,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14268,
+    "id": 14340,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -27358,7 +27461,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14269,
+    "id": 14341,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -27370,7 +27473,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14270,
+    "id": 14342,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -27382,7 +27485,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14271,
+    "id": 14343,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -27394,7 +27497,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14272,
+    "id": 14344,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -27406,7 +27509,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14273,
+    "id": 14345,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -27418,7 +27521,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14274,
+    "id": 14346,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -27430,7 +27533,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14275,
+    "id": 14347,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -27501,71 +27604,6 @@ const dashboardData = {
         }
       ]
     }
-  },
-  {
-    "id": 46,
-    "name": "Peter Diamandis",
-    "slug": "peter-diamandis",
-    "bio": "Founder and Executive Chairman of the XPRIZE Foundation, Co-Founder and Vice-Chairman of Human Longevity Inc.",
-    "known_for": "Innovator and entrepreneur focused on exponential technologies",
-    "net_worth_usd": 200000000.0,
-    "net_worth_source": "https://explore.st-aug.edu/exp/peter-diamandis-xprize-bio-wiki-age-height-family-wife-facts-books-quotes-and-net-worth",
-    "net_worth_updated_at": "2026-04-01T05:04:16.091231",
-    "voice_tone": "Enthusiastic and forward-looking",
-    "voice_style": "Visionary and motivational",
-    "voice_delivery_notes": "Pacing is moderate with emphasis on key AI advancements",
-    "voice_profile_updated_at": "2026-06-09 03:02:10",
-    "last_seen": "2026-06-09 03:02:10",
-    "last_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-06-08",
-    "mention_score": 4,
-    "mention_score_decayed": 3.91,
-    "last_main_idea": "Invest in companies at the forefront of AI development and in regions with favorable AI regulatory environments to capitalize on the rapid advancements and market opportunities in AI.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-08 \u2022 Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
-    "last_proof_snippet": "anthropic just published what I think is probably one of the most important documents in the AI company has ever released. More than 80% of the code merchant to their code base is written by Claude. The AI is building itself. The AI is recu",
-    "supporting_takeaway": "Argentina is positioning itself as a global AI hub by offering no regulations and establishing legal personhood for AI entities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-20T05:01:54.892751",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Peter Diamandis",
-      "fetched_at": "2026-05-20T10:01:54.892598+00:00",
-      "cliff_notes": "Peter Diamandis is a Greek-American entrepreneur known for his work in fostering innovation and technological advancement. He is the founder of the X Prize Foundation, which has spurred advancements in space travel and other fields through competition. Diamandis has also co-founded Singularity University, an institution focused on exponential technologies. His ventures have been influential in the tech industry, promoting the idea that technology can solve many of the world's grand challenges. Diamandis' work has been recognized for its potential to transform industries and create new markets.",
-      "derived": {
-        "current_role": "Founder & Executive Chairman, XPRIZE Foundation",
-        "former_positions": "Founder, Singularity University; Co-Founder, Planetary Resources; Co-Founder, Space Adventures Ltd.",
-        "boards": "Co-Founder, Zero Gravity Corporation; Board Member, Space Florida",
-        "education": "MD, Harvard Medical School; BS in Molecular Genetics, MIT",
-        "books_or_works": "Abundance: The Future Is Better Than You Think; Bold: How to Go Big, Create Wealth and Impact the World",
-        "teaching_summary": "Co-Founder & Vice-Chairman, Singularity University"
-      },
-      "infobox": {
-        "Born": "1961",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Peter Diamandis is a Greek-American entrepreneur known for his work in fostering innovation and technological advancement. He is the founder of the X Prize Foundation, which has spurred advancements in space travel and other fields through competition. Diamandis has also co-founded Singularity University, an institution focused on exponential technologies.",
-        "His ventures have been influential in the tech industry, promoting the idea that technology can solve many of the world's grand challenges. Diamandis' work has been recognized for its potential to transform industries and create new markets."
-      ],
-      "sections": [
-        {
-          "heading": "X Prize Foundation",
-          "body": "Founded by Diamandis, the X Prize Foundation has spurred innovation in fields such as space travel and healthcare through competition."
-        },
-        {
-          "heading": "Singularity University",
-          "body": "Diamandis co-founded Singularity University to educate and inspire leaders in leveraging exponential technologies for positive impact."
-        },
-        {
-          "heading": "Innovation and Technology",
-          "body": "Diamandis is a prominent figure in the field of innovation, advocating for the use of technology to solve global challenges."
-        }
-      ]
-    },
-    "net_worth": "$200.0M"
   },
   {
     "id": 96,
@@ -28636,7 +28674,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -28644,6 +28682,70 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 282,
+    "name": "Sachin Jane",
+    "slug": "sachin-jane",
+    "bio": "Sachin Jane is a partner at a16z, focusing on investing in AI and machine learning startups. He is particularly interested in the applications of AI in healthcare and the future of work.",
+    "known_for": "His expertise in AI applications in healthcare and the future of work, and his role in shaping the technology's impact on society.",
+    "net_worth_usd": 50000000.0,
+    "net_worth_source": "https://www.celebsagewiki.com/sachin-h-jain",
+    "net_worth_updated_at": "2026-06-10T12:05:47.279021",
+    "voice_tone": "Confident and insightful",
+    "voice_style": "Analytical and solution-oriented",
+    "voice_delivery_notes": "Clear and concise, with a focus on actionable insights",
+    "voice_profile_updated_at": "2026-06-10 17:05:35",
+    "last_seen": "2026-06-10 17:05:35",
+    "last_episode_title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-10",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
+    "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
+    "supporting_takeaway": "Curiosity and a willingness to experiment with AI tools will be key traits of successful employees in the AI-driven economy.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-10T12:05:46.282423",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sachin Jane",
+      "fetched_at": "2026-06-10T17:05:46.282058+00:00",
+      "cliff_notes": "Sachin Jane is a partner at a16z, a venture capital firm, where he specializes in investing in AI and machine learning startups. His focus is on the intersection of AI and healthcare, as well as the broader implications of AI on the future of work. Jane is passionate about ensuring that AI technology benefits all of society, particularly in the realm of healthcare, which he sees as one of the most complex and administrative industries. He believes AI has the potential to reshape how healthcare organizations operate and how patients experience the system, moving away from a focus on administration towards direct patient care. Jane's work at a16z and his insights into the transformative power of AI have made him a key figure in the technology and healthcare sectors.",
+      "derived": {
+        "current_role": "Partner at a16z"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Sachin Jane is a partner at a16z, a venture capital firm, where he specializes in investing in AI and machine learning startups. His focus is on the intersection of AI and healthcare, as well as the broader implications of AI on the future of work. Jane is passionate about ensuring that AI technology benefits all of society, particularly in the realm of healthcare, which he sees as one of the most complex and administrative industries.",
+        "He believes AI has the potential to reshape how healthcare organizations operate and how patients experience the system, moving away from a focus on administration towards direct patient care. Jane's work at a16z and his insights into the transformative power of AI have made him a key figure in the technology and healthcare sectors."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Healthcare",
+          "body": "Sachin Jane is a strong advocate for the use of AI in healthcare, arguing that it can make important things like healthcare more affordable and accessible to society."
+        },
+        {
+          "heading": "Future of Work",
+          "body": "Jane's work at a16z involves exploring how AI will shape the future of work, focusing on the potential for AI to do work on behalf of humans and fundamentally change how organizations operate."
+        },
+        {
+          "heading": "Human-AI Connection",
+          "body": "Jane emphasizes the emotional connection that AI can make with humans, seeing it as a powerful and beautiful aspect of this technology that should be embraced rather than feared."
+        },
+        {
+          "heading": "Healthcare Spending",
+          "body": "He points out that a significant portion of healthcare spending is tied to administration rather than direct patient care, and believes AI can help change this dynamic."
+        }
+      ]
+    },
+    "net_worth": "$50.0M"
   },
   {
     "id": 281,
@@ -28728,7 +28830,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Bitcoin serves as a leading indicator of fiat liquidity and a potential hedge against inflation, while MicroStrategy's complex capital structure poses risks to Bitcoin holders.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-09 \u2022 Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
     "last_proof_snippet": "Yo, welcome back to another episode of The Jack Mallers Show, I am your host, Jack, and you are listening to yet another edition of Mailbag Monday, episode 121. The title of today's episode is Bitcoin's cell-off explained, capital rotation,",
@@ -28788,7 +28890,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -28854,7 +28956,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -29129,7 +29231,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -29193,7 +29295,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -29510,7 +29612,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -29574,7 +29676,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -29757,7 +29859,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -29821,7 +29923,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -30564,7 +30666,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -30630,7 +30732,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -33266,7 +33368,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -35574,7 +35676,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -35634,7 +35736,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -35694,7 +35796,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",

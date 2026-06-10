@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-10T06:38:33.440496",
-  "last_updated": "2026-06-10T06:38:33.440496",
-  "last_pipeline_run": "2026-06-10T06:38:33.440496",
+  "generated_at": "2026-06-10T12:07:03.540322",
+  "last_updated": "2026-06-10T12:07:03.540322",
+  "last_pipeline_run": "2026-06-10T12:07:03.540322",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -9,13 +9,13 @@
   },
   "counts": {
     "ticker_mentions": 185,
-    "podcast_episodes": 249,
+    "podcast_episodes": 250,
     "newsletters": 7,
     "daily_scores": 123,
-    "overton_terms_total": 156,
-    "latest_insights_total": 263,
+    "overton_terms_total": 158,
+    "latest_insights_total": 264,
     "today_mentions": {},
-    "podcasts_analyzed": 1
+    "podcasts_analyzed": 2
   },
   "step_results": {
     "downloaded": 1,
@@ -27,11 +27,11 @@
   },
   "episodes": [
     {
-      "id": "f7f1d0c7-a239-47d6-a8be-c40d7ebd9a5a",
-      "podcast": "The a16z Show",
-      "title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
+      "id": "bc407810-64d2-11f1-9025-3b1569ff61fc",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
       "published": "2026-06-10",
-      "rss_guid": "f7f1d0c7-a239-47d6-a8be-c40d7ebd9a5a",
+      "rss_guid": "bc407810-64d2-11f1-9025-3b1569ff61fc",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -100,9 +100,9 @@
   ],
   "available_from_rss": [
     {
-      "podcast": "The a16z Show",
-      "title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
-      "published": "Wed, 10 Jun 2026 10:00:00 +0000",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
+      "published": "Wed, 10 Jun 2026 14:08:00 -0000",
       "published_date": "2026-06-10",
       "rss_guid": ""
     }
