@@ -1,5 +1,21 @@
 [
   {
+    "id": 278,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
+    "episode_date": "2026-06-10",
+    "summary": "The Development Finance Corporation (DFC) has expanded its investment capacity and is diversifying its strategies to include equity investments and innovative financial products. The DFC is focusing on high-impact projects, particularly in critical minerals, infrastructure, technology, and energy sectors, with a strategic emphasis on Latin America, Eastern Europe, and Africa. The Corporation aims to mobilize private capital and act as a flexible partner in the capital structure, enhancing investment opportunities in emerging markets.",
+    "key_takeaways": [
+      "The DFC's investment capacity has increased from $60 billion to $205 billion, positioning it as a significant player in global finance.",
+      "DFC's investment strategy now includes senior secured loans, political risk insurance, and equity investments.",
+      "The DFC is actively involved in high-impact projects, such as the Ukraine Reconstruction Investment Fund.",
+      "DFC aims to mobilize private capital by acting as a flexible partner in the capital structure, enhancing investment opportunities in emerging markets.",
+      "DFC's investment priorities include critical minerals, infrastructure, technology, and energy, with a focus on Latin America, Eastern Europe, and Africa."
+    ],
+    "investment_thesis": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
+    "key_tickers": null
+  },
+  {
     "id": 277,
     "podcast_name": "The a16z Show",
     "episode_title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
@@ -113,22 +129,6 @@
       "Investors should explore opportunities in Argentina and consider the implications of regulatory environments on AI investments globally."
     ],
     "investment_thesis": "Invest in companies at the forefront of AI development and in regions with favorable AI regulatory environments to capitalize on the rapid advancements and market opportunities in AI.",
-    "key_tickers": null
-  },
-  {
-    "id": 270,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "Inside the Private Stock Market Boom: SpaceX, Anthropic, OpenAI & the Rise of Secondaries",
-    "episode_date": "2026-06-07",
-    "summary": "This podcast episode discusses the rapid growth of the private market for AI companies, the increasing role of secondary market transactions as exit strategies, and the trend of companies staying private longer. The show also touches on the democratization of private investments, the changing dynamics in venture capital, and the potential risks and opportunities for retail investors in private markets.",
-    "key_takeaways": [
-      "Invest in private AI companies showing strong growth metrics, focusing on those with proven business models.",
-      "Participate in secondary market transactions to capitalize on liquidity opportunities.",
-      "Monitor the evolving landscape of private company valuations and consider diversifying investments into private equity.",
-      "Stay informed about regulatory changes regarding investor accreditation that could affect access to private investments.",
-      "Evaluate venture capital firms based on their liquidity management strategies and historical performance in returning capital to investors."
-    ],
-    "investment_thesis": "Invest in rapidly growing private AI companies and consider secondary market transactions for liquidity and potential gains.",
     "key_tickers": null
   }
 ]

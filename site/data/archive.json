@@ -39,6 +39,25 @@
       "podcast_episode_id": 277
     },
     {
+      "id": 293,
+      "title": "America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-06-10",
+      "summary": "The Development Finance Corporation (DFC) has expanded its investment capacity and is diversifying its strategies to include equity investments and innovative financial products. The DFC is focusing on high-impact projects, particularly in critical minerals, infrastructure, technology, and energy sectors, with a strategic emphasis on Latin America, Eastern Europe, and Africa. The Corporation aims to mobilize private capital and act as a flexible partner in the capital structure, enhancing investment opportunities in emerging markets.",
+      "key_takeaway": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 278
+    },
+    {
       "id": 288,
       "title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
       "source_type": "podcast",
@@ -170,7 +189,7 @@
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-07",
       "archived_date": null,
@@ -5511,42 +5530,6 @@
   ],
   "definitions": [],
   "overton": [
-    {
-      "id": 241,
-      "term": "AI-driven economy",
-      "description": "An economic environment where artificial intelligence plays a central role in driving productivity, innovation, and competitiveness.",
-      "first_detected_date": "2026-06-10",
-      "last_mentioned_date": "2026-06-10",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies that are at the forefront of AI adoption and integration.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 277,
-      "first_detected_speaker": "Sachin Jane",
-      "last_mentioned_episode_id": 277,
-      "last_mentioned_speaker": "Sachin Jane"
-    },
-    {
-      "id": 242,
-      "term": "Flatter organizational structures",
-      "description": "Organizational structures that emphasize collaboration and individual contributions over hierarchical management.",
-      "first_detected_date": "2026-06-10",
-      "last_mentioned_date": "2026-06-10",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Look for companies that are reevaluating their organizational structures to promote innovation and employee empowerment.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 277,
-      "first_detected_speaker": "Sachin Jane",
-      "last_mentioned_episode_id": 277,
-      "last_mentioned_speaker": "Sachin Jane"
-    },
     {
       "id": 234,
       "term": "AI Personhood",

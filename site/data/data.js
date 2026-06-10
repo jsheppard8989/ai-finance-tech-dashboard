@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-10T12:07:16.500793",
-  chartsVersion: "2026-06-10T12:06:59.275428",
+  generatedAt: "2026-06-10T13:40:06.620213",
+  chartsVersion: "2026-06-10T13:40:02.078977",
   priceSnapshot: {
   "GOOGL": {
-    "price": 358.04,
-    "change_pct": -7.59,
+    "price": 355.99,
+    "change_pct": -8.12,
     "name": "GOOGL",
-    "updated_at": "2026-06-10T12:06:59.274349"
+    "updated_at": "2026-06-10T13:40:02.078141"
   },
   "BTC": {
-    "price": 62209.49,
-    "change_pct": -15.4,
+    "price": 61763.08,
+    "change_pct": -16.01,
     "name": "BTC",
-    "updated_at": "2026-06-10T12:06:59.274369"
+    "updated_at": "2026-06-10T13:40:02.078158"
   },
   "MSFT": {
-    "price": 403.02,
-    "change_pct": -3.83,
+    "price": 400.45,
+    "change_pct": -4.45,
     "name": "MSFT",
-    "updated_at": "2026-06-10T12:06:59.274378"
+    "updated_at": "2026-06-10T13:40:02.078165"
   },
   "NVDA": {
-    "price": 203.05,
-    "change_pct": -7.39,
+    "price": 201.99,
+    "change_pct": -7.87,
     "name": "NVDA",
-    "updated_at": "2026-06-10T12:06:59.274385"
+    "updated_at": "2026-06-10T13:40:02.078171"
   },
   "WTI": {
-    "price": 4.31,
-    "change_pct": -1.82,
+    "price": 4.24,
+    "change_pct": -3.3,
     "name": "WTI",
-    "updated_at": "2026-06-10T12:06:59.274393"
+    "updated_at": "2026-06-10T13:40:02.078176"
   },
   "META": {
-    "price": 577.42,
-    "change_pct": -4.93,
+    "price": 573.56,
+    "change_pct": -5.57,
     "name": "META",
-    "updated_at": "2026-06-10T12:06:59.274401"
+    "updated_at": "2026-06-10T13:40:02.078182"
   },
   "AMZN": {
-    "price": 239.04,
-    "change_pct": -10.96,
+    "price": 238.63,
+    "change_pct": -11.11,
     "name": "AMZN",
-    "updated_at": "2026-06-10T12:06:59.274410"
+    "updated_at": "2026-06-10T13:40:02.078188"
   },
   "S&P 500": {
-    "price": 730.33,
-    "change_pct": -1.67,
+    "price": 728.53,
+    "change_pct": -1.91,
     "name": "S&P 500",
-    "updated_at": "2026-06-10T12:06:59.274417"
+    "updated_at": "2026-06-10T13:40:02.078193"
   },
   "TSLA": {
-    "price": 384.28,
-    "change_pct": -8.03,
+    "price": 383.05,
+    "change_pct": -8.33,
     "name": "TSLA",
-    "updated_at": "2026-06-10T12:06:59.274424"
+    "updated_at": "2026-06-10T13:40:02.078198"
   },
   "AAPL": {
-    "price": 292.42,
-    "change_pct": -4.12,
+    "price": 293.6,
+    "change_pct": -3.73,
     "name": "AAPL",
-    "updated_at": "2026-06-10T12:06:59.274431"
+    "updated_at": "2026-06-10T13:40:02.078204"
   },
   "QQQ": {
-    "price": 698.28,
-    "change_pct": -2.27,
+    "price": 696.76,
+    "change_pct": -2.48,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-10T12:06:59.274439"
+    "updated_at": "2026-06-10T13:40:02.078210"
   },
   "BTC-USD": {
-    "price": 62226.0,
-    "change_pct": -15.38,
+    "price": 61763.08,
+    "change_pct": -16.01,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-10T12:06:59.274447"
+    "updated_at": "2026-06-10T13:40:02.078217"
   }
 },
   tickerScores: [
@@ -872,6 +872,25 @@ const dashboardData = {
       "podcast_episode_id": 277
     },
     {
+      "id": 293,
+      "title": "America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-06-10",
+      "summary": "The Development Finance Corporation (DFC) has expanded its investment capacity and is diversifying its strategies to include equity investments and innovative financial products. The DFC is focusing on high-impact projects, particularly in critical minerals, infrastructure, technology, and energy sectors, with a strategic emphasis on Latin America, Eastern Europe, and Africa. The Corporation aims to mobilize private capital and act as a flexible partner in the capital structure, enhancing investment opportunities in emerging markets.",
+      "key_takeaway": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 278
+    },
+    {
       "id": 288,
       "title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
       "source_type": "podcast",
@@ -1003,7 +1022,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-07",
       "archived_date": null,
@@ -6345,42 +6364,6 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 241,
-      "term": "AI-driven economy",
-      "description": "An economic environment where artificial intelligence plays a central role in driving productivity, innovation, and competitiveness.",
-      "first_detected_date": "2026-06-10",
-      "last_mentioned_date": "2026-06-10",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies that are at the forefront of AI adoption and integration.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 277,
-      "first_detected_speaker": "Sachin Jane",
-      "last_mentioned_episode_id": 277,
-      "last_mentioned_speaker": "Sachin Jane"
-    },
-    {
-      "id": 242,
-      "term": "Flatter organizational structures",
-      "description": "Organizational structures that emphasize collaboration and individual contributions over hierarchical management.",
-      "first_detected_date": "2026-06-10",
-      "last_mentioned_date": "2026-06-10",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Look for companies that are reevaluating their organizational structures to promote innovation and employee empowerment.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 277,
-      "first_detected_speaker": "Sachin Jane",
-      "last_mentioned_episode_id": 277,
-      "last_mentioned_speaker": "Sachin Jane"
-    },
-    {
       "id": 234,
       "term": "AI Personhood",
       "description": "The concept of granting legal personhood to AI entities, which could lead to new governance models and influence global legal frameworks.",
@@ -9239,6 +9222,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 293,
+      "title": "America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-06-10",
+      "summary": "The Development Finance Corporation (DFC) has expanded its investment capacity and is diversifying its strategies to include equity investments and innovative financial products. The DFC is focusing on high-impact projects, particularly in critical minerals, infrastructure, technology, and energy sectors, with a strategic emphasis on Latin America, Eastern Europe, and Africa. The Corporation aims to mobilize private capital and act as a flexible partner in the capital structure, enhancing investment opportunities in emerging markets.",
+      "key_takeaway": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 278,
+      "episode_release_date": "2026-06-10",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 288,
       "title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
       "source_type": "podcast",
@@ -9341,26 +9344,6 @@ const dashboardData = {
       "key_tickers": [
         "PANW"
       ]
-    },
-    {
-      "id": 285,
-      "title": "Inside the Private Stock Market Boom: SpaceX, Anthropic, OpenAI & the Rise of Secondaries",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-06-07",
-      "summary": "This podcast episode discusses the rapid growth of the private market for AI companies, the increasing role of secondary market transactions as exit strategies, and the trend of companies staying private longer. The show also touches on the democratization of private investments, the changing dynamics in venture capital, and the potential risks and opportunities for retail investors in private markets.",
-      "key_takeaway": "Invest in rapidly growing private AI companies and consider secondary market transactions for liquidity and potential gains.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-07",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 270,
-      "episode_release_date": "2026-06-07",
-      "guest_name": "Inside the Private Stock Market Boom",
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -9486,58 +9469,6 @@ const dashboardData = {
     }
   ],
   "overton": [
-    {
-      "id": 241,
-      "term": "AI-driven economy",
-      "description": "An economic environment where artificial intelligence plays a central role in driving productivity, innovation, and competitiveness.",
-      "first_detected_date": "2026-06-10",
-      "last_mentioned_date": "2026-06-10",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies that are at the forefront of AI adoption and integration.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 277,
-      "first_detected_speaker": "Sachin Jane",
-      "last_mentioned_episode_id": 277,
-      "last_mentioned_speaker": "Sachin Jane",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
-      "first_detected_episode_date": "2026-06-10",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
-      "last_mentioned_episode_date": "2026-06-10"
-    },
-    {
-      "id": 242,
-      "term": "Flatter organizational structures",
-      "description": "Organizational structures that emphasize collaboration and individual contributions over hierarchical management.",
-      "first_detected_date": "2026-06-10",
-      "last_mentioned_date": "2026-06-10",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Look for companies that are reevaluating their organizational structures to promote innovation and employee empowerment.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 277,
-      "first_detected_speaker": "Sachin Jane",
-      "last_mentioned_episode_id": 277,
-      "last_mentioned_speaker": "Sachin Jane",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
-      "first_detected_episode_date": "2026-06-10",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
-      "last_mentioned_episode_date": "2026-06-10"
-    },
     {
       "id": 234,
       "term": "AI Personhood",
@@ -9823,6 +9754,58 @@ const dashboardData = {
       "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "last_mentioned_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
       "last_mentioned_episode_date": "2026-05-12"
+    },
+    {
+      "id": 169,
+      "term": "Accountability in Governance",
+      "description": "The concept of holding government officials responsible for the effective use of taxpayer money and the delivery of public services.",
+      "first_detected_date": "2026-05-10",
+      "last_mentioned_date": "2026-05-10",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors can advocate for transparency and accountability in local government spending to ensure funds are used effectively.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 210,
+      "first_detected_speaker": "Spencer Pratt",
+      "last_mentioned_episode_id": 210,
+      "last_mentioned_speaker": "Spencer Pratt",
+      "overton_score": 0.49,
+      "resonance_pct": 12,
+      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "first_detected_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
+      "first_detected_episode_date": "2026-05-10",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
+      "last_mentioned_episode_date": "2026-05-10"
+    },
+    {
+      "id": 170,
+      "term": "Streamlining Business Permits",
+      "description": "The process of simplifying and reducing bureaucratic hurdles in the permitting process for small businesses to encourage entrepreneurship and stimulate local economies.",
+      "first_detected_date": "2026-05-10",
+      "last_mentioned_date": "2026-05-10",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Supporting initiatives that streamline business permits can help small businesses grow and contribute to local economic development.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 210,
+      "first_detected_speaker": "Spencer Pratt",
+      "last_mentioned_episode_id": 210,
+      "last_mentioned_speaker": "Spencer Pratt",
+      "overton_score": 0.49,
+      "resonance_pct": 12,
+      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "first_detected_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
+      "first_detected_episode_date": "2026-05-10",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
+      "last_mentioned_episode_date": "2026-05-10"
     }
   ]
 },
@@ -27300,12 +27283,63 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-06-10",
     "key_tickers": []
+  },
+  "293": {
+    "id": 283,
+    "insight_id": 293,
+    "podcast_episode_id": 278,
+    "overview": "The unresolved tension lies in the balance between the DFC's dual mandate of achieving financial returns and supporting U.S. foreign policy objectives. The competitive dynamic is further complicated by the need to mobilize private capital in a way that aligns with these goals without compromising on financial viability. The allocator-relevant implication is that investors who can successfully navigate this balance, leveraging the DFC's expanded capacity and strategic focus, stand to gain from enhanced investment opportunities in emerging markets. Conversely, those who fail to align with the DFC's priorities may find themselves at a disadvantage in accessing these high-impact projects.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the DFC's evolving investment strategies and align their portfolios with sectors that the DFC targets, such as critical minerals and infrastructure, to capitalize on potential co-investment opportunities.",
+      "The establishment of the Ukraine Reconstruction Investment Fund suggests a strategic opportunity for investors to engage in the recovering Ukrainian market, particularly in sectors supported by the DFC.",
+      "Investors should evaluate the geopolitical considerations that may impact the viability and returns of DFC-backed investments, as these considerations are integral to the DFC's strategic investment focus.",
+      "Partnering with the DFC can provide investors with access to a broader range of resources and enhance project funding, but it also requires a careful assessment of the governance structure and its influence on investment decisions.",
+      "Investors should be prepared to adapt their strategies in response to the DFC's pipeline of deals, which indicates a robust future investment activity and potential for significant growth in investment activity through 2026."
+    ],
+    "investment_thesis": "The core logic is that the DFC's expanded investment capacity and strategic focus on high-impact projects in critical sectors will create unique investment opportunities that align with U.S. foreign policy goals. Over the next 3-5 years, the success of this thesis will be vindicated if the DFC effectively mobilizes private capital, achieves financial returns on its investments, and supports geopolitical objectives. Conversely, it will be invalidated if the DFC fails to achieve these outcomes, as evidenced by a lack of private sector engagement, underperformance of investments, or misalignment with U.S. policy.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's involvement in the technology sector and its reliance on critical minerals for its products make it relevant to the DFC's investment priorities. Apple's supply chain and investment in emerging technologies could be significantly influenced by the DFC's activities in these areas.",
+        "positioning": "A long position in AAPL could be strategic, as the company's growth is likely to benefit from the DFC's focus on technology and infrastructure development, particularly in regions where Apple has manufacturing operations or sourcing.",
+        "risk": "Key risks include geopolitical tensions affecting Apple's supply chain, especially in regions targeted by the DFC, and potential regulatory changes that could impact Apple's operations in those areas."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The DFC's expanded investment capacity may lead to increased competition for investment opportunities, potentially driving up valuations and reducing returns.",
+      "There is a risk that the DFC's focus on high-impact projects may result in a neglect of smaller, yet potentially profitable, opportunities in emerging markets.",
+      "The alignment of DFC investments with U.S. foreign policy goals could lead to ethical and reputational risks for private investors partnering with the DFC, especially in politically sensitive regions."
+    ],
+    "catalysts": [
+      "The DFC's announcement of new investment deals, particularly in the technology and infrastructure sectors, could serve as a catalyst for market interest in related companies.",
+      "Geopolitical events, such as changes in U.S. foreign policy or shifts in global trade dynamics, could significantly impact the DFC's investment strategy and priorities.",
+      "Publication of the DFC's annual report, which details its investment activities and outcomes, will provide a clear indicator of the success of its expanded mandate and strategic focus.",
+      "Any significant changes in the DFC's governance structure or leadership could influence its investment decisions and the effectiveness of its partnership model."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-10T13:39:20.302155",
+    "updated_at": "2026-06-10 18:39:20",
+    "episode_evidence": "The Development Finance Corporation (DFC) has significantly expanded its investment capacity, as highlighted by Connor Coleman, Head of Investments at DFC, who stated, 'The DFC is the international investment arm of the United States government, and a central player to economic statecraft for the United States.' This expansion from $60 billion to $205 billion positions the DFC as a major player in global finance. The DFC's investment toolkit has evolved to include not only traditional loans but also equity investments and innovative financial products, as Coleman mentioned, 'our toolkit's been expanded... you're going to see us playing much more in equity investment.' This diversification allows the DFC to engage in more complex projects, enhancing its role in global finance. The Ukraine Reconstruction Investment Fund, with a seed capital of $150 million, exemplifies the DFC's focus on high-impact projects, particularly in critical minerals and infrastructure, as Coleman emphasized, 'The Europe was able to not only be operationalized in under nine months, but also make its first investment.'",
+    "falsification_tracks": [
+      "If the DFC's investment capacity does not reach the projected $205 billion within the next fiscal year, it would cast doubt on the organization's ability to execute its expanded mandate.",
+      "Should the DFC fail to mobilize private capital effectively, evidenced by a lack of significant private sector partnerships or a decline in private investment in DFC-backed projects, the thesis of its role as a multiplier for private sector investments would be weakened.",
+      "If geopolitical tensions lead to a significant reduction in investment in regions like Latin America, Eastern Europe, and Africa, the strategic alignment of DFC investments with U.S. foreign policy goals could be compromised.",
+      "A consistent pattern of DFC investments not yielding the expected financial returns or development impact would undermine the credibility of its investment strategy and the effectiveness of its governance model."
+    ],
+    "insight_title": "America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-06-10",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 14328,
+    "id": 14400,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -27317,7 +27351,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14329,
+    "id": 14401,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -27329,7 +27363,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14330,
+    "id": 14402,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -27341,7 +27375,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14331,
+    "id": 14403,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -27353,7 +27387,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14332,
+    "id": 14404,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -27365,7 +27399,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14333,
+    "id": 14405,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -27377,7 +27411,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14334,
+    "id": 14406,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -27389,7 +27423,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14335,
+    "id": 14407,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -27401,7 +27435,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14336,
+    "id": 14408,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -27413,7 +27447,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14337,
+    "id": 14409,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -27425,7 +27459,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14338,
+    "id": 14410,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -27437,7 +27471,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14339,
+    "id": 14411,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -27449,7 +27483,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14340,
+    "id": 14412,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -27461,7 +27495,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14341,
+    "id": 14413,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -27473,7 +27507,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14342,
+    "id": 14414,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -27485,7 +27519,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14343,
+    "id": 14415,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -27497,7 +27531,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14344,
+    "id": 14416,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -27509,7 +27543,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14345,
+    "id": 14417,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -27521,7 +27555,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14346,
+    "id": 14418,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -27533,7 +27567,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14347,
+    "id": 14419,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -27752,7 +27786,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 1.78,
+    "mention_score_decayed": 1.74,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -27890,7 +27924,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.59,
+    "mention_score_decayed": 1.55,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -28078,7 +28112,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -28684,6 +28718,65 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 283,
+    "name": "Connor Coleman",
+    "slug": "connor-coleman",
+    "bio": "Connor Coleman is the Executive Vice President at the Development Finance Corporation (DFC), where he leads efforts to expand investment capacity and diversify investment strategies. He is also the Chief of Staff and Head of Investments at the DFC, playing a crucial role in the corporation's global financial activities.",
+    "known_for": "Expanding the Development Finance Corporation's investment capacity and diversifying its investment strategies.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and informative.",
+    "voice_style": "Factual and forward-looking.",
+    "voice_delivery_notes": "Clear and assertive with a focus on the strategic importance of DFC's role.",
+    "voice_profile_updated_at": "2026-06-10 18:38:42",
+    "last_seen": "2026-06-10 18:38:42",
+    "last_episode_title": "America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-06-10",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-10 \u2022 America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
+    "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. There's a very, very large player in global finance that almost no one knows about. The development finance corporation, it just had its reautho",
+    "supporting_takeaway": "DFC's investment strategy now includes senior secured loans, political risk insurance, and equity investments.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-10T13:38:50.849059",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Connor Coleman",
+      "fetched_at": "2026-06-10T18:38:50.848735+00:00",
+      "cliff_notes": "Connor Coleman serves as the Executive Vice President at the Development Finance Corporation (DFC), overseeing the expansion of its investment capacity and diversification of investment strategies. As the Chief of Staff and Head of Investments, Coleman plays a pivotal role in managing the DFC's global financial activities, which include substantial investments in large-scale, high-risk projects such as those in Ukraine and other strategic regions. His leadership at the DFC has been instrumental in reauthorizing the corporation's funding from $60 billion to $205 billion, significantly increasing its capacity to engage in risk transformation and global finance.",
+      "derived": {
+        "current_role": "Executive Vice President, Chief of Staff, and Head of Investments at the Development Finance Corporation"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Connor Coleman serves as the Executive Vice President at the Development Finance Corporation (DFC), overseeing the expansion of its investment capacity and diversification of investment strategies. As the Chief of Staff and Head of Investments, Coleman plays a pivotal role in managing the DFC's global financial activities, which include substantial investments in large-scale, high-risk projects such as those in Ukraine and other strategic regions.",
+        "His leadership at the DFC has been instrumental in reauthorizing the corporation's funding from $60 billion to $205 billion, significantly increasing its capacity to engage in risk transformation and global finance."
+      ],
+      "sections": [
+        {
+          "heading": "DFC Expansion",
+          "body": "Connor Coleman has been instrumental in expanding the Development Finance Corporation's investment capacity, leading to a reauthorization that increased its funding from $60 billion to $205 billion."
+        },
+        {
+          "heading": "Investment Strategies",
+          "body": "Coleman is responsible for diversifying the DFC's investment strategies, focusing on large-scale, high-risk projects that have the potential for significant impact in global finance."
+        },
+        {
+          "heading": "Global Finance",
+          "body": "Under Coleman's leadership, the DFC has become a major player in global finance, investing substantial sums in projects that are often overlooked by traditional financial institutions."
+        }
+      ]
+    }
+  },
+  {
     "id": 282,
     "name": "Sachin Jane",
     "slug": "sachin-jane",
@@ -28765,7 +28858,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -29019,7 +29112,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -29106,7 +29199,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -29425,7 +29518,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-03 \u2022 Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
     "last_proof_snippet": "One of the most provocative and interesting investors in the country. A legendary activist investor. Pershing square CEO and founder Bill Acling. Taking a short position and going public with it is a pretty serious business. Interestingly,",
@@ -29490,7 +29583,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-02 \u2022 OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
     "last_proof_snippet": "Open AI's CFO, Sarah Fryer. We've got to get right to it. You have just completed what I would find as the most successful fund-raising rail in history. We're going to raise actually north of $120 billion. We think AI is the biggest era tha",
@@ -29794,7 +29887,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -30104,7 +30197,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -30168,7 +30261,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -30231,7 +30324,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -31293,7 +31386,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -31356,7 +31449,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -31544,7 +31637,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -35358,7 +35451,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -35417,7 +35510,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
