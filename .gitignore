@@ -43,7 +43,10 @@ pipeline/audio/
 pipeline/whisper_queue/
 pipeline/whisper_done/
 pipeline/transcripts/*.txt
+pipeline/transcripts/*.digest*.md
+pipeline/transcripts/*.meta.json
 !pipeline/transcripts/.gitkeep
+pipeline/processed/*.processed
 
 # Logs
 *.log
