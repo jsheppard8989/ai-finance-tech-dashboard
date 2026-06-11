@@ -1,5 +1,44 @@
 [
   {
+    "id": 282,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
+    "episode_date": "2026-06-11",
+    "summary": "This episode of 'Moonshots with Peter Diamandis' delves into the future of investment opportunities across cryptocurrency, biotechnology, and AI. Key themes include Citibank's bullish projection for Bitcoin, advancements in age-reversal therapies, the growing role of AI agents in cryptocurrency transactions, SpaceX's space-based AI infrastructure, Apple's strategic shift in AI with Gemini, and the ethical considerations of gene editing. These discussions provide a comprehensive view of emerging investment landscapes and potential market disruptors.",
+    "key_takeaways": [
+      "Consider increasing Bitcoin exposure based on Citibank's projection of a price surge to $189,000 by 2026.",
+      "Monitor developments in age-reversal therapies for potential high-growth investment opportunities in biotech.",
+      "Explore investment in companies integrating AI and cryptocurrency, particularly those serving AI agents as customers.",
+      "Stay informed about advancements in space-based AI infrastructure for potential impacts on various industries.",
+      "Evaluate the implications of Apple's partnership with Google on Siri for its competitive position in the AI market.",
+      "Be aware of the ethical landscape surrounding gene editing when investing in biotech firms involved in this space."
+    ],
+    "investment_thesis": "Invest in sectors at the forefront of technological disruption, with a focus on cryptocurrency, AI, and biotech innovations that promise significant market transformation and growth.",
+    "key_tickers": [
+      "BTC"
+    ]
+  },
+  {
+    "id": 281,
+    "podcast_name": "Macro Voices",
+    "episode_title": "MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
+    "episode_date": "2026-06-11",
+    "summary": "The podcast discusses a significant market sell-off, with the S&P 500 testing its 50-day moving average, and the impact of major IPOs on existing equities. The high yield bond market shows signs of distress, indicating consumer weakness. There is a potential rotation from financial assets to hard assets, including energy and materials, and the healthcare sector is under-owned and may benefit. Gold prices have broken down, and uranium and gold miners are experiencing significant selling pressure. The U.S. dollar is attempting a breakout, which could impact commodity prices, and the Iran conflict continues to escalate, impacting oil prices and market sentiment.",
+    "key_takeaways": [
+      "The market is experiencing a significant sell-off, testing the S&P 500's 50-day moving average.",
+      "Major IPOs, including SpaceX and Google, represent a combined capital raise of approximately $250 billion, which could lead to significant selling pressure on existing stocks.",
+      "Distress in the high yield bond market, particularly in lower-rated bonds, suggests weakening consumer spending.",
+      "There is a potential shift in investment focus from financial assets to hard assets, including energy, materials, and healthcare.",
+      "Gold miners are experiencing a breakdown in prices, with expectations of further declines due to rising interest rates and inflation.",
+      "The healthcare sector is undervalued and may benefit from a rotation away from technology stocks."
+    ],
+    "investment_thesis": "The market may be entering a new inflation shock regime, leading to a rotation from financial assets to hard assets, with the healthcare sector presenting an under-owned opportunity.",
+    "key_tickers": [
+      "GOOGL",
+      "SPCE"
+    ]
+  },
+  {
     "id": 280,
     "podcast_name": "The a16z Show",
     "episode_title": "Designing the Physical World with AI",
@@ -93,40 +132,6 @@
       "AI technology is in its early stages and is poised for rapid advancements, similar to the progression from early gaming consoles to modern systems."
     ],
     "investment_thesis": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
-    "key_tickers": null
-  },
-  {
-    "id": 274,
-    "podcast_name": "The Jack Mallers Show",
-    "episode_title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
-    "episode_date": "2026-06-09",
-    "summary": "This episode of 'The Jack Mallers Show' discusses the current state of Bitcoin's market cap, the potential liquidity crisis due to geopolitical tensions, and MicroStrategy's complex capital structure. The podcast highlights Bitcoin's role as a 'smoke alarm' for fiat liquidity and the challenges MicroStrategy faces in satisfying all stakeholders amidst a bear market. The discussion also touches on the potential for AI and Bitcoin to catalyze a new Renaissance.",
-    "key_takeaways": [
-      "Monitor geopolitical developments and liquidity indicators to assess potential impacts on Bitcoin's price.",
-      "Evaluate MicroStrategy's financial obligations and their implications for Bitcoin holders.",
-      "Consider dollar-cost averaging strategies to mitigate short-term volatility in Bitcoin investments.",
-      "Stay informed about capital rotation trends and their effects on Bitcoin ETFs and market sentiment.",
-      "Engage with the Bitcoin community to share insights and strategies for navigating the current market environment."
-    ],
-    "investment_thesis": "Bitcoin serves as a leading indicator of fiat liquidity and a potential hedge against inflation, while MicroStrategy's complex capital structure poses risks to Bitcoin holders.",
-    "key_tickers": [
-      "BTC"
-    ]
-  },
-  {
-    "id": 273,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
-    "episode_date": "2026-06-09",
-    "summary": "In this episode, the a16z Show explores the intersection of AI and the job market. The discussion centers on how AI is projected to create new jobs even as it automates existing ones, with a focus on the historical context of technological revolutions and their impact on employment. The conversation also touches on the potential for AI to reduce poverty and improve living standards, as well as the challenges faced by the upper middle class in the face of AI-driven disruptions.",
-    "key_takeaways": [
-      "AI is expected to create new jobs in sectors like energy, biomedical, elderly care, and niche entertainment.",
-      "Historical technological revolutions have often led to job creation rather than permanent unemployment.",
-      "Productivity growth, enhanced by AI, is key to economic advancement and improving living standards.",
-      "The upper middle class may face significant disruptions due to AI, potentially leading to social and political instability.",
-      "AI has the potential to reduce extreme poverty by making goods and services more affordable."
-    ],
-    "investment_thesis": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "key_tickers": null
   }
 ]

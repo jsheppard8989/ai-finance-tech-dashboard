@@ -3,93 +3,93 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-11T12:11:12.274192",
-  chartsVersion: "2026-06-11T12:11:04.553887",
+  generatedAt: "2026-06-11T13:44:57.207485",
+  chartsVersion: "2026-06-11T13:44:41.642674",
   priceSnapshot: {
   "GOOGL": {
-    "price": 347.56,
-    "change_pct": -9.19,
+    "price": 353.3,
+    "change_pct": -7.69,
     "name": "GOOGL",
-    "updated_at": "2026-06-11T12:11:04.552893"
+    "updated_at": "2026-06-11T13:44:41.641812"
   },
   "BTC": {
-    "price": 62482.86,
-    "change_pct": -14.84,
+    "price": 63455.17,
+    "change_pct": -13.52,
     "name": "BTC",
-    "updated_at": "2026-06-11T12:11:04.552913"
+    "updated_at": "2026-06-11T13:44:41.641829"
   },
   "MSFT": {
-    "price": 385.35,
-    "change_pct": -7.94,
+    "price": 387.7,
+    "change_pct": -7.38,
     "name": "MSFT",
-    "updated_at": "2026-06-11T12:11:04.552922"
+    "updated_at": "2026-06-11T13:44:41.641836"
   },
   "NVDA": {
-    "price": 200.41,
-    "change_pct": -6.82,
+    "price": 202.18,
+    "change_pct": -6.0,
     "name": "NVDA",
-    "updated_at": "2026-06-11T12:11:04.552930"
+    "updated_at": "2026-06-11T13:44:41.641841"
   },
   "WTI": {
-    "price": 4.36,
-    "change_pct": -1.52,
+    "price": 4.2,
+    "change_pct": -5.3,
     "name": "WTI",
-    "updated_at": "2026-06-11T12:11:04.552937"
+    "updated_at": "2026-06-11T13:44:41.641847"
   },
   "META": {
-    "price": 560.56,
-    "change_pct": -8.14,
+    "price": 567.21,
+    "change_pct": -7.05,
     "name": "META",
-    "updated_at": "2026-06-11T12:11:04.552945"
+    "updated_at": "2026-06-11T13:44:41.641853"
   },
   "AMZN": {
-    "price": 236.3,
-    "change_pct": -11.27,
+    "price": 239.2,
+    "change_pct": -10.19,
     "name": "AMZN",
-    "updated_at": "2026-06-11T12:11:04.552953"
+    "updated_at": "2026-06-11T13:44:41.641859"
   },
   "S&P 500": {
-    "price": 726.89,
-    "change_pct": -2.52,
+    "price": 734.95,
+    "change_pct": -1.43,
     "name": "S&P 500",
-    "updated_at": "2026-06-11T12:11:04.552961"
+    "updated_at": "2026-06-11T13:44:41.641864"
   },
   "TSLA": {
-    "price": 386.0,
-    "change_pct": -9.39,
+    "price": 392.82,
+    "change_pct": -7.79,
     "name": "TSLA",
-    "updated_at": "2026-06-11T12:11:04.552969"
+    "updated_at": "2026-06-11T13:44:41.641870"
   },
   "AAPL": {
-    "price": 293.59,
-    "change_pct": -4.93,
+    "price": 295.48,
+    "change_pct": -4.32,
     "name": "AAPL",
-    "updated_at": "2026-06-11T12:11:04.552976"
+    "updated_at": "2026-06-11T13:44:41.641875"
   },
   "QQQ": {
-    "price": 699.91,
-    "change_pct": -2.46,
+    "price": 710.64,
+    "change_pct": -0.96,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-11T12:11:04.552983"
+    "updated_at": "2026-06-11T13:44:41.641880"
   },
   "BTC-USD": {
-    "price": 62469.8,
-    "change_pct": -14.86,
+    "price": 63455.17,
+    "change_pct": -13.52,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-11T12:11:04.552992"
+    "updated_at": "2026-06-11T13:44:41.641886"
   }
 },
   tickerScores: [
   {
     "ticker": "GOOGL",
-    "total_score": 581.0,
-    "raw_mention_count": 27,
+    "total_score": 651.0,
+    "raw_mention_count": 28,
     "unique_sources": 2,
-    "podcast_mentions": 7,
+    "podcast_mentions": 8,
     "newsletter_mentions": 20,
     "rank": 1,
-    "score": 581.0,
-    "mentions": 27,
+    "score": 651.0,
+    "mentions": 28,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -97,14 +97,14 @@ const dashboardData = {
   },
   {
     "ticker": "BTC",
-    "total_score": 444.0,
-    "raw_mention_count": 6,
+    "total_score": 520.0,
+    "raw_mention_count": 7,
     "unique_sources": 1,
-    "podcast_mentions": 6,
+    "podcast_mentions": 7,
     "newsletter_mentions": 0,
     "rank": 2,
-    "score": 444.0,
-    "mentions": 6,
+    "score": 520.0,
+    "mentions": 7,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -681,14 +681,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRM",
-    "total_score": 68.0,
+    "ticker": "SPCE",
+    "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 41,
-    "score": 68.0,
+    "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -696,7 +696,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "MINE",
+    "ticker": "CRM",
     "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -711,14 +711,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ETH",
-    "total_score": 66.0,
+    "ticker": "MINE",
+    "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 43,
-    "score": 66.0,
+    "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -726,7 +726,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ILMN",
+    "ticker": "ETH",
     "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -741,7 +741,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PLTR",
+    "ticker": "ILMN",
     "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -756,14 +756,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRSP",
-    "total_score": 64.0,
+    "ticker": "PLTR",
+    "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 46,
-    "score": 64.0,
+    "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -771,7 +771,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "GOOG",
+    "ticker": "CRSP",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -786,7 +786,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "HG",
+    "ticker": "GOOG",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -801,7 +801,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "HOOD",
+    "ticker": "HG",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -816,7 +816,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SF",
+    "ticker": "HOOD",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -851,6 +851,45 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 280
+    },
+    {
+      "id": 296,
+      "title": "Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-06-11",
+      "summary": "This episode of 'Moonshots with Peter Diamandis' delves into the future of investment opportunities across cryptocurrency, biotechnology, and AI. Key themes include Citibank's bullish projection for Bitcoin, advancements in age-reversal therapies, the growing role of AI agents in cryptocurrency transactions, SpaceX's space-based AI infrastructure, Apple's strategic shift in AI with Gemini, and the ethical considerations of gene editing. These discussions provide a comprehensive view of emerging investment landscapes and potential market disruptors.",
+      "key_takeaway": "Invest in sectors at the forefront of technological disruption, with a focus on cryptocurrency, AI, and biotech innovations that promise significant market transformation and growth.",
+      "tickers_mentioned": [
+        "BTC"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 282
+    },
+    {
+      "id": 297,
+      "title": "MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-06-11",
+      "summary": "The podcast discusses a significant market sell-off, with the S&P 500 testing its 50-day moving average, and the impact of major IPOs on existing equities. The high yield bond market shows signs of distress, indicating consumer weakness. There is a potential rotation from financial assets to hard assets, including energy and materials, and the healthcare sector is under-owned and may benefit. Gold prices have broken down, and uranium and gold miners are experiencing significant selling pressure. The U.S. dollar is attempting a breakout, which could impact commodity prices, and the Iran conflict continues to escalate, impacting oil prices and market sentiment.",
+      "key_takeaway": "The market may be entering a new inflation shock regime, leading to a rotation from financial assets to hard assets, with the healthcare sector presenting an under-owned opportunity.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "SPCE"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 281
     },
     {
       "id": 291,
@@ -940,7 +979,7 @@ const dashboardData = {
         "BTC"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-09",
       "archived_date": null,
@@ -963,7 +1002,7 @@ const dashboardData = {
         "AMZN"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-09",
       "archived_date": null,
@@ -6402,6 +6441,60 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 245,
+      "term": "Rotation from Financial to Hard Assets",
+      "description": "A shift in investment focus from financial assets such as stocks and bonds to hard assets like energy, materials, and healthcare.",
+      "first_detected_date": "2026-06-11",
+      "last_mentioned_date": "2026-06-11",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors may consider reallocating funds into hard assets and sectors that are likely to benefit from this rotation.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 281,
+      "first_detected_speaker": "Larry MacDonald",
+      "last_mentioned_episode_id": 281,
+      "last_mentioned_speaker": "Larry MacDonald"
+    },
+    {
+      "id": 246,
+      "term": "Age-Reversal Therapies",
+      "description": "Therapeutic approaches that aim to reverse the aging process by reprogramming human cells without changing their type.",
+      "first_detected_date": "2026-06-11",
+      "last_mentioned_date": "2026-06-11",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor developments in this field for potential high-growth opportunities in the biotech sector.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 282,
+      "first_detected_speaker": "Brian Armstrong",
+      "last_mentioned_episode_id": 282,
+      "last_mentioned_speaker": "Brian Armstrong"
+    },
+    {
+      "id": 247,
+      "term": "AI Agents as Customers",
+      "description": "The concept of artificial intelligence entities conducting financial transactions autonomously, using cryptocurrency wallets to buy services.",
+      "first_detected_date": "2026-06-11",
+      "last_mentioned_date": "2026-06-11",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should explore companies that are integrating AI and cryptocurrency, as this sector may experience rapid growth.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 282,
+      "first_detected_speaker": "Brian Armstrong",
+      "last_mentioned_episode_id": 282,
+      "last_mentioned_speaker": "Brian Armstrong"
+    },
+    {
       "id": 243,
       "term": "K-shaped recovery",
       "description": "An economic recovery where wealth concentration increases, benefiting the wealthy while leaving the bottom half of the population behind.",
@@ -9276,6 +9369,51 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 296,
+      "title": "Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-06-11",
+      "summary": "This episode of 'Moonshots with Peter Diamandis' delves into the future of investment opportunities across cryptocurrency, biotechnology, and AI. Key themes include Citibank's bullish projection for Bitcoin, advancements in age-reversal therapies, the growing role of AI agents in cryptocurrency transactions, SpaceX's space-based AI infrastructure, Apple's strategic shift in AI with Gemini, and the ethical considerations of gene editing. These discussions provide a comprehensive view of emerging investment landscapes and potential market disruptors.",
+      "key_takeaway": "Invest in sectors at the forefront of technological disruption, with a focus on cryptocurrency, AI, and biotech innovations that promise significant market transformation and growth.",
+      "tickers_mentioned": "[\"BTC\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 282,
+      "episode_release_date": "2026-06-11",
+      "guest_name": null,
+      "key_tickers": [
+        "BTC"
+      ]
+    },
+    {
+      "id": 297,
+      "title": "MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-06-11",
+      "summary": "The podcast discusses a significant market sell-off, with the S&P 500 testing its 50-day moving average, and the impact of major IPOs on existing equities. The high yield bond market shows signs of distress, indicating consumer weakness. There is a potential rotation from financial assets to hard assets, including energy and materials, and the healthcare sector is under-owned and may benefit. Gold prices have broken down, and uranium and gold miners are experiencing significant selling pressure. The U.S. dollar is attempting a breakout, which could impact commodity prices, and the Iran conflict continues to escalate, impacting oil prices and market sentiment.",
+      "key_takeaway": "The market may be entering a new inflation shock regime, leading to a rotation from financial assets to hard assets, with the healthcare sector presenting an under-owned opportunity.",
+      "tickers_mentioned": "[\"GOOGL\", \"SPCE\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 281,
+      "episode_release_date": "2026-06-11",
+      "guest_name": null,
+      "key_tickers": [
+        "GOOGL",
+        "SPCE"
+      ]
+    },
+    {
       "id": 291,
       "title": "Dan Dreyfus: America's Critical Minerals Crisis is Here",
       "source_type": "podcast",
@@ -9352,48 +9490,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 279,
       "episode_release_date": "2026-06-10",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 288,
-      "title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
-      "source_type": "podcast",
-      "source_name": "The Jack Mallers Show",
-      "source_date": "2026-06-09",
-      "summary": "This episode of 'The Jack Mallers Show' discusses the current state of Bitcoin's market cap, the potential liquidity crisis due to geopolitical tensions, and MicroStrategy's complex capital structure. The podcast highlights Bitcoin's role as a 'smoke alarm' for fiat liquidity and the challenges MicroStrategy faces in satisfying all stakeholders amidst a bear market. The discussion also touches on the potential for AI and Bitcoin to catalyze a new Renaissance.",
-      "key_takeaway": "Bitcoin serves as a leading indicator of fiat liquidity and a potential hedge against inflation, while MicroStrategy's complex capital structure poses risks to Bitcoin holders.",
-      "tickers_mentioned": "[\"BTC\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-09",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 274,
-      "episode_release_date": "2026-06-09",
-      "guest_name": "Bitcoin Selloff Explained",
-      "key_tickers": [
-        "BTC"
-      ]
-    },
-    {
-      "id": 289,
-      "title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-06-09",
-      "summary": "In this episode, the a16z Show explores the intersection of AI and the job market. The discussion centers on how AI is projected to create new jobs even as it automates existing ones, with a focus on the historical context of technological revolutions and their impact on employment. The conversation also touches on the potential for AI to reduce poverty and improve living standards, as well as the challenges faced by the upper middle class in the face of AI-driven disruptions.",
-      "key_takeaway": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"TSLA\", \"MSFT\", \"AMZN\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-09",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 273,
-      "episode_release_date": "2026-06-09",
       "guest_name": null,
       "key_tickers": []
     },
@@ -9541,6 +9637,84 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 245,
+      "term": "Rotation from Financial to Hard Assets",
+      "description": "A shift in investment focus from financial assets such as stocks and bonds to hard assets like energy, materials, and healthcare.",
+      "first_detected_date": "2026-06-11",
+      "last_mentioned_date": "2026-06-11",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors may consider reallocating funds into hard assets and sectors that are likely to benefit from this rotation.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 281,
+      "first_detected_speaker": "Larry MacDonald",
+      "last_mentioned_episode_id": 281,
+      "last_mentioned_speaker": "Larry MacDonald",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Macro Voices",
+      "first_detected_episode_title": "MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
+      "first_detected_episode_date": "2026-06-11",
+      "last_mentioned_podcast": "Macro Voices",
+      "last_mentioned_episode_title": "MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
+      "last_mentioned_episode_date": "2026-06-11"
+    },
+    {
+      "id": 246,
+      "term": "Age-Reversal Therapies",
+      "description": "Therapeutic approaches that aim to reverse the aging process by reprogramming human cells without changing their type.",
+      "first_detected_date": "2026-06-11",
+      "last_mentioned_date": "2026-06-11",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor developments in this field for potential high-growth opportunities in the biotech sector.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 282,
+      "first_detected_speaker": "Brian Armstrong",
+      "last_mentioned_episode_id": 282,
+      "last_mentioned_speaker": "Brian Armstrong",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
+      "first_detected_episode_date": "2026-06-11",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
+      "last_mentioned_episode_date": "2026-06-11"
+    },
+    {
+      "id": 247,
+      "term": "AI Agents as Customers",
+      "description": "The concept of artificial intelligence entities conducting financial transactions autonomously, using cryptocurrency wallets to buy services.",
+      "first_detected_date": "2026-06-11",
+      "last_mentioned_date": "2026-06-11",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should explore companies that are integrating AI and cryptocurrency, as this sector may experience rapid growth.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 282,
+      "first_detected_speaker": "Brian Armstrong",
+      "last_mentioned_episode_id": 282,
+      "last_mentioned_speaker": "Brian Armstrong",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
+      "first_detected_episode_date": "2026-06-11",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
+      "last_mentioned_episode_date": "2026-06-11"
+    },
     {
       "id": 243,
       "term": "K-shaped recovery",
@@ -9800,84 +9974,6 @@ const dashboardData = {
       "last_mentioned_podcast": null,
       "last_mentioned_episode_title": null,
       "last_mentioned_episode_date": null
-    },
-    {
-      "id": 25,
-      "term": "Stagflation",
-      "description": "A situation in which the economy experiences stagnant growth, high inflation, and high unemployment.",
-      "first_detected_date": "2026-04-15",
-      "last_mentioned_date": "2026-04-15",
-      "mention_count": 2,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should be aware of the potential for stagflation and its impact on asset classes, possibly seeking hedges like Bitcoin.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.54,
-      "resonance_pct": 14,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 174,
-      "term": "Capability-Bounded Approach",
-      "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
-      "first_detected_date": "2026-05-12",
-      "last_mentioned_date": "2026-05-12",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should look for companies that demonstrate this approach, as it may indicate potential for growth and diversification.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 215,
-      "first_detected_speaker": "Charles Koch, Chase Koch",
-      "last_mentioned_episode_id": 215,
-      "last_mentioned_speaker": "Charles Koch, Chase Koch",
-      "overton_score": 0.5,
-      "resonance_pct": 12,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
-      "first_detected_episode_date": "2026-05-12",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
-      "last_mentioned_episode_date": "2026-05-12"
-    },
-    {
-      "id": 175,
-      "term": "Meritocracy and Disruptive Innovation",
-      "description": "A culture within an organization that rewards talent and innovation, often leading to breakthrough ideas and business success.",
-      "first_detected_date": "2026-05-12",
-      "last_mentioned_date": "2026-05-12",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies that foster a meritocratic culture and encourage disruptive innovation.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 215,
-      "first_detected_speaker": "Charles Koch, Chase Koch",
-      "last_mentioned_episode_id": 215,
-      "last_mentioned_speaker": "Charles Koch, Chase Koch",
-      "overton_score": 0.5,
-      "resonance_pct": 12,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
-      "first_detected_episode_date": "2026-05-12",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
-      "last_mentioned_episode_date": "2026-05-12"
     }
   ]
 },
@@ -27506,12 +27602,117 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-06-11",
     "key_tickers": []
+  },
+  "296": {
+    "id": 286,
+    "insight_id": 296,
+    "podcast_episode_id": 282,
+    "overview": "The unresolved tension lies in the balance between the rapid advancement of technology in sectors like cryptocurrency and biotechnology, and the ability of markets and regulations to adapt. The competitive dynamic is between traditional investment strategies and the emerging opportunities in tech-driven sectors. What converts belief is the tangible proof of technology's market impact, such as Bitcoin's price trajectory and the successful commercialization of age-reversal therapies.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor Bitcoin's price movements and institutional investment trends to gauge the accuracy of Citibank's projection.",
+      "Biotechnology firms developing age-reversal therapies should be evaluated based on their research progress and potential for regulatory approval.",
+      "The integration of AI in financial services, particularly in cryptocurrency transactions, may offer new investment opportunities but also carries the risk of regulatory scrutiny.",
+      "Investors should consider the long-term societal and ethical implications of gene editing, as these could influence both public perception and regulatory environments."
+    ],
+    "investment_thesis": "The core investment thesis is that sectors at the forefront of technological disruption, such as cryptocurrency, AI, and biotech, will continue to offer significant growth opportunities. The timeframe for this thesis is medium to long-term, as these sectors often require substantial time for research, development, and market acceptance. An observable development that would vindicate this thesis is the continued increase in Bitcoin's market cap, successful clinical trials for age-reversal therapies, and the expansion of AI applications in financial services.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's strategic shift in AI with the partnership with Google to rebuild Siri using Gemini AI is relevant as it signifies Apple's commitment to improving its AI capabilities, which could impact its competitive position in the tech market.",
+        "positioning": "Positioning in AAPL should be strategic, considering the long-term implications of their AI advancements on product differentiation and market share.",
+        "risk": "Key risks include the potential for Siri to underperform against competitors, and the possibility that the partnership with Google may not yield the expected results, impacting Apple's AI reputation and market position."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant drop in Bitcoin's price or a lack of institutional investment could indicate a weaker market for cryptocurrency than projected.",
+      "Failures in clinical trials for age-reversal therapies could slow down the progress in the biotech sector and reduce investor interest.",
+      "Regulatory crackdowns on cryptocurrency or AI applications could hinder the growth of these technologies and affect related investment opportunities."
+    ],
+    "catalysts": [
+      "Bitcoin's price reaching new all-time highs within the next year.",
+      "Successful human trials for age-reversal therapies and subsequent FDA approval.",
+      "Launch of new AI products by Apple that demonstrate significant improvements over Siri's current capabilities.",
+      "Regulatory decisions that either support or restrict the use of gene editing technologies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-11T13:43:44.878050",
+    "updated_at": "2026-06-11 18:43:44",
+    "episode_evidence": "In the 'Moonshots with Peter Diamandis' podcast, Citibank's bullish projection for Bitcoin is grounded in the statement, 'Citibank projects a Bitcoin price reaching as much as 189,000 by the end of 2026.' This suggests a significant institutional confidence in the cryptocurrency's future value. Brian Armstrong, co-founder of New Limit, emphasized the focus on age-reversal therapies, stating, 'At New Limit, we're trying to do half of what Shinyo Yamanaka did,' highlighting the company's ambitious goals in biotechnology. Furthermore, Armstrong noted the emerging trend of AI agents as customers in the cryptocurrency market, with the assertion, 'AI agents are starting to become paying customers. They're using crypto wallets to autonomously buy services.' These insights underscore the transformative potential of technology in finance and healthcare.",
+    "falsification_tracks": [
+      "If Citibank revises its Bitcoin price projection significantly downwards, it would challenge the current bullish institutional sentiment.",
+      "Should New Limit fail to achieve milestones in age-reversal research, it could diminish investor confidence in the potential of biotech for longevity therapies.",
+      "If Coinbase reports a decline in transactions processed for AI agents, it might signal a slower adoption rate of AI in financial services than anticipated."
+    ],
+    "insight_title": "Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-06-11",
+    "key_tickers": [
+      "BTC"
+    ]
+  },
+  "297": {
+    "id": 287,
+    "insight_id": 297,
+    "podcast_episode_id": 281,
+    "overview": "The unresolved tension in the market revolves around the potential for a significant shift from financial assets to hard assets due to an anticipated inflation shock regime. This dynamic is further complicated by the impact of major IPOs on capital allocation and the distress signals from the high yield bond market, which may indicate underlying consumer weakness. The allocator-relevant implication is that investors may need to adjust their portfolios to account for these shifts, with a focus on sectors like healthcare that are currently under-owned and could benefit from a market rotation.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the performance of high yield bonds to gauge the health of consumer spending and potential economic downturns.",
+      "The anticipated rotation to hard assets suggests a strategic reallocation towards sectors like energy, materials, and healthcare, which are expected to perform well in an inflationary environment.",
+      "Given the undervaluation of the healthcare sector, investors should consider increasing their exposure as a potential hedge against market volatility.",
+      "The breakdown in gold prices and the selling pressure on gold miners present a contrarian opportunity for investors willing to wait for a market bottom before entering.",
+      "The potential for a U.S. dollar breakout has implications for commodity prices, suggesting that investors should be prepared for volatility in these markets."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that the market is entering a new inflation shock regime, which will lead to a rotation from financial assets to hard assets. This rotation, coupled with the significant capital raise from major IPOs, will put pressure on existing equities and create opportunities in undervalued sectors. The timeframe for this thesis is within the next 12 months, and it would be vindicated if hard assets outperform financial assets and if consumer spending continues to show signs of weakness as indicated by the high yield bond market.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc. is a significant player in the technology sector, which is expected to face selling pressure due to the rotation towards hard assets and the influx of capital from major IPOs.",
+        "positioning": "Considering the potential market rotation and the impact on tech stocks, a tactical short position on AAPL could be considered, with a focus on the near-term as the market adjusts to the new dynamics.",
+        "risk": "The key risk for this position is that Apple may continue to outperform due to its strong brand, recurring revenue streams, and potential for innovation, which could mitigate the impact of the market rotation."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A strong economic recovery that boosts consumer spending could reduce the appeal of hard assets and maintain the dominance of financial assets.",
+      "Unexpected stability in the high yield bond market could indicate that consumer weakness is overstated, reducing the urgency for a market rotation.",
+      "A sudden drop in oil prices due to geopolitical easing could diminish the appeal of energy stocks, affecting the rotation towards hard assets."
+    ],
+    "catalysts": [
+      "The actual capital raise from SpaceX and Google IPOs and their impact on market liquidity.",
+      "Economic indicators such as retail sales data and consumer confidence indexes that could confirm or refute the consumer weakness narrative.",
+      "Developments in the Iran conflict and their influence on oil prices and market sentiment.",
+      "FOMC meetings and statements that could provide insight into the Fed's view on inflation and potential policy responses."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-11T13:44:00.842038",
+    "updated_at": "2026-06-11 18:44:00",
+    "episode_evidence": "The podcast with Larry MacDonald on MacroVoices #536 delves into the intricacies of the current market dynamics. MacDonald points out the significant capital raise from upcoming IPOs, particularly SpaceX and Google, which he estimates at a combined $250 billion, a figure that could exert substantial selling pressure on existing equities. He states, 'The biggest IPO ever was Saudi Ramco at $25 billion, so if you do the math... you get $150 billion.' This suggests a potential market shift due to the influx of new shares. Additionally, MacDonald highlights the distress in the high yield bond market, especially in lower-rated bonds, which he believes indicates consumer weakness: 'The high yield market as a whole is okay, but tertiary parts... are really kind of blowing out.' This could signal broader economic challenges ahead. MacDonald also discusses the potential rotation from financial assets to hard assets, including a specific mention of the healthcare sector being undervalued and poised for growth: 'The cheapest health care relative to tech is extremely attractive.'",
+    "falsification_tracks": [
+      "If the S&P 500 fails to recover from its 50-day moving average and continues to decline, it would challenge the thesis of a temporary market sell-off.",
+      "Should consumer spending show signs of recovery, as indicated by an improvement in high yield bond performance, the consumer weakness narrative would be weakened.",
+      "A failure of the U.S. dollar to break out could indicate that the market does not anticipate inflationary pressures as strongly as suggested.",
+      "An unexpected resolution to the Iran conflict that stabilizes oil prices would reduce market uncertainty and potentially alter the rotation towards hard assets."
+    ],
+    "insight_title": "MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
+    "source_name": "Macro Voices",
+    "source_date": "2026-06-11",
+    "key_tickers": [
+      "GOOGL",
+      "SPCE"
+    ]
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 14760,
+    "id": 14832,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -27523,7 +27724,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14761,
+    "id": 14833,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -27535,7 +27736,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14762,
+    "id": 14834,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -27547,7 +27748,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14763,
+    "id": 14835,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -27559,7 +27760,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14764,
+    "id": 14836,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -27571,7 +27772,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14765,
+    "id": 14837,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -27583,7 +27784,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14766,
+    "id": 14838,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -27595,7 +27796,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14767,
+    "id": 14839,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -27607,7 +27808,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14768,
+    "id": 14840,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -27619,7 +27820,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14769,
+    "id": 14841,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -27631,7 +27832,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14770,
+    "id": 14842,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -27643,7 +27844,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14771,
+    "id": 14843,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -27655,7 +27856,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14772,
+    "id": 14844,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -27667,7 +27868,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14773,
+    "id": 14845,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -27679,7 +27880,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14774,
+    "id": 14846,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -27691,7 +27892,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14775,
+    "id": 14847,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -27703,7 +27904,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14776,
+    "id": 14848,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -27715,7 +27916,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14777,
+    "id": 14849,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -27727,7 +27928,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14778,
+    "id": 14850,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -27739,7 +27940,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14779,
+    "id": 14851,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -27958,7 +28159,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 1.74,
+    "mention_score_decayed": 1.7,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -28096,7 +28297,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.55,
+    "mention_score_decayed": 1.52,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -28284,7 +28485,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -28890,6 +29091,131 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 287,
+    "name": "Brian Armstrong",
+    "slug": "brian-armstrong",
+    "bio": "Brian Armstrong is a prominent figure in the cryptocurrency industry, known for co-founding Coinbase, one of the largest cryptocurrency exchanges in the world. He has been instrumental in driving innovation in cryptocurrency and blockchain technology, shaping the future of digital currencies.",
+    "known_for": "Driving innovation in cryptocurrency and blockchain technology, co-founding Coinbase.",
+    "net_worth_usd": 12900000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q64705310",
+    "net_worth_updated_at": "2026-06-11T13:43:06.255887",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-06-11 18:42:57",
+    "last_episode_title": "Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-06-11",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in sectors at the forefront of technological disruption, with a focus on cryptocurrency, AI, and biotech innovations that promise significant market transformation and growth.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-11 \u2022 Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
+    "last_proof_snippet": "City Bank projects a Bitcoin price reaching as much as 189,000 by the end of 2026. Bitcoin is the new digital gold. I think it's going to be a key part of our economy going forward into the future. I remember it was supposed to be counter-s",
+    "supporting_takeaway": "Monitor developments in age-reversal therapies for potential high-growth investment opportunities in biotech.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-11T13:43:05.843914",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Brian Armstrong",
+      "fetched_at": "2026-06-11T18:43:05.843582+00:00",
+      "cliff_notes": "Brian Armstrong is a technology entrepreneur and the co-founder and CEO of Coinbase, a leading global cryptocurrency exchange. Armstrong's journey in the tech industry began with his studies in Electrical Engineering and Computer Science at Rice University. His interest in technology and innovation led him to co-found Coinbase in 2012, which has since grown to become one of the largest and most trusted platforms for buying, selling, and managing digital currencies. Armstrong's leadership at Coinbase has been pivotal in the mainstream adoption of cryptocurrencies, and his influence extends to shaping the future of blockchain technology and its integration into the global financial system.",
+      "derived": {
+        "current_role": "CEO at Coinbase",
+        "education": "BS in Electrical Engineering and Computer Science from Rice University"
+      },
+      "infobox": {
+        "Born": "1983",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Brian Armstrong is a technology entrepreneur and the co-founder and CEO of Coinbase, a leading global cryptocurrency exchange. Armstrong's journey in the tech industry began with his studies in Electrical Engineering and Computer Science at Rice University. His interest in technology and innovation led him to co-found Coinbase in 2012, which has since grown to become one of the largest and most trusted platforms for buying, selling, and managing digital currencies.",
+        "Armstrong's leadership at Coinbase has been pivotal in the mainstream adoption of cryptocurrencies, and his influence extends to shaping the future of blockchain technology and its integration into the global financial system."
+      ],
+      "sections": [
+        {
+          "heading": "Cryptocurrency Exchange",
+          "body": "Brian Armstrong co-founded Coinbase in 2012, which has become one of the largest cryptocurrency exchanges globally, facilitating the buying, selling, and management of digital currencies."
+        },
+        {
+          "heading": "Blockchain Innovation",
+          "body": "Armstrong has been a driving force in the innovation of blockchain technology, pushing for its integration into the mainstream financial system and advocating for its potential to revolutionize various industries."
+        },
+        {
+          "heading": "Regulatory Advocacy",
+          "body": "As a leader in the cryptocurrency space, Armstrong has been involved in advocating for clear and fair regulations that protect consumers while fostering innovation in the blockchain and cryptocurrency sectors."
+        }
+      ]
+    },
+    "net_worth": "$12.90B"
+  },
+  {
+    "id": 286,
+    "name": "Larry MacDonald",
+    "slug": "larry-macdonald",
+    "bio": "Larry MacDonald is an expert in market analysis and investment strategies, known for his insights on market dynamics and sector rotations. He is a best-selling author and the founder of the Bear Traps Report, a financial newsletter that provides analysis and investment advice.",
+    "known_for": "His expertise in market analysis and investment strategies, particularly his insights on market dynamics and sector rotations.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Matter-of-fact and insightful.",
+    "voice_style": "Direct and analytical, with a focus on evidence from market data.",
+    "voice_delivery_notes": "Clear and concise, with emphasis on key market figures and predictions.",
+    "voice_profile_updated_at": "2026-06-11 18:42:08",
+    "last_seen": "2026-06-11 18:42:08",
+    "last_episode_title": "MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-06-11",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The market may be entering a new inflation shock regime, leading to a rotation from financial assets to hard assets, with the healthcare sector presenting an under-owned opportunity.",
+    "last_proof_cite": "Macro Voices \u2022 2026-06-11 \u2022 MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "Major IPOs, including SpaceX and Google, represent a combined capital raise of approximately $250 billion, which could lead to significant selling pressure on existing stocks.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-11T13:43:23.356023",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Larry MacDonald",
+      "fetched_at": "2026-06-11T18:43:23.355870+00:00",
+      "cliff_notes": "Larry MacDonald is a renowned expert in market analysis and investment strategies. He is best known for his insights on market dynamics and sector rotations, which have made him a sought-after commentator in the world of finance. MacDonald is the founder of the Bear Traps Report, a financial newsletter that provides analysis and investment advice to its subscribers. His expertise has led him to be featured as a guest on financial podcasts such as Macrovoisers, where he discusses current market trends and opportunities. MacDonald's career has been marked by his ability to provide clear and concise analysis of complex financial issues, making him a respected voice in the industry.",
+      "derived": {
+        "current_role": "Founder, Bear Traps Report",
+        "books_or_works": "Bear Traps Report"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Larry MacDonald is a renowned expert in market analysis and investment strategies. He is best known for his insights on market dynamics and sector rotations, which have made him a sought-after commentator in the world of finance. MacDonald is the founder of the Bear Traps Report, a financial newsletter that provides analysis and investment advice to its subscribers.",
+        "His expertise has led him to be featured as a guest on financial podcasts such as Macrovoisers, where he discusses current market trends and opportunities. MacDonald's career has been marked by his ability to provide clear and concise analysis of complex financial issues, making him a respected voice in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "Market Dynamics",
+          "body": "Larry MacDonald is known for his insights on market dynamics, providing analysis on how various factors influence market movements and trends."
+        },
+        {
+          "heading": "Sector Rotations",
+          "body": "MacDonald's expertise in sector rotations allows him to identify shifts in market focus and predict where opportunities may arise for investors."
+        },
+        {
+          "heading": "Investment Strategies",
+          "body": "As the founder of the Bear Traps Report, MacDonald offers investment strategies and advice to help investors navigate the complex financial landscape."
+        },
+        {
+          "heading": "Financial Analysis",
+          "body": "MacDonald's background in financial analysis has made him a respected voice in the industry, with his insights often sought after by professional finance and high-net worth individuals."
+        }
+      ]
+    }
+  },
+  {
     "id": 284,
     "name": "Alex Boden",
     "slug": "alex-boden",
@@ -29042,7 +29368,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-10 \u2022 America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. There's a very, very large player in global finance that almost no one knows about. The development finance corporation, it just had its reautho",
@@ -29165,7 +29491,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -29419,7 +29745,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -29506,7 +29832,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -29825,7 +30151,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-03 \u2022 Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
     "last_proof_snippet": "One of the most provocative and interesting investors in the country. A legendary activist investor. Pershing square CEO and founder Bill Acling. Taking a short position and going public with it is a pretty serious business. Interestingly,",
@@ -29890,7 +30216,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-02 \u2022 OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
     "last_proof_snippet": "Open AI's CFO, Sarah Fryer. We've got to get right to it. You have just completed what I would find as the most successful fund-raising rail in history. We're going to raise actually north of $120 billion. We think AI is the biggest era tha",
@@ -30194,7 +30520,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -30504,7 +30830,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -30568,7 +30894,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -30631,7 +30957,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -31503,7 +31829,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -31693,7 +32019,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -31756,7 +32082,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -31944,7 +32270,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
