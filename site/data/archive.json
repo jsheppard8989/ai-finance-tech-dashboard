@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 295,
+      "title": "Designing the Physical World with AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-11",
+      "summary": "The podcast discusses the transformative impact of AI on the construction and manufacturing industries. Key themes include the full automation of construction within a decade, the imminent automation of circuit board design and manufacturing, and the need for a cultural shift towards valuing physical product creation. The episode emphasizes the importance of capturing tacit knowledge in manufacturing and the benefits of vertical integration for technological adoption.",
+      "key_takeaway": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 280
+    },
+    {
       "id": 291,
       "title": "Dan Dreyfus: America's Critical Minerals Crisis is Here",
       "source_type": "podcast",
@@ -168,7 +187,7 @@
         "PANW"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-08",
       "archived_date": null,

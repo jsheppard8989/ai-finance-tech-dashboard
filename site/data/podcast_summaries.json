@@ -1,5 +1,21 @@
 [
   {
+    "id": 280,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Designing the Physical World with AI",
+    "episode_date": "2026-06-11",
+    "summary": "The podcast discusses the transformative impact of AI on the construction and manufacturing industries. Key themes include the full automation of construction within a decade, the imminent automation of circuit board design and manufacturing, and the need for a cultural shift towards valuing physical product creation. The episode emphasizes the importance of capturing tacit knowledge in manufacturing and the benefits of vertical integration for technological adoption.",
+    "key_takeaways": [
+      "Invest in AI-driven construction and manufacturing technologies as they are poised for significant growth.",
+      "Support initiatives promoting hardware education to foster innovation among young engineers.",
+      "Evaluate companies streamlining workflows and aligning incentives in construction for better technology adoption.",
+      "Encourage training programs to capture and share the tacit knowledge of skilled labor for improved efficiency.",
+      "Look for opportunities in vertical integration strategies within manufacturing and construction firms to drive innovation."
+    ],
+    "investment_thesis": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
+    "key_tickers": null
+  },
+  {
     "id": 279,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner",
@@ -112,23 +128,5 @@
     ],
     "investment_thesis": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "key_tickers": null
-  },
-  {
-    "id": 272,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "Nikesh Arora: Mythos is Real, Analytical SaaS is Dead, and Google can be a $10T company",
-    "episode_date": "2026-06-08",
-    "summary": "This podcast episode delves into the transformative impact of AI on business operations, particularly in the cybersecurity sector. It highlights the rapid growth of Palo Alto Networks as a testament to the sector's strength. The discussion underscores the democratization of intelligence through AI, the accelerated detection of software vulnerabilities, and the obsolescence of traditional SaaS models. It also anticipates increased demand for infrastructure software and the emergence of AI agents in enterprise software, potentially disrupting the application layer of software and emphasizing the ongoing importance of hardware for low-latency applications.",
-    "key_takeaways": [
-      "Invest in AI-driven cybersecurity tools to enhance vulnerability detection and response times.",
-      "Evaluate existing SaaS contracts and consider transitioning to AI models that can analyze data directly.",
-      "Focus on infrastructure software investments, particularly in companies that provide scalable data management solutions.",
-      "Explore partnerships with AI application developers to integrate agent-based solutions into existing workflows.",
-      "Monitor the development of AI agents and their potential to disrupt traditional enterprise software models."
-    ],
-    "investment_thesis": "Invest in companies leveraging AI to transform cybersecurity and business operations, focusing on infrastructure software and the potential of AI agents in enterprise solutions.",
-    "key_tickers": [
-      "PANW"
-    ]
   }
 ]

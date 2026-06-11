@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-11T06:34:39.709055",
-  chartsVersion: "2026-06-11T06:34:32.904986",
+  generatedAt: "2026-06-11T12:11:12.274192",
+  chartsVersion: "2026-06-11T12:11:04.553887",
   priceSnapshot: {
   "GOOGL": {
-    "price": 356.38,
-    "change_pct": -8.01,
+    "price": 347.56,
+    "change_pct": -9.19,
     "name": "GOOGL",
-    "updated_at": "2026-06-11T06:34:32.903624"
+    "updated_at": "2026-06-11T12:11:04.552893"
   },
   "BTC": {
-    "price": 63134.32,
-    "change_pct": -13.95,
+    "price": 62482.86,
+    "change_pct": -14.84,
     "name": "BTC",
-    "updated_at": "2026-06-11T06:34:32.903647"
+    "updated_at": "2026-06-11T12:11:04.552913"
   },
   "MSFT": {
-    "price": 397.36,
-    "change_pct": -5.19,
+    "price": 385.35,
+    "change_pct": -7.94,
     "name": "MSFT",
-    "updated_at": "2026-06-11T06:34:32.903659"
+    "updated_at": "2026-06-11T12:11:04.552922"
   },
   "NVDA": {
-    "price": 200.42,
-    "change_pct": -8.59,
+    "price": 200.41,
+    "change_pct": -6.82,
     "name": "NVDA",
-    "updated_at": "2026-06-11T06:34:32.903670"
+    "updated_at": "2026-06-11T12:11:04.552930"
   },
   "WTI": {
-    "price": 4.28,
-    "change_pct": -2.51,
+    "price": 4.36,
+    "change_pct": -1.52,
     "name": "WTI",
-    "updated_at": "2026-06-11T06:34:32.903680"
+    "updated_at": "2026-06-11T12:11:04.552937"
   },
   "META": {
-    "price": 570.98,
-    "change_pct": -5.99,
+    "price": 560.56,
+    "change_pct": -8.14,
     "name": "META",
-    "updated_at": "2026-06-11T06:34:32.903689"
+    "updated_at": "2026-06-11T12:11:04.552945"
   },
   "AMZN": {
-    "price": 238.0,
-    "change_pct": -11.35,
+    "price": 236.3,
+    "change_pct": -11.27,
     "name": "AMZN",
-    "updated_at": "2026-06-11T06:34:32.903701"
+    "updated_at": "2026-06-11T12:11:04.552953"
   },
   "S&P 500": {
-    "price": 725.43,
-    "change_pct": -2.33,
+    "price": 726.89,
+    "change_pct": -2.52,
     "name": "S&P 500",
-    "updated_at": "2026-06-11T06:34:32.903711"
+    "updated_at": "2026-06-11T12:11:04.552961"
   },
   "TSLA": {
-    "price": 381.59,
-    "change_pct": -8.68,
+    "price": 386.0,
+    "change_pct": -9.39,
     "name": "TSLA",
-    "updated_at": "2026-06-11T06:34:32.903721"
+    "updated_at": "2026-06-11T12:11:04.552969"
   },
   "AAPL": {
-    "price": 291.58,
-    "change_pct": -4.4,
+    "price": 293.59,
+    "change_pct": -4.93,
     "name": "AAPL",
-    "updated_at": "2026-06-11T06:34:32.903730"
+    "updated_at": "2026-06-11T12:11:04.552976"
   },
   "QQQ": {
-    "price": 693.69,
-    "change_pct": -2.91,
+    "price": 699.91,
+    "change_pct": -2.46,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-11T06:34:32.903740"
+    "updated_at": "2026-06-11T12:11:04.552983"
   },
   "BTC-USD": {
-    "price": 63114.37,
-    "change_pct": -13.98,
+    "price": 62469.8,
+    "change_pct": -14.86,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-11T06:34:32.903751"
+    "updated_at": "2026-06-11T12:11:04.552992"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 295,
+      "title": "Designing the Physical World with AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-11",
+      "summary": "The podcast discusses the transformative impact of AI on the construction and manufacturing industries. Key themes include the full automation of construction within a decade, the imminent automation of circuit board design and manufacturing, and the need for a cultural shift towards valuing physical product creation. The episode emphasizes the importance of capturing tacit knowledge in manufacturing and the benefits of vertical integration for technological adoption.",
+      "key_takeaway": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 280
+    },
+    {
       "id": 291,
       "title": "Dan Dreyfus: America's Critical Minerals Crisis is Here",
       "source_type": "podcast",
@@ -1001,7 +1020,7 @@ const dashboardData = {
         "PANW"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-08",
       "archived_date": null,
@@ -9237,6 +9256,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 295,
+      "title": "Designing the Physical World with AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-11",
+      "summary": "The podcast discusses the transformative impact of AI on the construction and manufacturing industries. Key themes include the full automation of construction within a decade, the imminent automation of circuit board design and manufacturing, and the need for a cultural shift towards valuing physical product creation. The episode emphasizes the importance of capturing tacit knowledge in manufacturing and the benefits of vertical integration for technological adoption.",
+      "key_takeaway": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 280,
+      "episode_release_date": "2026-06-11",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 291,
       "title": "Dan Dreyfus: America's Critical Minerals Crisis is Here",
       "source_type": "podcast",
@@ -9377,28 +9416,6 @@ const dashboardData = {
       "episode_release_date": "2026-06-09",
       "guest_name": "Bill Maris",
       "key_tickers": []
-    },
-    {
-      "id": 287,
-      "title": "Nikesh Arora: Mythos is Real, Analytical SaaS is Dead, and Google can be a $10T company",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-06-08",
-      "summary": "This podcast episode delves into the transformative impact of AI on business operations, particularly in the cybersecurity sector. It highlights the rapid growth of Palo Alto Networks as a testament to the sector's strength. The discussion underscores the democratization of intelligence through AI, the accelerated detection of software vulnerabilities, and the obsolescence of traditional SaaS models. It also anticipates increased demand for infrastructure software and the emergence of AI agents in enterprise software, potentially disrupting the application layer of software and emphasizing the ongoing importance of hardware for low-latency applications.",
-      "key_takeaway": "Invest in companies leveraging AI to transform cybersecurity and business operations, focusing on infrastructure software and the potential of AI agents in enterprise solutions.",
-      "tickers_mentioned": "[\"PANW\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-08",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 272,
-      "episode_release_date": "2026-06-08",
-      "guest_name": "Nikesh Arora",
-      "key_tickers": [
-        "PANW"
-      ]
     }
   ],
   "definitions": [
@@ -27438,12 +27455,63 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-10",
     "key_tickers": []
+  },
+  "295": {
+    "id": 285,
+    "insight_id": 295,
+    "podcast_episode_id": 280,
+    "overview": "The unresolved tension lies in the rapid technological advancement in AI and automation versus the cultural and institutional inertia in construction and manufacturing. The competitive dynamic is between traditional methods and the new wave of AI-driven efficiency. The allocation-relevant implication is that companies which successfully integrate AI and robotics will gain a significant competitive edge, while those resistant to change may fall behind. The metric that arbitrates this uncertainty is the speed of adoption and successful implementation of AI technologies in these industries.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the progress of AI integration in construction projects, looking for companies that can demonstrate tangible efficiency gains and cost reductions.",
+      "The shift towards a model-led approach in hardware design suggests an opportunity for companies that can provide the necessary AI tools and platforms for this transition.",
+      "Investors should evaluate the cultural and educational initiatives of companies, as the ability to attract and retain talent in hardware development will be a key differentiator.",
+      "Companies that can demonstrate successful vertical integration, thereby controlling more of the production process, may offer a safer investment as they are better positioned to drive technological adoption.",
+      "Investors should be wary of companies that rely heavily on outdated manufacturing processes, as they may struggle to compete in a rapidly automating market."
+    ],
+    "investment_thesis": "The core logic is that AI and automation will significantly disrupt and transform the construction and manufacturing industries within the next decade. The observable development that would vindicate this thesis is the consistent reduction in construction timelines and costs, along with the increased speed and efficiency in circuit board design and manufacturing. Conversely, a lack of such progress or a significant delay in the automation timeline would invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's vertical integration and significant investment in AI for its supply chain and product design make it a key player in the AI-driven transformation of manufacturing.",
+        "positioning": "Strategic long position, as Apple's continued innovation and control over its production process align with the trends discussed in the podcast.",
+        "risk": "Key risks include a slowdown in consumer electronics demand, which could impact Apple's growth, and potential disruptions in the global supply chain that could hinder its vertical integration strategy."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant increase in labor costs or regulations that hinder automation could slow the adoption of AI in construction and manufacturing.",
+      "The emergence of new, low-cost manufacturing hubs globally could make U.S.-based automation less competitive.",
+      "A lack of progress in AI technology that fails to meet the predicted timelines for automation could delay the industry transformation."
+    ],
+    "catalysts": [
+      "Major industry conferences and expos where new AI and automation technologies are showcased.",
+      "Regulatory changes that either encourage or hinder the adoption of AI and automation in construction and manufacturing.",
+      "Economic indicators such as construction costs and manufacturing output that could show the impact of AI-driven efficiency gains.",
+      "Publications of industry reports that provide benchmarks on the progress of AI integration in these sectors.",
+      "Quarterly earnings calls of major construction and manufacturing companies that may highlight their progress in AI adoption and automation."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-11T12:10:17.702420",
+    "updated_at": "2026-06-11 17:10:17",
+    "episode_evidence": "The podcast underscores the transformative potential of AI in the physical world, particularly in construction and manufacturing. Alex Boden, a guest, asserts that 'In 10 years, all construction will be fully automated,' highlighting the rapid pace of change in the industry. This automation is expected to streamline project timelines and reduce costs significantly. In the realm of electronics, David A. Asnagi predicts that 'there is a subset that I really care about... will be fully automated in two years,' referring to the design and manufacturing of circuit boards. This automation is not just about efficiency but also about enabling a new breed of engineers who can straddle software and hardware disciplines, as suggested by the integration of AI in hardware design. The discussion also touches on the 20% gap in automation in current manufacturing processes, which is attributed to complex components that are challenging to automate. This gap signifies a clear opportunity for innovation and investment in companies that can bridge this automation divide.",
+    "falsification_tracks": [
+      "If no significant advancements in AI and robotics for construction are reported at major industry conferences over the next two years, the full automation timeline may be delayed.",
+      "Should the U.S. continue to see a decline in students pursuing degrees in engineering and technology, the cultural shift towards valuing physical product creation will not materialize, hindering hardware innovation.",
+      "If market analysis reports do not show a decrease in the cost or an increase in the speed of circuit board manufacturing within the next two years, the prediction of full automation in this sector may be overestimated."
+    ],
+    "insight_title": "Designing the Physical World with AI",
+    "source_name": "The a16z Show",
+    "source_date": "2026-06-11",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 14688,
+    "id": 14760,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -27455,7 +27523,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14689,
+    "id": 14761,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -27467,7 +27535,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14690,
+    "id": 14762,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -27479,7 +27547,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14691,
+    "id": 14763,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -27491,7 +27559,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14692,
+    "id": 14764,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -27503,7 +27571,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14693,
+    "id": 14765,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -27515,7 +27583,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14694,
+    "id": 14766,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -27527,7 +27595,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14695,
+    "id": 14767,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -27539,7 +27607,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14696,
+    "id": 14768,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -27551,7 +27619,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14697,
+    "id": 14769,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -27563,7 +27631,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14698,
+    "id": 14770,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -27575,7 +27643,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14699,
+    "id": 14771,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -27587,7 +27655,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14700,
+    "id": 14772,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -27599,7 +27667,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14701,
+    "id": 14773,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -27611,7 +27679,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14702,
+    "id": 14774,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -27623,7 +27691,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14703,
+    "id": 14775,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -27635,7 +27703,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14704,
+    "id": 14776,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -27647,7 +27715,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14705,
+    "id": 14777,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -27659,7 +27727,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14706,
+    "id": 14778,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -27671,7 +27739,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14707,
+    "id": 14779,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -28822,6 +28890,141 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 284,
+    "name": "Alex Boden",
+    "slug": "alex-boden",
+    "bio": "Alex Boden is an expert in AI and its application in construction and manufacturing industries. He advocates for the full automation of construction within a decade and has been instrumental in developing AI-driven solutions for hardware and circuit board design.",
+    "known_for": "Advocating for the full automation of construction within a decade and developing AI-driven solutions for hardware and circuit board design.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and forward-looking.",
+    "voice_style": "Factual and predictive, with a focus on the transformative potential of AI.",
+    "voice_delivery_notes": "Pace is steady with emphasis on key technological advancements.",
+    "voice_profile_updated_at": "2026-06-11 17:09:28",
+    "last_seen": "2026-06-11 17:09:28",
+    "last_episode_title": "Designing the Physical World with AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-11",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
+    "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
+    "supporting_takeaway": "Support initiatives promoting hardware education to foster innovation among young engineers.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-11T12:09:37.736529",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Boden",
+      "fetched_at": "2026-06-11T17:09:37.735862+00:00",
+      "cliff_notes": "Alex Boden is an expert in the field of artificial intelligence and its application in the construction and manufacturing industries. He is known for his advocacy for the full automation of construction within a decade, a vision that could revolutionize the industry. Boden's work focuses on leveraging AI to automate complex tasks, such as hardware and circuit board design, which traditionally require human expertise. He has been involved in developing AI-driven solutions that can write code and design circuit boards, significantly reducing the time between idea and output. Boden's contributions to the field have been influential in shaping the future of construction and manufacturing, where intelligence becomes more accessible, and the physical world remains the factor.",
+      "derived": {
+        "current_role": "Expert in AI and Construction Automation"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Alex Boden is an expert in the field of artificial intelligence and its application in the construction and manufacturing industries. He is known for his advocacy for the full automation of construction within a decade, a vision that could revolutionize the industry. Boden's work focuses on leveraging AI to automate complex tasks, such as hardware and circuit board design, which traditionally require human expertise.",
+        "He has been involved in developing AI-driven solutions that can write code and design circuit boards, significantly reducing the time between idea and output. Boden's contributions to the field have been influential in shaping the future of construction and manufacturing, where intelligence becomes more accessible, and the physical world remains the factor."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Construction",
+          "body": "Alex Boden is a leading voice advocating for the full automation of construction within a decade, using AI to revolutionize the industry."
+        },
+        {
+          "heading": "Hardware Automation",
+          "body": "Boden has been instrumental in developing AI-driven solutions for hardware and circuit board design, aiming to automate complex tasks traditionally requiring human expertise."
+        },
+        {
+          "heading": "Model-Led Approach",
+          "body": "He champions a model-led approach that enables AI agents to write code, which is a significant step towards automating hardware and circuit board design."
+        },
+        {
+          "heading": "Data Generation",
+          "body": "Boden emphasizes the importance of data generation in achieving AI automation in construction and manufacturing, recognizing it as a crucial challenge to overcome."
+        },
+        {
+          "heading": "Autonomous Systems",
+          "body": "He believes in designing systems to be fully autonomous, without the need for human intervention in the loop, which is a key aspect of AI-driven automation."
+        }
+      ]
+    }
+  },
+  {
+    "id": 285,
+    "name": "David A. Asnagi",
+    "slug": "david-a-asnagi",
+    "bio": "David A. Asnagi is a specialist in electronics manufacturing and AI integration. He believes that circuit board design and manufacturing will be fully automated in two years. Asnagi is focused on building a compiler that allows AI to design circuit boards as if writing a Python program, emphasizing a model-led approach to automate hardware creation.",
+    "known_for": "His vision of fully automating circuit board design and manufacturing within two years using AI.",
+    "net_worth_usd": 100000000.0,
+    "net_worth_source": "https://www.thestreet.com/crypto/newsroom/davido-networth-a-mix-of-career-success-and-smart-business-moves",
+    "net_worth_updated_at": "2026-06-11T12:09:49.926777",
+    "voice_tone": "Optimistic and detailed.",
+    "voice_style": "Technical and solution-oriented, with a focus on the practical applications of AI.",
+    "voice_delivery_notes": "Speaks with a clear and methodical pace, emphasizing the technical aspects.",
+    "voice_profile_updated_at": "2026-06-11 17:09:28",
+    "last_seen": "2026-06-11 17:09:28",
+    "last_episode_title": "Designing the Physical World with AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-11",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
+    "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
+    "supporting_takeaway": "Support initiatives promoting hardware education to foster innovation among young engineers.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-11T12:09:48.900646",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "David A. Asnagi",
+      "fetched_at": "2026-06-11T17:09:48.900417+00:00",
+      "cliff_notes": "David A. Asnagi has made a career out of specializing in the intersection of electronics manufacturing and artificial intelligence. His focus is on leveraging AI to automate complex tasks such as circuit board design, which traditionally required human expertise. Asnagi envisions a future where starting a hardware company is as simple as launching a software-based business, with AI taking the lead in design and manufacturing processes. His work revolves around creating systems that can operate autonomously without the need for human intervention in the loop, which is a significant shift from traditional manufacturing paradigms. Asnagi's contributions are pivotal for the future of electronics manufacturing, as they could potentially revolutionize how hardware is developed and produced, making it more accessible and efficient.",
+      "derived": {
+        "current_role": "Specialist in Electronics Manufacturing and AI Integration"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "David A. Asnagi has made a career out of specializing in the intersection of electronics manufacturing and artificial intelligence. His focus is on leveraging AI to automate complex tasks such as circuit board design, which traditionally required human expertise. Asnagi envisions a future where starting a hardware company is as simple as launching a software-based business, with AI taking the lead in design and manufacturing processes.",
+        "His work revolves around creating systems that can operate autonomously without the need for human intervention in the loop, which is a significant shift from traditional manufacturing paradigms. Asnagi's contributions are pivotal for the future of electronics manufacturing, as they could potentially revolutionize how hardware is developed and produced, making it more accessible and efficient."
+      ],
+      "sections": [
+        {
+          "heading": "Automation in Electronics",
+          "body": "David A. Asnagi is a proponent of full automation in electronics manufacturing, specifically in the design and production of circuit boards."
+        },
+        {
+          "heading": "AI Integration",
+          "body": "Asnagi is focused on integrating AI into the manufacturing process, creating a compiler that allows AI to design circuit boards as if writing a Python program."
+        },
+        {
+          "heading": "Model-Led Approach",
+          "body": "He advocates for a model-led approach in AI, which enables the use of AI agents to write code, thus automating complex hardware design tasks."
+        },
+        {
+          "heading": "Data Generation",
+          "body": "Asnagi emphasizes the importance of data in achieving full automation, stating that generating sufficient data is crucial for AI to effectively design circuit boards."
+        },
+        {
+          "heading": "Autonomous Systems",
+          "body": "He stresses the need to design systems that are fully autonomous, removing the need for human involvement in the manufacturing process."
+        }
+      ]
+    },
+    "net_worth": "$100.0M"
+  },
+  {
     "id": 283,
     "name": "Connor Coleman",
     "slug": "connor-coleman",
@@ -28898,7 +29101,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -29027,7 +29230,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Bitcoin serves as a leading indicator of fiat liquidity and a potential hedge against inflation, while MicroStrategy's complex capital structure poses risks to Bitcoin holders.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-09 \u2022 Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
     "last_proof_snippet": "Yo, welcome back to another episode of The Jack Mallers Show, I am your host, Jack, and you are listening to yet another edition of Mailbag Monday, episode 121. The title of today's episode is Bitcoin's cell-off explained, capital rotation,",
@@ -29087,7 +29290,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -29153,7 +29356,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -29428,7 +29631,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -29492,7 +29695,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -29809,7 +30012,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -29873,7 +30076,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -30056,7 +30259,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -30120,7 +30323,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -30863,7 +31066,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -30929,7 +31132,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -33565,7 +33768,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
