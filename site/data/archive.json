@@ -58,6 +58,25 @@
       "podcast_episode_id": 278
     },
     {
+      "id": 294,
+      "title": "Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-10",
+      "summary": "The podcast discusses Pennsylvania's pivotal role in national elections and its unique coalition of urban and rural voters. It highlights the importance of bipartisan cooperation in addressing AI, energy, and public health issues. The episode emphasizes AI and data centers as economic opportunities, the significance of the filibuster in fostering dialogue, and the need to address economic disparities and misinformation about new technologies.",
+      "key_takeaway": "Invest in AI and energy sectors in Pennsylvania to capitalize on significant economic opportunities and job creation.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 279
+    },
+    {
       "id": 288,
       "title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
       "source_type": "podcast",
@@ -130,7 +149,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-08",
       "archived_date": null,
@@ -5530,6 +5549,42 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 243,
+      "term": "K-shaped recovery",
+      "description": "An economic recovery where wealth concentration increases, benefiting the wealthy while leaving the bottom half of the population behind.",
+      "first_detected_date": "2026-06-10",
+      "last_mentioned_date": "2026-06-10",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the impact of wealth disparity on consumer spending and economic growth.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 279,
+      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "last_mentioned_episode_id": 279,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+    },
+    {
+      "id": 244,
+      "term": "Misinformation",
+      "description": "The spread of false or misleading information, which can significantly influence public perception and acceptance of new technologies.",
+      "first_detected_date": "2026-06-10",
+      "last_mentioned_date": "2026-06-10",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should be aware of the role of misinformation in shaping market sentiment and the potential for regulatory responses.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 279,
+      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "last_mentioned_episode_id": 279,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+    },
     {
       "id": 234,
       "term": "AI Personhood",

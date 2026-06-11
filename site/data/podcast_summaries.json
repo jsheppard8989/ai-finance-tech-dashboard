@@ -1,5 +1,21 @@
 [
   {
+    "id": 279,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner",
+    "episode_date": "2026-06-10",
+    "summary": "The podcast discusses Pennsylvania's pivotal role in national elections and its unique coalition of urban and rural voters. It highlights the importance of bipartisan cooperation in addressing AI, energy, and public health issues. The episode emphasizes AI and data centers as economic opportunities, the significance of the filibuster in fostering dialogue, and the need to address economic disparities and misinformation about new technologies.",
+    "key_takeaways": [
+      "Pennsylvania's political landscape is a microcosm of the U.S., dictating national trends.",
+      "AI and data centers are seen as significant economic opportunities in Pennsylvania.",
+      "The filibuster is crucial for bipartisan cooperation and preventing extreme partisanship.",
+      "Economic recovery is uneven, with wealth concentration increasing.",
+      "Misinformation is a significant barrier to public acceptance of AI and data centers."
+    ],
+    "investment_thesis": "Invest in AI and energy sectors in Pennsylvania to capitalize on significant economic opportunities and job creation.",
+    "key_tickers": null
+  },
+  {
     "id": 278,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
@@ -114,21 +130,5 @@
     "key_tickers": [
       "PANW"
     ]
-  },
-  {
-    "id": 271,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
-    "episode_date": "2026-06-08",
-    "summary": "This podcast episode discusses the rapid advancements in AI, particularly Anthropic's Claude, which is now writing over 80% of its own codebase. The show also touches on Argentina's bold economic strategy to become a global AI hub with minimal regulations and legal personhood for AI. Additionally, the U.S. job market's resilience and the potential for AI to create more jobs than it eliminates are explored. The episode suggests that major IPOs from companies like SpaceX and Anthropic could reshape market dynamics, and it anticipates a backlash against AI among younger demographics.",
-    "key_takeaways": [
-      "Anthropic's AI Claude is now writing the majority of its own code, indicating significant recursive self-improvement capabilities.",
-      "Argentina is positioning itself as a global AI hub by offering no regulations and establishing legal personhood for AI entities.",
-      "The U.S. job market added 172,000 jobs in May, suggesting AI will create more jobs than it eliminates.",
-      "Investors should monitor AI companies for rapid advancements and consider the implications of self-improving AI on market dynamics.",
-      "Investors should explore opportunities in Argentina and consider the implications of regulatory environments on AI investments globally."
-    ],
-    "investment_thesis": "Invest in companies at the forefront of AI development and in regions with favorable AI regulatory environments to capitalize on the rapid advancements and market opportunities in AI.",
-    "key_tickers": null
   }
 ]
