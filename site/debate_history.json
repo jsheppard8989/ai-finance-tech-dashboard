@@ -1,6 +1,19 @@
 {
-  "rotation_index": 15,
+  "rotation_index": 16,
   "weeks": [
+    {
+      "friday_iso": "2026-06-05",
+      "week_label": "Week of 2026-06-05",
+      "prompt": "Will the price of Bitcoin exceed $75,000 within the next 42 days?",
+      "debater_a": "Andreas Stino-Larson",
+      "debater_b": "John Doe",
+      "expires_rule": "Resolves Friday 12:00 PM CST 2026-07-17",
+      "resolves_iso": "2026-07-17",
+      "resolution_status": "pending",
+      "resolution_notes": "",
+      "archived_at": "2026-06-12T05:04:07.610512",
+      "audio_href": "./audio/archive/debate_2026-06-05.mp3"
+    },
     {
       "friday_iso": "2026-05-29",
       "week_label": "Week of 2026-05-29",

@@ -1,122 +1,79 @@
 {
-  "prompt": "Will the price of Bitcoin exceed $75,000 within the next 42 days?",
-  "expires_rule": "Resolves Friday 12:00 PM CST 2026-07-17",
-  "crux_theme": "Bitcoin price movement",
+  "prompt": "Will the U.S. Senate be controlled by the Democratic Party within the next 42 days?",
+  "expires_rule": "Resolves Friday 12:00 PM CST 2026-07-24",
+  "crux_theme": "U.S. Senate control",
   "resolution_clarity": {
-    "source_of_truth": "Bitcoin trading exchanges",
+    "source_of_truth": "Official election results and party majority announcements",
     "resolution_sources": [
-      "Coinbase",
-      "Bitstamp",
-      "Binance"
+      "Associated Press election results",
+      "Reuters election results",
+      "Official statements from the U.S. Senate"
     ],
     "resolution_criteria": [
-      "The market will resolve to 'Yes' if Bitcoin's (BTC-USD) per coin trading price exceeds $75,000 on any of the specified exchanges at any time within the next 42 days from contract date."
+      "The party that gains 50% or more of the Senate seats following the 2026 U.S. Senate elections scheduled for Jul 24, 2026"
     ]
   },
   "sides": {
     "a": "Affirmative (YES)",
     "b": "Negative (NO)"
   },
-  "resolves_iso": "2026-07-17",
-  "friday_iso": "2026-06-05",
-  "week_label": "Week of 2026-06-05",
-  "debater_a": "Andreas Stino-Larson",
-  "debater_b": "John Doe",
-  "generated_at": "2026-06-05T05:02:16.444829",
+  "resolves_iso": "2026-07-24",
+  "friday_iso": "2026-06-12",
+  "week_label": "Week of 2026-06-12",
+  "debater_a": "Michael Fritzell",
+  "debater_b": "Will Brick",
+  "generated_at": "2026-06-12T05:04:07.610561",
   "bet_status": "open",
   "audio_href": "./audio/emp_ai_the_debate_11labs.mp3",
   "debater_a_snapshot": {
-    "name": "Andreas Stino-Larson",
-    "known_for": "His expertise in predicting semiconductor market cycles and identifying late-cycle signals in the economy.",
-    "bio": "Andreas Stino-Larson is an expert in market analysis and economic trends, known for his insights on semiconductor cycles and market saturation signals. As a former hedge fund manager and editor of RealVision's macro research, he provides valuable perspectives on macroeconomic shifts and their implications for investors.",
-    "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
+    "name": "Michael Fritzell",
+    "known_for": "His insights on market bubbles and investment opportunities in Asian equities.",
+    "bio": "Michael Fritzell is an expert on Asian markets with a focus on South Korea and Southeast Asia.",
+    "last_main_idea": "Investors should focus on undervalued companies in Asia, particularly in South Korea and Southeast Asia, due to favorable valuations and growth prospects.",
     "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-05-25",
-    "net_worth": "$5.0M",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Andreas Stino-Larson",
-      "fetched_at": "2026-05-25T18:37:53.892881+00:00",
-      "cliff_notes": "Andreas Stino-Larson has made a name for himself as an expert in market analysis and economic trends, particularly in the realm of semiconductor cycles and market saturation signals. His career has seen him transition from managing hedge funds to editing macro research for RealVision, where he shares his insights with a broader audience. Stino-Larson's ability to predict market cycles and identify key economic indicators has made him a sought-after voice in the investment community. His perspectives on macroeconomic shifts and their implications for investors have been influential in shaping market strategies and understanding the broader economic landscape.",
-      "derived": {
-        "current_role": "Editor of RealVision's Macro Research",
-        "former_positions": "Former Hedge Fund Manager"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Andreas Stino-Larson has made a name for himself as an expert in market analysis and economic trends, particularly in the realm of semiconductor cycles and market saturation signals. His career has seen him transition from managing hedge funds to editing macro research for RealVision, where he shares his insights with a broader audience.",
-        "Stino-Larson's ability to predict market cycles and identify key economic indicators has made him a sought-after voice in the investment community. His perspectives on macroeconomic shifts and their implications for investors have been influential in shaping market strategies and understanding the broader economic landscape."
-      ],
-      "sections": [
-        {
-          "heading": "Semiconductor Cycles",
-          "body": "Stino-Larson is well-regarded for his analysis of semiconductor market cycles, providing investors with valuable insights into market trends and potential shifts."
-        },
-        {
-          "heading": "Market Saturation Signals",
-          "body": "He has a keen eye for identifying signals of market saturation, which can be crucial for investors looking to time their entries and exits in the market."
-        },
-        {
-          "heading": "Macroeconomic Shifts",
-          "body": "As the editor of RealVision's macro research, Stino-Larson offers in-depth analysis of macroeconomic shifts and their impact on various sectors of the economy."
-        },
-        {
-          "heading": "Investment Strategies",
-          "body": "His expertise in market analysis has led to the development of investment strategies that take into account broader economic trends and cycles."
-        }
-      ]
-    }
+    "last_episode_date": "2026-06-06"
   },
   "debater_b_snapshot": {
-    "name": "John Doe",
-    "known_for": "His analysis on how AI technologies are reshaping the SaaS market and challenging traditional software pricing models.",
-    "bio": "John Doe is an expert in SaaS and AI market dynamics, providing insights on the intersection of these technologies. He is known for his analysis of the dynamic market, particularly in the context of buying software where newcomers often replace large incumbents.",
-    "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
+    "name": "Will Brick",
+    "known_for": "Developing a search engine tailored for AI agents and businesses, aiming to provide more comprehensive and accurate search results.",
+    "bio": "Will Brick is the CEO of Exah, a company focused on revolutionizing search through AI agents. He is known for leading the development of a search engine designed for AI agents and businesses, aiming to provide comprehensive and accurate information.",
+    "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-25",
-    "net_worth": "$7.50B",
+    "last_episode_date": "2026-06-06",
+    "net_worth": "$600.00B",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "John Doe",
-      "fetched_at": "2026-05-25T17:03:24.884408+00:00",
-      "cliff_notes": "John Doe has made a significant impact in the technology sector with his expertise in SaaS and AI. His career has been marked by a deep understanding of market dynamics and the transformative potential of AI in the software industry. Doe's insights have been particularly valuable in understanding how new entrants in the market are challenging established players, often leading to shifts in the way software is bought and sold. His commentary on the implications of AI on SaaS companies and pricing models has been influential, challenging the narrative that AI will centralize the market around a few model providers. Instead, Doe's analysis suggests a more nuanced picture, where many of the fastest-growing AI companies are not model providers, indicating a diverse and evolving landscape.",
+      "page_title": "Will Brick",
+      "fetched_at": "2026-06-06T18:34:54.181176+00:00",
+      "cliff_notes": "Will Brick is recognized for his leadership in the field of AI-driven search technology. As the CEO of Exah, he has been instrumental in developing a search engine that caters specifically to the needs of AI agents and businesses. His vision is to create a search platform that can provide not just a handful of results but thousands, enabling a deeper understanding of topics and more accurate information dissemination. This approach stands in contrast to traditional search engines, which are often limited in the scope and depth of their results. Brick's work at Exah is significant as it addresses the growing demand for sophisticated search capabilities in an increasingly AI-centric world, with potential implications for various industries and the way information is accessed and utilized.",
       "derived": {
-        "current_role": "Expert in SaaS and AI Market Dynamics"
+        "current_role": "CEO of Exah"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "John Doe has made a significant impact in the technology sector with his expertise in SaaS and AI. His career has been marked by a deep understanding of market dynamics and the transformative potential of AI in the software industry. Doe's insights have been particularly valuable in understanding how new entrants in the market are challenging established players, often leading to shifts in the way software is bought and sold.",
-        "His commentary on the implications of AI on SaaS companies and pricing models has been influential, challenging the narrative that AI will centralize the market around a few model providers. Instead, Doe's analysis suggests a more nuanced picture, where many of the fastest-growing AI companies are not model providers, indicating a diverse and evolving landscape."
+        "Will Brick is recognized for his leadership in the field of AI-driven search technology. As the CEO of Exah, he has been instrumental in developing a search engine that caters specifically to the needs of AI agents and businesses. His vision is to create a search platform that can provide not just a handful of results but thousands, enabling a deeper understanding of topics and more accurate information dissemination.",
+        "This approach stands in contrast to traditional search engines, which are often limited in the scope and depth of their results. Brick's work at Exah is significant as it addresses the growing demand for sophisticated search capabilities in an increasingly AI-centric world, with potential implications for various industries and the way information is accessed and utilized."
       ],
       "sections": [
         {
-          "heading": "SaaS and AI Dynamics",
-          "body": "John Doe has been instrumental in analyzing the interplay between SaaS and AI technologies, providing insights into how these sectors are evolving and impacting each other."
+          "heading": "AI-Centric Search",
+          "body": "Will Brick is pioneering a new approach to search that is specifically designed for AI agents, aiming to provide a more comprehensive set of results compared to traditional search engines."
         },
         {
-          "heading": "Market Disruption",
-          "body": "Doe's expertise lies in identifying how newcomers in the software market are disrupting traditional players, often leading to significant shifts in the industry landscape."
+          "heading": "Information Accuracy",
+          "body": "Brick's work emphasizes the importance of accurate information, suggesting that with accurate data, most people would be reasonable, highlighting the impact of misinformation in today's digital landscape."
         },
         {
-          "heading": "AI and SaaS Pricing",
-          "body": "John Doe challenges the prevailing narrative that AI will lead to the collapse of seat-based pricing in SaaS, arguing for a more complex and varied impact on the market."
-        },
-        {
-          "heading": "Business Spending Data",
-          "body": "Doe emphasizes the importance of actual business spending data in understanding the true impact of AI on the SaaS market, suggesting that the data does not support some of the more extreme predictions about market centralization."
+          "heading": "Exah's Vision",
+          "body": "Exah, under Brick's leadership, envisions a search engine that can deliver thousands or even tens of thousands of results, catering to the needs of AI agents that require exhaustive information for complex tasks."
         }
       ]
     }
   },
-  "prompt_hash": "f77a13f070f88300"
+  "prompt_hash": "ec337b5ef78cf6c8"
 }

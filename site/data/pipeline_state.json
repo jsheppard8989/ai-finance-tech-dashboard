@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-11T23:38:07.666680",
-  "last_updated": "2026-06-11T23:38:07.666680",
-  "last_pipeline_run": "2026-06-11T23:38:07.666680",
+  "generated_at": "2026-06-12T05:02:12.202845",
+  "last_updated": "2026-06-12T05:02:12.202845",
+  "last_pipeline_run": "2026-06-12T05:02:12.202845",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -11,42 +11,23 @@
     "ticker_mentions": 189,
     "podcast_episodes": 256,
     "newsletters": 7,
-    "daily_scores": 126,
+    "daily_scores": 127,
     "overton_terms_total": 160,
     "latest_insights_total": 270,
     "today_mentions": {
       "podcast": 1
     },
-    "podcasts_analyzed": 4
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "b7a698b7-d215-4f2e-a61e-8c9b702c42f5",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
-      "published": "2026-06-12",
-      "rss_guid": "b7a698b7-d215-4f2e-a61e-8c9b702c42f5",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
