@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-11T22:02:29.437363",
-  chartsVersion: "2026-06-11T22:02:17.809446",
+  generatedAt: "2026-06-11T23:38:16.140987",
+  chartsVersion: "2026-06-11T23:38:04.875945",
   priceSnapshot: {
   "GOOGL": {
     "price": 357.77,
     "change_pct": -6.52,
     "name": "GOOGL",
-    "updated_at": "2026-06-11T22:02:17.808146"
+    "updated_at": "2026-06-11T23:38:04.875201"
   },
   "BTC": {
-    "price": 63513.04,
-    "change_pct": -13.89,
+    "price": 63637.77,
+    "change_pct": -13.72,
     "name": "BTC",
-    "updated_at": "2026-06-11T22:02:17.808165"
+    "updated_at": "2026-06-11T23:38:04.875219"
   },
   "MSFT": {
     "price": 390.34,
     "change_pct": -6.74,
     "name": "MSFT",
-    "updated_at": "2026-06-11T22:02:17.808173"
+    "updated_at": "2026-06-11T23:38:04.875226"
   },
   "NVDA": {
     "price": 204.87,
     "change_pct": -4.75,
     "name": "NVDA",
-    "updated_at": "2026-06-11T22:02:17.808180"
+    "updated_at": "2026-06-11T23:38:04.875232"
   },
   "WTI": {
     "price": 4.11,
     "change_pct": -7.22,
     "name": "WTI",
-    "updated_at": "2026-06-11T22:02:17.808188"
+    "updated_at": "2026-06-11T23:38:04.875238"
   },
   "META": {
     "price": 568.43,
     "change_pct": -6.85,
     "name": "META",
-    "updated_at": "2026-06-11T22:02:17.808195"
+    "updated_at": "2026-06-11T23:38:04.875244"
   },
   "AMZN": {
     "price": 241.51,
     "change_pct": -9.32,
     "name": "AMZN",
-    "updated_at": "2026-06-11T22:02:17.808203"
+    "updated_at": "2026-06-11T23:38:04.875249"
   },
   "S&P 500": {
     "price": 737.76,
     "change_pct": -1.06,
     "name": "S&P 500",
-    "updated_at": "2026-06-11T22:02:17.808210"
+    "updated_at": "2026-06-11T23:38:04.875254"
   },
   "TSLA": {
     "price": 399.15,
     "change_pct": -6.31,
     "name": "TSLA",
-    "updated_at": "2026-06-11T22:02:17.808217"
+    "updated_at": "2026-06-11T23:38:04.875259"
   },
   "AAPL": {
     "price": 295.63,
     "change_pct": -4.27,
     "name": "AAPL",
-    "updated_at": "2026-06-11T22:02:17.808223"
+    "updated_at": "2026-06-11T23:38:04.875265"
   },
   "QQQ": {
     "price": 717.12,
     "change_pct": -0.06,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-11T22:02:17.808230"
+    "updated_at": "2026-06-11T23:38:04.875270"
   },
   "BTC-USD": {
-    "price": 63522.86,
-    "change_pct": -13.87,
+    "price": 63637.77,
+    "change_pct": -13.72,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-11T22:02:17.808243"
+    "updated_at": "2026-06-11T23:38:04.875277"
   }
 },
   tickerScores: [
@@ -396,7 +396,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "GPU",
+    "ticker": "GEONET",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -411,7 +411,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "IBM",
+    "ticker": "GPU",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -426,7 +426,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SNWGF",
+    "ticker": "IBM",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -441,7 +441,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SPACEX",
+    "ticker": "SNWGF",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -456,7 +456,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SQUARE",
+    "ticker": "SPACEX",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -471,14 +471,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "AMD",
-    "total_score": 72.0,
+    "ticker": "SQUARE",
+    "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 27,
-    "score": 72.0,
+    "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -486,7 +486,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ARBOMB",
+    "ticker": "AMD",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -501,7 +501,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CROWD",
+    "ticker": "ARBOMB",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -516,7 +516,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SAMSUNG ELECTRONICS",
+    "ticker": "CROWD",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -531,7 +531,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SK HYNIX",
+    "ticker": "SAMSUNG ELECTRONICS",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -546,7 +546,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SMH",
+    "ticker": "SK HYNIX",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -561,7 +561,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "WORK",
+    "ticker": "SMH",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -576,7 +576,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ZEN",
+    "ticker": "WORK",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -591,14 +591,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ARBOB GASOLINE",
-    "total_score": 70.0,
+    "ticker": "ZEN",
+    "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 35,
-    "score": 70.0,
+    "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -606,7 +606,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "E-TORO",
+    "ticker": "ARBOB GASOLINE",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -621,7 +621,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "EMAX",
+    "ticker": "E-TORO",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -636,7 +636,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "NOW",
+    "ticker": "EMAX",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -651,7 +651,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PANW",
+    "ticker": "NOW",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -666,7 +666,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SMP-500",
+    "ticker": "PANW",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -681,7 +681,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SPCE",
+    "ticker": "SMP-500",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -696,14 +696,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRM",
-    "total_score": 68.0,
+    "ticker": "SPCE",
+    "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 42,
-    "score": 68.0,
+    "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -711,7 +711,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "MINE",
+    "ticker": "CRM",
     "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -726,14 +726,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ETH",
-    "total_score": 66.0,
+    "ticker": "MINE",
+    "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 44,
-    "score": 66.0,
+    "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -741,7 +741,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ILMN",
+    "ticker": "ETH",
     "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -756,7 +756,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PLTR",
+    "ticker": "ILMN",
     "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -771,14 +771,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRSP",
-    "total_score": 64.0,
+    "ticker": "PLTR",
+    "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 47,
-    "score": 64.0,
+    "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -786,7 +786,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "GOOG",
+    "ticker": "CRSP",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -801,7 +801,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "HG",
+    "ticker": "GOOG",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -816,7 +816,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "HOOD",
+    "ticker": "HG",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -833,6 +833,27 @@ const dashboardData = {
 ],
   archive: {
   "insights": [
+    {
+      "id": 298,
+      "title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-12",
+      "summary": "This podcast episode from 'All-In with Chamath, Jason, Sacks & Friedberg' provides a deep dive into various investment opportunities across different sectors. Key themes include the undervalued potential of MGM, the significant replacement cost advantage of Talent Energy, the upcoming surge in power demand, the high-potential biotech firm Actus Oncology, and the rapid expansion of GEONet's RTK network. The hosts also discuss the importance of long-term vision in investment, the impact of AI on power demand, and the high volatility of the biotech sector.",
+      "key_takeaway": "Invest in undervalued companies with hidden assets or significant growth potential, particularly in the power and biotech sectors.",
+      "tickers_mentioned": [
+        "MGM",
+        "TALENT ENERGY",
+        "GEONET"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 283
+    },
     {
       "id": 295,
       "title": "Designing the Physical World with AI",
@@ -1021,7 +1042,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-09",
       "archived_date": null,
@@ -6441,6 +6462,42 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 248,
+      "term": "Replacement Cost Advantage",
+      "description": "A situation where a company's market value is significantly lower than the cost it would take to replace its assets or operations.",
+      "first_detected_date": "2026-06-12",
+      "last_mentioned_date": "2026-06-12",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors can capitalize on this discrepancy for potential equity appreciation as the market recognizes the company's true value.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 283,
+      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "last_mentioned_episode_id": 283,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+    },
+    {
+      "id": 249,
+      "term": "RTK Network",
+      "description": "A Real-Time Kinematic (RTK) network is a system used for precise geolocation, leveraging satellite signals and ground-based reference stations.",
+      "first_detected_date": "2026-06-12",
+      "last_mentioned_date": "2026-06-12",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider companies with RTK networks for their potential in high-precision location services and applications.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 283,
+      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "last_mentioned_episode_id": 283,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+    },
+    {
       "id": 243,
       "term": "K-shaped recovery",
       "description": "An economic recovery where wealth concentration increases, benefiting the wealthy while leaving the bottom half of the population behind.",
@@ -9295,6 +9352,30 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 298,
+      "title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-12",
+      "summary": "This podcast episode from 'All-In with Chamath, Jason, Sacks & Friedberg' provides a deep dive into various investment opportunities across different sectors. Key themes include the undervalued potential of MGM, the significant replacement cost advantage of Talent Energy, the upcoming surge in power demand, the high-potential biotech firm Actus Oncology, and the rapid expansion of GEONet's RTK network. The hosts also discuss the importance of long-term vision in investment, the impact of AI on power demand, and the high volatility of the biotech sector.",
+      "key_takeaway": "Invest in undervalued companies with hidden assets or significant growth potential, particularly in the power and biotech sectors.",
+      "tickers_mentioned": "[\"MGM\", \"TALENT ENERGY\", \"GEONET\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 283,
+      "episode_release_date": "2026-06-12",
+      "guest_name": "All-In's Best Ideas Pitch Competition",
+      "key_tickers": [
+        "MGM",
+        "TALENT ENERGY",
+        "GEONET"
+      ]
+    },
+    {
       "id": 295,
       "title": "Designing the Physical World with AI",
       "source_type": "podcast",
@@ -9438,26 +9519,6 @@ const dashboardData = {
       "episode_release_date": "2026-06-10",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 290,
-      "title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-06-09",
-      "summary": "In this episode, Bill Maris, founder of Section 32, discusses the venture capital landscape, emphasizing the outperformance of smaller funds, the pivotal role of AI in portfolio construction, and the risks associated with late-stage investing. Maris also touches on the impact of large tech companies on AI pricing and the potential for AI to revolutionize industries. The conversation sheds light on the competitive dynamics of venture capital and the necessity for funds to adapt to the evolving market.",
-      "key_takeaway": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-09",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 275,
-      "episode_release_date": "2026-06-09",
-      "guest_name": "Bill Maris",
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -9583,6 +9644,58 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 248,
+      "term": "Replacement Cost Advantage",
+      "description": "A situation where a company's market value is significantly lower than the cost it would take to replace its assets or operations.",
+      "first_detected_date": "2026-06-12",
+      "last_mentioned_date": "2026-06-12",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors can capitalize on this discrepancy for potential equity appreciation as the market recognizes the company's true value.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 283,
+      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "last_mentioned_episode_id": 283,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "first_detected_episode_title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
+      "first_detected_episode_date": "2026-06-12",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
+      "last_mentioned_episode_date": "2026-06-12"
+    },
+    {
+      "id": 249,
+      "term": "RTK Network",
+      "description": "A Real-Time Kinematic (RTK) network is a system used for precise geolocation, leveraging satellite signals and ground-based reference stations.",
+      "first_detected_date": "2026-06-12",
+      "last_mentioned_date": "2026-06-12",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider companies with RTK networks for their potential in high-precision location services and applications.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 283,
+      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "last_mentioned_episode_id": 283,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "first_detected_episode_title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
+      "first_detected_episode_date": "2026-06-12",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
+      "last_mentioned_episode_date": "2026-06-12"
+    },
     {
       "id": 243,
       "term": "K-shaped recovery",
@@ -9868,58 +9981,6 @@ const dashboardData = {
       "last_mentioned_podcast": null,
       "last_mentioned_episode_title": null,
       "last_mentioned_episode_date": null
-    },
-    {
-      "id": 174,
-      "term": "Capability-Bounded Approach",
-      "description": "A business strategy that focuses on leveraging existing capabilities to enter new markets, rather than being confined to a specific industry.",
-      "first_detected_date": "2026-05-12",
-      "last_mentioned_date": "2026-05-12",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should look for companies that demonstrate this approach, as it may indicate potential for growth and diversification.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 215,
-      "first_detected_speaker": "Charles Koch, Chase Koch",
-      "last_mentioned_episode_id": 215,
-      "last_mentioned_speaker": "Charles Koch, Chase Koch",
-      "overton_score": 0.5,
-      "resonance_pct": 12,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
-      "first_detected_episode_date": "2026-05-12",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
-      "last_mentioned_episode_date": "2026-05-12"
-    },
-    {
-      "id": 175,
-      "term": "Meritocracy and Disruptive Innovation",
-      "description": "A culture within an organization that rewards talent and innovation, often leading to breakthrough ideas and business success.",
-      "first_detected_date": "2026-05-12",
-      "last_mentioned_date": "2026-05-12",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies that foster a meritocratic culture and encourage disruptive innovation.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 215,
-      "first_detected_speaker": "Charles Koch, Chase Koch",
-      "last_mentioned_episode_id": 215,
-      "last_mentioned_speaker": "Charles Koch, Chase Koch",
-      "overton_score": 0.5,
-      "resonance_pct": 12,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
-      "first_detected_episode_date": "2026-05-12",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
-      "last_mentioned_episode_date": "2026-05-12"
     }
   ]
 },
@@ -27653,12 +27714,94 @@ const dashboardData = {
       "GOOGL",
       "SPCE"
     ]
+  },
+  "298": {
+    "id": 288,
+    "insight_id": 298,
+    "podcast_episode_id": 283,
+    "overview": "The unresolved tension in the podcast revolves around the market's undervaluation of certain companies and the potential for significant growth in specific sectors. The competitive dynamic is between the market's current perception of these companies and the hosts' long-term vision of their potential. The allocation tradeoff lies in whether to invest in undervalued companies with hidden assets or to follow the market's current valuation. The metric that arbitrates this uncertainty is the realization of these companies' potential growth, which would vindicate the hosts' thesis.",
+    "key_takeaways_detailed": [
+      "Investors should monitor MGM for any developments in its Japanese and Dubai casino licenses, as these could be catalysts for stock appreciation.",
+      "Talent Energy's investment should be reassessed if its enterprise value starts to approach its replacement cost, indicating a market revaluation.",
+      "For Actus Oncology, investors should closely watch the progress and results of its clinical trials, as these will be pivotal in determining its market cap.",
+      "GEONet's investment appeal is contingent upon its ability to maintain rapid network expansion and revenue growth, which should be tracked against its decentralized model's effectiveness."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that certain companies are undervalued by the market due to hidden assets or significant growth potential, particularly in the power and biotech sectors. This thesis is vindicated if these companies' stock prices appreciate as their potential is realized, and invalidated if they fail to meet growth expectations or if market conditions change adversely. The timeframe for this thesis is medium to long-term, as it is based on the realization of growth potential rather than short-term market fluctuations.",
+    "ticker_analysis": {
+      "MGM": {
+        "rationale": "MGM is relevant due to its potential hidden value and growth from new casino licenses in Japan and Dubai.",
+        "positioning": "Positioned as a long-term strategic buy, capitalizing on its undervalued stock and potential for growth.",
+        "risk": "Key risks include regulatory hurdles in Japan and Dubai, and potential underperformance of new casino operations."
+      },
+      "TAL": {
+        "rationale": "Talent Energy's enterprise value significantly below its replacement cost presents a compelling investment opportunity.",
+        "positioning": "Considered as a speculative buy with a focus on the potential for market correction and equity appreciation.",
+        "risk": "The risk lies in the market not recognizing the replacement cost advantage, or in operational issues affecting the company's value."
+      },
+      "ACTO": {
+        "rationale": "Actus Oncology's development of radiopharmaceuticals for solid tumors positions it for significant valuation if clinical trials are successful.",
+        "positioning": "Monitored as a high-risk, high-reward investment, with a focus on clinical trial outcomes.",
+        "risk": "The primary risk is the failure of clinical trials, which would significantly impact the company's valuation and potential for growth."
+      },
+      "GEON": {
+        "rationale": "GEONet's rapid expansion of its RTK network and its decentralized model make it a high-growth opportunity in the intersection of crypto and AI.",
+        "positioning": "Positioned as a long-term strategic buy, focusing on the company's unique business model and growing customer base.",
+        "risk": "Risks include competition in the RTK network space, technological disruptions, and the ability to maintain network expansion and revenue growth."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The market may not recognize the hidden value in MGM, or new casino licenses may not yield expected profits.",
+      "Talent Energy's enterprise value may remain below its replacement cost due to market inefficiencies or other unseen factors.",
+      "Actus Oncology's clinical trials may fail or not yield the expected results, affecting its potential valuation.",
+      "GEONet's decentralized model may face scalability issues or regulatory hurdles that could impede its growth."
+    ],
+    "catalysts": [
+      "MGM securing new casino licenses in Japan and Dubai.",
+      "Talent Energy's enterprise value converging with its replacement cost.",
+      "Positive results from Actus Oncology's clinical trials.",
+      "GEONet achieving significant milestones in its RTK network expansion and customer acquisition."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-11T23:37:32.148997",
+    "updated_at": "2026-06-12 04:37:32",
+    "episode_evidence": "The podcast 'All-In with Chamath, Jason, Sacks & Friedberg' provides a multifaceted exploration of investment opportunities. Chamath's prediction of Amazon's trillion-dollar valuation in 2015 underscores the importance of long-term vision in investments, as he stated, 'If you can buy an asset at below replacement cost... you hold it, and you sell it at a big premium.' This principle is evident in Talent Energy's case, where the enterprise value of $25 billion is significantly below its $45 billion replacement cost, as highlighted by the hosts: 'If you follow Samsung's playbook... you hold it, and you sell it at a big premium to replacement cost.' In the biotech sector, Actus Oncology's potential is emphasized, with the possibility of a $10 billion valuation if clinical trials are successful, as indicated by the hosts: 'Actus could be worth $10 billion or $200 per share if even one of their programs makes it to market.' GEONet's decentralized model for expanding its RTK network is also noteworthy, as it covers 80% of the global population and is expected to triple its revenue in the coming year, as the hosts mentioned: 'GEONet was founded in 2021... Today, they are roughly twice the size of the next three guys combined.'",
+    "falsification_tracks": [
+      "Should MGM's stock price remain stagnant or decline despite new casino licenses in Japan and Dubai, it would challenge the thesis of hidden value.",
+      "If Talent Energy's enterprise value does not converge with its replacement cost over the next few years, it would suggest a misjudgment in the market's valuation.",
+      "A failure in Actus Oncology's clinical trials would significantly reduce the conviction in its high-potential valuation.",
+      "GEONet's revenue not tripling in the coming year despite its decentralized model would cast doubt on the scalability and market adoption of its RTK network."
+    ],
+    "insight_title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-06-12",
+    "key_tickers": [
+      "MGM",
+      "TALENT ENERGY",
+      "GEONET"
+    ]
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 14904,
+    "id": 14976,
+    "name": "All-In's Best Ideas Pitch Competition",
+    "slug": "all-ins-best-ideas-pitch-competition",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in undervalued companies with hidden assets or significant growth potential, particularly in the power and biotech sectors.",
+    "last_episode_title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-06-12",
+    "appearance_count": 1
+  },
+  {
+    "id": 14977,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -27670,7 +27813,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14905,
+    "id": 14978,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -27682,7 +27825,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14906,
+    "id": 14979,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -27694,7 +27837,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14907,
+    "id": 14980,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -27706,7 +27849,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14908,
+    "id": 14981,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -27718,7 +27861,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14909,
+    "id": 14982,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -27730,7 +27873,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14910,
+    "id": 14983,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -27742,7 +27885,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14911,
+    "id": 14984,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -27754,7 +27897,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14912,
+    "id": 14985,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -27766,7 +27909,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14913,
+    "id": 14986,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -27778,7 +27921,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14914,
+    "id": 14987,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -27790,7 +27933,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14915,
+    "id": 14988,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -27802,7 +27945,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14916,
+    "id": 14989,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -27814,7 +27957,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14917,
+    "id": 14990,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -27826,7 +27969,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14918,
+    "id": 14991,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -27838,7 +27981,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14919,
+    "id": 14992,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -27850,7 +27993,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14920,
+    "id": 14993,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -27862,7 +28005,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14921,
+    "id": 14994,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -27874,7 +28017,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 14922,
+    "id": 14995,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -27882,18 +28025,6 @@ const dashboardData = {
     "last_main_idea": "Investors should prepare for potential oil price volatility and consider hedging strategies, while also looking for investment opportunities in companies improving inventory efficiency and energy infrastructure projects.",
     "last_episode_title": "MacroVoices #533 Morgan Downey: The Return of Oil 101",
     "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-05-21",
-    "appearance_count": 1
-  },
-  {
-    "id": 14923,
-    "name": "This episode",
-    "slug": "this-episode",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in AI infrastructure and multi-modal AI applications presents a significant opportunity as Google and other tech companies continue to expand their capabilities and applications in this space.",
-    "last_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-21",
     "appearance_count": 1
   }
@@ -28838,7 +28969,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -28902,7 +29033,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -28962,7 +29093,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
@@ -29838,7 +29969,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -30222,7 +30353,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investors should consider the dual impact of AI on job creation and displacement, focusing on companies that are AI-enabled and those that support open-source AI solutions to foster a competitive and innovative market.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-29 \u2022 Pope vs AI, Anthropic's Digital God, AI Job Loss Narrative Flips, Open Source Crackdown Coming?",
     "last_proof_snippet": "Okay, we are gathered here today in Holy Unity, brothers and sisters, to convene and discuss on this most holy day, the day, the all-in podcast drops. Many topics, AI data centers, China, justice, human dignity, Dario on winding these SPVs",
@@ -31902,7 +32033,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-07 \u2022 MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -32723,7 +32854,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-30 \u2022 Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
     "last_proof_snippet": "AI is creating new opportunities to rethink how enterprise systems work, potentially leading to a platform shift.",
@@ -32970,7 +33101,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Investment in the biotech sector may need to consider the geographic shift towards China for innovation and efficiency in drug development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-29 \u2022 The Shift in Global Drug Development",
     "last_proof_snippet": "China's clinical trial system has rapidly expanded, with reforms that streamline the approval process.",
@@ -33033,7 +33164,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -33469,7 +33600,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -33849,7 +33980,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
     "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
@@ -33977,7 +34108,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -34669,7 +34800,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
     "last_proof_snippet": "Beach Point Capital Management primarily manages institutional capital, which is characterized as patient capital.",
@@ -34732,7 +34863,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
@@ -35047,7 +35178,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
     "last_proof_snippet": "AI is a shortcut that can be beneficial but also presents challenges in debugging and understanding.",
@@ -35537,7 +35668,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_proof_snippet": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",
@@ -37262,7 +37393,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_proof_snippet": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229 00:00:00 I am blown away by how far you've come. The things that you can do with Neural Nets now does completely",
@@ -37326,7 +37457,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "last_proof_cite": "The a16z Show \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
     "last_proof_snippet": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. If you were starting from scratch today,",
@@ -37388,7 +37519,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-19 \u2022 Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
     "last_proof_snippet": "Today's episode is brought to you by the Picta AI Enhance International Equity ETF, Ticker PQNT. You'll hear more about they're using AI to enhance international equity returns later in the show. For now, let's get into it. Very pleased tod",

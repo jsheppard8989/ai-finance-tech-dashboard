@@ -1,5 +1,25 @@
 [
   {
+    "id": 283,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
+    "episode_date": "2026-06-12",
+    "summary": "This podcast episode from 'All-In with Chamath, Jason, Sacks & Friedberg' provides a deep dive into various investment opportunities across different sectors. Key themes include the undervalued potential of MGM, the significant replacement cost advantage of Talent Energy, the upcoming surge in power demand, the high-potential biotech firm Actus Oncology, and the rapid expansion of GEONet's RTK network. The hosts also discuss the importance of long-term vision in investment, the impact of AI on power demand, and the high volatility of the biotech sector.",
+    "key_takeaways": [
+      "Invest in MGM to capitalize on its undervalued stock and potential growth from new markets.",
+      "Consider acquiring shares in Talent Energy, focusing on its replacement cost advantage.",
+      "Monitor the power sector for companies that can leverage the expected surge in demand.",
+      "Keep an eye on Actus Oncology for upcoming clinical trial results that could significantly impact its valuation.",
+      "Explore investment opportunities in GEONet as it expands its RTK network and customer base."
+    ],
+    "investment_thesis": "Invest in undervalued companies with hidden assets or significant growth potential, particularly in the power and biotech sectors.",
+    "key_tickers": [
+      "MGM",
+      "TALENT ENERGY",
+      "GEONET"
+    ]
+  },
+  {
     "id": 282,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
@@ -116,22 +136,6 @@
       "Stay informed about geopolitical developments impacting the supply of critical minerals."
     ],
     "investment_thesis": "Investing in critical minerals and infrastructure modernization presents a strategic opportunity to capitalize on supply-demand imbalances and government support, while also hedging against inflation.",
-    "key_tickers": null
-  },
-  {
-    "id": 275,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
-    "episode_date": "2026-06-09",
-    "summary": "In this episode, Bill Maris, founder of Section 32, discusses the venture capital landscape, emphasizing the outperformance of smaller funds, the pivotal role of AI in portfolio construction, and the risks associated with late-stage investing. Maris also touches on the impact of large tech companies on AI pricing and the potential for AI to revolutionize industries. The conversation sheds light on the competitive dynamics of venture capital and the necessity for funds to adapt to the evolving market.",
-    "key_takeaways": [
-      "Smaller venture funds under $750 million outperform larger funds with a 4.76x return versus 2.42x for those over $1 billion.",
-      "AI-driven portfolio construction and investment strategies can provide a competitive edge in venture capital.",
-      "Late-stage venture capital strategies may not be sustainable due to inflated valuations and the potential for lower returns.",
-      "Large tech companies could disrupt the AI market by significantly lowering prices for AI services, affecting smaller competitors.",
-      "AI technology is in its early stages and is poised for rapid advancements, similar to the progression from early gaming consoles to modern systems."
-    ],
-    "investment_thesis": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "key_tickers": null
   }
 ]
