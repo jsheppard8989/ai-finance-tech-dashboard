@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-12T06:40:00.096385",
-  chartsVersion: "2026-06-12T06:39:50.016736",
+  generatedAt: "2026-06-12T12:02:29.567497",
+  chartsVersion: "2026-06-12T12:02:08.941085",
   priceSnapshot: {
   "GOOGL": {
-    "price": 357.77,
-    "change_pct": -6.52,
+    "price": 362.08,
+    "change_pct": -6.84,
     "name": "GOOGL",
-    "updated_at": "2026-06-12T06:39:50.016210"
+    "updated_at": "2026-06-12T12:02:08.939851"
   },
   "BTC": {
-    "price": 63630.92,
-    "change_pct": -13.73,
+    "price": 63937.63,
+    "change_pct": -13.31,
     "name": "BTC",
-    "updated_at": "2026-06-12T06:39:50.016222"
+    "updated_at": "2026-06-12T12:02:08.939872"
   },
   "MSFT": {
-    "price": 390.34,
-    "change_pct": -6.74,
+    "price": 387.89,
+    "change_pct": -6.76,
     "name": "MSFT",
-    "updated_at": "2026-06-12T06:39:50.016227"
+    "updated_at": "2026-06-12T12:02:08.939882"
   },
   "NVDA": {
-    "price": 204.87,
-    "change_pct": -4.75,
+    "price": 205.25,
+    "change_pct": -4.36,
     "name": "NVDA",
-    "updated_at": "2026-06-12T06:39:50.016231"
+    "updated_at": "2026-06-12T12:02:08.939890"
   },
   "WTI": {
     "price": 4.11,
-    "change_pct": -7.22,
+    "change_pct": 0.98,
     "name": "WTI",
-    "updated_at": "2026-06-12T06:39:50.016234"
+    "updated_at": "2026-06-12T12:02:08.939899"
   },
   "META": {
-    "price": 568.43,
-    "change_pct": -6.85,
+    "price": 570.62,
+    "change_pct": -6.81,
     "name": "META",
-    "updated_at": "2026-06-12T06:39:50.016238"
+    "updated_at": "2026-06-12T12:02:08.939908"
   },
   "AMZN": {
-    "price": 241.51,
-    "change_pct": -9.32,
+    "price": 237.01,
+    "change_pct": -10.66,
     "name": "AMZN",
-    "updated_at": "2026-06-12T06:39:50.016242"
+    "updated_at": "2026-06-12T12:02:08.939917"
   },
   "S&P 500": {
-    "price": 737.76,
-    "change_pct": -1.06,
+    "price": 741.91,
+    "change_pct": -1.16,
     "name": "S&P 500",
-    "updated_at": "2026-06-12T06:39:50.016246"
+    "updated_at": "2026-06-12T12:02:08.939937"
   },
   "TSLA": {
-    "price": 399.15,
-    "change_pct": -6.31,
+    "price": 399.74,
+    "change_pct": -7.81,
     "name": "TSLA",
-    "updated_at": "2026-06-12T06:39:50.016249"
+    "updated_at": "2026-06-12T12:02:08.939962"
   },
   "AAPL": {
-    "price": 295.63,
-    "change_pct": -4.27,
+    "price": 291.34,
+    "change_pct": -5.51,
     "name": "AAPL",
-    "updated_at": "2026-06-12T06:39:50.016253"
+    "updated_at": "2026-06-12T12:02:08.939969"
   },
   "QQQ": {
-    "price": 717.12,
-    "change_pct": -0.06,
+    "price": 722.17,
+    "change_pct": -1.11,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-12T06:39:50.016256"
+    "updated_at": "2026-06-12T12:02:08.939984"
   },
   "BTC-USD": {
-    "price": 63630.92,
-    "change_pct": -13.73,
+    "price": 63927.57,
+    "change_pct": -13.32,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-12T06:39:50.016260"
+    "updated_at": "2026-06-12T12:02:08.939992"
   }
 },
   tickerScores: [
@@ -27789,7 +27789,7 @@ const dashboardData = {
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 15122,
+    "id": 15195,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -27801,7 +27801,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 15123,
+    "id": 15196,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -27813,7 +27813,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 15124,
+    "id": 15197,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -27825,7 +27825,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 15125,
+    "id": 15198,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -27837,7 +27837,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 15126,
+    "id": 15199,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -27849,7 +27849,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 15127,
+    "id": 15200,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -27861,7 +27861,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 15128,
+    "id": 15201,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -27873,7 +27873,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 15129,
+    "id": 15202,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -27885,7 +27885,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 15130,
+    "id": 15203,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -27897,7 +27897,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 15131,
+    "id": 15204,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -27909,7 +27909,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 15132,
+    "id": 15205,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -27921,7 +27921,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 15133,
+    "id": 15206,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -27933,7 +27933,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 15134,
+    "id": 15207,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -27945,7 +27945,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 15135,
+    "id": 15208,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -27957,7 +27957,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 15136,
+    "id": 15209,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -27969,7 +27969,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 15137,
+    "id": 15210,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -27981,7 +27981,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 15138,
+    "id": 15211,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -27993,7 +27993,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 15139,
+    "id": 15212,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -28005,7 +28005,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 15140,
+    "id": 15213,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -28017,7 +28017,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 15141,
+    "id": 15214,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -29158,7 +29158,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -36479,7 +36479,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -36539,7 +36539,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -36599,7 +36599,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",
@@ -37847,7 +37847,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
@@ -37905,7 +37905,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",
