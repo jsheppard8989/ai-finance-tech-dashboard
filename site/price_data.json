@@ -1,74 +1,74 @@
 {
   "GOOGL": {
-    "price": 353.3,
-    "change_pct": -7.69,
+    "price": 357.77,
+    "change_pct": -6.52,
     "name": "GOOGL",
-    "updated_at": "2026-06-11T13:44:41.641812"
+    "updated_at": "2026-06-11T22:02:17.808146"
   },
   "BTC": {
-    "price": 63455.17,
-    "change_pct": -13.52,
+    "price": 63513.04,
+    "change_pct": -13.89,
     "name": "BTC",
-    "updated_at": "2026-06-11T13:44:41.641829"
+    "updated_at": "2026-06-11T22:02:17.808165"
   },
   "MSFT": {
-    "price": 387.7,
-    "change_pct": -7.38,
+    "price": 390.34,
+    "change_pct": -6.74,
     "name": "MSFT",
-    "updated_at": "2026-06-11T13:44:41.641836"
+    "updated_at": "2026-06-11T22:02:17.808173"
   },
   "NVDA": {
-    "price": 202.18,
-    "change_pct": -6.0,
+    "price": 204.87,
+    "change_pct": -4.75,
     "name": "NVDA",
-    "updated_at": "2026-06-11T13:44:41.641841"
+    "updated_at": "2026-06-11T22:02:17.808180"
   },
   "WTI": {
-    "price": 4.2,
-    "change_pct": -5.3,
+    "price": 4.11,
+    "change_pct": -7.22,
     "name": "WTI",
-    "updated_at": "2026-06-11T13:44:41.641847"
+    "updated_at": "2026-06-11T22:02:17.808188"
   },
   "META": {
-    "price": 567.21,
-    "change_pct": -7.05,
+    "price": 568.43,
+    "change_pct": -6.85,
     "name": "META",
-    "updated_at": "2026-06-11T13:44:41.641853"
+    "updated_at": "2026-06-11T22:02:17.808195"
   },
   "AMZN": {
-    "price": 239.2,
-    "change_pct": -10.19,
+    "price": 241.51,
+    "change_pct": -9.32,
     "name": "AMZN",
-    "updated_at": "2026-06-11T13:44:41.641859"
+    "updated_at": "2026-06-11T22:02:17.808203"
   },
   "S&P 500": {
-    "price": 734.95,
-    "change_pct": -1.43,
+    "price": 737.76,
+    "change_pct": -1.06,
     "name": "S&P 500",
-    "updated_at": "2026-06-11T13:44:41.641864"
+    "updated_at": "2026-06-11T22:02:17.808210"
   },
   "TSLA": {
-    "price": 392.82,
-    "change_pct": -7.79,
+    "price": 399.15,
+    "change_pct": -6.31,
     "name": "TSLA",
-    "updated_at": "2026-06-11T13:44:41.641870"
+    "updated_at": "2026-06-11T22:02:17.808217"
   },
   "AAPL": {
-    "price": 295.48,
-    "change_pct": -4.32,
+    "price": 295.63,
+    "change_pct": -4.27,
     "name": "AAPL",
-    "updated_at": "2026-06-11T13:44:41.641875"
+    "updated_at": "2026-06-11T22:02:17.808223"
   },
   "QQQ": {
-    "price": 710.64,
-    "change_pct": -0.96,
+    "price": 717.12,
+    "change_pct": -0.06,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-11T13:44:41.641880"
+    "updated_at": "2026-06-11T22:02:17.808230"
   },
   "BTC-USD": {
-    "price": 63455.17,
-    "change_pct": -13.52,
+    "price": 63522.86,
+    "change_pct": -13.87,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-11T13:44:41.641886"
+    "updated_at": "2026-06-11T22:02:17.808243"
   }
 }
