@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-13T06:38:33.392159",
-  "last_updated": "2026-06-13T06:38:33.392159",
-  "last_pipeline_run": "2026-06-13T06:38:33.392159",
+  "generated_at": "2026-06-13T12:05:27.218377",
+  "last_updated": "2026-06-13T12:05:27.218377",
+  "last_pipeline_run": "2026-06-13T12:05:27.218377",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -18,12 +18,12 @@
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 2
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
     {
@@ -82,24 +82,6 @@
         }
       },
       "status": "needs_analysis"
-    },
-    {
-      "id": "aed8a034-f95c-4fd8-a457-c964d779dee6",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Anthropic's Fable Backlash, Nationalizing AI, Inflation Heats Up & California's Broken Elections",
-      "published": "2026-06-13",
-      "rss_guid": "aed8a034-f95c-4fd8-a457-c964d779dee6",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
     }
   ],
   "available_from_rss": [
