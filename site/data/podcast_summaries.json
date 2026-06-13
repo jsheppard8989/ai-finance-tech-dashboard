@@ -1,5 +1,19 @@
 [
   {
+    "id": 284,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Anthropic's Fable Backlash, Nationalizing AI, Inflation Heats Up & California's Broken Elections",
+    "episode_date": "2026-06-13",
+    "summary": "In this episode, the hosts discuss the implications of Anthropic's AI model Fable 5 retaining user prompts for 30 days, raising concerns about censorship and data privacy. They also delve into the shift towards open-source AI models, particularly from China, due to restrictions imposed by companies like Anthropic. Additionally, the conversation covers the political landscape's polarization and calls for wealth redistribution from AI companies, as well as concerns about election integrity in California.",
+    "key_takeaways": [
+      "Diversify AI sources to mitigate risks associated with proprietary AI censorship.",
+      "Monitor political developments regarding AI regulation and wealth redistribution to anticipate market impacts.",
+      "Advocate for reforms in the electoral process to enhance integrity and transparency, potentially influencing future investment strategies."
+    ],
+    "investment_thesis": "Invest in companies that leverage open-source AI models to maintain a competitive edge in a shifting technological landscape and to mitigate risks associated with proprietary AI censorship.",
+    "key_tickers": null
+  },
+  {
     "id": 283,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
@@ -120,22 +134,6 @@
       "The future of work will involve a shift from hierarchical management to flatter structures, emphasizing individual contributions and collaboration."
     ],
     "investment_thesis": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
-    "key_tickers": null
-  },
-  {
-    "id": 276,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "Dan Dreyfus: America's Critical Minerals Crisis is Here",
-    "episode_date": "2026-06-10",
-    "summary": "The podcast discusses the critical role of the US semiconductor industry and the looming shortages of essential minerals required for technological advancements and infrastructure. It highlights the need for significant investment in the US electric grid, the surge in copper demand, and the government's intervention to bolster domestic mining. The conversation underscores the strategic importance of commodities like copper and silver in an inflationary environment and the potential for investment in this space.",
-    "key_takeaways": [
-      "Invest in companies involved in the extraction and processing of critical minerals, especially copper and silver.",
-      "Monitor government initiatives aimed at revitalizing domestic mining and infrastructure projects for investment opportunities.",
-      "Allocate capital to commodities as a hedge against inflation and currency debasement.",
-      "Invest in companies focused on modernizing the electric grid and other critical infrastructure.",
-      "Stay informed about geopolitical developments impacting the supply of critical minerals."
-    ],
-    "investment_thesis": "Investing in critical minerals and infrastructure modernization presents a strategic opportunity to capitalize on supply-demand imbalances and government support, while also hedging against inflation.",
     "key_tickers": null
   }
 ]

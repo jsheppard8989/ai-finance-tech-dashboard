@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 299,
+      "title": "Anthropic's Fable Backlash, Nationalizing AI, Inflation Heats Up & California's Broken Elections",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-13",
+      "summary": "In this episode, the hosts discuss the implications of Anthropic's AI model Fable 5 retaining user prompts for 30 days, raising concerns about censorship and data privacy. They also delve into the shift towards open-source AI models, particularly from China, due to restrictions imposed by companies like Anthropic. Additionally, the conversation covers the political landscape's polarization and calls for wealth redistribution from AI companies, as well as concerns about election integrity in California.",
+      "key_takeaway": "Invest in companies that leverage open-source AI models to maintain a competitive edge in a shifting technological landscape and to mitigate risks associated with proprietary AI censorship.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 284
+    },
+    {
       "id": 298,
       "title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
       "source_type": "podcast",
@@ -91,7 +110,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-10",
       "archived_date": null,
