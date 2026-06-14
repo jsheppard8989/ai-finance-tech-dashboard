@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-14T06:35:42.200143",
-  chartsVersion: "2026-06-14T06:35:35.532469",
+  generatedAt: "2026-06-14T12:02:38.713583",
+  chartsVersion: "2026-06-14T12:02:28.217790",
   priceSnapshot: {
   "GOOGL": {
     "price": 359.68,
     "change_pct": -7.45,
     "name": "GOOGL",
-    "updated_at": "2026-06-14T06:35:35.531052"
+    "updated_at": "2026-06-14T12:02:28.217023"
   },
   "BTC": {
-    "price": 64601.77,
-    "change_pct": -9.42,
+    "price": 63919.13,
+    "change_pct": -10.38,
     "name": "BTC",
-    "updated_at": "2026-06-14T06:35:35.531068"
+    "updated_at": "2026-06-14T12:02:28.217039"
   },
   "MSFT": {
     "price": 390.74,
     "change_pct": -6.08,
     "name": "MSFT",
-    "updated_at": "2026-06-14T06:35:35.531075"
+    "updated_at": "2026-06-14T12:02:28.217046"
   },
   "NVDA": {
     "price": 205.19,
     "change_pct": -4.39,
     "name": "NVDA",
-    "updated_at": "2026-06-14T06:35:35.531081"
+    "updated_at": "2026-06-14T12:02:28.217060"
   },
   "WTI": {
     "price": 4.06,
     "change_pct": -0.25,
     "name": "WTI",
-    "updated_at": "2026-06-14T06:35:35.531086"
+    "updated_at": "2026-06-14T12:02:28.217067"
   },
   "META": {
     "price": 566.98,
     "change_pct": -7.41,
     "name": "META",
-    "updated_at": "2026-06-14T06:35:35.531092"
+    "updated_at": "2026-06-14T12:02:28.217072"
   },
   "AMZN": {
     "price": 238.55,
     "change_pct": -10.08,
     "name": "AMZN",
-    "updated_at": "2026-06-14T06:35:35.531098"
+    "updated_at": "2026-06-14T12:02:28.217078"
   },
   "S&P 500": {
     "price": 741.75,
     "change_pct": -1.18,
     "name": "S&P 500",
-    "updated_at": "2026-06-14T06:35:35.531104"
+    "updated_at": "2026-06-14T12:02:28.217083"
   },
   "TSLA": {
     "price": 406.43,
     "change_pct": -6.26,
     "name": "TSLA",
-    "updated_at": "2026-06-14T06:35:35.531109"
+    "updated_at": "2026-06-14T12:02:28.217088"
   },
   "AAPL": {
     "price": 291.13,
     "change_pct": -5.58,
     "name": "AAPL",
-    "updated_at": "2026-06-14T06:35:35.531114"
+    "updated_at": "2026-06-14T12:02:28.217094"
   },
   "QQQ": {
     "price": 721.34,
     "change_pct": -1.22,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-14T06:35:35.531119"
+    "updated_at": "2026-06-14T12:02:28.217099"
   },
   "BTC-USD": {
-    "price": 64601.77,
-    "change_pct": -9.42,
+    "price": 63919.13,
+    "change_pct": -10.38,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-14T06:35:35.531126"
+    "updated_at": "2026-06-14T12:02:28.217106"
   }
 },
   tickerScores: [
@@ -27858,7 +27858,7 @@ const dashboardData = {
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 15998,
+    "id": 16071,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -27870,7 +27870,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 15999,
+    "id": 16072,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -27882,7 +27882,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16000,
+    "id": 16073,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -27894,7 +27894,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16001,
+    "id": 16074,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -27906,7 +27906,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16002,
+    "id": 16075,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -27918,7 +27918,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16003,
+    "id": 16076,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -27930,7 +27930,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16004,
+    "id": 16077,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -27942,7 +27942,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16005,
+    "id": 16078,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -27954,7 +27954,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16006,
+    "id": 16079,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -27966,7 +27966,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16007,
+    "id": 16080,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -27978,7 +27978,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16008,
+    "id": 16081,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -27990,7 +27990,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16009,
+    "id": 16082,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -28002,7 +28002,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16010,
+    "id": 16083,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -28014,7 +28014,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16011,
+    "id": 16084,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -28026,7 +28026,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16012,
+    "id": 16085,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -28038,7 +28038,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16013,
+    "id": 16086,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -28050,7 +28050,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16014,
+    "id": 16087,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -28062,7 +28062,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16015,
+    "id": 16088,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -28074,7 +28074,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16016,
+    "id": 16089,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -28086,7 +28086,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16017,
+    "id": 16090,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -29227,7 +29227,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
