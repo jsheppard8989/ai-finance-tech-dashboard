@@ -1,16 +1,18 @@
 {
-  "prompt": "Will the U.S. Senate be controlled by the Democratic Party within the next 42 days?",
+  "prompt": "Will at least two U.S. counties or municipalities enact new moratoriums or major restrictive ordinances on AI data center construction within the next 42 days?",
+  "editorial_note": "We picked data centers because it was the clearest friction point in our feed this week: every major AI story eventually hits power, water, permitting, and who pays. Hyperscalers need compute; communities get the bill. Our AI Bench Press match (Ada vs Gil) argues the community-impact question head-on; this week's contract asks whether that backlash is showing up in real local policy within the next 42 days.",
   "expires_rule": "Resolves Friday 12:00 PM CST 2026-07-24",
-  "crux_theme": "U.S. Senate control",
+  "crux_theme": "AI data center community impact",
   "resolution_clarity": {
-    "source_of_truth": "Official election results and party majority announcements",
+    "source_of_truth": "Official county/municipal records and verified government press releases",
     "resolution_sources": [
-      "Associated Press election results",
-      "Reuters election results",
-      "Official statements from the U.S. Senate"
+      "County commission or city council meeting minutes",
+      "Official municipal press releases",
+      "Verified local news reporting citing ordinance numbers"
     ],
     "resolution_criteria": [
-      "The party that gains 50% or more of the Senate seats following the 2026 U.S. Senate elections scheduled for Jul 24, 2026"
+      "YES if at least two distinct U.S. counties or municipalities publicly enact a new moratorium or major restrictive ordinance targeting AI data center construction between contract week and resolves_iso",
+      "NO otherwise"
     ]
   },
   "sides": {
@@ -22,9 +24,10 @@
   "week_label": "Week of 2026-06-12",
   "debater_a": "Michael Fritzell",
   "debater_b": "Will Brick",
-  "generated_at": "2026-06-12T05:04:07.610561",
+  "generated_at": "2026-06-10T15:55:00.000000",
   "bet_status": "open",
   "audio_href": "./audio/emp_ai_the_debate_11labs.mp3",
+  "bench_press_topic": "AI data centers are bad for your community.",
   "debater_a_snapshot": {
     "name": "Michael Fritzell",
     "known_for": "His insights on market bubbles and investment opportunities in Asian equities.",
@@ -36,44 +39,10 @@
   "debater_b_snapshot": {
     "name": "Will Brick",
     "known_for": "Developing a search engine tailored for AI agents and businesses, aiming to provide more comprehensive and accurate search results.",
-    "bio": "Will Brick is the CEO of Exah, a company focused on revolutionizing search through AI agents. He is known for leading the development of a search engine designed for AI agents and businesses, aiming to provide comprehensive and accurate information.",
+    "bio": "Will Brick is the CEO of Exah, a company focused on revolutionizing search through AI agents.",
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-06",
-    "net_worth": "$600.00B",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Will Brick",
-      "fetched_at": "2026-06-06T18:34:54.181176+00:00",
-      "cliff_notes": "Will Brick is recognized for his leadership in the field of AI-driven search technology. As the CEO of Exah, he has been instrumental in developing a search engine that caters specifically to the needs of AI agents and businesses. His vision is to create a search platform that can provide not just a handful of results but thousands, enabling a deeper understanding of topics and more accurate information dissemination. This approach stands in contrast to traditional search engines, which are often limited in the scope and depth of their results. Brick's work at Exah is significant as it addresses the growing demand for sophisticated search capabilities in an increasingly AI-centric world, with potential implications for various industries and the way information is accessed and utilized.",
-      "derived": {
-        "current_role": "CEO of Exah"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Will Brick is recognized for his leadership in the field of AI-driven search technology. As the CEO of Exah, he has been instrumental in developing a search engine that caters specifically to the needs of AI agents and businesses. His vision is to create a search platform that can provide not just a handful of results but thousands, enabling a deeper understanding of topics and more accurate information dissemination.",
-        "This approach stands in contrast to traditional search engines, which are often limited in the scope and depth of their results. Brick's work at Exah is significant as it addresses the growing demand for sophisticated search capabilities in an increasingly AI-centric world, with potential implications for various industries and the way information is accessed and utilized."
-      ],
-      "sections": [
-        {
-          "heading": "AI-Centric Search",
-          "body": "Will Brick is pioneering a new approach to search that is specifically designed for AI agents, aiming to provide a more comprehensive set of results compared to traditional search engines."
-        },
-        {
-          "heading": "Information Accuracy",
-          "body": "Brick's work emphasizes the importance of accurate information, suggesting that with accurate data, most people would be reasonable, highlighting the impact of misinformation in today's digital landscape."
-        },
-        {
-          "heading": "Exah's Vision",
-          "body": "Exah, under Brick's leadership, envisions a search engine that can deliver thousands or even tens of thousands of results, catering to the needs of AI agents that require exhaustive information for complex tasks."
-        }
-      ]
-    }
+    "last_episode_date": "2026-06-06"
   },
-  "prompt_hash": "ec337b5ef78cf6c8"
+  "prompt_hash": "94be8cd14c82bbcc"
 }

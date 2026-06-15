@@ -76,6 +76,67 @@
       line-height: 1.4;
       margin-bottom: 0.4rem;
     }
+    .editorial-note {
+      font-size: 0.92rem;
+      line-height: 1.55;
+      color: #cbd5f5;
+      background: rgba(15, 23, 42, 0.55);
+      border: 1px solid rgba(148, 163, 184, 0.25);
+      border-radius: 10px;
+      padding: 0.85rem 1rem;
+      margin-bottom: 0.85rem;
+    }
+    .editorial-note .lbl {
+      display: block;
+      font-size: 0.68rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #8892b0;
+      margin-bottom: 0.35rem;
+      font-weight: 700;
+    }
+    .bench-turn {
+      border: 1px solid rgba(148, 163, 184, 0.25);
+      border-radius: 10px;
+      padding: 0.75rem 0.85rem;
+      margin-bottom: 0.65rem;
+      background: rgba(15, 23, 42, 0.35);
+    }
+    .bench-turn.yes { border-color: rgba(34, 197, 94, 0.35); }
+    .bench-turn.no { border-color: rgba(248, 113, 113, 0.35); }
+    .bench-turn .meta {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+      margin-bottom: 0.4rem;
+      font-size: 0.72rem;
+      color: #8892b0;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .bench-turn .body {
+      font-size: 0.88rem;
+      line-height: 1.5;
+      color: #e2e8f0;
+      white-space: pre-wrap;
+    }
+    .listen-promo {
+      margin-bottom: 1rem;
+      padding: 0.85rem 1rem;
+      border-radius: 10px;
+      border: 1px solid rgba(100, 181, 246, 0.35);
+      background: rgba(15, 23, 42, 0.45);
+    }
+    .listen-promo audio {
+      width: 100%;
+      margin: 0.5rem 0 0.65rem;
+    }
+    .listen-links a {
+      color: #64b5f6;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .listen-links a:hover { text-decoration: underline; }
     .debate-meta {
       display: flex;
       flex-wrap: wrap;
@@ -315,6 +376,10 @@
     <div class="card" id="debate-hero">
       <div class="pill"><strong>This week’s contract</strong><span id="hero-date">—</span></div>
       <div id="week-label" style="color:#8892b0;font-size:0.85rem;margin-bottom:0.35rem;"></div>
+      <div class="editorial-note" id="editorial-note" style="display:none;">
+        <span class="lbl">Why we picked this</span>
+        <span id="editorial-note-text"></span>
+      </div>
       <div class="debate-question" id="debate-question">
         Loading debate topic…
       </div>
@@ -335,10 +400,30 @@
       </div>
     </div>
 
+    <div class="card" id="bench-press-card">
+      <h2>AI Bench Press — data centers debate</h2>
+      <p class="tagline" style="margin-bottom: 0.75rem;">
+        Our full AI-only debate: <strong>Ada (YES)</strong> vs <strong>Gil (NO)</strong> on whether AI data centers are bad for your community.
+        Judged blind by independent models — no humans on the panel.
+        <a href="#bench-press-listen" style="color:#64b5f6; font-weight:600; margin-left:0.35rem;">Listen ↓</a>
+      </p>
+      <div id="bench-press-meta" class="debate-meta" style="margin-bottom: 0.75rem;"></div>
+      <div id="bench-press-listen" class="listen-promo" style="display:none;">
+        <div style="font-size:0.68rem; letter-spacing:0.12em; text-transform:uppercase; color:#8892b0; font-weight:700;">Listen to the episode</div>
+        <audio id="bench-press-audio" controls preload="none">
+          <source id="bench-press-audio-src" src="" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <div class="listen-links tagline" id="bench-press-listen-links"></div>
+      </div>
+      <div id="bench-press-turns"></div>
+      <p class="tagline" style="margin-top: 0.75rem;" id="bench-press-footer-link">
+    </div>
+
     <div class="card" id="listen-card">
-      <h2>Listen now</h2>
+      <h2>Listen — weekly pundit episode</h2>
       <p class="tagline" style="margin-bottom: 0.6rem;">
-        A short daily ritual: cold open → 42-day contract → steel‑mans → concessions.
+        Short host + two pundit voices on this week’s contract (ElevenLabs). Regenerate after contract changes.
       </p>
       <div class="methodology" style="margin: 0.25rem 0 0.85rem;">
         <strong>Cast:</strong> <span style="color:#a8b2d1;">Host</span> introduces the contract and assigns sides ·
@@ -389,10 +474,68 @@
   </div>
 
   <script src="./js/common.js"></script>
-  <script src="./data/data.js?v=1781462060"></script>
+  <script src="./data/data.js?v=1781492573"></script>
   <script>
     (function() {
       const data = (typeof dashboardData !== 'undefined') ? dashboardData : null;
+
+      async function loadBenchPressDebate() {
+        try {
+          const resp = await fetch('./data/bench_press_debate.json?v=' + Date.now(), { cache: 'no-cache' });
+          if (!resp.ok) return null;
+          return await resp.json();
+        } catch (e) {
+          return null;
+        }
+      }
+
+      function renderBenchPress(debate) {
+        const esc = (s) => String(s || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        const metaEl = document.getElementById('bench-press-meta');
+        const turnsEl = document.getElementById('bench-press-turns');
+        const listenWrap = document.getElementById('bench-press-listen');
+        const listenLinks = document.getElementById('bench-press-listen-links');
+        const audioSrc = document.getElementById('bench-press-audio-src');
+        const audioEl = document.getElementById('bench-press-audio');
+        const footerLink = document.getElementById('bench-press-footer-link');
+        if (!debate || !turnsEl) return;
+        if (metaEl) {
+          const oddsOpen = debate.odds_open != null ? debate.odds_open : '—';
+          const oddsClose = debate.odds_close != null ? debate.odds_close : '—';
+          metaEl.innerHTML =
+            '<span class="pill">Topic: ' + esc(debate.topic || '') + '</span>' +
+            '<span class="pill">Market odds ' + esc(String(oddsOpen)) + '→' + esc(String(oddsClose)) + ' YES</span>';
+        }
+        const href = debate.audio_href ? String(debate.audio_href) : './audio/bench_press_match1.mp3';
+        const duration = debate.audio_duration ? String(debate.audio_duration) : '';
+        if (listenWrap && audioSrc && audioEl) {
+          audioSrc.src = href + '?v=' + encodeURIComponent(debate.topic || 'bench-press');
+          try { audioEl.load(); } catch (e) {}
+          listenWrap.style.display = 'block';
+          if (listenLinks) {
+            listenLinks.innerHTML =
+              '<a href="' + esc(href) + '" download="ai-bench-press-data-centers.mp3">Download episode' +
+              (duration ? ' · ' + esc(duration) : '') + '</a>';
+            if (debate.player_href) {
+              listenLinks.innerHTML += ' · <a href="' + esc(debate.player_href) + '">Full player (trade the debate) →</a>';
+            }
+          }
+        }
+        if (footerLink && debate.player_href) {
+          footerLink.innerHTML = '<a href="' + esc(debate.player_href) + '" style="color:#64b5f6;">Open the full Bench Press player →</a>';
+        }
+        const turns = Array.isArray(debate.turns) ? debate.turns : [];
+        turnsEl.innerHTML = turns.map(function(t) {
+          const role = (t.role || '').toLowerCase();
+          const cls = role === 'yes' ? 'yes' : (role === 'no' ? 'no' : '');
+          return (
+            '<div class="bench-turn ' + cls + '">' +
+            '<div class="meta"><span>' + esc(t.phase || 'Turn') + '</span><span>·</span><span>' + esc(t.speaker || '') + '</span></div>' +
+            '<div class="body">' + esc(t.text || '') + '</div>' +
+            '</div>'
+          );
+        }).join('');
+      }
 
       async function loadDebateContract() {
         try {
@@ -664,6 +807,19 @@
         const prompt = contract && contract.prompt ? String(contract.prompt).trim() : '';
         qEl.textContent = prompt || 'No contract yet. Run pipeline/debate_weekly.py on Friday (after export).';
 
+        const noteWrap = document.getElementById('editorial-note');
+        const noteText = document.getElementById('editorial-note-text');
+        const editorial = contract && contract.editorial_note ? String(contract.editorial_note).trim() : '';
+        if (noteWrap && noteText && editorial) {
+          noteText.textContent = editorial;
+          noteWrap.style.display = 'block';
+        } else if (noteWrap) {
+          noteWrap.style.display = 'none';
+        }
+
+        const benchPress = await loadBenchPressDebate();
+        renderBenchPress(benchPress);
+
         if (weekLabelEl) {
           weekLabelEl.textContent = contract && contract.week_label ? contract.week_label : '';
         }
@@ -692,7 +848,11 @@
             });
             if (mismatch.length) {
               warnEl.style.display = 'block';
-              warnEl.textContent = 'Warning: audio metadata does not match current listed debaters/week (' + mismatch.join(', ') + '). Please regenerate this week\'s debate audio.';
+              warnEl.textContent = 'Warning: weekly pundit audio does not match this contract (still the prior topic). Read the Bench Press debate above; run debate_weekly.py --audio-only to regenerate MP3.';
+              if (audioEl) audioEl.controls = false;
+            } else if (audioMeta.prompt_hash && contract.prompt_hash && audioMeta.prompt_hash !== contract.prompt_hash) {
+              warnEl.style.display = 'block';
+              warnEl.textContent = 'Warning: audio was generated for a different contract prompt. Read the Bench Press debate above or regenerate with debate_weekly.py --audio-only.';
               if (audioEl) audioEl.controls = false;
             } else if (audioEl) {
               audioEl.controls = true;
