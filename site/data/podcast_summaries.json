@@ -1,5 +1,21 @@
 [
   {
+    "id": 285,
+    "podcast_name": "The a16z Show",
+    "episode_title": "AI, Design, and the Power of Open Models",
+    "episode_date": "2026-06-15",
+    "summary": "In this episode, the discussion revolves around Ideogram's new open-weight image generation model, which boasts 9.3 billion parameters and offers high-quality, customizable outputs. The model's capabilities in text generation accuracy, editable design elements, and JSON prompting for precision are highlighted. The focus is on taste and aesthetics, with the potential for enterprise partnerships and future enhancements in editing and customization. The conversation underscores the model's practical applications in marketing, design, and storytelling.",
+    "key_takeaways": [
+      "Ideogram's open-weight model allows for customization, fostering collaboration with developers and enterprises.",
+      "The model's editable design capabilities are crucial for marketing and design professionals.",
+      "The model's text generation accuracy is a significant differentiator, enhancing graphic design and storytelling.",
+      "JSON prompting offers detailed control over image generation, ensuring consistency and quality.",
+      "Ideogram's focus on taste and aesthetics can differentiate it in the market and attract creative professionals."
+    ],
+    "investment_thesis": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
+    "key_tickers": null
+  },
+  {
     "id": 284,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Anthropic's Fable Backlash, Nationalizing AI, Inflation Heats Up & California's Broken Elections",
@@ -118,22 +134,6 @@
       "DFC's investment priorities include critical minerals, infrastructure, technology, and energy, with a focus on Latin America, Eastern Europe, and Africa."
     ],
     "investment_thesis": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
-    "key_tickers": null
-  },
-  {
-    "id": 277,
-    "podcast_name": "The a16z Show",
-    "episode_title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
-    "episode_date": "2026-06-10",
-    "summary": "This episode of 'The a16z Show' explores the transformative potential of AI in healthcare and the future of work. It discusses how AI can reduce administrative costs in healthcare, the importance of curiosity in the AI-driven economy, the evolving role of customer support, and the shift towards flatter organizational structures. The podcast emphasizes the need for organizations to experiment with AI, integrate it into daily workflows, and establish clear guardrails to foster innovation while managing costs.",
-    "key_takeaways": [
-      "AI can significantly reduce administrative costs in healthcare, making it more accessible and affordable.",
-      "Curiosity and a willingness to experiment with AI tools will be key traits of successful employees in the AI-driven economy.",
-      "Customer support roles are evolving to become more integrated with sales and operations, enhancing overall member experience.",
-      "Organizations should embrace a culture of experimentation with AI, accepting initial costs for long-term benefits.",
-      "The future of work will involve a shift from hierarchical management to flatter structures, emphasizing individual contributions and collaboration."
-    ],
-    "investment_thesis": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "key_tickers": null
   }
 ]

@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 300,
+      "title": "AI, Design, and the Power of Open Models",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-15",
+      "summary": "In this episode, the discussion revolves around Ideogram's new open-weight image generation model, which boasts 9.3 billion parameters and offers high-quality, customizable outputs. The model's capabilities in text generation accuracy, editable design elements, and JSON prompting for precision are highlighted. The focus is on taste and aesthetics, with the potential for enterprise partnerships and future enhancements in editing and customization. The conversation underscores the model's practical applications in marketing, design, and storytelling.",
+      "key_takeaway": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 285
+    },
+    {
       "id": 299,
       "title": "Anthropic's Fable Backlash, Nationalizing AI, Inflation Heats Up & California's Broken Elections",
       "source_type": "podcast",
@@ -129,7 +148,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-10",
       "archived_date": null,
@@ -5647,6 +5666,42 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 250,
+      "term": "Open-Weight Model",
+      "description": "An image generation model that allows users to customize and optimize it for various applications, fostering collaboration with developers and enterprises.",
+      "first_detected_date": "2026-06-15",
+      "last_mentioned_date": "2026-06-15",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should evaluate the potential for market share capture by companies offering customizable AI solutions.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 285,
+      "first_detected_speaker": "Muhammad Naruzi",
+      "last_mentioned_episode_id": 285,
+      "last_mentioned_speaker": "Muhammad Naruzi"
+    },
+    {
+      "id": 251,
+      "term": "JSON Prompting",
+      "description": "A method of providing detailed control over image generation, allowing for specific adjustments in design elements, enhancing consistency and quality.",
+      "first_detected_date": "2026-06-15",
+      "last_mentioned_date": "2026-06-15",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the benefits of precise image generation for professional applications in branding and marketing.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 285,
+      "first_detected_speaker": "Muhammad Naruzi",
+      "last_mentioned_episode_id": 285,
+      "last_mentioned_speaker": "Muhammad Naruzi"
+    },
     {
       "id": 248,
       "term": "Replacement Cost Advantage",

@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-15T12:05:09.243441",
-  chartsVersion: "2026-06-15T12:04:56.942520",
+  generatedAt: "2026-06-15T13:38:09.744901",
+  chartsVersion: "2026-06-15T13:37:56.234756",
   priceSnapshot: {
   "GOOGL": {
-    "price": 371.4,
-    "change_pct": -4.42,
+    "price": 371.63,
+    "change_pct": -4.37,
     "name": "GOOGL",
-    "updated_at": "2026-06-15T12:04:56.941270"
+    "updated_at": "2026-06-15T13:37:56.234260"
   },
   "BTC": {
-    "price": 66830.14,
-    "change_pct": 0.19,
+    "price": 66801.55,
+    "change_pct": 0.15,
     "name": "BTC",
-    "updated_at": "2026-06-15T12:04:56.941291"
+    "updated_at": "2026-06-15T13:37:56.234271"
   },
   "MSFT": {
-    "price": 399.64,
-    "change_pct": -3.16,
+    "price": 398.59,
+    "change_pct": -3.41,
     "name": "MSFT",
-    "updated_at": "2026-06-15T12:04:56.941301"
+    "updated_at": "2026-06-15T13:37:56.234275"
   },
   "NVDA": {
-    "price": 212.34,
-    "change_pct": -0.01,
+    "price": 212.03,
+    "change_pct": -0.15,
     "name": "NVDA",
-    "updated_at": "2026-06-15T12:04:56.941307"
+    "updated_at": "2026-06-15T13:37:56.234279"
   },
   "WTI": {
-    "price": 3.47,
-    "change_pct": -6.33,
+    "price": 3.45,
+    "change_pct": -7.01,
     "name": "WTI",
-    "updated_at": "2026-06-15T12:04:56.941312"
+    "updated_at": "2026-06-15T13:37:56.234282"
   },
   "META": {
-    "price": 596.98,
-    "change_pct": -6.03,
+    "price": 594.6,
+    "change_pct": -6.4,
     "name": "META",
-    "updated_at": "2026-06-15T12:04:56.941318"
+    "updated_at": "2026-06-15T13:37:56.234286"
   },
   "AMZN": {
-    "price": 246.29,
-    "change_pct": -9.4,
+    "price": 246.34,
+    "change_pct": -9.39,
     "name": "AMZN",
-    "updated_at": "2026-06-15T12:04:56.941324"
+    "updated_at": "2026-06-15T13:37:56.234290"
   },
   "S&P 500": {
-    "price": 755.79,
-    "change_pct": 0.71,
+    "price": 755.07,
+    "change_pct": 0.61,
     "name": "S&P 500",
-    "updated_at": "2026-06-15T12:04:56.941341"
+    "updated_at": "2026-06-15T13:37:56.234293"
   },
   "TSLA": {
-    "price": 409.81,
-    "change_pct": -6.94,
+    "price": 410.4,
+    "change_pct": -6.8,
     "name": "TSLA",
-    "updated_at": "2026-06-15T12:04:56.941349"
+    "updated_at": "2026-06-15T13:37:56.234296"
   },
   "AAPL": {
-    "price": 296.62,
-    "change_pct": -4.58,
+    "price": 295.53,
+    "change_pct": -4.93,
     "name": "AAPL",
-    "updated_at": "2026-06-15T12:04:56.941357"
+    "updated_at": "2026-06-15T13:37:56.234300"
   },
   "QQQ": {
-    "price": 743.74,
+    "price": 743.76,
     "change_pct": 1.96,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-15T12:04:56.941365"
+    "updated_at": "2026-06-15T13:37:56.234303"
   },
   "BTC-USD": {
-    "price": 66823.16,
-    "change_pct": 0.18,
+    "price": 66801.55,
+    "change_pct": 0.15,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-15T12:04:56.941376"
+    "updated_at": "2026-06-15T13:37:56.234307"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 300,
+      "title": "AI, Design, and the Power of Open Models",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-15",
+      "summary": "In this episode, the discussion revolves around Ideogram's new open-weight image generation model, which boasts 9.3 billion parameters and offers high-quality, customizable outputs. The model's capabilities in text generation accuracy, editable design elements, and JSON prompting for precision are highlighted. The focus is on taste and aesthetics, with the potential for enterprise partnerships and future enhancements in editing and customization. The conversation underscores the model's practical applications in marketing, design, and storytelling.",
+      "key_takeaway": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 285
+    },
+    {
       "id": 299,
       "title": "Anthropic's Fable Backlash, Nationalizing AI, Inflation Heats Up & California's Broken Elections",
       "source_type": "podcast",
@@ -962,7 +981,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-10",
       "archived_date": null,
@@ -6481,6 +6500,42 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 250,
+      "term": "Open-Weight Model",
+      "description": "An image generation model that allows users to customize and optimize it for various applications, fostering collaboration with developers and enterprises.",
+      "first_detected_date": "2026-06-15",
+      "last_mentioned_date": "2026-06-15",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should evaluate the potential for market share capture by companies offering customizable AI solutions.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 285,
+      "first_detected_speaker": "Muhammad Naruzi",
+      "last_mentioned_episode_id": 285,
+      "last_mentioned_speaker": "Muhammad Naruzi"
+    },
+    {
+      "id": 251,
+      "term": "JSON Prompting",
+      "description": "A method of providing detailed control over image generation, allowing for specific adjustments in design elements, enhancing consistency and quality.",
+      "first_detected_date": "2026-06-15",
+      "last_mentioned_date": "2026-06-15",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the benefits of precise image generation for professional applications in branding and marketing.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 285,
+      "first_detected_speaker": "Muhammad Naruzi",
+      "last_mentioned_episode_id": 285,
+      "last_mentioned_speaker": "Muhammad Naruzi"
+    },
+    {
       "id": 248,
       "term": "Replacement Cost Advantage",
       "description": "A situation where a company's market value is significantly lower than the cost it would take to replace its assets or operations.",
@@ -9371,6 +9426,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 300,
+      "title": "AI, Design, and the Power of Open Models",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-15",
+      "summary": "In this episode, the discussion revolves around Ideogram's new open-weight image generation model, which boasts 9.3 billion parameters and offers high-quality, customizable outputs. The model's capabilities in text generation accuracy, editable design elements, and JSON prompting for precision are highlighted. The focus is on taste and aesthetics, with the potential for enterprise partnerships and future enhancements in editing and customization. The conversation underscores the model's practical applications in marketing, design, and storytelling.",
+      "key_takeaway": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 285,
+      "episode_release_date": "2026-06-15",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 299,
       "title": "Anthropic's Fable Backlash, Nationalizing AI, Inflation Heats Up & California's Broken Elections",
       "source_type": "podcast",
@@ -9478,26 +9553,6 @@ const dashboardData = {
         "GOOGL",
         "SPCE"
       ]
-    },
-    {
-      "id": 292,
-      "title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-06-10",
-      "summary": "This episode of 'The a16z Show' explores the transformative potential of AI in healthcare and the future of work. It discusses how AI can reduce administrative costs in healthcare, the importance of curiosity in the AI-driven economy, the evolving role of customer support, and the shift towards flatter organizational structures. The podcast emphasizes the need for organizations to experiment with AI, integrate it into daily workflows, and establish clear guardrails to foster innovation while managing costs.",
-      "key_takeaway": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-10",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 277,
-      "episode_release_date": "2026-06-10",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 293,
@@ -9663,6 +9718,58 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 250,
+      "term": "Open-Weight Model",
+      "description": "An image generation model that allows users to customize and optimize it for various applications, fostering collaboration with developers and enterprises.",
+      "first_detected_date": "2026-06-15",
+      "last_mentioned_date": "2026-06-15",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should evaluate the potential for market share capture by companies offering customizable AI solutions.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 285,
+      "first_detected_speaker": "Muhammad Naruzi",
+      "last_mentioned_episode_id": 285,
+      "last_mentioned_speaker": "Muhammad Naruzi",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "AI, Design, and the Power of Open Models",
+      "first_detected_episode_date": "2026-06-15",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "AI, Design, and the Power of Open Models",
+      "last_mentioned_episode_date": "2026-06-15"
+    },
+    {
+      "id": 251,
+      "term": "JSON Prompting",
+      "description": "A method of providing detailed control over image generation, allowing for specific adjustments in design elements, enhancing consistency and quality.",
+      "first_detected_date": "2026-06-15",
+      "last_mentioned_date": "2026-06-15",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the benefits of precise image generation for professional applications in branding and marketing.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 285,
+      "first_detected_speaker": "Muhammad Naruzi",
+      "last_mentioned_episode_id": 285,
+      "last_mentioned_speaker": "Muhammad Naruzi",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "AI, Design, and the Power of Open Models",
+      "first_detected_episode_date": "2026-06-15",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "AI, Design, and the Power of Open Models",
+      "last_mentioned_episode_date": "2026-06-15"
+    },
     {
       "id": 248,
       "term": "Replacement Cost Advantage",
@@ -9948,58 +10055,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
       "last_mentioned_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
       "last_mentioned_episode_date": "2026-05-21"
-    },
-    {
-      "id": 24,
-      "term": "Risk Off Playbook",
-      "description": "A set of investment strategies employed by investors to mitigate risk during times of market uncertainty or perceived danger.",
-      "first_detected_date": "2026-04-15",
-      "last_mentioned_date": "2026-04-15",
-      "mention_count": 2,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "During geopolitical tensions, investors may shift to safer assets or hedge positions to protect against potential market downturns.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.49,
-      "resonance_pct": 12,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 25,
-      "term": "Stagflation",
-      "description": "A situation in which the economy experiences stagnant growth, high inflation, and high unemployment.",
-      "first_detected_date": "2026-04-15",
-      "last_mentioned_date": "2026-04-15",
-      "mention_count": 2,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should be aware of the potential for stagflation and its impact on asset classes, possibly seeking hedges like Bitcoin.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.49,
-      "resonance_pct": 12,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
     }
   ]
 },
@@ -27853,12 +27908,66 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-13",
     "key_tickers": []
+  },
+  "300": {
+    "id": 290,
+    "insight_id": 300,
+    "podcast_episode_id": 285,
+    "overview": "The competitive dynamic in AI-driven design and marketing is contested by Ideogram's new open-weight model, which promises high-quality, customizable outputs with fewer parameters than competitors. This model's focus on editable design elements, text generation accuracy, and JSON prompting for precision represents a shift towards more user-centric AI solutions. The unresolved tension lies in whether Ideogram can successfully capture market share by offering these customizable AI solutions, which could disrupt traditional design and marketing workflows. What converts belief in Ideogram's potential is the model's ability to meet the specific needs of creative professionals and enterprises, offering a more efficient and effective alternative to existing solutions.",
+    "key_takeaways_detailed": [
+      "Investors should monitor Ideogram's partnerships with enterprises, as these collaborations could accelerate the model's adoption and provide valuable feedback for further development.",
+      "Creative agencies and marketing firms should assess how Ideogram's model can integrate into their existing workflows, potentially streamlining processes and enhancing the quality of visual content.",
+      "Enterprises should consider the long-term value of customizing AI solutions for design, as this could lead to more consistent brand messaging and improved customer engagement.",
+      "Investors should evaluate the potential for Ideogram's model to disrupt traditional design software providers, as the ease of use and customization could shift market dynamics.",
+      "The development of editing capabilities and further customization options could significantly expand the model's applicability, making it a more versatile tool for a wider range of professionals."
+    ],
+    "investment_thesis": "Ideogram's investment thesis is centered on the ability of its open-weight model to disrupt the design and marketing industry by offering high-quality, customizable AI solutions. The model's efficiency, with fewer parameters than competitors, and its focus on editable design elements, text generation accuracy, and JSON prompting, position it to capture market share from traditional design software providers. The timeframe for this thesis is within the next 2-3 years, with the observable development of successful enterprise partnerships and the model's integration into professional workflows as key indicators of its potential to vindicate or invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI and its focus on design and user experience make it relevant to Ideogram's thesis. Apple could leverage Ideogram's model to enhance its product design and marketing efforts.",
+        "positioning": "A strategic long position in AAPL could be considered, as the company's adoption of advanced AI solutions like Ideogram's model could drive innovation and growth.",
+        "risk": "Key risks include Apple's potential to develop its own in-house solutions, reducing the need for third-party AI models, and the possibility that Ideogram's model may not align with Apple's strict privacy and security standards."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The model may not achieve the expected level of customization and quality, leading to slow adoption by creative professionals and enterprises.",
+      "Competitors may release similar models with more advanced features or lower costs, undermining Ideogram's competitive advantage.",
+      "There could be a lack of interest from enterprises due to concerns over data privacy and the integration complexity of AI models into existing systems.",
+      "The model's performance may not meet the high standards of professional designers, leading to limited adoption in the creative industry."
+    ],
+    "catalysts": [
+      "The announcement of partnerships with major enterprises or creative agencies would be a significant catalyst for Ideogram's model.",
+      "The release of new features, such as enhanced editing capabilities, could accelerate the model's adoption and validate its potential.",
+      "Positive user reviews and case studies showcasing the model's effectiveness in professional settings would serve as strong catalysts.",
+      "The model's performance at industry design and marketing events or competitions could provide a clear indication of its market potential.",
+      "Regulatory developments around AI usage in design and marketing could either hinder or boost the adoption of Ideogram's model, depending on the outcome."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-15T13:37:23.093437",
+    "updated_at": "2026-06-15 18:37:23",
+    "episode_evidence": "Ideogram's new open-weight image generation model is a significant development in the AI space, with 9.3 billion parameters that are smaller than competitors yet deliver high-quality outputs. 'By releasing the weights, you're actually extending ourselves and working with inference providers,' Muhammad Naruzi explained, highlighting the model's collaborative potential. The model's editable design elements are a game-changer, allowing for dynamic layouts and modifications, which Naruzi emphasized as essential for marketing and design applications: 'For a lot of design and marketing use cases, we need editable design, not a single flat image.' The model's text generation accuracy is another standout feature, with the ability to render long, coherent text, which Naruzi identified as crucial for graphic design and storytelling. 'Text generation is very, very accurate... that's the whole graphic design and storytelling industry,' he stated. JSON prompting is also a key aspect of the model, enabling detailed control over image generation for precise adjustments and consistent outputs, as Naruzi described: 'With JSON prompting, you can take it and change one element in the scene... results in very, very consistent output.'",
+    "falsification_tracks": [
+      "If the model fails to deliver on its promise of high-quality outputs with fewer parameters compared to competitors, it would undermine Ideogram's competitive advantage.",
+      "Should the model's editable design elements not meet the flexibility required by professional designers, it could reduce its market appeal.",
+      "A failure in the model's text generation accuracy would significantly impact its utility in graphic design and storytelling, reducing its value proposition.",
+      "If JSON prompting does not provide the level of precision and consistency needed for professional use, it could limit the model's adoption in enterprise settings.",
+      "Poor performance in taste and aesthetic quality could alienate creative professionals, who are a key target market for Ideogram."
+    ],
+    "insight_title": "AI, Design, and the Power of Open Models",
+    "source_name": "The a16z Show",
+    "source_date": "2026-06-15",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 16509,
+    "id": 16582,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -27870,7 +27979,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16510,
+    "id": 16583,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -27882,7 +27991,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16511,
+    "id": 16584,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -27894,7 +28003,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16512,
+    "id": 16585,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -27906,7 +28015,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16513,
+    "id": 16586,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -27918,7 +28027,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16514,
+    "id": 16587,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -27930,7 +28039,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16515,
+    "id": 16588,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -27942,7 +28051,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16516,
+    "id": 16589,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -27954,7 +28063,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16517,
+    "id": 16590,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -27966,7 +28075,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16518,
+    "id": 16591,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -27978,7 +28087,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16519,
+    "id": 16592,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -27990,7 +28099,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16520,
+    "id": 16593,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -28002,7 +28111,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16521,
+    "id": 16594,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -28014,7 +28123,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16522,
+    "id": 16595,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -28026,7 +28135,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16523,
+    "id": 16596,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -28038,7 +28147,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16524,
+    "id": 16597,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -28050,7 +28159,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16525,
+    "id": 16598,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -28062,7 +28171,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16526,
+    "id": 16599,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -28074,7 +28183,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16527,
+    "id": 16600,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -28086,7 +28195,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16528,
+    "id": 16601,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -28305,7 +28414,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 1.59,
+    "mention_score_decayed": 1.55,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -28443,7 +28552,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.41,
+    "mention_score_decayed": 1.38,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -28631,7 +28740,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -29237,6 +29346,65 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 288,
+    "name": "Muhammad Naruzi",
+    "slug": "muhammad-naruzi",
+    "bio": "Muhammad Naruzi is a key figure at Ideogram, contributing to the development of their open-weight image generation model. He has been instrumental in enhancing the capabilities and applications of Ideogram's AI model, focusing on providing users with more control over image creation and customization.",
+    "known_for": "His work on Ideogram's open-source AI model that offers high-quality image generation with fewer parameters than industry standards.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and informative",
+    "voice_style": "Factual and explanatory",
+    "voice_delivery_notes": "Clear and concise with an emphasis on the model's features and benefits",
+    "voice_profile_updated_at": "2026-06-15 18:36:25",
+    "last_seen": "2026-06-15 18:36:25",
+    "last_episode_title": "AI, Design, and the Power of Open Models",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-15",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-15 \u2022 AI, Design, and the Power of Open Models",
+    "last_proof_snippet": "It's not about how good a model is in the general sense. It's about how good is this model for my use case, for a lot of design and marketing use case says they need editable design, not a single flat image. It's super impressive, honestly,",
+    "supporting_takeaway": "The model's editable design capabilities are crucial for marketing and design professionals.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-15T13:36:55.128286",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Muhammad Naruzi",
+      "fetched_at": "2026-06-15T18:36:55.128187+00:00",
+      "cliff_notes": "Muhammad Naruzi has made significant contributions to the field of AI, particularly in the realm of image generation. As a key figure at Ideogram, he has been at the forefront of developing their open-weight image generation model, which stands out for its efficiency and effectiveness. Naruzi's work has been pivotal in advancing the capabilities of AI models, allowing for greater user control and customization in image creation. His insights into the importance of tailoring AI models to specific use cases, such as design and marketing, have been influential in shaping the direction of AI technology. Naruzi's focus on making AI models more accessible and customizable has the potential to revolutionize professional creative processes, from typography and layouts to editing and workflows.",
+      "derived": {
+        "current_role": "Key Figure at Ideogram"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Muhammad Naruzi has made significant contributions to the field of AI, particularly in the realm of image generation. As a key figure at Ideogram, he has been at the forefront of developing their open-weight image generation model, which stands out for its efficiency and effectiveness. Naruzi's work has been pivotal in advancing the capabilities of AI models, allowing for greater user control and customization in image creation.",
+        "His insights into the importance of tailoring AI models to specific use cases, such as design and marketing, have been influential in shaping the direction of AI technology. Naruzi's focus on making AI models more accessible and customizable has the potential to revolutionize professional creative processes, from typography and layouts to editing and workflows."
+      ],
+      "sections": [
+        {
+          "heading": "AI Model Development",
+          "body": "Muhammad Naruzi has been instrumental in the development of Ideogram's AI model, focusing on improving image generation capabilities and providing users with more control over the creative process."
+        },
+        {
+          "heading": "Open-Source AI",
+          "body": "Naruzi's work on Ideogram's open-source AI model has been recognized for its efficiency, achieving high-quality image generation with fewer parameters than industry standards."
+        },
+        {
+          "heading": "Customization and Control",
+          "body": "Naruzi emphasizes the importance of giving users more control over what gets created and how, including everything from typography and layouts to editing, customization, and workflows that fit into professional creative processes."
+        }
+      ]
+    }
+  },
+  {
     "id": 287,
     "name": "Brian Armstrong",
     "slug": "brian-armstrong",
@@ -29379,7 +29547,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -29446,7 +29614,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -29573,7 +29741,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -29637,7 +29805,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -29891,7 +30059,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -29978,7 +30146,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -30103,7 +30271,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -30666,7 +30834,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -30976,7 +31144,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -31040,7 +31208,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -31103,7 +31271,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -32165,7 +32333,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -32228,7 +32396,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -32416,7 +32584,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -38177,7 +38345,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -38204,7 +38372,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",
