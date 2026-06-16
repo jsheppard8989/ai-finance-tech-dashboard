@@ -408,13 +408,15 @@
         <a href="#bench-press-listen" style="color:#64b5f6; font-weight:600; margin-left:0.35rem;">Listen ↓</a>
       </p>
       <div id="bench-press-meta" class="debate-meta" style="margin-bottom: 0.75rem;"></div>
-      <div id="bench-press-listen" class="listen-promo" style="display:none;">
+      <div id="bench-press-listen" class="listen-promo" style="display:block;">
         <div style="font-size:0.68rem; letter-spacing:0.12em; text-transform:uppercase; color:#8892b0; font-weight:700;">Listen to the episode</div>
-        <audio id="bench-press-audio" controls preload="none">
-          <source id="bench-press-audio-src" src="" type="audio/mpeg">
+        <audio id="bench-press-audio" controls preload="metadata">
+          <source id="bench-press-audio-src" src="./audio/bench_press_match1.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <div class="listen-links tagline" id="bench-press-listen-links"></div>
+        <div class="listen-links tagline" id="bench-press-listen-links">
+          <a href="./audio/bench_press_match1.mp3" download="ai-bench-press-data-centers.mp3">Download episode</a>
+        </div>
       </div>
       <div id="bench-press-turns"></div>
       <p class="tagline" style="margin-top: 0.75rem;" id="bench-press-footer-link">
@@ -474,19 +476,26 @@
   </div>
 
   <script src="./js/common.js"></script>
-  <script src="./data/data.js?v=1781548689"></script>
+  <script src="./data/data.js?v=1781578986"></script>
   <script>
     (function() {
       const data = (typeof dashboardData !== 'undefined') ? dashboardData : null;
 
       async function loadBenchPressDebate() {
-        try {
-          const resp = await fetch('./data/bench_press_debate.json?v=' + Date.now(), { cache: 'no-cache' });
-          if (!resp.ok) return null;
-          return await resp.json();
-        } catch (e) {
-          return null;
+        const paths = ['./audio/bench_press_debate.json', './data/bench_press_debate.json'];
+        for (let i = 0; i < paths.length; i++) {
+          try {
+            const resp = await fetch(paths[i] + '?v=' + Date.now(), { cache: 'no-cache' });
+            if (resp.ok) return await resp.json();
+          } catch (e) { /* try next path */ }
         }
+        return {
+          topic: 'AI data centers are bad for your community.',
+          audio_href: './audio/bench_press_match1.mp3',
+          odds_open: 50,
+          odds_close: 61,
+          turns: []
+        };
       }
 
       function renderBenchPress(debate) {

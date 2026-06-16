@@ -1667,6 +1667,52 @@
     .site-nav a:hover {
       text-decoration: underline;
     }
+
+    .home-debate-listen {
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid rgba(0, 212, 255, 0.25);
+      border-left: 4px solid #7b2cbf;
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .home-debate-listen h2 {
+      font-size: 1.35rem;
+      margin-bottom: 0.35rem;
+      color: #e8e8e8;
+    }
+    .home-debate-listen .debate-tagline {
+      color: #8892b0;
+      font-size: 0.92rem;
+      margin-bottom: 1rem;
+      max-width: 900px;
+    }
+    .home-debate-player {
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 8px;
+      padding: 0.85rem 1rem;
+      margin-bottom: 0.75rem;
+      background: rgba(255,255,255,0.03);
+    }
+    .home-debate-player h3 {
+      font-size: 1rem;
+      margin-bottom: 0.35rem;
+      color: #00d4ff;
+    }
+    .home-debate-player p {
+      font-size: 0.85rem;
+      color: #a8b2d1;
+      margin-bottom: 0.5rem;
+    }
+    .home-debate-player audio {
+      width: 100%;
+      margin-top: 0.35rem;
+    }
+    .home-debate-status {
+      font-size: 0.82rem;
+      color: #ffb74d;
+      margin-top: 0.35rem;
+    }
   </style>
 </head>
 <body>
@@ -1696,6 +1742,35 @@
         </span>
       </div>
     </header>
+
+    <section class="home-debate-listen" id="home-debate-listen" aria-label="Listen to debates">
+      <h2>Listen — The Long and Short of It</h2>
+      <p class="debate-tagline">
+        Report the truth, discuss the New$. Real debates on second-order stories — not cable recap.
+        <a href="debait.html" style="color:#00d4ff;">Full debate page →</a>
+      </p>
+
+      <div class="home-debate-player" id="home-bench-press">
+        <h3>AI Bench Press — data centers &amp; your community</h3>
+        <p id="home-bench-meta">Ada vs Gil · AI data centers are bad for your community.</p>
+        <audio id="home-bench-audio" controls preload="metadata">
+          <source id="home-bench-src" src="./audio/bench_press_match1.mp3" type="audio/mpeg">
+        </audio>
+        <p style="font-size:0.85rem;color:#8892b0;margin-top:0.5rem;">
+          <a href="./audio/bench_press_match1.mp3" download="ai-bench-press-data-centers.mp3" style="color:#00d4ff;">Download</a>
+          · <a href="debait.html#bench-press-listen" style="color:#00d4ff;">Full transcript</a>
+        </p>
+      </div>
+
+      <div class="home-debate-player" id="home-weekly-debate" style="opacity:0.75;">
+        <h3>Weekly contract debate (optional)</h3>
+        <p id="home-weekly-prompt">Uses existing saved audio when contract hash matches — no new ElevenLabs generation.</p>
+        <audio id="home-weekly-audio" controls preload="metadata">
+          <source id="home-weekly-src" src="./audio/emp_ai_the_debate_11labs.mp3" type="audio/mpeg">
+        </audio>
+        <div class="home-debate-status" id="home-weekly-status" style="display:none;"></div>
+      </div>
+    </section>
 
     <div class="grid">
       <!-- Left Column - The Overton Window (definitions + emerging concepts) -->
@@ -1877,7 +1952,7 @@
   </div>
 
   <!-- Load dashboard data from pipeline (if available) -->
-  <script src="./data/data.js?v=1781548689"></script>
+  <script src="./data/data.js?v=1781578986"></script>
   <script src="./js/common.js"></script>
   
   <script>
@@ -3288,6 +3363,69 @@
         statusDiv.style.display = 'none';
       }, 10000);
     }
+  </script>
+  <script>
+    (function loadHomeDebatePlayers() {
+      async function loadBenchPress() {
+        const meta = document.getElementById('home-bench-meta');
+        const paths = ['./audio/bench_press_debate.json', './data/bench_press_debate.json'];
+        for (let i = 0; i < paths.length; i++) {
+          try {
+            const resp = await fetch(paths[i] + '?v=' + Date.now(), { cache: 'no-cache' });
+            if (!resp.ok) continue;
+            const debate = await resp.json();
+            if (meta) {
+              meta.textContent = (debate.topic || 'Ada vs Gil — data centers & your community');
+            }
+            return;
+          } catch (e) { /* static player already works */ }
+        }
+      }
+
+      async function loadWeeklyDebate() {
+        const promptEl = document.getElementById('home-weekly-prompt');
+        const statusEl = document.getElementById('home-weekly-status');
+        const audio = document.getElementById('home-weekly-audio');
+        try {
+          const [contractResp, metaResp] = await Promise.all([
+            fetch('./audio/debate_contract.json?v=' + Date.now(), { cache: 'no-cache' }),
+            fetch('./audio/debate_audio_meta.json?v=' + Date.now(), { cache: 'no-cache' })
+          ]);
+          if (!contractResp.ok) throw new Error('missing contract');
+          const contract = await contractResp.json();
+          const meta = metaResp.ok ? await metaResp.json() : {};
+          if (promptEl) {
+            promptEl.textContent = contract.prompt || 'Weekly Yes/No contract debate';
+          }
+          const ch = String(contract.prompt_hash || '').toLowerCase();
+          const ah = String(meta.prompt_hash || '').toLowerCase();
+          if (ch && ah && ch !== ah) {
+            if (statusEl) {
+              statusEl.style.display = 'block';
+              statusEl.textContent =
+                'Weekly audio is out of sync with the contract (hash mismatch). Bench Press above still plays. Regenerate via debate_weekly.py --audio-only.';
+            }
+            if (audio) audio.controls = false;
+            return;
+          }
+          const href = contract.audio_href || './audio/emp_ai_the_debate_11labs.mp3';
+          const src = document.getElementById('home-weekly-src');
+          if (src && audio) {
+            src.src = href + '?v=' + Date.now();
+            audio.load();
+          }
+        } catch (e) {
+          if (promptEl) promptEl.textContent = 'Weekly debate not loaded yet.';
+          if (statusEl) {
+            statusEl.style.display = 'block';
+            statusEl.textContent = 'Run the Friday debate pipeline or open debait.html.';
+          }
+        }
+      }
+
+      loadBenchPress();
+      loadWeeklyDebate();
+    })();
   </script>
 </body>
 </html>
