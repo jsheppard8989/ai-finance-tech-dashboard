@@ -1,5 +1,24 @@
 [
   {
+    "id": 288,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Jack Altman on Product-Market Fit",
+    "episode_date": "2026-06-16",
+    "summary": "The podcast discusses the delicate balance founders must maintain between customer feedback and their long-term vision. It emphasizes the importance of quickly identifying product-market fit and the role of sales conversations in refining product offerings. The episode also highlights the significance of hiring the right early employees, building strong co-founder relationships, meeting rising product quality standards, focusing on growth narratives for investors, and managing time proactively.",
+    "key_takeaways": [
+      "Founders should discern which customer requests align with their product's core mission.",
+      "Product-market fit should be identified quickly to save resources and guide product development.",
+      "Sales conversations are vital for understanding customer needs and refining products.",
+      "Early hires should be creative and entrepreneurial rather than traditional salespeople.",
+      "Strong co-founder relationships built on trust and open communication are essential.",
+      "Startups must deliver polished products early on to meet increased quality standards.",
+      "Investors focus on the growth story and momentum, especially in sectors like AI.",
+      "Founders should prioritize proactive work over reactive tasks to maximize productivity."
+    ],
+    "investment_thesis": "Invest in startups that balance customer feedback with a clear vision, demonstrate rapid product-market fit, and have a compelling growth narrative.",
+    "key_tickers": null
+  },
+  {
     "id": 287,
     "podcast_name": "The Jack Mallers Show",
     "episode_title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
@@ -119,21 +138,5 @@
       "GOOGL",
       "SPCE"
     ]
-  },
-  {
-    "id": 280,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Designing the Physical World with AI",
-    "episode_date": "2026-06-11",
-    "summary": "The podcast discusses the transformative impact of AI on the construction and manufacturing industries. Key themes include the full automation of construction within a decade, the imminent automation of circuit board design and manufacturing, and the need for a cultural shift towards valuing physical product creation. The episode emphasizes the importance of capturing tacit knowledge in manufacturing and the benefits of vertical integration for technological adoption.",
-    "key_takeaways": [
-      "Invest in AI-driven construction and manufacturing technologies as they are poised for significant growth.",
-      "Support initiatives promoting hardware education to foster innovation among young engineers.",
-      "Evaluate companies streamlining workflows and aligning incentives in construction for better technology adoption.",
-      "Encourage training programs to capture and share the tacit knowledge of skilled labor for improved efficiency.",
-      "Look for opportunities in vertical integration strategies within manufacturing and construction firms to drive innovation."
-    ],
-    "investment_thesis": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
-    "key_tickers": null
   }
 ]

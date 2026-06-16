@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-16T06:39:18.558777",
-  chartsVersion: "2026-06-16T06:39:01.203854",
+  generatedAt: "2026-06-16T12:07:01.904838",
+  chartsVersion: "2026-06-16T12:06:54.420915",
   priceSnapshot: {
   "GOOGL": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 370.27,
+    "change_pct": -5.03,
     "name": "GOOGL",
-    "updated_at": "2026-06-16T06:39:01.202385"
+    "updated_at": "2026-06-16T12:06:54.420051"
   },
   "BTC": {
-    "price": 66342.1,
-    "change_pct": 3.64,
+    "price": 65682.92,
+    "change_pct": 2.61,
     "name": "BTC",
-    "updated_at": "2026-06-16T06:39:01.202413"
+    "updated_at": "2026-06-16T12:06:54.420067"
   },
   "MSFT": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 391.88,
+    "change_pct": -8.22,
     "name": "MSFT",
-    "updated_at": "2026-06-16T06:39:01.202424"
+    "updated_at": "2026-06-16T12:06:54.420075"
   },
   "NVDA": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 208.96,
+    "change_pct": -2.36,
     "name": "NVDA",
-    "updated_at": "2026-06-16T06:39:01.202431"
+    "updated_at": "2026-06-16T12:06:54.420081"
   },
   "WTI": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 3.2,
+    "change_pct": -13.98,
     "name": "WTI",
-    "updated_at": "2026-06-16T06:39:01.202439"
+    "updated_at": "2026-06-16T12:06:54.420086"
   },
   "META": {
-    "price": 593.48,
-    "change_pct": -6.49,
+    "price": 597.3,
+    "change_pct": -5.89,
     "name": "META",
-    "updated_at": "2026-06-16T06:39:01.202450"
+    "updated_at": "2026-06-16T12:06:54.420092"
   },
   "AMZN": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 246.3,
+    "change_pct": -10.11,
     "name": "AMZN",
-    "updated_at": "2026-06-16T06:39:01.202458"
+    "updated_at": "2026-06-16T12:06:54.420098"
   },
   "S&P 500": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 752.38,
+    "change_pct": -0.29,
     "name": "S&P 500",
-    "updated_at": "2026-06-16T06:39:01.202466"
+    "updated_at": "2026-06-16T12:06:54.420103"
   },
   "TSLA": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 404.55,
+    "change_pct": -8.49,
     "name": "TSLA",
-    "updated_at": "2026-06-16T06:39:01.202474"
+    "updated_at": "2026-06-16T12:06:54.420109"
   },
   "AAPL": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 299.43,
+    "change_pct": -4.19,
     "name": "AAPL",
-    "updated_at": "2026-06-16T06:39:01.202482"
+    "updated_at": "2026-06-16T12:06:54.420114"
   },
   "QQQ": {
-    "price": 744.0,
-    "change_pct": 1.99,
+    "price": 734.03,
+    "change_pct": -0.21,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-16T06:39:01.202493"
+    "updated_at": "2026-06-16T12:06:54.420119"
   },
   "BTC-USD": {
-    "price": 66350.29,
-    "change_pct": 3.65,
+    "price": 65682.92,
+    "change_pct": 2.61,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-16T06:39:01.202505"
+    "updated_at": "2026-06-16T12:06:54.420125"
   }
 },
   tickerScores: [
@@ -853,6 +853,25 @@ const dashboardData = {
       "podcast_episode_id": 287
     },
     {
+      "id": 303,
+      "title": "Jack Altman on Product-Market Fit",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-16",
+      "summary": "The podcast discusses the delicate balance founders must maintain between customer feedback and their long-term vision. It emphasizes the importance of quickly identifying product-market fit and the role of sales conversations in refining product offerings. The episode also highlights the significance of hiring the right early employees, building strong co-founder relationships, meeting rising product quality standards, focusing on growth narratives for investors, and managing time proactively.",
+      "key_takeaway": "Invest in startups that balance customer feedback with a clear vision, demonstrate rapid product-market fit, and have a compelling growth narrative.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 288
+    },
+    {
       "id": 300,
       "title": "AI, Design, and the Power of Open Models",
       "source_type": "podcast",
@@ -942,7 +961,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-11",
       "archived_date": null,
@@ -6538,24 +6557,6 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 253,
-      "term": "Bitcoin Treasury Companies",
-      "description": "Companies that hold Bitcoin on their balance sheets, often facing challenges in managing obligations to different stakeholders.",
-      "first_detected_date": "2026-06-16",
-      "last_mentioned_date": "2026-06-16",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should analyze the capital structures and financial strategies of these companies to understand potential risks and rewards.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 287,
-      "first_detected_speaker": "Jack Mallers",
-      "last_mentioned_episode_id": 287,
-      "last_mentioned_speaker": "Jack Mallers"
-    },
-    {
       "id": 252,
       "term": "AI Commoditization",
       "description": "The process by which AI technology becomes a standard, undifferentiated product, leading to increased competition and reduced pricing power.",
@@ -9484,6 +9485,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 303,
+      "title": "Jack Altman on Product-Market Fit",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-16",
+      "summary": "The podcast discusses the delicate balance founders must maintain between customer feedback and their long-term vision. It emphasizes the importance of quickly identifying product-market fit and the role of sales conversations in refining product offerings. The episode also highlights the significance of hiring the right early employees, building strong co-founder relationships, meeting rising product quality standards, focusing on growth narratives for investors, and managing time proactively.",
+      "key_takeaway": "Invest in startups that balance customer feedback with a clear vision, demonstrate rapid product-market fit, and have a compelling growth narrative.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 288,
+      "episode_release_date": "2026-06-16",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 300,
       "title": "AI, Design, and the Power of Open Models",
       "source_type": "podcast",
@@ -9566,26 +9587,6 @@ const dashboardData = {
         "TALENT ENERGY",
         "GEONET"
       ]
-    },
-    {
-      "id": 295,
-      "title": "Designing the Physical World with AI",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-06-11",
-      "summary": "The podcast discusses the transformative impact of AI on the construction and manufacturing industries. Key themes include the full automation of construction within a decade, the imminent automation of circuit board design and manufacturing, and the need for a cultural shift towards valuing physical product creation. The episode emphasizes the importance of capturing tacit knowledge in manufacturing and the benefits of vertical integration for technological adoption.",
-      "key_takeaway": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-11",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 280,
-      "episode_release_date": "2026-06-11",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 296,
@@ -9756,32 +9757,6 @@ const dashboardData = {
     }
   ],
   "overton": [
-    {
-      "id": 253,
-      "term": "Bitcoin Treasury Companies",
-      "description": "Companies that hold Bitcoin on their balance sheets, often facing challenges in managing obligations to different stakeholders.",
-      "first_detected_date": "2026-06-16",
-      "last_mentioned_date": "2026-06-16",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should analyze the capital structures and financial strategies of these companies to understand potential risks and rewards.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 287,
-      "first_detected_speaker": "Jack Mallers",
-      "last_mentioned_episode_id": 287,
-      "last_mentioned_speaker": "Jack Mallers",
-      "overton_score": 1.0,
-      "resonance_pct": 25,
-      "first_detected_podcast": "The Jack Mallers Show",
-      "first_detected_episode_title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
-      "first_detected_episode_date": "2026-06-16",
-      "last_mentioned_podcast": "The Jack Mallers Show",
-      "last_mentioned_episode_title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
-      "last_mentioned_episode_date": "2026-06-16"
-    },
     {
       "id": 252,
       "term": "AI Commoditization",
@@ -10093,6 +10068,32 @@ const dashboardData = {
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
       "last_mentioned_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
       "last_mentioned_episode_date": "2026-05-21"
+    },
+    {
+      "id": 24,
+      "term": "Risk Off Playbook",
+      "description": "A set of investment strategies employed by investors to mitigate risk during times of market uncertainty or perceived danger.",
+      "first_detected_date": "2026-04-15",
+      "last_mentioned_date": "2026-04-15",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "During geopolitical tensions, investors may shift to safer assets or hedge positions to protect against potential market downturns.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": null,
+      "last_mentioned_speaker": null,
+      "overton_score": 0.48,
+      "resonance_pct": 12,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
+      "last_mentioned_podcast": null,
+      "last_mentioned_episode_title": null,
+      "last_mentioned_episode_date": null
     }
   ]
 },
@@ -28101,12 +28102,62 @@ const dashboardData = {
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-06-16",
     "key_tickers": []
+  },
+  "303": {
+    "id": 293,
+    "insight_id": 303,
+    "podcast_episode_id": 288,
+    "overview": "The competitive dynamic implied by the source material revolves around the ability of startups to navigate the treacherous waters between heeding customer feedback and maintaining a steadfast vision. What is contested is the optimal strategy for startups to achieve product-market fit swiftly while not compromising their core mission. The metric that arbitrates this uncertainty is the speed and success with which startups can pivot or refine their offerings based on customer feedback without losing sight of their long-term goals.",
+    "key_takeaways_detailed": [
+      "Develop a decision matrix that scores customer feedback based on alignment with the startup's vision and potential market impact.",
+      "Implement a staged product launch strategy to quickly assess market response and facilitate early pivots if necessary.",
+      "Encourage a culture of sales-engineering collaboration to ensure that product refinements are driven by both customer needs and technical feasibility.",
+      "Establish a co-founder agreement that outlines how challenges and disagreements will be addressed to maintain trust and communication.",
+      "Create a product roadmap that includes quality milestones to ensure that product quality meets or exceeds rising customer standards from the outset.",
+      "Craft an investor pitch that not only highlights the current traction but also paints a vivid picture of future growth trajectories and milestones."
+    ],
+    "investment_thesis": "Invest in startups that demonstrate an adept ability to filter customer feedback through a vision-aligned framework, show rapid signs of product-market fit, and articulate a compelling growth narrative. The timeframe for vindication is within the first 18-24 months, where observable developments such as successful pivots, sustained customer engagement, and investor buy-in would validate the thesis. Conversely, a lack of pivots, waning customer interest, and investor skepticism would invalidate it.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's history of balancing customer feedback with a clear product vision makes it a relevant case study for this thesis.",
+        "positioning": "Positioned long-term as Apple continues to demonstrate an ability to innovate while maintaining a strong brand vision.",
+        "risk": "Key risks include misjudging market trends and failing to adapt quickly enough to changing customer needs."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A shift in market dynamics where customer feedback becomes less predictive of product success.",
+      "The emergence of a successful startup that defies the trend by ignoring customer feedback and still achieves significant growth.",
+      "A change in investor sentiment that de-emphasizes growth narratives in favor of other metrics, such as profitability or market share."
+    ],
+    "catalysts": [
+      "The release of a new product or feature that significantly outperforms customer expectations.",
+      "A high-profile investment in a startup that has demonstrated rapid product-market fit.",
+      "A notable pivot by a well-known startup that leads to a surge in user engagement and market validation."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-16T12:06:15.943656",
+    "updated_at": "2026-06-16 17:06:15",
+    "episode_evidence": "In the podcast, Jack Altman emphasizes the nuanced approach founders must take with customer feedback, stating, 'It's obviously wrong to scramble to every single customer request... it's also wrong to ignore it all.' This highlights the need for a structured method to filter feedback that aligns with the startup's vision. Altman also underscores the urgency of achieving product-market fit, as he points out, 'When stuff works, it works fast... when people want what you're selling, you know kind of quickly.' This underscores the importance of rapid validation to avoid resource wastage. Furthermore, he stresses the value of sales conversations, 'I still think being in those rooms is like the best way to know exactly what's not resonated,' indicating that direct customer interaction is crucial for product refinement. These insights provide a deeper understanding of the mechanisms by which startups can navigate the balance between customer input and their strategic vision, the necessity for swift validation of product-market fit, and the role of sales in product development.",
+    "falsification_tracks": [
+      "If startups repeatedly fail to pivot successfully after extended periods without achieving product-market fit, the thesis on the importance of rapid fit identification would be weakened.",
+      "Should customer feedback consistently lead to successful product iterations without derailing the core mission, the balance between feedback and vision might be reconsidered.",
+      "A significant number of successful startups that ignore early customer feedback and still achieve product-market fit would challenge the importance of incorporating customer insights."
+    ],
+    "insight_title": "Jack Altman on Product-Market Fit",
+    "source_name": "The a16z Show",
+    "source_date": "2026-06-16",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 16876,
+    "id": 16951,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -28118,7 +28169,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16877,
+    "id": 16952,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -28130,7 +28181,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16878,
+    "id": 16953,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -28142,7 +28193,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16879,
+    "id": 16954,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -28154,7 +28205,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16880,
+    "id": 16955,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -28166,7 +28217,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16881,
+    "id": 16956,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -28178,7 +28229,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16882,
+    "id": 16957,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -28190,7 +28241,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16883,
+    "id": 16958,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -28202,7 +28253,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16884,
+    "id": 16959,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -28214,7 +28265,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16885,
+    "id": 16960,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -28226,7 +28277,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16886,
+    "id": 16961,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -28238,7 +28289,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16887,
+    "id": 16962,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -28250,7 +28301,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16888,
+    "id": 16963,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -28262,7 +28313,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16889,
+    "id": 16964,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -28274,7 +28325,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16890,
+    "id": 16965,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -28286,7 +28337,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16891,
+    "id": 16966,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -28298,7 +28349,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16892,
+    "id": 16967,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -28310,7 +28361,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16893,
+    "id": 16968,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -28322,7 +28373,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16894,
+    "id": 16969,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -28334,7 +28385,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16895,
+    "id": 16970,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -29940,7 +29991,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -30069,7 +30120,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -30135,7 +30186,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -30410,7 +30461,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -30474,7 +30525,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -30791,7 +30842,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -30855,7 +30906,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -31038,7 +31089,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -31102,7 +31153,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -31845,7 +31896,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -31911,7 +31962,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -34547,7 +34598,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -38223,7 +38274,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
@@ -38281,7 +38332,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",

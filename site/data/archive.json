@@ -20,6 +20,25 @@
       "podcast_episode_id": 287
     },
     {
+      "id": 303,
+      "title": "Jack Altman on Product-Market Fit",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-16",
+      "summary": "The podcast discusses the delicate balance founders must maintain between customer feedback and their long-term vision. It emphasizes the importance of quickly identifying product-market fit and the role of sales conversations in refining product offerings. The episode also highlights the significance of hiring the right early employees, building strong co-founder relationships, meeting rising product quality standards, focusing on growth narratives for investors, and managing time proactively.",
+      "key_takeaway": "Invest in startups that balance customer feedback with a clear vision, demonstrate rapid product-market fit, and have a compelling growth narrative.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 288
+    },
+    {
       "id": 300,
       "title": "AI, Design, and the Power of Open Models",
       "source_type": "podcast",
@@ -109,7 +128,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-11",
       "archived_date": null,
@@ -5704,24 +5723,6 @@
   ],
   "definitions": [],
   "overton": [
-    {
-      "id": 253,
-      "term": "Bitcoin Treasury Companies",
-      "description": "Companies that hold Bitcoin on their balance sheets, often facing challenges in managing obligations to different stakeholders.",
-      "first_detected_date": "2026-06-16",
-      "last_mentioned_date": "2026-06-16",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should analyze the capital structures and financial strategies of these companies to understand potential risks and rewards.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 287,
-      "first_detected_speaker": "Jack Mallers",
-      "last_mentioned_episode_id": 287,
-      "last_mentioned_speaker": "Jack Mallers"
-    },
     {
       "id": 252,
       "term": "AI Commoditization",

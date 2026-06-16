@@ -1,6 +1,6 @@
 /**
  * Shared site utilities: Deep Dive HTML + calendar-safe date formatting
- * (index, archive, debait, pipeline-health).
+ * (index, archive, pipeline-health).
  *
  * One source of truth for *display*: episode/insight dates from the API are
  * calendar dates (often `YYYY-MM-DD`). `new Date('2026-03-19')` parses as UTC
