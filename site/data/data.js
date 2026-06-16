@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-15T22:03:06.323752",
-  chartsVersion: "2026-06-15T22:02:50.866685",
+  generatedAt: "2026-06-15T23:36:08.247745",
+  chartsVersion: "2026-06-15T23:35:58.235030",
   priceSnapshot: {
   "GOOGL": {
-    "price": 369.35,
-    "change_pct": -4.95,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "GOOGL",
-    "updated_at": "2026-06-15T22:02:50.865567"
+    "updated_at": "2026-06-15T23:35:58.234585"
   },
   "BTC": {
-    "price": 65730.4,
-    "change_pct": 2.68,
+    "price": 65820.9,
+    "change_pct": 2.82,
     "name": "BTC",
-    "updated_at": "2026-06-15T22:02:50.865587"
+    "updated_at": "2026-06-15T23:35:58.234597"
   },
   "MSFT": {
-    "price": 399.76,
-    "change_pct": -3.13,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "MSFT",
-    "updated_at": "2026-06-15T22:02:50.865597"
+    "updated_at": "2026-06-15T23:35:58.234600"
   },
   "NVDA": {
-    "price": 212.45,
-    "change_pct": 0.05,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "NVDA",
-    "updated_at": "2026-06-15T22:02:50.865606"
+    "updated_at": "2026-06-15T23:35:58.234603"
   },
   "WTI": {
-    "price": 3.39,
-    "change_pct": -8.63,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "WTI",
-    "updated_at": "2026-06-15T22:02:50.865614"
+    "updated_at": "2026-06-15T23:35:58.234605"
   },
   "META": {
     "price": 593.48,
     "change_pct": -6.49,
     "name": "META",
-    "updated_at": "2026-06-15T22:02:50.865623"
+    "updated_at": "2026-06-15T23:35:58.234609"
   },
   "AMZN": {
-    "price": 246.02,
-    "change_pct": -9.5,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "AMZN",
-    "updated_at": "2026-06-15T22:02:50.865632"
+    "updated_at": "2026-06-15T23:35:58.234612"
   },
   "S&P 500": {
-    "price": 754.83,
-    "change_pct": 0.58,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "S&P 500",
-    "updated_at": "2026-06-15T22:02:50.865639"
+    "updated_at": "2026-06-15T23:35:58.234614"
   },
   "TSLA": {
-    "price": 411.15,
-    "change_pct": -6.63,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "TSLA",
-    "updated_at": "2026-06-15T22:02:50.865647"
+    "updated_at": "2026-06-15T23:35:58.234617"
   },
   "AAPL": {
-    "price": 296.42,
-    "change_pct": -4.64,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "AAPL",
-    "updated_at": "2026-06-15T22:02:50.865655"
+    "updated_at": "2026-06-15T23:35:58.234619"
   },
   "QQQ": {
     "price": 744.0,
     "change_pct": 1.99,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-15T22:02:50.865663"
+    "updated_at": "2026-06-15T23:35:58.234622"
   },
   "BTC-USD": {
-    "price": 65723.42,
-    "change_pct": 2.67,
+    "price": 65820.9,
+    "change_pct": 2.82,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-15T22:02:50.865673"
+    "updated_at": "2026-06-15T23:35:58.234626"
   }
 },
   tickerScores: [
@@ -853,6 +853,25 @@ const dashboardData = {
       "podcast_episode_id": 285
     },
     {
+      "id": 301,
+      "title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-06-15",
+      "summary": "In this episode, Jack Farley discusses the decline in hyperscaler capital expenditures, the illusion of earnings growth due to component cost inflation, and the increasing regulatory risks surrounding AI. The conversation also touches on the commoditization of AI technology, the potential impact of geopolitical tensions on oil prices, and the parallels between the current AI investment cycle and the dot-com bubble. Farley emphasizes the importance of reassessing investment positions in hyperscaler stocks, focusing on real earnings growth, and staying informed about geopolitical developments.",
+      "key_takeaway": "Investors should reassess their positions in hyperscaler stocks and monitor regulatory developments in AI, while also staying vigilant about geopolitical risks that could impact oil prices.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 286
+    },
+    {
       "id": 299,
       "title": "Anthropic's Fable Backlash, Nationalizing AI, Inflation Heats Up & California's Broken Elections",
       "source_type": "podcast",
@@ -1000,7 +1019,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-10",
       "archived_date": null,
@@ -6500,6 +6519,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 252,
+      "term": "AI Commoditization",
+      "description": "The process by which AI technology becomes a standard, undifferentiated product, leading to increased competition and reduced pricing power.",
+      "first_detected_date": "2026-06-15",
+      "last_mentioned_date": "2026-06-15",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should be cautious about companies in commoditized AI sectors and look for those with unique competitive advantages.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 286,
+      "first_detected_speaker": "Jack Farley (hosts)",
+      "last_mentioned_episode_id": 286,
+      "last_mentioned_speaker": "Jack Farley (hosts)"
+    },
+    {
       "id": 248,
       "term": "Replacement Cost Advantage",
       "description": "A situation where a company's market value is significantly lower than the cost it would take to replace its assets or operations.",
@@ -9410,6 +9447,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 301,
+      "title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-06-15",
+      "summary": "In this episode, Jack Farley discusses the decline in hyperscaler capital expenditures, the illusion of earnings growth due to component cost inflation, and the increasing regulatory risks surrounding AI. The conversation also touches on the commoditization of AI technology, the potential impact of geopolitical tensions on oil prices, and the parallels between the current AI investment cycle and the dot-com bubble. Farley emphasizes the importance of reassessing investment positions in hyperscaler stocks, focusing on real earnings growth, and staying informed about geopolitical developments.",
+      "key_takeaway": "Investors should reassess their positions in hyperscaler stocks and monitor regulatory developments in AI, while also staying vigilant about geopolitical risks that could impact oil prices.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 286,
+      "episode_release_date": "2026-06-15",
+      "guest_name": "Regulatory Risk is Coming For AI",
+      "key_tickers": []
+    },
+    {
       "id": 299,
       "title": "Anthropic's Fable Backlash, Nationalizing AI, Inflation Heats Up & California's Broken Elections",
       "source_type": "podcast",
@@ -9517,26 +9574,6 @@ const dashboardData = {
         "GOOGL",
         "SPCE"
       ]
-    },
-    {
-      "id": 293,
-      "title": "America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-06-10",
-      "summary": "The Development Finance Corporation (DFC) has expanded its investment capacity and is diversifying its strategies to include equity investments and innovative financial products. The DFC is focusing on high-impact projects, particularly in critical minerals, infrastructure, technology, and energy sectors, with a strategic emphasis on Latin America, Eastern Europe, and Africa. The Corporation aims to mobilize private capital and act as a flexible partner in the capital structure, enhancing investment opportunities in emerging markets.",
-      "key_takeaway": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-10",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 278,
-      "episode_release_date": "2026-06-10",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 294,
@@ -9682,6 +9719,32 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 252,
+      "term": "AI Commoditization",
+      "description": "The process by which AI technology becomes a standard, undifferentiated product, leading to increased competition and reduced pricing power.",
+      "first_detected_date": "2026-06-15",
+      "last_mentioned_date": "2026-06-15",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should be cautious about companies in commoditized AI sectors and look for those with unique competitive advantages.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 286,
+      "first_detected_speaker": "Jack Farley (hosts)",
+      "last_mentioned_episode_id": 286,
+      "last_mentioned_speaker": "Jack Farley (hosts)",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
+      "first_detected_episode_date": "2026-06-15",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
+      "last_mentioned_episode_date": "2026-06-15"
+    },
     {
       "id": 248,
       "term": "Replacement Cost Advantage",
@@ -9978,32 +10041,6 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "During geopolitical tensions, investors may shift to safer assets or hedge positions to protect against potential market downturns.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.49,
-      "resonance_pct": 12,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
-    },
-    {
-      "id": 25,
-      "term": "Stagflation",
-      "description": "A situation in which the economy experiences stagnant growth, high inflation, and high unemployment.",
-      "first_detected_date": "2026-04-15",
-      "last_mentioned_date": "2026-04-15",
-      "mention_count": 2,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should be aware of the potential for stagflation and its impact on asset classes, possibly seeking hedges like Bitcoin.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -27926,12 +27963,75 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-06-15",
     "key_tickers": []
+  },
+  "301": {
+    "id": 291,
+    "insight_id": 301,
+    "podcast_episode_id": 286,
+    "overview": "The unresolved tension in the tech sector is the divergence between the apparent growth in earnings and the actual underlying performance of hyperscaler companies, influenced by rising component costs and potential regulatory crackdowns on AI. The competitive dynamic is further complicated by the commoditization of AI technology, which could erode profitability for memory chip manufacturers. The allocator-relevant implication is that investors may need to reassess their positions in hyperscaler stocks, focusing on real earnings growth and the potential impact of regulatory changes on AI valuations. The metric that arbitrates this uncertainty is the capex to operating income ratio, which indicates the financial health and investment sustainability of these companies.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the capex trends in hyperscaler earnings reports to identify any continued decline, which could signal a broader shift in the tech industry's investment in AI infrastructure.",
+      "The focus should shift towards real earnings growth, adjusting for inflationary component costs, to get a clearer picture of a company's financial performance.",
+      "Regulatory developments in AI should be closely watched, as potential government crackdowns could significantly impact the growth and valuation of AI companies.",
+      "Investors should be cautious in commoditized markets, seeking out companies with unique competitive advantages that can withstand increased competition and pricing pressures.",
+      "Geopolitical developments, especially in the Middle East, should be monitored for their potential impact on oil prices, which could have broader implications for inflation and economic growth."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that the current decline in hyperscaler capex, coupled with the illusion of earnings growth due to component cost inflation and increasing regulatory risks, suggests a potential reassessment is needed for investment positions in hyperscaler stocks. This thesis is tied to the observable development of continued capex decline and regulatory actions that would vindicate the thesis, while a sustained increase in capex and a lack of significant regulatory changes would invalidate it. The timeframe for this thesis is within the next 12 to 18 months, a period in which these developments are likely to materialize.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple, as a major player in the tech industry, is directly impacted by the trends in capex and the commoditization of AI technology. Its position in the memory chip market and AI development makes it a relevant ticker for this thesis.",
+        "positioning": "Given the potential slowdown in AI infrastructure investment and the illusion of earnings growth, a tactical short position in AAPL could be considered, with the understanding that this is a response to near-term market dynamics rather than a long-term strategic view.",
+        "risk": "The key risk for this position is that Apple may continue to show strong earnings growth that is not solely dependent on component cost inflation, or that it may successfully navigate regulatory challenges and maintain its competitive position in the AI market."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that the decline in capex is a temporary blip and that the long-term growth trajectory of hyperscalers remains intact.",
+      "The view that regulatory risks are overblown and that governments will not significantly hinder the growth and development of AI technologies.",
+      "The argument that the commoditization of AI will lead to increased innovation and lower costs, benefiting the overall market rather than harming it."
+    ],
+    "catalysts": [
+      "Upcoming earnings reports from hyperscaler companies that could confirm or refute the trend of declining capex.",
+      "Any regulatory announcements or actions from governments worldwide that could impact the AI market.",
+      "Geopolitical events, particularly in the Middle East, that could influence oil prices and have a ripple effect on the global economy.",
+      "Technological breakthroughs or new market entrants in the AI space that could disrupt the current competitive landscape."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-15T23:35:26.697024",
+    "updated_at": "2026-06-16 04:35:26",
+    "episode_evidence": "The decline in hyperscaler capital expenditures (capex) is a significant development in the tech sector, as highlighted by Jack Farley: 'The combined capex of the five hyperscalers... was actually down for the first time in three years.' This quarter-over-quarter decrease in real terms, exacerbated by rising component costs, suggests a potential shift in the tech industry's investment approach towards AI infrastructure. Farley also points out the inflationary impact on earnings: 'Ironically, the inflation of the components... has actually given a boost to basically nominal earnings growth.' This indicates that while earnings may appear robust, the underlying growth may be less substantial than perceived. Additionally, the capex to operating income ratio for top hyperscalers, now at 135%, underscores their growing dependency on external financing to sustain their investment levels, which could be a cause for concern regarding their financial health and long-term sustainability.",
+    "falsification_tracks": [
+      "Should hyperscaler capex show a consistent upward trend over the next two quarters, the narrative of a slowdown in AI infrastructure investment would be weakened.",
+      "If the capex to operating income ratio for top hyperscalers drops significantly below 135%, it could suggest that these companies are becoming less reliant on external financing, altering the financial risk assessment.",
+      "A sustained decrease in component costs could invalidate the earnings growth illusion, revealing the true state of earnings growth for hyperscalers.",
+      "Should there be a noticeable lack of regulatory actions or delays in government crackdowns on AI models, the perceived regulatory risks surrounding AI would be reduced."
+    ],
+    "insight_title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-06-15",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 16655,
+    "id": 16728,
+    "name": "Regulatory Risk is Coming For AI",
+    "slug": "regulatory-risk-is-coming-for-ai",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investors should reassess their positions in hyperscaler stocks and monitor regulatory developments in AI, while also staying vigilant about geopolitical risks that could impact oil prices.",
+    "last_episode_title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-06-15",
+    "appearance_count": 1
+  },
+  {
+    "id": 16729,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -27943,7 +28043,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16656,
+    "id": 16730,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -27955,7 +28055,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16657,
+    "id": 16731,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -27967,7 +28067,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16658,
+    "id": 16732,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -27979,7 +28079,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16659,
+    "id": 16733,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -27991,7 +28091,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16660,
+    "id": 16734,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -28003,7 +28103,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16661,
+    "id": 16735,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -28015,7 +28115,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16662,
+    "id": 16736,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -28027,7 +28127,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16663,
+    "id": 16737,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -28039,7 +28139,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16664,
+    "id": 16738,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -28051,7 +28151,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16665,
+    "id": 16739,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -28063,7 +28163,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16666,
+    "id": 16740,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -28075,7 +28175,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16667,
+    "id": 16741,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -28087,7 +28187,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16668,
+    "id": 16742,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -28099,7 +28199,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16669,
+    "id": 16743,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -28111,7 +28211,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16670,
+    "id": 16744,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -28123,7 +28223,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16671,
+    "id": 16745,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -28135,7 +28235,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16672,
+    "id": 16746,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -28147,7 +28247,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16673,
+    "id": 16747,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -28156,18 +28256,6 @@ const dashboardData = {
     "last_episode_title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-24",
-    "appearance_count": 1
-  },
-  {
-    "id": 16674,
-    "name": "expert Morgan Downey",
-    "slug": "expert-morgan-downey",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investors should prepare for potential oil price volatility and consider hedging strategies, while also looking for investment opportunities in companies improving inventory efficiency and energy infrastructure projects.",
-    "last_episode_title": "MacroVoices #533 Morgan Downey: The Return of Oil 101",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-05-21",
     "appearance_count": 1
   }
 ],
@@ -29111,7 +29199,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -29175,7 +29263,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -30554,7 +30642,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Investors should consider the dual impact of AI on job creation and displacement, focusing on companies that are AI-enabled and those that support open-source AI solutions to foster a competitive and innovative market.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-29 \u2022 Pope vs AI, Anthropic's Digital God, AI Job Loss Narrative Flips, Open Source Crackdown Coming?",
     "last_proof_snippet": "Okay, we are gathered here today in Holy Unity, brothers and sisters, to convene and discuss on this most holy day, the day, the all-in podcast drops. Many topics, AI data centers, China, justice, human dignity, Dario on winding these SPVs",
@@ -32234,7 +32322,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-07 \u2022 MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -33365,7 +33453,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -33801,7 +33889,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -34309,7 +34397,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -34498,7 +34586,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-15 \u2022 Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
     "last_proof_snippet": "The company's revenue grew from $2.5 million to $250 million in just over a year, demonstrating the potential of AI in software development.",
@@ -34562,7 +34650,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-14 \u2022 \"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
     "last_proof_snippet": "Investing with a long-term perspective involves considering macroeconomic factors and their impact on smaller companies.",
@@ -34621,7 +34709,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Invest in AI companies that are positioned to benefit from the rapid growth and valuation in the industry, and consider the broader implications of AI on the future of work and social structures.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-14 \u2022 Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
     "last_proof_snippet": "AI is expected to replace many white collar jobs in the near future.",
@@ -34685,7 +34773,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
@@ -35001,7 +35089,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
     "last_proof_snippet": "Beach Point Capital Management primarily manages institutional capital, which is characterized as patient capital.",
@@ -35064,7 +35152,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
@@ -35379,7 +35467,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
     "last_proof_snippet": "AI is a shortcut that can be beneficial but also presents challenges in debugging and understanding.",

@@ -1,5 +1,21 @@
 [
   {
+    "id": 286,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
+    "episode_date": "2026-06-15",
+    "summary": "In this episode, Jack Farley discusses the decline in hyperscaler capital expenditures, the illusion of earnings growth due to component cost inflation, and the increasing regulatory risks surrounding AI. The conversation also touches on the commoditization of AI technology, the potential impact of geopolitical tensions on oil prices, and the parallels between the current AI investment cycle and the dot-com bubble. Farley emphasizes the importance of reassessing investment positions in hyperscaler stocks, focusing on real earnings growth, and staying informed about geopolitical developments.",
+    "key_takeaways": [
+      "Hyperscaler capex declined quarter-over-quarter for the first time in three years, signaling potential caution in AI infrastructure investment.",
+      "Inflation of component costs has created an illusion of earnings growth for hyperscalers, masking stagnant real growth.",
+      "Regulatory risks for AI are rising, with potential crackdowns on powerful AI models like Anthropic's Mythos.",
+      "AI market commoditization is increasing competition and reducing pricing power for memory chip manufacturers.",
+      "Geopolitical tensions, particularly involving Iran, could significantly impact oil prices."
+    ],
+    "investment_thesis": "Investors should reassess their positions in hyperscaler stocks and monitor regulatory developments in AI, while also staying vigilant about geopolitical risks that could impact oil prices.",
+    "key_tickers": null
+  },
+  {
     "id": 285,
     "podcast_name": "The a16z Show",
     "episode_title": "AI, Design, and the Power of Open Models",
@@ -118,22 +134,6 @@
       "Misinformation is a significant barrier to public acceptance of AI and data centers."
     ],
     "investment_thesis": "Invest in AI and energy sectors in Pennsylvania to capitalize on significant economic opportunities and job creation.",
-    "key_tickers": null
-  },
-  {
-    "id": 278,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
-    "episode_date": "2026-06-10",
-    "summary": "The Development Finance Corporation (DFC) has expanded its investment capacity and is diversifying its strategies to include equity investments and innovative financial products. The DFC is focusing on high-impact projects, particularly in critical minerals, infrastructure, technology, and energy sectors, with a strategic emphasis on Latin America, Eastern Europe, and Africa. The Corporation aims to mobilize private capital and act as a flexible partner in the capital structure, enhancing investment opportunities in emerging markets.",
-    "key_takeaways": [
-      "The DFC's investment capacity has increased from $60 billion to $205 billion, positioning it as a significant player in global finance.",
-      "DFC's investment strategy now includes senior secured loans, political risk insurance, and equity investments.",
-      "The DFC is actively involved in high-impact projects, such as the Ukraine Reconstruction Investment Fund.",
-      "DFC aims to mobilize private capital by acting as a flexible partner in the capital structure, enhancing investment opportunities in emerging markets.",
-      "DFC's investment priorities include critical minerals, infrastructure, technology, and energy, with a focus on Latin America, Eastern Europe, and Africa."
-    ],
-    "investment_thesis": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
     "key_tickers": null
   }
 ]

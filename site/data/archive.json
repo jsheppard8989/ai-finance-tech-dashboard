@@ -20,6 +20,25 @@
       "podcast_episode_id": 285
     },
     {
+      "id": 301,
+      "title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-06-15",
+      "summary": "In this episode, Jack Farley discusses the decline in hyperscaler capital expenditures, the illusion of earnings growth due to component cost inflation, and the increasing regulatory risks surrounding AI. The conversation also touches on the commoditization of AI technology, the potential impact of geopolitical tensions on oil prices, and the parallels between the current AI investment cycle and the dot-com bubble. Farley emphasizes the importance of reassessing investment positions in hyperscaler stocks, focusing on real earnings growth, and staying informed about geopolitical developments.",
+      "key_takeaway": "Investors should reassess their positions in hyperscaler stocks and monitor regulatory developments in AI, while also staying vigilant about geopolitical risks that could impact oil prices.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 286
+    },
+    {
       "id": 299,
       "title": "Anthropic's Fable Backlash, Nationalizing AI, Inflation Heats Up & California's Broken Elections",
       "source_type": "podcast",
@@ -167,7 +186,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-10",
       "archived_date": null,
@@ -5666,6 +5685,24 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 252,
+      "term": "AI Commoditization",
+      "description": "The process by which AI technology becomes a standard, undifferentiated product, leading to increased competition and reduced pricing power.",
+      "first_detected_date": "2026-06-15",
+      "last_mentioned_date": "2026-06-15",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should be cautious about companies in commoditized AI sectors and look for those with unique competitive advantages.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 286,
+      "first_detected_speaker": "Jack Farley (hosts)",
+      "last_mentioned_episode_id": 286,
+      "last_mentioned_speaker": "Jack Farley (hosts)"
+    },
     {
       "id": 248,
       "term": "Replacement Cost Advantage",
