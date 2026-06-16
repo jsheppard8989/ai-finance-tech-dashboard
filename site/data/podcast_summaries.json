@@ -1,5 +1,21 @@
 [
   {
+    "id": 287,
+    "podcast_name": "The Jack Mallers Show",
+    "episode_title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
+    "episode_date": "2026-06-16",
+    "summary": "The podcast discusses Bitcoin's current market price and its significance as a leading indicator of global market sentiment and liquidity. It also delves into the complexities of capital structures in Bitcoin treasury companies and the importance of transparency and long-term thinking in the Bitcoin space. The host emphasizes the need for authenticity in discussions and the potential challenges treasury companies face in satisfying various stakeholders without causing sell pressure on Bitcoin.",
+    "key_takeaways": [
+      "Bitcoin's price movements reflect real market sentiment and can act as a leading indicator for global market conditions.",
+      "Bitcoin treasury companies face challenges in managing their capital structures to satisfy common equity, preferred equity, and debt holders.",
+      "Transparency and authenticity in discussions about Bitcoin are crucial for fostering trust and collaboration within the community.",
+      "Long-term thinking and low time preference are essential for Bitcoin investments, regardless of short-term market fluctuations or regulatory developments.",
+      "Strike's recent innovations, such as a new limit system and Plaid integration, highlight the ongoing innovation in the Bitcoin space."
+    ],
+    "investment_thesis": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
+    "key_tickers": null
+  },
+  {
     "id": 286,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
@@ -118,22 +134,6 @@
       "Look for opportunities in vertical integration strategies within manufacturing and construction firms to drive innovation."
     ],
     "investment_thesis": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
-    "key_tickers": null
-  },
-  {
-    "id": 279,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner",
-    "episode_date": "2026-06-10",
-    "summary": "The podcast discusses Pennsylvania's pivotal role in national elections and its unique coalition of urban and rural voters. It highlights the importance of bipartisan cooperation in addressing AI, energy, and public health issues. The episode emphasizes AI and data centers as economic opportunities, the significance of the filibuster in fostering dialogue, and the need to address economic disparities and misinformation about new technologies.",
-    "key_takeaways": [
-      "Pennsylvania's political landscape is a microcosm of the U.S., dictating national trends.",
-      "AI and data centers are seen as significant economic opportunities in Pennsylvania.",
-      "The filibuster is crucial for bipartisan cooperation and preventing extreme partisanship.",
-      "Economic recovery is uneven, with wealth concentration increasing.",
-      "Misinformation is a significant barrier to public acceptance of AI and data centers."
-    ],
-    "investment_thesis": "Invest in AI and energy sectors in Pennsylvania to capitalize on significant economic opportunities and job creation.",
     "key_tickers": null
   }
 ]

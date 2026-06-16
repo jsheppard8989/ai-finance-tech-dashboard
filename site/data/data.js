@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-16T05:02:48.951741",
-  chartsVersion: "2026-06-16T05:02:35.790047",
+  generatedAt: "2026-06-16T06:39:18.558777",
+  chartsVersion: "2026-06-16T06:39:01.203854",
   priceSnapshot: {
   "GOOGL": {
     "price": NaN,
     "change_pct": NaN,
     "name": "GOOGL",
-    "updated_at": "2026-06-16T05:02:35.788989"
+    "updated_at": "2026-06-16T06:39:01.202385"
   },
   "BTC": {
-    "price": 66466.32,
-    "change_pct": 3.83,
+    "price": 66342.1,
+    "change_pct": 3.64,
     "name": "BTC",
-    "updated_at": "2026-06-16T05:02:35.789012"
+    "updated_at": "2026-06-16T06:39:01.202413"
   },
   "MSFT": {
     "price": NaN,
     "change_pct": NaN,
     "name": "MSFT",
-    "updated_at": "2026-06-16T05:02:35.789019"
+    "updated_at": "2026-06-16T06:39:01.202424"
   },
   "NVDA": {
     "price": NaN,
     "change_pct": NaN,
     "name": "NVDA",
-    "updated_at": "2026-06-16T05:02:35.789026"
+    "updated_at": "2026-06-16T06:39:01.202431"
   },
   "WTI": {
     "price": NaN,
     "change_pct": NaN,
     "name": "WTI",
-    "updated_at": "2026-06-16T05:02:35.789032"
+    "updated_at": "2026-06-16T06:39:01.202439"
   },
   "META": {
     "price": 593.48,
     "change_pct": -6.49,
     "name": "META",
-    "updated_at": "2026-06-16T05:02:35.789040"
+    "updated_at": "2026-06-16T06:39:01.202450"
   },
   "AMZN": {
     "price": NaN,
     "change_pct": NaN,
     "name": "AMZN",
-    "updated_at": "2026-06-16T05:02:35.789047"
+    "updated_at": "2026-06-16T06:39:01.202458"
   },
   "S&P 500": {
     "price": NaN,
     "change_pct": NaN,
     "name": "S&P 500",
-    "updated_at": "2026-06-16T05:02:35.789053"
+    "updated_at": "2026-06-16T06:39:01.202466"
   },
   "TSLA": {
     "price": NaN,
     "change_pct": NaN,
     "name": "TSLA",
-    "updated_at": "2026-06-16T05:02:35.789059"
+    "updated_at": "2026-06-16T06:39:01.202474"
   },
   "AAPL": {
     "price": NaN,
     "change_pct": NaN,
     "name": "AAPL",
-    "updated_at": "2026-06-16T05:02:35.789065"
+    "updated_at": "2026-06-16T06:39:01.202482"
   },
   "QQQ": {
     "price": 744.0,
     "change_pct": 1.99,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-16T05:02:35.789073"
+    "updated_at": "2026-06-16T06:39:01.202493"
   },
   "BTC-USD": {
-    "price": 66466.32,
-    "change_pct": 3.83,
+    "price": 66350.29,
+    "change_pct": 3.65,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-16T05:02:35.789082"
+    "updated_at": "2026-06-16T06:39:01.202505"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 302,
+      "title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-06-16",
+      "summary": "The podcast discusses Bitcoin's current market price and its significance as a leading indicator of global market sentiment and liquidity. It also delves into the complexities of capital structures in Bitcoin treasury companies and the importance of transparency and long-term thinking in the Bitcoin space. The host emphasizes the need for authenticity in discussions and the potential challenges treasury companies face in satisfying various stakeholders without causing sell pressure on Bitcoin.",
+      "key_takeaway": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 287
+    },
+    {
       "id": 300,
       "title": "AI, Design, and the Power of Open Models",
       "source_type": "podcast",
@@ -1038,7 +1057,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-10",
       "archived_date": null,
@@ -6519,6 +6538,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 253,
+      "term": "Bitcoin Treasury Companies",
+      "description": "Companies that hold Bitcoin on their balance sheets, often facing challenges in managing obligations to different stakeholders.",
+      "first_detected_date": "2026-06-16",
+      "last_mentioned_date": "2026-06-16",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should analyze the capital structures and financial strategies of these companies to understand potential risks and rewards.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 287,
+      "first_detected_speaker": "Jack Mallers",
+      "last_mentioned_episode_id": 287,
+      "last_mentioned_speaker": "Jack Mallers"
+    },
+    {
       "id": 252,
       "term": "AI Commoditization",
       "description": "The process by which AI technology becomes a standard, undifferentiated product, leading to increased competition and reduced pricing power.",
@@ -9427,6 +9464,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 302,
+      "title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-06-16",
+      "summary": "The podcast discusses Bitcoin's current market price and its significance as a leading indicator of global market sentiment and liquidity. It also delves into the complexities of capital structures in Bitcoin treasury companies and the importance of transparency and long-term thinking in the Bitcoin space. The host emphasizes the need for authenticity in discussions and the potential challenges treasury companies face in satisfying various stakeholders without causing sell pressure on Bitcoin.",
+      "key_takeaway": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 287,
+      "episode_release_date": "2026-06-16",
+      "guest_name": "15 Questions",
+      "key_tickers": []
+    },
+    {
       "id": 300,
       "title": "AI, Design, and the Power of Open Models",
       "source_type": "podcast",
@@ -9574,26 +9631,6 @@ const dashboardData = {
         "GOOGL",
         "SPCE"
       ]
-    },
-    {
-      "id": 294,
-      "title": "Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-06-10",
-      "summary": "The podcast discusses Pennsylvania's pivotal role in national elections and its unique coalition of urban and rural voters. It highlights the importance of bipartisan cooperation in addressing AI, energy, and public health issues. The episode emphasizes AI and data centers as economic opportunities, the significance of the filibuster in fostering dialogue, and the need to address economic disparities and misinformation about new technologies.",
-      "key_takeaway": "Invest in AI and energy sectors in Pennsylvania to capitalize on significant economic opportunities and job creation.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-10",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 279,
-      "episode_release_date": "2026-06-10",
-      "guest_name": null,
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -9719,6 +9756,32 @@ const dashboardData = {
     }
   ],
   "overton": [
+    {
+      "id": 253,
+      "term": "Bitcoin Treasury Companies",
+      "description": "Companies that hold Bitcoin on their balance sheets, often facing challenges in managing obligations to different stakeholders.",
+      "first_detected_date": "2026-06-16",
+      "last_mentioned_date": "2026-06-16",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should analyze the capital structures and financial strategies of these companies to understand potential risks and rewards.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 287,
+      "first_detected_speaker": "Jack Mallers",
+      "last_mentioned_episode_id": 287,
+      "last_mentioned_speaker": "Jack Mallers",
+      "overton_score": 1.0,
+      "resonance_pct": 25,
+      "first_detected_podcast": "The Jack Mallers Show",
+      "first_detected_episode_title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
+      "first_detected_episode_date": "2026-06-16",
+      "last_mentioned_podcast": "The Jack Mallers Show",
+      "last_mentioned_episode_title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
+      "last_mentioned_episode_date": "2026-06-16"
+    },
     {
       "id": 252,
       "term": "AI Commoditization",
@@ -10030,32 +10093,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
       "last_mentioned_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
       "last_mentioned_episode_date": "2026-05-21"
-    },
-    {
-      "id": 24,
-      "term": "Risk Off Playbook",
-      "description": "A set of investment strategies employed by investors to mitigate risk during times of market uncertainty or perceived danger.",
-      "first_detected_date": "2026-04-15",
-      "last_mentioned_date": "2026-04-15",
-      "mention_count": 2,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "During geopolitical tensions, investors may shift to safer assets or hedge positions to protect against potential market downturns.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null,
-      "overton_score": 0.48,
-      "resonance_pct": 12,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": null,
-      "last_mentioned_episode_title": null,
-      "last_mentioned_episode_date": null
     }
   ]
 },
@@ -28014,12 +28051,74 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-06-15",
     "key_tickers": []
+  },
+  "302": {
+    "id": 292,
+    "insight_id": 302,
+    "podcast_episode_id": 287,
+    "overview": "The unresolved tension in the Bitcoin market revolves around its dual role as both a store of value and a leading indicator of global market sentiment. The competitive dynamic is between Bitcoin's ability to accurately reflect market conditions and the potential for mismanagement in Bitcoin treasury companies to cause market distortions. The allocator-relevant implication is that investors must navigate the complexities of Bitcoin's market role and the capital structures of associated companies to make informed investment decisions. The metric that arbitrates this uncertainty is Bitcoin's price movement in response to global events and the financial health of Bitcoin treasury companies.",
+    "key_takeaways_detailed": [
+      "Investors should consider Bitcoin's price movements as a gauge for global liquidity and market sentiment, adjusting their portfolios accordingly.",
+      "The capital structures of Bitcoin treasury companies require close scrutiny to assess the risk of sell pressure on Bitcoin and the potential impact on investment returns.",
+      "Transparency in the Bitcoin community is essential for maintaining trust and fostering innovation; investors should seek out and support companies that prioritize open dialogue.",
+      "Long-term investment strategies in Bitcoin should be resilient to short-term market fluctuations and regulatory changes, focusing on the underlying value proposition of Bitcoin as a hedge against fiat currency instability.",
+      "Investors should be prepared to adapt their strategies in response to geopolitical events that may impact global liquidity and, by extension, Bitcoin's price."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that Bitcoin's price movements serve as a leading indicator of global market sentiment and liquidity, and that the financial strategies of Bitcoin treasury companies can significantly impact Bitcoin's price. This thesis is tied to the observable development of Bitcoin's price in response to global events and the financial performance of Bitcoin treasury companies. The thesis would be vindicated if Bitcoin's price continues to accurately reflect global market sentiment and if Bitcoin treasury companies can manage their capital structures without causing significant sell pressure. Conversely, it would be invalidated if Bitcoin's price movements become decoupled from global market sentiment or if mismanagement in Bitcoin treasury companies leads to sustained sell pressure on Bitcoin.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's exposure to global supply chains and its significant cash reserves make it a relevant ticker for understanding the impact of geopolitical events and liquidity conditions on the market.",
+        "positioning": "Positioning in Apple could be strategic, as its stock may serve as a proxy for gauging market sentiment and liquidity, especially in the context of Bitcoin's role as a leading indicator.",
+        "risk": "Key risks include geopolitical tensions affecting global supply chains, which could impact Apple's operations and, by extension, its stock price, as well as changes in market liquidity that may not be accurately reflected in Bitcoin's price."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that Bitcoin's price is driven more by speculation than by real market sentiment could challenge its status as a leading market indicator.",
+      "The argument that traditional financial markets are more reliable indicators of global market sentiment than Bitcoin, suggesting that Bitcoin's price movements are less relevant.",
+      "The possibility that Bitcoin treasury companies may find innovative ways to manage their capital structures without causing sell pressure, reducing the perceived risk associated with their financial strategies."
+    ],
+    "catalysts": [
+      "Geopolitical events that significantly impact global liquidity and market sentiment, such as the reopening of the Strait of Hormuz.",
+      "Regulatory developments that may affect the Bitcoin market, either positively or negatively, and influence the price of Bitcoin.",
+      "Financial reports from Bitcoin treasury companies that reveal the effectiveness of their capital structure management and their ability to satisfy various stakeholders without causing sell pressure on Bitcoin.",
+      "Technological innovations in the Bitcoin space, such as those from Strike, that may impact the market and influence Bitcoin's price."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-16T06:38:11.421645",
+    "updated_at": "2026-06-16 11:38:11",
+    "episode_evidence": "The podcast provides a nuanced perspective on Bitcoin's role as a leading market indicator, with Jack Mallers stating, 'Bitcoin continues to be the only real free market we have in the world.' This quote underscores the belief that Bitcoin's price movements are a more accurate reflection of global market sentiment than traditional stock markets. The discussion also highlights the complexity of managing capital structures in Bitcoin treasury companies, as Mallers poses the question, 'How do you make the whole capital stack happy?' This query reveals the challenges in balancing the interests of common equity, preferred equity, and debt holders without causing sell pressure on Bitcoin. The podcast emphasizes the need for transparency and authenticity in discussions, with Mallers advocating for open dialogue: 'Public conversation is good. Open source is good. Asking questions is good.' This call for transparency is crucial for fostering trust and collaboration within the Bitcoin community.",
+    "falsification_tracks": [
+      "A sustained increase in Bitcoin's price without corresponding improvements in global market sentiment or liquidity would challenge its role as a leading market indicator.",
+      "Bitcoin treasury companies successfully managing their capital structures without causing significant sell pressure on Bitcoin would weaken the argument for the complexity of their financial strategies.",
+      "A decrease in the number of authentic and transparent discussions within the Bitcoin community could indicate a failure to prioritize open dialogue, undermining the importance of such conversations."
+    ],
+    "insight_title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
+    "source_name": "The Jack Mallers Show",
+    "source_date": "2026-06-16",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 16802,
+    "id": 16876,
+    "name": "15 Questions",
+    "slug": "15-questions",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
+    "last_episode_title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
+    "last_podcast_name": "The Jack Mallers Show",
+    "last_episode_date": "2026-06-16",
+    "appearance_count": 1
+  },
+  {
+    "id": 16877,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -28031,7 +28130,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16803,
+    "id": 16878,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -28043,7 +28142,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16804,
+    "id": 16879,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -28055,7 +28154,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16805,
+    "id": 16880,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -28067,7 +28166,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16806,
+    "id": 16881,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -28079,7 +28178,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16807,
+    "id": 16882,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -28091,7 +28190,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16808,
+    "id": 16883,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -28103,7 +28202,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16809,
+    "id": 16884,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -28115,7 +28214,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16810,
+    "id": 16885,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -28127,7 +28226,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16811,
+    "id": 16886,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -28139,7 +28238,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16812,
+    "id": 16887,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -28151,7 +28250,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16813,
+    "id": 16888,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -28163,7 +28262,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16814,
+    "id": 16889,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -28175,7 +28274,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16815,
+    "id": 16890,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -28187,7 +28286,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16816,
+    "id": 16891,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -28199,7 +28298,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16817,
+    "id": 16892,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -28211,7 +28310,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16818,
+    "id": 16893,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -28223,7 +28322,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16819,
+    "id": 16894,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -28235,7 +28334,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 16820,
+    "id": 16895,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -28244,18 +28343,6 @@ const dashboardData = {
     "last_episode_title": "Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
-    "appearance_count": 1
-  },
-  {
-    "id": 16821,
-    "name": "What Doomer Narratives Miss About Private Credit",
-    "slug": "what-doomer-narratives-miss-about-private-credit",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investors should focus on the quality of underlying assets and cash flows in private credit, with a particular emphasis on non-sponsored lending and data center financing opportunities.",
-    "last_episode_title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-05-24",
     "appearance_count": 1
   }
 ],
@@ -28337,7 +28424,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-15",
     "mention_score": 4,
-    "mention_score_decayed": 1.0,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Nvidia's role in the transformation of electrons to valuable tokens and the acceleration of computing tasks positions it well in the AI and broader technology market.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-15 \u2022 Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
     "last_proof_snippet": "Nvidia has built a large ecosystem of partners across the supply chain and in application development.",
@@ -28447,6 +28534,66 @@ const dashboardData = {
       ]
     },
     "net_worth": "$12.3M"
+  },
+  {
+    "id": 42,
+    "name": "Jack Mallers",
+    "slug": "jack-mallers",
+    "bio": "CEO of Strike, a Bitcoin financial platform.",
+    "known_for": "Advocating for Bitcoin adoption and financial innovation.",
+    "net_worth_usd": 50000000.0,
+    "net_worth_source": "https://www.datawallet.com/crypto/jack-mallers-net-worth",
+    "net_worth_updated_at": "2026-04-01T05:04:14.863404",
+    "voice_tone": "Assertive and insightful.",
+    "voice_style": "Direct and focused on the importance of authenticity in Bitcoin discussions.",
+    "voice_delivery_notes": "Clear and deliberate, with emphasis on key points.",
+    "voice_profile_updated_at": "2026-06-16 11:37:25",
+    "last_seen": "2026-06-16 11:37:25",
+    "last_episode_title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
+    "last_podcast_name": "The Jack Mallers Show",
+    "last_episode_date": "2026-06-16",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
+    "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
+    "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
+    "supporting_takeaway": "Bitcoin treasury companies face challenges in managing their capital structures to satisfy common equity, preferred equity, and debt holders.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-22T00:00:51.108693",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jack Mallers",
+      "fetched_at": "2026-05-22T05:00:51.108543+00:00",
+      "cliff_notes": "Jack Mallers is an entrepreneur who has made a significant impact in the world of cryptocurrency and financial technology. As the CEO of Strike, he has led the development of a platform that leverages the Bitcoin Lightning Network to facilitate payments, making Bitcoin more accessible for everyday transactions. His innovative approach to cryptocurrency payments has garnered attention from investors and the tech community, as it addresses the challenges of integrating digital currencies into the mainstream financial ecosystem. Mallers' work at Strike is particularly noteworthy for its potential to revolutionize how people and businesses conduct transactions, offering a faster and more efficient alternative to traditional payment methods.",
+      "derived": {
+        "current_role": "CEO of Strike"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Jack Mallers is an entrepreneur who has made a significant impact in the world of cryptocurrency and financial technology. As the CEO of Strike, he has led the development of a platform that leverages the Bitcoin Lightning Network to facilitate payments, making Bitcoin more accessible for everyday transactions. His innovative approach to cryptocurrency payments has garnered attention from investors and the tech community, as it addresses the challenges of integrating digital currencies into the mainstream financial ecosystem.",
+        "Mallers' work at Strike is particularly noteworthy for its potential to revolutionize how people and businesses conduct transactions, offering a faster and more efficient alternative to traditional payment methods."
+      ],
+      "sections": [
+        {
+          "heading": "Strike Development",
+          "body": "Jack Mallers is known for developing Strike, a platform that simplifies Bitcoin Lightning Network payments, making Bitcoin more accessible for everyday use."
+        },
+        {
+          "heading": "Bitcoin Integration",
+          "body": "Mallers' efforts have been focused on integrating Bitcoin into everyday transactions, aiming to make cryptocurrency payments as common as traditional fiat currency transactions."
+        },
+        {
+          "heading": "Financial Technology Innovation",
+          "body": "As an entrepreneur in the financial technology sector, Mallers has been at the forefront of innovations that aim to bridge the gap between traditional finance and the emerging world of cryptocurrencies."
+        }
+      ]
+    },
+    "net_worth": "$50.0M"
   },
   {
     "id": 122,
@@ -28727,7 +28874,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-13",
     "mention_score": 2,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in sectors poised for growth due to AI adoption, particularly semiconductors and stablecoins, while being cautious about the cyclical nature of capex investments in hyperscaler companies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-13 \u2022 Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show, you'll hear more about hfgm currently the number one morning star rated fund sits its inception in the US macro trading category. Let's",
@@ -28858,7 +29005,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investing in longevity and healthspan technologies and therapies offers significant growth potential as scientific advancements continue to extend human lifespan and improve quality of life.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-28 \u2022 David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
     "last_proof_snippet": "AI-driven drug design is accelerating research by analyzing billions of molecules for potential therapeutic uses.",
@@ -28925,7 +29072,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-24",
     "mention_score": 2,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
     "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
@@ -28991,7 +29138,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-24",
     "mention_score": 2,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
     "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
@@ -29051,7 +29198,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-17",
     "mention_score": 2,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "The investment thesis presented revolves around the potential negative impacts of new real estate taxes on luxury property demand and the growing controversy and potential regulation surrounding data centers, which could affect technology and real estate investments.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-17 \u2022 OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out",
     "last_proof_snippet": "The tax may lead to a decrease in demand for second homes, potentially crashing the market for luxury properties.",
@@ -29112,7 +29259,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-02",
     "mention_score": 2,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
     "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
@@ -29903,66 +30050,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$1.30B"
-  },
-  {
-    "id": 42,
-    "name": "Jack Mallers",
-    "slug": "jack-mallers",
-    "bio": "Host of 'The Jack Mallers Show', an expert in Bitcoin and financial markets.",
-    "known_for": "Bitcoin advocacy and market analysis.",
-    "net_worth_usd": 50000000.0,
-    "net_worth_source": "https://www.datawallet.com/crypto/jack-mallers-net-worth",
-    "net_worth_updated_at": "2026-04-01T05:04:14.863404",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-06-09 17:03:08",
-    "last_episode_title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
-    "last_podcast_name": "The Jack Mallers Show",
-    "last_episode_date": "2026-06-09",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Bitcoin serves as a leading indicator of fiat liquidity and a potential hedge against inflation, while MicroStrategy's complex capital structure poses risks to Bitcoin holders.",
-    "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-09 \u2022 Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
-    "last_proof_snippet": "Yo, welcome back to another episode of The Jack Mallers Show, I am your host, Jack, and you are listening to yet another edition of Mailbag Monday, episode 121. The title of today's episode is Bitcoin's cell-off explained, capital rotation,",
-    "supporting_takeaway": "Evaluate MicroStrategy's financial obligations and their implications for Bitcoin holders.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-22T00:00:51.108693",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Jack Mallers",
-      "fetched_at": "2026-05-22T05:00:51.108543+00:00",
-      "cliff_notes": "Jack Mallers is an entrepreneur who has made a significant impact in the world of cryptocurrency and financial technology. As the CEO of Strike, he has led the development of a platform that leverages the Bitcoin Lightning Network to facilitate payments, making Bitcoin more accessible for everyday transactions. His innovative approach to cryptocurrency payments has garnered attention from investors and the tech community, as it addresses the challenges of integrating digital currencies into the mainstream financial ecosystem. Mallers' work at Strike is particularly noteworthy for its potential to revolutionize how people and businesses conduct transactions, offering a faster and more efficient alternative to traditional payment methods.",
-      "derived": {
-        "current_role": "CEO of Strike"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Jack Mallers is an entrepreneur who has made a significant impact in the world of cryptocurrency and financial technology. As the CEO of Strike, he has led the development of a platform that leverages the Bitcoin Lightning Network to facilitate payments, making Bitcoin more accessible for everyday transactions. His innovative approach to cryptocurrency payments has garnered attention from investors and the tech community, as it addresses the challenges of integrating digital currencies into the mainstream financial ecosystem.",
-        "Mallers' work at Strike is particularly noteworthy for its potential to revolutionize how people and businesses conduct transactions, offering a faster and more efficient alternative to traditional payment methods."
-      ],
-      "sections": [
-        {
-          "heading": "Strike Development",
-          "body": "Jack Mallers is known for developing Strike, a platform that simplifies Bitcoin Lightning Network payments, making Bitcoin more accessible for everyday use."
-        },
-        {
-          "heading": "Bitcoin Integration",
-          "body": "Mallers' efforts have been focused on integrating Bitcoin into everyday transactions, aiming to make cryptocurrency payments as common as traditional fiat currency transactions."
-        },
-        {
-          "heading": "Financial Technology Innovation",
-          "body": "As an entrepreneur in the financial technology sector, Mallers has been at the forefront of innovations that aim to bridge the gap between traditional finance and the emerging world of cryptocurrencies."
-        }
-      ]
-    },
-    "net_worth": "$50.0M"
   },
   {
     "id": 279,
@@ -33203,7 +33290,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Steve Helden's candidacy represents a potential shift in California's political landscape towards policies that promote economic freedom and reduced regulatory burdens, which could have implications for businesses and investors in the state.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-29 \u2022 CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
     "last_proof_snippet": "Helden's background as a child of Hungarian refugees and his work experience in various industries shape his policy views.",
@@ -33265,7 +33352,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Investing in companies that optimize AI model architecture and training can lead to significant performance improvements and cost savings.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-29 \u2022 Reiner Pope \u2013 The math behind how LLMs are trained and served",
     "last_proof_snippet": "Batch size significantly impacts latency and cost in AI systems.",
@@ -33581,7 +33668,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
     "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
@@ -33644,7 +33731,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Invest in AI and data center infrastructure companies that benefit from a supportive regulatory environment and government-backed scientific research.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-24 \u2022 SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
     "last_proof_snippet": "Data centers are a critical component of AI infrastructure, and the president's stance on them is favorable for progress.",
@@ -33702,7 +33789,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investing in AI, hardware, and pharma presents significant opportunities due to the large market cap potential and the need for innovation in computing.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-23 \u2022 Martin Shkreli on AI, Pharma, and What Actually Matters",
     "last_proof_snippet": "There is a surprising lack of startups in certain areas of AI and hardware, presenting opportunities for new entrants.",
@@ -33766,7 +33853,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "The Iran conflict and energy market disruptions present opportunities in commodities, particularly in the context of extreme backwardation and supply constraints, which could drive further price increases and investment returns.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-23 \u2022 MacroVoices #529 Ole S Hansen: Commodities in The Wake of The Iran Crisis",
     "last_proof_snippet": "Extreme backwardation in crude oil presents powerful return tailwinds for traders.",
@@ -33828,7 +33915,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Invest in companies and technologies that are at the forefront of AI development and data center infrastructure, as these will be key drivers of growth and power in the coming years.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-23 \u2022 Iran's AI Supply Chain Threat, Claude vs. SaaS, and Elon's $60B Cursor Bet | EP #249",
     "last_proof_snippet": "The aftermath of war is predicted to accelerate the competition between frontier labs and established businesses in AI.",
@@ -34015,7 +34102,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in the evolution of software development tools that cater to the needs of both human developers and AI coding agents presents an opportunity for significant growth and innovation.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-20 \u2022 Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
     "last_proof_snippet": "Coding agents are struggling with traditional Git interfaces, necessitating new tool development.",
@@ -34333,7 +34420,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Invest in sectors likely to benefit from increased inflation and supply chain disruptions, with a focus on energy, uranium, and domestic electrical infrastructure.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-16 \u2022 MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
     "last_proof_snippet": "Markets may be underpricing the severity of supply chain disruptions.",
@@ -34526,7 +34613,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Investing in HFGM global macro ETF, which is highly rated by Morningstar, may offer exposure to macroeconomic trends and government policies affecting financial markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-15 \u2022 Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
     "last_proof_snippet": "Historically, financial repression has been used during wartime to keep bond yields artificially low.",
@@ -34833,7 +34920,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-11 \u2022 SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
     "last_proof_snippet": "Starlink is seen as a profitable stepping stone for SpaceX's ambitions in space.",
@@ -34895,7 +34982,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-11 \u2022 SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
     "last_proof_snippet": "Starlink is seen as a profitable stepping stone for SpaceX's ambitions in space.",
@@ -34957,7 +35044,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Invest in software companies that define the market, focusing on backing scale-ready leaders, providing liquidity to early investors, and helping companies make strategic decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-09 \u2022 \"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
     "last_proof_snippet": "AI is a significant paradigm shift, commoditizing some areas of the market but not changing the fundamental rules of the game.",
@@ -35025,7 +35112,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-09 \u2022 MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
     "last_proof_snippet": "The oil market may be tighter than widely believed, with implications for food prices and inflation.",
@@ -35282,7 +35369,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-07 \u2022 Michael Nielsen \u2013 How science actually progresses",
     "last_proof_snippet": "The Michelson-Morley experiment was initially aimed at testing theories of the ether, which was a significant concept in physics before the advent of relativity.",
@@ -35343,7 +35430,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-07 \u2022 Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
     "last_proof_snippet": "The recent outperformance of emerging market equities is attributed to a fundamental repricing of relative value and the 'anywhere but US' theme.",
@@ -35403,7 +35490,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-07 \u2022 How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
     "last_proof_snippet": "The company is leveraging AI to design and build living products, which is a novel approach in synthetic biology.",
@@ -35776,7 +35863,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
     "last_proof_snippet": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
@@ -35836,7 +35923,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
     "last_proof_snippet": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
@@ -35897,7 +35984,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
     "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
@@ -36081,7 +36168,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-31 \u2022 Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
     "last_proof_snippet": "Autonomous vehicles are becoming a reality, with a hybrid model expected to emerge where both human-driven and autonomous vehicles coexist.",
@@ -36142,7 +36229,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
     "last_proof_snippet": "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
@@ -36203,7 +36290,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
     "last_proof_snippet": "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
@@ -36268,7 +36355,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-31 \u2022 The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
     "last_proof_snippet": "The impact of regulation and policy on the cost of starting a hedge fund.",
@@ -36332,7 +36419,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-29 \u2022 The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
     "last_proof_snippet": "Alternative managers are increasingly seeking capital from retail investors and wealth channels.",
@@ -38255,7 +38342,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-17 \u2022 Stealth Startups and the Digitization of the Physical World",
     "last_proof_snippet": "I don't know if some of you knew I was an angel investor in some companies. On the count of three, what's my favorite angel investment of all time? One, two, three. Thank you. Give it up. Travis Kalenik. Appreciate you. Alright. Wow. On a b",
