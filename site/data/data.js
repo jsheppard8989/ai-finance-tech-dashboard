@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-17T05:03:21.596758",
-  chartsVersion: "2026-06-17T05:03:09.418291",
+  generatedAt: "2026-06-17T06:39:29.698474",
+  chartsVersion: "2026-06-17T06:39:20.588085",
   priceSnapshot: {
   "GOOGL": {
     "price": 373.25,
     "change_pct": -4.27,
     "name": "GOOGL",
-    "updated_at": "2026-06-17T05:03:09.417029"
+    "updated_at": "2026-06-17T06:39:20.587261"
   },
   "BTC": {
-    "price": 64838.77,
-    "change_pct": 1.63,
+    "price": 64686.17,
+    "change_pct": 1.39,
     "name": "BTC",
-    "updated_at": "2026-06-17T05:03:09.417050"
+    "updated_at": "2026-06-17T06:39:20.587278"
   },
   "MSFT": {
     "price": 393.83,
     "change_pct": -7.77,
     "name": "MSFT",
-    "updated_at": "2026-06-17T05:03:09.417060"
+    "updated_at": "2026-06-17T06:39:20.587285"
   },
   "NVDA": {
     "price": 207.41,
     "change_pct": -3.08,
     "name": "NVDA",
-    "updated_at": "2026-06-17T05:03:09.417068"
+    "updated_at": "2026-06-17T06:39:20.587290"
   },
   "WTI": {
     "price": 3.22,
     "change_pct": -13.44,
     "name": "WTI",
-    "updated_at": "2026-06-17T05:03:09.417077"
+    "updated_at": "2026-06-17T06:39:20.587297"
   },
   "META": {
     "price": NaN,
     "change_pct": NaN,
     "name": "META",
-    "updated_at": "2026-06-17T05:03:09.417084"
+    "updated_at": "2026-06-17T06:39:20.587301"
   },
   "AMZN": {
     "price": 246.0,
     "change_pct": -10.22,
     "name": "AMZN",
-    "updated_at": "2026-06-17T05:03:09.417098"
+    "updated_at": "2026-06-17T06:39:20.587307"
   },
   "TSLA": {
     "price": 404.66,
     "change_pct": -8.47,
     "name": "TSLA",
-    "updated_at": "2026-06-17T05:03:09.417111"
+    "updated_at": "2026-06-17T06:39:20.587313"
   },
   "S&P 500": {
     "price": 750.33,
     "change_pct": -0.57,
     "name": "S&P 500",
-    "updated_at": "2026-06-17T05:03:09.417124"
+    "updated_at": "2026-06-17T06:39:20.587318"
   },
   "AAPL": {
     "price": 299.24,
     "change_pct": -4.25,
     "name": "AAPL",
-    "updated_at": "2026-06-17T05:03:09.417132"
+    "updated_at": "2026-06-17T06:39:20.587324"
   },
   "QQQ": {
     "price": 729.86,
     "change_pct": -0.78,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-17T05:03:09.417140"
+    "updated_at": "2026-06-17T06:39:20.587329"
   },
   "BTC-USD": {
-    "price": 64838.77,
-    "change_pct": 1.63,
+    "price": 64686.17,
+    "change_pct": 1.39,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-17T05:03:09.417150"
+    "updated_at": "2026-06-17T06:39:20.587338"
   }
 },
   tickerScores: [
@@ -1537,6 +1537,25 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 258
+    },
+    {
+      "id": 306,
+      "title": "\ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-06-03",
+      "summary": "This podcast episode discusses Axiom Math's Series A funding round, its valuation, and its role in verified AI for mathematics. The company's unique approach to combining human and AI collaboration for mathematical problem-solving is highlighted, along with the potential for verified AI to extend beyond mathematics into other fields. The importance of formal verification in ensuring the reliability of AI systems is emphasized, and the competitive advantage of Axiom's interdisciplinary team is underscored. The episode also touches on the market expansion for verified AI and the need for collaboration within the AI for math community to avoid fragmentation.",
+      "key_takeaway": "Invest in Axiom Math for its pioneering role in verified AI for mathematics, which has the potential to drive innovation and efficiency in problem-solving across various fields.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-06-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 291
     },
     {
       "id": 268,
@@ -28317,9 +28336,83 @@ const dashboardData = {
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-06-04",
     "key_tickers": []
+  },
+  "306": {
+    "id": 296,
+    "insight_id": 306,
+    "podcast_episode_id": 291,
+    "overview": "The unresolved tension in the AI for mathematics space is the balance between the rapid advancement of AI capabilities and the need for rigorous formal verification to ensure reliability and accuracy. Axiom Math's competitive dynamic revolves around its ability to scale mathematical brilliance through verified AI, which could be contested by the rise of alternative verification methods or the development of more sophisticated AI systems by competitors. The metric that arbitrates this uncertainty is the adoption rate and success of verified AI applications in real-world mathematical and scientific problems, with the horizon of proof being the consistent delivery of accurate and reliable AI-generated proofs and solutions.",
+    "key_takeaways_detailed": [
+      "Investors should monitor Axiom Math's ability to maintain its valuation and secure further funding as a proxy for market confidence in its verified AI approach.",
+      "The success of Axiom's interdisciplinary team in driving innovation will be a key differentiator; thus, tracking their progress in developing and deploying verified AI tools is crucial.",
+      "The expansion of verified AI applications into new fields, such as biology and chemistry, presents an opportunity for Axiom to demonstrate the versatility and scalability of its technology.",
+      "Investors should be alert to any shifts in the competitive landscape, such as new entrants or technological breakthroughs that could disrupt Axiom's market position."
+    ],
+    "investment_thesis": "Axiom Math's investment thesis is predicated on the company's ability to lead the market in verified AI for mathematics and extend its technology into other fields. The timeframe for this thesis is medium to long-term, as the development and adoption of verified AI technologies are likely to be gradual. An observable development that would vindicate this thesis is the consistent growth in the number of successful AI-generated proofs and solutions across various scientific disciplines, indicating the broad applicability and reliability of Axiom's technology. Conversely, a lack of such growth or the emergence of competing technologies that offer similar or superior capabilities could invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI and machine learning, as well as its focus on data security and privacy, makes it relevant to the thesis on verified AI. Apple's ecosystem could benefit from advancements in verified AI, particularly in areas like software and hardware verification.",
+        "positioning": "Positioning should be strategic and long-term, as Apple's integration of verified AI technologies could enhance its product offerings and market.",
+        "risk": "Key risks include the slow adoption of verified AI in Apple's product development cycle and potential competition from other tech giants with more aggressive verified AI strategies."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The argument that informal AI systems are sufficient for current mathematical and scientific problem-solving, reducing the perceived need for verified AI.",
+      "The possibility that the interdisciplinary approach of Axiom Math could lead to a lack of focus or dilution of expertise, potentially hindering the company's innovation.",
+      "Concerns over the scalability of verified AI, as the complexity of problems increases, potentially outpacing the development of verification methods."
+    ],
+    "catalysts": [
+      "Axiom Math securing additional funding rounds at increasing valuations, indicating market confidence in their approach.",
+      "Successful deployment of Axiom's verified AI tools in new scientific fields, demonstrating the technology's versatility.",
+      "Publications or announcements of significant breakthroughs in mathematics or related fields attributed to the use of Axiom's verified AI tools.",
+      "Regulatory developments or industry standards that mandate the use of formal verification in AI systems, creating a demand for Axiom's technology."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-17T06:38:37.503731",
+    "updated_at": "2026-06-17 11:38:37",
+    "episode_evidence": "Axiom Math's Series A funding round, which raised $200 million and valued the company at $1.6 billion, underscores its pioneering role in verified AI for mathematics. The company's approach to combining human and AI collaboration is exemplified by their focus on formal verification to enhance AI's reasoning capabilities, as highlighted by the host: 'Verification helps him extend the brilliance, like both kind of scale up and scale up.' Axiom's tools, such as the Axiom Lean Engine, facilitate this process, making it easier for mathematicians and researchers to engage with AI. The company's competitive advantage is further emphasized by its interdisciplinary team, as the guest noted: 'We think having this sort of very special team is a differentiation.' This team's diversity in expertise from mathematics, AI, to software engineering positions Axiom to tackle complex problems effectively and drive innovation in verified AI applications beyond mathematics, including in fields like biology and chemistry.",
+    "falsification_tracks": [
+      "If Axiom Math fails to secure subsequent funding rounds at increasing valuations, it could indicate a lack of market confidence in their verified AI approach.",
+      "Should Axiom's interdisciplinary team face significant turnover or loss of key personnel, the company's ability to innovate and maintain its competitive edge could be compromised.",
+      "If the company's verified AI tools do not gain widespread adoption within the mathematics and related scientific communities, it would challenge the scalability of their approach.",
+      "In the event of high-profile failures or inaccuracies in AI-generated proofs using Axiom's technology, trust in verified AI could be eroded, impacting Axiom's reputation and market position."
+    ],
+    "insight_title": "\ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
+    "source_name": "Latent Space: The AI Engineer Podcast",
+    "source_date": "2026-06-03",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 426,
+    "term": "Verified AI",
+    "definition": "AI systems that use formal verification to ensure the correctness of their outputs, enhancing reliability and trustworthiness.",
+    "investment_implications": "Invest in companies that are developing and implementing verified AI technologies, as they are likely to see increased demand in safety-critical industries.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-06-17 11:37:56",
+    "priority_score": 80
+  },
+  {
+    "id": 427,
+    "term": "Formal Verification",
+    "definition": "A method used to mathematically prove the correctness of systems, such as AI-generated proofs, to ensure their reliability.",
+    "investment_implications": "Look for companies that are investing in formal verification to improve the accuracy and safety of AI systems.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-06-17 11:37:56",
+    "priority_score": 80
+  },
   {
     "id": 424,
     "term": "AI Compute Market",
@@ -28343,35 +28436,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-06-17 04:37:46",
     "priority_score": 80
-  },
-  {
-    "id": 420,
-    "term": "Autonomous Business Management",
-    "definition": "The use of AI agents to manage business operations without human intervention.",
-    "investment_implications": "Investors should look for companies developing AI capable of autonomous business management.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-06-17 04:37:04",
-    "priority_score": 80
-  },
-  {
-    "id": 421,
-    "term": "Ethical Implications of AI",
-    "definition": "The moral and societal concerns arising from AI behavior, such as lying and manipulation.",
-    "investment_implications": "Consider the ethical standards of companies when investing in AI technologies.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-06-17 04:37:04",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 17252,
+    "id": 17328,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -28383,7 +28452,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17253,
+    "id": 17329,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -28395,7 +28464,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17254,
+    "id": 17330,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -28407,7 +28476,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17255,
+    "id": 17331,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -28419,7 +28488,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17256,
+    "id": 17332,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -28431,7 +28500,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17257,
+    "id": 17333,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -28443,7 +28512,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17258,
+    "id": 17334,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -28455,7 +28524,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17259,
+    "id": 17335,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -28467,7 +28536,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17260,
+    "id": 17336,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -28479,7 +28548,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17261,
+    "id": 17337,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -28491,7 +28560,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17262,
+    "id": 17338,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -28503,7 +28572,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17263,
+    "id": 17339,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -28515,7 +28584,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17264,
+    "id": 17340,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -28527,7 +28596,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17265,
+    "id": 17341,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -28539,7 +28608,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17266,
+    "id": 17342,
     "name": "Reality",
     "slug": "reality",
     "bio": null,
@@ -28551,7 +28620,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17267,
+    "id": 17343,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -28563,7 +28632,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17268,
+    "id": 17344,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -28575,7 +28644,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17269,
+    "id": 17345,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -28587,7 +28656,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17270,
+    "id": 17346,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -28599,7 +28668,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17271,
+    "id": 17347,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -28689,7 +28758,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-15",
     "mention_score": 4,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Nvidia's role in the transformation of electrons to valuable tokens and the acceleration of computing tasks positions it well in the AI and broader technology market.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-15 \u2022 Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
     "last_proof_snippet": "Nvidia has built a large ecosystem of partners across the supply chain and in application development.",
@@ -28880,7 +28949,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
@@ -29201,7 +29270,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-13",
     "mention_score": 2,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in sectors poised for growth due to AI adoption, particularly semiconductors and stablecoins, while being cautious about the cyclical nature of capex investments in hyperscaler companies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-13 \u2022 Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show, you'll hear more about hfgm currently the number one morning star rated fund sits its inception in the US macro trading category. Let's",
@@ -29399,7 +29468,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-24",
     "mention_score": 2,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
     "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
@@ -29465,7 +29534,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-24",
     "mention_score": 2,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
     "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
@@ -29525,7 +29594,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-17",
     "mention_score": 2,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "The investment thesis presented revolves around the potential negative impacts of new real estate taxes on luxury property demand and the growing controversy and potential regulation surrounding data centers, which could affect technology and real estate investments.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-17 \u2022 OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out",
     "last_proof_snippet": "The tax may lead to a decrease in demand for second homes, potentially crashing the market for luxury properties.",
@@ -29586,7 +29655,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-02",
     "mention_score": 2,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
     "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
@@ -29870,6 +29939,68 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 291,
+    "name": "Not provided",
+    "slug": "not-provided",
+    "bio": "RJ Honicky is a prominent figure in the field of computational biology, with a focus on spatial transcriptomics. He is known for his work in leveraging AI to enhance scientific collaboration and his contributions to the understanding of RNA therapeutics.",
+    "known_for": "Pioneering the use of AI in spatial transcriptomics and RNA therapeutics, aiming to scale scientific brilliance.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Not provided",
+    "voice_style": "Not provided",
+    "voice_delivery_notes": "Not provided",
+    "voice_profile_updated_at": "2026-06-17 11:37:56",
+    "last_seen": "2026-06-17 11:37:56",
+    "last_episode_title": "\ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-06-03",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in Axiom Math for its pioneering role in verified AI for mathematics, which has the potential to drive innovation and efficiency in problem-solving across various fields.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
+    "last_proof_snippet": "But it's for the first time now I think verified AI is to open up collaboration. Either it's human AI collaboration. Well, before a blueprint like that's human human collaboration. And Lin was a grounding, was a verification formal language",
+    "supporting_takeaway": "Monitor Axiom Math's progress and its impact on the AI for math community as a potential indicator of market trends.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-17T06:38:06.949823",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Not provided",
+      "fetched_at": "2026-06-17T11:38:06.949367+00:00",
+      "cliff_notes": "RJ Honicky has made significant strides in the field of computational biology, particularly in the area of spatial transcriptomics. His work revolves around the intersection of AI and scientific collaboration, with the goal of enhancing the capabilities of researchers and scientists. Honicky's contributions have been pivotal in understanding RNA therapeutics and leveraging AI to scale scientific brilliance. His approach to verification is not about business but about scaling and compounding brilliance, as he emphasizes the importance of collaboration between humans and AI agents. His work is seen as a significant step forward in the latest phase of AI for science, with the potential to revolutionize the way scientific research is conducted.",
+      "derived": {
+        "current_role": "CTL mirror omics"
+      },
+      "infobox": {
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "RJ Honicky has made significant strides in the field of computational biology, particularly in the area of spatial transcriptomics. His work revolves around the intersection of AI and scientific collaboration, with the goal of enhancing the capabilities of researchers and scientists. Honicky's contributions have been pivotal in understanding RNA therapeutics and leveraging AI to scale scientific brilliance.",
+        "His approach to verification is not about business but about scaling and compounding brilliance, as he emphasizes the importance of collaboration between humans and AI agents. His work is seen as a significant step forward in the latest phase of AI for science, with the potential to revolutionize the way scientific research is conducted."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Scientific Collaboration",
+          "body": "RJ Honicky is recognized for his work in using AI to facilitate collaboration between humans and AI agents, aiming to enhance the capabilities of researchers."
+        },
+        {
+          "heading": "Spatial Transcriptomics",
+          "body": "Honicky's work in spatial transcriptomics involves the study of gene expression in spatial contexts, which is crucial for understanding complex biological systems."
+        },
+        {
+          "heading": "RNA Therapeutics",
+          "body": "Honicky's contributions to RNA therapeutics involve the development of treatments that can modulate gene expression, offering new avenues for disease treatment."
+        },
+        {
+          "heading": "Verification and Brilliance",
+          "body": "Honicky views verification not as a business necessity but as a means to scale and compound brilliance, emphasizing the importance of collaboration in scientific advancement."
+        }
+      ]
+    }
   },
   {
     "id": 289,
@@ -33495,7 +33626,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Investors should look for opportunities in chaos, focusing on sectors with significant potential for growth and capital movement, such as SpaceX's IPO and the de-scheduling of cannabis.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-30 \u2022 SpaceX IPO: Why This Hedge Fund Manager is Fading the Hype | Moez Kassam",
     "last_proof_snippet": "SpaceX's IPO could be one of the largest in history, with potential for significant capital movement.",
@@ -33934,7 +34065,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Investing in syndicated loans through BDCs like Palmer Square's offers a less risky asset class with greater transparency and historical performance, making it an attractive option in the current market environment.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-26 \u2022 \u201cOverblown\u201d Sell-off in Software Loans | Matthew Bloomfield on Public BDCs (Business Development Companies) and Collateralized Loan Obligations (CLOs)",
     "last_proof_snippet": "BDCs typically own private credit loans, but Palmer Square's BDC owns mostly broadly syndicated loans, which are perceived as less risky.",
@@ -33997,7 +34128,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
     "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
@@ -34060,7 +34191,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Invest in AI and data center infrastructure companies that benefit from a supportive regulatory environment and government-backed scientific research.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-24 \u2022 SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
     "last_proof_snippet": "Data centers are a critical component of AI infrastructure, and the president's stance on them is favorable for progress.",
@@ -34496,7 +34627,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Invest in companies at the forefront of AI development and application, as they are poised to shape the future of work, management, and the economy.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-18 \u2022 Sam Altman\u2019s Attack, Amazon vs. Starlink, and What Opus 4.7 Actually Means | #248",
     "last_proof_snippet": "99% of people are underreacting to and unaware of the potential impacts of AI on their lives and jobs.",
@@ -34559,7 +34690,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Invest in software companies that can adapt to AI disruption and emerge stronger, with the potential for significant upside in the next 12 months.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-19 \u2022 Navigating the SaaS Apocalypse: Why AI Disruption is Mispriced | Deiya Pernas | Pernas Research",
     "last_proof_snippet": "The sell-off has led to valuations not seen in years, presenting opportunities for investors.",
@@ -34619,7 +34750,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "The rapid advancement of AI and consumer tech is creating new opportunities and challenges for venture capital, with a focus on the need for universal basic purpose and the potential for AI to disrupt traditional job markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-19 \u2022 Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
     "last_proof_snippet": "The cost structure for consumer products has shifted, with AI inference costs affecting the economics of venture funding.",
@@ -34749,7 +34880,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Invest in sectors likely to benefit from increased inflation and supply chain disruptions, with a focus on energy, uranium, and domestic electrical infrastructure.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-16 \u2022 MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
     "last_proof_snippet": "Markets may be underpricing the severity of supply chain disruptions.",
@@ -35632,7 +35763,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Invest in Pennsylvania due to its pro-growth policies, job creation, and improved business climate.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-08 \u2022 Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
     "last_proof_snippet": "Pennsylvania is ranked number one in charging Medicaid fraud and is pro-data center.",
@@ -35945,7 +36076,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-06 \u2022 The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
     "last_proof_snippet": "The strategic significance of the US maintaining its position in the global technology and defense landscape.",
@@ -36005,7 +36136,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-06 \u2022 The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
     "last_proof_snippet": "The strategic significance of the US maintaining its position in the global technology and defense landscape.",
@@ -36065,7 +36196,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Investing in companies that leverage coding agents could offer significant productivity gains and reshape the software development landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-06 \u2022 Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
     "last_proof_snippet": "The future of work may involve smaller teams leveraging coding agents to achieve more with less, challenging traditional company structures.",

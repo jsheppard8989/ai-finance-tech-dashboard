@@ -706,6 +706,25 @@
       "podcast_episode_id": 258
     },
     {
+      "id": 306,
+      "title": "\ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-06-03",
+      "summary": "This podcast episode discusses Axiom Math's Series A funding round, its valuation, and its role in verified AI for mathematics. The company's unique approach to combining human and AI collaboration for mathematical problem-solving is highlighted, along with the potential for verified AI to extend beyond mathematics into other fields. The importance of formal verification in ensuring the reliability of AI systems is emphasized, and the competitive advantage of Axiom's interdisciplinary team is underscored. The episode also touches on the market expansion for verified AI and the need for collaboration within the AI for math community to avoid fragmentation.",
+      "key_takeaway": "Invest in Axiom Math for its pioneering role in verified AI for mathematics, which has the potential to drive innovation and efficiency in problem-solving across various fields.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-06-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 291
+    },
+    {
       "id": 268,
       "title": "Real Boom? Fake Money?",
       "source_type": "podcast",
