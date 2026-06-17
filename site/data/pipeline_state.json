@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-16T23:40:14.172115",
-  "last_updated": "2026-06-16T23:40:14.172115",
-  "last_pipeline_run": "2026-06-16T23:40:14.172115",
+  "generated_at": "2026-06-17T05:03:12.835194",
+  "last_updated": "2026-06-17T05:03:12.835194",
+  "last_pipeline_run": "2026-06-17T05:03:12.835194",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -11,21 +11,21 @@
     "ticker_mentions": 190,
     "podcast_episodes": 263,
     "newsletters": 7,
-    "daily_scores": 127,
+    "daily_scores": 128,
     "overton_terms_total": 161,
     "latest_insights_total": 277,
     "today_mentions": {
       "podcast": 1
     },
-    "podcasts_analyzed": 4
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 8,
-    "transcribed": 4,
-    "analyzed": 2,
-    "insight_created": 2,
-    "published": 1,
-    "total": 8
+    "downloaded": 6,
+    "transcribed": 2,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 7
   },
   "episodes": [
     {
@@ -86,57 +86,6 @@
       "status": "needs_analysis"
     },
     {
-      "id": "937cdc31-6575-49ec-a776-21d9843fa327",
-      "podcast": "BG2Pod with Brad Gerstner and Bill Gurley ",
-      "title": "The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
-      "published": "2026-06-11",
-      "rss_guid": "937cdc31-6575-49ec-a776-21d9843fa327",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
-    {
-      "id": "substack:post:200614482",
-      "podcast": "Latent Space: The AI Engineer Podcast",
-      "title": "Reality: The Final Eval \u2014 Lukas Petersson and Axel Backlund of Andon Labs",
-      "published": "2026-06-04",
-      "rss_guid": "substack:post:200614482",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": false
-      },
-      "stage_reasons": {
-        "published": "Insight exists but added_to_site=0 \u2014 Deep Dives + export must succeed; run auto_pipeline."
-      },
-      "first_blocker": "published",
-      "remediation_by_stage": {
-        "published": {
-          "action_id": "EXPORT_AND_PUBLISH",
-          "steps": [
-            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
-            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
-            "When added_to_site=1 on the episode row, this stage turns green."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        }
-      },
-      "status": "needs_export"
-    },
-    {
       "id": "substack:post:199994886",
       "podcast": "Latent Space: The AI Engineer Podcast",
       "title": "\ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
@@ -160,6 +109,7 @@
         "transcribed": {
           "action_id": "TRANSCRIBE",
           "steps": [
+            "There are 1 MP3 file(s) in whisper_queue/ waiting for the worker.",
             "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
             "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
             "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/."
@@ -230,6 +180,7 @@
         "transcribed": {
           "action_id": "TRANSCRIBE",
           "steps": [
+            "There are 1 MP3 file(s) in whisper_queue/ waiting for the worker.",
             "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
             "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
             "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/."
@@ -300,6 +251,7 @@
         "transcribed": {
           "action_id": "TRANSCRIBE",
           "steps": [
+            "There are 1 MP3 file(s) in whisper_queue/ waiting for the worker.",
             "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
             "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
             "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/."
@@ -370,6 +322,7 @@
         "transcribed": {
           "action_id": "TRANSCRIBE",
           "steps": [
+            "There are 1 MP3 file(s) in whisper_queue/ waiting for the worker.",
             "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
             "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
             "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/."
@@ -472,9 +425,98 @@
         }
       },
       "status": "needs_analysis"
+    },
+    {
+      "id": "rss::the a16z show::the fintech playbook for latin america",
+      "podcast": "The a16z Show",
+      "title": "The Fintech Playbook for Latin America",
+      "published": "2026-06-17",
+      "published_date": "2026-06-17",
+      "rss_guid": "",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "RSS-only: not in curation_log APPROVED list yet \u2014 run curate.py so it can be fetched.",
+        "transcribed": "Blocked until download completes.",
+        "analyzed": "Blocked until transcript exists.",
+        "insight_created": "Blocked until analysis completes.",
+        "published": "Blocked until export after insight promotion."
+      },
+      "first_blocker": "downloaded",
+      "remediation_by_stage": {
+        "downloaded": {
+          "action_id": "FETCH_AUDIO",
+          "steps": [
+            "Approve the episode in curation (curate.py refreshes pipeline/state/curation_log.json).",
+            "Download audio and enqueue transcription: fetch_latest.py --queue-only.",
+            "If MP3 never appears, inspect pipeline/logs/pipeline_schedule.err and fetch_latest output."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 curate.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 fetch_latest.py --queue-only"
+          ]
+        },
+        "transcribed": {
+          "action_id": "FETCH_BEFORE_TRANSCRIBE",
+          "steps": [
+            "Audio must exist before transcription. Complete FETCH_AUDIO first."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 curate.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 fetch_latest.py --queue-only"
+          ]
+        },
+        "analyzed": {
+          "action_id": "ANALYZE_TRANSCRIPTS",
+          "steps": [
+            "Run transcript analysis so is_processed=1 on podcast_episodes (analyze_transcript via auto_pipeline).",
+            "Ensure LLM keys in workspace .env (e.g. MOONSHOT_API_KEY) are set if the analyzer requires them.",
+            "Quick path: auto_pipeline.py --analyze-only analyzes then continues promotion/export steps in that run."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        },
+        "insight_created": {
+          "action_id": "PROMOTE_INSIGHT",
+          "steps": [
+            "Promotion to latest_insights runs inside auto_pipeline after analysis.",
+            "If analysis succeeded but insight is missing, re-run full auto_pipeline.py and check logs for promote_episodes_to_insights errors."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        },
+        "published": {
+          "action_id": "EXPORT_AND_PUBLISH",
+          "steps": [
+            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
+            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
+            "When added_to_site=1 on the episode row, this stage turns green."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        }
+      },
+      "status": "needs_download"
     }
   ],
   "available_from_rss": [
+    {
+      "podcast": "The a16z Show",
+      "title": "The Fintech Playbook for Latin America",
+      "published": "Wed, 17 Jun 2026 10:00:00 +0000",
+      "published_date": "2026-06-17",
+      "rss_guid": ""
+    },
     {
       "podcast": "Dwarkesh Podcast",
       "title": "Ada Palmer \u2013 Machiavelli is the most misunderstood thinker of all time",
@@ -525,17 +567,8 @@
       "title": "Samo Burja on Growth, Energy, and AI",
       "status": "needs_analysis",
       "published": "2026-06-12",
-      "age_days": 4,
+      "age_days": 5,
       "next_blocker": "analyzed"
-    },
-    {
-      "id": "substack:post:200614482",
-      "podcast": "Latent Space: The AI Engineer Podcast",
-      "title": "Reality: The Final Eval \u2014 Lukas Petersson and Axel Backlund of Andon Labs",
-      "status": "needs_export",
-      "published": "2026-06-04",
-      "age_days": 12,
-      "next_blocker": "published"
     },
     {
       "id": "substack:post:199994886",
@@ -543,7 +576,7 @@
       "title": "\ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
       "status": "needs_transcription",
       "published": "2026-06-03",
-      "age_days": 13,
+      "age_days": 14,
       "next_blocker": "transcribed"
     },
     {
@@ -552,7 +585,7 @@
       "title": "\u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
       "status": "needs_transcription",
       "published": "2026-06-03",
-      "age_days": 13,
+      "age_days": 14,
       "next_blocker": "transcribed"
     },
     {
@@ -561,7 +594,7 @@
       "title": "GitHub's plan for Agents \u2014 Kyle Daigle, GitHub",
       "status": "needs_transcription",
       "published": "2026-06-02",
-      "age_days": 14,
+      "age_days": 15,
       "next_blocker": "transcribed"
     },
     {
@@ -570,7 +603,7 @@
       "title": "Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
       "status": "needs_transcription",
       "published": "2026-06-01",
-      "age_days": 15,
+      "age_days": 16,
       "next_blocker": "transcribed"
     }
   ],
@@ -589,7 +622,7 @@
       "insight_created",
       "published"
     ],
-    "whisper_queue_pending_mp3": 0,
+    "whisper_queue_pending_mp3": 1,
     "fix_order": "For each episode, read first_blocker then remediation_by_stage[first_blocker].",
     "end_to_end": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py",
     "analyze_only": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
