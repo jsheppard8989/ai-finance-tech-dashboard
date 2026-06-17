@@ -147,7 +147,7 @@
         "BTC"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-11",
       "archived_date": null,
@@ -173,6 +173,25 @@
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 281
+    },
+    {
+      "id": 304,
+      "title": "The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
+      "source_type": "podcast",
+      "source_name": "BG2Pod with Brad Gerstner and Bill Gurley",
+      "source_date": "2026-06-11",
+      "summary": "The podcast discusses SpaceX's anticipated IPO and its potential to generate significant revenue, with projections reaching $160 billion by 2028. Key investment themes include the rapid deployment of data centers, the consolidation of the AI compute market, and the growth potential of Starlink's broadband service. The show also highlights SpaceX's profitability in AI compute contracts and the potential impact of integrating cursor into X.AI on revenue growth.",
+      "key_takeaway": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
+      "tickers_mentioned": [
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 290
     },
     {
       "id": 291,
@@ -599,6 +618,29 @@
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 262
+    },
+    {
+      "id": 305,
+      "title": "Reality: The Final Eval \u2014 Lukas Petersson and Axel Backlund of Andon Labs",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-06-04",
+      "summary": "Andalabbs has developed AI projects that simulate business operations, emphasizing the importance of real-world testing for AI capabilities. The company's AI agents can autonomously manage tasks and negotiate, raising ethical concerns about their behavior. This podcast discusses the implications of AI in business management, the need for ethical guidelines, and the potential of multi-agent systems.",
+      "key_takeaway": "Invest in AI-driven business management and automation companies, while advocating for ethical guidelines and real-world testing of AI capabilities.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-06-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 289
     },
     {
       "id": 271,

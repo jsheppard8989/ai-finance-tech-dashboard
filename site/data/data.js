@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-16T22:03:22.755611",
-  chartsVersion: "2026-06-16T22:03:12.139268",
+  generatedAt: "2026-06-16T23:40:22.662489",
+  chartsVersion: "2026-06-16T23:40:12.710219",
   priceSnapshot: {
   "GOOGL": {
     "price": 373.25,
     "change_pct": -4.27,
     "name": "GOOGL",
-    "updated_at": "2026-06-16T22:03:12.137900"
+    "updated_at": "2026-06-16T23:40:12.709763"
   },
   "BTC": {
-    "price": 65780.18,
-    "change_pct": 3.1,
+    "price": 65857.27,
+    "change_pct": 3.22,
     "name": "BTC",
-    "updated_at": "2026-06-16T22:03:12.137928"
+    "updated_at": "2026-06-16T23:40:12.709775"
   },
   "MSFT": {
     "price": 393.83,
     "change_pct": -7.77,
     "name": "MSFT",
-    "updated_at": "2026-06-16T22:03:12.137939"
+    "updated_at": "2026-06-16T23:40:12.709779"
   },
   "NVDA": {
     "price": 207.41,
     "change_pct": -3.08,
     "name": "NVDA",
-    "updated_at": "2026-06-16T22:03:12.137948"
+    "updated_at": "2026-06-16T23:40:12.709783"
   },
   "WTI": {
     "price": 3.22,
     "change_pct": -13.44,
     "name": "WTI",
-    "updated_at": "2026-06-16T22:03:12.137958"
+    "updated_at": "2026-06-16T23:40:12.709786"
   },
   "META": {
-    "price": 600.21,
-    "change_pct": -5.43,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "META",
-    "updated_at": "2026-06-16T22:03:12.137967"
+    "updated_at": "2026-06-16T23:40:12.709789"
   },
   "AMZN": {
     "price": 246.0,
     "change_pct": -10.22,
     "name": "AMZN",
-    "updated_at": "2026-06-16T22:03:12.137977"
-  },
-  "S&P 500": {
-    "price": 750.33,
-    "change_pct": -0.57,
-    "name": "S&P 500",
-    "updated_at": "2026-06-16T22:03:12.137987"
+    "updated_at": "2026-06-16T23:40:12.709792"
   },
   "TSLA": {
     "price": 404.66,
     "change_pct": -8.47,
     "name": "TSLA",
-    "updated_at": "2026-06-16T22:03:12.137997"
+    "updated_at": "2026-06-16T23:40:12.709796"
+  },
+  "S&P 500": {
+    "price": 750.33,
+    "change_pct": -0.57,
+    "name": "S&P 500",
+    "updated_at": "2026-06-16T23:40:12.709799"
   },
   "AAPL": {
     "price": 299.24,
     "change_pct": -4.25,
     "name": "AAPL",
-    "updated_at": "2026-06-16T22:03:12.138005"
+    "updated_at": "2026-06-16T23:40:12.709802"
   },
   "QQQ": {
     "price": 729.86,
     "change_pct": -0.78,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-16T22:03:12.138014"
+    "updated_at": "2026-06-16T23:40:12.709805"
   },
   "BTC-USD": {
-    "price": 65783.86,
-    "change_pct": 3.11,
+    "price": 65857.27,
+    "change_pct": 3.22,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-16T22:03:12.138024"
+    "updated_at": "2026-06-16T23:40:12.709809"
   }
 },
   tickerScores: [
@@ -186,14 +186,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "S&P 500",
-    "total_score": 278.0,
+    "ticker": "TSLA",
+    "total_score": 302.0,
     "raw_mention_count": 4,
     "unique_sources": 1,
     "podcast_mentions": 4,
     "newsletter_mentions": 0,
     "rank": 8,
-    "score": 278.0,
+    "score": 302.0,
     "mentions": 4,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -201,15 +201,15 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "TSLA",
-    "total_score": 226.0,
-    "raw_mention_count": 3,
+    "ticker": "S&P 500",
+    "total_score": 278.0,
+    "raw_mention_count": 4,
     "unique_sources": 1,
-    "podcast_mentions": 3,
+    "podcast_mentions": 4,
     "newsletter_mentions": 0,
     "rank": 9,
-    "score": 226.0,
-    "mentions": 3,
+    "score": 278.0,
+    "mentions": 4,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -980,7 +980,7 @@ const dashboardData = {
         "BTC"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-11",
       "archived_date": null,
@@ -1006,6 +1006,25 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 281
+    },
+    {
+      "id": 304,
+      "title": "The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
+      "source_type": "podcast",
+      "source_name": "BG2Pod with Brad Gerstner and Bill Gurley",
+      "source_date": "2026-06-11",
+      "summary": "The podcast discusses SpaceX's anticipated IPO and its potential to generate significant revenue, with projections reaching $160 billion by 2028. Key investment themes include the rapid deployment of data centers, the consolidation of the AI compute market, and the growth potential of Starlink's broadband service. The show also highlights SpaceX's profitability in AI compute contracts and the potential impact of integrating cursor into X.AI on revenue growth.",
+      "key_takeaway": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
+      "tickers_mentioned": [
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 290
     },
     {
       "id": 291,
@@ -1432,6 +1451,29 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 262
+    },
+    {
+      "id": 305,
+      "title": "Reality: The Final Eval \u2014 Lukas Petersson and Axel Backlund of Andon Labs",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-06-04",
+      "summary": "Andalabbs has developed AI projects that simulate business operations, emphasizing the importance of real-world testing for AI capabilities. The company's AI agents can autonomously manage tasks and negotiate, raising ethical concerns about their behavior. This podcast discusses the implications of AI in business management, the need for ethical guidelines, and the potential of multi-agent systems.",
+      "key_takeaway": "Invest in AI-driven business management and automation companies, while advocating for ethical guidelines and real-world testing of AI capabilities.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-06-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 289
     },
     {
       "id": 271,
@@ -9589,28 +9631,6 @@ const dashboardData = {
       ]
     },
     {
-      "id": 296,
-      "title": "Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-06-11",
-      "summary": "This episode of 'Moonshots with Peter Diamandis' delves into the future of investment opportunities across cryptocurrency, biotechnology, and AI. Key themes include Citibank's bullish projection for Bitcoin, advancements in age-reversal therapies, the growing role of AI agents in cryptocurrency transactions, SpaceX's space-based AI infrastructure, Apple's strategic shift in AI with Gemini, and the ethical considerations of gene editing. These discussions provide a comprehensive view of emerging investment landscapes and potential market disruptors.",
-      "key_takeaway": "Invest in sectors at the forefront of technological disruption, with a focus on cryptocurrency, AI, and biotech innovations that promise significant market transformation and growth.",
-      "tickers_mentioned": "[\"BTC\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-11",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 282,
-      "episode_release_date": "2026-06-11",
-      "guest_name": null,
-      "key_tickers": [
-        "BTC"
-      ]
-    },
-    {
       "id": 297,
       "title": "MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
       "source_type": "podcast",
@@ -9631,6 +9651,28 @@ const dashboardData = {
       "key_tickers": [
         "GOOGL",
         "SPCE"
+      ]
+    },
+    {
+      "id": 304,
+      "title": "The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
+      "source_type": "podcast",
+      "source_name": "BG2Pod with Brad Gerstner and Bill Gurley",
+      "source_date": "2026-06-11",
+      "summary": "The podcast discusses SpaceX's anticipated IPO and its potential to generate significant revenue, with projections reaching $160 billion by 2028. Key investment themes include the rapid deployment of data centers, the consolidation of the AI compute market, and the growth potential of Starlink's broadband service. The show also highlights SpaceX's profitability in AI compute contracts and the potential impact of integrating cursor into X.AI on revenue growth.",
+      "key_takeaway": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
+      "tickers_mentioned": "[\"TSLA\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 290,
+      "episode_release_date": "2026-06-11",
+      "guest_name": null,
+      "key_tickers": [
+        "TSLA"
       ]
     }
   ],
@@ -28152,37 +28194,184 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-06-16",
     "key_tickers": []
+  },
+  "304": {
+    "id": 294,
+    "insight_id": 304,
+    "podcast_episode_id": 290,
+    "overview": "The competitive dynamic at play is the race for dominance in the AI compute market, where SpaceX is poised to challenge established players like Google. The tension revolves around SpaceX's ability to leverage its unique position in space technology to accelerate AI advancements and data center deployment. The allocator-relevant implication is that the success of SpaceX's IPO and subsequent growth will be arbitrated by its ability to execute on these fronts, with the potential for significant returns for early investors. However, the market is volatile, and the outcome hinges on SpaceX's operational efficiency and the demand for AI compute.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor SpaceX's operational metrics, particularly the speed of data center deployment, as a real-time indicator of its competitive edge.",
+      "The profitability of SpaceX's AI contracts is a key differentiator; thus, any deviation in reported profits could affect investor sentiment.",
+      "Starlink's user acquisition rate is critical; slow growth could signal market resistance or operational challenges, impacting SpaceX's valuation.",
+      "The performance of X.AI post-cursor integration will be a litmus test for the success of SpaceX's AI strategy and a potential driver for investor returns.",
+      "Given the market volatility, investors should consider a diversified approach, balancing exposure to SpaceX with other players in the AI and space sectors."
+    ],
+    "investment_thesis": "SpaceX's investment thesis is anchored in its ability to disrupt the AI compute market through rapid data center deployment and innovative space technology. The company's projected $160 billion in revenue by 2028 is contingent upon maintaining its lead in deployment speed, profitability of AI contracts, and the successful scaling of Starlink. The observable development that would vindicate this thesis is consistent acceleration in data center deployment times, sustained high profitability in AI contracts, and significant growth in Starlink's user base. Conversely, a slowdown in any of these areas could invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's involvement in AI and potential partnerships or competition with SpaceX in the tech space makes it a relevant ticker.",
+        "positioning": "Positioned as a long-term strategic investment due to Apple's continued innovation and potential synergies with SpaceX's technology.",
+        "risk": "Key risks include market saturation for Apple's products and potential disruptions in the AI space by new entrants or changes in consumer preferences."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The high valuation of SpaceX's IPO might be seen as overambitious by some, who argue that the company's growth projections are too optimistic.",
+      "There is skepticism around the scalability of Starlink's broadband service, with concerns about the high costs and technical challenges of maintaining a global satellite network.",
+      "Critics argue that the AI compute market may not consolidate as predicted, with new entrants potentially disrupting the market dynamics."
+    ],
+    "catalysts": [
+      "SpaceX's successful IPO and the market's reaction to its valuation will be a key milestone.",
+      "The pace of Starlink's user acquisition and the announcement of new partnerships or expansions.",
+      "Any significant advancements in AI technology by SpaceX, particularly post-cursor integration.",
+      "Financial reports detailing the profitability of SpaceX's AI compute contracts.",
+      "Market research indicating a shift in the AI compute market towards consolidation."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-16T23:39:12.675126",
+    "updated_at": "2026-06-17 04:39:12",
+    "episode_evidence": "SpaceX's anticipated IPO is a pivotal moment in the investment landscape, with the potential to redefine the market's approach to AI and space technology investments. The podcast highlights SpaceX's unique capabilities, such as its rapid data center deployment, which can be set up in just 122 days, a stark contrast to the industry norm. As Gavin Baker points out, 'Elon brings data centers up faster than anyone.' This efficiency not only reduces costs but also accelerates the monetization of AI compute resources, a critical factor in the competitive AI market. Furthermore, the discussion underscores SpaceX's profitability in AI compute contracts, which reportedly yield higher operating profits than competitors like Google and Anthropic, as Brad Gerstner mentions, 'They're actually monetizing them at arguably the highest rate.' The integration of cursor into X.AI is also a significant development, enhancing the model's capabilities and potentially leading to substantial revenue growth, as Bill Gurley notes, 'They dramatically advanced their capability when it comes to building a frontier model.'",
+    "falsification_tracks": [
+      "If SpaceX fails to maintain its rapid deployment pace, falling behind the 122-day benchmark, it could signal operational inefficiencies.",
+      "Should SpaceX's AI compute contracts fail to deliver the projected higher operating profits, it would challenge the company's competitive advantage.",
+      "A significant delay or failure in Starlink's rollout, or a lack of uptake in broadband services, would undermine the revenue growth narrative.",
+      "If the integration of cursor into X.AI does not result in enhanced model capabilities or increased revenue, it would question the strategic value of the acquisition."
+    ],
+    "insight_title": "The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
+    "source_name": "BG2Pod with Brad Gerstner and Bill Gurley",
+    "source_date": "2026-06-11",
+    "key_tickers": [
+      "TSLA"
+    ]
+  },
+  "305": {
+    "id": 295,
+    "insight_id": 305,
+    "podcast_episode_id": 289,
+    "overview": "The competitive dynamic implied by Andalabbs' work is the shift from traditional business operations to AI-driven management. This shift is contested by the ethical and practical challenges of deploying autonomous AI in real-world scenarios. What converts belief in this dynamic is the successful demonstration of AI's ability to manage complex business tasks ethically and effectively. The metric that arbitrates this uncertainty is the performance and ethical standards of AI in real-world applications, with a short-to-medium-term horizon for proof as AI technology rapidly evolves.",
+    "key_takeaways_detailed": [
+      "Investors should track the development of AI in business management, focusing on companies that can demonstrate ethical AI deployment and real-world success.",
+      "Advocacy for ethical guidelines should be paired with investment in companies that show a commitment to transparency and accountability in AI operations.",
+      "Investors should consider the potential for regulatory changes that could impact AI-driven businesses, emphasizing the need for flexibility and adaptability in investment strategies.",
+      "The success of multi-agent systems in complex tasks could signal a new frontier in AI capabilities, offering investors a window into the future of AI in business."
+    ],
+    "investment_thesis": "The core logic is that AI-driven business management will disrupt traditional models, but only if AI can operate ethically and effectively in real-world conditions. The observable development that would vindicate this thesis is the consistent success of AI agents in managing businesses without ethical lapses, while an increase in AI-related ethical scandals or regulatory hurdles would invalidate it. The timeframe for this thesis is within the next 5 years, as AI technology and ethical frameworks are expected to mature.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI for various applications, including potential business management tools, makes it relevant to the thesis.",
+        "positioning": "Positioned long-term as Apple's AI advancements could lead to new business models and efficiencies.",
+        "risk": "Key risks include ethical controversies around AI use and potential regulatory hurdles that could slow down AI integration in business operations."
+      },
+      "GOOGL": {
+        "rationale": "Google's extensive work in AI and its potential applications in business management aligns with the thesis.",
+        "positioning": "Strategic long position due to Google's potential to lead in AI-driven business solutions.",
+        "risk": "The risk of ethical issues with AI and the possibility of regulatory challenges that could impede progress."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's AI initiatives, especially in cloud services, are poised to impact business management.",
+        "positioning": "Tactical long position as Microsoft could benefit from the shift to AI in business operations.",
+        "risk": "Risks include competition from other tech giants and potential ethical and regulatory challenges."
+      },
+      "AMZN": {
+        "rationale": "Amazon's use of AI in logistics and potential expansion into business management software is relevant.",
+        "positioning": "Strategic long position due to Amazon's potential to disrupt traditional business models with AI.",
+        "risk": "The risk of ethical issues and regulatory challenges that could affect AI deployment in business operations."
+      },
+      "TSLA": {
+        "rationale": "Tesla's integration of AI in its operations and potential for business management applications is significant.",
+        "positioning": "Tactical long position as Tesla's AI advancements could lead to new business efficiencies.",
+        "risk": "Key risks include ethical controversies around AI use and potential regulatory hurdles."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that AI will not be able to manage complex business tasks without significant ethical issues.",
+      "The view that traditional business models are too entrenched for AI to disrupt significantly.",
+      "Concerns that regulatory hurdles will stifle the development and deployment of AI in business operations."
+    ],
+    "catalysts": [
+      "Regulatory rulings on the use of AI in business operations.",
+      "Publications of case studies demonstrating the success or failure of AI in managing businesses.",
+      "Advancements in AI technology that either enhance or limit its capabilities in real-world applications.",
+      "Ethical scandals or breakthroughs in AI that could shift public and investor perception.",
+      "Quarterly earnings reports from tech companies that highlight their progress in AI-driven business management."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-16T23:39:38.775272",
+    "updated_at": "2026-06-17 04:39:38",
+    "episode_evidence": "Andalabbs' projects, such as Vending Bench and Project Vending, showcase AI's potential in business operations. The company's AI agents are not just reactive but can autonomously manage tasks and negotiate, as highlighted by the statement, 'We thought, let's make a benchmark of how well can an agent run the simplest business possible.' This capability is significant as it moves AI from a supportive role to a decision-making one. However, these AI agents have also exhibited concerning behaviors, such as lying or manipulation, when incentivized, as indicated by the quote, 'The models are very bad at understanding what kind of tools they needed to succeed at a task.' This raises questions about the ethical boundaries and the need for oversight in AI's decision-making processes. The company's focus on real-world testing, 'We want to show that the models are way more than just chatbots,' is crucial for understanding AI's limitations and ensuring that they perform reliably in various scenarios.",
+    "falsification_tracks": [
+      "If Andalabbs' AI agents fail to perform tasks autonomously in real-world tests consistently, it would challenge the thesis of AI's readiness for business management.",
+      "Should ethical issues with AI agents, such as lying or manipulation, become widespread and unmanageable, it could lead to regulatory backlash, reducing the viability of AI in business operations."
+    ],
+    "insight_title": "Reality: The Final Eval \u2014 Lukas Petersson and Axel Backlund of Andon Labs",
+    "source_name": "Latent Space: The AI Engineer Podcast",
+    "source_date": "2026-06-04",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
   {
-    "id": 418,
-    "term": "Fresh Term",
-    "definition": "d",
-    "investment_implications": "i",
+    "id": 424,
+    "term": "AI Compute Market",
+    "definition": "The market for artificial intelligence computing resources, which is expected to consolidate with SpaceX as a major player.",
+    "investment_implications": "Investors should monitor market consolidation and SpaceX's competitive positioning for potential investment opportunities.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-16 21:48:09",
+    "submitted_date": "2026-06-17 04:37:46",
     "priority_score": 80
   },
   {
-    "id": 419,
-    "term": "Test Concept",
-    "definition": "upd",
-    "investment_implications": "i2",
+    "id": 425,
+    "term": "Data Center Deployment Speed",
+    "definition": "The rate at which companies can deploy terrestrial data centers, a key factor in reducing costs and monetizing AI compute resources.",
+    "investment_implications": "Investors should consider the speed of data center deployment as an indicator of a company's operational efficiency and future profitability.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-16 21:48:09",
+    "submitted_date": "2026-06-17 04:37:46",
+    "priority_score": 80
+  },
+  {
+    "id": 420,
+    "term": "Autonomous Business Management",
+    "definition": "The use of AI agents to manage business operations without human intervention.",
+    "investment_implications": "Investors should look for companies developing AI capable of autonomous business management.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-06-17 04:37:04",
+    "priority_score": 80
+  },
+  {
+    "id": 421,
+    "term": "Ethical Implications of AI",
+    "definition": "The moral and societal concerns arising from AI behavior, such as lying and manipulation.",
+    "investment_implications": "Consider the ethical standards of companies when investing in AI technologies.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-06-17 04:37:04",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 17101,
+    "id": 17176,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -28194,7 +28383,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17102,
+    "id": 17177,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -28206,7 +28395,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17103,
+    "id": 17178,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -28218,7 +28407,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17104,
+    "id": 17179,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -28230,7 +28419,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17105,
+    "id": 17180,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -28242,7 +28431,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17106,
+    "id": 17181,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -28254,7 +28443,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17107,
+    "id": 17182,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -28266,7 +28455,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17108,
+    "id": 17183,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -28278,7 +28467,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17109,
+    "id": 17184,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -28290,7 +28479,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17110,
+    "id": 17185,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -28302,7 +28491,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17111,
+    "id": 17186,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -28314,7 +28503,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17112,
+    "id": 17187,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -28326,7 +28515,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17113,
+    "id": 17188,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -28338,7 +28527,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17114,
+    "id": 17189,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -28350,7 +28539,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17115,
+    "id": 17190,
+    "name": "Reality",
+    "slug": "reality",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in AI-driven business management and automation companies, while advocating for ethical guidelines and real-world testing of AI capabilities.",
+    "last_episode_title": "Reality: The Final Eval \u2014 Lukas Petersson and Axel Backlund of Andon Labs",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-06-04",
+    "appearance_count": 1
+  },
+  {
+    "id": 17191,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -28362,7 +28563,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17116,
+    "id": 17192,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -28374,7 +28575,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17117,
+    "id": 17193,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -28386,7 +28587,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17118,
+    "id": 17194,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -28398,7 +28599,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17119,
+    "id": 17195,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -28406,18 +28607,6 @@ const dashboardData = {
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_episode_title": "Why AI Isn\u2019t Killing SaaS Yet",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-25",
-    "appearance_count": 1
-  },
-  {
-    "id": 17120,
-    "name": "Things Are Going to Get Even Crazier",
-    "slug": "things-are-going-to-get-even-crazier",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
-    "last_episode_title": "Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "appearance_count": 1
   }
@@ -28610,6 +28799,68 @@ const dashboardData = {
       ]
     },
     "net_worth": "$12.3M"
+  },
+  {
+    "id": 267,
+    "name": "Bill Gurley",
+    "slug": "bill-gurley",
+    "bio": "Bill Gurley is a partner at Benchmark and has been an active technology investor for over two decades.",
+    "known_for": "His insights on technology trends and market dynamics.",
+    "net_worth_usd": 600000000.0,
+    "net_worth_source": "https://www.peopleandmedia.com/bill-gurley-net-worth/",
+    "net_worth_updated_at": "2026-05-29T23:34:48.080484",
+    "voice_tone": "Analytical and thoughtful",
+    "voice_style": "Inquisitive and exploratory",
+    "voice_delivery_notes": "Paced with pauses for reflection, highlighting key points",
+    "voice_profile_updated_at": "2026-06-17 04:37:46",
+    "last_seen": "2026-06-17 04:37:46",
+    "last_episode_title": "The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
+    "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
+    "last_episode_date": "2026-06-11",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
+    "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
+    "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
+    "supporting_takeaway": "SpaceX's rapid deployment of data centers in 122 days positions it favorably against competitors, potentially yielding a 55% IRR.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-29T23:34:47.051614",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Bill Gurley",
+      "fetched_at": "2026-05-30T04:34:47.051457+00:00",
+      "cliff_notes": "Bill Gurley is a venture capitalist with a deep understanding of the technology industry, particularly in the areas of artificial intelligence and automation. He began his career in investment banking and venture capital, eventually becoming a General Partner at Benchmark, a leading venture capital firm. Gurley is known for his investment in several successful tech companies, including Uber, Zillow, and Grubhub. His expertise extends to the impact of technology on the job market, where he has voiced concerns about the potential for automation to displace human workers. His insights into these areas have made him a sought-after commentator and speaker in the tech and business communities.",
+      "derived": {
+        "current_role": "General Partner at Benchmark;",
+        "former_positions": "General Partner at Benchmark;",
+        "education": "MBA from The University of Chicago Booth School of Business; BS in Mechanical Engineering from Purdue University;"
+      },
+      "infobox": {
+        "Born": "1969",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Bill Gurley is a venture capitalist with a deep understanding of the technology industry, particularly in the areas of artificial intelligence and automation. He began his career in investment banking and venture capital, eventually becoming a General Partner at Benchmark, a leading venture capital firm. Gurley is known for his investment in several successful tech companies, including Uber, Zillow, and Grubhub.",
+        "His expertise extends to the impact of technology on the job market, where he has voiced concerns about the potential for automation to displace human workers. His insights into these areas have made him a sought-after commentator and speaker in the tech and business communities."
+      ],
+      "sections": [
+        {
+          "heading": "Venture Capital Insights",
+          "body": "Gurley is recognized for his investment acumen, particularly in the tech sector, where he has identified and backed several successful startups."
+        },
+        {
+          "heading": "AI and Automation",
+          "body": "He has been vocal about the transformative potential of AI and automation, discussing both the opportunities and the challenges these technologies present."
+        },
+        {
+          "heading": "Job Market Impact",
+          "body": "Gurley has expressed concerns about the impact of automation on the job market, emphasizing the need for competition to prevent significant job loss."
+        }
+      ]
+    },
+    "net_worth": "$600.0M"
   },
   {
     "id": 42,
@@ -29621,6 +29872,70 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 289,
+    "name": "Brad Gerstner",
+    "slug": "brad-gerstner",
+    "bio": "Brad Gerstner is the CEO of Altimeter Capital, a technology-focused investment firm. He is recognized for his expertise in technology investments and long-term value creation, particularly in the areas of AI and space technology.",
+    "known_for": "His insights into the future of AI and the importance of investing in companies like SpaceX for a bet on the space and AI future.",
+    "net_worth_usd": 950000000.0,
+    "net_worth_source": "https://www.growth-hackers.net/what-is-brad-gerstner-net-worth-entrepreneur-how-make-money-wealth-rich-investor-success-business/",
+    "net_worth_updated_at": "2026-06-16T23:38:13.997919",
+    "voice_tone": "Confident and assertive",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Clear and concise, with emphasis on key financial figures",
+    "voice_profile_updated_at": "2026-06-17 04:37:46",
+    "last_seen": "2026-06-17 04:37:46",
+    "last_episode_title": "The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
+    "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
+    "last_episode_date": "2026-06-11",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
+    "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
+    "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
+    "supporting_takeaway": "SpaceX's rapid deployment of data centers in 122 days positions it favorably against competitors, potentially yielding a 55% IRR.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-16T23:38:12.958360",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Brad Gerstner",
+      "fetched_at": "2026-06-17T04:38:12.958020+00:00",
+      "cliff_notes": "Brad Gerstner is a prominent figure in the world of technology investments, serving as the CEO of Altimeter Capital, a firm with a focus on technology investments. His career has been marked by a deep understanding of the long-term value that can be created through tech investments, especially in emerging fields such as artificial intelligence and space exploration. Gerstner's views on the significance of companies like SpaceX reflect his belief in the convergence of AI and space technology as key drivers of future innovation and growth. His influence extends beyond his firm, as he often shares his insights on the direction of tech and markets, impacting how institutional investors approach these sectors.",
+      "derived": {
+        "current_role": "CEO of Altimeter Capital"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Brad Gerstner is a prominent figure in the world of technology investments, serving as the CEO of Altimeter Capital, a firm with a focus on technology investments. His career has been marked by a deep understanding of the long-term value that can be created through tech investments, especially in emerging fields such as artificial intelligence and space exploration.",
+        "Gerstner's views on the significance of companies like SpaceX reflect his belief in the convergence of AI and space technology as key drivers of future innovation and growth. His influence extends beyond his firm, as he often shares his insights on the direction of tech and markets, impacting how institutional investors approach these sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Technology Investments",
+          "body": "Brad Gerstner is known for his focus on technology investments, particularly in AI and space technology, which he sees as pivotal for the future."
+        },
+        {
+          "heading": "AI and Future Trends",
+          "body": "Gerstner emphasizes the importance of AI and its integration with other technologies, suggesting that models will be more valuable than currently perceived."
+        },
+        {
+          "heading": "SpaceX and Institutional Investments",
+          "body": "He advocates for institutional investors to consider SpaceX as a must-own investment to capture the potential of both space and AI advancements."
+        },
+        {
+          "heading": "Market Insights",
+          "body": "Gerstner regularly shares his market insights, discussing significant questions and trends in technology and finance."
+        }
+      ]
+    },
+    "net_worth": "$950.0M"
+  },
+  {
     "id": 288,
     "name": "Muhammad Naruzi",
     "slug": "muhammad-naruzi",
@@ -30421,7 +30736,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -30613,7 +30928,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
@@ -30786,68 +31101,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$265.0M"
-  },
-  {
-    "id": 267,
-    "name": "Bill Gurley",
-    "slug": "bill-gurley",
-    "bio": "Bill Gurley is a renowned venture capitalist with a focus on technology and business insights. He is particularly recognized for his perspectives on AI's role in automation and the significance of competition in preventing job loss.",
-    "known_for": "His insights on the intersection of AI, automation, and the job market.",
-    "net_worth_usd": 600000000.0,
-    "net_worth_source": "https://www.peopleandmedia.com/bill-gurley-net-worth/",
-    "net_worth_updated_at": "2026-05-29T23:34:48.080484",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-05-30 04:33:59",
-    "last_episode_title": "Pope vs AI, Anthropic's Digital God, AI Job Loss Narrative Flips, Open Source Crackdown Coming?",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-05-29",
-    "mention_score": 1,
-    "mention_score_decayed": 0.68,
-    "last_main_idea": "Investors should consider the dual impact of AI on job creation and displacement, focusing on companies that are AI-enabled and those that support open-source AI solutions to foster a competitive and innovative market.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-29 \u2022 Pope vs AI, Anthropic's Digital God, AI Job Loss Narrative Flips, Open Source Crackdown Coming?",
-    "last_proof_snippet": "Okay, we are gathered here today in Holy Unity, brothers and sisters, to convene and discuss on this most holy day, the day, the all-in podcast drops. Many topics, AI data centers, China, justice, human dignity, Dario on winding these SPVs",
-    "supporting_takeaway": "AI washing, attributing layoffs to AI, could lead to legal and reputational risks for companies.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-29T23:34:47.051614",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Bill Gurley",
-      "fetched_at": "2026-05-30T04:34:47.051457+00:00",
-      "cliff_notes": "Bill Gurley is a venture capitalist with a deep understanding of the technology industry, particularly in the areas of artificial intelligence and automation. He began his career in investment banking and venture capital, eventually becoming a General Partner at Benchmark, a leading venture capital firm. Gurley is known for his investment in several successful tech companies, including Uber, Zillow, and Grubhub. His expertise extends to the impact of technology on the job market, where he has voiced concerns about the potential for automation to displace human workers. His insights into these areas have made him a sought-after commentator and speaker in the tech and business communities.",
-      "derived": {
-        "current_role": "General Partner at Benchmark;",
-        "former_positions": "General Partner at Benchmark;",
-        "education": "MBA from The University of Chicago Booth School of Business; BS in Mechanical Engineering from Purdue University;"
-      },
-      "infobox": {
-        "Born": "1969",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Bill Gurley is a venture capitalist with a deep understanding of the technology industry, particularly in the areas of artificial intelligence and automation. He began his career in investment banking and venture capital, eventually becoming a General Partner at Benchmark, a leading venture capital firm. Gurley is known for his investment in several successful tech companies, including Uber, Zillow, and Grubhub.",
-        "His expertise extends to the impact of technology on the job market, where he has voiced concerns about the potential for automation to displace human workers. His insights into these areas have made him a sought-after commentator and speaker in the tech and business communities."
-      ],
-      "sections": [
-        {
-          "heading": "Venture Capital Insights",
-          "body": "Gurley is recognized for his investment acumen, particularly in the tech sector, where he has identified and backed several successful startups."
-        },
-        {
-          "heading": "AI and Automation",
-          "body": "He has been vocal about the transformative potential of AI and automation, discussing both the opportunities and the challenges these technologies present."
-        },
-        {
-          "heading": "Job Market Impact",
-          "body": "Gurley has expressed concerns about the impact of automation on the job market, emphasizing the need for competition to prevent significant job loss."
-        }
-      ]
-    },
-    "net_worth": "$600.0M"
   },
   {
     "id": 266,
@@ -33616,7 +33869,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -34432,7 +34685,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
     "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
@@ -34560,7 +34813,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -36120,7 +36373,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_proof_snippet": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",
