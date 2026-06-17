@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-17T06:39:29.698474",
-  chartsVersion: "2026-06-17T06:39:20.588085",
+  generatedAt: "2026-06-17T12:07:57.957313",
+  chartsVersion: "2026-06-17T12:07:47.006266",
   priceSnapshot: {
   "GOOGL": {
-    "price": 373.25,
-    "change_pct": -4.27,
+    "price": 364.67,
+    "change_pct": -4.06,
     "name": "GOOGL",
-    "updated_at": "2026-06-17T06:39:20.587261"
+    "updated_at": "2026-06-17T12:07:47.005216"
   },
   "BTC": {
-    "price": 64686.17,
-    "change_pct": 1.39,
+    "price": 65912.02,
+    "change_pct": 3.31,
     "name": "BTC",
-    "updated_at": "2026-06-17T06:39:20.587278"
+    "updated_at": "2026-06-17T12:07:47.005239"
   },
   "MSFT": {
-    "price": 393.83,
-    "change_pct": -7.77,
+    "price": 383.86,
+    "change_pct": -14.74,
     "name": "MSFT",
-    "updated_at": "2026-06-17T06:39:20.587285"
+    "updated_at": "2026-06-17T12:07:47.005249"
   },
   "NVDA": {
-    "price": 207.41,
-    "change_pct": -3.08,
+    "price": 207.04,
+    "change_pct": -1.83,
     "name": "NVDA",
-    "updated_at": "2026-06-17T06:39:20.587290"
+    "updated_at": "2026-06-17T12:07:47.005258"
   },
   "WTI": {
-    "price": 3.22,
-    "change_pct": -13.44,
+    "price": 3.32,
+    "change_pct": -9.78,
     "name": "WTI",
-    "updated_at": "2026-06-17T06:39:20.587297"
+    "updated_at": "2026-06-17T12:07:47.005267"
   },
   "META": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 577.9,
+    "change_pct": -8.55,
     "name": "META",
-    "updated_at": "2026-06-17T06:39:20.587301"
+    "updated_at": "2026-06-17T12:07:47.005275"
   },
   "AMZN": {
-    "price": 246.0,
-    "change_pct": -10.22,
+    "price": 239.54,
+    "change_pct": -11.49,
     "name": "AMZN",
-    "updated_at": "2026-06-17T06:39:20.587307"
+    "updated_at": "2026-06-17T12:07:47.005284"
   },
   "TSLA": {
-    "price": 404.66,
-    "change_pct": -8.47,
+    "price": 403.72,
+    "change_pct": -7.36,
     "name": "TSLA",
-    "updated_at": "2026-06-17T06:39:20.587313"
+    "updated_at": "2026-06-17T12:07:47.005291"
   },
   "S&P 500": {
-    "price": 750.33,
-    "change_pct": -0.57,
+    "price": 749.39,
+    "change_pct": -0.94,
     "name": "S&P 500",
-    "updated_at": "2026-06-17T06:39:20.587318"
+    "updated_at": "2026-06-17T12:07:47.005298"
   },
   "AAPL": {
-    "price": 299.24,
-    "change_pct": -4.25,
+    "price": 297.28,
+    "change_pct": -4.74,
     "name": "AAPL",
-    "updated_at": "2026-06-17T06:39:20.587324"
+    "updated_at": "2026-06-17T12:07:47.005307"
   },
   "QQQ": {
-    "price": 729.86,
-    "change_pct": -0.78,
+    "price": 731.74,
+    "change_pct": -0.89,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-17T06:39:20.587329"
+    "updated_at": "2026-06-17T12:07:47.005316"
   },
   "BTC-USD": {
-    "price": 64686.17,
-    "change_pct": 1.39,
+    "price": 65916.8,
+    "change_pct": 3.32,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-17T06:39:20.587338"
+    "updated_at": "2026-06-17T12:07:47.005326"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 307,
+      "title": "The Fintech Playbook for Latin America",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-17",
+      "summary": "This episode of the a16z Show features Adi, a fintech company that serves over 3 million consumers and 50,000 merchants in Colombia. Adi has transitioned from a buy now pay later model to a comprehensive platform that includes payments, logistics, and banking. The company's success is attributed to its strong technology foundation, AI integration, and a focus on hiring top talent. The founder, Santiago Gua Suarez, discusses Adi's contrarian market entry strategy, the importance of a North Star metric for performance tracking, and the company's future ambitions to expand globally and enhance operational efficiency through AI.",
+      "key_takeaway": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 292
+    },
+    {
       "id": 302,
       "title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
       "source_type": "podcast",
@@ -1000,7 +1019,7 @@ const dashboardData = {
         "SPCE"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-11",
       "archived_date": null,
@@ -9526,6 +9545,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 307,
+      "title": "The Fintech Playbook for Latin America",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-17",
+      "summary": "This episode of the a16z Show features Adi, a fintech company that serves over 3 million consumers and 50,000 merchants in Colombia. Adi has transitioned from a buy now pay later model to a comprehensive platform that includes payments, logistics, and banking. The company's success is attributed to its strong technology foundation, AI integration, and a focus on hiring top talent. The founder, Santiago Gua Suarez, discusses Adi's contrarian market entry strategy, the importance of a North Star metric for performance tracking, and the company's future ambitions to expand globally and enhance operational efficiency through AI.",
+      "key_takeaway": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 292,
+      "episode_release_date": "2026-06-17",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 302,
       "title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
       "source_type": "podcast",
@@ -9647,29 +9686,6 @@ const dashboardData = {
         "MGM",
         "TALENT ENERGY",
         "GEONET"
-      ]
-    },
-    {
-      "id": 297,
-      "title": "MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
-      "source_type": "podcast",
-      "source_name": "Macro Voices",
-      "source_date": "2026-06-11",
-      "summary": "The podcast discusses a significant market sell-off, with the S&P 500 testing its 50-day moving average, and the impact of major IPOs on existing equities. The high yield bond market shows signs of distress, indicating consumer weakness. There is a potential rotation from financial assets to hard assets, including energy and materials, and the healthcare sector is under-owned and may benefit. Gold prices have broken down, and uranium and gold miners are experiencing significant selling pressure. The U.S. dollar is attempting a breakout, which could impact commodity prices, and the Iran conflict continues to escalate, impacting oil prices and market sentiment.",
-      "key_takeaway": "The market may be entering a new inflation shock regime, leading to a rotation from financial assets to hard assets, with the healthcare sector presenting an under-owned opportunity.",
-      "tickers_mentioned": "[\"GOOGL\", \"SPCE\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-11",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 281,
-      "episode_release_date": "2026-06-11",
-      "guest_name": null,
-      "key_tickers": [
-        "GOOGL",
-        "SPCE"
       ]
     },
     {
@@ -28386,9 +28402,72 @@ const dashboardData = {
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-06-03",
     "key_tickers": []
+  },
+  "307": {
+    "id": 297,
+    "insight_id": 307,
+    "podcast_episode_id": 292,
+    "overview": "The competitive dynamic in fintech is increasingly defined by technological prowess and operational efficiency. Adi's success in Colombia, a market often considered challenging, is a testament to the power of a strong technological foundation and AI integration. This dynamic is contested by the need for scalability and the ability to maintain profitability while expanding. The metric that arbitrates this uncertainty is the company's ability to maintain low operational costs and high service efficiency as it scales, which is directly tied to its technological capabilities and AI applications.",
+    "key_takeaways_detailed": [
+      "Investors should consider the depth of a fintech company's technological infrastructure as a predictor of its ability to handle increased transaction volumes and data without compromising on service quality.",
+      "The effectiveness of AI in customer service and operations should be a key metric for evaluating a fintech company's potential for cost savings and competitive advantage.",
+      "Adopting a North Star metric can help fintech companies maintain focus and drive performance, but it must be flexible enough to adapt to changing market conditions.",
+      "Investors should be cautious of fintech companies entering competitive markets without a clear strategy or technological edge, as this could lead to high operational costs and reduced profitability.",
+      "The ability to attract and retain top global talent, as demonstrated by Adi's English-language operations, is a critical factor in a fintech company's innovation and growth potential."
+    ],
+    "investment_thesis": "Investing in fintech companies with a strong technological foundation and AI integration, particularly those with a contrarian market entry strategy, can yield significant returns. The timeframe for this thesis is medium to long-term, as these companies need time to establish their market presence and scale operations. An observable development that would vindicate this thesis is consistent growth in the number of consumers and merchants served, along with sustained profitability and high operational efficiency. Conversely, failure to scale or a decline in profitability due to increased operational costs would invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's foray into fintech with Apple Pay and its focus on privacy and security in financial transactions positions it well to capitalize on the growing demand for digital financial services.",
+        "positioning": "Apple can be positioned as a strategic long-term investment due to its strong brand, vast user base, and potential to disrupt traditional financial services.",
+        "risk": "Key risks include increased competition from other tech giants and potential regulatory hurdles that could impede the expansion of Apple's fintech offerings."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The fintech market may become oversaturated, leading to a decline in profitability for companies without a clear differentiation.",
+      "There could be a regulatory backlash against fintech companies, particularly those using AI, which could increase operational costs and limit scalability.",
+      "A potential economic downturn could reduce consumer spending, affecting the growth of fintech companies that rely on transaction volumes."
+    ],
+    "catalysts": [
+      "The launch of new fintech products or services by Adi that demonstrate significant improvements in operational efficiency.",
+      "Successful expansion into new markets by Adi, indicating the scalability of its business model.",
+      "Regulatory changes that favor fintech companies with strong AI integration and data handling capabilities.",
+      "Technological breakthroughs that enhance the capabilities of AI in customer service and operations, providing a competitive edge to companies like Adi."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-17T12:06:53.409128",
+    "updated_at": "2026-06-17 17:06:53",
+    "episode_evidence": "Adi's technological infrastructure is a cornerstone of its success, with Santiago Gua Suarez highlighting, 'We have incredible cost to serve economics... we built a company on a monorepo.' This monorepo architecture, along with event sourcing, allows Adi to manage data efficiently and integrate AI capabilities, which are pivotal for scaling and innovation in fintech. The company's AI integration extends to customer service, where 'We built our own in-house agents... they handle 100% of all customer service queries, resolving close to 80%.' This showcases the operational efficiency gained through AI, which is a significant differentiator in the competitive fintech landscape. Gua Suarez also underscores the importance of a clear, singular performance metric: 'We ended up realizing... we need to make money... it just started with the risk of just a margin.' This North Star metric simplifies the company's focus, aligning all efforts towards a common goal and enhancing accountability.",
+    "falsification_tracks": [
+      "If Adi's customer service AI fails to maintain high resolution rates, suggesting a breakdown in operational efficiency.",
+      "A significant increase in operational costs that would challenge Adi's 'incredible cost to serve economics' claim.",
+      "Failure to expand into new markets or a decline in the number of consumers and merchants served, indicating a lack of scalability.",
+      "A shift in the company's performance metrics away from the North Star approach, suggesting a loss of focus on key business objectives."
+    ],
+    "insight_title": "The Fintech Playbook for Latin America",
+    "source_name": "The a16z Show",
+    "source_date": "2026-06-17",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 428,
+    "term": "North Star Metric",
+    "definition": "A single, overarching metric that aligns an organization's focus on key business objectives, simplifying performance tracking and driving accountability.",
+    "investment_implications": "Investors should look for companies that adopt a North Star metric to clarify objectives and drive performance across teams.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-06-17 17:06:06",
+    "priority_score": 80
+  },
   {
     "id": 426,
     "term": "Verified AI",
@@ -28424,23 +28503,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-06-17 04:37:46",
     "priority_score": 80
-  },
-  {
-    "id": 425,
-    "term": "Data Center Deployment Speed",
-    "definition": "The rate at which companies can deploy terrestrial data centers, a key factor in reducing costs and monetizing AI compute resources.",
-    "investment_implications": "Investors should consider the speed of data center deployment as an indicator of a company's operational efficiency and future profitability.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-06-17 04:37:46",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 17328,
+    "id": 17404,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -28452,7 +28519,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17329,
+    "id": 17405,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -28464,7 +28531,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17330,
+    "id": 17406,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -28476,7 +28543,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17331,
+    "id": 17407,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -28488,7 +28555,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17332,
+    "id": 17408,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -28500,7 +28567,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17333,
+    "id": 17409,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -28512,7 +28579,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17334,
+    "id": 17410,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -28524,7 +28591,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17335,
+    "id": 17411,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -28536,7 +28603,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17336,
+    "id": 17412,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -28548,7 +28615,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17337,
+    "id": 17413,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -28560,7 +28627,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17338,
+    "id": 17414,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -28572,7 +28639,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17339,
+    "id": 17415,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -28584,7 +28651,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17340,
+    "id": 17416,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -28596,7 +28663,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17341,
+    "id": 17417,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -28608,7 +28675,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17342,
+    "id": 17418,
     "name": "Reality",
     "slug": "reality",
     "bio": null,
@@ -28620,7 +28687,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17343,
+    "id": 17419,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -28632,7 +28699,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17344,
+    "id": 17420,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -28644,7 +28711,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17345,
+    "id": 17421,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -28656,7 +28723,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17346,
+    "id": 17422,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -28668,7 +28735,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17347,
+    "id": 17423,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -29931,7 +29998,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -29941,14 +30008,77 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 292,
+    "name": "Santiago Gua Suarez",
+    "slug": "santiago-gua-suarez",
+    "bio": "Santiago Gua Suarez is the founder of Adi, a fintech company in Colombia that focuses on financial inclusion and technology-driven commerce. He has transformed Adi from a buy now pay later model to a comprehensive platform offering payments, logistics, and banking services.",
+    "known_for": "Building Adi into a comprehensive fintech platform that serves millions of consumers and thousands of merchant partners in Colombia.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-06-17 17:06:06",
+    "last_episode_title": "The Fintech Playbook for Latin America",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-17",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
+    "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
+    "supporting_takeaway": "Look for companies that are actively integrating AI into their operations, as this can lead to significant cost savings and improved customer experiences.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-17T12:06:18.557392",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Santiago Gua Suarez",
+      "fetched_at": "2026-06-17T17:06:18.556897+00:00",
+      "cliff_notes": "Santiago Gua Suarez is recognized for his entrepreneurial spirit and vision in the fintech sector, particularly in Colombia. As the founder of Adi, he has overseen the company's evolution from a simple buy now pay later service to a full-fledged platform that encompasses payments, logistics, and banking services. His approach to building Adi has been centered around leveraging technology to address the unique challenges of the Colombian market, such as fragmented financial infrastructure and limited access to credit. Gua Suarez's leadership has been instrumental in creating a platform that not only serves a significant consumer base but also supports a vast network of merchant partners. His focus on technology and innovation has positioned Adi as a key player in the region's fintech landscape, offering solutions that are both innovative and tailored to the local context.",
+      "derived": {
+        "current_role": "Founder of Adi"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "Colombian"
+      },
+      "lead_paragraphs": [
+        "Santiago Gua Suarez is recognized for his entrepreneurial spirit and vision in the fintech sector, particularly in Colombia. As the founder of Adi, he has overseen the company's evolution from a simple buy now pay later service to a full-fledged platform that encompasses payments, logistics, and banking services. His approach to building Adi has been centered around leveraging technology to address the unique challenges of the Colombian market, such as fragmented financial infrastructure and limited access to credit.",
+        "Gua Suarez's leadership has been instrumental in creating a platform that not only serves a significant consumer base but also supports a vast network of merchant partners. His focus on technology and innovation has positioned Adi as a key player in the region's fintech landscape, offering solutions that are both innovative and tailored to the local context."
+      ],
+      "sections": [
+        {
+          "heading": "Fintech Innovation",
+          "body": "Santiago Gua Suarez has been a driving force in fintech innovation, particularly in Colombia, by creating Adi, a platform that addresses the specific needs of the market."
+        },
+        {
+          "heading": "Financial Inclusion",
+          "body": "Adi, under Gua Suarez's leadership, has focused on financial inclusion, making financial services more accessible to a broader range of consumers."
+        },
+        {
+          "heading": "Technology-Driven Commerce",
+          "body": "Gua Suarez has emphasized the importance of technology in driving commerce, using it to create a more efficient and inclusive financial ecosystem in Colombia."
+        },
+        {
+          "heading": "Solving Local Challenges",
+          "body": "Building Adi in Latin America has meant addressing unique challenges such as fragmented financial infrastructure and limited credit access, which Gua Suarez has tackled with innovative solutions."
+        }
+      ]
+    }
+  },
+  {
     "id": 291,
     "name": "Not provided",
     "slug": "not-provided",
     "bio": "RJ Honicky is a prominent figure in the field of computational biology, with a focus on spatial transcriptomics. He is known for his work in leveraging AI to enhance scientific collaboration and his contributions to the understanding of RNA therapeutics.",
     "known_for": "Pioneering the use of AI in spatial transcriptomics and RNA therapeutics, aiming to scale scientific brilliance.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
+    "net_worth_usd": 7000000000.0,
+    "net_worth_source": "https://timesofindia.indiatimes.com/technology/tech-news/anthropic-ceo-dario-amodeis-net-worth-inside-his-7-billion-fortune-and-the-career-that-took-him-from-research-roles-to-billion-dollar-ceo/articleshow/129994729.cms",
+    "net_worth_updated_at": "2026-06-17T12:06:08.319581",
     "voice_tone": "Not provided",
     "voice_style": "Not provided",
     "voice_delivery_notes": "Not provided",
@@ -30000,7 +30130,8 @@ const dashboardData = {
           "body": "Honicky views verification not as a business necessity but as a means to scale and compound brilliance, emphasizing the importance of collaboration in scientific advancement."
         }
       ]
-    }
+    },
+    "net_worth": "$7.00B"
   },
   {
     "id": 289,
@@ -30462,7 +30593,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -30591,7 +30722,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -30657,7 +30788,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -30932,7 +31063,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -30996,7 +31127,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -31251,7 +31382,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -31315,7 +31446,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -31498,7 +31629,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -31562,7 +31693,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -32305,7 +32436,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -32371,7 +32502,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",

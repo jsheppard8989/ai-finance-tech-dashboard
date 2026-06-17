@@ -1,5 +1,21 @@
 [
   {
+    "id": 292,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The Fintech Playbook for Latin America",
+    "episode_date": "2026-06-17",
+    "summary": "This episode of the a16z Show features Adi, a fintech company that serves over 3 million consumers and 50,000 merchants in Colombia. Adi has transitioned from a buy now pay later model to a comprehensive platform that includes payments, logistics, and banking. The company's success is attributed to its strong technology foundation, AI integration, and a focus on hiring top talent. The founder, Santiago Gua Suarez, discusses Adi's contrarian market entry strategy, the importance of a North Star metric for performance tracking, and the company's future ambitions to expand globally and enhance operational efficiency through AI.",
+    "key_takeaways": [
+      "Evaluate the technological infrastructure of fintech companies before investing, focusing on their ability to scale and innovate.",
+      "Look for companies that are actively integrating AI into their operations, as this can lead to significant cost savings and improved customer experiences.",
+      "Consider the adoption of a North Star metric in your organization to simplify performance tracking and align team efforts.",
+      "Investigate contrarian market entry strategies that may reveal unique opportunities in less competitive markets.",
+      "Assess the organizational culture and talent acquisition strategies of companies to gauge their potential for sustained growth and innovation."
+    ],
+    "investment_thesis": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
+    "key_tickers": null
+  },
+  {
     "id": 288,
     "podcast_name": "The a16z Show",
     "episode_title": "Jack Altman on Product-Market Fit",
@@ -117,26 +133,6 @@
     "investment_thesis": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "key_tickers": [
       "TSLA"
-    ]
-  },
-  {
-    "id": 281,
-    "podcast_name": "Macro Voices",
-    "episode_title": "MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
-    "episode_date": "2026-06-11",
-    "summary": "The podcast discusses a significant market sell-off, with the S&P 500 testing its 50-day moving average, and the impact of major IPOs on existing equities. The high yield bond market shows signs of distress, indicating consumer weakness. There is a potential rotation from financial assets to hard assets, including energy and materials, and the healthcare sector is under-owned and may benefit. Gold prices have broken down, and uranium and gold miners are experiencing significant selling pressure. The U.S. dollar is attempting a breakout, which could impact commodity prices, and the Iran conflict continues to escalate, impacting oil prices and market sentiment.",
-    "key_takeaways": [
-      "The market is experiencing a significant sell-off, testing the S&P 500's 50-day moving average.",
-      "Major IPOs, including SpaceX and Google, represent a combined capital raise of approximately $250 billion, which could lead to significant selling pressure on existing stocks.",
-      "Distress in the high yield bond market, particularly in lower-rated bonds, suggests weakening consumer spending.",
-      "There is a potential shift in investment focus from financial assets to hard assets, including energy, materials, and healthcare.",
-      "Gold miners are experiencing a breakdown in prices, with expectations of further declines due to rising interest rates and inflation.",
-      "The healthcare sector is undervalued and may benefit from a rotation away from technology stocks."
-    ],
-    "investment_thesis": "The market may be entering a new inflation shock regime, leading to a rotation from financial assets to hard assets, with the healthcare sector presenting an under-owned opportunity.",
-    "key_tickers": [
-      "GOOGL",
-      "SPCE"
     ]
   }
 ]

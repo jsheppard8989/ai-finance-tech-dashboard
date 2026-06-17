@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 307,
+      "title": "The Fintech Playbook for Latin America",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-17",
+      "summary": "This episode of the a16z Show features Adi, a fintech company that serves over 3 million consumers and 50,000 merchants in Colombia. Adi has transitioned from a buy now pay later model to a comprehensive platform that includes payments, logistics, and banking. The company's success is attributed to its strong technology foundation, AI integration, and a focus on hiring top talent. The founder, Santiago Gua Suarez, discusses Adi's contrarian market entry strategy, the importance of a North Star metric for performance tracking, and the company's future ambitions to expand globally and enhance operational efficiency through AI.",
+      "key_takeaway": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 292
+    },
+    {
       "id": 302,
       "title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
       "source_type": "podcast",
@@ -167,7 +186,7 @@
         "SPCE"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-11",
       "archived_date": null,
