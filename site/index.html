@@ -360,40 +360,6 @@
       color: #a8b2d1;
     }
 
-    /* Suggestions Box */
-    .suggestions-box {
-      background: rgba(255, 193, 7, 0.1);
-      border: 2px dashed rgba(255, 193, 7, 0.5);
-      border-radius: 10px;
-      padding: 0.8rem;
-      margin-top: 0.8rem;
-    }
-
-    .suggestions-box h3 {
-      color: #ffc107;
-      margin-bottom: 1rem;
-      font-size: 1.1rem;
-    }
-
-    .suggestion-item {
-      background: rgba(0, 0, 0, 0.3);
-      padding: 0.75rem 1rem;
-      margin-bottom: 0.5rem;
-      border-radius: 8px;
-    }
-
-    .suggestion-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 0.5rem;
-    }
-
-    .suggestion-item .word {
-      font-weight: 600;
-      color: #ffc107;
-    }
-
     .guest-item {
       position: relative;
       overflow: hidden;
@@ -1702,26 +1668,11 @@
         <!-- The Overton Window: definitions + overton terms merged -->
         <div class="card">
           <h2>The Overton Window</h2>
-          <p style="color: #8892b0; margin-bottom: 0.5rem; font-size: 0.9rem;">Ideas that are still moving from the fringe toward the mainstream — definitions plus a short list of terms I&apos;m tracking.</p>
+          <p style="color: #8892b0; margin-bottom: 0.5rem; font-size: 0.9rem;">Recurring ideas from the feed — only terms mentioned across multiple episodes, approved for the main list. First and last detection show where discourse picked up and came back.</p>
           <div style="margin-bottom: 1.25rem;"></div>
 
           <div id="overton-window-list">
-            <!-- Filled by loadOvertonWindow() from mainContent.definitions + mainContent.overton -->
-          </div>
-
-          <!-- Emerging Terms Box -->
-          <div class="suggestions-box">
-            <h3>📋 Emerging terms</h3>
-            <p style="color: #a8b2d1; font-size: 0.9rem; margin-bottom: 1rem;">New phrases picked up from recent episodes. Stronger or recurring ones get promoted to the Overton list above.</p>
-
-            <div id="suggestions-list">
-              <!-- Emerging terms loaded dynamically from database -->
-            </div>
-            <div style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1);">
-              <p style="color: #8892b0; font-size: 0.75rem; text-align: center;">
-                📊 Scored by mention frequency, source diversity, and investment relevance
-              </p>
-            </div>
+            <!-- Filled by loadOvertonWindow() from mainContent.overton -->
           </div>
 
           <!-- Contact Section -->
@@ -1875,7 +1826,7 @@
   </div>
 
   <!-- Load dashboard data from pipeline (if available) -->
-  <script src="./data/data.js?v=1781635162"></script>
+  <script src="./data/data.js?v=1781665402"></script>
   <script src="./js/common.js"></script>
   
   <script>
@@ -1885,101 +1836,7 @@
       var v = Number(dashboardData.schemaVersion || 0);
       return isNaN(v) ? 0 : v;
     }
-    // Load emerging terms from database (AI-curated, no voting)
-    function loadSuggestedTerms() {
-      const container = document.getElementById('suggestions-list');
-      if (!container) return;
-      
-      // Get suggested terms from dashboardData
-      let suggestions = (typeof dashboardData !== 'undefined' && dashboardData.suggestedTerms) 
-        ? dashboardData.suggestedTerms 
-        : [];
-
-      // Filter out entries that correspond to people already recognized as pundits/guests
-      try {
-        const nameSet = new Set();
-        if (typeof dashboardData !== 'undefined') {
-          if (Array.isArray(dashboardData.pundits)) {
-            dashboardData.pundits.forEach(function(p) {
-              if (p && p.name) nameSet.add(String(p.name).trim());
-            });
-          }
-          if (Array.isArray(dashboardData.podcastGuests)) {
-            dashboardData.podcastGuests.forEach(function(g) {
-              if (g && g.name) nameSet.add(String(g.name).trim());
-            });
-          }
-        }
-        if (nameSet.size > 0) {
-          suggestions = suggestions.filter(function(s) {
-            var t = (s && s.term) ? String(s.term).trim() : '';
-            return t && !nameSet.has(t);
-          });
-        }
-        // Do NOT treat "Two Title Case Words" as a person: that hides real concepts
-        // (e.g. "Democratic Party", "Federal Reserve", "Memory Crunch") and emptied the box.
-      } catch (e) {
-        if (DEBUG_SITE) {
-          console.warn('Emerging terms filter error:', e);
-        }
-      }
-      
-      if (suggestions.length === 0) {
-        container.innerHTML = '<div style="color: #8892b0; padding: 1rem; text-align: center;">No new terms yet. Check <a href="pipeline-health.html" style="color: #00d4ff;">data status</a> after the next update run.</div>';
-        return;
-      }
-      
-      container.innerHTML = suggestions.map(sugg => {
-        const term = sugg.term;
-        const relevance = sugg.relevance_score || 50;
-        const mentions = sugg.mention_count || 1;
-        const sources = sugg.source_diversity || 1;
-        const priorityScore = (typeof sugg.priority_score === 'number')
-          ? sugg.priority_score
-          : (mentions * 10 + sources * 20 + relevance);
-        
-        // Relevance indicator color
-        let relevanceColor = '#f44336'; // Low
-        let relevanceLabel = 'Low';
-        if (relevance >= 70) {
-          relevanceColor = '#4caf50'; // High
-          relevanceLabel = 'High';
-        } else if (relevance >= 40) {
-          relevanceColor = '#ffc107'; // Medium
-          relevanceLabel = 'Medium';
-        }
-        
-        return `
-          <div class="suggestion-item" data-term="${term}" style="cursor: pointer;" onclick="toggleSuggestionPreview(this)">
-            <div class="suggestion-header">
-              <span class="word">${term}</span>
-              <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; justify-content: flex-end;">
-                <span style="color: #00d4ff; font-size: 0.72rem; font-weight: 700;" title="mentions×10 + sources×20 + relevance">Rank ${Math.round(priorityScore)}</span>
-                <span style="color: ${relevanceColor}; font-size: 0.75rem; font-weight: 600;">${relevanceLabel}</span>
-                <span style="color: #8892b0; font-size: 0.7rem;">📊 ${mentions}</span>
-              </div>
-            </div>
-            <div style="color: #8892b0; font-size: 0.75rem; margin-top: 0.25rem;">
-              ${sources} source${sources > 1 ? 's' : ''} • ${sugg.source_type || 'auto-detected'}
-            </div>
-            ${sugg.definition ? `
-            <div class="definition-preview" style="display: none; margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid rgba(255,255,255,0.1);">
-              <div style="color: #a8b2d1; font-size: 0.8rem; font-style: italic;">${sugg.definition}</div>
-            </div>` : ''}
-          </div>
-        `;
-      }).join('');
-    }
-    
-    // Toggle suggestion (Emerging Terms) definition preview
-    function toggleSuggestionPreview(element) {
-      const preview = element.querySelector('.definition-preview');
-      if (preview) {
-        preview.style.display = preview.style.display === 'none' ? 'block' : 'none';
-      }
-    }
-
-    // Load Overton Window from mainContent.overton only (Definitions concept is now folded into Overton Terms)
+    // Load Overton Window from mainContent.overton (display_on_main = 1 only)
     function loadOvertonWindow() {
       const container = document.getElementById('overton-window-list');
       if (!container) return;
@@ -2076,7 +1933,7 @@
       });
 
       if (items.length === 0) {
-        container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No terms here yet. Promote from the list below when ready — or see <a href="pipeline-health.html" style="color: #00d4ff;">data status</a>.</p>';
+        container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No recurring terms on the main list yet — candidates need two episodes plus a YES reply. See <a href="pipeline-health.html" style="color: #00d4ff;">data status</a>.</p>';
         return;
       }
       container.innerHTML = items.join('');
@@ -2084,7 +1941,6 @@
 
     // Initialize on page load
     document.addEventListener('DOMContentLoaded', function() {
-      loadSuggestedTerms();
       loadPodcastGuests();
       loadOvertonWindow();
     });
