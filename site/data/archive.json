@@ -744,6 +744,27 @@
       "podcast_episode_id": 291
     },
     {
+      "id": 308,
+      "title": "\u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-06-03",
+      "summary": "This podcast discusses Microsoft's shift towards an ecosystem strategy in AI, emphasizing the importance of clean data lineage and specialized applications. It introduces the concept of 'hill climbing' for iterative AI model improvement and highlights the need for a multi-modal harness for efficient AI deployment. The future of software engineering roles is explored, along with the community impact of AI and predictions for SaaS pricing model shifts.",
+      "key_takeaway": "Invest in companies that can integrate AI into their operations and leverage Microsoft's ecosystem for competitive advantage, focusing on data management capabilities and adaptability to new pricing models.",
+      "tickers_mentioned": [
+        "MSFT",
+        "AMZN",
+        "GOOGL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-06-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 293
+    },
+    {
       "id": 268,
       "title": "Real Boom? Fake Money?",
       "source_type": "podcast",

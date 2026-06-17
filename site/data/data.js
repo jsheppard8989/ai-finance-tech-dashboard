@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-17T12:07:57.957313",
-  chartsVersion: "2026-06-17T12:07:47.006266",
+  generatedAt: "2026-06-17T13:42:13.830872",
+  chartsVersion: "2026-06-17T13:42:04.257968",
   priceSnapshot: {
   "GOOGL": {
-    "price": 364.67,
-    "change_pct": -4.06,
+    "price": 365.79,
+    "change_pct": -3.77,
     "name": "GOOGL",
-    "updated_at": "2026-06-17T12:07:47.005216"
+    "updated_at": "2026-06-17T13:42:04.256862"
   },
   "BTC": {
-    "price": 65912.02,
-    "change_pct": 3.31,
+    "price": 65649.22,
+    "change_pct": 2.9,
     "name": "BTC",
-    "updated_at": "2026-06-17T12:07:47.005239"
+    "updated_at": "2026-06-17T13:42:04.256887"
   },
   "MSFT": {
-    "price": 383.86,
-    "change_pct": -14.74,
+    "price": 382.86,
+    "change_pct": -14.97,
     "name": "MSFT",
-    "updated_at": "2026-06-17T12:07:47.005249"
+    "updated_at": "2026-06-17T13:42:04.256901"
   },
   "NVDA": {
-    "price": 207.04,
-    "change_pct": -1.83,
+    "price": 206.71,
+    "change_pct": -1.98,
     "name": "NVDA",
-    "updated_at": "2026-06-17T12:07:47.005258"
+    "updated_at": "2026-06-17T13:42:04.256912"
   },
   "WTI": {
-    "price": 3.32,
-    "change_pct": -9.78,
+    "price": 3.3,
+    "change_pct": -10.46,
     "name": "WTI",
-    "updated_at": "2026-06-17T12:07:47.005267"
+    "updated_at": "2026-06-17T13:42:04.256923"
   },
   "META": {
-    "price": 577.9,
-    "change_pct": -8.55,
+    "price": 574.66,
+    "change_pct": -9.06,
     "name": "META",
-    "updated_at": "2026-06-17T12:07:47.005275"
+    "updated_at": "2026-06-17T13:42:04.256934"
   },
   "AMZN": {
-    "price": 239.54,
-    "change_pct": -11.49,
+    "price": 239.2,
+    "change_pct": -11.62,
     "name": "AMZN",
-    "updated_at": "2026-06-17T12:07:47.005284"
+    "updated_at": "2026-06-17T13:42:04.256945"
   },
   "TSLA": {
-    "price": 403.72,
-    "change_pct": -7.36,
+    "price": 402.66,
+    "change_pct": -7.6,
     "name": "TSLA",
-    "updated_at": "2026-06-17T12:07:47.005291"
+    "updated_at": "2026-06-17T13:42:04.256956"
   },
   "S&P 500": {
-    "price": 749.39,
-    "change_pct": -0.94,
+    "price": 748.37,
+    "change_pct": -1.07,
     "name": "S&P 500",
-    "updated_at": "2026-06-17T12:07:47.005298"
+    "updated_at": "2026-06-17T13:42:04.256967"
   },
   "AAPL": {
-    "price": 297.28,
-    "change_pct": -4.74,
+    "price": 295.73,
+    "change_pct": -5.23,
     "name": "AAPL",
-    "updated_at": "2026-06-17T12:07:47.005307"
+    "updated_at": "2026-06-17T13:42:04.256977"
   },
   "QQQ": {
-    "price": 731.74,
-    "change_pct": -0.89,
+    "price": 732.91,
+    "change_pct": -0.73,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-17T12:07:47.005316"
+    "updated_at": "2026-06-17T13:42:04.256987"
   },
   "BTC-USD": {
-    "price": 65916.8,
-    "change_pct": 3.32,
+    "price": 65630.01,
+    "change_pct": 2.87,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-17T12:07:47.005326"
+    "updated_at": "2026-06-17T13:42:04.257000"
   }
 },
   tickerScores: [
@@ -1575,6 +1575,27 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 291
+    },
+    {
+      "id": 308,
+      "title": "\u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-06-03",
+      "summary": "This podcast discusses Microsoft's shift towards an ecosystem strategy in AI, emphasizing the importance of clean data lineage and specialized applications. It introduces the concept of 'hill climbing' for iterative AI model improvement and highlights the need for a multi-modal harness for efficient AI deployment. The future of software engineering roles is explored, along with the community impact of AI and predictions for SaaS pricing model shifts.",
+      "key_takeaway": "Invest in companies that can integrate AI into their operations and leverage Microsoft's ecosystem for competitive advantage, focusing on data management capabilities and adaptability to new pricing models.",
+      "tickers_mentioned": [
+        "MSFT",
+        "AMZN",
+        "GOOGL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-06-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 293
     },
     {
       "id": 268,
@@ -28453,61 +28474,125 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-06-17",
     "key_tickers": []
+  },
+  "308": {
+    "id": 298,
+    "insight_id": 308,
+    "podcast_episode_id": 293,
+    "overview": "The competitive dynamic implied by the source material is the transition from individual tech giants controlling AI development to a more democratized ecosystem where Microsoft acts as an enabler, allowing a broader range of companies to participate and innovate. This shift contests the traditional model of platform dominance and suggests a move towards a more collaborative and inclusive approach to AI development. The allocator-relevant implication is that companies that can effectively integrate AI into their operations and leverage Microsoft's ecosystem will gain a competitive advantage. The metric that arbitrates this uncertainty is the ability of companies to demonstrate tangible community impact and adapt to new pricing models in SaaS, with a horizon of proof likely measured in quarters as these shifts play out in the market.",
+    "key_takeaways_detailed": [
+      "Investors should focus on companies that not only adopt AI but also contribute to the broader ecosystem, indicating a deeper integration and potential for innovation.",
+      "The ability to manage clean data lineage and specialize AI applications will become a key differentiator; investors should evaluate potential investments based on their data governance and AI specialization capabilities.",
+      "Companies that can harness proprietary data effectively for 'hill climbing' will have a competitive edge; investors should consider a company's data strategy and AI model improvement processes.",
+      "The integration of multi-modal harnesses will be crucial for efficient AI deployment; investors should assess the technological infrastructure and integration capabilities of potential investments.",
+      "As software engineering roles evolve, companies that invest in training programs to enhance generalist skills will be better positioned to adapt to technological changes.",
+      "Community engagement and the demonstration of societal benefits from AI initiatives will become increasingly important; investors should consider a company's community impact strategy and its alignment with local economic development."
+    ],
+    "investment_thesis": "The core logic of this investment thesis is that Microsoft's ecosystem strategy will lead to a more inclusive and innovative AI landscape, where companies that can effectively integrate AI and leverage the ecosystem will outperform. This thesis is tied to the observable development of increased Azure capacity and broader industry participation in AI development. The timeframe for this thesis is medium to long-term, as the ecosystem's effects will likely unfold over several years. The thesis would be vindicated by continued growth in Azure capacity and a shift towards consumption-based and outcome-based SaaS pricing models, indicating a successful ecosystem strategy. Conversely, a stagnation in Azure growth or a lack of industry-wide adoption of the ecosystem would invalidate the thesis.",
+    "ticker_analysis": {
+      "MSFT": {
+        "rationale": "Microsoft is central to the ecosystem strategy discussed, making it a key beneficiary of the shift towards AI as a core component of operations.",
+        "positioning": "Strategic long position, as Microsoft is likely to benefit from its leading role in the AI ecosystem and the growth of Azure.",
+        "risk": "Key risks include competition from other cloud providers, slower-than-expected adoption of AI by businesses, and potential regulatory challenges to data management and privacy."
+      },
+      "AMZN": {
+        "rationale": "As a major cloud provider with AWS, Amazon is in direct competition with Microsoft and could either benefit or be challenged by the shift towards an AI ecosystem.",
+        "positioning": "Tactical long position, as Amazon could leverage its cloud infrastructure to participate in the AI ecosystem, but also faces risks from increased competition.",
+        "risk": "The risk lies in Amazon's ability to adapt to the changing landscape of AI and maintain its competitive edge in cloud services."
+      },
+      "GOOGL": {
+        "rationale": "Google, with its AI capabilities and cloud services, is well-positioned to participate in the AI ecosystem and could benefit from the trend towards specialized AI applications.",
+        "positioning": "Strategic long position, as Google's AI expertise and cloud infrastructure make it a potential beneficiary of the ecosystem strategy.",
+        "risk": "The risk is that Google may not effectively leverage its AI capabilities to gain a significant foothold in the ecosystem, or face challenges from regulatory scrutiny on data privacy."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant number of companies may resist integrating AI into their operations, preferring to maintain control over their data and processes.",
+      "The shift towards consumption-based and outcome-based pricing models in SaaS may be slower than anticipated, due to resistance from customers or technical challenges.",
+      "The community impact of AI initiatives may be overestimated, with local economies not experiencing the predicted benefits, leading to a loss of public trust and support."
+    ],
+    "catalysts": [
+      "Microsoft's next earnings report, which could provide evidence of continued growth in Azure capacity and the success of the ecosystem strategy.",
+      "Announcements of new partnerships or acquisitions by Microsoft that signal a strengthening of its AI ecosystem.",
+      "Regulatory developments that could either support or hinder the growth of AI and cloud services, impacting the ecosystem strategy.",
+      "The release of new AI tools or services by Microsoft that demonstrate the company's commitment to the multi-modal harness approach.",
+      "Economic indicators that show the impact of AI initiatives on local economies, such as job growth and tax base expansion."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-17T13:41:03.529819",
+    "updated_at": "2026-06-17 18:41:03",
+    "episode_evidence": "Microsoft's strategic pivot towards an ecosystem approach in AI is underscored by Satya Nadella's emphasis on the company's role as an enabler of broader AI development, not just a platform provider. Nadella states, 'a platform is defined by fundamentally its ability to create more value about the platform.' This shift signifies a move towards fostering an environment where companies can leverage AI as a core component of their operations, thereby creating more value collectively. The concept of 'hill climbing' introduced by the podcast refers to the iterative enhancement of AI models using proprietary data and context, allowing companies to gain control over their AI destiny, as encapsulated by the quote, 'If you can then you're in control. If you can't, you're not in control.' Microsoft's ambition to create a multi-modal harness that integrates various AI models, data sources, and tools is evident in their goal to optimize AI deployment across different applications and industries, as indicated by the statement, 'We are trying to first of all, make sure is each of our products... are multimodal harnesses with tools access.'",
+    "falsification_tracks": [
+      "Should Microsoft fail to maintain its growth trajectory in cloud infrastructure, as claimed, with a significant drop in Azure capacity expansion, it would challenge the ecosystem strategy's viability.",
+      "A lack of industry-wide adoption of Microsoft's AI ecosystem would suggest that the platform is not creating sufficient value, undermining the strategic shift.",
+      "If there is a notable decrease in the number of companies integrating AI into their operations or leveraging Microsoft's ecosystem, it would indicate that the ecosystem strategy is not fostering innovation as expected.",
+      "A significant number of companies struggling with data lineage and AI application specialization would cast doubt on the importance of these aspects in AI performance.",
+      "Should the community impact of AI initiatives fail to materialize, with no tangible benefits for local economies, it would challenge the necessity and effectiveness of considering community impact in tech initiatives."
+    ],
+    "insight_title": "\u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
+    "source_name": "Latent Space: The AI Engineer Podcast",
+    "source_date": "2026-06-03",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
   {
-    "id": 428,
-    "term": "North Star Metric",
-    "definition": "A single, overarching metric that aligns an organization's focus on key business objectives, simplifying performance tracking and driving accountability.",
-    "investment_implications": "Investors should look for companies that adopt a North Star metric to clarify objectives and drive performance across teams.",
+    "id": 429,
+    "term": "Ecosystem Strategy",
+    "definition": "Microsoft's approach to enabling broader participation in AI development by positioning itself as an ecosystem enabler rather than just a platform provider.",
+    "investment_implications": "Look for companies that can leverage this strategy for innovation and competitive advantage.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-17 17:06:06",
+    "submitted_date": "2026-06-17 18:40:07",
     "priority_score": 80
   },
   {
-    "id": 426,
-    "term": "Verified AI",
-    "definition": "AI systems that use formal verification to ensure the correctness of their outputs, enhancing reliability and trustworthiness.",
-    "investment_implications": "Invest in companies that are developing and implementing verified AI technologies, as they are likely to see increased demand in safety-critical industries.",
+    "id": 430,
+    "term": "Clean Data Lineage",
+    "definition": "The importance of having a clear and organized record of data processing and transformations, which is crucial for creating specialized AI applications.",
+    "investment_implications": "Invest in companies with strong data management capabilities to gain an edge in AI performance.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-17 11:37:56",
+    "submitted_date": "2026-06-17 18:40:07",
     "priority_score": 80
   },
   {
-    "id": 427,
-    "term": "Formal Verification",
-    "definition": "A method used to mathematically prove the correctness of systems, such as AI-generated proofs, to ensure their reliability.",
-    "investment_implications": "Look for companies that are investing in formal verification to improve the accuracy and safety of AI systems.",
+    "id": 431,
+    "term": "Hill Climbing Framework",
+    "definition": "An iterative process of improving AI models using proprietary data and context to enhance performance.",
+    "investment_implications": "Companies that can effectively utilize proprietary data for ongoing AI model improvement will stand out.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-17 11:37:56",
+    "submitted_date": "2026-06-17 18:40:07",
     "priority_score": 80
   },
   {
-    "id": 424,
-    "term": "AI Compute Market",
-    "definition": "The market for artificial intelligence computing resources, which is expected to consolidate with SpaceX as a major player.",
-    "investment_implications": "Investors should monitor market consolidation and SpaceX's competitive positioning for potential investment opportunities.",
+    "id": 432,
+    "term": "Multi-Modal Harness",
+    "definition": "Microsoft's development of a system that integrates various AI models, data sources, and tools to optimize AI deployment.",
+    "investment_implications": "Consider the technological infrastructure of companies and their ability to integrate diverse AI tools.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-17 04:37:46",
+    "submitted_date": "2026-06-17 18:40:07",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 17404,
+    "id": 17480,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -28519,7 +28604,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17405,
+    "id": 17481,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -28531,7 +28616,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17406,
+    "id": 17482,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -28543,7 +28628,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17407,
+    "id": 17483,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -28555,7 +28640,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17408,
+    "id": 17484,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -28567,7 +28652,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17409,
+    "id": 17485,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -28579,7 +28664,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17410,
+    "id": 17486,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -28591,7 +28676,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17411,
+    "id": 17487,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -28603,7 +28688,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17412,
+    "id": 17488,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -28615,7 +28700,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17413,
+    "id": 17489,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -28627,7 +28712,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17414,
+    "id": 17490,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -28639,7 +28724,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17415,
+    "id": 17491,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -28651,7 +28736,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17416,
+    "id": 17492,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -28663,7 +28748,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17417,
+    "id": 17493,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -28675,7 +28760,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17418,
+    "id": 17494,
     "name": "Reality",
     "slug": "reality",
     "bio": null,
@@ -28687,7 +28772,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17419,
+    "id": 17495,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -28699,7 +28784,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17420,
+    "id": 17496,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -28711,7 +28796,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17421,
+    "id": 17497,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -28723,7 +28808,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17422,
+    "id": 17498,
+    "name": "\u26a1\ufe0fSatya Nadella",
+    "slug": "satya-nadella",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in companies that can integrate AI into their operations and leverage Microsoft's ecosystem for competitive advantage, focusing on data management capabilities and adaptability to new pricing models.",
+    "last_episode_title": "\u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-06-03",
+    "appearance_count": 1
+  },
+  {
+    "id": 17499,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -28732,18 +28829,6 @@ const dashboardData = {
     "last_episode_title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish | Jim Masturzo | Research Affiliates",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-31",
-    "appearance_count": 1
-  },
-  {
-    "id": 17423,
-    "name": "are on the rise. The episode",
-    "slug": "are-on-the-rise-the-episode",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
-    "last_episode_title": "Why AI Isn\u2019t Killing SaaS Yet",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-25",
     "appearance_count": 1
   }
 ],
@@ -29076,7 +29161,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 1.52,
+    "mention_score_decayed": 1.48,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -29214,7 +29299,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.35,
+    "mention_score_decayed": 1.32,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -29402,7 +29487,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -30008,6 +30093,66 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 293,
+    "name": "Sartina Della",
+    "slug": "sartina-della",
+    "bio": "Sartina Della is a prominent executive at Microsoft, recognized for her thought leadership in the fields of AI and cloud infrastructure. She has been instrumental in shaping the company's AI ecosystem strategy and has shared insights on the future of software engineering.",
+    "known_for": "Sartina Della is known for her pivotal role in defining and executing Microsoft's AI ecosystem strategy, which is crucial for the company's competitive edge in the tech industry.",
+    "net_worth_usd": 1300000000.0,
+    "net_worth_source": "https://www.mirrorreview.com/satya-nadella-net-worth/",
+    "net_worth_updated_at": "2026-06-17T13:40:16.995313",
+    "voice_tone": "Confident and forward-looking.",
+    "voice_style": "Analytical and solution-oriented.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-06-17 18:40:07",
+    "last_seen": "2026-06-17 18:40:07",
+    "last_episode_title": "\u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-06-03",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that can integrate AI into their operations and leverage Microsoft's ecosystem for competitive advantage, focusing on data management capabilities and adaptability to new pricing models.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
+    "last_proof_snippet": "Please welcome Swicks, Saragawa, Alad Gill and Chairman and Chief Executive Officer of Microsoft, Sartina Della. I'm so excited to be here. Welcome to a crossover episode of NoPriors and Lanesvists with Sartina Della. Congratulations on an",
+    "supporting_takeaway": "Companies with clean data lineage and specialized AI applications will have a competitive edge.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-17T13:40:16.055732",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sartina Della",
+      "fetched_at": "2026-06-17T18:40:16.055247+00:00",
+      "cliff_notes": "Sartina Della has made a significant impact in the technology sector, particularly within Microsoft. Her career has been marked by a deep focus on AI and cloud infrastructure, areas that are increasingly important for businesses and consumers alike. As a thought leader, she has contributed to the discourse on the future of software engineering and has been at the forefront of defining Microsoft's AI ecosystem strategy. Her insights and leadership have been influential in shaping the company's approach to leveraging AI for business growth and innovation, making her a key figure in the tech industry.",
+      "derived": {
+        "current_role": "Chairman and Chief Executive Officer of Microsoft"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Sartina Della has made a significant impact in the technology sector, particularly within Microsoft. Her career has been marked by a deep focus on AI and cloud infrastructure, areas that are increasingly important for businesses and consumers alike. As a thought leader, she has contributed to the discourse on the future of software engineering and has been at the forefront of defining Microsoft's AI ecosystem strategy.",
+        "Her insights and leadership have been influential in shaping the company's approach to leveraging AI for business growth and innovation, making her a key figure in the tech industry."
+      ],
+      "sections": [
+        {
+          "heading": "AI Ecosystem Strategy",
+          "body": "Sartina Della has been a key figure in conceptualizing and implementing Microsoft's AI ecosystem strategy, emphasizing the importance of creating value beyond the platform itself."
+        },
+        {
+          "heading": "Platform Shifts",
+          "body": "With experience in multiple platform shifts at Microsoft, Della brings a unique perspective on how companies can leverage AI and cloud technologies to stay competitive."
+        },
+        {
+          "heading": "Software Engineering",
+          "body": "Della has shared her vision on the future of software engineering, discussing the impact of AI on the industry and the need for companies to adapt."
+        }
+      ]
+    },
+    "net_worth": "$1.30B"
+  },
+  {
     "id": 292,
     "name": "Santiago Gua Suarez",
     "slug": "santiago-gua-suarez",
@@ -30215,7 +30360,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-15 \u2022 AI, Design, and the Power of Open Models",
     "last_proof_snippet": "It's not about how good a model is in the general sense. It's about how good is this model for my use case, for a lot of design and marketing use case says they need editable design, not a single flat image. It's super impressive, honestly,",
@@ -30387,9 +30532,9 @@ const dashboardData = {
     "slug": "alex-boden",
     "bio": "Alex Boden is an expert in AI and its application in construction and manufacturing industries. He advocates for the full automation of construction within a decade and has been instrumental in developing AI-driven solutions for hardware and circuit board design.",
     "known_for": "Advocating for the full automation of construction within a decade and developing AI-driven solutions for hardware and circuit board design.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
+    "net_worth_usd": 10000000.0,
+    "net_worth_source": "https://biahaixom.com.vn/tag/alex-bodi-net-worth/",
+    "net_worth_updated_at": "2026-06-17T13:40:30.349804",
     "voice_tone": "Confident and forward-looking.",
     "voice_style": "Factual and predictive, with a focus on the transformative potential of AI.",
     "voice_delivery_notes": "Pace is steady with emphasis on key technological advancements.",
@@ -30399,7 +30544,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -30446,7 +30591,8 @@ const dashboardData = {
           "body": "He believes in designing systems to be fully autonomous, without the need for human intervention in the loop, which is a key aspect of AI-driven automation."
         }
       ]
-    }
+    },
+    "net_worth": "$10.0M"
   },
   {
     "id": 285,
@@ -30466,7 +30612,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -30534,7 +30680,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-10 \u2022 America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. There's a very, very large player in global finance that almost no one knows about. The development finance corporation, it just had its reautho",
@@ -30657,7 +30803,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -30851,7 +30997,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -30938,7 +31084,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -31257,7 +31403,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-03 \u2022 Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
     "last_proof_snippet": "One of the most provocative and interesting investors in the country. A legendary activist investor. Pershing square CEO and founder Bill Acling. Taking a short position and going public with it is a pretty serious business. Interestingly,",
@@ -31322,7 +31468,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-02 \u2022 OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
     "last_proof_snippet": "Open AI's CFO, Sarah Fryer. We've got to get right to it. You have just completed what I would find as the most successful fund-raising rail in history. We're going to raise actually north of $120 billion. We think AI is the biggest era tha",
@@ -31564,7 +31710,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -31874,7 +32020,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -31938,7 +32084,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -32001,7 +32147,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -32873,7 +33019,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -33063,7 +33209,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -33126,7 +33272,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -33314,7 +33460,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -37128,7 +37274,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -37187,7 +37333,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",

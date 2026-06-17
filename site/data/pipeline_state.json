@@ -1,51 +1,33 @@
 {
-  "generated_at": "2026-06-17T12:07:50.469853",
-  "last_updated": "2026-06-17T12:07:50.469853",
-  "last_pipeline_run": "2026-06-17T12:07:50.469853",
+  "generated_at": "2026-06-17T13:42:07.587530",
+  "last_updated": "2026-06-17T13:42:07.587530",
+  "last_pipeline_run": "2026-06-17T13:42:07.587530",
   "main_page": {
     "overton": 13,
     "insights": 8,
-    "pundits": 178
+    "pundits": 179
   },
   "counts": {
     "ticker_mentions": 190,
-    "podcast_episodes": 265,
+    "podcast_episodes": 266,
     "newsletters": 7,
     "daily_scores": 128,
     "overton_terms_total": 161,
-    "latest_insights_total": 279,
+    "latest_insights_total": 280,
     "today_mentions": {
       "podcast": 1
     },
-    "podcasts_analyzed": 2
+    "podcasts_analyzed": 3
   },
   "step_results": {
     "downloaded": 6,
     "transcribed": 3,
     "analyzed": 1,
     "insight_created": 1,
-    "published": 1,
+    "published": 0,
     "total": 6
   },
   "episodes": [
-    {
-      "id": "4679e197-c107-4f11-8db6-435c0bbfd881",
-      "podcast": "The a16z Show",
-      "title": "The Fintech Playbook for Latin America",
-      "published": "2026-06-17",
-      "rss_guid": "4679e197-c107-4f11-8db6-435c0bbfd881",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "916c5e0a-b2ab-4935-ae27-7dc4eeb8612a",
       "podcast": "The a16z Show",
@@ -104,11 +86,11 @@
       "status": "needs_analysis"
     },
     {
-      "id": "substack:post:200432443",
+      "id": "substack:post:202058620",
       "podcast": "Latent Space: The AI Engineer Podcast",
-      "title": "\u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
-      "published": "2026-06-03",
-      "rss_guid": "substack:post:200432443",
+      "title": "\ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI ",
+      "published": "2026-06-17",
+      "rss_guid": "substack:post:202058620",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -173,6 +155,39 @@
         }
       },
       "status": "needs_transcription"
+    },
+    {
+      "id": "substack:post:200432443",
+      "podcast": "Latent Space: The AI Engineer Podcast",
+      "title": "\u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
+      "published": "2026-06-03",
+      "rss_guid": "substack:post:200432443",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": false
+      },
+      "stage_reasons": {
+        "published": "Insight exists but added_to_site=0 \u2014 Deep Dives + export must succeed; run auto_pipeline."
+      },
+      "first_blocker": "published",
+      "remediation_by_stage": {
+        "published": {
+          "action_id": "EXPORT_AND_PUBLISH",
+          "steps": [
+            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
+            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
+            "When added_to_site=1 on the episode row, this stage turns green."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        }
+      },
+      "status": "needs_export"
     },
     {
       "id": "substack:post:200249307",
@@ -376,6 +391,13 @@
   ],
   "available_from_rss": [
     {
+      "podcast": "Latent Space: The AI Engineer Podcast",
+      "title": "\ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI ",
+      "published": "Wed, 17 Jun 2026 17:58:06 GMT",
+      "published_date": "2026-06-17",
+      "rss_guid": ""
+    },
+    {
       "podcast": "Dwarkesh Podcast",
       "title": "Ada Palmer \u2013 Machiavelli is the most misunderstood thinker of all time",
       "published": "Tue, 16 Jun 2026 17:27:51 GMT",
@@ -387,13 +409,6 @@
       "title": "Samo Burja on Growth, Energy, and AI",
       "published": "Fri, 12 Jun 2026 14:40:34 +0000",
       "published_date": "2026-06-12",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "Latent Space: The AI Engineer Podcast",
-      "title": "\u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
-      "published": "Wed, 03 Jun 2026 17:13:57 GMT",
-      "published_date": "2026-06-03",
       "rss_guid": ""
     },
     {
@@ -425,10 +440,10 @@
       "id": "substack:post:200432443",
       "podcast": "Latent Space: The AI Engineer Podcast",
       "title": "\u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
-      "status": "needs_transcription",
+      "status": "needs_export",
       "published": "2026-06-03",
       "age_days": 14,
-      "next_blocker": "transcribed"
+      "next_blocker": "published"
     },
     {
       "id": "substack:post:200249307",
