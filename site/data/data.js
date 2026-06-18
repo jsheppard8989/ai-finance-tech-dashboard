@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-17T22:06:16.002568",
-  chartsVersion: "2026-06-17T22:06:10.975927",
+  generatedAt: "2026-06-17T23:39:55.822838",
+  chartsVersion: "2026-06-17T23:39:49.189832",
   priceSnapshot: {
   "GOOGL": {
     "price": 363.79,
     "change_pct": -4.29,
     "name": "GOOGL",
-    "updated_at": "2026-06-17T22:06:10.975138"
+    "updated_at": "2026-06-17T23:39:49.188714"
   },
   "BTC": {
-    "price": 64539.97,
-    "change_pct": 5.94,
+    "price": 63862.05,
+    "change_pct": 4.82,
     "name": "BTC",
-    "updated_at": "2026-06-17T22:06:10.975156"
+    "updated_at": "2026-06-17T23:39:49.188738"
   },
   "MSFT": {
     "price": 378.91,
     "change_pct": -15.84,
     "name": "MSFT",
-    "updated_at": "2026-06-17T22:06:10.975163"
+    "updated_at": "2026-06-17T23:39:49.188752"
   },
   "NVDA": {
     "price": 204.65,
     "change_pct": -2.96,
     "name": "NVDA",
-    "updated_at": "2026-06-17T22:06:10.975169"
+    "updated_at": "2026-06-17T23:39:49.188763"
   },
   "WTI": {
     "price": 3.31,
     "change_pct": -10.05,
     "name": "WTI",
-    "updated_at": "2026-06-17T22:06:10.975175"
+    "updated_at": "2026-06-17T23:39:49.188773"
   },
   "META": {
     "price": 567.58,
     "change_pct": -10.18,
     "name": "META",
-    "updated_at": "2026-06-17T22:06:10.975180"
+    "updated_at": "2026-06-17T23:39:49.188784"
   },
   "AMZN": {
     "price": 237.5,
     "change_pct": -12.25,
     "name": "AMZN",
-    "updated_at": "2026-06-17T22:06:10.975186"
+    "updated_at": "2026-06-17T23:39:49.188795"
   },
   "TSLA": {
     "price": 396.38,
     "change_pct": -9.04,
     "name": "TSLA",
-    "updated_at": "2026-06-17T22:06:10.975191"
+    "updated_at": "2026-06-17T23:39:49.188804"
   },
   "S&P 500": {
     "price": 740.96,
     "change_pct": -2.05,
     "name": "S&P 500",
-    "updated_at": "2026-06-17T22:06:10.975196"
+    "updated_at": "2026-06-17T23:39:49.188813"
   },
   "AAPL": {
     "price": 295.95,
     "change_pct": -5.16,
     "name": "AAPL",
-    "updated_at": "2026-06-17T22:06:10.975201"
+    "updated_at": "2026-06-17T23:39:49.188823"
   },
   "QQQ": {
     "price": 722.51,
     "change_pct": -2.14,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-17T22:06:10.975207"
+    "updated_at": "2026-06-17T23:39:49.188832"
   },
   "BTC-USD": {
-    "price": 64539.97,
-    "change_pct": 5.94,
+    "price": 63855.6,
+    "change_pct": 4.81,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-17T22:06:10.975213"
+    "updated_at": "2026-06-17T23:39:49.188844"
   }
 },
   tickerScores: [
@@ -28660,7 +28660,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 17557,
+    "id": 17634,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -28672,7 +28672,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17558,
+    "id": 17635,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -28684,7 +28684,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17559,
+    "id": 17636,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -28696,7 +28696,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17560,
+    "id": 17637,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -28708,7 +28708,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17561,
+    "id": 17638,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -28720,7 +28720,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17562,
+    "id": 17639,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -28732,7 +28732,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17563,
+    "id": 17640,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -28744,7 +28744,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17564,
+    "id": 17641,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -28756,7 +28756,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17565,
+    "id": 17642,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -28768,7 +28768,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17566,
+    "id": 17643,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -28780,7 +28780,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17567,
+    "id": 17644,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -28792,7 +28792,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17568,
+    "id": 17645,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -28804,7 +28804,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17569,
+    "id": 17646,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -28816,7 +28816,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17570,
+    "id": 17647,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -28828,7 +28828,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17571,
+    "id": 17648,
     "name": "Reality",
     "slug": "reality",
     "bio": null,
@@ -28840,7 +28840,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17572,
+    "id": 17649,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -28852,7 +28852,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17573,
+    "id": 17650,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -28864,7 +28864,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17574,
+    "id": 17651,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -28876,7 +28876,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17575,
+    "id": 17652,
     "name": "\u26a1\ufe0fSatya Nadella",
     "slug": "satya-nadella",
     "bio": null,
@@ -28888,7 +28888,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17576,
+    "id": 17653,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -29107,7 +29107,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -30164,14 +30164,14 @@ const dashboardData = {
     "id": 295,
     "name": "Joseph Krauss",
     "slug": "joseph-krauss",
-    "bio": "Expert in material science and AI-driven material discovery.",
-    "known_for": "Pioneering the self-driving lab concept at Radical AI.",
+    "bio": "Joseph Krauss is an expert in material science and AI-driven material discovery. He is known for pioneering the self-driving lab concept at Radical AI, a company that focuses on leveraging AI to revolutionize material science and discovery.",
+    "known_for": "Pioneering the self-driving lab concept at Radical AI, focusing on AI-driven material discovery.",
     "net_worth_usd": null,
-    "net_worth_source": null,
+    "net_worth_source": "",
     "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
     "voice_profile_updated_at": null,
     "last_seen": "2026-06-18 03:02:26",
     "last_episode_title": "\ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
@@ -30184,8 +30184,40 @@ const dashboardData = {
     "last_proof_snippet": "This is the difference between AI for bio and AI for materials. If you look at bio or maybe small molecules is a more broad category, you look at selfies and smile strings, where I which has been a big way to have those materials, those mol",
     "supporting_takeaway": "Consider long qualification timelines when evaluating material science companies.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
+    "grokipedia_fetched_at": "2026-06-17T23:38:46.769683",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Joseph Krauss",
+      "fetched_at": "2026-06-18T04:38:46.769185+00:00",
+      "cliff_notes": "Joseph Krauss is a prominent figure in the field of material science and AI-driven material discovery. As the CEO of Radical AI, he has been instrumental in pioneering the self-driving lab concept, which aims to revolutionize the way materials are discovered and developed. His work at Radical AI focuses on leveraging artificial intelligence to understand complex material properties and processes, which are critical for the development of new technologies and products. Krauss's expertise in material science and his innovative approach to AI-driven material discovery have positioned him as a key player in the rapidly growing market of AI applications in material science.",
+      "derived": {
+        "current_role": "CEO of Radical AI"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Joseph Krauss is a prominent figure in the field of material science and AI-driven material discovery. As the CEO of Radical AI, he has been instrumental in pioneering the self-driving lab concept, which aims to revolutionize the way materials are discovered and developed. His work at Radical AI focuses on leveraging artificial intelligence to understand complex material properties and processes, which are critical for the development of new technologies and products.",
+        "Krauss's expertise in material science and his innovative approach to AI-driven material discovery have positioned him as a key player in the rapidly growing market of AI applications in material science."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Material Science",
+          "body": "Joseph Krauss is recognized for his work in applying AI to material science, particularly in the development of new materials for various industries."
+        },
+        {
+          "heading": "Self-Driving Labs",
+          "body": "Krauss pioneered the concept of self-driving labs at Radical AI, which utilize AI to automate and accelerate the process of material discovery."
+        },
+        {
+          "heading": "Material Discovery Challenges",
+          "body": "He has highlighted the challenges in capturing complex material data and using AI to improve material discovery processes beyond just identifying new materials."
+        }
+      ]
+    }
   },
   {
     "id": 293,
@@ -30391,7 +30423,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -31239,7 +31271,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -31431,7 +31463,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
