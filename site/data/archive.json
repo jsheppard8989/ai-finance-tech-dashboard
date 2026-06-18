@@ -20,6 +20,25 @@
       "podcast_episode_id": 292
     },
     {
+      "id": 309,
+      "title": "\ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-06-17",
+      "summary": "This podcast episode delves into Radical AI's innovative approach to material science, which leverages AI to automate the discovery and testing of new materials. Key themes include the importance of experimental data, the lengthy qualification timelines for new materials, the role of AI in material discovery, the competitive landscape with China, and the strategic benefits of open sourcing AI models. The episode underscores the potential for AI to revolutionize material science, with significant implications for investors in the aerospace and semiconductor sectors.",
+      "key_takeaway": "Invest in companies that integrate AI with experimental data for material discovery to gain a competitive edge in industries like aerospace and semiconductors.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 294
+    },
+    {
       "id": 302,
       "title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
       "source_type": "podcast",
@@ -205,7 +224,7 @@
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-16",
       "archived_date": null,

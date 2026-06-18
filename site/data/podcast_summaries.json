@@ -1,5 +1,21 @@
 [
   {
+    "id": 294,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "\ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
+    "episode_date": "2026-06-17",
+    "summary": "This podcast episode delves into Radical AI's innovative approach to material science, which leverages AI to automate the discovery and testing of new materials. Key themes include the importance of experimental data, the lengthy qualification timelines for new materials, the role of AI in material discovery, the competitive landscape with China, and the strategic benefits of open sourcing AI models. The episode underscores the potential for AI to revolutionize material science, with significant implications for investors in the aerospace and semiconductor sectors.",
+    "key_takeaways": [
+      "Invest in companies prioritizing experimental data in AI processes.",
+      "Consider long qualification timelines when evaluating material science companies.",
+      "Assess the competitive advantage of AI in material discovery.",
+      "Monitor geopolitical developments, especially China's impact on material science.",
+      "Support companies adopting open-source strategies for innovation."
+    ],
+    "investment_thesis": "Invest in companies that integrate AI with experimental data for material discovery to gain a competitive edge in industries like aerospace and semiconductors.",
+    "key_tickers": null
+  },
+  {
     "id": 292,
     "podcast_name": "The a16z Show",
     "episode_title": "The Fintech Playbook for Latin America",
@@ -114,25 +130,6 @@
       "MGM",
       "TALENT ENERGY",
       "GEONET"
-    ]
-  },
-  {
-    "id": 290,
-    "podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
-    "episode_title": "The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
-    "episode_date": "2026-06-11",
-    "summary": "The podcast discusses SpaceX's anticipated IPO and its potential to generate significant revenue, with projections reaching $160 billion by 2028. Key investment themes include the rapid deployment of data centers, the consolidation of the AI compute market, and the growth potential of Starlink's broadband service. The show also highlights SpaceX's profitability in AI compute contracts and the potential impact of integrating cursor into X.AI on revenue growth.",
-    "key_takeaways": [
-      "SpaceX's IPO is a critical investment opportunity for institutional investors, with revenue projections reaching $160 billion by 2028.",
-      "SpaceX's rapid deployment of data centers in 122 days positions it favorably against competitors, potentially yielding a 55% IRR.",
-      "The AI compute market is expected to consolidate, with SpaceX emerging as a major player alongside hyper-scalars like Google.",
-      "Starlink's broadband service has the potential to scale significantly, despite its current low household penetration.",
-      "SpaceX's AI compute contracts reportedly yield higher operating profits than competitors, enhancing its financial outlook.",
-      "The integration of cursor into X.AI may lead to significant advancements in AI performance and market share."
-    ],
-    "investment_thesis": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
-    "key_tickers": [
-      "TSLA"
     ]
   }
 ]
