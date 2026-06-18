@@ -1,5 +1,24 @@
 [
   {
+    "id": 296,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "SpaceX IPOs at $2.89T Market Cap, US Govt Suspends Fable & Mythos 5, Altman Delays OpenAI\u2019s IPO | EP #265",
+    "episode_date": "2026-06-18",
+    "summary": "In this episode, Peter Diamandis discusses the monumental SpaceX IPO and its implications for humanity's future in space exploration and technology. The IPO is valued at $2.89 trillion, making Elon Musk the world's first trillionaire. The conversation delves into the business model of SpaceX, including the launch monopoly, Starlink's profitability, and AI satellite capabilities. Additionally, the podcast addresses the U.S. government's export control directive on AI, the potential for recursive self-improvement in AI, the Kessler effect, sovereign wealth funds in AI, youth unemployment, and the societal implications of AI advancements.",
+    "key_takeaways": [
+      "SpaceX's IPO is a pivotal moment for humanity's future in space exploration and technology.",
+      "The U.S. government's export control directive on AI raises questions about who controls access to AI technology.",
+      "Recursive self-improvement in AI could delay OpenAI's IPO, maximizing its valuation as AI technology evolves.",
+      "The Kessler effect poses a risk to space operations, highlighting the need for advanced solutions to manage orbital debris.",
+      "The rise of sovereign wealth funds in AI could lead to significant economic shifts, but government involvement raises concerns about efficiency and innovation.",
+      "High youth unemployment rates could lead to social unrest and revolutions."
+    ],
+    "investment_thesis": "Invest in companies that align with long-term technological advancements, particularly in space and AI, and consider the societal implications of these advancements.",
+    "key_tickers": [
+      "TSLA"
+    ]
+  },
+  {
     "id": 294,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "\ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
@@ -111,25 +130,5 @@
     ],
     "investment_thesis": "Invest in companies that leverage open-source AI models to maintain a competitive edge in a shifting technological landscape and to mitigate risks associated with proprietary AI censorship.",
     "key_tickers": null
-  },
-  {
-    "id": 283,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
-    "episode_date": "2026-06-12",
-    "summary": "This podcast episode from 'All-In with Chamath, Jason, Sacks & Friedberg' provides a deep dive into various investment opportunities across different sectors. Key themes include the undervalued potential of MGM, the significant replacement cost advantage of Talent Energy, the upcoming surge in power demand, the high-potential biotech firm Actus Oncology, and the rapid expansion of GEONet's RTK network. The hosts also discuss the importance of long-term vision in investment, the impact of AI on power demand, and the high volatility of the biotech sector.",
-    "key_takeaways": [
-      "Invest in MGM to capitalize on its undervalued stock and potential growth from new markets.",
-      "Consider acquiring shares in Talent Energy, focusing on its replacement cost advantage.",
-      "Monitor the power sector for companies that can leverage the expected surge in demand.",
-      "Keep an eye on Actus Oncology for upcoming clinical trial results that could significantly impact its valuation.",
-      "Explore investment opportunities in GEONet as it expands its RTK network and customer base."
-    ],
-    "investment_thesis": "Invest in undervalued companies with hidden assets or significant growth potential, particularly in the power and biotech sectors.",
-    "key_tickers": [
-      "MGM",
-      "TALENT ENERGY",
-      "GEONET"
-    ]
   }
 ]
