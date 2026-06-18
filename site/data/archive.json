@@ -847,6 +847,25 @@
       "podcast_episode_id": 255
     },
     {
+      "id": 310,
+      "title": "GitHub's plan for Agents \u2014 Kyle Daigle, GitHub",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-06-02",
+      "summary": "In this episode, the discussion revolves around GitHub's unprecedented growth, the challenges of scaling infrastructure to handle increased commits and pull requests, and the integration of AI tools like GitHub Copilot to enhance developer productivity. The podcast also explores the concept of ambient AI and Microsoft's investment in open-source projects and AI, aiming to improve the developer experience across platforms. Key themes include the exponential growth in commits, infrastructure challenges, AI integration, and the commitment to transparency.",
+      "key_takeaway": "Investors should consider the growth of GitHub and its AI integration as indicators of future performance, with a focus on infrastructure improvements and user engagement metrics.",
+      "tickers_mentioned": [
+        "MSFT"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-06-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 295
+    },
+    {
       "id": 266,
       "title": "Building AI Agents for Enterprise Operations",
       "source_type": "podcast",
