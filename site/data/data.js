@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-18T22:08:01.427957",
-  chartsVersion: "2026-06-18T22:07:54.493590",
+  generatedAt: "2026-06-18T23:41:17.703200",
+  chartsVersion: "2026-06-18T23:41:12.790558",
   priceSnapshot: {
   "GOOGL": {
     "price": 368.03,
     "change_pct": -2.16,
     "name": "GOOGL",
-    "updated_at": "2026-06-18T22:07:54.492776"
+    "updated_at": "2026-06-18T23:41:12.789774"
   },
   "BTC": {
-    "price": 62850.01,
-    "change_pct": 3.26,
+    "price": 62509.99,
+    "change_pct": 2.7,
     "name": "BTC",
-    "updated_at": "2026-06-18T22:07:54.492793"
+    "updated_at": "2026-06-18T23:41:12.789791"
   },
   "MSFT": {
     "price": 379.4,
     "change_pct": -17.61,
     "name": "MSFT",
-    "updated_at": "2026-06-18T22:07:54.492800"
+    "updated_at": "2026-06-18T23:41:12.789797"
   },
   "NVDA": {
     "price": 210.69,
     "change_pct": -5.98,
     "name": "NVDA",
-    "updated_at": "2026-06-18T22:07:54.492806"
+    "updated_at": "2026-06-18T23:41:12.789803"
   },
   "TSLA": {
     "price": 400.49,
     "change_pct": -3.7,
     "name": "TSLA",
-    "updated_at": "2026-06-18T22:07:54.492811"
+    "updated_at": "2026-06-18T23:41:12.789809"
   },
   "WTI": {
     "price": 3.21,
     "change_pct": -19.55,
     "name": "WTI",
-    "updated_at": "2026-06-18T22:07:54.492817"
+    "updated_at": "2026-06-18T23:41:12.789814"
   },
   "META": {
     "price": 577.22,
     "change_pct": -3.78,
     "name": "META",
-    "updated_at": "2026-06-18T22:07:54.492823"
+    "updated_at": "2026-06-18T23:41:12.789820"
   },
   "AMZN": {
     "price": 244.39,
     "change_pct": -6.46,
     "name": "AMZN",
-    "updated_at": "2026-06-18T22:07:54.492828"
+    "updated_at": "2026-06-18T23:41:12.789825"
   },
   "S&P 500": {
     "price": 746.74,
     "change_pct": -1.3,
     "name": "S&P 500",
-    "updated_at": "2026-06-18T22:07:54.492834"
+    "updated_at": "2026-06-18T23:41:12.789830"
   },
   "AAPL": {
     "price": 298.01,
     "change_pct": -2.71,
     "name": "AAPL",
-    "updated_at": "2026-06-18T22:07:54.492839"
+    "updated_at": "2026-06-18T23:41:12.789836"
   },
   "QQQ": {
     "price": 740.62,
     "change_pct": -0.29,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-18T22:07:54.492845"
+    "updated_at": "2026-06-18T23:41:12.789841"
   },
   "BTC-USD": {
-    "price": 62850.01,
-    "change_pct": 3.26,
+    "price": 62509.99,
+    "change_pct": 2.7,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-18T22:07:54.492852"
+    "updated_at": "2026-06-18T23:41:12.789848"
   }
 },
   tickerScores: [
@@ -28013,7 +28013,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 18019,
+    "id": 18096,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -28025,7 +28025,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18020,
+    "id": 18097,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -28037,7 +28037,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18021,
+    "id": 18098,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -28049,7 +28049,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18022,
+    "id": 18099,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -28061,7 +28061,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18023,
+    "id": 18100,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -28073,7 +28073,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18024,
+    "id": 18101,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -28085,7 +28085,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18025,
+    "id": 18102,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -28097,7 +28097,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18026,
+    "id": 18103,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -28109,7 +28109,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18027,
+    "id": 18104,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -28121,7 +28121,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18028,
+    "id": 18105,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -28133,7 +28133,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18029,
+    "id": 18106,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -28145,7 +28145,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18030,
+    "id": 18107,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -28157,7 +28157,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18031,
+    "id": 18108,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -28169,7 +28169,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18032,
+    "id": 18109,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -28181,7 +28181,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18033,
+    "id": 18110,
     "name": "Reality",
     "slug": "reality",
     "bio": null,
@@ -28193,7 +28193,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18034,
+    "id": 18111,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -28205,7 +28205,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18035,
+    "id": 18112,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -28217,7 +28217,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18036,
+    "id": 18113,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -28229,7 +28229,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18037,
+    "id": 18114,
     "name": "\u26a1\ufe0fSatya Nadella",
     "slug": "satya-nadella",
     "bio": null,
@@ -28241,7 +28241,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18038,
+    "id": 18115,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -28460,7 +28460,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 1.95,
+    "mention_score_decayed": 1.91,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -29896,7 +29896,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -30744,7 +30744,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -30936,7 +30936,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
@@ -38106,7 +38106,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_proof_snippet": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229 00:00:00 I am blown away by how far you've come. The things that you can do with Neural Nets now does completely",
@@ -38170,7 +38170,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "last_proof_cite": "The a16z Show \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
     "last_proof_snippet": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. If you were starting from scratch today,",

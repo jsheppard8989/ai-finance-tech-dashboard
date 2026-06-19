@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-18T22:07:56.048074",
-  "last_updated": "2026-06-18T22:07:56.048074",
-  "last_pipeline_run": "2026-06-18T22:07:56.048074",
+  "generated_at": "2026-06-18T23:41:15.068076",
+  "last_updated": "2026-06-18T23:41:15.068076",
+  "last_pipeline_run": "2026-06-18T23:41:15.068076",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -20,32 +20,14 @@
     "podcasts_analyzed": 5
   },
   "step_results": {
-    "downloaded": 5,
-    "transcribed": 5,
-    "analyzed": 3,
-    "insight_created": 3,
-    "published": 2,
-    "total": 5
+    "downloaded": 2,
+    "transcribed": 2,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 2
   },
   "episodes": [
-    {
-      "id": "19f44090-6acd-11f1-b421-5bbf1c0e295d",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
-      "published": "2026-06-18",
-      "rss_guid": "19f44090-6acd-11f1-b421-5bbf1c0e295d",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "916c5e0a-b2ab-4935-ae27-7dc4eeb8612a",
       "podcast": "The a16z Show",
@@ -102,57 +84,6 @@
         }
       },
       "status": "needs_analysis"
-    },
-    {
-      "id": "substack:post:202359797",
-      "podcast": "Latent Space: The AI Engineer Podcast",
-      "title": "The Professor of Outputmaxxing \u2014 Anjney Midha, AMP",
-      "published": "2026-06-18",
-      "rss_guid": "substack:post:202359797",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
-    {
-      "id": "substack:post:200078058",
-      "podcast": "Latent Space: The AI Engineer Podcast",
-      "title": "Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
-      "published": "2026-06-01",
-      "rss_guid": "substack:post:200078058",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": false
-      },
-      "stage_reasons": {
-        "published": "Insight exists but added_to_site=0 \u2014 Deep Dives + export must succeed; run auto_pipeline."
-      },
-      "first_blocker": "published",
-      "remediation_by_stage": {
-        "published": {
-          "action_id": "EXPORT_AND_PUBLISH",
-          "steps": [
-            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
-            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
-            "When added_to_site=1 on the episode row, this stage turns green."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        }
-      },
-      "status": "needs_export"
     },
     {
       "id": "substack:post:202271948",
@@ -237,15 +168,6 @@
       "published": "2026-06-12",
       "age_days": 6,
       "next_blocker": "analyzed"
-    },
-    {
-      "id": "substack:post:200078058",
-      "podcast": "Latent Space: The AI Engineer Podcast",
-      "title": "Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
-      "status": "needs_export",
-      "published": "2026-06-01",
-      "age_days": 17,
-      "next_blocker": "published"
     },
     {
       "id": "substack:post:202271948",
