@@ -1,6 +1,18 @@
 [
   {
-    "id": 18327,
+    "id": 18404,
+    "name": "This episode",
+    "slug": "this-episode",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The shift to new media platforms offers founders the opportunity to build personal brands and communicate directly with audiences, which can enhance a company's visibility and credibility.",
+    "last_episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-19",
+    "appearance_count": 2
+  },
+  {
+    "id": 18405,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18328,
+    "id": 18406,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18329,
+    "id": 18407,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18330,
+    "id": 18408,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18331,
+    "id": 18409,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18332,
+    "id": 18410,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18333,
+    "id": 18411,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18334,
+    "id": 18412,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18335,
+    "id": 18413,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18336,
+    "id": 18414,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18337,
+    "id": 18415,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18338,
+    "id": 18416,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18339,
+    "id": 18417,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18340,
+    "id": 18418,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18341,
+    "id": 18419,
     "name": "Reality",
     "slug": "reality",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18342,
+    "id": 18420,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18343,
+    "id": 18421,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18344,
+    "id": 18422,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18345,
+    "id": 18423,
     "name": "\u26a1\ufe0fSatya Nadella",
     "slug": "satya-nadella",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18346,
+    "id": 18424,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18347,
+    "id": 18425,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18348,
+    "id": 18426,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18349,
+    "id": 18427,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18350,
+    "id": 18428,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -288,19 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18351,
-    "name": "This episode",
-    "slug": "this-episode",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in AI infrastructure and multi-modal AI applications presents a significant opportunity as Google and other tech companies continue to expand their capabilities and applications in this space.",
-    "last_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-05-21",
-    "appearance_count": 1
-  },
-  {
-    "id": 18352,
+    "id": 18429,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -312,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18353,
+    "id": 18430,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -324,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18354,
+    "id": 18431,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -336,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 18355,
+    "id": 18432,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -348,7 +348,7 @@
     "appearance_count": 2
   },
   {
-    "id": 18356,
+    "id": 18433,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
     "bio": null,

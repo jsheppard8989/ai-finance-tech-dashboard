@@ -1,5 +1,38 @@
 [
   {
+    "id": 301,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
+    "episode_date": "2026-06-19",
+    "summary": "This episode discusses the transformation of media and its impact on how founders communicate with their audiences. It emphasizes the importance of authenticity, crafting compelling messages, and situating a company's story within broader societal contexts. The discussion highlights the rise of direct communication through social media and other new media platforms, allowing founders to bypass traditional gatekeepers and build personal brands. The insights provided focus on the need for storytelling skills within companies and the strategic engagement with criticism to enhance brand visibility.",
+    "key_takeaways": [
+      "Founders can communicate directly with audiences through new media platforms.",
+      "Authenticity in communication is more resonant than rehearsed responses.",
+      "A strong message is crucial before considering distribution strategies.",
+      "Engaging with criticism can be an opportunity for brand building.",
+      "Storytelling is a core skill for engaging audiences and differentiating a brand."
+    ],
+    "investment_thesis": "The shift to new media platforms offers founders the opportunity to build personal brands and communicate directly with audiences, which can enhance a company's visibility and credibility.",
+    "key_tickers": null
+  },
+  {
+    "id": 300,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "The data black hole at the center of AI",
+    "episode_date": "2026-06-19",
+    "summary": "This podcast episode delves into the concept of sample efficiency in AI, which is a measure of how much data is required for a system to learn effectively. It discusses the current state of AI advancements, which are largely driven by the volume and quality of data rather than improvements in algorithms. The episode highlights the inefficiency of AI models compared to human learning and the potential for AI to automate white-collar work despite these inefficiencies. It also touches on the growing market for domain-specific data and the need for innovative training methodologies to improve sample efficiency.",
+    "key_takeaways": [
+      "Sample efficiency is a critical measure of intelligence, and current AI advancements are primarily driven by data volume and quality.",
+      "The data industry, particularly in expert labeling, is projected to grow significantly, indicating a substantial market for domain-specific data.",
+      "Frontier AI models require vast amounts of data, highlighting the gap in sample efficiency between AI and human learning.",
+      "Scaling AI models alone will not bridge the sample efficiency gap, suggesting a need for innovative training methodologies.",
+      "AI can automate white-collar work by processing large amounts of data, potentially augmenting rather than replacing human roles.",
+      "Investors should focus on companies that enhance data collection and processing capabilities to improve AI training efficiency."
+    ],
+    "investment_thesis": "Invest in data-centric companies that provide infrastructure for AI training and consider sectors where AI can complement human roles for future investment opportunities.",
+    "key_tickers": null
+  },
+  {
     "id": 299,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "The Professor of Outputmaxxing \u2014 Anjney Midha, AMP",
@@ -105,38 +138,6 @@
       "Founders should prioritize proactive work over reactive tasks to maximize productivity."
     ],
     "investment_thesis": "Invest in startups that balance customer feedback with a clear vision, demonstrate rapid product-market fit, and have a compelling growth narrative.",
-    "key_tickers": null
-  },
-  {
-    "id": 287,
-    "podcast_name": "The Jack Mallers Show",
-    "episode_title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
-    "episode_date": "2026-06-16",
-    "summary": "The podcast discusses Bitcoin's current market price and its significance as a leading indicator of global market sentiment and liquidity. It also delves into the complexities of capital structures in Bitcoin treasury companies and the importance of transparency and long-term thinking in the Bitcoin space. The host emphasizes the need for authenticity in discussions and the potential challenges treasury companies face in satisfying various stakeholders without causing sell pressure on Bitcoin.",
-    "key_takeaways": [
-      "Bitcoin's price movements reflect real market sentiment and can act as a leading indicator for global market conditions.",
-      "Bitcoin treasury companies face challenges in managing their capital structures to satisfy common equity, preferred equity, and debt holders.",
-      "Transparency and authenticity in discussions about Bitcoin are crucial for fostering trust and collaboration within the community.",
-      "Long-term thinking and low time preference are essential for Bitcoin investments, regardless of short-term market fluctuations or regulatory developments.",
-      "Strike's recent innovations, such as a new limit system and Plaid integration, highlight the ongoing innovation in the Bitcoin space."
-    ],
-    "investment_thesis": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
-    "key_tickers": null
-  },
-  {
-    "id": 286,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
-    "episode_date": "2026-06-15",
-    "summary": "In this episode, Jack Farley discusses the decline in hyperscaler capital expenditures, the illusion of earnings growth due to component cost inflation, and the increasing regulatory risks surrounding AI. The conversation also touches on the commoditization of AI technology, the potential impact of geopolitical tensions on oil prices, and the parallels between the current AI investment cycle and the dot-com bubble. Farley emphasizes the importance of reassessing investment positions in hyperscaler stocks, focusing on real earnings growth, and staying informed about geopolitical developments.",
-    "key_takeaways": [
-      "Hyperscaler capex declined quarter-over-quarter for the first time in three years, signaling potential caution in AI infrastructure investment.",
-      "Inflation of component costs has created an illusion of earnings growth for hyperscalers, masking stagnant real growth.",
-      "Regulatory risks for AI are rising, with potential crackdowns on powerful AI models like Anthropic's Mythos.",
-      "AI market commoditization is increasing competition and reducing pricing power for memory chip manufacturers.",
-      "Geopolitical tensions, particularly involving Iran, could significantly impact oil prices."
-    ],
-    "investment_thesis": "Investors should reassess their positions in hyperscaler stocks and monitor regulatory developments in AI, while also staying vigilant about geopolitical risks that could impact oil prices.",
     "key_tickers": null
   }
 ]

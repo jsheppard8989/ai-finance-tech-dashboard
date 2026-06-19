@@ -1,6 +1,52 @@
 {
   "insights": [
     {
+      "id": 315,
+      "title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-19",
+      "summary": "This episode discusses the transformation of media and its impact on how founders communicate with their audiences. It emphasizes the importance of authenticity, crafting compelling messages, and situating a company's story within broader societal contexts. The discussion highlights the rise of direct communication through social media and other new media platforms, allowing founders to bypass traditional gatekeepers and build personal brands. The insights provided focus on the need for storytelling skills within companies and the strategic engagement with criticism to enhance brand visibility.",
+      "key_takeaway": "The shift to new media platforms offers founders the opportunity to build personal brands and communicate directly with audiences, which can enhance a company's visibility and credibility.",
+      "tickers_mentioned": [
+        "AAPL",
+        "TSLA",
+        "META",
+        "GOOGL",
+        "AMZN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 301
+    },
+    {
+      "id": 316,
+      "title": "The data black hole at the center of AI",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-06-19",
+      "summary": "This podcast episode delves into the concept of sample efficiency in AI, which is a measure of how much data is required for a system to learn effectively. It discusses the current state of AI advancements, which are largely driven by the volume and quality of data rather than improvements in algorithms. The episode highlights the inefficiency of AI models compared to human learning and the potential for AI to automate white-collar work despite these inefficiencies. It also touches on the growing market for domain-specific data and the need for innovative training methodologies to improve sample efficiency.",
+      "key_takeaway": "Invest in data-centric companies that provide infrastructure for AI training and consider sectors where AI can complement human roles for future investment opportunities.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 300
+    },
+    {
       "id": 311,
       "title": "SpaceX IPOs at $2.89T Market Cap, US Govt Suspends Fable & Mythos 5, Altman Delays OpenAI\u2019s IPO | EP #265",
       "source_type": "podcast",
@@ -110,7 +156,7 @@
         "AAPL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-16",
       "archived_date": null,
@@ -167,7 +213,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-15",
       "archived_date": null,

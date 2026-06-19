@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-19T12:05:52.849758",
-  chartsVersion: "2026-06-19T12:05:35.726323",
+  generatedAt: "2026-06-19T13:39:43.118263",
+  chartsVersion: "2026-06-19T13:39:34.241063",
   priceSnapshot: {
   "GOOGL": {
     "price": 368.03,
     "change_pct": -2.16,
     "name": "GOOGL",
-    "updated_at": "2026-06-19T12:05:35.725251"
+    "updated_at": "2026-06-19T13:39:34.240269"
   },
   "BTC": {
-    "price": 62821.0,
-    "change_pct": 3.21,
+    "price": 62973.56,
+    "change_pct": 3.46,
     "name": "BTC",
-    "updated_at": "2026-06-19T12:05:35.725273"
+    "updated_at": "2026-06-19T13:39:34.240286"
   },
   "MSFT": {
     "price": 379.4,
     "change_pct": -17.61,
     "name": "MSFT",
-    "updated_at": "2026-06-19T12:05:35.725283"
+    "updated_at": "2026-06-19T13:39:34.240293"
   },
   "NVDA": {
     "price": 210.69,
     "change_pct": -5.98,
     "name": "NVDA",
-    "updated_at": "2026-06-19T12:05:35.725292"
+    "updated_at": "2026-06-19T13:39:34.240298"
   },
   "TSLA": {
     "price": 400.49,
     "change_pct": -3.7,
     "name": "TSLA",
-    "updated_at": "2026-06-19T12:05:35.725300"
+    "updated_at": "2026-06-19T13:39:34.240304"
   },
   "WTI": {
     "price": 3.21,
     "change_pct": -19.55,
     "name": "WTI",
-    "updated_at": "2026-06-19T12:05:35.725309"
+    "updated_at": "2026-06-19T13:39:34.240310"
   },
   "META": {
     "price": 577.22,
     "change_pct": -3.78,
     "name": "META",
-    "updated_at": "2026-06-19T12:05:35.725319"
+    "updated_at": "2026-06-19T13:39:34.240315"
   },
   "AMZN": {
     "price": 244.39,
     "change_pct": -6.46,
     "name": "AMZN",
-    "updated_at": "2026-06-19T12:05:35.725327"
+    "updated_at": "2026-06-19T13:39:34.240320"
   },
   "S&P 500": {
     "price": 746.74,
     "change_pct": -1.3,
     "name": "S&P 500",
-    "updated_at": "2026-06-19T12:05:35.725336"
+    "updated_at": "2026-06-19T13:39:34.240326"
   },
   "AAPL": {
     "price": 298.01,
     "change_pct": -2.71,
     "name": "AAPL",
-    "updated_at": "2026-06-19T12:05:35.725345"
+    "updated_at": "2026-06-19T13:39:34.240331"
   },
   "QQQ": {
     "price": 740.62,
     "change_pct": -0.29,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-19T12:05:35.725353"
+    "updated_at": "2026-06-19T13:39:34.240337"
   },
   "BTC-USD": {
-    "price": 62860.05,
-    "change_pct": 3.27,
+    "price": 62973.56,
+    "change_pct": 3.46,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-19T12:05:35.725363"
+    "updated_at": "2026-06-19T13:39:34.240344"
   }
 },
   tickerScores: [
@@ -834,6 +834,52 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 315,
+      "title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-19",
+      "summary": "This episode discusses the transformation of media and its impact on how founders communicate with their audiences. It emphasizes the importance of authenticity, crafting compelling messages, and situating a company's story within broader societal contexts. The discussion highlights the rise of direct communication through social media and other new media platforms, allowing founders to bypass traditional gatekeepers and build personal brands. The insights provided focus on the need for storytelling skills within companies and the strategic engagement with criticism to enhance brand visibility.",
+      "key_takeaway": "The shift to new media platforms offers founders the opportunity to build personal brands and communicate directly with audiences, which can enhance a company's visibility and credibility.",
+      "tickers_mentioned": [
+        "AAPL",
+        "TSLA",
+        "META",
+        "GOOGL",
+        "AMZN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 301
+    },
+    {
+      "id": 316,
+      "title": "The data black hole at the center of AI",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-06-19",
+      "summary": "This podcast episode delves into the concept of sample efficiency in AI, which is a measure of how much data is required for a system to learn effectively. It discusses the current state of AI advancements, which are largely driven by the volume and quality of data rather than improvements in algorithms. The episode highlights the inefficiency of AI models compared to human learning and the potential for AI to automate white-collar work despite these inefficiencies. It also touches on the growing market for domain-specific data and the need for innovative training methodologies to improve sample efficiency.",
+      "key_takeaway": "Invest in data-centric companies that provide infrastructure for AI training and consider sectors where AI can complement human roles for future investment opportunities.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 300
+    },
+    {
       "id": 311,
       "title": "SpaceX IPOs at $2.89T Market Cap, US Govt Suspends Fable & Mythos 5, Altman Delays OpenAI\u2019s IPO | EP #265",
       "source_type": "podcast",
@@ -943,7 +989,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-16",
       "archived_date": null,
@@ -1000,7 +1046,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-15",
       "archived_date": null,
@@ -8657,6 +8703,46 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 315,
+      "title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-19",
+      "summary": "This episode discusses the transformation of media and its impact on how founders communicate with their audiences. It emphasizes the importance of authenticity, crafting compelling messages, and situating a company's story within broader societal contexts. The discussion highlights the rise of direct communication through social media and other new media platforms, allowing founders to bypass traditional gatekeepers and build personal brands. The insights provided focus on the need for storytelling skills within companies and the strategic engagement with criticism to enhance brand visibility.",
+      "key_takeaway": "The shift to new media platforms offers founders the opportunity to build personal brands and communicate directly with audiences, which can enhance a company's visibility and credibility.",
+      "tickers_mentioned": "[\"AAPL\", \"TSLA\", \"META\", \"GOOGL\", \"AMZN\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 301,
+      "episode_release_date": "2026-06-19",
+      "guest_name": "This episode",
+      "key_tickers": []
+    },
+    {
+      "id": 316,
+      "title": "The data black hole at the center of AI",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-06-19",
+      "summary": "This podcast episode delves into the concept of sample efficiency in AI, which is a measure of how much data is required for a system to learn effectively. It discusses the current state of AI advancements, which are largely driven by the volume and quality of data rather than improvements in algorithms. The episode highlights the inefficiency of AI models compared to human learning and the potential for AI to automate white-collar work despite these inefficiencies. It also touches on the growing market for domain-specific data and the need for innovative training methodologies to improve sample efficiency.",
+      "key_takeaway": "Invest in data-centric companies that provide infrastructure for AI training and consider sectors where AI can complement human roles for future investment opportunities.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 300,
+      "episode_release_date": "2026-06-19",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 311,
       "title": "SpaceX IPOs at $2.89T Market Cap, US Govt Suspends Fable & Mythos 5, Altman Delays OpenAI\u2019s IPO | EP #265",
       "source_type": "podcast",
@@ -8764,26 +8850,6 @@ const dashboardData = {
       "key_tickers": []
     },
     {
-      "id": 302,
-      "title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
-      "source_type": "podcast",
-      "source_name": "The Jack Mallers Show",
-      "source_date": "2026-06-16",
-      "summary": "The podcast discusses Bitcoin's current market price and its significance as a leading indicator of global market sentiment and liquidity. It also delves into the complexities of capital structures in Bitcoin treasury companies and the importance of transparency and long-term thinking in the Bitcoin space. The host emphasizes the need for authenticity in discussions and the potential challenges treasury companies face in satisfying various stakeholders without causing sell pressure on Bitcoin.",
-      "key_takeaway": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-16",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 287,
-      "episode_release_date": "2026-06-16",
-      "guest_name": "15 Questions",
-      "key_tickers": []
-    },
-    {
       "id": 303,
       "title": "Jack Altman on Product-Market Fit",
       "source_type": "podcast",
@@ -8801,26 +8867,6 @@ const dashboardData = {
       "podcast_episode_id": 288,
       "episode_release_date": "2026-06-16",
       "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 301,
-      "title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-06-15",
-      "summary": "In this episode, Jack Farley discusses the decline in hyperscaler capital expenditures, the illusion of earnings growth due to component cost inflation, and the increasing regulatory risks surrounding AI. The conversation also touches on the commoditization of AI technology, the potential impact of geopolitical tensions on oil prices, and the parallels between the current AI investment cycle and the dot-com bubble. Farley emphasizes the importance of reassessing investment positions in hyperscaler stocks, focusing on real earnings growth, and staying informed about geopolitical developments.",
-      "key_takeaway": "Investors should reassess their positions in hyperscaler stocks and monitor regulatory developments in AI, while also staying vigilant about geopolitical risks that could impact oil prices.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-15",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 286,
-      "episode_release_date": "2026-06-15",
-      "guest_name": "Regulatory Risk is Coming For AI",
       "key_tickers": []
     }
   ],
@@ -27959,61 +28005,217 @@ const dashboardData = {
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-06-01",
     "key_tickers": []
+  },
+  "315": {
+    "id": 305,
+    "insight_id": 315,
+    "podcast_episode_id": 301,
+    "overview": "The competitive dynamic implied by the source material is the struggle between traditional, gatekeeper-controlled media and the new paradigm of direct communication enabled by social media. This shift challenges the traditional power structures in media and communication, empowering individuals to build personal brands that can rival or even surpass corporate entities. The unresolved tension lies in the balance between authenticity and the strategic use of new media platforms. Allocators should consider who wins or loses in this landscape: those who can effectively harness the power of personal branding and direct communication will gain an edge, while those clinging to outdated communication methods may falter. The metric that arbitrates this uncertainty is audience engagement and the ability to build a loyal following.",
+    "key_takeaways_detailed": [
+      "Founders should invest in building a personal brand that resonates with their target audience, as this can serve as a powerful differentiator in a crowded market.",
+      "The ability to craft and convey a compelling narrative is crucial; founders must ensure their message is clear, consistent, and aligned with their brand's values.",
+      "Strategic engagement with criticism can be a double-edged sword; it can either enhance a brand's visibility or damage its reputation, depending on the response's thoughtfulness and alignment with brand values.",
+      "Hiring for storytelling skills is essential; team members who can create engaging narratives will be invaluable in capturing and maintaining audience interest.",
+      "Regularly reassessing and adapting the company's narrative to align with current events and trends is key to maintaining relevance and thought leadership in the industry."
+    ],
+    "investment_thesis": "The core logic is that in the evolving media landscape, the ability to communicate directly with audiences through personal branding will become increasingly important. This will lead to a shift in power dynamics, where individuals with strong personal brands can influence markets and public opinion as much as, if not more than, traditional corporate entities. Over the next 5 years, we expect to see a continued rise in the influence of personal brands, particularly in sectors like technology and media. An observable development that would vindicate this thesis is a consistent increase in the number of successful startups led by founders with strong personal brands, while those lacking this attribute struggle to gain traction.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in services and digital content, along with its strong brand, positions it to leverage the direct-to-consumer trend effectively.",
+        "positioning": "Strategic long position, as Apple's ability to engage directly with consumers through its ecosystem can drive growth in services revenue.",
+        "risk": "Regulatory changes that limit direct consumer engagement or increased competition in digital services could pose risks to Apple's growth in this area."
+      },
+      "TSLA": {
+        "rationale": "Tesla's brand is closely tied to Elon Musk's personal brand, which has been effective in engaging with customers and investors directly.",
+        "positioning": "Strategic long position, as the strength of the personal brand can continue to drive interest and loyalty among consumers.",
+        "risk": "Reputational damage due to controversial statements or actions by the founder could negatively impact the brand and stock price."
+      },
+      "META": {
+        "rationale": "Meta Platforms (Facebook) is at the forefront of social media, which is a key platform for direct communication and personal branding.",
+        "positioning": "Tactical long position, as the company can benefit from increased direct communication trends, but is also vulnerable to regulatory and privacy concerns.",
+        "risk": "Changes in user behavior or increased competition could reduce the effectiveness of Meta's platforms for direct communication."
+      },
+      "GOOGL": {
+        "rationale": "Google's broad suite of digital services provides multiple touchpoints for direct communication between brands and consumers.",
+        "positioning": "Strategic long position, as Google's diverse offerings can capitalize on the trend of direct consumer engagement.",
+        "risk": "Regulatory actions against digital advertising practices or a shift in consumer preferences away from Google's services could impact the company's growth."
+      },
+      "AMZN": {
+        "rationale": "Amazon's influence in e-commerce and cloud services gives it a platform to facilitate direct communication between sellers and buyers.",
+        "positioning": "Strategic long position, as Amazon can leverage its platform to enhance direct communication and build stronger relationships with consumers.",
+        "risk": "Increased competition in e-commerce or changes in consumer shopping habits could affect Amazon's ability to maintain its position in direct communication."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant increase in the number of scandals or missteps by founders with strong personal brands could lead to a backlash against personal branding in business.",
+      "The rise of privacy concerns and data protection regulations could limit the ability of founders to communicate directly with audiences, reverting to more traditional media channels.",
+      "A shift in consumer preferences towards anonymous or community-driven brands could reduce the appeal of personal branding in the market."
+    ],
+    "catalysts": [
+      "The launch of new social media platforms that prioritize direct communication between creators and audiences.",
+      "Regulatory changes that either support or restrict direct communication from individuals to audiences.",
+      "Significant investments by major corporations in digital services that facilitate direct consumer engagement.",
+      "High-profile successes or failures of startups led by founders with strong personal brands.",
+      "Annual reports from social media companies showing trends in user engagement and the effectiveness of direct communication strategies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-19T13:38:23.575289",
+    "updated_at": "2026-06-19 18:38:23",
+    "episode_evidence": "The transformation of media has significantly altered the communication landscape for founders. As the podcast transcript highlights, 'Today, founders, creators, investors, and operators can communicate directly with audiences through social media platforms.' This direct line to the audience allows for a more authentic and personal form of communication, bypassing traditional media gatekeepers. The importance of authenticity is underscored by the statement, 'A lot of mistakes that founders will make is trying to be too buttoned up, trying to be too media trained.' This suggests that founders should communicate in a manner that is more conversational and less scripted. Additionally, the transcript emphasizes the need for a compelling message, noting that 'A lot of founders really overindex on distribution and tactics before actually getting the message right.' This indicates that the content of the message is paramount, and without a strong message, even the best distribution strategies will fail to resonate.",
+    "falsification_tracks": [
+      "If social media platforms implement policies that significantly restrict direct communication from founders to audiences, the thesis of direct communication enhancing brand authenticity would be weakened.",
+      "A significant increase in media literacy among audiences that leads to skepticism of personal brand narratives could reduce the effectiveness of direct communication strategies.",
+      "If there is a notable decline in the number of followers or engagement on founders' social media platforms, it could indicate that the direct communication strategy is losing its impact."
+    ],
+    "insight_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
+    "source_name": "The a16z Show",
+    "source_date": "2026-06-19",
+    "key_tickers": []
+  },
+  "316": {
+    "id": 306,
+    "insight_id": 316,
+    "podcast_episode_id": 300,
+    "overview": "The unresolved tension in AI development lies in the disparity between the vast amounts of data required for AI training and the relatively small amount of data humans use to learn effectively. This competitive dynamic is between improving algorithms to increase sample efficiency and scaling data collection to maintain AI progress. The allocator-relevant implication is that the market will likely favor companies that can either reduce the data requirements for AI training or those that can efficiently manage and leverage large datasets. The metric arbitrating this uncertainty is the cost and efficiency of data processing and the ability of AI models to learn with less data.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the development of AI companies that focus on reducing data dependency, as advancements in sample efficiency could disrupt the current data-centric paradigm.",
+      "Consider the potential for AI to augment human roles in sectors where large datasets are already available, as this could indicate a faster adoption of AI technologies.",
+      "Keep an eye on the regulatory environment surrounding data privacy and AI, as changes could significantly impact the cost and availability of data for training.",
+      "Evaluate the potential for AI to automate white-collar work by assessing the scalability of AI solutions and their ability to handle the volume of data required for these tasks.",
+      "Invest in companies that are developing innovative training methodologies, as these could offer a competitive edge in improving sample efficiency without relying solely on data scale."
+    ],
+    "investment_thesis": "The core investment thesis is that while AI advancements are currently driven by data volume and quality, the future will favor companies that can improve sample efficiency. This is because the current model of scaling data is unsustainable and inefficient compared to human learning. The observable development that would vindicate this thesis is a significant reduction in the data requirements for AI training without a loss in performance. Conversely, if AI models continue to require exponentially more data to achieve similar learning outcomes as humans, the thesis would be invalidated.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI and machine learning, particularly in areas like Siri and facial recognition, makes it relevant to the thesis. Their ability to leverage large datasets while improving sample efficiency could provide a competitive advantage.",
+        "positioning": "Positioning should be strategic and long-term, as Apple's investments in AI are likely to pay off in the form of improved products and services over time.",
+        "risk": "Key risks include regulatory changes affecting data usage and potential setbacks in AI development that could slow down the progress of improving sample efficiency."
+      },
+      "GOOGL": {
+        "rationale": "Google's deep involvement in AI, with projects like DeepMind and its leadership in data-centric AI, aligns with the thesis on data-driven AI advancements.",
+        "positioning": "A strategic long position, considering Google's potential to lead in AI innovation and its ability to scale data efficiently.",
+        "risk": "The risk lies in the potential for Google to face challenges in scaling its AI models or in maintaining its lead in data collection and processing."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's focus on AI as a service and its investments in data infrastructure make it a key player in the data-centric AI landscape.",
+        "positioning": "A tactical long position, as Microsoft's AI services could benefit from improvements in sample efficiency and data management.",
+        "risk": "Risks include competition from other tech giants and potential disruptions in the AI market that could affect Microsoft's AI services."
+      },
+      "AMZN": {
+        "rationale": "Amazon's extensive data collection through its and cloud services positions it well to capitalize on the growing market for domain-specific data.",
+        "positioning": "A strategic long position, as Amazon's data assets could become increasingly valuable in training efficient AI models.",
+        "risk": "The risk is that Amazon may face challenges in protecting its data assets or in complying with evolving data privacy regulations."
+      },
+      "TSLA": {
+        "rationale": "Tesla's use of AI in autonomous driving technology is heavily reliant on data, making it a relevant company in the context of sample efficiency.",
+        "positioning": "A tactical long position, as improvements in sample efficiency could significantly enhance Tesla's autonomous driving capabilities.",
+        "risk": "Key risks include technological setbacks in AI and potential regulatory hurdles that could slow down the development of autonomous vehicles."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that AI advancements are primarily due to algorithmic improvements rather than data, which could challenge the focus on data-centric companies.",
+      "The possibility that AI models may reach a point where they can learn as efficiently as humans, reducing the need for vast amounts of data.",
+      "Concerns that the growing market for domain-specific data could lead to data monopolies, stifling innovation and competition in AI development.",
+      "The argument that the focus on sample efficiency overlooks the potential for AI to revolutionize industries through sheer computational power, regardless of data efficiency."
+    ],
+    "catalysts": [
+      "New research papers or technical disclosures from leading AI firms that demonstrate significant improvements in sample efficiency.",
+      "Regulatory changes that affect data privacy and usage, which could impact the cost and availability of data for AI training.",
+      "Major AI projects or initiatives that showcase the potential for AI to automate white-collar work at scale.",
+      "Market research reports that provide insights into the growth and potential of the data labeling industry.",
+      "AI conferences or events where new advancements in AI training methodologies are presented, potentially highlighting innovative approaches to improving sample efficiency."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-19T13:38:46.190929",
+    "updated_at": "2026-06-19 18:38:46",
+    "episode_evidence": "The podcast episode underscores the pivotal role of data in AI development, with a specific focus on sample efficiency. It is highlighted that 'One definition of intelligence is sample efficiency... it's actually not clear that we've made that much progress in training sample efficiency,' which underscores the current limitations in AI learning capabilities. The sheer scale of data required for AI training is emphasized, with 'frontier models... trained on somewhere between tens to hundreds of trillions of tokens,' a stark contrast to the '200 million tokens' a human might encounter in a lifetime. This disparity in data consumption is a significant factor in the inefficiency of AI models compared to human learning. The episode also points out the economic implications, noting that 'The data industry generating expert labels is projected to earn billions,' indicating a burgeoning market for domain-specific data.",
+    "falsification_tracks": [
+      "A significant decrease in venture capital funding for AI startups focused on data infrastructure would challenge the thesis that data is the primary driver of AI progress.",
+      "If leading AI firms begin to report reduced reliance on data volume for model training, it would suggest advancements in sample efficiency contrary to the current narrative.",
+      "A substantial increase in the number of AI models achieving human-like learning efficiency with less data would undermine the current understanding of AI's data dependency.",
+      "Should the market for domain-specific data shrink, as indicated by a decline in revenue for data labeling companies, it would signal a potential shift in AI training methodologies."
+    ],
+    "insight_title": "The data black hole at the center of AI",
+    "source_name": "Dwarkesh Podcast",
+    "source_date": "2026-06-19",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
   {
-    "id": 440,
-    "term": "Independent System Operators (ISOs)",
-    "definition": "Entities that enhance compute efficiency by pooling resources and demand across multiple providers, similar to the electric grid model.",
-    "investment_implications": "Investors should consider companies that adopt ISO models for their potential to optimize compute resource utilization.",
+    "id": 443,
+    "term": "Direct Communication",
+    "definition": "The ability for founders to communicate directly with their audiences through social media and other new media platforms, bypassing traditional media gatekeepers.",
+    "investment_implications": "Direct communication allows for more authentic engagement and narrative shaping, which can influence brand loyalty and market perception.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-19 03:05:35",
+    "submitted_date": "2026-06-19 18:37:30",
     "priority_score": 80
   },
   {
-    "id": 438,
-    "term": "Generative UI",
-    "definition": "A user interface that allows real-time interaction with AI models, potentially transforming how users engage with technology.",
-    "investment_implications": "Invest in companies developing generative UI technologies for potential disruption in user interface design.",
+    "id": 444,
+    "term": "Authenticity",
+    "definition": "The quality of being true to one's own personality, experiences, and beliefs, rather than presenting a rehearsed or insincere image.",
+    "investment_implications": "Authentic communication can build trust and relatability with audiences, which are essential for brand loyalty and market differentiation.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-19 03:03:42",
+    "submitted_date": "2026-06-19 18:37:30",
     "priority_score": 80
   },
   {
-    "id": 439,
-    "term": "Video Agents",
-    "definition": "AI tools that combine various capabilities for interactive and iterative video content creation.",
-    "investment_implications": "Monitor companies pioneering video agent technologies for significant advancements in generative media.",
+    "id": 441,
+    "term": "Sample Efficiency",
+    "definition": "A measure of how much data is required for a system to learn and operate effectively.",
+    "investment_implications": "Improving sample efficiency in AI can lead to more efficient and effective AI models, impacting the adoption and scalability of AI technologies.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-19 03:03:42",
+    "submitted_date": "2026-06-19 18:36:50",
     "priority_score": 80
   },
   {
-    "id": 437,
-    "term": "Electrification",
-    "definition": "The process of converting systems or industries to use electricity as the primary power source.",
-    "investment_implications": "Investors should focus on companies involved in the electrification of the grid and power generation, as demand for electricity is projected to increase.",
+    "id": 442,
+    "term": "Data-Driven Intelligence",
+    "definition": "The advancement of AI capabilities primarily through the increase in data volume and quality rather than algorithmic improvements.",
+    "investment_implications": "Investing in companies that focus on data collection, management, and processing can provide a competitive advantage in AI development.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-19 03:02:25",
+    "submitted_date": "2026-06-19 18:36:50",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 18327,
+    "id": 18404,
+    "name": "This episode",
+    "slug": "this-episode",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The shift to new media platforms offers founders the opportunity to build personal brands and communicate directly with audiences, which can enhance a company's visibility and credibility.",
+    "last_episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-19",
+    "appearance_count": 2
+  },
+  {
+    "id": 18405,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -28025,7 +28227,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18328,
+    "id": 18406,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -28037,7 +28239,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18329,
+    "id": 18407,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -28049,7 +28251,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18330,
+    "id": 18408,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -28061,7 +28263,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18331,
+    "id": 18409,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -28073,7 +28275,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18332,
+    "id": 18410,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -28085,7 +28287,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18333,
+    "id": 18411,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -28097,7 +28299,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18334,
+    "id": 18412,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -28109,7 +28311,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18335,
+    "id": 18413,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -28121,7 +28323,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18336,
+    "id": 18414,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -28133,7 +28335,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18337,
+    "id": 18415,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -28145,7 +28347,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18338,
+    "id": 18416,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -28157,7 +28359,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18339,
+    "id": 18417,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -28169,7 +28371,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18340,
+    "id": 18418,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -28181,7 +28383,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18341,
+    "id": 18419,
     "name": "Reality",
     "slug": "reality",
     "bio": null,
@@ -28193,7 +28395,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18342,
+    "id": 18420,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -28205,7 +28407,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18343,
+    "id": 18421,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -28217,7 +28419,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18344,
+    "id": 18422,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -28229,7 +28431,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18345,
+    "id": 18423,
     "name": "\u26a1\ufe0fSatya Nadella",
     "slug": "satya-nadella",
     "bio": null,
@@ -28238,18 +28440,6 @@ const dashboardData = {
     "last_episode_title": "\u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
-    "appearance_count": 1
-  },
-  {
-    "id": 18346,
-    "name": "Overvaluation Meets Macro Risk",
-    "slug": "overvaluation-meets-macro-risk",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "In a market with changing dynamics, seek alternative diversifiers and inflation hedges while being cautious of overvalued markets and optimistic earnings forecasts.",
-    "last_episode_title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish | Jim Masturzo | Research Affiliates",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-05-31",
     "appearance_count": 1
   }
 ],
@@ -28582,7 +28772,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 1.45,
+    "mention_score_decayed": 1.41,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -28720,7 +28910,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.29,
+    "mention_score_decayed": 1.26,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -28908,7 +29098,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -29770,7 +29960,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -29960,7 +30150,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-15 \u2022 AI, Design, and the Power of Open Models",
     "last_proof_snippet": "It's not about how good a model is in the general sense. It's about how good is this model for my use case, for a lot of design and marketing use case says they need editable design, not a single flat image. It's super impressive, honestly,",
@@ -30144,7 +30334,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -30212,7 +30402,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -30280,7 +30470,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-10 \u2022 America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. There's a very, very large player in global finance that almost no one knows about. The development finance corporation, it just had its reautho",
@@ -30403,7 +30593,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -30597,7 +30787,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -30684,7 +30874,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -30809,7 +30999,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -31068,7 +31258,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-02 \u2022 OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
     "last_proof_snippet": "Open AI's CFO, Sarah Fryer. We've got to get right to it. You have just completed what I would find as the most successful fund-raising rail in history. We're going to raise actually north of $120 billion. We think AI is the biggest era tha",
@@ -31310,7 +31500,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -31620,7 +31810,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -31684,7 +31874,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -31747,7 +31937,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -32809,7 +32999,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -32872,7 +33062,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -33060,7 +33250,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -38821,7 +39011,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -38848,7 +39038,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",
