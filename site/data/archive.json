@@ -20,6 +20,47 @@
       "podcast_episode_id": 296
     },
     {
+      "id": 312,
+      "title": "The Professor of Outputmaxxing \u2014 Anjney Midha, AMP",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-06-18",
+      "summary": "This podcast episode delves into the operational efficiency of data centers, the importance of community engagement, and the role of culture in tech companies. Key themes include maintaining high node utilization to avoid outages, funding community benefits to reduce opposition to data center projects, and the concept of independent system operators (ISOs) for compute infrastructure. The episode also emphasizes the fragility of company culture and its impact on long-term success, as well as the importance of preparedness in AI development.",
+      "key_takeaway": "Invest in data center operations with high node utilization and companies adopting ISO models for compute resource management. Prioritize tech companies with strong cultural alignment and preparedness in AI development.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 299
+    },
+    {
+      "id": 313,
+      "title": "The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-06-18",
+      "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the resurgence of U.S. manufacturing after a three-year recession, with industrial production growth at 1.7%. The discussion highlights significant investment opportunities in overlooked U.S. industrial champions, particularly in manufacturing and electrification. Companies like Caterpillar and Vernova are noted for their unprecedented order backlogs, indicating strong future demand. The U.S. is becoming the preferred location for incremental capital investment, with foreign direct investment share rising above 20%. The re-industrialization trend is driven by government policy, rising labor costs abroad, and supply chain disruptions. Automation and advanced manufacturing technologies are key to increasing efficiency and productivity in U.S. factories. The electrification of the U.S. grid is essential, with a projected increase in demand for power driven by manufacturing and data centers. The current U.S. grid infrastructure is outdated, requiring significant investment and skilled labor to modernize. Companies like Quanta and American Electric Power are positioned to benefit from high-voltage infrastructure projects.",
+      "key_takeaway": "Invest in U.S. industrial champions with strong order backlogs and companies positioned to benefit from the electrification and modernization of the U.S. grid.",
+      "tickers_mentioned": [
+        "CAT",
+        "VERN",
+        "QTA",
+        "AEP"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 297
+    },
+    {
       "id": 307,
       "title": "The Fintech Playbook for Latin America",
       "source_type": "podcast",
@@ -107,7 +148,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-15",
       "archived_date": null,
@@ -145,7 +186,7 @@
         "AAPL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-13",
       "archived_date": null,
@@ -924,6 +965,25 @@
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 252
+    },
+    {
+      "id": 314,
+      "title": "Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-06-01",
+      "summary": "This podcast episode delves into the intersection of generative AI, focusing on the pivotal role of language models in enhancing video generation capabilities. The discussion covers the importance of iteration speed in model training, the cost structure associated with video model training, and the potential for generative user interfaces to revolutionize user interaction with AI. The insights suggest that the future of AI may involve models that can manage their own context and dynamically adjust based on user interactions, with significant implications for enterprise applications.",
+      "key_takeaway": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-06-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 298
     },
     {
       "id": 265,
@@ -5958,8 +6018,8 @@
       "term": "AI CapEx",
       "description": "Capital expenditure in AI technologies, which is projected to contribute significantly to GDP growth.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-05-15",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-06-18",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider companies with high AI CapEx as potential drivers of economic growth.",
@@ -5968,8 +6028,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 220,
-      "last_mentioned_speaker": "Peter Diamandis"
+      "last_mentioned_episode_id": 297,
+      "last_mentioned_speaker": "Chris Seminoch"
     },
     {
       "id": 234,
@@ -6192,8 +6252,8 @@
       "term": "Synth ID",
       "description": "A system for verifying the authenticity of AI-generated content, addressing concerns about misinformation and enhancing trust in AI applications.",
       "first_detected_date": "2026-05-21",
-      "last_mentioned_date": "2026-05-21",
-      "mention_count": 1,
+      "last_mentioned_date": "2026-06-01",
+      "mention_count": 2,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Content verification technologies are becoming increasingly important for maintaining credibility in digital communications.",
@@ -6202,8 +6262,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 232,
       "first_detected_speaker": "Andrew Feldman",
-      "last_mentioned_episode_id": 232,
-      "last_mentioned_speaker": "Andrew Feldman"
+      "last_mentioned_episode_id": 298,
+      "last_mentioned_speaker": "Eden Ha"
     },
     {
       "id": 20,
@@ -6246,8 +6306,8 @@
       "term": "Distillation",
       "description": "The process of reducing a large AI model into a smaller, more manageable one through API queries.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-05-27",
-      "mention_count": 12,
+      "last_mentioned_date": "2026-06-01",
+      "mention_count": 13,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Look for opportunities in technologies that enable efficient distillation to democratize AI capabilities.",
@@ -6256,8 +6316,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 244,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 298,
+      "last_mentioned_speaker": "Eden Ha"
     },
     {
       "id": 174,
@@ -6532,20 +6592,20 @@
     {
       "id": 126,
       "term": "Data Center Nimbyism",
-      "description": "Opposition to the construction of data centers in local communities, often due to concerns about energy consumption and environmental impact.",
+      "description": "Opposition to data center projects due to lack of local support and alignment with community needs.",
       "first_detected_date": "2026-04-20",
-      "last_mentioned_date": "2026-04-20",
-      "mention_count": 1,
+      "last_mentioned_date": "2026-06-18",
+      "mention_count": 2,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider the potential for regulatory hurdles and public opposition when investing in data center-related companies.",
+      "investment_implications": "Investors should consider community engagement strategies in data center developments to ensure smoother project execution.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 299,
+      "last_mentioned_speaker": "FungeMita"
     },
     {
       "id": 118,
@@ -7218,8 +7278,8 @@
       "term": "AI Infrastructure",
       "description": "The underlying technology and systems that support AI applications, including hardware and software.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-05-08",
-      "mention_count": 14,
+      "last_mentioned_date": "2026-06-18",
+      "mention_count": 15,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consider investments in companies that provide the backbone for AI applications.",
@@ -7228,8 +7288,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 205,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 299,
+      "last_mentioned_speaker": "FungeMita"
     },
     {
       "id": 26,
@@ -7450,20 +7510,20 @@
     {
       "id": 95,
       "term": "Reindustrialization",
-      "description": "The process of rebuilding and revitalizing a nation's industrial base to ensure economic prosperity and self-sufficiency.",
+      "description": "The process of rebuilding and revitalizing a country's industrial sector, often through government policy and technological advancements.",
       "first_detected_date": "2026-03-04",
-      "last_mentioned_date": "2026-05-13",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-06-18",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should look for opportunities in companies that contribute to the reindustrialization of America and the West.",
+      "investment_implications": "Investors should consider companies that are part of the reindustrialization trend, as they may benefit from policy support and increased demand.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 40,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 216,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 297,
+      "last_mentioned_speaker": "Chris Seminoch"
     },
     {
       "id": 112,

@@ -1,5 +1,43 @@
 [
   {
+    "id": 299,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "The Professor of Outputmaxxing \u2014 Anjney Midha, AMP",
+    "episode_date": "2026-06-18",
+    "summary": "This podcast episode delves into the operational efficiency of data centers, the importance of community engagement, and the role of culture in tech companies. Key themes include maintaining high node utilization to avoid outages, funding community benefits to reduce opposition to data center projects, and the concept of independent system operators (ISOs) for compute infrastructure. The episode also emphasizes the fragility of company culture and its impact on long-term success, as well as the importance of preparedness in AI development.",
+    "key_takeaways": [
+      "Node utilization in data centers should be above 96% to avoid outages.",
+      "Marginally increasing compute costs can fund community benefits, potentially reducing backlash against data center projects.",
+      "Up to 20% of U.S. data centers are at risk of community opposition due to lack of local support.",
+      "Independent system operators (ISOs) can enhance compute efficiency by pooling resources across providers.",
+      "Company culture is a fragile component that requires daily attention and alignment with the mission.",
+      "AI scaling necessitates a focus on responsible infrastructure to mitigate risks associated with rapid deployment and community impact."
+    ],
+    "investment_thesis": "Invest in data center operations with high node utilization and companies adopting ISO models for compute resource management. Prioritize tech companies with strong cultural alignment and preparedness in AI development.",
+    "key_tickers": null
+  },
+  {
+    "id": 297,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
+    "episode_date": "2026-06-18",
+    "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the resurgence of U.S. manufacturing after a three-year recession, with industrial production growth at 1.7%. The discussion highlights significant investment opportunities in overlooked U.S. industrial champions, particularly in manufacturing and electrification. Companies like Caterpillar and Vernova are noted for their unprecedented order backlogs, indicating strong future demand. The U.S. is becoming the preferred location for incremental capital investment, with foreign direct investment share rising above 20%. The re-industrialization trend is driven by government policy, rising labor costs abroad, and supply chain disruptions. Automation and advanced manufacturing technologies are key to increasing efficiency and productivity in U.S. factories. The electrification of the U.S. grid is essential, with a projected increase in demand for power driven by manufacturing and data centers. The current U.S. grid infrastructure is outdated, requiring significant investment and skilled labor to modernize. Companies like Quanta and American Electric Power are positioned to benefit from high-voltage infrastructure projects.",
+    "key_takeaways": [
+      "U.S. manufacturing is showing signs of recovery after a three-year recession, indicating potential resurgence in manufacturing investments.",
+      "Companies with significant order backlogs, such as Caterpillar and Vernova, are likely to see revenue growth in the coming quarters.",
+      "The U.S. is becoming the preferred location for incremental capital investment, favoring domestic production over offshore alternatives.",
+      "Investment in automation and advanced manufacturing technologies is crucial for improving efficiency in U.S. factories.",
+      "The demand for electricity in the U.S. is projected to increase significantly, requiring substantial investment in grid infrastructure and generation capacity."
+    ],
+    "investment_thesis": "Invest in U.S. industrial champions with strong order backlogs and companies positioned to benefit from the electrification and modernization of the U.S. grid.",
+    "key_tickers": [
+      "CAT",
+      "VERN",
+      "QTA",
+      "AEP"
+    ]
+  },
+  {
     "id": 296,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "SpaceX IPOs at $2.89T Market Cap, US Govt Suspends Fable & Mythos 5, Altman Delays OpenAI\u2019s IPO | EP #265",
@@ -99,36 +137,6 @@
       "Geopolitical tensions, particularly involving Iran, could significantly impact oil prices."
     ],
     "investment_thesis": "Investors should reassess their positions in hyperscaler stocks and monitor regulatory developments in AI, while also staying vigilant about geopolitical risks that could impact oil prices.",
-    "key_tickers": null
-  },
-  {
-    "id": 285,
-    "podcast_name": "The a16z Show",
-    "episode_title": "AI, Design, and the Power of Open Models",
-    "episode_date": "2026-06-15",
-    "summary": "In this episode, the discussion revolves around Ideogram's new open-weight image generation model, which boasts 9.3 billion parameters and offers high-quality, customizable outputs. The model's capabilities in text generation accuracy, editable design elements, and JSON prompting for precision are highlighted. The focus is on taste and aesthetics, with the potential for enterprise partnerships and future enhancements in editing and customization. The conversation underscores the model's practical applications in marketing, design, and storytelling.",
-    "key_takeaways": [
-      "Ideogram's open-weight model allows for customization, fostering collaboration with developers and enterprises.",
-      "The model's editable design capabilities are crucial for marketing and design professionals.",
-      "The model's text generation accuracy is a significant differentiator, enhancing graphic design and storytelling.",
-      "JSON prompting offers detailed control over image generation, ensuring consistency and quality.",
-      "Ideogram's focus on taste and aesthetics can differentiate it in the market and attract creative professionals."
-    ],
-    "investment_thesis": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
-    "key_tickers": null
-  },
-  {
-    "id": 284,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "Anthropic's Fable Backlash, Nationalizing AI, Inflation Heats Up & California's Broken Elections",
-    "episode_date": "2026-06-13",
-    "summary": "In this episode, the hosts discuss the implications of Anthropic's AI model Fable 5 retaining user prompts for 30 days, raising concerns about censorship and data privacy. They also delve into the shift towards open-source AI models, particularly from China, due to restrictions imposed by companies like Anthropic. Additionally, the conversation covers the political landscape's polarization and calls for wealth redistribution from AI companies, as well as concerns about election integrity in California.",
-    "key_takeaways": [
-      "Diversify AI sources to mitigate risks associated with proprietary AI censorship.",
-      "Monitor political developments regarding AI regulation and wealth redistribution to anticipate market impacts.",
-      "Advocate for reforms in the electoral process to enhance integrity and transparency, potentially influencing future investment strategies."
-    ],
-    "investment_thesis": "Invest in companies that leverage open-source AI models to maintain a competitive edge in a shifting technological landscape and to mitigate risks associated with proprietary AI censorship.",
     "key_tickers": null
   }
 ]

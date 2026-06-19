@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-18T13:39:02.853243",
-  chartsVersion: "2026-06-18T13:38:51.281052",
+  generatedAt: "2026-06-18T22:08:01.427957",
+  chartsVersion: "2026-06-18T22:07:54.493590",
   priceSnapshot: {
   "GOOGL": {
-    "price": 367.55,
-    "change_pct": -2.29,
+    "price": 368.03,
+    "change_pct": -2.16,
     "name": "GOOGL",
-    "updated_at": "2026-06-18T13:38:51.279711"
+    "updated_at": "2026-06-18T22:07:54.492776"
   },
   "BTC": {
-    "price": 62654.77,
-    "change_pct": 2.84,
+    "price": 62850.01,
+    "change_pct": 3.26,
     "name": "BTC",
-    "updated_at": "2026-06-18T13:38:51.279735"
+    "updated_at": "2026-06-18T22:07:54.492793"
   },
   "MSFT": {
-    "price": 377.73,
-    "change_pct": -17.98,
+    "price": 379.4,
+    "change_pct": -17.61,
     "name": "MSFT",
-    "updated_at": "2026-06-18T13:38:51.279745"
+    "updated_at": "2026-06-18T22:07:54.492800"
   },
   "NVDA": {
-    "price": 210.17,
-    "change_pct": -6.22,
+    "price": 210.69,
+    "change_pct": -5.98,
     "name": "NVDA",
-    "updated_at": "2026-06-18T13:38:51.279754"
+    "updated_at": "2026-06-18T22:07:54.492806"
   },
   "TSLA": {
-    "price": 394.7,
-    "change_pct": -5.09,
+    "price": 400.49,
+    "change_pct": -3.7,
     "name": "TSLA",
-    "updated_at": "2026-06-18T13:38:51.279763"
+    "updated_at": "2026-06-18T22:07:54.492811"
   },
   "WTI": {
-    "price": 3.2,
-    "change_pct": -19.8,
+    "price": 3.21,
+    "change_pct": -19.55,
     "name": "WTI",
-    "updated_at": "2026-06-18T13:38:51.279772"
+    "updated_at": "2026-06-18T22:07:54.492817"
   },
   "META": {
-    "price": 574.33,
-    "change_pct": -4.27,
+    "price": 577.22,
+    "change_pct": -3.78,
     "name": "META",
-    "updated_at": "2026-06-18T13:38:51.279782"
+    "updated_at": "2026-06-18T22:07:54.492823"
   },
   "AMZN": {
-    "price": 242.96,
-    "change_pct": -7.0,
+    "price": 244.39,
+    "change_pct": -6.46,
     "name": "AMZN",
-    "updated_at": "2026-06-18T13:38:51.279791"
+    "updated_at": "2026-06-18T22:07:54.492828"
   },
   "S&P 500": {
-    "price": 746.24,
-    "change_pct": -1.62,
+    "price": 746.74,
+    "change_pct": -1.3,
     "name": "S&P 500",
-    "updated_at": "2026-06-18T13:38:51.279800"
+    "updated_at": "2026-06-18T22:07:54.492834"
   },
   "AAPL": {
-    "price": 297.37,
-    "change_pct": -2.92,
+    "price": 298.01,
+    "change_pct": -2.71,
     "name": "AAPL",
-    "updated_at": "2026-06-18T13:38:51.279808"
+    "updated_at": "2026-06-18T22:07:54.492839"
   },
   "QQQ": {
-    "price": 739.02,
-    "change_pct": -0.5,
+    "price": 740.62,
+    "change_pct": -0.29,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-18T13:38:51.279817"
+    "updated_at": "2026-06-18T22:07:54.492845"
   },
   "BTC-USD": {
-    "price": 62641.02,
-    "change_pct": 2.82,
+    "price": 62850.01,
+    "change_pct": 3.26,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-18T13:38:51.279827"
+    "updated_at": "2026-06-18T22:07:54.492852"
   }
 },
   tickerScores: [
@@ -441,7 +441,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SNWGF",
+    "ticker": "QTA",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -456,7 +456,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SPACEX",
+    "ticker": "SNWGF",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -471,7 +471,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SQUARE",
+    "ticker": "SPACEX",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -486,14 +486,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "AMD",
-    "total_score": 72.0,
+    "ticker": "SQUARE",
+    "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 28,
-    "score": 72.0,
+    "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -501,7 +501,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ARBOMB",
+    "ticker": "AEP",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -516,7 +516,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CROWD",
+    "ticker": "AMD",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -531,7 +531,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SAMSUNG ELECTRONICS",
+    "ticker": "ARBOMB",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -546,7 +546,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SK HYNIX",
+    "ticker": "CROWD",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -561,7 +561,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SMH",
+    "ticker": "SAMSUNG ELECTRONICS",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -576,7 +576,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "WORK",
+    "ticker": "SK HYNIX",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -591,7 +591,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ZEN",
+    "ticker": "SMH",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -606,14 +606,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ARBOB GASOLINE",
-    "total_score": 70.0,
+    "ticker": "WORK",
+    "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 36,
-    "score": 70.0,
+    "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -621,14 +621,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "E-TORO",
-    "total_score": 70.0,
+    "ticker": "ZEN",
+    "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 37,
-    "score": 70.0,
+    "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -636,7 +636,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "EMAX",
+    "ticker": "ARBOB GASOLINE",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -651,7 +651,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "NOW",
+    "ticker": "E-TORO",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -666,7 +666,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PANW",
+    "ticker": "EMAX",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -681,7 +681,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SMP-500",
+    "ticker": "NOW",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -696,7 +696,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SPCE",
+    "ticker": "PANW",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -711,13 +711,43 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "SMP-500",
+    "total_score": 70.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 43,
+    "score": 70.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
+    "ticker": "SPCE",
+    "total_score": 70.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 44,
+    "score": 70.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "CRM",
     "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 43,
+    "rank": 45,
     "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -732,7 +762,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 44,
+    "rank": 46,
     "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -747,7 +777,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 45,
+    "rank": 47,
     "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -762,7 +792,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 46,
+    "rank": 48,
     "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -777,7 +807,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 47,
+    "rank": 49,
     "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -787,36 +817,6 @@ const dashboardData = {
   },
   {
     "ticker": "CRSP",
-    "total_score": 64.0,
-    "raw_mention_count": 1,
-    "unique_sources": 1,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
-    "rank": 48,
-    "score": 64.0,
-    "mentions": 1,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "GOOG",
-    "total_score": 64.0,
-    "raw_mention_count": 1,
-    "unique_sources": 1,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
-    "rank": 49,
-    "score": 64.0,
-    "mentions": 1,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "HG",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -851,6 +851,47 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 296
+    },
+    {
+      "id": 312,
+      "title": "The Professor of Outputmaxxing \u2014 Anjney Midha, AMP",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-06-18",
+      "summary": "This podcast episode delves into the operational efficiency of data centers, the importance of community engagement, and the role of culture in tech companies. Key themes include maintaining high node utilization to avoid outages, funding community benefits to reduce opposition to data center projects, and the concept of independent system operators (ISOs) for compute infrastructure. The episode also emphasizes the fragility of company culture and its impact on long-term success, as well as the importance of preparedness in AI development.",
+      "key_takeaway": "Invest in data center operations with high node utilization and companies adopting ISO models for compute resource management. Prioritize tech companies with strong cultural alignment and preparedness in AI development.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 299
+    },
+    {
+      "id": 313,
+      "title": "The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-06-18",
+      "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the resurgence of U.S. manufacturing after a three-year recession, with industrial production growth at 1.7%. The discussion highlights significant investment opportunities in overlooked U.S. industrial champions, particularly in manufacturing and electrification. Companies like Caterpillar and Vernova are noted for their unprecedented order backlogs, indicating strong future demand. The U.S. is becoming the preferred location for incremental capital investment, with foreign direct investment share rising above 20%. The re-industrialization trend is driven by government policy, rising labor costs abroad, and supply chain disruptions. Automation and advanced manufacturing technologies are key to increasing efficiency and productivity in U.S. factories. The electrification of the U.S. grid is essential, with a projected increase in demand for power driven by manufacturing and data centers. The current U.S. grid infrastructure is outdated, requiring significant investment and skilled labor to modernize. Companies like Quanta and American Electric Power are positioned to benefit from high-voltage infrastructure projects.",
+      "key_takeaway": "Invest in U.S. industrial champions with strong order backlogs and companies positioned to benefit from the electrification and modernization of the U.S. grid.",
+      "tickers_mentioned": [
+        "CAT",
+        "VERN",
+        "QTA",
+        "AEP"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 297
     },
     {
       "id": 307,
@@ -940,7 +981,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-15",
       "archived_date": null,
@@ -978,7 +1019,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-13",
       "archived_date": null,
@@ -1757,6 +1798,25 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 252
+    },
+    {
+      "id": 314,
+      "title": "Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-06-01",
+      "summary": "This podcast episode delves into the intersection of generative AI, focusing on the pivotal role of language models in enhancing video generation capabilities. The discussion covers the importance of iteration speed in model training, the cost structure associated with video model training, and the potential for generative user interfaces to revolutionize user interaction with AI. The insights suggest that the future of AI may involve models that can manage their own context and dynamically adjust based on user interactions, with significant implications for enterprise applications.",
+      "key_takeaway": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-06-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 298
     },
     {
       "id": 265,
@@ -6791,8 +6851,8 @@ const dashboardData = {
       "term": "AI CapEx",
       "description": "Capital expenditure in AI technologies, which is projected to contribute significantly to GDP growth.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-05-15",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-06-18",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider companies with high AI CapEx as potential drivers of economic growth.",
@@ -6801,8 +6861,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 220,
-      "last_mentioned_speaker": "Peter Diamandis"
+      "last_mentioned_episode_id": 297,
+      "last_mentioned_speaker": "Chris Seminoch"
     },
     {
       "id": 234,
@@ -7025,8 +7085,8 @@ const dashboardData = {
       "term": "Synth ID",
       "description": "A system for verifying the authenticity of AI-generated content, addressing concerns about misinformation and enhancing trust in AI applications.",
       "first_detected_date": "2026-05-21",
-      "last_mentioned_date": "2026-05-21",
-      "mention_count": 1,
+      "last_mentioned_date": "2026-06-01",
+      "mention_count": 2,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Content verification technologies are becoming increasingly important for maintaining credibility in digital communications.",
@@ -7035,8 +7095,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 232,
       "first_detected_speaker": "Andrew Feldman",
-      "last_mentioned_episode_id": 232,
-      "last_mentioned_speaker": "Andrew Feldman"
+      "last_mentioned_episode_id": 298,
+      "last_mentioned_speaker": "Eden Ha"
     },
     {
       "id": 20,
@@ -7079,8 +7139,8 @@ const dashboardData = {
       "term": "Distillation",
       "description": "The process of reducing a large AI model into a smaller, more manageable one through API queries.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-05-27",
-      "mention_count": 12,
+      "last_mentioned_date": "2026-06-01",
+      "mention_count": 13,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Look for opportunities in technologies that enable efficient distillation to democratize AI capabilities.",
@@ -7089,8 +7149,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 244,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 298,
+      "last_mentioned_speaker": "Eden Ha"
     },
     {
       "id": 174,
@@ -7365,20 +7425,20 @@ const dashboardData = {
     {
       "id": 126,
       "term": "Data Center Nimbyism",
-      "description": "Opposition to the construction of data centers in local communities, often due to concerns about energy consumption and environmental impact.",
+      "description": "Opposition to data center projects due to lack of local support and alignment with community needs.",
       "first_detected_date": "2026-04-20",
-      "last_mentioned_date": "2026-04-20",
-      "mention_count": 1,
+      "last_mentioned_date": "2026-06-18",
+      "mention_count": 2,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider the potential for regulatory hurdles and public opposition when investing in data center-related companies.",
+      "investment_implications": "Investors should consider community engagement strategies in data center developments to ensure smoother project execution.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 299,
+      "last_mentioned_speaker": "FungeMita"
     },
     {
       "id": 118,
@@ -8051,8 +8111,8 @@ const dashboardData = {
       "term": "AI Infrastructure",
       "description": "The underlying technology and systems that support AI applications, including hardware and software.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-05-08",
-      "mention_count": 14,
+      "last_mentioned_date": "2026-06-18",
+      "mention_count": 15,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consider investments in companies that provide the backbone for AI applications.",
@@ -8061,8 +8121,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 205,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 299,
+      "last_mentioned_speaker": "FungeMita"
     },
     {
       "id": 26,
@@ -8283,20 +8343,20 @@ const dashboardData = {
     {
       "id": 95,
       "term": "Reindustrialization",
-      "description": "The process of rebuilding and revitalizing a nation's industrial base to ensure economic prosperity and self-sufficiency.",
+      "description": "The process of rebuilding and revitalizing a country's industrial sector, often through government policy and technological advancements.",
       "first_detected_date": "2026-03-04",
-      "last_mentioned_date": "2026-05-13",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-06-18",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should look for opportunities in companies that contribute to the reindustrialization of America and the West.",
+      "investment_implications": "Investors should consider companies that are part of the reindustrialization trend, as they may benefit from policy support and increased demand.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 40,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 216,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 297,
+      "last_mentioned_speaker": "Chris Seminoch"
     },
     {
       "id": 112,
@@ -8619,6 +8679,51 @@ const dashboardData = {
       ]
     },
     {
+      "id": 312,
+      "title": "The Professor of Outputmaxxing \u2014 Anjney Midha, AMP",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-06-18",
+      "summary": "This podcast episode delves into the operational efficiency of data centers, the importance of community engagement, and the role of culture in tech companies. Key themes include maintaining high node utilization to avoid outages, funding community benefits to reduce opposition to data center projects, and the concept of independent system operators (ISOs) for compute infrastructure. The episode also emphasizes the fragility of company culture and its impact on long-term success, as well as the importance of preparedness in AI development.",
+      "key_takeaway": "Invest in data center operations with high node utilization and companies adopting ISO models for compute resource management. Prioritize tech companies with strong cultural alignment and preparedness in AI development.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 299,
+      "episode_release_date": "2026-06-18",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 313,
+      "title": "The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-06-18",
+      "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the resurgence of U.S. manufacturing after a three-year recession, with industrial production growth at 1.7%. The discussion highlights significant investment opportunities in overlooked U.S. industrial champions, particularly in manufacturing and electrification. Companies like Caterpillar and Vernova are noted for their unprecedented order backlogs, indicating strong future demand. The U.S. is becoming the preferred location for incremental capital investment, with foreign direct investment share rising above 20%. The re-industrialization trend is driven by government policy, rising labor costs abroad, and supply chain disruptions. Automation and advanced manufacturing technologies are key to increasing efficiency and productivity in U.S. factories. The electrification of the U.S. grid is essential, with a projected increase in demand for power driven by manufacturing and data centers. The current U.S. grid infrastructure is outdated, requiring significant investment and skilled labor to modernize. Companies like Quanta and American Electric Power are positioned to benefit from high-voltage infrastructure projects.",
+      "key_takeaway": "Invest in U.S. industrial champions with strong order backlogs and companies positioned to benefit from the electrification and modernization of the U.S. grid.",
+      "tickers_mentioned": "[\"CAT\", \"VERN\", \"QTA\", \"AEP\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 297,
+      "episode_release_date": "2026-06-18",
+      "guest_name": null,
+      "key_tickers": [
+        "CAT",
+        "VERN",
+        "QTA",
+        "AEP"
+      ]
+    },
+    {
       "id": 307,
       "title": "The Fintech Playbook for Latin America",
       "source_type": "podcast",
@@ -8699,26 +8804,6 @@ const dashboardData = {
       "key_tickers": []
     },
     {
-      "id": 300,
-      "title": "AI, Design, and the Power of Open Models",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-06-15",
-      "summary": "In this episode, the discussion revolves around Ideogram's new open-weight image generation model, which boasts 9.3 billion parameters and offers high-quality, customizable outputs. The model's capabilities in text generation accuracy, editable design elements, and JSON prompting for precision are highlighted. The focus is on taste and aesthetics, with the potential for enterprise partnerships and future enhancements in editing and customization. The conversation underscores the model's practical applications in marketing, design, and storytelling.",
-      "key_takeaway": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-15",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 285,
-      "episode_release_date": "2026-06-15",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
       "id": 301,
       "title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
       "source_type": "podcast",
@@ -8736,26 +8821,6 @@ const dashboardData = {
       "podcast_episode_id": 286,
       "episode_release_date": "2026-06-15",
       "guest_name": "Regulatory Risk is Coming For AI",
-      "key_tickers": []
-    },
-    {
-      "id": 299,
-      "title": "Anthropic's Fable Backlash, Nationalizing AI, Inflation Heats Up & California's Broken Elections",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-06-13",
-      "summary": "In this episode, the hosts discuss the implications of Anthropic's AI model Fable 5 retaining user prompts for 30 days, raising concerns about censorship and data privacy. They also delve into the shift towards open-source AI models, particularly from China, due to restrictions imposed by companies like Anthropic. Additionally, the conversation covers the political landscape's polarization and calls for wealth redistribution from AI companies, as well as concerns about election integrity in California.",
-      "key_takeaway": "Invest in companies that leverage open-source AI models to maintain a competitive edge in a shifting technological landscape and to mitigate risks associated with proprietary AI censorship.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-13",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 284,
-      "episode_release_date": "2026-06-13",
-      "guest_name": null,
       "key_tickers": []
     }
   ],
@@ -9013,6 +9078,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-06-10"
     },
     {
+      "id": 195,
+      "term": "Synth ID",
+      "description": "A system for verifying the authenticity of AI-generated content, addressing concerns about misinformation and enhancing trust in AI applications.",
+      "first_detected_date": "2026-05-21",
+      "last_mentioned_date": "2026-06-01",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Content verification technologies are becoming increasingly important for maintaining credibility in digital communications.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 232,
+      "first_detected_speaker": "Andrew Feldman",
+      "last_mentioned_episode_id": 298,
+      "last_mentioned_speaker": "Eden Ha",
+      "overton_score": 1.35,
+      "resonance_pct": 34,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
+      "first_detected_episode_date": "2026-05-21",
+      "last_mentioned_podcast": "Latent Space: The AI Engineer Podcast",
+      "last_mentioned_episode_title": "Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
+      "last_mentioned_episode_date": "2026-06-01"
+    },
+    {
       "id": 252,
       "term": "AI Commoditization",
       "description": "The process by which AI technology becomes a standard, undifferentiated product, leading to increased competition and reduced pricing power.",
@@ -9193,32 +9284,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
       "last_mentioned_episode_date": "2026-06-02"
-    },
-    {
-      "id": 194,
-      "term": "Multi-modal AI",
-      "description": "AI that integrates various forms of media, such as text, images, and audio, to enhance user engagement and application versatility.",
-      "first_detected_date": "2026-05-21",
-      "last_mentioned_date": "2026-05-21",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider companies that are developing or leveraging multi-modal AI capabilities.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 232,
-      "first_detected_speaker": "Andrew Feldman",
-      "last_mentioned_episode_id": 232,
-      "last_mentioned_speaker": "Andrew Feldman",
-      "overton_score": 0.52,
-      "resonance_pct": 13,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
-      "first_detected_episode_date": "2026-05-21",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
-      "last_mentioned_episode_date": "2026-05-21"
     }
   ]
 },
@@ -27722,61 +27787,233 @@ const dashboardData = {
     "key_tickers": [
       "TSLA"
     ]
+  },
+  "312": {
+    "id": 302,
+    "insight_id": 312,
+    "podcast_episode_id": 299,
+    "overview": "The unresolved tension in the tech industry highlighted by the podcast revolves around balancing operational efficiency in data centers with community engagement and cultural alignment within tech companies. The competitive dynamic is between companies that can maintain high node utilization and those that struggle, as well as between those that can successfully integrate with local communities and those that face opposition. The arbitrator of this uncertainty is the market's response to operational efficiency and community alignment, which will dictate the winners and losers in the long term.",
+    "key_takeaways_detailed": [
+      "Investors should monitor node utilization metrics closely as a leading indicator of data center operational efficiency and a potential differentiator in the market.",
+      "Community engagement strategies should be evaluated not just for their social benefits but also for their potential to mitigate investment risks associated with data center projects.",
+      "The adoption of ISO models could signal a company's forward-thinking approach to resource management, which may offer a competitive advantage in the evolving compute landscape.",
+      "Cultural health should be considered a leading indicator of a company's ability to execute on its mission and maintain a competitive edge, warranting close scrutiny during investment analysis.",
+      "Companies demonstrating preparedness in AI development may offer a hedge against the risks associated with rapid technological change and community impact."
+    ],
+    "investment_thesis": "The investment thesis is that companies that can achieve and maintain high node utilization in their data centers, effectively engage with local communities, and foster a strong company culture will outperform in the long term. This thesis is based on the belief that operational efficiency, community alignment, and cultural strength are critical for navigating the challenges of rapid technological advancement and community impact. The observable development that would vindicate this thesis is a consistent track record of high node utilization, successful community engagement outcomes, and cultural resilience in the face of industry disruption.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in data centers and its commitment to environmental and community initiatives make it a relevant company in the context of this thesis.",
+        "positioning": "Apple can be positioned long due to its potential to benefit from high operational efficiency in data centers and strong community alignment.",
+        "risk": "Key risks include failure to maintain high node utilization, backlash from local communities over data center projects, and cultural misalignment within the company."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant number of data centers achieving high operational efficiency without the need for ISO models could challenge the necessity of this approach.",
+      "Community engagement strategies proving to be ineffective or costly could undermine the value proposition of increased community benefits.",
+      "A decline in the importance of company culture as a differentiator in the tech industry could diminish the relevance of cultural health in investment decisions."
+    ],
+    "catalysts": [
+      "Publication of industry-wide data center node utilization metrics.",
+      "Announcements of new community engagement initiatives by major data center operators.",
+      "Launch of new ISO models and their subsequent performance in the market.",
+      "Revelations about the cultural health of major tech companies and its impact on performance."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-18T22:06:35.855934",
+    "updated_at": "2026-06-19 03:06:35",
+    "episode_evidence": "The podcast episode with Anjney Midha, AMP, provides a nuanced perspective on the operational efficiency of data centers and the broader tech industry. Midha emphasizes the criticality of high node utilization, stating, 'Node utilization is usually, like, work percentage of cards in the data center... 96% node utilization should be standard.' This standard is crucial for maintaining operational efficiency and avoiding costly outages. Additionally, the discussion on community engagement in data center projects is insightful, with Midha suggesting, 'Why not just say we're going to charge $4.50 an hour and that marginal increase... give it to the local community as cash.' This approach could potentially reduce community opposition to data center projects by aligning them with local benefits. The concept of independent system operators (ISOs) is also introduced, with Midha explaining, 'We see ourselves as what's called an independent system operator... pooling demand from some of the world's best research labs.' This model could lead to more efficient resource allocation and cost savings in the compute landscape.",
+    "falsification_tracks": [
+      "If data center node utilization metrics consistently fall below 96% across the industry, it would challenge the operational efficiency thesis.",
+      "A significant increase in community opposition to data center projects despite increased funding for local benefits would undermine the community engagement strategy.",
+      "Failure of ISO models to deliver cost savings and efficiency improvements would cast doubt on their potential to optimize compute resource utilization."
+    ],
+    "insight_title": "The Professor of Outputmaxxing \u2014 Anjney Midha, AMP",
+    "source_name": "Latent Space: The AI Engineer Podcast",
+    "source_date": "2026-06-18",
+    "key_tickers": []
+  },
+  "313": {
+    "id": 303,
+    "insight_id": 313,
+    "podcast_episode_id": 297,
+    "overview": "The competitive dynamic in U.S. manufacturing is being reshaped by a confluence of factors: a recovery from recession, significant order backlogs indicating robust demand, and a strategic shift towards domestic production. This is contested by the challenges of outdated infrastructure and the need for substantial investment in automation and electrification. The allocation tradeoff lies in identifying companies that can leverage these trends without being hampered by the very infrastructure they are part of modernizing. The metric that arbitrates this uncertainty is the ability to capitalize on the resurgence in manufacturing while also contributing to the necessary grid modernization.",
+    "key_takeaways_detailed": [
+      "Invest in companies that not only have strong order backlogs but also demonstrate a commitment to automation and advanced manufacturing technologies to sustain growth.",
+      "Monitor policy developments that could accelerate or decelerate the re-industrialization trend, as government support is a key driver.",
+      "Look for opportunities in the supply chain sector that are adapting to the reshoring trend and can benefit from the increased domestic production.",
+      "Consider the impact of rising labor costs abroad on the cost competitiveness of U.S. manufacturing and how this might influence investment decisions.",
+      "Evaluate the role of data centers in driving electricity demand and the subsequent opportunities in the utilities sector.",
+      "Assess the risk of supply chain disruptions and how companies are mitigating these risks to maintain and grow their order backlogs."
+    ],
+    "investment_thesis": "The investment thesis is centered on the belief that the U.S. manufacturing sector is at the beginning of a significant recovery and growth phase, driven by strong order backlogs, a shift towards domestic production, and the necessity of grid modernization. This thesis is vindicated by sustained growth in industrial production, continued high order backlogs, and successful policy implementations that support manufacturing and electrification. Conversely, it would be invalidated by a drop in industrial production, a significant decrease in order backlogs, or policy setbacks that hinder the progress of re-industrialization. The timeframe for this thesis is medium to long-term, as the full benefits of re-industrialization and grid modernization will likely take years to materialize.",
+    "ticker_analysis": {
+      "CAT": {
+        "rationale": "Caterpillar is a key player in the U.S. manufacturing, with an unprecedented order backlog, indicating strong future demand for its products.",
+        "positioning": "Positioned as a long-term strategic investment due to its significant order backlog and potential benefits from the U.S. manufacturing resurgence.",
+        "risk": "Key risks include a slowdown in global construction activity and potential disruptions in the supply chain that could affect its ability to fulfill orders."
+      },
+      "VNR": {
+        "rationale": "Vernova, with its nearly $90 billion order backlog, is well-positioned to capitalize on the resurgence in U.S. manufacturing and electrification.",
+        "positioning": "Considered a long-term strategic investment, benefiting from strong future demand and the need for grid modernization.",
+        "risk": "The risk lies in the company's ability to manage its large order backlog efficiently and the potential for increased competition in the electrification space."
+      },
+      "QTA": {
+        "rationale": "Quanta is poised to benefit from high-voltage infrastructure projects, which are essential for the modernization of the U.S. grid.",
+        "positioning": "A tactical investment play on the immediate need for grid modernization and the increasing demand for electricity.",
+        "risk": "The risk is tied to the pace of government approvals and funding for grid modernization projects, which could be delayed or reduced."
+      },
+      "AEP": {
+        "rationale": "American Electric Power is a utility company that stands to gain from the increased demand for electricity and the push for grid modernization.",
+        "positioning": "Positioned as a long-term strategic investment due to its role in providing essential power infrastructure and services.",
+        "risk": "Regulatory changes and shifts in energy policy could impact the company's ability to invest in and profit from grid modernization."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A potential global economic downturn could reduce demand for manufacturing and delay the recovery of the U.S. manufacturing sector.",
+      "Rising interest rates might impact the cost of capital, affecting investment in both manufacturing and grid modernization projects.",
+      "Technological disruptions, such as the rapid adoption of new manufacturing processes, could render some companies' investments obsolete.",
+      "Geopolitical tensions could lead to trade restrictions, impacting the global supply chain and the competitiveness of U.S. manufacturing."
+    ],
+    "catalysts": [
+      "Upcoming economic reports that confirm the of the 1.7% industrial production growth.",
+      "Announcements of new policy initiatives that support manufacturing and electrification.",
+      "Company earnings reports that show an increase in order backlogs and revenue growth.",
+      "Government funding allocations for grid modernization projects.",
+      "Technological breakthroughs in automation and advanced manufacturing that could accelerate the efficiency and productivity of U.S. factories."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-18T22:06:58.169319",
+    "updated_at": "2026-06-19 03:06:58",
+    "episode_evidence": "The resurgence of U.S. manufacturing is underscored by a 1.7% growth in industrial production, as highlighted by Chris Seminoch: 'We are only three to four months into a recovery... industrial production number... was, I think, 1.7 percent.' This recovery is not just a blip but a significant trend, with companies like Caterpillar and Vernova boasting unprecedented order backlogs. Seminoch elaborates: 'The backlog at Caterpillar is north of $60 billion... backlog at Vernova is north of almost $90 billion.' These figures are not just numbers; they represent a tangible vote of confidence in U.S. manufacturing capabilities and a clear indicator of future demand. The shift towards the U.S. as a preferred location for capital investment is further emphasized by the fact that 'The U.S. share of foreign direct investment is showing that... it's north of 20 percent.' This trend is not only a result of government policy but also a response to rising labor costs abroad and the realities of supply chain disruptions.",
+    "falsification_tracks": [
+      "If the U.S. industrial production growth rate falls below 1% for two consecutive quarters, it could indicate a faltering recovery.",
+      "A significant drop in Caterpillar and Vernova's order backlogs could signal weakening demand for U.S. manufacturing.",
+      "Should the U.S. foreign direct investment share fall below 15%, it might suggest a loss of attractiveness as an investment destination.",
+      "Failure to pass key legislation supporting manufacturing and electrification could hinder the progress of re-industrialization.",
+      "If there is a notable decrease in the demand for electricity due to a slowdown in manufacturing or data center growth, it would challenge the electrification demand surge narrative."
+    ],
+    "insight_title": "The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-06-18",
+    "key_tickers": [
+      "CAT",
+      "VERN",
+      "QTA",
+      "AEP"
+    ]
+  },
+  "314": {
+    "id": 304,
+    "insight_id": 314,
+    "podcast_episode_id": 298,
+    "overview": "The competitive dynamic in generative AI is increasingly centered on the integration of language models with video generation capabilities. This intersection is contested by the need for rapid iteration and high operational costs. The unresolved tension lies in balancing the speed of model training with the financial burden of data storage and compute resources. What converts belief in this dynamic is the ability of companies to manage these challenges while maintaining a competitive edge in innovation.",
+    "key_takeaways_detailed": [
+      "Investors should focus on companies that demonstrate a clear strategy for managing the high costs associated with video model training, potentially through innovative data storage solutions or efficient compute resource utilization.",
+      "Companies that can showcase a reduction in iteration time for model training may gain a significant competitive advantage, warranting closer attention from allocators.",
+      "The potential for generative user interfaces to revolutionize user interaction with AI presents an opportunity for companies that can effectively integrate this technology into their product offerings.",
+      "Enterprise applications of generative AI will be arbitrated by the ability of models to achieve production-quality outputs, making this a key metric for allocators to monitor."
+    ],
+    "investment_thesis": "The core logic of this investment thesis is that companies which can effectively integrate language models with video generation and manage the associated high costs will lead in the generative AI space. A timeframe of 1-2 years is proposed to observe the development of these capabilities. Observable developments that would vindicate this thesis include significant improvements in video generation quality due to language integration and a reduction in the cost of model training through technological advancements or process optimizations.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI and its potential to leverage language models for video generation makes it relevant to this thesis.",
+        "positioning": "Positioning should be strategic, considering Apple's long-term potential in AI and its ability to integrate new technologies into its product ecosystem.",
+        "risk": "Key risks include slower-than-expected integration of language models into video generation and increased competition from companies specializing in generative AI."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The cost of data storage and compute resources could decrease more rapidly than expected, reducing the barrier to entry for new competitors.",
+      "The integration of language models with video generation may not yield the expected improvements in output quality, calling into question the strategic value of this approach."
+    ],
+    "catalysts": [
+      "Announcements from major AI conferences regarding advancements in language model integration with video generation.",
+      "Release of new products or services by tech giants that leverage generative AI with language and video capabilities.",
+      "Publications of research papers demonstrating significant improvements in video generation quality through language model integration.",
+      "Financial reports from AI companies showing a reduction in costs associated with video model training."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-18T22:07:12.090745",
+    "updated_at": "2026-06-19 03:07:12",
+    "episode_evidence": "Eden Ha's transition from XCI to focusing on language models and video generation underscores the pivotal role of language in generative AI. Ha emphasizes, 'A lot of the improvements came from the language side.' This highlights how language models provide context and detail, enhancing video generation quality. Iteration speed is another critical factor, as Ha points out, 'The more iteration you can do, you can trend these models in a very short period of time.' This rapid iteration is crucial for detecting errors and improving model performance. Regarding cost, Ha mentions the significant expenses in 'storing these videos and the features, it's tens of petabytes alone,' indicating the high cost of data storage and compute resources in video model training.",
+    "falsification_tracks": [
+      "If the cost of data storage and compute resources for video model training does not align with industry benchmarks, the financial sustainability of video generation companies could be in question.",
+      "If language integration with video generation does not lead to noticeable improvements in output quality within the next 12 months, the strategic value of language models in video generation could be overestimated."
+    ],
+    "insight_title": "Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
+    "source_name": "Latent Space: The AI Engineer Podcast",
+    "source_date": "2026-06-01",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
   {
-    "id": 435,
-    "term": "Kessler Effect",
-    "definition": "A scenario in space where the density of objects in orbit has reached a level where collisions between objects can cause a cascade effect where each collision generates space debris that increases the likelihood of further collisions.",
-    "investment_implications": "This poses a significant risk for satellite operations and space exploration companies, necessitating investment in debris management technologies.",
+    "id": 440,
+    "term": "Independent System Operators (ISOs)",
+    "definition": "Entities that enhance compute efficiency by pooling resources and demand across multiple providers, similar to the electric grid model.",
+    "investment_implications": "Investors should consider companies that adopt ISO models for their potential to optimize compute resource utilization.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-18 18:36:29",
+    "submitted_date": "2026-06-19 03:05:35",
     "priority_score": 80
   },
   {
-    "id": 436,
-    "term": "Sovereign Wealth Funds in AI",
-    "definition": "The establishment of government-controlled investment funds that focus on AI technologies, potentially reshaping economic landscapes and wealth distribution.",
-    "investment_implications": "These funds could provide a mechanism for distributing wealth generated by AI advancements, influencing investment strategies and policy advocacy.",
+    "id": 438,
+    "term": "Generative UI",
+    "definition": "A user interface that allows real-time interaction with AI models, potentially transforming how users engage with technology.",
+    "investment_implications": "Invest in companies developing generative UI technologies for potential disruption in user interface design.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-18 18:36:29",
+    "submitted_date": "2026-06-19 03:03:42",
     "priority_score": 80
   },
   {
-    "id": 434,
-    "term": "Ambient AI",
-    "definition": "A concept in AI where the technology is integrated into the environment to provide contextual assistance and streamline workflows.",
-    "investment_implications": "Investors should monitor the development of ambient AI as it may enhance productivity and efficiency in software development.",
-    "source_type": "auto_extracted",
-    "mention_count": 4,
-    "source_diversity": 4,
-    "relevance_score": 50,
-    "submitted_date": "2026-06-18 11:35:32",
-    "priority_score": 170
-  },
-  {
-    "id": 433,
-    "term": "Self-driving lab",
-    "definition": "A lab that automates material discovery and testing, aiming to bridge the gap between material science and manufacturing.",
-    "investment_implications": "Invest in companies developing self-driving labs for accelerated material innovation.",
+    "id": 439,
+    "term": "Video Agents",
+    "definition": "AI tools that combine various capabilities for interactive and iterative video content creation.",
+    "investment_implications": "Monitor companies pioneering video agent technologies for significant advancements in generative media.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-18 03:02:26",
+    "submitted_date": "2026-06-19 03:03:42",
+    "priority_score": 80
+  },
+  {
+    "id": 437,
+    "term": "Electrification",
+    "definition": "The process of converting systems or industries to use electricity as the primary power source.",
+    "investment_implications": "Investors should focus on companies involved in the electrification of the grid and power generation, as demand for electricity is projected to increase.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-06-19 03:02:25",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 17942,
+    "id": 18019,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -27788,7 +28025,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17943,
+    "id": 18020,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -27800,7 +28037,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17944,
+    "id": 18021,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -27812,7 +28049,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17945,
+    "id": 18022,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -27824,7 +28061,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17946,
+    "id": 18023,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -27836,7 +28073,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17947,
+    "id": 18024,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -27848,7 +28085,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17948,
+    "id": 18025,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -27860,7 +28097,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17949,
+    "id": 18026,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -27872,7 +28109,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17950,
+    "id": 18027,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -27884,7 +28121,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17951,
+    "id": 18028,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -27896,7 +28133,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17952,
+    "id": 18029,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -27908,7 +28145,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17953,
+    "id": 18030,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -27920,7 +28157,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17954,
+    "id": 18031,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -27932,7 +28169,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17955,
+    "id": 18032,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -27944,7 +28181,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17956,
+    "id": 18033,
     "name": "Reality",
     "slug": "reality",
     "bio": null,
@@ -27956,7 +28193,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17957,
+    "id": 18034,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -27968,7 +28205,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17958,
+    "id": 18035,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -27980,7 +28217,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17959,
+    "id": 18036,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -27992,7 +28229,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17960,
+    "id": 18037,
     "name": "\u26a1\ufe0fSatya Nadella",
     "slug": "satya-nadella",
     "bio": null,
@@ -28004,7 +28241,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 17961,
+    "id": 18038,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -28035,7 +28272,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 6,
-    "mention_score_decayed": 2.74,
+    "mention_score_decayed": 2.67,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -28159,7 +28396,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 3,
-    "mention_score_decayed": 1.11,
+    "mention_score_decayed": 1.09,
     "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
     "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
@@ -28417,7 +28654,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-02",
     "mention_score": 2,
-    "mention_score_decayed": 1.41,
+    "mention_score_decayed": 1.38,
     "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
     "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
@@ -29078,7 +29315,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -29142,7 +29379,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -29202,7 +29439,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
@@ -29277,6 +29514,126 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 297,
+    "name": "Eden Ha",
+    "slug": "eden-ha",
+    "bio": "Eden Ha is an AI expert who has transitioned from XCI to focus on language models and video generation. He emphasizes the importance of language in generative AI and has been involved in the development of video models. Ha is known for his contributions to the AI community, particularly through his work on Cosmos in a video and his presentations on memories.",
+    "known_for": "His work on language models and video generation in generative AI.",
+    "net_worth_usd": 10000000.0,
+    "net_worth_source": "https://networthflo.com/barbara-eden-net-worth/",
+    "net_worth_updated_at": "2026-06-18T22:06:02.667296",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-06-19 03:03:42",
+    "last_episode_title": "Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-06-01",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
+    "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
+    "supporting_takeaway": "Evaluate AI companies' training efficiency and iteration capabilities for competitive advantage.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-18T22:06:01.430036",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Eden Ha",
+      "fetched_at": "2026-06-19T03:06:01.429692+00:00",
+      "cliff_notes": "Eden Ha is an AI expert who has made a significant impact in the field of generative AI, particularly in the areas of language models and video generation. He began his career at XCI, where he gained valuable experience and knowledge in AI technology. Ha's work on Cosmos in a video and his presentations on memories have been well-received, showcasing his expertise in the field. His contributions to the AI community extend beyond his own research, as he actively participates in an online community where AI enthusiasts discuss and learn from each other through papers and presentations. Ha's dedication to continuous learning and sharing knowledge has made him a respected figure in the AI community.",
+      "derived": {
+        "current_role": "AI Expert",
+        "former_positions": "XCI",
+        "books_or_works": "Cosmos in a video; Memories presentation"
+      },
+      "infobox": {
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Eden Ha is an AI expert who has made a significant impact in the field of generative AI, particularly in the areas of language models and video generation. He began his career at XCI, where he gained valuable experience and knowledge in AI technology. Ha's work on Cosmos in a video and his presentations on memories have been well-received, showcasing his expertise in the field.",
+        "His contributions to the AI community extend beyond his own research, as he actively participates in an online community where AI enthusiasts discuss and learn from each other through papers and presentations. Ha's dedication to continuous learning and sharing knowledge has made him a respected figure in the AI community."
+      ],
+      "sections": [
+        {
+          "heading": "Language Models",
+          "body": "Eden Ha emphasizes the importance of language in generative AI, focusing on the development of language models that can better understand and generate human-like text."
+        },
+        {
+          "heading": "Video Generation",
+          "body": "Ha has been involved in the development of video models, which are AI systems capable of generating videos based on input data, opening up new possibilities in entertainment, education, and other industries."
+        },
+        {
+          "heading": "AI Community",
+          "body": "Eden Ha is an active member of the AI community, participating in an online group where members discuss AI papers and learn from each other. He has also presented his own work, such as Cosmos in a video and memories, to the group."
+        }
+      ]
+    },
+    "net_worth": "$10.0M"
+  },
+  {
+    "id": 296,
+    "name": "Chris Seminoch",
+    "slug": "chris-seminoch",
+    "bio": "Chris Seminoch is an expert in U.S. manufacturing and electrification trends. As an investment partner at ETFs, he manages two funds, one focusing on manufacturing and re-shoring, and the other on electrification. Both funds have outperformed the market since their inception and year-to-date.",
+    "known_for": "His insights on the resurgence of U.S. manufacturing and the importance of automation and electrification.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-06-19 03:02:25",
+    "last_episode_title": "The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-06-18",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in U.S. industrial champions with strong order backlogs and companies positioned to benefit from the electrification and modernization of the U.S. grid.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-18 \u2022 The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
+    "last_proof_snippet": "The U.S. manufacturing has essentially been in a recession for three straight years and we have only just emerged now. If I had a CMMI survey, just reached about 50 in the last three months. And that's after three consecutive years of sub-5",
+    "supporting_takeaway": "Companies with significant order backlogs, such as Caterpillar and Vernova, are likely to see revenue growth in the coming quarters.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-18T22:06:11.769482",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Chris Seminoch",
+      "fetched_at": "2026-06-19T03:06:11.769323+00:00",
+      "cliff_notes": "Chris Seminoch has made a significant impact in the field of U.S. manufacturing and electrification. As an investment partner at ETFs, he oversees two funds that focus on manufacturing and re-shoring, as well as electrification. These funds have demonstrated impressive performance compared to the broader market since their inception. Seminoch's expertise lies in identifying investment opportunities in U.S. industrial champions that have been overlooked for years, emphasizing the potential for growth in these sectors. His insights into the resurgence of U.S. manufacturing and the critical role of automation and electrification have made him a valuable resource for investors and tech listeners.",
+      "derived": {
+        "current_role": "Investment Partner at ETFs"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Chris Seminoch has made a significant impact in the field of U.S. manufacturing and electrification. As an investment partner at ETFs, he oversees two funds that focus on manufacturing and re-shoring, as well as electrification. These funds have demonstrated impressive performance compared to the broader market since their inception.",
+        "Seminoch's expertise lies in identifying investment opportunities in U.S. industrial champions that have been overlooked for years, emphasizing the potential for growth in these sectors. His insights into the resurgence of U.S. manufacturing and the critical role of automation and electrification have made him a valuable resource for investors and tech listeners."
+      ],
+      "sections": [
+        {
+          "heading": "U.S. Manufacturing Resurgence",
+          "body": "Chris Seminoch highlights the recent resurgence of U.S. manufacturing after three consecutive years of recession. He emphasizes the importance of recognizing the investment opportunities in basic U.S. industrial champions that have been off the radar for years."
+        },
+        {
+          "heading": "Automation and Electrification",
+          "body": "Seminoch stresses the significance of automation and electrification in driving the growth of U.S. manufacturing. He believes that these technologies are crucial for the sector's recovery and future success."
+        },
+        {
+          "heading": "Investment Opportunities",
+          "body": "Chris Seminoch identifies the enormous investment opportunities in U.S. industrial champions that have been overlooked for years. He argues that these businesses are currently undervalued and present a significant potential for growth."
+        }
+      ]
+    }
+  },
+  {
     "id": 295,
     "name": "Joseph Krauss",
     "slug": "joseph-krauss",
@@ -29294,7 +29651,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in companies that integrate AI with experimental data for material discovery to gain a competitive edge in industries like aerospace and semiconductors.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-17 \u2022 \ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
     "last_proof_snippet": "This is the difference between AI for bio and AI for materials. If you look at bio or maybe small molecules is a more broad category, you look at selfies and smile strings, where I which has been a big way to have those materials, those mol",
@@ -29353,7 +29710,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in companies that can integrate AI into their operations and leverage Microsoft's ecosystem for competitive advantage, focusing on data management capabilities and adaptability to new pricing models.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
     "last_proof_snippet": "Please welcome Swicks, Saragawa, Alad Gill and Chairman and Chief Executive Officer of Microsoft, Sartina Della. I'm so excited to be here. Welcome to a crossover episode of NoPriors and Lanesvists with Sartina Della. Congratulations on an",
@@ -29662,7 +30019,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in sectors at the forefront of technological disruption, with a focus on cryptocurrency, AI, and biotech innovations that promise significant market transformation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-11 \u2022 Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
     "last_proof_snippet": "City Bank projects a Bitcoin price reaching as much as 189,000 by the end of 2026. Bitcoin is the new digital gold. I think it's going to be a key part of our economy going forward into the future. I remember it was supposed to be counter-s",
@@ -29723,7 +30080,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "The market may be entering a new inflation shock regime, leading to a rotation from financial assets to hard assets, with the healthcare sector presenting an under-owned opportunity.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-11 \u2022 MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -30300,7 +30657,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investors should focus on undervalued companies in Asia, particularly in South Korea and Southeast Asia, due to favorable valuations and growth prospects.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-06 \u2022 The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone | Michael Fritzell | Asian Century Stocks",
     "last_proof_snippet": "South Korea, I do think it is a bubble, because the estimates for profits, for Eski Heinigs and Samsung electronics, we're now talking 200 billion US dollars in that profit estimates for 2028. And that will make them the most profitable com",
@@ -30646,7 +31003,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-03 \u2022 Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
     "last_proof_snippet": "One of the most provocative and interesting investors in the country. A legendary activist investor. Pershing square CEO and founder Bill Acling. Taking a short position and going public with it is a pretty serious business. Interestingly,",
@@ -30711,7 +31068,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-02 \u2022 OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
     "last_proof_snippet": "Open AI's CFO, Sarah Fryer. We've got to get right to it. You have just completed what I would find as the most successful fund-raising rail in history. We're going to raise actually north of $120 billion. We think AI is the biggest era tha",
@@ -30896,7 +31253,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in companies developing prediction market platforms, focusing on those with strong legal compliance strategies and potential for cultural acceptance.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-26 \u2022 Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
     "last_proof_snippet": "Well, so, start at the beginning. The basic vision is that speculative markets are shown to be a unmatched mechanism for aggregating information and telling us about stuff. And initially, most people who come to this area think about, let's",
@@ -31204,7 +31561,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Investors should prepare for potential oil price volatility and consider hedging strategies, while also looking for investment opportunities in companies improving inventory efficiency and energy infrastructure projects.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-21 \u2022 MacroVoices #533 Morgan Downey: The Return of Oil 101",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -31450,7 +31807,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "The current market dynamics suggest a potential bubble, characterized by inflated earnings expectations rather than traditional valuation metrics, indicating the need for disciplined profit-taking strategies and portfolio diversification.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-16 \u2022 Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
     "last_proof_snippet": "If we're in a bubble, why aren't we selling crazy P is? It's not the P that's the bubble, it's the E. The S&P in its entirety is expected to earn 400 billion. Where's the GDP that can do that? Now it could come from everywhere else. It coul",
@@ -31515,7 +31872,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
     "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
@@ -31575,7 +31932,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
     "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
@@ -31636,7 +31993,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in AI technologies that leverage advancements in MCTS and reduced compute requirements to create scalable and efficient solutions in various industries.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-15 \u2022 Eric Jang \u2013 Building AlphaGo from scratch",
     "last_proof_snippet": "Today I'm here with Eric Jeng, who was most recently Vice President of AI at one ex-technologies, before that senior research scientist at what is now Google DeepMind Robotics, and you've been on sabbatical for the last few months. One of t",
@@ -31700,7 +32057,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-15 \u2022 \u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
     "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. I'm joined by Andrew Perry, veteran macro investors. He has worked at the top macro hedge funds, all the big banks, Andrew, welcome to monetary",
@@ -31761,7 +32118,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -32077,7 +32434,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in private credit funds that capitalize on the retreat of banks from riskier, smaller loans due to regulatory pressures, and consider preferred equity structures for upside potential with downside protection.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-12 \u2022 Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
     "last_proof_snippet": "The dominant media narrative at the moment is direct lending and private credit, a virtually synonymous, but that is obviously not how the industry is structured, but what is definitely true is that direct lending has taken the vast majorit",
@@ -32202,7 +32559,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-10 \u2022 Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
     "last_proof_snippet": "Very pleased today to be joined by David Wright, co-head of Pictay asset management's quantitative investments franchise, which manages over $30 billion in their quant group. This includes most recently two ETFs they launched PQ&T, their Pi",
@@ -32262,7 +32619,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -32389,7 +32746,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-07 \u2022 MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -32579,7 +32936,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -32643,7 +33000,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -32826,7 +33183,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-04 \u2022 Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
     "last_proof_snippet": "Today I was speaking to one of the best and most data-driven analysts around, Warren Pious of 314 research. If you have been seeing the ball clearer than him, last time I spoke to him, Warren's calling for S&P to 7,000 by 2026, which obviou",
@@ -32890,7 +33247,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-04 \u2022 Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
     "last_proof_snippet": "AI is going to be more important, not less important, and so the proliferation of a Western AI stack to be a top priority for anyone who cares about freedom. The rules around AI are changing fast. There's a lot of regulation abroad around d",
@@ -33210,7 +33567,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-30 \u2022 Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
     "last_proof_snippet": "AI is creating new opportunities to rethink how enterprise systems work, potentially leading to a platform shift.",
@@ -33457,7 +33814,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Investment in the biotech sector may need to consider the geographic shift towards China for innovation and efficiency in drug development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-29 \u2022 The Shift in Global Drug Development",
     "last_proof_snippet": "China's clinical trial system has rapidly expanded, with reforms that streamline the approval process.",
@@ -33956,7 +34313,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -34336,7 +34693,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
     "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
@@ -34464,7 +34821,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -36024,7 +36381,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_proof_snippet": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",
@@ -36084,7 +36441,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-01 \u2022 What Happens When a Public Company Goes All In on AI",
     "last_proof_snippet": "AI agents have significantly increased productivity, with one or two engineers on the tools being able to achieve 10-100x more output than before.",
@@ -37875,7 +38232,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-19 \u2022 Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
     "last_proof_snippet": "Today's episode is brought to you by the Picta AI Enhance International Equity ETF, Ticker PQNT. You'll hear more about they're using AI to enhance international equity returns later in the show. For now, let's get into it. Very pleased tod",
@@ -38518,7 +38875,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-12 \u2022 The Intersection of Technology, Geopolitics, and National Defense",
     "last_proof_snippet": "We were the freak chef, and we spent 20 years for this moment. We're doing it, we're doing it, and I'm sure you're enjoying this as much as I am. I just got three things to say. God bless our troops. God bless America. And shout on that. Do",
@@ -38545,7 +38902,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-09 \u2022 All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
     "last_proof_snippet": "Welcome to another episode of the all-in-interview. I'm really excited to be joined by a back-to-all-in, Harvard Professor Graham Allison. Professor Allison, welcome back to all-in. Thanks for having me. We last had you at the summit in Los",
@@ -38572,7 +38929,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "As the global liquidity cycle peaks, investors should consider rotating their asset allocation towards more defensive areas and higher yielding assets like private credit.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-09 \u2022 Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
     "last_proof_snippet": "Later on, you'll hear more about the fund rise income fund and why sophisticated investors are turning to higher yielding assets like private credit. But for now, let's get into today's interview. Join today by Michael Howell of the Capital",
@@ -38599,7 +38956,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-09 \u2022 The Future of Personal AI Agents with OpenClaw",
     "last_proof_snippet": "We have a special guest with us today. Alex Finn, give us the 101 here for folks. OpenClaw is basically a open source, fully customizable, self-improving, self-learning, self-evolving, personal AI agent. This is kind of the answer Apple's b",
@@ -38626,7 +38983,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Investing in technology that enhances real-time crime prevention and clearance rates can lead to more effective law enforcement and safer communities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-11 \u2022 Real-time Crime Prevention and the Future of Policing",
     "last_proof_snippet": "South American cartels fly illegal drones through these neighborhoods. They'll flip on night vision. Look through houses to see if you can tell me. Didn't go break in. I was working with a town in Tennessee. It's a good city. Their average",
@@ -38653,7 +39010,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "The current geopolitical tensions and the rise of AI technology present both risks and opportunities, with the potential for economic disruption and the need for strategic investment in sectors less affected by AI.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-11 \u2022 Monetary Matters: Economic Consequences of War and AI's Impact",
     "last_proof_snippet": "This episode of Monetary Matters is brought to you by the two-cream Soybean Fund. Take your SOI-B. Let's get into it. Very pleased to welcome to Monetary Matters, Noble Laureate Economist, Professor at Columbia University, an author of Road",
@@ -38680,7 +39037,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-11 \u2022 Capital Markets Evolution and the Future of IPOs",
     "last_proof_snippet": "All right, everybody, welcome to the all-in interview program. Today, we are delighted to have two of the most important individuals shaping capital markets over the next couple of years. SEC chair, Paul Ackens is with us as well as CFTC ch",
@@ -38707,7 +39064,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-11 \u2022 Capital Markets Evolution and the Future of IPOs",
     "last_proof_snippet": "All right, everybody, welcome to the all-in interview program. Today, we are delighted to have two of the most important individuals shaping capital markets over the next couple of years. SEC chair, Paul Ackens is with us as well as CFTC ch",
