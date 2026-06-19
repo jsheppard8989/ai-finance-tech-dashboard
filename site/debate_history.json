@@ -1,6 +1,19 @@
 {
-  "rotation_index": 16,
+  "rotation_index": 17,
   "weeks": [
+    {
+      "friday_iso": "2026-06-12",
+      "week_label": "Week of 2026-06-12",
+      "prompt": "Will at least two U.S. counties or municipalities enact new moratoriums or major restrictive ordinances on AI data center construction within the next 42 days?",
+      "debater_a": "Michael Fritzell",
+      "debater_b": "Will Brick",
+      "expires_rule": "Resolves Friday 12:00 PM CST 2026-07-24",
+      "resolves_iso": "2026-07-24",
+      "resolution_status": "pending",
+      "resolution_notes": "",
+      "archived_at": "2026-06-19T05:02:38.585546",
+      "audio_href": "./audio/archive/debate_2026-06-12.mp3"
+    },
     {
       "friday_iso": "2026-06-05",
       "week_label": "Week of 2026-06-05",

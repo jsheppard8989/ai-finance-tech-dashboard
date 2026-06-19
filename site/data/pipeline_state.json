@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-18T23:41:15.068076",
-  "last_updated": "2026-06-18T23:41:15.068076",
-  "last_pipeline_run": "2026-06-18T23:41:15.068076",
+  "generated_at": "2026-06-19T05:02:06.741179",
+  "last_updated": "2026-06-19T05:02:06.741179",
+  "last_pipeline_run": "2026-06-19T05:02:06.741179",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -11,13 +11,13 @@
     "ticker_mentions": 193,
     "podcast_episodes": 272,
     "newsletters": 7,
-    "daily_scores": 129,
+    "daily_scores": 131,
     "overton_terms_total": 104,
     "latest_insights_total": 286,
     "today_mentions": {
       "podcast": 2
     },
-    "podcasts_analyzed": 5
+    "podcasts_analyzed": 0
   },
   "step_results": {
     "downloaded": 2,
@@ -166,7 +166,7 @@
       "title": "Samo Burja on Growth, Energy, and AI",
       "status": "needs_analysis",
       "published": "2026-06-12",
-      "age_days": 6,
+      "age_days": 7,
       "next_blocker": "analyzed"
     },
     {
@@ -175,7 +175,7 @@
       "title": "Ada Palmer \u2013 Machiavelli is the most misunderstood thinker of all time",
       "status": "needs_analysis",
       "published": "2026-06-16",
-      "age_days": 2,
+      "age_days": 3,
       "next_blocker": "analyzed"
     }
   ],
