@@ -1,5 +1,26 @@
 [
   {
+    "id": 302,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
+    "episode_date": "2026-06-19",
+    "summary": "This episode of 'All-In with Chamath, Jason, Sacks & Friedberg' delves into the implications of SpaceX's record-breaking $85 billion IPO, the strategic acquisition of Kursher, and the broader political and economic landscape affecting individual liberties and AI regulation. The hosts discuss the potential for hyperscalers to monopolize AI technologies and the importance of industry-led standards to foster innovation and competition.",
+    "key_takeaways": [
+      "SpaceX's $85 billion IPO is the largest in history, setting a new benchmark for tech IPOs.",
+      "The acquisition of Kursher by SpaceX for $15 billion is expected to double its revenue run rate and solidify its position in AI and space sectors.",
+      "The erosion of individual liberties and economic mobility in the U.S. is a significant concern, potentially leading to reduced entrepreneurship and a less dynamic economy.",
+      "AI regulation is a critical issue, with the risk of monopolistic control by hyperscalers stifling innovation and limiting access to AI tools.",
+      "Industry-led standards in AI development are advocated over government intervention to promote healthy competition and innovation."
+    ],
+    "investment_thesis": "Invest in companies that prioritize innovation and self-regulation in AI, and monitor the performance of SpaceX and its competitors for trends in tech valuations.",
+    "key_tickers": [
+      "AMZN",
+      "MSFT",
+      "GOOG",
+      "GOOGL"
+    ]
+  },
+  {
     "id": 301,
     "podcast_name": "The a16z Show",
     "episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
@@ -119,25 +140,6 @@
       "Assess the organizational culture and talent acquisition strategies of companies to gauge their potential for sustained growth and innovation."
     ],
     "investment_thesis": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
-    "key_tickers": null
-  },
-  {
-    "id": 288,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Jack Altman on Product-Market Fit",
-    "episode_date": "2026-06-16",
-    "summary": "The podcast discusses the delicate balance founders must maintain between customer feedback and their long-term vision. It emphasizes the importance of quickly identifying product-market fit and the role of sales conversations in refining product offerings. The episode also highlights the significance of hiring the right early employees, building strong co-founder relationships, meeting rising product quality standards, focusing on growth narratives for investors, and managing time proactively.",
-    "key_takeaways": [
-      "Founders should discern which customer requests align with their product's core mission.",
-      "Product-market fit should be identified quickly to save resources and guide product development.",
-      "Sales conversations are vital for understanding customer needs and refining products.",
-      "Early hires should be creative and entrepreneurial rather than traditional salespeople.",
-      "Strong co-founder relationships built on trust and open communication are essential.",
-      "Startups must deliver polished products early on to meet increased quality standards.",
-      "Investors focus on the growth story and momentum, especially in sectors like AI.",
-      "Founders should prioritize proactive work over reactive tasks to maximize productivity."
-    ],
-    "investment_thesis": "Invest in startups that balance customer feedback with a clear vision, demonstrate rapid product-market fit, and have a compelling growth narrative.",
     "key_tickers": null
   }
 ]
