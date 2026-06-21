@@ -1,5 +1,22 @@
 [
   {
+    "id": 303,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
+    "episode_date": "2026-06-20",
+    "summary": "In this episode of Monetary Matters, Jim Chanos and Val Zlathev discuss the economic implications of AI, cautioning against overestimating its impact on corporate profitability. They highlight the supply constraints in the memory market, which could sustain higher prices for DRAM and NAND. Chanos identifies unprofitable business models in the AI ecosystem and warns about inflated valuations in the semiconductor sector. Both guests emphasize the importance of monitoring the evolving landscape of AI and semiconductors for potential market corrections.",
+    "key_takeaways": [
+      "AI's broader economic impact may not match market expectations, drawing parallels to the internet boom.",
+      "The memory market is experiencing supply constraints, which may lead to sustained higher prices for DRAM and NAND.",
+      "Unprofitable business models in the AI ecosystem, such as Bitcoin miners and data center developers, are potential short candidates.",
+      "There is a disconnect in profitability accounting between chip manufacturers and companies utilizing these chips.",
+      "Skepticism about the sustainability of high valuations in the semiconductor space is warranted.",
+      "Investors should monitor the evolving landscape of AI and semiconductors for potential market corrections."
+    ],
+    "investment_thesis": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
+    "key_tickers": null
+  },
+  {
     "id": 302,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
@@ -124,22 +141,6 @@
       "Support companies adopting open-source strategies for innovation."
     ],
     "investment_thesis": "Invest in companies that integrate AI with experimental data for material discovery to gain a competitive edge in industries like aerospace and semiconductors.",
-    "key_tickers": null
-  },
-  {
-    "id": 292,
-    "podcast_name": "The a16z Show",
-    "episode_title": "The Fintech Playbook for Latin America",
-    "episode_date": "2026-06-17",
-    "summary": "This episode of the a16z Show features Adi, a fintech company that serves over 3 million consumers and 50,000 merchants in Colombia. Adi has transitioned from a buy now pay later model to a comprehensive platform that includes payments, logistics, and banking. The company's success is attributed to its strong technology foundation, AI integration, and a focus on hiring top talent. The founder, Santiago Gua Suarez, discusses Adi's contrarian market entry strategy, the importance of a North Star metric for performance tracking, and the company's future ambitions to expand globally and enhance operational efficiency through AI.",
-    "key_takeaways": [
-      "Evaluate the technological infrastructure of fintech companies before investing, focusing on their ability to scale and innovate.",
-      "Look for companies that are actively integrating AI into their operations, as this can lead to significant cost savings and improved customer experiences.",
-      "Consider the adoption of a North Star metric in your organization to simplify performance tracking and align team efforts.",
-      "Investigate contrarian market entry strategies that may reveal unique opportunities in less competitive markets.",
-      "Assess the organizational culture and talent acquisition strategies of companies to gauge their potential for sustained growth and innovation."
-    ],
-    "investment_thesis": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "key_tickers": null
   }
 ]

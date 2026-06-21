@@ -205,7 +205,7 @@
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 1.87,
+    "mention_score_decayed": 1.82,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -1259,6 +1259,134 @@
     "pundit_profile": null
   },
   {
+    "id": 298,
+    "name": "Jim Chanos",
+    "slug": "jim-chanos",
+    "bio": "Jim Chanos is a renowned short-seller and the founder of Kynikos Associates, a global investment firm. He is known for identifying and betting against unsustainable business models and market bubbles, which has led to significant financial gains and reputation in the investment community.",
+    "known_for": "Identifying and betting against unsustainable business models and market bubbles, including Enron, Chinese real estate stocks, and Wirecard.",
+    "net_worth_usd": 200000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/wall-street/jim-chanos-net-worth/",
+    "net_worth_updated_at": "2026-06-20T23:36:25.211360",
+    "voice_tone": "Cautious and analytical",
+    "voice_style": "Factual and evidence-based",
+    "voice_delivery_notes": "Delivers points with a measured pace, emphasizing key data points",
+    "voice_profile_updated_at": "2026-06-21 04:35:51",
+    "last_seen": "2026-06-21 04:35:51",
+    "last_episode_title": "Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-06-20",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
+    "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
+    "supporting_takeaway": "The memory market is experiencing supply constraints, which may lead to sustained higher prices for DRAM and NAND.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-20T23:36:23.980122",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jim Chanos",
+      "fetched_at": "2026-06-21T04:36:23.979760+00:00",
+      "cliff_notes": "Jim Chanos is a prominent short-seller and the founder of Kynikos Associates, a global investment firm specializing in short-selling. He began his career at the investment banking firm Donaldson, Lufkin & Jenrette before moving to the arbitrage department at Gilford Securities. Chanos gained notoriety for his early prediction and subsequent short position on Enron, which led to substantial returns when the company's fraudulent activities were exposed. His firm, Kynikos Associates, has since been involved in short-selling various companies and market sectors, including Chinese real estate stocks and Wirecard, often focusing on identifying unsustainable business practices and market bubbles. Chanos' expertise in spotting financial fraud and market inefficiencies has made him a respected figure in the investment community.",
+      "derived": {
+        "current_role": "Founder and President of Kynikos Associates",
+        "education": "BBA in Accounting and Finance from Yale University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Jim Chanos is a prominent short-seller and the founder of Kynikos Associates, a global investment firm specializing in short-selling. He began his career at the investment banking firm Donaldson, Lufkin & Jenrette before moving to the arbitrage department at Gilford Securities. Chanos gained notoriety for his early prediction and subsequent short position on Enron, which led to substantial returns when the company's fraudulent activities were exposed.",
+        "His firm, Kynikos Associates, has since been involved in short-selling various companies and market sectors, including Chinese real estate stocks and Wirecard, often focusing on identifying unsustainable business practices and market bubbles. Chanos' expertise in spotting financial fraud and market inefficiencies has made him a respected figure in the investment community."
+      ],
+      "sections": [
+        {
+          "heading": "Enron Short",
+          "body": "Jim Chanos is best known for his short position on Enron, which he identified as overvalued and engaged in fraudulent activities. His prediction proved correct when Enron's scandal was exposed, leading to significant financial gains for his firm."
+        },
+        {
+          "heading": "Chinese Real Estate Stocks",
+          "body": "Chanos has been vocal about the unsustainable nature of the Chinese real estate market, taking short positions in several Chinese real estate stocks and warning investors about the potential risks associated with this market segment."
+        },
+        {
+          "heading": "Wirecard Scandal",
+          "body": "Jim Chanos was one of the investors who bet against Wirecard, a German payment processing company that collapsed after a multi-billion euro accounting scandal was uncovered."
+        },
+        {
+          "heading": "Macro-Mines Symposium",
+          "body": "Chanos participated in the Macro-Mines Symposium, a mission-driven conference for institutional investors that supports student education. He discussed value investment opportunities in the AI boom, both on the long and short side."
+        }
+      ]
+    },
+    "net_worth": "$200.0M"
+  },
+  {
+    "id": 299,
+    "name": "Val Zlathev",
+    "slug": "val-zlathev",
+    "bio": "Val Zlathev is an expert in the semiconductor industry, known for his in-depth analysis of market dynamics and technology trends. He manages a multi-billion dollar hedge fund with a strong track record in long short investing in semiconductors and tech hardware.",
+    "known_for": "His expertise in semiconductor supply chains and market cycles, particularly in the context of the AI boom.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informative and insightful",
+    "voice_style": "Technical and detailed",
+    "voice_delivery_notes": "Speaks with clarity, emphasizing the intricacies of the semiconductor market",
+    "voice_profile_updated_at": "2026-06-21 04:35:51",
+    "last_seen": "2026-06-21 04:35:51",
+    "last_episode_title": "Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-06-20",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
+    "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
+    "supporting_takeaway": "The memory market is experiencing supply constraints, which may lead to sustained higher prices for DRAM and NAND.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-20T23:36:33.809205",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Val Zlathev",
+      "fetched_at": "2026-06-21T04:36:33.809096+00:00",
+      "cliff_notes": "Val Zlathev has made a significant impact in the semiconductor industry through his expertise in market dynamics and technology trends. His career has been marked by a deep understanding of semiconductor supply chains and market cycles, which has allowed him to successfully manage a multi-billion dollar hedge fund with a focus on long short investing in semiconductors and tech hardware. Zlathev's insights have been particularly valuable during the AI boom, where he has been able to identify opportunities for value on both the long and short side of the market. His contributions to the industry have been recognized through his participation in high-profile panels and symposiums, such as the Macro-Mines Symposium, where he has shared his knowledge with other industry leaders and institutional investors.",
+      "derived": {
+        "current_role": "Hedge Fund Manager"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Val Zlathev has made a significant impact in the semiconductor industry through his expertise in market dynamics and technology trends. His career has been marked by a deep understanding of semiconductor supply chains and market cycles, which has allowed him to successfully manage a multi-billion dollar hedge fund with a focus on long short investing in semiconductors and tech hardware.",
+        "Zlathev's insights have been particularly valuable during the AI boom, where he has been able to identify opportunities for value on both the long and short side of the market. His contributions to the industry have been recognized through his participation in high-profile panels and symposiums, such as the Macro-Mines Symposium, where he has shared his knowledge with other industry leaders and institutional investors."
+      ],
+      "sections": [
+        {
+          "heading": "Semiconductor Supply Chains",
+          "body": "Val Zlathev has a deep understanding of semiconductor supply chains, which has allowed him to identify key trends and opportunities in the market."
+        },
+        {
+          "heading": "Market Dynamics",
+          "body": "Zlathev's expertise in market dynamics has been instrumental in his ability to generate alpha in long short investing in semiconductors and tech hardware."
+        },
+        {
+          "heading": "AI Boom",
+          "body": "Zlathev has been able to identify opportunities for value in the AI boom, both on the long and short side of the market."
+        },
+        {
+          "heading": "Macro-Mines Symposium",
+          "body": "Val Zlathev participated in the Macro-Mines Symposium, a mission-driven conference for institutional investors to support student education, where he shared his insights on the semiconductor industry."
+        }
+      ]
+    }
+  },
+  {
     "id": 297,
     "name": "Eden Ha",
     "slug": "eden-ha",
@@ -1276,7 +1404,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -1641,7 +1769,7 @@
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -2489,7 +2617,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -4491,7 +4619,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-07 \u2022 MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -5622,7 +5750,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -6058,7 +6186,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -6566,7 +6694,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -7636,7 +7764,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
     "last_proof_snippet": "AI is a shortcut that can be beneficial but also presents challenges in debugging and understanding.",
@@ -8562,7 +8690,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-27 \u2022 Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
     "last_proof_snippet": "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",
@@ -10047,7 +10175,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-18 \u2022 Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
     "last_proof_snippet": "Fetterman has a unique perspective, being popular among Republicans while maintaining his Democratic affiliation.",
@@ -10113,7 +10241,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-18 \u2022 The Geopolitics of Technology and the Future Economy",
     "last_proof_snippet": "Helbert emphasizes the importance of hardware in the geopolitical technology war and the control over the internet's infrastructure.",

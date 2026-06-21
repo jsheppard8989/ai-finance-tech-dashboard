@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-20T22:02:34.402883",
-  chartsVersion: "2026-06-20T22:02:27.619615",
+  generatedAt: "2026-06-20T23:38:01.465014",
+  chartsVersion: "2026-06-20T23:37:46.844485",
   priceSnapshot: {
   "GOOGL": {
     "price": 368.03,
     "change_pct": -2.16,
     "name": "GOOGL",
-    "updated_at": "2026-06-20T22:02:27.618743"
+    "updated_at": "2026-06-20T23:37:46.844011"
   },
   "BTC": {
-    "price": 64154.3,
-    "change_pct": 1.69,
+    "price": 64427.4,
+    "change_pct": 2.12,
     "name": "BTC",
-    "updated_at": "2026-06-20T22:02:27.618757"
+    "updated_at": "2026-06-20T23:37:46.844022"
   },
   "MSFT": {
     "price": 379.4,
     "change_pct": -17.61,
     "name": "MSFT",
-    "updated_at": "2026-06-20T22:02:27.618763"
+    "updated_at": "2026-06-20T23:37:46.844026"
   },
   "NVDA": {
     "price": 210.69,
     "change_pct": -5.98,
     "name": "NVDA",
-    "updated_at": "2026-06-20T22:02:27.618768"
+    "updated_at": "2026-06-20T23:37:46.844029"
   },
   "AMZN": {
     "price": 244.39,
     "change_pct": -6.46,
     "name": "AMZN",
-    "updated_at": "2026-06-20T22:02:27.618773"
+    "updated_at": "2026-06-20T23:37:46.844033"
   },
   "TSLA": {
     "price": 400.49,
     "change_pct": -3.7,
     "name": "TSLA",
-    "updated_at": "2026-06-20T22:02:27.618778"
+    "updated_at": "2026-06-20T23:37:46.844036"
   },
   "WTI": {
     "price": 3.21,
     "change_pct": -19.55,
     "name": "WTI",
-    "updated_at": "2026-06-20T22:02:27.618783"
+    "updated_at": "2026-06-20T23:37:46.844039"
   },
   "META": {
     "price": 577.22,
     "change_pct": -3.78,
     "name": "META",
-    "updated_at": "2026-06-20T22:02:27.618788"
+    "updated_at": "2026-06-20T23:37:46.844042"
   },
   "S&P 500": {
     "price": 746.74,
     "change_pct": -1.3,
     "name": "S&P 500",
-    "updated_at": "2026-06-20T22:02:27.618793"
+    "updated_at": "2026-06-20T23:37:46.844045"
   },
   "AAPL": {
     "price": 298.01,
     "change_pct": -2.71,
     "name": "AAPL",
-    "updated_at": "2026-06-20T22:02:27.618797"
+    "updated_at": "2026-06-20T23:37:46.844048"
   },
   "QQQ": {
     "price": 740.62,
     "change_pct": -0.29,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-20T22:02:27.618802"
+    "updated_at": "2026-06-20T23:37:46.844051"
   },
   "BTC-USD": {
-    "price": 64154.3,
-    "change_pct": 1.69,
+    "price": 64427.4,
+    "change_pct": 2.12,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-20T22:02:27.618808"
+    "updated_at": "2026-06-20T23:37:46.844055"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 318,
+      "title": "Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-06-20",
+      "summary": "In this episode of Monetary Matters, Jim Chanos and Val Zlathev discuss the economic implications of AI, cautioning against overestimating its impact on corporate profitability. They highlight the supply constraints in the memory market, which could sustain higher prices for DRAM and NAND. Chanos identifies unprofitable business models in the AI ecosystem and warns about inflated valuations in the semiconductor sector. Both guests emphasize the importance of monitoring the evolving landscape of AI and semiconductors for potential market corrections.",
+      "key_takeaway": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 303
+    },
+    {
       "id": 315,
       "title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
       "source_type": "podcast",
@@ -973,7 +992,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-17",
       "archived_date": null,
@@ -6843,6 +6862,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 254,
+      "term": "Hyperscalers",
+      "description": "Large technology companies that provide cloud computing services and have the ability to scale resources rapidly.",
+      "first_detected_date": "2026-06-19",
+      "last_mentioned_date": "2026-06-20",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should be aware of the market power of hyperscalers in AI and their potential to influence innovation and competition.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 302,
+      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "last_mentioned_episode_id": 303,
+      "last_mentioned_speaker": "Jim Chanos, Val Zlathev"
+    },
+    {
       "id": 252,
       "term": "AI Commoditization",
       "description": "The process by which AI technology becomes a standard, undifferentiated product, leading to increased competition and reduced pricing power.",
@@ -6917,20 +6954,20 @@ const dashboardData = {
     {
       "id": 138,
       "term": "AI CapEx",
-      "description": "Capital expenditure in AI technologies, which is projected to contribute significantly to GDP growth.",
+      "description": "Capital expenditures related to artificial intelligence, including investments in hardware, software, and infrastructure.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-06-18",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-06-20",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider companies with high AI CapEx as potential drivers of economic growth.",
+      "investment_implications": "Understanding AI CapEx can help investors gauge a company's commitment to AI and its potential impact on future profitability.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 297,
-      "last_mentioned_speaker": "Chris Seminoch"
+      "last_mentioned_episode_id": 303,
+      "last_mentioned_speaker": "Jim Chanos, Val Zlathev"
     },
     {
       "id": 234,
@@ -8285,20 +8322,20 @@ const dashboardData = {
     {
       "id": 18,
       "term": "Compute Arbitrage",
-      "description": "The strategic allocation of computational resources to maximize efficiency and minimize costs.",
+      "description": "The practice of leveraging the most cost-effective computing resources available, often shifting between on-premises and cloud-based solutions.",
       "first_detected_date": "2026-03-13",
-      "last_mentioned_date": "2026-06-02",
-      "mention_count": 13,
+      "last_mentioned_date": "2026-06-20",
+      "mention_count": 14,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider companies that can effectively leverage compute resources to gain a competitive advantage.",
+      "investment_implications": "Investors should consider how companies are optimizing their compute resources, as this can significantly affect operational efficiency and cost.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 254,
-      "last_mentioned_speaker": "Sarah Fryer"
+      "last_mentioned_episode_id": 303,
+      "last_mentioned_speaker": "Jim Chanos, Val Zlathev"
     },
     {
       "id": 19,
@@ -8725,6 +8762,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 318,
+      "title": "Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-06-20",
+      "summary": "In this episode of Monetary Matters, Jim Chanos and Val Zlathev discuss the economic implications of AI, cautioning against overestimating its impact on corporate profitability. They highlight the supply constraints in the memory market, which could sustain higher prices for DRAM and NAND. Chanos identifies unprofitable business models in the AI ecosystem and warns about inflated valuations in the semiconductor sector. Both guests emphasize the importance of monitoring the evolving landscape of AI and semiconductors for potential market corrections.",
+      "key_takeaway": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 303,
+      "episode_release_date": "2026-06-20",
+      "guest_name": "Jim Chanos & Val Zlatev",
+      "key_tickers": []
+    },
+    {
       "id": 315,
       "title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
       "source_type": "podcast",
@@ -8855,26 +8912,6 @@ const dashboardData = {
         "QTA",
         "AEP"
       ]
-    },
-    {
-      "id": 307,
-      "title": "The Fintech Playbook for Latin America",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-06-17",
-      "summary": "This episode of the a16z Show features Adi, a fintech company that serves over 3 million consumers and 50,000 merchants in Colombia. Adi has transitioned from a buy now pay later model to a comprehensive platform that includes payments, logistics, and banking. The company's success is attributed to its strong technology foundation, AI integration, and a focus on hiring top talent. The founder, Santiago Gua Suarez, discusses Adi's contrarian market entry strategy, the importance of a North Star metric for performance tracking, and the company's future ambitions to expand globally and enhance operational efficiency through AI.",
-      "key_takeaway": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-17",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 292,
-      "episode_release_date": "2026-06-17",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 309,
@@ -28247,21 +28284,59 @@ const dashboardData = {
       "GOOG",
       "GOOGL"
     ]
+  },
+  "318": {
+    "id": 308,
+    "insight_id": 318,
+    "podcast_episode_id": 303,
+    "overview": "The unresolved tension in the AI and semiconductor sectors lies in the disconnect between technological advancements and economic outcomes. Chanos and Zlathev highlight a historical pattern where technological progress, such as the internet, did not lead to a substantial increase in economic growth. This dynamic is contested by the current hype around AI's potential to revolutionize industries. The competitive dynamic is further complicated by the supply constraints in the memory market, which could sustain higher prices and profitability, contrary to the broader economic impact. Allocators must consider who wins or loses in this landscape, with the true arbiter being the market's ability to discern between sustainable profitability and inflated valuations.",
+    "key_takeaways_detailed": [
+      "Investors should scrutinize the economic impact of AI, looking beyond technological advancements to actual profitability and growth metrics.",
+      "Monitor the memory market closely for signs of easing supply constraints, as this could signal a shift in the current high-price environment.",
+      "Be alert for signs of profitability in sectors like Bitcoin mining and data center development, as improvements could indicate a misjudgment in current market assessments.",
+      "Consider the lifecycle and depreciation of AI-related hardware when evaluating long-term profitability, as this can significantly impact financial health.",
+      "Reassess investment theses in the semiconductor sector, focusing on whether high valuations are justified by sustainable growth and profitability."
+    ],
+    "investment_thesis": "The core logic of this thesis is that the economic impact of AI may not be as transformative as currently perceived, and that the semiconductor sector, particularly in memory production, is experiencing a unique cycle that could lead to sustained profitability. The timeframe for this thesis is medium to long-term, as the economic impact of AI and the resolution of supply constraints in the memory market will play out over several years. An observable development that would vindicate this thesis is a continued lack of significant growth in corporate profitability despite AI advancements, coupled with a prolonged period of higher memory prices due to supply constraints.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a key player in the technology sector, with significant investments in AI and semiconductors. Its performance can serve as a barometer for the broader trends discussed.",
+        "positioning": "Positioning in Apple could be strategic, considering its exposure to both AI advancements and the semiconductor market. A long position might be appropriate if one believes in Apple's ability to navigate the complexities of the AI and semiconductor landscapes.",
+        "risk": "Key risks include overvaluation relative to Apple's ability to capitalize on AI advancements and potential disruptions in the supply chain that could affect its semiconductor business."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant increase in corporate profitability across sectors that can be directly attributed to AI adoption.",
+      "A rapid technological breakthrough that alleviates memory market supply constraints, leading to a faster than expected decrease in DRAM and NAND prices.",
+      "The emergence of new, profitable business models in the AI ecosystem that challenge the current narrative of unprofitability."
+    ],
+    "catalysts": [
+      "Economic reports showing a correlation between AI adoption and increased corporate profitability.",
+      "Memory market reports indicating changes in supply dynamics and price trends.",
+      "Financial statements from companies in the AI ecosystem showing improved profitability and returns on capital.",
+      "Technological advancements or market shifts in the semiconductor sector that could impact valuations and market caps."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-20T23:37:04.855494",
+    "updated_at": "2026-06-21 04:37:04",
+    "episode_evidence": "Jim Chanos and Val Zlathev's discussion on Monetary Matters provides a nuanced perspective on the economic implications of AI and the semiconductor sector. Chanos cautions against overestimating AI's impact on corporate profitability, drawing a parallel with the internet boom: 'U.S. economic growth was virtually the same in the decade before the introduction of the Internet versus after.' This suggests that technological advancements do not always translate into significant economic growth. Zlathev points to the memory market's supply constraints, noting that 'The amplitude to the peak in terms of need for memory is higher than any time before over the last 25 years,' which could lead to sustained higher prices for DRAM and NAND. Chanos also identifies unprofitable business models in the AI ecosystem, such as Bitcoin miners and certain data center developers, stating, 'We would look at things like the Bitcoin miners, certain data center developers... where if you make just heroic assumptions on profitability... you still get 4 or 5, 6 percent returns on capital.' These insights underscore the need for a careful assessment of the economic realities behind the hype surrounding AI and semiconductors.",
+    "falsification_tracks": [
+      "If corporate profitability across sectors shows a significant increase correlating with AI adoption, the thesis of overestimating AI's impact would be weakened.",
+      "Should memory market supply constraints ease and lead to a rapid decrease in DRAM and NAND prices, the assertion of sustained higher prices would be challenged.",
+      "A demonstration of profitability and positive returns on capital in sectors like Bitcoin mining and data center development would counter the claims of unprofitable business models."
+    ],
+    "insight_title": "Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-06-20",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
-  {
-    "id": 445,
-    "term": "Hyperscalers",
-    "definition": "Large technology companies that provide cloud computing services and have the ability to scale resources rapidly.",
-    "investment_implications": "Investors should be aware of the market power of hyperscalers in AI and their potential to influence innovation and competition.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-06-20 04:36:03",
-    "priority_score": 80
-  },
   {
     "id": 446,
     "term": "Industry-Led Standards",
@@ -28297,11 +28372,35 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-06-19 18:37:30",
     "priority_score": 80
+  },
+  {
+    "id": 441,
+    "term": "Sample Efficiency",
+    "definition": "A measure of how much data is required for a system to learn and operate effectively.",
+    "investment_implications": "Improving sample efficiency in AI can lead to more efficient and effective AI models, impacting the adoption and scalability of AI technologies.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-06-19 18:36:50",
+    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 18943,
+    "id": 19020,
+    "name": "Jim Chanos & Val Zlatev",
+    "slug": "jim-chanos--val-zlatev",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
+    "last_episode_title": "Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-06-20",
+    "appearance_count": 1
+  },
+  {
+    "id": 19021,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -28313,7 +28412,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 18944,
+    "id": 19022,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -28325,7 +28424,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18945,
+    "id": 19023,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -28337,7 +28436,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18946,
+    "id": 19024,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -28349,7 +28448,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18947,
+    "id": 19025,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -28361,7 +28460,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18948,
+    "id": 19026,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -28373,7 +28472,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18949,
+    "id": 19027,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -28385,7 +28484,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18950,
+    "id": 19028,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -28397,7 +28496,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18951,
+    "id": 19029,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -28409,7 +28508,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18952,
+    "id": 19030,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -28421,7 +28520,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18953,
+    "id": 19031,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -28433,7 +28532,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18954,
+    "id": 19032,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -28445,7 +28544,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18955,
+    "id": 19033,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -28457,7 +28556,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18956,
+    "id": 19034,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -28469,7 +28568,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18957,
+    "id": 19035,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -28481,7 +28580,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18958,
+    "id": 19036,
     "name": "Reality",
     "slug": "reality",
     "bio": null,
@@ -28493,7 +28592,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18959,
+    "id": 19037,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -28505,7 +28604,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18960,
+    "id": 19038,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -28517,7 +28616,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 18961,
+    "id": 19039,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -28525,18 +28624,6 @@ const dashboardData = {
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_episode_title": "Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-06-03",
-    "appearance_count": 1
-  },
-  {
-    "id": 18962,
-    "name": "\u26a1\ufe0fSatya Nadella",
-    "slug": "satya-nadella",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in companies that can integrate AI into their operations and leverage Microsoft's ecosystem for competitive advantage, focusing on data management capabilities and adaptability to new pricing models.",
-    "last_episode_title": "\u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "appearance_count": 1
   }
@@ -28748,7 +28835,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 1.87,
+    "mention_score_decayed": 1.82,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -29802,6 +29889,134 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 298,
+    "name": "Jim Chanos",
+    "slug": "jim-chanos",
+    "bio": "Jim Chanos is a renowned short-seller and the founder of Kynikos Associates, a global investment firm. He is known for identifying and betting against unsustainable business models and market bubbles, which has led to significant financial gains and reputation in the investment community.",
+    "known_for": "Identifying and betting against unsustainable business models and market bubbles, including Enron, Chinese real estate stocks, and Wirecard.",
+    "net_worth_usd": 200000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/wall-street/jim-chanos-net-worth/",
+    "net_worth_updated_at": "2026-06-20T23:36:25.211360",
+    "voice_tone": "Cautious and analytical",
+    "voice_style": "Factual and evidence-based",
+    "voice_delivery_notes": "Delivers points with a measured pace, emphasizing key data points",
+    "voice_profile_updated_at": "2026-06-21 04:35:51",
+    "last_seen": "2026-06-21 04:35:51",
+    "last_episode_title": "Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-06-20",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
+    "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
+    "supporting_takeaway": "The memory market is experiencing supply constraints, which may lead to sustained higher prices for DRAM and NAND.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-20T23:36:23.980122",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jim Chanos",
+      "fetched_at": "2026-06-21T04:36:23.979760+00:00",
+      "cliff_notes": "Jim Chanos is a prominent short-seller and the founder of Kynikos Associates, a global investment firm specializing in short-selling. He began his career at the investment banking firm Donaldson, Lufkin & Jenrette before moving to the arbitrage department at Gilford Securities. Chanos gained notoriety for his early prediction and subsequent short position on Enron, which led to substantial returns when the company's fraudulent activities were exposed. His firm, Kynikos Associates, has since been involved in short-selling various companies and market sectors, including Chinese real estate stocks and Wirecard, often focusing on identifying unsustainable business practices and market bubbles. Chanos' expertise in spotting financial fraud and market inefficiencies has made him a respected figure in the investment community.",
+      "derived": {
+        "current_role": "Founder and President of Kynikos Associates",
+        "education": "BBA in Accounting and Finance from Yale University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Jim Chanos is a prominent short-seller and the founder of Kynikos Associates, a global investment firm specializing in short-selling. He began his career at the investment banking firm Donaldson, Lufkin & Jenrette before moving to the arbitrage department at Gilford Securities. Chanos gained notoriety for his early prediction and subsequent short position on Enron, which led to substantial returns when the company's fraudulent activities were exposed.",
+        "His firm, Kynikos Associates, has since been involved in short-selling various companies and market sectors, including Chinese real estate stocks and Wirecard, often focusing on identifying unsustainable business practices and market bubbles. Chanos' expertise in spotting financial fraud and market inefficiencies has made him a respected figure in the investment community."
+      ],
+      "sections": [
+        {
+          "heading": "Enron Short",
+          "body": "Jim Chanos is best known for his short position on Enron, which he identified as overvalued and engaged in fraudulent activities. His prediction proved correct when Enron's scandal was exposed, leading to significant financial gains for his firm."
+        },
+        {
+          "heading": "Chinese Real Estate Stocks",
+          "body": "Chanos has been vocal about the unsustainable nature of the Chinese real estate market, taking short positions in several Chinese real estate stocks and warning investors about the potential risks associated with this market segment."
+        },
+        {
+          "heading": "Wirecard Scandal",
+          "body": "Jim Chanos was one of the investors who bet against Wirecard, a German payment processing company that collapsed after a multi-billion euro accounting scandal was uncovered."
+        },
+        {
+          "heading": "Macro-Mines Symposium",
+          "body": "Chanos participated in the Macro-Mines Symposium, a mission-driven conference for institutional investors that supports student education. He discussed value investment opportunities in the AI boom, both on the long and short side."
+        }
+      ]
+    },
+    "net_worth": "$200.0M"
+  },
+  {
+    "id": 299,
+    "name": "Val Zlathev",
+    "slug": "val-zlathev",
+    "bio": "Val Zlathev is an expert in the semiconductor industry, known for his in-depth analysis of market dynamics and technology trends. He manages a multi-billion dollar hedge fund with a strong track record in long short investing in semiconductors and tech hardware.",
+    "known_for": "His expertise in semiconductor supply chains and market cycles, particularly in the context of the AI boom.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informative and insightful",
+    "voice_style": "Technical and detailed",
+    "voice_delivery_notes": "Speaks with clarity, emphasizing the intricacies of the semiconductor market",
+    "voice_profile_updated_at": "2026-06-21 04:35:51",
+    "last_seen": "2026-06-21 04:35:51",
+    "last_episode_title": "Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-06-20",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
+    "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
+    "supporting_takeaway": "The memory market is experiencing supply constraints, which may lead to sustained higher prices for DRAM and NAND.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-20T23:36:33.809205",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Val Zlathev",
+      "fetched_at": "2026-06-21T04:36:33.809096+00:00",
+      "cliff_notes": "Val Zlathev has made a significant impact in the semiconductor industry through his expertise in market dynamics and technology trends. His career has been marked by a deep understanding of semiconductor supply chains and market cycles, which has allowed him to successfully manage a multi-billion dollar hedge fund with a focus on long short investing in semiconductors and tech hardware. Zlathev's insights have been particularly valuable during the AI boom, where he has been able to identify opportunities for value on both the long and short side of the market. His contributions to the industry have been recognized through his participation in high-profile panels and symposiums, such as the Macro-Mines Symposium, where he has shared his knowledge with other industry leaders and institutional investors.",
+      "derived": {
+        "current_role": "Hedge Fund Manager"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Val Zlathev has made a significant impact in the semiconductor industry through his expertise in market dynamics and technology trends. His career has been marked by a deep understanding of semiconductor supply chains and market cycles, which has allowed him to successfully manage a multi-billion dollar hedge fund with a focus on long short investing in semiconductors and tech hardware.",
+        "Zlathev's insights have been particularly valuable during the AI boom, where he has been able to identify opportunities for value on both the long and short side of the market. His contributions to the industry have been recognized through his participation in high-profile panels and symposiums, such as the Macro-Mines Symposium, where he has shared his knowledge with other industry leaders and institutional investors."
+      ],
+      "sections": [
+        {
+          "heading": "Semiconductor Supply Chains",
+          "body": "Val Zlathev has a deep understanding of semiconductor supply chains, which has allowed him to identify key trends and opportunities in the market."
+        },
+        {
+          "heading": "Market Dynamics",
+          "body": "Zlathev's expertise in market dynamics has been instrumental in his ability to generate alpha in long short investing in semiconductors and tech hardware."
+        },
+        {
+          "heading": "AI Boom",
+          "body": "Zlathev has been able to identify opportunities for value in the AI boom, both on the long and short side of the market."
+        },
+        {
+          "heading": "Macro-Mines Symposium",
+          "body": "Val Zlathev participated in the Macro-Mines Symposium, a mission-driven conference for institutional investors to support student education, where he shared his insights on the semiconductor industry."
+        }
+      ]
+    }
+  },
+  {
     "id": 297,
     "name": "Eden Ha",
     "slug": "eden-ha",
@@ -29819,7 +30034,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -30184,7 +30399,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -31032,7 +31247,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -33034,7 +33249,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-07 \u2022 MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -34165,7 +34380,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -34601,7 +34816,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -35109,7 +35324,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -36179,7 +36394,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
     "last_proof_snippet": "AI is a shortcut that can be beneficial but also presents challenges in debugging and understanding.",
@@ -37105,7 +37320,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-27 \u2022 Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
     "last_proof_snippet": "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",
@@ -38590,7 +38805,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-18 \u2022 Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
     "last_proof_snippet": "Fetterman has a unique perspective, being popular among Republicans while maintaining his Democratic affiliation.",
@@ -38656,7 +38871,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-18 \u2022 The Geopolitics of Technology and the Future Economy",
     "last_proof_snippet": "Helbert emphasizes the importance of hardware in the geopolitical technology war and the control over the internet's infrastructure.",
