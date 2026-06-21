@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-20T23:38:01.465014",
-  chartsVersion: "2026-06-20T23:37:46.844485",
+  generatedAt: "2026-06-21T05:02:33.724852",
+  chartsVersion: "2026-06-21T05:02:12.347926",
   priceSnapshot: {
   "GOOGL": {
     "price": 368.03,
     "change_pct": -2.16,
     "name": "GOOGL",
-    "updated_at": "2026-06-20T23:37:46.844011"
+    "updated_at": "2026-06-21T05:02:12.347478"
   },
   "BTC": {
-    "price": 64427.4,
-    "change_pct": 2.12,
+    "price": 64164.06,
+    "change_pct": 1.7,
     "name": "BTC",
-    "updated_at": "2026-06-20T23:37:46.844022"
+    "updated_at": "2026-06-21T05:02:12.347489"
   },
   "MSFT": {
     "price": 379.4,
     "change_pct": -17.61,
     "name": "MSFT",
-    "updated_at": "2026-06-20T23:37:46.844026"
+    "updated_at": "2026-06-21T05:02:12.347494"
   },
   "NVDA": {
     "price": 210.69,
     "change_pct": -5.98,
     "name": "NVDA",
-    "updated_at": "2026-06-20T23:37:46.844029"
+    "updated_at": "2026-06-21T05:02:12.347497"
   },
   "AMZN": {
     "price": 244.39,
     "change_pct": -6.46,
     "name": "AMZN",
-    "updated_at": "2026-06-20T23:37:46.844033"
+    "updated_at": "2026-06-21T05:02:12.347501"
   },
   "TSLA": {
     "price": 400.49,
     "change_pct": -3.7,
     "name": "TSLA",
-    "updated_at": "2026-06-20T23:37:46.844036"
+    "updated_at": "2026-06-21T05:02:12.347504"
   },
   "WTI": {
     "price": 3.21,
     "change_pct": -19.55,
     "name": "WTI",
-    "updated_at": "2026-06-20T23:37:46.844039"
+    "updated_at": "2026-06-21T05:02:12.347508"
   },
   "META": {
     "price": 577.22,
     "change_pct": -3.78,
     "name": "META",
-    "updated_at": "2026-06-20T23:37:46.844042"
+    "updated_at": "2026-06-21T05:02:12.347511"
   },
   "S&P 500": {
     "price": 746.74,
     "change_pct": -1.3,
     "name": "S&P 500",
-    "updated_at": "2026-06-20T23:37:46.844045"
+    "updated_at": "2026-06-21T05:02:12.347514"
   },
   "AAPL": {
     "price": 298.01,
     "change_pct": -2.71,
     "name": "AAPL",
-    "updated_at": "2026-06-20T23:37:46.844048"
+    "updated_at": "2026-06-21T05:02:12.347518"
   },
   "QQQ": {
     "price": 740.62,
     "change_pct": -0.29,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-20T23:37:46.844051"
+    "updated_at": "2026-06-21T05:02:12.347521"
   },
   "BTC-USD": {
-    "price": 64427.4,
-    "change_pct": 2.12,
+    "price": 64164.06,
+    "change_pct": 1.7,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-20T23:37:46.844055"
+    "updated_at": "2026-06-21T05:02:12.347525"
   }
 },
   tickerScores: [
@@ -6871,7 +6871,7 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of the market power of hyperscalers in AI and their potential to influence innovation and competition.",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 302,
@@ -8948,6 +8948,18 @@ const dashboardData = {
       "display_order": 0
     },
     {
+      "id": 248,
+      "term": "Hyperscalers",
+      "definition": "Large technology companies that provide cloud computing services and have the ability to scale resources rapidly.",
+      "investment_implications": "Investors should be aware of the market power of hyperscalers in AI and their potential to influence innovation and competition.",
+      "added_date": "2026-06-21",
+      "vote_count": 2,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 0
+    },
+    {
       "id": 43,
       "term": "Recursive Self-Improvement (RSI)",
       "definition": "The ability of AI systems to improve their own algorithms and learning processes, leading to rapid advancements.",
@@ -9042,18 +9054,6 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "display_order": 0
-    },
-    {
-      "id": 227,
-      "term": "Structured Liquidity Programs",
-      "definition": "Programs offered by financial institutions that provide structured liquidity solutions for shareholders in private companies.",
-      "investment_implications": "These programs can legitimize private equity as a viable asset class for retail investors, offering a path to participate in the private markets.",
-      "added_date": "2026-06-08",
-      "vote_count": 1,
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "display_order": 0
     }
   ],
   "overton": [
@@ -9074,7 +9074,7 @@ const dashboardData = {
       "first_detected_speaker": "Demis Hassabis",
       "last_mentioned_episode_id": 302,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "overton_score": 41.04,
+      "overton_score": 40.1,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
@@ -9100,7 +9100,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 296,
       "last_mentioned_speaker": "Peter Diamandis",
-      "overton_score": 16.23,
+      "overton_score": 15.86,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
@@ -9126,7 +9126,7 @@ const dashboardData = {
       "first_detected_speaker": "Peter Diamandis",
       "last_mentioned_episode_id": 296,
       "last_mentioned_speaker": "Peter Diamandis",
-      "overton_score": 8.59,
+      "overton_score": 8.4,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
@@ -9152,14 +9152,40 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 202,
       "last_mentioned_speaker": null,
-      "overton_score": 2.17,
-      "resonance_pct": 54,
+      "overton_score": 2.12,
+      "resonance_pct": 53,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
       "first_detected_episode_date": "2026-05-30",
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
       "last_mentioned_episode_date": "2026-05-07"
+    },
+    {
+      "id": 254,
+      "term": "Hyperscalers",
+      "description": "Large technology companies that provide cloud computing services and have the ability to scale resources rapidly.",
+      "first_detected_date": "2026-06-19",
+      "last_mentioned_date": "2026-06-20",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should be aware of the market power of hyperscalers in AI and their potential to influence innovation and competition.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 302,
+      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "last_mentioned_episode_id": 303,
+      "last_mentioned_speaker": "Jim Chanos, Val Zlathev",
+      "overton_score": 1.95,
+      "resonance_pct": 49,
+      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
+      "first_detected_episode_date": "2026-06-19",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
+      "last_mentioned_episode_date": "2026-06-20"
     },
     {
       "id": 220,
@@ -9178,8 +9204,8 @@ const dashboardData = {
       "first_detected_speaker": "Steven Sinofsky",
       "last_mentioned_episode_id": 277,
       "last_mentioned_speaker": "Steven Sinofsky",
-      "overton_score": 1.59,
-      "resonance_pct": 40,
+      "overton_score": 1.55,
+      "resonance_pct": 39,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
       "first_detected_episode_date": "2026-06-02",
@@ -9204,7 +9230,7 @@ const dashboardData = {
       "first_detected_speaker": "Andrew Feldman",
       "last_mentioned_episode_id": 298,
       "last_mentioned_speaker": "Eden Ha",
-      "overton_score": 1.29,
+      "overton_score": 1.26,
       "resonance_pct": 32,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
@@ -9230,7 +9256,7 @@ const dashboardData = {
       "first_detected_speaker": "Jack Farley (hosts)",
       "last_mentioned_episode_id": 286,
       "last_mentioned_speaker": "Jack Farley (hosts)",
-      "overton_score": 0.89,
+      "overton_score": 0.87,
       "resonance_pct": 22,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
@@ -9256,8 +9282,8 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 283,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "overton_score": 0.83,
-      "resonance_pct": 21,
+      "overton_score": 0.81,
+      "resonance_pct": 20,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
       "first_detected_episode_date": "2026-06-12",
@@ -9282,8 +9308,8 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 283,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "overton_score": 0.83,
-      "resonance_pct": 21,
+      "overton_score": 0.81,
+      "resonance_pct": 20,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
       "first_detected_episode_date": "2026-06-12",
@@ -9308,7 +9334,7 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 279,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "overton_score": 0.79,
+      "overton_score": 0.78,
       "resonance_pct": 20,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner",
@@ -9334,7 +9360,7 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 270,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "overton_score": 0.74,
+      "overton_score": 0.72,
       "resonance_pct": 18,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "Inside the Private Stock Market Boom: SpaceX, Anthropic, OpenAI & the Rise of Secondaries",
@@ -9360,7 +9386,7 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 270,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "overton_score": 0.74,
+      "overton_score": 0.72,
       "resonance_pct": 18,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "Inside the Private Stock Market Boom: SpaceX, Anthropic, OpenAI & the Rise of Secondaries",
@@ -9368,32 +9394,6 @@ const dashboardData = {
       "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "last_mentioned_episode_title": "Inside the Private Stock Market Boom: SpaceX, Anthropic, OpenAI & the Rise of Secondaries",
       "last_mentioned_episode_date": "2026-06-07"
-    },
-    {
-      "id": 219,
-      "term": "AI-native computing",
-      "description": "The integration of AI processing capabilities into computing devices, allowing for more efficient and cost-effective AI usage.",
-      "first_detected_date": "2026-06-02",
-      "last_mentioned_date": "2026-06-02",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider companies pioneering AI-native computing for potential growth opportunities.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 255,
-      "first_detected_speaker": "Steven Sinofsky",
-      "last_mentioned_episode_id": 255,
-      "last_mentioned_speaker": "Steven Sinofsky",
-      "overton_score": 0.66,
-      "resonance_pct": 16,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
-      "first_detected_episode_date": "2026-06-02",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
-      "last_mentioned_episode_date": "2026-06-02"
     }
   ]
 },
@@ -28388,7 +28388,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 19020,
+    "id": 19098,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -28400,7 +28400,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19021,
+    "id": 19099,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -28412,7 +28412,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 19022,
+    "id": 19100,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -28424,7 +28424,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19023,
+    "id": 19101,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -28436,7 +28436,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19024,
+    "id": 19102,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -28448,7 +28448,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19025,
+    "id": 19103,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -28460,7 +28460,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19026,
+    "id": 19104,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -28472,7 +28472,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19027,
+    "id": 19105,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -28484,7 +28484,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19028,
+    "id": 19106,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -28496,7 +28496,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19029,
+    "id": 19107,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -28508,7 +28508,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19030,
+    "id": 19108,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -28520,7 +28520,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19031,
+    "id": 19109,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -28532,7 +28532,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19032,
+    "id": 19110,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -28544,7 +28544,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19033,
+    "id": 19111,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -28556,7 +28556,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19034,
+    "id": 19112,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -28568,7 +28568,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19035,
+    "id": 19113,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -28580,7 +28580,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19036,
+    "id": 19114,
     "name": "Reality",
     "slug": "reality",
     "bio": null,
@@ -28592,7 +28592,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19037,
+    "id": 19115,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -28604,7 +28604,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19038,
+    "id": 19116,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -28616,7 +28616,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19039,
+    "id": 19117,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -28883,7 +28883,7 @@ const dashboardData = {
     "id": 42,
     "name": "Jack Mallers",
     "slug": "jack-mallers",
-    "bio": "CEO of Strike, a Bitcoin financial platform.",
+    "bio": "Jack Mallers is the CEO of Strike, a Bitcoin financial platform that advocates for Bitcoin adoption and financial innovation. He is known for his work in the cryptocurrency space and his efforts to integrate Bitcoin into everyday financial transactions.",
     "known_for": "Advocating for Bitcoin adoption and financial innovation.",
     "net_worth_usd": 50000000.0,
     "net_worth_source": "https://www.datawallet.com/crypto/jack-mallers-net-worth",
@@ -28903,14 +28903,14 @@ const dashboardData = {
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
     "supporting_takeaway": "Bitcoin treasury companies face challenges in managing their capital structures to satisfy common equity, preferred equity, and debt holders.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-22T00:00:51.108693",
+    "grokipedia_fetched_at": "2026-06-21T05:01:29.272192",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
       "page_title": "Jack Mallers",
-      "fetched_at": "2026-05-22T05:00:51.108543+00:00",
-      "cliff_notes": "Jack Mallers is an entrepreneur who has made a significant impact in the world of cryptocurrency and financial technology. As the CEO of Strike, he has led the development of a platform that leverages the Bitcoin Lightning Network to facilitate payments, making Bitcoin more accessible for everyday transactions. His innovative approach to cryptocurrency payments has garnered attention from investors and the tech community, as it addresses the challenges of integrating digital currencies into the mainstream financial ecosystem. Mallers' work at Strike is particularly noteworthy for its potential to revolutionize how people and businesses conduct transactions, offering a faster and more efficient alternative to traditional payment methods.",
+      "fetched_at": "2026-06-21T10:01:29.271870+00:00",
+      "cliff_notes": "Jack Mallers is a prominent figure in the Bitcoin and cryptocurrency space, serving as the CEO of Strike, a financial platform that aims to make Bitcoin transactions as easy as email. His work has been pivotal in advocating for the adoption of Bitcoin in everyday financial activities. Mallers' contributions to the field have made him a key influencer in discussions around financial innovation and the future of money. His efforts are focused on simplifying and democratizing access to financial services through Bitcoin, which positions him as a significant player in the ongoing evolution of digital currencies.",
       "derived": {
         "current_role": "CEO of Strike"
       },
@@ -28919,21 +28919,21 @@ const dashboardData = {
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Jack Mallers is an entrepreneur who has made a significant impact in the world of cryptocurrency and financial technology. As the CEO of Strike, he has led the development of a platform that leverages the Bitcoin Lightning Network to facilitate payments, making Bitcoin more accessible for everyday transactions. His innovative approach to cryptocurrency payments has garnered attention from investors and the tech community, as it addresses the challenges of integrating digital currencies into the mainstream financial ecosystem.",
-        "Mallers' work at Strike is particularly noteworthy for its potential to revolutionize how people and businesses conduct transactions, offering a faster and more efficient alternative to traditional payment methods."
+        "Jack Mallers is a prominent figure in the Bitcoin and cryptocurrency space, serving as the CEO of Strike, a financial platform that aims to make Bitcoin transactions as easy as email. His work has been pivotal in advocating for the adoption of Bitcoin in everyday financial activities. Mallers' contributions to the field have made him a key influencer in discussions around financial innovation and the future of money.",
+        "His efforts are focused on simplifying and democratizing access to financial services through Bitcoin, which positions him as a significant player in the ongoing evolution of digital currencies."
       ],
       "sections": [
         {
-          "heading": "Strike Development",
-          "body": "Jack Mallers is known for developing Strike, a platform that simplifies Bitcoin Lightning Network payments, making Bitcoin more accessible for everyday use."
+          "heading": "Bitcoin Advocacy",
+          "body": "Jack Mallers is a vocal advocate for the adoption of Bitcoin, promoting its use in everyday transactions and financial services."
         },
         {
-          "heading": "Bitcoin Integration",
-          "body": "Mallers' efforts have been focused on integrating Bitcoin into everyday transactions, aiming to make cryptocurrency payments as common as traditional fiat currency transactions."
+          "heading": "Financial Innovation",
+          "body": "Mallers is known for his efforts in financial innovation, particularly in how Bitcoin can be integrated into existing financial systems to enhance accessibility and efficiency."
         },
         {
-          "heading": "Financial Technology Innovation",
-          "body": "As an entrepreneur in the financial technology sector, Mallers has been at the forefront of innovations that aim to bridge the gap between traditional finance and the emerging world of cryptocurrencies."
+          "heading": "Strike Platform",
+          "body": "As the CEO of Strike, Mallers leads a platform that simplifies Bitcoin transactions, aiming to make them as ubiquitous as sending an email."
         }
       ]
     },
@@ -29156,7 +29156,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in technologies that empower individuals to maintain autonomy and control in a world where threats to personal safety and privacy are growing.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-15 \u2022 Vitalik Buterin on Human Agency in the AI Era",
     "last_proof_snippet": "One of the challenges the world right now is that we're definitely in a less peaceful and less safe world than 10 or 15 years ago. The vision of safety that we're competing with is basically, oh, you know, let's trust the uncle in the sky a",
@@ -31439,7 +31439,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
@@ -32004,7 +32004,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Investing in AI infrastructure and multi-modal AI applications presents a significant opportunity as Google and other tech companies continue to expand their capabilities and applications in this space.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-21 \u2022 Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
     "last_proof_snippet": "If he said five years ago, hey, Google's going to six exits, cat bags, and the stock will go up. Nobody in the right mind would have said, that's even possible. Quadrillions, billions, hundreds of billions, trillions, it gets numbing after",
@@ -33001,7 +33001,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in initiatives that promote transparency in local governance, support independent filmmakers, and advocate for education reform to drive economic revitalization and improve public services in Los Angeles.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-10 \u2022 Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
     "last_proof_snippet": "Spencer Pratt, welcome to the All In Podcast. Thank you for having me. You had an unbelievable debate performance the other night. I have so many friends that were texting and people obviously were tweeting about it. Let's start with that.",
@@ -33188,7 +33188,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in incremental AI improvements, new compensation models for CEOs, and emerging biotech sectors focusing on longevity and healthspan.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-07 \u2022 Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
     "last_proof_snippet": "Demisis Abbas, the CEO of DeepMind, says AGI may not need a major breakthrough. I've argued in the past that we achieved AGI in the summer of 2020. We know. I would argue what AGI is, and we know how pleased to find it for me. For your AI,",
@@ -37875,7 +37875,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
@@ -37935,7 +37935,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
@@ -37994,7 +37994,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-26 \u2022 Exploring Psychedelics for Longevity and Personal Growth",
     "last_proof_snippet": "Johnson's experience with 5-MEO-DMT was profound, leading to a significant personal reset and a renewed sense of purpose.",
