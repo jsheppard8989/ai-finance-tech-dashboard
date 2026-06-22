@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-21T23:37:54.311648",
-  "last_updated": "2026-06-21T23:37:54.311648",
-  "last_pipeline_run": "2026-06-21T23:37:54.311648",
+  "generated_at": "2026-06-22T05:02:46.048779",
+  "last_updated": "2026-06-22T05:02:46.048779",
+  "last_pipeline_run": "2026-06-22T05:02:46.048779",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -15,35 +15,17 @@
     "overton_terms_total": 105,
     "latest_insights_total": 291,
     "today_mentions": {},
-    "podcasts_analyzed": 1
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 3,
-    "transcribed": 3,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 3
+    "downloaded": 2,
+    "transcribed": 2,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 2
   },
   "episodes": [
-    {
-      "id": "8dd3ad00-6dae-11f1-9163-5b9d4126d3ba",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
-      "published": "2026-06-21",
-      "rss_guid": "8dd3ad00-6dae-11f1-9163-5b9d4126d3ba",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "916c5e0a-b2ab-4935-ae27-7dc4eeb8612a",
       "podcast": "The a16z Show",
@@ -182,7 +164,7 @@
       "title": "Samo Burja on Growth, Energy, and AI",
       "status": "needs_analysis",
       "published": "2026-06-12",
-      "age_days": 9,
+      "age_days": 10,
       "next_blocker": "analyzed"
     },
     {
@@ -191,7 +173,7 @@
       "title": "Ada Palmer \u2013 Machiavelli is the most misunderstood thinker of all time",
       "status": "needs_analysis",
       "published": "2026-06-16",
-      "age_days": 5,
+      "age_days": 6,
       "next_blocker": "analyzed"
     }
   ],
