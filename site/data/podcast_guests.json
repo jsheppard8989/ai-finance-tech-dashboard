@@ -1,6 +1,18 @@
 [
   {
-    "id": 19410,
+    "id": 19488,
+    "name": "Ed Zitron",
+    "slug": "ed-zitron",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
+    "last_episode_title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-06-21",
+    "appearance_count": 1
+  },
+  {
+    "id": 19489,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19411,
+    "id": 19490,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 2
   },
   {
-    "id": 19412,
+    "id": 19491,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19413,
+    "id": 19492,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19414,
+    "id": 19493,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19415,
+    "id": 19494,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19416,
+    "id": 19495,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19417,
+    "id": 19496,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19418,
+    "id": 19497,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19419,
+    "id": 19498,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19420,
+    "id": 19499,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19421,
+    "id": 19500,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19422,
+    "id": 19501,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19423,
+    "id": 19502,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19424,
+    "id": 19503,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19425,
+    "id": 19504,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19426,
+    "id": 19505,
     "name": "Reality",
     "slug": "reality",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19427,
+    "id": 19506,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19428,
+    "id": 19507,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19429,
+    "id": 19508,
     "name": "Why AGI Is Close but Not Here Yet",
     "slug": "why-agi-is-close-but-not-here-yet",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19430,
+    "id": 19509,
     "name": "\u26a1\ufe0fSatya Nadella",
     "slug": "satya-nadella",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19431,
+    "id": 19510,
     "name": "Overvaluation Meets Macro Risk",
     "slug": "overvaluation-meets-macro-risk",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19432,
+    "id": 19511,
     "name": "are on the rise. The episode",
     "slug": "are-on-the-rise-the-episode",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19433,
+    "id": 19512,
     "name": "Things Are Going to Get Even Crazier",
     "slug": "things-are-going-to-get-even-crazier",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19434,
+    "id": 19513,
     "name": "What Doomer Narratives Miss About Private Credit",
     "slug": "what-doomer-narratives-miss-about-private-credit",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19435,
+    "id": 19514,
     "name": "expert Morgan Downey",
     "slug": "expert-morgan-downey",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19436,
+    "id": 19515,
     "name": "A Basel III Deep Dive",
     "slug": "a-basel-iii-deep-dive",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19437,
+    "id": 19516,
     "name": "\u201cYou Don\u2019t Sell Blow-offs\u201d",
     "slug": "you-dont-sell-blow-offs",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 19438,
+    "id": 19517,
     "name": "Eric Jeng",
     "slug": "eric-jeng",
     "bio": null,
@@ -346,17 +358,5 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-15",
     "appearance_count": 1
-  },
-  {
-    "id": 19439,
-    "name": "Ben Horowitz",
-    "slug": "ben-horowitz",
-    "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
-    "known_for": "Co-founding a16z and authoring 'The Hard Thing About Hard Things'.",
-    "last_main_idea": "Invest in companies with a clear 'why', strong customer base, and the ability to adapt to market feedback. Prioritize creativity and relationship-building skills in talent acquisition.",
-    "last_episode_title": "Ben Horowitz - \"Your ONLY job is Right Product, Right Time\"",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-14",
-    "appearance_count": 2
   }
 ]

@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-21T22:03:36.214047",
-  chartsVersion: "2026-06-21T22:03:22.624961",
+  generatedAt: "2026-06-21T23:38:04.345283",
+  chartsVersion: "2026-06-21T23:37:52.786919",
   priceSnapshot: {
   "GOOGL": {
     "price": 368.03,
     "change_pct": -2.16,
     "name": "GOOGL",
-    "updated_at": "2026-06-21T22:03:22.623830"
+    "updated_at": "2026-06-21T23:37:52.786371"
   },
   "BTC": {
-    "price": 64087.19,
-    "change_pct": 3.96,
+    "price": 63922.0,
+    "change_pct": 3.7,
     "name": "BTC",
-    "updated_at": "2026-06-21T22:03:22.623858"
+    "updated_at": "2026-06-21T23:37:52.786382"
   },
   "MSFT": {
     "price": 379.4,
     "change_pct": -17.61,
     "name": "MSFT",
-    "updated_at": "2026-06-21T22:03:22.623868"
+    "updated_at": "2026-06-21T23:37:52.786386"
   },
   "NVDA": {
     "price": 210.69,
     "change_pct": -5.98,
     "name": "NVDA",
-    "updated_at": "2026-06-21T22:03:22.623878"
+    "updated_at": "2026-06-21T23:37:52.786389"
   },
   "AMZN": {
     "price": 244.39,
     "change_pct": -6.46,
     "name": "AMZN",
-    "updated_at": "2026-06-21T22:03:22.623887"
+    "updated_at": "2026-06-21T23:37:52.786392"
   },
   "TSLA": {
     "price": 400.49,
     "change_pct": -3.7,
     "name": "TSLA",
-    "updated_at": "2026-06-21T22:03:22.623896"
+    "updated_at": "2026-06-21T23:37:52.786395"
   },
   "WTI": {
     "price": 3.21,
     "change_pct": -19.55,
     "name": "WTI",
-    "updated_at": "2026-06-21T22:03:22.623906"
+    "updated_at": "2026-06-21T23:37:52.786399"
   },
   "META": {
     "price": 577.22,
     "change_pct": -3.78,
     "name": "META",
-    "updated_at": "2026-06-21T22:03:22.623914"
+    "updated_at": "2026-06-21T23:37:52.786402"
   },
   "S&P 500": {
     "price": 746.74,
     "change_pct": -1.3,
     "name": "S&P 500",
-    "updated_at": "2026-06-21T22:03:22.623923"
+    "updated_at": "2026-06-21T23:37:52.786405"
   },
   "AAPL": {
     "price": 298.01,
     "change_pct": -2.71,
     "name": "AAPL",
-    "updated_at": "2026-06-21T22:03:22.623931"
+    "updated_at": "2026-06-21T23:37:52.786408"
   },
   "QQQ": {
     "price": 740.62,
     "change_pct": -0.29,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-21T22:03:22.623940"
+    "updated_at": "2026-06-21T23:37:52.786411"
   },
   "BTC-USD": {
-    "price": 64087.19,
-    "change_pct": 3.96,
+    "price": 63922.0,
+    "change_pct": 3.7,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-21T22:03:22.623950"
+    "updated_at": "2026-06-21T23:37:52.786415"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 319,
+      "title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-06-21",
+      "summary": "In this episode, Jack Farley discusses the financial sustainability of AI companies, particularly focusing on OpenAI and Anthropic. The discussion highlights the high capital expenditures, operational losses, and the potential for a bubble in AI investments. The podcast also touches on regulatory risks, the disconnect between AI demand and reality, and the conflation of technological progress with stock market performance.",
+      "key_takeaway": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 304
+    },
+    {
       "id": 318,
       "title": "Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
       "source_type": "podcast",
@@ -1011,7 +1030,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-17",
       "archived_date": null,
@@ -6866,8 +6885,8 @@ const dashboardData = {
       "term": "Hyperscalers",
       "description": "Large technology companies that provide cloud computing services and have the ability to scale resources rapidly.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-06-20",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-06-21",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of the market power of hyperscalers in AI and their potential to influence innovation and competition.",
@@ -6876,8 +6895,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 303,
-      "last_mentioned_speaker": "Jim Chanos, Val Zlathev"
+      "last_mentioned_episode_id": 304,
+      "last_mentioned_speaker": "Ed Zitron"
     },
     {
       "id": 252,
@@ -6954,20 +6973,20 @@ const dashboardData = {
     {
       "id": 138,
       "term": "AI CapEx",
-      "description": "Capital expenditures related to artificial intelligence, including investments in hardware, software, and infrastructure.",
+      "description": "Capital expenditures in the AI sector, often characterized by high spending on research and development.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-06-20",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-06-21",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Understanding AI CapEx can help investors gauge a company's commitment to AI and its potential impact on future profitability.",
+      "investment_implications": "High AI CapEx can indicate a company's commitment to innovation but may also signal unsustainable financial practices.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 303,
-      "last_mentioned_speaker": "Jim Chanos, Val Zlathev"
+      "last_mentioned_episode_id": 304,
+      "last_mentioned_speaker": "Ed Zitron"
     },
     {
       "id": 234,
@@ -7152,20 +7171,20 @@ const dashboardData = {
     {
       "id": 113,
       "term": "Solve Everything Thesis",
-      "description": "The idea that solving artificial intelligence will enable the solution of other complex problems.",
+      "description": "The belief that AI technologies will be able to solve a wide range of complex problems across various industries.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-05-23",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-06-21",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should look for companies at the intersection of AI and other industries, as AI advancements could lead to breakthroughs in various fields.",
+      "investment_implications": "This thesis may overstate the immediate capabilities of AI, leading to inflated expectations and potential disappointment.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 236,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 304,
+      "last_mentioned_speaker": "Ed Zitron"
     },
     {
       "id": 194,
@@ -7602,20 +7621,20 @@ const dashboardData = {
     {
       "id": 109,
       "term": "AI Compute on Devices",
-      "description": "The integration of AI processing capabilities directly onto devices, impacting device performance and functionality.",
+      "description": "The use of AI computations directly on devices, such as smartphones or IoT devices, rather than relying on cloud-based services.",
       "first_detected_date": "2026-04-11",
-      "last_mentioned_date": "2026-04-11",
-      "mention_count": 1,
+      "last_mentioned_date": "2026-06-21",
+      "mention_count": 2,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "AI compute on devices is a growing area of focus for tech companies, with potential to disrupt traditional computing paradigms.",
+      "investment_implications": "Investments in AI compute on devices could disrupt traditional cloud-based AI services and offer new opportunities for hardware manufacturers.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 304,
+      "last_mentioned_speaker": "Ed Zitron"
     },
     {
       "id": 111,
@@ -8486,8 +8505,8 @@ const dashboardData = {
       "term": "AI Agents",
       "description": "Automated software entities that perform tasks, potentially eliminating the need for traditional user interfaces in enterprise software.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-06-18",
-      "mention_count": 39,
+      "last_mentioned_date": "2026-06-21",
+      "mention_count": 40,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies developing AI agents for workflow automation and efficiency gains.",
@@ -8496,8 +8515,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 296,
-      "last_mentioned_speaker": "Peter Diamandis"
+      "last_mentioned_episode_id": 304,
+      "last_mentioned_speaker": "Ed Zitron"
     },
     {
       "id": 38,
@@ -8762,6 +8781,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 319,
+      "title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-06-21",
+      "summary": "In this episode, Jack Farley discusses the financial sustainability of AI companies, particularly focusing on OpenAI and Anthropic. The discussion highlights the high capital expenditures, operational losses, and the potential for a bubble in AI investments. The podcast also touches on regulatory risks, the disconnect between AI demand and reality, and the conflation of technological progress with stock market performance.",
+      "key_takeaway": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 304,
+      "episode_release_date": "2026-06-21",
+      "guest_name": "Ed Zitron",
+      "key_tickers": []
+    },
+    {
       "id": 318,
       "title": "Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
       "source_type": "podcast",
@@ -8912,26 +8951,6 @@ const dashboardData = {
         "QTA",
         "AEP"
       ]
-    },
-    {
-      "id": 309,
-      "title": "\ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
-      "source_type": "podcast",
-      "source_name": "Latent Space: The AI Engineer Podcast",
-      "source_date": "2026-06-17",
-      "summary": "This podcast episode delves into Radical AI's innovative approach to material science, which leverages AI to automate the discovery and testing of new materials. Key themes include the importance of experimental data, the lengthy qualification timelines for new materials, the role of AI in material discovery, the competitive landscape with China, and the strategic benefits of open sourcing AI models. The episode underscores the potential for AI to revolutionize material science, with significant implications for investors in the aerospace and semiconductor sectors.",
-      "key_takeaway": "Invest in companies that integrate AI with experimental data for material discovery to gain a competitive edge in industries like aerospace and semiconductors.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-17",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 294,
-      "episode_release_date": "2026-06-17",
-      "guest_name": null,
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -9136,6 +9155,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-06-18"
     },
     {
+      "id": 254,
+      "term": "Hyperscalers",
+      "description": "Large technology companies that provide cloud computing services and have the ability to scale resources rapidly.",
+      "first_detected_date": "2026-06-19",
+      "last_mentioned_date": "2026-06-21",
+      "mention_count": 3,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should be aware of the market power of hyperscalers in AI and their potential to influence innovation and competition.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 302,
+      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "last_mentioned_episode_id": 304,
+      "last_mentioned_speaker": "Ed Zitron",
+      "overton_score": 3.0,
+      "resonance_pct": 75,
+      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
+      "first_detected_episode_date": "2026-06-19",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
+      "last_mentioned_episode_date": "2026-06-21"
+    },
+    {
       "id": 11,
       "term": "Jevon's Paradox",
       "description": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
@@ -9160,32 +9205,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
       "last_mentioned_episode_date": "2026-05-07"
-    },
-    {
-      "id": 254,
-      "term": "Hyperscalers",
-      "description": "Large technology companies that provide cloud computing services and have the ability to scale resources rapidly.",
-      "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-06-20",
-      "mention_count": 2,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should be aware of the market power of hyperscalers in AI and their potential to influence innovation and competition.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 302,
-      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 303,
-      "last_mentioned_speaker": "Jim Chanos, Val Zlathev",
-      "overton_score": 1.95,
-      "resonance_pct": 49,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
-      "first_detected_episode_date": "2026-06-19",
-      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
-      "last_mentioned_episode_title": "Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
-      "last_mentioned_episode_date": "2026-06-20"
     },
     {
       "id": 220,
@@ -28334,6 +28353,53 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-06-20",
     "key_tickers": []
+  },
+  "319": {
+    "id": 309,
+    "insight_id": 319,
+    "podcast_episode_id": 304,
+    "overview": "The unresolved tension in the AI sector lies in the stark contrast between the inflated valuations and funding rounds of AI companies and their actual operational performance and profitability. The competitive dynamic is further complicated by the potential for regulatory intervention and the hype-driven demand that may not align with the practical applications and cost-effectiveness of AI technologies. The allocator-relevant implication is that investors who fail to distinguish between technological progress and financial sustainability may face significant losses as the market corrects towards more realistic valuations.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the operational efficiency and cost management of AI companies, as high operational losses may indicate an unsustainable business model.",
+      "The sustainability of high valuations in the AI sector is contingent upon the ability of companies to translate technological advancements into profitable business practices.",
+      "Regulatory developments should be closely watched, as they can significantly impact the operational capabilities and market value of AI companies.",
+      "Investors should be cautious of the potential for a market bubble in AI investments, particularly if the actual demand for AI services does not match the projected growth."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that the current financial models of AI companies, characterized by high operational losses and reliance on venture capital, are unsustainable in the long term. This thesis is vindicated if AI companies continue to report operational losses and fail to achieve profitability despite technological advancements. Conversely, it would be invalidated if these companies demonstrate a clear path to profitability and a sustainable capital structure.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI and machine learning is significant, and its financial stability provides a contrast to the high-risk AI startups discussed in the podcast.",
+        "positioning": "A strategic long position in AAPL could be considered, given its diversified approach to AI and robust financial health, which may serve as a hedge against the volatility of pure-play AI companies.",
+        "risk": "Key risks include regulatory changes affecting AI deployment and a potential market downturn that could impact even financially stable companies like Apple."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "AI companies may argue that current losses are an investment in future growth and that the long-term potential justifies the high capital expenditures.",
+      "Supporters of the AI sector may point to the rapid technological advancements and the potential for AI to disrupt multiple industries, suggesting that current financials do not capture future value."
+    ],
+    "catalysts": [
+      "Publication of financial statements from OpenAI and Anthropic that show a reduction in operational losses and a path to profitability.",
+      "Introduction of new regulatory frameworks that either support or restrict AI development.",
+      "Market indicators showing a shift in investor sentiment towards AI companies, such as changes in venture capital funding or stock market performance."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-21T23:37:10.497018",
+    "updated_at": "2026-06-22 04:37:10",
+    "episode_evidence": "In the podcast, Jack Farley and Ed Zitron delve into the financials of AI companies, particularly OpenAI and Anthropic. OpenAI's revenue of $13.07 billion in 2025 contrasts starkly with its operational losses of approximately $21 billion, as Zitron points out: 'Open AI spent $34 billion to make $13.07 billion... their net loss is just a little under 21 billion.' This unsustainable financial model is further highlighted by the high capital expenditures, with OpenAI and Anthropic raising a combined $217 billion. Zitron questions the rationality behind such valuations: 'If Open AI closes all the money they've been promised this year, they will have raised $122 billion in the last six months.' Additionally, the high sales and marketing expenses of OpenAI, which Zitron urges listeners to pay attention to, may obscure the true operational costs and profitability of the company. The regulatory risks are also underscored by the U.S. government's export controls on AI models, indicating potential operational limitations and increased scrutiny on AI companies.",
+    "falsification_tracks": [
+      "Should OpenAI or Anthropic report a significant reduction in operational losses and a path to profitability in their next financial statements, the narrative of unsustainable financial models would be weakened.",
+      "A sustained increase in demand for AI services across various industries, supported by concrete data, would challenge the current skepticism about the disconnect between AI demand and reality.",
+      "The introduction of new regulatory frameworks that support AI innovation without imposing restrictive controls could alter the perception of increased regulatory risks."
+    ],
+    "insight_title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-06-21",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -28388,7 +28454,19 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 19410,
+    "id": 19488,
+    "name": "Ed Zitron",
+    "slug": "ed-zitron",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
+    "last_episode_title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-06-21",
+    "appearance_count": 1
+  },
+  {
+    "id": 19489,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -28400,7 +28478,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19411,
+    "id": 19490,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -28412,7 +28490,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 19412,
+    "id": 19491,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -28424,7 +28502,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19413,
+    "id": 19492,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -28436,7 +28514,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19414,
+    "id": 19493,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -28448,7 +28526,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19415,
+    "id": 19494,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -28460,7 +28538,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19416,
+    "id": 19495,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -28472,7 +28550,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19417,
+    "id": 19496,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -28484,7 +28562,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19418,
+    "id": 19497,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -28496,7 +28574,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19419,
+    "id": 19498,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -28508,7 +28586,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19420,
+    "id": 19499,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -28520,7 +28598,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19421,
+    "id": 19500,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -28532,7 +28610,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19422,
+    "id": 19501,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -28544,7 +28622,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19423,
+    "id": 19502,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -28556,7 +28634,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19424,
+    "id": 19503,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -28568,7 +28646,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19425,
+    "id": 19504,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -28580,7 +28658,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19426,
+    "id": 19505,
     "name": "Reality",
     "slug": "reality",
     "bio": null,
@@ -28592,7 +28670,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19427,
+    "id": 19506,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -28604,7 +28682,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19428,
+    "id": 19507,
     "name": "Bill Ackman",
     "slug": "bill-ackman",
     "bio": null,
@@ -28612,18 +28690,6 @@ const dashboardData = {
     "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
     "last_episode_title": "Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-06-03",
-    "appearance_count": 1
-  },
-  {
-    "id": 19429,
-    "name": "Why AGI Is Close but Not Here Yet",
-    "slug": "why-agi-is-close-but-not-here-yet",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
-    "last_episode_title": "Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "appearance_count": 1
   }
@@ -28835,7 +28901,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 1.82,
+    "mention_score_decayed": 1.78,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -29889,6 +29955,65 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 300,
+    "name": "Ed Zitron",
+    "slug": "ed-zitron",
+    "bio": "Ed Zitron is a technology analyst and commentator recognized for his contrarian views on the tech industry, particularly concerning the financial sustainability of AI companies. He is the author of the Where's Your Ed at Newsletter and the host of the Better Offline Podcast.",
+    "known_for": "His critical perspective on the financial sustainability of AI companies and contrarian views on tech industry trends.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Skeptical and analytical.",
+    "voice_style": "Direct and fact-based, challenging the prevailing narrative on AI.",
+    "voice_delivery_notes": "Clear and assertive, with a focus on the implications of financial data.",
+    "voice_profile_updated_at": "2026-06-22 04:35:39",
+    "last_seen": "2026-06-22 04:35:39",
+    "last_episode_title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-06-21",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
+    "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
+    "supporting_takeaway": "OpenAI and Anthropic have raised massive amounts of capital, raising questions about the sustainability of such valuations.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-21T23:36:40.372165",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ed Zitron",
+      "fetched_at": "2026-06-22T04:36:40.371808+00:00",
+      "cliff_notes": "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI. He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype.",
+      "derived": {
+        "current_role": "Author of Where's Your Ed at Newsletter; Host of Better Offline Podcast"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI.",
+        "He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype."
+      ],
+      "sections": [
+        {
+          "heading": "AI and ROI",
+          "body": "Ed Zitron is known for questioning the return on investment for the vast sums invested in AI, highlighting the ongoing debate about the economic viability of the technology."
+        },
+        {
+          "heading": "Contrarian Views",
+          "body": "Zitron offers a contrarian perspective on tech industry trends, challenging the mainstream narratives and advocating for a more critical examination of the financial sustainability of tech companies."
+        },
+        {
+          "heading": "Podcast and Newsletter",
+          "body": "As the host of the Better Offline Podcast and author of the Where's Your Ed at Newsletter, Zitron uses these platforms to discuss and critique the tech industry, reaching a wide audience with his insights."
+        }
+      ]
+    }
+  },
+  {
     "id": 298,
     "name": "Jim Chanos",
     "slug": "jim-chanos",
@@ -29906,7 +30031,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -29971,7 +30096,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -30034,7 +30159,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -30399,7 +30524,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -31247,7 +31372,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -35196,7 +35321,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
     "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
@@ -35513,7 +35638,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-15 \u2022 Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
     "last_proof_snippet": "The company's revenue grew from $2.5 million to $250 million in just over a year, demonstrating the potential of AI in software development.",
@@ -35577,7 +35702,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-14 \u2022 \"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
     "last_proof_snippet": "Investing with a long-term perspective involves considering macroeconomic factors and their impact on smaller companies.",
@@ -35700,7 +35825,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
@@ -36884,7 +37009,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_proof_snippet": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",
@@ -38609,7 +38734,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_proof_snippet": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229 00:00:00 I am blown away by how far you've come. The things that you can do with Neural Nets now does completely",
@@ -38673,7 +38798,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "last_proof_cite": "The a16z Show \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
     "last_proof_snippet": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. If you were starting from scratch today,",
@@ -38735,7 +38860,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-19 \u2022 Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
     "last_proof_snippet": "Today's episode is brought to you by the Picta AI Enhance International Equity ETF, Ticker PQNT. You'll hear more about they're using AI to enhance international equity returns later in the show. For now, let's get into it. Very pleased tod",

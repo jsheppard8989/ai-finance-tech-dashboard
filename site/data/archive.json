@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 319,
+      "title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-06-21",
+      "summary": "In this episode, Jack Farley discusses the financial sustainability of AI companies, particularly focusing on OpenAI and Anthropic. The discussion highlights the high capital expenditures, operational losses, and the potential for a bubble in AI investments. The podcast also touches on regulatory risks, the disconnect between AI demand and reality, and the conflation of technological progress with stock market performance.",
+      "key_takeaway": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 304
+    },
+    {
       "id": 318,
       "title": "Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
       "source_type": "podcast",
@@ -178,7 +197,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-17",
       "archived_date": null,
@@ -6033,8 +6052,8 @@
       "term": "Hyperscalers",
       "description": "Large technology companies that provide cloud computing services and have the ability to scale resources rapidly.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-06-20",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-06-21",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of the market power of hyperscalers in AI and their potential to influence innovation and competition.",
@@ -6043,8 +6062,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 303,
-      "last_mentioned_speaker": "Jim Chanos, Val Zlathev"
+      "last_mentioned_episode_id": 304,
+      "last_mentioned_speaker": "Ed Zitron"
     },
     {
       "id": 252,
@@ -6121,20 +6140,20 @@
     {
       "id": 138,
       "term": "AI CapEx",
-      "description": "Capital expenditures related to artificial intelligence, including investments in hardware, software, and infrastructure.",
+      "description": "Capital expenditures in the AI sector, often characterized by high spending on research and development.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-06-20",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-06-21",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Understanding AI CapEx can help investors gauge a company's commitment to AI and its potential impact on future profitability.",
+      "investment_implications": "High AI CapEx can indicate a company's commitment to innovation but may also signal unsustainable financial practices.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 303,
-      "last_mentioned_speaker": "Jim Chanos, Val Zlathev"
+      "last_mentioned_episode_id": 304,
+      "last_mentioned_speaker": "Ed Zitron"
     },
     {
       "id": 234,
@@ -6319,20 +6338,20 @@
     {
       "id": 113,
       "term": "Solve Everything Thesis",
-      "description": "The idea that solving artificial intelligence will enable the solution of other complex problems.",
+      "description": "The belief that AI technologies will be able to solve a wide range of complex problems across various industries.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-05-23",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-06-21",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should look for companies at the intersection of AI and other industries, as AI advancements could lead to breakthroughs in various fields.",
+      "investment_implications": "This thesis may overstate the immediate capabilities of AI, leading to inflated expectations and potential disappointment.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 236,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 304,
+      "last_mentioned_speaker": "Ed Zitron"
     },
     {
       "id": 194,
@@ -6769,20 +6788,20 @@
     {
       "id": 109,
       "term": "AI Compute on Devices",
-      "description": "The integration of AI processing capabilities directly onto devices, impacting device performance and functionality.",
+      "description": "The use of AI computations directly on devices, such as smartphones or IoT devices, rather than relying on cloud-based services.",
       "first_detected_date": "2026-04-11",
-      "last_mentioned_date": "2026-04-11",
-      "mention_count": 1,
+      "last_mentioned_date": "2026-06-21",
+      "mention_count": 2,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "AI compute on devices is a growing area of focus for tech companies, with potential to disrupt traditional computing paradigms.",
+      "investment_implications": "Investments in AI compute on devices could disrupt traditional cloud-based AI services and offer new opportunities for hardware manufacturers.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 304,
+      "last_mentioned_speaker": "Ed Zitron"
     },
     {
       "id": 111,
@@ -7653,8 +7672,8 @@
       "term": "AI Agents",
       "description": "Automated software entities that perform tasks, potentially eliminating the need for traditional user interfaces in enterprise software.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-06-18",
-      "mention_count": 39,
+      "last_mentioned_date": "2026-06-21",
+      "mention_count": 40,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies developing AI agents for workflow automation and efficiency gains.",
@@ -7663,8 +7682,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 296,
-      "last_mentioned_speaker": "Peter Diamandis"
+      "last_mentioned_episode_id": 304,
+      "last_mentioned_speaker": "Ed Zitron"
     },
     {
       "id": 38,

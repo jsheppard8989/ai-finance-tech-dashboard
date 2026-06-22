@@ -1,5 +1,21 @@
 [
   {
+    "id": 304,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
+    "episode_date": "2026-06-21",
+    "summary": "In this episode, Jack Farley discusses the financial sustainability of AI companies, particularly focusing on OpenAI and Anthropic. The discussion highlights the high capital expenditures, operational losses, and the potential for a bubble in AI investments. The podcast also touches on regulatory risks, the disconnect between AI demand and reality, and the conflation of technological progress with stock market performance.",
+    "key_takeaways": [
+      "OpenAI's financials show high operational losses despite significant revenue, indicating unsustainable business practices.",
+      "OpenAI and Anthropic have raised massive amounts of capital, raising questions about the sustainability of such valuations.",
+      "OpenAI's high sales and marketing expenses may mask true operational costs and profitability.",
+      "The U.S. government's export controls on AI models signal increasing regulatory scrutiny on AI companies.",
+      "Actual demand for AI compute is not growing as rapidly as the hype suggests, with companies scaling back their AI budgets."
+    ],
+    "investment_thesis": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
+    "key_tickers": null
+  },
+  {
     "id": 303,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
@@ -126,21 +142,5 @@
     "key_tickers": [
       "TSLA"
     ]
-  },
-  {
-    "id": 294,
-    "podcast_name": "Latent Space: The AI Engineer Podcast",
-    "episode_title": "\ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
-    "episode_date": "2026-06-17",
-    "summary": "This podcast episode delves into Radical AI's innovative approach to material science, which leverages AI to automate the discovery and testing of new materials. Key themes include the importance of experimental data, the lengthy qualification timelines for new materials, the role of AI in material discovery, the competitive landscape with China, and the strategic benefits of open sourcing AI models. The episode underscores the potential for AI to revolutionize material science, with significant implications for investors in the aerospace and semiconductor sectors.",
-    "key_takeaways": [
-      "Invest in companies prioritizing experimental data in AI processes.",
-      "Consider long qualification timelines when evaluating material science companies.",
-      "Assess the competitive advantage of AI in material discovery.",
-      "Monitor geopolitical developments, especially China's impact on material science.",
-      "Support companies adopting open-source strategies for innovation."
-    ],
-    "investment_thesis": "Invest in companies that integrate AI with experimental data for material discovery to gain a competitive edge in industries like aerospace and semiconductors.",
-    "key_tickers": null
   }
 ]
