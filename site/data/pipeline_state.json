@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-22T23:40:09.299083",
-  "last_updated": "2026-06-22T23:40:09.299083",
-  "last_pipeline_run": "2026-06-22T23:40:09.299083",
+  "generated_at": "2026-06-23T05:02:49.349795",
+  "last_updated": "2026-06-23T05:02:49.349795",
+  "last_pipeline_run": "2026-06-23T05:02:49.349795",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -15,35 +15,17 @@
     "overton_terms_total": 105,
     "latest_insights_total": 293,
     "today_mentions": {},
-    "podcasts_analyzed": 2
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 4,
-    "transcribed": 4,
-    "analyzed": 2,
-    "insight_created": 2,
-    "published": 2,
-    "total": 4
+    "downloaded": 2,
+    "transcribed": 2,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 2
   },
   "episodes": [
-    {
-      "id": "87214c65-be58-418a-8b9b-f0d50d5095ca",
-      "podcast": "The a16z Show",
-      "title": "Jake Paul & Anti Fund: From Creator to Investor",
-      "published": "2026-06-22",
-      "rss_guid": "87214c65-be58-418a-8b9b-f0d50d5095ca",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "916c5e0a-b2ab-4935-ae27-7dc4eeb8612a",
       "podcast": "The a16z Show",
@@ -100,24 +82,6 @@
         }
       },
       "status": "needs_analysis"
-    },
-    {
-      "id": "substack:post:202758604",
-      "podcast": "Latent Space: The AI Engineer Podcast",
-      "title": "Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
-      "published": "2026-06-22",
-      "rss_guid": "substack:post:202758604",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
     },
     {
       "id": "substack:post:202271948",
@@ -200,7 +164,7 @@
       "title": "Samo Burja on Growth, Energy, and AI",
       "status": "needs_analysis",
       "published": "2026-06-12",
-      "age_days": 10,
+      "age_days": 11,
       "next_blocker": "analyzed"
     },
     {
@@ -209,7 +173,7 @@
       "title": "Ada Palmer \u2013 Machiavelli is the most misunderstood thinker of all time",
       "status": "needs_analysis",
       "published": "2026-06-16",
-      "age_days": 6,
+      "age_days": 7,
       "next_blocker": "analyzed"
     }
   ],
