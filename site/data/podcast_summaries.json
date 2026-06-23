@@ -1,5 +1,22 @@
 [
   {
+    "id": 307,
+    "podcast_name": "The a16z Show",
+    "episode_title": "What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
+    "episode_date": "2026-06-23",
+    "summary": "This podcast episode from 'The a16z Show' discusses the evolving role of AI in enhancing personal daily life and experiences rather than just productivity and job replacement. The conversation emphasizes the importance of storytelling in product marketing, particularly in consumer tech, and underscores that retention is the most critical metric for consumer products. It also highlights the rise of creator-led distribution channels and the next generation of consumers' expectations for personalized, immersive experiences. The episode suggests significant opportunities for startups to innovate in areas like personal finance, health management, and travel planning using AI, and stresses the balance between AI-driven tools and human interaction for meaningful consumer experiences.",
+    "key_takeaways": [
+      "AI is transitioning from productivity tools to enhancing personal experiences and daily life.",
+      "Storytelling is crucial in product marketing, especially in consumer tech.",
+      "Retention is the most important metric for consumer products, indicating product-market fit.",
+      "The rise of creator-led distribution channels is reshaping product traction.",
+      "Next-generation consumers expect personalized, immersive experiences blending entertainment and utility.",
+      "Startups have opportunities to innovate in personal finance, health management, and travel planning using AI."
+    ],
+    "investment_thesis": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
+    "key_tickers": null
+  },
+  {
     "id": 306,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
@@ -117,26 +134,5 @@
     ],
     "investment_thesis": "Invest in data-centric companies that provide infrastructure for AI training and consider sectors where AI can complement human roles for future investment opportunities.",
     "key_tickers": null
-  },
-  {
-    "id": 297,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
-    "episode_date": "2026-06-18",
-    "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the resurgence of U.S. manufacturing after a three-year recession, with industrial production growth at 1.7%. The discussion highlights significant investment opportunities in overlooked U.S. industrial champions, particularly in manufacturing and electrification. Companies like Caterpillar and Vernova are noted for their unprecedented order backlogs, indicating strong future demand. The U.S. is becoming the preferred location for incremental capital investment, with foreign direct investment share rising above 20%. The re-industrialization trend is driven by government policy, rising labor costs abroad, and supply chain disruptions. Automation and advanced manufacturing technologies are key to increasing efficiency and productivity in U.S. factories. The electrification of the U.S. grid is essential, with a projected increase in demand for power driven by manufacturing and data centers. The current U.S. grid infrastructure is outdated, requiring significant investment and skilled labor to modernize. Companies like Quanta and American Electric Power are positioned to benefit from high-voltage infrastructure projects.",
-    "key_takeaways": [
-      "U.S. manufacturing is showing signs of recovery after a three-year recession, indicating potential resurgence in manufacturing investments.",
-      "Companies with significant order backlogs, such as Caterpillar and Vernova, are likely to see revenue growth in the coming quarters.",
-      "The U.S. is becoming the preferred location for incremental capital investment, favoring domestic production over offshore alternatives.",
-      "Investment in automation and advanced manufacturing technologies is crucial for improving efficiency in U.S. factories.",
-      "The demand for electricity in the U.S. is projected to increase significantly, requiring substantial investment in grid infrastructure and generation capacity."
-    ],
-    "investment_thesis": "Invest in U.S. industrial champions with strong order backlogs and companies positioned to benefit from the electrification and modernization of the U.S. grid.",
-    "key_tickers": [
-      "CAT",
-      "VERN",
-      "QTA",
-      "AEP"
-    ]
   }
 ]

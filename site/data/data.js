@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-23T12:05:17.736739",
-  chartsVersion: "2026-06-23T12:05:02.045235",
+  generatedAt: "2026-06-23T13:38:06.293169",
+  chartsVersion: "2026-06-23T13:38:02.329023",
   priceSnapshot: {
   "GOOGL": {
-    "price": 347.47,
-    "change_pct": -3.15,
+    "price": 346.33,
+    "change_pct": -3.47,
     "name": "GOOGL",
-    "updated_at": "2026-06-23T12:05:02.044250"
+    "updated_at": "2026-06-23T13:38:02.328570"
   },
   "BTC": {
-    "price": 62390.12,
-    "change_pct": 1.53,
+    "price": 62195.63,
+    "change_pct": 1.21,
     "name": "BTC",
-    "updated_at": "2026-06-23T12:05:02.044269"
+    "updated_at": "2026-06-23T13:38:02.328580"
   },
   "MSFT": {
-    "price": 372.64,
-    "change_pct": -12.8,
+    "price": 373.19,
+    "change_pct": -12.67,
     "name": "MSFT",
-    "updated_at": "2026-06-23T12:05:02.044278"
+    "updated_at": "2026-06-23T13:38:02.328585"
   },
   "NVDA": {
-    "price": 201.98,
-    "change_pct": -5.84,
+    "price": 201.29,
+    "change_pct": -6.16,
     "name": "NVDA",
-    "updated_at": "2026-06-23T12:05:02.044286"
+    "updated_at": "2026-06-23T13:38:02.328588"
   },
   "AMZN": {
-    "price": 234.42,
-    "change_pct": -6.24,
+    "price": 234.78,
+    "change_pct": -6.1,
     "name": "AMZN",
-    "updated_at": "2026-06-23T12:05:02.044293"
+    "updated_at": "2026-06-23T13:38:02.328591"
   },
   "TSLA": {
-    "price": 383.99,
-    "change_pct": -9.37,
+    "price": 381.14,
+    "change_pct": -10.04,
     "name": "TSLA",
-    "updated_at": "2026-06-23T12:05:02.044301"
+    "updated_at": "2026-06-23T13:38:02.328595"
   },
   "WTI": {
-    "price": 3.33,
-    "change_pct": -17.08,
+    "price": 3.31,
+    "change_pct": -17.46,
     "name": "WTI",
-    "updated_at": "2026-06-23T12:05:02.044309"
+    "updated_at": "2026-06-23T13:38:02.328599"
   },
   "META": {
-    "price": 564.66,
-    "change_pct": -9.28,
+    "price": 562.74,
+    "change_pct": -9.59,
     "name": "META",
-    "updated_at": "2026-06-23T12:05:02.044317"
+    "updated_at": "2026-06-23T13:38:02.328602"
   },
   "S&P 500": {
-    "price": 736.71,
-    "change_pct": -2.07,
+    "price": 734.96,
+    "change_pct": -2.31,
     "name": "S&P 500",
-    "updated_at": "2026-06-23T12:05:02.044325"
+    "updated_at": "2026-06-23T13:38:02.328605"
   },
   "AAPL": {
-    "price": 297.98,
-    "change_pct": -3.96,
+    "price": 297.9,
+    "change_pct": -3.98,
     "name": "AAPL",
-    "updated_at": "2026-06-23T12:05:02.044332"
+    "updated_at": "2026-06-23T13:38:02.328608"
   },
   "QQQ": {
-    "price": 717.87,
-    "change_pct": -3.43,
+    "price": 715.27,
+    "change_pct": -3.78,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-23T12:05:02.044338"
+    "updated_at": "2026-06-23T13:38:02.328611"
   },
   "BTC-USD": {
-    "price": 62396.71,
-    "change_pct": 1.54,
+    "price": 62195.63,
+    "change_pct": 1.21,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-23T12:05:02.044347"
+    "updated_at": "2026-06-23T13:38:02.328615"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 322,
+      "title": "What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-23",
+      "summary": "This podcast episode from 'The a16z Show' discusses the evolving role of AI in enhancing personal daily life and experiences rather than just productivity and job replacement. The conversation emphasizes the importance of storytelling in product marketing, particularly in consumer tech, and underscores that retention is the most critical metric for consumer products. It also highlights the rise of creator-led distribution channels and the next generation of consumers' expectations for personalized, immersive experiences. The episode suggests significant opportunities for startups to innovate in areas like personal finance, health management, and travel planning using AI, and stresses the balance between AI-driven tools and human interaction for meaningful consumer experiences.",
+      "key_takeaway": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-23",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 307
+    },
+    {
       "id": 320,
       "title": "Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
       "source_type": "podcast",
@@ -1030,7 +1049,7 @@ const dashboardData = {
         "AEP"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-18",
       "archived_date": null,
@@ -7227,20 +7246,20 @@ const dashboardData = {
     {
       "id": 194,
       "term": "Multi-modal AI",
-      "description": "AI that integrates various forms of media, such as text, images, and audio, to enhance user engagement and application versatility.",
+      "description": "AI systems that can process and understand information from multiple modes of input, such as text, voice, and visuals, to create more immersive user experiences.",
       "first_detected_date": "2026-05-21",
-      "last_mentioned_date": "2026-05-21",
-      "mention_count": 1,
+      "last_mentioned_date": "2026-06-23",
+      "mention_count": 2,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider companies that are developing or leveraging multi-modal AI capabilities.",
+      "investment_implications": "Multi-modal AI could drive innovation in consumer tech by offering more personalized and engaging interfaces.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 232,
       "first_detected_speaker": "Andrew Feldman",
-      "last_mentioned_episode_id": 232,
-      "last_mentioned_speaker": "Andrew Feldman"
+      "last_mentioned_episode_id": 307,
+      "last_mentioned_speaker": "Josh Elman"
     },
     {
       "id": 195,
@@ -8541,20 +8560,20 @@ const dashboardData = {
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "Automated software entities that perform tasks, potentially eliminating the need for traditional user interfaces in enterprise software.",
+      "description": "Software agents that perform tasks on behalf of users, powered by AI to automate and enhance personal experiences.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-06-21",
-      "mention_count": 40,
+      "last_mentioned_date": "2026-06-23",
+      "mention_count": 41,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Invest in companies developing AI agents for workflow automation and efficiency gains.",
+      "investment_implications": "Investments in AI agents could revolutionize personal productivity and daily life.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 304,
-      "last_mentioned_speaker": "Ed Zitron"
+      "last_mentioned_episode_id": 307,
+      "last_mentioned_speaker": "Josh Elman"
     },
     {
       "id": 38,
@@ -8819,6 +8838,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 322,
+      "title": "What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-23",
+      "summary": "This podcast episode from 'The a16z Show' discusses the evolving role of AI in enhancing personal daily life and experiences rather than just productivity and job replacement. The conversation emphasizes the importance of storytelling in product marketing, particularly in consumer tech, and underscores that retention is the most critical metric for consumer products. It also highlights the rise of creator-led distribution channels and the next generation of consumers' expectations for personalized, immersive experiences. The episode suggests significant opportunities for startups to innovate in areas like personal finance, health management, and travel planning using AI, and stresses the balance between AI-driven tools and human interaction for meaningful consumer experiences.",
+      "key_takeaway": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-23",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 307,
+      "episode_release_date": "2026-06-23",
+      "guest_name": "What\u2019s Next for Consumer AI?",
+      "key_tickers": []
+    },
+    {
       "id": 320,
       "title": "Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
       "source_type": "podcast",
@@ -8961,31 +9000,6 @@ const dashboardData = {
         "MSFT",
         "GOOG",
         "GOOGL"
-      ]
-    },
-    {
-      "id": 313,
-      "title": "The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-06-18",
-      "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the resurgence of U.S. manufacturing after a three-year recession, with industrial production growth at 1.7%. The discussion highlights significant investment opportunities in overlooked U.S. industrial champions, particularly in manufacturing and electrification. Companies like Caterpillar and Vernova are noted for their unprecedented order backlogs, indicating strong future demand. The U.S. is becoming the preferred location for incremental capital investment, with foreign direct investment share rising above 20%. The re-industrialization trend is driven by government policy, rising labor costs abroad, and supply chain disruptions. Automation and advanced manufacturing technologies are key to increasing efficiency and productivity in U.S. factories. The electrification of the U.S. grid is essential, with a projected increase in demand for power driven by manufacturing and data centers. The current U.S. grid infrastructure is outdated, requiring significant investment and skilled labor to modernize. Companies like Quanta and American Electric Power are positioned to benefit from high-voltage infrastructure projects.",
-      "key_takeaway": "Invest in U.S. industrial champions with strong order backlogs and companies positioned to benefit from the electrification and modernization of the U.S. grid.",
-      "tickers_mentioned": "[\"CAT\", \"VERN\", \"QTA\", \"AEP\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-18",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 297,
-      "episode_release_date": "2026-06-18",
-      "guest_name": null,
-      "key_tickers": [
-        "CAT",
-        "VERN",
-        "QTA",
-        "AEP"
       ]
     }
   ],
@@ -9243,6 +9257,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-05-07"
     },
     {
+      "id": 194,
+      "term": "Multi-modal AI",
+      "description": "AI systems that can process and understand information from multiple modes of input, such as text, voice, and visuals, to create more immersive user experiences.",
+      "first_detected_date": "2026-05-21",
+      "last_mentioned_date": "2026-06-23",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Multi-modal AI could drive innovation in consumer tech by offering more personalized and engaging interfaces.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 232,
+      "first_detected_speaker": "Andrew Feldman",
+      "last_mentioned_episode_id": 307,
+      "last_mentioned_speaker": "Josh Elman",
+      "overton_score": 2.0,
+      "resonance_pct": 50,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
+      "first_detected_episode_date": "2026-05-21",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
+      "last_mentioned_episode_date": "2026-06-23"
+    },
+    {
       "id": 220,
       "term": "Local processing",
       "description": "The processing of data on local devices rather than in the cloud, reducing costs and potentially improving performance.",
@@ -9408,32 +9448,6 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Secondary market transactions offer an alternative exit strategy and liquidity option for investors in private companies.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 270,
-      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 270,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "overton_score": 0.69,
-      "resonance_pct": 17,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "Inside the Private Stock Market Boom: SpaceX, Anthropic, OpenAI & the Rise of Secondaries",
-      "first_detected_episode_date": "2026-06-07",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "Inside the Private Stock Market Boom: SpaceX, Anthropic, OpenAI & the Rise of Secondaries",
-      "last_mentioned_episode_date": "2026-06-07"
-    },
-    {
-      "id": 233,
-      "term": "Structured Liquidity Programs",
-      "description": "Programs offered by financial institutions that provide structured liquidity solutions for shareholders in private companies.",
-      "first_detected_date": "2026-06-07",
-      "last_mentioned_date": "2026-06-07",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "These programs can legitimize private equity as a viable asset class for retail investors, offering a path to participate in the private markets.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -28535,6 +28549,56 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-06-22",
     "key_tickers": []
+  },
+  "322": {
+    "id": 312,
+    "insight_id": 322,
+    "podcast_episode_id": 307,
+    "overview": "The competitive dynamic implied by the source material is the shift from traditional productivity-focused AI applications to those enhancing personal daily life and experiences. This tension is contested by the need for startups to innovate in a way that captures and retains consumer interest, moving beyond mere efficiency gains. The allocator-relevant implication is that those who can successfully leverage AI to create personalized, immersive experiences will win, as measured by user retention and market penetration. The horizon of proof lies in the ability of these startups to scale and maintain consumer engagement over time.",
+    "key_takeaways_detailed": [
+      "Investors should prioritize startups that not only integrate AI into their products but also focus on storytelling and user engagement to foster retention.",
+      "Monitor the success of creator partnerships as a metric for gauging a product's market traction and potential for organic growth.",
+      "Look for opportunities in sectors like personal finance and health management where AI can offer personalized solutions, enhancing user experience and satisfaction.",
+      "Consider the integration of AI in social interaction and personal growth tools as a differentiator for startups aiming to create meaningful consumer engagement.",
+      "Evaluate the adaptability of startups to the evolving consumer expectations for personalized, immersive experiences, blending utility and entertainment."
+    ],
+    "investment_thesis": "The core logic is that as AI shifts its focus from job replacement to enhancing personal daily life, startups that can leverage this technology to create personalized, immersive experiences will gain a competitive edge. The timeframe for this thesis is within the next 5 years, where observable developments such as sustained user engagement, market penetration, and the success of creator partnerships will either vindicate or invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's strong ecosystem and focus on user experience make it relevant to the thesis, as it can leverage AI to enhance personal experiences across its product lines.",
+        "positioning": "Positioned as a strategic long, given Apple's ability to integrate AI into its products and services, potentially driving user retention and growth.",
+        "risk": "Key risks include failure to innovate at a pace that meets consumer expectations, and potential regulatory hurdles that could impede data usage for AI enhancements."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant increase in labor market automation could refocus AI applications back towards productivity and job replacement, reducing the emphasis on personal daily life enhancement.",
+      "Consumers may show resistance to AI-driven personalization, valuing privacy concerns over the benefits of personalized experiences.",
+      "Traditional tech giants could dominate the space, making it difficult for startups to compete and innovate in AI-enhanced personal experiences."
+    ],
+    "catalysts": [
+      "The release of new AI-driven consumer products that gain significant market traction.",
+      "Successful creator partnerships that lead to substantial user growth and retention for consumer tech startups.",
+      "Regulatory developments that either support or hinder the use of AI in personal data and consumer experiences.",
+      "Advancements in AI technology that significantly improve the personalization and utility of consumer products."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-23T13:37:16.708372",
+    "updated_at": "2026-06-23 18:37:16",
+    "episode_evidence": "The podcast episode from 'The a16z Show' with Josh Elman delves into the transformative potential of AI in personal life, moving beyond mere productivity enhancement. Elman emphasizes storytelling's crucial role in consumer tech marketing, stating, 'The best products can be smarter and connect to take us from... time to actually spending it better.' This highlights the shift towards consumer engagement over traditional advertising. Retention is identified as paramount, with Elman asserting, 'Retention is still the most important metric... trying new things only matters if people stick.' This underscores the need for products that not only attract but also retain users, indicating a product's market fit and potential for organic growth. The discussion also points to the rise of creator-led distribution channels, which are pivotal in gaining consumer trust and traction, moving away from traditional advertising models. Elman's insights suggest that startups focusing on AI-enhanced personal experiences, particularly in areas like personal finance, health management, and travel planning, are poised for significant opportunities.",
+    "falsification_tracks": [
+      "If consumer tech startups fail to demonstrate sustained user engagement and retention over a series of quarters, it would challenge the thesis that AI-enhanced personal experiences are a viable market.",
+      "A significant downturn in venture capital investment towards AI in consumer applications would undermine the belief in the growth potential of this sector.",
+      "If traditional advertising methods show a resurgence in effectiveness, overshadowing creator-led distribution channels, it would counter the narrative of changing consumer behavior and expectations."
+    ],
+    "insight_title": "What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
+    "source_name": "The a16z Show",
+    "source_date": "2026-06-23",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -28589,7 +28653,19 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 20202,
+    "id": 20282,
+    "name": "What\u2019s Next for Consumer AI?",
+    "slug": "whats-next-for-consumer-ai",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
+    "last_episode_title": "What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-23",
+    "appearance_count": 1
+  },
+  {
+    "id": 20283,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -28601,7 +28677,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20203,
+    "id": 20284,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -28613,7 +28689,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20204,
+    "id": 20285,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -28625,7 +28701,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20205,
+    "id": 20286,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -28637,7 +28713,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 20206,
+    "id": 20287,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -28649,7 +28725,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20207,
+    "id": 20288,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -28661,7 +28737,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20208,
+    "id": 20289,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -28673,7 +28749,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20209,
+    "id": 20290,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -28685,7 +28761,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20210,
+    "id": 20291,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -28697,7 +28773,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20211,
+    "id": 20292,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -28709,7 +28785,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20212,
+    "id": 20293,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -28721,7 +28797,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20213,
+    "id": 20294,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -28733,7 +28809,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20214,
+    "id": 20295,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -28745,7 +28821,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20215,
+    "id": 20296,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -28757,7 +28833,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20216,
+    "id": 20297,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -28769,7 +28845,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20217,
+    "id": 20298,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -28781,7 +28857,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20218,
+    "id": 20299,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -28793,7 +28869,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20219,
+    "id": 20300,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -28805,7 +28881,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20220,
+    "id": 20301,
     "name": "Reality",
     "slug": "reality",
     "bio": null,
@@ -28814,18 +28890,6 @@ const dashboardData = {
     "last_episode_title": "Reality: The Final Eval \u2014 Lukas Petersson and Axel Backlund of Andon Labs",
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-04",
-    "appearance_count": 1
-  },
-  {
-    "id": 20221,
-    "name": "ideology. It",
-    "slug": "ideology-it",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in companies that are part of decentralized tech ecosystems and those leveraging 'internet first' ideologies, while advocating for rational industrial policies to strengthen supply chains.",
-    "last_episode_title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-03",
     "appearance_count": 1
   }
 ],
@@ -29158,7 +29222,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 1.32,
+    "mention_score_decayed": 1.29,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -29296,7 +29360,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.18,
+    "mention_score_decayed": 1.15,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -29484,7 +29548,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -30088,6 +30152,70 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 305,
+    "name": "Josh Elman",
+    "slug": "josh-elman",
+    "bio": "Josh Elman is a venture capitalist at a16z, focusing on product and growth strategies in consumer tech. He has held leadership roles at Twitter, Facebook, LinkedIn, and Apple, where he led product marketing for AI efforts.",
+    "known_for": "His expertise in product development and growth strategies in the consumer tech sector, and his contributions to major tech companies.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Inquisitive and insightful.",
+    "voice_style": "Analytical and solution-oriented.",
+    "voice_delivery_notes": "Paced with emphasis on key points.",
+    "voice_profile_updated_at": "2026-06-23 18:36:32",
+    "last_seen": "2026-06-23 18:36:32",
+    "last_episode_title": "What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-23",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-23 \u2022 What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
+    "last_proof_snippet": "Right now AI has been so much about productivity, job replacement, work replacement and I think we have a moment to shift that, which is how does these new tools help you get more out of your own day and your own life and the things you wan",
+    "supporting_takeaway": "Storytelling is crucial in product marketing, especially in consumer tech.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-23T13:36:49.452754",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Josh Elman",
+      "fetched_at": "2026-06-23T18:36:49.452602+00:00",
+      "cliff_notes": "Josh Elman has had a significant career in the tech industry, focusing on product and growth strategies. He began his career at LinkedIn, where he was a product manager. He then moved to Twitter, where he was a product leader, and later to Facebook, where he held a similar role. Elman's expertise in product development and growth led him to Apple, where he was responsible for product marketing for AI initiatives. Currently, he is a venture capitalist at a16z, where he continues to influence the consumer tech industry with his insights and investments.",
+      "derived": {
+        "current_role": "Venture Capitalist at a16z",
+        "former_positions": "Product Leader at Twitter; Product Leader at Facebook; Product Leader at LinkedIn; Product Marketing Leader for AI at Apple"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Josh Elman has had a significant career in the tech industry, focusing on product and growth strategies. He began his career at LinkedIn, where he was a product manager. He then moved to Twitter, where he was a product leader, and later to Facebook, where he held a similar role. Elman's expertise in product development and growth led him to Apple, where he was responsible for product marketing for AI initiatives.",
+        "Currently, he is a venture capitalist at a16z, where he continues to influence the consumer tech industry with his insights and investments."
+      ],
+      "sections": [
+        {
+          "heading": "Product Development",
+          "body": "Josh Elman has been instrumental in the product development of major tech companies, including LinkedIn, Twitter, and Facebook, where he held leadership roles in product management and strategy."
+        },
+        {
+          "heading": "Growth Strategies",
+          "body": "Elman is known for his expertise in growth strategies, which he has applied at various tech companies to drive user engagement and expansion."
+        },
+        {
+          "heading": "AI and Product Marketing",
+          "body": "At Apple, Elman led the product marketing for AI efforts, showcasing his ability to communicate the value of advanced technologies to consumers."
+        },
+        {
+          "heading": "Venture Capital",
+          "body": "As a venture capitalist at a16z, Elman uses his deep understanding of consumer tech to identify and support promising startups in the industry."
+        }
+      ]
+    }
   },
   {
     "id": 303,
@@ -30719,7 +30847,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -30909,7 +31037,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-15 \u2022 AI, Design, and the Power of Open Models",
     "last_proof_snippet": "It's not about how good a model is in the general sense. It's about how good is this model for my use case, for a lot of design and marketing use case says they need editable design, not a single flat image. It's super impressive, honestly,",
@@ -31093,7 +31221,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -31161,7 +31289,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -31288,7 +31416,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -31352,7 +31480,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -31546,7 +31674,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -31633,7 +31761,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -31758,7 +31886,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -32259,7 +32387,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -32569,7 +32697,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -32633,7 +32761,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -32696,7 +32824,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -33758,7 +33886,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -33821,7 +33949,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -34009,7 +34137,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -37823,7 +37951,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -37882,7 +38010,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
@@ -39770,7 +39898,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -39797,7 +39925,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",
