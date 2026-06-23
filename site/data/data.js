@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-22T22:04:13.869573",
-  chartsVersion: "2026-06-22T22:03:57.917356",
+  generatedAt: "2026-06-22T23:40:12.464254",
+  chartsVersion: "2026-06-22T23:40:07.813643",
   priceSnapshot: {
   "GOOGL": {
     "price": 349.68,
     "change_pct": -3.31,
     "name": "GOOGL",
-    "updated_at": "2026-06-22T22:03:57.916202"
+    "updated_at": "2026-06-22T23:40:07.813205"
   },
   "BTC": {
-    "price": 63947.64,
-    "change_pct": 4.07,
+    "price": 63770.87,
+    "change_pct": 3.78,
     "name": "BTC",
-    "updated_at": "2026-06-22T22:03:57.916224"
+    "updated_at": "2026-06-22T23:40:07.813215"
   },
   "MSFT": {
     "price": 367.34,
     "change_pct": -16.76,
     "name": "MSFT",
-    "updated_at": "2026-06-22T22:03:57.916234"
+    "updated_at": "2026-06-22T23:40:07.813219"
   },
   "NVDA": {
     "price": 208.65,
     "change_pct": -6.25,
     "name": "NVDA",
-    "updated_at": "2026-06-22T22:03:57.916244"
+    "updated_at": "2026-06-22T23:40:07.813223"
   },
   "AMZN": {
     "price": 232.79,
     "change_pct": -9.25,
     "name": "AMZN",
-    "updated_at": "2026-06-22T22:03:57.916257"
+    "updated_at": "2026-06-22T23:40:07.813226"
   },
   "TSLA": {
     "price": 405.05,
     "change_pct": -4.41,
     "name": "TSLA",
-    "updated_at": "2026-06-22T22:03:57.916265"
+    "updated_at": "2026-06-22T23:40:07.813229"
   },
   "WTI": {
     "price": 3.31,
     "change_pct": -17.66,
     "name": "WTI",
-    "updated_at": "2026-06-22T22:03:57.916274"
+    "updated_at": "2026-06-22T23:40:07.813233"
   },
   "META": {
     "price": 563.85,
     "change_pct": -5.56,
     "name": "META",
-    "updated_at": "2026-06-22T22:03:57.916282"
+    "updated_at": "2026-06-22T23:40:07.813236"
   },
   "S&P 500": {
     "price": 744.39,
     "change_pct": -1.75,
     "name": "S&P 500",
-    "updated_at": "2026-06-22T22:03:57.916289"
+    "updated_at": "2026-06-22T23:40:07.813239"
   },
   "AAPL": {
     "price": 297.01,
     "change_pct": -5.77,
     "name": "AAPL",
-    "updated_at": "2026-06-22T22:03:57.916297"
+    "updated_at": "2026-06-22T23:40:07.813242"
   },
   "QQQ": {
     "price": 737.95,
     "change_pct": -0.99,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-22T22:03:57.916305"
+    "updated_at": "2026-06-22T23:40:07.813245"
   },
   "BTC-USD": {
-    "price": 63955.62,
-    "change_pct": 4.08,
+    "price": 63770.87,
+    "change_pct": 3.78,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-22T22:03:57.916314"
+    "updated_at": "2026-06-22T23:40:07.813249"
   }
 },
   tickerScores: [
@@ -834,6 +834,44 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 320,
+      "title": "Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-06-22",
+      "summary": "This podcast episode discusses the importance of AI safety and security, with a focus on the company Grace One. The company operates a community of red teamers to identify and mitigate vulnerabilities in AI systems, particularly in deep learning. As enterprises increasingly adopt AI technologies, the demand for AI safety solutions is growing. The effectiveness of AI models in red teaming has surpassed human capabilities, indicating the potential for automated security assessments. The episode also highlights the need for a different mindset regarding AI security compared to traditional software security and the importance of specific training for AI models to enhance their robustness against adversarial attacks.",
+      "key_takeaway": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 306
+    },
+    {
+      "id": 321,
+      "title": "Jake Paul & Anti Fund: From Creator to Investor",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-22",
+      "summary": "In this episode of 'The a16z Show', Jake Paul and Jeff Wu discuss the launch of Anti-Fund's $100 million growth fund, focusing on sectors like AI, defense, and software. They stress the importance of resilience and adaptability in entrepreneurship and investing, the significance of founder taste and people reading skills, and the need for education reform to enhance financial literacy. The conversation also covers the evolving media landscape, the role of attention in the digital age, and the potential of leveraging personal brands in business ventures.",
+      "key_takeaway": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 305
+    },
+    {
       "id": 319,
       "title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
       "source_type": "podcast",
@@ -951,7 +989,7 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-18",
       "archived_date": null,
@@ -970,7 +1008,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-18",
       "archived_date": null,
@@ -7371,8 +7409,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-06-19",
-      "mention_count": 42,
+      "last_mentioned_date": "2026-06-22",
+      "mention_count": 43,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -7381,8 +7419,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 302,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 305,
+      "last_mentioned_speaker": "Jake Paul, Jeff Wu"
     },
     {
       "id": 162,
@@ -8781,6 +8819,46 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 320,
+      "title": "Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-06-22",
+      "summary": "This podcast episode discusses the importance of AI safety and security, with a focus on the company Grace One. The company operates a community of red teamers to identify and mitigate vulnerabilities in AI systems, particularly in deep learning. As enterprises increasingly adopt AI technologies, the demand for AI safety solutions is growing. The effectiveness of AI models in red teaming has surpassed human capabilities, indicating the potential for automated security assessments. The episode also highlights the need for a different mindset regarding AI security compared to traditional software security and the importance of specific training for AI models to enhance their robustness against adversarial attacks.",
+      "key_takeaway": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 306,
+      "episode_release_date": "2026-06-22",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 321,
+      "title": "Jake Paul & Anti Fund: From Creator to Investor",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-22",
+      "summary": "In this episode of 'The a16z Show', Jake Paul and Jeff Wu discuss the launch of Anti-Fund's $100 million growth fund, focusing on sectors like AI, defense, and software. They stress the importance of resilience and adaptability in entrepreneurship and investing, the significance of founder taste and people reading skills, and the need for education reform to enhance financial literacy. The conversation also covers the evolving media landscape, the role of attention in the digital age, and the potential of leveraging personal brands in business ventures.",
+      "key_takeaway": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 305,
+      "episode_release_date": "2026-06-22",
+      "guest_name": "Jake Paul & Anti Fund",
+      "key_tickers": []
+    },
+    {
       "id": 319,
       "title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
       "source_type": "podcast",
@@ -8884,48 +8962,6 @@ const dashboardData = {
         "GOOG",
         "GOOGL"
       ]
-    },
-    {
-      "id": 311,
-      "title": "SpaceX IPOs at $2.89T Market Cap, US Govt Suspends Fable & Mythos 5, Altman Delays OpenAI\u2019s IPO | EP #265",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-06-18",
-      "summary": "In this episode, Peter Diamandis discusses the monumental SpaceX IPO and its implications for humanity's future in space exploration and technology. The IPO is valued at $2.89 trillion, making Elon Musk the world's first trillionaire. The conversation delves into the business model of SpaceX, including the launch monopoly, Starlink's profitability, and AI satellite capabilities. Additionally, the podcast addresses the U.S. government's export control directive on AI, the potential for recursive self-improvement in AI, the Kessler effect, sovereign wealth funds in AI, youth unemployment, and the societal implications of AI advancements.",
-      "key_takeaway": "Invest in companies that align with long-term technological advancements, particularly in space and AI, and consider the societal implications of these advancements.",
-      "tickers_mentioned": "[\"TSLA\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-18",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 296,
-      "episode_release_date": "2026-06-18",
-      "guest_name": null,
-      "key_tickers": [
-        "TSLA"
-      ]
-    },
-    {
-      "id": 312,
-      "title": "The Professor of Outputmaxxing \u2014 Anjney Midha, AMP",
-      "source_type": "podcast",
-      "source_name": "Latent Space: The AI Engineer Podcast",
-      "source_date": "2026-06-18",
-      "summary": "This podcast episode delves into the operational efficiency of data centers, the importance of community engagement, and the role of culture in tech companies. Key themes include maintaining high node utilization to avoid outages, funding community benefits to reduce opposition to data center projects, and the concept of independent system operators (ISOs) for compute infrastructure. The episode also emphasizes the fragility of company culture and its impact on long-term success, as well as the importance of preparedness in AI development.",
-      "key_takeaway": "Invest in data center operations with high node utilization and companies adopting ISO models for compute resource management. Prioritize tech companies with strong cultural alignment and preparedness in AI development.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-18",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 299,
-      "episode_release_date": "2026-06-18",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 313,
@@ -9081,8 +9117,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-06-19",
-      "mention_count": 42,
+      "last_mentioned_date": "2026-06-22",
+      "mention_count": 43,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -9091,16 +9127,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 302,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "overton_score": 39.19,
+      "last_mentioned_episode_id": 305,
+      "last_mentioned_speaker": "Jake Paul, Jeff Wu",
+      "overton_score": 43.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
-      "last_mentioned_episode_date": "2026-06-19"
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Jake Paul & Anti Fund: From Creator to Investor",
+      "last_mentioned_episode_date": "2026-06-22"
     },
     {
       "id": 10,
@@ -28400,61 +28436,172 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-06-21",
     "key_tickers": []
+  },
+  "320": {
+    "id": 310,
+    "insight_id": 320,
+    "podcast_episode_id": 306,
+    "overview": "The unresolved tension in the AI safety and security landscape is the balance between the rapid advancement of AI technologies and the ability of security measures to keep pace with potential vulnerabilities. The competitive dynamic is shifting towards automated red teaming solutions that can outperform human capabilities in identifying and mitigating risks. The allocator-relevant implication is that companies that can effectively integrate advanced AI security measures into their operations will gain a competitive edge, while those that lag may face increased risks and potential regulatory scrutiny.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the growth of the AI security market and the adoption rates of automated red teaming solutions to gauge the effectiveness of AI safety measures.",
+      "Enterprises should assess their AI deployment strategies to ensure they include robust security protocols that address the lethal trifecta of AI security risks.",
+      "Organizations should consider the long-term costs and benefits of investing in AI model training for robustness against adversarial attacks, as this may become a differentiating factor in the AI security landscape.",
+      "Collaborations between AI security firms and insurance providers could offer new risk management strategies, potentially leading to innovative insurance products tailored to AI deployments."
+    ],
+    "investment_thesis": "The core logic is that as AI technologies become more integrated into business operations, the demand for AI safety and security solutions will increase. Companies like Grace One, which offer advanced automated red teaming and specialized AI model training, are well-positioned to capitalize on this trend. The timeframe for this thesis is within the next 5 years, with the observable development being an increase in the number of enterprises adopting AI security solutions and a corresponding decrease in AI-related security breaches.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a major player in the tech industry with significant investments in AI and machine learning. Their commitment to user privacy and security makes them relevant to the AI safety and security thesis.",
+        "positioning": "Apple can be positioned long as an investment in the AI safety and security space, given their potential to leverage their resources to enhance AI security measures and capitalize on the growing demand for such solutions.",
+        "risk": "Key risks include potential security breaches in Apple's AI systems, which could damage their reputation and financial performance, and the possibility that competitors may develop more effective AI security solutions."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A belief that traditional security measures are sufficient for AI systems, negating the need for specialized AI security solutions.",
+      "The possibility that the growth of AI adoption may slow due to economic or regulatory factors, reducing the demand for AI security solutions.",
+      "Concerns that the integration of advanced AI security measures may be too costly or complex for many enterprises, limiting the market for specialized solutions."
+    ],
+    "catalysts": [
+      "Regulatory developments that mandate higher AI security standards for enterprises.",
+      "High-profile security breaches in AI systems that highlight the need for advanced security measures.",
+      "Technological breakthroughs in AI security that significantly improve the effectiveness of automated red teaming and model training.",
+      "Collaborations between AI security firms and insurance providers that result in new risk assessment frameworks."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-22T23:39:07.849893",
+    "updated_at": "2026-06-23 04:39:07",
+    "episode_evidence": "Grace One's approach to AI safety and security is centered around the concept of red teaming, which involves actively seeking out vulnerabilities in AI systems to preemptively address them. The company's community of red teamers operates with the understanding that 'There\u2019s going to be much more demand that\u2019s coming up,' indicating a growing market for AI security solutions. This demand is driven by the increasing integration of AI into business operations, which amplifies the potential for security breaches. Grace One's automated red teaming system, Shade, has shown to be more effective than human testers in identifying vulnerabilities, as stated, 'We can do much better than people than human red teamers now, at breaking these models.' This underscores the advancement in AI capabilities and the potential for automated security assessments to surpass traditional methods. Furthermore, Grace One emphasizes that AI models require specific training to enhance their robustness against adversarial attacks, challenging the misconception that larger models are inherently safer: 'If you just make a model bigger and bigger, it will not get safer.'",
+    "falsification_tracks": [
+      "If Grace One's automated red teaming system, Shade, fails to identify a significant vulnerability that is later discovered by human testers, it would undermine the thesis of automated systems surpassing human capabilities.",
+      "A decline in the number of enterprises adopting AI technologies would reduce the demand for AI safety solutions, weakening Grace One's market position.",
+      "If there is a significant security breach in an AI system that Grace One was supposed to protect, it would cast doubt on the effectiveness of their security solutions."
+    ],
+    "insight_title": "Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
+    "source_name": "Latent Space: The AI Engineer Podcast",
+    "source_date": "2026-06-22",
+    "key_tickers": []
+  },
+  "321": {
+    "id": 311,
+    "insight_id": 321,
+    "podcast_episode_id": 305,
+    "overview": "The competitive dynamic implied by the source material is the ongoing struggle for attention and resilience in a rapidly evolving digital landscape, particularly within sectors like AI, defense, and software. The tension arises from the need to balance the allocation of capital with the ability to capture and retain audience attention. The metric that arbitrates this uncertainty is the success rate of the Anti-Fund's investments in terms of growth, resilience, and adaptability of the founders and their ventures.",
+    "key_takeaways_detailed": [
+      "Investors should look for founders with a history of overcoming significant challenges, as this resilience can be a predictor of future success.",
+      "Evaluate potential investments not only on financial metrics but also on the founder's ability to build strong relationships and their emotional intelligence.",
+      "Support for educational initiatives should be prioritized, with a focus on those that can demonstrate a clear path to improving financial literacy and economic participation.",
+      "Develop marketing strategies that prioritize audience engagement and retention, as the ability to capture attention is increasingly valuable in a capital-rich environment.",
+      "Encourage and support founders in taking calculated risks, as these can lead to innovation and growth, but also provide guidance to navigate potential pitfalls."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that sectors like AI, defense, aerospace, infrastructure, and software will continue to be growth drivers, and that resilient, adaptable founders with strong interpersonal skills will be key to success in these areas. The timeframe for this thesis is medium to long-term, as these sectors typically require significant investment and time to mature. An observable development that would vindicate this thesis is the consistent growth and successful exits of the Anti-Fund's portfolio companies, particularly those led by founders with a demonstrated ability to overcome challenges and adapt to changing market conditions.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is relevant to this thesis due to its significant investments in AI and software, which are key sectors for the Anti-Fund. Apple's ability to innovate and capture audience attention aligns with the fund's focus on resilience and adaptability.",
+        "positioning": "Positioning should be long-term, as Apple's investments in AI and software are strategic and align with the growth sectors identified by the Anti-Fund.",
+        "risk": "Key risks include changes in consumer preferences, increased competition, and potential disruptions in the global supply chain that could impact Apple's ability to innovate and maintain market leadership."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant downturn in the tech sector could challenge the thesis that AI, defense, and software will continue to be growth drivers.",
+      "A shift in consumer behavior away from digital platforms could reduce the importance of capturing attention, undermining the need for strong interpersonal skills and audience engagement.",
+      "Regulatory changes that limit the ability of educational startups to operate or innovate could hinder the potential for education reform to drive economic growth."
+    ],
+    "catalysts": [
+      "Successful IPOs or acquisitions of the Anti-Fund's portfolio companies would serve as a catalyst, validating the fund's investment strategy.",
+      "Major technological breakthroughs in AI or software that are led by the fund's portfolio companies would underscore the thesis' focus on innovation and growth.",
+      "Positive outcomes from educational reforms, particularly those backed by the fund, would indicate that the thesis on the importance of financial literacy and economic participation is on track."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-22T23:39:24.726416",
+    "updated_at": "2026-06-23 04:39:24",
+    "episode_evidence": "In the 'The a16z Show' episode, Jake Paul and Jeff Wu delve into the intricacies of their $100 million growth fund, Anti-Fund, with a focus on sectors like AI, defense, and software. They underscore the importance of resilience, as Paul states, 'I failed so many times to get to this point... it\u2019s resilience.' This trait is seen as a differentiator for successful founders. Wu emphasizes the 'people business' aspect, highlighting the need to 'really read people and have that EQ as well as IQ.' This points to the significance of interpersonal skills in investment decisions. They also discuss the scarcity of attention in a capital-rich world, with Wu noting, 'In a world where there's more and more capital, attention is more scarce.' This underscores the importance of capturing and maintaining audience attention in the digital age.",
+    "falsification_tracks": [
+      "Should the Anti-Fund's portfolio companies fail to demonstrate resilience in the face of market downturns or operational challenges, the fund's thesis on the importance of resilience would be weakened.",
+      "If the fund's investments in AI, defense, and software do not yield significant returns or growth, it could indicate that the sectors are overvalued or that the fund's investment strategy is flawed.",
+      "A lack of successful exits or IPOs from the fund's portfolio would challenge the thesis that focusing on sectors like AI and defense is a winning strategy.",
+      "Should educational reforms not lead to improved financial literacy or economic participation, it would undermine the argument for backing educational startups as a means to drive economic growth."
+    ],
+    "insight_title": "Jake Paul & Anti Fund: From Creator to Investor",
+    "source_name": "The a16z Show",
+    "source_date": "2026-06-22",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
   {
-    "id": 446,
-    "term": "Industry-Led Standards",
-    "definition": "A set of voluntary standards developed by industry participants to regulate and guide the development and use of new technologies.",
-    "investment_implications": "Supporting industry-led standards can promote innovation and prevent monopolistic practices in the AI sector.",
+    "id": 449,
+    "term": "Lethal Trifecta of AI Security Risks",
+    "definition": "The three major AI security risks include the ability to ingest untrusted data, access sensitive information, and exploit vulnerabilities.",
+    "investment_implications": "Understanding and addressing these risks is crucial for developing effective security measures in AI systems.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-20 04:36:03",
+    "submitted_date": "2026-06-23 04:38:03",
     "priority_score": 80
   },
   {
-    "id": 443,
-    "term": "Direct Communication",
-    "definition": "The ability for founders to communicate directly with their audiences through social media and other new media platforms, bypassing traditional media gatekeepers.",
-    "investment_implications": "Direct communication allows for more authentic engagement and narrative shaping, which can influence brand loyalty and market perception.",
+    "id": 450,
+    "term": "Automated Red Teaming",
+    "definition": "The use of AI models to identify and mitigate vulnerabilities in AI systems, surpassing human capabilities in effectiveness.",
+    "investment_implications": "Invest in companies that leverage automated red teaming to enhance security measures against AI vulnerabilities.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-19 18:37:30",
+    "submitted_date": "2026-06-23 04:38:03",
     "priority_score": 80
   },
   {
-    "id": 444,
-    "term": "Authenticity",
-    "definition": "The quality of being true to one's own personality, experiences, and beliefs, rather than presenting a rehearsed or insincere image.",
-    "investment_implications": "Authentic communication can build trust and relatability with audiences, which are essential for brand loyalty and market differentiation.",
+    "id": 447,
+    "term": "Attention Economy",
+    "definition": "The competition for audience attention in a world where information and content are abundant, and attention is scarce.",
+    "investment_implications": "Investors should consider how companies capture and maintain audience attention as a key differentiator.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-19 18:37:30",
+    "submitted_date": "2026-06-23 04:36:21",
     "priority_score": 80
   },
   {
-    "id": 441,
-    "term": "Sample Efficiency",
-    "definition": "A measure of how much data is required for a system to learn and operate effectively.",
-    "investment_implications": "Improving sample efficiency in AI can lead to more efficient and effective AI models, impacting the adoption and scalability of AI technologies.",
+    "id": 448,
+    "term": "Education Reform",
+    "definition": "The process of making significant changes to the education system to better prepare students for the modern economy and financial literacy.",
+    "investment_implications": "Investing in educational startups that innovate and improve financial literacy can drive economic growth.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-19 18:36:50",
+    "submitted_date": "2026-06-23 04:36:21",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 19883,
+    "id": 19962,
+    "name": "Jake Paul & Anti Fund",
+    "slug": "jake-paul--anti-fund",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
+    "last_episode_title": "Jake Paul & Anti Fund: From Creator to Investor",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-22",
+    "appearance_count": 1
+  },
+  {
+    "id": 19963,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -28466,7 +28613,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19884,
+    "id": 19964,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -28478,7 +28625,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19885,
+    "id": 19965,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -28490,7 +28637,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 19886,
+    "id": 19966,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -28502,7 +28649,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19887,
+    "id": 19967,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -28514,7 +28661,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19888,
+    "id": 19968,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -28526,7 +28673,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19889,
+    "id": 19969,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -28538,7 +28685,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19890,
+    "id": 19970,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -28550,7 +28697,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19891,
+    "id": 19971,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -28562,7 +28709,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19892,
+    "id": 19972,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -28574,7 +28721,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19893,
+    "id": 19973,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -28586,7 +28733,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19894,
+    "id": 19974,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -28598,7 +28745,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19895,
+    "id": 19975,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -28610,7 +28757,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19896,
+    "id": 19976,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -28622,7 +28769,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19897,
+    "id": 19977,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -28634,7 +28781,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19898,
+    "id": 19978,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -28646,7 +28793,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19899,
+    "id": 19979,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -28658,7 +28805,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19900,
+    "id": 19980,
     "name": "Reality",
     "slug": "reality",
     "bio": null,
@@ -28670,7 +28817,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 19901,
+    "id": 19981,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -28678,18 +28825,6 @@ const dashboardData = {
     "last_main_idea": "Invest in companies that are part of decentralized tech ecosystems and those leveraging 'internet first' ideologies, while advocating for rational industrial policies to strengthen supply chains.",
     "last_episode_title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-03",
-    "appearance_count": 1
-  },
-  {
-    "id": 19902,
-    "name": "Bill Ackman",
-    "slug": "bill-ackman",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
-    "last_episode_title": "Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-03",
     "appearance_count": 1
   }
@@ -28901,7 +29036,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 1.78,
+    "mention_score_decayed": 1.74,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -29955,6 +30090,191 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 303,
+    "name": "Grace One",
+    "slug": "grace-one",
+    "bio": "Grace One is a company that specializes in AI safety and security, focusing on identifying and mitigating vulnerabilities in AI systems, particularly in deep learning. Based in Pittsburgh, it is recognized for its community of red teamers who work to ensure the secure deployment of AI models.",
+    "known_for": "Operating a community of red teamers to identify and mitigate security risks associated with AI models.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and informative",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Clear and concise with emphasis on the importance of AI security",
+    "voice_profile_updated_at": "2026-06-23 04:38:03",
+    "last_seen": "2026-06-23 04:38:03",
+    "last_episode_title": "Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-06-22",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-22 \u2022 Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
+    "last_proof_snippet": "Okay, we're here in a studio with Grace One, Matt and Zico welcome. Great to be here. Yeah. Thanks for having us. You're visiting from Pittsburgh? That's right. The home of all good computer science, I don't know if I'm oversteaving things.",
+    "supporting_takeaway": "The automated red teaming system, Shade, has demonstrated superior effectiveness in identifying vulnerabilities compared to human testers.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-22T23:38:13.968262",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Grace One",
+      "fetched_at": "2026-06-23T04:38:13.967912+00:00",
+      "cliff_notes": "Grace One, led by its CEO, is a company that has positioned itself at the forefront of AI safety and security. With a strong emphasis on the vulnerabilities that can arise from the deployment of AI models, Grace One has built a community of red teamers who are dedicated to uncovering and addressing these risks. Based in Pittsburgh, a city known for its contributions to computer science and AI, Grace One has leveraged its proximity to top-tier educational and research institutions to build a robust team. The company's mission is to empower everyone to use AI safely and securely, which is particularly crucial as AI systems become more integrated into various aspects of society and business.",
+      "derived": {
+        "current_role": "CEO at Grace One",
+        "education": "CMU"
+      },
+      "infobox": {
+        "Based in": "Pittsburgh"
+      },
+      "lead_paragraphs": [
+        "Grace One, led by its CEO, is a company that has positioned itself at the forefront of AI safety and security. With a strong emphasis on the vulnerabilities that can arise from the deployment of AI models, Grace One has built a community of red teamers who are dedicated to uncovering and addressing these risks. Based in Pittsburgh, a city known for its contributions to computer science and AI, Grace One has leveraged its proximity to top-tier educational and research institutions to build a robust team.",
+        "The company's mission is to empower everyone to use AI safely and securely, which is particularly crucial as AI systems become more integrated into various aspects of society and business."
+      ],
+      "sections": [
+        {
+          "heading": "AI Safety",
+          "body": "Grace One is dedicated to ensuring the safe deployment of AI models by identifying potential vulnerabilities and mitigating risks associated with deep learning systems."
+        },
+        {
+          "heading": "Security Risks",
+          "body": "The company operates a community of red teamers who specialize in uncovering security flaws in AI systems, which is critical for the reliable use of AI in various applications."
+        },
+        {
+          "heading": "Deep Learning",
+          "body": "Grace One focuses on deep learning, a subset of AI that involves neural networks with many layers, to ensure the integrity and security of these complex systems."
+        },
+        {
+          "heading": "Community of Red Teamers",
+          "body": "Grace One has established a community of red teamers who work collaboratively to identify and address security threats in AI, enhancing the overall safety of AI deployments."
+        }
+      ]
+    }
+  },
+  {
+    "id": 301,
+    "name": "Jake Paul",
+    "slug": "jake-paul",
+    "bio": "Jake Paul is an influencer, entrepreneur, and professional boxer known for his significant social media following and ventures in media and entertainment. He has leveraged his online presence to launch various business ventures and has recently partnered with Silicon Valley investor Jeff Wu to start a $100 million growth fund, Anti-Fund.",
+    "known_for": "His influence in social media and his ventures in media and entertainment, particularly his $100 million growth fund, Anti-Fund.",
+    "net_worth_usd": 200000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-celebrities/richest-comedians/jake-paul-net-worth/",
+    "net_worth_updated_at": "2026-06-22T23:38:32.913264",
+    "voice_tone": "Confident and assertive.",
+    "voice_style": "Direct and opinionated.",
+    "voice_delivery_notes": "Pace is moderate with emphasis on key points.",
+    "voice_profile_updated_at": "2026-06-23 04:36:21",
+    "last_seen": "2026-06-23 04:36:21",
+    "last_episode_title": "Jake Paul & Anti Fund: From Creator to Investor",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-22",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
+    "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
+    "supporting_takeaway": "Founder taste and people reading skills are crucial for making successful investments.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-22T23:38:31.788747",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jake Paul",
+      "fetched_at": "2026-06-23T04:38:31.788604+00:00",
+      "cliff_notes": "Jake Paul rose to fame as a social media influencer and later expanded his career into entrepreneurship and professional boxing. He capitalized on his online presence to launch various business ventures, including partnering with Silicon Valley investor Jeff Wu to establish Anti-Fund, a $100 million growth fund aimed at backing vicious founders building the future. Paul's influence extends beyond social media, as he has become a notable figure in the tech and investment space, particularly with his recent venture into funding startups.",
+      "derived": {
+        "current_role": "Co-founder, Anti-Fund"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Jake Paul rose to fame as a social media influencer and later expanded his career into entrepreneurship and professional boxing. He capitalized on his online presence to launch various business ventures, including partnering with Silicon Valley investor Jeff Wu to establish Anti-Fund, a $100 million growth fund aimed at backing vicious founders building the future.",
+        "Paul's influence extends beyond social media, as he has become a notable figure in the tech and investment space, particularly with his recent venture into funding startups."
+      ],
+      "sections": [
+        {
+          "heading": "Social Media Influence",
+          "body": "Jake Paul gained significant popularity through social media platforms, particularly YouTube and Instagram, amassing millions of followers."
+        },
+        {
+          "heading": "Entrepreneurship",
+          "body": "Beyond being an influencer, Paul ventured into entrepreneurship, leveraging his online presence to launch various business ventures."
+        },
+        {
+          "heading": "Professional Boxing",
+          "body": "In addition to his online and business endeavors, Jake Paul pursued a career in professional boxing, competing in high-profile matches."
+        },
+        {
+          "heading": "Anti-Fund",
+          "body": "Paul co-founded Anti-Fund with Silicon Valley investor Jeff Wu, a $100 million growth fund aimed at backing ambitious founders and startups."
+        }
+      ]
+    },
+    "net_worth": "$200.0M"
+  },
+  {
+    "id": 302,
+    "name": "Jeff Wu",
+    "slug": "jeff-wu",
+    "bio": "Jeff Wu is a venture investor known for his work in technology investments and his role at Anti-Fund. He has been instrumental in the oversubscribed $100 million growth fund, focusing on backing visionary founders building the future.",
+    "known_for": "His focus on technology investments and his role in establishing Anti-Fund's $100 million growth fund.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and measured.",
+    "voice_style": "Factual and informative.",
+    "voice_delivery_notes": "Speaks with a calm and composed tone, with clear enunciation.",
+    "voice_profile_updated_at": "2026-06-23 04:36:21",
+    "last_seen": "2026-06-23 04:36:21",
+    "last_episode_title": "Jake Paul & Anti Fund: From Creator to Investor",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-22",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
+    "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
+    "supporting_takeaway": "Founder taste and people reading skills are crucial for making successful investments.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-22T23:38:41.010858",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jeff Wu",
+      "fetched_at": "2026-06-23T04:38:41.010711+00:00",
+      "cliff_notes": "Jeff Wu has made a significant impact in the venture capital space, particularly with his focus on technology investments. As a venture investor at Anti-Fund, Wu has played a pivotal role in the establishment of the firm's $100 million growth fund, which is aimed at backing visionary founders who are building the future. His work has been recognized by some of the top names in the industry, and he has been able to attract high-profile partnerships, such as with internet creator Jake Paul. Wu's career in venture capital has been marked by his ability to identify and support innovative startups, contributing to the growth and success of the technology sector.",
+      "derived": {
+        "current_role": "Venture Investor at Anti-Fund"
+      },
+      "infobox": {
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Jeff Wu has made a significant impact in the venture capital space, particularly with his focus on technology investments. As a venture investor at Anti-Fund, Wu has played a pivotal role in the establishment of the firm's $100 million growth fund, which is aimed at backing visionary founders who are building the future.",
+        "His work has been recognized by some of the top names in the industry, and he has been able to attract high-profile partnerships, such as with internet creator Jake Paul. Wu's career in venture capital has been marked by his ability to identify and support innovative startups, contributing to the growth and success of the technology sector."
+      ],
+      "sections": [
+        {
+          "heading": "Venture Capital",
+          "body": "Jeff Wu is recognized for his work in venture capital, particularly in the technology sector. His focus on backing innovative founders has helped shape the future of tech."
+        },
+        {
+          "heading": "Anti-Fund",
+          "body": "As a venture investor at Anti-Fund, Wu has been instrumental in the establishment and success of the firm's $100 million growth fund, which targets visionary founders in the tech industry."
+        },
+        {
+          "heading": "Technology Investments",
+          "body": "Wu's expertise in technology investments has allowed him to identify and support startups that are pushing the boundaries of innovation, contributing to the growth of the tech sector."
+        }
+      ]
+    }
+  },
+  {
     "id": 300,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
@@ -29972,7 +30292,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -30031,7 +30351,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -30096,7 +30416,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -30524,7 +30844,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -31372,7 +31692,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -31564,7 +31884,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
@@ -34941,7 +35261,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -35449,7 +35769,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -36141,7 +36461,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
     "last_proof_snippet": "Beach Point Capital Management primarily manages institutional capital, which is characterized as patient capital.",
@@ -36204,7 +36524,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
@@ -36519,7 +36839,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
     "last_proof_snippet": "AI is a shortcut that can be beneficial but also presents challenges in debugging and understanding.",

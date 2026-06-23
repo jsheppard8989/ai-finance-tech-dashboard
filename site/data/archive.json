@@ -1,6 +1,44 @@
 {
   "insights": [
     {
+      "id": 320,
+      "title": "Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-06-22",
+      "summary": "This podcast episode discusses the importance of AI safety and security, with a focus on the company Grace One. The company operates a community of red teamers to identify and mitigate vulnerabilities in AI systems, particularly in deep learning. As enterprises increasingly adopt AI technologies, the demand for AI safety solutions is growing. The effectiveness of AI models in red teaming has surpassed human capabilities, indicating the potential for automated security assessments. The episode also highlights the need for a different mindset regarding AI security compared to traditional software security and the importance of specific training for AI models to enhance their robustness against adversarial attacks.",
+      "key_takeaway": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 306
+    },
+    {
+      "id": 321,
+      "title": "Jake Paul & Anti Fund: From Creator to Investor",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-22",
+      "summary": "In this episode of 'The a16z Show', Jake Paul and Jeff Wu discuss the launch of Anti-Fund's $100 million growth fund, focusing on sectors like AI, defense, and software. They stress the importance of resilience and adaptability in entrepreneurship and investing, the significance of founder taste and people reading skills, and the need for education reform to enhance financial literacy. The conversation also covers the evolving media landscape, the role of attention in the digital age, and the potential of leveraging personal brands in business ventures.",
+      "key_takeaway": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 305
+    },
+    {
       "id": 319,
       "title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
       "source_type": "podcast",
@@ -118,7 +156,7 @@
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-18",
       "archived_date": null,
@@ -137,7 +175,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-18",
       "archived_date": null,
@@ -6538,8 +6576,8 @@
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-06-19",
-      "mention_count": 42,
+      "last_mentioned_date": "2026-06-22",
+      "mention_count": 43,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -6548,8 +6586,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 302,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 305,
+      "last_mentioned_speaker": "Jake Paul, Jeff Wu"
     },
     {
       "id": 162,
