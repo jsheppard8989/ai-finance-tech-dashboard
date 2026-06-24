@@ -1,5 +1,21 @@
 [
   {
+    "id": 309,
+    "podcast_name": "The a16z Show",
+    "episode_title": "What Happens to Design After AI?",
+    "episode_date": "2026-06-24",
+    "summary": "In this episode, the a16z Show explores the intersection of design and AI, discussing how designers can leverage AI tools to achieve better results, the impact of mobile technology on design quality, the future of automation in design, and the evolving concept of 'taste' in design. The conversation also touches on the rise of 'agentic experiences' and the importance of human judgment in an increasingly automated design landscape.",
+    "key_takeaways": [
+      "Designers using AI tools like Claude can achieve better results due to their specialized vocabulary and understanding of design principles.",
+      "The rise of mobile technology has made high-quality design more critical, as poor mobile experiences are less tolerated by users.",
+      "Automation in design, or 'auto design', is expected to raise the baseline quality of design work, allowing designers to focus on higher-order creative tasks.",
+      "The integration of tools like Impeccable with platforms like GitHub can enhance collaboration between designers and engineers, improving design outcomes.",
+      "The concept of 'taste' in design is evolving, with AI models approximating human taste based on vast datasets but lacking true understanding of design intent."
+    ],
+    "investment_thesis": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
+    "key_tickers": null
+  },
+  {
     "id": 308,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
@@ -120,22 +136,5 @@
       "GOOG",
       "GOOGL"
     ]
-  },
-  {
-    "id": 300,
-    "podcast_name": "Dwarkesh Podcast",
-    "episode_title": "The data black hole at the center of AI",
-    "episode_date": "2026-06-19",
-    "summary": "This podcast episode delves into the concept of sample efficiency in AI, which is a measure of how much data is required for a system to learn effectively. It discusses the current state of AI advancements, which are largely driven by the volume and quality of data rather than improvements in algorithms. The episode highlights the inefficiency of AI models compared to human learning and the potential for AI to automate white-collar work despite these inefficiencies. It also touches on the growing market for domain-specific data and the need for innovative training methodologies to improve sample efficiency.",
-    "key_takeaways": [
-      "Sample efficiency is a critical measure of intelligence, and current AI advancements are primarily driven by data volume and quality.",
-      "The data industry, particularly in expert labeling, is projected to grow significantly, indicating a substantial market for domain-specific data.",
-      "Frontier AI models require vast amounts of data, highlighting the gap in sample efficiency between AI and human learning.",
-      "Scaling AI models alone will not bridge the sample efficiency gap, suggesting a need for innovative training methodologies.",
-      "AI can automate white-collar work by processing large amounts of data, potentially augmenting rather than replacing human roles.",
-      "Investors should focus on companies that enhance data collection and processing capabilities to improve AI training efficiency."
-    ],
-    "investment_thesis": "Invest in data-centric companies that provide infrastructure for AI training and consider sectors where AI can complement human roles for future investment opportunities.",
-    "key_tickers": null
   }
 ]

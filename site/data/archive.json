@@ -1,6 +1,26 @@
 {
   "insights": [
     {
+      "id": 324,
+      "title": "What Happens to Design After AI?",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-24",
+      "summary": "In this episode, the a16z Show explores the intersection of design and AI, discussing how designers can leverage AI tools to achieve better results, the impact of mobile technology on design quality, the future of automation in design, and the evolving concept of 'taste' in design. The conversation also touches on the rise of 'agentic experiences' and the importance of human judgment in an increasingly automated design landscape.",
+      "key_takeaway": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 309
+    },
+    {
       "id": 322,
       "title": "What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
       "source_type": "podcast",
@@ -154,7 +174,7 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-19",
       "archived_date": null,

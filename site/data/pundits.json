@@ -1259,6 +1259,130 @@
     "pundit_profile": null
   },
   {
+    "id": 307,
+    "name": "Paul Beckas",
+    "slug": "paul-beckas",
+    "bio": "Paul Beckas is a design leader with expertise in leveraging AI tools in the design process. He is known for his insights on the intersection of design and AI, focusing on how AI can enhance creativity and distinctiveness in design.",
+    "known_for": "His expertise in using AI to enhance design processes and his insights on the role of AI in the future of design.",
+    "net_worth_usd": 10000000.0,
+    "net_worth_source": "https://flashpress.co.uk/paul-boukadakis-net-worth/",
+    "net_worth_updated_at": "2026-06-24T12:06:59.230967",
+    "voice_tone": "Informed and insightful",
+    "voice_style": "Analytical and forward-thinking",
+    "voice_delivery_notes": "Clear and deliberate pacing",
+    "voice_profile_updated_at": "2026-06-24 17:06:49",
+    "last_seen": "2026-06-24 17:06:49",
+    "last_episode_title": "What Happens to Design After AI?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-24",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
+    "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
+    "supporting_takeaway": "The rise of mobile technology has made high-quality design more critical, as poor mobile experiences are less tolerated by users.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-24T12:06:58.206208",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Paul Beckas",
+      "fetched_at": "2026-06-24T17:06:58.205875+00:00",
+      "cliff_notes": "Paul Beckas is a design leader with a focus on the integration of artificial intelligence into the design process. His career has been marked by a deep exploration of how AI can augment creativity and distinctiveness in design. Beckas has been influential in discussing the implications of AI on design, particularly in how it can redefine the role of designers and the nature of design itself. His work is significant in the tech and design sectors, as it addresses the challenges and opportunities presented by AI in creative fields.",
+      "derived": {
+        "current_role": "Design Leader"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Paul Beckas is a design leader with a focus on the integration of artificial intelligence into the design process. His career has been marked by a deep exploration of how AI can augment creativity and distinctiveness in design. Beckas has been influential in discussing the implications of AI on design, particularly in how it can redefine the role of designers and the nature of design itself.",
+        "His work is significant in the tech and design sectors, as it addresses the challenges and opportunities presented by AI in creative fields."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Design",
+          "body": "Paul Beckas is recognized for his work on how AI can be used to enhance the design process, making it more efficient and innovative."
+        },
+        {
+          "heading": "Distinctiveness in Design",
+          "body": "Beckas has explored the historical roots of design and how the advent of AI is changing the concept of distinctiveness and taste in design."
+        },
+        {
+          "heading": "AI and Creativity",
+          "body": "He discusses the role of AI in creativity, suggesting that while AI can generate designs, the understanding of design decisions remains a human domain."
+        },
+        {
+          "heading": "Future of Design",
+          "body": "Beckas posits that as AI becomes more prevalent, the value of instinctual design decisions will become even more critical in the face of AI-generated designs."
+        }
+      ]
+    },
+    "net_worth": "$10.0M"
+  },
+  {
+    "id": 308,
+    "name": "John Mata",
+    "slug": "john-mata",
+    "bio": "John Mata is a design thought leader who focuses on the intersection of design and AI. He is known for his insights into agentic experiences and the evolution of design in the digital age.",
+    "known_for": "His perspectives on the future of design and AI, and how they impact the way we create and experience interfaces.",
+    "net_worth_usd": 60000000.0,
+    "net_worth_source": "https://mabumbe.com/people/juan-matas-life-story-early-years-achievements-family/",
+    "net_worth_updated_at": "2026-06-24T12:07:07.709460",
+    "voice_tone": "Thought-provoking and visionary",
+    "voice_style": "Conceptual and strategic",
+    "voice_delivery_notes": "Steady and engaging",
+    "voice_profile_updated_at": "2026-06-24 17:06:49",
+    "last_seen": "2026-06-24 17:06:49",
+    "last_episode_title": "What Happens to Design After AI?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-24",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
+    "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
+    "supporting_takeaway": "The rise of mobile technology has made high-quality design more critical, as poor mobile experiences are less tolerated by users.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-24T12:07:06.672850",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "John Mata",
+      "fetched_at": "2026-06-24T17:07:06.672699+00:00",
+      "cliff_notes": "John Mata has established himself as a prominent voice in the field of design, with a particular emphasis on how artificial intelligence is reshaping the discipline. His work explores the implications of AI on design practices and the creation of user interfaces, websites, and applications. Mata's contributions to the discourse around design and AI have been influential, as he examines how the democratization of design tools through AI might affect the value and role of professional designers. His insights into the historical roots of design and its transformation in the era of abundant resources provide a unique perspective on the industry's future.",
+      "derived": {
+        "current_role": "Design Thought Leader"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "John Mata has established himself as a prominent voice in the field of design, with a particular emphasis on how artificial intelligence is reshaping the discipline. His work explores the implications of AI on design practices and the creation of user interfaces, websites, and applications. Mata's contributions to the discourse around design and AI have been influential, as he examines how the democratization of design tools through AI might affect the value and role of professional designers.",
+        "His insights into the historical roots of design and its transformation in the era of abundant resources provide a unique perspective on the industry's future."
+      ],
+      "sections": [
+        {
+          "heading": "Design and AI",
+          "body": "John Mata discusses the impact of AI on design, suggesting that as AI makes it easier to create interfaces, the role of designers may evolve to focus more on instinct and taste rather than technical execution."
+        },
+        {
+          "heading": "Agentic Experiences",
+          "body": "Mata is known for his exploration of agentic experiences, which are interactions where users feel a sense of agency and control, and how AI can enhance or complicate these experiences."
+        },
+        {
+          "heading": "Evolution of Design",
+          "body": "He provides a historical context for design, noting its origins in scarcity and distinctiveness, and speculates on how the abundance of resources and AI might change the field's direction."
+        }
+      ]
+    },
+    "net_worth": "$60.0M"
+  },
+  {
     "id": 306,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
@@ -2019,7 +2143,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -2588,7 +2712,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -2717,7 +2841,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -2783,7 +2907,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -3058,7 +3182,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -3122,7 +3246,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -3377,7 +3501,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -3441,7 +3565,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -3624,7 +3748,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -3688,7 +3812,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -4431,7 +4555,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -4497,7 +4621,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -7133,7 +7257,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",

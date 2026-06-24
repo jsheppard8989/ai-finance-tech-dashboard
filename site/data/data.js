@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-24T06:39:24.058002",
-  chartsVersion: "2026-06-24T06:39:11.474590",
+  generatedAt: "2026-06-24T12:08:35.030659",
+  chartsVersion: "2026-06-24T12:08:22.544044",
   priceSnapshot: {
   "GOOGL": {
-    "price": 346.13,
-    "change_pct": -3.52,
+    "price": 349.05,
+    "change_pct": -6.16,
     "name": "GOOGL",
-    "updated_at": "2026-06-24T06:39:11.473469"
+    "updated_at": "2026-06-24T12:08:22.543256"
   },
   "BTC": {
-    "price": 62528.33,
-    "change_pct": -1.62,
+    "price": 59719.62,
+    "change_pct": -6.04,
     "name": "BTC",
-    "updated_at": "2026-06-24T06:39:11.473493"
+    "updated_at": "2026-06-24T12:08:22.543271"
   },
   "MSFT": {
-    "price": 373.94,
-    "change_pct": -12.5,
+    "price": 372.42,
+    "change_pct": -12.99,
     "name": "MSFT",
-    "updated_at": "2026-06-24T06:39:11.473505"
+    "updated_at": "2026-06-24T12:08:22.543278"
   },
   "NVDA": {
-    "price": 200.04,
-    "change_pct": -6.74,
+    "price": 198.89,
+    "change_pct": -9.04,
     "name": "NVDA",
-    "updated_at": "2026-06-24T06:39:11.473514"
+    "updated_at": "2026-06-24T12:08:22.543284"
   },
   "AMZN": {
-    "price": 234.11,
-    "change_pct": -6.36,
+    "price": 239.52,
+    "change_pct": -5.62,
     "name": "AMZN",
-    "updated_at": "2026-06-24T06:39:11.473522"
+    "updated_at": "2026-06-24T12:08:22.543290"
   },
   "TSLA": {
-    "price": 381.61,
-    "change_pct": -9.93,
+    "price": 377.23,
+    "change_pct": -9.85,
     "name": "TSLA",
-    "updated_at": "2026-06-24T06:39:11.473530"
+    "updated_at": "2026-06-24T12:08:22.543295"
   },
   "WTI": {
-    "price": 3.33,
-    "change_pct": -16.96,
+    "price": 3.13,
+    "change_pct": -23.54,
     "name": "WTI",
-    "updated_at": "2026-06-24T06:39:11.473539"
+    "updated_at": "2026-06-24T12:08:22.543302"
   },
   "META": {
-    "price": 562.2,
-    "change_pct": -9.67,
+    "price": 558.93,
+    "change_pct": -10.85,
     "name": "META",
-    "updated_at": "2026-06-24T06:39:11.473548"
+    "updated_at": "2026-06-24T12:08:22.543308"
   },
   "S&P 500": {
-    "price": 733.58,
-    "change_pct": -2.49,
+    "price": 734.87,
+    "change_pct": -2.68,
     "name": "S&P 500",
-    "updated_at": "2026-06-24T06:39:11.473556"
+    "updated_at": "2026-06-24T12:08:22.543313"
   },
   "AAPL": {
-    "price": 294.3,
-    "change_pct": -5.14,
+    "price": 296.5,
+    "change_pct": -4.73,
     "name": "AAPL",
-    "updated_at": "2026-06-24T06:39:11.473564"
+    "updated_at": "2026-06-24T12:08:22.543319"
   },
   "QQQ": {
-    "price": 713.65,
-    "change_pct": -4.0,
+    "price": 711.64,
+    "change_pct": -3.81,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-24T06:39:11.473575"
+    "updated_at": "2026-06-24T12:08:22.543324"
   },
   "BTC-USD": {
-    "price": 62531.73,
-    "change_pct": -1.62,
+    "price": 59719.62,
+    "change_pct": -6.04,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-24T06:39:11.473587"
+    "updated_at": "2026-06-24T12:08:22.543330"
   }
 },
   tickerScores: [
@@ -834,6 +834,26 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 324,
+      "title": "What Happens to Design After AI?",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-24",
+      "summary": "In this episode, the a16z Show explores the intersection of design and AI, discussing how designers can leverage AI tools to achieve better results, the impact of mobile technology on design quality, the future of automation in design, and the evolving concept of 'taste' in design. The conversation also touches on the rise of 'agentic experiences' and the importance of human judgment in an increasingly automated design landscape.",
+      "key_takeaway": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 309
+    },
+    {
       "id": 322,
       "title": "What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
       "source_type": "podcast",
@@ -987,7 +1007,7 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-19",
       "archived_date": null,
@@ -8858,6 +8878,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 324,
+      "title": "What Happens to Design After AI?",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-24",
+      "summary": "In this episode, the a16z Show explores the intersection of design and AI, discussing how designers can leverage AI tools to achieve better results, the impact of mobile technology on design quality, the future of automation in design, and the evolving concept of 'taste' in design. The conversation also touches on the rise of 'agentic experiences' and the importance of human judgment in an increasingly automated design landscape.",
+      "key_takeaway": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 309,
+      "episode_release_date": "2026-06-24",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 322,
       "title": "What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
       "source_type": "podcast",
@@ -8978,26 +9018,6 @@ const dashboardData = {
       "podcast_episode_id": 303,
       "episode_release_date": "2026-06-20",
       "guest_name": "Jim Chanos & Val Zlatev",
-      "key_tickers": []
-    },
-    {
-      "id": 316,
-      "title": "The data black hole at the center of AI",
-      "source_type": "podcast",
-      "source_name": "Dwarkesh Podcast",
-      "source_date": "2026-06-19",
-      "summary": "This podcast episode delves into the concept of sample efficiency in AI, which is a measure of how much data is required for a system to learn effectively. It discusses the current state of AI advancements, which are largely driven by the volume and quality of data rather than improvements in algorithms. The episode highlights the inefficiency of AI models compared to human learning and the potential for AI to automate white-collar work despite these inefficiencies. It also touches on the growing market for domain-specific data and the need for innovative training methodologies to improve sample efficiency.",
-      "key_takeaway": "Invest in data-centric companies that provide infrastructure for AI training and consider sectors where AI can complement human roles for future investment opportunities.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-19",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 300,
-      "episode_release_date": "2026-06-19",
-      "guest_name": null,
       "key_tickers": []
     },
     {
@@ -28681,9 +28701,85 @@ const dashboardData = {
       "GME",
       "EBAY"
     ]
+  },
+  "324": {
+    "id": 314,
+    "insight_id": 324,
+    "podcast_episode_id": 309,
+    "overview": "The unresolved tension in the design landscape is the balance between the efficiency gains from AI-driven automation and the preservation of human creativity and taste in design. The competitive dynamic is shifting towards those who can effectively leverage AI to enhance design processes without losing the essence of human intent and quality. The metric that arbitrates this uncertainty is the user experience, particularly in mobile environments, where the stakes for design quality are high.",
+    "key_takeaways_detailed": [
+      "Invest in companies that demonstrate a strong integration of AI into their design processes, with a focus on maintaining human oversight to ensure design intent is not compromised.",
+      "Monitor the adoption of AI tools in the design industry as a leading indicator of the effectiveness of automation in raising the baseline quality of design work.",
+      "Look for companies that are investing in the training of their designers to use AI tools effectively, as this could be a differentiating factor in product development.",
+      "Consider the potential for 'agentic experiences' to redefine the design landscape, focusing on companies that are pioneering in this space to gain a competitive edge.",
+      "Evaluate the market for bespoke design solutions, as the growing consumer preference for unique design could signal a shift away from commoditized design outputs."
+    ],
+    "investment_thesis": "Investing in companies that prioritize design expertise and effectively leverage AI tools can lead to better outcomes in product development. The timeframe for this thesis is medium to long-term, as the integration of AI in design is an ongoing process. An observable development that would vindicate this thesis is a consistent increase in user satisfaction scores for companies that have adopted AI in their design processes, indicating improved design quality and user experience.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a leader in design and user experience, with a history of integrating cutting-edge technology into their products. Their commitment to design excellence makes them a relevant company in the context of AI and design.",
+        "positioning": "Positioned long-term, as Apple's continued investment in design and technology is likely to yield dividends in a mobile-first world where design quality is paramount.",
+        "risk": "Key risks include a slowdown in mobile device sales, which could impact the demand for high-quality design, and potential disruptions in the supply chain that could affect product development and release schedules."
+      },
+      "GOOGL": {
+        "rationale": "Google's extensive work in AI and machine learning positions them well to leverage these technologies in design, particularly with their suite of design tools and platforms.",
+        "positioning": "Strategic long, as Google's AI capabilities can enhance their design offerings, potentially leading to new revenue streams and market share gains.",
+        "risk": "The risk lies in the competition from other tech giants and the potential for regulatory challenges that could hinder their AI development and deployment."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that AI will not significantly improve design outcomes due to the inherent limitations in understanding human taste and context.",
+      "The possibility that the rise of 'agentic experiences' could lead to a homogenization of design, reducing the value of unique and bespoke design solutions."
+    ],
+    "catalysts": [
+      "The release of new AI tools specifically designed for designers, which could accelerate the adoption of AI in the design industry.",
+      "Major design awards or recognitions for products that leverage AI in their design process, indicating a shift in industry standards.",
+      "Regulatory developments that could either encourage or hinder the use of AI in design, affecting the pace of automation in the industry."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-24T12:07:33.653782",
+    "updated_at": "2026-06-24 17:07:33",
+    "episode_evidence": "The a16z Show episode delves into the intricate relationship between design and AI, emphasizing the unique advantage designers hold when utilizing AI tools like Claude. As Paul Beckas points out, 'Designers when using Claude... would consistently get better results... because of the language that they used.' This underscores the specialized vocabulary and deep understanding of design principles that designers possess, which engineers might lack. Furthermore, the discussion highlights the pivotal role of mobile technology in elevating the importance of design quality. John Mata reflects on the shift, stating, 'Before mobile, desktop experiences could be crappy... but mobile had high usage and therefore it was bad all the time.' This implies that the ubiquity and personal nature of mobile devices have made users less tolerant of poor design, thereby increasing the stakes for companies to deliver high-quality mobile experiences.",
+    "falsification_tracks": [
+      "If the number of AI tools adopted by designers does not increase over the next two years, it would suggest that the integration of AI in design is not as beneficial as claimed.",
+      "Should user satisfaction with mobile experiences not improve despite increased investment in design, it would challenge the necessity of high-quality design in a mobile-first world."
+    ],
+    "insight_title": "What Happens to Design After AI?",
+    "source_name": "The a16z Show",
+    "source_date": "2026-06-24",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 453,
+    "term": "Auto Design",
+    "definition": "The automation of design processes, raising the baseline quality of design work and allowing designers to focus on more complex and creative tasks.",
+    "investment_implications": "Investing in companies that develop and implement auto design tools can lead to increased efficiency and innovation in the design industry.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-06-24 17:06:49",
+    "priority_score": 80
+  },
+  {
+    "id": 454,
+    "term": "Agentic Experiences (AX)",
+    "definition": "Designing for interactions with automated systems, focusing on user experiences beyond just visual aesthetics.",
+    "investment_implications": "Investing in companies that prioritize the development of agentic experiences can lead to better user engagement and satisfaction with AI and automated systems.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-06-24 17:06:49",
+    "priority_score": 80
+  },
   {
     "id": 451,
     "term": "Live Commerce",
@@ -28707,35 +28803,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-06-24 04:40:10",
     "priority_score": 80
-  },
-  {
-    "id": 449,
-    "term": "Lethal Trifecta of AI Security Risks",
-    "definition": "The three major AI security risks include the ability to ingest untrusted data, access sensitive information, and exploit vulnerabilities.",
-    "investment_implications": "Understanding and addressing these risks is crucial for developing effective security measures in AI systems.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-06-23 04:38:03",
-    "priority_score": 80
-  },
-  {
-    "id": 450,
-    "term": "Automated Red Teaming",
-    "definition": "The use of AI models to identify and mitigate vulnerabilities in AI systems, surpassing human capabilities in effectiveness.",
-    "investment_implications": "Invest in companies that leverage automated red teaming to enhance security measures against AI vulnerabilities.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-06-23 04:38:03",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 20608,
+    "id": 20690,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -28747,7 +28819,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20609,
+    "id": 20691,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -28759,7 +28831,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20610,
+    "id": 20692,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -28771,7 +28843,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20611,
+    "id": 20693,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -28783,7 +28855,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20612,
+    "id": 20694,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -28795,7 +28867,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20613,
+    "id": 20695,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -28807,7 +28879,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 20614,
+    "id": 20696,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -28819,7 +28891,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20615,
+    "id": 20697,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -28831,7 +28903,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20616,
+    "id": 20698,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -28843,7 +28915,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20617,
+    "id": 20699,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -28855,7 +28927,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20618,
+    "id": 20700,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -28867,7 +28939,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20619,
+    "id": 20701,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -28879,7 +28951,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20620,
+    "id": 20702,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -28891,7 +28963,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20621,
+    "id": 20703,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -28903,7 +28975,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20622,
+    "id": 20704,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -28915,7 +28987,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20623,
+    "id": 20705,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -28927,7 +28999,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20624,
+    "id": 20706,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -28939,7 +29011,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20625,
+    "id": 20707,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -28951,7 +29023,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20626,
+    "id": 20708,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -28963,7 +29035,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20627,
+    "id": 20709,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -30236,6 +30308,130 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 307,
+    "name": "Paul Beckas",
+    "slug": "paul-beckas",
+    "bio": "Paul Beckas is a design leader with expertise in leveraging AI tools in the design process. He is known for his insights on the intersection of design and AI, focusing on how AI can enhance creativity and distinctiveness in design.",
+    "known_for": "His expertise in using AI to enhance design processes and his insights on the role of AI in the future of design.",
+    "net_worth_usd": 10000000.0,
+    "net_worth_source": "https://flashpress.co.uk/paul-boukadakis-net-worth/",
+    "net_worth_updated_at": "2026-06-24T12:06:59.230967",
+    "voice_tone": "Informed and insightful",
+    "voice_style": "Analytical and forward-thinking",
+    "voice_delivery_notes": "Clear and deliberate pacing",
+    "voice_profile_updated_at": "2026-06-24 17:06:49",
+    "last_seen": "2026-06-24 17:06:49",
+    "last_episode_title": "What Happens to Design After AI?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-24",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
+    "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
+    "supporting_takeaway": "The rise of mobile technology has made high-quality design more critical, as poor mobile experiences are less tolerated by users.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-24T12:06:58.206208",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Paul Beckas",
+      "fetched_at": "2026-06-24T17:06:58.205875+00:00",
+      "cliff_notes": "Paul Beckas is a design leader with a focus on the integration of artificial intelligence into the design process. His career has been marked by a deep exploration of how AI can augment creativity and distinctiveness in design. Beckas has been influential in discussing the implications of AI on design, particularly in how it can redefine the role of designers and the nature of design itself. His work is significant in the tech and design sectors, as it addresses the challenges and opportunities presented by AI in creative fields.",
+      "derived": {
+        "current_role": "Design Leader"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Paul Beckas is a design leader with a focus on the integration of artificial intelligence into the design process. His career has been marked by a deep exploration of how AI can augment creativity and distinctiveness in design. Beckas has been influential in discussing the implications of AI on design, particularly in how it can redefine the role of designers and the nature of design itself.",
+        "His work is significant in the tech and design sectors, as it addresses the challenges and opportunities presented by AI in creative fields."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Design",
+          "body": "Paul Beckas is recognized for his work on how AI can be used to enhance the design process, making it more efficient and innovative."
+        },
+        {
+          "heading": "Distinctiveness in Design",
+          "body": "Beckas has explored the historical roots of design and how the advent of AI is changing the concept of distinctiveness and taste in design."
+        },
+        {
+          "heading": "AI and Creativity",
+          "body": "He discusses the role of AI in creativity, suggesting that while AI can generate designs, the understanding of design decisions remains a human domain."
+        },
+        {
+          "heading": "Future of Design",
+          "body": "Beckas posits that as AI becomes more prevalent, the value of instinctual design decisions will become even more critical in the face of AI-generated designs."
+        }
+      ]
+    },
+    "net_worth": "$10.0M"
+  },
+  {
+    "id": 308,
+    "name": "John Mata",
+    "slug": "john-mata",
+    "bio": "John Mata is a design thought leader who focuses on the intersection of design and AI. He is known for his insights into agentic experiences and the evolution of design in the digital age.",
+    "known_for": "His perspectives on the future of design and AI, and how they impact the way we create and experience interfaces.",
+    "net_worth_usd": 60000000.0,
+    "net_worth_source": "https://mabumbe.com/people/juan-matas-life-story-early-years-achievements-family/",
+    "net_worth_updated_at": "2026-06-24T12:07:07.709460",
+    "voice_tone": "Thought-provoking and visionary",
+    "voice_style": "Conceptual and strategic",
+    "voice_delivery_notes": "Steady and engaging",
+    "voice_profile_updated_at": "2026-06-24 17:06:49",
+    "last_seen": "2026-06-24 17:06:49",
+    "last_episode_title": "What Happens to Design After AI?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-24",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
+    "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
+    "supporting_takeaway": "The rise of mobile technology has made high-quality design more critical, as poor mobile experiences are less tolerated by users.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-24T12:07:06.672850",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "John Mata",
+      "fetched_at": "2026-06-24T17:07:06.672699+00:00",
+      "cliff_notes": "John Mata has established himself as a prominent voice in the field of design, with a particular emphasis on how artificial intelligence is reshaping the discipline. His work explores the implications of AI on design practices and the creation of user interfaces, websites, and applications. Mata's contributions to the discourse around design and AI have been influential, as he examines how the democratization of design tools through AI might affect the value and role of professional designers. His insights into the historical roots of design and its transformation in the era of abundant resources provide a unique perspective on the industry's future.",
+      "derived": {
+        "current_role": "Design Thought Leader"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "John Mata has established himself as a prominent voice in the field of design, with a particular emphasis on how artificial intelligence is reshaping the discipline. His work explores the implications of AI on design practices and the creation of user interfaces, websites, and applications. Mata's contributions to the discourse around design and AI have been influential, as he examines how the democratization of design tools through AI might affect the value and role of professional designers.",
+        "His insights into the historical roots of design and its transformation in the era of abundant resources provide a unique perspective on the industry's future."
+      ],
+      "sections": [
+        {
+          "heading": "Design and AI",
+          "body": "John Mata discusses the impact of AI on design, suggesting that as AI makes it easier to create interfaces, the role of designers may evolve to focus more on instinct and taste rather than technical execution."
+        },
+        {
+          "heading": "Agentic Experiences",
+          "body": "Mata is known for his exploration of agentic experiences, which are interactions where users feel a sense of agency and control, and how AI can enhance or complicate these experiences."
+        },
+        {
+          "heading": "Evolution of Design",
+          "body": "He provides a historical context for design, noting its origins in scarcity and distinctiveness, and speculates on how the abundance of resources and AI might change the field's direction."
+        }
+      ]
+    },
+    "net_worth": "$60.0M"
+  },
+  {
     "id": 306,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
@@ -30996,7 +31192,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -31565,7 +31761,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -31694,7 +31890,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -31760,7 +31956,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -32035,7 +32231,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -32099,7 +32295,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -32354,7 +32550,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -32418,7 +32614,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -32601,7 +32797,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -32665,7 +32861,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -33408,7 +33604,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -33474,7 +33670,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -36110,7 +36306,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
