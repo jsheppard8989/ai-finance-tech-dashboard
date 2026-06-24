@@ -20,6 +20,26 @@
       "podcast_episode_id": 307
     },
     {
+      "id": 323,
+      "title": "GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-23",
+      "summary": "In this episode, Ryan Cohen discusses his investment strategy and operational turnaround at GameStop, emphasizing the shift towards collectibles and the potential acquisition of eBay. Cohen highlights the importance of operational efficiency, particularly in negotiating supplier contracts and managing inventory. He also stresses the significance of hiring driven individuals to foster a high-performance culture. The conversation touches on live commerce as a growth opportunity for eBay and the untapped potential of the digital collectibles market.",
+      "key_takeaway": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
+      "tickers_mentioned": [
+        "GME",
+        "EBAY"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-23",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 308
+    },
+    {
       "id": 320,
       "title": "Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
       "source_type": "podcast",
@@ -111,7 +131,7 @@
         "AMZN"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-19",
       "archived_date": null,

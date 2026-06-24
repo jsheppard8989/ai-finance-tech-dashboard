@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-23T22:03:52.035255",
-  chartsVersion: "2026-06-23T22:03:33.912627",
+  generatedAt: "2026-06-23T23:41:52.812800",
+  chartsVersion: "2026-06-23T23:41:47.121924",
   priceSnapshot: {
   "GOOGL": {
     "price": 346.13,
     "change_pct": -3.52,
     "name": "GOOGL",
-    "updated_at": "2026-06-23T22:03:33.911498"
+    "updated_at": "2026-06-23T23:41:47.121137"
   },
   "BTC": {
-    "price": 62560.72,
-    "change_pct": -1.57,
+    "price": 62587.99,
+    "change_pct": -1.53,
     "name": "BTC",
-    "updated_at": "2026-06-23T22:03:33.911518"
+    "updated_at": "2026-06-23T23:41:47.121153"
   },
   "MSFT": {
     "price": 373.94,
     "change_pct": -12.5,
     "name": "MSFT",
-    "updated_at": "2026-06-23T22:03:33.911527"
+    "updated_at": "2026-06-23T23:41:47.121160"
   },
   "NVDA": {
     "price": 200.04,
     "change_pct": -6.74,
     "name": "NVDA",
-    "updated_at": "2026-06-23T22:03:33.911535"
+    "updated_at": "2026-06-23T23:41:47.121166"
   },
   "AMZN": {
     "price": 234.11,
     "change_pct": -6.36,
     "name": "AMZN",
-    "updated_at": "2026-06-23T22:03:33.911542"
+    "updated_at": "2026-06-23T23:41:47.121172"
   },
   "TSLA": {
     "price": 381.61,
     "change_pct": -9.93,
     "name": "TSLA",
-    "updated_at": "2026-06-23T22:03:33.911549"
+    "updated_at": "2026-06-23T23:41:47.121177"
   },
   "WTI": {
     "price": 3.33,
     "change_pct": -16.96,
     "name": "WTI",
-    "updated_at": "2026-06-23T22:03:33.911558"
+    "updated_at": "2026-06-23T23:41:47.121184"
   },
   "META": {
     "price": 562.2,
     "change_pct": -9.67,
     "name": "META",
-    "updated_at": "2026-06-23T22:03:33.911566"
+    "updated_at": "2026-06-23T23:41:47.121189"
   },
   "S&P 500": {
     "price": 733.58,
     "change_pct": -2.49,
     "name": "S&P 500",
-    "updated_at": "2026-06-23T22:03:33.911573"
+    "updated_at": "2026-06-23T23:41:47.121195"
   },
   "AAPL": {
     "price": 294.3,
     "change_pct": -5.14,
     "name": "AAPL",
-    "updated_at": "2026-06-23T22:03:33.911581"
+    "updated_at": "2026-06-23T23:41:47.121200"
   },
   "QQQ": {
     "price": 713.65,
     "change_pct": -4.0,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-23T22:03:33.911589"
+    "updated_at": "2026-06-23T23:41:47.121205"
   },
   "BTC-USD": {
-    "price": 62560.72,
-    "change_pct": -1.57,
+    "price": 62587.99,
+    "change_pct": -1.53,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-23T22:03:33.911597"
+    "updated_at": "2026-06-23T23:41:47.121212"
   }
 },
   tickerScores: [
@@ -576,7 +576,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SAMSUNG ELECTRONICS",
+    "ticker": "EBAY",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -591,7 +591,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SK HYNIX",
+    "ticker": "SAMSUNG ELECTRONICS",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -606,7 +606,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SMH",
+    "ticker": "SK HYNIX",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -621,7 +621,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "WORK",
+    "ticker": "SMH",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -636,7 +636,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ZEN",
+    "ticker": "WORK",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -651,14 +651,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ARBOB GASOLINE",
-    "total_score": 70.0,
+    "ticker": "ZEN",
+    "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 39,
-    "score": 70.0,
+    "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -666,7 +666,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "E-TORO",
+    "ticker": "ARBOB GASOLINE",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -681,7 +681,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "EMAX",
+    "ticker": "E-TORO",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -696,7 +696,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "NOW",
+    "ticker": "EMAX",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -711,7 +711,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PANW",
+    "ticker": "NOW",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -726,7 +726,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SMP-500",
+    "ticker": "PANW",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -741,7 +741,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SPCE",
+    "ticker": "SMP-500",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -756,14 +756,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRM",
-    "total_score": 68.0,
+    "ticker": "SPCE",
+    "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 46,
-    "score": 68.0,
+    "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -771,7 +771,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "MINE",
+    "ticker": "CRM",
     "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -786,14 +786,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ETH",
-    "total_score": 66.0,
+    "ticker": "MINE",
+    "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 48,
-    "score": 66.0,
+    "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -801,7 +801,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ILMN",
+    "ticker": "ETH",
     "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -816,7 +816,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PLTR",
+    "ticker": "ILMN",
     "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -851,6 +851,26 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 307
+    },
+    {
+      "id": 323,
+      "title": "GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-23",
+      "summary": "In this episode, Ryan Cohen discusses his investment strategy and operational turnaround at GameStop, emphasizing the shift towards collectibles and the potential acquisition of eBay. Cohen highlights the importance of operational efficiency, particularly in negotiating supplier contracts and managing inventory. He also stresses the significance of hiring driven individuals to foster a high-performance culture. The conversation touches on live commerce as a growth opportunity for eBay and the untapped potential of the digital collectibles market.",
+      "key_takeaway": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
+      "tickers_mentioned": [
+        "GME",
+        "EBAY"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-23",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 308
     },
     {
       "id": 320,
@@ -944,7 +964,7 @@ const dashboardData = {
         "AMZN"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-19",
       "archived_date": null,
@@ -8858,6 +8878,29 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 323,
+      "title": "GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-23",
+      "summary": "In this episode, Ryan Cohen discusses his investment strategy and operational turnaround at GameStop, emphasizing the shift towards collectibles and the potential acquisition of eBay. Cohen highlights the importance of operational efficiency, particularly in negotiating supplier contracts and managing inventory. He also stresses the significance of hiring driven individuals to foster a high-performance culture. The conversation touches on live commerce as a growth opportunity for eBay and the untapped potential of the digital collectibles market.",
+      "key_takeaway": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
+      "tickers_mentioned": "[\"GME\", \"EBAY\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-23",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 308,
+      "episode_release_date": "2026-06-23",
+      "guest_name": "Ryan Cohen",
+      "key_tickers": [
+        "GME",
+        "EBAY"
+      ]
+    },
+    {
       "id": 320,
       "title": "Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
       "source_type": "podcast",
@@ -8935,26 +8978,6 @@ const dashboardData = {
       "podcast_episode_id": 303,
       "episode_release_date": "2026-06-20",
       "guest_name": "Jim Chanos & Val Zlatev",
-      "key_tickers": []
-    },
-    {
-      "id": 315,
-      "title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-06-19",
-      "summary": "This episode discusses the transformation of media and its impact on how founders communicate with their audiences. It emphasizes the importance of authenticity, crafting compelling messages, and situating a company's story within broader societal contexts. The discussion highlights the rise of direct communication through social media and other new media platforms, allowing founders to bypass traditional gatekeepers and build personal brands. The insights provided focus on the need for storytelling skills within companies and the strategic engagement with criticism to enhance brand visibility.",
-      "key_takeaway": "The shift to new media platforms offers founders the opportunity to build personal brands and communicate directly with audiences, which can enhance a company's visibility and credibility.",
-      "tickers_mentioned": "[\"AAPL\", \"TSLA\", \"META\", \"GOOGL\", \"AMZN\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-19",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 301,
-      "episode_release_date": "2026-06-19",
-      "guest_name": "This episode",
       "key_tickers": []
     },
     {
@@ -28599,9 +28622,92 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-06-23",
     "key_tickers": []
+  },
+  "323": {
+    "id": 313,
+    "insight_id": 323,
+    "podcast_episode_id": 308,
+    "overview": "The unresolved tension in Ryan Cohen's strategy revolves around the ability to successfully execute a turnaround at GameStop and eBay, focusing on operational efficiency and market expansion into collectibles and live commerce. The competitive dynamic is between Cohen's vision for these companies and the current market perception, which often views GameStop as a 'meme stock.' What converts belief in Cohen's strategy is the tangible proof of operational improvements, successful market expansion, and the realization of synergies from potential acquisitions.",
+    "key_takeaways_detailed": [
+      "Investors should monitor GameStop's and eBay's supplier contract negotiations and inventory management as indicators of operational efficiency.",
+      "The success of GameStop's collectibles pivot should be evaluated by tracking revenue growth and market share in this niche segment.",
+      "Management engagement at GameStop and eBay should be assessed by observing changes in employee motivation and company culture.",
+      "Investors should analyze eBay's live commerce initiatives for customer engagement and sales growth potential.",
+      "The development of the digital collectibles market should be watched for its impact on eBay's revenue streams and competitive positioning."
+    ],
+    "investment_thesis": "Cohen's investment thesis is that by focusing on operational efficiency, cost optimization, and leveraging the growing collectibles market, GameStop and eBay can drive profitability and shareholder value. This thesis is vindicated if GameStop's collectibles revenue continues to grow, eBay's live commerce initiatives are successful, and the digital collectibles market expands as anticipated. Conversely, it would be invalidated by a failure to reduce operating expenses, stagnation in the collectibles market, or a lack of growth in live commerce and digital collectibles.",
+    "ticker_analysis": {
+      "GME": {
+        "rationale": "GameStop is central to Cohen's strategy, making it a key investment to monitor for operational turnaround and market expansion.",
+        "positioning": "A long position in GME could be strategic, betting on the success of Cohen's operational and market expansion efforts.",
+        "risk": "Key risks include failure to meet revenue projections in the collectibles market and operational inefficiencies that could lead to increased expenses."
+      },
+      "EBAY": {
+        "rationale": "As a potential acquisition target, eBay's performance and market positioning are critical to Cohen's strategy.",
+        "positioning": "Investors might consider a long position in eBay if they believe in the potential for synergies with GameStop and growth in live commerce.",
+        "risk": "The risk lies in eBay's ability to adapt to live commerce and digital collectibles, and the potential for the acquisition to not materialize or underperform."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The market may continue to view GameStop as a 'meme stock' rather than recognizing its operational turnaround and market expansion efforts.",
+      "EBay's current management may resist change, potentially hindering the success of Cohen's strategic vision.",
+      "There is skepticism around the growth potential of the digital collectibles market, which could impact investor confidence in Cohen's strategy."
+    ],
+    "catalysts": [
+      "GameStop's next earnings report, which could provide evidence of the success of its collectibles pivot and operational efficiency.",
+      "Any announcements regarding eBay's live commerce initiatives and their impact on customer engagement and sales.",
+      "Developments in the digital collectibles market, including partnerships or new platforms that could indicate growth.",
+      "Progress on the potential acquisition of eBay, including any negotiations or shareholder reactions."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-23T23:40:59.896267",
+    "updated_at": "2026-06-24 04:40:59",
+    "episode_evidence": "Ryan Cohen's strategic vision for GameStop and eBay is grounded in operational efficiency and market expansion. He emphasizes the importance of 'pennies in the red is failure and... pennies in the black is success,' highlighting the razor-thin margins in retail and the necessity for cost optimization. Cohen's experience at Chewy has taught him the art of fierce supplier negotiations, which he applies to GameStop to reduce operating expenses. The collectibles market, now accounting for '42% of revenue... $350 million in Q1 revenue,' is a strategic pivot that leverages GameStop's existing infrastructure. Cohen's approach to management is to hire 'diehards that are just willing to put everything in,' prioritizing will over skill, which is crucial for a high-performance culture in a turnaround scenario.",
+    "falsification_tracks": [
+      "Should GameStop's collectibles revenue fail to meet the projected growth, it would challenge Cohen's strategic shift towards this market segment.",
+      "A sustained increase in operating expenses at GameStop would undermine Cohen's operational efficiency claims.",
+      "Failure to integrate eBay's live commerce capabilities successfully would reduce the potential synergies from the acquisition.",
+      "If eBay's digital collectibles market does not develop as anticipated, it would diminish the potential for significant growth in this area."
+    ],
+    "insight_title": "GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-06-23",
+    "key_tickers": [
+      "GME",
+      "EBAY"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 451,
+    "term": "Live Commerce",
+    "definition": "A form of e-commerce that involves live streaming video to showcase products and engage with customers in real-time.",
+    "investment_implications": "Live commerce can enhance customer engagement and drive sales, presenting a significant growth opportunity for e-commerce platforms.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-06-24 04:40:10",
+    "priority_score": 80
+  },
+  {
+    "id": 452,
+    "term": "Digital Collectibles Market",
+    "definition": "A market for digital assets and collectibles, such as in-game items and virtual goods.",
+    "investment_implications": "The digital collectibles market is largely untapped and presents a significant growth opportunity for e-commerce companies.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-06-24 04:40:10",
+    "priority_score": 80
+  },
   {
     "id": 449,
     "term": "Lethal Trifecta of AI Security Risks",
@@ -28625,35 +28731,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-06-23 04:38:03",
     "priority_score": 80
-  },
-  {
-    "id": 447,
-    "term": "Attention Economy",
-    "definition": "The competition for audience attention in a world where information and content are abundant, and attention is scarce.",
-    "investment_implications": "Investors should consider how companies capture and maintain audience attention as a key differentiator.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-06-23 04:36:21",
-    "priority_score": 80
-  },
-  {
-    "id": 448,
-    "term": "Education Reform",
-    "definition": "The process of making significant changes to the education system to better prepare students for the modern economy and financial literacy.",
-    "investment_implications": "Investing in educational startups that innovate and improve financial literacy can drive economic growth.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-06-23 04:36:21",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 20363,
+    "id": 20444,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -28665,7 +28747,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20364,
+    "id": 20445,
+    "name": "Ryan Cohen",
+    "slug": "ryan-cohen",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
+    "last_episode_title": "GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-06-23",
+    "appearance_count": 1
+  },
+  {
+    "id": 20446,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -28677,7 +28771,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20365,
+    "id": 20447,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -28689,7 +28783,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20366,
+    "id": 20448,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -28701,7 +28795,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20367,
+    "id": 20449,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -28713,7 +28807,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 20368,
+    "id": 20450,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -28725,7 +28819,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20369,
+    "id": 20451,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -28737,7 +28831,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20370,
+    "id": 20452,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -28749,7 +28843,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20371,
+    "id": 20453,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -28761,7 +28855,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20372,
+    "id": 20454,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -28773,7 +28867,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20373,
+    "id": 20455,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -28785,7 +28879,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20374,
+    "id": 20456,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -28797,7 +28891,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20375,
+    "id": 20457,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -28809,7 +28903,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20376,
+    "id": 20458,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -28821,7 +28915,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20377,
+    "id": 20459,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -28833,7 +28927,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20378,
+    "id": 20460,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -28845,7 +28939,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20379,
+    "id": 20461,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -28857,7 +28951,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20380,
+    "id": 20462,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -28869,7 +28963,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20381,
+    "id": 20463,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -28877,18 +28971,6 @@ const dashboardData = {
     "last_main_idea": "Invest in AI leaders and monitor Unicorn liquidity events for potential high returns, while considering the power law effect in market dynamics.",
     "last_episode_title": "Thomas Laffont: The $4T AI IPO Wave, 2026's Unicorn Economy, and the 10X Paradox",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-06-04",
-    "appearance_count": 1
-  },
-  {
-    "id": 20382,
-    "name": "Reality",
-    "slug": "reality",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in AI-driven business management and automation companies, while advocating for ethical guidelines and real-world testing of AI capabilities.",
-    "last_episode_title": "Reality: The Final Eval \u2014 Lukas Petersson and Axel Backlund of Andon Labs",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-04",
     "appearance_count": 1
   }
@@ -29100,7 +29182,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 1.74,
+    "mention_score_decayed": 1.7,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -30154,6 +30236,72 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 306,
+    "name": "Ryan Cohen",
+    "slug": "ryan-cohen",
+    "bio": "Ryan Cohen is an American businessman and investor known for his role in the GameStop short squeeze and his investment in the company. He is recognized for his efforts in turning around the company's operations and challenging traditional retail models.",
+    "known_for": "His investment and operational turnaround of GameStop, leading to a significant impact on the stock market and retail industry.",
+    "net_worth_usd": 809000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/170417/ryan-cohen",
+    "net_worth_updated_at": "2026-06-23T23:40:25.828199",
+    "voice_tone": "Confident and assertive",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Clear and concise with emphasis on key points",
+    "voice_profile_updated_at": "2026-06-24 04:40:10",
+    "last_seen": "2026-06-24 04:40:10",
+    "last_episode_title": "GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-06-23",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-23 \u2022 GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
+    "last_proof_snippet": "Everyone hates GameStop and it seems like everyone in the media basically wants us to fail and wants them to succeed and you've got a board that's making hundreds of thousands of dollars a year and they don't buy stock with their own money.",
+    "supporting_takeaway": "GameStop's pivot to collectibles has been successful, with collectibles now accounting for 42% of its revenue.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-23T23:40:24.750964",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ryan Cohen",
+      "fetched_at": "2026-06-24T04:40:24.750617+00:00",
+      "cliff_notes": "Ryan Cohen is an American entrepreneur and investor who co-founded Chewy, an online pet food and products retailer, which was later sold to PetSmart for $3.35 billion. His investment in GameStop and subsequent involvement in the company's operations led to a significant impact on the stock market, particularly the short squeeze phenomenon. Cohen's approach to business and investment has challenged traditional retail models and has influenced the way investors view and interact with the market. As the CEO of App Loven, Cohen continues to innovate in the e-commerce space, leveraging his experience to drive growth and profitability.",
+      "derived": {
+        "current_role": "Co-founder and CEO of App Loven",
+        "former_positions": "Co-founder and CEO of Chewy; Board member of GameStop",
+        "boards": "GameStop"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Ryan Cohen is an American entrepreneur and investor who co-founded Chewy, an online pet food and products retailer, which was later sold to PetSmart for $3.35 billion. His investment in GameStop and subsequent involvement in the company's operations led to a significant impact on the stock market, particularly the short squeeze phenomenon.",
+        "Cohen's approach to business and investment has challenged traditional retail models and has influenced the way investors view and interact with the market. As the CEO of App Loven, Cohen continues to innovate in the e-commerce space, leveraging his experience to drive growth and profitability."
+      ],
+      "sections": [
+        {
+          "heading": "GameStop Short Squeeze",
+          "body": "Cohen played a pivotal role in the GameStop short squeeze, which saw the stock price surge dramatically due to a large number of short sellers being forced to buy back the stock, causing a short squeeze."
+        },
+        {
+          "heading": "Investment Strategy",
+          "body": "Ryan Cohen is known for his unconventional investment strategies that have disrupted traditional markets, particularly in the case of GameStop, where his actions led to significant market volatility."
+        },
+        {
+          "heading": "Chewy Co-founder",
+          "body": "Cohen co-founded Chewy, an online retailer for pet food and products, which became one of the largest e-commerce platforms in its category before being acquired by PetSmart."
+        },
+        {
+          "heading": "App Loven CEO",
+          "body": "As the CEO of App Loven, Cohen is leveraging his e-commerce expertise to create a platform that optimizes advertising within mobile games, reaching a vast audience and driving profitability for advertisers."
+        }
+      ]
+    },
+    "net_worth": "$809.0M"
+  },
+  {
     "id": 305,
     "name": "Josh Elman",
     "slug": "josh-elman",
@@ -30235,7 +30383,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-22 \u2022 Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
     "last_proof_snippet": "Okay, we're here in a studio with Grace One, Matt and Zico welcome. Great to be here. Yeah. Thanks for having us. You're visiting from Pittsburgh? That's right. The home of all good computer science, I don't know if I'm oversteaving things.",
@@ -30298,7 +30446,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -30362,7 +30510,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -30421,7 +30569,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -30480,7 +30628,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -30545,7 +30693,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -30608,7 +30756,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -30974,7 +31122,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -31822,7 +31970,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -32014,7 +32162,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
@@ -34955,7 +35103,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -35391,7 +35539,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -35771,7 +35919,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
     "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
@@ -36088,7 +36236,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-15 \u2022 Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
     "last_proof_snippet": "The company's revenue grew from $2.5 million to $250 million in just over a year, demonstrating the potential of AI in software development.",
@@ -36152,7 +36300,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-14 \u2022 \"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
     "last_proof_snippet": "Investing with a long-term perspective involves considering macroeconomic factors and their impact on smaller companies.",
@@ -36275,7 +36423,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
@@ -37895,7 +38043,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-27 \u2022 Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
     "last_proof_snippet": "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",

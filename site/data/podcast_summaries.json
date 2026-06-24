@@ -1,5 +1,24 @@
 [
   {
+    "id": 308,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
+    "episode_date": "2026-06-23",
+    "summary": "In this episode, Ryan Cohen discusses his investment strategy and operational turnaround at GameStop, emphasizing the shift towards collectibles and the potential acquisition of eBay. Cohen highlights the importance of operational efficiency, particularly in negotiating supplier contracts and managing inventory. He also stresses the significance of hiring driven individuals to foster a high-performance culture. The conversation touches on live commerce as a growth opportunity for eBay and the untapped potential of the digital collectibles market.",
+    "key_takeaways": [
+      "Operational efficiency is crucial in low-margin businesses like retail, impacting profitability significantly.",
+      "GameStop's pivot to collectibles has been successful, with collectibles now accounting for 42% of its revenue.",
+      "Management engagement is vital for driving innovation and operational success, especially in turnaround situations.",
+      "Live commerce presents a significant growth opportunity for eBay, leveraging its existing user base and infrastructure.",
+      "The digital collectibles market is largely untapped and presents a significant growth opportunity for e-commerce companies."
+    ],
+    "investment_thesis": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
+    "key_tickers": [
+      "GME",
+      "EBAY"
+    ]
+  },
+  {
     "id": 307,
     "podcast_name": "The a16z Show",
     "episode_title": "What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
@@ -101,22 +120,6 @@
       "GOOG",
       "GOOGL"
     ]
-  },
-  {
-    "id": 301,
-    "podcast_name": "The a16z Show",
-    "episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
-    "episode_date": "2026-06-19",
-    "summary": "This episode discusses the transformation of media and its impact on how founders communicate with their audiences. It emphasizes the importance of authenticity, crafting compelling messages, and situating a company's story within broader societal contexts. The discussion highlights the rise of direct communication through social media and other new media platforms, allowing founders to bypass traditional gatekeepers and build personal brands. The insights provided focus on the need for storytelling skills within companies and the strategic engagement with criticism to enhance brand visibility.",
-    "key_takeaways": [
-      "Founders can communicate directly with audiences through new media platforms.",
-      "Authenticity in communication is more resonant than rehearsed responses.",
-      "A strong message is crucial before considering distribution strategies.",
-      "Engaging with criticism can be an opportunity for brand building.",
-      "Storytelling is a core skill for engaging audiences and differentiating a brand."
-    ],
-    "investment_thesis": "The shift to new media platforms offers founders the opportunity to build personal brands and communicate directly with audiences, which can enhance a company's visibility and credibility.",
-    "key_tickers": null
   },
   {
     "id": 300,
