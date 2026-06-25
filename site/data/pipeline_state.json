@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-25T12:06:39.104571",
-  "last_updated": "2026-06-25T12:06:39.104571",
-  "last_pipeline_run": "2026-06-25T12:06:39.104571",
+  "generated_at": "2026-06-25T13:38:41.971294",
+  "last_updated": "2026-06-25T13:38:41.971294",
+  "last_pipeline_run": "2026-06-25T13:38:41.971294",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -18,32 +18,14 @@
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 3,
-    "transcribed": 3,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 3
+    "downloaded": 2,
+    "transcribed": 2,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 2
   },
   "episodes": [
-    {
-      "id": "afc7f7df-6509-4a55-9135-5b0ae3d07b7e",
-      "podcast": "The a16z Show",
-      "title": "Marc Andreessen on AI, Technology, and the Future of Humanity",
-      "published": "2026-06-25",
-      "rss_guid": "afc7f7df-6509-4a55-9135-5b0ae3d07b7e",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "916c5e0a-b2ab-4935-ae27-7dc4eeb8612a",
       "podcast": "The a16z Show",

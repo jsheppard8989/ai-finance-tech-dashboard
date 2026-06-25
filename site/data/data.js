@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-25T12:06:49.238025",
-  chartsVersion: "2026-06-25T12:06:37.451588",
+  generatedAt: "2026-06-25T13:38:51.046091",
+  chartsVersion: "2026-06-25T13:38:40.429852",
   priceSnapshot: {
   "GOOGL": {
-    "price": 340.95,
-    "change_pct": -7.43,
+    "price": 342.32,
+    "change_pct": -7.06,
     "name": "GOOGL",
-    "updated_at": "2026-06-25T12:06:37.451163"
+    "updated_at": "2026-06-25T13:38:40.429361"
   },
   "BTC": {
-    "price": 59064.02,
-    "change_pct": -7.05,
+    "price": 59329.21,
+    "change_pct": -6.63,
     "name": "BTC",
-    "updated_at": "2026-06-25T12:06:37.451174"
+    "updated_at": "2026-06-25T13:38:40.429370"
   },
   "MSFT": {
-    "price": 351.04,
-    "change_pct": -15.75,
+    "price": 356.88,
+    "change_pct": -14.35,
     "name": "MSFT",
-    "updated_at": "2026-06-25T12:06:37.451178"
+    "updated_at": "2026-06-25T13:38:40.429375"
   },
   "NVDA": {
-    "price": 194.59,
-    "change_pct": -5.12,
+    "price": 195.05,
+    "change_pct": -4.9,
     "name": "NVDA",
-    "updated_at": "2026-06-25T12:06:37.451181"
+    "updated_at": "2026-06-25T13:38:40.429378"
   },
   "AMZN": {
-    "price": 227.85,
-    "change_pct": -7.39,
+    "price": 229.73,
+    "change_pct": -6.63,
     "name": "AMZN",
-    "updated_at": "2026-06-25T12:06:37.451184"
+    "updated_at": "2026-06-25T13:38:40.429381"
   },
   "TSLA": {
-    "price": 373.18,
-    "change_pct": -4.56,
+    "price": 374.54,
+    "change_pct": -4.21,
     "name": "TSLA",
-    "updated_at": "2026-06-25T12:06:37.451188"
+    "updated_at": "2026-06-25T13:38:40.429384"
   },
   "WTI": {
-    "price": 3.18,
-    "change_pct": -13.92,
+    "price": 3.2,
+    "change_pct": -13.51,
     "name": "WTI",
-    "updated_at": "2026-06-25T12:06:37.451191"
+    "updated_at": "2026-06-25T13:38:40.429388"
   },
   "META": {
-    "price": 544.74,
-    "change_pct": -8.05,
+    "price": 547.12,
+    "change_pct": -7.65,
     "name": "META",
-    "updated_at": "2026-06-25T12:06:37.451195"
+    "updated_at": "2026-06-25T13:38:40.429390"
   },
   "S&P 500": {
-    "price": 732.33,
-    "change_pct": -0.45,
+    "price": 734.42,
+    "change_pct": -0.17,
     "name": "S&P 500",
-    "updated_at": "2026-06-25T12:06:37.451198"
+    "updated_at": "2026-06-25T13:38:40.429393"
   },
   "AAPL": {
-    "price": 276.75,
-    "change_pct": -9.95,
+    "price": 280.1,
+    "change_pct": -8.86,
     "name": "AAPL",
-    "updated_at": "2026-06-25T12:06:37.451201"
+    "updated_at": "2026-06-25T13:38:40.429396"
   },
   "QQQ": {
-    "price": 714.6,
-    "change_pct": 1.46,
+    "price": 717.29,
+    "change_pct": 1.85,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-25T12:06:37.451205"
+    "updated_at": "2026-06-25T13:38:40.429399"
   },
   "BTC-USD": {
-    "price": 59064.02,
-    "change_pct": -7.05,
+    "price": 59329.21,
+    "change_pct": -6.63,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-25T12:06:37.451208"
+    "updated_at": "2026-06-25T13:38:40.429402"
   }
 },
   tickerScores: [
@@ -29049,7 +29049,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 21182,
+    "id": 21264,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -29061,7 +29061,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21183,
+    "id": 21265,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -29073,7 +29073,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21184,
+    "id": 21266,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -29085,7 +29085,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21185,
+    "id": 21267,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -29097,7 +29097,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21186,
+    "id": 21268,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -29109,7 +29109,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21187,
+    "id": 21269,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -29121,7 +29121,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 21188,
+    "id": 21270,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -29133,7 +29133,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21189,
+    "id": 21271,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -29145,7 +29145,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21190,
+    "id": 21272,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -29157,7 +29157,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21191,
+    "id": 21273,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -29169,7 +29169,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21192,
+    "id": 21274,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -29181,7 +29181,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21193,
+    "id": 21275,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -29193,7 +29193,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21194,
+    "id": 21276,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -29205,7 +29205,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21195,
+    "id": 21277,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -29217,7 +29217,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21196,
+    "id": 21278,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -29229,7 +29229,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21197,
+    "id": 21279,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -29241,7 +29241,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21198,
+    "id": 21280,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -29253,7 +29253,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21199,
+    "id": 21281,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -29265,7 +29265,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21200,
+    "id": 21282,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -29277,7 +29277,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21201,
+    "id": 21283,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -29618,7 +29618,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 1.26,
+    "mention_score_decayed": 1.23,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -29756,7 +29756,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.12,
+    "mention_score_decayed": 1.1,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -29944,7 +29944,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -30627,7 +30627,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -30691,7 +30691,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -30817,7 +30817,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-23 \u2022 What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
     "last_proof_snippet": "Right now AI has been so much about productivity, job replacement, work replacement and I think we have a moment to shift that, which is how does these new tools help you get more out of your own day and your own life and the things you wan",
@@ -31684,7 +31684,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-15 \u2022 AI, Design, and the Power of Open Models",
     "last_proof_snippet": "It's not about how good a model is in the general sense. It's about how good is this model for my use case, for a lot of design and marketing use case says they need editable design, not a single flat image. It's super impressive, honestly,",
@@ -31868,7 +31868,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -31936,7 +31936,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -32127,7 +32127,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -32321,7 +32321,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -32408,7 +32408,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -33034,7 +33034,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -33344,7 +33344,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -33408,7 +33408,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -33471,7 +33471,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -34533,7 +34533,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -34596,7 +34596,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -34784,7 +34784,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
