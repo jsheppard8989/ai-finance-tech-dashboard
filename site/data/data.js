@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-24T22:04:46.528463",
-  chartsVersion: "2026-06-24T22:04:31.131724",
+  generatedAt: "2026-06-24T23:39:46.016375",
+  chartsVersion: "2026-06-24T23:39:35.320702",
   priceSnapshot: {
   "GOOGL": {
     "price": 345.29,
     "change_pct": -7.17,
     "name": "GOOGL",
-    "updated_at": "2026-06-24T22:04:31.130699"
+    "updated_at": "2026-06-24T23:39:35.320101"
   },
   "BTC": {
-    "price": 60728.52,
-    "change_pct": -4.43,
+    "price": 60836.53,
+    "change_pct": -4.26,
     "name": "BTC",
-    "updated_at": "2026-06-24T22:04:31.130719"
+    "updated_at": "2026-06-24T23:39:35.320117"
   },
   "MSFT": {
     "price": 365.46,
     "change_pct": -14.62,
     "name": "MSFT",
-    "updated_at": "2026-06-24T22:04:31.130728"
+    "updated_at": "2026-06-24T23:39:35.320124"
   },
   "NVDA": {
     "price": 199.0,
     "change_pct": -8.99,
     "name": "NVDA",
-    "updated_at": "2026-06-24T22:04:31.130736"
+    "updated_at": "2026-06-24T23:39:35.320131"
   },
   "AMZN": {
     "price": 234.27,
     "change_pct": -7.69,
     "name": "AMZN",
-    "updated_at": "2026-06-24T22:04:31.130743"
+    "updated_at": "2026-06-24T23:39:35.320136"
   },
   "TSLA": {
     "price": 375.53,
     "change_pct": -10.26,
     "name": "TSLA",
-    "updated_at": "2026-06-24T22:04:31.130751"
+    "updated_at": "2026-06-24T23:39:35.320142"
   },
   "WTI": {
     "price": 3.13,
     "change_pct": -23.66,
     "name": "WTI",
-    "updated_at": "2026-06-24T22:04:31.130759"
+    "updated_at": "2026-06-24T23:39:35.320148"
   },
   "META": {
     "price": 557.67,
     "change_pct": -11.06,
     "name": "META",
-    "updated_at": "2026-06-24T22:04:31.130766"
+    "updated_at": "2026-06-24T23:39:35.320153"
   },
   "S&P 500": {
     "price": 733.24,
     "change_pct": -2.9,
     "name": "S&P 500",
-    "updated_at": "2026-06-24T22:04:31.130773"
+    "updated_at": "2026-06-24T23:39:35.320158"
   },
   "AAPL": {
     "price": 293.08,
     "change_pct": -5.83,
     "name": "AAPL",
-    "updated_at": "2026-06-24T22:04:31.130780"
+    "updated_at": "2026-06-24T23:39:35.320164"
   },
   "QQQ": {
     "price": 710.62,
     "change_pct": -3.94,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-24T22:04:31.130787"
+    "updated_at": "2026-06-24T23:39:35.320168"
   },
   "BTC-USD": {
-    "price": 60729.99,
-    "change_pct": -4.43,
+    "price": 60836.53,
+    "change_pct": -4.26,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-24T22:04:31.130796"
+    "updated_at": "2026-06-24T23:39:35.320175"
   }
 },
   tickerScores: [
@@ -854,6 +854,46 @@ const dashboardData = {
       "podcast_episode_id": 309
     },
     {
+      "id": 325,
+      "title": "Why the Frontier Ecosystem must be Open \u2014 Matei Zaharia and Reynold Xin, Databricks",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-06-24",
+      "summary": "In this episode, the discussion revolves around Databricks' growth and its strategic approach to AI and data management. The company has expanded significantly, now boasting over 100,000 users globally. Databricks is developing a unified architecture for AI agents that combines coding and custom agents, enhancing security with contextual policies, and focusing on specialized models for efficiency. The company's emphasis on open-source components and incremental development positions it as a leader in the AI landscape, differentiating it from competitors like Snowflake.",
+      "key_takeaway": "Investing in Databricks or similar companies could yield returns due to their strategic focus on AI innovation, open-source collaboration, and specialized models that enhance operational efficiency.",
+      "tickers_mentioned": [
+        "MSFT",
+        "GOOGL",
+        "AMZN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 311
+    },
+    {
+      "id": 326,
+      "title": "Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-06-24",
+      "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the Plutus investment platform, which democratizes investment management by providing access to high-quality research and model portfolios. The platform emphasizes individual risk-reward profiles and charges a competitive 1% management fee. Plutus stands out for its customer-centric approach, rigorous selection of research providers, and flexibility with no capital lockups. The discussion highlights the importance of understanding personal investment objectives and the benefits of using platforms like Plutus to access diverse investment strategies.",
+      "key_takeaway": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 310
+    },
+    {
       "id": 322,
       "title": "What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
       "source_type": "podcast",
@@ -961,7 +1001,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-20",
       "archived_date": null,
@@ -1029,7 +1069,7 @@ const dashboardData = {
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-19",
       "archived_date": null,
@@ -8006,19 +8046,19 @@ const dashboardData = {
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models that are publicly accessible and can be modified and redistributed by anyone, often leading to faster innovation and adoption.",
+      "description": "AI models that are publicly accessible and can be modified by the community to improve functionality or add features.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-06-13",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-06-24",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider companies that utilize open-source AI models for their potential to stay ahead in a rapidly evolving AI landscape.",
+      "investment_implications": "Open-source AI models foster innovation and collaboration, potentially leading to faster development and broader adoption of AI technologies.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 284,
+      "last_mentioned_episode_id": 311,
       "last_mentioned_speaker": "Chamath, Jason (hosts)"
     },
     {
@@ -8600,19 +8640,19 @@ const dashboardData = {
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "Software agents that perform tasks on behalf of users, powered by AI to automate and enhance personal experiences.",
+      "description": "Software entities that perform tasks autonomously, often used in AI and machine learning workflows.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-06-23",
-      "mention_count": 41,
+      "last_mentioned_date": "2026-06-24",
+      "mention_count": 42,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investments in AI agents could revolutionize personal productivity and daily life.",
+      "investment_implications": "AI agents can automate complex processes, reducing costs and increasing efficiency in various sectors.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 307,
+      "last_mentioned_episode_id": 311,
       "last_mentioned_speaker": "Josh Elman"
     },
     {
@@ -8898,6 +8938,46 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 325,
+      "title": "Why the Frontier Ecosystem must be Open \u2014 Matei Zaharia and Reynold Xin, Databricks",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-06-24",
+      "summary": "In this episode, the discussion revolves around Databricks' growth and its strategic approach to AI and data management. The company has expanded significantly, now boasting over 100,000 users globally. Databricks is developing a unified architecture for AI agents that combines coding and custom agents, enhancing security with contextual policies, and focusing on specialized models for efficiency. The company's emphasis on open-source components and incremental development positions it as a leader in the AI landscape, differentiating it from competitors like Snowflake.",
+      "key_takeaway": "Investing in Databricks or similar companies could yield returns due to their strategic focus on AI innovation, open-source collaboration, and specialized models that enhance operational efficiency.",
+      "tickers_mentioned": "[\"MSFT\", \"GOOGL\", \"AMZN\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 311,
+      "episode_release_date": "2026-06-24",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 326,
+      "title": "Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-06-24",
+      "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the Plutus investment platform, which democratizes investment management by providing access to high-quality research and model portfolios. The platform emphasizes individual risk-reward profiles and charges a competitive 1% management fee. Plutus stands out for its customer-centric approach, rigorous selection of research providers, and flexibility with no capital lockups. The discussion highlights the importance of understanding personal investment objectives and the benefits of using platforms like Plutus to access diverse investment strategies.",
+      "key_takeaway": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 310,
+      "episode_release_date": "2026-06-24",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 322,
       "title": "What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
       "source_type": "podcast",
@@ -8999,51 +9079,6 @@ const dashboardData = {
       "episode_release_date": "2026-06-21",
       "guest_name": "Ed Zitron",
       "key_tickers": []
-    },
-    {
-      "id": 318,
-      "title": "Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-06-20",
-      "summary": "In this episode of Monetary Matters, Jim Chanos and Val Zlathev discuss the economic implications of AI, cautioning against overestimating its impact on corporate profitability. They highlight the supply constraints in the memory market, which could sustain higher prices for DRAM and NAND. Chanos identifies unprofitable business models in the AI ecosystem and warns about inflated valuations in the semiconductor sector. Both guests emphasize the importance of monitoring the evolving landscape of AI and semiconductors for potential market corrections.",
-      "key_takeaway": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-20",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 303,
-      "episode_release_date": "2026-06-20",
-      "guest_name": "Jim Chanos & Val Zlatev",
-      "key_tickers": []
-    },
-    {
-      "id": 317,
-      "title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-06-19",
-      "summary": "This episode of 'All-In with Chamath, Jason, Sacks & Friedberg' delves into the implications of SpaceX's record-breaking $85 billion IPO, the strategic acquisition of Kursher, and the broader political and economic landscape affecting individual liberties and AI regulation. The hosts discuss the potential for hyperscalers to monopolize AI technologies and the importance of industry-led standards to foster innovation and competition.",
-      "key_takeaway": "Invest in companies that prioritize innovation and self-regulation in AI, and monitor the performance of SpaceX and its competitors for trends in tech valuations.",
-      "tickers_mentioned": "[\"AMZN\", \"MSFT\", \"GOOG\", \"GOOGL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-19",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 302,
-      "episode_release_date": "2026-06-19",
-      "guest_name": null,
-      "key_tickers": [
-        "AMZN",
-        "MSFT",
-        "GOOG",
-        "GOOGL"
-      ]
     }
   ],
   "definitions": [
@@ -28753,6 +28788,119 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-06-24",
     "key_tickers": []
+  },
+  "325": {
+    "id": 315,
+    "insight_id": 325,
+    "podcast_episode_id": 311,
+    "overview": "The competitive dynamic implied by the source material revolves around Databricks' ability to innovate in AI and data management while maintaining security and efficiency. The tension is between rapid technological advancement and the need for robust, user-friendly security measures. The metric that arbitrates this uncertainty is user adoption and satisfaction, which can be measured through continued growth in the user base and successful implementation of AI models in real-world scenarios.",
+    "key_takeaways_detailed": [
+      "Investors should consider the potential for Databricks to disrupt the AI landscape through its unified AI agent architecture, which could lead to increased market share and operational efficiency.",
+      "Enterprises should evaluate the benefits of implementing contextual policies in their AI systems to enhance security without compromising usability.",
+      "The development and deployment of specialized AI models could offer significant cost savings and performance improvements for specific tasks, which should be assessed for their strategic value.",
+      "Adopting an incremental development approach can help companies remain agile and responsive to market changes, which is a key takeaway for technology firms.",
+      "Engaging with open-source communities can provide a competitive edge by fostering innovation and collaboration, which should be considered by technology companies looking to differentiate themselves."
+    ],
+    "investment_thesis": "Databricks' strategic focus on AI innovation, open-source collaboration, and specialized models positions it well in the evolving AI landscape. The investment thesis is that as Databricks continues to expand its user base and refine its offerings based on real-world needs, it will outperform competitors like Snowflake. This thesis would be vindicated by sustained growth in user adoption, successful implementation of AI models, and increased market share over a 3-5 year timeframe.",
+    "ticker_analysis": {
+      "MSFT": {
+        "rationale": "Microsoft is a key player in the cloud computing space and has a strategic partnership with Databricks, making it relevant to the thesis.",
+        "positioning": "Positioned as a long-term strategic investment due to its partnership with Databricks and its own AI and cloud offerings.",
+        "risk": "Key risks include competition from other cloud providers and potential disruptions in the AI space."
+      },
+      "GOOGL": {
+        "rationale": "Google is a major player in AI and data analytics, and its cloud platform competes with Databricks.",
+        "positioning": "Positioned as a tactical investment to capitalize on AI advancements and potential competitive dynamics with Databricks.",
+        "risk": "Risks include the pace of AI innovation and the ability to compete with specialized AI models and unified architectures."
+      },
+      "AMZN": {
+        "rationale": "Amazon Web Services (AWS) is a leading cloud provider and has a competitive relationship with Databricks.",
+        "positioning": "Positioned as a strategic investment to monitor the competitive landscape and potential partnerships or acquisitions in the AI space.",
+        "risk": "Key risks include the ability to innovate quickly in AI and maintain market share against specialized AI providers like Databricks."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "Databricks may face challenges in scaling its operations and maintaining the quality of its services as it grows rapidly.",
+      "The competitive landscape is evolving, with new entrants and established players like Snowflake potentially developing similar AI capabilities.",
+      "There is a risk that the market for specialized AI models may not grow as expected, affecting Databricks' revenue projections."
+    ],
+    "catalysts": [
+      "Databricks' next earnings report, which could provide insights into user growth and revenue from AI services.",
+      "Announcements of new partnerships or acquisitions in the AI space that could impact Databricks' competitive position.",
+      "Release of new AI models or features by Databricks that could disrupt the market and attract more users.",
+      "Regulatory developments in data privacy and security that could affect the adoption of AI technologies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-24T23:38:30.710175",
+    "updated_at": "2026-06-25 04:38:30",
+    "episode_evidence": "Databricks' growth trajectory is underscored by its user base expansion from a small community of 50 to over 100,000 globally, as Reynold Xin mentioned, 'We saw all the sort of more advanced engineers... building their own workflows with tons of agents.' This rapid expansion indicates a significant market traction and adoption of their unified AI agent architecture. The company's approach to security is innovative, with the introduction of contextual policies that track the state of AI agent sessions, allowing for more granular control over actions based on context, as Matei Zaharia explained, 'We need is stateful or what we call contextual policies where you keep track of the state of that session.' This not only enhances security but also maintains usability, addressing a key concern for enterprises. Furthermore, Databricks' focus on specialized models for efficiency is evident in their development of a document vision model that outperforms general-purpose models in specific tasks, as illustrated by the example, 'Our team built this document sort of vision model that takes a page and gives you back a nice JSON.'",
+    "falsification_tracks": [
+      "If Databricks' user base growth stalls or declines, it would challenge the narrative of their market traction and adoption.",
+      "A significant security breach or failure of contextual policies could undermine the company's competitive advantage in security.",
+      "Failure of specialized models to deliver expected efficiency gains in real-world applications would reduce the appeal of Databricks' offerings.",
+      "If the company's incremental development approach leads to frequent disruptions or user dissatisfaction, it could signal a misalignment with market needs."
+    ],
+    "insight_title": "Why the Frontier Ecosystem must be Open \u2014 Matei Zaharia and Reynold Xin, Databricks",
+    "source_name": "Latent Space: The AI Engineer Podcast",
+    "source_date": "2026-06-24",
+    "key_tickers": []
+  },
+  "326": {
+    "id": 316,
+    "insight_id": 326,
+    "podcast_episode_id": 310,
+    "overview": "The competitive dynamic highlighted by the Plutus investment platform is the democratization of investment management, which traditionally favored institutional investors. Plutus addresses this by providing individual investors with access to high-quality research and model portfolios, leveling the playing field. The unresolved tension lies in whether Plutus can maintain its competitive fee structure and rigorous research provider selection while scaling its user base and assets under management. The metric that arbitrates this uncertainty is the platform's ability to attract and retain users, as well as its assets under management growth, which will indicate the success of its democratization efforts.",
+    "key_takeaways_detailed": [
+      "Investors should monitor Plutus' assets under management as a key performance indicator of the platform's ability to attract and retain users.",
+      "The success of Plutus' customer-centric approach will be contingent on its ability to consistently deliver personalized investment strategies that meet individual risk-reward profiles.",
+      "Investors should evaluate the platform's fee structure in the context of its performance, as a lower fee does not necessarily equate to better value if it leads to underperformance.",
+      "The introduction of tax efficiency features, such as tax loss harvesting, could provide an additional value proposition for investors, potentially increasing the platform's appeal.",
+      "Investors should consider the platform's liquidity and flexibility, as the absence of capital lockups can be a significant advantage in volatile markets."
+    ],
+    "investment_thesis": "The core logic of the Plutus investment platform is to democratize access to high-quality investment research and strategies, which were previously the domain of institutional investors. This thesis is based on the platform's ability to attract a diverse client base through a competitive fee structure and a customer-centric approach. The observable development that would vindicate this thesis is a continued growth in assets under management and a high retention rate of users, indicating satisfaction with the platform's offerings. Conversely, a decline in assets under management or a high churn rate would invalidate the thesis, suggesting that the platform is not meeting the needs of individual investors.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc. (AAPL) is relevant to the thesis as it represents a company that is often included in diversified investment portfolios and can serve as a benchmark for the performance of research providers on the Plutus platform.",
+        "positioning": "AAPL can be positioned as a strategic long-term holding within a diversified portfolio, reflecting the platform's focus on individual risk-reward profiles and the potential for long-term growth.",
+        "risk": "Key risks for AAPL include market volatility, changes in consumer preferences, and potential disruptions in the global supply chain, which could impact the company's performance and, by extension, the performance of portfolios that include AAPL."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The argument that Plutus' 1% management fee may not be sustainable in the long term, as the platform scales and faces increased operational costs.",
+      "The possibility that individual investors may not fully understand the complexities of the investment strategies offered, leading to misaligned expectations and potential dissatisfaction.",
+      "The concern that the democratization of investment management could lead to overcrowded trades and reduced alpha generation, as more investors gain access to the same strategies."
+    ],
+    "catalysts": [
+      "The launch of new features on the Plutus platform, such as tax loss harvesting, which could attract new users and provide additional value to existing ones.",
+      "Regulatory changes that could impact the investment management industry, potentially creating opportunities or challenges for platforms like Plutus.",
+      "Market volatility, which could serve as a test of the platform's ability to deliver on its customer-centric approach and maintain user satisfaction.",
+      "The performance of Plutus' research providers, as their success or failure in generating alpha can significantly impact the platform's reputation and user base.",
+      "Quarterly reports on assets under management, which can provide insights into the platform's growth trajectory and the effectiveness of its business model."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-24T23:38:49.032808",
+    "updated_at": "2026-06-25 04:38:49",
+    "episode_evidence": "Plutus' investment platform is designed to bridge the gap between individual investors and sophisticated investment strategies. The platform allows users to invest in portfolios developed by independent research providers, which were traditionally only accessible to institutional investors. 'For the first time, we're at a place where talented portfolio builders... have an avenue that is not limited to big banks,' said Shashank Charanawala. Plutus emphasizes a customer-centric approach, focusing on individual risk-reward needs rather than merely copying existing portfolios. 'Start from the risk rewards, start from your actual need as a customer managing your money,' Charanawala emphasized. The platform charges a flat management fee of 1% of assets under management, which is competitive compared to traditional hedge fund fees. 'A typical manager running a hundred million dollar hedge fund charges on a 220 structure... and they have the same exact problem,' Charanawala explained. Plutus operates without capital lockups, allowing users to withdraw funds at any time, enhancing liquidity and flexibility. 'You can unilaterally decide to just not have your account managed by us... no lockups,' Charanawala stated.",
+    "falsification_tracks": [
+      "If Plutus' assets under management decline significantly over the next year, it could indicate that the platform is not meeting investor needs or expectations.",
+      "A sustained increase in management fees by Plutus would undermine its competitive advantage and could lead to a loss of users.",
+      "If the platform experiences a high rate of user withdrawals, it may suggest that the lack of capital lockups is not enough to offset other concerns or dissatisfaction with the service.",
+      "Should Plutus fail to attract and retain high-quality research providers, the quality of its investment offerings could suffer, potentially leading to underperformance and a loss of users."
+    ],
+    "insight_title": "Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-06-24",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -28807,7 +28955,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 20854,
+    "id": 20936,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -28819,7 +28967,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20855,
+    "id": 20937,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -28831,7 +28979,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20856,
+    "id": 20938,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -28843,7 +28991,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20857,
+    "id": 20939,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -28855,7 +29003,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20858,
+    "id": 20940,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -28867,7 +29015,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20859,
+    "id": 20941,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -28879,7 +29027,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 20860,
+    "id": 20942,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -28891,7 +29039,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20861,
+    "id": 20943,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -28903,7 +29051,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20862,
+    "id": 20944,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -28915,7 +29063,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20863,
+    "id": 20945,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -28927,7 +29075,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20864,
+    "id": 20946,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -28939,7 +29087,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20865,
+    "id": 20947,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -28951,7 +29099,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20866,
+    "id": 20948,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -28963,7 +29111,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20867,
+    "id": 20949,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -28975,7 +29123,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20868,
+    "id": 20950,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -28987,7 +29135,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20869,
+    "id": 20951,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -28999,7 +29147,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20870,
+    "id": 20952,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -29011,7 +29159,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20871,
+    "id": 20953,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -29023,7 +29171,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20872,
+    "id": 20954,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -29035,7 +29183,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 20873,
+    "id": 20955,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -29254,7 +29402,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 1.7,
+    "mention_score_decayed": 1.66,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -30308,6 +30456,66 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 309,
+    "name": "Shashank Charanawala",
+    "slug": "shashank-charanawala",
+    "bio": "Shashank Charanawala is a key figure in the development of the Plutus investment platform, known for his insights on democratizing investment management and the importance of individualized investment strategies.",
+    "known_for": "His work in democratizing investment management and enabling individualized investment strategies through the Plutus platform.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and informative",
+    "voice_style": "Factual and persuasive",
+    "voice_delivery_notes": "Clear and deliberate pace with emphasis on key points",
+    "voice_profile_updated_at": "2026-06-25 04:37:13",
+    "last_seen": "2026-06-25 04:37:13",
+    "last_episode_title": "Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-06-24",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
+    "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
+    "supporting_takeaway": "The platform emphasizes personalized investment strategies based on individual risk-reward profiles.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-24T23:38:02.922763",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Shashank Charanawala",
+      "fetched_at": "2026-06-25T04:38:02.922523+00:00",
+      "cliff_notes": "Shashank Charanawala is recognized for his contributions to the financial technology sector, particularly in the realm of investment management. As the founder of Plutus, a platform that allows investors to access portfolios developed by independent research providers, Charanawala has played a pivotal role in making investment strategies more accessible and personalized. His vision for Plutus is to provide a platform where talented portfolio builders and manager researchers can thrive outside the constraints of traditional financial institutions. Charanawala's approach emphasizes the customer's perspective, focusing on identifying the best content providers for generating alpha and offering these opportunities to individual investors. His work is significant as it challenges the traditional gatekeeping in finance and promotes a more inclusive and customer-centric investment landscape.",
+      "derived": {
+        "current_role": "Founder of Plutus"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Shashank Charanawala is recognized for his contributions to the financial technology sector, particularly in the realm of investment management. As the founder of Plutus, a platform that allows investors to access portfolios developed by independent research providers, Charanawala has played a pivotal role in making investment strategies more accessible and personalized.",
+        "His vision for Plutus is to provide a platform where talented portfolio builders and manager researchers can thrive outside the constraints of traditional financial institutions. Charanawala's approach emphasizes the customer's perspective, focusing on identifying the best content providers for generating alpha and offering these opportunities to individual investors.",
+        "His work is significant as it challenges the traditional gatekeeping in finance and promotes a more inclusive and customer-centric investment landscape."
+      ],
+      "sections": [
+        {
+          "heading": "Democratizing Investment",
+          "body": "Shashank Charanawala is dedicated to making investment management more accessible by providing a platform for individual research providers to share their strategies with a broader audience."
+        },
+        {
+          "heading": "Plutus Platform",
+          "body": "As the founder of Plutus, Charanawala has created a space where independent researchers can develop and manage investment portfolios, offering a new avenue for talent outside of large financial institutions."
+        },
+        {
+          "heading": "Customer-Centric Approach",
+          "body": "Charanawala emphasizes the importance of looking at the investment landscape from the customer's perspective, focusing on providing the best content for generating alpha and personalizing investment strategies."
+        }
+      ]
+    }
+  },
+  {
     "id": 307,
     "name": "Paul Beckas",
     "slug": "paul-beckas",
@@ -30579,7 +30787,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-22 \u2022 Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
     "last_proof_snippet": "Okay, we're here in a studio with Grace One, Matt and Zico welcome. Great to be here. Yeah. Thanks for having us. You're visiting from Pittsburgh? That's right. The home of all good computer science, I don't know if I'm oversteaving things.",
@@ -30642,7 +30850,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -30706,7 +30914,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -30765,7 +30973,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -30824,7 +31032,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -30889,7 +31097,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -31318,7 +31526,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -32166,7 +32374,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -32358,7 +32566,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
@@ -36243,7 +36451,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -36935,7 +37143,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
     "last_proof_snippet": "Beach Point Capital Management primarily manages institutional capital, which is characterized as patient capital.",
@@ -37313,7 +37521,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
     "last_proof_snippet": "AI is a shortcut that can be beneficial but also presents challenges in debugging and understanding.",
@@ -39724,7 +39932,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-18 \u2022 Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
     "last_proof_snippet": "Fetterman has a unique perspective, being popular among Republicans while maintaining his Democratic affiliation.",

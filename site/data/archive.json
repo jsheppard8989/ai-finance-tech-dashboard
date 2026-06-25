@@ -21,6 +21,46 @@
       "podcast_episode_id": 309
     },
     {
+      "id": 325,
+      "title": "Why the Frontier Ecosystem must be Open \u2014 Matei Zaharia and Reynold Xin, Databricks",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-06-24",
+      "summary": "In this episode, the discussion revolves around Databricks' growth and its strategic approach to AI and data management. The company has expanded significantly, now boasting over 100,000 users globally. Databricks is developing a unified architecture for AI agents that combines coding and custom agents, enhancing security with contextual policies, and focusing on specialized models for efficiency. The company's emphasis on open-source components and incremental development positions it as a leader in the AI landscape, differentiating it from competitors like Snowflake.",
+      "key_takeaway": "Investing in Databricks or similar companies could yield returns due to their strategic focus on AI innovation, open-source collaboration, and specialized models that enhance operational efficiency.",
+      "tickers_mentioned": [
+        "MSFT",
+        "GOOGL",
+        "AMZN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 311
+    },
+    {
+      "id": 326,
+      "title": "Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-06-24",
+      "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the Plutus investment platform, which democratizes investment management by providing access to high-quality research and model portfolios. The platform emphasizes individual risk-reward profiles and charges a competitive 1% management fee. Plutus stands out for its customer-centric approach, rigorous selection of research providers, and flexibility with no capital lockups. The discussion highlights the importance of understanding personal investment objectives and the benefits of using platforms like Plutus to access diverse investment strategies.",
+      "key_takeaway": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 310
+    },
+    {
       "id": 322,
       "title": "What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
       "source_type": "podcast",
@@ -128,7 +168,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-20",
       "archived_date": null,
@@ -196,7 +236,7 @@
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-19",
       "archived_date": null,
@@ -7173,19 +7213,19 @@
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models that are publicly accessible and can be modified and redistributed by anyone, often leading to faster innovation and adoption.",
+      "description": "AI models that are publicly accessible and can be modified by the community to improve functionality or add features.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-06-13",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-06-24",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider companies that utilize open-source AI models for their potential to stay ahead in a rapidly evolving AI landscape.",
+      "investment_implications": "Open-source AI models foster innovation and collaboration, potentially leading to faster development and broader adoption of AI technologies.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 284,
+      "last_mentioned_episode_id": 311,
       "last_mentioned_speaker": "Chamath, Jason (hosts)"
     },
     {
@@ -7767,19 +7807,19 @@
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "Software agents that perform tasks on behalf of users, powered by AI to automate and enhance personal experiences.",
+      "description": "Software entities that perform tasks autonomously, often used in AI and machine learning workflows.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-06-23",
-      "mention_count": 41,
+      "last_mentioned_date": "2026-06-24",
+      "mention_count": 42,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investments in AI agents could revolutionize personal productivity and daily life.",
+      "investment_implications": "AI agents can automate complex processes, reducing costs and increasing efficiency in various sectors.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 307,
+      "last_mentioned_episode_id": 311,
       "last_mentioned_speaker": "Josh Elman"
     },
     {

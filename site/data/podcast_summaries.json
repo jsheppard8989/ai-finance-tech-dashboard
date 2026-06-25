@@ -1,5 +1,37 @@
 [
   {
+    "id": 311,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "Why the Frontier Ecosystem must be Open \u2014 Matei Zaharia and Reynold Xin, Databricks",
+    "episode_date": "2026-06-24",
+    "summary": "In this episode, the discussion revolves around Databricks' growth and its strategic approach to AI and data management. The company has expanded significantly, now boasting over 100,000 users globally. Databricks is developing a unified architecture for AI agents that combines coding and custom agents, enhancing security with contextual policies, and focusing on specialized models for efficiency. The company's emphasis on open-source components and incremental development positions it as a leader in the AI landscape, differentiating it from competitors like Snowflake.",
+    "key_takeaways": [
+      "Databricks' unified AI agent architecture could lead to increased adoption and market share.",
+      "Contextual policies in AI systems can improve security and usability, addressing enterprise concerns.",
+      "Specialized AI models offer cost savings and efficiency gains for enterprise applications.",
+      "Incremental development practices facilitate rapid innovation and market responsiveness.",
+      "Open-source strategies can provide competitive advantages through community engagement and innovation."
+    ],
+    "investment_thesis": "Investing in Databricks or similar companies could yield returns due to their strategic focus on AI innovation, open-source collaboration, and specialized models that enhance operational efficiency.",
+    "key_tickers": null
+  },
+  {
+    "id": 310,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
+    "episode_date": "2026-06-24",
+    "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the Plutus investment platform, which democratizes investment management by providing access to high-quality research and model portfolios. The platform emphasizes individual risk-reward profiles and charges a competitive 1% management fee. Plutus stands out for its customer-centric approach, rigorous selection of research providers, and flexibility with no capital lockups. The discussion highlights the importance of understanding personal investment objectives and the benefits of using platforms like Plutus to access diverse investment strategies.",
+    "key_takeaways": [
+      "Plutus allows individual and professional investors to access high-quality research and model portfolios.",
+      "The platform emphasizes personalized investment strategies based on individual risk-reward profiles.",
+      "Plutus charges a competitive flat management fee of 1% of assets under management.",
+      "The platform has a rigorous selection process for research providers to ensure high-quality content.",
+      "Plutus offers flexibility with no capital lockups, allowing users to withdraw funds at any time."
+    ],
+    "investment_thesis": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
+    "key_tickers": null
+  },
+  {
     "id": 309,
     "podcast_name": "The a16z Show",
     "episode_title": "What Happens to Design After AI?",
@@ -98,43 +130,5 @@
     ],
     "investment_thesis": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "key_tickers": null
-  },
-  {
-    "id": 303,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
-    "episode_date": "2026-06-20",
-    "summary": "In this episode of Monetary Matters, Jim Chanos and Val Zlathev discuss the economic implications of AI, cautioning against overestimating its impact on corporate profitability. They highlight the supply constraints in the memory market, which could sustain higher prices for DRAM and NAND. Chanos identifies unprofitable business models in the AI ecosystem and warns about inflated valuations in the semiconductor sector. Both guests emphasize the importance of monitoring the evolving landscape of AI and semiconductors for potential market corrections.",
-    "key_takeaways": [
-      "AI's broader economic impact may not match market expectations, drawing parallels to the internet boom.",
-      "The memory market is experiencing supply constraints, which may lead to sustained higher prices for DRAM and NAND.",
-      "Unprofitable business models in the AI ecosystem, such as Bitcoin miners and data center developers, are potential short candidates.",
-      "There is a disconnect in profitability accounting between chip manufacturers and companies utilizing these chips.",
-      "Skepticism about the sustainability of high valuations in the semiconductor space is warranted.",
-      "Investors should monitor the evolving landscape of AI and semiconductors for potential market corrections."
-    ],
-    "investment_thesis": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
-    "key_tickers": null
-  },
-  {
-    "id": 302,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
-    "episode_date": "2026-06-19",
-    "summary": "This episode of 'All-In with Chamath, Jason, Sacks & Friedberg' delves into the implications of SpaceX's record-breaking $85 billion IPO, the strategic acquisition of Kursher, and the broader political and economic landscape affecting individual liberties and AI regulation. The hosts discuss the potential for hyperscalers to monopolize AI technologies and the importance of industry-led standards to foster innovation and competition.",
-    "key_takeaways": [
-      "SpaceX's $85 billion IPO is the largest in history, setting a new benchmark for tech IPOs.",
-      "The acquisition of Kursher by SpaceX for $15 billion is expected to double its revenue run rate and solidify its position in AI and space sectors.",
-      "The erosion of individual liberties and economic mobility in the U.S. is a significant concern, potentially leading to reduced entrepreneurship and a less dynamic economy.",
-      "AI regulation is a critical issue, with the risk of monopolistic control by hyperscalers stifling innovation and limiting access to AI tools.",
-      "Industry-led standards in AI development are advocated over government intervention to promote healthy competition and innovation."
-    ],
-    "investment_thesis": "Invest in companies that prioritize innovation and self-regulation in AI, and monitor the performance of SpaceX and its competitors for trends in tech valuations.",
-    "key_tickers": [
-      "AMZN",
-      "MSFT",
-      "GOOG",
-      "GOOGL"
-    ]
   }
 ]
