@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-25T06:37:00.433129",
-  chartsVersion: "2026-06-25T06:36:49.388304",
+  generatedAt: "2026-06-25T12:06:49.238025",
+  chartsVersion: "2026-06-25T12:06:37.451588",
   priceSnapshot: {
   "GOOGL": {
-    "price": 345.29,
-    "change_pct": -7.17,
+    "price": 340.95,
+    "change_pct": -7.43,
     "name": "GOOGL",
-    "updated_at": "2026-06-25T06:36:49.386833"
+    "updated_at": "2026-06-25T12:06:37.451163"
   },
   "BTC": {
-    "price": 61171.64,
-    "change_pct": -3.73,
+    "price": 59064.02,
+    "change_pct": -7.05,
     "name": "BTC",
-    "updated_at": "2026-06-25T06:36:49.386860"
+    "updated_at": "2026-06-25T12:06:37.451174"
   },
   "MSFT": {
-    "price": 365.46,
-    "change_pct": -14.62,
+    "price": 351.04,
+    "change_pct": -15.75,
     "name": "MSFT",
-    "updated_at": "2026-06-25T06:36:49.386873"
+    "updated_at": "2026-06-25T12:06:37.451178"
   },
   "NVDA": {
-    "price": 199.0,
-    "change_pct": -8.99,
+    "price": 194.59,
+    "change_pct": -5.12,
     "name": "NVDA",
-    "updated_at": "2026-06-25T06:36:49.386885"
+    "updated_at": "2026-06-25T12:06:37.451181"
   },
   "AMZN": {
-    "price": 234.27,
-    "change_pct": -7.69,
+    "price": 227.85,
+    "change_pct": -7.39,
     "name": "AMZN",
-    "updated_at": "2026-06-25T06:36:49.386895"
+    "updated_at": "2026-06-25T12:06:37.451184"
   },
   "TSLA": {
-    "price": 375.53,
-    "change_pct": -10.26,
+    "price": 373.18,
+    "change_pct": -4.56,
     "name": "TSLA",
-    "updated_at": "2026-06-25T06:36:49.386906"
+    "updated_at": "2026-06-25T12:06:37.451188"
   },
   "WTI": {
-    "price": 3.13,
-    "change_pct": -23.66,
+    "price": 3.18,
+    "change_pct": -13.92,
     "name": "WTI",
-    "updated_at": "2026-06-25T06:36:49.386916"
+    "updated_at": "2026-06-25T12:06:37.451191"
   },
   "META": {
-    "price": 557.67,
-    "change_pct": -11.06,
+    "price": 544.74,
+    "change_pct": -8.05,
     "name": "META",
-    "updated_at": "2026-06-25T06:36:49.386927"
+    "updated_at": "2026-06-25T12:06:37.451195"
   },
   "S&P 500": {
-    "price": 733.24,
-    "change_pct": -2.9,
+    "price": 732.33,
+    "change_pct": -0.45,
     "name": "S&P 500",
-    "updated_at": "2026-06-25T06:36:49.386937"
+    "updated_at": "2026-06-25T12:06:37.451198"
   },
   "AAPL": {
-    "price": 293.08,
-    "change_pct": -5.83,
+    "price": 276.75,
+    "change_pct": -9.95,
     "name": "AAPL",
-    "updated_at": "2026-06-25T06:36:49.386948"
+    "updated_at": "2026-06-25T12:06:37.451201"
   },
   "QQQ": {
-    "price": 710.62,
-    "change_pct": -3.94,
+    "price": 714.6,
+    "change_pct": 1.46,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-25T06:36:49.386958"
+    "updated_at": "2026-06-25T12:06:37.451205"
   },
   "BTC-USD": {
-    "price": 61171.64,
-    "change_pct": -3.73,
+    "price": 59064.02,
+    "change_pct": -7.05,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-25T06:36:49.386972"
+    "updated_at": "2026-06-25T12:06:37.451208"
   }
 },
   tickerScores: [
@@ -834,6 +834,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 327,
+      "title": "Marc Andreessen on AI, Technology, and the Future of Humanity",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-25",
+      "summary": "This podcast discusses the rapid evolution of AI, its potential to enhance human productivity, and its dual nature in cybersecurity. It also addresses the historical context of technological displacement, the importance of ethical AI development, and the societal impact of AI integration. The conversation emphasizes the need for proactive engagement with AI tools to adapt to the changing landscape.",
+      "key_takeaway": "Invest in AI technologies and training to stay competitive and leverage upcoming advancements, while also focusing on ethical AI practices to ensure responsible development and deployment.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 312
+    },
+    {
       "id": 324,
       "title": "What Happens to Design After AI?",
       "source_type": "podcast",
@@ -982,7 +1005,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-21",
       "archived_date": null,
@@ -7128,20 +7151,20 @@ const dashboardData = {
     {
       "id": 234,
       "term": "AI Personhood",
-      "description": "The concept of granting legal personhood to AI entities, which could lead to new governance models and influence global legal frameworks.",
+      "description": "The concept of attributing legal or moral status to AI entities, raising questions about responsibility and rights in the context of AI.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-06-18",
-      "mention_count": 9,
+      "last_mentioned_date": "2026-06-25",
+      "mention_count": 10,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider the implications of AI personhood on the legal and operational aspects of AI companies.",
+      "investment_implications": "As AI becomes more sophisticated, investors may need to consider the ethical and legal implications of AI personhood in their investment strategies.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 296,
-      "last_mentioned_speaker": "Peter Diamandis"
+      "last_mentioned_episode_id": 312,
+      "last_mentioned_speaker": "Mark Andreessen"
     },
     {
       "id": 59,
@@ -8918,6 +8941,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 327,
+      "title": "Marc Andreessen on AI, Technology, and the Future of Humanity",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-25",
+      "summary": "This podcast discusses the rapid evolution of AI, its potential to enhance human productivity, and its dual nature in cybersecurity. It also addresses the historical context of technological displacement, the importance of ethical AI development, and the societal impact of AI integration. The conversation emphasizes the need for proactive engagement with AI tools to adapt to the changing landscape.",
+      "key_takeaway": "Invest in AI technologies and training to stay competitive and leverage upcoming advancements, while also focusing on ethical AI practices to ensure responsible development and deployment.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 312,
+      "episode_release_date": "2026-06-25",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 324,
       "title": "What Happens to Design After AI?",
       "source_type": "podcast",
@@ -9058,26 +9101,6 @@ const dashboardData = {
       "podcast_episode_id": 305,
       "episode_release_date": "2026-06-22",
       "guest_name": "Jake Paul & Anti Fund",
-      "key_tickers": []
-    },
-    {
-      "id": 319,
-      "title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-06-21",
-      "summary": "In this episode, Jack Farley discusses the financial sustainability of AI companies, particularly focusing on OpenAI and Anthropic. The discussion highlights the high capital expenditures, operational losses, and the potential for a bubble in AI investments. The podcast also touches on regulatory risks, the disconnect between AI demand and reality, and the conflation of technological progress with stock market performance.",
-      "key_takeaway": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-21",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 304,
-      "episode_release_date": "2026-06-21",
-      "guest_name": "Ed Zitron",
       "key_tickers": []
     }
   ],
@@ -9259,28 +9282,28 @@ const dashboardData = {
     {
       "id": 234,
       "term": "AI Personhood",
-      "description": "The concept of granting legal personhood to AI entities, which could lead to new governance models and influence global legal frameworks.",
+      "description": "The concept of attributing legal or moral status to AI entities, raising questions about responsibility and rights in the context of AI.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-06-18",
-      "mention_count": 9,
+      "last_mentioned_date": "2026-06-25",
+      "mention_count": 10,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider the implications of AI personhood on the legal and operational aspects of AI companies.",
+      "investment_implications": "As AI becomes more sophisticated, investors may need to consider the ethical and legal implications of AI personhood in their investment strategies.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 296,
-      "last_mentioned_speaker": "Peter Diamandis",
-      "overton_score": 7.66,
+      "last_mentioned_episode_id": 312,
+      "last_mentioned_speaker": "Mark Andreessen",
+      "overton_score": 10.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
       "first_detected_episode_date": "2026-06-08",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "SpaceX IPOs at $2.89T Market Cap, US Govt Suspends Fable & Mythos 5, Altman Delays OpenAI\u2019s IPO | EP #265",
-      "last_mentioned_episode_date": "2026-06-18"
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Marc Andreessen on AI, Technology, and the Future of Humanity",
+      "last_mentioned_episode_date": "2026-06-25"
     },
     {
       "id": 254,
@@ -28901,9 +28924,104 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-06-24",
     "key_tickers": []
+  },
+  "327": {
+    "id": 317,
+    "insight_id": 327,
+    "podcast_episode_id": 312,
+    "overview": "The unresolved tension in the AI landscape is the balance between leveraging AI for productivity enhancement and ensuring ethical development to prevent misuse. The competitive dynamic is between companies that can successfully integrate AI into their operations and those that fail to adapt, potentially leading to a significant shift in market leadership. The allocator-relevant implication is that investments in companies at the forefront of AI development and those that can effectively manage the ethical and societal implications of AI will likely outperform those that lag in these areas.",
+    "key_takeaways_detailed": [
+      "Investors should focus on companies that demonstrate a commitment to ethical AI practices, as this will become a differentiating factor in the long term.",
+      "Monitor regulatory developments closely, as they can significantly impact the pace and direction of AI innovation.",
+      "Consider diversifying investments across the AI value chain to mitigate risks associated with rapid technological change.",
+      "Look for companies that are investing in AI-driven cybersecurity solutions, as this will be a critical area for maintaining competitive advantage.",
+      "Evaluate the potential for AI to disrupt existing business models and create new opportunities within the portfolio."
+    ],
+    "investment_thesis": "The core logic is that AI will continue to evolve rapidly, enhancing productivity and creating new opportunities, but this advancement must be balanced with ethical considerations to ensure long-term societal benefits. A timeframe of two years is proposed, with the vindication of this thesis being observable through the successful deployment of AI models that significantly outperform current capabilities and the emergence of new industriesAI. Conversely, if AI development stagnates or is marked by significant ethical scandals, the thesis would be invalidated.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI for its products and services positions it to benefit from the AI evolution discussed in the podcast.",
+        "positioning": "Strategic long position, as Apple's integration of AI into its ecosystem could drive sustained growth and competitive advantage.",
+        "risk": "Key risks include regulatory hurdles that could slow AI development and the potential for ethical controversies that could damage the brand."
+      },
+      "GOOGL": {
+        "rationale": "Google's leadership in AI research and applications across various sectors makes it a key player in the AI evolution.",
+        "positioning": "Tactical long position, as Google's AI advancements could lead to short-term gains, but with an eye on potential regulatory risks.",
+        "risk": "The risk of ethical AI controversies and the potential for AI to disrupt Google's ad-based business model."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's broad AI offerings and cloud services provide a platform for businesses to leverage AI, positioning it well in the evolving landscape.",
+        "positioning": "Strategic long position, as Microsoft's AI and cloud services are likely to see increased demand.",
+        "risk": "The risk of competition from other tech giants and the potential for AI to disrupt traditional software licensing models."
+      },
+      "AMZN": {
+        "rationale": "Amazon's use of AI in logistics, cloud services, and consumer engagement gives it a strong position in the AI-driven future.",
+        "positioning": "Strategic long position, as Amazon's AI applications could lead to operational efficiencies and new revenue streams.",
+        "risk": "The risk of ethical concerns around data privacy and the potential for AI to disrupt traditional retail models."
+      },
+      "TSLA": {
+        "rationale": "Tesla's leadership in autonomous driving technology is a clear example of AI's potential to transform industries.",
+        "positioning": "Tactical long position, as Tesla's AI advancements could provide a competitive edge in the automotive industry.",
+        "risk": "Regulatory hurdles and ethical concerns around autonomous driving could pose significant risks."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant slowdown in AI research and development could challenge the of rapid AI evolution.",
+      "Ethical controversies that lead to increased regulation could slow the pace of AI integration into various sectors.",
+      "A shift in consumer preferences away from AI-driven conveniences could impact the demand for AI technologies."
+    ],
+    "catalysts": [
+      "The release of new AI models that demonstrate significant advancements over current capabilities.",
+      "Regulatory rulings that either support or hinder the development and deployment of AI technologies.",
+      "Major ethical scandals involving AI that could shift public and regulatory sentiment.",
+      "Breakthroughs in AI applications, such as autonomous vehicles or medical diagnostics, that could accelerate AI adoption.",
+      "Economic indicators that show a shift in job creation or displacement due to AI, which could influence public perception and policy."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-25T12:05:54.062001",
+    "updated_at": "2026-06-25 17:05:54",
+    "episode_evidence": "The podcast with Marc Andreessen delves into the transformative potential of AI, emphasizing its rapid evolution. Andreessen states, 'The models two years from now are going to be far smarter and more sophisticated than anything that we have access to today.' This underscores the exponential growth in AI capabilities, suggesting a future where AI's role extends beyond current applications. The discussion also highlights AI's role as a productivity enhancer, with Andreessen noting, 'The level of capability that is being unlocked for ordinary people to have a level of productivity in their life and in their work that they've never had access to before is amazing.' This points to AI's ability to augment human capabilities, potentially leading to a significant shift in how work is conducted and value is created. Furthermore, the podcast addresses the ethical considerations of AI development, with Andreessen emphasizing, 'The companies do not exist in a vacuum... they have to exist in this society.' This stresses the importance of aligning AI advancements with societal values to ensure responsible innovation.",
+    "falsification_tracks": [
+      "If AI development plateaus or experiences significant setbacks, the prediction of rapid evolution would be weakened.",
+      "A sustained increase in unemployment rates due to AI automation would challenge the narrative of job creation through technological advancement.",
+      "Instances of AI misuse leading to significant societal harm would undermine the argument for ethical AI development being a priority."
+    ],
+    "insight_title": "Marc Andreessen on AI, Technology, and the Future of Humanity",
+    "source_name": "The a16z Show",
+    "source_date": "2026-06-25",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 455,
+    "term": "Scaling Laws",
+    "definition": "The principle that larger AI models yield better performance, driving companies to invest heavily in expanding their AI capabilities.",
+    "investment_implications": "Investors should consider companies that are at the forefront of scaling AI models for potential growth opportunities.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-06-25 17:03:25",
+    "priority_score": 80
+  },
+  {
+    "id": 456,
+    "term": "Ethical AI Development",
+    "definition": "The practice of developing and deploying AI in a manner that is guided by ethical considerations to prevent misuse and ensure societal benefits.",
+    "investment_implications": "Investors should advocate for and support companies that prioritize ethical AI practices, as this can lead to more sustainable and responsible growth.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-06-25 17:03:25",
+    "priority_score": 80
+  },
   {
     "id": 453,
     "term": "Auto Design",
@@ -28927,35 +29045,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-06-24 17:06:49",
     "priority_score": 80
-  },
-  {
-    "id": 451,
-    "term": "Live Commerce",
-    "definition": "A form of e-commerce that involves live streaming video to showcase products and engage with customers in real-time.",
-    "investment_implications": "Live commerce can enhance customer engagement and drive sales, presenting a significant growth opportunity for e-commerce platforms.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-06-24 04:40:10",
-    "priority_score": 80
-  },
-  {
-    "id": 452,
-    "term": "Digital Collectibles Market",
-    "definition": "A market for digital assets and collectibles, such as in-game items and virtual goods.",
-    "investment_implications": "The digital collectibles market is largely untapped and presents a significant growth opportunity for e-commerce companies.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-06-24 04:40:10",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 21100,
+    "id": 21182,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -28967,7 +29061,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21101,
+    "id": 21183,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -28979,7 +29073,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21102,
+    "id": 21184,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -28991,7 +29085,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21103,
+    "id": 21185,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -29003,7 +29097,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21104,
+    "id": 21186,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -29015,7 +29109,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21105,
+    "id": 21187,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -29027,7 +29121,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 21106,
+    "id": 21188,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -29039,7 +29133,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21107,
+    "id": 21189,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -29051,7 +29145,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21108,
+    "id": 21190,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -29063,7 +29157,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21109,
+    "id": 21191,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -29075,7 +29169,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21110,
+    "id": 21192,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -29087,7 +29181,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21111,
+    "id": 21193,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -29099,7 +29193,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21112,
+    "id": 21194,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -29111,7 +29205,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21113,
+    "id": 21195,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -29123,7 +29217,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21114,
+    "id": 21196,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -29135,7 +29229,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21115,
+    "id": 21197,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -29147,7 +29241,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21116,
+    "id": 21198,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -29159,7 +29253,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21117,
+    "id": 21199,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -29171,7 +29265,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21118,
+    "id": 21200,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -29183,7 +29277,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21119,
+    "id": 21201,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -29464,7 +29558,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.66,
+    "mention_score_decayed": 1.62,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
@@ -30446,7 +30540,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -31400,7 +31494,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -31463,7 +31557,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in Axiom Math for its pioneering role in verified AI for mathematics, which has the potential to drive innovation and efficiency in problem-solving across various fields.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
     "last_proof_snippet": "But it's for the first time now I think verified AI is to open up collaboration. Either it's human AI collaboration. Well, before a blueprint like that's human human collaboration. And Lin was a grounding, was a verification formal language",
@@ -31969,7 +32063,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -32098,7 +32192,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -32164,7 +32258,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -32439,7 +32533,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -32503,7 +32597,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -32758,7 +32852,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -32822,7 +32916,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -33005,7 +33099,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -33069,7 +33163,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -33812,7 +33906,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -33878,7 +33972,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -38822,7 +38916,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -38882,7 +38976,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -38942,7 +39036,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",

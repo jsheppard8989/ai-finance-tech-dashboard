@@ -1,5 +1,21 @@
 [
   {
+    "id": 312,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Marc Andreessen on AI, Technology, and the Future of Humanity",
+    "episode_date": "2026-06-25",
+    "summary": "This podcast discusses the rapid evolution of AI, its potential to enhance human productivity, and its dual nature in cybersecurity. It also addresses the historical context of technological displacement, the importance of ethical AI development, and the societal impact of AI integration. The conversation emphasizes the need for proactive engagement with AI tools to adapt to the changing landscape.",
+    "key_takeaways": [
+      "AI models are expected to become significantly smarter and more capable within the next two years.",
+      "AI can act as a mentor or coach, unlocking unprecedented levels of efficiency and creativity for individuals.",
+      "AI's dual nature allows it to be both a powerful tool for cybersecurity and a potential threat.",
+      "Historical fears of technology replacing jobs have often been overstated, with technology creating more jobs than it has displaced.",
+      "Ethical considerations in AI development are critical to prevent misuse and ensure societal benefits."
+    ],
+    "investment_thesis": "Invest in AI technologies and training to stay competitive and leverage upcoming advancements, while also focusing on ethical AI practices to ensure responsible development and deployment.",
+    "key_tickers": null
+  },
+  {
     "id": 311,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "Why the Frontier Ecosystem must be Open \u2014 Matei Zaharia and Reynold Xin, Databricks",
@@ -113,22 +129,6 @@
       "Taking calculated risks is essential for growth and innovation in business."
     ],
     "investment_thesis": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
-    "key_tickers": null
-  },
-  {
-    "id": 304,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
-    "episode_date": "2026-06-21",
-    "summary": "In this episode, Jack Farley discusses the financial sustainability of AI companies, particularly focusing on OpenAI and Anthropic. The discussion highlights the high capital expenditures, operational losses, and the potential for a bubble in AI investments. The podcast also touches on regulatory risks, the disconnect between AI demand and reality, and the conflation of technological progress with stock market performance.",
-    "key_takeaways": [
-      "OpenAI's financials show high operational losses despite significant revenue, indicating unsustainable business practices.",
-      "OpenAI and Anthropic have raised massive amounts of capital, raising questions about the sustainability of such valuations.",
-      "OpenAI's high sales and marketing expenses may mask true operational costs and profitability.",
-      "The U.S. government's export controls on AI models signal increasing regulatory scrutiny on AI companies.",
-      "Actual demand for AI compute is not growing as rapidly as the hype suggests, with companies scaling back their AI budgets."
-    ],
-    "investment_thesis": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "key_tickers": null
   }
 ]
