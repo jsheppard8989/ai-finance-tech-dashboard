@@ -1,6 +1,19 @@
 {
-  "rotation_index": 17,
+  "rotation_index": 18,
   "weeks": [
+    {
+      "friday_iso": "2026-06-19",
+      "week_label": "Week of 2026-06-19",
+      "prompt": "Will the S&P 500 index close above 7,800 within the next 42 days?",
+      "debater_a": "David A. Asnagi",
+      "debater_b": "Connor Coleman",
+      "expires_rule": "Resolves Friday 12:00 PM CST 2026-07-31",
+      "resolves_iso": "2026-07-31",
+      "resolution_status": "pending",
+      "resolution_notes": "",
+      "archived_at": "2026-06-26T05:02:50.565628",
+      "audio_href": "./audio/archive/debate_2026-06-19.mp3"
+    },
     {
       "friday_iso": "2026-06-12",
       "week_label": "Week of 2026-06-12",

@@ -1,121 +1,113 @@
 {
-  "prompt": "Will the S&P 500 index close above 7,800 within the next 42 days?",
-  "editorial_note": "Given the recent market volatility and discussions around potential market movements in our previous podcasts, we've decided to focus on the S&P 500 index's performance. This prompt offers a clear and falsifiable outcome that aligns with investor interests and captures the current market sentiment.",
-  "expires_rule": "Resolves Friday 12:00 PM CST 2026-07-31",
-  "crux_theme": "U.S. Market Rally",
+  "prompt": "Will the price of Bitcoin exceed $75,000 within the next 42 days?",
+  "editorial_note": "Given the significant interest in cryptocurrencies and recent market volatility, we've chosen a topic that directly engages with current investment sentiment. Bitcoin, as a leading cryptocurrency, is often used as a barometer for the broader crypto market. We expect this question to provoke a robust debate about market cycles and investor behavior within the short time horizon of 42 days.",
+  "expires_rule": "Resolves Friday 12:00 PM CST 2026-08-07",
+  "crux_theme": "Bitcoin price movement",
   "resolution_clarity": {
-    "source_of_truth": "Final closing value of the S&P 500 index on the resolution date as reported by major financial news outlets.",
+    "source_of_truth": "Real-time cryptocurrency price data",
     "resolution_sources": [
-      "Yahoo Finance",
-      "Bloomberg",
-      "Reuters"
+      "CoinMarketCap",
+      "CoinGecko",
+      "CryptoCompare"
     ],
     "resolution_criteria": [
-      "The S&P 500 index must close above 7,800 on the specified resolution date."
+      "The closing price of Bitcoin denominated in USD on the specified resolution date must be compared against the $75,000 threshold."
     ]
   },
   "sides": {
     "a": "Affirmative (YES)",
     "b": "Negative (NO)"
   },
-  "resolves_iso": "2026-07-31",
-  "friday_iso": "2026-06-19",
-  "week_label": "Week of 2026-06-19",
-  "debater_a": "David A. Asnagi",
-  "debater_b": "Connor Coleman",
-  "generated_at": "2026-06-19T05:02:38.585612",
+  "resolves_iso": "2026-08-07",
+  "friday_iso": "2026-06-26",
+  "week_label": "Week of 2026-06-26",
+  "debater_a": "Joseph Krauss",
+  "debater_b": "Sartina Della",
+  "generated_at": "2026-06-26T05:02:50.565692",
   "bet_status": "open",
   "audio_href": "./audio/emp_ai_the_debate_11labs.mp3",
   "debater_a_snapshot": {
-    "name": "David A. Asnagi",
-    "known_for": "His vision of fully automating circuit board design and manufacturing within two years using AI.",
-    "bio": "David A. Asnagi is a specialist in electronics manufacturing and AI integration. He believes that circuit board design and manufacturing will be fully automated in two years. Asnagi is focused on building a compiler that allows AI to design circuit boards as if writing a Python program, emphasizing a model-led approach to automate hardware creation.",
-    "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-11",
-    "net_worth": "$100.0M",
+    "name": "Joseph Krauss",
+    "known_for": "Pioneering the self-driving lab concept at Radical AI, focusing on AI-driven material discovery.",
+    "bio": "Joseph Krauss is an expert in material science and AI-driven material discovery. He is known for pioneering the self-driving lab concept at Radical AI, a company that focuses on leveraging AI to revolutionize material science and discovery.",
+    "last_main_idea": "Invest in companies that integrate AI with experimental data for material discovery to gain a competitive edge in industries like aerospace and semiconductors.",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-06-17",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "David A. Asnagi",
-      "fetched_at": "2026-06-11T17:09:48.900417+00:00",
-      "cliff_notes": "David A. Asnagi has made a career out of specializing in the intersection of electronics manufacturing and artificial intelligence. His focus is on leveraging AI to automate complex tasks such as circuit board design, which traditionally required human expertise. Asnagi envisions a future where starting a hardware company is as simple as launching a software-based business, with AI taking the lead in design and manufacturing processes. His work revolves around creating systems that can operate autonomously without the need for human intervention in the loop, which is a significant shift from traditional manufacturing paradigms. Asnagi's contributions are pivotal for the future of electronics manufacturing, as they could potentially revolutionize how hardware is developed and produced, making it more accessible and efficient.",
+      "page_title": "Joseph Krauss",
+      "fetched_at": "2026-06-18T04:38:46.769185+00:00",
+      "cliff_notes": "Joseph Krauss is a prominent figure in the field of material science and AI-driven material discovery. As the CEO of Radical AI, he has been instrumental in pioneering the self-driving lab concept, which aims to revolutionize the way materials are discovered and developed. His work at Radical AI focuses on leveraging artificial intelligence to understand complex material properties and processes, which are critical for the development of new technologies and products. Krauss's expertise in material science and his innovative approach to AI-driven material discovery have positioned him as a key player in the rapidly growing market of AI applications in material science.",
       "derived": {
-        "current_role": "Specialist in Electronics Manufacturing and AI Integration"
+        "current_role": "CEO of Radical AI"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "David A. Asnagi has made a career out of specializing in the intersection of electronics manufacturing and artificial intelligence. His focus is on leveraging AI to automate complex tasks such as circuit board design, which traditionally required human expertise. Asnagi envisions a future where starting a hardware company is as simple as launching a software-based business, with AI taking the lead in design and manufacturing processes.",
-        "His work revolves around creating systems that can operate autonomously without the need for human intervention in the loop, which is a significant shift from traditional manufacturing paradigms. Asnagi's contributions are pivotal for the future of electronics manufacturing, as they could potentially revolutionize how hardware is developed and produced, making it more accessible and efficient."
+        "Joseph Krauss is a prominent figure in the field of material science and AI-driven material discovery. As the CEO of Radical AI, he has been instrumental in pioneering the self-driving lab concept, which aims to revolutionize the way materials are discovered and developed. His work at Radical AI focuses on leveraging artificial intelligence to understand complex material properties and processes, which are critical for the development of new technologies and products.",
+        "Krauss's expertise in material science and his innovative approach to AI-driven material discovery have positioned him as a key player in the rapidly growing market of AI applications in material science."
       ],
       "sections": [
         {
-          "heading": "Automation in Electronics",
-          "body": "David A. Asnagi is a proponent of full automation in electronics manufacturing, specifically in the design and production of circuit boards."
+          "heading": "AI in Material Science",
+          "body": "Joseph Krauss is recognized for his work in applying AI to material science, particularly in the development of new materials for various industries."
         },
         {
-          "heading": "AI Integration",
-          "body": "Asnagi is focused on integrating AI into the manufacturing process, creating a compiler that allows AI to design circuit boards as if writing a Python program."
+          "heading": "Self-Driving Labs",
+          "body": "Krauss pioneered the concept of self-driving labs at Radical AI, which utilize AI to automate and accelerate the process of material discovery."
         },
         {
-          "heading": "Model-Led Approach",
-          "body": "He advocates for a model-led approach in AI, which enables the use of AI agents to write code, thus automating complex hardware design tasks."
-        },
-        {
-          "heading": "Data Generation",
-          "body": "Asnagi emphasizes the importance of data in achieving full automation, stating that generating sufficient data is crucial for AI to effectively design circuit boards."
-        },
-        {
-          "heading": "Autonomous Systems",
-          "body": "He stresses the need to design systems that are fully autonomous, removing the need for human involvement in the manufacturing process."
+          "heading": "Material Discovery Challenges",
+          "body": "He has highlighted the challenges in capturing complex material data and using AI to improve material discovery processes beyond just identifying new materials."
         }
       ]
     }
   },
   "debater_b_snapshot": {
-    "name": "Connor Coleman",
-    "known_for": "Expanding the Development Finance Corporation's investment capacity and diversifying its investment strategies.",
-    "bio": "Connor Coleman is the Executive Vice President at the Development Finance Corporation (DFC), where he leads efforts to expand investment capacity and diversify investment strategies. He is also the Chief of Staff and Head of Investments at the DFC, playing a crucial role in the corporation's global financial activities.",
-    "last_main_idea": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-06-10",
+    "name": "Sartina Della",
+    "known_for": "Sartina Della is known for her pivotal role in defining and executing Microsoft's AI ecosystem strategy, which is crucial for the company's competitive edge in the tech industry.",
+    "bio": "Sartina Della is a prominent executive at Microsoft, recognized for her thought leadership in the fields of AI and cloud infrastructure. She has been instrumental in shaping the company's AI ecosystem strategy and has shared insights on the future of software engineering.",
+    "last_main_idea": "Invest in companies that can integrate AI into their operations and leverage Microsoft's ecosystem for competitive advantage, focusing on data management capabilities and adaptability to new pricing models.",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-06-03",
+    "net_worth": "$1.30B",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Connor Coleman",
-      "fetched_at": "2026-06-10T18:38:50.848735+00:00",
-      "cliff_notes": "Connor Coleman serves as the Executive Vice President at the Development Finance Corporation (DFC), overseeing the expansion of its investment capacity and diversification of investment strategies. As the Chief of Staff and Head of Investments, Coleman plays a pivotal role in managing the DFC's global financial activities, which include substantial investments in large-scale, high-risk projects such as those in Ukraine and other strategic regions. His leadership at the DFC has been instrumental in reauthorizing the corporation's funding from $60 billion to $205 billion, significantly increasing its capacity to engage in risk transformation and global finance.",
+      "page_title": "Sartina Della",
+      "fetched_at": "2026-06-17T18:40:16.055247+00:00",
+      "cliff_notes": "Sartina Della has made a significant impact in the technology sector, particularly within Microsoft. Her career has been marked by a deep focus on AI and cloud infrastructure, areas that are increasingly important for businesses and consumers alike. As a thought leader, she has contributed to the discourse on the future of software engineering and has been at the forefront of defining Microsoft's AI ecosystem strategy. Her insights and leadership have been influential in shaping the company's approach to leveraging AI for business growth and innovation, making her a key figure in the tech industry.",
       "derived": {
-        "current_role": "Executive Vice President, Chief of Staff, and Head of Investments at the Development Finance Corporation"
+        "current_role": "Chairman and Chief Executive Officer of Microsoft"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Connor Coleman serves as the Executive Vice President at the Development Finance Corporation (DFC), overseeing the expansion of its investment capacity and diversification of investment strategies. As the Chief of Staff and Head of Investments, Coleman plays a pivotal role in managing the DFC's global financial activities, which include substantial investments in large-scale, high-risk projects such as those in Ukraine and other strategic regions.",
-        "His leadership at the DFC has been instrumental in reauthorizing the corporation's funding from $60 billion to $205 billion, significantly increasing its capacity to engage in risk transformation and global finance."
+        "Sartina Della has made a significant impact in the technology sector, particularly within Microsoft. Her career has been marked by a deep focus on AI and cloud infrastructure, areas that are increasingly important for businesses and consumers alike. As a thought leader, she has contributed to the discourse on the future of software engineering and has been at the forefront of defining Microsoft's AI ecosystem strategy.",
+        "Her insights and leadership have been influential in shaping the company's approach to leveraging AI for business growth and innovation, making her a key figure in the tech industry."
       ],
       "sections": [
         {
-          "heading": "DFC Expansion",
-          "body": "Connor Coleman has been instrumental in expanding the Development Finance Corporation's investment capacity, leading to a reauthorization that increased its funding from $60 billion to $205 billion."
+          "heading": "AI Ecosystem Strategy",
+          "body": "Sartina Della has been a key figure in conceptualizing and implementing Microsoft's AI ecosystem strategy, emphasizing the importance of creating value beyond the platform itself."
         },
         {
-          "heading": "Investment Strategies",
-          "body": "Coleman is responsible for diversifying the DFC's investment strategies, focusing on large-scale, high-risk projects that have the potential for significant impact in global finance."
+          "heading": "Platform Shifts",
+          "body": "With experience in multiple platform shifts at Microsoft, Della brings a unique perspective on how companies can leverage AI and cloud technologies to stay competitive."
         },
         {
-          "heading": "Global Finance",
-          "body": "Under Coleman's leadership, the DFC has become a major player in global finance, investing substantial sums in projects that are often overlooked by traditional financial institutions."
+          "heading": "Software Engineering",
+          "body": "Della has shared her vision on the future of software engineering, discussing the impact of AI on the industry and the need for companies to adapt."
         }
       ]
     }
   },
-  "prompt_hash": "b186544dbf98e025"
+  "prompt_hash": "f77a13f070f88300"
 }
