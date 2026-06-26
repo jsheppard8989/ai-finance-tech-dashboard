@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-26T12:07:19.659526",
-  chartsVersion: "2026-06-26T12:07:07.182150",
+  generatedAt: "2026-06-26T13:42:01.642829",
+  chartsVersion: "2026-06-26T13:41:50.955226",
   priceSnapshot: {
   "GOOGL": {
-    "price": 342.29,
-    "change_pct": -5.79,
+    "price": 340.85,
+    "change_pct": -6.18,
     "name": "GOOGL",
-    "updated_at": "2026-06-26T12:07:07.180899"
+    "updated_at": "2026-06-26T13:41:50.954345"
   },
   "BTC": {
-    "price": 60037.9,
-    "change_pct": -6.8,
+    "price": 59672.86,
+    "change_pct": -7.37,
     "name": "BTC",
-    "updated_at": "2026-06-26T12:07:07.180924"
+    "updated_at": "2026-06-26T13:41:50.954361"
   },
   "MSFT": {
-    "price": 370.1,
-    "change_pct": -10.11,
+    "price": 370.84,
+    "change_pct": -9.93,
     "name": "MSFT",
-    "updated_at": "2026-06-26T12:07:07.180934"
+    "updated_at": "2026-06-26T13:41:50.954368"
   },
   "NVDA": {
-    "price": 194.67,
-    "change_pct": -6.7,
+    "price": 193.95,
+    "change_pct": -7.04,
     "name": "NVDA",
-    "updated_at": "2026-06-26T12:07:07.180943"
+    "updated_at": "2026-06-26T13:41:50.954374"
   },
   "AMZN": {
-    "price": 231.56,
-    "change_pct": -5.57,
+    "price": 230.0,
+    "change_pct": -6.21,
     "name": "AMZN",
-    "updated_at": "2026-06-26T12:07:07.180952"
+    "updated_at": "2026-06-26T13:41:50.954380"
   },
   "TSLA": {
-    "price": 386.99,
-    "change_pct": -5.37,
+    "price": 381.64,
+    "change_pct": -6.68,
     "name": "TSLA",
-    "updated_at": "2026-06-26T12:07:07.180960"
+    "updated_at": "2026-06-26T13:41:50.954385"
   },
   "WTI": {
-    "price": 3.16,
-    "change_pct": -19.87,
+    "price": 3.12,
+    "change_pct": -20.89,
     "name": "WTI",
-    "updated_at": "2026-06-26T12:07:07.180970"
+    "updated_at": "2026-06-26T13:41:50.954392"
   },
   "META": {
-    "price": 553.9,
-    "change_pct": -5.29,
+    "price": 551.76,
+    "change_pct": -5.66,
     "name": "META",
-    "updated_at": "2026-06-26T12:07:07.180978"
+    "updated_at": "2026-06-26T13:41:50.954397"
   },
   "S&P 500": {
-    "price": 735.08,
-    "change_pct": -0.3,
+    "price": 732.91,
+    "change_pct": -0.6,
     "name": "S&P 500",
-    "updated_at": "2026-06-26T12:07:07.180986"
+    "updated_at": "2026-06-26T13:41:50.954402"
   },
   "AAPL": {
-    "price": 278.6,
-    "change_pct": -7.61,
+    "price": 281.4,
+    "change_pct": -6.68,
     "name": "AAPL",
-    "updated_at": "2026-06-26T12:07:07.180995"
+    "updated_at": "2026-06-26T13:41:50.954407"
   },
   "QQQ": {
-    "price": 713.95,
-    "change_pct": -0.19,
+    "price": 709.64,
+    "change_pct": -0.79,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-26T12:07:07.181003"
+    "updated_at": "2026-06-26T13:41:50.954412"
   },
   "BTC-USD": {
-    "price": 60038.02,
-    "change_pct": -6.8,
+    "price": 59672.86,
+    "change_pct": -7.37,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-26T12:07:07.181012"
+    "updated_at": "2026-06-26T13:41:50.954419"
   }
 },
   tickerScores: [
@@ -857,6 +857,46 @@ const dashboardData = {
       "podcast_episode_id": 313
     },
     {
+      "id": 329,
+      "title": "The next big breakthrough will be AIs learning on the job",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-06-26",
+      "summary": "This podcast episode delves into the current state and future prospects of artificial intelligence, with a focus on reinforcement learning (RL) and the pursuit of artificial general intelligence (AGI). The discussion highlights the importance of sample efficiency, the challenges of continuous learning, and innovative approaches such as on-policy self-distribution (OPSD) and simulation-based learning. The episode underscores the need for architectural innovations and the potential for AI to learn from real-world experiences more effectively, leading to broader capabilities beyond initial training.",
+      "key_takeaway": "Investing in companies and technologies that advance reinforcement learning and enhance AI's ability to learn from real-world interactions can lead to significant returns as these capabilities become more integral to various industries.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT",
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 315
+    },
+    {
+      "id": 330,
+      "title": "The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-06-26",
+      "summary": "This podcast episode discusses the advancements in AI, particularly focusing on large Earth models, Chinese AI competition, the economic implications of AI, and the debate over AI personhood. It highlights the role of satellite data in creating real-world applications, the competitive performance of Chinese AI models, the decreasing cost of AI intelligence, and the sustainability of AI investments in hyperscalers.",
+      "key_takeaway": "Invest in companies at the forefront of AI and satellite data integration for real-world applications, while monitoring global AI competition and regulatory changes.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 314
+    },
+    {
       "id": 327,
       "title": "Marc Andreessen on AI, Technology, and the Future of Humanity",
       "source_type": "podcast",
@@ -951,7 +991,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-23",
       "archived_date": null,
@@ -1009,7 +1049,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-22",
       "archived_date": null,
@@ -7066,20 +7106,20 @@ const dashboardData = {
     {
       "id": 254,
       "term": "Hyperscalers",
-      "description": "Large technology companies that provide cloud computing services and have the ability to scale resources rapidly.",
+      "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-06-21",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-06-26",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should be aware of the market power of hyperscalers in AI and their potential to influence innovation and competition.",
+      "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 304,
-      "last_mentioned_speaker": "Ed Zitron"
+      "last_mentioned_episode_id": 314,
+      "last_mentioned_speaker": "Will Marshall, Peter Diamandis"
     },
     {
       "id": 252,
@@ -7174,20 +7214,20 @@ const dashboardData = {
     {
       "id": 234,
       "term": "AI Personhood",
-      "description": "The concept of attributing legal or moral status to AI entities, raising questions about responsibility and rights in the context of AI.",
+      "description": "The debate over whether AI entities should be granted legal personhood, which could shape the regulatory landscape for AI.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-06-25",
-      "mention_count": 10,
+      "last_mentioned_date": "2026-06-26",
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "As AI becomes more sophisticated, investors may need to consider the ethical and legal implications of AI personhood in their investment strategies.",
+      "investment_implications": "Stakeholders should engage in discussions about AI regulation to prepare for potential legal changes.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 312,
-      "last_mentioned_speaker": "Mark Andreessen"
+      "last_mentioned_episode_id": 314,
+      "last_mentioned_speaker": "Will Marshall, Peter Diamandis"
     },
     {
       "id": 59,
@@ -7338,8 +7378,8 @@ const dashboardData = {
       "term": "Dyson Swarm",
       "description": "A hypothetical structure proposed by Freeman Dyson, consisting of a large number of objects in space designed to capture the energy of a star, in this context possibly referring to SpaceX's ambitions.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-06-18",
-      "mention_count": 17,
+      "last_mentioned_date": "2026-06-26",
+      "mention_count": 18,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential of space-based infrastructure and energy capture technologies.",
@@ -7348,8 +7388,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 296,
-      "last_mentioned_speaker": "Peter Diamandis"
+      "last_mentioned_episode_id": 314,
+      "last_mentioned_speaker": "Will Marshall, Peter Diamandis"
     },
     {
       "id": 113,
@@ -7428,8 +7468,8 @@ const dashboardData = {
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-06-18",
-      "mention_count": 29,
+      "last_mentioned_date": "2026-06-26",
+      "mention_count": 30,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -7438,8 +7478,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 296,
-      "last_mentioned_speaker": "Peter Diamandis"
+      "last_mentioned_episode_id": 314,
+      "last_mentioned_speaker": "Will Marshall, Peter Diamandis"
     },
     {
       "id": 97,
@@ -7447,7 +7487,7 @@ const dashboardData = {
       "description": "The process of reducing a large AI model into a smaller, more manageable one through API queries.",
       "first_detected_date": "2026-05-15",
       "last_mentioned_date": "2026-06-26",
-      "mention_count": 14,
+      "mention_count": 15,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Look for opportunities in technologies that enable efficient distillation to democratize AI capabilities.",
@@ -7456,8 +7496,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 313,
-      "last_mentioned_speaker": "a16z (hosts)"
+      "last_mentioned_episode_id": 314,
+      "last_mentioned_speaker": "Will Marshall, Peter Diamandis"
     },
     {
       "id": 174,
@@ -7555,7 +7595,7 @@ const dashboardData = {
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
       "last_mentioned_date": "2026-06-26",
-      "mention_count": 44,
+      "mention_count": 45,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -7564,7 +7604,7 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 313,
+      "last_mentioned_episode_id": 315,
       "last_mentioned_speaker": "a16z (hosts)"
     },
     {
@@ -8688,8 +8728,8 @@ const dashboardData = {
       "term": "AI Agents",
       "description": "Software entities that perform tasks autonomously, often used in AI and machine learning workflows.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-06-24",
-      "mention_count": 42,
+      "last_mentioned_date": "2026-06-26",
+      "mention_count": 44,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AI agents can automate complex processes, reducing costs and increasing efficiency in various sectors.",
@@ -8698,8 +8738,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 311,
-      "last_mentioned_speaker": "Josh Elman"
+      "last_mentioned_episode_id": 315,
+      "last_mentioned_speaker": "Will Marshall, Peter Diamandis"
     },
     {
       "id": 38,
@@ -8984,6 +9024,46 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 329,
+      "title": "The next big breakthrough will be AIs learning on the job",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-06-26",
+      "summary": "This podcast episode delves into the current state and future prospects of artificial intelligence, with a focus on reinforcement learning (RL) and the pursuit of artificial general intelligence (AGI). The discussion highlights the importance of sample efficiency, the challenges of continuous learning, and innovative approaches such as on-policy self-distribution (OPSD) and simulation-based learning. The episode underscores the need for architectural innovations and the potential for AI to learn from real-world experiences more effectively, leading to broader capabilities beyond initial training.",
+      "key_takeaway": "Investing in companies and technologies that advance reinforcement learning and enhance AI's ability to learn from real-world interactions can lead to significant returns as these capabilities become more integral to various industries.",
+      "tickers_mentioned": "[\"GOOGL\", \"MSFT\", \"NVDA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 315,
+      "episode_release_date": "2026-06-26",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 330,
+      "title": "The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-06-26",
+      "summary": "This podcast episode discusses the advancements in AI, particularly focusing on large Earth models, Chinese AI competition, the economic implications of AI, and the debate over AI personhood. It highlights the role of satellite data in creating real-world applications, the competitive performance of Chinese AI models, the decreasing cost of AI intelligence, and the sustainability of AI investments in hyperscalers.",
+      "key_takeaway": "Invest in companies at the forefront of AI and satellite data integration for real-world applications, while monitoring global AI competition and regulatory changes.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 314,
+      "episode_release_date": "2026-06-26",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 327,
       "title": "Marc Andreessen on AI, Technology, and the Future of Humanity",
       "source_type": "podcast",
@@ -9064,26 +9144,6 @@ const dashboardData = {
       "key_tickers": []
     },
     {
-      "id": 322,
-      "title": "What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-06-23",
-      "summary": "This podcast episode from 'The a16z Show' discusses the evolving role of AI in enhancing personal daily life and experiences rather than just productivity and job replacement. The conversation emphasizes the importance of storytelling in product marketing, particularly in consumer tech, and underscores that retention is the most critical metric for consumer products. It also highlights the rise of creator-led distribution channels and the next generation of consumers' expectations for personalized, immersive experiences. The episode suggests significant opportunities for startups to innovate in areas like personal finance, health management, and travel planning using AI, and stresses the balance between AI-driven tools and human interaction for meaningful consumer experiences.",
-      "key_takeaway": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-23",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 307,
-      "episode_release_date": "2026-06-23",
-      "guest_name": "What\u2019s Next for Consumer AI?",
-      "key_tickers": []
-    },
-    {
       "id": 323,
       "title": "GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
       "source_type": "podcast",
@@ -9105,26 +9165,6 @@ const dashboardData = {
         "GME",
         "EBAY"
       ]
-    },
-    {
-      "id": 321,
-      "title": "Jake Paul & Anti Fund: From Creator to Investor",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-06-22",
-      "summary": "In this episode of 'The a16z Show', Jake Paul and Jeff Wu discuss the launch of Anti-Fund's $100 million growth fund, focusing on sectors like AI, defense, and software. They stress the importance of resilience and adaptability in entrepreneurship and investing, the significance of founder taste and people reading skills, and the need for education reform to enhance financial literacy. The conversation also covers the evolving media landscape, the role of attention in the digital age, and the potential of leveraging personal brands in business ventures.",
-      "key_takeaway": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-22",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 305,
-      "episode_release_date": "2026-06-22",
-      "guest_name": "Jake Paul & Anti Fund",
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -9256,7 +9296,7 @@ const dashboardData = {
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
       "last_mentioned_date": "2026-06-26",
-      "mention_count": 44,
+      "mention_count": 45,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -9265,15 +9305,15 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 313,
+      "last_mentioned_episode_id": 315,
       "last_mentioned_speaker": "a16z (hosts)",
-      "overton_score": 44.0,
+      "overton_score": 45.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "AI Is Crossing the Frontier of Human Knowledge | Kevin Weil",
+      "last_mentioned_podcast": "Dwarkesh Podcast",
+      "last_mentioned_episode_title": "The next big breakthrough will be AIs learning on the job",
       "last_mentioned_episode_date": "2026-06-26"
     },
     {
@@ -9281,8 +9321,8 @@ const dashboardData = {
       "term": "Dyson Swarm",
       "description": "A hypothetical structure proposed by Freeman Dyson, consisting of a large number of objects in space designed to capture the energy of a star, in this context possibly referring to SpaceX's ambitions.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-06-18",
-      "mention_count": 17,
+      "last_mentioned_date": "2026-06-26",
+      "mention_count": 18,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential of space-based infrastructure and energy capture technologies.",
@@ -9291,68 +9331,68 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 296,
-      "last_mentioned_speaker": "Peter Diamandis",
-      "overton_score": 14.13,
+      "last_mentioned_episode_id": 314,
+      "last_mentioned_speaker": "Will Marshall, Peter Diamandis",
+      "overton_score": 18.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
       "first_detected_episode_date": "2026-05-23",
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "SpaceX IPOs at $2.89T Market Cap, US Govt Suspends Fable & Mythos 5, Altman Delays OpenAI\u2019s IPO | EP #265",
-      "last_mentioned_episode_date": "2026-06-18"
+      "last_mentioned_episode_title": "The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
+      "last_mentioned_episode_date": "2026-06-26"
     },
     {
       "id": 234,
       "term": "AI Personhood",
-      "description": "The concept of attributing legal or moral status to AI entities, raising questions about responsibility and rights in the context of AI.",
+      "description": "The debate over whether AI entities should be granted legal personhood, which could shape the regulatory landscape for AI.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-06-25",
-      "mention_count": 10,
+      "last_mentioned_date": "2026-06-26",
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "As AI becomes more sophisticated, investors may need to consider the ethical and legal implications of AI personhood in their investment strategies.",
+      "investment_implications": "Stakeholders should engage in discussions about AI regulation to prepare for potential legal changes.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 312,
-      "last_mentioned_speaker": "Mark Andreessen",
-      "overton_score": 9.77,
+      "last_mentioned_episode_id": 314,
+      "last_mentioned_speaker": "Will Marshall, Peter Diamandis",
+      "overton_score": 11.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
       "first_detected_episode_date": "2026-06-08",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Marc Andreessen on AI, Technology, and the Future of Humanity",
-      "last_mentioned_episode_date": "2026-06-25"
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
+      "last_mentioned_episode_date": "2026-06-26"
     },
     {
       "id": 254,
       "term": "Hyperscalers",
-      "description": "Large technology companies that provide cloud computing services and have the ability to scale resources rapidly.",
+      "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-06-21",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-06-26",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should be aware of the market power of hyperscalers in AI and their potential to influence innovation and competition.",
+      "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 304,
-      "last_mentioned_speaker": "Ed Zitron",
-      "overton_score": 2.67,
-      "resonance_pct": 67,
+      "last_mentioned_episode_id": 314,
+      "last_mentioned_speaker": "Will Marshall, Peter Diamandis",
+      "overton_score": 4.0,
+      "resonance_pct": 100,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
       "first_detected_episode_date": "2026-06-19",
-      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
-      "last_mentioned_episode_title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
-      "last_mentioned_episode_date": "2026-06-21"
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
+      "last_mentioned_episode_date": "2026-06-26"
     },
     {
       "id": 11,
@@ -29090,9 +29130,152 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-06-26",
     "key_tickers": []
+  },
+  "329": {
+    "id": 319,
+    "insight_id": 329,
+    "podcast_episode_id": 315,
+    "overview": "The unresolved tension in the AI field is the balance between the theoretical potential of AGI and the practical challenges of sample efficiency and continuous learning. The competitive dynamic revolves around which companies and technologies can overcome these challenges to develop AI that can learn and adapt in real-world environments. The metric that arbitrates this uncertainty is the ability of AI models to learn effectively with less data and to adapt to new information without forgetting previous knowledge.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the development of AI training environments that increase in diversity and complexity, as this could indicate progress towards AGI.",
+      "Companies that can demonstrate improvements in sample efficiency will have a competitive advantage, as they can deploy AI models in more domains with less data.",
+      "Investors should evaluate AI companies based on their ability to incorporate continuous learning mechanisms, as this will be crucial for AI models to remain effective in dynamic environments.",
+      "The success of on-policy self-distribution (OPSD) and simulation-based learning techniques could be a game-changer, potentially reducing the data requirements for AI training and improving adaptability."
+    ],
+    "investment_thesis": "The core logic of this investment thesis is that advancements in reinforcement learning and the ability of AI to learn from real-world interactions will lead to significant returns. The timeframe for this thesis is within the next 5 years, as technological advancements and market adoption typically occur within this period. An observable development that would vindicate this thesis is a noticeable increase in the diversity and complexity of RL training environments, along with demonstrable improvements in sample efficiency and continuous learning capabilities.",
+    "ticker_analysis": {
+      "GOOGL": {
+        "rationale": "Google is a leader in AI research and has significant investments in reinforcement learning and AGI development.",
+        "positioning": "Strategic long position, as Google's advancements in AI could drive long-term growth and value.",
+        "risk": "Key risks include regulatory challenges to AI development and competition from other tech giants."
+      },
+      "MSFT": {
+        "rationale": "Microsoft has a strong AI division and is investing in AI research, including reinforcement learning and continuous learning.",
+        "positioning": "Tactical long position, as Microsoft's AI initiatives could provide short-term gains and long-term potential.",
+        "risk": "Risks include technological obsolescence and market competition."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is a key player in providing the hardware necessary for AI development, particularly GPUs that are essential for training complex AI models.",
+        "positioning": "Strategic long position, as demand for AI hardware is expected to grow with advancements in AI.",
+        "risk": "Risks include competition from other hardware providers and potential slowdowns in AI research and development."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "AI development may not progress as quickly as expected due to technical challenges or ethical concerns.",
+      "The market may overestimate the potential of AGI, leading to a bubble that could burst if real-world applications fail to meet expectations.",
+      "Regulatory hurdles could slow down AI development, particularly in areas such as data privacy and AI ethics."
+    ],
+    "catalysts": [
+      "Publication of new research papers demonstrating significant improvements in sample efficiency and continuous learning.",
+      "Announcements from major tech companies about new AI products or services that leverage advancements in reinforcement learning.",
+      "Regulatory decisions that either support or hinder the development and deployment of AI technologies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-26T13:40:22.221279",
+    "updated_at": "2026-06-26 18:40:22",
+    "episode_evidence": "The podcast episode provides a nuanced view of the current state of artificial intelligence, particularly focusing on reinforcement learning (RL) and the pursuit of artificial general intelligence (AGI). The host mentions that 'The labs are betting that RL VR will generalize... if you train at enough containerized reproducible environments, you will develop a very general agent.' This suggests that the diversity of training environments is crucial for developing AI capable of handling a wide range of tasks. Additionally, the guest points out the sample inefficiency of current models, stating 'The models are incredibly sample inefficient during training.' This inefficiency is a significant barrier to real-world deployment, as it requires vast amounts of data to achieve effective learning. Furthermore, the discussion highlights the challenges in continuous learning, with the guest noting that 'AIs can't just keep building up a bigger and bigger KV cache as they learn for more and more users.' This indicates a need for innovative approaches to enable AI to learn and adapt over time, which is essential for practical applications.",
+    "falsification_tracks": [
+      "If the number of diverse RL environments used in training does not increase over the next year, it would suggest that the industry is not prioritizing the development of AGI.",
+      "If sample efficiency of AI models does not improve significantly within the next two years, it would challenge the feasibility of scaling AI applications across various domains.",
+      "Should AI models fail to demonstrate continuous learning capabilities in real-world applications over the next few years, it would indicate that current approaches to AI development are insufficient for dynamic environments."
+    ],
+    "insight_title": "The next big breakthrough will be AIs learning on the job",
+    "source_name": "Dwarkesh Podcast",
+    "source_date": "2026-06-26",
+    "key_tickers": []
+  },
+  "330": {
+    "id": 320,
+    "insight_id": 330,
+    "podcast_episode_id": 314,
+    "overview": "The competitive dynamic in AI is intensifying with the rise of large Earth models and the democratization of AI capabilities, particularly with China's GLM5.2 model challenging Western dominance. This advancement raises questions about the sustainability of AI investments, especially in hyperscalers that are spending more on AI than they are earning. The allocation tradeoff lies in balancing the potential of these technologies with the financial risks associated with their development and deployment.",
+    "key_takeaways_detailed": [
+      "Investors should focus on companies that not only develop AI models but also have the capability to integrate and analyze vast amounts of real-world data for practical applications.",
+      "The geopolitical implications of AI advancements, especially from China, suggest a need for investors to diversify their portfolios to mitigate risks associated with global competition.",
+      "As the cost of AI intelligence decreases, there is a potential shift towards more accessible and innovative AI applications, which could disrupt traditional market players.",
+      "Engaging in the debate over AI personhood and regulation is crucial for investors to anticipate and prepare for potential changes in the legal and operational landscape of AI."
+    ],
+    "investment_thesis": "Investing in companies that are at the forefront of integrating AI with satellite data for real-world applications is a strategic move, given the increasing capabilities and decreasing costs of AI. However, this thesis is contingent on the continued advancement of AI technology and the sustainability of investments in hyperscalers. The observable development that would vindicate this thesis is the successful commercialization of large Earth models in sectors like agriculture and national security, while an economic downturn or regulatory crackdown could invalidate it.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI and its potential to leverage satellite data through its technology ecosystem makes it a relevant player in this space.",
+        "positioning": "Positioning should be strategic, considering Apple's long-term potential in AI and satellite integration, despite the current focus on consumer electronics.",
+        "risk": "Key risks include regulatory changes affecting AI usage and the potential for competitors to outpace Apple in the development of large Earth models."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that AI advancements may not translate into practical applications as quickly as anticipated, leading to overvaluation in the current market.",
+      "Concerns that the decreasing cost of AI intelligence may lead to a race to the bottom in terms of quality and ethical considerations.",
+      "The possibility that geopolitical tensions could stifle the global collaboration needed for the advancement of AI technologies."
+    ],
+    "catalysts": [
+      "Regulatory rulings on AI personhood and its legal status.",
+      "Major breakthroughs in the commercial application of large Earth models.",
+      "Significant shifts in the cost of AI intelligence as tracked by platforms like Oron.",
+      "Geopolitical developments that could impact the global AI competition, particularly regarding China's AI advancements."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-26T13:41:00.912780",
+    "updated_at": "2026-06-26 18:41:00",
+    "episode_evidence": "Planet's approach to 'indexing the Earth to make it searchable' involves operating 200 satellites that generate a staggering 25 terabytes of imagery daily, with a historical archive reaching 150 petabytes of data. This vast repository of Earth imagery is then combined with AI to create 'large Earth models' that can answer complex real-world questions, particularly in sectors like agriculture and national security. The competitive landscape is shifting with the emergence of China's GLM5.2 model, which has reportedly 'matched or exceeded the top models from OpenAI and from Anthropic,' indicating a significant advancement in AI capabilities. The economic implications of AI are also profound, as the cost of intelligence is dropping, with platforms like Oron tracking AI token prices, suggesting a new economic paradigm for AI.",
+    "falsification_tracks": [
+      "If Planet's satellite data collection or processing capabilities were to significantly degrade, the effectiveness of their large Earth models would be compromised.",
+      "Should China's GLM5.2 model fail to replicate its performance in independent benchmarks, the perception of its competitiveness would diminish.",
+      "A sustained increase in the cost of AI intelligence, as tracked by platforms like Oron, would challenge the thesis of decreasing AI costs."
+    ],
+    "insight_title": "The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-06-26",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 461,
+    "term": "On-Policy Self-Distribution (OPSD)",
+    "definition": "A proposed technique in AI training that aims to improve sample efficiency by aligning model predictions with accumulated contextual knowledge.",
+    "investment_implications": "OPSD could significantly enhance the effectiveness of AI models in real-world applications, making investments in companies researching OPSD potentially lucrative.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-06-26 18:39:19",
+    "priority_score": 80
+  },
+  {
+    "id": 462,
+    "term": "Continuous Learning",
+    "definition": "The capability of AI models to learn and adapt from new data over time, updating their knowledge base without forgetting previously learned information.",
+    "investment_implications": "Companies developing AI systems with robust continuous learning capabilities could have a competitive edge in dynamic environments where learning from interactions is essential.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-06-26 18:39:19",
+    "priority_score": 80
+  },
+  {
+    "id": 460,
+    "term": "Large Earth Models",
+    "definition": "Models that combine satellite imagery with AI to answer real-world questions and make better decisions in areas like agriculture and national security.",
+    "investment_implications": "Investors should consider companies that leverage real-time Earth data for AI applications.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-06-26 18:38:56",
+    "priority_score": 80
+  },
   {
     "id": 457,
     "term": "Robotic Labs",
@@ -29104,47 +29287,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-06-26 17:05:37",
     "priority_score": 80
-  },
-  {
-    "id": 458,
-    "term": "Ensemble Modeling",
-    "definition": "The use of multiple AI models working together to improve outcomes in complex tasks.",
-    "investment_implications": "Startups implementing ensemble modeling may see enhanced performance in AI applications.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-06-26 17:05:37",
-    "priority_score": 80
-  },
-  {
-    "id": 459,
-    "term": "B2B AI Applications",
-    "definition": "AI solutions targeted at businesses to enhance operations and efficiency.",
-    "investment_implications": "B2B AI applications are a priority for startups due to the economic value they provide to businesses.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-06-26 17:05:37",
-    "priority_score": 80
-  },
-  {
-    "id": 455,
-    "term": "Scaling Laws",
-    "definition": "The principle that larger AI models yield better performance, driving companies to invest heavily in expanding their AI capabilities.",
-    "investment_implications": "Investors should consider companies that are at the forefront of scaling AI models for potential growth opportunities.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-06-25 17:03:25",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 21674,
+    "id": 21756,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -29156,7 +29303,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21675,
+    "id": 21757,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -29168,7 +29315,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21676,
+    "id": 21758,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -29180,7 +29327,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21677,
+    "id": 21759,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -29192,7 +29339,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21678,
+    "id": 21760,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -29204,7 +29351,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21679,
+    "id": 21761,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -29216,7 +29363,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 21680,
+    "id": 21762,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -29228,7 +29375,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21681,
+    "id": 21763,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -29240,7 +29387,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21682,
+    "id": 21764,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -29252,7 +29399,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21683,
+    "id": 21765,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -29264,7 +29411,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21684,
+    "id": 21766,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -29276,7 +29423,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21685,
+    "id": 21767,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -29288,7 +29435,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21686,
+    "id": 21768,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -29300,7 +29447,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21687,
+    "id": 21769,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -29312,7 +29459,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21688,
+    "id": 21770,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -29324,7 +29471,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21689,
+    "id": 21771,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -29336,7 +29483,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21690,
+    "id": 21772,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -29348,7 +29495,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21691,
+    "id": 21773,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -29360,7 +29507,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21692,
+    "id": 21774,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -29372,7 +29519,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21693,
+    "id": 21775,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -29713,7 +29860,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 1.23,
+    "mention_score_decayed": 1.2,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -29851,7 +29998,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.1,
+    "mention_score_decayed": 1.07,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -30039,7 +30186,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -30645,6 +30792,70 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 310,
+    "name": "Will Marshall",
+    "slug": "will-marshall",
+    "bio": "Will Marshall is the co-founder and CEO of Planet Labs, a company that specializes in Earth imaging and data analytics. His work focuses on creating large Earth models using satellite data and AI to index the Earth, making it searchable and enabling better stewardship of the planet.",
+    "known_for": "Creating large Earth models using satellite data and AI to make the planet searchable and facilitate environmental stewardship.",
+    "net_worth_usd": 87000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/183020/william-spencer-marshall",
+    "net_worth_updated_at": "2026-06-26T13:39:55.577952",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-06-26 18:38:56",
+    "last_episode_title": "The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-06-26",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies at the forefront of AI and satellite data integration for real-world applications, while monitoring global AI competition and regulatory changes.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-26 \u2022 The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
+    "last_proof_snippet": "Today, plan is a $10 billion company. You've coined the term large earth models. What does that mean? It, like, Google index the internet to make it searchable, we're indexing the earth to make it searchable. It will finally enable us to be",
+    "supporting_takeaway": "Monitor Chinese AI advancements for potential market disruptions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-26T13:39:54.444519",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Will Marshall",
+      "fetched_at": "2026-06-26T18:39:54.444173+00:00",
+      "cliff_notes": "Will Marshall is a prominent figure in the field of Earth imaging and data analytics. As the co-founder and CEO of Planet Labs, he has been instrumental in developing large Earth models that utilize satellite data and artificial intelligence. These models are designed to index the Earth, making it searchable in a manner similar to how Google indexes the internet. This innovation has the potential to revolutionize environmental monitoring and management, enabling more effective and data-driven decision-making. Marshall's work is crucial in the context of global environmental challenges, as it provides a scalable and comprehensive approach to understanding and addressing issues such as climate change, deforestation, and urban development.",
+      "derived": {
+        "current_role": "Co-founder and CEO of Planet Labs"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Will Marshall is a prominent figure in the field of Earth imaging and data analytics. As the co-founder and CEO of Planet Labs, he has been instrumental in developing large Earth models that utilize satellite data and artificial intelligence. These models are designed to index the Earth, making it searchable in a manner similar to how Google indexes the internet.",
+        "This innovation has the potential to revolutionize environmental monitoring and management, enabling more effective and data-driven decision-making. Marshall's work is crucial in the context of global environmental challenges, as it provides a scalable and comprehensive approach to understanding and addressing issues such as climate change, deforestation, and urban development."
+      ],
+      "sections": [
+        {
+          "heading": "Planet Labs",
+          "body": "Planet Labs is a company that specializes in Earth imaging and data analytics, founded by Will Marshall. It aims to create large Earth models using satellite data and AI, making the planet searchable and facilitating environmental stewardship."
+        },
+        {
+          "heading": "Large Earth Models",
+          "body": "Will Marshall has coined the term 'large Earth models,' which refers to the indexing of the Earth using satellite data and AI, similar to how Google indexes the internet. This concept is aimed at enabling smarter and more efficient management of the planet's resources."
+        },
+        {
+          "heading": "Competition with SpaceX",
+          "body": "In discussions about the future of space technology, Will Marshall has acknowledged the competition with Elon Musk's SpaceX, particularly in terms of launching satellites and establishing orbital AI data centers. He highlights the importance of both launch capabilities and computational power in the long term."
+        },
+        {
+          "heading": "Global AI Competition",
+          "body": "Marshall has also commented on the global competition in AI, noting the emergence of Chinese models like GLM5.2 that match or exceed the performance of top models from OpenAI and Anthropic. He emphasizes the importance of efficiency and cost-effectiveness in AI development, as well as the potential for token-based intelligence systems."
+        }
+      ]
+    },
+    "net_worth": "$87.0M"
+  },
+  {
     "id": 309,
     "name": "Shashank Charanawala",
     "slug": "shashank-charanawala",
@@ -30912,7 +31123,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-23 \u2022 What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
     "last_proof_snippet": "Right now AI has been so much about productivity, job replacement, work replacement and I think we have a moment to shift that, which is how does these new tools help you get more out of your own day and your own life and the things you wan",
@@ -31529,7 +31740,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in companies that can integrate AI into their operations and leverage Microsoft's ecosystem for competitive advantage, focusing on data management capabilities and adaptability to new pricing models.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
     "last_proof_snippet": "Please welcome Swicks, Saragawa, Alad Gill and Chairman and Chief Executive Officer of Microsoft, Sartina Della. I'm so excited to be here. Welcome to a crossover episode of NoPriors and Lanesvists with Sartina Della. Congratulations on an",
@@ -31779,7 +31990,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-15 \u2022 AI, Design, and the Power of Open Models",
     "last_proof_snippet": "It's not about how good a model is in the general sense. It's about how good is this model for my use case, for a lot of design and marketing use case says they need editable design, not a single flat image. It's super impressive, honestly,",
@@ -31963,7 +32174,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -32031,7 +32242,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -32099,7 +32310,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-10 \u2022 America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. There's a very, very large player in global finance that almost no one knows about. The development finance corporation, it just had its reautho",
@@ -32222,7 +32433,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -32416,7 +32627,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -32503,7 +32714,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -32822,7 +33033,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-03 \u2022 Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
     "last_proof_snippet": "One of the most provocative and interesting investors in the country. A legendary activist investor. Pershing square CEO and founder Bill Acling. Taking a short position and going public with it is a pretty serious business. Interestingly,",
@@ -32887,7 +33098,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-02 \u2022 OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
     "last_proof_snippet": "Open AI's CFO, Sarah Fryer. We've got to get right to it. You have just completed what I would find as the most successful fund-raising rail in history. We're going to raise actually north of $120 billion. We think AI is the biggest era tha",
@@ -33129,7 +33340,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -33439,7 +33650,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -33503,7 +33714,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -33566,7 +33777,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -34438,7 +34649,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -34628,7 +34839,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -34691,7 +34902,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",

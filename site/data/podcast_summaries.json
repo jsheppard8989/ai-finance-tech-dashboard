@@ -1,5 +1,36 @@
 [
   {
+    "id": 315,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "The next big breakthrough will be AIs learning on the job",
+    "episode_date": "2026-06-26",
+    "summary": "This podcast episode delves into the current state and future prospects of artificial intelligence, with a focus on reinforcement learning (RL) and the pursuit of artificial general intelligence (AGI). The discussion highlights the importance of sample efficiency, the challenges of continuous learning, and innovative approaches such as on-policy self-distribution (OPSD) and simulation-based learning. The episode underscores the need for architectural innovations and the potential for AI to learn from real-world experiences more effectively, leading to broader capabilities beyond initial training.",
+    "key_takeaways": [
+      "Invest in AI companies focusing on reinforcement learning and diverse training environments.",
+      "Support research initiatives aimed at improving sample efficiency in AI models.",
+      "Evaluate AI solutions that incorporate continuous learning capabilities for real-world applications.",
+      "Keep an eye on emerging techniques like OPSD and simulation-based learning for potential investment opportunities."
+    ],
+    "investment_thesis": "Investing in companies and technologies that advance reinforcement learning and enhance AI's ability to learn from real-world interactions can lead to significant returns as these capabilities become more integral to various industries.",
+    "key_tickers": null
+  },
+  {
+    "id": 314,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
+    "episode_date": "2026-06-26",
+    "summary": "This podcast episode discusses the advancements in AI, particularly focusing on large Earth models, Chinese AI competition, the economic implications of AI, and the debate over AI personhood. It highlights the role of satellite data in creating real-world applications, the competitive performance of Chinese AI models, the decreasing cost of AI intelligence, and the sustainability of AI investments in hyperscalers.",
+    "key_takeaways": [
+      "Invest in companies leveraging real-time Earth data for AI applications.",
+      "Monitor Chinese AI advancements for potential market disruptions.",
+      "Track AI pricing trends to identify investment opportunities.",
+      "Engage in AI regulation discussions to prepare for legal changes.",
+      "Assess the financial health of AI companies for sustainable growth."
+    ],
+    "investment_thesis": "Invest in companies at the forefront of AI and satellite data integration for real-world applications, while monitoring global AI competition and regulatory changes.",
+    "key_tickers": null
+  },
+  {
     "id": 313,
     "podcast_name": "The a16z Show",
     "episode_title": "AI Is Crossing the Frontier of Human Knowledge | Kevin Weil",
@@ -97,38 +128,5 @@
       "GME",
       "EBAY"
     ]
-  },
-  {
-    "id": 307,
-    "podcast_name": "The a16z Show",
-    "episode_title": "What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
-    "episode_date": "2026-06-23",
-    "summary": "This podcast episode from 'The a16z Show' discusses the evolving role of AI in enhancing personal daily life and experiences rather than just productivity and job replacement. The conversation emphasizes the importance of storytelling in product marketing, particularly in consumer tech, and underscores that retention is the most critical metric for consumer products. It also highlights the rise of creator-led distribution channels and the next generation of consumers' expectations for personalized, immersive experiences. The episode suggests significant opportunities for startups to innovate in areas like personal finance, health management, and travel planning using AI, and stresses the balance between AI-driven tools and human interaction for meaningful consumer experiences.",
-    "key_takeaways": [
-      "AI is transitioning from productivity tools to enhancing personal experiences and daily life.",
-      "Storytelling is crucial in product marketing, especially in consumer tech.",
-      "Retention is the most important metric for consumer products, indicating product-market fit.",
-      "The rise of creator-led distribution channels is reshaping product traction.",
-      "Next-generation consumers expect personalized, immersive experiences blending entertainment and utility.",
-      "Startups have opportunities to innovate in personal finance, health management, and travel planning using AI."
-    ],
-    "investment_thesis": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
-    "key_tickers": null
-  },
-  {
-    "id": 305,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Jake Paul & Anti Fund: From Creator to Investor",
-    "episode_date": "2026-06-22",
-    "summary": "In this episode of 'The a16z Show', Jake Paul and Jeff Wu discuss the launch of Anti-Fund's $100 million growth fund, focusing on sectors like AI, defense, and software. They stress the importance of resilience and adaptability in entrepreneurship and investing, the significance of founder taste and people reading skills, and the need for education reform to enhance financial literacy. The conversation also covers the evolving media landscape, the role of attention in the digital age, and the potential of leveraging personal brands in business ventures.",
-    "key_takeaways": [
-      "Resilience is key for entrepreneurs and investors to navigate failures and setbacks.",
-      "Founder taste and people reading skills are crucial for making successful investments.",
-      "Education reform is necessary to better prepare future generations for financial literacy and economic participation.",
-      "Controlling attention is as important as managing capital in the digital age.",
-      "Taking calculated risks is essential for growth and innovation in business."
-    ],
-    "investment_thesis": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
-    "key_tickers": null
   }
 ]
