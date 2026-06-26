@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-26T06:38:34.101299",
-  chartsVersion: "2026-06-26T06:38:19.670784",
+  generatedAt: "2026-06-26T12:07:19.659526",
+  chartsVersion: "2026-06-26T12:07:07.182150",
   priceSnapshot: {
   "GOOGL": {
-    "price": 343.71,
-    "change_pct": -6.68,
+    "price": 342.29,
+    "change_pct": -5.79,
     "name": "GOOGL",
-    "updated_at": "2026-06-26T06:38:19.669930"
+    "updated_at": "2026-06-26T12:07:07.180899"
   },
   "BTC": {
-    "price": 59374.3,
-    "change_pct": -7.83,
+    "price": 60037.9,
+    "change_pct": -6.8,
     "name": "BTC",
-    "updated_at": "2026-06-26T06:38:19.669945"
+    "updated_at": "2026-06-26T12:07:07.180924"
   },
   "MSFT": {
-    "price": 352.83,
-    "change_pct": -15.32,
+    "price": 370.1,
+    "change_pct": -10.11,
     "name": "MSFT",
-    "updated_at": "2026-06-26T06:38:19.669951"
+    "updated_at": "2026-06-26T12:07:07.180934"
   },
   "NVDA": {
-    "price": 195.74,
-    "change_pct": -4.56,
+    "price": 194.67,
+    "change_pct": -6.7,
     "name": "NVDA",
-    "updated_at": "2026-06-26T06:38:19.669956"
+    "updated_at": "2026-06-26T12:07:07.180943"
   },
   "AMZN": {
-    "price": 227.01,
-    "change_pct": -7.73,
+    "price": 231.56,
+    "change_pct": -5.57,
     "name": "AMZN",
-    "updated_at": "2026-06-26T06:38:19.669962"
+    "updated_at": "2026-06-26T12:07:07.180952"
   },
   "TSLA": {
-    "price": 375.12,
-    "change_pct": -4.06,
+    "price": 386.99,
+    "change_pct": -5.37,
     "name": "TSLA",
-    "updated_at": "2026-06-26T06:38:19.669967"
+    "updated_at": "2026-06-26T12:07:07.180960"
   },
   "WTI": {
-    "price": 3.19,
-    "change_pct": -13.78,
+    "price": 3.16,
+    "change_pct": -19.87,
     "name": "WTI",
-    "updated_at": "2026-06-26T06:38:19.669973"
+    "updated_at": "2026-06-26T12:07:07.180970"
   },
   "META": {
-    "price": 542.87,
-    "change_pct": -8.37,
+    "price": 553.9,
+    "change_pct": -5.29,
     "name": "META",
-    "updated_at": "2026-06-26T06:38:19.669979"
+    "updated_at": "2026-06-26T12:07:07.180978"
   },
   "S&P 500": {
-    "price": 734.3,
-    "change_pct": -0.18,
+    "price": 735.08,
+    "change_pct": -0.3,
     "name": "S&P 500",
-    "updated_at": "2026-06-26T06:38:19.669983"
+    "updated_at": "2026-06-26T12:07:07.180986"
   },
   "AAPL": {
-    "price": 275.15,
-    "change_pct": -10.47,
+    "price": 278.6,
+    "change_pct": -7.61,
     "name": "AAPL",
-    "updated_at": "2026-06-26T06:38:19.669988"
+    "updated_at": "2026-06-26T12:07:07.180995"
   },
   "QQQ": {
-    "price": 716.38,
-    "change_pct": 1.72,
+    "price": 713.95,
+    "change_pct": -0.19,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-26T06:38:19.669993"
+    "updated_at": "2026-06-26T12:07:07.181003"
   },
   "BTC-USD": {
-    "price": 59362.22,
-    "change_pct": -7.85,
+    "price": 60038.02,
+    "change_pct": -6.8,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-26T06:38:19.670000"
+    "updated_at": "2026-06-26T12:07:07.181012"
   }
 },
   tickerScores: [
@@ -834,6 +834,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 328,
+      "title": "AI Is Crossing the Frontier of Human Knowledge | Kevin Weil",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-26",
+      "summary": "The podcast discusses the transformative impact of AI on scientific discovery, with AI models like GPT-5.2 solving previously unsolvable mathematical problems. The future of scientific research is predicted to involve robotic labs and reinforcement learning, which will accelerate experimentation and validation. The podcast also highlights the importance of ensemble modeling and the shift from B2C to B2B AI applications. It underscores the potential for high-agency individuals to leverage AI for rapid innovation, creating opportunities for startups.",
+      "key_takeaway": "Invest in AI-driven scientific research and development companies, as well as B2B AI startups that provide clear economic benefits to businesses.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "NVDA",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 313
+    },
+    {
       "id": 327,
       "title": "Marc Andreessen on AI, Technology, and the Future of Humanity",
       "source_type": "podcast",
@@ -967,7 +990,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-22",
       "archived_date": null,
@@ -7423,8 +7446,8 @@ const dashboardData = {
       "term": "Distillation",
       "description": "The process of reducing a large AI model into a smaller, more manageable one through API queries.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-06-01",
-      "mention_count": 13,
+      "last_mentioned_date": "2026-06-26",
+      "mention_count": 14,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Look for opportunities in technologies that enable efficient distillation to democratize AI capabilities.",
@@ -7433,8 +7456,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 298,
-      "last_mentioned_speaker": "Eden Ha"
+      "last_mentioned_episode_id": 313,
+      "last_mentioned_speaker": "a16z (hosts)"
     },
     {
       "id": 174,
@@ -7531,8 +7554,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-06-22",
-      "mention_count": 43,
+      "last_mentioned_date": "2026-06-26",
+      "mention_count": 44,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -7541,8 +7564,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 305,
-      "last_mentioned_speaker": "Jake Paul, Jeff Wu"
+      "last_mentioned_episode_id": 313,
+      "last_mentioned_speaker": "a16z (hosts)"
     },
     {
       "id": 162,
@@ -8941,6 +8964,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 328,
+      "title": "AI Is Crossing the Frontier of Human Knowledge | Kevin Weil",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-26",
+      "summary": "The podcast discusses the transformative impact of AI on scientific discovery, with AI models like GPT-5.2 solving previously unsolvable mathematical problems. The future of scientific research is predicted to involve robotic labs and reinforcement learning, which will accelerate experimentation and validation. The podcast also highlights the importance of ensemble modeling and the shift from B2C to B2B AI applications. It underscores the potential for high-agency individuals to leverage AI for rapid innovation, creating opportunities for startups.",
+      "key_takeaway": "Invest in AI-driven scientific research and development companies, as well as B2B AI startups that provide clear economic benefits to businesses.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"NVDA\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 313,
+      "episode_release_date": "2026-06-26",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 327,
       "title": "Marc Andreessen on AI, Technology, and the Future of Humanity",
       "source_type": "podcast",
@@ -9062,26 +9105,6 @@ const dashboardData = {
         "GME",
         "EBAY"
       ]
-    },
-    {
-      "id": 320,
-      "title": "Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
-      "source_type": "podcast",
-      "source_name": "Latent Space: The AI Engineer Podcast",
-      "source_date": "2026-06-22",
-      "summary": "This podcast episode discusses the importance of AI safety and security, with a focus on the company Grace One. The company operates a community of red teamers to identify and mitigate vulnerabilities in AI systems, particularly in deep learning. As enterprises increasingly adopt AI technologies, the demand for AI safety solutions is growing. The effectiveness of AI models in red teaming has surpassed human capabilities, indicating the potential for automated security assessments. The episode also highlights the need for a different mindset regarding AI security compared to traditional software security and the importance of specific training for AI models to enhance their robustness against adversarial attacks.",
-      "key_takeaway": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-22",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 306,
-      "episode_release_date": "2026-06-22",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 321,
@@ -9232,8 +9255,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-06-22",
-      "mention_count": 43,
+      "last_mentioned_date": "2026-06-26",
+      "mention_count": 44,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -9242,16 +9265,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 305,
-      "last_mentioned_speaker": "Jake Paul, Jeff Wu",
-      "overton_score": 39.2,
+      "last_mentioned_episode_id": 313,
+      "last_mentioned_speaker": "a16z (hosts)",
+      "overton_score": 44.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
       "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Jake Paul & Anti Fund: From Creator to Investor",
-      "last_mentioned_episode_date": "2026-06-22"
+      "last_mentioned_episode_title": "AI Is Crossing the Frontier of Human Knowledge | Kevin Weil",
+      "last_mentioned_episode_date": "2026-06-26"
     },
     {
       "id": 10,
@@ -28995,9 +29018,117 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-06-25",
     "key_tickers": []
+  },
+  "328": {
+    "id": 318,
+    "insight_id": 328,
+    "podcast_episode_id": 313,
+    "overview": "The unresolved tension lies in the balance between the rapid advancement of AI in scientific discovery and the practical integration of these technologies into existing research workflows. The competitive dynamic is between traditional research methods and the new paradigm of AI-augmented discovery. The metric that arbitrates this uncertainty is the speed and cost-efficiency of scientific breakthroughs, with the horizon of proof being the next decade, by which significant advancements in fields like medicine and materials science are expected.",
+    "key_takeaways_detailed": [
+      "Investors should track the number of scientific papers citing AI as a key tool in their research methodology to gauge the adoption rate of AI in scientific discovery.",
+      "Monitor the time-to-market for new drugs and materials to assess the impact of AI and robotic labs on the speed of scientific innovation.",
+      "Evaluate the performance of ensemble modeling in startups by comparing outcomes against single-model AI applications to determine the added value.",
+      "Assess the success of B2B AI startups by their ability to demonstrate quantifiable economic benefits to businesses, such as cost savings or revenue increases.",
+      "Keep abreast of consumer AI applications to identify emerging trends and potential investment opportunities as the market matures."
+    ],
+    "investment_thesis": "The core logic is that AI's ability to solve complex scientific problems will lead to a paradigm shift in how research is conducted, with a focus on B2B applications due to their immediate economic value. The timeframe for this thesis is the next 10 years, during which we expect to see a significant increase in AI-driven scientific breakthroughs and a corresponding growth in B2B AI startups. An observable development that would vindicate this thesis is a consistent pattern of scientific advancements being attributed to AI technologies, while an invalidating event would be a stagnation in AI's contribution to scientific discovery.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI for various applications, including potential scientific research tools, positions it to benefit from the AI-driven scientific discovery trend.",
+        "positioning": "Strategic long position, as Apple's ecosystem and R&D capabilities could lead to significant innovations in AI-driven scientific research.",
+        "risk": "Key risks include a slowdown in AI innovation and increased competition from other tech giants in the AI space."
+      },
+      "GOOGL": {
+        "rationale": "Google, with its deep expertise in AI and machine learning, is well-positioned to contribute to and benefit from AI advancements in scientific research.",
+        "positioning": "Tactical long position, as Google's AI initiatives could drive short-term gains in the scientific research sector.",
+        "risk": "The risk of regulatory challenges to AI technologies and potential backlash against data privacy concerns."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's AI investments, particularly in cloud computing and machine learning, align with the needs of scientific research and B2B applications.",
+        "positioning": "Strategic long position, as Microsoft's cloud services could become integral to AI-driven scientific workflows.",
+        "risk": "Dependency on the continued growth of cloud adoption and competition from other cloud providers."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's GPUs are critical for the computational power needed in AI models, making it a key player in the advancement of AI in scientific research.",
+        "positioning": "Strategic long position, as demand for Nvidia's products is likely to increase with the growth of AI applications.",
+        "risk": "The risk of technological obsolescence and competition from other semiconductor companies."
+      },
+      "TSLA": {
+        "rationale": "Tesla's use of AI in its automotive technology and potential expansion into other sectors could benefit from advancements in AI-driven scientific research.",
+        "positioning": "Tactical long position, as Tesla's innovative approach could lead to new applications of AI in scientific research.",
+        "risk": "Regulatory challenges to autonomous vehicles and the high-competition environment in the automotive industry."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant increase in the number of AI failures or ethical concerns in scientific research could slow down the adoption of AI in this field.",
+      "A shift in investment focus from B2B to B2C AI applications could indicate a change in market priorities, affecting the investment thesis.",
+      "Regulatory hurdles or data privacy issues could impede the growth of AI in scientific research and B2B applications."
+    ],
+    "catalysts": [
+      "Publications of new scientific discoveries attributed to AI advancements.",
+      "Launch of new AI-driven scientific research tools or platforms.",
+      "Regulatory approvals or guidelines that support the use of AI in scientific research.",
+      "Partnerships between tech companies and scientific institutions to leverage AI in research.",
+      "Quarterly earnings reports from AI-focused companies that demonstrate growth in B2B AI applications."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-26T12:06:11.188918",
+    "updated_at": "2026-06-26 17:06:11",
+    "episode_evidence": "The podcast underscores the remarkable strides AI has made in scientific discovery, with models like GPT-5.2 'solving problems that humans have never solved before,' as stated by the host. This includes tackling 10-12 open mathematics problems, showcasing AI's potential to revolutionize fields such as medicine and materials science. The future of scientific research is envisioned with 'robotic labs that you can scale horizontally that can run 24 hours a day,' which, combined with reinforcement learning, could drastically reduce the time and cost of experimentation. Ensemble modeling is highlighted as a strategy where 'you can make your odds even higher if you use models sort of together,' leading to improved outcomes in complex tasks. The shift towards B2B AI applications is driven by the economic value they provide to businesses, as 'B2B makes a ton of sense because models also cost money to use,' indicating a lucrative market for AI technologies that enhance business operations.",
+    "falsification_tracks": [
+      "If no new breakthroughs in medicine or materials science are attributed to AI within the next five years, the transformative impact of AI on scientific discovery would be questioned.",
+      "Should the development of robotic labs fail to meet the continuous operation and scalability expectations, the efficiency gains predicted for scientific research would be significantly reduced.",
+      "A lack of significant improvements in ensemble modeling outcomes compared to single models would challenge the value proposition of this approach.",
+      "Failure of B2B AI startups to demonstrate clear economic benefits to businesses would indicate a misalignment with market needs and reduce the appeal of this sector for investors."
+    ],
+    "insight_title": "AI Is Crossing the Frontier of Human Knowledge | Kevin Weil",
+    "source_name": "The a16z Show",
+    "source_date": "2026-06-26",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 457,
+    "term": "Robotic Labs",
+    "definition": "Laboratories that utilize robotics and AI to conduct scientific experiments continuously, reducing time and cost.",
+    "investment_implications": "Investment in robotic lab technology could accelerate scientific discovery and reduce R&D costs.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-06-26 17:05:37",
+    "priority_score": 80
+  },
+  {
+    "id": 458,
+    "term": "Ensemble Modeling",
+    "definition": "The use of multiple AI models working together to improve outcomes in complex tasks.",
+    "investment_implications": "Startups implementing ensemble modeling may see enhanced performance in AI applications.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-06-26 17:05:37",
+    "priority_score": 80
+  },
+  {
+    "id": 459,
+    "term": "B2B AI Applications",
+    "definition": "AI solutions targeted at businesses to enhance operations and efficiency.",
+    "investment_implications": "B2B AI applications are a priority for startups due to the economic value they provide to businesses.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-06-26 17:05:37",
+    "priority_score": 80
+  },
   {
     "id": 455,
     "term": "Scaling Laws",
@@ -29009,47 +29140,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-06-25 17:03:25",
     "priority_score": 80
-  },
-  {
-    "id": 456,
-    "term": "Ethical AI Development",
-    "definition": "The practice of developing and deploying AI in a manner that is guided by ethical considerations to prevent misuse and ensure societal benefits.",
-    "investment_implications": "Investors should advocate for and support companies that prioritize ethical AI practices, as this can lead to more sustainable and responsible growth.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-06-25 17:03:25",
-    "priority_score": 80
-  },
-  {
-    "id": 453,
-    "term": "Auto Design",
-    "definition": "The automation of design processes, raising the baseline quality of design work and allowing designers to focus on more complex and creative tasks.",
-    "investment_implications": "Investing in companies that develop and implement auto design tools can lead to increased efficiency and innovation in the design industry.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-06-24 17:06:49",
-    "priority_score": 80
-  },
-  {
-    "id": 454,
-    "term": "Agentic Experiences (AX)",
-    "definition": "Designing for interactions with automated systems, focusing on user experiences beyond just visual aesthetics.",
-    "investment_implications": "Investing in companies that prioritize the development of agentic experiences can lead to better user engagement and satisfaction with AI and automated systems.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-06-24 17:06:49",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 21592,
+    "id": 21674,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -29061,7 +29156,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21593,
+    "id": 21675,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -29073,7 +29168,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21594,
+    "id": 21676,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -29085,7 +29180,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21595,
+    "id": 21677,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -29097,7 +29192,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21596,
+    "id": 21678,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -29109,7 +29204,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21597,
+    "id": 21679,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -29121,7 +29216,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 21598,
+    "id": 21680,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -29133,7 +29228,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21599,
+    "id": 21681,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -29145,7 +29240,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21600,
+    "id": 21682,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -29157,7 +29252,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21601,
+    "id": 21683,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -29169,7 +29264,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21602,
+    "id": 21684,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -29181,7 +29276,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21603,
+    "id": 21685,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -29193,7 +29288,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21604,
+    "id": 21686,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -29205,7 +29300,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21605,
+    "id": 21687,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -29217,7 +29312,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21606,
+    "id": 21688,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -29229,7 +29324,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21607,
+    "id": 21689,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -29241,7 +29336,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21608,
+    "id": 21690,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -29253,7 +29348,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21609,
+    "id": 21691,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -29265,7 +29360,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21610,
+    "id": 21692,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -29277,7 +29372,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 21611,
+    "id": 21693,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -30627,7 +30722,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -30691,7 +30786,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -31494,7 +31589,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -32063,7 +32158,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -32192,7 +32287,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -32258,7 +32353,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -32533,7 +32628,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -32597,7 +32692,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -32852,7 +32947,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -32916,7 +33011,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -33099,7 +33194,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -33163,7 +33258,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -33906,7 +34001,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -33972,7 +34067,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -36608,7 +36703,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",

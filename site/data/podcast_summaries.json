@@ -1,5 +1,21 @@
 [
   {
+    "id": 313,
+    "podcast_name": "The a16z Show",
+    "episode_title": "AI Is Crossing the Frontier of Human Knowledge | Kevin Weil",
+    "episode_date": "2026-06-26",
+    "summary": "The podcast discusses the transformative impact of AI on scientific discovery, with AI models like GPT-5.2 solving previously unsolvable mathematical problems. The future of scientific research is predicted to involve robotic labs and reinforcement learning, which will accelerate experimentation and validation. The podcast also highlights the importance of ensemble modeling and the shift from B2C to B2B AI applications. It underscores the potential for high-agency individuals to leverage AI for rapid innovation, creating opportunities for startups.",
+    "key_takeaways": [
+      "AI models are now capable of addressing complex scientific challenges, including solving previously unsolved mathematical problems.",
+      "The future of scientific research will utilize robotic labs that can operate continuously, combined with AI models that learn and adapt through reinforcement learning.",
+      "Using multiple AI models in tandem can improve the accuracy and effectiveness of responses in complex scenarios.",
+      "The current environment favors individuals who can quickly implement ideas using AI tools, leading to a surge in creativity and innovation.",
+      "The majority of current AI applications are focused on B2B solutions, driven by the economic value they provide to businesses."
+    ],
+    "investment_thesis": "Invest in AI-driven scientific research and development companies, as well as B2B AI startups that provide clear economic benefits to businesses.",
+    "key_tickers": null
+  },
+  {
     "id": 312,
     "podcast_name": "The a16z Show",
     "episode_title": "Marc Andreessen on AI, Technology, and the Future of Humanity",
@@ -97,22 +113,6 @@
       "Startups have opportunities to innovate in personal finance, health management, and travel planning using AI."
     ],
     "investment_thesis": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
-    "key_tickers": null
-  },
-  {
-    "id": 306,
-    "podcast_name": "Latent Space: The AI Engineer Podcast",
-    "episode_title": "Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
-    "episode_date": "2026-06-22",
-    "summary": "This podcast episode discusses the importance of AI safety and security, with a focus on the company Grace One. The company operates a community of red teamers to identify and mitigate vulnerabilities in AI systems, particularly in deep learning. As enterprises increasingly adopt AI technologies, the demand for AI safety solutions is growing. The effectiveness of AI models in red teaming has surpassed human capabilities, indicating the potential for automated security assessments. The episode also highlights the need for a different mindset regarding AI security compared to traditional software security and the importance of specific training for AI models to enhance their robustness against adversarial attacks.",
-    "key_takeaways": [
-      "Grace One is dedicated to identifying and mitigating vulnerabilities in AI systems, particularly as enterprises increasingly adopt these technologies.",
-      "The automated red teaming system, Shade, has demonstrated superior effectiveness in identifying vulnerabilities compared to human testers.",
-      "Understanding the lethal trifecta of AI security risks is crucial for developing effective security measures in AI systems.",
-      "Scaling AI models does not inherently improve their security; targeted training is necessary to enhance their robustness against adversarial attacks.",
-      "The collaboration between AI security firms and insurance providers is expected to grow, creating frameworks for risk assessment and mitigation."
-    ],
-    "investment_thesis": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
     "key_tickers": null
   },
   {
