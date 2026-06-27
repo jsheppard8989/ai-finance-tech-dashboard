@@ -1,5 +1,24 @@
 [
   {
+    "id": 316,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Socialists Sweep NYC, China Catches Up in Coding, AI Memory Crunch, Micron's Blowout Quarter",
+    "episode_date": "2026-06-26",
+    "summary": "In this episode, the hosts discuss the implications of socialist candidates' rise within the Democratic Party, particularly in New York, and how this political shift could affect future elections and policy-making. They also delve into the potential of AI as an economic equalizer and the challenges faced by Silicon Valley in managing the AI narrative. The competitive threat from Chinese AI models and the strong market position of Micron in the semiconductor industry are also highlighted, along with the potential of distributed inference models to democratize AI capabilities. The show concludes with insights into the changing IPO landscape and the future of AI and tech companies.",
+    "key_takeaways": [
+      "The Democratic Party is experiencing a significant shift towards socialism, which could impact policy and governance.",
+      "AI is seen as a potential economic equalizer, but its narrative has been poorly managed, leading to a loss of credibility for Silicon Valley.",
+      "Chinese open-source AI models like GLM 5.2 pose a competitive threat to U.S. AI companies.",
+      "Micron's strong earnings report indicates robust demand for high-bandwidth memory, essential for AI applications.",
+      "Distributed inference models could democratize access to AI capabilities, leading to a more decentralized AI ecosystem.",
+      "The IPO market is experiencing volatility, with companies like Cerebras facing challenges post-IPO."
+    ],
+    "investment_thesis": "Invest in companies that are well-positioned to benefit from the AI boom, such as Micron, and consider the impact of political shifts on investment strategies.",
+    "key_tickers": [
+      "MU"
+    ]
+  },
+  {
     "id": 315,
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "The next big breakthrough will be AIs learning on the job",
@@ -109,24 +128,5 @@
     ],
     "investment_thesis": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "key_tickers": null
-  },
-  {
-    "id": 308,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
-    "episode_date": "2026-06-23",
-    "summary": "In this episode, Ryan Cohen discusses his investment strategy and operational turnaround at GameStop, emphasizing the shift towards collectibles and the potential acquisition of eBay. Cohen highlights the importance of operational efficiency, particularly in negotiating supplier contracts and managing inventory. He also stresses the significance of hiring driven individuals to foster a high-performance culture. The conversation touches on live commerce as a growth opportunity for eBay and the untapped potential of the digital collectibles market.",
-    "key_takeaways": [
-      "Operational efficiency is crucial in low-margin businesses like retail, impacting profitability significantly.",
-      "GameStop's pivot to collectibles has been successful, with collectibles now accounting for 42% of its revenue.",
-      "Management engagement is vital for driving innovation and operational success, especially in turnaround situations.",
-      "Live commerce presents a significant growth opportunity for eBay, leveraging its existing user base and infrastructure.",
-      "The digital collectibles market is largely untapped and presents a significant growth opportunity for e-commerce companies."
-    ],
-    "investment_thesis": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
-    "key_tickers": [
-      "GME",
-      "EBAY"
-    ]
   }
 ]

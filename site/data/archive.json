@@ -64,6 +64,25 @@
       "podcast_episode_id": 314
     },
     {
+      "id": 331,
+      "title": "Socialists Sweep NYC, China Catches Up in Coding, AI Memory Crunch, Micron's Blowout Quarter",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-26",
+      "summary": "In this episode, the hosts discuss the implications of socialist candidates' rise within the Democratic Party, particularly in New York, and how this political shift could affect future elections and policy-making. They also delve into the potential of AI as an economic equalizer and the challenges faced by Silicon Valley in managing the AI narrative. The competitive threat from Chinese AI models and the strong market position of Micron in the semiconductor industry are also highlighted, along with the potential of distributed inference models to democratize AI capabilities. The show concludes with insights into the changing IPO landscape and the future of AI and tech companies.",
+      "key_takeaway": "Invest in companies that are well-positioned to benefit from the AI boom, such as Micron, and consider the impact of political shifts on investment strategies.",
+      "tickers_mentioned": [
+        "MU"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 316
+    },
+    {
       "id": 327,
       "title": "Marc Andreessen on AI, Technology, and the Future of Humanity",
       "source_type": "podcast",
@@ -178,7 +197,7 @@
         "EBAY"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-23",
       "archived_date": null,
@@ -6276,7 +6295,7 @@
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
       "last_mentioned_date": "2026-06-26",
-      "mention_count": 4,
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
@@ -6285,8 +6304,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 314,
-      "last_mentioned_speaker": "Will Marshall, Peter Diamandis"
+      "last_mentioned_episode_id": 316,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 252,
@@ -6654,7 +6673,7 @@
       "description": "The process of reducing a large AI model into a smaller, more manageable one through API queries.",
       "first_detected_date": "2026-05-15",
       "last_mentioned_date": "2026-06-26",
-      "mention_count": 15,
+      "mention_count": 16,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Look for opportunities in technologies that enable efficient distillation to democratize AI capabilities.",
@@ -6663,8 +6682,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 314,
-      "last_mentioned_speaker": "Will Marshall, Peter Diamandis"
+      "last_mentioned_episode_id": 316,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 174,
@@ -7299,20 +7318,20 @@
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models that are publicly accessible and can be modified by the community to improve functionality or add features.",
+      "description": "AI models that are publicly accessible and can be used or modified by anyone, often leading to rapid innovation and collaboration.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-06-24",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-06-26",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Open-source AI models foster innovation and collaboration, potentially leading to faster development and broader adoption of AI technologies.",
+      "investment_implications": "Investors should consider the competitive landscape and the potential for disruption caused by open-source AI models, particularly those from China.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 311,
-      "last_mentioned_speaker": "Chamath, Jason (hosts)"
+      "last_mentioned_episode_id": 316,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 79,
@@ -7625,8 +7644,8 @@
       "term": "AI Infrastructure",
       "description": "The underlying technology and systems that support AI applications, including hardware and software.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-06-18",
-      "mention_count": 15,
+      "last_mentioned_date": "2026-06-26",
+      "mention_count": 16,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consider investments in companies that provide the backbone for AI applications.",
@@ -7635,8 +7654,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 299,
-      "last_mentioned_speaker": "FungeMita"
+      "last_mentioned_episode_id": 316,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 26,
@@ -7823,8 +7842,8 @@
       "term": "AI Race",
       "description": "The global competition between nations to lead in AI development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-05-13",
-      "mention_count": 14,
+      "last_mentioned_date": "2026-06-26",
+      "mention_count": 15,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consider investing in companies and countries that are making significant strides in AI technology.",
@@ -7833,8 +7852,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 216,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 316,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 12,
