@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-26T23:40:49.044118",
-  "last_updated": "2026-06-26T23:40:49.044118",
-  "last_pipeline_run": "2026-06-26T23:40:49.044118",
+  "generated_at": "2026-06-27T05:02:01.890261",
+  "last_updated": "2026-06-27T05:02:01.890261",
+  "last_pipeline_run": "2026-06-27T05:02:01.890261",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -15,15 +15,15 @@
     "overton_terms_total": 105,
     "latest_insights_total": 303,
     "today_mentions": {},
-    "podcasts_analyzed": 4
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 3,
-    "transcribed": 3,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 3
+    "downloaded": 2,
+    "transcribed": 2,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 2
   },
   "episodes": [
     {
@@ -82,24 +82,6 @@
         }
       },
       "status": "needs_analysis"
-    },
-    {
-      "id": "786c45b1-79c0-4c09-9b9e-923c9f056e99",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Socialists Sweep NYC, China Catches Up in Coding, AI Memory Crunch, Micron's Blowout Quarter",
-      "published": "2026-06-26",
-      "rss_guid": "786c45b1-79c0-4c09-9b9e-923c9f056e99",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
     },
     {
       "id": "substack:post:202271948",
@@ -182,7 +164,7 @@
       "title": "Samo Burja on Growth, Energy, and AI",
       "status": "needs_analysis",
       "published": "2026-06-12",
-      "age_days": 14,
+      "age_days": 15,
       "next_blocker": "analyzed"
     },
     {
@@ -191,7 +173,7 @@
       "title": "Ada Palmer \u2013 Machiavelli is the most misunderstood thinker of all time",
       "status": "needs_analysis",
       "published": "2026-06-16",
-      "age_days": 10,
+      "age_days": 11,
       "next_blocker": "analyzed"
     }
   ],
