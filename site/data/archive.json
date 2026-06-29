@@ -1,6 +1,29 @@
 {
   "insights": [
     {
+      "id": 332,
+      "title": "Beyond P(doom): Marc Andreessen - Betting on America",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-29",
+      "summary": "In this episode, Mark Andreessen discusses the transformative potential of AI and its implications for the economy. He emphasizes AI's ability to democratize intelligence but warns of the bifurcation of the economy into rapidly growing 'blue sectors' and stagnating 'red sectors'. Andreessen highlights the challenges posed by regulatory constraints, supply chain bottlenecks, and the need for public sector reform to fully capitalize on AI advancements. The conversation also touches on the U.S.-China competition in AI and the prospects for a re-industrialization movement in the U.S.",
+      "key_takeaway": "Invest in AI-driven blue sectors to capitalize on rapid productivity growth, while advocating for regulatory reforms and public sector modernization to overcome constraints on AI's transformative potential.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "TSLA",
+        "MSFT",
+        "AMZN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 317
+    },
+    {
       "id": 328,
       "title": "AI Is Crossing the Frontier of Human Knowledge | Kevin Weil",
       "source_type": "podcast",
@@ -118,7 +141,7 @@
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-24",
       "archived_date": null,
@@ -7644,8 +7667,8 @@
       "term": "AI Infrastructure",
       "description": "The underlying technology and systems that support AI applications, including hardware and software.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 16,
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 17,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consider investments in companies that provide the backbone for AI applications.",
@@ -7654,8 +7677,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 316,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 317,
+      "last_mentioned_speaker": "Mark Andreessen"
     },
     {
       "id": 26,
@@ -7876,20 +7899,20 @@
     {
       "id": 95,
       "term": "Reindustrialization",
-      "description": "The process of rebuilding and revitalizing a country's industrial sector, often through government policy and technological advancements.",
+      "description": "The process of rebuilding and revitalizing a nation's industrial sector, often through innovation and new technologies.",
       "first_detected_date": "2026-03-04",
-      "last_mentioned_date": "2026-06-18",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider companies that are part of the reindustrialization trend, as they may benefit from policy support and increased demand.",
+      "investment_implications": "Investors should look for opportunities in sectors like defense and manufacturing that are driving the reindustrialization movement.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 40,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 297,
-      "last_mentioned_speaker": "Chris Seminoch"
+      "last_mentioned_episode_id": 317,
+      "last_mentioned_speaker": "Mark Andreessen"
     },
     {
       "id": 112,

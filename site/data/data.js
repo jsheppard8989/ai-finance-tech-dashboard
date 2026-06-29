@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-29T06:36:43.174905",
-  chartsVersion: "2026-06-29T06:36:31.312690",
+  generatedAt: "2026-06-29T12:05:24.293459",
+  chartsVersion: "2026-06-29T12:05:07.666309",
   priceSnapshot: {
   "GOOGL": {
-    "price": 337.39,
-    "change_pct": -7.13,
+    "price": 352.12,
+    "change_pct": -3.33,
     "name": "GOOGL",
-    "updated_at": "2026-06-29T06:36:31.311540"
+    "updated_at": "2026-06-29T12:05:07.664714"
   },
   "BTC": {
-    "price": 59833.76,
-    "change_pct": -8.79,
+    "price": 60053.8,
+    "change_pct": -8.46,
     "name": "BTC",
-    "updated_at": "2026-06-29T06:36:31.311561"
+    "updated_at": "2026-06-29T12:05:07.664736"
   },
   "MSFT": {
-    "price": 372.97,
-    "change_pct": -9.42,
+    "price": 368.33,
+    "change_pct": -8.7,
     "name": "MSFT",
-    "updated_at": "2026-06-29T06:36:31.311570"
+    "updated_at": "2026-06-29T12:05:07.664748"
   },
   "NVDA": {
-    "price": 192.53,
-    "change_pct": -7.72,
+    "price": 194.04,
+    "change_pct": -6.8,
     "name": "NVDA",
-    "updated_at": "2026-06-29T06:36:31.311579"
+    "updated_at": "2026-06-29T12:05:07.664757"
   },
   "AMZN": {
-    "price": 232.69,
-    "change_pct": -5.11,
+    "price": 240.99,
+    "change_pct": -1.31,
     "name": "AMZN",
-    "updated_at": "2026-06-29T06:36:31.311588"
+    "updated_at": "2026-06-29T12:05:07.664767"
   },
   "TSLA": {
-    "price": 379.71,
-    "change_pct": -7.15,
+    "price": 403.36,
+    "change_pct": 1.68,
     "name": "TSLA",
-    "updated_at": "2026-06-29T06:36:31.311597"
+    "updated_at": "2026-06-29T12:05:07.664776"
   },
   "WTI": {
-    "price": 3.27,
-    "change_pct": -17.22,
+    "price": 3.18,
+    "change_pct": -17.19,
     "name": "WTI",
-    "updated_at": "2026-06-29T06:36:31.311606"
+    "updated_at": "2026-06-29T12:05:07.664786"
   },
   "META": {
-    "price": 550.25,
-    "change_pct": -5.92,
+    "price": 564.9,
+    "change_pct": -3.28,
     "name": "META",
-    "updated_at": "2026-06-29T06:36:31.311614"
+    "updated_at": "2026-06-29T12:05:07.664796"
   },
   "S&P 500": {
-    "price": 728.99,
-    "change_pct": -1.13,
+    "price": 738.97,
+    "change_pct": 0.52,
     "name": "S&P 500",
-    "updated_at": "2026-06-29T06:36:31.311622"
+    "updated_at": "2026-06-29T12:05:07.664805"
   },
   "AAPL": {
-    "price": 283.78,
-    "change_pct": -5.89,
+    "price": 280.2,
+    "change_pct": -3.56,
     "name": "AAPL",
-    "updated_at": "2026-06-29T06:36:31.311631"
+    "updated_at": "2026-06-29T12:05:07.664814"
   },
   "QQQ": {
-    "price": 706.52,
-    "change_pct": -1.23,
+    "price": 721.24,
+    "change_pct": 2.01,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-29T06:36:31.311639"
+    "updated_at": "2026-06-29T12:05:07.664823"
   },
   "BTC-USD": {
-    "price": 59857.83,
-    "change_pct": -8.75,
+    "price": 60053.8,
+    "change_pct": -8.46,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-29T06:36:31.311649"
+    "updated_at": "2026-06-29T12:05:07.664834"
   }
 },
   tickerScores: [
@@ -834,6 +834,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 332,
+      "title": "Beyond P(doom): Marc Andreessen - Betting on America",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-29",
+      "summary": "In this episode, Mark Andreessen discusses the transformative potential of AI and its implications for the economy. He emphasizes AI's ability to democratize intelligence but warns of the bifurcation of the economy into rapidly growing 'blue sectors' and stagnating 'red sectors'. Andreessen highlights the challenges posed by regulatory constraints, supply chain bottlenecks, and the need for public sector reform to fully capitalize on AI advancements. The conversation also touches on the U.S.-China competition in AI and the prospects for a re-industrialization movement in the U.S.",
+      "key_takeaway": "Invest in AI-driven blue sectors to capitalize on rapid productivity growth, while advocating for regulatory reforms and public sector modernization to overcome constraints on AI's transformative potential.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "TSLA",
+        "MSFT",
+        "AMZN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 317
+    },
+    {
       "id": 328,
       "title": "AI Is Crossing the Frontier of Human Knowledge | Kevin Weil",
       "source_type": "podcast",
@@ -951,7 +974,7 @@ const dashboardData = {
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-24",
       "archived_date": null,
@@ -8477,8 +8500,8 @@ const dashboardData = {
       "term": "AI Infrastructure",
       "description": "The underlying technology and systems that support AI applications, including hardware and software.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 16,
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 17,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consider investments in companies that provide the backbone for AI applications.",
@@ -8487,8 +8510,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 316,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 317,
+      "last_mentioned_speaker": "Mark Andreessen"
     },
     {
       "id": 26,
@@ -8709,20 +8732,20 @@ const dashboardData = {
     {
       "id": 95,
       "term": "Reindustrialization",
-      "description": "The process of rebuilding and revitalizing a country's industrial sector, often through government policy and technological advancements.",
+      "description": "The process of rebuilding and revitalizing a nation's industrial sector, often through innovation and new technologies.",
       "first_detected_date": "2026-03-04",
-      "last_mentioned_date": "2026-06-18",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider companies that are part of the reindustrialization trend, as they may benefit from policy support and increased demand.",
+      "investment_implications": "Investors should look for opportunities in sectors like defense and manufacturing that are driving the reindustrialization movement.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 40,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 297,
-      "last_mentioned_speaker": "Chris Seminoch"
+      "last_mentioned_episode_id": 317,
+      "last_mentioned_speaker": "Mark Andreessen"
     },
     {
       "id": 112,
@@ -9023,6 +9046,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 332,
+      "title": "Beyond P(doom): Marc Andreessen - Betting on America",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-29",
+      "summary": "In this episode, Mark Andreessen discusses the transformative potential of AI and its implications for the economy. He emphasizes AI's ability to democratize intelligence but warns of the bifurcation of the economy into rapidly growing 'blue sectors' and stagnating 'red sectors'. Andreessen highlights the challenges posed by regulatory constraints, supply chain bottlenecks, and the need for public sector reform to fully capitalize on AI advancements. The conversation also touches on the U.S.-China competition in AI and the prospects for a re-industrialization movement in the U.S.",
+      "key_takeaway": "Invest in AI-driven blue sectors to capitalize on rapid productivity growth, while advocating for regulatory reforms and public sector modernization to overcome constraints on AI's transformative potential.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"TSLA\", \"MSFT\", \"AMZN\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 317,
+      "episode_release_date": "2026-06-29",
+      "guest_name": "Beyond P(doom)",
+      "key_tickers": []
+    },
+    {
       "id": 328,
       "title": "AI Is Crossing the Frontier of Human Knowledge | Kevin Weil",
       "source_type": "podcast",
@@ -9121,26 +9164,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 312,
       "episode_release_date": "2026-06-25",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 324,
-      "title": "What Happens to Design After AI?",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-06-24",
-      "summary": "In this episode, the a16z Show explores the intersection of design and AI, discussing how designers can leverage AI tools to achieve better results, the impact of mobile technology on design quality, the future of automation in design, and the evolving concept of 'taste' in design. The conversation also touches on the rise of 'agentic experiences' and the importance of human judgment in an increasingly automated design landscape.",
-      "key_takeaway": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-24",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 309,
-      "episode_release_date": "2026-06-24",
       "guest_name": null,
       "key_tickers": []
     },
@@ -29331,9 +29354,107 @@ const dashboardData = {
     "key_tickers": [
       "MU"
     ]
+  },
+  "332": {
+    "id": 322,
+    "insight_id": 332,
+    "podcast_episode_id": 317,
+    "overview": "The unresolved tension highlighted by Andreessen is the bifurcation of the economy into sectors that can leverage AI for rapid growth versus those mired in stagnation due to regulatory and institutional constraints. The competitive dynamic is between the U.S.'s restrictive approach to AI and China's more open strategy, which could impact the global balance of technological leadership. The allocator-relevant implication is that investment in AI-driven sectors could offer significant returns, but the overall economic impact hinges on the ability to reform regulatory frameworks and public sector practices to fully harness AI's potential.",
+    "key_takeaways_detailed": [
+      "Investors should focus on companies that not only adopt AI but also contribute to its democratization, as this could lead to broader market penetration and societal impact.",
+      "Given the bifurcated economy, investors must differentiate between sectors that can leverage AI for growth and those that are likely to remain stagnant, avoiding long-term exposure to the latter.",
+      "Advocacy for regulatory reforms should be part of an investor's strategy, as this could unlock significant value in sectors currently constrained by outdated policies.",
+      "Investors should monitor the development of public-private partnerships in AI, as these could be indicative of regulatory and public sector modernization.",
+      "Investment in AI supply chain solutions could provide a hedge against the current bottlenecks, offering both growth opportunities and risk mitigation.",
+      "The re-industrialization movement, particularly in defense and manufacturing, presents an opportunity for investors to capitalize on a potential resurgence in U.S. industrial capabilities."
+    ],
+    "investment_thesis": "The core logic is that AI will drive a bifurcated economy, with 'blue sectors' experiencing rapid growth and 'red sectors' stagnating. The timeframe for this thesis is the next decade, as AI technologies mature and regulatory reforms are implemented. An observable development that would vindicate this thesis is a consistent outperformance of AI-driven sectors in terms of productivity and economic growth, while 'red sectors' continue to underperform. Conversely, if 'red sectors' begin to show significant productivity improvements and economic contributions, the bifurcation narrative could be invalidated.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI for its products and services positions it to benefit from the growth of 'blue sectors'.",
+        "positioning": "Strategic long position, as Apple's AI capabilities are likely to drive future growth and maintain its competitive edge.",
+        "risk": "Regulatory changes that hinder AI development or a slowdown in consumer adoption of AI-driven products could pose risks."
+      },
+      "GOOGL": {
+        "rationale": "Google's leadership in AI research and cloud services places it at the forefront of the 'blue sector' growth.",
+        "positioning": "Strategic long position, reflecting the company's potential to capitalize on AI advancements.",
+        "risk": "Supply chain disruptions or regulatory constraints on data usage could impact Google's AI initiatives."
+      },
+      "TSLA": {
+        "rationale": "Tesla's integration of AI in its electric vehicles and energy solutions aligns with the growth trajectory of 'blue sectors'.",
+        "positioning": "Tactical long position, considering the cyclical nature of the automotive market and the potential for rapid AI adoption.",
+        "risk": "Supply chain issues or regulatory hurdles could disrupt Tesla's AI-driven innovation."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's broad AI offerings across cloud, software, and services make it a key player in the 'blue sector' expansion.",
+        "positioning": "Strategic long position, due to the company's diversified AI portfolio and potential for steady growth.",
+        "risk": "Increased competition in the AI space or regulatory challenges could affect Microsoft's market position."
+      },
+      "AMZN": {
+        "rationale": "Amazon's use of AI in, cloud computing, and logistics could drive growth in line with 'blue sector' trends.",
+        "positioning": "Strategic long position, as Amazon's AI applications are expected to enhance efficiency and drive revenue.",
+        "risk": "Regulatory scrutiny over data privacy or antitrust concerns could pose risks to Amazon's AI initiatives."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that AI will not significantly disrupt traditional sectors, leading to a more balanced economic growth across all industries.",
+      "The possibility that regulatory reforms will not materialize, maintaining the status quo and limiting AI's transformative potential.",
+      "The view that the U.S. will not be able to compete with China's open-source AI strategy, leading to a loss of technological leadership.",
+      "Concerns that the re-industrialization movement will not gain sufficient momentum, failing to create the anticipated economic stimulus."
+    ],
+    "catalysts": [
+      "U.S. government announcements regarding AI-related regulatory reforms.",
+      "Breakthroughs in AI technology that significantly improve efficiency or productivity in 'red sectors'.",
+      "Major supply chain disruptions or resolutions that impact the development of AI infrastructure.",
+      "Economic reports highlighting the growing divide or convergence between 'blue' and 'red sectors'.",
+      "Policy decisions or international agreements that influence the global competitive landscape in AI."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-29T12:04:12.481646",
+    "updated_at": "2026-06-29 17:04:12",
+    "episode_evidence": "Mark Andreessen's discussion on AI's transformative potential is grounded in the recognition that AI can democratize intelligence, as he states, 'AI has the potential to expand access to intelligence itself.' This implies a significant shift in societal dynamics where expertise becomes more accessible. However, Andreessen warns of the bifurcated economy, with 'blue sectors' experiencing rapid productivity growth and 'red sectors' like healthcare and education lagging behind. He notes, 'The red sectors eat the entire economy,' indicating a drain on resources with minimal productivity gains. The constraints on AI's potential are multifaceted, including regulatory hurdles, as Andreessen mentions, 'AI does not make any of those go away. In fact, it may well be a catalyst for more of those.' Additionally, supply chain bottlenecks at various levels, including energy and raw materials, as highlighted by Andreessen's comment, 'There's bottle like on every single layer of the supply chain,' pose significant challenges to AI infrastructure development.",
+    "falsification_tracks": [
+      "If the U.S. government significantly relaxes AI-related regulations, particularly in healthcare and education, the bifurcation thesis might be weakened.",
+      "Should there be a breakthrough in supply chain management that alleviates the bottlenecks in AI infrastructure, the constraints on AI's potential could be reduced.",
+      "If China's open-source AI strategy leads to significant economic gains while the U.S. lags, the competitive edge argument would be challenged.",
+      "A substantial increase in public sector investment in AI and technology could indicate a shift towards modernization, affecting the need for reform narrative."
+    ],
+    "insight_title": "Beyond P(doom): Marc Andreessen - Betting on America",
+    "source_name": "The a16z Show",
+    "source_date": "2026-06-29",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 464,
+    "term": "Blue Sectors",
+    "definition": "Economic sectors experiencing rapid productivity growth and technological advancement.",
+    "investment_implications": "Investors should focus on blue sectors for potential high growth and innovation.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-06-29 17:03:35",
+    "priority_score": 80
+  },
+  {
+    "id": 465,
+    "term": "Red Sectors",
+    "definition": "Economic sectors that are experiencing stagnation and consume a significant portion of economic resources without corresponding productivity growth.",
+    "investment_implications": "Investors should be cautious about investing in red sectors due to their potential to limit overall economic growth.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-06-29 17:03:35",
+    "priority_score": 80
+  },
   {
     "id": 463,
     "term": "Distributed Inference Models",
@@ -29357,35 +29478,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-06-26 18:39:19",
     "priority_score": 80
-  },
-  {
-    "id": 462,
-    "term": "Continuous Learning",
-    "definition": "The capability of AI models to learn and adapt from new data over time, updating their knowledge base without forgetting previously learned information.",
-    "investment_implications": "Companies developing AI systems with robust continuous learning capabilities could have a competitive edge in dynamic environments where learning from interactions is essential.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-06-26 18:39:19",
-    "priority_score": 80
-  },
-  {
-    "id": 460,
-    "term": "Large Earth Models",
-    "definition": "Models that combine satellite imagery with AI to answer real-world questions and make better decisions in areas like agriculture and national security.",
-    "investment_implications": "Investors should consider companies that leverage real-time Earth data for AI applications.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-06-26 18:38:56",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 23068,
+    "id": 23150,
+    "name": "Beyond P(doom)",
+    "slug": "beyond-pdoom",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in AI-driven blue sectors to capitalize on rapid productivity growth, while advocating for regulatory reforms and public sector modernization to overcome constraints on AI's transformative potential.",
+    "last_episode_title": "Beyond P(doom): Marc Andreessen - Betting on America",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-29",
+    "appearance_count": 1
+  },
+  {
+    "id": 23151,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -29397,7 +29506,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23069,
+    "id": 23152,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -29409,7 +29518,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23070,
+    "id": 23153,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -29421,7 +29530,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23071,
+    "id": 23154,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -29433,7 +29542,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23072,
+    "id": 23155,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -29445,7 +29554,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23073,
+    "id": 23156,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -29457,7 +29566,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 23074,
+    "id": 23157,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -29469,7 +29578,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23075,
+    "id": 23158,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -29481,7 +29590,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23076,
+    "id": 23159,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -29493,7 +29602,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23077,
+    "id": 23160,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -29505,7 +29614,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23078,
+    "id": 23161,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -29517,7 +29626,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23079,
+    "id": 23162,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -29529,7 +29638,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23080,
+    "id": 23163,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -29541,7 +29650,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23081,
+    "id": 23164,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -29553,7 +29662,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23082,
+    "id": 23165,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -29565,7 +29674,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23083,
+    "id": 23166,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -29577,7 +29686,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23084,
+    "id": 23167,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -29589,7 +29698,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23085,
+    "id": 23168,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -29601,7 +29710,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23086,
+    "id": 23169,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -29609,18 +29718,6 @@ const dashboardData = {
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_episode_title": "AI Eats the World? A Reality Check with Benedict Evans",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-04",
-    "appearance_count": 1
-  },
-  {
-    "id": 23087,
-    "name": "Thomas Laffont",
-    "slug": "thomas-laffont",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in AI leaders and monitor Unicorn liquidity events for potential high returns, while considering the power law effect in market dynamics.",
-    "last_episode_title": "Thomas Laffont: The $4T AI IPO Wave, 2026's Unicorn Economy, and the 10X Paradox",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-04",
     "appearance_count": 1
   }
@@ -29894,7 +29991,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.52,
+    "mention_score_decayed": 1.48,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
@@ -31957,7 +32054,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in Axiom Math for its pioneering role in verified AI for mathematics, which has the potential to drive innovation and efficiency in problem-solving across various fields.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
     "last_proof_snippet": "But it's for the first time now I think verified AI is to open up collaboration. Either it's human AI collaboration. Well, before a blueprint like that's human human collaboration. And Lin was a grounding, was a verification formal language",
@@ -32592,7 +32689,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -32658,7 +32755,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -32997,7 +33094,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -33252,7 +33349,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -33316,7 +33413,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -33499,7 +33596,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -33563,7 +33660,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -34306,7 +34403,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -34372,7 +34469,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -37008,7 +37105,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",

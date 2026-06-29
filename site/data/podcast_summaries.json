@@ -1,5 +1,23 @@
 [
   {
+    "id": 317,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Beyond P(doom): Marc Andreessen - Betting on America",
+    "episode_date": "2026-06-29",
+    "summary": "In this episode, Mark Andreessen discusses the transformative potential of AI and its implications for the economy. He emphasizes AI's ability to democratize intelligence but warns of the bifurcation of the economy into rapidly growing 'blue sectors' and stagnating 'red sectors'. Andreessen highlights the challenges posed by regulatory constraints, supply chain bottlenecks, and the need for public sector reform to fully capitalize on AI advancements. The conversation also touches on the U.S.-China competition in AI and the prospects for a re-industrialization movement in the U.S.",
+    "key_takeaways": [
+      "Invest in companies that enhance AI accessibility and education.",
+      "Focus on blue sector investments while being cautious with red sector exposure.",
+      "Advocate for regulatory reforms that facilitate AI integration.",
+      "Monitor supply chain developments and invest in companies addressing bottlenecks.",
+      "Support initiatives aimed at modernizing government functions.",
+      "Explore investment opportunities in AI tools for policy evaluation.",
+      "Look for startups in the re-industrialization movement, particularly in defense and manufacturing."
+    ],
+    "investment_thesis": "Invest in AI-driven blue sectors to capitalize on rapid productivity growth, while advocating for regulatory reforms and public sector modernization to overcome constraints on AI's transformative potential.",
+    "key_tickers": null
+  },
+  {
     "id": 316,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Socialists Sweep NYC, China Catches Up in Coding, AI Memory Crunch, Micron's Blowout Quarter",
@@ -111,22 +129,6 @@
       "Plutus offers flexibility with no capital lockups, allowing users to withdraw funds at any time."
     ],
     "investment_thesis": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
-    "key_tickers": null
-  },
-  {
-    "id": 309,
-    "podcast_name": "The a16z Show",
-    "episode_title": "What Happens to Design After AI?",
-    "episode_date": "2026-06-24",
-    "summary": "In this episode, the a16z Show explores the intersection of design and AI, discussing how designers can leverage AI tools to achieve better results, the impact of mobile technology on design quality, the future of automation in design, and the evolving concept of 'taste' in design. The conversation also touches on the rise of 'agentic experiences' and the importance of human judgment in an increasingly automated design landscape.",
-    "key_takeaways": [
-      "Designers using AI tools like Claude can achieve better results due to their specialized vocabulary and understanding of design principles.",
-      "The rise of mobile technology has made high-quality design more critical, as poor mobile experiences are less tolerated by users.",
-      "Automation in design, or 'auto design', is expected to raise the baseline quality of design work, allowing designers to focus on higher-order creative tasks.",
-      "The integration of tools like Impeccable with platforms like GitHub can enhance collaboration between designers and engineers, improving design outcomes.",
-      "The concept of 'taste' in design is evolving, with AI models approximating human taste based on vast datasets but lacking true understanding of design intent."
-    ],
-    "investment_thesis": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "key_tickers": null
   }
 ]
