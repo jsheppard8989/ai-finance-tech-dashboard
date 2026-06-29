@@ -1,5 +1,23 @@
 [
   {
+    "id": 318,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Nate Silver Predicts: Democrats Take the House, Newsom Is Fading & AOC Might Win It All in 2028",
+    "episode_date": "2026-06-29",
+    "summary": "This episode of 'All-In with Chamath, Jason, Sacks & Friedberg' delves into the forces shaping U.S. elections, including polarization and partisanship, and their impact on voter behavior. The discussion extends to the California election system's inefficiencies, internal divisions within the Democratic Party, and the growing disillusionment of youth with capitalism. The panel also touches on the role of social media in political discourse and provides predictions for the upcoming midterm elections, offering insights into how these factors can influence investment strategies.",
+    "key_takeaways": [
+      "Polarization and partisanship in U.S. elections allow for high confidence predictions about voter behavior.",
+      "The New York Knicks' success highlights the importance of coaching, player performance, and playoff experience, which can be applied to business models.",
+      "The inefficiencies in California's election system, particularly the delayed counting of mail-in ballots, raise concerns about transparency and perceptions of impropriety.",
+      "Internal divisions within the Democratic Party, ranging from the far-left to centrist factions, impact electoral strategies and candidate selection.",
+      "Youth disillusionment with capitalism, influenced by economic anxieties and student debt, could drive political shifts and future electoral outcomes.",
+      "Social media algorithms create filter bubbles that reinforce partisan views and limit exposure to diverse opinions, affecting public sentiment and elections.",
+      "Predictions for the midterms suggest a strong likelihood of Democratic control in the House and a competitive Senate landscape, influenced by economic conditions and voter sentiment."
+    ],
+    "investment_thesis": "Invest in organizations that demonstrate strong leadership and a track record of success, and prepare for potential policy shifts based on midterm election outcomes.",
+    "key_tickers": null
+  },
+  {
     "id": 317,
     "podcast_name": "The a16z Show",
     "episode_title": "Beyond P(doom): Marc Andreessen - Betting on America",
@@ -97,22 +115,6 @@
       "Ethical considerations in AI development are critical to prevent misuse and ensure societal benefits."
     ],
     "investment_thesis": "Invest in AI technologies and training to stay competitive and leverage upcoming advancements, while also focusing on ethical AI practices to ensure responsible development and deployment.",
-    "key_tickers": null
-  },
-  {
-    "id": 311,
-    "podcast_name": "Latent Space: The AI Engineer Podcast",
-    "episode_title": "Why the Frontier Ecosystem must be Open \u2014 Matei Zaharia and Reynold Xin, Databricks",
-    "episode_date": "2026-06-24",
-    "summary": "In this episode, the discussion revolves around Databricks' growth and its strategic approach to AI and data management. The company has expanded significantly, now boasting over 100,000 users globally. Databricks is developing a unified architecture for AI agents that combines coding and custom agents, enhancing security with contextual policies, and focusing on specialized models for efficiency. The company's emphasis on open-source components and incremental development positions it as a leader in the AI landscape, differentiating it from competitors like Snowflake.",
-    "key_takeaways": [
-      "Databricks' unified AI agent architecture could lead to increased adoption and market share.",
-      "Contextual policies in AI systems can improve security and usability, addressing enterprise concerns.",
-      "Specialized AI models offer cost savings and efficiency gains for enterprise applications.",
-      "Incremental development practices facilitate rapid innovation and market responsiveness.",
-      "Open-source strategies can provide competitive advantages through community engagement and innovation."
-    ],
-    "investment_thesis": "Investing in Databricks or similar companies could yield returns due to their strategic focus on AI innovation, open-source collaboration, and specialized models that enhance operational efficiency.",
     "key_tickers": null
   },
   {

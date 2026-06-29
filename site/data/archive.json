@@ -24,6 +24,25 @@
       "podcast_episode_id": 317
     },
     {
+      "id": 333,
+      "title": "Nate Silver Predicts: Democrats Take the House, Newsom Is Fading & AOC Might Win It All in 2028",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-29",
+      "summary": "This episode of 'All-In with Chamath, Jason, Sacks & Friedberg' delves into the forces shaping U.S. elections, including polarization and partisanship, and their impact on voter behavior. The discussion extends to the California election system's inefficiencies, internal divisions within the Democratic Party, and the growing disillusionment of youth with capitalism. The panel also touches on the role of social media in political discourse and provides predictions for the upcoming midterm elections, offering insights into how these factors can influence investment strategies.",
+      "key_takeaway": "Invest in organizations that demonstrate strong leadership and a track record of success, and prepare for potential policy shifts based on midterm election outcomes.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 318
+    },
+    {
       "id": 328,
       "title": "AI Is Crossing the Frontier of Human Knowledge | Kevin Weil",
       "source_type": "podcast",
@@ -162,7 +181,7 @@
         "AMZN"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-24",
       "archived_date": null,

@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-29T12:05:24.293459",
-  chartsVersion: "2026-06-29T12:05:07.666309",
+  generatedAt: "2026-06-29T13:38:48.376708",
+  chartsVersion: "2026-06-29T13:38:40.611578",
   priceSnapshot: {
   "GOOGL": {
-    "price": 352.12,
-    "change_pct": -3.33,
+    "price": 352.92,
+    "change_pct": -3.11,
     "name": "GOOGL",
-    "updated_at": "2026-06-29T12:05:07.664714"
+    "updated_at": "2026-06-29T13:38:40.610209"
   },
   "BTC": {
-    "price": 60053.8,
-    "change_pct": -8.46,
+    "price": 60152.18,
+    "change_pct": -8.31,
     "name": "BTC",
-    "updated_at": "2026-06-29T12:05:07.664736"
+    "updated_at": "2026-06-29T13:38:40.610232"
   },
   "MSFT": {
-    "price": 368.33,
-    "change_pct": -8.7,
+    "price": 368.37,
+    "change_pct": -8.69,
     "name": "MSFT",
-    "updated_at": "2026-06-29T12:05:07.664748"
+    "updated_at": "2026-06-29T13:38:40.610242"
   },
   "NVDA": {
-    "price": 194.04,
-    "change_pct": -6.8,
+    "price": 194.06,
+    "change_pct": -6.79,
     "name": "NVDA",
-    "updated_at": "2026-06-29T12:05:07.664757"
+    "updated_at": "2026-06-29T13:38:40.610251"
   },
   "AMZN": {
-    "price": 240.99,
-    "change_pct": -1.31,
+    "price": 240.25,
+    "change_pct": -1.61,
     "name": "AMZN",
-    "updated_at": "2026-06-29T12:05:07.664767"
+    "updated_at": "2026-06-29T13:38:40.610260"
   },
   "TSLA": {
-    "price": 403.36,
-    "change_pct": 1.68,
+    "price": 409.67,
+    "change_pct": 3.28,
     "name": "TSLA",
-    "updated_at": "2026-06-29T12:05:07.664776"
+    "updated_at": "2026-06-29T13:38:40.610269"
   },
   "WTI": {
-    "price": 3.18,
-    "change_pct": -17.19,
+    "price": 3.16,
+    "change_pct": -17.58,
     "name": "WTI",
-    "updated_at": "2026-06-29T12:05:07.664786"
+    "updated_at": "2026-06-29T13:38:40.610280"
   },
   "META": {
-    "price": 564.9,
-    "change_pct": -3.28,
+    "price": 565.82,
+    "change_pct": -3.12,
     "name": "META",
-    "updated_at": "2026-06-29T12:05:07.664796"
+    "updated_at": "2026-06-29T13:38:40.610289"
   },
   "S&P 500": {
-    "price": 738.97,
-    "change_pct": 0.52,
+    "price": 740.63,
+    "change_pct": 0.74,
     "name": "S&P 500",
-    "updated_at": "2026-06-29T12:05:07.664805"
+    "updated_at": "2026-06-29T13:38:40.610298"
   },
   "AAPL": {
-    "price": 280.2,
-    "change_pct": -3.56,
+    "price": 282.09,
+    "change_pct": -2.91,
     "name": "AAPL",
-    "updated_at": "2026-06-29T12:05:07.664814"
+    "updated_at": "2026-06-29T13:38:40.610307"
   },
   "QQQ": {
-    "price": 721.24,
-    "change_pct": 2.01,
+    "price": 723.37,
+    "change_pct": 2.31,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-29T12:05:07.664823"
+    "updated_at": "2026-06-29T13:38:40.610315"
   },
   "BTC-USD": {
-    "price": 60053.8,
-    "change_pct": -8.46,
+    "price": 60174.27,
+    "change_pct": -8.27,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-29T12:05:07.664834"
+    "updated_at": "2026-06-29T13:38:40.610326"
   }
 },
   tickerScores: [
@@ -857,6 +857,25 @@ const dashboardData = {
       "podcast_episode_id": 317
     },
     {
+      "id": 333,
+      "title": "Nate Silver Predicts: Democrats Take the House, Newsom Is Fading & AOC Might Win It All in 2028",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-29",
+      "summary": "This episode of 'All-In with Chamath, Jason, Sacks & Friedberg' delves into the forces shaping U.S. elections, including polarization and partisanship, and their impact on voter behavior. The discussion extends to the California election system's inefficiencies, internal divisions within the Democratic Party, and the growing disillusionment of youth with capitalism. The panel also touches on the role of social media in political discourse and provides predictions for the upcoming midterm elections, offering insights into how these factors can influence investment strategies.",
+      "key_takeaway": "Invest in organizations that demonstrate strong leadership and a track record of success, and prepare for potential policy shifts based on midterm election outcomes.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 318
+    },
+    {
       "id": 328,
       "title": "AI Is Crossing the Frontier of Human Knowledge | Kevin Weil",
       "source_type": "podcast",
@@ -995,7 +1014,7 @@ const dashboardData = {
         "AMZN"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-24",
       "archived_date": null,
@@ -9066,6 +9085,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 333,
+      "title": "Nate Silver Predicts: Democrats Take the House, Newsom Is Fading & AOC Might Win It All in 2028",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-06-29",
+      "summary": "This episode of 'All-In with Chamath, Jason, Sacks & Friedberg' delves into the forces shaping U.S. elections, including polarization and partisanship, and their impact on voter behavior. The discussion extends to the California election system's inefficiencies, internal divisions within the Democratic Party, and the growing disillusionment of youth with capitalism. The panel also touches on the role of social media in political discourse and provides predictions for the upcoming midterm elections, offering insights into how these factors can influence investment strategies.",
+      "key_takeaway": "Invest in organizations that demonstrate strong leadership and a track record of success, and prepare for potential policy shifts based on midterm election outcomes.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 318,
+      "episode_release_date": "2026-06-29",
+      "guest_name": "Nate Silver Predicts",
+      "key_tickers": []
+    },
+    {
       "id": 328,
       "title": "AI Is Crossing the Frontier of Human Knowledge | Kevin Weil",
       "source_type": "podcast",
@@ -9164,26 +9203,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 312,
       "episode_release_date": "2026-06-25",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 325,
-      "title": "Why the Frontier Ecosystem must be Open \u2014 Matei Zaharia and Reynold Xin, Databricks",
-      "source_type": "podcast",
-      "source_name": "Latent Space: The AI Engineer Podcast",
-      "source_date": "2026-06-24",
-      "summary": "In this episode, the discussion revolves around Databricks' growth and its strategic approach to AI and data management. The company has expanded significantly, now boasting over 100,000 users globally. Databricks is developing a unified architecture for AI agents that combines coding and custom agents, enhancing security with contextual policies, and focusing on specialized models for efficiency. The company's emphasis on open-source components and incremental development positions it as a leader in the AI landscape, differentiating it from competitors like Snowflake.",
-      "key_takeaway": "Investing in Databricks or similar companies could yield returns due to their strategic focus on AI innovation, open-source collaboration, and specialized models that enhance operational efficiency.",
-      "tickers_mentioned": "[\"MSFT\", \"GOOGL\", \"AMZN\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-24",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 311,
-      "episode_release_date": "2026-06-24",
       "guest_name": null,
       "key_tickers": []
     },
@@ -29428,6 +29447,59 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-06-29",
     "key_tickers": []
+  },
+  "333": {
+    "id": 323,
+    "insight_id": 333,
+    "podcast_episode_id": 318,
+    "overview": "The unresolved tension in U.S. politics lies in the deep polarization and partisanship that dictate electoral outcomes, with the Democratic Party's internal divisions further complicating their electoral strategies. The competitive dynamic is also influenced by the disillusionment of the youth with capitalism and the inefficiencies in the California election system. The allocator-relevant implication is that these factors could arbitrate market uncertainty, with the potential for policy shifts based on midterm election outcomes dictating the investment horizon.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the evolution of polarization and partisanship as these trends can signal shifts in market sentiment and policy direction.",
+      "Organizations with strong leadership and a history of navigating polarized environments may offer a competitive advantage in volatile political landscapes.",
+      "Staying informed about electoral reforms, particularly in California, can provide insights into potential changes in voter behavior and their impact on market stability.",
+      "Analyzing the platforms of Democratic candidates and understanding party dynamics can help investors anticipate electoral risks and opportunities.",
+      "Considering the youth's economic beliefs and their impact on consumer behavior is crucial for anticipating shifts in market trends.",
+      "Tracking social media trends can offer early signals of changes in public sentiment, which can influence political outcomes and investment strategies."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that the polarization and partisanship in U.S. elections, along with the internal divisions within the Democratic Party, will continue to shape electoral outcomes and policy directions. A timeframe of 2-4 years is relevant for midterm elections, and observable developments such as shifts in youth sentiment towards capitalism or changes in the efficiency of the California election system would either vindicate or invalidate this thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's business model relies on a stable consumer market and is influenced by economic conditions and policy changes. The company's success is also tied to the youth demographic, making it relevant to the thesis on youth disillusionment with capitalism.",
+        "positioning": "Positioning should be strategic, considering Apple's long-term growth potential and its resilience in a polarized political environment. A long position could be maintained with a tactical hedge against potential economic downturns influenced by political outcomes.",
+        "risk": "Key risks include changes in consumer behavior due to economic anxieties among the youth and potential policy shifts that could affect Apple's global supply chain or tax liabilities."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant economic recovery that could shift the youth's sentiment towards capitalism, potentially altering their voting behavior.",
+      "The Democratic Party successfully unifying and presenting a cohesive electoral strategy, which could change the dynamics of upcoming elections.",
+      "California implementing electoral reforms that enhance transparency and efficiency, potentially increasing voter trust and turnout."
+    ],
+    "catalysts": [
+      "Upcoming midterm elections and their outcomes, which could serve as a bellwether for polarization trends and policy directions.",
+      "Economic indicators such as youth unemployment rates and student debt levels, which can influence the youth's sentiment towards capitalism.",
+      "Reforms in the California election system that could impact voter behavior and perceptions of electoral integrity.",
+      "Social media platform policy changes that could affect the creation of filter bubbles and influence public sentiment."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-29T13:37:45.305368",
+    "updated_at": "2026-06-29 18:37:45",
+    "episode_evidence": "The podcast 'All-In with Chamath, Jason, Sacks & Friedberg' provides a nuanced perspective on U.S. elections, highlighting the deep-seated polarization and partisanship that shape voter behavior. The hosts assert, 'We could probably predict right now with 97% confidence who they'll vote for in 2028,' underscoring the predictability of voting patterns. They also discuss the inefficiencies in California's election system, with one host stating, 'I think California's system is completely unacceptable... it takes longer than that,' which points to the delayed counting of mail-in ballots and its potential to erode voter trust. The internal divisions within the Democratic Party are highlighted, with the hosts identifying 'three factions... the left, the abundance libs, and the resistance libs,' which could lead to inconsistent electoral strategies. The youth's disillusionment with capitalism is also a significant theme, with the hosts noting, 'The youth are kind of disillusioned by capitalism and don't believe in capitalism,' reflecting a broader economic and social shift.",
+    "falsification_tracks": [
+      "A significant shift in polarization metrics that disrupt the current predictive models of voter behavior.",
+      "California implementing reforms that expedite the counting of mail-in ballots and enhance transparency, altering perceptions of electoral integrity.",
+      "The Democratic Party resolving its internal divisions and presenting a unified front, which could change the dynamics of candidate selection and electoral strategies.",
+      "A substantial economic upturn that alleviates youth economic anxieties and shifts their sentiment towards capitalism.",
+      "Social media platforms implementing changes to their algorithms that reduce the impact of filter bubbles, potentially moderating partisan views."
+    ],
+    "insight_title": "Nate Silver Predicts: Democrats Take the House, Newsom Is Fading & AOC Might Win It All in 2028",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-06-29",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -29482,7 +29554,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 23150,
+    "id": 23233,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -29494,7 +29566,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23151,
+    "id": 23234,
+    "name": "Nate Silver Predicts",
+    "slug": "nate-silver-predicts",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in organizations that demonstrate strong leadership and a track record of success, and prepare for potential policy shifts based on midterm election outcomes.",
+    "last_episode_title": "Nate Silver Predicts: Democrats Take the House, Newsom Is Fading & AOC Might Win It All in 2028",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-06-29",
+    "appearance_count": 1
+  },
+  {
+    "id": 23235,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -29506,7 +29590,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23152,
+    "id": 23236,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -29518,7 +29602,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23153,
+    "id": 23237,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -29530,7 +29614,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23154,
+    "id": 23238,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -29542,7 +29626,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23155,
+    "id": 23239,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -29554,7 +29638,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23156,
+    "id": 23240,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -29566,7 +29650,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 23157,
+    "id": 23241,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -29578,7 +29662,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23158,
+    "id": 23242,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -29590,7 +29674,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23159,
+    "id": 23243,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -29602,7 +29686,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23160,
+    "id": 23244,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -29614,7 +29698,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23161,
+    "id": 23245,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -29626,7 +29710,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23162,
+    "id": 23246,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -29638,7 +29722,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23163,
+    "id": 23247,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -29650,7 +29734,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23164,
+    "id": 23248,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -29662,7 +29746,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23165,
+    "id": 23249,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -29674,7 +29758,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23166,
+    "id": 23250,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -29686,7 +29770,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23167,
+    "id": 23251,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -29698,7 +29782,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23168,
+    "id": 23252,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -29707,18 +29791,6 @@ const dashboardData = {
     "last_episode_title": "Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
-    "appearance_count": 1
-  },
-  {
-    "id": 23169,
-    "name": "Benedict Evans",
-    "slug": "benedict-evans",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
-    "last_episode_title": "AI Eats the World? A Reality Check with Benedict Evans",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-04",
     "appearance_count": 1
   }
 ],
@@ -30051,7 +30123,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 1.15,
+    "mention_score_decayed": 1.12,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -30189,7 +30261,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.02,
+    "mention_score_decayed": 1.0,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -30377,7 +30449,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -31124,7 +31196,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -31188,7 +31260,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -31314,7 +31386,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-23 \u2022 What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
     "last_proof_snippet": "Right now AI has been so much about productivity, job replacement, work replacement and I think we have a moment to shift that, which is how does these new tools help you get more out of your own day and your own life and the things you wan",
@@ -31991,7 +32063,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -32181,7 +32253,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-15 \u2022 AI, Design, and the Power of Open Models",
     "last_proof_snippet": "It's not about how good a model is in the general sense. It's about how good is this model for my use case, for a lot of design and marketing use case says they need editable design, not a single flat image. It's super impressive, honestly,",
@@ -32365,7 +32437,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -32433,7 +32505,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -32501,7 +32573,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-10 \u2022 America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. There's a very, very large player in global finance that almost no one knows about. The development finance corporation, it just had its reautho",
@@ -32560,7 +32632,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -32624,7 +32696,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -32818,7 +32890,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -32905,7 +32977,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -33030,7 +33102,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -33531,7 +33603,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -33841,7 +33913,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -33905,7 +33977,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -33968,7 +34040,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -35030,7 +35102,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -35093,7 +35165,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
