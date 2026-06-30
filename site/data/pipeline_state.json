@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-29T23:39:28.834613",
-  "last_updated": "2026-06-29T23:39:28.834613",
-  "last_pipeline_run": "2026-06-29T23:39:28.834613",
+  "generated_at": "2026-06-30T05:02:44.493100",
+  "last_updated": "2026-06-30T05:02:44.493100",
+  "last_pipeline_run": "2026-06-30T05:02:44.493100",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -11,59 +11,23 @@
     "ticker_mentions": 199,
     "podcast_episodes": 293,
     "newsletters": 7,
-    "daily_scores": 136,
+    "daily_scores": 137,
     "overton_terms_total": 105,
     "latest_insights_total": 307,
     "today_mentions": {
       "podcast": 1
     },
-    "podcasts_analyzed": 4
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 4,
-    "transcribed": 4,
-    "analyzed": 2,
-    "insight_created": 2,
-    "published": 2,
-    "total": 4
+    "downloaded": 2,
+    "transcribed": 2,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 2
   },
   "episodes": [
-    {
-      "id": "232f11fa-73f4-11f1-8468-17770bf32298",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Why the US Government Is Blocking Model Releases (GPT-5.6) | #267",
-      "published": "2026-06-29",
-      "rss_guid": "232f11fa-73f4-11f1-8468-17770bf32298",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
-    {
-      "id": "825a3ed2-73dd-11f1-a8eb-9b4526d0391f",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
-      "published": "2026-06-29",
-      "rss_guid": "825a3ed2-73dd-11f1-a8eb-9b4526d0391f",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "916c5e0a-b2ab-4935-ae27-7dc4eeb8612a",
       "podcast": "The a16z Show",
@@ -195,7 +159,7 @@
       "title": "Samo Burja on Growth, Energy, and AI",
       "status": "needs_analysis",
       "published": "2026-06-12",
-      "age_days": 17,
+      "age_days": 18,
       "next_blocker": "analyzed"
     },
     {
@@ -204,7 +168,7 @@
       "title": "Ada Palmer \u2013 Machiavelli is the most misunderstood thinker of all time",
       "status": "needs_analysis",
       "published": "2026-06-16",
-      "age_days": 13,
+      "age_days": 14,
       "next_blocker": "analyzed"
     }
   ],
