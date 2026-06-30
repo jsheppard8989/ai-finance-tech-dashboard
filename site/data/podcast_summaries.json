@@ -1,5 +1,41 @@
 [
   {
+    "id": 320,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
+    "episode_date": "2026-06-29",
+    "summary": "In this episode, Jack Farley discusses the 1873 financial crisis, triggered by a shift from a bi-metallic to a gold standard, and its parallels with today's AI and data center investment boom. The conversation highlights the dangers of excessive leverage and mismanaged monetary policy, drawing lessons from the past to inform current investment strategies. The episode also explores the global nature of the AI boom and its potential to lead to similar economic excesses and corrections.",
+    "key_takeaways": [
+      "Monitor central bank policies for potential shifts in monetary standards.",
+      "Assess leverage levels in capital-intensive sectors to gauge risk exposure.",
+      "Conduct thorough market analysis to identify signs of over-investment.",
+      "Diversify investments across global markets, especially in emerging technologies.",
+      "Stay informed about political and economic trends influencing market stability."
+    ],
+    "investment_thesis": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
+    "key_tickers": null
+  },
+  {
+    "id": 319,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Why the US Government Is Blocking Model Releases (GPT-5.6) | #267",
+    "episode_date": "2026-06-29",
+    "summary": "This episode of 'Moonshots with Peter Diamandis' discusses the implications of government control over AI access, the risks of AI model distillation and intellectual property theft, advances in drone technology for wildfire detection, and the U.S. government's investments in quantum computing. It also touches on lifestyle drugs for enhanced wakefulness and the potential of AI in video generation.",
+    "key_takeaways": [
+      "U.S. government control over AI access may stifle innovation and create competitive disadvantages.",
+      "AI model distillation by Alibaba raises concerns about IP theft and security of proprietary AI technologies.",
+      "Advances in drone technology could revolutionize wildfire detection and suppression.",
+      "Quantum computing investments by the U.S. government aim to maintain a competitive edge against China.",
+      "Eli Lilly's acquisition of Centessa Pharmaceuticals signals interest in drugs that enhance wakefulness.",
+      "AI advancements like ByteDance's C Dance 2.5 could disrupt traditional media and entertainment industries."
+    ],
+    "investment_thesis": "Invest in companies that are well-positioned to navigate government regulations in AI, enhance IP protection, and capitalize on advancements in drone technology, quantum computing, and AI-generated content.",
+    "key_tickers": [
+      "BABA",
+      "LLY"
+    ]
+  },
+  {
     "id": 318,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Nate Silver Predicts: Democrats Take the House, Newsom Is Fading & AOC Might Win It All in 2028",
@@ -99,38 +135,6 @@
       "The majority of current AI applications are focused on B2B solutions, driven by the economic value they provide to businesses."
     ],
     "investment_thesis": "Invest in AI-driven scientific research and development companies, as well as B2B AI startups that provide clear economic benefits to businesses.",
-    "key_tickers": null
-  },
-  {
-    "id": 312,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Marc Andreessen on AI, Technology, and the Future of Humanity",
-    "episode_date": "2026-06-25",
-    "summary": "This podcast discusses the rapid evolution of AI, its potential to enhance human productivity, and its dual nature in cybersecurity. It also addresses the historical context of technological displacement, the importance of ethical AI development, and the societal impact of AI integration. The conversation emphasizes the need for proactive engagement with AI tools to adapt to the changing landscape.",
-    "key_takeaways": [
-      "AI models are expected to become significantly smarter and more capable within the next two years.",
-      "AI can act as a mentor or coach, unlocking unprecedented levels of efficiency and creativity for individuals.",
-      "AI's dual nature allows it to be both a powerful tool for cybersecurity and a potential threat.",
-      "Historical fears of technology replacing jobs have often been overstated, with technology creating more jobs than it has displaced.",
-      "Ethical considerations in AI development are critical to prevent misuse and ensure societal benefits."
-    ],
-    "investment_thesis": "Invest in AI technologies and training to stay competitive and leverage upcoming advancements, while also focusing on ethical AI practices to ensure responsible development and deployment.",
-    "key_tickers": null
-  },
-  {
-    "id": 310,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
-    "episode_date": "2026-06-24",
-    "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the Plutus investment platform, which democratizes investment management by providing access to high-quality research and model portfolios. The platform emphasizes individual risk-reward profiles and charges a competitive 1% management fee. Plutus stands out for its customer-centric approach, rigorous selection of research providers, and flexibility with no capital lockups. The discussion highlights the importance of understanding personal investment objectives and the benefits of using platforms like Plutus to access diverse investment strategies.",
-    "key_takeaways": [
-      "Plutus allows individual and professional investors to access high-quality research and model portfolios.",
-      "The platform emphasizes personalized investment strategies based on individual risk-reward profiles.",
-      "Plutus charges a competitive flat management fee of 1% of assets under management.",
-      "The platform has a rigorous selection process for research providers to ensure high-quality content.",
-      "Plutus offers flexibility with no capital lockups, allowing users to withdraw funds at any time."
-    ],
-    "investment_thesis": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
     "key_tickers": null
   }
 ]

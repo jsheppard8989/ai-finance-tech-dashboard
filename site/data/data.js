@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-29T22:04:49.735752",
-  chartsVersion: "2026-06-29T22:04:34.899355",
+  generatedAt: "2026-06-29T23:39:35.981273",
+  chartsVersion: "2026-06-29T23:39:27.286817",
   priceSnapshot: {
   "GOOGL": {
     "price": 353.65,
     "change_pct": -2.91,
     "name": "GOOGL",
-    "updated_at": "2026-06-29T22:04:34.898018"
+    "updated_at": "2026-06-29T23:39:27.286358"
   },
   "BTC": {
-    "price": 59853.19,
-    "change_pct": -7.09,
+    "price": 59524.21,
+    "change_pct": -7.6,
     "name": "BTC",
-    "updated_at": "2026-06-29T22:04:34.898045"
+    "updated_at": "2026-06-29T23:39:27.286368"
   },
   "MSFT": {
     "price": 368.57,
     "change_pct": -8.64,
     "name": "MSFT",
-    "updated_at": "2026-06-29T22:04:34.898058"
+    "updated_at": "2026-06-29T23:39:27.286372"
   },
   "NVDA": {
     "price": 194.97,
     "change_pct": -6.35,
     "name": "NVDA",
-    "updated_at": "2026-06-29T22:04:34.898069"
+    "updated_at": "2026-06-29T23:39:27.286375"
   },
   "AMZN": {
     "price": 240.14,
     "change_pct": -1.66,
     "name": "AMZN",
-    "updated_at": "2026-06-29T22:04:34.898079"
+    "updated_at": "2026-06-29T23:39:27.286378"
   },
   "TSLA": {
     "price": 411.84,
     "change_pct": 3.82,
     "name": "TSLA",
-    "updated_at": "2026-06-29T22:04:34.898090"
+    "updated_at": "2026-06-29T23:39:27.286382"
   },
   "WTI": {
     "price": 3.2,
     "change_pct": -16.67,
     "name": "WTI",
-    "updated_at": "2026-06-29T22:04:34.898100"
+    "updated_at": "2026-06-29T23:39:27.286385"
   },
   "META": {
     "price": 562.6,
     "change_pct": -3.67,
     "name": "META",
-    "updated_at": "2026-06-29T22:04:34.898109"
+    "updated_at": "2026-06-29T23:39:27.286389"
   },
   "S&P 500": {
     "price": 741.0,
     "change_pct": 0.79,
     "name": "S&P 500",
-    "updated_at": "2026-06-29T22:04:34.898119"
+    "updated_at": "2026-06-29T23:39:27.286392"
   },
   "AAPL": {
     "price": 281.74,
     "change_pct": -3.03,
     "name": "AAPL",
-    "updated_at": "2026-06-29T22:04:34.898128"
+    "updated_at": "2026-06-29T23:39:27.286395"
   },
   "QQQ": {
     "price": 724.08,
     "change_pct": 2.41,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-29T22:04:34.898137"
+    "updated_at": "2026-06-29T23:39:27.286398"
   },
   "BTC-USD": {
-    "price": 59847.34,
-    "change_pct": -7.1,
+    "price": 59524.21,
+    "change_pct": -7.6,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-29T22:04:34.898149"
+    "updated_at": "2026-06-29T23:39:27.286401"
   }
 },
   tickerScores: [
@@ -456,7 +456,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "QTA",
+    "ticker": "LLY",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -471,7 +471,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SNWGF",
+    "ticker": "QTA",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -486,7 +486,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SPACEX",
+    "ticker": "SNWGF",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -501,7 +501,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SQUARE",
+    "ticker": "SPACEX",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -516,14 +516,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "AEP",
-    "total_score": 72.0,
+    "ticker": "SQUARE",
+    "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 30,
-    "score": 72.0,
+    "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -531,7 +531,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "AMD",
+    "ticker": "AEP",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -546,7 +546,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ARBOMB",
+    "ticker": "AMD",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -561,7 +561,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CROWD",
+    "ticker": "ARBOMB",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -576,7 +576,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "EBAY",
+    "ticker": "CROWD",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -591,7 +591,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SAMSUNG ELECTRONICS",
+    "ticker": "EBAY",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -606,7 +606,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SK HYNIX",
+    "ticker": "SAMSUNG ELECTRONICS",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -621,7 +621,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SMH",
+    "ticker": "SK HYNIX",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -636,7 +636,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "WORK",
+    "ticker": "SMH",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -651,7 +651,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ZEN",
+    "ticker": "WORK",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -666,14 +666,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ARBOB GASOLINE",
-    "total_score": 70.0,
+    "ticker": "ZEN",
+    "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 40,
-    "score": 70.0,
+    "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -681,7 +681,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "E-TORO",
+    "ticker": "ARBOB GASOLINE",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -696,7 +696,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "EMAX",
+    "ticker": "E-TORO",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -711,7 +711,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "NOW",
+    "ticker": "EMAX",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -726,7 +726,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PANW",
+    "ticker": "NOW",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -741,7 +741,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SMP-500",
+    "ticker": "PANW",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -756,7 +756,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SPCE",
+    "ticker": "SMP-500",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -771,14 +771,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRM",
-    "total_score": 68.0,
+    "ticker": "SPCE",
+    "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 47,
-    "score": 68.0,
+    "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -786,7 +786,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "MINE",
+    "ticker": "CRM",
     "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -801,14 +801,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ETH",
-    "total_score": 66.0,
+    "ticker": "MINE",
+    "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 49,
-    "score": 66.0,
+    "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -816,7 +816,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ILMN",
+    "ticker": "ETH",
     "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -874,6 +874,45 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 318
+    },
+    {
+      "id": 334,
+      "title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-06-29",
+      "summary": "In this episode, Jack Farley discusses the 1873 financial crisis, triggered by a shift from a bi-metallic to a gold standard, and its parallels with today's AI and data center investment boom. The conversation highlights the dangers of excessive leverage and mismanaged monetary policy, drawing lessons from the past to inform current investment strategies. The episode also explores the global nature of the AI boom and its potential to lead to similar economic excesses and corrections.",
+      "key_takeaway": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 320
+    },
+    {
+      "id": 335,
+      "title": "Why the US Government Is Blocking Model Releases (GPT-5.6) | #267",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-06-29",
+      "summary": "This episode of 'Moonshots with Peter Diamandis' discusses the implications of government control over AI access, the risks of AI model distillation and intellectual property theft, advances in drone technology for wildfire detection, and the U.S. government's investments in quantum computing. It also touches on lifestyle drugs for enhanced wakefulness and the potential of AI in video generation.",
+      "key_takeaway": "Invest in companies that are well-positioned to navigate government regulations in AI, enhance IP protection, and capitalize on advancements in drone technology, quantum computing, and AI-generated content.",
+      "tickers_mentioned": [
+        "BABA",
+        "LLY"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 319
     },
     {
       "id": 328,
@@ -973,7 +1012,7 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-25",
       "archived_date": null,
@@ -1033,7 +1072,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-24",
       "archived_date": null,
@@ -7165,6 +7204,42 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 43,
+      "term": "ASI",
+      "description": "An intellect that is much smarter than the best human brains in practically every field, including scientific creativity, general wisdom, and social skills.",
+      "first_detected_date": "2026-06-29",
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "ASI represents a paradigm shift; investors should monitor advancements closely as it could lead to significant economic and societal changes.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 319,
+      "first_detected_speaker": "Peter Diamandis (hosts)",
+      "last_mentioned_episode_id": 319,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+    },
+    {
+      "id": 135,
+      "term": "Healthspan",
+      "description": "The period during which an individual is generally healthy and free from chronic diseases.",
+      "first_detected_date": "2026-06-29",
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investing in companies and technologies that aim to extend healthspan can provide significant returns as the global population ages.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 319,
+      "first_detected_speaker": "Peter Diamandis (hosts)",
+      "last_mentioned_episode_id": 319,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+    },
+    {
       "id": 254,
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
@@ -7277,8 +7352,8 @@ const dashboardData = {
       "term": "AI Personhood",
       "description": "The debate over whether AI entities should be granted legal personhood, which could shape the regulatory landscape for AI.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 11,
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 12,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Stakeholders should engage in discussions about AI regulation to prepare for potential legal changes.",
@@ -7287,8 +7362,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 314,
-      "last_mentioned_speaker": "Will Marshall, Peter Diamandis"
+      "last_mentioned_episode_id": 319,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 59,
@@ -7439,8 +7514,8 @@ const dashboardData = {
       "term": "Dyson Swarm",
       "description": "A hypothetical structure proposed by Freeman Dyson, consisting of a large number of objects in space designed to capture the energy of a star, in this context possibly referring to SpaceX's ambitions.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 18,
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 19,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential of space-based infrastructure and energy capture technologies.",
@@ -7449,8 +7524,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 314,
-      "last_mentioned_speaker": "Will Marshall, Peter Diamandis"
+      "last_mentioned_episode_id": 319,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 113,
@@ -7529,8 +7604,8 @@ const dashboardData = {
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 30,
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 31,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -7539,16 +7614,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 314,
-      "last_mentioned_speaker": "Will Marshall, Peter Diamandis"
+      "last_mentioned_episode_id": 319,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 97,
       "term": "Distillation",
       "description": "The process of reducing a large AI model into a smaller, more manageable one through API queries.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 16,
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 17,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Look for opportunities in technologies that enable efficient distillation to democratize AI capabilities.",
@@ -7557,8 +7632,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 316,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 319,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 174,
@@ -7655,8 +7730,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 45,
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 46,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -7665,8 +7740,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 315,
-      "last_mentioned_speaker": "a16z (hosts)"
+      "last_mentioned_episode_id": 319,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 162,
@@ -7775,24 +7850,6 @@ const dashboardData = {
       "first_detected_speaker": "Jim Bianco",
       "last_mentioned_episode_id": 197,
       "last_mentioned_speaker": "Jim Bianco"
-    },
-    {
-      "id": 135,
-      "term": "Healthspan",
-      "description": "The period during which an individual is generally healthy and free from chronic diseases.",
-      "first_detected_date": "2026-04-29",
-      "last_mentioned_date": "2026-04-29",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investing in companies and technologies that aim to extend healthspan can provide significant returns as the global population ages.",
-      "display_on_main": 0,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null
     },
     {
       "id": 129,
@@ -8479,24 +8536,6 @@ const dashboardData = {
       "last_mentioned_speaker": null
     },
     {
-      "id": 43,
-      "term": "ASI",
-      "description": "An intellect that is much smarter than the best human brains in practically every field, including scientific creativity, general wisdom, and social skills.",
-      "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-03-17",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "ASI represents a paradigm shift; investors should monitor advancements closely as it could lead to significant economic and societal changes.",
-      "display_on_main": 0,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null
-    },
-    {
       "id": 55,
       "term": "AI Factory",
       "description": "A concept where AI operations are centralized and optimized in a factory-like setting, emphasizing efficiency and scale in AI production.",
@@ -8520,7 +8559,7 @@ const dashboardData = {
       "description": "The underlying technology and systems that support AI applications, including hardware and software.",
       "first_detected_date": "2026-03-17",
       "last_mentioned_date": "2026-06-29",
-      "mention_count": 17,
+      "mention_count": 18,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consider investments in companies that provide the backbone for AI applications.",
@@ -8529,8 +8568,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 317,
-      "last_mentioned_speaker": "Mark Andreessen"
+      "last_mentioned_episode_id": 319,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 26,
@@ -8789,8 +8828,8 @@ const dashboardData = {
       "term": "AI Agents",
       "description": "Software entities that perform tasks autonomously, often used in AI and machine learning workflows.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 44,
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 45,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AI agents can automate complex processes, reducing costs and increasing efficiency in various sectors.",
@@ -8799,8 +8838,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 315,
-      "last_mentioned_speaker": "Will Marshall, Peter Diamandis"
+      "last_mentioned_episode_id": 319,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 38,
@@ -9105,6 +9144,49 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 334,
+      "title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-06-29",
+      "summary": "In this episode, Jack Farley discusses the 1873 financial crisis, triggered by a shift from a bi-metallic to a gold standard, and its parallels with today's AI and data center investment boom. The conversation highlights the dangers of excessive leverage and mismanaged monetary policy, drawing lessons from the past to inform current investment strategies. The episode also explores the global nature of the AI boom and its potential to lead to similar economic excesses and corrections.",
+      "key_takeaway": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 320,
+      "episode_release_date": "2026-06-29",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 335,
+      "title": "Why the US Government Is Blocking Model Releases (GPT-5.6) | #267",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-06-29",
+      "summary": "This episode of 'Moonshots with Peter Diamandis' discusses the implications of government control over AI access, the risks of AI model distillation and intellectual property theft, advances in drone technology for wildfire detection, and the U.S. government's investments in quantum computing. It also touches on lifestyle drugs for enhanced wakefulness and the potential of AI in video generation.",
+      "key_takeaway": "Invest in companies that are well-positioned to navigate government regulations in AI, enhance IP protection, and capitalize on advancements in drone technology, quantum computing, and AI-generated content.",
+      "tickers_mentioned": "[\"BABA\", \"LLY\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 319,
+      "episode_release_date": "2026-06-29",
+      "guest_name": null,
+      "key_tickers": [
+        "BABA",
+        "LLY"
+      ]
+    },
+    {
       "id": 328,
       "title": "AI Is Crossing the Frontier of Human Knowledge | Kevin Weil",
       "source_type": "podcast",
@@ -9185,46 +9267,6 @@ const dashboardData = {
       "key_tickers": [
         "MU"
       ]
-    },
-    {
-      "id": 327,
-      "title": "Marc Andreessen on AI, Technology, and the Future of Humanity",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-06-25",
-      "summary": "This podcast discusses the rapid evolution of AI, its potential to enhance human productivity, and its dual nature in cybersecurity. It also addresses the historical context of technological displacement, the importance of ethical AI development, and the societal impact of AI integration. The conversation emphasizes the need for proactive engagement with AI tools to adapt to the changing landscape.",
-      "key_takeaway": "Invest in AI technologies and training to stay competitive and leverage upcoming advancements, while also focusing on ethical AI practices to ensure responsible development and deployment.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-25",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 312,
-      "episode_release_date": "2026-06-25",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 326,
-      "title": "Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-06-24",
-      "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the Plutus investment platform, which democratizes investment management by providing access to high-quality research and model portfolios. The platform emphasizes individual risk-reward profiles and charges a competitive 1% management fee. Plutus stands out for its customer-centric approach, rigorous selection of research providers, and flexibility with no capital lockups. The discussion highlights the importance of understanding personal investment objectives and the benefits of using platforms like Plutus to access diverse investment strategies.",
-      "key_takeaway": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-24",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 310,
-      "episode_release_date": "2026-06-24",
-      "guest_name": null,
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -9355,8 +9397,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 45,
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 46,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -9365,24 +9407,24 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 315,
-      "last_mentioned_speaker": "a16z (hosts)",
-      "overton_score": 41.99,
+      "last_mentioned_episode_id": 319,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)",
+      "overton_score": 46.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Dwarkesh Podcast",
-      "last_mentioned_episode_title": "The next big breakthrough will be AIs learning on the job",
-      "last_mentioned_episode_date": "2026-06-26"
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Why the US Government Is Blocking Model Releases (GPT-5.6) | #267",
+      "last_mentioned_episode_date": "2026-06-29"
     },
     {
       "id": 10,
       "term": "Dyson Swarm",
       "description": "A hypothetical structure proposed by Freeman Dyson, consisting of a large number of objects in space designed to capture the energy of a star, in this context possibly referring to SpaceX's ambitions.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 18,
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 19,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential of space-based infrastructure and energy capture technologies.",
@@ -9391,24 +9433,24 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 314,
-      "last_mentioned_speaker": "Will Marshall, Peter Diamandis",
-      "overton_score": 16.79,
+      "last_mentioned_episode_id": 319,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)",
+      "overton_score": 19.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
       "first_detected_episode_date": "2026-05-23",
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
-      "last_mentioned_episode_date": "2026-06-26"
+      "last_mentioned_episode_title": "Why the US Government Is Blocking Model Releases (GPT-5.6) | #267",
+      "last_mentioned_episode_date": "2026-06-29"
     },
     {
       "id": 234,
       "term": "AI Personhood",
       "description": "The debate over whether AI entities should be granted legal personhood, which could shape the regulatory landscape for AI.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 11,
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 12,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Stakeholders should engage in discussions about AI regulation to prepare for potential legal changes.",
@@ -9417,16 +9459,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 314,
-      "last_mentioned_speaker": "Will Marshall, Peter Diamandis",
-      "overton_score": 10.26,
+      "last_mentioned_episode_id": 319,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)",
+      "overton_score": 12.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
       "first_detected_episode_date": "2026-06-08",
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
-      "last_mentioned_episode_date": "2026-06-26"
+      "last_mentioned_episode_title": "Why the US Government Is Blocking Model Releases (GPT-5.6) | #267",
+      "last_mentioned_episode_date": "2026-06-29"
     },
     {
       "id": 254,
@@ -29500,61 +29542,165 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-29",
     "key_tickers": []
+  },
+  "334": {
+    "id": 324,
+    "insight_id": 334,
+    "podcast_episode_id": 320,
+    "overview": "The unresolved tension highlighted by the 1873 financial crisis is the interplay between monetary policy and economic stability. The competitive dynamic at play is between the potential for technological advancement, represented by the current AI and data center boom, and the risk of economic excesses leading to a downturn, as seen historically. The allocator-relevant implication is that investors must navigate the uncertainty of whether the current boom will lead to a similar crisis, with the metric of debt sustainability and leverage levels arbitrating this risk. The horizon of proof lies in the ability of current monetary policies to prevent a liquidity contraction similar to 1873.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the global liquidity conditions and the stance of central banks on monetary policy to anticipate potential shifts that could impact market stability.",
+      "Evaluate the debt-to-asset ratios of companies in the AI and data center sectors to assess their vulnerability to economic downturns and the risk of defaults.",
+      "Consider diversifying investments across different regions to mitigate the risk of a localized economic crisis, especially in the context of a global AI boom.",
+      "Stay abreast of political developments that could influence economic policies and market conditions, as historical financial crises have often been followed by periods of protectionism and populism.",
+      "Prepare for the possibility of inflationary pressures in the current economic environment, which contrasts with the deflationary pressures of the late 19th century, and could have significant implications for investment strategies."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that the current AI and data center investment boom, fueled by excessive leverage and potentially mismanaged monetary policy, could lead to an economic downturn similar to the 1873 crisis. This thesis is tied to the observable development of debt sustainability in the tech sector and the response of central banks to changes in monetary standards. A timeframe of 3-5 years is reasonable to assess the impact of current policies and investment trends. The thesis would be vindicated if we see a significant correction in the AI and data center sectors due to unsustainable debt levels, and invalidated if these sectors continue to show growth without significant defaults or economic downturns.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a key player in the technology sector, with significant investments in AI and data centers. Its performance can serve as a bellwether for the health of the broader tech sector.",
+        "positioning": "Positioning should be strategic, with a focus on long-term growth potential, but with a hedge against potential sector-wide corrections due to excessive leverage.",
+        "risk": "Key risks include changes in consumer demand for tech products, regulatory challenges, and the sustainability of Apple's debt levels in the context of the broader tech sector's financial health."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that the current economic environment is fundamentally different from the 1870s, with more sophisticated financial instruments and regulatory oversight that could prevent a similar crisis.",
+      "The argument that the global nature of the AI boom could lead to a more balanced and sustainable growth trajectory, rather than the localized excesses of the past.",
+      "The possibility that technological advancements could lead to increased productivity and economic growth, offsetting the risks of excessive leverage and mismanaged monetary policy."
+    ],
+    "catalysts": [
+      "Central bank policy announcements regarding shifts in monetary standards.",
+      "Economic indicators such as GDP growth, inflation rates, and unemployment figures that could signal the health of the global economy.",
+      "Regulatory developments affecting the AI and data center sectors, which could impact investment levels and market sentiment.",
+      "Technological breakthroughs that could either accelerate the growth of the AI sector or lead to a reassessment of its valuation."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-29T23:38:25.715317",
+    "updated_at": "2026-06-30 04:38:25",
+    "episode_evidence": "The 1873 financial crisis was a pivotal moment in economic history, largely due to Bismarck's decision to shift from a bi-metallic to a gold standard, which significantly contracted liquidity and money supply. 'Bismarck had defeated France... by dumping all his silver and moving to gold... caused a contraction in liquidity and money supply,' explained Leakwet Ahamed. This policy shift, coupled with a scramble for gold, led to deflation and a severe economic downturn. The scale of financial losses was staggering, with railroad bond defaults amounting to between $500 million and $1 billion, representing about 10% of the U.S. GDP at the time. 'The volume of default was roughly 50%. Total losses was somewhere between 500 million and a billion dollars,' Ahamed detailed. These losses underscore the risks of excessive leverage in capital-intensive sectors and the systemic risks posed by mismanaged monetary policy.",
+    "falsification_tracks": [
+      "If central banks globally announce a coordinated shift back to a bi-metallic standard, reducing the focus on gold, the thesis of potential liquidity contractions due to a gold standard would be weakened.",
+      "Should AI and data center investments show consistent profitability and debt sustainability over multiple quarters, the parallel with the 1873 crisis's excessive leverage and mismanagement would be less compelling.",
+      "A sustained period of economic stability and growth without significant downturns would challenge the notion of inevitable boom-bust cycles in financial markets."
+    ],
+    "insight_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-06-29",
+    "key_tickers": []
+  },
+  "335": {
+    "id": 325,
+    "insight_id": 335,
+    "podcast_episode_id": 319,
+    "overview": "The unresolved tension lies in the balance between national security and the fostering of innovation within the AI sector. The U.S. government's control over AI access and the potential for IP theft by international competitors create a competitive dynamic where companies must navigate a landscape of shifting regulations and intellectual property risks. The metric that arbitrates this uncertainty is the government's policy direction and the success of companies in protecting and leveraging their AI technologies.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor policy changes from the U.S. government regarding AI access, as these will significantly impact the competitive landscape and potential for innovation within the sector.",
+      "Companies operating in the AI space should anticipate increased regulatory scrutiny and prepare strategies to safeguard their intellectual property, potentially through advanced encryption or other protective measures.",
+      "Investment in drone technology companies should be evaluated based on their ability to deliver on the promise of autonomous wildfire detection and suppression, with a focus on the speed and efficiency of their solutions.",
+      "Quantum computing investments should be considered with an eye on government funding trends and the potential for commercial applications in various industries, including pharmaceuticals and materials science.",
+      "The market for lifestyle drugs that enhance wakefulness is likely to grow, with implications for workforce productivity and societal norms around work-life balance."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that companies adept at navigating the complex interplay of government regulations, intellectual property protection, and technological advancements in AI, drone technology, and quantum computing will outperform. Over a 3-5 year timeframe, the observable development that would vindicate this thesis is the successful commercialization of these technologies, coupled with robust IP protection and government policy that fosters innovation while managing security risks.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI and its potential to leverage advancements in drone technology for applications like mapping and autonomous systems makes it relevant to this thesis.",
+        "positioning": "Positioning should be long-term strategic, as Apple's ability to integrate new technologies into its product ecosystem could provide a competitive advantage.",
+        "risk": "Key risks include potential regulatory hurdles that could slow down the deployment of new technologies and the threat of IP theft, which could undermine Apple's R&D investments."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant relaxation in U.S. government control over AI access could indicate a shift towards a more laissez-faire approach, reducing the need for companies to navigate complex regulations.",
+      "The emergence of new, non-U.S. based competitors in AI and quantum computing that are not subject to the same regulatory constraints could disrupt the current competitive landscape.",
+      "A slowdown in technological advancements in drone technology and quantum computing could reduce the urgency for companies to invest in these areas, altering the investment thesis."
+    ],
+    "catalysts": [
+      "U.S. government announcements regarding changes in AI regulation or new policies on intellectual property protection.",
+      "Major breakthroughs in drone technology for wildfire detection and suppression, particularly those that demonstrate significant improvements in speed and efficiency.",
+      "New government investments or partnerships in quantum computing, indicating a continued focus on maintaining a competitive edge in this field.",
+      "Developments in the lifestyle drug market, including regulatory approvals and market adoption, which could signal a shift in societal norms around wakefulness and productivity."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-29T23:38:44.231993",
+    "updated_at": "2026-06-30 04:38:44",
+    "episode_evidence": "The podcast 'Moonshots with Peter Diamandis' delves into the intricate dynamics of AI and technology. It's highlighted that the U.S. government's control over AI access, exemplified by the restriction on OpenAI's GPT-5.6, is a strategic move to manage national security risks. 'The government is now in the release loop... customer by customer selecting who gets access to the latest models,' indicating a shift towards more stringent regulation. This control could significantly impact innovation, as companies may be hindered by limited access to cutting-edge AI capabilities. Additionally, the podcast discusses the alarming issue of AI model distillation and intellectual property theft, with Anthropic's accusation against Alibaba, 'Anthropic accuses China's Alibaba of running a massive distillation campaign against cloud,' underscoring the global competition and the vulnerability of AI models to replication.",
+    "falsification_tracks": [
+      "Should the U.S. government announce a relaxation of AI access restrictions or a significant increase in the number of companies granted access to advanced AI models, the thesis of government control stifling innovation would be weakened.",
+      "If there is a notable decrease in the number of AI-related intellectual property disputes or successful legal actions against companies like Alibaba for model distillation, it could suggest that the current concerns about IP theft are overstated.",
+      "A failure in the deployment or effectiveness of new drone technologies for wildfire detection and suppression would challenge the narrative of rapid advancements in autonomous firefighting solutions.",
+      "A significant reduction in U.S. government investments in quantum computing or a public statement indicating a change in strategy would undermine the current thesis about the importance of maintaining a competitive edge in this field."
+    ],
+    "insight_title": "Why the US Government Is Blocking Model Releases (GPT-5.6) | #267",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-06-29",
+    "key_tickers": [
+      "BABA",
+      "LLY"
+    ]
   }
 },
   suggestedTerms: [
   {
-    "id": 464,
-    "term": "Blue Sectors",
-    "definition": "Economic sectors experiencing rapid productivity growth and technological advancement.",
-    "investment_implications": "Investors should focus on blue sectors for potential high growth and innovation.",
+    "id": 468,
+    "term": "AI Boom",
+    "definition": "A global phenomenon characterized by significant investments in artificial intelligence and data centers, drawing parallels to the pre-1873 financial boom.",
+    "investment_implications": "Investors should be cautious of potential over-investment and subsequent corrections in the AI sector.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-29 17:03:35",
+    "submitted_date": "2026-06-30 04:37:38",
     "priority_score": 80
   },
   {
-    "id": 465,
-    "term": "Red Sectors",
-    "definition": "Economic sectors that are experiencing stagnation and consume a significant portion of economic resources without corresponding productivity growth.",
-    "investment_implications": "Investors should be cautious about investing in red sectors due to their potential to limit overall economic growth.",
+    "id": 469,
+    "term": "Monetary Missteps of 1873",
+    "definition": "The transition from a bi-metallic standard to a gold standard, which led to liquidity contraction and a financial crisis.",
+    "investment_implications": "Investors should monitor central bank policies for abrupt changes in monetary systems that could impact market liquidity.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-29 17:03:35",
+    "submitted_date": "2026-06-30 04:37:38",
     "priority_score": 80
   },
   {
-    "id": 463,
-    "term": "Distributed Inference Models",
-    "definition": "AI models that leverage distributed computing power across multiple devices or locations to process data and perform tasks.",
-    "investment_implications": "Investors should explore opportunities in companies that facilitate distributed computing and AI infrastructure, as this could lead to a more decentralized and resilient AI ecosystem.",
+    "id": 466,
+    "term": "AI Distillation",
+    "definition": "The process of extracting the knowledge from one AI model and using it to train another, smaller model, potentially leading to intellectual property theft.",
+    "investment_implications": "Investors should be cautious about companies' exposure to AI model distillation risks and evaluate their IP protection strategies.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-27 04:39:21",
+    "submitted_date": "2026-06-30 04:36:53",
     "priority_score": 80
   },
   {
-    "id": 461,
-    "term": "On-Policy Self-Distribution (OPSD)",
-    "definition": "A proposed technique in AI training that aims to improve sample efficiency by aligning model predictions with accumulated contextual knowledge.",
-    "investment_implications": "OPSD could significantly enhance the effectiveness of AI models in real-world applications, making investments in companies researching OPSD potentially lucrative.",
+    "id": 467,
+    "term": "Quantum Computing Investments",
+    "definition": "Significant financial investments made by governments or corporations to develop quantum computing technology, which has the potential to revolutionize various industries.",
+    "investment_implications": "Investors should consider opportunities in quantum computing as it may offer substantial returns due to its transformative potential.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-26 18:39:19",
+    "submitted_date": "2026-06-30 04:36:53",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 23317,
+    "id": 23401,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -29566,7 +29712,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23318,
+    "id": 23402,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -29578,7 +29724,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23319,
+    "id": 23403,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -29590,7 +29736,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23320,
+    "id": 23404,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -29602,7 +29748,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23321,
+    "id": 23405,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -29614,7 +29760,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23322,
+    "id": 23406,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -29626,7 +29772,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23323,
+    "id": 23407,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -29638,7 +29784,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23324,
+    "id": 23408,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -29650,7 +29796,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 23325,
+    "id": 23409,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -29662,7 +29808,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23326,
+    "id": 23410,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -29674,7 +29820,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23327,
+    "id": 23411,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -29686,7 +29832,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23328,
+    "id": 23412,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -29698,7 +29844,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23329,
+    "id": 23413,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -29710,7 +29856,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23330,
+    "id": 23414,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -29722,7 +29868,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23331,
+    "id": 23415,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -29734,7 +29880,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23332,
+    "id": 23416,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -29746,7 +29892,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23333,
+    "id": 23417,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -29758,7 +29904,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23334,
+    "id": 23418,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -29770,7 +29916,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23335,
+    "id": 23419,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -29782,7 +29928,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23336,
+    "id": 23420,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -30001,7 +30147,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 1.52,
+    "mention_score_decayed": 1.48,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -31055,6 +31201,69 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 313,
+    "name": "Leakwet Ahamed",
+    "slug": "leakwet-ahamed",
+    "bio": "Leakwet Ahamed is an expert in historical financial crises and their parallels to modern economic conditions. He has written extensively on the monetary missteps of 1873 and their implications for today's investors, providing insights into the reordering of the monetary system and its impact on financial stability.",
+    "known_for": "Analyzing the monetary missteps of 1873 and their implications for today's investors.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-06-30 04:37:38",
+    "last_episode_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-06-29",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-29 \u2022 Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
+    "last_proof_snippet": "I am so glad today we have a very special guest, one of my favorite authors of all time Leakwet Ahamed, who's the author of the new book 1873, The Roth Childs, The First Great Depression, and The Making of the Modern World Leakwet. Welcome",
+    "supporting_takeaway": "Assess leverage levels in capital-intensive sectors to gauge risk exposure.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-29T23:37:57.741880",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Leakwet Ahamed",
+      "fetched_at": "2026-06-30T04:37:57.741525+00:00",
+      "cliff_notes": "Leakwet Ahamed is an economic historian who has made a career out of analyzing financial crises and their impact on the global economy. His work focuses on the dramatic events that occur during these crises and how they shape economic history. Ahamed's interest in financial crises was piqued after writing about the lead up to the 1929 Great Depression, where he examined the conduct of monetary policy by central bankers. His research into the financial crisis of 1873 revealed a complex story of financial turmoil and a reordering of the monetary system that few people know about. Ahamed's work provides valuable insights for investors and policymakers, helping them understand the historical context of financial crises and their potential impact on the modern world.",
+      "derived": {
+        "books_or_works": "1873: The Roth Childs, The First Great Depression, and The Making of the Modern World"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Leakwet Ahamed is an economic historian who has made a career out of analyzing financial crises and their impact on the global economy. His work focuses on the dramatic events that occur during these crises and how they shape economic history. Ahamed's interest in financial crises was piqued after writing about the lead up to the 1929 Great Depression, where he examined the conduct of monetary policy by central bankers.",
+        "His research into the financial crisis of 1873 revealed a complex story of financial turmoil and a reordering of the monetary system that few people know about. Ahamed's work provides valuable insights for investors and policymakers, helping them understand the historical context of financial crises and their potential impact on the modern world."
+      ],
+      "sections": [
+        {
+          "heading": "Financial Crises",
+          "body": "Leakwet Ahamed is known for his in-depth analysis of financial crises, particularly the monetary missteps of 1873 and their parallels to modern economic conditions."
+        },
+        {
+          "heading": "Monetary Policy",
+          "body": "Ahamed's work examines the conduct of monetary policy by central bankers during financial crises, shedding light on the decisions that can lead to economic instability."
+        },
+        {
+          "heading": "Historical Parallels",
+          "body": "Ahamed draws connections between historical financial crises and today's economic conditions, providing investors with valuable insights into potential risks and opportunities."
+        },
+        {
+          "heading": "Reordering of the Monetary System",
+          "body": "In his book on the 1873 financial crisis, Ahamed explores the unnecessary reordering of the monetary system and its impact on financial stability."
+        }
+      ]
+    }
+  },
+  {
     "id": 310,
     "name": "Will Marshall",
     "slug": "will-marshall",
@@ -31136,7 +31345,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
     "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
@@ -31450,7 +31659,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-22 \u2022 Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
     "last_proof_snippet": "Okay, we're here in a studio with Grace One, Matt and Zico welcome. Great to be here. Yeah. Thanks for having us. You're visiting from Pittsburgh? That's right. The home of all good computer science, I don't know if I'm oversteaving things.",
@@ -31513,7 +31722,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -31577,7 +31786,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -31636,7 +31845,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -31695,7 +31904,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -31760,7 +31969,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -32189,7 +32398,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -33037,7 +33246,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -33229,7 +33438,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
@@ -36986,7 +37195,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
     "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
@@ -37114,7 +37323,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -37806,7 +38015,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
     "last_proof_snippet": "Beach Point Capital Management primarily manages institutional capital, which is characterized as patient capital.",
@@ -40399,7 +40608,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_proof_snippet": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229 00:00:00 I am blown away by how far you've come. The things that you can do with Neural Nets now does completely",
@@ -40463,7 +40672,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "last_proof_cite": "The a16z Show \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
     "last_proof_snippet": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. If you were starting from scratch today,",

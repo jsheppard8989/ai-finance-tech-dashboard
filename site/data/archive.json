@@ -43,6 +43,45 @@
       "podcast_episode_id": 318
     },
     {
+      "id": 334,
+      "title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-06-29",
+      "summary": "In this episode, Jack Farley discusses the 1873 financial crisis, triggered by a shift from a bi-metallic to a gold standard, and its parallels with today's AI and data center investment boom. The conversation highlights the dangers of excessive leverage and mismanaged monetary policy, drawing lessons from the past to inform current investment strategies. The episode also explores the global nature of the AI boom and its potential to lead to similar economic excesses and corrections.",
+      "key_takeaway": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 320
+    },
+    {
+      "id": 335,
+      "title": "Why the US Government Is Blocking Model Releases (GPT-5.6) | #267",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-06-29",
+      "summary": "This episode of 'Moonshots with Peter Diamandis' discusses the implications of government control over AI access, the risks of AI model distillation and intellectual property theft, advances in drone technology for wildfire detection, and the U.S. government's investments in quantum computing. It also touches on lifestyle drugs for enhanced wakefulness and the potential of AI in video generation.",
+      "key_takeaway": "Invest in companies that are well-positioned to navigate government regulations in AI, enhance IP protection, and capitalize on advancements in drone technology, quantum computing, and AI-generated content.",
+      "tickers_mentioned": [
+        "BABA",
+        "LLY"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 319
+    },
+    {
       "id": 328,
       "title": "AI Is Crossing the Frontier of Human Knowledge | Kevin Weil",
       "source_type": "podcast",
@@ -140,7 +179,7 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-25",
       "archived_date": null,
@@ -200,7 +239,7 @@
         "AAPL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-24",
       "archived_date": null,
@@ -6332,6 +6371,42 @@
   "definitions": [],
   "overton": [
     {
+      "id": 43,
+      "term": "ASI",
+      "description": "An intellect that is much smarter than the best human brains in practically every field, including scientific creativity, general wisdom, and social skills.",
+      "first_detected_date": "2026-06-29",
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "ASI represents a paradigm shift; investors should monitor advancements closely as it could lead to significant economic and societal changes.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 319,
+      "first_detected_speaker": "Peter Diamandis (hosts)",
+      "last_mentioned_episode_id": 319,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+    },
+    {
+      "id": 135,
+      "term": "Healthspan",
+      "description": "The period during which an individual is generally healthy and free from chronic diseases.",
+      "first_detected_date": "2026-06-29",
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investing in companies and technologies that aim to extend healthspan can provide significant returns as the global population ages.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 319,
+      "first_detected_speaker": "Peter Diamandis (hosts)",
+      "last_mentioned_episode_id": 319,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+    },
+    {
       "id": 254,
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
@@ -6444,8 +6519,8 @@
       "term": "AI Personhood",
       "description": "The debate over whether AI entities should be granted legal personhood, which could shape the regulatory landscape for AI.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 11,
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 12,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Stakeholders should engage in discussions about AI regulation to prepare for potential legal changes.",
@@ -6454,8 +6529,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 314,
-      "last_mentioned_speaker": "Will Marshall, Peter Diamandis"
+      "last_mentioned_episode_id": 319,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 59,
@@ -6606,8 +6681,8 @@
       "term": "Dyson Swarm",
       "description": "A hypothetical structure proposed by Freeman Dyson, consisting of a large number of objects in space designed to capture the energy of a star, in this context possibly referring to SpaceX's ambitions.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 18,
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 19,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential of space-based infrastructure and energy capture technologies.",
@@ -6616,8 +6691,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 314,
-      "last_mentioned_speaker": "Will Marshall, Peter Diamandis"
+      "last_mentioned_episode_id": 319,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 113,
@@ -6696,8 +6771,8 @@
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 30,
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 31,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -6706,16 +6781,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 314,
-      "last_mentioned_speaker": "Will Marshall, Peter Diamandis"
+      "last_mentioned_episode_id": 319,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 97,
       "term": "Distillation",
       "description": "The process of reducing a large AI model into a smaller, more manageable one through API queries.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 16,
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 17,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Look for opportunities in technologies that enable efficient distillation to democratize AI capabilities.",
@@ -6724,8 +6799,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 316,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 319,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 174,
@@ -6822,8 +6897,8 @@
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 45,
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 46,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -6832,8 +6907,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 315,
-      "last_mentioned_speaker": "a16z (hosts)"
+      "last_mentioned_episode_id": 319,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 162,
@@ -6942,24 +7017,6 @@
       "first_detected_speaker": "Jim Bianco",
       "last_mentioned_episode_id": 197,
       "last_mentioned_speaker": "Jim Bianco"
-    },
-    {
-      "id": 135,
-      "term": "Healthspan",
-      "description": "The period during which an individual is generally healthy and free from chronic diseases.",
-      "first_detected_date": "2026-04-29",
-      "last_mentioned_date": "2026-04-29",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investing in companies and technologies that aim to extend healthspan can provide significant returns as the global population ages.",
-      "display_on_main": 0,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null
     },
     {
       "id": 129,
@@ -7646,24 +7703,6 @@
       "last_mentioned_speaker": null
     },
     {
-      "id": 43,
-      "term": "ASI",
-      "description": "An intellect that is much smarter than the best human brains in practically every field, including scientific creativity, general wisdom, and social skills.",
-      "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-03-17",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "ASI represents a paradigm shift; investors should monitor advancements closely as it could lead to significant economic and societal changes.",
-      "display_on_main": 0,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null
-    },
-    {
       "id": 55,
       "term": "AI Factory",
       "description": "A concept where AI operations are centralized and optimized in a factory-like setting, emphasizing efficiency and scale in AI production.",
@@ -7687,7 +7726,7 @@
       "description": "The underlying technology and systems that support AI applications, including hardware and software.",
       "first_detected_date": "2026-03-17",
       "last_mentioned_date": "2026-06-29",
-      "mention_count": 17,
+      "mention_count": 18,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consider investments in companies that provide the backbone for AI applications.",
@@ -7696,8 +7735,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 317,
-      "last_mentioned_speaker": "Mark Andreessen"
+      "last_mentioned_episode_id": 319,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 26,
@@ -7956,8 +7995,8 @@
       "term": "AI Agents",
       "description": "Software entities that perform tasks autonomously, often used in AI and machine learning workflows.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 44,
+      "last_mentioned_date": "2026-06-29",
+      "mention_count": 45,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AI agents can automate complex processes, reducing costs and increasing efficiency in various sectors.",
@@ -7966,8 +8005,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 315,
-      "last_mentioned_speaker": "Will Marshall, Peter Diamandis"
+      "last_mentioned_episode_id": 319,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 38,
