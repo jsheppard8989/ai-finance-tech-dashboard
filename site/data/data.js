@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-30T06:36:19.841821",
-  chartsVersion: "2026-06-30T06:36:08.550930",
+  generatedAt: "2026-06-30T12:05:21.121220",
+  chartsVersion: "2026-06-30T12:05:02.369438",
   priceSnapshot: {
   "GOOGL": {
-    "price": 353.65,
-    "change_pct": -2.91,
+    "price": 357.34,
+    "change_pct": 0.27,
     "name": "GOOGL",
-    "updated_at": "2026-06-30T06:36:08.548986"
+    "updated_at": "2026-06-30T12:05:02.368372"
   },
   "BTC": {
-    "price": 59081.15,
-    "change_pct": -8.29,
+    "price": 58443.02,
+    "change_pct": -9.28,
     "name": "BTC",
-    "updated_at": "2026-06-30T06:36:08.549008"
+    "updated_at": "2026-06-30T12:05:02.368392"
   },
   "MSFT": {
-    "price": 368.57,
-    "change_pct": -8.64,
+    "price": 372.18,
+    "change_pct": -6.34,
     "name": "MSFT",
-    "updated_at": "2026-06-30T06:36:08.549019"
+    "updated_at": "2026-06-30T12:05:02.368401"
   },
   "NVDA": {
-    "price": 194.97,
-    "change_pct": -6.35,
+    "price": 198.35,
+    "change_pct": -1.04,
     "name": "NVDA",
-    "updated_at": "2026-06-30T06:36:08.549028"
+    "updated_at": "2026-06-30T12:05:02.368408"
   },
   "AMZN": {
-    "price": 240.14,
-    "change_pct": -1.66,
+    "price": 239.95,
+    "change_pct": 0.82,
     "name": "AMZN",
-    "updated_at": "2026-06-30T06:36:08.549037"
+    "updated_at": "2026-06-30T12:05:02.368416"
   },
   "TSLA": {
-    "price": 411.84,
-    "change_pct": 3.82,
+    "price": 418.45,
+    "change_pct": 9.66,
     "name": "TSLA",
-    "updated_at": "2026-06-30T06:36:08.549045"
+    "updated_at": "2026-06-30T12:05:02.368423"
   },
   "WTI": {
-    "price": 3.2,
-    "change_pct": -16.67,
+    "price": 3.18,
+    "change_pct": -25.58,
     "name": "WTI",
-    "updated_at": "2026-06-30T06:36:08.549054"
+    "updated_at": "2026-06-30T12:05:02.368431"
   },
   "META": {
-    "price": 562.6,
-    "change_pct": -3.67,
+    "price": 558.95,
+    "change_pct": -2.02,
     "name": "META",
-    "updated_at": "2026-06-30T06:36:08.549063"
+    "updated_at": "2026-06-30T12:05:02.368438"
   },
   "S&P 500": {
-    "price": 741.0,
-    "change_pct": 0.79,
+    "price": 746.99,
+    "change_pct": 3.24,
     "name": "S&P 500",
-    "updated_at": "2026-06-30T06:36:08.549072"
+    "updated_at": "2026-06-30T12:05:02.368445"
   },
   "AAPL": {
-    "price": 281.74,
-    "change_pct": -3.03,
+    "price": 289.6,
+    "change_pct": -0.68,
     "name": "AAPL",
-    "updated_at": "2026-06-30T06:36:08.549080"
+    "updated_at": "2026-06-30T12:05:02.368452"
   },
   "QQQ": {
-    "price": 724.08,
-    "change_pct": 2.41,
+    "price": 736.4,
+    "change_pct": 6.27,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-30T06:36:08.549089"
+    "updated_at": "2026-06-30T12:05:02.368459"
   },
   "BTC-USD": {
-    "price": 59081.15,
-    "change_pct": -8.29,
+    "price": 58433.77,
+    "change_pct": -9.29,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-30T06:36:08.549100"
+    "updated_at": "2026-06-30T12:05:02.368468"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 336,
+      "title": "Building AI for Creators | Luma & Phota Labs",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-30",
+      "summary": "In this episode, the a16z Show explores the evolving landscape of AI tools in the creative industry. The discussion highlights the importance of human creativity in directing AI tools, the shift in artists' roles, and the significance of personalization in AI photography. The guests emphasize the necessity of iteration in creative processes and the widening gap between average and exceptional artists due to AI tools. The conversation also touches on the future of creative tools, the coexistence of traditional and AI-driven tools, and the importance of understanding user feedback and behavior for developing effective AI models.",
+      "key_takeaway": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 321
+    },
+    {
       "id": 332,
       "title": "Beyond P(doom): Marc Andreessen - Betting on America",
       "source_type": "podcast",
@@ -930,7 +949,7 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-26",
       "archived_date": null,
@@ -7240,6 +7259,24 @@ const dashboardData = {
       "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
+      "id": 255,
+      "term": "AI Boom",
+      "description": "A global phenomenon characterized by significant investments in artificial intelligence and data centers, drawing parallels to the pre-1873 financial boom.",
+      "first_detected_date": "2026-06-29",
+      "last_mentioned_date": "2026-06-30",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should be cautious of potential over-investment and subsequent corrections in the AI sector.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 320,
+      "first_detected_speaker": "Leakwet Ahamed",
+      "last_mentioned_episode_id": 321,
+      "last_mentioned_speaker": "Matt Tenzig, Zachia"
+    },
+    {
       "id": 254,
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
@@ -8952,20 +8989,20 @@ const dashboardData = {
     {
       "id": 53,
       "term": "Creative Expression of Being Human",
-      "description": "The idea that as AI reduces the need for mundane labor, humans will be empowered to focus on creativity and personal expression.",
+      "description": "The use of AI tools as an extension of human creativity, allowing for unique and personalized artistic outputs.",
       "first_detected_date": "2026-02-19",
-      "last_mentioned_date": "2026-02-19",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-06-30",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investment opportunities may arise in sectors that facilitate or capitalize on human creativity and personal expression in a future shaped by AI.",
+      "investment_implications": "Invest in platforms that enhance user creativity and personalization, as they can capture a larger market share.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 85,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 85,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 321,
+      "last_mentioned_speaker": "Matt Tenzig, Zachia"
     },
     {
       "id": 61,
@@ -8988,20 +9025,20 @@ const dashboardData = {
     {
       "id": 32,
       "term": "AI Agent Orchestration",
-      "description": "The process of managing and coordinating multiple AI systems to work together efficiently.",
+      "description": "The process of directing AI agents to use creative tools, indicating a shift from mastering tools to orchestrating their use.",
       "first_detected_date": "2026-02-18",
-      "last_mentioned_date": "2026-02-18",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-06-30",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider companies that specialize in AI orchestration as they become integral to the AI ecosystem.",
+      "investment_implications": "Look for investment opportunities in companies that focus on user-directed AI agents for creativity.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 69,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 69,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 321,
+      "last_mentioned_speaker": "Matt Tenzig, Zachia"
     },
     {
       "id": 13,
@@ -9104,6 +9141,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 336,
+      "title": "Building AI for Creators | Luma & Phota Labs",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-06-30",
+      "summary": "In this episode, the a16z Show explores the evolving landscape of AI tools in the creative industry. The discussion highlights the importance of human creativity in directing AI tools, the shift in artists' roles, and the significance of personalization in AI photography. The guests emphasize the necessity of iteration in creative processes and the widening gap between average and exceptional artists due to AI tools. The conversation also touches on the future of creative tools, the coexistence of traditional and AI-driven tools, and the importance of understanding user feedback and behavior for developing effective AI models.",
+      "key_takeaway": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 321,
+      "episode_release_date": "2026-06-30",
+      "guest_name": "Building AI for Creators",
+      "key_tickers": []
+    },
+    {
       "id": 332,
       "title": "Beyond P(doom): Marc Andreessen - Betting on America",
       "source_type": "podcast",
@@ -9185,26 +9242,6 @@ const dashboardData = {
         "BABA",
         "LLY"
       ]
-    },
-    {
-      "id": 328,
-      "title": "AI Is Crossing the Frontier of Human Knowledge | Kevin Weil",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-06-26",
-      "summary": "The podcast discusses the transformative impact of AI on scientific discovery, with AI models like GPT-5.2 solving previously unsolvable mathematical problems. The future of scientific research is predicted to involve robotic labs and reinforcement learning, which will accelerate experimentation and validation. The podcast also highlights the importance of ensemble modeling and the shift from B2C to B2B AI applications. It underscores the potential for high-agency individuals to leverage AI for rapid innovation, creating opportunities for startups.",
-      "key_takeaway": "Invest in AI-driven scientific research and development companies, as well as B2B AI startups that provide clear economic benefits to businesses.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"NVDA\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-26",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 313,
-      "episode_release_date": "2026-06-26",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 329,
@@ -29646,21 +29683,58 @@ const dashboardData = {
       "BABA",
       "LLY"
     ]
+  },
+  "336": {
+    "id": 326,
+    "insight_id": 336,
+    "podcast_episode_id": 321,
+    "overview": "The competitive dynamic in the creative industry is increasingly centered on the integration of AI tools that enhance rather than replace human creativity. The tension lies in how well these tools can be personalized to individual artists' styles and how effectively they can facilitate the iterative process inherent in creativity. The metric that arbitrates this uncertainty is user satisfaction and the ability of AI tools to adapt to the evolving personal styles of creators over time.",
+    "key_takeaways_detailed": [
+      "Invest in companies that not only develop AI technology but also focus on user interface design that allows for intuitive personalization and creativity enhancement.",
+      "Monitor the development of AI tools that can quickly adapt to user feedback, indicating a strong iterative design process that can lead to higher user satisfaction.",
+      "Look for partnerships between traditional creative tool companies and AI startups, as this could indicate a strategic approach to leveraging the strengths of both types of tools.",
+      "Keep an eye on companies that show a commitment to data analytics, as this will be crucial for understanding and adapting to the complex and evolving definitions of personal style in creativity."
+    ],
+    "investment_thesis": "Investing in companies that prioritize user creativity and personalization in their AI offerings is a strategic move in the creative industry. The thesis is that as AI tools become more sophisticated, the ability to cater to individual creative processes and styles will be a key differentiator. This investment approach is vindicated by observing the growth in user engagement and satisfaction with AI creative tools over time, as well as the ability of these tools to adapt to the evolving needs of creators. Conversely, if these tools fail to gain traction or if user satisfaction plateaus, it could invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI and its user-centric design philosophy make it a key player in the development of AI tools for creativity. Its ability to integrate AI into its suite of creative tools like Final Cut Pro and GarageBand positions it well in this space.",
+        "positioning": "Strategic long position, as Apple's continued innovation in AI and user experience is likely to bolster its position in the creative industry.",
+        "risk": "Key risks include a slowdown in AI innovation or a failure to effectively integrate AI into its creative tools, which could impact user satisfaction and engagement."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that AI will fully automate the creative process, diminishing the role of human creativity.",
+      "The assumption that traditional creative tools will become obsolete in the face of AI advancements.",
+      "The possibility that personalization in AI tools is a passing trend rather than a fundamental shift in user needs."
+    ],
+    "catalysts": [
+      "The release of new AI creative tools by major players in the industry.",
+      "Significant investments or acquisitions in AI startups by traditional creative tool companies.",
+      "Market research reports highlighting the growing importance of personalization and user creativity in AI tools.",
+      "User satisfaction surveys that show a strong correlation between AI tool usage and creative output quality."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-30T12:04:07.237012",
+    "updated_at": "2026-06-30 17:04:07",
+    "episode_evidence": "The a16z Show episode on AI tools in the creative industry underscores the human-centric nature of creativity, even with advanced AI. As Matt Tenzig stated, 'It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity.' This highlights the importance of AI as a facilitator rather than a replacement for human creativity. Additionally, the discussion emphasized the shift in artists' roles, where they are now more focused on using AI tools to extend their creative vision rather than mastering the tools themselves. The episode also touched on the significance of personalization in AI photography, with Zachia noting, 'People are finding that those use cases that are for sure.' This suggests that AI tools that can cater to individual user styles and preferences will be increasingly valuable. The necessity of iteration in creative processes was also highlighted, with the understanding that users often refine their ideas through multiple attempts, indicating a need for tools that can handle rapid iteration.",
+    "falsification_tracks": [
+      "If user engagement with AI creative tools declines significantly over time, it could suggest that personalization and user creativity are not being effectively prioritized.",
+      "A lack of significant investment in data analytics by companies in the creative AI space could indicate a failure to understand and enhance user experience.",
+      "If traditional creative tools see a sharp decrease in usage or market share, it might suggest that the coexistence of traditional and AI-driven tools is not as balanced as the discussion implies."
+    ],
+    "insight_title": "Building AI for Creators | Luma & Phota Labs",
+    "source_name": "The a16z Show",
+    "source_date": "2026-06-30",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
-  {
-    "id": 468,
-    "term": "AI Boom",
-    "definition": "A global phenomenon characterized by significant investments in artificial intelligence and data centers, drawing parallels to the pre-1873 financial boom.",
-    "investment_implications": "Investors should be cautious of potential over-investment and subsequent corrections in the AI sector.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-06-30 04:37:38",
-    "priority_score": 80
-  },
   {
     "id": 469,
     "term": "Monetary Missteps of 1873",
@@ -29696,11 +29770,35 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-06-30 04:36:53",
     "priority_score": 80
+  },
+  {
+    "id": 464,
+    "term": "Blue Sectors",
+    "definition": "Economic sectors experiencing rapid productivity growth and technological advancement.",
+    "investment_implications": "Investors should focus on blue sectors for potential high growth and innovation.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-06-29 17:03:35",
+    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 23569,
+    "id": 23653,
+    "name": "Building AI for Creators",
+    "slug": "building-ai-for-creators",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
+    "last_episode_title": "Building AI for Creators | Luma & Phota Labs",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-30",
+    "appearance_count": 1
+  },
+  {
+    "id": 23654,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -29712,7 +29810,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23570,
+    "id": 23655,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -29724,7 +29822,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23571,
+    "id": 23656,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -29736,7 +29834,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23572,
+    "id": 23657,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -29748,7 +29846,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23573,
+    "id": 23658,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -29760,7 +29858,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23574,
+    "id": 23659,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -29772,7 +29870,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23575,
+    "id": 23660,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -29784,7 +29882,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23576,
+    "id": 23661,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -29796,7 +29894,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 23577,
+    "id": 23662,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -29808,7 +29906,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23578,
+    "id": 23663,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -29820,7 +29918,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23579,
+    "id": 23664,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -29832,7 +29930,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23580,
+    "id": 23665,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -29844,7 +29942,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23581,
+    "id": 23666,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -29856,7 +29954,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23582,
+    "id": 23667,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -29868,7 +29966,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23583,
+    "id": 23668,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -29880,7 +29978,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23584,
+    "id": 23669,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -29892,7 +29990,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23585,
+    "id": 23670,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -29904,7 +30002,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23586,
+    "id": 23671,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -29916,7 +30014,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23587,
+    "id": 23672,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -29925,18 +30023,6 @@ const dashboardData = {
     "last_episode_title": "Building Search for AI Agents with Exa CEO Will Bryk",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
-    "appearance_count": 1
-  },
-  {
-    "id": 23588,
-    "name": "Dan Loeb",
-    "slug": "dan-loeb",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
-    "last_episode_title": "Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-06-05",
     "appearance_count": 1
   }
 ],
@@ -30209,7 +30295,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.48,
+    "mention_score_decayed": 1.45,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
@@ -31191,7 +31277,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -31199,6 +31285,70 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 314,
+    "name": "Matt Tenzig",
+    "slug": "matt-tenzig",
+    "bio": "Matt Tenzig is an expert in AI and creativity, focusing on directing AI agents for creative purposes. He emphasizes the importance of human direction in AI creativity, suggesting that while AI tools have the potential to revolutionize creative processes, it is ultimately up to humans to create something unique and meaningful from them.",
+    "known_for": "His insights on the intersection of AI and creativity, highlighting the importance of human direction in leveraging AI tools for creative purposes.",
+    "net_worth_usd": 40000000.0,
+    "net_worth_source": "https://somuchpoker.com/news/vegas-matt-net-worth-and-life",
+    "net_worth_updated_at": "2026-06-30T12:03:41.646498",
+    "voice_tone": "Insightful and forward-thinking.",
+    "voice_style": "Explains the evolving role of artists in the age of AI.",
+    "voice_delivery_notes": "Speaks with conviction about the importance of human creativity in AI.",
+    "voice_profile_updated_at": "2026-06-30 17:03:25",
+    "last_seen": "2026-06-30 17:03:25",
+    "last_episode_title": "Building AI for Creators | Luma & Phota Labs",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-30",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
+    "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
+    "supporting_takeaway": "The role of artists is evolving from mastering tools to using them as extensions of their creative vision.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-30T12:03:40.620952",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Matt Tenzig",
+      "fetched_at": "2026-06-30T17:03:40.620409+00:00",
+      "cliff_notes": "Matt Tenzig has carved a niche for himself at the intersection of artificial intelligence and creativity. His work revolves around the idea that while AI can provide powerful tools for creative expression, it is the human element that truly brings these tools to life. Tenzig's expertise lies in directing AI agents to achieve creative outcomes, rather than simply mastering the tools themselves. He believes that the advent of AI in creative fields is similar to how photography changed painting and digital software changed photography - a transformative shift that requires a new approach to artistic creation. Tenzig's contributions to the field are significant, as he helps to shape the discourse around how AI can be harnessed for creative purposes, emphasizing the need for human direction and the potential for AI to enhance, rather than replace, human creativity.",
+      "derived": {
+        "current_role": "Expert in AI and Creativity"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Matt Tenzig has carved a niche for himself at the intersection of artificial intelligence and creativity. His work revolves around the idea that while AI can provide powerful tools for creative expression, it is the human element that truly brings these tools to life. Tenzig's expertise lies in directing AI agents to achieve creative outcomes, rather than simply mastering the tools themselves.",
+        "He believes that the advent of AI in creative fields is similar to how photography changed painting and digital software changed photography - a transformative shift that requires a new approach to artistic creation. Tenzig's contributions to the field are significant, as he helps to shape the discourse around how AI can be harnessed for creative purposes, emphasizing the need for human direction and the potential for AI to enhance, rather than replace, human creativity."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Creativity",
+          "body": "Matt Tenzig discusses the role of AI in creative processes, highlighting the importance of human direction in leveraging AI tools for creative purposes."
+        },
+        {
+          "heading": "Human Element in AI",
+          "body": "Tenzig emphasizes that while AI can provide powerful tools, it is ultimately up to humans to create something unique and meaningful from them."
+        },
+        {
+          "heading": "Creative Tools Evolution",
+          "body": "He draws parallels between the impact of photography on painting, digital software on photography, and now AI on creative workflows, suggesting a transformative shift in artistic creation."
+        },
+        {
+          "heading": "Authenticity and Recreation",
+          "body": "Tenzig believes in being authentic to the moment while also recreating elements, suggesting a balance between originality and the use of AI tools."
+        }
+      ]
+    },
+    "net_worth": "$40.0M"
   },
   {
     "id": 313,
@@ -32335,7 +32485,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in Axiom Math for its pioneering role in verified AI for mathematics, which has the potential to drive innovation and efficiency in problem-solving across various fields.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
     "last_proof_snippet": "But it's for the first time now I think verified AI is to open up collaboration. Either it's human AI collaboration. Well, before a blueprint like that's human human collaboration. And Lin was a grounding, was a verification formal language",
@@ -32970,7 +33120,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -33036,7 +33186,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -33375,7 +33525,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -33630,7 +33780,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -33694,7 +33844,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -33877,7 +34027,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -33941,7 +34091,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -34684,7 +34834,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -34750,7 +34900,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",

@@ -1,5 +1,22 @@
 [
   {
+    "id": 321,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Building AI for Creators | Luma & Phota Labs",
+    "episode_date": "2026-06-30",
+    "summary": "In this episode, the a16z Show explores the evolving landscape of AI tools in the creative industry. The discussion highlights the importance of human creativity in directing AI tools, the shift in artists' roles, and the significance of personalization in AI photography. The guests emphasize the necessity of iteration in creative processes and the widening gap between average and exceptional artists due to AI tools. The conversation also touches on the future of creative tools, the coexistence of traditional and AI-driven tools, and the importance of understanding user feedback and behavior for developing effective AI models.",
+    "key_takeaways": [
+      "AI tools are enhancing creativity but still require human direction.",
+      "The role of artists is evolving from mastering tools to using them as extensions of their creative vision.",
+      "Personalization in AI photography is key to addressing diverse user needs and preferences.",
+      "Iteration is essential in creative processes, allowing users to refine their ideas.",
+      "The gap between average and exceptional artists is widening due to easier access to AI tools.",
+      "Traditional creative tools will coexist with AI tools, serving different user needs."
+    ],
+    "investment_thesis": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
+    "key_tickers": null
+  },
+  {
     "id": 320,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
@@ -119,22 +136,6 @@
       "Assess the financial health of AI companies for sustainable growth."
     ],
     "investment_thesis": "Invest in companies at the forefront of AI and satellite data integration for real-world applications, while monitoring global AI competition and regulatory changes.",
-    "key_tickers": null
-  },
-  {
-    "id": 313,
-    "podcast_name": "The a16z Show",
-    "episode_title": "AI Is Crossing the Frontier of Human Knowledge | Kevin Weil",
-    "episode_date": "2026-06-26",
-    "summary": "The podcast discusses the transformative impact of AI on scientific discovery, with AI models like GPT-5.2 solving previously unsolvable mathematical problems. The future of scientific research is predicted to involve robotic labs and reinforcement learning, which will accelerate experimentation and validation. The podcast also highlights the importance of ensemble modeling and the shift from B2C to B2B AI applications. It underscores the potential for high-agency individuals to leverage AI for rapid innovation, creating opportunities for startups.",
-    "key_takeaways": [
-      "AI models are now capable of addressing complex scientific challenges, including solving previously unsolved mathematical problems.",
-      "The future of scientific research will utilize robotic labs that can operate continuously, combined with AI models that learn and adapt through reinforcement learning.",
-      "Using multiple AI models in tandem can improve the accuracy and effectiveness of responses in complex scenarios.",
-      "The current environment favors individuals who can quickly implement ideas using AI tools, leading to a surge in creativity and innovation.",
-      "The majority of current AI applications are focused on B2B solutions, driven by the economic value they provide to businesses."
-    ],
-    "investment_thesis": "Invest in AI-driven scientific research and development companies, as well as B2B AI startups that provide clear economic benefits to businesses.",
     "key_tickers": null
   }
 ]
