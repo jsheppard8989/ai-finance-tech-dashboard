@@ -1,5 +1,21 @@
 [
   {
+    "id": 322,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "Grant Sanderson \u2013 AI and the future of math",
+    "episode_date": "2026-06-30",
+    "summary": "The podcast discusses the rapid advancements of AI in mathematics and its implications for the field. AI's progress in solving mathematical problems, particularly in formal domains, is highlighted, with the International Math Olympiad serving as a benchmark for AI's capabilities. The future of mathematics is seen as involving AI as a tool for exploration, with human mathematicians focusing on curation and interpretation. Careers in mathematics education are expected to remain stable despite AI advancements, and the economic value of mathematical contributions is emphasized for students considering careers in the field.",
+    "key_takeaways": [
+      "AI is advancing rapidly in solving mathematical problems, particularly in formal domains like algebra and number theory.",
+      "The International Math Olympiad is used as a benchmark for AI's mathematical capabilities, but success in this domain does not imply general intelligence.",
+      "Mathematical careers, especially in teaching and education, are likely to remain stable despite AI advancements.",
+      "Understanding the economic value of mathematics is crucial for students considering careers in the field.",
+      "AI's advancements in mathematics may have significant impacts on other fields such as engineering and material science."
+    ],
+    "investment_thesis": "Invest in AI-driven mathematical tools for exploration and conjecture generation, and consider careers in mathematics education for stability.",
+    "key_tickers": null
+  },
+  {
     "id": 321,
     "podcast_name": "The a16z Show",
     "episode_title": "Building AI for Creators | Luma & Phota Labs",
@@ -106,21 +122,6 @@
     "key_tickers": [
       "MU"
     ]
-  },
-  {
-    "id": 315,
-    "podcast_name": "Dwarkesh Podcast",
-    "episode_title": "The next big breakthrough will be AIs learning on the job",
-    "episode_date": "2026-06-26",
-    "summary": "This podcast episode delves into the current state and future prospects of artificial intelligence, with a focus on reinforcement learning (RL) and the pursuit of artificial general intelligence (AGI). The discussion highlights the importance of sample efficiency, the challenges of continuous learning, and innovative approaches such as on-policy self-distribution (OPSD) and simulation-based learning. The episode underscores the need for architectural innovations and the potential for AI to learn from real-world experiences more effectively, leading to broader capabilities beyond initial training.",
-    "key_takeaways": [
-      "Invest in AI companies focusing on reinforcement learning and diverse training environments.",
-      "Support research initiatives aimed at improving sample efficiency in AI models.",
-      "Evaluate AI solutions that incorporate continuous learning capabilities for real-world applications.",
-      "Keep an eye on emerging techniques like OPSD and simulation-based learning for potential investment opportunities."
-    ],
-    "investment_thesis": "Investing in companies and technologies that advance reinforcement learning and enhance AI's ability to learn from real-world interactions can lead to significant returns as these capabilities become more integral to various industries.",
-    "key_tickers": null
   },
   {
     "id": 314,

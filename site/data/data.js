@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-06-30T12:05:21.121220",
-  chartsVersion: "2026-06-30T12:05:02.369438",
+  generatedAt: "2026-06-30T13:38:34.879508",
+  chartsVersion: "2026-06-30T13:38:14.263205",
   priceSnapshot: {
   "GOOGL": {
-    "price": 357.34,
-    "change_pct": 0.27,
+    "price": 357.0,
+    "change_pct": 0.17,
     "name": "GOOGL",
-    "updated_at": "2026-06-30T12:05:02.368372"
+    "updated_at": "2026-06-30T13:38:14.261943"
   },
   "BTC": {
-    "price": 58443.02,
-    "change_pct": -9.28,
+    "price": 58329.05,
+    "change_pct": -9.45,
     "name": "BTC",
-    "updated_at": "2026-06-30T12:05:02.368392"
+    "updated_at": "2026-06-30T13:38:14.261965"
   },
   "MSFT": {
-    "price": 372.18,
-    "change_pct": -6.34,
+    "price": 370.54,
+    "change_pct": -6.75,
     "name": "MSFT",
-    "updated_at": "2026-06-30T12:05:02.368401"
+    "updated_at": "2026-06-30T13:38:14.261976"
   },
   "NVDA": {
-    "price": 198.35,
-    "change_pct": -1.04,
+    "price": 198.55,
+    "change_pct": -0.93,
     "name": "NVDA",
-    "updated_at": "2026-06-30T12:05:02.368408"
+    "updated_at": "2026-06-30T13:38:14.261984"
   },
   "AMZN": {
-    "price": 239.95,
-    "change_pct": 0.82,
+    "price": 237.91,
+    "change_pct": -0.04,
     "name": "AMZN",
-    "updated_at": "2026-06-30T12:05:02.368416"
+    "updated_at": "2026-06-30T13:38:14.261992"
   },
   "TSLA": {
-    "price": 418.45,
-    "change_pct": 9.66,
+    "price": 418.85,
+    "change_pct": 9.76,
     "name": "TSLA",
-    "updated_at": "2026-06-30T12:05:02.368423"
+    "updated_at": "2026-06-30T13:38:14.261999"
   },
   "WTI": {
-    "price": 3.18,
-    "change_pct": -25.58,
+    "price": 3.17,
+    "change_pct": -25.94,
     "name": "WTI",
-    "updated_at": "2026-06-30T12:05:02.368431"
+    "updated_at": "2026-06-30T13:38:14.262008"
   },
   "META": {
-    "price": 558.95,
-    "change_pct": -2.02,
+    "price": 560.1,
+    "change_pct": -1.81,
     "name": "META",
-    "updated_at": "2026-06-30T12:05:02.368438"
+    "updated_at": "2026-06-30T13:38:14.262016"
   },
   "S&P 500": {
-    "price": 746.99,
-    "change_pct": 3.24,
+    "price": 746.73,
+    "change_pct": 3.2,
     "name": "S&P 500",
-    "updated_at": "2026-06-30T12:05:02.368445"
+    "updated_at": "2026-06-30T13:38:14.262025"
   },
   "AAPL": {
-    "price": 289.6,
-    "change_pct": -0.68,
+    "price": 287.57,
+    "change_pct": -1.38,
     "name": "AAPL",
-    "updated_at": "2026-06-30T12:05:02.368452"
+    "updated_at": "2026-06-30T13:38:14.262034"
   },
   "QQQ": {
-    "price": 736.4,
-    "change_pct": 6.27,
+    "price": 735.99,
+    "change_pct": 6.21,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-06-30T12:05:02.368459"
+    "updated_at": "2026-06-30T13:38:14.262047"
   },
   "BTC-USD": {
-    "price": 58433.77,
-    "change_pct": -9.29,
+    "price": 58337.54,
+    "change_pct": -9.44,
     "name": "Bitcoin USD",
-    "updated_at": "2026-06-30T12:05:02.368468"
+    "updated_at": "2026-06-30T13:38:14.262058"
   }
 },
   tickerScores: [
@@ -853,6 +853,29 @@ const dashboardData = {
       "podcast_episode_id": 321
     },
     {
+      "id": 337,
+      "title": "Grant Sanderson \u2013 AI and the future of math",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-06-30",
+      "summary": "The podcast discusses the rapid advancements of AI in mathematics and its implications for the field. AI's progress in solving mathematical problems, particularly in formal domains, is highlighted, with the International Math Olympiad serving as a benchmark for AI's capabilities. The future of mathematics is seen as involving AI as a tool for exploration, with human mathematicians focusing on curation and interpretation. Careers in mathematics education are expected to remain stable despite AI advancements, and the economic value of mathematical contributions is emphasized for students considering careers in the field.",
+      "key_takeaway": "Invest in AI-driven mathematical tools for exploration and conjecture generation, and consider careers in mathematics education for stability.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "TSLA",
+        "AMZN"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 322
+    },
+    {
       "id": 332,
       "title": "Beyond P(doom): Marc Andreessen - Betting on America",
       "source_type": "podcast",
@@ -970,7 +993,7 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-26",
       "archived_date": null,
@@ -7268,7 +7291,7 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be cautious of potential over-investment and subsequent corrections in the AI sector.",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 320,
@@ -7641,8 +7664,8 @@ const dashboardData = {
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-06-29",
-      "mention_count": 31,
+      "last_mentioned_date": "2026-06-30",
+      "mention_count": 32,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -7651,7 +7674,7 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 319,
+      "last_mentioned_episode_id": 322,
       "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
@@ -7659,8 +7682,8 @@ const dashboardData = {
       "term": "Distillation",
       "description": "The process of reducing a large AI model into a smaller, more manageable one through API queries.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-06-29",
-      "mention_count": 17,
+      "last_mentioned_date": "2026-06-30",
+      "mention_count": 18,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Look for opportunities in technologies that enable efficient distillation to democratize AI capabilities.",
@@ -7669,7 +7692,7 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 319,
+      "last_mentioned_episode_id": 322,
       "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
@@ -7767,8 +7790,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-06-29",
-      "mention_count": 46,
+      "last_mentioned_date": "2026-06-30",
+      "mention_count": 47,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -7777,7 +7800,7 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 319,
+      "last_mentioned_episode_id": 322,
       "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
@@ -9161,6 +9184,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 337,
+      "title": "Grant Sanderson \u2013 AI and the future of math",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-06-30",
+      "summary": "The podcast discusses the rapid advancements of AI in mathematics and its implications for the field. AI's progress in solving mathematical problems, particularly in formal domains, is highlighted, with the International Math Olympiad serving as a benchmark for AI's capabilities. The future of mathematics is seen as involving AI as a tool for exploration, with human mathematicians focusing on curation and interpretation. Careers in mathematics education are expected to remain stable despite AI advancements, and the economic value of mathematical contributions is emphasized for students considering careers in the field.",
+      "key_takeaway": "Invest in AI-driven mathematical tools for exploration and conjecture generation, and consider careers in mathematics education for stability.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"TSLA\", \"AMZN\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 322,
+      "episode_release_date": "2026-06-30",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 332,
       "title": "Beyond P(doom): Marc Andreessen - Betting on America",
       "source_type": "podcast",
@@ -9244,26 +9287,6 @@ const dashboardData = {
       ]
     },
     {
-      "id": 329,
-      "title": "The next big breakthrough will be AIs learning on the job",
-      "source_type": "podcast",
-      "source_name": "Dwarkesh Podcast",
-      "source_date": "2026-06-26",
-      "summary": "This podcast episode delves into the current state and future prospects of artificial intelligence, with a focus on reinforcement learning (RL) and the pursuit of artificial general intelligence (AGI). The discussion highlights the importance of sample efficiency, the challenges of continuous learning, and innovative approaches such as on-policy self-distribution (OPSD) and simulation-based learning. The episode underscores the need for architectural innovations and the potential for AI to learn from real-world experiences more effectively, leading to broader capabilities beyond initial training.",
-      "key_takeaway": "Investing in companies and technologies that advance reinforcement learning and enhance AI's ability to learn from real-world interactions can lead to significant returns as these capabilities become more integral to various industries.",
-      "tickers_mentioned": "[\"GOOGL\", \"MSFT\", \"NVDA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-26",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 315,
-      "episode_release_date": "2026-06-26",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
       "id": 330,
       "title": "The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
       "source_type": "podcast",
@@ -9325,6 +9348,18 @@ const dashboardData = {
       "definition": "Large technology companies that provide cloud computing services and have the ability to scale resources rapidly.",
       "investment_implications": "Investors should be aware of the market power of hyperscalers in AI and their potential to influence innovation and competition.",
       "added_date": "2026-06-21",
+      "vote_count": 2,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 0
+    },
+    {
+      "id": 249,
+      "term": "AI Boom",
+      "definition": "A global phenomenon characterized by significant investments in artificial intelligence and data centers, drawing parallels to the pre-1873 financial boom.",
+      "investment_implications": "Investors should be cautious of potential over-investment and subsequent corrections in the AI sector.",
+      "added_date": "2026-06-30",
       "vote_count": 2,
       "display_on_main": 1,
       "archived_date": null,
@@ -9414,18 +9449,6 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "display_order": 0
-    },
-    {
-      "id": 226,
-      "term": "Secondary Market Transactions",
-      "definition": "The buying and selling of shares or other securities of private companies that are not listed on a public exchange.",
-      "investment_implications": "Secondary market transactions offer an alternative exit strategy and liquidity option for investors in private companies.",
-      "added_date": "2026-06-08",
-      "vote_count": 1,
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "display_order": 0
     }
   ],
   "overton": [
@@ -9434,8 +9457,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-06-29",
-      "mention_count": 46,
+      "last_mentioned_date": "2026-06-30",
+      "mention_count": 47,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -9444,16 +9467,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 319,
+      "last_mentioned_episode_id": 322,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "overton_score": 44.95,
+      "overton_score": 47.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Why the US Government Is Blocking Model Releases (GPT-5.6) | #267",
-      "last_mentioned_episode_date": "2026-06-29"
+      "last_mentioned_podcast": "Dwarkesh Podcast",
+      "last_mentioned_episode_title": "Grant Sanderson \u2013 AI and the future of math",
+      "last_mentioned_episode_date": "2026-06-30"
     },
     {
       "id": 10,
@@ -9532,6 +9555,32 @@ const dashboardData = {
       "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "last_mentioned_episode_title": "Socialists Sweep NYC, China Catches Up in Coding, AI Memory Crunch, Micron's Blowout Quarter",
       "last_mentioned_episode_date": "2026-06-26"
+    },
+    {
+      "id": 255,
+      "term": "AI Boom",
+      "description": "A global phenomenon characterized by significant investments in artificial intelligence and data centers, drawing parallels to the pre-1873 financial boom.",
+      "first_detected_date": "2026-06-29",
+      "last_mentioned_date": "2026-06-30",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should be cautious of potential over-investment and subsequent corrections in the AI sector.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 320,
+      "first_detected_speaker": "Leakwet Ahamed",
+      "last_mentioned_episode_id": 321,
+      "last_mentioned_speaker": "Matt Tenzig, Zachia",
+      "overton_score": 2.0,
+      "resonance_pct": 50,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
+      "first_detected_episode_date": "2026-06-29",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Building AI for Creators | Luma & Phota Labs",
+      "last_mentioned_episode_date": "2026-06-30"
     },
     {
       "id": 11,
@@ -9740,32 +9789,6 @@ const dashboardData = {
       "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "last_mentioned_episode_title": "Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner",
       "last_mentioned_episode_date": "2026-06-10"
-    },
-    {
-      "id": 232,
-      "term": "Secondary Market Transactions",
-      "description": "The buying and selling of shares or other securities of private companies that are not listed on a public exchange.",
-      "first_detected_date": "2026-06-07",
-      "last_mentioned_date": "2026-06-07",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Secondary market transactions offer an alternative exit strategy and liquidity option for investors in private companies.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 270,
-      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 270,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "overton_score": 0.59,
-      "resonance_pct": 15,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "Inside the Private Stock Market Boom: SpaceX, Anthropic, OpenAI & the Rise of Secondaries",
-      "first_detected_episode_date": "2026-06-07",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "Inside the Private Stock Market Boom: SpaceX, Anthropic, OpenAI & the Rise of Secondaries",
-      "last_mentioned_episode_date": "2026-06-07"
     }
   ]
 },
@@ -29732,61 +29755,132 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-06-30",
     "key_tickers": []
+  },
+  "337": {
+    "id": 327,
+    "insight_id": 337,
+    "podcast_episode_id": 322,
+    "overview": "The unresolved tension in the podcast revolves around the extent to which AI can replicate or even surpass human capabilities in mathematics. The competitive dynamic is between AI's growing prowess in formal problem-solving and the irreplaceable role of human intuition and creativity in mathematical exploration. The allocator-relevant implication is that while AI may automate certain mathematical tasks, the value of human mathematicians in generating new ideas and interpreting AI-generated insights remains paramount. The metric that arbitrates this uncertainty is the ability of AI to not only solve but also to innovate within the field of mathematics.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the development of AI in generating new mathematical conjectures as this could indicate a shift in the value chain of mathematical research.",
+      "Mathematics educators may need to adapt their teaching methods to integrate AI tools, focusing on critical thinking rather than just rote learning.",
+      "The stability of mathematics education careers suggests a defensive allocation strategy for investors looking for resilient sectors in the face of AI advancements.",
+      "Collaboration between mathematicians and AI specialists could lead to new breakthroughs, suggesting a potential for cross-disciplinary innovation.",
+      "Investors should consider the economic value of mathematical contributions in fields like engineering and material science, as AI advancements may unlock new applications."
+    ],
+    "investment_thesis": "The core logic is that AI's advancements in mathematics will lead to a redefinition of roles within the field, with human mathematicians focusing more on curation and interpretation of AI-generated insights. This shift will create opportunities for AI-driven tools in mathematical exploration and conjecture generation. The thesis is vindicated if AI continues to make strides in formal domains of mathematics and if there is a sustained demand for human mathematicians in education and interpretation roles. Conversely, it would be invalidated if AI fails to generate new mathematical insights or if the demand for human mathematicians in education declines significantly.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI research and development positions the company to leverage AI advancements in various fields, including mathematics, which could enhance its product offerings and services.",
+        "positioning": "Strategic long position, as Apple's continued innovation in AI is likely to drive growth in the long term.",
+        "risk": "Key risks include a slowdown in AI research progress and increased competition from other tech giants in leveraging AI for mathematical applications."
+      },
+      "GOOGL": {
+        "rationale": "Google's deep investments in AI research and its leadership in the field make it well-positioned to benefit from AI advancements in mathematics.",
+        "positioning": "Tactical long position, as Google's AI capabilities can provide short-term gains through its various services and products.",
+        "risk": "The risk lies in regulatory challenges to AI and potential backlash against data privacy concerns."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's AI initiatives, particularly in cloud computing and research, align with the growing importance of AI in mathematics.",
+        "positioning": "Strategic long position, as Microsoft's broad AI applications can benefit from advancements in mathematical problem-solving.",
+        "risk": "Risks include competition from other cloud providers and potential disruptions in the AI research landscape."
+      },
+      "TSLA": {
+        "rationale": "Tesla's reliance on AI for its autonomous driving technology could be enhanced by advancements in mathematical modeling and simulation.",
+        "positioning": "Tactical long position, as Tesla's AI capabilities are integral to its competitive advantage.",
+        "risk": "Key risks include technological setbacks in autonomous driving and increased competition in the electric vehicle market."
+      },
+      "AMZN": {
+        "rationale": "Amazon's use of AI in logistics and cloud services could be improved by advancements in mathematical optimization and data analysis.",
+        "positioning": "Strategic long position, as Amazon's AI applications are central to its business model.",
+        "risk": "Risks include increased regulatory scrutiny and potential disruptions in the supply chain due to external factors."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "AI may not be able to replicate the creative and intuitive aspects of human mathematicians, limiting its impact on the field.",
+      "The integration of AI in mathematics education could be slower than anticipated, due to resistance from traditional educational institutions.",
+      "The economic value of mathematical contributions may be overestimated, as not all mathematical advancements translate directly into practical applications."
+    ],
+    "catalysts": [
+      "Publications of new AI-generated mathematical conjectures or solutions to long-standing problems.",
+      "AI's performance in the International Math Olympiad or similar competitions.",
+      "Advancements in AI algorithms that significantly improve their ability to solve complex mathematical problems.",
+      "Policy changes or educational reforms that emphasize the integration of AI in mathematics education.",
+      "Breakthroughs in AI applications in fields closely related to mathematics, such as cryptography or quantum computing."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-06-30T13:37:20.129044",
+    "updated_at": "2026-06-30 18:37:20",
+    "episode_evidence": "The podcast underscores the remarkable strides AI has made in mathematics, particularly in structured domains such as algebra and number theory. The host mentions, 'AI's been making the fastest progress in mathematics as of any other field.' This progress is not just in solving problems but also in generating new conjectures and definitions, which could redefine the role of mathematicians. The guest elaborates on the varying difficulty of mathematical problems, noting that some areas are more amenable to AI solutions than others, as evidenced by the statement, 'AI's gotten better in general ways since then, but there won't be some aha moment when this happens.' This suggests a nuanced view of AI's capabilities, where it excels in specific tasks but does not possess a general human-like intelligence. The discussion also highlights the stability of careers in mathematics education, with the guest asserting, 'Teaching is one of the most stable post-AGI jobs that there is.'",
+    "falsification_tracks": [
+      "A significant decline in the number of AI publications or breakthroughs in formal domains of mathematics would challenge the narrative of rapid AI progress.",
+      "A rise in unemployment rates among mathematics educators or a decrease in demand for mathematics education would contradict the stability of teaching careers.",
+      "If AI fails to generate new conjectures or definitions in mathematics, it would indicate a limit to its exploratory capabilities in the field."
+    ],
+    "insight_title": "Grant Sanderson \u2013 AI and the future of math",
+    "source_name": "Dwarkesh Podcast",
+    "source_date": "2026-06-30",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
   {
-    "id": 469,
-    "term": "Monetary Missteps of 1873",
-    "definition": "The transition from a bi-metallic standard to a gold standard, which led to liquidity contraction and a financial crisis.",
-    "investment_implications": "Investors should monitor central bank policies for abrupt changes in monetary systems that could impact market liquidity.",
+    "id": 470,
+    "term": "AI's Role in Mathematics",
+    "definition": "AI's advancements in solving mathematical problems, particularly in formal domains, may redefine the landscape of mathematics, shifting the focus from traditional theorem proving to exploration and conjecture generation.",
+    "investment_implications": "Investors should explore AI tools for mathematical problem-solving and conjecture generation to stay ahead in the field.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-30 04:37:38",
+    "submitted_date": "2026-06-30 18:36:48",
     "priority_score": 80
   },
   {
-    "id": 466,
-    "term": "AI Distillation",
-    "definition": "The process of extracting the knowledge from one AI model and using it to train another, smaller model, potentially leading to intellectual property theft.",
-    "investment_implications": "Investors should be cautious about companies' exposure to AI model distillation risks and evaluate their IP protection strategies.",
+    "id": 471,
+    "term": "Benchmarking AI Capabilities",
+    "definition": "The International Math Olympiad serves as a benchmark for evaluating AI's mathematical capabilities, but success in this domain does not imply general intelligence.",
+    "investment_implications": "Understanding the limitations of AI in mathematics can help set realistic expectations for its applications in other fields.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-30 04:36:53",
+    "submitted_date": "2026-06-30 18:36:48",
     "priority_score": 80
   },
   {
-    "id": 467,
-    "term": "Quantum Computing Investments",
-    "definition": "Significant financial investments made by governments or corporations to develop quantum computing technology, which has the potential to revolutionize various industries.",
-    "investment_implications": "Investors should consider opportunities in quantum computing as it may offer substantial returns due to its transformative potential.",
+    "id": 472,
+    "term": "The Future of Mathematical Careers",
+    "definition": "Careers in mathematics, particularly in teaching and education, are likely to remain stable despite advancements in AI.",
+    "investment_implications": "Students should consider pursuing careers in mathematics education, as these roles will continue to be valuable in a future dominated by AI.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-30 04:36:53",
+    "submitted_date": "2026-06-30 18:36:48",
     "priority_score": 80
   },
   {
-    "id": 464,
-    "term": "Blue Sectors",
-    "definition": "Economic sectors experiencing rapid productivity growth and technological advancement.",
-    "investment_implications": "Investors should focus on blue sectors for potential high growth and innovation.",
+    "id": 473,
+    "term": "Economic Value of Mathematics",
+    "definition": "Understanding where the economic value of mathematics lies is crucial for students considering a career in the field.",
+    "investment_implications": "Aspiring mathematicians should seek to understand the economic landscape of their field and identify where their skills can add value.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-06-29 17:03:35",
+    "submitted_date": "2026-06-30 18:36:48",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 23653,
+    "id": 23738,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -29798,7 +29892,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23654,
+    "id": 23739,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -29810,7 +29904,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23655,
+    "id": 23740,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -29822,7 +29916,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23656,
+    "id": 23741,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -29834,7 +29928,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23657,
+    "id": 23742,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -29846,7 +29940,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23658,
+    "id": 23743,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -29858,7 +29952,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23659,
+    "id": 23744,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -29870,7 +29964,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23660,
+    "id": 23745,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -29882,7 +29976,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23661,
+    "id": 23746,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -29894,7 +29988,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 23662,
+    "id": 23747,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -29906,7 +30000,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23663,
+    "id": 23748,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -29918,7 +30012,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23664,
+    "id": 23749,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -29930,7 +30024,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23665,
+    "id": 23750,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -29942,7 +30036,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23666,
+    "id": 23751,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -29954,7 +30048,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23667,
+    "id": 23752,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -29966,7 +30060,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23668,
+    "id": 23753,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -29978,7 +30072,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23669,
+    "id": 23754,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -29990,7 +30084,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23670,
+    "id": 23755,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -30002,7 +30096,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23671,
+    "id": 23756,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -30014,7 +30108,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 23672,
+    "id": 23757,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -30355,7 +30449,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 1.12,
+    "mention_score_decayed": 1.1,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -30493,7 +30587,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.0,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -30681,7 +30775,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -31555,7 +31649,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -31619,7 +31713,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -31745,7 +31839,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-23 \u2022 What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
     "last_proof_snippet": "Right now AI has been so much about productivity, job replacement, work replacement and I think we have a moment to shift that, which is how does these new tools help you get more out of your own day and your own life and the things you wan",
@@ -32422,7 +32516,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -32612,7 +32706,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-15 \u2022 AI, Design, and the Power of Open Models",
     "last_proof_snippet": "It's not about how good a model is in the general sense. It's about how good is this model for my use case, for a lot of design and marketing use case says they need editable design, not a single flat image. It's super impressive, honestly,",
@@ -32796,7 +32890,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -32864,7 +32958,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -32991,7 +33085,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -33055,7 +33149,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -33249,7 +33343,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -33336,7 +33430,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -33461,7 +33555,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -33962,7 +34056,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -34272,7 +34366,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -34336,7 +34430,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -34399,7 +34493,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -35712,7 +35806,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -39526,7 +39620,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -39585,7 +39679,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
