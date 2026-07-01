@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-01T12:07:02.641445",
-  chartsVersion: "2026-07-01T12:06:37.665141",
+  generatedAt: "2026-07-01T13:40:27.139192",
+  chartsVersion: "2026-07-01T13:40:13.002488",
   priceSnapshot: {
   "GOOGL": {
-    "price": 359.2,
-    "change_pct": 0.4,
+    "price": 359.92,
+    "change_pct": 0.6,
     "name": "GOOGL",
-    "updated_at": "2026-07-01T12:06:37.663684"
+    "updated_at": "2026-07-01T13:40:13.001995"
   },
   "BTC": {
-    "price": 59731.5,
-    "change_pct": -5.03,
+    "price": 60161.52,
+    "change_pct": -4.35,
     "name": "BTC",
-    "updated_at": "2026-07-01T12:06:37.663710"
+    "updated_at": "2026-07-01T13:40:13.002006"
   },
   "MSFT": {
-    "price": 386.25,
-    "change_pct": -1.05,
+    "price": 388.18,
+    "change_pct": -0.55,
     "name": "MSFT",
-    "updated_at": "2026-07-01T12:06:37.663723"
+    "updated_at": "2026-07-01T13:40:13.002010"
   },
   "NVDA": {
-    "price": 196.99,
-    "change_pct": -3.85,
+    "price": 198.43,
+    "change_pct": -3.14,
     "name": "NVDA",
-    "updated_at": "2026-07-01T12:06:37.663735"
+    "updated_at": "2026-07-01T13:40:13.002014"
   },
   "AMZN": {
-    "price": 242.96,
-    "change_pct": 0.6,
+    "price": 244.11,
+    "change_pct": 1.08,
     "name": "AMZN",
-    "updated_at": "2026-07-01T12:06:37.663746"
+    "updated_at": "2026-07-01T13:40:13.002017"
   },
   "TSLA": {
-    "price": 425.74,
-    "change_pct": 6.66,
+    "price": 423.86,
+    "change_pct": 6.19,
     "name": "TSLA",
-    "updated_at": "2026-07-01T12:06:37.663756"
+    "updated_at": "2026-07-01T13:40:13.002020"
   },
   "WTI": {
-    "price": 3.09,
-    "change_pct": -24.88,
+    "price": 3.1,
+    "change_pct": -24.7,
     "name": "WTI",
-    "updated_at": "2026-07-01T12:06:37.663769"
+    "updated_at": "2026-07-01T13:40:13.002024"
   },
   "META": {
-    "price": 618.04,
-    "change_pct": 8.83,
+    "price": 619.92,
+    "change_pct": 9.16,
     "name": "META",
-    "updated_at": "2026-07-01T12:06:37.663779"
+    "updated_at": "2026-07-01T13:40:13.002027"
   },
   "S&P 500": {
-    "price": 747.09,
-    "change_pct": 1.53,
+    "price": 747.26,
+    "change_pct": 1.55,
     "name": "S&P 500",
-    "updated_at": "2026-07-01T12:06:37.663790"
+    "updated_at": "2026-07-01T13:40:13.002030"
   },
   "AAPL": {
-    "price": 293.96,
-    "change_pct": -0.56,
+    "price": 294.95,
+    "change_pct": -0.23,
     "name": "AAPL",
-    "updated_at": "2026-07-01T12:06:37.663801"
+    "updated_at": "2026-07-01T13:40:13.002033"
   },
   "QQQ": {
-    "price": 727.14,
-    "change_pct": 1.51,
+    "price": 726.98,
+    "change_pct": 1.49,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-01T12:06:37.663812"
+    "updated_at": "2026-07-01T13:40:13.002036"
   },
   "BTC-USD": {
-    "price": 59731.5,
-    "change_pct": -5.03,
+    "price": 60161.52,
+    "change_pct": -4.35,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-01T12:06:37.663825"
+    "updated_at": "2026-07-01T13:40:13.002040"
   }
 },
   tickerScores: [
@@ -853,6 +853,25 @@ const dashboardData = {
       "podcast_episode_id": 324
     },
     {
+      "id": 340,
+      "title": "\ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-07-01",
+      "summary": "In this episode, the focus is on Genesis Molecular AI's innovative approach to drug discovery using AI, specifically their model named Pearl. Pearl stands out for its high-resolution predictions in protein-ligand interactions, which is crucial for effective drug design. The company's partnership with Insight aims to streamline the drug discovery process through a feedback loop of AI predictions and experimental validation. The discussion highlights the importance of accuracy in AI models for drug discovery and the shift in pharmaceutical companies' approach to leveraging AI tools.",
+      "key_takeaway": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 325
+    },
+    {
       "id": 336,
       "title": "Building AI for Creators | Luma & Phota Labs",
       "source_type": "podcast",
@@ -929,7 +948,7 @@ const dashboardData = {
         "AMZN"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-29",
       "archived_date": null,
@@ -7365,7 +7384,7 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Authentic communication can build trust and relatability with audiences, which are essential for brand loyalty and market differentiation.",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 301,
@@ -9240,6 +9259,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 340,
+      "title": "\ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-07-01",
+      "summary": "In this episode, the focus is on Genesis Molecular AI's innovative approach to drug discovery using AI, specifically their model named Pearl. Pearl stands out for its high-resolution predictions in protein-ligand interactions, which is crucial for effective drug design. The company's partnership with Insight aims to streamline the drug discovery process through a feedback loop of AI predictions and experimental validation. The discussion highlights the importance of accuracy in AI models for drug discovery and the shift in pharmaceutical companies' approach to leveraging AI tools.",
+      "key_takeaway": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 325,
+      "episode_release_date": "2026-07-01",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 336,
       "title": "Building AI for Creators | Luma & Phota Labs",
       "source_type": "podcast",
@@ -9297,26 +9336,6 @@ const dashboardData = {
       "podcast_episode_id": 323,
       "episode_release_date": "2026-06-30",
       "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 332,
-      "title": "Beyond P(doom): Marc Andreessen - Betting on America",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-06-29",
-      "summary": "In this episode, Mark Andreessen discusses the transformative potential of AI and its implications for the economy. He emphasizes AI's ability to democratize intelligence but warns of the bifurcation of the economy into rapidly growing 'blue sectors' and stagnating 'red sectors'. Andreessen highlights the challenges posed by regulatory constraints, supply chain bottlenecks, and the need for public sector reform to fully capitalize on AI advancements. The conversation also touches on the U.S.-China competition in AI and the prospects for a re-industrialization movement in the U.S.",
-      "key_takeaway": "Invest in AI-driven blue sectors to capitalize on rapid productivity growth, while advocating for regulatory reforms and public sector modernization to overcome constraints on AI's transformative potential.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"TSLA\", \"MSFT\", \"AMZN\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-29",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 317,
-      "episode_release_date": "2026-06-29",
-      "guest_name": "Beyond P(doom)",
       "key_tickers": []
     },
     {
@@ -9421,6 +9440,18 @@ const dashboardData = {
       "display_order": 0
     },
     {
+      "id": 250,
+      "term": "Authenticity",
+      "definition": "The quality of being true to one's own personality, experiences, and beliefs, rather than presenting a rehearsed or insincere image.",
+      "investment_implications": "Authentic communication can build trust and relatability with audiences, which are essential for brand loyalty and market differentiation.",
+      "added_date": "2026-07-01",
+      "vote_count": 2,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 0
+    },
+    {
       "id": 43,
       "term": "Recursive Self-Improvement (RSI)",
       "definition": "The ability of AI systems to improve their own algorithms and learning processes, leading to rapid advancements.",
@@ -9485,18 +9516,6 @@ const dashboardData = {
       "term": "AI-native computing",
       "definition": "The integration of AI processing capabilities into computing devices, allowing for more efficient and cost-effective AI usage.",
       "investment_implications": "Investors should consider companies pioneering AI-native computing for potential growth opportunities.",
-      "added_date": "2026-06-03",
-      "vote_count": 1,
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "display_order": 0
-    },
-    {
-      "id": 214,
-      "term": "Local processing",
-      "definition": "The processing of data on local devices rather than in the cloud, reducing costs and potentially improving performance.",
-      "investment_implications": "Investors should evaluate companies that optimize for local processing to enhance user experience and reduce operational costs.",
       "added_date": "2026-06-03",
       "vote_count": 1,
       "display_on_main": 1,
@@ -9609,6 +9628,32 @@ const dashboardData = {
       "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "last_mentioned_episode_title": "Socialists Sweep NYC, China Catches Up in Coding, AI Memory Crunch, Micron's Blowout Quarter",
       "last_mentioned_episode_date": "2026-06-26"
+    },
+    {
+      "id": 256,
+      "term": "Authenticity",
+      "description": "The quality of being true to one's own personality, experiences, and beliefs, rather than presenting a rehearsed or insincere image.",
+      "first_detected_date": "2026-06-19",
+      "last_mentioned_date": "2026-07-01",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Authentic communication can build trust and relatability with audiences, which are essential for brand loyalty and market differentiation.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 301,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 324,
+      "last_mentioned_speaker": "Rick Rubin",
+      "overton_score": 2.0,
+      "resonance_pct": 50,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
+      "first_detected_episode_date": "2026-06-19",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Rick Rubin on AI, Creativity, and The Way of Code",
+      "last_mentioned_episode_date": "2026-07-01"
     },
     {
       "id": 255,
@@ -9817,32 +9862,6 @@ const dashboardData = {
       "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "last_mentioned_episode_title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
       "last_mentioned_episode_date": "2026-06-12"
-    },
-    {
-      "id": 243,
-      "term": "K-shaped recovery",
-      "description": "An economic recovery where wealth concentration increases, benefiting the wealthy while leaving the bottom half of the population behind.",
-      "first_detected_date": "2026-06-10",
-      "last_mentioned_date": "2026-06-10",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the impact of wealth disparity on consumer spending and economic growth.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 279,
-      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 279,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "overton_score": 0.62,
-      "resonance_pct": 16,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner",
-      "first_detected_episode_date": "2026-06-10",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner",
-      "last_mentioned_episode_date": "2026-06-10"
     }
   ]
 },
@@ -29982,9 +30001,95 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-07-01",
     "key_tickers": []
+  },
+  "340": {
+    "id": 330,
+    "insight_id": 340,
+    "podcast_episode_id": 325,
+    "overview": "The competitive dynamic in drug discovery is shifting towards AI-driven solutions, with Genesis Molecular AI's Pearl model at the forefront. The model's ability to predict dynamic protein-ligand interactions with high accuracy presents a significant advantage over traditional methods. The unresolved tension lies in the scalability and integration of such AI models within the pharmaceutical industry, which is beginning to embrace off-the-shelf AI tools. The metric that arbitrates this uncertainty is the speed and success rate of drug discovery processes using AI, with the horizon of proof being the time to market for new drugs.",
+    "key_takeaways_detailed": [
+      "Investors should track the performance of AI models like Pearl in benchmarks to gauge their potential impact on drug discovery efficiency.",
+      "Monitor partnerships between AI firms and pharmaceutical companies for the establishment of effective feedback loops that can accelerate drug development.",
+      "Keep an eye on the adoption rate of AI tools by pharmaceutical companies, as this could indicate a shift in the industry's approach to drug discovery.",
+      "Consider the potential for AI-driven drug discovery to disrupt traditional high-throughput screening methods, offering a more accurate and efficient alternative.",
+      "Assess the talent acquisition strategies of AI-driven drug discovery companies, as top talent can be a key differentiator in the development of advanced AI models."
+    ],
+    "investment_thesis": "The investment thesis is that AI-driven drug discovery companies, like Genesis Molecular AI, will disrupt the pharmaceutical industry by offering more efficient and accurate drug development processes. This thesis is vindicated if Pearl continues to outperform in benchmarks and if the feedback loop with experimental data leads to a significant acceleration in drug discovery. Conversely, it would be invalidated if AI models fail to deliver on their promises of high accuracy and if the pharmaceutical industry reverts to traditional methods.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI and machine learning could position the company to benefit from advancements in AI-driven drug discovery, potentially through partnerships or acquisitions.",
+        "positioning": "Strategic long position, as Apple's AI capabilities could be leveraged in the healthcare sector, particularly in drug discovery.",
+        "risk": "Key risks include Apple's ability to successfully integrate AI into drug discovery and the competitive landscape of AI in healthcare."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The pharmaceutical industry may resist the shift towards AI-driven drug discovery, preferring to stick with traditional methods.",
+      "AI models may face regulatory hurdles that slow down their integration into drug discovery processes.",
+      "There could be ethical concerns regarding the use of AI in drug discovery, potentially slowing adoption."
+    ],
+    "catalysts": [
+      "Publication of new benchmarking results that compare the performance of AI models like Pearl to existing models.",
+      "Announcements of new partnerships between AI firms and pharmaceutical companies aimed at drug discovery.",
+      "Regulatory approvals or rejections that impact the use of AI in drug discovery.",
+      "Publications of peer-reviewed studies on the efficacy of high-throughput screening and the impact of AI integration."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-01T13:39:25.899539",
+    "updated_at": "2026-07-01 18:39:25",
+    "episode_evidence": "Genesis Molecular AI's Pearl model is a significant advancement in AI-driven drug discovery, as it provides high-resolution predictions of protein-ligand interactions. Pearl's architecture is designed to handle dynamic targets, which is crucial for accurately modeling the flexible protein structures during ligand binding, as highlighted by the guest: 'Pearl was exceptionally good at figuring out how to move this loop and they basically corrected for every single pose.' This capability is essential for drug discovery, as it allows for the modeling of interactions that traditional methods might miss. The model's performance is also noteworthy, as it outperforms existing models in recent benchmarks, a claim that can be verified through benchmarking reports from the Open Bind challenge. Furthermore, the partnership with Insight aims to create a rapid feedback loop, integrating AI predictions with experimental validation, which is critical for continuous model improvement: 'We wanted to have design, make, test, analyze cycles that are as rapid as possible.'",
+    "falsification_tracks": [
+      "If Pearl's performance in future benchmarks does not meet or exceed the performance of existing models, the thesis of its superiority is weakened.",
+      "Should the feedback loop between AI predictions and experimental validation fail to produce a significant acceleration in drug discovery, the efficiency claims would be challenged.",
+      "A high false positive rate in high-throughput screening that is not improved by AI integration would undermine the argument for AI's role in enhancing drug discovery."
+    ],
+    "insight_title": "\ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+    "source_name": "Latent Space: The AI Engineer Podcast",
+    "source_date": "2026-07-01",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 479,
+    "term": "Pearl Model",
+    "definition": "A 3D structure prediction model developed by Genesis Molecular AI that integrates protein sequences and ligand representations to predict binding interactions.",
+    "investment_implications": "The Pearl Model's ability to predict dynamic protein-ligand interactions with high accuracy is a significant advancement in drug discovery, potentially leading to more efficient and effective drug development.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-01 18:38:33",
+    "priority_score": 80
+  },
+  {
+    "id": 480,
+    "term": "High-Resolution Predictions",
+    "definition": "Achieving predictions within one angstrom accuracy for effective drug design, as small deviations can lead to incorrect binding predictions.",
+    "investment_implications": "Companies that can provide high-resolution modeling capabilities in drug discovery are likely to reduce development risks and save resources.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-01 18:38:33",
+    "priority_score": 80
+  },
+  {
+    "id": 481,
+    "term": "Feedback Loop Between AI and Experimental Data",
+    "definition": "The integration of AI predictions with experimental results to create a continuous feedback loop that enhances model accuracy and drug discovery outcomes.",
+    "investment_implications": "Investments in AI-driven drug discovery platforms that incorporate experimental data can lead to rapid improvements in drug candidate development.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-01 18:38:33",
+    "priority_score": 80
+  },
   {
     "id": 477,
     "term": "Vibe Coding",
@@ -29996,47 +30101,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-01 17:05:05",
     "priority_score": 80
-  },
-  {
-    "id": 478,
-    "term": "Collective Unconscious",
-    "definition": "A concept suggesting that shared cultural experiences can lead to collective breakthroughs in creativity, influencing the work of artists and entrepreneurs.",
-    "investment_implications": "Investing in cultural trends and platforms that tap into collective experiences can lead to innovative and impactful creative outputs.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-01 17:05:05",
-    "priority_score": 80
-  },
-  {
-    "id": 474,
-    "term": "Price-to-Sales Ratio",
-    "definition": "A financial metric used to compare a company's stock price to its revenues, indicating the price investors are paying for each dollar of a company's sales.",
-    "investment_implications": "A high price-to-sales ratio can signal overvaluation, suggesting caution for investors.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-01 03:04:12",
-    "priority_score": 80
-  },
-  {
-    "id": 475,
-    "term": "Schiller Cape Ratio",
-    "definition": "A valuation measure used to assess the overvaluation or undervaluation of the broad stock market, calculated by comparing the cyclically adjusted price-to-earnings ratio to its historical average.",
-    "investment_implications": "A high Schiller Cape ratio may indicate that equities are overvalued, suggesting caution in investment decisions.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-01 03:04:12",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 24163,
+    "id": 24248,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -30048,7 +30117,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24164,
+    "id": 24249,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -30060,7 +30129,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24165,
+    "id": 24250,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -30072,7 +30141,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24166,
+    "id": 24251,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -30084,7 +30153,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24167,
+    "id": 24252,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -30096,7 +30165,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24168,
+    "id": 24253,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -30108,7 +30177,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24169,
+    "id": 24254,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -30120,7 +30189,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24170,
+    "id": 24255,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -30132,7 +30201,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24171,
+    "id": 24256,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -30144,7 +30213,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 24172,
+    "id": 24257,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -30156,7 +30225,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24173,
+    "id": 24258,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -30168,7 +30237,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24174,
+    "id": 24259,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -30180,7 +30249,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24175,
+    "id": 24260,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -30192,7 +30261,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24176,
+    "id": 24261,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -30204,7 +30273,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24177,
+    "id": 24262,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -30216,7 +30285,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24178,
+    "id": 24263,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -30228,7 +30297,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24179,
+    "id": 24264,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -30240,7 +30309,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24180,
+    "id": 24265,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -30252,7 +30321,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24181,
+    "id": 24266,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -30264,7 +30333,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24182,
+    "id": 24267,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -30605,7 +30674,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 1.1,
+    "mention_score_decayed": 1.07,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -30743,7 +30812,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -30931,7 +31000,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -31537,6 +31606,127 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 316,
+    "name": "Evan Feinberg",
+    "slug": "evan-feinberg",
+    "bio": "Evan Feinberg is the co-founder and CEO of Genesis Molecular AI, a company that specializes in leveraging artificial intelligence for drug discovery. He has been a key figure in the development of the Pearl model, which is used for high-resolution drug discovery. Feinberg's work is at the forefront of AI research in the pharmaceutical industry.",
+    "known_for": "Developing the Pearl model for high-resolution drug discovery and pioneering the use of diffusion models in protein structure prediction.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and visionary.",
+    "voice_style": "Factual and solution-oriented.",
+    "voice_delivery_notes": "Clear and concise with a focus on the transformative potential of AI in drug discovery.",
+    "voice_profile_updated_at": "2026-07-01 18:38:33",
+    "last_seen": "2026-07-01 18:38:33",
+    "last_episode_title": "\ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-07-01",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+    "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
+    "supporting_takeaway": "Seek partnerships between AI firms and pharmaceutical companies that facilitate rapid feedback loops in drug development.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-01T13:38:45.940645",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Evan Feinberg",
+      "fetched_at": "2026-07-01T18:38:45.940291+00:00",
+      "cliff_notes": "Evan Feinberg is a prominent figure in the field of artificial intelligence, particularly in the application of AI to drug discovery. As the co-founder and CEO of Genesis Molecular AI, he has been instrumental in developing the Pearl model, which is used for high-resolution drug discovery. Feinberg's work has been pivotal in advancing the use of AI in pharmaceuticals, with a focus on generative adversarial networks and diffusion models. His insights have been influential in recognizing the potential of diffusion as a more useful primitive for protein structure prediction, a field where some of the most innovative diffusion research is currently happening. Feinberg's contributions to the intersection of AI and drug discovery have made him a significant player in the industry.",
+      "derived": {
+        "current_role": "Co-founder and CEO of Genesis Molecular AI"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Evan Feinberg is a prominent figure in the field of artificial intelligence, particularly in the application of AI to drug discovery. As the co-founder and CEO of Genesis Molecular AI, he has been instrumental in developing the Pearl model, which is used for high-resolution drug discovery. Feinberg's work has been pivotal in advancing the use of AI in pharmaceuticals, with a focus on generative adversarial networks and diffusion models.",
+        "His insights have been influential in recognizing the potential of diffusion as a more useful primitive for protein structure prediction, a field where some of the most innovative diffusion research is currently happening. Feinberg's contributions to the intersection of AI and drug discovery have made him a significant player in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Drug Discovery",
+          "body": "Evan Feinberg has been a leader in the application of AI to drug discovery, particularly through the development of the Pearl model which enables high-resolution drug discovery."
+        },
+        {
+          "heading": "Diffusion Models",
+          "body": "Feinberg recognized the limitations of generative adversarial networks in protein systems and shifted focus to diffusion models, which have proven more effective for protein structure prediction."
+        },
+        {
+          "heading": "Innovation in Pharmaceutical Industry",
+          "body": "His work at Genesis Molecular AI has positioned the company at the forefront of AI-driven drug discovery, contributing to the advancement of the pharmaceutical industry."
+        }
+      ]
+    }
+  },
+  {
+    "id": 317,
+    "name": "Sergey Yuternoff",
+    "slug": "sergey-yuternoff",
+    "bio": "Sergey Yuternoff is a computational biologist and the Chief Science Officer at Genesis Molecular AI. He has contributed significantly to the development and application of the Pearl model, a generative model used in protein structure prediction. With a background in physics, Yuternoff has transitioned from software engineering to leading pre-training efforts in AI for molecular biology.",
+    "known_for": "His work in advancing the Pearl model and its application in protein structure prediction, which is pivotal for drug discovery and molecular biology.",
+    "net_worth_usd": 600000000.0,
+    "net_worth_source": "https://coingape.com/education/sergey-nazarov/",
+    "net_worth_updated_at": "2026-07-01T13:38:57.308639",
+    "voice_tone": "Knowledgeable and analytical.",
+    "voice_style": "Technical and detailed.",
+    "voice_delivery_notes": "Explains complex concepts with precision and clarity.",
+    "voice_profile_updated_at": "2026-07-01 18:38:33",
+    "last_seen": "2026-07-01 18:38:33",
+    "last_episode_title": "\ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-07-01",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+    "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
+    "supporting_takeaway": "Seek partnerships between AI firms and pharmaceutical companies that facilitate rapid feedback loops in drug development.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-01T13:38:56.323455",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sergey Yuternoff",
+      "fetched_at": "2026-07-01T18:38:56.323308+00:00",
+      "cliff_notes": "Sergey Yuternoff began his career in physics but transitioned into software engineering post-graduation. His expertise in computational biology led him to contribute to the development of the Pearl model, a generative model instrumental in protein structure prediction. Yuternoff's work is significant in the field of AI for science, particularly in the area of molecular biology, where his leadership in pre-training efforts like Lama II and Lama III has been influential. As the Chief Science Officer at Genesis Molecular AI, he continues to push the boundaries of AI applications in molecular research.",
+      "derived": {
+        "current_role": "Chief Science Officer at Genesis Molecular AI",
+        "former_positions": "Lama II and Lama III pre-training lead",
+        "education": "Physics"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Sergey Yuternoff began his career in physics but transitioned into software engineering post-graduation. His expertise in computational biology led him to contribute to the development of the Pearl model, a generative model instrumental in protein structure prediction. Yuternoff's work is significant in the field of AI for science, particularly in the area of molecular biology, where his leadership in pre-training efforts like Lama II and Lama III has been influential.",
+        "As the Chief Science Officer at Genesis Molecular AI, he continues to push the boundaries of AI applications in molecular research."
+      ],
+      "sections": [
+        {
+          "heading": "Protein Structure Prediction",
+          "body": "Sergey Yuternoff has been instrumental in the advancement of the Pearl model, which is used for protein structure prediction. This work is crucial for understanding protein functions and has significant implications for drug discovery."
+        },
+        {
+          "heading": "AI in Molecular Biology",
+          "body": "Yuturnoff's leadership in AI for molecular biology has been pivotal, particularly in the development and application of generative models like the Pearl model, which are now being used to predict protein structures with high accuracy."
+        },
+        {
+          "heading": "Generative Adversarial Networks",
+          "body": "In the past, Yuternoff discussed the limitations of generative adversarial networks for proteins and protein-like systems, advocating for the use of diffusion as a more effective primitive for the field."
+        }
+      ]
+    },
+    "net_worth": "$600.0M"
+  },
+  {
     "id": 315,
     "name": "Rick Rubin",
     "slug": "rick-rubin",
@@ -31742,7 +31932,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in companies at the forefront of AI and satellite data integration for real-world applications, while monitoring global AI competition and regulatory changes.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-26 \u2022 The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
     "last_proof_snippet": "Today, plan is a $10 billion company. You've coined the term large earth models. What does that mean? It, like, Google index the internet to make it searchable, we're indexing the earth to make it searchable. It will finally enable us to be",
@@ -31866,7 +32056,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -31930,7 +32120,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -32056,7 +32246,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-23 \u2022 What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
     "last_proof_snippet": "Right now AI has been so much about productivity, job replacement, work replacement and I think we have a moment to shift that, which is how does these new tools help you get more out of your own day and your own life and the things you wan",
@@ -32673,7 +32863,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in companies that can integrate AI into their operations and leverage Microsoft's ecosystem for competitive advantage, focusing on data management capabilities and adaptability to new pricing models.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
     "last_proof_snippet": "Please welcome Swicks, Saragawa, Alad Gill and Chairman and Chief Executive Officer of Microsoft, Sartina Della. I'm so excited to be here. Welcome to a crossover episode of NoPriors and Lanesvists with Sartina Della. Congratulations on an",
@@ -32923,7 +33113,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-15 \u2022 AI, Design, and the Power of Open Models",
     "last_proof_snippet": "It's not about how good a model is in the general sense. It's about how good is this model for my use case, for a lot of design and marketing use case says they need editable design, not a single flat image. It's super impressive, honestly,",
@@ -33107,7 +33297,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -33175,7 +33365,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -33243,7 +33433,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-10 \u2022 America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. There's a very, very large player in global finance that almost no one knows about. The development finance corporation, it just had its reautho",
@@ -33366,7 +33556,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -33560,7 +33750,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -33647,7 +33837,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -33966,7 +34156,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-03 \u2022 Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
     "last_proof_snippet": "One of the most provocative and interesting investors in the country. A legendary activist investor. Pershing square CEO and founder Bill Acling. Taking a short position and going public with it is a pretty serious business. Interestingly,",
@@ -34031,7 +34221,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-02 \u2022 OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
     "last_proof_snippet": "Open AI's CFO, Sarah Fryer. We've got to get right to it. You have just completed what I would find as the most successful fund-raising rail in history. We're going to raise actually north of $120 billion. We think AI is the biggest era tha",
@@ -34273,7 +34463,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -34583,7 +34773,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -34647,7 +34837,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -34710,7 +34900,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -35772,7 +35962,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -35835,7 +36025,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -36023,7 +36213,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",

@@ -20,6 +20,25 @@
       "podcast_episode_id": 324
     },
     {
+      "id": 340,
+      "title": "\ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-07-01",
+      "summary": "In this episode, the focus is on Genesis Molecular AI's innovative approach to drug discovery using AI, specifically their model named Pearl. Pearl stands out for its high-resolution predictions in protein-ligand interactions, which is crucial for effective drug design. The company's partnership with Insight aims to streamline the drug discovery process through a feedback loop of AI predictions and experimental validation. The discussion highlights the importance of accuracy in AI models for drug discovery and the shift in pharmaceutical companies' approach to leveraging AI tools.",
+      "key_takeaway": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 325
+    },
+    {
       "id": 336,
       "title": "Building AI for Creators | Luma & Phota Labs",
       "source_type": "podcast",
@@ -96,7 +115,7 @@
         "AMZN"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-29",
       "archived_date": null,
@@ -6532,7 +6551,7 @@
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Authentic communication can build trust and relatability with audiences, which are essential for brand loyalty and market differentiation.",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 301,

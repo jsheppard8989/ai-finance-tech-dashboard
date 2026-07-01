@@ -1,5 +1,20 @@
 [
   {
+    "id": 325,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "\ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+    "episode_date": "2026-07-01",
+    "summary": "In this episode, the focus is on Genesis Molecular AI's innovative approach to drug discovery using AI, specifically their model named Pearl. Pearl stands out for its high-resolution predictions in protein-ligand interactions, which is crucial for effective drug design. The company's partnership with Insight aims to streamline the drug discovery process through a feedback loop of AI predictions and experimental validation. The discussion highlights the importance of accuracy in AI models for drug discovery and the shift in pharmaceutical companies' approach to leveraging AI tools.",
+    "key_takeaways": [
+      "Invest in companies developing advanced AI models for drug discovery, focusing on high-resolution predictions.",
+      "Seek partnerships between AI firms and pharmaceutical companies that facilitate rapid feedback loops in drug development.",
+      "Monitor the evolving landscape of AI in pharma, particularly the shift towards purchasing AI tools rather than developing them in-house.",
+      "Encourage collaboration between AI researchers and experimental scientists to enhance the effectiveness of drug discovery processes."
+    ],
+    "investment_thesis": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
+    "key_tickers": null
+  },
+  {
     "id": 324,
     "podcast_name": "The a16z Show",
     "episode_title": "Rick Rubin on AI, Creativity, and The Way of Code",
@@ -116,24 +131,6 @@
       "Predictions for the midterms suggest a strong likelihood of Democratic control in the House and a competitive Senate landscape, influenced by economic conditions and voter sentiment."
     ],
     "investment_thesis": "Invest in organizations that demonstrate strong leadership and a track record of success, and prepare for potential policy shifts based on midterm election outcomes.",
-    "key_tickers": null
-  },
-  {
-    "id": 317,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Beyond P(doom): Marc Andreessen - Betting on America",
-    "episode_date": "2026-06-29",
-    "summary": "In this episode, Mark Andreessen discusses the transformative potential of AI and its implications for the economy. He emphasizes AI's ability to democratize intelligence but warns of the bifurcation of the economy into rapidly growing 'blue sectors' and stagnating 'red sectors'. Andreessen highlights the challenges posed by regulatory constraints, supply chain bottlenecks, and the need for public sector reform to fully capitalize on AI advancements. The conversation also touches on the U.S.-China competition in AI and the prospects for a re-industrialization movement in the U.S.",
-    "key_takeaways": [
-      "Invest in companies that enhance AI accessibility and education.",
-      "Focus on blue sector investments while being cautious with red sector exposure.",
-      "Advocate for regulatory reforms that facilitate AI integration.",
-      "Monitor supply chain developments and invest in companies addressing bottlenecks.",
-      "Support initiatives aimed at modernizing government functions.",
-      "Explore investment opportunities in AI tools for policy evaluation.",
-      "Look for startups in the re-industrialization movement, particularly in defense and manufacturing."
-    ],
-    "investment_thesis": "Invest in AI-driven blue sectors to capitalize on rapid productivity growth, while advocating for regulatory reforms and public sector modernization to overcome constraints on AI's transformative potential.",
     "key_tickers": null
   }
 ]
