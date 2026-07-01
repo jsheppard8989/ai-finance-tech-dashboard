@@ -43,6 +43,25 @@
       "podcast_episode_id": 322
     },
     {
+      "id": 338,
+      "title": "Top IPO Scholar on Unprecedented IPO Wave & Why IPOs Underperform the Market | Jay Ritter",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-06-30",
+      "summary": "In this episode, Jack Farley discusses the historic IPO environment with three companies potentially reaching a $1 trillion valuation. The discussion includes SpaceX's high price-to-sales ratio, the performance of high-revenue IPOs, regulatory risks in AI, and the shift in the IPO landscape. Farley also touches on venture capital valuation concerns, the historical context of technological change, and the impact of perpetual futures on private markets.",
+      "key_takeaway": "Investors should be cautious in the current high-valuation IPO environment and focus on companies with established revenues and lower regulatory risks.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-06-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 323
+    },
+    {
       "id": 332,
       "title": "Beyond P(doom): Marc Andreessen - Betting on America",
       "source_type": "podcast",
@@ -179,7 +198,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-26",
       "archived_date": null,
@@ -7785,8 +7804,8 @@
       "term": "AI Infrastructure",
       "description": "The underlying technology and systems that support AI applications, including hardware and software.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-06-29",
-      "mention_count": 18,
+      "last_mentioned_date": "2026-06-30",
+      "mention_count": 19,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consider investments in companies that provide the backbone for AI applications.",
@@ -7795,8 +7814,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 319,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 323,
+      "last_mentioned_speaker": "Jack Farley (hosts)"
     },
     {
       "id": 26,

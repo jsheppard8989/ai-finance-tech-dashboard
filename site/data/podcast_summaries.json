@@ -1,5 +1,21 @@
 [
   {
+    "id": 323,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Top IPO Scholar on Unprecedented IPO Wave & Why IPOs Underperform the Market | Jay Ritter",
+    "episode_date": "2026-06-30",
+    "summary": "In this episode, Jack Farley discusses the historic IPO environment with three companies potentially reaching a $1 trillion valuation. The discussion includes SpaceX's high price-to-sales ratio, the performance of high-revenue IPOs, regulatory risks in AI, and the shift in the IPO landscape. Farley also touches on venture capital valuation concerns, the historical context of technological change, and the impact of perpetual futures on private markets.",
+    "key_takeaways": [
+      "The current IPO environment is historic with potential for high valuations.",
+      "SpaceX's high price-to-sales ratio raises concerns about future performance.",
+      "Companies with annual revenues over $100 million tend to perform better post-IPO.",
+      "Regulatory risks surrounding AI companies are significant and could impact profitability.",
+      "The venture capital landscape has seen inflated valuations leading to lower expected returns."
+    ],
+    "investment_thesis": "Investors should be cautious in the current high-valuation IPO environment and focus on companies with established revenues and lower regulatory risks.",
+    "key_tickers": null
+  },
+  {
     "id": 322,
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "Grant Sanderson \u2013 AI and the future of math",
@@ -122,21 +138,5 @@
     "key_tickers": [
       "MU"
     ]
-  },
-  {
-    "id": 314,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
-    "episode_date": "2026-06-26",
-    "summary": "This podcast episode discusses the advancements in AI, particularly focusing on large Earth models, Chinese AI competition, the economic implications of AI, and the debate over AI personhood. It highlights the role of satellite data in creating real-world applications, the competitive performance of Chinese AI models, the decreasing cost of AI intelligence, and the sustainability of AI investments in hyperscalers.",
-    "key_takeaways": [
-      "Invest in companies leveraging real-time Earth data for AI applications.",
-      "Monitor Chinese AI advancements for potential market disruptions.",
-      "Track AI pricing trends to identify investment opportunities.",
-      "Engage in AI regulation discussions to prepare for legal changes.",
-      "Assess the financial health of AI companies for sustainable growth."
-    ],
-    "investment_thesis": "Invest in companies at the forefront of AI and satellite data integration for real-world applications, while monitoring global AI competition and regulatory changes.",
-    "key_tickers": null
   }
 ]
