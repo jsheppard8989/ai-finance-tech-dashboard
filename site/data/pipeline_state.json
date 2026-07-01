@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-01T06:38:23.461985",
-  "last_updated": "2026-07-01T06:38:23.461985",
-  "last_pipeline_run": "2026-07-01T06:38:23.461985",
+  "generated_at": "2026-07-01T12:06:41.998303",
+  "last_updated": "2026-07-01T12:06:41.998303",
+  "last_pipeline_run": "2026-07-01T12:06:41.998303",
   "main_page": {
     "overton": 13,
     "insights": 8,
-    "pundits": 196
+    "pundits": 197
   },
   "counts": {
     "ticker_mentions": 199,
-    "podcast_episodes": 296,
+    "podcast_episodes": 297,
     "newsletters": 7,
     "daily_scores": 137,
-    "overton_terms_total": 106,
-    "latest_insights_total": 310,
+    "overton_terms_total": 107,
+    "latest_insights_total": 311,
     "today_mentions": {},
-    "podcasts_analyzed": 0
+    "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 0,
-    "analyzed": 0,
-    "insight_created": 0,
-    "published": 0,
-    "total": 1
+    "downloaded": 2,
+    "transcribed": 1,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 2
   },
   "episodes": [
     {
@@ -32,6 +32,24 @@
       "title": "Rick Rubin on AI, Creativity, and The Way of Code",
       "published": "2026-07-01",
       "rss_guid": "44ef49ba-cd48-4fab-aa93-94a8bcf26d36",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
+    },
+    {
+      "id": "substack:post:204393300",
+      "podcast": "Latent Space: The AI Engineer Podcast",
+      "title": "\ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+      "published": "2026-07-01",
+      "rss_guid": "substack:post:204393300",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -100,9 +118,9 @@
   ],
   "available_from_rss": [
     {
-      "podcast": "The a16z Show",
-      "title": "Rick Rubin on AI, Creativity, and The Way of Code",
-      "published": "Wed, 1 Jul 2026 10:00:00 +0000",
+      "podcast": "Latent Space: The AI Engineer Podcast",
+      "title": "\ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+      "published": "Wed, 01 Jul 2026 14:42:39 GMT",
       "published_date": "2026-07-01",
       "rss_guid": ""
     }

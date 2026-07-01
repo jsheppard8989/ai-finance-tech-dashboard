@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 339,
+      "title": "Rick Rubin on AI, Creativity, and The Way of Code",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-01",
+      "summary": "This episode of 'The a16z Show' explores the convergence of creativity, technology, and authenticity in the modern age. Rick Rubin discusses how AI can serve as a creative tool for artists, enabling rapid iteration and enhancing the creative process. The conversation also touches on the importance of authenticity in art, the democratization of creative tools, and the role of the collective unconscious in driving cultural breakthroughs. Insights are drawn on how technology can empower non-experts to create art, the value of personal expression over market conformity, and the enduring importance of taste and self-knowledge in the creative process.",
+      "key_takeaway": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 324
+    },
+    {
       "id": 336,
       "title": "Building AI for Creators | Luma & Phota Labs",
       "source_type": "podcast",
@@ -217,7 +236,7 @@
         "MU"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-26",
       "archived_date": null,
@@ -6502,6 +6521,24 @@
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 316,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+    },
+    {
+      "id": 256,
+      "term": "Authenticity",
+      "description": "The quality of being true to one's own personality, experiences, and beliefs, rather than presenting a rehearsed or insincere image.",
+      "first_detected_date": "2026-06-19",
+      "last_mentioned_date": "2026-07-01",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Authentic communication can build trust and relatability with audiences, which are essential for brand loyalty and market differentiation.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 301,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 324,
+      "last_mentioned_speaker": "Rick Rubin"
     },
     {
       "id": 252,

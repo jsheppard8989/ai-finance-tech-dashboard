@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-01T06:38:27.869884",
-  chartsVersion: "2026-07-01T06:38:19.873930",
+  generatedAt: "2026-07-01T12:07:02.641445",
+  chartsVersion: "2026-07-01T12:06:37.665141",
   priceSnapshot: {
   "GOOGL": {
-    "price": 357.37,
-    "change_pct": 0.28,
+    "price": 359.2,
+    "change_pct": 0.4,
     "name": "GOOGL",
-    "updated_at": "2026-07-01T06:38:19.872857"
+    "updated_at": "2026-07-01T12:06:37.663684"
   },
   "BTC": {
-    "price": 58638.29,
-    "change_pct": -6.77,
+    "price": 59731.5,
+    "change_pct": -5.03,
     "name": "BTC",
-    "updated_at": "2026-07-01T06:38:19.872877"
+    "updated_at": "2026-07-01T12:06:37.663710"
   },
   "MSFT": {
-    "price": 373.02,
-    "change_pct": -6.13,
+    "price": 386.25,
+    "change_pct": -1.05,
     "name": "MSFT",
-    "updated_at": "2026-07-01T06:38:19.872886"
+    "updated_at": "2026-07-01T12:06:37.663723"
   },
   "NVDA": {
-    "price": 200.09,
-    "change_pct": -0.16,
+    "price": 196.99,
+    "change_pct": -3.85,
     "name": "NVDA",
-    "updated_at": "2026-07-01T06:38:19.872894"
+    "updated_at": "2026-07-01T12:06:37.663735"
   },
   "AMZN": {
-    "price": 238.34,
-    "change_pct": 0.14,
+    "price": 242.96,
+    "change_pct": 0.6,
     "name": "AMZN",
-    "updated_at": "2026-07-01T06:38:19.872902"
+    "updated_at": "2026-07-01T12:06:37.663746"
   },
   "TSLA": {
-    "price": 420.6,
-    "change_pct": 10.22,
+    "price": 425.74,
+    "change_pct": 6.66,
     "name": "TSLA",
-    "updated_at": "2026-07-01T06:38:19.872910"
+    "updated_at": "2026-07-01T12:06:37.663756"
   },
   "WTI": {
-    "price": 3.15,
-    "change_pct": -26.4,
+    "price": 3.09,
+    "change_pct": -24.88,
     "name": "WTI",
-    "updated_at": "2026-07-01T06:38:19.872918"
+    "updated_at": "2026-07-01T12:06:37.663769"
   },
   "META": {
-    "price": 563.29,
-    "change_pct": -1.26,
+    "price": 618.04,
+    "change_pct": 8.83,
     "name": "META",
-    "updated_at": "2026-07-01T06:38:19.872925"
+    "updated_at": "2026-07-01T12:06:37.663779"
   },
   "S&P 500": {
-    "price": 746.77,
-    "change_pct": 3.21,
+    "price": 747.09,
+    "change_pct": 1.53,
     "name": "S&P 500",
-    "updated_at": "2026-07-01T06:38:19.872933"
+    "updated_at": "2026-07-01T12:06:37.663790"
   },
   "AAPL": {
-    "price": 289.36,
-    "change_pct": -0.76,
+    "price": 293.96,
+    "change_pct": -0.56,
     "name": "AAPL",
-    "updated_at": "2026-07-01T06:38:19.872940"
+    "updated_at": "2026-07-01T12:06:37.663801"
   },
   "QQQ": {
-    "price": 736.4,
-    "change_pct": 6.27,
+    "price": 727.14,
+    "change_pct": 1.51,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-01T06:38:19.872947"
+    "updated_at": "2026-07-01T12:06:37.663812"
   },
   "BTC-USD": {
-    "price": 58654.36,
-    "change_pct": -6.74,
+    "price": 59731.5,
+    "change_pct": -5.03,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-01T06:38:19.872956"
+    "updated_at": "2026-07-01T12:06:37.663825"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 339,
+      "title": "Rick Rubin on AI, Creativity, and The Way of Code",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-01",
+      "summary": "This episode of 'The a16z Show' explores the convergence of creativity, technology, and authenticity in the modern age. Rick Rubin discusses how AI can serve as a creative tool for artists, enabling rapid iteration and enhancing the creative process. The conversation also touches on the importance of authenticity in art, the democratization of creative tools, and the role of the collective unconscious in driving cultural breakthroughs. Insights are drawn on how technology can empower non-experts to create art, the value of personal expression over market conformity, and the enduring importance of taste and self-knowledge in the creative process.",
+      "key_takeaway": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 324
+    },
+    {
       "id": 336,
       "title": "Building AI for Creators | Luma & Phota Labs",
       "source_type": "podcast",
@@ -1050,7 +1069,7 @@ const dashboardData = {
         "MU"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-26",
       "archived_date": null,
@@ -7337,6 +7356,24 @@ const dashboardData = {
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
+      "id": 256,
+      "term": "Authenticity",
+      "description": "The quality of being true to one's own personality, experiences, and beliefs, rather than presenting a rehearsed or insincere image.",
+      "first_detected_date": "2026-06-19",
+      "last_mentioned_date": "2026-07-01",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Authentic communication can build trust and relatability with audiences, which are essential for brand loyalty and market differentiation.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 301,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 324,
+      "last_mentioned_speaker": "Rick Rubin"
+    },
+    {
       "id": 252,
       "term": "AI Commoditization",
       "description": "The process by which AI technology becomes a standard, undifferentiated product, leading to increased competition and reduced pricing power.",
@@ -9183,6 +9220,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 339,
+      "title": "Rick Rubin on AI, Creativity, and The Way of Code",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-01",
+      "summary": "This episode of 'The a16z Show' explores the convergence of creativity, technology, and authenticity in the modern age. Rick Rubin discusses how AI can serve as a creative tool for artists, enabling rapid iteration and enhancing the creative process. The conversation also touches on the importance of authenticity in art, the democratization of creative tools, and the role of the collective unconscious in driving cultural breakthroughs. Insights are drawn on how technology can empower non-experts to create art, the value of personal expression over market conformity, and the enduring importance of taste and self-knowledge in the creative process.",
+      "key_takeaway": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 324,
+      "episode_release_date": "2026-07-01",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 336,
       "title": "Building AI for Creators | Luma & Phota Labs",
       "source_type": "podcast",
@@ -9323,28 +9380,6 @@ const dashboardData = {
       "key_tickers": [
         "BABA",
         "LLY"
-      ]
-    },
-    {
-      "id": 331,
-      "title": "Socialists Sweep NYC, China Catches Up in Coding, AI Memory Crunch, Micron's Blowout Quarter",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-06-26",
-      "summary": "In this episode, the hosts discuss the implications of socialist candidates' rise within the Democratic Party, particularly in New York, and how this political shift could affect future elections and policy-making. They also delve into the potential of AI as an economic equalizer and the challenges faced by Silicon Valley in managing the AI narrative. The competitive threat from Chinese AI models and the strong market position of Micron in the semiconductor industry are also highlighted, along with the potential of distributed inference models to democratize AI capabilities. The show concludes with insights into the changing IPO landscape and the future of AI and tech companies.",
-      "key_takeaway": "Invest in companies that are well-positioned to benefit from the AI boom, such as Micron, and consider the impact of political shifts on investment strategies.",
-      "tickers_mentioned": "[\"MU\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-26",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 316,
-      "episode_release_date": "2026-06-26",
-      "guest_name": null,
-      "key_tickers": [
-        "MU"
       ]
     }
   ],
@@ -29896,9 +29931,84 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-06-30",
     "key_tickers": []
+  },
+  "339": {
+    "id": 329,
+    "insight_id": 339,
+    "podcast_episode_id": 324,
+    "overview": "The unresolved tension in the creative industry highlighted by Rick Rubin is the balance between leveraging AI as a creative tool and maintaining the authenticity of human expression. The competitive dynamic is between artists who use AI to iterate and refine their work and those who resist it, fearing a loss of creative control. What converts belief in this dynamic is the ability of AI to augment rather than supplant human creativity, and the market's response to authentic versus conformist art. The metric that arbitrates this uncertainty is the success and impact of creative works in both commercial and cultural terms.",
+    "key_takeaways_detailed": [
+      "Investors should look for AI platforms that not only provide creative tools but also foster an environment where artists can maintain their unique voice and vision.",
+      "Creators should be cautious about over-reliance on AI, ensuring that their personal touch and authenticity are not lost in the process of iteration.",
+      "Support for educational initiatives that develop taste, self-knowledge, and cultural awareness in artists is crucial for nurturing creativity that resonates with audiences.",
+      "Monitor the success of artists who leverage AI in their creative process to gauge the effectiveness of AI as a creative enhancement tool.",
+      "Track the cultural impact and market performance of art that stems from personal truth versus that which is market-driven to understand audience preferences."
+    ],
+    "investment_thesis": "Investing in platforms that empower creativity and personal expression, leveraging AI as a tool, is likely to yield more impactful art that resonates with audiences. This thesis is vindicated over a medium to long-term timeframe by observing the success of artists who use AI to enhance their work while maintaining authenticity, and by the cultural and commercial impact of such art. Conversely, if AI-assisted art fails to gain traction or is perceived as lacking in authenticity, the thesis would be invalidated.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI and its role in providing creative tools through products like the iPad and MacBook Pro positions it as a key player in the democratization of creativity.",
+        "positioning": "Strategic long position, as Apple's continued innovation in AI and creative software could drive growth in the creative industry.",
+        "risk": "The risk lies in Apple failing to innovate or adapt to changes in the creative tools market, potentially losing ground to competitors."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant number of artists and audiences may prefer traditional creative methods over AI-assisted ones, valuing the human touch in art.",
+      "There could be ethical concerns regarding the use of AI in creativity, such as issues of authorship and the potential for AI to replicate styles without understanding their cultural context.",
+      "The creative industry may experience a backlash against AI, viewing it as a threat to the authenticity and uniqueness of human-created art."
+    ],
+    "catalysts": [
+      "The release of new AI tools by major tech companies that significantly enhance creative capabilities.",
+      "High-profile artists publicly adopting AI in their creative process and achieving commercial and critical success.",
+      "Cultural events or movements that highlight the value of authenticity in art, potentially shifting market preferences.",
+      "Educational institutions integrating AI and creativity into their curricula, indicating a long-term trend towards the democratization of creative tools.",
+      "Regulatory developments that either support or restrict the use of AI in creative fields."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-01T12:05:42.137885",
+    "updated_at": "2026-07-01 17:05:42",
+    "episode_evidence": "Rick Rubin's discussion on 'The a16z Show' provides a nuanced perspective on the role of AI in creativity. He emphasizes that AI is not a replacement for human creativity but a tool to enhance it, as he states, 'AI gives you the ability to take your ideas, feed it into this machine and then get back different iterations.' This suggests that AI can be instrumental in the rapid prototyping of creative ideas, allowing artists to explore multiple possibilities and refine their work. Rubin also touches on the democratization of creativity, drawing a parallel to the punk rock movement, which allowed non-experts to create music, as he mentions, 'The beauty of this tool is that for those of us who are not coders... you can now play in that sandbox.' This indicates a shift towards inclusivity in creative fields, where technology levels the playing field and allows for a wider array of voices to contribute to cultural production.",
+    "falsification_tracks": [
+      "If AI tools fail to produce a significant number of innovative outputs in creative fields, it would challenge the thesis that AI can enhance creativity.",
+      "A sustained lack of diversity in creative outputs following the democratization of creative tools would undermine the argument for a broader range of voices in the creative landscape.",
+      "If artists who prioritize authenticity and personal expression consistently underperform in the market compared to those who conform to market demands, it would cast doubt on the value of authenticity in art."
+    ],
+    "insight_title": "Rick Rubin on AI, Creativity, and The Way of Code",
+    "source_name": "The a16z Show",
+    "source_date": "2026-07-01",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 477,
+    "term": "Vibe Coding",
+    "definition": "Rick Rubin's concept of merging ancient wisdom with modern technology to enhance the creative process, emphasizing creativity as a remixing process rather than starting from scratch.",
+    "investment_implications": "Understanding and investing in technologies that facilitate creative processes can lead to new forms of artistic expression and cultural products.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-01 17:05:05",
+    "priority_score": 80
+  },
+  {
+    "id": 478,
+    "term": "Collective Unconscious",
+    "definition": "A concept suggesting that shared cultural experiences can lead to collective breakthroughs in creativity, influencing the work of artists and entrepreneurs.",
+    "investment_implications": "Investing in cultural trends and platforms that tap into collective experiences can lead to innovative and impactful creative outputs.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-01 17:05:05",
+    "priority_score": 80
+  },
   {
     "id": 474,
     "term": "Price-to-Sales Ratio",
@@ -29922,35 +30032,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-01 03:04:12",
     "priority_score": 80
-  },
-  {
-    "id": 476,
-    "term": "Perpetual Futures",
-    "definition": "A type of financial derivative that does not have an expiration date, allowing for continuous trading and potentially impacting capital flows and valuation practices in private markets.",
-    "investment_implications": "The introduction of perpetual futures for private companies may lead to more accurate pricing and increased transparency.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-01 03:04:12",
-    "priority_score": 80
-  },
-  {
-    "id": 470,
-    "term": "AI's Role in Mathematics",
-    "definition": "AI's advancements in solving mathematical problems, particularly in formal domains, may redefine the landscape of mathematics, shifting the focus from traditional theorem proving to exploration and conjecture generation.",
-    "investment_implications": "Investors should explore AI tools for mathematical problem-solving and conjecture generation to stay ahead in the field.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-06-30 18:36:48",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 24078,
+    "id": 24163,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -29962,7 +30048,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24079,
+    "id": 24164,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -29974,7 +30060,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24080,
+    "id": 24165,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -29986,7 +30072,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24081,
+    "id": 24166,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -29998,7 +30084,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24082,
+    "id": 24167,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -30010,7 +30096,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24083,
+    "id": 24168,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -30022,7 +30108,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24084,
+    "id": 24169,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -30034,7 +30120,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24085,
+    "id": 24170,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -30046,7 +30132,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24086,
+    "id": 24171,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -30058,7 +30144,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 24087,
+    "id": 24172,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -30070,7 +30156,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24088,
+    "id": 24173,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -30082,7 +30168,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24089,
+    "id": 24174,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -30094,7 +30180,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24090,
+    "id": 24175,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -30106,7 +30192,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24091,
+    "id": 24176,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -30118,7 +30204,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24092,
+    "id": 24177,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -30130,7 +30216,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24093,
+    "id": 24178,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -30142,7 +30228,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24094,
+    "id": 24179,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -30154,7 +30240,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24095,
+    "id": 24180,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -30166,7 +30252,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24096,
+    "id": 24181,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -30178,7 +30264,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24097,
+    "id": 24182,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -31451,6 +31537,67 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 315,
+    "name": "Rick Rubin",
+    "slug": "rick-rubin",
+    "bio": "Rick Rubin is an American record producer and former co-president of Columbia Records. He is known for his work with various high-profile artists and his concept of 'vibe coding', which has contributed significantly to the music industry.",
+    "known_for": "His innovative approach to music production and his influence on the industry through his concept of 'vibe coding'.",
+    "net_worth_usd": 250000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q587361",
+    "net_worth_updated_at": "2026-07-01T12:05:16.378155",
+    "voice_tone": "Reflective and insightful.",
+    "voice_style": "Engages in deep discussions on creativity and technology.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points.",
+    "voice_profile_updated_at": "2026-07-01 17:05:05",
+    "last_seen": "2026-07-01 17:05:05",
+    "last_episode_title": "Rick Rubin on AI, Creativity, and The Way of Code",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-01",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
+    "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
+    "supporting_takeaway": "Authenticity and personal expression are more important for artists than conforming to market demands.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-01T12:05:15.886235",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rick Rubin",
+      "fetched_at": "2026-07-01T17:05:15.885690+00:00",
+      "cliff_notes": "Rick Rubin is a legendary American record producer who has worked with numerous high-profile artists throughout his career. As a former co-president of Columbia Records, he has played a significant role in shaping the music industry. Rubin is also known for his concept of 'vibe coding', which has contributed to his unique approach to music production. His work has not only influenced the industry but also sparked conversations about the intersection of technology and creativity. Rubin's insights into the creative process and the role of AI in music production have made him a thought leader in the field.",
+      "derived": {
+        "current_role": "Record producer",
+        "former_positions": "Co-president of Columbia Records"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Rick Rubin is a legendary American record producer who has worked with numerous high-profile artists throughout his career. As a former co-president of Columbia Records, he has played a significant role in shaping the music industry. Rubin is also known for his concept of 'vibe coding', which has contributed to his unique approach to music production.",
+        "His work has not only influenced the industry but also sparked conversations about the intersection of technology and creativity. Rubin's insights into the creative process and the role of AI in music production have made him a thought leader in the field."
+      ],
+      "sections": [
+        {
+          "heading": "Vibe Coding",
+          "body": "Rick Rubin is known for his concept of 'vibe coding', which involves creating a specific atmosphere or 'vibe' in the recording studio to inspire creativity and enhance the music production process."
+        },
+        {
+          "heading": "Influence on Music Industry",
+          "body": "As a record producer, Rick Rubin has worked with numerous high-profile artists and has played a significant role in shaping the music industry through his innovative approach to music production."
+        },
+        {
+          "heading": "Thought Leadership",
+          "body": "Rubin's insights into the creative process and the role of AI in music production have made him a thought leader in the field, sparking conversations about the intersection of technology and creativity."
+        }
+      ]
+    },
+    "net_worth": "$250.0M"
+  },
+  {
     "id": 314,
     "name": "Matt Tenzig",
     "slug": "matt-tenzig",
@@ -31468,7 +31615,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -32586,7 +32733,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -33155,7 +33302,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -33284,7 +33431,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -33350,7 +33497,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -33625,7 +33772,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -33689,7 +33836,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -33944,7 +34091,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -34008,7 +34155,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -34191,7 +34338,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -34255,7 +34402,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -34998,7 +35145,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -35064,7 +35211,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -37700,7 +37847,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",

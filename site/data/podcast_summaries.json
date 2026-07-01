@@ -1,5 +1,21 @@
 [
   {
+    "id": 324,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Rick Rubin on AI, Creativity, and The Way of Code",
+    "episode_date": "2026-07-01",
+    "summary": "This episode of 'The a16z Show' explores the convergence of creativity, technology, and authenticity in the modern age. Rick Rubin discusses how AI can serve as a creative tool for artists, enabling rapid iteration and enhancing the creative process. The conversation also touches on the importance of authenticity in art, the democratization of creative tools, and the role of the collective unconscious in driving cultural breakthroughs. Insights are drawn on how technology can empower non-experts to create art, the value of personal expression over market conformity, and the enduring importance of taste and self-knowledge in the creative process.",
+    "key_takeaways": [
+      "AI is a tool that enhances creativity by enabling rapid iteration of ideas.",
+      "Authenticity and personal expression are more important for artists than conforming to market demands.",
+      "Technology democratizes creativity, allowing a broader range of voices to contribute to the cultural landscape.",
+      "Cultural trends and collective experiences can influence and enrich creative work.",
+      "Taste and self-knowledge are increasingly valuable in the creative process, suggesting a shift in educational focus."
+    ],
+    "investment_thesis": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
+    "key_tickers": null
+  },
+  {
     "id": 323,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Top IPO Scholar on Unprecedented IPO Wave & Why IPOs Underperform the Market | Jay Ritter",
@@ -119,24 +135,5 @@
     ],
     "investment_thesis": "Invest in AI-driven blue sectors to capitalize on rapid productivity growth, while advocating for regulatory reforms and public sector modernization to overcome constraints on AI's transformative potential.",
     "key_tickers": null
-  },
-  {
-    "id": 316,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "Socialists Sweep NYC, China Catches Up in Coding, AI Memory Crunch, Micron's Blowout Quarter",
-    "episode_date": "2026-06-26",
-    "summary": "In this episode, the hosts discuss the implications of socialist candidates' rise within the Democratic Party, particularly in New York, and how this political shift could affect future elections and policy-making. They also delve into the potential of AI as an economic equalizer and the challenges faced by Silicon Valley in managing the AI narrative. The competitive threat from Chinese AI models and the strong market position of Micron in the semiconductor industry are also highlighted, along with the potential of distributed inference models to democratize AI capabilities. The show concludes with insights into the changing IPO landscape and the future of AI and tech companies.",
-    "key_takeaways": [
-      "The Democratic Party is experiencing a significant shift towards socialism, which could impact policy and governance.",
-      "AI is seen as a potential economic equalizer, but its narrative has been poorly managed, leading to a loss of credibility for Silicon Valley.",
-      "Chinese open-source AI models like GLM 5.2 pose a competitive threat to U.S. AI companies.",
-      "Micron's strong earnings report indicates robust demand for high-bandwidth memory, essential for AI applications.",
-      "Distributed inference models could democratize access to AI capabilities, leading to a more decentralized AI ecosystem.",
-      "The IPO market is experiencing volatility, with companies like Cerebras facing challenges post-IPO."
-    ],
-    "investment_thesis": "Invest in companies that are well-positioned to benefit from the AI boom, such as Micron, and consider the impact of political shifts on investment strategies.",
-    "key_tickers": [
-      "MU"
-    ]
   }
 ]
