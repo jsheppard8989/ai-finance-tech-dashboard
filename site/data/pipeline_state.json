@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-30T23:40:59.486469",
-  "last_updated": "2026-06-30T23:40:59.486469",
-  "last_pipeline_run": "2026-06-30T23:40:59.486469",
+  "generated_at": "2026-07-01T05:02:59.737814",
+  "last_updated": "2026-07-01T05:02:59.737814",
+  "last_pipeline_run": "2026-07-01T05:02:59.737814",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -15,161 +15,19 @@
     "overton_terms_total": 106,
     "latest_insights_total": 310,
     "today_mentions": {},
-    "podcasts_analyzed": 3
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
+    "downloaded": 0,
+    "transcribed": 0,
     "analyzed": 0,
     "insight_created": 0,
     "published": 0,
-    "total": 2
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "916c5e0a-b2ab-4935-ae27-7dc4eeb8612a",
-      "podcast": "The a16z Show",
-      "title": "Samo Burja on Growth, Energy, and AI",
-      "published": "2026-06-12",
-      "rss_guid": "916c5e0a-b2ab-4935-ae27-7dc4eeb8612a",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
-      },
-      "first_blocker": "analyzed",
-      "remediation_by_stage": {
-        "analyzed": {
-          "action_id": "ANALYZE_TRANSCRIPTS",
-          "steps": [
-            "Run transcript analysis so is_processed=1 on podcast_episodes (analyze_transcript via auto_pipeline).",
-            "Ensure LLM keys in workspace .env (e.g. MOONSHOT_API_KEY) are set if the analyzer requires them.",
-            "Quick path: auto_pipeline.py --analyze-only analyzes then continues promotion/export steps in that run."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "insight_created": {
-          "action_id": "PROMOTE_INSIGHT",
-          "steps": [
-            "Promotion to latest_insights runs inside auto_pipeline after analysis.",
-            "If analysis succeeded but insight is missing, re-run full auto_pipeline.py and check logs for promote_episodes_to_insights errors."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "published": {
-          "action_id": "EXPORT_AND_PUBLISH",
-          "steps": [
-            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
-            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
-            "When added_to_site=1 on the episode row, this stage turns green."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        }
-      },
-      "status": "needs_analysis"
-    },
-    {
-      "id": "substack:post:202271948",
-      "podcast": "Dwarkesh Podcast",
-      "title": "Ada Palmer \u2013 Machiavelli is the most misunderstood thinker of all time",
-      "published": "2026-06-16",
-      "rss_guid": "substack:post:202271948",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
-      },
-      "first_blocker": "analyzed",
-      "remediation_by_stage": {
-        "analyzed": {
-          "action_id": "ANALYZE_TRANSCRIPTS",
-          "steps": [
-            "Run transcript analysis so is_processed=1 on podcast_episodes (analyze_transcript via auto_pipeline).",
-            "Ensure LLM keys in workspace .env (e.g. MOONSHOT_API_KEY) are set if the analyzer requires them.",
-            "Quick path: auto_pipeline.py --analyze-only analyzes then continues promotion/export steps in that run."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "insight_created": {
-          "action_id": "PROMOTE_INSIGHT",
-          "steps": [
-            "Promotion to latest_insights runs inside auto_pipeline after analysis.",
-            "If analysis succeeded but insight is missing, re-run full auto_pipeline.py and check logs for promote_episodes_to_insights errors."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "published": {
-          "action_id": "EXPORT_AND_PUBLISH",
-          "steps": [
-            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
-            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
-            "When added_to_site=1 on the episode row, this stage turns green."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        }
-      },
-      "status": "needs_analysis"
-    }
-  ],
-  "available_from_rss": [
-    {
-      "podcast": "Dwarkesh Podcast",
-      "title": "Ada Palmer \u2013 Machiavelli is the most misunderstood thinker of all time",
-      "published": "Tue, 16 Jun 2026 17:27:51 GMT",
-      "published_date": "2026-06-16",
-      "rss_guid": ""
-    }
-  ],
-  "stale_episodes": [
-    {
-      "id": "916c5e0a-b2ab-4935-ae27-7dc4eeb8612a",
-      "podcast": "The a16z Show",
-      "title": "Samo Burja on Growth, Energy, and AI",
-      "status": "needs_analysis",
-      "published": "2026-06-12",
-      "age_days": 18,
-      "next_blocker": "analyzed"
-    },
-    {
-      "id": "substack:post:202271948",
-      "podcast": "Dwarkesh Podcast",
-      "title": "Ada Palmer \u2013 Machiavelli is the most misunderstood thinker of all time",
-      "status": "needs_analysis",
-      "published": "2026-06-16",
-      "age_days": 14,
-      "next_blocker": "analyzed"
-    }
-  ],
+  "episodes": [],
+  "available_from_rss": [],
+  "stale_episodes": [],
   "stale_threshold_days": 2,
   "rss_filter_criteria": {
     "cutoff_date": "2026-02-01",
