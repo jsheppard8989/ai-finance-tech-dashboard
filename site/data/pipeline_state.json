@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-01T23:38:40.965770",
-  "last_updated": "2026-07-01T23:38:40.965770",
-  "last_pipeline_run": "2026-07-01T23:38:40.965770",
+  "generated_at": "2026-07-02T05:03:01.788889",
+  "last_updated": "2026-07-02T05:03:01.788889",
+  "last_pipeline_run": "2026-07-02T05:03:01.788889",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -11,42 +11,23 @@
     "ticker_mentions": 200,
     "podcast_episodes": 299,
     "newsletters": 7,
-    "daily_scores": 137,
+    "daily_scores": 138,
     "overton_terms_total": 107,
     "latest_insights_total": 313,
     "today_mentions": {
       "podcast": 1
     },
-    "podcasts_analyzed": 3
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "3109fc56-7578-11f1-8b64-e74896bafcaf",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Sonnet 5 Drops, Fable 5 Will Return & Fusion's First Plant Gets Licensed w/ Philip Johnston | #268",
-      "published": "2026-07-01",
-      "rss_guid": "3109fc56-7578-11f1-8b64-e74896bafcaf",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
