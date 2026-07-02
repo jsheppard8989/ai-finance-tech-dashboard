@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-02T12:05:23.705071",
-  chartsVersion: "2026-07-02T12:05:05.318465",
+  generatedAt: "2026-07-02T13:38:57.219970",
+  chartsVersion: "2026-07-02T13:38:52.543599",
   priceSnapshot: {
   "GOOGL": {
-    "price": 353.83,
-    "change_pct": -1.63,
+    "price": 358.54,
+    "change_pct": -0.32,
     "name": "GOOGL",
-    "updated_at": "2026-07-02T12:05:05.317281"
+    "updated_at": "2026-07-02T13:38:52.543081"
   },
   "BTC": {
-    "price": 61619.54,
-    "change_pct": -3.02,
+    "price": 61734.51,
+    "change_pct": -2.84,
     "name": "BTC",
-    "updated_at": "2026-07-02T12:05:05.317303"
+    "updated_at": "2026-07-02T13:38:52.543092"
   },
   "MSFT": {
-    "price": 389.3,
-    "change_pct": -0.37,
+    "price": 391.37,
+    "change_pct": 0.16,
     "name": "MSFT",
-    "updated_at": "2026-07-02T12:05:05.317315"
+    "updated_at": "2026-07-02T13:38:52.543096"
   },
   "NVDA": {
-    "price": 193.02,
-    "change_pct": -5.93,
+    "price": 193.49,
+    "change_pct": -5.7,
     "name": "NVDA",
-    "updated_at": "2026-07-02T12:05:05.317326"
+    "updated_at": "2026-07-02T13:38:52.543100"
   },
   "AMZN": {
-    "price": 243.99,
+    "price": 243.98,
     "change_pct": 2.28,
     "name": "AMZN",
-    "updated_at": "2026-07-02T12:05:05.317335"
+    "updated_at": "2026-07-02T13:38:52.543103"
   },
   "TSLA": {
-    "price": 390.76,
-    "change_pct": -3.86,
+    "price": 392.78,
+    "change_pct": -3.36,
     "name": "TSLA",
-    "updated_at": "2026-07-02T12:05:05.317345"
+    "updated_at": "2026-07-02T13:38:52.543107"
   },
   "WTI": {
-    "price": 3.06,
-    "change_pct": -24.63,
+    "price": 3.08,
+    "change_pct": -24.14,
     "name": "WTI",
-    "updated_at": "2026-07-02T12:05:05.317355"
+    "updated_at": "2026-07-02T13:38:52.543110"
   },
   "META": {
-    "price": 584.88,
-    "change_pct": 3.25,
+    "price": 586.23,
+    "change_pct": 3.49,
     "name": "META",
-    "updated_at": "2026-07-02T12:05:05.317364"
+    "updated_at": "2026-07-02T13:38:52.543113"
   },
   "S&P 500": {
-    "price": 740.84,
-    "change_pct": 0.14,
+    "price": 743.21,
+    "change_pct": 0.45,
     "name": "S&P 500",
-    "updated_at": "2026-07-02T12:05:05.317373"
+    "updated_at": "2026-07-02T13:38:52.543116"
   },
   "AAPL": {
-    "price": 307.44,
-    "change_pct": 5.6,
+    "price": 307.54,
+    "change_pct": 5.64,
     "name": "AAPL",
-    "updated_at": "2026-07-02T12:05:05.317382"
+    "updated_at": "2026-07-02T13:38:52.543119"
   },
   "QQQ": {
-    "price": 709.25,
-    "change_pct": -1.57,
+    "price": 711.55,
+    "change_pct": -1.25,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-02T12:05:05.317391"
+    "updated_at": "2026-07-02T13:38:52.543122"
   },
   "BTC-USD": {
-    "price": 61630.19,
-    "change_pct": -3.01,
+    "price": 61734.51,
+    "change_pct": -2.84,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-02T12:05:05.317401"
+    "updated_at": "2026-07-02T13:38:52.543125"
   }
 },
   tickerScores: [
@@ -853,6 +853,25 @@ const dashboardData = {
       "podcast_episode_id": 327
     },
     {
+      "id": 343,
+      "title": "What If It\u2019s Still Early? | Erik YWR on $10,000 S&P 500 by 2027 Case, Hyperscaler ROIC, AI CapEx, Semis, Exchanges, and Reverse Crash Risk In \u201cProject Zimbabwe\u201d",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-07-02",
+      "summary": "In this episode of Monetary Matters, Eric from YWR discusses the bullish thesis on the S&P 500, projecting it to reach 10,000 due to accelerating earnings growth and favorable economic conditions. The current earnings growth rate for the S&P is significantly higher than the historical average, justifying higher P/E ratios. Eric also highlights the semiconductor sector as a key driver of earnings growth, with NVIDIA being a notable company in AI. Additionally, he discusses the potential for positive surprises in the energy sector and the recovery of the banking sector, particularly in Europe. Eric views the current market as a bull market rather than a speculative bubble and suggests that Chinese tech stocks are undervalued.",
+      "key_takeaway": "The S&P 500 is projected to reach 10,000 due to accelerating earnings growth and a favorable economic environment, justifying higher P/E ratios and making equities more attractive.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 328
+    },
+    {
       "id": 339,
       "title": "Rick Rubin on AI, Creativity, and The Way of Code",
       "source_type": "podcast",
@@ -1045,7 +1064,7 @@ const dashboardData = {
         "LLY"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-29",
       "archived_date": null,
@@ -7400,8 +7419,8 @@ const dashboardData = {
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-07-02",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
@@ -7410,8 +7429,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 316,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 328,
+      "last_mentioned_speaker": "Eric"
     },
     {
       "id": 256,
@@ -7904,8 +7923,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-01",
-      "mention_count": 48,
+      "last_mentioned_date": "2026-07-02",
+      "mention_count": 49,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -7914,8 +7933,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 326,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 328,
+      "last_mentioned_speaker": "Eric"
     },
     {
       "id": 162,
@@ -9300,6 +9319,28 @@ const dashboardData = {
       ]
     },
     {
+      "id": 343,
+      "title": "What If It\u2019s Still Early? | Erik YWR on $10,000 S&P 500 by 2027 Case, Hyperscaler ROIC, AI CapEx, Semis, Exchanges, and Reverse Crash Risk In \u201cProject Zimbabwe\u201d",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-07-02",
+      "summary": "In this episode of Monetary Matters, Eric from YWR discusses the bullish thesis on the S&P 500, projecting it to reach 10,000 due to accelerating earnings growth and favorable economic conditions. The current earnings growth rate for the S&P is significantly higher than the historical average, justifying higher P/E ratios. Eric also highlights the semiconductor sector as a key driver of earnings growth, with NVIDIA being a notable company in AI. Additionally, he discusses the potential for positive surprises in the energy sector and the recovery of the banking sector, particularly in Europe. Eric views the current market as a bull market rather than a speculative bubble and suggests that Chinese tech stocks are undervalued.",
+      "key_takeaway": "The S&P 500 is projected to reach 10,000 due to accelerating earnings growth and a favorable economic environment, justifying higher P/E ratios and making equities more attractive.",
+      "tickers_mentioned": "[\"NVDA\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 328,
+      "episode_release_date": "2026-07-02",
+      "guest_name": "What If It\u2019s Still Early?",
+      "key_tickers": [
+        "NVDA"
+      ]
+    },
+    {
       "id": 339,
       "title": "Rick Rubin on AI, Creativity, and The Way of Code",
       "source_type": "podcast",
@@ -9421,29 +9462,6 @@ const dashboardData = {
       "episode_release_date": "2026-06-30",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 335,
-      "title": "Why the US Government Is Blocking Model Releases (GPT-5.6) | #267",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-06-29",
-      "summary": "This episode of 'Moonshots with Peter Diamandis' discusses the implications of government control over AI access, the risks of AI model distillation and intellectual property theft, advances in drone technology for wildfire detection, and the U.S. government's investments in quantum computing. It also touches on lifestyle drugs for enhanced wakefulness and the potential of AI in video generation.",
-      "key_takeaway": "Invest in companies that are well-positioned to navigate government regulations in AI, enhance IP protection, and capitalize on advancements in drone technology, quantum computing, and AI-generated content.",
-      "tickers_mentioned": "[\"BABA\", \"LLY\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-29",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 319,
-      "episode_release_date": "2026-06-29",
-      "guest_name": null,
-      "key_tickers": [
-        "BABA",
-        "LLY"
-      ]
     }
   ],
   "definitions": [
@@ -9574,8 +9592,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-01",
-      "mention_count": 48,
+      "last_mentioned_date": "2026-07-02",
+      "mention_count": 49,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -9584,16 +9602,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 326,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "overton_score": 46.9,
+      "last_mentioned_episode_id": 328,
+      "last_mentioned_speaker": "Eric",
+      "overton_score": 49.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Sonnet 5 Drops, Fable 5 Will Return & Fusion's First Plant Gets Licensed w/ Philip Johnston | #268",
-      "last_mentioned_episode_date": "2026-07-01"
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "What If It\u2019s Still Early? | Erik YWR on $10,000 S&P 500 by 2027 Case, Hyperscaler ROIC, AI CapEx, Semis, Exchanges, and Reverse Crash Risk In \u201cProject Zimbabwe\u201d",
+      "last_mentioned_episode_date": "2026-07-02"
     },
     {
       "id": 10,
@@ -9652,8 +9670,8 @@ const dashboardData = {
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-07-02",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
@@ -9662,16 +9680,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 316,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "overton_score": 4.35,
+      "last_mentioned_episode_id": 328,
+      "last_mentioned_speaker": "Eric",
+      "overton_score": 6.0,
       "resonance_pct": 100,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
       "first_detected_episode_date": "2026-06-19",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "Socialists Sweep NYC, China Catches Up in Coding, AI Memory Crunch, Micron's Blowout Quarter",
-      "last_mentioned_episode_date": "2026-06-26"
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "What If It\u2019s Still Early? | Erik YWR on $10,000 S&P 500 by 2027 Case, Hyperscaler ROIC, AI CapEx, Semis, Exchanges, and Reverse Crash Risk In \u201cProject Zimbabwe\u201d",
+      "last_mentioned_episode_date": "2026-07-02"
     },
     {
       "id": 256,
@@ -30207,6 +30225,72 @@ const dashboardData = {
     "key_tickers": [
       "UBER"
     ]
+  },
+  "343": {
+    "id": 333,
+    "insight_id": 343,
+    "podcast_episode_id": 328,
+    "overview": "The unresolved tension lies in the market's skepticism versus Eric's bullish stance on the S&P 500, driven by earnings growth and economic conditions. The competitive dynamic is between the current high-growth sectors, like semiconductors and AI, and traditional sectors facing headwinds. What converts belief is sustained earnings growth above historical averages and the resilience of sectors like energy and banking against expected challenges.",
+    "key_takeaways_detailed": [
+      "Monitor the S&P 500's earnings growth closely, as a drop below 8% could signal a market correction.",
+      "Assess the impact of interest rate changes on P/E ratios, as higher rates may compress valuations.",
+      "Consider the semiconductor sector's exposure to global economic cycles and the potential for overvaluation.",
+      "Evaluate the energy sector's sensitivity to oil price fluctuations and geopolitical events.",
+      "Analyze European banks for signs of continued recovery and potential investment opportunities."
+    ],
+    "investment_thesis": "The core logic is that accelerating earnings growth and favorable economic conditions will drive the S&P 500 to 10,000 by 2027. This thesis is vindicated if the S&P 500's earnings growth rate remains above 12% and economic indicators such as GDP growth and employment figures remain strong. Conversely, it would be invalidated by a sustained drop in earnings growth or a significant economic downturn.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "NVIDIA is a key player in the AI and semiconductor sectors, which are expected to drive earnings growth.",
+        "positioning": "Position long on NVDA as a strategic investment in the technology driving future growth.",
+        "risk": "Key risks include a slowdown in AI adoption and increased competition in the semiconductor market."
+      },
+      "XOM": {
+        "rationale": "Exxon Mobil represents the energy sector, which could surprise positively if oil prices remain high.",
+        "positioning": "Consider a tactical long position in XOM to capitalize on potential oil price increases.",
+        "risk": "The risk is a significant drop in oil prices due to global economic slowdowns or increased supply."
+      },
+      "BAC": {
+        "rationale": "Bank of America is part of the recovering banking sector, especially in Europe.",
+        "positioning": "Hold a strategic long position in BAC to benefit from the banking sector's recovery and lending growth.",
+        "risk": "Risks include economic downturns affecting loan defaults and reduced profitability."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A global economic slowdown could reduce corporate earnings and demand for technology, affecting the S&P 500's growth.",
+      "Regulatory changes in AI and technology could hinder NVIDIA's growth prospects.",
+      "Geopolitical tensions affecting oil supply could lead to price volatility, impacting the energy sector's earnings.",
+      "European banks could face headwinds from potential economic instability or policy changes."
+    ],
+    "catalysts": [
+      "Earnings reports from S&P 500 companies, particularly in the technology and energy sectors.",
+      "Interest rate decisions by the Federal Reserve, which could impact P/E ratios and market valuations.",
+      "Oil price movements and geopolitical events affecting the energy sector.",
+      "European economic data and policy announcements impacting the banking sector.",
+      "Technological breakthroughs or setbacks in AI and semiconductor technology."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-02T13:38:06.876414",
+    "updated_at": "2026-07-02 18:38:06",
+    "episode_evidence": "Eric from YWR emphasizes the bullish thesis on the S&P 500, projecting it to reach 10,000 by 2027, based on 'earnings growth of the S&P... 12 to 15% now,' significantly higher than the historical average of 8%. He justifies higher P/E ratios due to 'low interest rates... 10-year bonds at 4.5%' and high nominal growth rates, suggesting a potential P/E ratio of '25-30.' Eric also points out the semiconductor sector's crucial role in earnings growth, with NVIDIA being a standout in AI, stating, 'The earnings are incredible... the hyperscaler revenues are going to be growing as all this cloud business comes online.' Additionally, he discusses the energy sector's potential for positive surprises if oil prices remain high and the recovery of the banking sector, particularly in Europe, with 'Mitsubishi bank grew their earnings with their loan book 10% last year.'",
+    "falsification_tracks": [
+      "If the S&P 500's earnings growth rate falls below the historical average of 8% for two consecutive quarters, it would challenge the bullish thesis.",
+      "A sustained rise in interest rates above 5% could reduce the justification for higher P/E ratios, undermining the thesis.",
+      "Should global semiconductor demand decline significantly, it would affect the earnings growth projection of the S&P 500.",
+      "A drop in oil prices below $60 per barrel for an extended period could negate the positive surprise potential in the energy sector.",
+      "A decline in European banks' earnings growth to below 3% could signal a weaker recovery than anticipated."
+    ],
+    "insight_title": "What If It\u2019s Still Early? | Erik YWR on $10,000 S&P 500 by 2027 Case, Hyperscaler ROIC, AI CapEx, Semis, Exchanges, and Reverse Crash Risk In \u201cProject Zimbabwe\u201d",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-07-02",
+    "key_tickers": [
+      "NVDA"
+    ]
   }
 },
   suggestedTerms: [
@@ -30261,7 +30345,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 24673,
+    "id": 24759,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -30273,7 +30357,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24674,
+    "id": 24760,
+    "name": "What If It\u2019s Still Early?",
+    "slug": "what-if-its-still-early",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The S&P 500 is projected to reach 10,000 due to accelerating earnings growth and a favorable economic environment, justifying higher P/E ratios and making equities more attractive.",
+    "last_episode_title": "What If It\u2019s Still Early? | Erik YWR on $10,000 S&P 500 by 2027 Case, Hyperscaler ROIC, AI CapEx, Semis, Exchanges, and Reverse Crash Risk In \u201cProject Zimbabwe\u201d",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-07-02",
+    "appearance_count": 1
+  },
+  {
+    "id": 24761,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -30285,7 +30381,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24675,
+    "id": 24762,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -30297,7 +30393,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24676,
+    "id": 24763,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -30309,7 +30405,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24677,
+    "id": 24764,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -30321,7 +30417,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24678,
+    "id": 24765,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -30333,7 +30429,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24679,
+    "id": 24766,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -30345,7 +30441,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24680,
+    "id": 24767,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -30357,7 +30453,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24681,
+    "id": 24768,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -30369,7 +30465,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24682,
+    "id": 24769,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -30381,7 +30477,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 24683,
+    "id": 24770,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -30393,7 +30489,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24684,
+    "id": 24771,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -30405,7 +30501,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24685,
+    "id": 24772,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -30417,7 +30513,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24686,
+    "id": 24773,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -30429,7 +30525,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24687,
+    "id": 24774,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -30441,7 +30537,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24688,
+    "id": 24775,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -30453,7 +30549,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24689,
+    "id": 24776,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -30465,7 +30561,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24690,
+    "id": 24777,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -30477,7 +30573,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24691,
+    "id": 24778,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -30485,18 +30581,6 @@ const dashboardData = {
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_episode_title": "\u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-06-07",
-    "appearance_count": 1
-  },
-  {
-    "id": 24692,
-    "name": "Inside the Private Stock Market Boom",
-    "slug": "inside-the-private-stock-market-boom",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in rapidly growing private AI companies and consider secondary market transactions for liquidity and potential gains.",
-    "last_episode_title": "Inside the Private Stock Market Boom: SpaceX, Anthropic, OpenAI & the Rise of Secondaries",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-07",
     "appearance_count": 1
   }
@@ -30830,7 +30914,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 1.07,
+    "mention_score_decayed": 1.05,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -30968,7 +31052,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -31156,7 +31240,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -31842,7 +31926,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -31901,7 +31985,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -32275,7 +32359,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -32339,7 +32423,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -32465,7 +32549,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-23 \u2022 What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
     "last_proof_snippet": "Right now AI has been so much about productivity, job replacement, work replacement and I think we have a moment to shift that, which is how does these new tools help you get more out of your own day and your own life and the things you wan",
@@ -33142,7 +33226,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -33332,7 +33416,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-15 \u2022 AI, Design, and the Power of Open Models",
     "last_proof_snippet": "It's not about how good a model is in the general sense. It's about how good is this model for my use case, for a lot of design and marketing use case says they need editable design, not a single flat image. It's super impressive, honestly,",
@@ -33516,7 +33600,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -33584,7 +33668,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -33652,7 +33736,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-10 \u2022 America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. There's a very, very large player in global finance that almost no one knows about. The development finance corporation, it just had its reautho",
@@ -33711,7 +33795,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -33775,7 +33859,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -33969,7 +34053,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -34056,7 +34140,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -34181,7 +34265,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -34682,7 +34766,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -34992,7 +35076,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -35056,7 +35140,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -35119,7 +35203,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -36181,7 +36265,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -36244,7 +36328,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",

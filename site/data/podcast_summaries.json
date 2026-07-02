@@ -1,5 +1,24 @@
 [
   {
+    "id": 328,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "What If It\u2019s Still Early? | Erik YWR on $10,000 S&P 500 by 2027 Case, Hyperscaler ROIC, AI CapEx, Semis, Exchanges, and Reverse Crash Risk In \u201cProject Zimbabwe\u201d",
+    "episode_date": "2026-07-02",
+    "summary": "In this episode of Monetary Matters, Eric from YWR discusses the bullish thesis on the S&P 500, projecting it to reach 10,000 due to accelerating earnings growth and favorable economic conditions. The current earnings growth rate for the S&P is significantly higher than the historical average, justifying higher P/E ratios. Eric also highlights the semiconductor sector as a key driver of earnings growth, with NVIDIA being a notable company in AI. Additionally, he discusses the potential for positive surprises in the energy sector and the recovery of the banking sector, particularly in Europe. Eric views the current market as a bull market rather than a speculative bubble and suggests that Chinese tech stocks are undervalued.",
+    "key_takeaways": [
+      "Eric maintains a bullish thesis on the S&P 500, projecting it could reach 10,000.",
+      "The current earnings growth rate for the S&P is estimated at 12-15%, significantly higher than the historical average of 8%.",
+      "Low interest rates combined with high nominal growth rates justify a higher P/E ratio, potentially reaching 25-30.",
+      "The semiconductor sector is highlighted as a key driver of earnings growth, with NVIDIA potentially justifying high valuations due to their role in AI.",
+      "Eric suggests that the current market environment resembles a prolonged bull market rather than a speculative bubble.",
+      "Chinese tech stocks are viewed as undervalued, with potential for significant upside if consumer sentiment improves and capital flows back into equities."
+    ],
+    "investment_thesis": "The S&P 500 is projected to reach 10,000 due to accelerating earnings growth and a favorable economic environment, justifying higher P/E ratios and making equities more attractive.",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  {
     "id": 327,
     "podcast_name": "The a16z Show",
     "episode_title": "Outsmarting Uber: Why Bolt Wins in Europe",
@@ -115,25 +134,5 @@
     ],
     "investment_thesis": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "key_tickers": null
-  },
-  {
-    "id": 319,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "Why the US Government Is Blocking Model Releases (GPT-5.6) | #267",
-    "episode_date": "2026-06-29",
-    "summary": "This episode of 'Moonshots with Peter Diamandis' discusses the implications of government control over AI access, the risks of AI model distillation and intellectual property theft, advances in drone technology for wildfire detection, and the U.S. government's investments in quantum computing. It also touches on lifestyle drugs for enhanced wakefulness and the potential of AI in video generation.",
-    "key_takeaways": [
-      "U.S. government control over AI access may stifle innovation and create competitive disadvantages.",
-      "AI model distillation by Alibaba raises concerns about IP theft and security of proprietary AI technologies.",
-      "Advances in drone technology could revolutionize wildfire detection and suppression.",
-      "Quantum computing investments by the U.S. government aim to maintain a competitive edge against China.",
-      "Eli Lilly's acquisition of Centessa Pharmaceuticals signals interest in drugs that enhance wakefulness.",
-      "AI advancements like ByteDance's C Dance 2.5 could disrupt traditional media and entertainment industries."
-    ],
-    "investment_thesis": "Invest in companies that are well-positioned to navigate government regulations in AI, enhance IP protection, and capitalize on advancements in drone technology, quantum computing, and AI-generated content.",
-    "key_tickers": [
-      "BABA",
-      "LLY"
-    ]
   }
 ]
