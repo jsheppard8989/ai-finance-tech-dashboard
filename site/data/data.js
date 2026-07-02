@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-01T22:03:14.805999",
-  chartsVersion: "2026-07-01T22:03:02.407682",
+  generatedAt: "2026-07-01T23:38:43.456572",
+  chartsVersion: "2026-07-01T23:38:39.421409",
   priceSnapshot: {
   "GOOGL": {
     "price": 361.21,
     "change_pct": 0.96,
     "name": "GOOGL",
-    "updated_at": "2026-07-01T22:03:02.406887"
+    "updated_at": "2026-07-01T23:38:39.420881"
   },
   "BTC": {
-    "price": 60370.05,
-    "change_pct": -4.99,
+    "price": 60724.01,
+    "change_pct": -4.43,
     "name": "BTC",
-    "updated_at": "2026-07-01T22:03:02.406903"
+    "updated_at": "2026-07-01T23:38:39.420892"
   },
   "MSFT": {
     "price": 384.28,
     "change_pct": -1.55,
     "name": "MSFT",
-    "updated_at": "2026-07-01T22:03:02.406910"
+    "updated_at": "2026-07-01T23:38:39.420896"
   },
   "NVDA": {
     "price": 197.58,
     "change_pct": -3.56,
     "name": "NVDA",
-    "updated_at": "2026-07-01T22:03:02.406916"
+    "updated_at": "2026-07-01T23:38:39.420900"
   },
   "AMZN": {
     "price": 241.7,
     "change_pct": 0.08,
     "name": "AMZN",
-    "updated_at": "2026-07-01T22:03:02.406922"
+    "updated_at": "2026-07-01T23:38:39.420903"
   },
   "TSLA": {
     "price": 425.3,
     "change_pct": 6.55,
     "name": "TSLA",
-    "updated_at": "2026-07-01T22:03:02.406927"
+    "updated_at": "2026-07-01T23:38:39.420906"
   },
   "WTI": {
     "price": 3.08,
     "change_pct": -25.06,
     "name": "WTI",
-    "updated_at": "2026-07-01T22:03:02.406933"
+    "updated_at": "2026-07-01T23:38:39.420910"
   },
   "META": {
     "price": 612.91,
     "change_pct": 7.92,
     "name": "META",
-    "updated_at": "2026-07-01T22:03:02.406938"
+    "updated_at": "2026-07-01T23:38:39.420914"
   },
   "S&P 500": {
     "price": 745.76,
     "change_pct": 1.34,
     "name": "S&P 500",
-    "updated_at": "2026-07-01T22:03:02.406943"
+    "updated_at": "2026-07-01T23:38:39.420917"
   },
   "AAPL": {
     "price": 294.38,
     "change_pct": -0.42,
     "name": "AAPL",
-    "updated_at": "2026-07-01T22:03:02.406948"
+    "updated_at": "2026-07-01T23:38:39.420920"
   },
   "QQQ": {
     "price": 725.17,
     "change_pct": 1.23,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-01T22:03:02.406954"
+    "updated_at": "2026-07-01T23:38:39.420923"
   },
   "BTC-USD": {
-    "price": 60371.54,
-    "change_pct": -4.99,
+    "price": 60724.01,
+    "change_pct": -4.43,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-01T22:03:02.406960"
+    "updated_at": "2026-07-01T23:38:39.420927"
   }
 },
   tickerScores: [
@@ -726,7 +726,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "NOW",
+    "ticker": "MS",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -741,7 +741,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PANW",
+    "ticker": "NOW",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -756,7 +756,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SMP-500",
+    "ticker": "PANW",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -771,7 +771,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SPCE",
+    "ticker": "SMP-500",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -786,14 +786,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRM",
-    "total_score": 68.0,
+    "ticker": "SPCE",
+    "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 48,
-    "score": 68.0,
+    "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -801,7 +801,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "MINE",
+    "ticker": "CRM",
     "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -816,14 +816,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ETH",
-    "total_score": 66.0,
+    "ticker": "MINE",
+    "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 50,
-    "score": 66.0,
+    "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -870,6 +870,26 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 325
+    },
+    {
+      "id": 341,
+      "title": "Sonnet 5 Drops, Fable 5 Will Return & Fusion's First Plant Gets Licensed w/ Philip Johnston | #268",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-07-01",
+      "summary": "This episode of Moonshots with Peter Diamandis discusses the rapid growth of the robotics market, particularly in China, the advancements in fusion energy with Helion's Orion fusion power plant, the increasing use of drones in law enforcement, Switzerland's reversal on nuclear energy, and Rocket Lab's vertical integration strategy. These discussions highlight the potential investment opportunities in robotics, fusion energy, drone technology, nuclear energy, and space industry vertical integration.",
+      "key_takeaway": "Invest in companies at the forefront of robotics, fusion energy, drone technology, nuclear energy, and space industry vertical integration to capitalize on the growth of emerging technologies.",
+      "tickers_mentioned": [
+        "MS",
+        "RKLB"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 326
     },
     {
       "id": 336,
@@ -967,7 +987,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-29",
       "archived_date": null,
@@ -7307,8 +7327,8 @@ const dashboardData = {
       "term": "ASI",
       "description": "An intellect that is much smarter than the best human brains in practically every field, including scientific creativity, general wisdom, and social skills.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-06-29",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-07-01",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "ASI represents a paradigm shift; investors should monitor advancements closely as it could lead to significant economic and societal changes.",
@@ -7317,7 +7337,7 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 319,
+      "last_mentioned_episode_id": 326,
       "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
@@ -7649,8 +7669,8 @@ const dashboardData = {
       "term": "Dyson Swarm",
       "description": "A hypothetical structure proposed by Freeman Dyson, consisting of a large number of objects in space designed to capture the energy of a star, in this context possibly referring to SpaceX's ambitions.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-06-29",
-      "mention_count": 19,
+      "last_mentioned_date": "2026-07-01",
+      "mention_count": 20,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential of space-based infrastructure and energy capture technologies.",
@@ -7659,7 +7679,7 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 319,
+      "last_mentioned_episode_id": 326,
       "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
@@ -7739,8 +7759,8 @@ const dashboardData = {
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-06-30",
-      "mention_count": 32,
+      "last_mentioned_date": "2026-07-01",
+      "mention_count": 33,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -7749,7 +7769,7 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 322,
+      "last_mentioned_episode_id": 326,
       "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
@@ -7757,8 +7777,8 @@ const dashboardData = {
       "term": "Distillation",
       "description": "The process of reducing a large AI model into a smaller, more manageable one through API queries.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-06-30",
-      "mention_count": 18,
+      "last_mentioned_date": "2026-07-01",
+      "mention_count": 19,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Look for opportunities in technologies that enable efficient distillation to democratize AI capabilities.",
@@ -7767,7 +7787,7 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 322,
+      "last_mentioned_episode_id": 326,
       "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
@@ -7865,8 +7885,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-06-30",
-      "mention_count": 47,
+      "last_mentioned_date": "2026-07-01",
+      "mention_count": 48,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -7875,7 +7895,7 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 322,
+      "last_mentioned_episode_id": 326,
       "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
@@ -8963,8 +8983,8 @@ const dashboardData = {
       "term": "AI Agents",
       "description": "Software entities that perform tasks autonomously, often used in AI and machine learning workflows.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-06-29",
-      "mention_count": 45,
+      "last_mentioned_date": "2026-07-01",
+      "mention_count": 46,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AI agents can automate complex processes, reducing costs and increasing efficiency in various sectors.",
@@ -8973,7 +8993,7 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 319,
+      "last_mentioned_episode_id": 326,
       "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
@@ -9279,6 +9299,29 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 341,
+      "title": "Sonnet 5 Drops, Fable 5 Will Return & Fusion's First Plant Gets Licensed w/ Philip Johnston | #268",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-07-01",
+      "summary": "This episode of Moonshots with Peter Diamandis discusses the rapid growth of the robotics market, particularly in China, the advancements in fusion energy with Helion's Orion fusion power plant, the increasing use of drones in law enforcement, Switzerland's reversal on nuclear energy, and Rocket Lab's vertical integration strategy. These discussions highlight the potential investment opportunities in robotics, fusion energy, drone technology, nuclear energy, and space industry vertical integration.",
+      "key_takeaway": "Invest in companies at the forefront of robotics, fusion energy, drone technology, nuclear energy, and space industry vertical integration to capitalize on the growth of emerging technologies.",
+      "tickers_mentioned": "[\"MS\", \"RKLB\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 326,
+      "episode_release_date": "2026-07-01",
+      "guest_name": null,
+      "key_tickers": [
+        "MS",
+        "RKLB"
+      ]
+    },
+    {
       "id": 336,
       "title": "Building AI for Creators | Luma & Phota Labs",
       "source_type": "podcast",
@@ -9336,26 +9379,6 @@ const dashboardData = {
       "podcast_episode_id": 323,
       "episode_release_date": "2026-06-30",
       "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 333,
-      "title": "Nate Silver Predicts: Democrats Take the House, Newsom Is Fading & AOC Might Win It All in 2028",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-06-29",
-      "summary": "This episode of 'All-In with Chamath, Jason, Sacks & Friedberg' delves into the forces shaping U.S. elections, including polarization and partisanship, and their impact on voter behavior. The discussion extends to the California election system's inefficiencies, internal divisions within the Democratic Party, and the growing disillusionment of youth with capitalism. The panel also touches on the role of social media in political discourse and provides predictions for the upcoming midterm elections, offering insights into how these factors can influence investment strategies.",
-      "key_takeaway": "Invest in organizations that demonstrate strong leadership and a track record of success, and prepare for potential policy shifts based on midterm election outcomes.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-29",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 318,
-      "episode_release_date": "2026-06-29",
-      "guest_name": "Nate Silver Predicts",
       "key_tickers": []
     },
     {
@@ -9530,8 +9553,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-06-30",
-      "mention_count": 47,
+      "last_mentioned_date": "2026-07-01",
+      "mention_count": 48,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -9540,24 +9563,24 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 322,
+      "last_mentioned_episode_id": 326,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "overton_score": 45.93,
+      "overton_score": 48.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Dwarkesh Podcast",
-      "last_mentioned_episode_title": "Grant Sanderson \u2013 AI and the future of math",
-      "last_mentioned_episode_date": "2026-06-30"
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Sonnet 5 Drops, Fable 5 Will Return & Fusion's First Plant Gets Licensed w/ Philip Johnston | #268",
+      "last_mentioned_episode_date": "2026-07-01"
     },
     {
       "id": 10,
       "term": "Dyson Swarm",
       "description": "A hypothetical structure proposed by Freeman Dyson, consisting of a large number of objects in space designed to capture the energy of a star, in this context possibly referring to SpaceX's ambitions.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-06-29",
-      "mention_count": 19,
+      "last_mentioned_date": "2026-07-01",
+      "mention_count": 20,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential of space-based infrastructure and energy capture technologies.",
@@ -9566,16 +9589,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 319,
+      "last_mentioned_episode_id": 326,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "overton_score": 18.14,
+      "overton_score": 20.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
       "first_detected_episode_date": "2026-05-23",
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Why the US Government Is Blocking Model Releases (GPT-5.6) | #267",
-      "last_mentioned_episode_date": "2026-06-29"
+      "last_mentioned_episode_title": "Sonnet 5 Drops, Fable 5 Will Return & Fusion's First Plant Gets Licensed w/ Philip Johnston | #268",
+      "last_mentioned_episode_date": "2026-07-01"
     },
     {
       "id": 234,
@@ -30051,9 +30074,90 @@ const dashboardData = {
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-07-01",
     "key_tickers": []
+  },
+  "341": {
+    "id": 331,
+    "insight_id": 341,
+    "podcast_episode_id": 326,
+    "overview": "The competitive dynamic in emerging technologies is intensifying, with robotics, fusion energy, drone technology, nuclear energy, and space industry vertical integration at the forefront. The unresolved tension lies in the pace of adoption and scalability of these technologies, which will determine winners and losers in the market. The allocation tradeoff is between established industries and these emerging sectors, with the horizon of proof being the successful commercial deployment and scalability of these technologies.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the deployment numbers of robots in China as a leading indicator of the robotics market's growth trajectory.",
+      "Keep an eye on Helion's regulatory and technical progress as a proxy for the broader fusion energy sector's development.",
+      "Assess the regulatory environment and public perception of drones in law enforcement, as these factors will influence the adoption rate and market potential.",
+      "Scrutinize policy shifts in nuclear energy, particularly in Europe, as they could signal a broader trend and impact the energy market landscape.",
+      "Evaluate the competitive positioning of companies pursuing vertical integration in the space industry, considering the potential for synergies and market dominance."
+    ],
+    "investment_thesis": "Investing in the vanguard of robotics, fusion energy, drone technology, nuclear energy, and space industry vertical integration is predicated on the rapid growth and successful commercialization of these technologies. The timeframe for vindication is within the next decade, with observable developments such as regulatory approvals, successful power plant operations, and significant market share gains in robotics and drone deployment serving as validation points.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's foray into autonomous systems and potential investments in next-gen energy technologies make it relevant to the thesis.",
+        "positioning": "Strategic long position, considering Apple's ability to disrupt and lead in new technology adoption.",
+        "risk": "Key risks include slower-than-expected technology adoption and increased competition in the robotics and energy sectors."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A potential economic downturn could reduce investment in emerging technologies, affecting the growth of the robotics and fusion energy markets.",
+      "Regulatory hurdles could slow the deployment of drones in law enforcement and the construction of new nuclear plants.",
+      "Technological setbacks in fusion energy could delay or derail the anticipated growth of this sector.",
+      "Geopolitical tensions could impact the space industry, affecting companies like Rocket Lab."
+    ],
+    "catalysts": [
+      "Morgan Stanley's next revision of robotics market projections.",
+      "Helion's progress reports on the Orion fusion power plant construction and operation.",
+      "U.S. law enforcement's official reports on drone usage effectiveness.",
+      "Switzerland's policy updates on nuclear energy and potential by other European countries.",
+      "Rocket Lab's announcements regarding their vertical integration strategy and any new milestones achieved."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-01T23:37:57.539532",
+    "updated_at": "2026-07-02 04:37:57",
+    "episode_evidence": "The robotics market is experiencing exponential growth, particularly in China, where Morgan Stanley has revised its projection from 14,000 to 50,000 robots by 2030, with Elon Musk suggesting even tens of millions could be deployed. This surge is driven by the automation of sectors like construction and biotech, with a specific mention of a $20 billion market potential for gutter cleaning and window washing robots. In the realm of fusion energy, Helion's Orion fusion power plant has obtained regulatory approval, a significant milestone, as it is set to supply Microsoft with 50 megawatts of power by 2028. This advancement could be a game-changer for clean energy. 'Morgan Stanley had originally predicted 14,000 Chinese robots... now they've just opted to 50,000 and projecting 500,000 robots by 2030,' highlighting the scale of market expansion. 'Helion cleared the required Washington state regulatory approvals for its Orion fusion power plant... intended to supply Microsoft with 50 megawatts of power starting in 2028,' indicating a concrete step towards commercializing fusion energy.",
+    "falsification_tracks": [
+      "Should the number of robots deployed in China fall significantly below Morgan Stanley's revised projections for consecutive years, it would challenge the bullish outlook on the robotics market.",
+      "Failure of Helion's Orion fusion power plant to meet its 2028 deadline for supplying power to Microsoft would cast doubt on the viability of current fusion energy technology.",
+      "A significant decrease in the use of drones by U.S. law enforcement, or a failure to provide useful information in high percentages of cases, would undermine the case for increased drone deployment.",
+      "If Switzerland or other European countries revert to their previous stance against nuclear energy, it would signal a potential decline in nuclear energy investment opportunities.",
+      "Any major setbacks or delays in Rocket Lab's vertical integration strategy could diminish the competitive advantage they aim to achieve in the space industry."
+    ],
+    "insight_title": "Sonnet 5 Drops, Fable 5 Will Return & Fusion's First Plant Gets Licensed w/ Philip Johnston | #268",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-07-01",
+    "key_tickers": [
+      "MS",
+      "RKLB"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 482,
+    "term": "Fusion Energy Advancements",
+    "definition": "The development and deployment of fusion energy technology, which has the potential to provide a clean and abundant energy source.",
+    "investment_implications": "Investments in fusion energy companies could offer significant returns if the technology becomes commercially viable.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-02 04:37:12",
+    "priority_score": 80
+  },
+  {
+    "id": 483,
+    "term": "Vertical Integration in Space",
+    "definition": "A strategy where a company controls multiple steps in the production and distribution of its products, in this case, combining launch capabilities with satellite operations and RF spectrum ownership.",
+    "investment_implications": "Investing in companies with vertical integration in the space industry could provide a competitive advantage and potential for higher profitability.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-02 04:37:12",
+    "priority_score": 80
+  },
   {
     "id": 479,
     "term": "Pearl Model",
@@ -30077,35 +30181,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-01 18:38:33",
     "priority_score": 80
-  },
-  {
-    "id": 481,
-    "term": "Feedback Loop Between AI and Experimental Data",
-    "definition": "The integration of AI predictions with experimental results to create a continuous feedback loop that enhances model accuracy and drug discovery outcomes.",
-    "investment_implications": "Investments in AI-driven drug discovery platforms that incorporate experimental data can lead to rapid improvements in drug candidate development.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-01 18:38:33",
-    "priority_score": 80
-  },
-  {
-    "id": 477,
-    "term": "Vibe Coding",
-    "definition": "Rick Rubin's concept of merging ancient wisdom with modern technology to enhance the creative process, emphasizing creativity as a remixing process rather than starting from scratch.",
-    "investment_implications": "Understanding and investing in technologies that facilitate creative processes can lead to new forms of artistic expression and cultural products.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-01 17:05:05",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 24333,
+    "id": 24418,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -30117,7 +30197,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24334,
+    "id": 24419,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -30129,7 +30209,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24335,
+    "id": 24420,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -30141,7 +30221,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24336,
+    "id": 24421,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -30153,7 +30233,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24337,
+    "id": 24422,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -30165,7 +30245,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24338,
+    "id": 24423,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -30177,7 +30257,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24339,
+    "id": 24424,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -30189,7 +30269,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24340,
+    "id": 24425,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -30201,7 +30281,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24341,
+    "id": 24426,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -30213,7 +30293,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 24342,
+    "id": 24427,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -30225,7 +30305,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24343,
+    "id": 24428,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -30237,7 +30317,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24344,
+    "id": 24429,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -30249,7 +30329,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24345,
+    "id": 24430,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -30261,7 +30341,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24346,
+    "id": 24431,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -30273,7 +30353,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24347,
+    "id": 24432,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -30285,7 +30365,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24348,
+    "id": 24433,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -30297,7 +30377,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24349,
+    "id": 24434,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -30309,7 +30389,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24350,
+    "id": 24435,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -30321,7 +30401,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24351,
+    "id": 24436,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -30333,7 +30413,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24352,
+    "id": 24437,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -30552,7 +30632,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 1.45,
+    "mention_score_decayed": 1.41,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -31869,7 +31949,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-29 \u2022 Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
     "last_proof_snippet": "I am so glad today we have a very special guest, one of my favorite authors of all time Leakwet Ahamed, who's the author of the new book 1873, The Roth Childs, The First Great Depression, and The Making of the Modern World Leakwet. Welcome",
@@ -31996,7 +32076,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
     "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
@@ -32310,7 +32390,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-22 \u2022 Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
     "last_proof_snippet": "Okay, we're here in a studio with Grace One, Matt and Zico welcome. Great to be here. Yeah. Thanks for having us. You're visiting from Pittsburgh? That's right. The home of all good computer science, I don't know if I'm oversteaving things.",
@@ -32373,7 +32453,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -32437,7 +32517,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -32496,7 +32576,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -32555,7 +32635,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -32620,7 +32700,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -32683,7 +32763,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -33049,7 +33129,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -33897,7 +33977,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -37466,7 +37546,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -37974,7 +38054,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -39534,7 +39614,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_proof_snippet": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",

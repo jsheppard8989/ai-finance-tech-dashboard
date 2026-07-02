@@ -1,5 +1,24 @@
 [
   {
+    "id": 326,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Sonnet 5 Drops, Fable 5 Will Return & Fusion's First Plant Gets Licensed w/ Philip Johnston | #268",
+    "episode_date": "2026-07-01",
+    "summary": "This episode of Moonshots with Peter Diamandis discusses the rapid growth of the robotics market, particularly in China, the advancements in fusion energy with Helion's Orion fusion power plant, the increasing use of drones in law enforcement, Switzerland's reversal on nuclear energy, and Rocket Lab's vertical integration strategy. These discussions highlight the potential investment opportunities in robotics, fusion energy, drone technology, nuclear energy, and space industry vertical integration.",
+    "key_takeaways": [
+      "Invest in robotics companies, especially those focused on humanoid and industrial applications.",
+      "Monitor developments in fusion energy and consider investments in companies like Helion.",
+      "Explore opportunities in drone technology for law enforcement and public safety applications.",
+      "Investigate investments in nuclear energy companies as Europe shifts towards nuclear power.",
+      "Evaluate companies pursuing vertical integration in the space industry, such as Rocket Lab."
+    ],
+    "investment_thesis": "Invest in companies at the forefront of robotics, fusion energy, drone technology, nuclear energy, and space industry vertical integration to capitalize on the growth of emerging technologies.",
+    "key_tickers": [
+      "MS",
+      "RKLB"
+    ]
+  },
+  {
     "id": 325,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "\ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
@@ -114,23 +133,5 @@
       "BABA",
       "LLY"
     ]
-  },
-  {
-    "id": 318,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "Nate Silver Predicts: Democrats Take the House, Newsom Is Fading & AOC Might Win It All in 2028",
-    "episode_date": "2026-06-29",
-    "summary": "This episode of 'All-In with Chamath, Jason, Sacks & Friedberg' delves into the forces shaping U.S. elections, including polarization and partisanship, and their impact on voter behavior. The discussion extends to the California election system's inefficiencies, internal divisions within the Democratic Party, and the growing disillusionment of youth with capitalism. The panel also touches on the role of social media in political discourse and provides predictions for the upcoming midterm elections, offering insights into how these factors can influence investment strategies.",
-    "key_takeaways": [
-      "Polarization and partisanship in U.S. elections allow for high confidence predictions about voter behavior.",
-      "The New York Knicks' success highlights the importance of coaching, player performance, and playoff experience, which can be applied to business models.",
-      "The inefficiencies in California's election system, particularly the delayed counting of mail-in ballots, raise concerns about transparency and perceptions of impropriety.",
-      "Internal divisions within the Democratic Party, ranging from the far-left to centrist factions, impact electoral strategies and candidate selection.",
-      "Youth disillusionment with capitalism, influenced by economic anxieties and student debt, could drive political shifts and future electoral outcomes.",
-      "Social media algorithms create filter bubbles that reinforce partisan views and limit exposure to diverse opinions, affecting public sentiment and elections.",
-      "Predictions for the midterms suggest a strong likelihood of Democratic control in the House and a competitive Senate landscape, influenced by economic conditions and voter sentiment."
-    ],
-    "investment_thesis": "Invest in organizations that demonstrate strong leadership and a track record of success, and prepare for potential policy shifts based on midterm election outcomes.",
-    "key_tickers": null
   }
 ]
