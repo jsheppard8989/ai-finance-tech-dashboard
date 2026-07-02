@@ -1,5 +1,23 @@
 [
   {
+    "id": 327,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Outsmarting Uber: Why Bolt Wins in Europe",
+    "episode_date": "2026-07-02",
+    "summary": "This episode of The a16z Show features a discussion on Bolt, a mobility services company operating in over 50 countries. The conversation covers Bolt's capital efficiency, its pivot from working with taxi companies to partnering directly with drivers, and its strategic approach to expansion. Insights include the importance of understanding local markets, the potential of autonomous vehicles, and the use of AI to enhance productivity. The episode also touches on Bolt's success during COVID-19 and its commitment to vertical integration.",
+    "key_takeaways": [
+      "Bolt's capital efficiency is a competitive advantage, allowing it to innovate and adapt quickly.",
+      "Understanding local markets is crucial for tailoring services effectively and gaining market share.",
+      "Sequential market expansion reduces risk and allows for the development of a replicable playbook.",
+      "AI can enhance productivity and reduce costs, improving a company's competitive positioning.",
+      "The transition to autonomous vehicles presents a significant growth opportunity for mobility companies."
+    ],
+    "investment_thesis": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
+    "key_tickers": [
+      "UBER"
+    ]
+  },
+  {
     "id": 326,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Sonnet 5 Drops, Fable 5 Will Return & Fusion's First Plant Gets Licensed w/ Philip Johnston | #268",
@@ -96,22 +114,6 @@
       "Traditional creative tools will coexist with AI tools, serving different user needs."
     ],
     "investment_thesis": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
-    "key_tickers": null
-  },
-  {
-    "id": 320,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
-    "episode_date": "2026-06-29",
-    "summary": "In this episode, Jack Farley discusses the 1873 financial crisis, triggered by a shift from a bi-metallic to a gold standard, and its parallels with today's AI and data center investment boom. The conversation highlights the dangers of excessive leverage and mismanaged monetary policy, drawing lessons from the past to inform current investment strategies. The episode also explores the global nature of the AI boom and its potential to lead to similar economic excesses and corrections.",
-    "key_takeaways": [
-      "Monitor central bank policies for potential shifts in monetary standards.",
-      "Assess leverage levels in capital-intensive sectors to gauge risk exposure.",
-      "Conduct thorough market analysis to identify signs of over-investment.",
-      "Diversify investments across global markets, especially in emerging technologies.",
-      "Stay informed about political and economic trends influencing market stability."
-    ],
-    "investment_thesis": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
     "key_tickers": null
   },
   {

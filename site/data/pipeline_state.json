@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-07-02T06:36:23.371712",
-  "last_updated": "2026-07-02T06:36:23.371712",
-  "last_pipeline_run": "2026-07-02T06:36:23.371712",
+  "generated_at": "2026-07-02T12:05:08.970873",
+  "last_updated": "2026-07-02T12:05:08.970873",
+  "last_pipeline_run": "2026-07-02T12:05:08.970873",
   "main_page": {
     "overton": 13,
     "insights": 8,
-    "pundits": 199
+    "pundits": 200
   },
   "counts": {
     "ticker_mentions": 200,
-    "podcast_episodes": 299,
+    "podcast_episodes": 300,
     "newsletters": 7,
     "daily_scores": 138,
     "overton_terms_total": 107,
-    "latest_insights_total": 313,
+    "latest_insights_total": 314,
     "today_mentions": {
       "podcast": 1
     },
-    "podcasts_analyzed": 0
+    "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 0,
-    "analyzed": 0,
-    "insight_created": 0,
-    "published": 0,
-    "total": 1
+    "downloaded": 2,
+    "transcribed": 1,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 2
   },
   "episodes": [
     {
-      "id": "9edcf308-10fd-487c-a565-7f46fa45d27d",
-      "podcast": "The a16z Show",
-      "title": "Outsmarting Uber: Why Bolt Wins in Europe",
+      "id": "2611ab4e-757a-11f1-a8a4-23911c08f59d",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "What If It\u2019s Still Early? | Erik YWR on $10,000 S&P 500 by 2027 Case, Hyperscaler ROIC, AI CapEx, Semis, Exchanges, and Reverse Crash Risk In \u201cProject Zimbabwe\u201d",
       "published": "2026-07-02",
-      "rss_guid": "9edcf308-10fd-487c-a565-7f46fa45d27d",
+      "rss_guid": "2611ab4e-757a-11f1-a8a4-23911c08f59d",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -98,13 +98,31 @@
         }
       },
       "status": "needs_transcription"
+    },
+    {
+      "id": "9edcf308-10fd-487c-a565-7f46fa45d27d",
+      "podcast": "The a16z Show",
+      "title": "Outsmarting Uber: Why Bolt Wins in Europe",
+      "published": "2026-07-02",
+      "rss_guid": "9edcf308-10fd-487c-a565-7f46fa45d27d",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
     }
   ],
   "available_from_rss": [
     {
-      "podcast": "The a16z Show",
-      "title": "Outsmarting Uber: Why Bolt Wins in Europe",
-      "published": "Thu, 2 Jul 2026 10:00:00 +0000",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "What If It\u2019s Still Early? | Erik YWR on $10,000 S&P 500 by 2027 Case, Hyperscaler ROIC, AI CapEx, Semis, Exchanges, and Reverse Crash Risk In \u201cProject Zimbabwe\u201d",
+      "published": "Thu, 02 Jul 2026 13:33:00 -0000",
       "published_date": "2026-07-02",
       "rss_guid": ""
     }

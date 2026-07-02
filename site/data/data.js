@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-02T06:36:34.025168",
-  chartsVersion: "2026-07-02T06:36:19.701108",
+  generatedAt: "2026-07-02T12:05:23.705071",
+  chartsVersion: "2026-07-02T12:05:05.318465",
   priceSnapshot: {
   "GOOGL": {
-    "price": 361.21,
-    "change_pct": 0.96,
+    "price": 353.83,
+    "change_pct": -1.63,
     "name": "GOOGL",
-    "updated_at": "2026-07-02T06:36:19.699905"
+    "updated_at": "2026-07-02T12:05:05.317281"
   },
   "BTC": {
-    "price": 61216.33,
-    "change_pct": -3.66,
+    "price": 61619.54,
+    "change_pct": -3.02,
     "name": "BTC",
-    "updated_at": "2026-07-02T06:36:19.699925"
+    "updated_at": "2026-07-02T12:05:05.317303"
   },
   "MSFT": {
-    "price": 384.28,
-    "change_pct": -1.55,
+    "price": 389.3,
+    "change_pct": -0.37,
     "name": "MSFT",
-    "updated_at": "2026-07-02T06:36:19.699935"
+    "updated_at": "2026-07-02T12:05:05.317315"
   },
   "NVDA": {
-    "price": 197.58,
-    "change_pct": -3.56,
+    "price": 193.02,
+    "change_pct": -5.93,
     "name": "NVDA",
-    "updated_at": "2026-07-02T06:36:19.699943"
+    "updated_at": "2026-07-02T12:05:05.317326"
   },
   "AMZN": {
-    "price": 241.7,
-    "change_pct": 0.08,
+    "price": 243.99,
+    "change_pct": 2.28,
     "name": "AMZN",
-    "updated_at": "2026-07-02T06:36:19.699952"
+    "updated_at": "2026-07-02T12:05:05.317335"
   },
   "TSLA": {
-    "price": 425.3,
-    "change_pct": 6.55,
+    "price": 390.76,
+    "change_pct": -3.86,
     "name": "TSLA",
-    "updated_at": "2026-07-02T06:36:19.699960"
+    "updated_at": "2026-07-02T12:05:05.317345"
   },
   "WTI": {
-    "price": 3.08,
-    "change_pct": -25.06,
+    "price": 3.06,
+    "change_pct": -24.63,
     "name": "WTI",
-    "updated_at": "2026-07-02T06:36:19.699969"
+    "updated_at": "2026-07-02T12:05:05.317355"
   },
   "META": {
-    "price": 612.91,
-    "change_pct": 7.92,
+    "price": 584.88,
+    "change_pct": 3.25,
     "name": "META",
-    "updated_at": "2026-07-02T06:36:19.699977"
+    "updated_at": "2026-07-02T12:05:05.317364"
   },
   "S&P 500": {
-    "price": 745.76,
-    "change_pct": 1.34,
+    "price": 740.84,
+    "change_pct": 0.14,
     "name": "S&P 500",
-    "updated_at": "2026-07-02T06:36:19.699986"
+    "updated_at": "2026-07-02T12:05:05.317373"
   },
   "AAPL": {
-    "price": 294.38,
-    "change_pct": -0.42,
+    "price": 307.44,
+    "change_pct": 5.6,
     "name": "AAPL",
-    "updated_at": "2026-07-02T06:36:19.699994"
+    "updated_at": "2026-07-02T12:05:05.317382"
   },
   "QQQ": {
-    "price": 725.17,
-    "change_pct": 1.23,
+    "price": 709.25,
+    "change_pct": -1.57,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-02T06:36:19.700001"
+    "updated_at": "2026-07-02T12:05:05.317391"
   },
   "BTC-USD": {
-    "price": 61212.82,
-    "change_pct": -3.66,
+    "price": 61630.19,
+    "change_pct": -3.01,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-02T06:36:19.700011"
+    "updated_at": "2026-07-02T12:05:05.317401"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 342,
+      "title": "Outsmarting Uber: Why Bolt Wins in Europe",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-02",
+      "summary": "This episode of The a16z Show features a discussion on Bolt, a mobility services company operating in over 50 countries. The conversation covers Bolt's capital efficiency, its pivot from working with taxi companies to partnering directly with drivers, and its strategic approach to expansion. Insights include the importance of understanding local markets, the potential of autonomous vehicles, and the use of AI to enhance productivity. The episode also touches on Bolt's success during COVID-19 and its commitment to vertical integration.",
+      "key_takeaway": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
+      "tickers_mentioned": [
+        "UBER"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 327
+    },
+    {
       "id": 339,
       "title": "Rick Rubin on AI, Creativity, and The Way of Code",
       "source_type": "podcast",
@@ -1006,7 +1025,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-29",
       "archived_date": null,
@@ -8261,20 +8280,20 @@ const dashboardData = {
     {
       "id": 89,
       "term": "Autonomous Vehicles (AVs)",
-      "description": "Self-driving vehicles that use sensors, cameras, and artificial intelligence to navigate without human input.",
+      "description": "Self-driving vehicles that use sensors, cameras, and AI to navigate and operate without human input.",
       "first_detected_date": "2026-04-03",
-      "last_mentioned_date": "2026-04-03",
-      "mention_count": 1,
+      "last_mentioned_date": "2026-07-02",
+      "mention_count": 2,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider companies developing AV technology and related infrastructure as potential growth areas.",
+      "investment_implications": "The transition to AVs presents a significant growth opportunity for mobility companies that can leverage their existing infrastructure.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 327,
+      "last_mentioned_speaker": "Marcus Villik"
     },
     {
       "id": 90,
@@ -9259,6 +9278,28 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 342,
+      "title": "Outsmarting Uber: Why Bolt Wins in Europe",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-02",
+      "summary": "This episode of The a16z Show features a discussion on Bolt, a mobility services company operating in over 50 countries. The conversation covers Bolt's capital efficiency, its pivot from working with taxi companies to partnering directly with drivers, and its strategic approach to expansion. Insights include the importance of understanding local markets, the potential of autonomous vehicles, and the use of AI to enhance productivity. The episode also touches on Bolt's success during COVID-19 and its commitment to vertical integration.",
+      "key_takeaway": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
+      "tickers_mentioned": "[\"UBER\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 327,
+      "episode_release_date": "2026-07-02",
+      "guest_name": "Outsmarting Uber",
+      "key_tickers": [
+        "UBER"
+      ]
+    },
+    {
       "id": 339,
       "title": "Rick Rubin on AI, Creativity, and The Way of Code",
       "source_type": "podcast",
@@ -9378,26 +9419,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 323,
       "episode_release_date": "2026-06-30",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 334,
-      "title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-06-29",
-      "summary": "In this episode, Jack Farley discusses the 1873 financial crisis, triggered by a shift from a bi-metallic to a gold standard, and its parallels with today's AI and data center investment boom. The conversation highlights the dangers of excessive leverage and mismanaged monetary policy, drawing lessons from the past to inform current investment strategies. The episode also explores the global nature of the AI boom and its potential to lead to similar economic excesses and corrections.",
-      "key_takeaway": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-29",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 320,
-      "episode_release_date": "2026-06-29",
       "guest_name": null,
       "key_tickers": []
     },
@@ -30131,9 +30152,76 @@ const dashboardData = {
       "MS",
       "RKLB"
     ]
+  },
+  "342": {
+    "id": 332,
+    "insight_id": 342,
+    "podcast_episode_id": 327,
+    "overview": "The competitive dynamic in the mobility sector is contested by the ability of companies to operate with capital efficiency and adapt to local market nuances. Bolt's approach of direct partnerships with drivers and a deep understanding of local markets has allowed it to outperform in regions where larger competitors struggle. The allocator-relevant implication is that companies that can demonstrate operational excellence and a keen understanding of local markets will likely win in this landscape. The metric that arbitrates this uncertainty is market share growth and customer satisfaction in diverse geographical regions.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the operational costs and market share growth of mobility companies to assess their capital efficiency and market adaptation capabilities.",
+      "The success of a company's sequential market expansion strategy should be evaluated by its ability to replicate operational success in new markets without diluting performance in existing ones.",
+      "Companies that can effectively integrate AI into their operations to enhance productivity and reduce costs will have a competitive advantage in a capital-intensive industry.",
+      "Investors should assess a company's readiness to transition to autonomous vehicles, as this will be a significant growth opportunity in the coming decade.",
+      "The ability to maintain a flat headcount while growing revenue, as Bolt aims to do, is a strong indicator of operational excellence and should be a key metric for investors."
+    ],
+    "investment_thesis": "The investment thesis is that companies with capital efficiency and a strong understanding of local markets will outperform in the mobility sector. This is especially true for companies like Bolt that can leverage AI to enhance productivity and are well-positioned for the transition to autonomous vehicles. The timeframe for this thesis is the next decade, and it would be vindicated by consistent market share growth in diverse regions and successful deployment of autonomous vehicle services.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in autonomous vehicle technology and its potential entry into the mobility market make it relevant to the thesis.",
+        "positioning": "Positioning should be strategic, considering Apple's potential to disrupt the mobility sector with its technology and resources.",
+        "risk": "Key risks include delays in Apple's autonomous vehicle development and potential regulatory hurdles that could slow market entry."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The global mobility market becomes oversaturated, leading to a price war that erodes profitability for all players.",
+      "Regulatory changes in key markets significantly hinder the operations of mobility companies, particularly those with a global footprint like Bolt.",
+      "Technological advancements in other sectors, such as telecom, draw investment and innovation away from the mobility industry."
+    ],
+    "catalysts": [
+      "Bolt's successful expansion into new markets and the replication of its operational model.",
+      "Announcements of partnerships with major car manufacturers for autonomous vehicle deployment.",
+      "Regulatory approvals that pave the way for wider autonomous vehicle testing and deployment.",
+      "Quarterly earnings reports that demonstrate Bolt's continued capital efficiency and market share growth.",
+      "AI and automation breakthroughs that significantly enhance productivity within the mobility sector."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-02T12:04:10.696588",
+    "updated_at": "2026-07-02 17:04:10",
+    "episode_evidence": "Bolt's success is underpinned by its capital efficiency, which has been a cornerstone of its operations. Marcus Villik, the founder, highlighted this by stating, 'Constraints really force you to be innovative, force you to be efficient.' This efficiency has allowed Bolt to compete against larger, more capital-rich companies like Uber. Additionally, Bolt's pivot from working with taxi companies to directly partnering with drivers was a strategic move that improved customer service and reduced inefficiencies, as Villik noted, 'We've just understood the local customer demands much better.' This local market understanding has been crucial for Bolt's expansion strategy, which is sequential, ensuring that operations are optimized in one market before moving to the next, as Villik explained, 'We realized that going in parallel doesn't work. We got to go sequentially.'",
+    "falsification_tracks": [
+      "Bolt fails to maintain its capital efficiency, leading to increased operational costs and reduced competitiveness.",
+      "Bolt's market share in existing countries declines significantly due to poor local market understanding or failure to adapt services to local preferences.",
+      "Bolt's sequential expansion strategy results in missed opportunities in new markets, allowing competitors to establish a stronger foothold.",
+      "A significant technological advancement by competitors in autonomous vehicles undermines Bolt's existing infrastructure and operational expertise.",
+      "Bolt's AI-driven productivity enhancements fail to materialize, leading to increased costs and reduced service quality."
+    ],
+    "insight_title": "Outsmarting Uber: Why Bolt Wins in Europe",
+    "source_name": "The a16z Show",
+    "source_date": "2026-07-02",
+    "key_tickers": [
+      "UBER"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 484,
+    "term": "Capital Efficiency",
+    "definition": "The ability of a company to achieve results with limited capital, often leading to innovation and operational excellence.",
+    "investment_implications": "Investors should seek companies with capital efficiency as they can compete effectively despite having less capital.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-02 17:02:46",
+    "priority_score": 80
+  },
   {
     "id": 482,
     "term": "Fusion Energy Advancements",
@@ -30169,23 +30257,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-01 18:38:33",
     "priority_score": 80
-  },
-  {
-    "id": 480,
-    "term": "High-Resolution Predictions",
-    "definition": "Achieving predictions within one angstrom accuracy for effective drug design, as small deviations can lead to incorrect binding predictions.",
-    "investment_implications": "Companies that can provide high-resolution modeling capabilities in drug discovery are likely to reduce development risks and save resources.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-01 18:38:33",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 24588,
+    "id": 24673,
+    "name": "Outsmarting Uber",
+    "slug": "outsmarting-uber",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
+    "last_episode_title": "Outsmarting Uber: Why Bolt Wins in Europe",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-02",
+    "appearance_count": 1
+  },
+  {
+    "id": 24674,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -30197,7 +30285,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24589,
+    "id": 24675,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -30209,7 +30297,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24590,
+    "id": 24676,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -30221,7 +30309,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24591,
+    "id": 24677,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -30233,7 +30321,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24592,
+    "id": 24678,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -30245,7 +30333,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24593,
+    "id": 24679,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -30257,7 +30345,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24594,
+    "id": 24680,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -30269,7 +30357,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24595,
+    "id": 24681,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -30281,7 +30369,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24596,
+    "id": 24682,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -30293,7 +30381,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 24597,
+    "id": 24683,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -30305,7 +30393,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24598,
+    "id": 24684,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -30317,7 +30405,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24599,
+    "id": 24685,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -30329,7 +30417,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24600,
+    "id": 24686,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -30341,7 +30429,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24601,
+    "id": 24687,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -30353,7 +30441,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24602,
+    "id": 24688,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -30365,7 +30453,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24603,
+    "id": 24689,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -30377,7 +30465,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24604,
+    "id": 24690,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -30389,7 +30477,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24605,
+    "id": 24691,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -30401,7 +30489,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 24606,
+    "id": 24692,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -30410,18 +30498,6 @@ const dashboardData = {
     "last_episode_title": "Inside the Private Stock Market Boom: SpaceX, Anthropic, OpenAI & the Rise of Secondaries",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-07",
-    "appearance_count": 1
-  },
-  {
-    "id": 24607,
-    "name": "Exa CEO Will Bryk",
-    "slug": "exa-ceo-will-bryk",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
-    "last_episode_title": "Building Search for AI Agents with Exa CEO Will Bryk",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-06",
     "appearance_count": 1
   }
 ],
@@ -30694,7 +30770,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.41,
+    "mention_score_decayed": 1.38,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
@@ -31676,7 +31752,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -31684,6 +31760,69 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 319,
+    "name": "Marcus Villik",
+    "slug": "marcus-villik",
+    "bio": "Marcus Villik is the Founder and CEO of Bolt, a mobility services company that operates in ride-hailing, food delivery, scooters, and grocery. Starting from Estonia, Bolt has expanded to over 50 countries, aiming to replace private cars and revolutionize urban mobility.",
+    "known_for": "Leading Bolt through its growth and expansion in the mobility sector.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and matter-of-fact.",
+    "voice_style": "Factual and data-driven, with a focus on operational excellence.",
+    "voice_delivery_notes": "Clear and concise, with emphasis on key operational insights.",
+    "voice_profile_updated_at": "2026-07-02 17:02:46",
+    "last_seen": "2026-07-02 17:02:46",
+    "last_episode_title": "Outsmarting Uber: Why Bolt Wins in Europe",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-02",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
+    "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
+    "supporting_takeaway": "Understanding local markets is crucial for tailoring services effectively and gaining market share.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-02T12:03:43.711852",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Marcus Villik",
+      "fetched_at": "2026-07-02T17:03:43.711606+00:00",
+      "cliff_notes": "Marcus Villik is the founder and CEO of Bolt, a company that has grown from its beginnings in Estonia to become a significant player in the global mobility market. With a mission to replace private cars, Bolt has expanded its services to include ride-hailing, food delivery, scooters, and grocery, operating in over 50 countries. Villik's leadership has been instrumental in navigating the competitive landscape of the mobility sector, overcoming challenges such as resistance from traditional taxi companies and the constraints of starting in a small country with limited venture capital. His approach to capital efficiency and innovation has been a key factor in Bolt's success, as the company competes against larger, more established players in the industry.",
+      "derived": {
+        "current_role": "Founder and CEO of Bolt"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "Estonian"
+      },
+      "lead_paragraphs": [
+        "Marcus Villik is the founder and CEO of Bolt, a company that has grown from its beginnings in Estonia to become a significant player in the global mobility market. With a mission to replace private cars, Bolt has expanded its services to include ride-hailing, food delivery, scooters, and grocery, operating in over 50 countries.",
+        "Villik's leadership has been instrumental in navigating the competitive landscape of the mobility sector, overcoming challenges such as resistance from traditional taxi companies and the constraints of starting in a small country with limited venture capital. His approach to capital efficiency and innovation has been a key factor in Bolt's success, as the company competes against larger, more established players in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "Bolt's Expansion",
+          "body": "Bolt has expanded from its origins in Estonia to operate in over 50 countries, offering a range of mobility services including ride-hailing, food delivery, scooters, and grocery."
+        },
+        {
+          "heading": "Innovation and Capital Efficiency",
+          "body": "Marcus Villik has emphasized the importance of capital efficiency and innovation at Bolt, which has allowed the company to compete against larger, more established players in the mobility sector."
+        },
+        {
+          "heading": "Challenges and Resistance",
+          "body": "Bolt has faced resistance from traditional taxi companies, leading to a pivot towards working directly with individual drivers, especially in regions where taxi companies were seen as uncooperative or unresponsive to customer needs."
+        },
+        {
+          "heading": "Global Competition",
+          "body": "In a highly competitive global mobility market, Bolt stands out for its ability to operate across multiple services and geographies, challenging the status quo and aiming to replace private car ownership."
+        }
+      ]
+    }
   },
   {
     "id": 316,
@@ -31824,7 +31963,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
     "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
@@ -31885,7 +32024,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -33066,7 +33205,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in Axiom Math for its pioneering role in verified AI for mathematics, which has the potential to drive innovation and efficiency in problem-solving across various fields.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
     "last_proof_snippet": "But it's for the first time now I think verified AI is to open up collaboration. Either it's human AI collaboration. Well, before a blueprint like that's human human collaboration. And Lin was a grounding, was a verification formal language",
@@ -33701,7 +33840,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -33767,7 +33906,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -34106,7 +34245,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -34361,7 +34500,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -34425,7 +34564,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -34608,7 +34747,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -34672,7 +34811,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -35415,7 +35554,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -35481,7 +35620,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -40425,7 +40564,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -40485,7 +40624,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -40545,7 +40684,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",
@@ -41793,7 +41932,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
@@ -41851,7 +41990,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",
