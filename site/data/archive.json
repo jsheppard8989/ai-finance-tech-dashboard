@@ -1,6 +1,29 @@
 {
   "insights": [
     {
+      "id": 344,
+      "title": "Technology, Alliances, and American Leadership.",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-03",
+      "summary": "In this episode, the a16z Show explores the intersection of AI, national security, and international entrepreneurship. The discussion highlights the growing importance of AI as an interface for all technologies, influencing culture and values. It also underscores the critical role of technological innovation in national security and the need for international partnerships to maintain U.S. tech leadership. The podcast emphasizes the accelerated internationalization of startups and the significance of cultural and legal frameworks in fostering entrepreneurship. Lastly, it discusses the dual-use nature of AI in cybersecurity and the importance of American values in technology deployment.",
+      "key_takeaway": "Invest in AI technologies that demonstrate cultural adaptability and ethical alignment, and support startups with international expansion strategies to capture emerging market opportunities.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 329
+    },
+    {
       "id": 342,
       "title": "Outsmarting Uber: Why Bolt Wins in Europe",
       "source_type": "podcast",
@@ -108,7 +131,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-30",
       "archived_date": null,

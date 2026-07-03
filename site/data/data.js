@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-03T06:38:09.511661",
-  chartsVersion: "2026-07-03T06:38:02.359196",
+  generatedAt: "2026-07-03T12:06:24.983217",
+  chartsVersion: "2026-07-03T12:06:19.495129",
   priceSnapshot: {
   "GOOGL": {
     "price": 359.91,
     "change_pct": 0.06,
     "name": "GOOGL",
-    "updated_at": "2026-07-03T06:38:02.358038"
+    "updated_at": "2026-07-03T12:06:19.494347"
   },
   "BTC": {
-    "price": 61846.78,
-    "change_pct": -3.72,
+    "price": 62154.4,
+    "change_pct": -3.25,
     "name": "BTC",
-    "updated_at": "2026-07-03T06:38:02.358058"
+    "updated_at": "2026-07-03T12:06:19.494364"
   },
   "MSFT": {
     "price": 390.49,
     "change_pct": -0.06,
     "name": "MSFT",
-    "updated_at": "2026-07-03T06:38:02.358068"
+    "updated_at": "2026-07-03T12:06:19.494372"
   },
   "NVDA": {
     "price": 194.83,
     "change_pct": -5.05,
     "name": "NVDA",
-    "updated_at": "2026-07-03T06:38:02.358077"
+    "updated_at": "2026-07-03T12:06:19.494378"
   },
   "AMZN": {
     "price": 242.67,
     "change_pct": 1.73,
     "name": "AMZN",
-    "updated_at": "2026-07-03T06:38:02.358085"
+    "updated_at": "2026-07-03T12:06:19.494385"
   },
   "TSLA": {
     "price": 393.45,
     "change_pct": -3.19,
     "name": "TSLA",
-    "updated_at": "2026-07-03T06:38:02.358093"
+    "updated_at": "2026-07-03T12:06:19.494390"
   },
   "WTI": {
     "price": 3.09,
     "change_pct": -23.89,
     "name": "WTI",
-    "updated_at": "2026-07-03T06:38:02.358101"
+    "updated_at": "2026-07-03T12:06:19.494397"
   },
   "META": {
     "price": 582.9,
     "change_pct": 2.9,
     "name": "META",
-    "updated_at": "2026-07-03T06:38:02.358109"
+    "updated_at": "2026-07-03T12:06:19.494403"
   },
   "S&P 500": {
     "price": 744.78,
     "change_pct": 0.67,
     "name": "S&P 500",
-    "updated_at": "2026-07-03T06:38:02.358117"
+    "updated_at": "2026-07-03T12:06:19.494408"
   },
   "AAPL": {
     "price": 308.63,
     "change_pct": 6.01,
     "name": "AAPL",
-    "updated_at": "2026-07-03T06:38:02.358125"
+    "updated_at": "2026-07-03T12:06:19.494413"
   },
   "QQQ": {
     "price": 712.6,
     "change_pct": -1.1,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-03T06:38:02.358132"
+    "updated_at": "2026-07-03T12:06:19.494419"
   },
   "BTC-USD": {
-    "price": 61840.86,
-    "change_pct": -3.73,
+    "price": 62154.4,
+    "change_pct": -3.25,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-03T06:38:02.358141"
+    "updated_at": "2026-07-03T12:06:19.494425"
   }
 },
   tickerScores: [
@@ -834,6 +834,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 344,
+      "title": "Technology, Alliances, and American Leadership.",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-03",
+      "summary": "In this episode, the a16z Show explores the intersection of AI, national security, and international entrepreneurship. The discussion highlights the growing importance of AI as an interface for all technologies, influencing culture and values. It also underscores the critical role of technological innovation in national security and the need for international partnerships to maintain U.S. tech leadership. The podcast emphasizes the accelerated internationalization of startups and the significance of cultural and legal frameworks in fostering entrepreneurship. Lastly, it discusses the dual-use nature of AI in cybersecurity and the importance of American values in technology deployment.",
+      "key_takeaway": "Invest in AI technologies that demonstrate cultural adaptability and ethical alignment, and support startups with international expansion strategies to capture emerging market opportunities.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 329
+    },
+    {
       "id": 342,
       "title": "Outsmarting Uber: Why Bolt Wins in Europe",
       "source_type": "podcast",
@@ -941,7 +964,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-30",
       "archived_date": null,
@@ -9297,6 +9320,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 344,
+      "title": "Technology, Alliances, and American Leadership.",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-03",
+      "summary": "In this episode, the a16z Show explores the intersection of AI, national security, and international entrepreneurship. The discussion highlights the growing importance of AI as an interface for all technologies, influencing culture and values. It also underscores the critical role of technological innovation in national security and the need for international partnerships to maintain U.S. tech leadership. The podcast emphasizes the accelerated internationalization of startups and the significance of cultural and legal frameworks in fostering entrepreneurship. Lastly, it discusses the dual-use nature of AI in cybersecurity and the importance of American values in technology deployment.",
+      "key_takeaway": "Invest in AI technologies that demonstrate cultural adaptability and ethical alignment, and support startups with international expansion strategies to capture emerging market opportunities.",
+      "tickers_mentioned": "[\"AAPL\", \"MSFT\", \"GOOGL\", \"AMZN\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 329,
+      "episode_release_date": "2026-07-03",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 342,
       "title": "Outsmarting Uber: Why Bolt Wins in Europe",
       "source_type": "podcast",
@@ -9402,26 +9445,6 @@ const dashboardData = {
         "MS",
         "RKLB"
       ]
-    },
-    {
-      "id": 336,
-      "title": "Building AI for Creators | Luma & Phota Labs",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-06-30",
-      "summary": "In this episode, the a16z Show explores the evolving landscape of AI tools in the creative industry. The discussion highlights the importance of human creativity in directing AI tools, the shift in artists' roles, and the significance of personalization in AI photography. The guests emphasize the necessity of iteration in creative processes and the widening gap between average and exceptional artists due to AI tools. The conversation also touches on the future of creative tools, the coexistence of traditional and AI-driven tools, and the importance of understanding user feedback and behavior for developing effective AI models.",
-      "key_takeaway": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-30",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 321,
-      "episode_release_date": "2026-06-30",
-      "guest_name": "Building AI for Creators",
-      "key_tickers": []
     },
     {
       "id": 337,
@@ -30291,9 +30314,115 @@ const dashboardData = {
     "key_tickers": [
       "NVDA"
     ]
+  },
+  "344": {
+    "id": 334,
+    "insight_id": 344,
+    "podcast_episode_id": 329,
+    "overview": "The unresolved tension lies in the balance between the rapid advancement of AI technology and the need to align it with cultural values and national security interests. The competitive dynamic is between nations racing to harness AI for economic and security gains while maintaining ethical standards. The metric that arbitrates this uncertainty is the pace of innovation and the effectiveness of international partnerships in driving technology adoption and maintaining security.",
+    "key_takeaways_detailed": [
+      "Investors should consider the geopolitical implications of AI technologies, assessing not only their technical merits but also their alignment with global cultural and ethical standards.",
+      "Startups must be agile in their international expansion strategies, adapting to different cultural and legal frameworks to capitalize on the global market for AI technologies.",
+      "The success of international partnerships in tech will be contingent on the ability to navigate complex political landscapes and establish trust at various levels, from government to investor relations.",
+      "Cybersecurity investments should be prioritized, with a focus on AI-driven solutions that can anticipate and mitigate the vulnerabilities introduced by the dual-use nature of AI."
+    ],
+    "investment_thesis": "The core logic is that AI, as a foundational interface for all technologies, will drive economic growth and national security. The observable development that would vindicate this thesis is a continued acceleration in AI innovation, coupled with successful international partnerships that enhance tech adoption and security. Conversely, a slowdown in AI development or a rise in international tensions that hinder tech partnerships would invalidate this thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI for its products positions it to benefit from the global shift towards AI as an interface for technology.",
+        "positioning": "Strategic long position, as Apple's AI advancements are likely to drive future growth and maintain its competitive edge.",
+        "risk": "Key risks include regulatory challenges in international markets and potential cybersecurity threats that could impact user trust and adoption of Apple's AI-driven products."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's broad AI offerings and cloud services make it a key player in the international tech landscape.",
+        "positioning": "Strategic long position, reflecting Microsoft's potential to capitalize on the growing demand for AI solutions in a global context.",
+        "risk": "The risk lies in Microsoft's ability to navigate international regulations and maintain its competitive position against other tech giants in the AI space."
+      },
+      "GOOGL": {
+        "rationale": "Google's leadership in AI research and its suite of AI-driven services position it well in the international market.",
+        "positioning": "Tactical long position, as Google can leverage its AI expertise to expand its international footprint and drive revenue growth.",
+        "risk": "Regulatory challenges and competition in international markets could hinder Google's ability to fully capitalize on the global AI opportunity."
+      },
+      "AMZN": {
+        "rationale": "Amazon's cloud computing services, powered by AI, are critical for international businesses looking to scale and innovate.",
+        "positioning": "Strategic long position, as Amazon's AWS can benefit from the increasing demand for cloud services in a global context.",
+        "risk": "The risk is associated with Amazon's ability to maintain its market share in the face of growing competition and evolving international regulations."
+      },
+      "TSLA": {
+        "rationale": "Tesla's use of AI in its electric vehicles and energy products positions it at the forefront of international tech innovation.",
+        "positioning": "Tactical long position, reflecting Tesla's potential to disrupt traditional automotive and energy markets with its AI-driven solutions.",
+        "risk": "Key risks include regulatory hurdles in international markets and the potential for cybersecurity threats to impact Tesla's technology and reputation."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant decrease in global investment in AI technologies, suggesting a shift away from AI as a key driver of economic growth and national security.",
+      "The emergence of protectionist policies that limit international tech partnerships and hinder the global expansion of AI technologies.",
+      "A rise in successful cyber-attacks that exploit vulnerabilities in AI, potentially undermining confidence in AI-driven cybersecurity solutions."
+    ],
+    "catalysts": [
+      "New international agreements or partnerships that facilitate the adoption of AI technologies.",
+      "Regulatory changes in key markets that either support or hinder the expansion of AI technologies.",
+      "Major AI breakthroughs that significantly impact the global tech landscape and national security strategies.",
+      "Cybersecurity incidents that highlight the dual-use nature of AI and the need for robust AI-driven defense mechanisms.",
+      "Economic indicators that reflect the impact of AI on global economic growth and the success of international tech partnerships."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-03T12:05:31.923848",
+    "updated_at": "2026-07-03 17:05:31",
+    "episode_evidence": "The a16z Show episode underscores the pivotal role of AI as a universal interface, shaping not just technology but also culture and values. As Ben Horowitz stated, 'Technology has become more than an industry. Today, it's a source of economic growth, national security, and geopolitical influence.' This highlights the broader implications of AI beyond mere functionality, influencing how societies operate and interact. The discussion also emphasized the accelerated pace of technological innovation as a new metric for national security, as indicated by the host: 'Turns is no longer just the size of a military. It's the pace of innovation in reacting to cheap software-built tech.' This shift necessitates that nations prioritize tech development to maintain their geopolitical influence. Furthermore, the show highlighted the importance of international partnerships, with the need for relationships at various levels to facilitate technology adoption and create new market opportunities, as expressed by a guest: 'We realized with our country partners, we needed relationships at the kind of government level at the investor level.'",
+    "falsification_tracks": [
+      "If there is a significant slowdown in global AI development, suggesting that innovation is no longer a key metric for national security.",
+      "A rise in protectionist policies globally that hinder international tech partnerships and market entries.",
+      "A substantial increase in cybersecurity breaches that cannot be attributed to AI, indicating that the dual-use nature of AI in cybersecurity might be overemphasized."
+    ],
+    "insight_title": "Technology, Alliances, and American Leadership.",
+    "source_name": "The a16z Show",
+    "source_date": "2026-07-03",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 485,
+    "term": "AI as a Universal Interface",
+    "definition": "AI serving as the foundational interface for all technologies, influencing how tools and systems operate globally.",
+    "investment_implications": "Investors should consider the cultural adaptability and ethical implications of AI technologies.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-03 17:04:38",
+    "priority_score": 80
+  },
+  {
+    "id": 486,
+    "term": "Technology and National Security",
+    "definition": "The pace of technological innovation as a key metric of national security, surpassing traditional military capabilities.",
+    "investment_implications": "Invest in tech companies that enhance national security capabilities and foster international partnerships.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-03 17:04:38",
+    "priority_score": 80
+  },
+  {
+    "id": 487,
+    "term": "Accelerated Internationalization of Startups",
+    "definition": "Startups pursuing international markets earlier in their growth stages due to rapid global product discovery.",
+    "investment_implications": "Support startups with strategies for early international market entry and localization.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-03 17:04:38",
+    "priority_score": 80
+  },
   {
     "id": 484,
     "term": "Capital Efficiency",
@@ -30305,47 +30434,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-02 17:02:46",
     "priority_score": 80
-  },
-  {
-    "id": 482,
-    "term": "Fusion Energy Advancements",
-    "definition": "The development and deployment of fusion energy technology, which has the potential to provide a clean and abundant energy source.",
-    "investment_implications": "Investments in fusion energy companies could offer significant returns if the technology becomes commercially viable.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-02 04:37:12",
-    "priority_score": 80
-  },
-  {
-    "id": 483,
-    "term": "Vertical Integration in Space",
-    "definition": "A strategy where a company controls multiple steps in the production and distribution of its products, in this case, combining launch capabilities with satellite operations and RF spectrum ownership.",
-    "investment_implications": "Investing in companies with vertical integration in the space industry could provide a competitive advantage and potential for higher profitability.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-02 04:37:12",
-    "priority_score": 80
-  },
-  {
-    "id": 479,
-    "term": "Pearl Model",
-    "definition": "A 3D structure prediction model developed by Genesis Molecular AI that integrates protein sequences and ligand representations to predict binding interactions.",
-    "investment_implications": "The Pearl Model's ability to predict dynamic protein-ligand interactions with high accuracy is a significant advancement in drug discovery, potentially leading to more efficient and effective drug development.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-01 18:38:33",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 25107,
+    "id": 25194,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -30357,7 +30450,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25108,
+    "id": 25195,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -30369,7 +30462,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25109,
+    "id": 25196,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -30381,7 +30474,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25110,
+    "id": 25197,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -30393,7 +30486,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25111,
+    "id": 25198,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -30405,7 +30498,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25112,
+    "id": 25199,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -30417,7 +30510,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25113,
+    "id": 25200,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -30429,7 +30522,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25114,
+    "id": 25201,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -30441,7 +30534,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25115,
+    "id": 25202,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -30453,7 +30546,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25116,
+    "id": 25203,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -30465,7 +30558,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25117,
+    "id": 25204,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -30477,7 +30570,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 25118,
+    "id": 25205,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -30489,7 +30582,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25119,
+    "id": 25206,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -30501,7 +30594,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25120,
+    "id": 25207,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -30513,7 +30606,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25121,
+    "id": 25208,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -30525,7 +30618,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25122,
+    "id": 25209,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -30537,7 +30630,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25123,
+    "id": 25210,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -30549,7 +30642,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25124,
+    "id": 25211,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -30561,7 +30654,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25125,
+    "id": 25212,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -30573,7 +30666,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25126,
+    "id": 25213,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -31863,7 +31956,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -32047,7 +32140,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
     "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
@@ -32108,7 +32201,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -33226,7 +33319,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -33795,7 +33888,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -33924,7 +34017,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -33990,7 +34083,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -34265,7 +34358,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -34329,7 +34422,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -34584,7 +34677,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -34648,7 +34741,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -34831,7 +34924,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -34895,7 +34988,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -38340,7 +38433,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",

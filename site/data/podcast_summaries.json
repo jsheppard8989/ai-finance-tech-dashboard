@@ -1,5 +1,22 @@
 [
   {
+    "id": 329,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Technology, Alliances, and American Leadership.",
+    "episode_date": "2026-07-03",
+    "summary": "In this episode, the a16z Show explores the intersection of AI, national security, and international entrepreneurship. The discussion highlights the growing importance of AI as an interface for all technologies, influencing culture and values. It also underscores the critical role of technological innovation in national security and the need for international partnerships to maintain U.S. tech leadership. The podcast emphasizes the accelerated internationalization of startups and the significance of cultural and legal frameworks in fostering entrepreneurship. Lastly, it discusses the dual-use nature of AI in cybersecurity and the importance of American values in technology deployment.",
+    "key_takeaways": [
+      "AI will become the interface for all technologies, shaping global operations and cultural perspectives.",
+      "Technological innovation pace is now a key metric of national security, surpassing traditional military capabilities.",
+      "International partnerships are vital for U.S. tech firms to thrive and maintain economic growth.",
+      "Startups are expected to pursue international markets earlier in their growth stages due to rapid global product discovery.",
+      "A conducive legal and cultural environment is critical for fostering successful tech ecosystems.",
+      "AI's dual-use nature in cybersecurity presents both opportunities and risks, necessitating robust defense strategies."
+    ],
+    "investment_thesis": "Invest in AI technologies that demonstrate cultural adaptability and ethical alignment, and support startups with international expansion strategies to capture emerging market opportunities.",
+    "key_tickers": null
+  },
+  {
     "id": 328,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "What If It\u2019s Still Early? | Erik YWR on $10,000 S&P 500 by 2027 Case, Hyperscaler ROIC, AI CapEx, Semis, Exchanges, and Reverse Crash Risk In \u201cProject Zimbabwe\u201d",
@@ -116,23 +133,6 @@
       "AI's advancements in mathematics may have significant impacts on other fields such as engineering and material science."
     ],
     "investment_thesis": "Invest in AI-driven mathematical tools for exploration and conjecture generation, and consider careers in mathematics education for stability.",
-    "key_tickers": null
-  },
-  {
-    "id": 321,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Building AI for Creators | Luma & Phota Labs",
-    "episode_date": "2026-06-30",
-    "summary": "In this episode, the a16z Show explores the evolving landscape of AI tools in the creative industry. The discussion highlights the importance of human creativity in directing AI tools, the shift in artists' roles, and the significance of personalization in AI photography. The guests emphasize the necessity of iteration in creative processes and the widening gap between average and exceptional artists due to AI tools. The conversation also touches on the future of creative tools, the coexistence of traditional and AI-driven tools, and the importance of understanding user feedback and behavior for developing effective AI models.",
-    "key_takeaways": [
-      "AI tools are enhancing creativity but still require human direction.",
-      "The role of artists is evolving from mastering tools to using them as extensions of their creative vision.",
-      "Personalization in AI photography is key to addressing diverse user needs and preferences.",
-      "Iteration is essential in creative processes, allowing users to refine their ideas.",
-      "The gap between average and exceptional artists is widening due to easier access to AI tools.",
-      "Traditional creative tools will coexist with AI tools, serving different user needs."
-    ],
-    "investment_thesis": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "key_tickers": null
   }
 ]
