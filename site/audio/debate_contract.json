@@ -1,113 +1,118 @@
 {
-  "prompt": "Will the price of Bitcoin exceed $75,000 within the next 42 days?",
-  "editorial_note": "Given the significant interest in cryptocurrencies and recent market volatility, we've chosen a topic that directly engages with current investment sentiment. Bitcoin, as a leading cryptocurrency, is often used as a barometer for the broader crypto market. We expect this question to provoke a robust debate about market cycles and investor behavior within the short time horizon of 42 days.",
-  "expires_rule": "Resolves Friday 12:00 PM CST 2026-08-07",
-  "crux_theme": "Bitcoin price movement",
+  "prompt": "Will the price of Bitcoin exceed $90,000 within the next 42 days?",
+  "editorial_note": "We have chosen to focus on the cryptocurrency market this week due to the significant volume and attention on Bitcoin in recent Polymarket markets. Given the current market dynamics and investor interest, we believe this topic will generate a lively debate about the future trajectory of Bitcoin.",
+  "expires_rule": "Resolves Friday 12:00 PM CST 2026-08-14",
+  "crux_theme": "Bitcoin price threshold",
   "resolution_clarity": {
-    "source_of_truth": "Real-time cryptocurrency price data",
+    "source_of_truth": "Bitcoin price data",
     "resolution_sources": [
+      "Coinbase",
       "CoinMarketCap",
-      "CoinGecko",
-      "CryptoCompare"
+      "Blockfolio"
     ],
     "resolution_criteria": [
-      "The closing price of Bitcoin denominated in USD on the specified resolution date must be compared against the $75,000 threshold."
+      "Check the highest price of Bitcoin in USD noted on each of the resolution sources during the resolution period."
     ]
   },
   "sides": {
     "a": "Affirmative (YES)",
     "b": "Negative (NO)"
   },
-  "resolves_iso": "2026-08-07",
-  "friday_iso": "2026-06-26",
-  "week_label": "Week of 2026-06-26",
-  "debater_a": "Joseph Krauss",
-  "debater_b": "Sartina Della",
-  "generated_at": "2026-06-26T05:02:50.565692",
+  "resolves_iso": "2026-08-14",
+  "friday_iso": "2026-07-03",
+  "week_label": "Week of 2026-07-03",
+  "debater_a": "Ed Zitron",
+  "debater_b": "Jim Chanos",
+  "generated_at": "2026-07-03T05:03:53.365185",
   "bet_status": "open",
   "audio_href": "./audio/emp_ai_the_debate_11labs.mp3",
   "debater_a_snapshot": {
-    "name": "Joseph Krauss",
-    "known_for": "Pioneering the self-driving lab concept at Radical AI, focusing on AI-driven material discovery.",
-    "bio": "Joseph Krauss is an expert in material science and AI-driven material discovery. He is known for pioneering the self-driving lab concept at Radical AI, a company that focuses on leveraging AI to revolutionize material science and discovery.",
-    "last_main_idea": "Invest in companies that integrate AI with experimental data for material discovery to gain a competitive edge in industries like aerospace and semiconductors.",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-06-17",
+    "name": "Ed Zitron",
+    "known_for": "His critical perspective on the financial sustainability of AI companies and contrarian views on tech industry trends.",
+    "bio": "Ed Zitron is a technology analyst and commentator recognized for his contrarian views on the tech industry, particularly concerning the financial sustainability of AI companies. He is the author of the Where's Your Ed at Newsletter and the host of the Better Offline Podcast.",
+    "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-06-21",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Joseph Krauss",
-      "fetched_at": "2026-06-18T04:38:46.769185+00:00",
-      "cliff_notes": "Joseph Krauss is a prominent figure in the field of material science and AI-driven material discovery. As the CEO of Radical AI, he has been instrumental in pioneering the self-driving lab concept, which aims to revolutionize the way materials are discovered and developed. His work at Radical AI focuses on leveraging artificial intelligence to understand complex material properties and processes, which are critical for the development of new technologies and products. Krauss's expertise in material science and his innovative approach to AI-driven material discovery have positioned him as a key player in the rapidly growing market of AI applications in material science.",
+      "page_title": "Ed Zitron",
+      "fetched_at": "2026-06-22T04:36:40.371808+00:00",
+      "cliff_notes": "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI. He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype.",
       "derived": {
-        "current_role": "CEO of Radical AI"
+        "current_role": "Author of Where's Your Ed at Newsletter; Host of Better Offline Podcast"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Joseph Krauss is a prominent figure in the field of material science and AI-driven material discovery. As the CEO of Radical AI, he has been instrumental in pioneering the self-driving lab concept, which aims to revolutionize the way materials are discovered and developed. His work at Radical AI focuses on leveraging artificial intelligence to understand complex material properties and processes, which are critical for the development of new technologies and products.",
-        "Krauss's expertise in material science and his innovative approach to AI-driven material discovery have positioned him as a key player in the rapidly growing market of AI applications in material science."
+        "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI.",
+        "He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype."
       ],
       "sections": [
         {
-          "heading": "AI in Material Science",
-          "body": "Joseph Krauss is recognized for his work in applying AI to material science, particularly in the development of new materials for various industries."
+          "heading": "AI and ROI",
+          "body": "Ed Zitron is known for questioning the return on investment for the vast sums invested in AI, highlighting the ongoing debate about the economic viability of the technology."
         },
         {
-          "heading": "Self-Driving Labs",
-          "body": "Krauss pioneered the concept of self-driving labs at Radical AI, which utilize AI to automate and accelerate the process of material discovery."
+          "heading": "Contrarian Views",
+          "body": "Zitron offers a contrarian perspective on tech industry trends, challenging the mainstream narratives and advocating for a more critical examination of the financial sustainability of tech companies."
         },
         {
-          "heading": "Material Discovery Challenges",
-          "body": "He has highlighted the challenges in capturing complex material data and using AI to improve material discovery processes beyond just identifying new materials."
+          "heading": "Podcast and Newsletter",
+          "body": "As the host of the Better Offline Podcast and author of the Where's Your Ed at Newsletter, Zitron uses these platforms to discuss and critique the tech industry, reaching a wide audience with his insights."
         }
       ]
     }
   },
   "debater_b_snapshot": {
-    "name": "Sartina Della",
-    "known_for": "Sartina Della is known for her pivotal role in defining and executing Microsoft's AI ecosystem strategy, which is crucial for the company's competitive edge in the tech industry.",
-    "bio": "Sartina Della is a prominent executive at Microsoft, recognized for her thought leadership in the fields of AI and cloud infrastructure. She has been instrumental in shaping the company's AI ecosystem strategy and has shared insights on the future of software engineering.",
-    "last_main_idea": "Invest in companies that can integrate AI into their operations and leverage Microsoft's ecosystem for competitive advantage, focusing on data management capabilities and adaptability to new pricing models.",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-06-03",
-    "net_worth": "$1.30B",
+    "name": "Jim Chanos",
+    "known_for": "Identifying and betting against unsustainable business models and market bubbles, including Enron, Chinese real estate stocks, and Wirecard.",
+    "bio": "Jim Chanos is a renowned short-seller and the founder of Kynikos Associates, a global investment firm. He is known for identifying and betting against unsustainable business models and market bubbles, which has led to significant financial gains and reputation in the investment community.",
+    "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-06-20",
+    "net_worth": "$200.0M",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Sartina Della",
-      "fetched_at": "2026-06-17T18:40:16.055247+00:00",
-      "cliff_notes": "Sartina Della has made a significant impact in the technology sector, particularly within Microsoft. Her career has been marked by a deep focus on AI and cloud infrastructure, areas that are increasingly important for businesses and consumers alike. As a thought leader, she has contributed to the discourse on the future of software engineering and has been at the forefront of defining Microsoft's AI ecosystem strategy. Her insights and leadership have been influential in shaping the company's approach to leveraging AI for business growth and innovation, making her a key figure in the tech industry.",
+      "page_title": "Jim Chanos",
+      "fetched_at": "2026-06-21T04:36:23.979760+00:00",
+      "cliff_notes": "Jim Chanos is a prominent short-seller and the founder of Kynikos Associates, a global investment firm specializing in short-selling. He began his career at the investment banking firm Donaldson, Lufkin & Jenrette before moving to the arbitrage department at Gilford Securities. Chanos gained notoriety for his early prediction and subsequent short position on Enron, which led to substantial returns when the company's fraudulent activities were exposed. His firm, Kynikos Associates, has since been involved in short-selling various companies and market sectors, including Chinese real estate stocks and Wirecard, often focusing on identifying unsustainable business practices and market bubbles. Chanos' expertise in spotting financial fraud and market inefficiencies has made him a respected figure in the investment community.",
       "derived": {
-        "current_role": "Chairman and Chief Executive Officer of Microsoft"
+        "current_role": "Founder and President of Kynikos Associates",
+        "education": "BBA in Accounting and Finance from Yale University"
       },
       "infobox": {
         "Born": "",
-        "Nationality": ""
+        "Nationality": "American"
       },
       "lead_paragraphs": [
-        "Sartina Della has made a significant impact in the technology sector, particularly within Microsoft. Her career has been marked by a deep focus on AI and cloud infrastructure, areas that are increasingly important for businesses and consumers alike. As a thought leader, she has contributed to the discourse on the future of software engineering and has been at the forefront of defining Microsoft's AI ecosystem strategy.",
-        "Her insights and leadership have been influential in shaping the company's approach to leveraging AI for business growth and innovation, making her a key figure in the tech industry."
+        "Jim Chanos is a prominent short-seller and the founder of Kynikos Associates, a global investment firm specializing in short-selling. He began his career at the investment banking firm Donaldson, Lufkin & Jenrette before moving to the arbitrage department at Gilford Securities. Chanos gained notoriety for his early prediction and subsequent short position on Enron, which led to substantial returns when the company's fraudulent activities were exposed.",
+        "His firm, Kynikos Associates, has since been involved in short-selling various companies and market sectors, including Chinese real estate stocks and Wirecard, often focusing on identifying unsustainable business practices and market bubbles. Chanos' expertise in spotting financial fraud and market inefficiencies has made him a respected figure in the investment community."
       ],
       "sections": [
         {
-          "heading": "AI Ecosystem Strategy",
-          "body": "Sartina Della has been a key figure in conceptualizing and implementing Microsoft's AI ecosystem strategy, emphasizing the importance of creating value beyond the platform itself."
+          "heading": "Enron Short",
+          "body": "Jim Chanos is best known for his short position on Enron, which he identified as overvalued and engaged in fraudulent activities. His prediction proved correct when Enron's scandal was exposed, leading to significant financial gains for his firm."
         },
         {
-          "heading": "Platform Shifts",
-          "body": "With experience in multiple platform shifts at Microsoft, Della brings a unique perspective on how companies can leverage AI and cloud technologies to stay competitive."
+          "heading": "Chinese Real Estate Stocks",
+          "body": "Chanos has been vocal about the unsustainable nature of the Chinese real estate market, taking short positions in several Chinese real estate stocks and warning investors about the potential risks associated with this market segment."
         },
         {
-          "heading": "Software Engineering",
-          "body": "Della has shared her vision on the future of software engineering, discussing the impact of AI on the industry and the need for companies to adapt."
+          "heading": "Wirecard Scandal",
+          "body": "Jim Chanos was one of the investors who bet against Wirecard, a German payment processing company that collapsed after a multi-billion euro accounting scandal was uncovered."
+        },
+        {
+          "heading": "Macro-Mines Symposium",
+          "body": "Chanos participated in the Macro-Mines Symposium, a mission-driven conference for institutional investors that supports student education. He discussed value investment opportunities in the AI boom, both on the long and short side."
         }
       ]
     }
   },
-  "prompt_hash": "f77a13f070f88300"
+  "prompt_hash": "253d006e0151cb94"
 }

@@ -1,6 +1,19 @@
 {
-  "rotation_index": 18,
+  "rotation_index": 19,
   "weeks": [
+    {
+      "friday_iso": "2026-06-26",
+      "week_label": "Week of 2026-06-26",
+      "prompt": "Will the price of Bitcoin exceed $75,000 within the next 42 days?",
+      "debater_a": "Joseph Krauss",
+      "debater_b": "Sartina Della",
+      "expires_rule": "Resolves Friday 12:00 PM CST 2026-08-07",
+      "resolves_iso": "2026-08-07",
+      "resolution_status": "pending",
+      "resolution_notes": "",
+      "archived_at": "2026-07-03T05:03:53.365130",
+      "audio_href": "./audio/archive/debate_2026-06-26.mp3"
+    },
     {
       "friday_iso": "2026-06-19",
       "week_label": "Week of 2026-06-19",
