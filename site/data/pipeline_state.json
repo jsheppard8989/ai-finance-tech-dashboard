@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-02T13:38:54.255805",
-  "last_updated": "2026-07-02T13:38:54.255805",
-  "last_pipeline_run": "2026-07-02T13:38:54.255805",
+  "generated_at": "2026-07-02T22:02:27.030207",
+  "last_updated": "2026-07-02T22:02:27.030207",
+  "last_pipeline_run": "2026-07-02T22:02:27.030207",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -14,39 +14,18 @@
     "daily_scores": 138,
     "overton_terms_total": 107,
     "latest_insights_total": 315,
-    "today_mentions": {
-      "podcast": 1
-    },
+    "today_mentions": {},
     "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "2611ab4e-757a-11f1-a8a4-23911c08f59d",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "What If It\u2019s Still Early? | Erik YWR on $10,000 S&P 500 by 2027 Case, Hyperscaler ROIC, AI CapEx, Semis, Exchanges, and Reverse Crash Risk In \u201cProject Zimbabwe\u201d",
-      "published": "2026-07-02",
-      "rss_guid": "2611ab4e-757a-11f1-a8a4-23911c08f59d",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
