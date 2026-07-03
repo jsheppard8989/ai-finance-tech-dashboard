@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-03T12:06:22.091677",
-  "last_updated": "2026-07-03T12:06:22.091677",
-  "last_pipeline_run": "2026-07-03T12:06:22.091677",
+  "generated_at": "2026-07-03T13:38:24.344922",
+  "last_updated": "2026-07-03T13:38:24.344922",
+  "last_pipeline_run": "2026-07-03T13:38:24.344922",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -18,33 +18,14 @@
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "0d7337fd-a622-445f-b24c-50da17330d06",
-      "podcast": "The a16z Show",
-      "title": "Technology, Alliances, and American Leadership.",
-      "published": "2026-07-03",
-      "rss_guid": "0d7337fd-a622-445f-b24c-50da17330d06",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
