@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-04T06:35:49.784087",
-  chartsVersion: "2026-07-04T06:35:45.647895",
+  generatedAt: "2026-07-04T12:02:53.007140",
+  chartsVersion: "2026-07-04T12:02:43.587593",
   priceSnapshot: {
   "GOOGL": {
     "price": 359.91,
     "change_pct": 0.06,
     "name": "GOOGL",
-    "updated_at": "2026-07-04T06:35:45.647389"
+    "updated_at": "2026-07-04T12:02:43.587102"
   },
   "BTC": {
-    "price": 62481.38,
-    "change_pct": -1.2,
+    "price": 62788.88,
+    "change_pct": -0.71,
     "name": "BTC",
-    "updated_at": "2026-07-04T06:35:45.647400"
+    "updated_at": "2026-07-04T12:02:43.587112"
   },
   "MSFT": {
     "price": 390.49,
     "change_pct": -0.06,
     "name": "MSFT",
-    "updated_at": "2026-07-04T06:35:45.647404"
+    "updated_at": "2026-07-04T12:02:43.587116"
   },
   "NVDA": {
     "price": 194.83,
     "change_pct": -5.05,
     "name": "NVDA",
-    "updated_at": "2026-07-04T06:35:45.647407"
+    "updated_at": "2026-07-04T12:02:43.587120"
   },
   "AMZN": {
     "price": 242.67,
     "change_pct": 1.73,
     "name": "AMZN",
-    "updated_at": "2026-07-04T06:35:45.647410"
+    "updated_at": "2026-07-04T12:02:43.587124"
   },
   "TSLA": {
     "price": 393.45,
     "change_pct": -3.19,
     "name": "TSLA",
-    "updated_at": "2026-07-04T06:35:45.647414"
+    "updated_at": "2026-07-04T12:02:43.587127"
   },
   "WTI": {
     "price": 3.09,
     "change_pct": -23.89,
     "name": "WTI",
-    "updated_at": "2026-07-04T06:35:45.647418"
+    "updated_at": "2026-07-04T12:02:43.587131"
   },
   "META": {
     "price": 582.9,
     "change_pct": 2.9,
     "name": "META",
-    "updated_at": "2026-07-04T06:35:45.647421"
+    "updated_at": "2026-07-04T12:02:43.587134"
   },
   "S&P 500": {
     "price": 744.78,
     "change_pct": 0.67,
     "name": "S&P 500",
-    "updated_at": "2026-07-04T06:35:45.647424"
+    "updated_at": "2026-07-04T12:02:43.587138"
   },
   "AAPL": {
     "price": 308.63,
     "change_pct": 6.01,
     "name": "AAPL",
-    "updated_at": "2026-07-04T06:35:45.647427"
+    "updated_at": "2026-07-04T12:02:43.587141"
   },
   "QQQ": {
     "price": 712.6,
     "change_pct": -1.1,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-04T06:35:45.647431"
+    "updated_at": "2026-07-04T12:02:43.587145"
   },
   "BTC-USD": {
-    "price": 62481.38,
-    "change_pct": -1.2,
+    "price": 62788.88,
+    "change_pct": -0.71,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-04T06:35:45.647434"
+    "updated_at": "2026-07-04T12:02:43.587148"
   }
 },
   tickerScores: [
@@ -30512,7 +30512,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 25629,
+    "id": 25716,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -30524,7 +30524,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25630,
+    "id": 25717,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -30536,7 +30536,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25631,
+    "id": 25718,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -30548,7 +30548,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25632,
+    "id": 25719,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -30560,7 +30560,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25633,
+    "id": 25720,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -30572,7 +30572,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25634,
+    "id": 25721,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -30584,7 +30584,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25635,
+    "id": 25722,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -30596,7 +30596,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25636,
+    "id": 25723,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -30608,7 +30608,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25637,
+    "id": 25724,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -30620,7 +30620,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25638,
+    "id": 25725,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -30632,7 +30632,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25639,
+    "id": 25726,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -30644,7 +30644,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 25640,
+    "id": 25727,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -30656,7 +30656,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25641,
+    "id": 25728,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -30668,7 +30668,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25642,
+    "id": 25729,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -30680,7 +30680,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25643,
+    "id": 25730,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -30692,7 +30692,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25644,
+    "id": 25731,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -30704,7 +30704,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25645,
+    "id": 25732,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -30716,7 +30716,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25646,
+    "id": 25733,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -30728,7 +30728,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25647,
+    "id": 25734,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -30740,7 +30740,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25648,
+    "id": 25735,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -31081,7 +31081,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.35,
+    "mention_score_decayed": 1.32,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
@@ -33516,7 +33516,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in Axiom Math for its pioneering role in verified AI for mathematics, which has the potential to drive innovation and efficiency in problem-solving across various fields.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
     "last_proof_snippet": "But it's for the first time now I think verified AI is to open up collaboration. Either it's human AI collaboration. Well, before a blueprint like that's human human collaboration. And Lin was a grounding, was a verification formal language",
@@ -34811,7 +34811,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -35058,7 +35058,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
