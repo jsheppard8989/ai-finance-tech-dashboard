@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-03T23:38:44.168331",
-  "last_updated": "2026-07-03T23:38:44.168331",
-  "last_pipeline_run": "2026-07-03T23:38:44.168331",
+  "generated_at": "2026-07-04T05:01:59.769796",
+  "last_updated": "2026-07-04T05:01:59.769796",
+  "last_pipeline_run": "2026-07-04T05:01:59.769796",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -15,36 +15,17 @@
     "overton_terms_total": 107,
     "latest_insights_total": 317,
     "today_mentions": {},
-    "podcasts_analyzed": 2
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "afd9c6d3-2254-4a38-9847-a304981d286d",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
-      "published": "2026-07-03",
-      "rss_guid": "afd9c6d3-2254-4a38-9847-a304981d286d",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
