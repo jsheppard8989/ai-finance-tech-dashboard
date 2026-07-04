@@ -1,5 +1,21 @@
 [
   {
+    "id": 330,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
+    "episode_date": "2026-07-03",
+    "summary": "In this episode, the hosts discuss Palantir's partnership with Nvidia to create a custom AI model for U.S. government agencies, highlighting the importance of data sovereignty in AI. They debate the risks of sharing proprietary data with AI model providers and the potential for job growth linked to AI investment. Additionally, they analyze California's fiscal challenges and the importance of cultural assimilation for immigrants. The conversation suggests a shift towards decentralized AI solutions and emphasizes the need for enterprises to maintain control over their data.",
+    "key_takeaways": [
+      "Invest in open-source AI solutions to maintain control over proprietary data and reduce costs.",
+      "Monitor companies increasing AI investments, as they are likely to experience growth in headcount and revenue.",
+      "Evaluate exposure to California-based investments considering the state's fiscal challenges and potential for economic instability.",
+      "Advocate for policies promoting cultural assimilation among immigrants to preserve American values and societal cohesion.",
+      "Prepare for potential shifts in the political landscape as the Democratic Party moves left, impacting moderate voter sentiment."
+    ],
+    "investment_thesis": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
+    "key_tickers": null
+  },
+  {
     "id": 329,
     "podcast_name": "The a16z Show",
     "episode_title": "Technology, Alliances, and American Leadership.",
@@ -117,22 +133,6 @@
       "The venture capital landscape has seen inflated valuations leading to lower expected returns."
     ],
     "investment_thesis": "Investors should be cautious in the current high-valuation IPO environment and focus on companies with established revenues and lower regulatory risks.",
-    "key_tickers": null
-  },
-  {
-    "id": 322,
-    "podcast_name": "Dwarkesh Podcast",
-    "episode_title": "Grant Sanderson \u2013 AI and the future of math",
-    "episode_date": "2026-06-30",
-    "summary": "The podcast discusses the rapid advancements of AI in mathematics and its implications for the field. AI's progress in solving mathematical problems, particularly in formal domains, is highlighted, with the International Math Olympiad serving as a benchmark for AI's capabilities. The future of mathematics is seen as involving AI as a tool for exploration, with human mathematicians focusing on curation and interpretation. Careers in mathematics education are expected to remain stable despite AI advancements, and the economic value of mathematical contributions is emphasized for students considering careers in the field.",
-    "key_takeaways": [
-      "AI is advancing rapidly in solving mathematical problems, particularly in formal domains like algebra and number theory.",
-      "The International Math Olympiad is used as a benchmark for AI's mathematical capabilities, but success in this domain does not imply general intelligence.",
-      "Mathematical careers, especially in teaching and education, are likely to remain stable despite AI advancements.",
-      "Understanding the economic value of mathematics is crucial for students considering careers in the field.",
-      "AI's advancements in mathematics may have significant impacts on other fields such as engineering and material science."
-    ],
-    "investment_thesis": "Invest in AI-driven mathematical tools for exploration and conjecture generation, and consider careers in mathematics education for stability.",
     "key_tickers": null
   }
 ]

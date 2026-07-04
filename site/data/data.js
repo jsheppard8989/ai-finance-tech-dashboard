@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-03T22:02:20.410767",
-  chartsVersion: "2026-07-03T22:02:05.564676",
+  generatedAt: "2026-07-03T23:38:46.417177",
+  chartsVersion: "2026-07-03T23:38:42.533658",
   priceSnapshot: {
   "GOOGL": {
     "price": 359.91,
     "change_pct": 0.06,
     "name": "GOOGL",
-    "updated_at": "2026-07-03T22:02:05.563592"
+    "updated_at": "2026-07-03T23:38:42.533132"
   },
   "BTC": {
-    "price": 62520.02,
-    "change_pct": -1.13,
+    "price": 62642.71,
+    "change_pct": -0.94,
     "name": "BTC",
-    "updated_at": "2026-07-03T22:02:05.563614"
+    "updated_at": "2026-07-03T23:38:42.533144"
   },
   "MSFT": {
     "price": 390.49,
     "change_pct": -0.06,
     "name": "MSFT",
-    "updated_at": "2026-07-03T22:02:05.563624"
+    "updated_at": "2026-07-03T23:38:42.533148"
   },
   "NVDA": {
     "price": 194.83,
     "change_pct": -5.05,
     "name": "NVDA",
-    "updated_at": "2026-07-03T22:02:05.563633"
+    "updated_at": "2026-07-03T23:38:42.533152"
   },
   "AMZN": {
     "price": 242.67,
     "change_pct": 1.73,
     "name": "AMZN",
-    "updated_at": "2026-07-03T22:02:05.563641"
+    "updated_at": "2026-07-03T23:38:42.533155"
   },
   "TSLA": {
     "price": 393.45,
     "change_pct": -3.19,
     "name": "TSLA",
-    "updated_at": "2026-07-03T22:02:05.563650"
+    "updated_at": "2026-07-03T23:38:42.533158"
   },
   "WTI": {
     "price": 3.09,
     "change_pct": -23.89,
     "name": "WTI",
-    "updated_at": "2026-07-03T22:02:05.563659"
+    "updated_at": "2026-07-03T23:38:42.533161"
   },
   "META": {
     "price": 582.9,
     "change_pct": 2.9,
     "name": "META",
-    "updated_at": "2026-07-03T22:02:05.563667"
+    "updated_at": "2026-07-03T23:38:42.533165"
   },
   "S&P 500": {
     "price": 744.78,
     "change_pct": 0.67,
     "name": "S&P 500",
-    "updated_at": "2026-07-03T22:02:05.563675"
+    "updated_at": "2026-07-03T23:38:42.533168"
   },
   "AAPL": {
     "price": 308.63,
     "change_pct": 6.01,
     "name": "AAPL",
-    "updated_at": "2026-07-03T22:02:05.563684"
+    "updated_at": "2026-07-03T23:38:42.533171"
   },
   "QQQ": {
     "price": 712.6,
     "change_pct": -1.1,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-03T22:02:05.563692"
+    "updated_at": "2026-07-03T23:38:42.533174"
   },
   "BTC-USD": {
-    "price": 62520.02,
-    "change_pct": -1.13,
+    "price": 62642.71,
+    "change_pct": -0.94,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-03T22:02:05.563702"
+    "updated_at": "2026-07-03T23:38:42.533177"
   }
 },
   tickerScores: [
@@ -857,6 +857,26 @@ const dashboardData = {
       "podcast_episode_id": 329
     },
     {
+      "id": 345,
+      "title": "AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-03",
+      "summary": "In this episode, the hosts discuss Palantir's partnership with Nvidia to create a custom AI model for U.S. government agencies, highlighting the importance of data sovereignty in AI. They debate the risks of sharing proprietary data with AI model providers and the potential for job growth linked to AI investment. Additionally, they analyze California's fiscal challenges and the importance of cultural assimilation for immigrants. The conversation suggests a shift towards decentralized AI solutions and emphasizes the need for enterprises to maintain control over their data.",
+      "key_takeaway": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
+      "tickers_mentioned": [
+        "PLTR",
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 330
+    },
+    {
       "id": 342,
       "title": "Outsmarting Uber: Why Bolt Wins in Europe",
       "source_type": "podcast",
@@ -987,7 +1007,7 @@ const dashboardData = {
         "AMZN"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-30",
       "archived_date": null,
@@ -7820,8 +7840,8 @@ const dashboardData = {
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-01",
-      "mention_count": 33,
+      "last_mentioned_date": "2026-07-03",
+      "mention_count": 34,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -7830,8 +7850,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 326,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 330,
+      "last_mentioned_speaker": "Alex Carp"
     },
     {
       "id": 97,
@@ -7946,8 +7966,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-02",
-      "mention_count": 49,
+      "last_mentioned_date": "2026-07-03",
+      "mention_count": 50,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -7956,8 +7976,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 328,
-      "last_mentioned_speaker": "Eric"
+      "last_mentioned_episode_id": 330,
+      "last_mentioned_speaker": "Alex Carp"
     },
     {
       "id": 162,
@@ -8466,20 +8486,20 @@ const dashboardData = {
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models that are publicly accessible and can be used or modified by anyone, often leading to rapid innovation and collaboration.",
+      "description": "AI models that are publicly accessible and can be modified and shared by anyone, allowing enterprises to maintain control over their data and reduce reliance on proprietary models.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-07-03",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider the competitive landscape and the potential for disruption caused by open-source AI models, particularly those from China.",
+      "investment_implications": "Investing in companies that utilize or develop open-source AI models can offer cost savings and data sovereignty.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 316,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 330,
+      "last_mentioned_speaker": "Alex Carp"
     },
     {
       "id": 79,
@@ -8972,8 +8992,8 @@ const dashboardData = {
       "term": "AI Race",
       "description": "The global competition between nations to lead in AI development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 15,
+      "last_mentioned_date": "2026-07-03",
+      "mention_count": 16,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consider investing in companies and countries that are making significant strides in AI technology.",
@@ -8982,8 +9002,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 316,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 330,
+      "last_mentioned_speaker": "Alex Carp"
     },
     {
       "id": 12,
@@ -9340,6 +9360,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 345,
+      "title": "AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-03",
+      "summary": "In this episode, the hosts discuss Palantir's partnership with Nvidia to create a custom AI model for U.S. government agencies, highlighting the importance of data sovereignty in AI. They debate the risks of sharing proprietary data with AI model providers and the potential for job growth linked to AI investment. Additionally, they analyze California's fiscal challenges and the importance of cultural assimilation for immigrants. The conversation suggests a shift towards decentralized AI solutions and emphasizes the need for enterprises to maintain control over their data.",
+      "key_takeaway": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
+      "tickers_mentioned": "[\"PLTR\", \"NVDA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 330,
+      "episode_release_date": "2026-07-03",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 342,
       "title": "Outsmarting Uber: Why Bolt Wins in Europe",
       "source_type": "podcast",
@@ -9445,26 +9485,6 @@ const dashboardData = {
         "MS",
         "RKLB"
       ]
-    },
-    {
-      "id": 337,
-      "title": "Grant Sanderson \u2013 AI and the future of math",
-      "source_type": "podcast",
-      "source_name": "Dwarkesh Podcast",
-      "source_date": "2026-06-30",
-      "summary": "The podcast discusses the rapid advancements of AI in mathematics and its implications for the field. AI's progress in solving mathematical problems, particularly in formal domains, is highlighted, with the International Math Olympiad serving as a benchmark for AI's capabilities. The future of mathematics is seen as involving AI as a tool for exploration, with human mathematicians focusing on curation and interpretation. Careers in mathematics education are expected to remain stable despite AI advancements, and the economic value of mathematical contributions is emphasized for students considering careers in the field.",
-      "key_takeaway": "Invest in AI-driven mathematical tools for exploration and conjecture generation, and consider careers in mathematics education for stability.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"TSLA\", \"AMZN\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-06-30",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 322,
-      "episode_release_date": "2026-06-30",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 338,
@@ -9615,8 +9635,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-02",
-      "mention_count": 49,
+      "last_mentioned_date": "2026-07-03",
+      "mention_count": 50,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -9625,16 +9645,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 328,
-      "last_mentioned_speaker": "Eric",
-      "overton_score": 47.88,
+      "last_mentioned_episode_id": 330,
+      "last_mentioned_speaker": "Alex Carp",
+      "overton_score": 50.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
-      "last_mentioned_episode_title": "What If It\u2019s Still Early? | Erik YWR on $10,000 S&P 500 by 2027 Case, Hyperscaler ROIC, AI CapEx, Semis, Exchanges, and Reverse Crash Risk In \u201cProject Zimbabwe\u201d",
-      "last_mentioned_episode_date": "2026-07-02"
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
+      "last_mentioned_episode_date": "2026-07-03"
     },
     {
       "id": 10,
@@ -30384,9 +30404,75 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-07-03",
     "key_tickers": []
+  },
+  "345": {
+    "id": 335,
+    "insight_id": 345,
+    "podcast_episode_id": 330,
+    "overview": "The unresolved tension in the source material revolves around the balance between leveraging AI for operational efficiency and maintaining control over proprietary data to preserve competitive advantages. Enterprises are at a crossroads, deciding whether to rely on centralized AI providers or to invest in decentralized, open-source solutions. The competitive dynamic is further complicated by the potential economic repercussions of California's fiscal challenges, which could impact investment decisions and economic stability. The metric that arbitrates this uncertainty is the ability of enterprises to successfully implement and control AI technologies while navigating the fiscal landscape.",
+    "key_takeaways_detailed": [
+      "Investors should focus on companies that demonstrate a strategic approach to AI adoption, indicating a potential for both operational efficiency and job growth.",
+      "Enterprises should evaluate the total cost of ownership for AI solutions, including the potential risks of data leakage and the long-term costs associated with proprietary models.",
+      "Policymakers in California must address the state's fiscal challenges to prevent a negative impact on investment and economic growth, which could serve as a bellwether for other states facing similar issues.",
+      "The shift towards decentralized AI solutions presents an opportunity for smaller players in the AI market to compete by offering more cost-effective and customizable solutions."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that enterprises prioritizing data sovereignty and adopting decentralized AI solutions will outperform those reliant on centralized providers. This approach will not only protect their competitive advantages but also potentially reduce costs and increase operational efficiency. The thesis is vindicated if enterprises that adopt open-source AI models report higher profitability and if California's fiscal policies lead to economic stability. Conversely, it would be invalidated if centralized AI providers continue to dominate the market and if California's fiscal instability leads to a broader economic downturn.",
+    "ticker_analysis": {
+      "PLTR": {
+        "rationale": "Palantir is directly involved in the development of custom AI models for government agencies, making it a key player in the data sovereignty narrative.",
+        "positioning": "Positioned long as Palantir's focus on data sovereignty and partnership with Nvidia could give it a competitive edge in the AI market.",
+        "risk": "The risk includes potential data privacy issues and the possibility that government contracts may not materialize as expected."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's collaboration with Palantir to create custom AI models positions it as a key technology provider in the AI space.",
+        "positioning": "Strategically positioned long due to its potential to benefit from the shift towards decentralized AI solutions and its established position in the GPU market.",
+        "risk": "The risk includes competition from other tech giants and potential regulatory hurdles in the AI space."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "AI providers may argue that centralized solutions offer better security and more advanced AI capabilities, challenging the need for decentralized models.",
+      "Enterprises may face significant costs and challenges in transitioning from proprietary to open-source AI models, potentially slowing the shift towards decentralized solutions.",
+      "California's fiscal challenges could be mitigated by economic growth or policy changes, reducing the urgency for fiscal reform and impacting the economic outlook."
+    ],
+    "catalysts": [
+      "The outcome of government contracts awarded to Palantir and Nvidia for AI development.",
+      "Publication of new studies on the impact of AI investment on job growth and enterprise competitiveness.",
+      "California's budget decisions and economic indicators that could signal fiscal stability or instability.",
+      "Regulatory developments in data privacy and AI that could influence the adoption of decentralized AI solutions."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-03T23:38:01.861334",
+    "updated_at": "2026-07-04 04:38:01",
+    "episode_evidence": "The podcast episode delves into Palantir's collaboration with Nvidia to develop a tailored AI model for U.S. government agencies, underscoring the significance of data sovereignty in AI. Alex Carp, a guest on the show, emphasized the concept of 'intelligence sovereignty,' stating, 'If you want to have true AI safety as an enterprise, you have to retain the ability to choose at the model layer who gets to see and use your alpha.' This underscores the competitive advantage enterprises can maintain by controlling their data. The discussion also highlighted a study showing that companies investing in AI increased their workforce by about 10% within two years of AI adoption, challenging the narrative of job loss due to automation. Furthermore, the podcast pointed out California's fiscal issues, noting that the state's budget has ballooned from $215 billion in 2019 to $355 billion today, with a projected $40 billion annual deficit by 2028, which could have broader economic implications.",
+    "falsification_tracks": [
+      "If California's budget deficit does not materialize as projected, or if the state implements effective fiscal policies to address the issue, the narrative of fiscal instability would be weakened.",
+      "If studies show a decrease in headcount in companies that have adopted AI, contradicting the job growth narrative, it would challenge the positive impact of AI on employment.",
+      "If enterprises fail to maintain competitive advantages by losing control over their data to AI providers, it would indicate that data sovereignty is not as crucial as claimed."
+    ],
+    "insight_title": "AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-07-03",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 488,
+    "term": "Data Sovereignty",
+    "definition": "The concept that enterprises should retain control over their proprietary data and AI models to prevent competition from AI providers.",
+    "investment_implications": "Enterprises prioritizing data sovereignty are likely to invest in internal AI capabilities, creating a competitive advantage.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-04 04:37:05",
+    "priority_score": 80
+  },
   {
     "id": 485,
     "term": "AI as a Universal Interface",
@@ -30422,23 +30508,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-03 17:04:38",
     "priority_score": 80
-  },
-  {
-    "id": 484,
-    "term": "Capital Efficiency",
-    "definition": "The ability of a company to achieve results with limited capital, often leading to innovation and operational excellence.",
-    "investment_implications": "Investors should seek companies with capital efficiency as they can compete effectively despite having less capital.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-02 17:02:46",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 25368,
+    "id": 25455,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -30450,7 +30524,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25369,
+    "id": 25456,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -30462,7 +30536,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25370,
+    "id": 25457,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -30474,7 +30548,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25371,
+    "id": 25458,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -30486,7 +30560,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25372,
+    "id": 25459,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -30498,7 +30572,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25373,
+    "id": 25460,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -30510,7 +30584,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25374,
+    "id": 25461,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -30522,7 +30596,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25375,
+    "id": 25462,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -30534,7 +30608,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25376,
+    "id": 25463,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -30546,7 +30620,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25377,
+    "id": 25464,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -30558,7 +30632,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25378,
+    "id": 25465,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -30570,7 +30644,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 25379,
+    "id": 25466,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -30582,7 +30656,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25380,
+    "id": 25467,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -30594,7 +30668,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25381,
+    "id": 25468,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -30606,7 +30680,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25382,
+    "id": 25469,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -30618,7 +30692,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25383,
+    "id": 25470,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -30630,7 +30704,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25384,
+    "id": 25471,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -30642,7 +30716,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25385,
+    "id": 25472,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -30654,7 +30728,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25386,
+    "id": 25473,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -30666,7 +30740,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 25387,
+    "id": 25474,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -30868,6 +30942,66 @@ const dashboardData = {
     "net_worth": "$12.3M"
   },
   {
+    "id": 52,
+    "name": "Alex Carp",
+    "slug": "alex-carp",
+    "bio": "Alex Carp is a technology entrepreneur known for his advocacy of 'intelligence sovereignty' and the control of proprietary data and AI models by enterprises. He is the co-founder and former CEO of Palantir Technologies, a company specializing in big data analytics.",
+    "known_for": "Advocating for 'intelligence sovereignty' and the control of proprietary data and AI models by enterprises.",
+    "net_worth_usd": 14000000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/richest-billionaires/alex-karp-net-worth/",
+    "net_worth_updated_at": "2026-07-03T23:37:37.147345",
+    "voice_tone": "Assertive and knowledgeable.",
+    "voice_style": "Factual and persuasive.",
+    "voice_delivery_notes": "Clear and deliberate pace, with emphasis on the importance of data control.",
+    "voice_profile_updated_at": "2026-07-04 04:37:05",
+    "last_seen": "2026-07-04 04:37:05",
+    "last_episode_title": "AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-07-03",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-03 \u2022 AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
+    "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Sure, favorite podcast. It's your podcast. It's your favorite podcast. It's the all-in podcast episode two, seven, nine with me, freebergs, tax, to my, you know, the",
+    "supporting_takeaway": "Monitor companies increasing AI investments, as they are likely to experience growth in headcount and revenue.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-03T23:37:35.914601",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Carp",
+      "fetched_at": "2026-07-04T04:37:35.914266+00:00",
+      "cliff_notes": "Alex Carp is a prominent figure in the technology sector, recognized for his role in founding Palantir Technologies, a company that provides software solutions for integrating, visualizing, and analyzing large data sets. Carp's vision for 'intelligence sovereignty' emphasizes the importance of enterprises maintaining control over their proprietary data and AI models. His leadership at Palantir has been instrumental in shaping the company's direction and its impact on government and commercial sectors. Carp's influence extends beyond Palantir, as he has been a vocal advocate for data retention and the strategic importance of data in driving innovation and maintaining competitive advantage.",
+      "derived": {
+        "former_positions": "Co-founder and former CEO of Palantir Technologies;"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Alex Carp is a prominent figure in the technology sector, recognized for his role in founding Palantir Technologies, a company that provides software solutions for integrating, visualizing, and analyzing large data sets. Carp's vision for 'intelligence sovereignty' emphasizes the importance of enterprises maintaining control over their proprietary data and AI models.",
+        "His leadership at Palantir has been instrumental in shaping the company's direction and its impact on government and commercial sectors. Carp's influence extends beyond Palantir, as he has been a vocal advocate for data retention and the strategic importance of data in driving innovation and maintaining competitive advantage."
+      ],
+      "sections": [
+        {
+          "heading": "Palantir Technologies",
+          "body": "Alex Carp co-founded Palantir Technologies, which focuses on big data analytics and has become a significant player in the tech industry, particularly in its work with government agencies."
+        },
+        {
+          "heading": "Intelligence Sovereignty",
+          "body": "Carp is a strong advocate for 'intelligence sovereignty,' the concept that companies and governments should retain control over their data and AI models to maintain a competitive edge."
+        },
+        {
+          "heading": "Data and AI Control",
+          "body": "Under Carp's influence, Palantir has emphasized the importance of data control, leading to partnerships and initiatives that promote the use of AI while ensuring data remains with the client."
+        }
+      ]
+    },
+    "net_worth": "$14.00B"
+  },
+  {
     "id": 267,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
@@ -30885,7 +31019,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 1.38,
+    "mention_score_decayed": 1.35,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -31740,7 +31874,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -31804,7 +31938,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -31864,7 +31998,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
@@ -32265,7 +32399,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-29 \u2022 Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
     "last_proof_snippet": "I am so glad today we have a very special guest, one of my favorite authors of all time Leakwet Ahamed, who's the author of the new book 1873, The Roth Childs, The First Great Depression, and The Making of the Modern World Leakwet. Welcome",
@@ -32392,7 +32526,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
     "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
@@ -32706,7 +32840,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-22 \u2022 Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
     "last_proof_snippet": "Okay, we're here in a studio with Grace One, Matt and Zico welcome. Great to be here. Yeah. Thanks for having us. You're visiting from Pittsburgh? That's right. The home of all good computer science, I don't know if I'm oversteaving things.",
@@ -32769,7 +32903,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -32833,7 +32967,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -32892,7 +33026,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -32951,7 +33085,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -33016,7 +33150,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -33079,7 +33213,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -33140,7 +33274,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in U.S. industrial champions with strong order backlogs and companies positioned to benefit from the electrification and modernization of the U.S. grid.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-18 \u2022 The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
     "last_proof_snippet": "The U.S. manufacturing has essentially been in a recession for three straight years and we have only just emerged now. If I had a CMMI survey, just reached about 50 in the last three months. And that's after three consecutive years of sub-5",
@@ -33200,7 +33334,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in companies that integrate AI with experimental data for material discovery to gain a competitive edge in industries like aerospace and semiconductors.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-17 \u2022 \ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
     "last_proof_snippet": "This is the difference between AI for bio and AI for materials. If you look at bio or maybe small molecules is a more broad category, you look at selfies and smile strings, where I which has been a big way to have those materials, those mol",
@@ -33445,7 +33579,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -34293,7 +34427,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -34485,7 +34619,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
@@ -37363,7 +37497,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Investment in the biotech sector may need to consider the geographic shift towards China for innovation and efficiency in drug development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-29 \u2022 The Shift in Global Drug Development",
     "last_proof_snippet": "China's clinical trial system has rapidly expanded, with reforms that streamline the approval process.",
@@ -37862,7 +37996,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -38370,7 +38504,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -38746,7 +38880,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
@@ -39440,7 +39574,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
     "last_proof_snippet": "AI is a shortcut that can be beneficial but also presents challenges in debugging and understanding.",
@@ -41851,7 +41985,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-18 \u2022 Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
     "last_proof_snippet": "Fetterman has a unique perspective, being popular among Republicans while maintaining his Democratic affiliation.",
@@ -41917,7 +42051,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-18 \u2022 The Geopolitics of Technology and the Future Economy",
     "last_proof_snippet": "Helbert emphasizes the importance of hardware in the geopolitical technology war and the control over the internet's infrastructure.",
@@ -41981,7 +42115,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-19 \u2022 Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
     "last_proof_snippet": "The immediate impact of an oil shock is inflationary, but over time it could lead to a negative shock on the economy.",
@@ -42402,33 +42536,6 @@ const dashboardData = {
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",
     "supporting_takeaway": "A conflict in the Gulf could significantly disrupt the world's oil supply, with potentially severe economic consequences.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 52,
-    "name": "Alex Carp",
-    "slug": "alex-carp",
-    "bio": "Co-founder and CEO of Palantir, a company that specializes in big data analytics.",
-    "known_for": "Building technology deployed on battlefields and analytics infrastructure embedded in the Department of Defense.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-12 20:29:53",
-    "last_episode_title": "The Intersection of Technology, Geopolitics, and National Defense",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-12",
-    "mention_score": 1,
-    "mention_score_decayed": 0.07,
-    "last_main_idea": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-12 \u2022 The Intersection of Technology, Geopolitics, and National Defense",
-    "last_proof_snippet": "We were the freak chef, and we spent 20 years for this moment. We're doing it, we're doing it, and I'm sure you're enjoying this as much as I am. I just got three things to say. God bless our troops. God bless America. And shout on that. Do",
-    "supporting_takeaway": "Silicon Valley must collaborate with the defense sector to prevent the nationalization of AI companies.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null

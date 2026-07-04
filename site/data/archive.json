@@ -24,6 +24,26 @@
       "podcast_episode_id": 329
     },
     {
+      "id": 345,
+      "title": "AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-03",
+      "summary": "In this episode, the hosts discuss Palantir's partnership with Nvidia to create a custom AI model for U.S. government agencies, highlighting the importance of data sovereignty in AI. They debate the risks of sharing proprietary data with AI model providers and the potential for job growth linked to AI investment. Additionally, they analyze California's fiscal challenges and the importance of cultural assimilation for immigrants. The conversation suggests a shift towards decentralized AI solutions and emphasizes the need for enterprises to maintain control over their data.",
+      "key_takeaway": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
+      "tickers_mentioned": [
+        "PLTR",
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 330
+    },
+    {
       "id": 342,
       "title": "Outsmarting Uber: Why Bolt Wins in Europe",
       "source_type": "podcast",
@@ -154,7 +174,7 @@
         "AMZN"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-30",
       "archived_date": null,
@@ -6987,8 +7007,8 @@
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-01",
-      "mention_count": 33,
+      "last_mentioned_date": "2026-07-03",
+      "mention_count": 34,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -6997,8 +7017,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 326,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 330,
+      "last_mentioned_speaker": "Alex Carp"
     },
     {
       "id": 97,
@@ -7113,8 +7133,8 @@
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-02",
-      "mention_count": 49,
+      "last_mentioned_date": "2026-07-03",
+      "mention_count": 50,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -7123,8 +7143,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 328,
-      "last_mentioned_speaker": "Eric"
+      "last_mentioned_episode_id": 330,
+      "last_mentioned_speaker": "Alex Carp"
     },
     {
       "id": 162,
@@ -7633,20 +7653,20 @@
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models that are publicly accessible and can be used or modified by anyone, often leading to rapid innovation and collaboration.",
+      "description": "AI models that are publicly accessible and can be modified and shared by anyone, allowing enterprises to maintain control over their data and reduce reliance on proprietary models.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-07-03",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider the competitive landscape and the potential for disruption caused by open-source AI models, particularly those from China.",
+      "investment_implications": "Investing in companies that utilize or develop open-source AI models can offer cost savings and data sovereignty.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 316,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 330,
+      "last_mentioned_speaker": "Alex Carp"
     },
     {
       "id": 79,
@@ -8139,8 +8159,8 @@
       "term": "AI Race",
       "description": "The global competition between nations to lead in AI development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-06-26",
-      "mention_count": 15,
+      "last_mentioned_date": "2026-07-03",
+      "mention_count": 16,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consider investing in companies and countries that are making significant strides in AI technology.",
@@ -8149,8 +8169,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 316,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 330,
+      "last_mentioned_speaker": "Alex Carp"
     },
     {
       "id": 12,
