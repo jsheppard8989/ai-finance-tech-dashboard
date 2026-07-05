@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 346,
+      "title": "The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-07-04",
+      "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on real estate investment trends and insights. Clarion Partners' Josh Pristow discusses the firm's strategy, highlighting the challenges of investing in data centers due to high capital demands and the growth potential in multi-family housing and senior housing. The episode also covers the industrial sector's growth driven by e-commerce and the recovery of Class A office spaces.",
+      "key_takeaway": "Invest in multi-family and senior housing to capitalize on demographic shifts, and focus on industrial properties to benefit from e-commerce growth.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 331
+    },
+    {
       "id": 344,
       "title": "Technology, Alliances, and American Leadership.",
       "source_type": "podcast",
@@ -193,7 +212,7 @@
         "AAPL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-06-30",
       "archived_date": null,

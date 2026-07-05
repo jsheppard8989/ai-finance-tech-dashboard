@@ -1,5 +1,22 @@
 [
   {
+    "id": 331,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
+    "episode_date": "2026-07-04",
+    "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on real estate investment trends and insights. Clarion Partners' Josh Pristow discusses the firm's strategy, highlighting the challenges of investing in data centers due to high capital demands and the growth potential in multi-family housing and senior housing. The episode also covers the industrial sector's growth driven by e-commerce and the recovery of Class A office spaces.",
+    "key_takeaways": [
+      "Clarion Partners manages over $70 billion in real estate assets, with a significant portion in industrial logistics.",
+      "Data center investments are not part of Clarion's core strategy due to high capital requirements and asset value uncertainties.",
+      "Multi-family housing demand is expected to increase significantly, driven by demographic trends among the 35-49 age group.",
+      "Senior housing presents a high-conviction investment theme, with a projected need for 125,000 new beds annually.",
+      "The industrial sector is poised for growth with a $1 trillion increase in annual e-commerce sales expected over the next decade.",
+      "Class A office spaces are recovering, while Class B and C face challenges due to declining demand and high capital costs."
+    ],
+    "investment_thesis": "Invest in multi-family and senior housing to capitalize on demographic shifts, and focus on industrial properties to benefit from e-commerce growth.",
+    "key_tickers": null
+  },
+  {
     "id": 330,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
@@ -117,22 +134,6 @@
       "Taste and self-knowledge are increasingly valuable in the creative process, suggesting a shift in educational focus."
     ],
     "investment_thesis": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
-    "key_tickers": null
-  },
-  {
-    "id": 323,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Top IPO Scholar on Unprecedented IPO Wave & Why IPOs Underperform the Market | Jay Ritter",
-    "episode_date": "2026-06-30",
-    "summary": "In this episode, Jack Farley discusses the historic IPO environment with three companies potentially reaching a $1 trillion valuation. The discussion includes SpaceX's high price-to-sales ratio, the performance of high-revenue IPOs, regulatory risks in AI, and the shift in the IPO landscape. Farley also touches on venture capital valuation concerns, the historical context of technological change, and the impact of perpetual futures on private markets.",
-    "key_takeaways": [
-      "The current IPO environment is historic with potential for high valuations.",
-      "SpaceX's high price-to-sales ratio raises concerns about future performance.",
-      "Companies with annual revenues over $100 million tend to perform better post-IPO.",
-      "Regulatory risks surrounding AI companies are significant and could impact profitability.",
-      "The venture capital landscape has seen inflated valuations leading to lower expected returns."
-    ],
-    "investment_thesis": "Investors should be cautious in the current high-valuation IPO environment and focus on companies with established revenues and lower regulatory risks.",
     "key_tickers": null
   }
 ]
