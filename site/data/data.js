@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-06T06:39:13.784349",
-  chartsVersion: "2026-07-06T06:39:04.291393",
+  generatedAt: "2026-07-06T12:07:13.100187",
+  chartsVersion: "2026-07-06T12:07:02.308079",
   priceSnapshot: {
   "GOOGL": {
-    "price": 359.91,
-    "change_pct": 0.06,
+    "price": 364.62,
+    "change_pct": -1.28,
     "name": "GOOGL",
-    "updated_at": "2026-07-06T06:39:04.289841"
+    "updated_at": "2026-07-06T12:07:02.307625"
   },
   "BTC": {
-    "price": 62830.14,
-    "change_pct": 0.26,
+    "price": 63819.36,
+    "change_pct": 1.84,
     "name": "BTC",
-    "updated_at": "2026-07-06T06:39:04.289861"
+    "updated_at": "2026-07-06T12:07:02.307637"
   },
   "MSFT": {
-    "price": 390.49,
-    "change_pct": -0.06,
+    "price": 385.92,
+    "change_pct": -3.46,
     "name": "MSFT",
-    "updated_at": "2026-07-06T06:39:04.289871"
+    "updated_at": "2026-07-06T12:07:02.307641"
   },
   "NVDA": {
-    "price": 194.83,
-    "change_pct": -5.05,
+    "price": 196.83,
+    "change_pct": -7.35,
     "name": "NVDA",
-    "updated_at": "2026-07-06T06:39:04.289879"
+    "updated_at": "2026-07-06T12:07:02.307644"
   },
   "AMZN": {
-    "price": 242.67,
-    "change_pct": 1.73,
+    "price": 244.87,
+    "change_pct": -0.47,
     "name": "AMZN",
-    "updated_at": "2026-07-06T06:39:04.289887"
+    "updated_at": "2026-07-06T12:07:02.307647"
   },
   "TSLA": {
-    "price": 393.45,
-    "change_pct": -3.19,
+    "price": 419.49,
+    "change_pct": 2.03,
     "name": "TSLA",
-    "updated_at": "2026-07-06T06:39:04.289895"
+    "updated_at": "2026-07-06T12:07:02.307651"
   },
   "WTI": {
-    "price": 3.09,
-    "change_pct": -23.89,
+    "price": 3.14,
+    "change_pct": -7.23,
     "name": "WTI",
-    "updated_at": "2026-07-06T06:39:04.289904"
+    "updated_at": "2026-07-06T12:07:02.307655"
   },
   "META": {
-    "price": 582.9,
-    "change_pct": 2.9,
+    "price": 593.25,
+    "change_pct": -0.04,
     "name": "META",
-    "updated_at": "2026-07-06T06:39:04.289912"
+    "updated_at": "2026-07-06T12:07:02.307658"
   },
   "S&P 500": {
-    "price": 744.78,
-    "change_pct": 0.67,
+    "price": 751.5,
+    "change_pct": -0.18,
     "name": "S&P 500",
-    "updated_at": "2026-07-06T06:39:04.289919"
+    "updated_at": "2026-07-06T12:07:02.307661"
   },
   "AAPL": {
-    "price": 308.63,
-    "change_pct": 6.01,
+    "price": 312.82,
+    "change_pct": 5.53,
     "name": "AAPL",
-    "updated_at": "2026-07-06T06:39:04.289927"
+    "updated_at": "2026-07-06T12:07:02.307665"
   },
   "QQQ": {
-    "price": 712.6,
-    "change_pct": -1.1,
+    "price": 724.5,
+    "change_pct": -2.51,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-06T06:39:04.289935"
+    "updated_at": "2026-07-06T12:07:02.307668"
   },
   "BTC-USD": {
-    "price": 62830.14,
-    "change_pct": 0.26,
+    "price": 63819.36,
+    "change_pct": 1.84,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-06T06:39:04.289944"
+    "updated_at": "2026-07-06T12:07:02.307672"
   }
 },
   tickerScores: [
@@ -834,6 +834,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 348,
+      "title": "Don\u2019t Follow Your Passion | Ben Horowitz\u2019s Advice for New Graduates",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-06",
+      "summary": "In this episode, Ben Horowitz discusses the importance of independent thinking in the world of investment and innovation. He challenges the notion of 'following your passion' and instead emphasizes the value of contribution and mastery. Horowitz highlights historical improvements in global metrics such as poverty and life expectancy, suggesting that the current era presents unprecedented opportunities for innovation. He also underscores the democratization of information through the internet and uses Airbnb as a case study to illustrate the potential of original ideas that defy conventional wisdom.",
+      "key_takeaway": "Invest in original ideas and platforms that challenge conventional wisdom and facilitate access to information and innovation, particularly those with societal contributions.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "AMZN",
+        "FB",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 333
+    },
+    {
       "id": 347,
       "title": "The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
       "source_type": "podcast",
@@ -983,7 +1006,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-01",
       "archived_date": null,
@@ -9378,6 +9401,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 348,
+      "title": "Don\u2019t Follow Your Passion | Ben Horowitz\u2019s Advice for New Graduates",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-06",
+      "summary": "In this episode, Ben Horowitz discusses the importance of independent thinking in the world of investment and innovation. He challenges the notion of 'following your passion' and instead emphasizes the value of contribution and mastery. Horowitz highlights historical improvements in global metrics such as poverty and life expectancy, suggesting that the current era presents unprecedented opportunities for innovation. He also underscores the democratization of information through the internet and uses Airbnb as a case study to illustrate the potential of original ideas that defy conventional wisdom.",
+      "key_takeaway": "Invest in original ideas and platforms that challenge conventional wisdom and facilitate access to information and innovation, particularly those with societal contributions.",
+      "tickers_mentioned": "[\"AAPL\", \"MSFT\", \"AMZN\", \"FB\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 333,
+      "episode_release_date": "2026-07-06",
+      "guest_name": "Don\u2019t Follow Your Passion",
+      "key_tickers": []
+    },
+    {
       "id": 347,
       "title": "The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
       "source_type": "podcast",
@@ -9500,26 +9543,6 @@ const dashboardData = {
       "key_tickers": [
         "NVDA"
       ]
-    },
-    {
-      "id": 340,
-      "title": "\ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
-      "source_type": "podcast",
-      "source_name": "Latent Space: The AI Engineer Podcast",
-      "source_date": "2026-07-01",
-      "summary": "In this episode, the focus is on Genesis Molecular AI's innovative approach to drug discovery using AI, specifically their model named Pearl. Pearl stands out for its high-resolution predictions in protein-ligand interactions, which is crucial for effective drug design. The company's partnership with Insight aims to streamline the drug discovery process through a feedback loop of AI predictions and experimental validation. The discussion highlights the importance of accuracy in AI models for drug discovery and the shift in pharmaceutical companies' approach to leveraging AI tools.",
-      "key_takeaway": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-01",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 325,
-      "episode_release_date": "2026-07-01",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 341,
@@ -30597,6 +30620,78 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-07-05",
     "key_tickers": []
+  },
+  "348": {
+    "id": 338,
+    "insight_id": 348,
+    "podcast_episode_id": 333,
+    "overview": "The unresolved tension in Horowitz's discourse is the balance between the traditional advice of following one's passion and the contrarian view of focusing on contribution and mastery. This dynamic is contested by the historical context of global improvements and the democratization of information, which suggest that the current era is ripe for innovation but requires a shift in mindset. Allocators must consider who wins or loses in this paradigm shift, with the metric of societal contribution and mastery potentially arbitrating uncertainty. The horizon of proof lies in the success of ventures that defy conventional wisdom and contribute to global improvements.",
+    "key_takeaways_detailed": [
+      "Investors should evaluate the societal contribution potential of startups, as this may outweigh personal passion as a success indicator.",
+      "Look for sectors that are addressing historical global challenges, as these may offer the most significant opportunities for innovation and growth.",
+      "Invest in platforms that not only provide access to information but also foster an environment for the development and sharing of original ideas.",
+      "Consider the long-term societal impact of investments, as this may become a key differentiator in a market increasingly focused on contribution over personal passion.",
+      "Monitor the global metrics mentioned by Horowitz as indicators of the health and potential of various sectors for investment."
+    ],
+    "investment_thesis": "The core logic of this thesis is that the current era, marked by unprecedented global improvements and the democratization of information, presents a unique opportunity for innovation. This is supported by the contention that focusing on contribution and mastery over personal passion leads to more impactful and sustainable success. The thesis is vindicated by observing the continued decline in global poverty, the reduction in child labor, and increases in life expectancy, as these metrics indicate a world moving towards more opportunities for innovation. Conversely, a reversal of these trends would invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's role in democratizing technology and information access through smartphones aligns with Horowitz's emphasis on the democratization of information.",
+        "positioning": "Positioned long-term as Apple continues to innovate and expand its ecosystem, potentially capturing more of the global market and contributing to the democratization of information.",
+        "risk": "Key risks include market saturation, regulatory challenges in key markets, and potential disruptions in the global supply chain."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's cloud services and software contribute to the democratization of information and innovation.",
+        "positioning": "Strategic long position due to Microsoft's broad reach and potential for growth in cloud services and digital transformation.",
+        "risk": "Risks include increased competition in the cloud space and potential regulatory scrutiny over data privacy."
+      },
+      "AMZN": {
+        "rationale": "Amazon's impact on e-commerce and cloud services reflects the potential of original ideas to disrupt markets.",
+        "positioning": "Tactically positioned long due to Amazon's ability to innovate and its position in the growing e-commerce and cloud sectors.",
+        "risk": "Risks include increased regulatory scrutiny and potential disruptions in logistics due to global events."
+      },
+      "FB": {
+        "rationale": "Facebook's role in social media and the spread of information makes it a key player in the democratization of information.",
+        "positioning": "Positioned long-term as Facebook continues to innovate in social media and digital advertising.",
+        "risk": "Key risks include changes in user behavior, increased competition, and potential regulatory actions affecting data usage."
+      },
+      "TSLA": {
+        "rationale": "Tesla's innovation in electric vehicles and energy solutions aligns with the thesis of investing in original ideas that contribute to societal improvements.",
+        "positioning": "Strategically positioned long due to Tesla's potential for growth in the electric vehicle market and its contribution to reducing carbon emissions.",
+        "risk": "Risks include competition from traditional and new automakers, supply chain disruptions, and potential regulatory changes affecting the EV market."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that following one's passion is the key to success, which contradicts Horowitz's argument for contribution and mastery.",
+      "The possibility that the democratization of information may lead to information overload rather than innovation.",
+      "Concerns that the focus on societal contribution may overshadow the importance of profitability and business sustainability."
+    ],
+    "catalysts": [
+      "Global poverty and child labor statistics from the World Bank and ILO, which could validate or challenge Horowitz's historical context.",
+      "Advancements in healthcare and life expectancy as reported by the WHO, indicating the potential for innovation in the healthcare sector.",
+      "Regulatory changes affecting technology companies, which could either hinder or accelerate the democratization of information.",
+      "Technological breakthroughs in sectors like renewable energy and AI, which could significantly impact the innovation landscape.",
+      "Economic indicators and market trends that reflect the health of the global economy and the potential for innovation."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-06T12:06:18.108677",
+    "updated_at": "2026-07-06 17:06:18",
+    "episode_evidence": "Ben Horowitz's discussion on independent thinking is grounded in the belief that 'The last thing they want to hear is an original idea that contradicts their belief system.' This underscores the necessity for investors to seek out and value ideas that challenge the status quo. Horowitz's argument against 'following your passion' is supported by his assertion that 'Following your passion is a very me-centered view of the world.' Instead, he advocates for a focus on contribution and mastery, which can lead to more meaningful and impactful innovation. Historically, Horowitz points out that 'The number of people living in extreme poverty today is the lowest in the history of the world,' which suggests a shift in global dynamics that presents new opportunities for innovation and investment. The democratization of information is exemplified by his statement, 'Everybody who has a smartphone... has a library of Congress in their pocket,' highlighting how technology has leveled the playing field for idea generation and innovation.",
+    "falsification_tracks": [
+      "If global poverty rates increase significantly, it would challenge Horowitz's assertion about the current era's opportunities for innovation.",
+      "A sustained decline in life expectancy rates globally would contradict the narrative of historical improvement and the potential for innovation in healthcare.",
+      "Should child labor rates show an uptick, it would undermine the positive historical trend and potentially shift investment focus away from sectors relying on this data.",
+      "If the number of smartphone users plateaus or declines, it could indicate a saturation point has been reached, affecting the democratization of information narrative."
+    ],
+    "insight_title": "Don\u2019t Follow Your Passion | Ben Horowitz\u2019s Advice for New Graduates",
+    "source_name": "The a16z Show",
+    "source_date": "2026-07-06",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -30651,7 +30746,19 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 26684,
+    "id": 26773,
+    "name": "Don\u2019t Follow Your Passion",
+    "slug": "dont-follow-your-passion",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in original ideas and platforms that challenge conventional wisdom and facilitate access to information and innovation, particularly those with societal contributions.",
+    "last_episode_title": "Don\u2019t Follow Your Passion | Ben Horowitz\u2019s Advice for New Graduates",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-06",
+    "appearance_count": 1
+  },
+  {
+    "id": 26774,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -30663,7 +30770,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26685,
+    "id": 26775,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -30675,7 +30782,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26686,
+    "id": 26776,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -30687,7 +30794,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26687,
+    "id": 26777,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -30699,7 +30806,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26688,
+    "id": 26778,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -30711,7 +30818,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26689,
+    "id": 26779,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -30723,7 +30830,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26690,
+    "id": 26780,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -30735,7 +30842,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26691,
+    "id": 26781,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -30747,7 +30854,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26692,
+    "id": 26782,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -30759,7 +30866,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26693,
+    "id": 26783,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -30771,7 +30878,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26694,
+    "id": 26784,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -30783,7 +30890,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26695,
+    "id": 26785,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -30795,7 +30902,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26696,
+    "id": 26786,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -30807,7 +30914,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 26697,
+    "id": 26787,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -30819,7 +30926,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26698,
+    "id": 26788,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -30831,7 +30938,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26699,
+    "id": 26789,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -30843,7 +30950,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26700,
+    "id": 26790,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -30855,7 +30962,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26701,
+    "id": 26791,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -30867,7 +30974,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26702,
+    "id": 26792,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -30876,18 +30983,6 @@ const dashboardData = {
     "last_episode_title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
-    "appearance_count": 1
-  },
-  {
-    "id": 26703,
-    "name": "Emerging Situation",
-    "slug": "emerging-situation",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in companies at the forefront of AI development and in regions with favorable AI regulatory environments to capitalize on the rapid advancements and market opportunities in AI.",
-    "last_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-06-08",
     "appearance_count": 1
   }
 ],
@@ -32350,7 +32445,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -32534,7 +32629,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
     "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
@@ -32595,7 +32690,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -32846,7 +32941,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -32910,7 +33005,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -33713,7 +33808,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -34282,7 +34377,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -34411,7 +34506,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -34477,7 +34572,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -34752,7 +34847,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -34816,7 +34911,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -35071,7 +35166,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -35135,7 +35230,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -35318,7 +35413,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -35382,7 +35477,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -38827,7 +38922,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
@@ -41135,7 +41230,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -41195,7 +41290,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -41255,7 +41350,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",

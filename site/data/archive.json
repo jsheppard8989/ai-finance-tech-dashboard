@@ -1,6 +1,29 @@
 {
   "insights": [
     {
+      "id": 348,
+      "title": "Don\u2019t Follow Your Passion | Ben Horowitz\u2019s Advice for New Graduates",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-06",
+      "summary": "In this episode, Ben Horowitz discusses the importance of independent thinking in the world of investment and innovation. He challenges the notion of 'following your passion' and instead emphasizes the value of contribution and mastery. Horowitz highlights historical improvements in global metrics such as poverty and life expectancy, suggesting that the current era presents unprecedented opportunities for innovation. He also underscores the democratization of information through the internet and uses Airbnb as a case study to illustrate the potential of original ideas that defy conventional wisdom.",
+      "key_takeaway": "Invest in original ideas and platforms that challenge conventional wisdom and facilitate access to information and innovation, particularly those with societal contributions.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "AMZN",
+        "FB",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 333
+    },
+    {
       "id": 347,
       "title": "The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
       "source_type": "podcast",
@@ -150,7 +173,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-01",
       "archived_date": null,

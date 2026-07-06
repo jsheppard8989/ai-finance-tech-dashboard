@@ -1,6 +1,18 @@
 [
   {
-    "id": 26684,
+    "id": 26773,
+    "name": "Don\u2019t Follow Your Passion",
+    "slug": "dont-follow-your-passion",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in original ideas and platforms that challenge conventional wisdom and facilitate access to information and innovation, particularly those with societal contributions.",
+    "last_episode_title": "Don\u2019t Follow Your Passion | Ben Horowitz\u2019s Advice for New Graduates",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-06",
+    "appearance_count": 1
+  },
+  {
+    "id": 26774,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26685,
+    "id": 26775,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26686,
+    "id": 26776,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26687,
+    "id": 26777,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26688,
+    "id": 26778,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26689,
+    "id": 26779,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26690,
+    "id": 26780,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26691,
+    "id": 26781,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26692,
+    "id": 26782,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26693,
+    "id": 26783,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26694,
+    "id": 26784,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26695,
+    "id": 26785,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26696,
+    "id": 26786,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 2
   },
   {
-    "id": 26697,
+    "id": 26787,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26698,
+    "id": 26788,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26699,
+    "id": 26789,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26700,
+    "id": 26790,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26701,
+    "id": 26791,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26702,
+    "id": 26792,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26703,
+    "id": 26793,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26704,
+    "id": 26794,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26705,
+    "id": 26795,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26706,
+    "id": 26796,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26707,
+    "id": 26797,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26708,
+    "id": 26798,
     "name": "Dan Loeb",
     "slug": "dan-loeb",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26709,
+    "id": 26799,
     "name": "Benedict Evans",
     "slug": "benedict-evans",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26710,
+    "id": 26800,
     "name": "Thomas Laffont",
     "slug": "thomas-laffont",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26711,
+    "id": 26801,
     "name": "Reality",
     "slug": "reality",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 26712,
+    "id": 26802,
     "name": "ideology. It",
     "slug": "ideology-it",
     "bio": null,
@@ -344,18 +356,6 @@
     "last_main_idea": "Invest in companies that are part of decentralized tech ecosystems and those leveraging 'internet first' ideologies, while advocating for rational industrial policies to strengthen supply chains.",
     "last_episode_title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-03",
-    "appearance_count": 1
-  },
-  {
-    "id": 26713,
-    "name": "Bill Ackman",
-    "slug": "bill-ackman",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
-    "last_episode_title": "Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-03",
     "appearance_count": 1
   }

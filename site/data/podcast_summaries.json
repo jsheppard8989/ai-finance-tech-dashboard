@@ -1,5 +1,21 @@
 [
   {
+    "id": 333,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Don\u2019t Follow Your Passion | Ben Horowitz\u2019s Advice for New Graduates",
+    "episode_date": "2026-07-06",
+    "summary": "In this episode, Ben Horowitz discusses the importance of independent thinking in the world of investment and innovation. He challenges the notion of 'following your passion' and instead emphasizes the value of contribution and mastery. Horowitz highlights historical improvements in global metrics such as poverty and life expectancy, suggesting that the current era presents unprecedented opportunities for innovation. He also underscores the democratization of information through the internet and uses Airbnb as a case study to illustrate the potential of original ideas that defy conventional wisdom.",
+    "key_takeaways": [
+      "Investors should seek out ideas that challenge prevailing beliefs and disrupt markets.",
+      "Focus on societal contributions over personal passion for more sustainable success.",
+      "Invest in sectors that address ongoing global challenges, such as poverty alleviation and health improvements.",
+      "Invest in platforms that facilitate knowledge sharing and innovation, particularly in emerging markets.",
+      "Look for startups that present unique solutions to existing problems, even if they initially seem impractical."
+    ],
+    "investment_thesis": "Invest in original ideas and platforms that challenge conventional wisdom and facilitate access to information and innovation, particularly those with societal contributions.",
+    "key_tickers": null
+  },
+  {
     "id": 332,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
@@ -121,20 +137,5 @@
       "MS",
       "RKLB"
     ]
-  },
-  {
-    "id": 325,
-    "podcast_name": "Latent Space: The AI Engineer Podcast",
-    "episode_title": "\ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
-    "episode_date": "2026-07-01",
-    "summary": "In this episode, the focus is on Genesis Molecular AI's innovative approach to drug discovery using AI, specifically their model named Pearl. Pearl stands out for its high-resolution predictions in protein-ligand interactions, which is crucial for effective drug design. The company's partnership with Insight aims to streamline the drug discovery process through a feedback loop of AI predictions and experimental validation. The discussion highlights the importance of accuracy in AI models for drug discovery and the shift in pharmaceutical companies' approach to leveraging AI tools.",
-    "key_takeaways": [
-      "Invest in companies developing advanced AI models for drug discovery, focusing on high-resolution predictions.",
-      "Seek partnerships between AI firms and pharmaceutical companies that facilitate rapid feedback loops in drug development.",
-      "Monitor the evolving landscape of AI in pharma, particularly the shift towards purchasing AI tools rather than developing them in-house.",
-      "Encourage collaboration between AI researchers and experimental scientists to enhance the effectiveness of drug discovery processes."
-    ],
-    "investment_thesis": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
-    "key_tickers": null
   }
 ]
