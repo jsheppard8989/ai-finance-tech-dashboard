@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 347,
+      "title": "The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-07-05",
+      "summary": "In this episode of Monetary Matters, the focus is on the Federal Reserve's strategy to reduce its balance sheet, currently at approximately $6.5 trillion. Guest Daryl Duffy discusses four techniques to decrease reserve demand, which is key to shrinking the balance sheet without causing market disruptions. These include temporary open market operations, revising liquidity regulations, introducing a liquidity savings mechanism, and tiering the remuneration of reserves. The conversation emphasizes the importance of maintaining adequate reserve levels for effective interest rate management and the potential benefits of a smaller balance sheet for the Fed's operational flexibility and political standing.",
+      "key_takeaway": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 332
+    },
+    {
       "id": 346,
       "title": "The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
       "source_type": "podcast",
@@ -112,7 +131,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-01",
       "archived_date": null,

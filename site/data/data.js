@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-05T22:04:20.977086",
-  chartsVersion: "2026-07-05T22:04:11.375948",
+  generatedAt: "2026-07-05T23:41:46.458376",
+  chartsVersion: "2026-07-05T23:41:41.514356",
   priceSnapshot: {
   "GOOGL": {
     "price": 359.91,
     "change_pct": 0.06,
     "name": "GOOGL",
-    "updated_at": "2026-07-05T22:04:11.375467"
+    "updated_at": "2026-07-05T23:41:41.513860"
   },
   "BTC": {
-    "price": 63417.21,
-    "change_pct": 1.2,
+    "price": 63284.1,
+    "change_pct": 0.98,
     "name": "BTC",
-    "updated_at": "2026-07-05T22:04:11.375477"
+    "updated_at": "2026-07-05T23:41:41.513871"
   },
   "MSFT": {
     "price": 390.49,
     "change_pct": -0.06,
     "name": "MSFT",
-    "updated_at": "2026-07-05T22:04:11.375481"
+    "updated_at": "2026-07-05T23:41:41.513875"
   },
   "NVDA": {
     "price": 194.83,
     "change_pct": -5.05,
     "name": "NVDA",
-    "updated_at": "2026-07-05T22:04:11.375484"
+    "updated_at": "2026-07-05T23:41:41.513879"
   },
   "AMZN": {
     "price": 242.67,
     "change_pct": 1.73,
     "name": "AMZN",
-    "updated_at": "2026-07-05T22:04:11.375488"
+    "updated_at": "2026-07-05T23:41:41.513882"
   },
   "TSLA": {
     "price": 393.45,
     "change_pct": -3.19,
     "name": "TSLA",
-    "updated_at": "2026-07-05T22:04:11.375491"
+    "updated_at": "2026-07-05T23:41:41.513885"
   },
   "WTI": {
     "price": 3.09,
     "change_pct": -23.89,
     "name": "WTI",
-    "updated_at": "2026-07-05T22:04:11.375494"
+    "updated_at": "2026-07-05T23:41:41.513889"
   },
   "META": {
     "price": 582.9,
     "change_pct": 2.9,
     "name": "META",
-    "updated_at": "2026-07-05T22:04:11.375497"
+    "updated_at": "2026-07-05T23:41:41.513892"
   },
   "S&P 500": {
     "price": 744.78,
     "change_pct": 0.67,
     "name": "S&P 500",
-    "updated_at": "2026-07-05T22:04:11.375500"
+    "updated_at": "2026-07-05T23:41:41.513895"
   },
   "AAPL": {
     "price": 308.63,
     "change_pct": 6.01,
     "name": "AAPL",
-    "updated_at": "2026-07-05T22:04:11.375503"
+    "updated_at": "2026-07-05T23:41:41.513898"
   },
   "QQQ": {
     "price": 712.6,
     "change_pct": -1.1,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-05T22:04:11.375506"
+    "updated_at": "2026-07-05T23:41:41.513901"
   },
   "BTC-USD": {
-    "price": 63417.21,
-    "change_pct": 1.2,
+    "price": 63284.1,
+    "change_pct": 0.98,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-05T22:04:11.375510"
+    "updated_at": "2026-07-05T23:41:41.513905"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 347,
+      "title": "The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-07-05",
+      "summary": "In this episode of Monetary Matters, the focus is on the Federal Reserve's strategy to reduce its balance sheet, currently at approximately $6.5 trillion. Guest Daryl Duffy discusses four techniques to decrease reserve demand, which is key to shrinking the balance sheet without causing market disruptions. These include temporary open market operations, revising liquidity regulations, introducing a liquidity savings mechanism, and tiering the remuneration of reserves. The conversation emphasizes the importance of maintaining adequate reserve levels for effective interest rate management and the potential benefits of a smaller balance sheet for the Fed's operational flexibility and political standing.",
+      "key_takeaway": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 332
+    },
+    {
       "id": 346,
       "title": "The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
       "source_type": "podcast",
@@ -945,7 +964,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-01",
       "archived_date": null,
@@ -9359,6 +9378,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 347,
+      "title": "The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-07-05",
+      "summary": "In this episode of Monetary Matters, the focus is on the Federal Reserve's strategy to reduce its balance sheet, currently at approximately $6.5 trillion. Guest Daryl Duffy discusses four techniques to decrease reserve demand, which is key to shrinking the balance sheet without causing market disruptions. These include temporary open market operations, revising liquidity regulations, introducing a liquidity savings mechanism, and tiering the remuneration of reserves. The conversation emphasizes the importance of maintaining adequate reserve levels for effective interest rate management and the potential benefits of a smaller balance sheet for the Fed's operational flexibility and political standing.",
+      "key_takeaway": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 332,
+      "episode_release_date": "2026-07-05",
+      "guest_name": "trillion. Guest Daryl Duffy",
+      "key_tickers": []
+    },
+    {
       "id": 346,
       "title": "The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
       "source_type": "podcast",
@@ -9461,26 +9500,6 @@ const dashboardData = {
       "key_tickers": [
         "NVDA"
       ]
-    },
-    {
-      "id": 339,
-      "title": "Rick Rubin on AI, Creativity, and The Way of Code",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-07-01",
-      "summary": "This episode of 'The a16z Show' explores the convergence of creativity, technology, and authenticity in the modern age. Rick Rubin discusses how AI can serve as a creative tool for artists, enabling rapid iteration and enhancing the creative process. The conversation also touches on the importance of authenticity in art, the democratization of creative tools, and the role of the collective unconscious in driving cultural breakthroughs. Insights are drawn on how technology can empower non-experts to create art, the value of personal expression over market conformity, and the enduring importance of taste and self-knowledge in the creative process.",
-      "key_takeaway": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-01",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 324,
-      "episode_release_date": "2026-07-01",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 340,
@@ -30528,9 +30547,83 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-07-04",
     "key_tickers": []
+  },
+  "347": {
+    "id": 337,
+    "insight_id": 347,
+    "podcast_episode_id": 332,
+    "overview": "The unresolved tension in the Federal Reserve's strategy revolves around the delicate balance between reducing its massive balance sheet and maintaining market stability. The competitive dynamic is between the Fed's desire for operational flexibility and the need to prevent market disruptions that could arise from aggressive balance sheet reduction. The allocator-relevant implication is that the success of these techniques will determine the winners and losers in the financial markets. Banks and financial institutions that can adapt to a changing liquidity landscape will gain an advantage, while those that cannot may face challenges. The metric that arbitrates this uncertainty is the Fed's ability to manage interest rates effectively, with the horizon of proof being the implementation and outcome of the proposed techniques.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the Fed's communication for any signs of a shift towards more frequent temporary open market operations, as this could indicate a change in the Fed's approach to managing reserves.",
+      "Banks' behavior in response to revised liquidity regulations will be a key indicator of the success of this technique; investors should track changes in bank reserve holdings and liquidity management practices.",
+      "The potential introduction of a liquidity savings mechanism could have far-reaching implications for the banking sector; investors should assess how this might affect the cost of capital and lending practices.",
+      "Tiered remuneration of reserves could significantly impact bank profitability and the broader financial system; investors should evaluate the potential for changes in bank behavior and the impact on monetary policy transmission."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that the Federal Reserve's success in reducing its balance sheet without causing market disruptions will be a key determinant of future monetary policy and market stability. A timeframe of 1-2 years is reasonable to observe the implementation and effects of the proposed techniques. An observable development that would vindicate this thesis is a steady reduction in the Fed's balance sheet alongside stable interest rates and minimal market volatility. Conversely, a failure to reduce the balance sheet or an increase in market volatility would invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc., with its significant cash reserves and reliance on global capital markets, is sensitive to changes in monetary policy and liquidity conditions. As the Fed implements techniques to reduce reserve demand, Apple's access to capital and cost of borrowing could be affected.",
+        "positioning": "A strategic long position in AAPL could be considered, as a successful reduction in the Fed's balance sheet without market disruption could support a continued low-interest-rate environment, beneficial for Apple's capital-intensive operations.",
+        "risk": "The key risk is that if the Fed's actions lead to increased market volatility or higher interest rates, it could negatively impact Apple's valuation and cost of capital."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A sudden increase in market volatility or a sharp rise in interest rates could indicate that the Fed's techniques are causing unintended market disruptions.",
+      "Persistent high reserve demand from banks despite the implementation of the proposed techniques could suggest that the Fed's efforts are not effective in reducing reserve demand.",
+      "Political pressure or criticism of the Fed's balance sheet reduction strategy could lead to a change in policy direction, affecting the thesis."
+    ],
+    "catalysts": [
+      "FOMC meetings and statements for any indications of policy changes or shifts in the Fed's approach to managing reserves.",
+      "Release of the Federal Reserve's balance sheet reports to track the progress of balance sheet reduction.",
+      "Implementation dates for any new liquidity regulations or the introduction of a liquidity savings mechanism.",
+      "Economic data releases that could influence the Fed's decision-making, such as inflation and employment figures."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-05T23:40:59.187606",
+    "updated_at": "2026-07-06 04:40:59",
+    "episode_evidence": "In the Monetary Matters podcast, Daryl Duffy, a professor at Stanford Graduate School of Business, delves into the Federal Reserve's strategy to reduce its balance sheet, which currently stands at approximately $6.5 trillion. Duffy outlines four techniques to decrease reserve demand, a critical factor in shrinking the balance sheet without causing market disruptions. He mentions, 'The Fed could do a temporary open market operation... to create more reserves.' This operation could offset sudden changes in reserve balances, potentially reducing demand by $100-200 billion. Another technique Duffy discusses is revising liquidity regulations, which he suggests could lower reserve demand by encouraging banks to utilize the Fed's liquidity facilities without stigma. He explains, 'the largest banks have interpreted it that way... they feel that they would not look good.' These insights provide a deeper understanding of the mechanisms that could be employed to manage the balance sheet effectively.",
+    "falsification_tracks": [
+      "If the Fed fails to conduct temporary open market operations as discussed, and reserve demand remains high, it would challenge the thesis of effective balance sheet reduction.",
+      "Should banks continue to hold excess reserves despite revised liquidity regulations, it would indicate that the stigma around utilizing Fed liquidity facilities remains, undermining the proposed technique's effectiveness.",
+      "The absence of a liquidity savings mechanism implementation or its failure to reduce reserve requirements by the projected 20-30% would cast doubt on the feasibility of this technique.",
+      "If tiering the remuneration of reserves does not lead to a significant reduction in reserve demand, it would suggest that this method is less effective than anticipated in managing the balance sheet."
+    ],
+    "insight_title": "The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-07-05",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 489,
+    "term": "Liquidity Savings Mechanism",
+    "definition": "A system that allows banks to net payments against incoming funds, thereby reducing the total reserves needed.",
+    "investment_implications": "This mechanism could lead to a significant reduction in reserve demand, impacting bank profitability and lending practices.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-06 04:40:25",
+    "priority_score": 80
+  },
+  {
+    "id": 490,
+    "term": "Tiered Remuneration of Reserves",
+    "definition": "A system where higher interest rates are paid on required reserves and lower rates on excess reserves to discourage excess reserve holdings.",
+    "investment_implications": "This could affect bank behavior and the broader financial system by reducing overall reserve demand.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-06 04:40:25",
+    "priority_score": 80
+  },
   {
     "id": 488,
     "term": "Data Sovereignty",
@@ -30554,35 +30647,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-03 17:04:38",
     "priority_score": 80
-  },
-  {
-    "id": 486,
-    "term": "Technology and National Security",
-    "definition": "The pace of technological innovation as a key metric of national security, surpassing traditional military capabilities.",
-    "investment_implications": "Invest in tech companies that enhance national security capabilities and foster international partnerships.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-03 17:04:38",
-    "priority_score": 80
-  },
-  {
-    "id": 487,
-    "term": "Accelerated Internationalization of Startups",
-    "definition": "Startups pursuing international markets earlier in their growth stages due to rapid global product discovery.",
-    "investment_implications": "Support startups with strategies for early international market entry and localization.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-03 17:04:38",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 26418,
+    "id": 26506,
+    "name": "trillion. Guest Daryl Duffy",
+    "slug": "trillion-guest-daryl-duffy",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
+    "last_episode_title": "The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-07-05",
+    "appearance_count": 1
+  },
+  {
+    "id": 26507,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -30594,7 +30675,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26419,
+    "id": 26508,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -30606,7 +30687,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26420,
+    "id": 26509,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -30618,7 +30699,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26421,
+    "id": 26510,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -30630,7 +30711,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26422,
+    "id": 26511,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -30642,7 +30723,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26423,
+    "id": 26512,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -30654,7 +30735,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26424,
+    "id": 26513,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -30666,7 +30747,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26425,
+    "id": 26514,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -30678,7 +30759,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26426,
+    "id": 26515,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -30690,7 +30771,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26427,
+    "id": 26516,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -30702,7 +30783,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26428,
+    "id": 26517,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -30714,7 +30795,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26429,
+    "id": 26518,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -30726,7 +30807,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 26430,
+    "id": 26519,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -30738,7 +30819,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26431,
+    "id": 26520,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -30750,7 +30831,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26432,
+    "id": 26521,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -30762,7 +30843,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26433,
+    "id": 26522,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -30774,7 +30855,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26434,
+    "id": 26523,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -30786,7 +30867,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26435,
+    "id": 26524,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -30798,7 +30879,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 26436,
+    "id": 26525,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -30806,18 +30887,6 @@ const dashboardData = {
     "last_main_idea": "Invest in companies at the forefront of AI development and in regions with favorable AI regulatory environments to capitalize on the rapid advancements and market opportunities in AI.",
     "last_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
     "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-06-08",
-    "appearance_count": 1
-  },
-  {
-    "id": 26437,
-    "name": "Nikesh Arora",
-    "slug": "nikesh-arora",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in companies leveraging AI to transform cybersecurity and business operations, focusing on infrastructure software and the potential of AI agents in enterprise solutions.",
-    "last_episode_title": "Nikesh Arora: Mythos is Real, Analytical SaaS is Dead, and Google can be a $10T company",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-08",
     "appearance_count": 1
   }
@@ -31029,7 +31098,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-03",
     "mention_score": 2,
-    "mention_score_decayed": 1.95,
+    "mention_score_decayed": 1.91,
     "last_main_idea": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-03 \u2022 AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Sure, favorite podcast. It's your podcast. It's your favorite podcast. It's the all-in podcast episode two, seven, nine with me, freebergs, tax, to my, you know, the",
@@ -31089,7 +31158,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 1.32,
+    "mention_score_decayed": 1.29,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -32143,6 +32212,67 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 321,
+    "name": "Daryl Duffy",
+    "slug": "daryl-duffy",
+    "bio": "Daryl Duffy is an expert in monetary policy and central banking strategies. He has recently proposed innovative techniques for central banks to manage reserve demand, specifically focusing on reducing the demand for reserves to allow the Federal Reserve to reduce its assets.",
+    "known_for": "Proposing techniques for the Federal Reserve to manage reserve demand and reduce its balance sheet.",
+    "net_worth_usd": 4000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-celebrities/singers/duffy-net-worth/",
+    "net_worth_updated_at": "2026-07-05T23:40:35.411353",
+    "voice_tone": "Informative and analytical.",
+    "voice_style": "Provides detailed explanations of monetary policy techniques.",
+    "voice_delivery_notes": "Clear and methodical in presenting complex financial concepts.",
+    "voice_profile_updated_at": "2026-07-06 04:40:25",
+    "last_seen": "2026-07-06 04:40:25",
+    "last_episode_title": "The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-07-05",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-05 \u2022 The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
+    "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. The new Fed Chair Kevin Worsh has made it no secret that he prefers a sm",
+    "supporting_takeaway": "Daryl Duffy proposes four techniques for the Fed to reduce reserve demand.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-05T23:40:34.383185",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Daryl Duffy",
+      "fetched_at": "2026-07-06T04:40:34.382844+00:00",
+      "cliff_notes": "Daryl Duffy is recognized for his expertise in the field of monetary policy and central banking strategies. His work focuses on innovative approaches to managing reserve demand, which is crucial for central banks like the Federal Reserve. Duffy's recent paper suggests four techniques that could help the Fed reduce the demand for reserves, thereby allowing it to decrease its assets. This work is particularly relevant given the new Fed Chair's preference for a smaller Federal Reserve balance sheet and the potential consequences of such a move. Duffy's insights are valuable for understanding the implications of central bank policies on financial markets and the broader economy.",
+      "derived": {
+        "current_role": "Expert in Monetary Policy and Central Banking Strategies",
+        "books_or_works": "Paper proposing four techniques for the Fed to reduce reserve demand"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Daryl Duffy is recognized for his expertise in the field of monetary policy and central banking strategies. His work focuses on innovative approaches to managing reserve demand, which is crucial for central banks like the Federal Reserve. Duffy's recent paper suggests four techniques that could help the Fed reduce the demand for reserves, thereby allowing it to decrease its assets.",
+        "This work is particularly relevant given the new Fed Chair's preference for a smaller Federal Reserve balance sheet and the potential consequences of such a move. Duffy's insights are valuable for understanding the implications of central bank policies on financial markets and the broader economy."
+      ],
+      "sections": [
+        {
+          "heading": "Reserve Demand Management",
+          "body": "Daryl Duffy has proposed techniques for central banks to manage reserve demand, which is crucial for the Federal Reserve to reduce its balance sheet."
+        },
+        {
+          "heading": "Federal Reserve Balance Sheet",
+          "body": "Duffy's work is particularly relevant as the new Fed Chair has expressed a preference for a smaller Federal Reserve balance sheet, and Duffy's techniques could help achieve this goal."
+        },
+        {
+          "heading": "Financial Market Stability",
+          "body": "By addressing the high demand for reserve balances from the banking system, Duffy's techniques could help prevent flare-ups in funding markets, such as those experienced in September 2019 and the fall of 2025."
+        }
+      ]
+    },
+    "net_worth": "$4.0M"
+  },
+  {
     "id": 320,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
@@ -32529,7 +32659,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-29 \u2022 Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
     "last_proof_snippet": "I am so glad today we have a very special guest, one of my favorite authors of all time Leakwet Ahamed, who's the author of the new book 1873, The Roth Childs, The First Great Depression, and The Making of the Modern World Leakwet. Welcome",
@@ -32656,7 +32786,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
     "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
@@ -32840,7 +32970,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-23 \u2022 GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
     "last_proof_snippet": "Everyone hates GameStop and it seems like everyone in the media basically wants us to fail and wants them to succeed and you've got a board that's making hundreds of thousands of dollars a year and they don't buy stock with their own money.",
@@ -32970,7 +33100,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-22 \u2022 Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
     "last_proof_snippet": "Okay, we're here in a studio with Grace One, Matt and Zico welcome. Great to be here. Yeah. Thanks for having us. You're visiting from Pittsburgh? That's right. The home of all good computer science, I don't know if I'm oversteaving things.",
@@ -33033,7 +33163,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -33097,7 +33227,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -33156,7 +33286,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -33215,7 +33345,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -33280,7 +33410,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -33709,7 +33839,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -34557,7 +34687,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -34749,7 +34879,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
@@ -38823,7 +38953,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-15 \u2022 Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
     "last_proof_snippet": "The company's revenue grew from $2.5 million to $250 million in just over a year, demonstrating the potential of AI in software development.",
@@ -39326,7 +39456,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
     "last_proof_snippet": "Beach Point Capital Management primarily manages institutional capital, which is characterized as patient capital.",
@@ -39389,7 +39519,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",

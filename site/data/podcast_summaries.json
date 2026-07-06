@@ -1,5 +1,22 @@
 [
   {
+    "id": 332,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
+    "episode_date": "2026-07-05",
+    "summary": "In this episode of Monetary Matters, the focus is on the Federal Reserve's strategy to reduce its balance sheet, currently at approximately $6.5 trillion. Guest Daryl Duffy discusses four techniques to decrease reserve demand, which is key to shrinking the balance sheet without causing market disruptions. These include temporary open market operations, revising liquidity regulations, introducing a liquidity savings mechanism, and tiering the remuneration of reserves. The conversation emphasizes the importance of maintaining adequate reserve levels for effective interest rate management and the potential benefits of a smaller balance sheet for the Fed's operational flexibility and political standing.",
+    "key_takeaways": [
+      "Kevin Worsh, the new Fed Chair, is aiming to significantly reduce the Federal Reserve's balance sheet.",
+      "Daryl Duffy proposes four techniques for the Fed to reduce reserve demand.",
+      "Temporary open market operations could offset sudden changes in reserve balances.",
+      "Revising liquidity regulations could encourage banks to utilize Fed liquidity facilities without stigma.",
+      "A liquidity savings mechanism could reduce reserve requirements by 20-30%.",
+      "Tiering the remuneration of reserves could lead to a significant reduction in reserve demand."
+    ],
+    "investment_thesis": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
+    "key_tickers": null
+  },
+  {
     "id": 331,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
@@ -118,22 +135,6 @@
       "Encourage collaboration between AI researchers and experimental scientists to enhance the effectiveness of drug discovery processes."
     ],
     "investment_thesis": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
-    "key_tickers": null
-  },
-  {
-    "id": 324,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Rick Rubin on AI, Creativity, and The Way of Code",
-    "episode_date": "2026-07-01",
-    "summary": "This episode of 'The a16z Show' explores the convergence of creativity, technology, and authenticity in the modern age. Rick Rubin discusses how AI can serve as a creative tool for artists, enabling rapid iteration and enhancing the creative process. The conversation also touches on the importance of authenticity in art, the democratization of creative tools, and the role of the collective unconscious in driving cultural breakthroughs. Insights are drawn on how technology can empower non-experts to create art, the value of personal expression over market conformity, and the enduring importance of taste and self-knowledge in the creative process.",
-    "key_takeaways": [
-      "AI is a tool that enhances creativity by enabling rapid iteration of ideas.",
-      "Authenticity and personal expression are more important for artists than conforming to market demands.",
-      "Technology democratizes creativity, allowing a broader range of voices to contribute to the cultural landscape.",
-      "Cultural trends and collective experiences can influence and enrich creative work.",
-      "Taste and self-knowledge are increasingly valuable in the creative process, suggesting a shift in educational focus."
-    ],
-    "investment_thesis": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
     "key_tickers": null
   }
 ]
