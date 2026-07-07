@@ -1319,6 +1319,128 @@
     "pundit_profile": null
   },
   {
+    "id": 322,
+    "name": "Sema Amble",
+    "slug": "sema-amble",
+    "bio": "Sema Amble is a venture partner at a16z, focusing on enterprise technology investments. She is known for her expertise in enterprise software and AI-driven workflows, offering valuable insights into the evolution of technology and its impact on enterprise software.",
+    "known_for": "Her deep understanding of enterprise software and the implications of AI-driven workflows on the industry.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and insightful",
+    "voice_style": "Focuses on the implications of AI agents in enterprise software",
+    "voice_delivery_notes": "Clear and concise, with emphasis on key points",
+    "voice_profile_updated_at": "2026-07-07 17:06:09",
+    "last_seen": "2026-07-07 17:06:09",
+    "last_episode_title": "Is Software Losing Its Head?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-07",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
+    "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
+    "supporting_takeaway": "Assess the interdependencies of enterprise software solutions to evaluate their long-term viability within organizations.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-07T12:06:20.148803",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sema Amble",
+      "fetched_at": "2026-07-07T17:06:20.148309+00:00",
+      "cliff_notes": "Sema Amble is recognized for her expertise in enterprise software and AI-driven workflows. As a venture partner at a16z, she focuses on enterprise technology investments, providing insights into how technology shifts can redefine the way enterprise software is built and used. Amble's understanding of the importance of logic and data in enterprise software, as well as her views on the limitations of current assumptions about AI in enterprise, make her a valuable voice in the tech industry. Her perspective on the underestimation of coding's role in enterprise software and the need for a deeper understanding of technology's exponential growth is particularly influential.",
+      "derived": {
+        "current_role": "Venture Partner at a16z"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Sema Amble is recognized for her expertise in enterprise software and AI-driven workflows. As a venture partner at a16z, she focuses on enterprise technology investments, providing insights into how technology shifts can redefine the way enterprise software is built and used. Amble's understanding of the importance of logic and data in enterprise software, as well as her views on the limitations of current assumptions about AI in enterprise, make her a valuable voice in the tech industry.",
+        "Her perspective on the underestimation of coding's role in enterprise software and the need for a deeper understanding of technology's exponential growth is particularly influential."
+      ],
+      "sections": [
+        {
+          "heading": "Enterprise Software",
+          "body": "Sema Amble emphasizes the importance of understanding the logic and data that drive enterprise software, arguing that the value is not just in the databases but in the underlying logic and workflows."
+        },
+        {
+          "heading": "AI in Enterprise",
+          "body": "Amble discusses the potential for AI agents to become primary users of enterprise software, changing the way software is designed and interacted with."
+        },
+        {
+          "heading": "Technology Shifts",
+          "body": "She highlights the challenges in recognizing exponential growth in technology and the need for a new approach to enterprise software that accounts for AI-driven changes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 323,
+    "name": "Stephen Sinowski",
+    "slug": "stephen-sinowski",
+    "bio": "Stephen Sinowski is a partner at a16z, focusing on enterprise software and SaaS investments. He is known for his deep understanding of the enterprise software market and its dynamics, providing valuable insights into the industry's shifts and opportunities.",
+    "known_for": "His expertise in enterprise software and SaaS investments, particularly his insights on the impact of AI on enterprise software.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Thought-provoking and engaging",
+    "voice_style": "Discusses the potential of automation to create new opportunities",
+    "voice_delivery_notes": "Presents ideas with enthusiasm and clarity",
+    "voice_profile_updated_at": "2026-07-07 17:06:09",
+    "last_seen": "2026-07-07 17:06:09",
+    "last_episode_title": "Is Software Losing Its Head?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-07",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
+    "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
+    "supporting_takeaway": "Assess the interdependencies of enterprise software solutions to evaluate their long-term viability within organizations.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-07T12:06:28.748697",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Stephen Sinowski",
+      "fetched_at": "2026-07-07T17:06:28.748495+00:00",
+      "cliff_notes": "Stephen Sinowski is a partner at a16z, a venture capital firm, where he specializes in enterprise software and SaaS investments. His career has been marked by a deep understanding of the enterprise software market, its dynamics, and the opportunities that arise from technological shifts. Sinowski's insights into the industry have been influential, particularly in how AI agents are changing the landscape of enterprise software. His work at a16z has allowed him to contribute to the growth and success of numerous software companies, making him a significant figure in the tech and finance sectors.",
+      "derived": {
+        "current_role": "Partner at a16z"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Stephen Sinowski is a partner at a16z, a venture capital firm, where he specializes in enterprise software and SaaS investments. His career has been marked by a deep understanding of the enterprise software market, its dynamics, and the opportunities that arise from technological shifts. Sinowski's insights into the industry have been influential, particularly in how AI agents are changing the landscape of enterprise software.",
+        "His work at a16z has allowed him to contribute to the growth and success of numerous software companies, making him a significant figure in the tech and finance sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Enterprise Software Dynamics",
+          "body": "Stephen Sinowski is recognized for his deep understanding of the enterprise software market, focusing on how software is built around human interaction and the challenges of customization."
+        },
+        {
+          "heading": "AI in Enterprise Software",
+          "body": "Sinowski discusses the significant shift in enterprise software with the introduction of AI agents as primary users, altering the traditional assumptions of software design."
+        },
+        {
+          "heading": "Post-Cast Databases and APIs",
+          "body": "He challenges the misconception that post-cast databases and APIs alone can replace complex systems like SAP, emphasizing the importance of underlying logic and data."
+        },
+        {
+          "heading": "Exponential Technological Shifts",
+          "body": "Sinowski highlights the difficulty in recognizing exponential technological changes as they occur, which presents both challenges and opportunities for the enterprise software market."
+        }
+      ]
+    }
+  },
+  {
     "id": 321,
     "name": "Daryl Duffy",
     "slug": "daryl-duffy",
@@ -1457,7 +1579,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -1641,7 +1763,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
     "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
@@ -1702,7 +1824,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -1953,7 +2075,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -2017,7 +2139,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -2820,7 +2942,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -3389,7 +3511,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -3518,7 +3640,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -3584,7 +3706,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -3859,7 +3981,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -3923,7 +4045,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -4178,7 +4300,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -4242,7 +4364,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -4425,7 +4547,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -5232,7 +5354,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -5298,7 +5420,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",

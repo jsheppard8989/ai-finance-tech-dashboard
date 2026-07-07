@@ -1,5 +1,24 @@
 [
   {
+    "id": 334,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Is Software Losing Its Head?",
+    "episode_date": "2026-07-07",
+    "summary": "This episode of 'The a16z Show' delves into the evolving landscape of enterprise software with a focus on the rise of headless software and AI agents. The discussion highlights how AI-driven workflows are challenging traditional enterprise software design, the stickiness of enterprise systems, and the opportunities created by automation. The hosts and guests explore the implications of these trends for startups and investors, emphasizing the importance of bridging gaps between legacy systems and new AI capabilities.",
+    "key_takeaways": [
+      "Invest in headless software solutions that cater to AI agents, as they may redefine enterprise software development and access.",
+      "Assess the interdependencies of enterprise software solutions to evaluate their long-term viability within organizations.",
+      "Identify startups that address cross-functional communication challenges to enhance workflow efficiency.",
+      "Monitor the evolution of automation technologies to identify emerging opportunities for creating new workflows.",
+      "Encourage companies to leverage AI for exception handling and context gathering to improve decision-making processes."
+    ],
+    "investment_thesis": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
+    "key_tickers": [
+      "WORK",
+      "SAP"
+    ]
+  },
+  {
     "id": 333,
     "podcast_name": "The a16z Show",
     "episode_title": "Don\u2019t Follow Your Passion | Ben Horowitz\u2019s Advice for New Graduates",
@@ -117,25 +136,6 @@
     "investment_thesis": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "key_tickers": [
       "UBER"
-    ]
-  },
-  {
-    "id": 326,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "Sonnet 5 Drops, Fable 5 Will Return & Fusion's First Plant Gets Licensed w/ Philip Johnston | #268",
-    "episode_date": "2026-07-01",
-    "summary": "This episode of Moonshots with Peter Diamandis discusses the rapid growth of the robotics market, particularly in China, the advancements in fusion energy with Helion's Orion fusion power plant, the increasing use of drones in law enforcement, Switzerland's reversal on nuclear energy, and Rocket Lab's vertical integration strategy. These discussions highlight the potential investment opportunities in robotics, fusion energy, drone technology, nuclear energy, and space industry vertical integration.",
-    "key_takeaways": [
-      "Invest in robotics companies, especially those focused on humanoid and industrial applications.",
-      "Monitor developments in fusion energy and consider investments in companies like Helion.",
-      "Explore opportunities in drone technology for law enforcement and public safety applications.",
-      "Investigate investments in nuclear energy companies as Europe shifts towards nuclear power.",
-      "Evaluate companies pursuing vertical integration in the space industry, such as Rocket Lab."
-    ],
-    "investment_thesis": "Invest in companies at the forefront of robotics, fusion energy, drone technology, nuclear energy, and space industry vertical integration to capitalize on the growth of emerging technologies.",
-    "key_tickers": [
-      "MS",
-      "RKLB"
     ]
   }
 ]
