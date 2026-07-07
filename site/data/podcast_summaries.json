@@ -1,5 +1,23 @@
 [
   {
+    "id": 335,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Breaking Down the Multi-Manager Playbook: How This $19B CIO Thinks About Alpha | Sean McGould | The Lighthouse Group",
+    "episode_date": "2026-07-07",
+    "summary": "This episode of 'Monetary Matters with Jack Farley' delves into Japan's corporate governance reforms and their impact on market performance, the rising demand for hedge funds, particularly liquid strategies, and the role of market neutral strategies in volatile environments. It also discusses the influence of AI on global markets and the evolving dynamics of the hedge fund industry. The podcast highlights regulatory changes in Asia that are driving investment and the implications for retail and institutional investors.",
+    "key_takeaways": [
+      "Consider increasing exposure to Japanese equities, especially those benefiting from governance reforms.",
+      "Evaluate hedge fund allocations with a focus on liquid strategies for portfolio resilience.",
+      "Incorporate market neutral strategies to manage risk and stabilize returns during market volatility.",
+      "Explore investment opportunities in Asian markets, particularly sectors experiencing regulatory support.",
+      "Assess portfolio exposure to AI-related companies and sectors to balance long and short positions."
+    ],
+    "investment_thesis": "Invest in Japanese equities and multi-strategy hedge funds to capitalize on governance reforms and diversify risk.",
+    "key_tickers": [
+      "NIKKEI"
+    ]
+  },
+  {
     "id": 334,
     "podcast_name": "The a16z Show",
     "episode_title": "Is Software Losing Its Head?",
@@ -118,24 +136,6 @@
     "investment_thesis": "The S&P 500 is projected to reach 10,000 due to accelerating earnings growth and a favorable economic environment, justifying higher P/E ratios and making equities more attractive.",
     "key_tickers": [
       "NVDA"
-    ]
-  },
-  {
-    "id": 327,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Outsmarting Uber: Why Bolt Wins in Europe",
-    "episode_date": "2026-07-02",
-    "summary": "This episode of The a16z Show features a discussion on Bolt, a mobility services company operating in over 50 countries. The conversation covers Bolt's capital efficiency, its pivot from working with taxi companies to partnering directly with drivers, and its strategic approach to expansion. Insights include the importance of understanding local markets, the potential of autonomous vehicles, and the use of AI to enhance productivity. The episode also touches on Bolt's success during COVID-19 and its commitment to vertical integration.",
-    "key_takeaways": [
-      "Bolt's capital efficiency is a competitive advantage, allowing it to innovate and adapt quickly.",
-      "Understanding local markets is crucial for tailoring services effectively and gaining market share.",
-      "Sequential market expansion reduces risk and allows for the development of a replicable playbook.",
-      "AI can enhance productivity and reduce costs, improving a company's competitive positioning.",
-      "The transition to autonomous vehicles presents a significant growth opportunity for mobility companies."
-    ],
-    "investment_thesis": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
-    "key_tickers": [
-      "UBER"
     ]
   }
 ]

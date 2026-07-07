@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-07T12:08:20.269658",
-  chartsVersion: "2026-07-07T12:08:00.350781",
+  generatedAt: "2026-07-07T13:41:15.969039",
+  chartsVersion: "2026-07-07T13:41:04.885882",
   priceSnapshot: {
   "GOOGL": {
-    "price": 369.65,
-    "change_pct": -0.96,
+    "price": 369.17,
+    "change_pct": -1.09,
     "name": "GOOGL",
-    "updated_at": "2026-07-07T12:08:00.349639"
+    "updated_at": "2026-07-07T13:41:04.885465"
   },
   "BTC": {
-    "price": 64025.82,
-    "change_pct": 4.97,
+    "price": 63990.82,
+    "change_pct": 4.91,
     "name": "BTC",
-    "updated_at": "2026-07-07T12:08:00.349663"
+    "updated_at": "2026-07-07T13:41:04.885475"
   },
   "MSFT": {
-    "price": 393.8,
-    "change_pct": -0.01,
+    "price": 391.88,
+    "change_pct": -0.5,
     "name": "MSFT",
-    "updated_at": "2026-07-07T12:08:00.349675"
+    "updated_at": "2026-07-07T13:41:04.885480"
   },
   "NVDA": {
-    "price": 198.33,
-    "change_pct": -4.38,
+    "price": 197.37,
+    "change_pct": -4.84,
     "name": "NVDA",
-    "updated_at": "2026-07-07T12:08:00.349685"
+    "updated_at": "2026-07-07T13:41:04.885483"
   },
   "AMZN": {
-    "price": 245.49,
-    "change_pct": -0.21,
+    "price": 245.67,
+    "change_pct": -0.13,
     "name": "AMZN",
-    "updated_at": "2026-07-07T12:08:00.349695"
+    "updated_at": "2026-07-07T13:41:04.885486"
   },
   "TSLA": {
-    "price": 408.9,
-    "change_pct": 1.05,
+    "price": 405.57,
+    "change_pct": 0.22,
     "name": "TSLA",
-    "updated_at": "2026-07-07T12:08:00.349704"
+    "updated_at": "2026-07-07T13:41:04.885489"
   },
   "WTI": {
-    "price": 3.34,
-    "change_pct": 3.57,
+    "price": 3.33,
+    "change_pct": 3.26,
     "name": "WTI",
-    "updated_at": "2026-07-07T12:08:00.349714"
+    "updated_at": "2026-07-07T13:41:04.885493"
   },
   "META": {
-    "price": 605.39,
-    "change_pct": 0.86,
+    "price": 619.2,
+    "change_pct": 3.16,
     "name": "META",
-    "updated_at": "2026-07-07T12:08:00.349723"
+    "updated_at": "2026-07-07T13:41:04.885496"
   },
   "S&P 500": {
-    "price": 749.29,
-    "change_pct": 0.12,
+    "price": 748.74,
+    "change_pct": 0.05,
     "name": "S&P 500",
-    "updated_at": "2026-07-07T12:08:00.349732"
+    "updated_at": "2026-07-07T13:41:04.885500"
   },
   "AAPL": {
-    "price": 312.77,
-    "change_pct": 4.52,
+    "price": 312.55,
+    "change_pct": 4.45,
     "name": "AAPL",
-    "updated_at": "2026-07-07T12:08:00.349742"
+    "updated_at": "2026-07-07T13:41:04.885503"
   },
   "QQQ": {
-    "price": 713.68,
-    "change_pct": -2.11,
+    "price": 711.62,
+    "change_pct": -2.39,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-07T12:08:00.349750"
+    "updated_at": "2026-07-07T13:41:04.885506"
   },
   "BTC-USD": {
-    "price": 64048.31,
-    "change_pct": 5.01,
+    "price": 63990.82,
+    "change_pct": 4.91,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-07T12:08:00.349762"
+    "updated_at": "2026-07-07T13:41:04.885510"
   }
 },
   tickerScores: [
@@ -854,6 +854,25 @@ const dashboardData = {
       "podcast_episode_id": 334
     },
     {
+      "id": 350,
+      "title": "Breaking Down the Multi-Manager Playbook: How This $19B CIO Thinks About Alpha | Sean McGould | The Lighthouse Group",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-07-07",
+      "summary": "This episode of 'Monetary Matters with Jack Farley' delves into Japan's corporate governance reforms and their impact on market performance, the rising demand for hedge funds, particularly liquid strategies, and the role of market neutral strategies in volatile environments. It also discusses the influence of AI on global markets and the evolving dynamics of the hedge fund industry. The podcast highlights regulatory changes in Asia that are driving investment and the implications for retail and institutional investors.",
+      "key_takeaway": "Invest in Japanese equities and multi-strategy hedge funds to capitalize on governance reforms and diversify risk.",
+      "tickers_mentioned": [
+        "NIKKEI"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 335
+    },
+    {
       "id": 348,
       "title": "Don\u2019t Follow Your Passion | Ben Horowitz\u2019s Advice for New Graduates",
       "source_type": "podcast",
@@ -969,7 +988,7 @@ const dashboardData = {
         "UBER"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-02",
       "archived_date": null,
@@ -7651,8 +7670,8 @@ const dashboardData = {
       "term": "AI CapEx",
       "description": "Capital expenditures in the AI sector, often characterized by high spending on research and development.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-06-21",
-      "mention_count": 8,
+      "last_mentioned_date": "2026-07-07",
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "High AI CapEx can indicate a company's commitment to innovation but may also signal unsustainable financial practices.",
@@ -7661,8 +7680,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 304,
-      "last_mentioned_speaker": "Ed Zitron"
+      "last_mentioned_episode_id": 335,
+      "last_mentioned_speaker": "Jack Farley (hosts)"
     },
     {
       "id": 234,
@@ -9444,6 +9463,28 @@ const dashboardData = {
       ]
     },
     {
+      "id": 350,
+      "title": "Breaking Down the Multi-Manager Playbook: How This $19B CIO Thinks About Alpha | Sean McGould | The Lighthouse Group",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-07-07",
+      "summary": "This episode of 'Monetary Matters with Jack Farley' delves into Japan's corporate governance reforms and their impact on market performance, the rising demand for hedge funds, particularly liquid strategies, and the role of market neutral strategies in volatile environments. It also discusses the influence of AI on global markets and the evolving dynamics of the hedge fund industry. The podcast highlights regulatory changes in Asia that are driving investment and the implications for retail and institutional investors.",
+      "key_takeaway": "Invest in Japanese equities and multi-strategy hedge funds to capitalize on governance reforms and diversify risk.",
+      "tickers_mentioned": "[\"NIKKEI\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 335,
+      "episode_release_date": "2026-07-07",
+      "guest_name": "Breaking Down the Multi-Manager Playbook",
+      "key_tickers": [
+        "NIKKEI"
+      ]
+    },
+    {
       "id": 348,
       "title": "Don\u2019t Follow Your Passion | Ben Horowitz\u2019s Advice for New Graduates",
       "source_type": "podcast",
@@ -9542,28 +9583,6 @@ const dashboardData = {
       "episode_release_date": "2026-07-03",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 342,
-      "title": "Outsmarting Uber: Why Bolt Wins in Europe",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-07-02",
-      "summary": "This episode of The a16z Show features a discussion on Bolt, a mobility services company operating in over 50 countries. The conversation covers Bolt's capital efficiency, its pivot from working with taxi companies to partnering directly with drivers, and its strategic approach to expansion. Insights include the importance of understanding local markets, the potential of autonomous vehicles, and the use of AI to enhance productivity. The episode also touches on Bolt's success during COVID-19 and its commitment to vertical integration.",
-      "key_takeaway": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
-      "tickers_mentioned": "[\"UBER\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-02",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 327,
-      "episode_release_date": "2026-07-02",
-      "guest_name": "Outsmarting Uber",
-      "key_tickers": [
-        "UBER"
-      ]
     },
     {
       "id": 343,
@@ -30787,9 +30806,85 @@ const dashboardData = {
       "WORK",
       "SAP"
     ]
+  },
+  "350": {
+    "id": 340,
+    "insight_id": 350,
+    "podcast_episode_id": 335,
+    "overview": "The unresolved tension lies in the sustainability of Japan's market outperformance post-corporate governance reforms and the ability of hedge funds, especially those with liquid strategies, to continue attracting institutional capital amidst evolving market conditions. The competitive dynamic is further complicated by the influence of AI on global markets and the rise of retail investors in Japan, which reshapes market liquidity and dynamics. Allocators must consider how these factors arbitrate investment strategies and risk management, with a focus on the short to medium-term horizon for proving or disproving the current investment thesis.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the performance of Japanese equities relative to global benchmarks to assess the lasting impact of governance reforms.",
+      "The allocation to hedge funds, with an emphasis on liquid strategies, should be reevaluated in light of their demonstrated resilience and potential for risk management.",
+      "Market neutral strategies should be considered as a tool for portfolio diversification, especially in anticipation of potential market volatility.",
+      "Investors should analyze the regulatory environment in Asia to identify sectors that may benefit from reforms and attract increased capital inflow.",
+      "Portfolios should be assessed for exposure to AI, with a focus on balancing investments to capture growth while mitigating the risks associated with technological disruption."
+    ],
+    "investment_thesis": "The core logic is that Japan's governance reforms will continue to drive outperformance in the Nikkei relative to global indices, and the demand for hedge funds, particularly those with liquid strategies, will persist due to their effectiveness in managing risk and enhancing returns. This thesis is vindicated if the Nikkei maintains its outperformance trend and hedge funds continue to attract institutional capital. Conversely, it would be invalidated by a sustained underperformance of the Nikkei or a significant decline in hedge fund demand.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is relevant due to its significant exposure to the tech sector, which is heavily influenced by AI and global market trends.",
+        "positioning": "Positioning should be long-term strategic, focusing on Apple's ability to innovate and capitalize on AI advancements.",
+        "risk": "Key risks include increased competition in the tech sector, potential regulatory hurdles, and shifts in consumer preferences."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant downturn in global markets could lead to a reevaluation of hedge fund strategies, potentially reducing their appeal.",
+      "Regulatory changes that limit the influence of AI on capital allocation could slow the growth of tech sectors and impact investment strategies.",
+      "A reversal in retail investor participation in Japan could signal a loss of confidence in the market, affecting liquidity and investment dynamics."
+    ],
+    "catalysts": [
+      "Upcoming earnings reports from Japanese companies to gauge the effectiveness of governance reforms on corporate performance.",
+      "Regulatory announcements in Japan and Korea that could further influence market participation and capital allocation.",
+      "Developments in AI technology that could disrupt traditional industries and create new investment opportunities.",
+      "Quarterly performance reports from hedge funds to assess the continued demand for liquid strategies amidst market volatility."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-07T13:40:19.530259",
+    "updated_at": "2026-07-07 18:40:19",
+    "episode_evidence": "Japan's corporate governance reforms have been a catalyst for market performance, with the Nikkei outperforming the S&P 500 by approximately 8% annually since the changes were enacted, as stated by Sean McGould: 'The bottom line since those changes were enacted is that the Nikkei has outperformed the S&P 500 by about 500 basis points per year.' This performance is attributed to the emphasis on shareholder returns and capital allocation in the revised governance code. Additionally, the demand for hedge funds, especially liquid strategies, has surged due to challenges in private credit, such as gating and lockups. McGould highlights this shift: 'Hedge fund demand has increased from institutional investors... there's more interest in hedge fund strategies now certainly than there was a couple years ago.' This trend underscores the growing importance of hedge funds in managing risk and enhancing portfolio returns.",
+    "falsification_tracks": [
+      "If the Nikkei fails to outperform the S&P 500 by at least 8% for two consecutive years, it would challenge the effectiveness of Japan's corporate governance reforms.",
+      "A sustained decrease in retail investor participation in Japan's markets could indicate a loss of confidence in the governance reforms and market performance.",
+      "If hedge fund returns, particularly for liquid strategies, consistently underperform market benchmarks, it could signal a reduced demand and shift in investor preferences."
+    ],
+    "insight_title": "Breaking Down the Multi-Manager Playbook: How This $19B CIO Thinks About Alpha | Sean McGould | The Lighthouse Group",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-07-07",
+    "key_tickers": [
+      "NIKKEI"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 492,
+    "term": "Market Neutral Strategies",
+    "definition": "Investment strategies that aim to be neutral to market movements, often by balancing long and short positions to reduce risk.",
+    "investment_implications": "These strategies are valuable for institutional portfolios in managing risk and seeking stable returns during market volatility.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-07 18:39:54",
+    "priority_score": 80
+  },
+  {
+    "id": 493,
+    "term": "AI's Impact on Global Markets",
+    "definition": "The influence of artificial intelligence on investment strategies and capital allocation across various sectors.",
+    "investment_implications": "Understanding AI's role can help investors identify growth opportunities and manage risks associated with technological disruption.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-07 18:39:54",
+    "priority_score": 80
+  },
   {
     "id": 491,
     "term": "Headless Software",
@@ -30813,35 +30908,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-06 04:40:25",
     "priority_score": 80
-  },
-  {
-    "id": 490,
-    "term": "Tiered Remuneration of Reserves",
-    "definition": "A system where higher interest rates are paid on required reserves and lower rates on excess reserves to discourage excess reserve holdings.",
-    "investment_implications": "This could affect bank behavior and the broader financial system by reducing overall reserve demand.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-06 04:40:25",
-    "priority_score": 80
-  },
-  {
-    "id": 488,
-    "term": "Data Sovereignty",
-    "definition": "The concept that enterprises should retain control over their proprietary data and AI models to prevent competition from AI providers.",
-    "investment_implications": "Enterprises prioritizing data sovereignty are likely to invest in internal AI capabilities, creating a competitive advantage.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-04 04:37:05",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 27313,
+    "id": 27403,
+    "name": "Breaking Down the Multi-Manager Playbook",
+    "slug": "breaking-down-the-multi-manager-playbook",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in Japanese equities and multi-strategy hedge funds to capitalize on governance reforms and diversify risk.",
+    "last_episode_title": "Breaking Down the Multi-Manager Playbook: How This $19B CIO Thinks About Alpha | Sean McGould | The Lighthouse Group",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-07-07",
+    "appearance_count": 1
+  },
+  {
+    "id": 27404,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -30853,7 +30936,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27314,
+    "id": 27405,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -30865,7 +30948,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27315,
+    "id": 27406,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -30877,7 +30960,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27316,
+    "id": 27407,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -30889,7 +30972,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27317,
+    "id": 27408,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -30901,7 +30984,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27318,
+    "id": 27409,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -30913,7 +30996,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27319,
+    "id": 27410,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -30925,7 +31008,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27320,
+    "id": 27411,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -30937,7 +31020,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27321,
+    "id": 27412,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -30949,7 +31032,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27322,
+    "id": 27413,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -30961,7 +31044,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27323,
+    "id": 27414,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -30973,7 +31056,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27324,
+    "id": 27415,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -30985,7 +31068,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27325,
+    "id": 27416,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -30997,7 +31080,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27326,
+    "id": 27417,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -31009,7 +31092,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 27327,
+    "id": 27418,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -31021,7 +31104,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27328,
+    "id": 27419,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -31033,7 +31116,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27329,
+    "id": 27420,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -31045,7 +31128,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27330,
+    "id": 27421,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -31057,7 +31140,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27331,
+    "id": 27422,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -31065,18 +31148,6 @@ const dashboardData = {
     "last_main_idea": "Bitcoin serves as a leading indicator of fiat liquidity and a potential hedge against inflation, while MicroStrategy's complex capital structure poses risks to Bitcoin holders.",
     "last_episode_title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
     "last_podcast_name": "The Jack Mallers Show",
-    "last_episode_date": "2026-06-09",
-    "appearance_count": 1
-  },
-  {
-    "id": 27332,
-    "name": "Bill Maris",
-    "slug": "bill-maris",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
-    "last_episode_title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "appearance_count": 1
   }
@@ -31470,7 +31541,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -31608,7 +31679,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -31796,7 +31867,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -32725,7 +32796,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -32784,7 +32855,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -33034,7 +33105,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in companies at the forefront of AI and satellite data integration for real-world applications, while monitoring global AI competition and regulatory changes.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-26 \u2022 The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
     "last_proof_snippet": "Today, plan is a $10 billion company. You've coined the term large earth models. What does that mean? It, like, Google index the internet to make it searchable, we're indexing the earth to make it searchable. It will finally enable us to be",
@@ -33348,7 +33419,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-23 \u2022 What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
     "last_proof_snippet": "Right now AI has been so much about productivity, job replacement, work replacement and I think we have a moment to shift that, which is how does these new tools help you get more out of your own day and your own life and the things you wan",
@@ -33965,7 +34036,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in companies that can integrate AI into their operations and leverage Microsoft's ecosystem for competitive advantage, focusing on data management capabilities and adaptability to new pricing models.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
     "last_proof_snippet": "Please welcome Swicks, Saragawa, Alad Gill and Chairman and Chief Executive Officer of Microsoft, Sartina Della. I'm so excited to be here. Welcome to a crossover episode of NoPriors and Lanesvists with Sartina Della. Congratulations on an",
@@ -34215,7 +34286,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-15 \u2022 AI, Design, and the Power of Open Models",
     "last_proof_snippet": "It's not about how good a model is in the general sense. It's about how good is this model for my use case, for a lot of design and marketing use case says they need editable design, not a single flat image. It's super impressive, honestly,",
@@ -34399,7 +34470,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -34467,7 +34538,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -34535,7 +34606,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-10 \u2022 America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. There's a very, very large player in global finance that almost no one knows about. The development finance corporation, it just had its reautho",
@@ -34658,7 +34729,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -34852,7 +34923,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -34939,7 +35010,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -35258,7 +35329,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-03 \u2022 Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
     "last_proof_snippet": "One of the most provocative and interesting investors in the country. A legendary activist investor. Pershing square CEO and founder Bill Acling. Taking a short position and going public with it is a pretty serious business. Interestingly,",
@@ -35323,7 +35394,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-02 \u2022 OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
     "last_proof_snippet": "Open AI's CFO, Sarah Fryer. We've got to get right to it. You have just completed what I would find as the most successful fund-raising rail in history. We're going to raise actually north of $120 billion. We think AI is the biggest era tha",
@@ -35565,7 +35636,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -35875,7 +35946,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -35939,7 +36010,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -36002,7 +36073,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -36874,7 +36945,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -37064,7 +37135,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -37127,7 +37198,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
