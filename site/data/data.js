@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-08T06:36:00.756054",
-  chartsVersion: "2026-07-08T06:35:53.480983",
+  generatedAt: "2026-07-08T12:05:01.648770",
+  chartsVersion: "2026-07-08T12:04:48.400874",
   priceSnapshot: {
   "GOOGL": {
-    "price": 367.03,
-    "change_pct": -1.67,
+    "price": 360.92,
+    "change_pct": -0.79,
     "name": "GOOGL",
-    "updated_at": "2026-07-08T06:35:53.479926"
+    "updated_at": "2026-07-08T12:04:48.400418"
   },
   "BTC": {
-    "price": 62119.28,
-    "change_pct": 4.01,
+    "price": 62012.08,
+    "change_pct": 3.84,
     "name": "BTC",
-    "updated_at": "2026-07-08T06:35:53.479947"
+    "updated_at": "2026-07-08T12:04:48.400428"
   },
   "MSFT": {
-    "price": 388.84,
-    "change_pct": -1.27,
+    "price": 381.83,
+    "change_pct": 0.77,
     "name": "MSFT",
-    "updated_at": "2026-07-08T06:35:53.479955"
+    "updated_at": "2026-07-08T12:04:48.400432"
   },
   "NVDA": {
-    "price": 196.93,
-    "change_pct": -5.05,
+    "price": 200.42,
+    "change_pct": -2.07,
     "name": "NVDA",
-    "updated_at": "2026-07-08T06:35:53.479963"
+    "updated_at": "2026-07-08T12:04:48.400436"
   },
   "AMZN": {
-    "price": 245.98,
-    "change_pct": -0.01,
+    "price": 242.37,
+    "change_pct": 2.05,
     "name": "AMZN",
-    "updated_at": "2026-07-08T06:35:53.479971"
+    "updated_at": "2026-07-08T12:04:48.400439"
   },
   "TSLA": {
-    "price": 402.9,
-    "change_pct": -0.43,
+    "price": 393.87,
+    "change_pct": -0.63,
     "name": "TSLA",
-    "updated_at": "2026-07-08T06:35:53.479978"
+    "updated_at": "2026-07-08T12:04:48.400442"
   },
   "WTI": {
-    "price": 3.31,
-    "change_pct": 2.8,
+    "price": 3.65,
+    "change_pct": 10.27,
     "name": "WTI",
-    "updated_at": "2026-07-08T06:35:53.479986"
+    "updated_at": "2026-07-08T12:04:48.400445"
   },
   "META": {
-    "price": 615.58,
-    "change_pct": 2.56,
+    "price": 604.27,
+    "change_pct": 6.46,
     "name": "META",
-    "updated_at": "2026-07-08T06:35:53.479993"
+    "updated_at": "2026-07-08T12:04:48.400448"
   },
   "S&P 500": {
-    "price": 747.71,
-    "change_pct": -0.09,
+    "price": 744.29,
+    "change_pct": 0.71,
     "name": "S&P 500",
-    "updated_at": "2026-07-08T06:35:53.480000"
+    "updated_at": "2026-07-08T12:04:48.400452"
   },
   "AAPL": {
-    "price": 310.66,
-    "change_pct": 3.82,
+    "price": 313.27,
+    "change_pct": 5.85,
     "name": "AAPL",
-    "updated_at": "2026-07-08T06:35:53.480007"
+    "updated_at": "2026-07-08T12:04:48.400454"
   },
   "QQQ": {
-    "price": 709.43,
-    "change_pct": -2.69,
+    "price": 708.61,
+    "change_pct": -1.82,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-08T06:35:53.480015"
+    "updated_at": "2026-07-08T12:04:48.400457"
   },
   "BTC-USD": {
-    "price": 62119.28,
-    "change_pct": 4.01,
+    "price": 62012.08,
+    "change_pct": 3.84,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-08T06:35:53.480023"
+    "updated_at": "2026-07-08T12:04:48.400461"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 351,
+      "title": "Adam Neumann: This Is How You Build Iconic Companies",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-08",
+      "summary": "In this episode, Adam Neumann discusses his new venture, Flow, which aims to redefine living experiences by integrating technology, community, and design. Flow targets the $250 trillion real estate market and has already achieved significant success in Saudi Arabia. Neumann highlights the importance of community in modern living and how Flow's technology enables flexible living arrangements, catering to the evolving needs of the modern workforce. The discussion also touches on the potential for global expansion and the future of work and living, emphasizing a blend of remote work flexibility and meaningful physical interactions.",
+      "key_takeaway": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 336
+    },
+    {
       "id": 349,
       "title": "Is Software Losing Its Head?",
       "source_type": "podcast",
@@ -1007,7 +1026,7 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-02",
       "archived_date": null,
@@ -9440,6 +9459,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 351,
+      "title": "Adam Neumann: This Is How You Build Iconic Companies",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-08",
+      "summary": "In this episode, Adam Neumann discusses his new venture, Flow, which aims to redefine living experiences by integrating technology, community, and design. Flow targets the $250 trillion real estate market and has already achieved significant success in Saudi Arabia. Neumann highlights the importance of community in modern living and how Flow's technology enables flexible living arrangements, catering to the evolving needs of the modern workforce. The discussion also touches on the potential for global expansion and the future of work and living, emphasizing a blend of remote work flexibility and meaningful physical interactions.",
+      "key_takeaway": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 336,
+      "episode_release_date": "2026-07-08",
+      "guest_name": "Adam Neumann",
+      "key_tickers": []
+    },
+    {
       "id": 349,
       "title": "Is Software Losing Its Head?",
       "source_type": "podcast",
@@ -9583,28 +9622,6 @@ const dashboardData = {
       "episode_release_date": "2026-07-03",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 343,
-      "title": "What If It\u2019s Still Early? | Erik YWR on $10,000 S&P 500 by 2027 Case, Hyperscaler ROIC, AI CapEx, Semis, Exchanges, and Reverse Crash Risk In \u201cProject Zimbabwe\u201d",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-07-02",
-      "summary": "In this episode of Monetary Matters, Eric from YWR discusses the bullish thesis on the S&P 500, projecting it to reach 10,000 due to accelerating earnings growth and favorable economic conditions. The current earnings growth rate for the S&P is significantly higher than the historical average, justifying higher P/E ratios. Eric also highlights the semiconductor sector as a key driver of earnings growth, with NVIDIA being a notable company in AI. Additionally, he discusses the potential for positive surprises in the energy sector and the recovery of the banking sector, particularly in Europe. Eric views the current market as a bull market rather than a speculative bubble and suggests that Chinese tech stocks are undervalued.",
-      "key_takeaway": "The S&P 500 is projected to reach 10,000 due to accelerating earnings growth and a favorable economic environment, justifying higher P/E ratios and making equities more attractive.",
-      "tickers_mentioned": "[\"NVDA\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-02",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 328,
-      "episode_release_date": "2026-07-02",
-      "guest_name": "What If It\u2019s Still Early?",
-      "key_tickers": [
-        "NVDA"
-      ]
     }
   ],
   "definitions": [
@@ -30858,61 +30875,123 @@ const dashboardData = {
     "key_tickers": [
       "NIKKEI"
     ]
+  },
+  "351": {
+    "id": 341,
+    "insight_id": 351,
+    "podcast_episode_id": 336,
+    "overview": "The competitive dynamic implied by the source material is the shift towards community-centric living models that cater to the modern, flexible workforce. What is contested is whether traditional real estate models can adapt to these changes or if new entrants like Flow will dominate. The allocator-relevant implication is that investors who can identify and support companies that successfully blend technology, community, and flexible living arrangements will likely gain an edge in the evolving real estate market.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the success of Flow's community engagement strategies as a leading indicator of resident satisfaction and retention.",
+      "Evaluate the robustness of real estate companies' technology platforms, as this will be a key differentiator in a market demanding flexible living solutions.",
+      "Assess the global scalability of real estate models, with a focus on how they adapt to local cultural contexts and regulatory environments.",
+      "Keep an eye on the balance between remote work flexibility and the need for meaningful physical interactions, as this will influence demand for different types of living arrangements.",
+      "Consider the potential for real estate companies to pivot their business models in response to changing work and living trends, indicating operational agility."
+    ],
+    "investment_thesis": "The investment thesis is that companies which successfully integrate technology, foster strong communities, and demonstrate global scalability will outperform in the $250 trillion real estate market. This is especially true in the context of a workforce that increasingly values flexibility and community engagement. The thesis would be vindicated if Flow continues to achieve high occupancy rates in new markets and if its technology platform drives operational efficiencies and enhances the resident experience. Conversely, it would be invalidated if Flow fails to replicate its initial success or if the market shifts away from the need for flexible living solutions.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's technology ecosystem could be leveraged by real estate companies like Flow to enhance smart home capabilities and resident experiences.",
+        "positioning": "Strategic long position, as Apple's technology could be a differentiating factor for real estate companies adopting smart home solutions.",
+        "risk": "Key risks include changes in consumer preferences for smart home technology and potential disruptions in Apple's supply chain."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A potential economic downturn could reduce the demand for flexible living solutions as job security becomes a priority.",
+      "Regulatory changes in real estate markets could hinder the expansion plans of companies like Flow.",
+      "Technological disruptions or failures in smart home technology could undermine the value proposition of community-centric living models."
+    ],
+    "catalysts": [
+      "Announcements of new market entries by Flow and the success of its community engagement strategies.",
+      "Technological advancements in smart home solutions that could enhance the living experience.",
+      "Economic indicators that signal shifts in work and living preferences, such as changes in remote work policies and urban migration trends."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-08T12:04:02.044245",
+    "updated_at": "2026-07-08 17:04:02",
+    "episode_evidence": "Adam Neumann's Flow is a venture that encapsulates the evolving dynamics of real estate and community living. Neumann emphasizes, 'A great community is when a group of people get together to build something greater than themselves.' This philosophy is central to Flow's success, as it has achieved over 90% occupancy in its first Saudi building within 60 days, showcasing a strong market demand for its community-centric model. Flow's technology is a key differentiator, allowing for flexible living arrangements, as Neumann explains, 'The system wouldn't be able to... you'd find a way to do it if you're very savvy, but then pay per do a deal.' This adaptability is crucial for catering to the modern workforce's needs, which include furnished apartments and short-term rentals. Flow's global expansion potential is evident in its successful entry into the Saudi market, demonstrating its model's adaptability to different cultural contexts, as Neumann notes, 'We raised it from actually 33 different investors... we started operating.'",
+    "falsification_tracks": [
+      "If Flow fails to maintain occupancy rates above 90% in new markets, it would indicate weaker market acceptance than claimed.",
+      "Should Flow's technology platform face significant user adoption challenges or security breaches, it would undermine its competitive advantage.",
+      "A decline in global investor interest or a failure to secure funding in new markets would challenge Flow's scalability narrative.",
+      "If remote work trends reverse and there is a mass return to traditional office settings, the demand for Flow's flexible living solutions may diminish."
+    ],
+    "insight_title": "Adam Neumann: This Is How You Build Iconic Companies",
+    "source_name": "The a16z Show",
+    "source_date": "2026-07-08",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
   {
-    "id": 492,
-    "term": "Market Neutral Strategies",
-    "definition": "Investment strategies that aim to be neutral to market movements, often by balancing long and short positions to reduce risk.",
-    "investment_implications": "These strategies are valuable for institutional portfolios in managing risk and seeking stable returns during market volatility.",
+    "id": 494,
+    "term": "Community-Centric Living",
+    "definition": "An approach to residential real estate that emphasizes the importance of community engagement and interaction among residents to enhance living experiences.",
+    "investment_implications": "Investors should prioritize companies that foster community engagement as a key component of their business model.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-07-07 18:39:54",
+    "submitted_date": "2026-07-08 17:03:15",
     "priority_score": 80
   },
   {
-    "id": 493,
-    "term": "AI's Impact on Global Markets",
-    "definition": "The influence of artificial intelligence on investment strategies and capital allocation across various sectors.",
-    "investment_implications": "Understanding AI's role can help investors identify growth opportunities and manage risks associated with technological disruption.",
+    "id": 495,
+    "term": "Technology as a Differentiator",
+    "definition": "The use of technology to create flexible and user-centric living arrangements, enhancing the resident experience and operational efficiency in real estate.",
+    "investment_implications": "Investors should evaluate the technological capabilities of real estate companies as a critical factor in their investment decisions.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-07-07 18:39:54",
+    "submitted_date": "2026-07-08 17:03:15",
     "priority_score": 80
   },
   {
-    "id": 491,
-    "term": "Headless Software",
-    "definition": "Software that operates without a traditional user interface, focusing on data and logic to enable AI-driven workflows.",
-    "investment_implications": "Investors should look for companies that are innovating in headless software architectures, as they may lead the next wave of enterprise solutions.",
+    "id": 496,
+    "term": "Market Adaptability",
+    "definition": "The ability of a company to rapidly adapt its offerings to changing market demands, such as offering furnished apartments and flexible leasing terms.",
+    "investment_implications": "Investors should look for companies that demonstrate agility and responsiveness to market trends.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-07-07 17:06:09",
+    "submitted_date": "2026-07-08 17:03:15",
     "priority_score": 80
   },
   {
-    "id": 489,
-    "term": "Liquidity Savings Mechanism",
-    "definition": "A system that allows banks to net payments against incoming funds, thereby reducing the total reserves needed.",
-    "investment_implications": "This mechanism could lead to a significant reduction in reserve demand, impacting bank profitability and lending practices.",
+    "id": 497,
+    "term": "Global Expansion Potential",
+    "definition": "The potential for a company to expand its operations into international markets, diversifying revenue streams and adapting to different cultural contexts.",
+    "investment_implications": "Investors should consider the international growth potential of real estate companies as a factor in their investment strategy.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-07-06 04:40:25",
+    "submitted_date": "2026-07-08 17:03:15",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 27767,
+    "id": 27858,
+    "name": "Adam Neumann",
+    "slug": "adam-neumann",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
+    "last_episode_title": "Adam Neumann: This Is How You Build Iconic Companies",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-08",
+    "appearance_count": 1
+  },
+  {
+    "id": 27859,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -30924,7 +31003,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27768,
+    "id": 27860,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -30936,7 +31015,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27769,
+    "id": 27861,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -30948,7 +31027,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27770,
+    "id": 27862,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -30960,7 +31039,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27771,
+    "id": 27863,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -30972,7 +31051,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27772,
+    "id": 27864,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -30984,7 +31063,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27773,
+    "id": 27865,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -30996,7 +31075,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27774,
+    "id": 27866,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -31008,7 +31087,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27775,
+    "id": 27867,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -31020,7 +31099,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27776,
+    "id": 27868,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -31032,7 +31111,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27777,
+    "id": 27869,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -31044,7 +31123,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27778,
+    "id": 27870,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -31056,7 +31135,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27779,
+    "id": 27871,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -31068,7 +31147,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27780,
+    "id": 27872,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -31080,7 +31159,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27781,
+    "id": 27873,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -31092,7 +31171,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 27782,
+    "id": 27874,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -31104,7 +31183,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27783,
+    "id": 27875,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -31116,7 +31195,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27784,
+    "id": 27876,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -31128,7 +31207,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 27785,
+    "id": 27877,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -31137,18 +31216,6 @@ const dashboardData = {
     "last_episode_title": "Dan Dreyfus: America's Critical Minerals Crisis is Here",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-10",
-    "appearance_count": 1
-  },
-  {
-    "id": 27786,
-    "name": "Bitcoin Selloff Explained",
-    "slug": "bitcoin-selloff-explained",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Bitcoin serves as a leading indicator of fiat liquidity and a potential hedge against inflation, while MicroStrategy's complex capital structure poses risks to Bitcoin holders.",
-    "last_episode_title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
-    "last_podcast_name": "The Jack Mallers Show",
-    "last_episode_date": "2026-06-09",
     "appearance_count": 1
   }
 ],
@@ -31481,7 +31548,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.23,
+    "mention_score_decayed": 1.2,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
@@ -32463,7 +32530,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -32471,6 +32538,71 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 324,
+    "name": "Adam Neumann",
+    "slug": "adam-neumann",
+    "bio": "Adam Neumann is the founder of WeWork and Flow, focusing on redefining living experiences through technology and community. He has become a case study in ambition, resilience, and second chances after building WeWork into one of the world's most valuable startups and experiencing a public corporate collapse.",
+    "known_for": "Innovative approaches to real estate and community building.",
+    "net_worth_usd": 2300000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q34579349",
+    "net_worth_updated_at": "2026-07-08T12:03:26.137374",
+    "voice_tone": "Confident and visionary.",
+    "voice_style": "Passionate about the future of living and the role of community.",
+    "voice_delivery_notes": "Speaks with conviction and a clear vision for the future.",
+    "voice_profile_updated_at": "2026-07-08 17:03:15",
+    "last_seen": "2026-07-08 17:03:15",
+    "last_episode_title": "Adam Neumann: This Is How You Build Iconic Companies",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-08",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-08 \u2022 Adam Neumann: This Is How You Build Iconic Companies",
+    "last_proof_snippet": "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
+    "supporting_takeaway": "Evaluate the technological capabilities of real estate firms, focusing on their ability to adapt to changing market demands.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-08T12:03:25.563546",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Adam Neumann",
+      "fetched_at": "2026-07-08T17:03:25.563248+00:00",
+      "cliff_notes": "Adam Neumann is an Israeli-born entrepreneur known for his innovative approaches to real estate and community building. He founded WeWork, a company that aimed to create flexible, shared workspaces for startups and entrepreneurs. Under his leadership, WeWork grew into one of the world's most valuable startups, attracting significant investment and attention. However, the company experienced a public and dramatic collapse, leading to Neumann's departure. Despite this setback, Neumann has returned to entrepreneurship with the launch of Flow, a venture focused on redefining living experiences through technology and community. His journey has become a case study in ambition, resilience, and the pursuit of second chances in the tech and startup world.",
+      "derived": {
+        "current_role": "Founder of Flow",
+        "former_positions": "Founder of WeWork"
+      },
+      "infobox": {
+        "Born": "1979",
+        "Nationality": "Israeli"
+      },
+      "lead_paragraphs": [
+        "Adam Neumann is an Israeli-born entrepreneur known for his innovative approaches to real estate and community building. He founded WeWork, a company that aimed to create flexible, shared workspaces for startups and entrepreneurs. Under his leadership, WeWork grew into one of the world's most valuable startups, attracting significant investment and attention.",
+        "However, the company experienced a public and dramatic collapse, leading to Neumann's departure. Despite this setback, Neumann has returned to entrepreneurship with the launch of Flow, a venture focused on redefining living experiences through technology and community. His journey has become a case study in ambition, resilience, and the pursuit of second chances in the tech and startup world."
+      ],
+      "sections": [
+        {
+          "heading": "WeWork Founding",
+          "body": "Adam Neumann founded WeWork in 2010, transforming the traditional office space into a shared, flexible environment for startups and entrepreneurs."
+        },
+        {
+          "heading": "WeWork Growth",
+          "body": "Under Neumann's leadership, WeWork grew rapidly, becoming one of the world's most valuable startups and attracting significant investment."
+        },
+        {
+          "heading": "WeWork Collapse",
+          "body": "WeWork experienced a public and dramatic collapse, leading to Neumann's departure and a case study in ambition, resilience, and second chances."
+        },
+        {
+          "heading": "Flow Launch",
+          "body": "After the WeWork collapse, Neumann returned to entrepreneurship with the launch of Flow, focusing on redefining living experiences through technology and community."
+        }
+      ]
+    },
+    "net_worth": "$2.30B"
   },
   {
     "id": 322,
@@ -32733,7 +32865,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -32978,7 +33110,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -34159,7 +34291,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in Axiom Math for its pioneering role in verified AI for mathematics, which has the potential to drive innovation and efficiency in problem-solving across various fields.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
     "last_proof_snippet": "But it's for the first time now I think verified AI is to open up collaboration. Either it's human AI collaboration. Well, before a blueprint like that's human human collaboration. And Lin was a grounding, was a verification formal language",
@@ -34794,7 +34926,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -34860,7 +34992,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -35199,7 +35331,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -35454,7 +35586,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -35518,7 +35650,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -35701,7 +35833,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -35765,7 +35897,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -36508,7 +36640,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -36574,7 +36706,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -42886,7 +43018,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
@@ -42944,7 +43076,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",

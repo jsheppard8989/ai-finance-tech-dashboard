@@ -1,5 +1,21 @@
 [
   {
+    "id": 336,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Adam Neumann: This Is How You Build Iconic Companies",
+    "episode_date": "2026-07-08",
+    "summary": "In this episode, Adam Neumann discusses his new venture, Flow, which aims to redefine living experiences by integrating technology, community, and design. Flow targets the $250 trillion real estate market and has already achieved significant success in Saudi Arabia. Neumann highlights the importance of community in modern living and how Flow's technology enables flexible living arrangements, catering to the evolving needs of the modern workforce. The discussion also touches on the potential for global expansion and the future of work and living, emphasizing a blend of remote work flexibility and meaningful physical interactions.",
+    "key_takeaways": [
+      "Invest in companies that prioritize community engagement and have a clear strategy for fostering resident interactions.",
+      "Evaluate the technological capabilities of real estate firms, focusing on their ability to adapt to changing market demands.",
+      "Consider the scalability of business models, particularly those that have successfully entered international markets.",
+      "Monitor trends in remote work and living preferences to identify investment opportunities in flexible housing solutions.",
+      "Engage with companies that demonstrate agility in their operations and can pivot quickly in response to market changes."
+    ],
+    "investment_thesis": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
+    "key_tickers": null
+  },
+  {
     "id": 335,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Breaking Down the Multi-Manager Playbook: How This $19B CIO Thinks About Alpha | Sean McGould | The Lighthouse Group",
@@ -118,24 +134,5 @@
     ],
     "investment_thesis": "Invest in AI technologies that demonstrate cultural adaptability and ethical alignment, and support startups with international expansion strategies to capture emerging market opportunities.",
     "key_tickers": null
-  },
-  {
-    "id": 328,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "What If It\u2019s Still Early? | Erik YWR on $10,000 S&P 500 by 2027 Case, Hyperscaler ROIC, AI CapEx, Semis, Exchanges, and Reverse Crash Risk In \u201cProject Zimbabwe\u201d",
-    "episode_date": "2026-07-02",
-    "summary": "In this episode of Monetary Matters, Eric from YWR discusses the bullish thesis on the S&P 500, projecting it to reach 10,000 due to accelerating earnings growth and favorable economic conditions. The current earnings growth rate for the S&P is significantly higher than the historical average, justifying higher P/E ratios. Eric also highlights the semiconductor sector as a key driver of earnings growth, with NVIDIA being a notable company in AI. Additionally, he discusses the potential for positive surprises in the energy sector and the recovery of the banking sector, particularly in Europe. Eric views the current market as a bull market rather than a speculative bubble and suggests that Chinese tech stocks are undervalued.",
-    "key_takeaways": [
-      "Eric maintains a bullish thesis on the S&P 500, projecting it could reach 10,000.",
-      "The current earnings growth rate for the S&P is estimated at 12-15%, significantly higher than the historical average of 8%.",
-      "Low interest rates combined with high nominal growth rates justify a higher P/E ratio, potentially reaching 25-30.",
-      "The semiconductor sector is highlighted as a key driver of earnings growth, with NVIDIA potentially justifying high valuations due to their role in AI.",
-      "Eric suggests that the current market environment resembles a prolonged bull market rather than a speculative bubble.",
-      "Chinese tech stocks are viewed as undervalued, with potential for significant upside if consumer sentiment improves and capital flows back into equities."
-    ],
-    "investment_thesis": "The S&P 500 is projected to reach 10,000 due to accelerating earnings growth and a favorable economic environment, justifying higher P/E ratios and making equities more attractive.",
-    "key_tickers": [
-      "NVDA"
-    ]
   }
 ]

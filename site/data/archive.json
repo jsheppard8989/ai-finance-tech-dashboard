@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 351,
+      "title": "Adam Neumann: This Is How You Build Iconic Companies",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-08",
+      "summary": "In this episode, Adam Neumann discusses his new venture, Flow, which aims to redefine living experiences by integrating technology, community, and design. Flow targets the $250 trillion real estate market and has already achieved significant success in Saudi Arabia. Neumann highlights the importance of community in modern living and how Flow's technology enables flexible living arrangements, catering to the evolving needs of the modern workforce. The discussion also touches on the potential for global expansion and the future of work and living, emphasizing a blend of remote work flexibility and meaningful physical interactions.",
+      "key_takeaway": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 336
+    },
+    {
       "id": 349,
       "title": "Is Software Losing Its Head?",
       "source_type": "podcast",
@@ -174,7 +193,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-02",
       "archived_date": null,
