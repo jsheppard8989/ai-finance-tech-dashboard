@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-07T13:41:06.603171",
-  "last_updated": "2026-07-07T13:41:06.603171",
-  "last_pipeline_run": "2026-07-07T13:41:06.603171",
+  "generated_at": "2026-07-07T22:03:47.813497",
+  "last_updated": "2026-07-07T22:03:47.813497",
+  "last_pipeline_run": "2026-07-07T22:03:47.813497",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -14,39 +14,18 @@
     "daily_scores": 139,
     "overton_terms_total": 107,
     "latest_insights_total": 322,
-    "today_mentions": {
-      "podcast": 1
-    },
+    "today_mentions": {},
     "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "10706e64-79b8-11f1-b545-1fe1b8f4acf8",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Breaking Down the Multi-Manager Playbook: How This $19B CIO Thinks About Alpha | Sean McGould | The Lighthouse Group",
-      "published": "2026-07-07",
-      "rss_guid": "10706e64-79b8-11f1-b545-1fe1b8f4acf8",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
