@@ -20,6 +20,25 @@
       "podcast_episode_id": 336
     },
     {
+      "id": 352,
+      "title": "Why AI Infrastructure must evolve for Agent Experience \u2014 Akshat Bubna, Modal CTO",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-07-08",
+      "summary": "In this episode of 'Latent Space: The AI Engineer Podcast', the discussion revolves around Model's transition from a GPU inference company to an AI cloud platform, emphasizing specialized compute and auto-scaling capabilities. Key themes include the company's focus on elastic inference for custom models, the introduction of speculative decoding and D Flash technology for improved inference speed, and the embedding of engineers within client teams for enhanced product integration. The podcast also touches on Model's competitive advantage in providing a comprehensive software layer that integrates with various cloud providers, and the increasing demand for AI-driven solutions in sectors beyond traditional LLM applications.",
+      "key_takeaway": "Investors should consider Model's adaptability in the AI infrastructure market, its technological innovations, and customer engagement strategies as key drivers for long-term growth and competitive advantage.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 337
+    },
+    {
       "id": 349,
       "title": "Is Software Losing Its Head?",
       "source_type": "podcast",
@@ -135,7 +154,7 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-03",
       "archived_date": null,

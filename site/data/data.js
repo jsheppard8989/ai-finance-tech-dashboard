@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-08T22:03:34.097848",
-  chartsVersion: "2026-07-08T22:03:15.890255",
+  generatedAt: "2026-07-08T23:40:34.897367",
+  chartsVersion: "2026-07-08T23:40:29.519732",
   priceSnapshot: {
   "GOOGL": {
     "price": 361.92,
     "change_pct": -0.51,
     "name": "GOOGL",
-    "updated_at": "2026-07-08T22:03:15.889147"
+    "updated_at": "2026-07-08T23:40:29.519262"
   },
   "BTC": {
-    "price": 61737.16,
-    "change_pct": 2.87,
+    "price": 62240.0,
+    "change_pct": 3.7,
     "name": "BTC",
-    "updated_at": "2026-07-08T22:03:15.889168"
+    "updated_at": "2026-07-08T23:40:29.519272"
   },
   "MSFT": {
     "price": 383.34,
     "change_pct": 1.17,
     "name": "MSFT",
-    "updated_at": "2026-07-08T22:03:15.889176"
+    "updated_at": "2026-07-08T23:40:29.519276"
   },
   "NVDA": {
     "price": 204.12,
     "change_pct": -0.26,
     "name": "NVDA",
-    "updated_at": "2026-07-08T22:03:15.889184"
+    "updated_at": "2026-07-08T23:40:29.519279"
   },
   "AMZN": {
     "price": 243.62,
     "change_pct": 2.58,
     "name": "AMZN",
-    "updated_at": "2026-07-08T22:03:15.889192"
+    "updated_at": "2026-07-08T23:40:29.519282"
   },
   "TSLA": {
     "price": 394.06,
     "change_pct": -0.59,
     "name": "TSLA",
-    "updated_at": "2026-07-08T22:03:15.889200"
+    "updated_at": "2026-07-08T23:40:29.519285"
   },
   "WTI": {
     "price": 3.59,
     "change_pct": 8.46,
     "name": "WTI",
-    "updated_at": "2026-07-08T22:03:15.889208"
+    "updated_at": "2026-07-08T23:40:29.519288"
   },
   "META": {
     "price": 603.12,
     "change_pct": 6.26,
     "name": "META",
-    "updated_at": "2026-07-08T22:03:15.889216"
+    "updated_at": "2026-07-08T23:40:29.519291"
   },
   "S&P 500": {
     "price": 745.4,
     "change_pct": 0.86,
     "name": "S&P 500",
-    "updated_at": "2026-07-08T22:03:15.889223"
+    "updated_at": "2026-07-08T23:40:29.519294"
   },
   "AAPL": {
     "price": 313.39,
     "change_pct": 5.89,
     "name": "AAPL",
-    "updated_at": "2026-07-08T22:03:15.889231"
+    "updated_at": "2026-07-08T23:40:29.519297"
   },
   "QQQ": {
     "price": 711.44,
     "change_pct": -1.42,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-08T22:03:15.889238"
+    "updated_at": "2026-07-08T23:40:29.519300"
   },
   "BTC-USD": {
-    "price": 61763.48,
-    "change_pct": 2.91,
+    "price": 62240.0,
+    "change_pct": 3.7,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-08T22:03:15.889247"
+    "updated_at": "2026-07-08T23:40:29.519304"
   }
 },
   tickerScores: [
@@ -853,6 +853,25 @@ const dashboardData = {
       "podcast_episode_id": 336
     },
     {
+      "id": 352,
+      "title": "Why AI Infrastructure must evolve for Agent Experience \u2014 Akshat Bubna, Modal CTO",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-07-08",
+      "summary": "In this episode of 'Latent Space: The AI Engineer Podcast', the discussion revolves around Model's transition from a GPU inference company to an AI cloud platform, emphasizing specialized compute and auto-scaling capabilities. Key themes include the company's focus on elastic inference for custom models, the introduction of speculative decoding and D Flash technology for improved inference speed, and the embedding of engineers within client teams for enhanced product integration. The podcast also touches on Model's competitive advantage in providing a comprehensive software layer that integrates with various cloud providers, and the increasing demand for AI-driven solutions in sectors beyond traditional LLM applications.",
+      "key_takeaway": "Investors should consider Model's adaptability in the AI infrastructure market, its technological innovations, and customer engagement strategies as key drivers for long-term growth and competitive advantage.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 337
+    },
+    {
       "id": 349,
       "title": "Is Software Losing Its Head?",
       "source_type": "podcast",
@@ -968,7 +987,7 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-03",
       "archived_date": null,
@@ -9479,6 +9498,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 352,
+      "title": "Why AI Infrastructure must evolve for Agent Experience \u2014 Akshat Bubna, Modal CTO",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-07-08",
+      "summary": "In this episode of 'Latent Space: The AI Engineer Podcast', the discussion revolves around Model's transition from a GPU inference company to an AI cloud platform, emphasizing specialized compute and auto-scaling capabilities. Key themes include the company's focus on elastic inference for custom models, the introduction of speculative decoding and D Flash technology for improved inference speed, and the embedding of engineers within client teams for enhanced product integration. The podcast also touches on Model's competitive advantage in providing a comprehensive software layer that integrates with various cloud providers, and the increasing demand for AI-driven solutions in sectors beyond traditional LLM applications.",
+      "key_takeaway": "Investors should consider Model's adaptability in the AI infrastructure market, its technological innovations, and customer engagement strategies as key drivers for long-term growth and competitive advantage.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 337,
+      "episode_release_date": "2026-07-08",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 349,
       "title": "Is Software Losing Its Head?",
       "source_type": "podcast",
@@ -9581,26 +9620,6 @@ const dashboardData = {
       "podcast_episode_id": 331,
       "episode_release_date": "2026-07-04",
       "guest_name": "Josh Pristow",
-      "key_tickers": []
-    },
-    {
-      "id": 344,
-      "title": "Technology, Alliances, and American Leadership.",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-07-03",
-      "summary": "In this episode, the a16z Show explores the intersection of AI, national security, and international entrepreneurship. The discussion highlights the growing importance of AI as an interface for all technologies, influencing culture and values. It also underscores the critical role of technological innovation in national security and the need for international partnerships to maintain U.S. tech leadership. The podcast emphasizes the accelerated internationalization of startups and the significance of cultural and legal frameworks in fostering entrepreneurship. Lastly, it discusses the dual-use nature of AI in cybersecurity and the importance of American values in technology deployment.",
-      "key_takeaway": "Invest in AI technologies that demonstrate cultural adaptability and ethical alignment, and support startups with international expansion strategies to capture emerging market opportunities.",
-      "tickers_mentioned": "[\"AAPL\", \"MSFT\", \"GOOGL\", \"AMZN\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-03",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 329,
-      "episode_release_date": "2026-07-03",
-      "guest_name": null,
       "key_tickers": []
     },
     {
@@ -30925,9 +30944,93 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-07-08",
     "key_tickers": []
+  },
+  "352": {
+    "id": 342,
+    "insight_id": 352,
+    "podcast_episode_id": 337,
+    "overview": "The competitive dynamic implied by the source material is the race for dominance in the AI cloud platform market, where specialized compute and auto-scaling are becoming table stakes. Model's ability to offer elastic inference and embed engineers within client teams creates a competitive tension with traditional cloud providers who may lack such tailored services. The unresolved tension is whether Model's specialized approach can outpace the scale and breadth of larger, more established players. Allocators should consider that the metric arbitrating this uncertainty is the rate of adoption of Model's services by a diverse set of industries, particularly those outside of traditional LLM applications.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the growth of Model's customer base in sectors like drug discovery and robotics, as this could indicate the success of their specialized compute offerings.",
+      "The success of Model's speculative decoding and D Flash technology could be gauged by the company's ability to secure patents and publish performance benchmarks that outperform the competition.",
+      "Investors should evaluate the effectiveness of Model's software layer in integrating with various cloud providers as a measure of their competitive advantage in resource management and scaling.",
+      "The durability of Model's customer engagement strategy, including embedded engineering, should be assessed by tracking client retention rates and the frequency of service upgrades."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that Model's specialized compute capabilities and auto-scaling, combined with its innovative technologies like speculative decoding and D Flash, position it to capture a significant share of the growing AI cloud platform market. Over a 3-5 year timeframe, the vindication of this thesis would be evidenced by Model's increasing market share, particularly in non-traditional AI application sectors, and the successful integration of its software layer with a diverse range of cloud providers.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI and machine learning, along with its cloud services, makes it relevant to the AI infrastructure market. Apple's performance in this space could either complement or compete with Model's offerings.",
+        "positioning": "A strategic long position in AAPL could be considered, as its advancements in AI could drive demand for specialized AI infrastructure like Model's platform.",
+        "risk": "Key risks include Apple's potential to develop in-house solutions that compete directly with Model, or a slowdown in the overall AI adoption rate which could affect both companies."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The entry of new, well-funded competitors into the AI cloud platform market could erode Model's competitive advantage.",
+      "A potential economic downturn could lead to reduced spending on AI infrastructure, affecting Model's growth prospects.",
+      "Regulatory changes in data privacy and AI usage could impose additional costs or operational constraints on Model and its clients."
+    ],
+    "catalysts": [
+      "The release of new performance benchmarks from Model that demonstrate significant improvements over existing technologies.",
+      "Strategic partnerships or acquisitions that expand Model's reach into new industries or geographies.",
+      "Announcements of new client wins, especially in sectors outside of traditional LLM applications, which would signal the broadening appeal of Model's platform."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-08T23:39:45.051684",
+    "updated_at": "2026-07-09 04:39:45",
+    "episode_evidence": "Model's transition to an AI cloud platform is underscored by its specialized compute and auto-scaling capabilities, as highlighted by Akshat Bubna, 'Model is a cloud platform that's built for AI applications.' This shift is pivotal as it allows the company to address a broader spectrum of AI workloads, including inference, training, and sandbox processing. A key innovation is the company's focus on elastic inference for custom models, which is particularly crucial given the unpredictable traffic patterns that Akshat noted, 'Our biggest use case actually is elastic inference... we saw all of them actually have a very unpredictable traffic pattern.' This feature is essential for managing burstable compute resources efficiently. Furthermore, Model's speculative decoding and D Flash technology are game-changers, with Akshat explaining, 'Speculative decoding is you have a smaller model predict tokens ahead of the bigger model,' which results in significant speedups. These technologies not only enhance performance but also position Model as a competitive player in the AI infrastructure market.",
+    "falsification_tracks": [
+      "If Model's custom model inference services fail to meet the performance benchmarks set by competitors for two consecutive quarters, it would indicate a failure in their elastic inference strategy.",
+      "Should customer testimonials and case studies not validate the improved developer and agent experience claimed by Model's unique runtime, it would undermine the company's value proposition.",
+      "A failure in the widespread adoption of speculative decoding and D Flash technology within the next year would suggest that these innovations are not as disruptive as initially thought."
+    ],
+    "insight_title": "Why AI Infrastructure must evolve for Agent Experience \u2014 Akshat Bubna, Modal CTO",
+    "source_name": "Latent Space: The AI Engineer Podcast",
+    "source_date": "2026-07-08",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 499,
+    "term": "Elastic Inference",
+    "definition": "A cloud computing service that allows for the dynamic allocation of computational resources based on demand, particularly useful for applications with unpredictable traffic patterns.",
+    "investment_implications": "Elastic inference can significantly reduce costs and improve performance for companies with fluctuating workloads, making it a key area for investment in AI infrastructure.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-09 04:39:20",
+    "priority_score": 80
+  },
+  {
+    "id": 500,
+    "term": "Speculative Decoding",
+    "definition": "A technique in AI where a smaller model predicts tokens ahead of a larger model to speed up inference, potentially increasing the efficiency of AI applications.",
+    "investment_implications": "The adoption of speculative decoding could lead to faster and more efficient AI models, impacting the competitive landscape of AI technology providers.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-09 04:39:20",
+    "priority_score": 80
+  },
+  {
+    "id": 501,
+    "term": "D Flash Technology",
+    "definition": "A technology developed by Model that enhances inference speed and efficiency, allowing for faster token prediction and verification in AI applications.",
+    "investment_implications": "D Flash technology could be a significant differentiator for Model, potentially leading to performance advantages in the AI cloud platform market.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-09 04:39:20",
+    "priority_score": 80
+  },
   {
     "id": 494,
     "term": "Community-Centric Living",
@@ -30939,47 +31042,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-08 17:03:15",
     "priority_score": 80
-  },
-  {
-    "id": 495,
-    "term": "Technology as a Differentiator",
-    "definition": "The use of technology to create flexible and user-centric living arrangements, enhancing the resident experience and operational efficiency in real estate.",
-    "investment_implications": "Investors should evaluate the technological capabilities of real estate companies as a critical factor in their investment decisions.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-08 17:03:15",
-    "priority_score": 80
-  },
-  {
-    "id": 496,
-    "term": "Market Adaptability",
-    "definition": "The ability of a company to rapidly adapt its offerings to changing market demands, such as offering furnished apartments and flexible leasing terms.",
-    "investment_implications": "Investors should look for companies that demonstrate agility and responsiveness to market trends.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-08 17:03:15",
-    "priority_score": 80
-  },
-  {
-    "id": 497,
-    "term": "Global Expansion Potential",
-    "definition": "The potential for a company to expand its operations into international markets, diversifying revenue streams and adapting to different cultural contexts.",
-    "investment_implications": "Investors should consider the international growth potential of real estate companies as a factor in their investment strategy.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-08 17:03:15",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 28042,
+    "id": 28134,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -30991,7 +31058,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28043,
+    "id": 28135,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -31003,7 +31070,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28044,
+    "id": 28136,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -31015,7 +31082,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28045,
+    "id": 28137,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -31027,7 +31094,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28046,
+    "id": 28138,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -31039,7 +31106,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28047,
+    "id": 28139,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -31051,7 +31118,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28048,
+    "id": 28140,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -31063,7 +31130,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28049,
+    "id": 28141,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -31075,7 +31142,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28050,
+    "id": 28142,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -31087,7 +31154,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28051,
+    "id": 28143,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -31099,7 +31166,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28052,
+    "id": 28144,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -31111,7 +31178,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28053,
+    "id": 28145,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -31123,7 +31190,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28054,
+    "id": 28146,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -31135,7 +31202,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28055,
+    "id": 28147,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -31147,7 +31214,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28056,
+    "id": 28148,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -31159,7 +31226,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28057,
+    "id": 28149,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -31171,7 +31238,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 28058,
+    "id": 28150,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -31183,7 +31250,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28059,
+    "id": 28151,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -31195,7 +31262,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28060,
+    "id": 28152,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -31207,7 +31274,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28061,
+    "id": 28153,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -31426,7 +31493,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-03",
     "mention_score": 2,
-    "mention_score_decayed": 1.82,
+    "mention_score_decayed": 1.78,
     "last_main_idea": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-03 \u2022 AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Sure, favorite podcast. It's your podcast. It's your favorite podcast. It's the all-in podcast episode two, seven, nine with me, freebergs, tax, to my, you know, the",
@@ -31486,7 +31553,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 1.23,
+    "mention_score_decayed": 1.2,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -32744,7 +32811,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-05 \u2022 The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. The new Fed Chair Kevin Worsh has made it no secret that he prefers a sm",
@@ -33174,7 +33241,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-29 \u2022 Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
     "last_proof_snippet": "I am so glad today we have a very special guest, one of my favorite authors of all time Leakwet Ahamed, who's the author of the new book 1873, The Roth Childs, The First Great Depression, and The Making of the Modern World Leakwet. Welcome",
@@ -33301,7 +33368,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
     "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
@@ -33485,7 +33552,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-23 \u2022 GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
     "last_proof_snippet": "Everyone hates GameStop and it seems like everyone in the media basically wants us to fail and wants them to succeed and you've got a board that's making hundreds of thousands of dollars a year and they don't buy stock with their own money.",
@@ -33615,7 +33682,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-22 \u2022 Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
     "last_proof_snippet": "Okay, we're here in a studio with Grace One, Matt and Zico welcome. Great to be here. Yeah. Thanks for having us. You're visiting from Pittsburgh? That's right. The home of all good computer science, I don't know if I'm oversteaving things.",
@@ -33678,7 +33745,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -33742,7 +33809,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -33801,7 +33868,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -33860,7 +33927,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -33925,7 +33992,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -33988,7 +34055,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -34354,7 +34421,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -35202,7 +35269,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -35394,7 +35461,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
@@ -38335,7 +38402,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -38771,7 +38838,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -39468,7 +39535,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-15 \u2022 Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
     "last_proof_snippet": "The company's revenue grew from $2.5 million to $250 million in just over a year, demonstrating the potential of AI in software development.",
@@ -39532,7 +39599,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-14 \u2022 \"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
     "last_proof_snippet": "Investing with a long-term perspective involves considering macroeconomic factors and their impact on smaller companies.",
@@ -40839,7 +40906,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_proof_snippet": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",
@@ -41275,7 +41342,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-27 \u2022 Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
     "last_proof_snippet": "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",
