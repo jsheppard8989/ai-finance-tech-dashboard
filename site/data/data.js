@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-09T06:38:21.951423",
+  generatedAt: "2026-07-09T08:09:42.754646",
   chartsVersion: "2026-07-09T06:38:12.074439",
   priceSnapshot: {
   "GOOGL": {
@@ -32117,6 +32117,66 @@ const dashboardData = {
     "net_worth": "$25.0M"
   },
   {
+    "id": 183,
+    "name": "Aaron Levy",
+    "slug": "aaron-levy",
+    "bio": "CEO of Box",
+    "known_for": "Leading the cloud content management company",
+    "net_worth_usd": 107852195.0,
+    "net_worth_source": "https://strike.market/key-executives/0001606525",
+    "net_worth_updated_at": "2026-04-16T22:06:31.028180",
+    "voice_tone": "Practical and solution-oriented",
+    "voice_style": "Shares insights from customer interactions and industry trends",
+    "voice_delivery_notes": "Speaks with conviction, emphasizing real-world applications",
+    "voice_profile_updated_at": "2026-04-25 10:05:40",
+    "last_seen": "2026-04-25 10:05:40",
+    "last_episode_title": "AI Inside the Enterprise",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-24",
+    "mention_score": 2,
+    "mention_score_decayed": 0.35,
+    "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
+    "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
+    "supporting_takeaway": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-16T22:06:30.002480",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Aaron Levy",
+      "fetched_at": "2026-04-17T03:06:30.002193+00:00",
+      "cliff_notes": "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential. His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community.",
+      "derived": {
+        "current_role": "CEO at Box"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential.",
+        "His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community."
+      ],
+      "sections": [
+        {
+          "heading": "Cloud Content Management",
+          "body": "Aaron Levy has been at the forefront of cloud content management, leading Box to become a major player in the industry."
+        },
+        {
+          "heading": "AI and Technology Integration",
+          "body": "Levy has shared his views on the diffusion of AI capabilities, suggesting that the integration of AI into business processes will take longer than anticipated and will require significant domain knowledge."
+        },
+        {
+          "heading": "Economic Implications of Technology",
+          "body": "Levy has discussed the economic challenges posed by new technologies, emphasizing the need for accurate estimation of the scale of opportunities and the importance of building software for agents in a world where they outnumber humans."
+        }
+      ]
+    },
+    "net_worth": "$107.9M"
+  },
+  {
     "id": 78,
     "name": "Martin Casado",
     "slug": "martin-casado",
@@ -32181,66 +32241,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$600.0M"
-  },
-  {
-    "id": 183,
-    "name": "Aaron Levy",
-    "slug": "aaron-levy",
-    "bio": "CEO of Box",
-    "known_for": "Leading the cloud content management company",
-    "net_worth_usd": 107852195.0,
-    "net_worth_source": "https://strike.market/key-executives/0001606525",
-    "net_worth_updated_at": "2026-04-16T22:06:31.028180",
-    "voice_tone": "Practical and solution-oriented",
-    "voice_style": "Shares insights from customer interactions and industry trends",
-    "voice_delivery_notes": "Speaks with conviction, emphasizing real-world applications",
-    "voice_profile_updated_at": "2026-04-25 10:05:40",
-    "last_seen": "2026-04-25 10:05:40",
-    "last_episode_title": "AI Inside the Enterprise",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-24",
-    "mention_score": 2,
-    "mention_score_decayed": 0.35,
-    "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
-    "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
-    "supporting_takeaway": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-16T22:06:30.002480",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Aaron Levy",
-      "fetched_at": "2026-04-17T03:06:30.002193+00:00",
-      "cliff_notes": "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential. His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community.",
-      "derived": {
-        "current_role": "CEO at Box"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential.",
-        "His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community."
-      ],
-      "sections": [
-        {
-          "heading": "Cloud Content Management",
-          "body": "Aaron Levy has been at the forefront of cloud content management, leading Box to become a major player in the industry."
-        },
-        {
-          "heading": "AI and Technology Integration",
-          "body": "Levy has shared his views on the diffusion of AI capabilities, suggesting that the integration of AI into business processes will take longer than anticipated and will require significant domain knowledge."
-        },
-        {
-          "heading": "Economic Implications of Technology",
-          "body": "Levy has discussed the economic challenges posed by new technologies, emphasizing the need for accurate estimation of the scale of opportunities and the importance of building software for agents in a world where they outnumber humans."
-        }
-      ]
-    },
-    "net_worth": "$107.9M"
   },
   {
     "id": 74,
