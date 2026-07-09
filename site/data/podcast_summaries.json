@@ -1,5 +1,22 @@
 [
   {
+    "id": 338,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
+    "episode_date": "2026-07-09",
+    "summary": "In this episode, Mark Zuckerberg and Dr. Priscilla Chan discuss the Chan Zuckerberg Initiative's mission to accelerate scientific discovery by investing in tools for biology rather than individual therapies. They explore the potential of AI in reshaping scientific research, focusing on infrastructure, data sets, and AI systems to combat disease. The conversation delves into topics like cell atlases, virtual cell models, and biohubs, suggesting that advancements in medicine may rely as much on improved tools as on better treatments.",
+    "key_takeaways": [
+      "The Chan Zuckerberg Initiative aims to cure, prevent, and manage all diseases by the end of the century.",
+      "Investment in infrastructure, data sets, and AI systems is crucial for faster progress against disease.",
+      "The future of medicine may depend on better tools as much as on better treatments.",
+      "Virtual cell models could allow for more risk-taking in scientific research by reducing the cost and time of experiments.",
+      "The initiative focuses on building tools that can generate novel data sets to improve scientific understanding and treatment development.",
+      "The goal is to create a 'periodic table of elements equivalent for biology' to advance the field."
+    ],
+    "investment_thesis": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
+    "key_tickers": null
+  },
+  {
     "id": 337,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "Why AI Infrastructure must evolve for Agent Experience \u2014 Akshat Bubna, Modal CTO",
@@ -116,22 +133,6 @@
       "Class A office spaces are recovering, while Class B and C face challenges due to declining demand and high capital costs."
     ],
     "investment_thesis": "Invest in multi-family and senior housing to capitalize on demographic shifts, and focus on industrial properties to benefit from e-commerce growth.",
-    "key_tickers": null
-  },
-  {
-    "id": 330,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
-    "episode_date": "2026-07-03",
-    "summary": "In this episode, the hosts discuss Palantir's partnership with Nvidia to create a custom AI model for U.S. government agencies, highlighting the importance of data sovereignty in AI. They debate the risks of sharing proprietary data with AI model providers and the potential for job growth linked to AI investment. Additionally, they analyze California's fiscal challenges and the importance of cultural assimilation for immigrants. The conversation suggests a shift towards decentralized AI solutions and emphasizes the need for enterprises to maintain control over their data.",
-    "key_takeaways": [
-      "Invest in open-source AI solutions to maintain control over proprietary data and reduce costs.",
-      "Monitor companies increasing AI investments, as they are likely to experience growth in headcount and revenue.",
-      "Evaluate exposure to California-based investments considering the state's fiscal challenges and potential for economic instability.",
-      "Advocate for policies promoting cultural assimilation among immigrants to preserve American values and societal cohesion.",
-      "Prepare for potential shifts in the political landscape as the Democratic Party moves left, impacting moderate voter sentiment."
-    ],
-    "investment_thesis": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
     "key_tickers": null
   }
 ]

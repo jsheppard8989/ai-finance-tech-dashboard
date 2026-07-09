@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 353,
+      "title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-09",
+      "summary": "In this episode, Mark Zuckerberg and Dr. Priscilla Chan discuss the Chan Zuckerberg Initiative's mission to accelerate scientific discovery by investing in tools for biology rather than individual therapies. They explore the potential of AI in reshaping scientific research, focusing on infrastructure, data sets, and AI systems to combat disease. The conversation delves into topics like cell atlases, virtual cell models, and biohubs, suggesting that advancements in medicine may rely as much on improved tools as on better treatments.",
+      "key_takeaway": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 338
+    },
+    {
       "id": 351,
       "title": "Adam Neumann: This Is How You Build Iconic Companies",
       "source_type": "podcast",
@@ -174,7 +193,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-03",
       "archived_date": null,

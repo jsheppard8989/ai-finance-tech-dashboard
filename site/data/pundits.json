@@ -829,66 +829,6 @@
     "net_worth": "$25.0M"
   },
   {
-    "id": 183,
-    "name": "Aaron Levy",
-    "slug": "aaron-levy",
-    "bio": "CEO of Box",
-    "known_for": "Leading the cloud content management company",
-    "net_worth_usd": 107852195.0,
-    "net_worth_source": "https://strike.market/key-executives/0001606525",
-    "net_worth_updated_at": "2026-04-16T22:06:31.028180",
-    "voice_tone": "Practical and solution-oriented",
-    "voice_style": "Shares insights from customer interactions and industry trends",
-    "voice_delivery_notes": "Speaks with conviction, emphasizing real-world applications",
-    "voice_profile_updated_at": "2026-04-25 10:05:40",
-    "last_seen": "2026-04-25 10:05:40",
-    "last_episode_title": "AI Inside the Enterprise",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-24",
-    "mention_score": 2,
-    "mention_score_decayed": 0.35,
-    "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
-    "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
-    "supporting_takeaway": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-16T22:06:30.002480",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Aaron Levy",
-      "fetched_at": "2026-04-17T03:06:30.002193+00:00",
-      "cliff_notes": "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential. His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community.",
-      "derived": {
-        "current_role": "CEO at Box"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential.",
-        "His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community."
-      ],
-      "sections": [
-        {
-          "heading": "Cloud Content Management",
-          "body": "Aaron Levy has been at the forefront of cloud content management, leading Box to become a major player in the industry."
-        },
-        {
-          "heading": "AI and Technology Integration",
-          "body": "Levy has shared his views on the diffusion of AI capabilities, suggesting that the integration of AI into business processes will take longer than anticipated and will require significant domain knowledge."
-        },
-        {
-          "heading": "Economic Implications of Technology",
-          "body": "Levy has discussed the economic challenges posed by new technologies, emphasizing the need for accurate estimation of the scale of opportunities and the importance of building software for agents in a world where they outnumber humans."
-        }
-      ]
-    },
-    "net_worth": "$107.9M"
-  },
-  {
     "id": 78,
     "name": "Martin Casado",
     "slug": "martin-casado",
@@ -953,6 +893,66 @@
       ]
     },
     "net_worth": "$600.0M"
+  },
+  {
+    "id": 183,
+    "name": "Aaron Levy",
+    "slug": "aaron-levy",
+    "bio": "CEO of Box",
+    "known_for": "Leading the cloud content management company",
+    "net_worth_usd": 107852195.0,
+    "net_worth_source": "https://strike.market/key-executives/0001606525",
+    "net_worth_updated_at": "2026-04-16T22:06:31.028180",
+    "voice_tone": "Practical and solution-oriented",
+    "voice_style": "Shares insights from customer interactions and industry trends",
+    "voice_delivery_notes": "Speaks with conviction, emphasizing real-world applications",
+    "voice_profile_updated_at": "2026-04-25 10:05:40",
+    "last_seen": "2026-04-25 10:05:40",
+    "last_episode_title": "AI Inside the Enterprise",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-24",
+    "mention_score": 2,
+    "mention_score_decayed": 0.35,
+    "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
+    "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
+    "supporting_takeaway": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-16T22:06:30.002480",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Aaron Levy",
+      "fetched_at": "2026-04-17T03:06:30.002193+00:00",
+      "cliff_notes": "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential. His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community.",
+      "derived": {
+        "current_role": "CEO at Box"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential.",
+        "His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community."
+      ],
+      "sections": [
+        {
+          "heading": "Cloud Content Management",
+          "body": "Aaron Levy has been at the forefront of cloud content management, leading Box to become a major player in the industry."
+        },
+        {
+          "heading": "AI and Technology Integration",
+          "body": "Levy has shared his views on the diffusion of AI capabilities, suggesting that the integration of AI into business processes will take longer than anticipated and will require significant domain knowledge."
+        },
+        {
+          "heading": "Economic Implications of Technology",
+          "body": "Levy has discussed the economic challenges posed by new technologies, emphasizing the need for accurate estimation of the scale of opportunities and the importance of building software for agents in a world where they outnumber humans."
+        }
+      ]
+    },
+    "net_worth": "$107.9M"
   },
   {
     "id": 74,
@@ -1319,6 +1319,133 @@
     "pundit_profile": null
   },
   {
+    "id": 326,
+    "name": "Mark Zuckerberg",
+    "slug": "mark-zuckerberg",
+    "bio": "Mark Zuckerberg is the co-founder and CEO of Facebook, a social media platform he launched from his Harvard dorm room in 2004. He is also known for his philanthropic efforts through the Chan Zuckerberg Initiative, which focuses on areas such as science, education, and justice & opportunity.",
+    "known_for": "His leadership in shaping the social media landscape and his significant philanthropic work.",
+    "net_worth_usd": 69800000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q36215",
+    "net_worth_updated_at": "2026-07-09T12:05:09.537340",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-07-09 17:04:39",
+    "last_episode_title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-09",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
+    "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
+    "supporting_takeaway": "Investment in infrastructure, data sets, and AI systems is crucial for faster progress against disease.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-09T12:05:09.006253",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Mark Zuckerberg",
+      "fetched_at": "2026-07-09T17:05:09.005885+00:00",
+      "cliff_notes": "Mark Zuckerberg is an American technology entrepreneur and philanthropist. He is best known for co-founding and leading Facebook, the world's largest social media platform. Zuckerberg began coding at a young age and developed a passion for programming. He launched Facebook from his Harvard dorm room in 2004, and the platform quickly gained popularity among college students. Over the years, Facebook has expanded to become a global phenomenon with billions of users. In addition to his work at Facebook, Zuckerberg and his wife Priscilla Chan established the Chan Zuckerberg Initiative in 2015. The philanthropic organization focuses on areas such as science, education, and justice & opportunity. Zuckerberg's influence in the tech industry and his philanthropic efforts have made him a prominent figure in both the business and social sectors.",
+      "derived": {
+        "current_role": "CEO of Facebook",
+        "education": "Harvard University (dropped out)"
+      },
+      "infobox": {
+        "Born": "May 14, 1984",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Mark Zuckerberg is an American technology entrepreneur and philanthropist. He is best known for co-founding and leading Facebook, the world's largest social media platform. Zuckerberg began coding at a young age and developed a passion for programming. He launched Facebook from his Harvard dorm room in 2004, and the platform quickly gained popularity among college students.",
+        "Over the years, Facebook has expanded to become a global phenomenon with billions of users. In addition to his work at Facebook, Zuckerberg and his wife Priscilla Chan established the Chan Zuckerberg Initiative in 2015. The philanthropic organization focuses on areas such as science, education, and justice & opportunity.",
+        "Zuckerberg's influence in the tech industry and his philanthropic efforts have made him a prominent figure in both the business and social sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Facebook Founding",
+          "body": "Mark Zuckerberg co-founded Facebook in 2004 while studying at Harvard University. The platform quickly gained popularity among college students and expanded to become the world's largest social media network."
+        },
+        {
+          "heading": "Leadership",
+          "body": "As CEO of Facebook, Zuckerberg has overseen the company's growth and expansion into various areas, including messaging, virtual reality, and e-commerce. He has also faced scrutiny over privacy and data security issues."
+        },
+        {
+          "heading": "Philanthropy",
+          "body": "Zuckerberg and his wife Priscilla Chan established the Chan Zuckerberg Initiative in 2015. The organization focuses on areas such as science, education, and justice & opportunity, with a goal to cure, prevent, or manage all diseases by the end of the century."
+        },
+        {
+          "heading": "AI and Science",
+          "body": "Zuckerberg has expressed interest in the potential of AI to advance scientific research. He has called for more effort in building tools to bridge the gap between AI and biology, emphasizing the importance of such tools in achieving the Chan Zuckerberg Initiative's goals."
+        }
+      ]
+    },
+    "net_worth": "$69.80B"
+  },
+  {
+    "id": 327,
+    "name": "Priscilla Chan",
+    "slug": "priscilla-chan",
+    "bio": "Priscilla Chan is a pediatrician and co-founder of the Chan Zuckerberg Initiative alongside her husband, Mark Zuckerberg. She is dedicated to advancing basic science research and improving healthcare, with a focus on curing and preventing all diseases by the end of the century.",
+    "known_for": "Her work in healthcare and the Chan Zuckerberg Initiative, which aims to leverage AI and technology to cure and prevent diseases.",
+    "net_worth_usd": 50000000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/business-executives/priscilla-chan-net-worth/",
+    "net_worth_updated_at": "2026-07-09T12:05:20.026452",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-07-09 17:04:39",
+    "last_episode_title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-09",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
+    "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
+    "supporting_takeaway": "Investment in infrastructure, data sets, and AI systems is crucial for faster progress against disease.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-09T12:05:18.896994",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Priscilla Chan",
+      "fetched_at": "2026-07-09T17:05:18.896847+00:00",
+      "cliff_notes": "Priscilla Chan, a pediatrician by profession, is best known for her philanthropic work as the co-founder of the Chan Zuckerberg Initiative with her husband, Facebook's Mark Zuckerberg. Established in 2015, the initiative focuses on advancing human potential and promoting equality through investments in science, education, and technology. Chan's vision for the initiative includes leveraging AI and technology to cure and prevent all diseases by the end of the century. Her dedication to healthcare and science has made her a significant figure in the intersection of technology and healthcare.",
+      "derived": {
+        "current_role": "Co-founder, Chan Zuckerberg Initiative",
+        "education": "Bachelor's degree in Biology, Harvard University; Medical degree, University of California, San Francisco"
+      },
+      "infobox": {
+        "Born": "1985",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Priscilla Chan, a pediatrician by profession, is best known for her philanthropic work as the co-founder of the Chan Zuckerberg Initiative with her husband, Facebook's Mark Zuckerberg. Established in 2015, the initiative focuses on advancing human potential and promoting equality through investments in science, education, and technology.",
+        "Chan's vision for the initiative includes leveraging AI and technology to cure and prevent all diseases by the end of the century. Her dedication to healthcare and science has made her a significant figure in the intersection of technology and healthcare."
+      ],
+      "sections": [
+        {
+          "heading": "Healthcare Philanthropy",
+          "body": "Priscilla Chan, along with her husband, has pledged significant resources towards healthcare initiatives, aiming to cure and prevent diseases through the Chan Zuckerberg Initiative."
+        },
+        {
+          "heading": "Science Research",
+          "body": "Chan is focused on advancing basic science research, emphasizing the need for tools that can help create a comprehensive understanding of biology, similar to the periodic table of elements."
+        },
+        {
+          "heading": "AI and Technology",
+          "body": "The Chan Zuckerberg Initiative is investing in AI to accelerate scientific research, with Chan noting the potential for AI to play a significant role in the future of biology and disease prevention."
+        }
+      ]
+    },
+    "net_worth": "$50.00B"
+  },
+  {
     "id": 324,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
@@ -1336,7 +1463,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-08",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-08 \u2022 Adam Neumann: This Is How You Build Iconic Companies",
     "last_proof_snippet": "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
@@ -1401,7 +1528,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -1460,7 +1587,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -1644,7 +1771,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -1828,7 +1955,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
     "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
@@ -1889,7 +2016,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -3007,7 +3134,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -3576,7 +3703,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -3705,7 +3832,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -3771,7 +3898,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -4046,7 +4173,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -4110,7 +4237,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -4365,7 +4492,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -4429,7 +4556,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -4612,7 +4739,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -4676,7 +4803,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -8121,7 +8248,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",

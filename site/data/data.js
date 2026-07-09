@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-09T08:09:42.754646",
-  chartsVersion: "2026-07-09T06:38:12.074439",
+  generatedAt: "2026-07-09T12:06:45.361769",
+  chartsVersion: "2026-07-09T12:06:37.107513",
   priceSnapshot: {
   "GOOGL": {
-    "price": 361.92,
-    "change_pct": -0.51,
+    "price": 355.55,
+    "change_pct": -3.39,
     "name": "GOOGL",
-    "updated_at": "2026-07-09T06:38:12.073116"
+    "updated_at": "2026-07-09T12:06:37.106932"
   },
   "BTC": {
-    "price": 62571.94,
-    "change_pct": 4.26,
+    "price": 62655.12,
+    "change_pct": 4.4,
     "name": "BTC",
-    "updated_at": "2026-07-09T06:38:12.073139"
+    "updated_at": "2026-07-09T12:06:37.106942"
   },
   "MSFT": {
-    "price": 383.34,
-    "change_pct": 1.17,
+    "price": 379.71,
+    "change_pct": 0.08,
     "name": "MSFT",
-    "updated_at": "2026-07-09T06:38:12.073151"
+    "updated_at": "2026-07-09T12:06:37.106946"
   },
   "NVDA": {
-    "price": 204.12,
-    "change_pct": -0.26,
+    "price": 202.58,
+    "change_pct": -3.85,
     "name": "NVDA",
-    "updated_at": "2026-07-09T06:38:12.073162"
+    "updated_at": "2026-07-09T12:06:37.106950"
   },
   "AMZN": {
-    "price": 243.62,
-    "change_pct": 2.58,
+    "price": 243.05,
+    "change_pct": -0.55,
     "name": "AMZN",
-    "updated_at": "2026-07-09T06:38:12.073172"
+    "updated_at": "2026-07-09T12:06:37.106953"
   },
   "TSLA": {
-    "price": 394.06,
-    "change_pct": -0.59,
+    "price": 403.5,
+    "change_pct": 0.75,
     "name": "TSLA",
-    "updated_at": "2026-07-09T06:38:12.073183"
+    "updated_at": "2026-07-09T12:06:37.106957"
   },
   "WTI": {
-    "price": 3.59,
-    "change_pct": 8.46,
+    "price": 3.39,
+    "change_pct": 5.61,
     "name": "WTI",
-    "updated_at": "2026-07-09T06:38:12.073193"
+    "updated_at": "2026-07-09T12:06:37.106960"
   },
   "META": {
-    "price": 603.12,
-    "change_pct": 6.26,
+    "price": 612.72,
+    "change_pct": 6.15,
     "name": "META",
-    "updated_at": "2026-07-09T06:38:12.073202"
+    "updated_at": "2026-07-09T12:06:37.106963"
   },
   "S&P 500": {
-    "price": 745.4,
-    "change_pct": 0.86,
+    "price": 750.91,
+    "change_pct": 0.56,
     "name": "S&P 500",
-    "updated_at": "2026-07-09T06:38:12.073216"
+    "updated_at": "2026-07-09T12:06:37.106966"
   },
   "AAPL": {
-    "price": 313.39,
-    "change_pct": 5.89,
+    "price": 314.93,
+    "change_pct": 5.68,
     "name": "AAPL",
-    "updated_at": "2026-07-09T06:38:12.073226"
+    "updated_at": "2026-07-09T12:06:37.106970"
   },
   "QQQ": {
-    "price": 711.44,
-    "change_pct": -1.42,
+    "price": 722.74,
+    "change_pct": -2.31,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-09T06:38:12.073236"
+    "updated_at": "2026-07-09T12:06:37.106972"
   },
   "BTC-USD": {
-    "price": 62571.94,
-    "change_pct": 4.26,
+    "price": 62655.12,
+    "change_pct": 4.4,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-09T06:38:12.073247"
+    "updated_at": "2026-07-09T12:06:37.106976"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 353,
+      "title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-09",
+      "summary": "In this episode, Mark Zuckerberg and Dr. Priscilla Chan discuss the Chan Zuckerberg Initiative's mission to accelerate scientific discovery by investing in tools for biology rather than individual therapies. They explore the potential of AI in reshaping scientific research, focusing on infrastructure, data sets, and AI systems to combat disease. The conversation delves into topics like cell atlases, virtual cell models, and biohubs, suggesting that advancements in medicine may rely as much on improved tools as on better treatments.",
+      "key_takeaway": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 338
+    },
+    {
       "id": 351,
       "title": "Adam Neumann: This Is How You Build Iconic Companies",
       "source_type": "podcast",
@@ -1007,7 +1026,7 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-03",
       "archived_date": null,
@@ -9478,6 +9497,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 353,
+      "title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-09",
+      "summary": "In this episode, Mark Zuckerberg and Dr. Priscilla Chan discuss the Chan Zuckerberg Initiative's mission to accelerate scientific discovery by investing in tools for biology rather than individual therapies. They explore the potential of AI in reshaping scientific research, focusing on infrastructure, data sets, and AI systems to combat disease. The conversation delves into topics like cell atlases, virtual cell models, and biohubs, suggesting that advancements in medicine may rely as much on improved tools as on better treatments.",
+      "key_takeaway": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 338,
+      "episode_release_date": "2026-07-09",
+      "guest_name": "Mark Zuckerberg & Priscilla Chan",
+      "key_tickers": []
+    },
+    {
       "id": 351,
       "title": "Adam Neumann: This Is How You Build Iconic Companies",
       "source_type": "podcast",
@@ -9620,26 +9659,6 @@ const dashboardData = {
       "podcast_episode_id": 331,
       "episode_release_date": "2026-07-04",
       "guest_name": "Josh Pristow",
-      "key_tickers": []
-    },
-    {
-      "id": 345,
-      "title": "AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-07-03",
-      "summary": "In this episode, the hosts discuss Palantir's partnership with Nvidia to create a custom AI model for U.S. government agencies, highlighting the importance of data sovereignty in AI. They debate the risks of sharing proprietary data with AI model providers and the potential for job growth linked to AI investment. Additionally, they analyze California's fiscal challenges and the importance of cultural assimilation for immigrants. The conversation suggests a shift towards decentralized AI solutions and emphasizes the need for enterprises to maintain control over their data.",
-      "key_takeaway": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
-      "tickers_mentioned": "[\"PLTR\", \"NVDA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-03",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 330,
-      "episode_release_date": "2026-07-03",
-      "guest_name": null,
       "key_tickers": []
     }
   ],
@@ -30992,9 +31011,93 @@ const dashboardData = {
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-07-08",
     "key_tickers": []
+  },
+  "353": {
+    "id": 343,
+    "insight_id": 353,
+    "podcast_episode_id": 338,
+    "overview": "The unresolved tension in the source material is the balance between the ambitious goal of curing all diseases by the end of the century and the practical challenges of developing the necessary scientific tools. The competitive dynamic is between the current state of scientific tooling and the potential advancements that CZI aims to catalyze. What converts belief in CZI's mission is the successful development and adoption of these tools, which would accelerate scientific discovery and potentially revolutionize disease management.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the progress and outcomes of CZI-funded projects as indicators of the initiative's impact on scientific discovery and potential investment opportunities in related fields.",
+      "The success of CZI's approach could lead to a paradigm shift in how scientific research is funded and conducted, emphasizing the importance of infrastructure and data over individual therapies.",
+      "The long-term nature of CZI's investments suggests that allocators should consider a similarly long-term perspective when evaluating opportunities in biotechnology and AI applications in science."
+    ],
+    "investment_thesis": "The core logic is that by investing in foundational tools for biology and leveraging AI, CZI can create a multiplier effect on scientific discovery, leading to advancements in medicine. This thesis is vindicated if, over the next decade, there is a measurable increase in the pace of scientific breakthroughs attributed to CZI-funded tools, and invalidated if such tools fail to materialize or if their impact is negligible.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in health technology and AI research makes it relevant to the thesis, as advancements in these areas could be accelerated by the tools developed by CZI.",
+        "positioning": "Positioning should be strategic and long-term, as the impact of CZI's work may not be felt immediately but could have significant implications for Apple's health initiatives over time.",
+        "risk": "Key risks include the slow adoption of new scientific tools by the broader research community and potential regulatory hurdles that could impede the integration of AI in healthcare."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The high cost and long development times for new scientific tools could lead to slower progress than anticipated.",
+      "There is a risk that the scientific community may not fully embrace or effectively utilize the tools developed by CZI, limiting their impact.",
+      "The potential for other philanthropic initiatives or government funding to overshadow CZI's efforts could diminish the initiative's influence on scientific discovery."
+    ],
+    "catalysts": [
+      "Publications or announcements of significant scientific breakthroughs attributed to CZI-funded tools.",
+      "Milestones in the development of infrastructure, data sets, and AI systems that CZI is investing in.",
+      "Partnerships formed between CZI and other scientific or technological organizations that could accelerate tool development and adoption.",
+      "Regulatory approvals or policy changes that facilitate the integration of AI and new tools in scientific research."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-09T12:05:44.939106",
+    "updated_at": "2026-07-09 17:05:44",
+    "episode_evidence": "Mark Zuckerberg and Dr. Priscilla Chan's discussion highlights the Chan Zuckerberg Initiative's (CZI) focus on infrastructure, data sets, and AI systems to accelerate scientific discovery. They emphasize the lack of a 'periodic table of elements equivalent for biology,' indicating a significant gap in foundational tools for the field. Zuckerberg states, 'if you look at the history of science, most major breakthroughs are basically preceded by the invention of a new tool to observe phenomenon in a new way.' This underscores their belief that new tools, not just individual therapies, are crucial for progress. They also mention the substantial investment required for these tools, suggesting a long-term commitment: 'on the order of maybe $100 million to a billion dollars over 10 to 15 year period.' The conversation reveals a strategic approach to philanthropy, aiming to 'accelerate the pace of the whole field' by providing tools that can be used by the scientific community at large.",
+    "falsification_tracks": [
+      "Should the CZI fail to deliver on their to invest in long-term tool development, evidenced by a lack of significant financial commitments or completed projects over the next few years, the conviction in their ability to accelerate scientific discovery would be reduced.",
+      "If there is a consistent pattern of AI and biology tools developed by CZI not being adopted or utilized effectively by the scientific community, it would suggest that the initiative is not meeting its goals.",
+      "A lack of peer-reviewed publications or significant scientific advancements attributing their success to tools developed by CZI would indicate that their approach is not yielding the expected results."
+    ],
+    "insight_title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
+    "source_name": "The a16z Show",
+    "source_date": "2026-07-09",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 502,
+    "term": "Virtual Cell Models",
+    "definition": "Highly detailed computational models of cells that can simulate biological processes to test scientific hypotheses and drug effects.",
+    "investment_implications": "Virtual cell models can reduce the cost and time of biological research, allowing for more rapid iteration and risk-taking in drug discovery.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-09 17:04:39",
+    "priority_score": 80
+  },
+  {
+    "id": 503,
+    "term": "Biohubs",
+    "definition": "Physical locations that bring together scientists, engineers, and clinicians to work on large-scale scientific projects, often focused on generating novel data sets and tools.",
+    "investment_implications": "Biohubs can accelerate scientific discovery by fostering collaboration and the development of new tools and data sets.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-09 17:04:39",
+    "priority_score": 80
+  },
+  {
+    "id": 504,
+    "term": "Cell Atlas",
+    "definition": "A comprehensive collection of cellular data that aims to map and characterize all cells in a biological system, providing a foundational resource for research.",
+    "investment_implications": "A cell atlas can serve as a valuable reference for understanding cellular functions and interactions, aiding in the development of new therapies.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-09 17:04:39",
+    "priority_score": 80
+  },
   {
     "id": 499,
     "term": "Elastic Inference",
@@ -31006,47 +31109,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-09 04:39:20",
     "priority_score": 80
-  },
-  {
-    "id": 500,
-    "term": "Speculative Decoding",
-    "definition": "A technique in AI where a smaller model predicts tokens ahead of a larger model to speed up inference, potentially increasing the efficiency of AI applications.",
-    "investment_implications": "The adoption of speculative decoding could lead to faster and more efficient AI models, impacting the competitive landscape of AI technology providers.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-09 04:39:20",
-    "priority_score": 80
-  },
-  {
-    "id": 501,
-    "term": "D Flash Technology",
-    "definition": "A technology developed by Model that enhances inference speed and efficiency, allowing for faster token prediction and verification in AI applications.",
-    "investment_implications": "D Flash technology could be a significant differentiator for Model, potentially leading to performance advantages in the AI cloud platform market.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-09 04:39:20",
-    "priority_score": 80
-  },
-  {
-    "id": 494,
-    "term": "Community-Centric Living",
-    "definition": "An approach to residential real estate that emphasizes the importance of community engagement and interaction among residents to enhance living experiences.",
-    "investment_implications": "Investors should prioritize companies that foster community engagement as a key component of their business model.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-08 17:03:15",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 28318,
+    "id": 28410,
+    "name": "Mark Zuckerberg & Priscilla Chan",
+    "slug": "mark-zuckerberg--priscilla-chan",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
+    "last_episode_title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-09",
+    "appearance_count": 1
+  },
+  {
+    "id": 28411,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -31058,7 +31137,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28319,
+    "id": 28412,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -31070,7 +31149,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28320,
+    "id": 28413,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -31082,7 +31161,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28321,
+    "id": 28414,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -31094,7 +31173,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28322,
+    "id": 28415,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -31106,7 +31185,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28323,
+    "id": 28416,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -31118,7 +31197,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28324,
+    "id": 28417,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -31130,7 +31209,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28325,
+    "id": 28418,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -31142,7 +31221,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28326,
+    "id": 28419,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -31154,7 +31233,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28327,
+    "id": 28420,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -31166,7 +31245,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28328,
+    "id": 28421,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -31178,7 +31257,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28329,
+    "id": 28422,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -31190,7 +31269,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28330,
+    "id": 28423,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -31202,7 +31281,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28331,
+    "id": 28424,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -31214,7 +31293,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28332,
+    "id": 28425,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -31226,7 +31305,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28333,
+    "id": 28426,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -31238,7 +31317,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 28334,
+    "id": 28427,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -31250,7 +31329,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28335,
+    "id": 28428,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -31262,7 +31341,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28336,
+    "id": 28429,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -31271,18 +31350,6 @@ const dashboardData = {
     "last_episode_title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-12",
-    "appearance_count": 1
-  },
-  {
-    "id": 28337,
-    "name": "Dan Dreyfus",
-    "slug": "dan-dreyfus",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in critical minerals and infrastructure modernization presents a strategic opportunity to capitalize on supply-demand imbalances and government support, while also hedging against inflation.",
-    "last_episode_title": "Dan Dreyfus: America's Critical Minerals Crisis is Here",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-06-10",
     "appearance_count": 1
   }
 ],
@@ -32117,66 +32184,6 @@ const dashboardData = {
     "net_worth": "$25.0M"
   },
   {
-    "id": 183,
-    "name": "Aaron Levy",
-    "slug": "aaron-levy",
-    "bio": "CEO of Box",
-    "known_for": "Leading the cloud content management company",
-    "net_worth_usd": 107852195.0,
-    "net_worth_source": "https://strike.market/key-executives/0001606525",
-    "net_worth_updated_at": "2026-04-16T22:06:31.028180",
-    "voice_tone": "Practical and solution-oriented",
-    "voice_style": "Shares insights from customer interactions and industry trends",
-    "voice_delivery_notes": "Speaks with conviction, emphasizing real-world applications",
-    "voice_profile_updated_at": "2026-04-25 10:05:40",
-    "last_seen": "2026-04-25 10:05:40",
-    "last_episode_title": "AI Inside the Enterprise",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-24",
-    "mention_score": 2,
-    "mention_score_decayed": 0.35,
-    "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
-    "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
-    "supporting_takeaway": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-16T22:06:30.002480",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Aaron Levy",
-      "fetched_at": "2026-04-17T03:06:30.002193+00:00",
-      "cliff_notes": "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential. His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community.",
-      "derived": {
-        "current_role": "CEO at Box"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential.",
-        "His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community."
-      ],
-      "sections": [
-        {
-          "heading": "Cloud Content Management",
-          "body": "Aaron Levy has been at the forefront of cloud content management, leading Box to become a major player in the industry."
-        },
-        {
-          "heading": "AI and Technology Integration",
-          "body": "Levy has shared his views on the diffusion of AI capabilities, suggesting that the integration of AI into business processes will take longer than anticipated and will require significant domain knowledge."
-        },
-        {
-          "heading": "Economic Implications of Technology",
-          "body": "Levy has discussed the economic challenges posed by new technologies, emphasizing the need for accurate estimation of the scale of opportunities and the importance of building software for agents in a world where they outnumber humans."
-        }
-      ]
-    },
-    "net_worth": "$107.9M"
-  },
-  {
     "id": 78,
     "name": "Martin Casado",
     "slug": "martin-casado",
@@ -32241,6 +32248,66 @@ const dashboardData = {
       ]
     },
     "net_worth": "$600.0M"
+  },
+  {
+    "id": 183,
+    "name": "Aaron Levy",
+    "slug": "aaron-levy",
+    "bio": "CEO of Box",
+    "known_for": "Leading the cloud content management company",
+    "net_worth_usd": 107852195.0,
+    "net_worth_source": "https://strike.market/key-executives/0001606525",
+    "net_worth_updated_at": "2026-04-16T22:06:31.028180",
+    "voice_tone": "Practical and solution-oriented",
+    "voice_style": "Shares insights from customer interactions and industry trends",
+    "voice_delivery_notes": "Speaks with conviction, emphasizing real-world applications",
+    "voice_profile_updated_at": "2026-04-25 10:05:40",
+    "last_seen": "2026-04-25 10:05:40",
+    "last_episode_title": "AI Inside the Enterprise",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-24",
+    "mention_score": 2,
+    "mention_score_decayed": 0.35,
+    "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
+    "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
+    "supporting_takeaway": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-16T22:06:30.002480",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Aaron Levy",
+      "fetched_at": "2026-04-17T03:06:30.002193+00:00",
+      "cliff_notes": "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential. His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community.",
+      "derived": {
+        "current_role": "CEO at Box"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential.",
+        "His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community."
+      ],
+      "sections": [
+        {
+          "heading": "Cloud Content Management",
+          "body": "Aaron Levy has been at the forefront of cloud content management, leading Box to become a major player in the industry."
+        },
+        {
+          "heading": "AI and Technology Integration",
+          "body": "Levy has shared his views on the diffusion of AI capabilities, suggesting that the integration of AI into business processes will take longer than anticipated and will require significant domain knowledge."
+        },
+        {
+          "heading": "Economic Implications of Technology",
+          "body": "Levy has discussed the economic challenges posed by new technologies, emphasizing the need for accurate estimation of the scale of opportunities and the importance of building software for agents in a world where they outnumber humans."
+        }
+      ]
+    },
+    "net_worth": "$107.9M"
   },
   {
     "id": 74,
@@ -32607,6 +32674,133 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 326,
+    "name": "Mark Zuckerberg",
+    "slug": "mark-zuckerberg",
+    "bio": "Mark Zuckerberg is the co-founder and CEO of Facebook, a social media platform he launched from his Harvard dorm room in 2004. He is also known for his philanthropic efforts through the Chan Zuckerberg Initiative, which focuses on areas such as science, education, and justice & opportunity.",
+    "known_for": "His leadership in shaping the social media landscape and his significant philanthropic work.",
+    "net_worth_usd": 69800000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q36215",
+    "net_worth_updated_at": "2026-07-09T12:05:09.537340",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-07-09 17:04:39",
+    "last_episode_title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-09",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
+    "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
+    "supporting_takeaway": "Investment in infrastructure, data sets, and AI systems is crucial for faster progress against disease.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-09T12:05:09.006253",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Mark Zuckerberg",
+      "fetched_at": "2026-07-09T17:05:09.005885+00:00",
+      "cliff_notes": "Mark Zuckerberg is an American technology entrepreneur and philanthropist. He is best known for co-founding and leading Facebook, the world's largest social media platform. Zuckerberg began coding at a young age and developed a passion for programming. He launched Facebook from his Harvard dorm room in 2004, and the platform quickly gained popularity among college students. Over the years, Facebook has expanded to become a global phenomenon with billions of users. In addition to his work at Facebook, Zuckerberg and his wife Priscilla Chan established the Chan Zuckerberg Initiative in 2015. The philanthropic organization focuses on areas such as science, education, and justice & opportunity. Zuckerberg's influence in the tech industry and his philanthropic efforts have made him a prominent figure in both the business and social sectors.",
+      "derived": {
+        "current_role": "CEO of Facebook",
+        "education": "Harvard University (dropped out)"
+      },
+      "infobox": {
+        "Born": "May 14, 1984",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Mark Zuckerberg is an American technology entrepreneur and philanthropist. He is best known for co-founding and leading Facebook, the world's largest social media platform. Zuckerberg began coding at a young age and developed a passion for programming. He launched Facebook from his Harvard dorm room in 2004, and the platform quickly gained popularity among college students.",
+        "Over the years, Facebook has expanded to become a global phenomenon with billions of users. In addition to his work at Facebook, Zuckerberg and his wife Priscilla Chan established the Chan Zuckerberg Initiative in 2015. The philanthropic organization focuses on areas such as science, education, and justice & opportunity.",
+        "Zuckerberg's influence in the tech industry and his philanthropic efforts have made him a prominent figure in both the business and social sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Facebook Founding",
+          "body": "Mark Zuckerberg co-founded Facebook in 2004 while studying at Harvard University. The platform quickly gained popularity among college students and expanded to become the world's largest social media network."
+        },
+        {
+          "heading": "Leadership",
+          "body": "As CEO of Facebook, Zuckerberg has overseen the company's growth and expansion into various areas, including messaging, virtual reality, and e-commerce. He has also faced scrutiny over privacy and data security issues."
+        },
+        {
+          "heading": "Philanthropy",
+          "body": "Zuckerberg and his wife Priscilla Chan established the Chan Zuckerberg Initiative in 2015. The organization focuses on areas such as science, education, and justice & opportunity, with a goal to cure, prevent, or manage all diseases by the end of the century."
+        },
+        {
+          "heading": "AI and Science",
+          "body": "Zuckerberg has expressed interest in the potential of AI to advance scientific research. He has called for more effort in building tools to bridge the gap between AI and biology, emphasizing the importance of such tools in achieving the Chan Zuckerberg Initiative's goals."
+        }
+      ]
+    },
+    "net_worth": "$69.80B"
+  },
+  {
+    "id": 327,
+    "name": "Priscilla Chan",
+    "slug": "priscilla-chan",
+    "bio": "Priscilla Chan is a pediatrician and co-founder of the Chan Zuckerberg Initiative alongside her husband, Mark Zuckerberg. She is dedicated to advancing basic science research and improving healthcare, with a focus on curing and preventing all diseases by the end of the century.",
+    "known_for": "Her work in healthcare and the Chan Zuckerberg Initiative, which aims to leverage AI and technology to cure and prevent diseases.",
+    "net_worth_usd": 50000000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/business-executives/priscilla-chan-net-worth/",
+    "net_worth_updated_at": "2026-07-09T12:05:20.026452",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-07-09 17:04:39",
+    "last_episode_title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-09",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
+    "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
+    "supporting_takeaway": "Investment in infrastructure, data sets, and AI systems is crucial for faster progress against disease.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-09T12:05:18.896994",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Priscilla Chan",
+      "fetched_at": "2026-07-09T17:05:18.896847+00:00",
+      "cliff_notes": "Priscilla Chan, a pediatrician by profession, is best known for her philanthropic work as the co-founder of the Chan Zuckerberg Initiative with her husband, Facebook's Mark Zuckerberg. Established in 2015, the initiative focuses on advancing human potential and promoting equality through investments in science, education, and technology. Chan's vision for the initiative includes leveraging AI and technology to cure and prevent all diseases by the end of the century. Her dedication to healthcare and science has made her a significant figure in the intersection of technology and healthcare.",
+      "derived": {
+        "current_role": "Co-founder, Chan Zuckerberg Initiative",
+        "education": "Bachelor's degree in Biology, Harvard University; Medical degree, University of California, San Francisco"
+      },
+      "infobox": {
+        "Born": "1985",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Priscilla Chan, a pediatrician by profession, is best known for her philanthropic work as the co-founder of the Chan Zuckerberg Initiative with her husband, Facebook's Mark Zuckerberg. Established in 2015, the initiative focuses on advancing human potential and promoting equality through investments in science, education, and technology.",
+        "Chan's vision for the initiative includes leveraging AI and technology to cure and prevent all diseases by the end of the century. Her dedication to healthcare and science has made her a significant figure in the intersection of technology and healthcare."
+      ],
+      "sections": [
+        {
+          "heading": "Healthcare Philanthropy",
+          "body": "Priscilla Chan, along with her husband, has pledged significant resources towards healthcare initiatives, aiming to cure and prevent diseases through the Chan Zuckerberg Initiative."
+        },
+        {
+          "heading": "Science Research",
+          "body": "Chan is focused on advancing basic science research, emphasizing the need for tools that can help create a comprehensive understanding of biology, similar to the periodic table of elements."
+        },
+        {
+          "heading": "AI and Technology",
+          "body": "The Chan Zuckerberg Initiative is investing in AI to accelerate scientific research, with Chan noting the potential for AI to play a significant role in the future of biology and disease prevention."
+        }
+      ]
+    },
+    "net_worth": "$50.00B"
+  },
+  {
     "id": 324,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
@@ -32624,7 +32818,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-08",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-08 \u2022 Adam Neumann: This Is How You Build Iconic Companies",
     "last_proof_snippet": "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
@@ -32689,7 +32883,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -32748,7 +32942,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -32932,7 +33126,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -33116,7 +33310,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
     "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
@@ -33177,7 +33371,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -34295,7 +34489,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -34864,7 +35058,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -34993,7 +35187,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -35059,7 +35253,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -35334,7 +35528,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -35398,7 +35592,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -35653,7 +35847,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -35717,7 +35911,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -35900,7 +36094,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -35964,7 +36158,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -39409,7 +39603,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
