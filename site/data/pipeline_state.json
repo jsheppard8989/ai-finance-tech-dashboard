@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-09T23:37:44.863745",
-  "last_updated": "2026-07-09T23:37:44.863745",
-  "last_pipeline_run": "2026-07-09T23:37:44.863745",
+  "generated_at": "2026-07-10T05:02:48.491104",
+  "last_updated": "2026-07-10T05:02:48.491104",
+  "last_pipeline_run": "2026-07-10T05:02:48.491104",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -15,15 +15,15 @@
     "overton_terms_total": 107,
     "latest_insights_total": 326,
     "today_mentions": {},
-    "podcasts_analyzed": 2
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 2
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
     {
@@ -82,24 +82,6 @@
         }
       },
       "status": "needs_analysis"
-    },
-    {
-      "id": "e7e64c8a-492a-4227-a6cb-5ff7894f3f3a",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
-      "published": "2026-07-10",
-      "rss_guid": "e7e64c8a-492a-4227-a6cb-5ff7894f3f3a",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
     }
   ],
   "available_from_rss": [
@@ -111,7 +93,17 @@
       "rss_guid": ""
     }
   ],
-  "stale_episodes": [],
+  "stale_episodes": [
+    {
+      "id": "e2b4dfa8-7afe-11f1-9513-ffafb716b27a",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
+      "status": "needs_analysis",
+      "published": "2026-07-08",
+      "age_days": 2,
+      "next_blocker": "analyzed"
+    }
+  ],
   "stale_threshold_days": 2,
   "rss_filter_criteria": {
     "cutoff_date": "2026-02-01",

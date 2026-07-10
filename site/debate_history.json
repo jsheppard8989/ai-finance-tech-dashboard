@@ -1,6 +1,19 @@
 {
-  "rotation_index": 19,
+  "rotation_index": 20,
   "weeks": [
+    {
+      "friday_iso": "2026-07-03",
+      "week_label": "Week of 2026-07-03",
+      "prompt": "Will the price of Bitcoin exceed $90,000 within the next 42 days?",
+      "debater_a": "Ed Zitron",
+      "debater_b": "Jim Chanos",
+      "expires_rule": "Resolves Friday 12:00 PM CST 2026-08-14",
+      "resolves_iso": "2026-08-14",
+      "resolution_status": "pending",
+      "resolution_notes": "",
+      "archived_at": "2026-07-10T05:03:29.729089",
+      "audio_href": "./audio/archive/debate_2026-07-03.mp3"
+    },
     {
       "friday_iso": "2026-06-26",
       "week_label": "Week of 2026-06-26",

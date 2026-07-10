@@ -1,118 +1,118 @@
 {
-  "prompt": "Will the price of Bitcoin exceed $90,000 within the next 42 days?",
-  "editorial_note": "We have chosen to focus on the cryptocurrency market this week due to the significant volume and attention on Bitcoin in recent Polymarket markets. Given the current market dynamics and investor interest, we believe this topic will generate a lively debate about the future trajectory of Bitcoin.",
-  "expires_rule": "Resolves Friday 12:00 PM CST 2026-08-14",
-  "crux_theme": "Bitcoin price threshold",
+  "prompt": "Will any presidential candidate win outright in the first round of the Brazil election within the next 42 days?",
+  "editorial_note": "We've chosen this topic based on the high trading volume and relevance in the Polymarket contracts, with Brazil's presidential election scheduled on October 4, 2026. The upcoming elections are a focal point in global politics, and determining if any candidate will secure a majority in the first round is of significant interest to investors and political analysts alike.",
+  "expires_rule": "Resolves Friday 12:00 PM CST 2026-08-21",
+  "crux_theme": "Election outcomes",
   "resolution_clarity": {
-    "source_of_truth": "Bitcoin price data",
+    "source_of_truth": "Official election results announced by Brazil's Superior Electoral Tribunal",
     "resolution_sources": [
-      "Coinbase",
-      "CoinMarketCap",
-      "Blockfolio"
+      "https://www.tse.jus.br/tomavoz/",
+      "https://agenciabrasil.ebc.in/",
+      "https://www1.folha.uol.com.br/"
     ],
     "resolution_criteria": [
-      "Check the highest price of Bitcoin in USD noted on each of the resolution sources during the resolution period."
+      "A candidate wins outright in the first round if they secure more than 50% of the valid votes according to the official results."
     ]
   },
   "sides": {
     "a": "Affirmative (YES)",
     "b": "Negative (NO)"
   },
-  "resolves_iso": "2026-08-14",
-  "friday_iso": "2026-07-03",
-  "week_label": "Week of 2026-07-03",
-  "debater_a": "Ed Zitron",
-  "debater_b": "Jim Chanos",
-  "generated_at": "2026-07-03T05:03:53.365185",
+  "resolves_iso": "2026-08-21",
+  "friday_iso": "2026-07-10",
+  "week_label": "Week of 2026-07-10",
+  "debater_a": "Paul Beckas",
+  "debater_b": "John Mata",
+  "generated_at": "2026-07-10T05:03:29.729149",
   "bet_status": "open",
   "audio_href": "./audio/emp_ai_the_debate_11labs.mp3",
   "debater_a_snapshot": {
-    "name": "Ed Zitron",
-    "known_for": "His critical perspective on the financial sustainability of AI companies and contrarian views on tech industry trends.",
-    "bio": "Ed Zitron is a technology analyst and commentator recognized for his contrarian views on the tech industry, particularly concerning the financial sustainability of AI companies. He is the author of the Where's Your Ed at Newsletter and the host of the Better Offline Podcast.",
-    "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-06-21",
+    "name": "Paul Beckas",
+    "known_for": "His expertise in using AI to enhance design processes and his insights on the role of AI in the future of design.",
+    "bio": "Paul Beckas is a design leader with expertise in leveraging AI tools in the design process. He is known for his insights on the intersection of design and AI, focusing on how AI can enhance creativity and distinctiveness in design.",
+    "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-24",
+    "net_worth": "$10.0M",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Ed Zitron",
-      "fetched_at": "2026-06-22T04:36:40.371808+00:00",
-      "cliff_notes": "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI. He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype.",
+      "page_title": "Paul Beckas",
+      "fetched_at": "2026-06-24T17:06:58.205875+00:00",
+      "cliff_notes": "Paul Beckas is a design leader with a focus on the integration of artificial intelligence into the design process. His career has been marked by a deep exploration of how AI can augment creativity and distinctiveness in design. Beckas has been influential in discussing the implications of AI on design, particularly in how it can redefine the role of designers and the nature of design itself. His work is significant in the tech and design sectors, as it addresses the challenges and opportunities presented by AI in creative fields.",
       "derived": {
-        "current_role": "Author of Where's Your Ed at Newsletter; Host of Better Offline Podcast"
+        "current_role": "Design Leader"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Ed Zitron is a technology analyst and commentator who has carved a niche for himself by offering a contrarian perspective on the tech industry, especially regarding the financial viability of artificial intelligence companies. Through his newsletter, 'Where's Your Ed at,' and his podcast, 'Better Offline,' Zitron critically examines the tech landscape, questioning the return on investment for the enormous sums being spent on AI.",
-        "He points out that despite the trillions of dollars invested, the industry is still debating the ROI, with many AI companies barely making over $100 million a year in revenue and being largely unprofitable. Zitron's work is significant as it challenges the prevailing narratives around AI and tech industry growth, prompting a reevaluation of the economic realities behind the hype."
+        "Paul Beckas is a design leader with a focus on the integration of artificial intelligence into the design process. His career has been marked by a deep exploration of how AI can augment creativity and distinctiveness in design. Beckas has been influential in discussing the implications of AI on design, particularly in how it can redefine the role of designers and the nature of design itself.",
+        "His work is significant in the tech and design sectors, as it addresses the challenges and opportunities presented by AI in creative fields."
       ],
       "sections": [
         {
-          "heading": "AI and ROI",
-          "body": "Ed Zitron is known for questioning the return on investment for the vast sums invested in AI, highlighting the ongoing debate about the economic viability of the technology."
+          "heading": "AI in Design",
+          "body": "Paul Beckas is recognized for his work on how AI can be used to enhance the design process, making it more efficient and innovative."
         },
         {
-          "heading": "Contrarian Views",
-          "body": "Zitron offers a contrarian perspective on tech industry trends, challenging the mainstream narratives and advocating for a more critical examination of the financial sustainability of tech companies."
+          "heading": "Distinctiveness in Design",
+          "body": "Beckas has explored the historical roots of design and how the advent of AI is changing the concept of distinctiveness and taste in design."
         },
         {
-          "heading": "Podcast and Newsletter",
-          "body": "As the host of the Better Offline Podcast and author of the Where's Your Ed at Newsletter, Zitron uses these platforms to discuss and critique the tech industry, reaching a wide audience with his insights."
+          "heading": "AI and Creativity",
+          "body": "He discusses the role of AI in creativity, suggesting that while AI can generate designs, the understanding of design decisions remains a human domain."
+        },
+        {
+          "heading": "Future of Design",
+          "body": "Beckas posits that as AI becomes more prevalent, the value of instinctual design decisions will become even more critical in the face of AI-generated designs."
         }
       ]
     }
   },
   "debater_b_snapshot": {
-    "name": "Jim Chanos",
-    "known_for": "Identifying and betting against unsustainable business models and market bubbles, including Enron, Chinese real estate stocks, and Wirecard.",
-    "bio": "Jim Chanos is a renowned short-seller and the founder of Kynikos Associates, a global investment firm. He is known for identifying and betting against unsustainable business models and market bubbles, which has led to significant financial gains and reputation in the investment community.",
-    "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-06-20",
-    "net_worth": "$200.0M",
+    "name": "John Mata",
+    "known_for": "His perspectives on the future of design and AI, and how they impact the way we create and experience interfaces.",
+    "bio": "John Mata is a design thought leader who focuses on the intersection of design and AI. He is known for his insights into agentic experiences and the evolution of design in the digital age.",
+    "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-24",
+    "net_worth": "$60.0M",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Jim Chanos",
-      "fetched_at": "2026-06-21T04:36:23.979760+00:00",
-      "cliff_notes": "Jim Chanos is a prominent short-seller and the founder of Kynikos Associates, a global investment firm specializing in short-selling. He began his career at the investment banking firm Donaldson, Lufkin & Jenrette before moving to the arbitrage department at Gilford Securities. Chanos gained notoriety for his early prediction and subsequent short position on Enron, which led to substantial returns when the company's fraudulent activities were exposed. His firm, Kynikos Associates, has since been involved in short-selling various companies and market sectors, including Chinese real estate stocks and Wirecard, often focusing on identifying unsustainable business practices and market bubbles. Chanos' expertise in spotting financial fraud and market inefficiencies has made him a respected figure in the investment community.",
+      "page_title": "John Mata",
+      "fetched_at": "2026-06-24T17:07:06.672699+00:00",
+      "cliff_notes": "John Mata has established himself as a prominent voice in the field of design, with a particular emphasis on how artificial intelligence is reshaping the discipline. His work explores the implications of AI on design practices and the creation of user interfaces, websites, and applications. Mata's contributions to the discourse around design and AI have been influential, as he examines how the democratization of design tools through AI might affect the value and role of professional designers. His insights into the historical roots of design and its transformation in the era of abundant resources provide a unique perspective on the industry's future.",
       "derived": {
-        "current_role": "Founder and President of Kynikos Associates",
-        "education": "BBA in Accounting and Finance from Yale University"
+        "current_role": "Design Thought Leader"
       },
       "infobox": {
         "Born": "",
-        "Nationality": "American"
+        "Nationality": ""
       },
       "lead_paragraphs": [
-        "Jim Chanos is a prominent short-seller and the founder of Kynikos Associates, a global investment firm specializing in short-selling. He began his career at the investment banking firm Donaldson, Lufkin & Jenrette before moving to the arbitrage department at Gilford Securities. Chanos gained notoriety for his early prediction and subsequent short position on Enron, which led to substantial returns when the company's fraudulent activities were exposed.",
-        "His firm, Kynikos Associates, has since been involved in short-selling various companies and market sectors, including Chinese real estate stocks and Wirecard, often focusing on identifying unsustainable business practices and market bubbles. Chanos' expertise in spotting financial fraud and market inefficiencies has made him a respected figure in the investment community."
+        "John Mata has established himself as a prominent voice in the field of design, with a particular emphasis on how artificial intelligence is reshaping the discipline. His work explores the implications of AI on design practices and the creation of user interfaces, websites, and applications. Mata's contributions to the discourse around design and AI have been influential, as he examines how the democratization of design tools through AI might affect the value and role of professional designers.",
+        "His insights into the historical roots of design and its transformation in the era of abundant resources provide a unique perspective on the industry's future."
       ],
       "sections": [
         {
-          "heading": "Enron Short",
-          "body": "Jim Chanos is best known for his short position on Enron, which he identified as overvalued and engaged in fraudulent activities. His prediction proved correct when Enron's scandal was exposed, leading to significant financial gains for his firm."
+          "heading": "Design and AI",
+          "body": "John Mata discusses the impact of AI on design, suggesting that as AI makes it easier to create interfaces, the role of designers may evolve to focus more on instinct and taste rather than technical execution."
         },
         {
-          "heading": "Chinese Real Estate Stocks",
-          "body": "Chanos has been vocal about the unsustainable nature of the Chinese real estate market, taking short positions in several Chinese real estate stocks and warning investors about the potential risks associated with this market segment."
+          "heading": "Agentic Experiences",
+          "body": "Mata is known for his exploration of agentic experiences, which are interactions where users feel a sense of agency and control, and how AI can enhance or complicate these experiences."
         },
         {
-          "heading": "Wirecard Scandal",
-          "body": "Jim Chanos was one of the investors who bet against Wirecard, a German payment processing company that collapsed after a multi-billion euro accounting scandal was uncovered."
-        },
-        {
-          "heading": "Macro-Mines Symposium",
-          "body": "Chanos participated in the Macro-Mines Symposium, a mission-driven conference for institutional investors that supports student education. He discussed value investment opportunities in the AI boom, both on the long and short side."
+          "heading": "Evolution of Design",
+          "body": "He provides a historical context for design, noting its origins in scarcity and distinctiveness, and speculates on how the abundance of resources and AI might change the field's direction."
         }
       ]
     }
   },
-  "prompt_hash": "253d006e0151cb94"
+  "prompt_hash": "3246fdeae917b883"
 }
