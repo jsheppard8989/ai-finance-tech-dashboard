@@ -45,6 +45,29 @@
       "podcast_episode_id": 340
     },
     {
+      "id": 356,
+      "title": "Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-07-10",
+      "summary": "In this episode of the Dwarkesh Podcast, Adam Brown, a physicist and educator, discusses the fundamental concepts of general relativity, its implications on our understanding of gravity and space-time, and how it integrates with other fundamental forces. Brown explains Einstein's theory of gravity, the motion of planets, the solar system, and the origin and fate of the universe, making these complex ideas accessible to a general audience.",
+      "key_takeaway": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 341
+    },
+    {
       "id": 353,
       "title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
       "source_type": "podcast",
@@ -156,7 +179,7 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-06",
       "archived_date": null,
@@ -7208,8 +7231,8 @@
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-03",
-      "mention_count": 34,
+      "last_mentioned_date": "2026-07-10",
+      "mention_count": 35,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -7218,8 +7241,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 330,
-      "last_mentioned_speaker": "Alex Carp"
+      "last_mentioned_episode_id": 341,
+      "last_mentioned_speaker": "Adam Brown"
     },
     {
       "id": 97,

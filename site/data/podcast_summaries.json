@@ -1,5 +1,21 @@
 [
   {
+    "id": 341,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
+    "episode_date": "2026-07-10",
+    "summary": "In this episode of the Dwarkesh Podcast, Adam Brown, a physicist and educator, discusses the fundamental concepts of general relativity, its implications on our understanding of gravity and space-time, and how it integrates with other fundamental forces. Brown explains Einstein's theory of gravity, the motion of planets, the solar system, and the origin and fate of the universe, making these complex ideas accessible to a general audience.",
+    "key_takeaways": [
+      "General relativity is a theory of gravity that completes the set of fundamental forces, alongside quantum mechanics.",
+      "Einstein's theory of general relativity was developed over a decade and describes the motion of celestial bodies and the universe's origin and fate.",
+      "Special relativity, which came before general relativity, is based on the principle that nothing can go faster than light.",
+      "General relativity corrects for gravity's role in special relativity, stating that not even gravity can exceed the speed of light.",
+      "The theory of gravity before Einstein was based on Newton's laws, which were later expanded upon by general relativity."
+    ],
+    "investment_thesis": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
+    "key_tickers": null
+  },
+  {
     "id": 340,
     "podcast_name": "The a16z Show",
     "episode_title": "How Bitcoin Rewired a Classic Computer Science Problem",
@@ -120,21 +136,5 @@
       "WORK",
       "SAP"
     ]
-  },
-  {
-    "id": 333,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Don\u2019t Follow Your Passion | Ben Horowitz\u2019s Advice for New Graduates",
-    "episode_date": "2026-07-06",
-    "summary": "In this episode, Ben Horowitz discusses the importance of independent thinking in the world of investment and innovation. He challenges the notion of 'following your passion' and instead emphasizes the value of contribution and mastery. Horowitz highlights historical improvements in global metrics such as poverty and life expectancy, suggesting that the current era presents unprecedented opportunities for innovation. He also underscores the democratization of information through the internet and uses Airbnb as a case study to illustrate the potential of original ideas that defy conventional wisdom.",
-    "key_takeaways": [
-      "Investors should seek out ideas that challenge prevailing beliefs and disrupt markets.",
-      "Focus on societal contributions over personal passion for more sustainable success.",
-      "Invest in sectors that address ongoing global challenges, such as poverty alleviation and health improvements.",
-      "Invest in platforms that facilitate knowledge sharing and innovation, particularly in emerging markets.",
-      "Look for startups that present unique solutions to existing problems, even if they initially seem impractical."
-    ],
-    "investment_thesis": "Invest in original ideas and platforms that challenge conventional wisdom and facilitate access to information and innovation, particularly those with societal contributions.",
-    "key_tickers": null
   }
 ]

@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-10T12:04:15.410375",
-  chartsVersion: "2026-07-10T12:04:04.766210",
+  generatedAt: "2026-07-10T13:37:39.502777",
+  chartsVersion: "2026-07-10T13:37:32.383116",
   priceSnapshot: {
   "GOOGL": {
-    "price": 355.01,
-    "change_pct": 1.52,
+    "price": 355.52,
+    "change_pct": 1.67,
     "name": "GOOGL",
-    "updated_at": "2026-07-10T12:04:04.764940"
+    "updated_at": "2026-07-10T13:37:32.382648"
   },
   "BTC": {
-    "price": 64072.45,
-    "change_pct": 6.89,
+    "price": 63865.0,
+    "change_pct": 6.55,
     "name": "BTC",
-    "updated_at": "2026-07-10T12:04:04.764959"
+    "updated_at": "2026-07-10T13:37:32.382658"
   },
   "MSFT": {
-    "price": 385.76,
-    "change_pct": 5.01,
+    "price": 385.22,
+    "change_pct": 4.87,
     "name": "MSFT",
-    "updated_at": "2026-07-10T12:04:04.764968"
+    "updated_at": "2026-07-10T13:37:32.382663"
   },
   "NVDA": {
-    "price": 209.57,
-    "change_pct": 0.44,
+    "price": 210.13,
+    "change_pct": 0.71,
     "name": "NVDA",
-    "updated_at": "2026-07-10T12:04:04.764976"
+    "updated_at": "2026-07-10T13:37:32.382666"
   },
   "AMZN": {
     "price": 245.74,
     "change_pct": 5.56,
     "name": "AMZN",
-    "updated_at": "2026-07-10T12:04:04.764983"
+    "updated_at": "2026-07-10T13:37:32.382670"
   },
   "TSLA": {
-    "price": 412.14,
-    "change_pct": 1.75,
+    "price": 408.04,
+    "change_pct": 0.74,
     "name": "TSLA",
-    "updated_at": "2026-07-10T12:04:04.764990"
+    "updated_at": "2026-07-10T13:37:32.382673"
   },
   "WTI": {
-    "price": 3.3,
-    "change_pct": -0.3,
+    "price": 3.34,
+    "change_pct": 0.76,
     "name": "WTI",
-    "updated_at": "2026-07-10T12:04:04.764998"
+    "updated_at": "2026-07-10T13:37:32.382677"
   },
   "META": {
-    "price": 666.7,
-    "change_pct": 18.24,
+    "price": 668.08,
+    "change_pct": 18.49,
     "name": "META",
-    "updated_at": "2026-07-10T12:04:04.765006"
+    "updated_at": "2026-07-10T13:37:32.382680"
   },
   "S&P 500": {
-    "price": 753.71,
-    "change_pct": 1.25,
+    "price": 754.48,
+    "change_pct": 1.36,
     "name": "S&P 500",
-    "updated_at": "2026-07-10T12:04:04.765013"
+    "updated_at": "2026-07-10T13:37:32.382683"
   },
   "AAPL": {
-    "price": 314.65,
-    "change_pct": 5.94,
+    "price": 314.9,
+    "change_pct": 6.02,
     "name": "AAPL",
-    "updated_at": "2026-07-10T12:04:04.765020"
+    "updated_at": "2026-07-10T13:37:32.382686"
   },
   "QQQ": {
-    "price": 724.72,
-    "change_pct": -1.79,
+    "price": 725.64,
+    "change_pct": -1.67,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-10T12:04:04.765028"
+    "updated_at": "2026-07-10T13:37:32.382689"
   },
   "BTC-USD": {
-    "price": 64063.91,
-    "change_pct": 6.88,
+    "price": 63865.0,
+    "change_pct": 6.55,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-10T12:04:04.765036"
+    "updated_at": "2026-07-10T13:37:32.382693"
   }
 },
   tickerScores: [
@@ -878,6 +878,29 @@ const dashboardData = {
       "podcast_episode_id": 340
     },
     {
+      "id": 356,
+      "title": "Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-07-10",
+      "summary": "In this episode of the Dwarkesh Podcast, Adam Brown, a physicist and educator, discusses the fundamental concepts of general relativity, its implications on our understanding of gravity and space-time, and how it integrates with other fundamental forces. Brown explains Einstein's theory of gravity, the motion of planets, the solar system, and the origin and fate of the universe, making these complex ideas accessible to a general audience.",
+      "key_takeaway": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 341
+    },
+    {
       "id": 353,
       "title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
       "source_type": "podcast",
@@ -989,7 +1012,7 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-06",
       "archived_date": null,
@@ -8041,8 +8064,8 @@ const dashboardData = {
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-03",
-      "mention_count": 34,
+      "last_mentioned_date": "2026-07-10",
+      "mention_count": 35,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -8051,8 +8074,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 330,
-      "last_mentioned_speaker": "Alex Carp"
+      "last_mentioned_episode_id": 341,
+      "last_mentioned_speaker": "Adam Brown"
     },
     {
       "id": 97,
@@ -9585,6 +9608,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 356,
+      "title": "Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-07-10",
+      "summary": "In this episode of the Dwarkesh Podcast, Adam Brown, a physicist and educator, discusses the fundamental concepts of general relativity, its implications on our understanding of gravity and space-time, and how it integrates with other fundamental forces. Brown explains Einstein's theory of gravity, the motion of planets, the solar system, and the origin and fate of the universe, making these complex ideas accessible to a general audience.",
+      "key_takeaway": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 341,
+      "episode_release_date": "2026-07-10",
+      "guest_name": "Adam Brown \u2013 Einstein's happiest thought",
+      "key_tickers": []
+    },
+    {
       "id": 353,
       "title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
       "source_type": "podcast",
@@ -9688,26 +9731,6 @@ const dashboardData = {
       "key_tickers": [
         "NIKKEI"
       ]
-    },
-    {
-      "id": 348,
-      "title": "Don\u2019t Follow Your Passion | Ben Horowitz\u2019s Advice for New Graduates",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-07-06",
-      "summary": "In this episode, Ben Horowitz discusses the importance of independent thinking in the world of investment and innovation. He challenges the notion of 'following your passion' and instead emphasizes the value of contribution and mastery. Horowitz highlights historical improvements in global metrics such as poverty and life expectancy, suggesting that the current era presents unprecedented opportunities for innovation. He also underscores the democratization of information through the internet and uses Airbnb as a case study to illustrate the potential of original ideas that defy conventional wisdom.",
-      "key_takeaway": "Invest in original ideas and platforms that challenge conventional wisdom and facilitate access to information and innovation, particularly those with societal contributions.",
-      "tickers_mentioned": "[\"AAPL\", \"MSFT\", \"AMZN\", \"FB\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-06",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 333,
-      "episode_release_date": "2026-07-06",
-      "guest_name": "Don\u2019t Follow Your Passion",
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -31230,9 +31253,104 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-07-10",
     "key_tickers": []
+  },
+  "356": {
+    "id": 346,
+    "insight_id": 356,
+    "podcast_episode_id": 341,
+    "overview": "The unresolved tension in physics, as highlighted by Adam Brown, is the reconciliation of general relativity with quantum mechanics, the two pillars of modern physics that describe the universe at its largest and smallest scales, respectively. The competitive dynamic is between these two theories, each successful within its domain but incompatible with each other. The metric that arbitrates this uncertainty is experimental evidence that bridges the macro and micro worlds, such as gravitational wave observations or quantum gravity effects.",
+    "key_takeaways_detailed": [
+      "Investors in technology and space sectors should monitor advancements in quantum computing and gravitational wave detection, as these could signal breakthroughs in unifying general relativity with quantum mechanics.",
+      "The development of new materials or technologies that exploit the principles of general relativity, such as those used in space travel or satellite communications, could offer investment opportunities.",
+      "Companies involved in high-energy physics research, which may lead to insights into the unification of fundamental forces, could be well-positioned for significant growth if such discoveries are made.",
+      "Investors should be aware of the potential for disruptive technologies that could emerge from a deeper understanding of space-time, which could revolutionize industries from telecommunications to energy production."
+    ],
+    "investment_thesis": "The ongoing quest to reconcile general relativity with quantum mechanics represents a significant frontier in physics. Investments in companies and technologies at the intersection of these fields could yield substantial returns if a unified theory or practical applications are realized. The timeframe for such developments is uncertain but could be accelerated by advancements in experimental physics and computational power. An observable development that would vindicate this thesis is the discovery of new physics principles that successfully integrate quantum mechanics with general relativity, potentially leading to new technologies or a deeper understanding of the universe.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in advanced materials and technologies, including those used in their devices and potential forays into space-related technologies, positions them to benefit from advancements in our understanding of physics.",
+        "positioning": "Strategic long position, as Apple's R&D and market leadership could allow them to capitalize on new physics-based technologies.",
+        "risk": "The risk of regulatory hurdles or ethical concerns surrounding new technologies that could emerge from advancements in physics."
+      },
+      "GOOGL": {
+        "rationale": "Google, through its DeepMind subsidiary, is involved in cracking science and reasoning, which could include research at the intersection of physics and artificial intelligence.",
+        "positioning": "Tactical long position, as Google's AI capabilities could accelerate discoveries in physics and lead to new commercial applications.",
+        "risk": "The risk of AI misalignment or ethical concerns regarding the use of AI in scientific research."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's investments in quantum computing place them at the forefront of efforts to reconcile quantum mechanics with other physical theories.",
+        "positioning": "Strategic long position, as progress in quantum computing could lead to breakthroughs in unifying physics theories and new computational technologies.",
+        "risk": "The risk of technological obsolescence if quantum computing does not progress as expected or if alternative computing paradigms emerge."
+      },
+      "AMZN": {
+        "rationale": "Amazon's cloud computing services and potential involvement in space technology could benefit from advancements in our understanding of space-time and gravity.",
+        "positioning": "Tactical long position, as Amazon's cloud infrastructure could support the computational needs of physics research and space exploration.",
+        "risk": "The risk of increased competition in cloud services or regulatory changes affecting space exploration."
+      },
+      "TSLA": {
+        "rationale": "Tesla's involvement in space technology and materials science could be impacted by new physics discoveries, particularly those related to energy and propulsion systems.",
+        "positioning": "Strategic long position, as Tesla's innovative approach could lead to the development and implementation of new physics-based technologies.",
+        "risk": "The risk of technological disruption or changes in space policy that could affect Tesla's space-related initiatives."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The historical lack of progress in unifying general relativity with quantum mechanics could suggest that such a reconciliation is unlikely in the near term.",
+      "The high cost and complexity of experiments required to test new physics theories may slow down advancements in this field.",
+      "The potential for ethical concerns or regulatory hurdles to limit the development and application of new physics-based technologies."
+    ],
+    "catalysts": [
+      "Announcement of new high-energy physics experiments or observatories designed to test the limits of general relativity.",
+      "Publication of research papers that propose new models or theories integrating quantum mechanics with general relativity.",
+      "Discovery of new particles or phenomena that challenge existing physics theories and demand a new understanding of space-time.",
+      "Advancements in quantum computing that could simulate quantum gravity effects, providing insights into the unification of physics theories.",
+      "Policy changes or international collaborations that increase funding and support for physics research and space exploration."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-10T13:36:43.938947",
+    "updated_at": "2026-07-10 18:36:43",
+    "episode_evidence": "In the podcast, Adam Brown, a physicist and educator, delves into the intricacies of general relativity, a theory that fundamentally altered our understanding of gravity and space-time. Brown explains that Einstein's theory of gravity, which took him a decade to develop, is 'one of the two great theories of 20th century physics along with quantum mechanics.' He emphasizes the beauty and complexity of the theory, stating that 'it's pretty extraordinary.' Brown also highlights the advantage modern learners have over Einstein, as 'we have an advantage that Einstein didn't have, which is that we have Einstein and many others like him going before us who were able to take these super-complicated ideas... and boil them down to their essentials.' This underscores the progress in physics education and the cumulative nature of scientific understanding. Brown further discusses the tension between Newton's law of gravity and the principle that nothing can go faster than light, a principle central to special relativity. He points out that 'if this was literally true, then by jiggling the Sun... the force at the Earth varies immediately,' which would imply superluminal influences, contradicting the speed of light as an ultimate speed limit. This contradiction was a key motivation for Einstein to develop general relativity, which resolved this inconsistency by redefining the nature of gravity itself.",
+    "falsification_tracks": [
+      "Discovery of a particle or phenomenon that travels faster than light would challenge the foundational principles of both special and general relativity.",
+      "Observation of gravitational waves that do not conform to the predictions of general relativity could indicate a flaw in the theory.",
+      "Detection of a violation of the equivalence principle, a cornerstone of general relativity, in a high-precision experiment would cast doubt on the theory's validity.",
+      "If future space-based experiments find that the geodesic deviation predicted by general relativity does not match observed motion of celestial bodies, it would suggest a need to revise or extend the theory."
+    ],
+    "insight_title": "Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
+    "source_name": "Dwarkesh Podcast",
+    "source_date": "2026-07-10",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 509,
+    "term": "General Relativity",
+    "definition": "Einstein's theory of gravity that describes the geometrical structure of the space-time caused by mass and energy, unifying gravity with the structure of space-time itself.",
+    "investment_implications": "Understanding general relativity can provide insights into the physics underlying space exploration and technology, influencing investment decisions in these sectors.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-10 18:35:37",
+    "priority_score": 80
+  },
+  {
+    "id": 510,
+    "term": "Event Horizon",
+    "definition": "The boundary around a black hole beyond which events cannot affect an outside observer, meaning anything that passes this point will inevitably be drawn into the black hole.",
+    "investment_implications": "Concepts like the event horizon are crucial for understanding the physics of space and can influence investments in space exploration and astrophysics research.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-10 18:35:37",
+    "priority_score": 80
+  },
   {
     "id": 506,
     "term": "Byzantine fault tolerance",
@@ -31256,35 +31374,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-10 17:02:18",
     "priority_score": 80
-  },
-  {
-    "id": 508,
-    "term": "Dual-mode protocols",
-    "definition": "Blockchain protocols designed to optimize for both high throughput and low latency, catering to different transaction demands.",
-    "investment_implications": "Investors should track the development of dual-mode protocols for their potential to enhance blockchain performance.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-10 17:02:18",
-    "priority_score": 80
-  },
-  {
-    "id": 505,
-    "term": "Loop Maxing",
-    "definition": "A concept where AI systems improve exponentially through recursive learning, getting better with each iteration.",
-    "investment_implications": "Investors should consider companies at the forefront of recursive learning for potential exponential growth.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-10 04:35:59",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 28968,
+    "id": 29061,
+    "name": "Adam Brown \u2013 Einstein's happiest thought",
+    "slug": "adam-brown--einsteins-happiest-thought",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
+    "last_episode_title": "Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-07-10",
+    "appearance_count": 1
+  },
+  {
+    "id": 29062,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -31296,7 +31402,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28969,
+    "id": 29063,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -31308,7 +31414,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28970,
+    "id": 29064,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -31320,7 +31426,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28971,
+    "id": 29065,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -31332,7 +31438,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28972,
+    "id": 29066,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -31344,7 +31450,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28973,
+    "id": 29067,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -31356,7 +31462,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28974,
+    "id": 29068,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -31368,7 +31474,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28975,
+    "id": 29069,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -31380,7 +31486,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28976,
+    "id": 29070,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -31392,7 +31498,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28977,
+    "id": 29071,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -31404,7 +31510,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28978,
+    "id": 29072,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -31416,7 +31522,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28979,
+    "id": 29073,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -31428,7 +31534,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28980,
+    "id": 29074,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -31440,7 +31546,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28981,
+    "id": 29075,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -31452,7 +31558,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28982,
+    "id": 29076,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -31464,7 +31570,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28983,
+    "id": 29077,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -31476,7 +31582,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28984,
+    "id": 29078,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -31488,7 +31594,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 28985,
+    "id": 29079,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -31500,7 +31606,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28986,
+    "id": 29080,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -31509,18 +31615,6 @@ const dashboardData = {
     "last_episode_title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-15",
-    "appearance_count": 1
-  },
-  {
-    "id": 28987,
-    "name": "All-In's Best Ideas Pitch Competition",
-    "slug": "all-ins-best-ideas-pitch-competition",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in undervalued companies with hidden assets or significant growth potential, particularly in the power and biotech sectors.",
-    "last_episode_title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-06-12",
     "appearance_count": 1
   }
 ],
@@ -31977,7 +32071,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -32115,7 +32209,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -32303,7 +32397,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -32909,6 +33003,76 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 328,
+    "name": "Adam Brown",
+    "slug": "adam-brown",
+    "bio": "Adam Brown is a physicist known for his work in various scientific fields, including cosmology, string theory, and general relativity. He has taught at Stanford University and is currently involved with Google DeepMine, focusing on cracking science and reasoning.",
+    "known_for": "His expertise in theoretical physics and his role in advancing scientific understanding at Google DeepMine.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Educative and enthusiastic",
+    "voice_style": "Explanatory, breaking down complex concepts into understandable ideas",
+    "voice_delivery_notes": "Paced with emphasis on key concepts and historical context",
+    "voice_profile_updated_at": "2026-07-10 18:35:37",
+    "last_seen": "2026-07-10 18:35:37",
+    "last_episode_title": "Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-07-10",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-07-10 \u2022 Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
+    "last_proof_snippet": "I'm back with Adam Brown. You currently need blue shift at Google DeepMine, which is cracking science and reasoning. In a previous life, Adam was a prolific physicist taught at Stanford and did research and everything from cosmology to stri",
+    "supporting_takeaway": "Einstein's theory of general relativity was developed over a decade and describes the motion of celestial bodies and the universe's origin and fate.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-10T13:36:07.464062",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Adam Brown",
+      "fetched_at": "2026-07-10T18:36:07.463894+00:00",
+      "cliff_notes": "Adam Brown is a physicist with a distinguished career in academia and research. He has taught at Stanford University and conducted research in a variety of scientific fields, including cosmology, string theory, and general relativity. Brown's work has contributed to the understanding of complex scientific theories and their implications. Currently, he is associated with Google DeepMine, where he continues to push the boundaries of scientific reasoning and discovery. His expertise in theoretical physics and his contributions to advancing scientific knowledge make him a notable figure in the tech and scientific communities.",
+      "derived": {
+        "current_role": "Researcher at Google DeepMine",
+        "former_positions": "Physicist at Stanford University",
+        "education": "Physicist",
+        "teaching_summary": "Stanford University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Adam Brown is a physicist with a distinguished career in academia and research. He has taught at Stanford University and conducted research in a variety of scientific fields, including cosmology, string theory, and general relativity. Brown's work has contributed to the understanding of complex scientific theories and their implications.",
+        "Currently, he is associated with Google DeepMine, where he continues to push the boundaries of scientific reasoning and discovery. His expertise in theoretical physics and his contributions to advancing scientific knowledge make him a notable figure in the tech and scientific communities."
+      ],
+      "sections": [
+        {
+          "heading": "Cosmology",
+          "body": "Adam Brown has conducted extensive research in cosmology, contributing to our understanding of the universe's origins and structure."
+        },
+        {
+          "heading": "String Theory",
+          "body": "Brown's work in string theory has helped to explore the fundamental building blocks of the universe and their interactions."
+        },
+        {
+          "heading": "General Relativity",
+          "body": "His research in general relativity, Einstein's theory of gravity, has been influential in describing the motion of celestial bodies and understanding space-time."
+        },
+        {
+          "heading": "Education",
+          "body": "Brown has taught at Stanford University, sharing his knowledge and passion for physics with the next generation of scientists."
+        },
+        {
+          "heading": "Google DeepMine",
+          "body": "At Google DeepMine, Brown is involved in cracking science and reasoning, likely focusing on advanced data analysis and scientific computation."
+        }
+      ]
+    }
+  },
+  {
     "id": 326,
     "name": "Mark Zuckerberg",
     "slug": "mark-zuckerberg",
@@ -32926,7 +33090,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -32992,7 +33156,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -33118,7 +33282,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -33177,7 +33341,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -33545,7 +33709,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
     "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
@@ -33857,7 +34021,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -33921,7 +34085,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -34047,7 +34211,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-23 \u2022 What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
     "last_proof_snippet": "Right now AI has been so much about productivity, job replacement, work replacement and I think we have a moment to shift that, which is how does these new tools help you get more out of your own day and your own life and the things you wan",
@@ -34724,7 +34888,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -34914,7 +35078,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-15 \u2022 AI, Design, and the Power of Open Models",
     "last_proof_snippet": "It's not about how good a model is in the general sense. It's about how good is this model for my use case, for a lot of design and marketing use case says they need editable design, not a single flat image. It's super impressive, honestly,",
@@ -35098,7 +35262,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -35166,7 +35330,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -35293,7 +35457,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -35551,7 +35715,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -35638,7 +35802,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -35763,7 +35927,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -35827,7 +35991,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -36514,7 +36678,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -36578,7 +36742,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -36641,7 +36805,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -37076,7 +37240,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -37142,7 +37306,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -37954,7 +38118,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -43715,7 +43879,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -43742,7 +43906,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",
