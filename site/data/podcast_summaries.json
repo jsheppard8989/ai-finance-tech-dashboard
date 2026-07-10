@@ -1,5 +1,25 @@
 [
   {
+    "id": 339,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
+    "episode_date": "2026-07-10",
+    "summary": "In this episode, the hosts discuss the unprecedented scale of AI buildout, drawing comparisons to historical mega-projects like the Great Wall of China and the pyramids. They touch on the physical enormity of data centers being constructed worldwide, the insatiable demand for AI from companies like Google and SpaceX, and the concept of 'loop maxing' or recursive learning. The conversation also delves into the potential implications of super intelligence for humanity, including how it might redefine problems and solutions.",
+    "key_takeaways": [
+      "The AI buildout is unprecedented in scale, with massive investments in data centers globally.",
+      "Companies like Google, Microsoft, and AWS are aggressively expanding their data center capacities to meet demand.",
+      "There is a significant debate on whether the current AI advancements are creating real value or just capturing yesterday's demand.",
+      "The concept of 'loop maxing' or recursive learning is gaining traction, where AI systems improve exponentially with each iteration.",
+      "Super intelligence and its implications for humanity are still largely unknown and pose both exciting and challenging questions."
+    ],
+    "investment_thesis": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
+    "key_tickers": [
+      "GOOGL",
+      "MSFT",
+      "AMZN"
+    ]
+  },
+  {
     "id": 338,
     "podcast_name": "The a16z Show",
     "episode_title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
@@ -116,23 +136,6 @@
       "Tiering the remuneration of reserves could lead to a significant reduction in reserve demand."
     ],
     "investment_thesis": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
-    "key_tickers": null
-  },
-  {
-    "id": 331,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
-    "episode_date": "2026-07-04",
-    "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on real estate investment trends and insights. Clarion Partners' Josh Pristow discusses the firm's strategy, highlighting the challenges of investing in data centers due to high capital demands and the growth potential in multi-family housing and senior housing. The episode also covers the industrial sector's growth driven by e-commerce and the recovery of Class A office spaces.",
-    "key_takeaways": [
-      "Clarion Partners manages over $70 billion in real estate assets, with a significant portion in industrial logistics.",
-      "Data center investments are not part of Clarion's core strategy due to high capital requirements and asset value uncertainties.",
-      "Multi-family housing demand is expected to increase significantly, driven by demographic trends among the 35-49 age group.",
-      "Senior housing presents a high-conviction investment theme, with a projected need for 125,000 new beds annually.",
-      "The industrial sector is poised for growth with a $1 trillion increase in annual e-commerce sales expected over the next decade.",
-      "Class A office spaces are recovering, while Class B and C face challenges due to declining demand and high capital costs."
-    ],
-    "investment_thesis": "Invest in multi-family and senior housing to capitalize on demographic shifts, and focus on industrial properties to benefit from e-commerce growth.",
     "key_tickers": null
   }
 ]

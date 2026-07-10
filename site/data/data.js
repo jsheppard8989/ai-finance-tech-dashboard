@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-09T22:03:22.823947",
-  chartsVersion: "2026-07-09T22:03:03.128007",
+  generatedAt: "2026-07-09T23:37:48.287687",
+  chartsVersion: "2026-07-09T23:37:40.473861",
   priceSnapshot: {
   "GOOGL": {
     "price": 358.89,
     "change_pct": -2.48,
     "name": "GOOGL",
-    "updated_at": "2026-07-09T22:03:03.126494"
+    "updated_at": "2026-07-09T23:37:40.473335"
   },
   "BTC": {
-    "price": 63929.86,
-    "change_pct": 6.66,
+    "price": 64070.66,
+    "change_pct": 6.89,
     "name": "BTC",
-    "updated_at": "2026-07-09T22:03:03.126521"
+    "updated_at": "2026-07-09T23:37:40.473346"
   },
   "MSFT": {
     "price": 384.36,
     "change_pct": 1.31,
     "name": "MSFT",
-    "updated_at": "2026-07-09T22:03:03.126534"
+    "updated_at": "2026-07-09T23:37:40.473350"
   },
   "NVDA": {
     "price": 202.78,
     "change_pct": -3.75,
     "name": "NVDA",
-    "updated_at": "2026-07-09T22:03:03.126545"
+    "updated_at": "2026-07-09T23:37:40.473354"
   },
   "AMZN": {
     "price": 247.04,
     "change_pct": 1.08,
     "name": "AMZN",
-    "updated_at": "2026-07-09T22:03:03.126557"
+    "updated_at": "2026-07-09T23:37:40.473357"
   },
   "TSLA": {
     "price": 406.55,
     "change_pct": 1.51,
     "name": "TSLA",
-    "updated_at": "2026-07-09T22:03:03.126568"
+    "updated_at": "2026-07-09T23:37:40.473361"
   },
   "WTI": {
     "price": 3.41,
     "change_pct": 6.23,
     "name": "WTI",
-    "updated_at": "2026-07-09T22:03:03.126581"
+    "updated_at": "2026-07-09T23:37:40.473364"
   },
   "META": {
     "price": 631.48,
     "change_pct": 9.4,
     "name": "META",
-    "updated_at": "2026-07-09T22:03:03.126592"
+    "updated_at": "2026-07-09T23:37:40.473368"
   },
   "S&P 500": {
     "price": 751.71,
     "change_pct": 0.67,
     "name": "S&P 500",
-    "updated_at": "2026-07-09T22:03:03.126603"
+    "updated_at": "2026-07-09T23:37:40.473372"
   },
   "AAPL": {
     "price": 316.22,
     "change_pct": 6.11,
     "name": "AAPL",
-    "updated_at": "2026-07-09T22:03:03.126615"
+    "updated_at": "2026-07-09T23:37:40.473375"
   },
   "QQQ": {
     "price": 723.28,
     "change_pct": -2.23,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-09T22:03:03.126627"
+    "updated_at": "2026-07-09T23:37:40.473378"
   },
   "BTC-USD": {
-    "price": 63926.0,
-    "change_pct": 6.65,
+    "price": 64070.66,
+    "change_pct": 6.89,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-09T22:03:03.126641"
+    "updated_at": "2026-07-09T23:37:40.473382"
   }
 },
   tickerScores: [
@@ -834,6 +834,27 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 354,
+      "title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-10",
+      "summary": "In this episode, the hosts discuss the unprecedented scale of AI buildout, drawing comparisons to historical mega-projects like the Great Wall of China and the pyramids. They touch on the physical enormity of data centers being constructed worldwide, the insatiable demand for AI from companies like Google and SpaceX, and the concept of 'loop maxing' or recursive learning. The conversation also delves into the potential implications of super intelligence for humanity, including how it might redefine problems and solutions.",
+      "key_takeaway": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT",
+        "AMZN"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 339
+    },
+    {
       "id": 353,
       "title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
       "source_type": "podcast",
@@ -983,7 +1004,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-04",
       "archived_date": null,
@@ -7619,8 +7640,8 @@ const dashboardData = {
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-07-02",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-07-10",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
@@ -7629,8 +7650,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 328,
-      "last_mentioned_speaker": "Eric"
+      "last_mentioned_episode_id": 339,
+      "last_mentioned_speaker": "Andrew Feldman"
     },
     {
       "id": 256,
@@ -8123,8 +8144,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-03",
-      "mention_count": 50,
+      "last_mentioned_date": "2026-07-10",
+      "mention_count": 51,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -8133,8 +8154,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 330,
-      "last_mentioned_speaker": "Alex Carp"
+      "last_mentioned_episode_id": 339,
+      "last_mentioned_speaker": "Andrew Feldman"
     },
     {
       "id": 162,
@@ -8949,20 +8970,20 @@ const dashboardData = {
     {
       "id": 57,
       "term": "AI Infrastructure",
-      "description": "The underlying technology and systems that support AI applications, including hardware and software.",
+      "description": "The physical and technological framework supporting AI operations, including data centers and chips.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-06-30",
-      "mention_count": 19,
+      "last_mentioned_date": "2026-07-10",
+      "mention_count": 20,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Consider investments in companies that provide the backbone for AI applications.",
+      "investment_implications": "As AI demand grows, investing in AI infrastructure could provide substantial returns.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 323,
-      "last_mentioned_speaker": "Jack Farley (hosts)"
+      "last_mentioned_episode_id": 339,
+      "last_mentioned_speaker": "Andrew Feldman"
     },
     {
       "id": 26,
@@ -9497,6 +9518,30 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 354,
+      "title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-10",
+      "summary": "In this episode, the hosts discuss the unprecedented scale of AI buildout, drawing comparisons to historical mega-projects like the Great Wall of China and the pyramids. They touch on the physical enormity of data centers being constructed worldwide, the insatiable demand for AI from companies like Google and SpaceX, and the concept of 'loop maxing' or recursive learning. The conversation also delves into the potential implications of super intelligence for humanity, including how it might redefine problems and solutions.",
+      "key_takeaway": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
+      "tickers_mentioned": "[\"GOOGL\", \"MSFT\", \"AMZN\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 339,
+      "episode_release_date": "2026-07-10",
+      "guest_name": null,
+      "key_tickers": [
+        "GOOGL",
+        "MSFT",
+        "AMZN"
+      ]
+    },
+    {
       "id": 353,
       "title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
       "source_type": "podcast",
@@ -9640,26 +9685,6 @@ const dashboardData = {
       "episode_release_date": "2026-07-05",
       "guest_name": "trillion. Guest Daryl Duffy",
       "key_tickers": []
-    },
-    {
-      "id": 346,
-      "title": "The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-07-04",
-      "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on real estate investment trends and insights. Clarion Partners' Josh Pristow discusses the firm's strategy, highlighting the challenges of investing in data centers due to high capital demands and the growth potential in multi-family housing and senior housing. The episode also covers the industrial sector's growth driven by e-commerce and the recovery of Class A office spaces.",
-      "key_takeaway": "Invest in multi-family and senior housing to capitalize on demographic shifts, and focus on industrial properties to benefit from e-commerce growth.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-04",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 331,
-      "episode_release_date": "2026-07-04",
-      "guest_name": "Josh Pristow",
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -9790,8 +9815,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-03",
-      "mention_count": 50,
+      "last_mentioned_date": "2026-07-10",
+      "mention_count": 51,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -9800,16 +9825,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 330,
-      "last_mentioned_speaker": "Alex Carp",
-      "overton_score": 43.53,
+      "last_mentioned_episode_id": 339,
+      "last_mentioned_speaker": "Andrew Feldman",
+      "overton_score": 51.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
       "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
-      "last_mentioned_episode_date": "2026-07-03"
+      "last_mentioned_episode_title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
+      "last_mentioned_episode_date": "2026-07-10"
     },
     {
       "id": 10,
@@ -9868,8 +9893,8 @@ const dashboardData = {
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-07-02",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-07-10",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
@@ -9878,16 +9903,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 328,
-      "last_mentioned_speaker": "Eric",
-      "overton_score": 5.1,
+      "last_mentioned_episode_id": 339,
+      "last_mentioned_speaker": "Andrew Feldman",
+      "overton_score": 7.0,
       "resonance_pct": 100,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
       "first_detected_episode_date": "2026-06-19",
-      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
-      "last_mentioned_episode_title": "What If It\u2019s Still Early? | Erik YWR on $10,000 S&P 500 by 2027 Case, Hyperscaler ROIC, AI CapEx, Semis, Exchanges, and Reverse Crash Risk In \u201cProject Zimbabwe\u201d",
-      "last_mentioned_episode_date": "2026-07-02"
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
+      "last_mentioned_episode_date": "2026-07-10"
     },
     {
       "id": 256,
@@ -31059,9 +31084,74 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-07-09",
     "key_tickers": []
+  },
+  "354": {
+    "id": 344,
+    "insight_id": 354,
+    "podcast_episode_id": 339,
+    "overview": "The competitive dynamic implied by the source revolves around the race for super intelligence and the physical infrastructure required to support it. The buildout of AI is contested by the ability to construct and power data centers at a scale that matches the exponential growth in demand. The allocation-relevant implication is that companies and countries that can successfully scale their AI infrastructure will likely win in the AI race, with the metric of successful data center construction and operational efficiency arbitrating this uncertainty. The horizon of proof lies in the physical manifestation of these data centers and their ability to deliver on the promise of AI.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the physical construction and operational metrics of data centers as a proxy for the progress in the AI race.",
+      "Companies that can supply the hardware and power necessary for these data centers will likely see significant growth.",
+      "The ability of AI to understand intent and provide solutions could be a leading indicator of which companies are ahead in the AI race.",
+      "Investors should be aware of the geographic distribution of data center construction, as this could influence regional tech growth and investment opportunities.",
+      "The potential for AI to redefine problems and solutions could disrupt traditional business models, creating new investment opportunities in AI-driven innovation."
+    ],
+    "investment_thesis": "The core logic is that the physical infrastructure required for AI, particularly data centers, is growing at an unprecedented rate, creating a significant investment opportunity in companies that can supply this infrastructure. The observable development that would vindicate this thesis is the continued exponential growth in data center construction and operational efficiency, while an invalidating development would be a significant and sustained decrease in AI investment or construction activity.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's involvement in the ad platform space and its significant user base make it relevant to the AI infrastructure thesis, as AI is increasingly used in ad targeting and optimization.",
+        "positioning": "Strategic long position, as Apple's continued investment in AI could drive growth in its ad platform and other AI-driven services.",
+        "risk": "Key risks include changes in consumer privacy regulations that could impact ad targeting, and increased competition in the ad space from other tech giants."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant increase in the cost of power or materials needed for data center construction could slow the AI buildout.",
+      "Regulatory hurdles in certain regions could impede the construction of data centers, affecting the global distribution of AI infrastructure.",
+      "Breakthroughs in AI that reduce the need for physical infrastructure, such as advancements in edge computing, could alter the current dynamics."
+    ],
+    "catalysts": [
+      "Announcements of new data center projects or expansions by major tech companies.",
+      "Releases of new AI hardware that significantly increases the efficiency or capacity of data centers.",
+      "Policy decisions or regulatory changes that impact the construction or operation of data centers."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-09T23:36:58.409288",
+    "updated_at": "2026-07-10 04:36:58",
+    "episode_evidence": "The podcast episode features a discussion on the unprecedented scale of AI buildout, with a comparison to historical mega-projects such as the Great Wall of China and the pyramids. The hosts highlight the physical enormity of data centers being constructed worldwide, emphasizing the scale with the statement, 'data centers that are in the next several years going to use more power than the previous 50 years on Earth.' The insatiable demand for AI from companies like Google and SpaceX is underscored, with the hosts noting that these companies are 'ordering chips... before you were finished with the chips, they're putting orders in ahead of time.' The concept of 'loop maxing' or recursive learning is introduced, where AI systems are not just executing commands but are beginning to understand intent and provide solutions, as illustrated by the quote, 'it's understanding what your intent was.' The rapid advancement in AI's ability to reason and infer is highlighted, with the hosts discussing how AI is now 'debating itself' and showing a level of abstract thinking previously unimaginable, as in the example of an AI model considering where to find trends and reasoning through its process.",
+    "falsification_tracks": [
+      "A significant slowdown in global data center construction that fails to meet the exponential growth in AI demand.",
+      "Publicly reported reductions in AI investment by major tech companies like Google or SpaceX.",
+      "A lack of progress in AI's ability to understand intent and provide solutions, as evidenced by stagnant or declining performance metrics in AI reasoning and inference tasks."
+    ],
+    "insight_title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-07-10",
+    "key_tickers": [
+      "GOOGL",
+      "MSFT",
+      "AMZN"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 505,
+    "term": "Loop Maxing",
+    "definition": "A concept where AI systems improve exponentially through recursive learning, getting better with each iteration.",
+    "investment_implications": "Investors should consider companies at the forefront of recursive learning for potential exponential growth.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-10 04:35:59",
+    "priority_score": 80
+  },
   {
     "id": 502,
     "term": "Virtual Cell Models",
@@ -31097,23 +31187,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-09 17:04:39",
     "priority_score": 80
-  },
-  {
-    "id": 499,
-    "term": "Elastic Inference",
-    "definition": "A cloud computing service that allows for the dynamic allocation of computational resources based on demand, particularly useful for applications with unpredictable traffic patterns.",
-    "investment_implications": "Elastic inference can significantly reduce costs and improve performance for companies with fluctuating workloads, making it a key area for investment in AI infrastructure.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-09 04:39:20",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 28596,
+    "id": 28689,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -31125,7 +31203,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28597,
+    "id": 28690,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -31137,7 +31215,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28598,
+    "id": 28691,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -31149,7 +31227,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28599,
+    "id": 28692,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -31161,7 +31239,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28600,
+    "id": 28693,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -31173,7 +31251,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28601,
+    "id": 28694,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -31185,7 +31263,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28602,
+    "id": 28695,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -31197,7 +31275,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28603,
+    "id": 28696,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -31209,7 +31287,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28604,
+    "id": 28697,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -31221,7 +31299,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28605,
+    "id": 28698,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -31233,7 +31311,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28606,
+    "id": 28699,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -31245,7 +31323,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28607,
+    "id": 28700,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -31257,7 +31335,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28608,
+    "id": 28701,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -31269,7 +31347,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28609,
+    "id": 28702,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -31281,7 +31359,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28610,
+    "id": 28703,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -31293,7 +31371,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28611,
+    "id": 28704,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -31305,7 +31383,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28612,
+    "id": 28705,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -31317,7 +31395,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 28613,
+    "id": 28706,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -31329,7 +31407,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28614,
+    "id": 28707,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -31341,7 +31419,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28615,
+    "id": 28708,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -31543,6 +31621,70 @@ const dashboardData = {
     "net_worth": "$12.3M"
   },
   {
+    "id": 259,
+    "name": "Andrew Feldman",
+    "slug": "andrew-feldman",
+    "bio": "Andrew Feldman is the CEO and co-founder of Cerebras, a company at the forefront of AI and chip technology. He has been instrumental in leading the development of AI chips and data center infrastructure, contributing significantly to the buildout of AI on a global scale.",
+    "known_for": "Pioneering the development of AI chips and data center infrastructure for advanced AI applications.",
+    "net_worth_usd": 19800000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0002039573/Andrew-D.-Feldman",
+    "net_worth_updated_at": "2026-05-22T00:00:37.809262",
+    "voice_tone": "Informed and enthusiastic about the future of AI.",
+    "voice_style": "Explanatory and visionary, outlining the scale and impact of AI development.",
+    "voice_delivery_notes": "Speaks with a mix of excitement and caution, highlighting the magnitude of the AI buildout.",
+    "voice_profile_updated_at": "2026-07-10 04:35:59",
+    "last_seen": "2026-07-10 04:35:59",
+    "last_episode_title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-07-10",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
+    "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
+    "supporting_takeaway": "Companies like Google, Microsoft, and AWS are aggressively expanding their data center capacities to meet demand.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-09T23:36:14.887399",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Andrew Feldman",
+      "fetched_at": "2026-07-10T04:36:14.887061+00:00",
+      "cliff_notes": "Andrew Feldman is recognized for his leadership in the field of AI and chip technology as the CEO and co-founder of Cerebras Systems. His career has been marked by significant contributions to the development of AI chips and the infrastructure of data centers, which are critical components in the rapidly expanding field of artificial intelligence. Feldman's work at Cerebras has been pivotal in the buildout of AI, a field that is often compared to monumental historical efforts due to its scale and impact. His leadership has helped position Cerebras as a key player in the race for super intelligence, with the company's AI chips being a central part of this technological revolution.",
+      "derived": {
+        "current_role": "CEO and co-founder of Cerebras"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Andrew Feldman is recognized for his leadership in the field of AI and chip technology as the CEO and co-founder of Cerebras Systems. His career has been marked by significant contributions to the development of AI chips and the infrastructure of data centers, which are critical components in the rapidly expanding field of artificial intelligence.",
+        "Feldman's work at Cerebras has been pivotal in the buildout of AI, a field that is often compared to monumental historical efforts due to its scale and impact. His leadership has helped position Cerebras as a key player in the race for super intelligence, with the company's AI chips being a central part of this technological revolution."
+      ],
+      "sections": [
+        {
+          "heading": "AI Chip Development",
+          "body": "Andrew Feldman has been at the helm of Cerebras, leading the development of advanced AI chips that are designed to handle the complex computations required for artificial intelligence applications."
+        },
+        {
+          "heading": "Data Center Infrastructure",
+          "body": "Under Feldman's leadership, Cerebras has focused on creating data center infrastructure that can support the massive computational demands of AI, enabling more efficient and powerful AI systems."
+        },
+        {
+          "heading": "Global AI Buildout",
+          "body": "Feldman's work is part of a global effort to build out AI capabilities, which is being compared to historical feats like the construction of the Great Wall of China or the pyramids in terms of scale and mobilization of resources."
+        },
+        {
+          "heading": "IPO and Growth",
+          "body": "Cerebras, with Feldman as CEO, has experienced significant growth, including a successful IPO, which has further established the company as a major player in the AI technology sector."
+        }
+      ]
+    },
+    "net_worth": "$19.8M"
+  },
+  {
     "id": 52,
     "name": "Alex Carp",
     "slug": "alex-carp",
@@ -31560,7 +31702,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-03",
     "mention_score": 2,
-    "mention_score_decayed": 1.78,
+    "mention_score_decayed": 1.74,
     "last_main_idea": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-03 \u2022 AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Sure, favorite podcast. It's your podcast. It's your favorite podcast. It's the all-in podcast episode two, seven, nine with me, freebergs, tax, to my, you know, the",
@@ -33435,7 +33577,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-29 \u2022 Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
     "last_proof_snippet": "I am so glad today we have a very special guest, one of my favorite authors of all time Leakwet Ahamed, who's the author of the new book 1873, The Roth Childs, The First Great Depression, and The Making of the Modern World Leakwet. Welcome",
@@ -33562,7 +33704,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
     "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
@@ -33939,7 +34081,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -34003,7 +34145,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -34062,7 +34204,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -34121,7 +34263,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -34186,7 +34328,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -34249,7 +34391,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -35463,7 +35605,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -36201,66 +36343,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$16.5M"
-  },
-  {
-    "id": 259,
-    "name": "Andrew Feldman",
-    "slug": "andrew-feldman",
-    "bio": "Andrew Feldman is the CEO of Cerberus, a chip company that achieved a record-breaking IPO in the United States since Uber in 2019. His leadership and vision have positioned Cerberus as a significant player in the tech industry, with a market cap of $95 billion post-IPO.",
-    "known_for": "Leading Cerberus to the biggest US IPO since Uber in 2019, with a market cap of $95 billion.",
-    "net_worth_usd": 19800000.0,
-    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0002039573/Andrew-D.-Feldman",
-    "net_worth_updated_at": "2026-05-22T00:00:37.809262",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-05-22 05:00:24",
-    "last_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-05-21",
-    "mention_score": 1,
-    "mention_score_decayed": 0.33,
-    "last_main_idea": "Investing in AI infrastructure and multi-modal AI applications presents a significant opportunity as Google and other tech companies continue to expand their capabilities and applications in this space.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-21 \u2022 Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
-    "last_proof_snippet": "If he said five years ago, hey, Google's going to six exits, cat bags, and the stock will go up. Nobody in the right mind would have said, that's even possible. Quadrillions, billions, hundreds of billions, trillions, it gets numbing after",
-    "supporting_takeaway": "The introduction of Gemini Omni positions Google as a leader in multi-modal AI applications.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-22T00:00:36.690679",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Andrew Feldman",
-      "fetched_at": "2026-05-22T05:00:36.690348+00:00",
-      "cliff_notes": "Andrew Feldman is a prominent figure in the technology industry, best known for his role as the CEO of Cerberus, a semiconductor company. Under his leadership, Cerberus achieved a historic IPO, becoming the largest in the United States since Uber's in 2019. The company's market cap reached $95 billion, a testament to Feldman's strategic vision and execution. Prior to his tenure at Cerberus, Feldman was involved in the tech industry, notably as a co-founder of OpenAI before leaving in 2017 to focus on self-driving technology for Elon Musk's initiatives. His contributions to the fields of AI and semiconductors have been pivotal, and his leadership at Cerberus has solidified the company's position as a disruptor in the tech landscape.",
-      "derived": {
-        "current_role": "CEO of Cerberus"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Andrew Feldman is a prominent figure in the technology industry, best known for his role as the CEO of Cerberus, a semiconductor company. Under his leadership, Cerberus achieved a historic IPO, becoming the largest in the United States since Uber's in 2019. The company's market cap reached $95 billion, a testament to Feldman's strategic vision and execution.",
-        "Prior to his tenure at Cerberus, Feldman was involved in the tech industry, notably as a co-founder of OpenAI before leaving in 2017 to focus on self-driving technology for Elon Musk's initiatives. His contributions to the fields of AI and semiconductors have been pivotal, and his leadership at Cerberus has solidified the company's position as a disruptor in the tech landscape."
-      ],
-      "sections": [
-        {
-          "heading": "Record-Breaking IPO",
-          "body": "Andrew Feldman led Cerberus to the largest IPO in the United States since Uber, with the company's market cap soaring to $95 billion post-IPO."
-        },
-        {
-          "heading": "Semiconductor Industry",
-          "body": "Feldman's Cerberus has made significant strides in the semiconductor industry, becoming a key player in the technology sector."
-        },
-        {
-          "heading": "AI and Self-Driving Technology",
-          "body": "Before joining Cerberus, Feldman co-founded OpenAI and later worked on self-driving technology, showcasing his expertise in AI and its applications."
-        }
-      ]
-    },
-    "net_worth": "$19.8M"
   },
   {
     "id": 258,
@@ -39412,7 +39494,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
     "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
@@ -39540,7 +39622,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -39916,7 +39998,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
@@ -40232,7 +40314,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
     "last_proof_snippet": "Beach Point Capital Management primarily manages institutional capital, which is characterized as patient capital.",
@@ -40295,7 +40377,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
@@ -43021,7 +43103,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-18 \u2022 Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
     "last_proof_snippet": "Fetterman has a unique perspective, being popular among Republicans while maintaining his Democratic affiliation.",
