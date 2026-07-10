@@ -1,5 +1,21 @@
 [
   {
+    "id": 340,
+    "podcast_name": "The a16z Show",
+    "episode_title": "How Bitcoin Rewired a Classic Computer Science Problem",
+    "episode_date": "2026-07-10",
+    "summary": "The podcast explores the intersection of blockchain technology and distributed computing, focusing on Byzantine fault tolerance as a core technical aspect of Bitcoin. It discusses the convergence of these fields in recent years, the impact of proof of stake consensus mechanisms on Byzantine fault tolerance, and the increasing focus on higher throughput and lower latency in blockchain protocols. The discussion emphasizes the importance of understanding academic research when evaluating blockchain technologies.",
+    "key_takeaways": [
+      "Bitcoin's core technical aspect is Byzantine fault tolerance, a problem studied in computing for decades.",
+      "Blockchain technology and distributed computing research have converged, leading to more robust and efficient protocols.",
+      "Proof of stake consensus mechanisms have enabled new techniques for Byzantine fault tolerance, improving blockchain efficiency and security.",
+      "Dual-mode blockchain protocols that optimize for both high throughput and low latency are emerging.",
+      "Investors should monitor developments in blockchain protocols that align with academic research on Byzantine fault tolerance."
+    ],
+    "investment_thesis": "Invest in blockchain projects that leverage academic research on Byzantine fault tolerance and adopt efficient consensus mechanisms like proof of stake for improved performance and security.",
+    "key_tickers": null
+  },
+  {
     "id": 339,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
@@ -119,23 +135,6 @@
       "Look for startups that present unique solutions to existing problems, even if they initially seem impractical."
     ],
     "investment_thesis": "Invest in original ideas and platforms that challenge conventional wisdom and facilitate access to information and innovation, particularly those with societal contributions.",
-    "key_tickers": null
-  },
-  {
-    "id": 332,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
-    "episode_date": "2026-07-05",
-    "summary": "In this episode of Monetary Matters, the focus is on the Federal Reserve's strategy to reduce its balance sheet, currently at approximately $6.5 trillion. Guest Daryl Duffy discusses four techniques to decrease reserve demand, which is key to shrinking the balance sheet without causing market disruptions. These include temporary open market operations, revising liquidity regulations, introducing a liquidity savings mechanism, and tiering the remuneration of reserves. The conversation emphasizes the importance of maintaining adequate reserve levels for effective interest rate management and the potential benefits of a smaller balance sheet for the Fed's operational flexibility and political standing.",
-    "key_takeaways": [
-      "Kevin Worsh, the new Fed Chair, is aiming to significantly reduce the Federal Reserve's balance sheet.",
-      "Daryl Duffy proposes four techniques for the Fed to reduce reserve demand.",
-      "Temporary open market operations could offset sudden changes in reserve balances.",
-      "Revising liquidity regulations could encourage banks to utilize Fed liquidity facilities without stigma.",
-      "A liquidity savings mechanism could reduce reserve requirements by 20-30%.",
-      "Tiering the remuneration of reserves could lead to a significant reduction in reserve demand."
-    ],
-    "investment_thesis": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
     "key_tickers": null
   }
 ]

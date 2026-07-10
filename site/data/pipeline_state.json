@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-10T06:40:20.500748",
-  "last_updated": "2026-07-10T06:40:20.500748",
-  "last_pipeline_run": "2026-07-10T06:40:20.500748",
+  "generated_at": "2026-07-10T12:04:08.667286",
+  "last_updated": "2026-07-10T12:04:08.667286",
+  "last_pipeline_run": "2026-07-10T12:04:08.667286",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -9,21 +9,21 @@
   },
   "counts": {
     "ticker_mentions": 201,
-    "podcast_episodes": 312,
+    "podcast_episodes": 313,
     "newsletters": 7,
     "daily_scores": 139,
     "overton_terms_total": 107,
-    "latest_insights_total": 326,
+    "latest_insights_total": 327,
     "today_mentions": {},
-    "podcasts_analyzed": 0
+    "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 1,
-    "analyzed": 0,
-    "insight_created": 0,
-    "published": 0,
-    "total": 2
+    "downloaded": 3,
+    "transcribed": 2,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 3
   },
   "episodes": [
     {
@@ -89,6 +89,24 @@
       "title": "How Bitcoin Rewired a Classic Computer Science Problem",
       "published": "2026-07-10",
       "rss_guid": "16825f8d-1dfe-4495-b9c4-a3dcc165f691",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
+    },
+    {
+      "id": "substack:post:206445844",
+      "podcast": "Dwarkesh Podcast",
+      "title": "Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
+      "published": "2026-07-10",
+      "rss_guid": "substack:post:206445844",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -157,9 +175,9 @@
   ],
   "available_from_rss": [
     {
-      "podcast": "The a16z Show",
-      "title": "How Bitcoin Rewired a Classic Computer Science Problem",
-      "published": "Fri, 10 Jul 2026 10:00:00 +0000",
+      "podcast": "Dwarkesh Podcast",
+      "title": "Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
+      "published": "Fri, 10 Jul 2026 16:23:56 GMT",
       "published_date": "2026-07-10",
       "rss_guid": ""
     },

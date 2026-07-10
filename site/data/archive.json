@@ -22,6 +22,29 @@
       "podcast_episode_id": 339
     },
     {
+      "id": 355,
+      "title": "How Bitcoin Rewired a Classic Computer Science Problem",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-10",
+      "summary": "The podcast explores the intersection of blockchain technology and distributed computing, focusing on Byzantine fault tolerance as a core technical aspect of Bitcoin. It discusses the convergence of these fields in recent years, the impact of proof of stake consensus mechanisms on Byzantine fault tolerance, and the increasing focus on higher throughput and lower latency in blockchain protocols. The discussion emphasizes the importance of understanding academic research when evaluating blockchain technologies.",
+      "key_takeaway": "Invest in blockchain projects that leverage academic research on Byzantine fault tolerance and adopt efficient consensus mechanisms like proof of stake for improved performance and security.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "AMZN",
+        "MSFT",
+        "IBM"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 340
+    },
+    {
       "id": 353,
       "title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
       "source_type": "podcast",
@@ -152,7 +175,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-05",
       "archived_date": null,

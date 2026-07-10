@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-10T06:40:34.459814",
-  chartsVersion: "2026-07-10T06:40:16.562169",
+  generatedAt: "2026-07-10T12:04:15.410375",
+  chartsVersion: "2026-07-10T12:04:04.766210",
   priceSnapshot: {
   "GOOGL": {
-    "price": 358.89,
-    "change_pct": -2.48,
+    "price": 355.01,
+    "change_pct": 1.52,
     "name": "GOOGL",
-    "updated_at": "2026-07-10T06:40:16.560905"
+    "updated_at": "2026-07-10T12:04:04.764940"
   },
   "BTC": {
-    "price": 64348.93,
-    "change_pct": 7.36,
+    "price": 64072.45,
+    "change_pct": 6.89,
     "name": "BTC",
-    "updated_at": "2026-07-10T06:40:16.560927"
+    "updated_at": "2026-07-10T12:04:04.764959"
   },
   "MSFT": {
-    "price": 384.36,
-    "change_pct": 1.31,
+    "price": 385.76,
+    "change_pct": 5.01,
     "name": "MSFT",
-    "updated_at": "2026-07-10T06:40:16.560938"
+    "updated_at": "2026-07-10T12:04:04.764968"
   },
   "NVDA": {
-    "price": 202.78,
-    "change_pct": -3.75,
+    "price": 209.57,
+    "change_pct": 0.44,
     "name": "NVDA",
-    "updated_at": "2026-07-10T06:40:16.560947"
+    "updated_at": "2026-07-10T12:04:04.764976"
   },
   "AMZN": {
-    "price": 247.04,
-    "change_pct": 1.08,
+    "price": 245.74,
+    "change_pct": 5.56,
     "name": "AMZN",
-    "updated_at": "2026-07-10T06:40:16.560957"
+    "updated_at": "2026-07-10T12:04:04.764983"
   },
   "TSLA": {
-    "price": 406.55,
-    "change_pct": 1.51,
+    "price": 412.14,
+    "change_pct": 1.75,
     "name": "TSLA",
-    "updated_at": "2026-07-10T06:40:16.560966"
+    "updated_at": "2026-07-10T12:04:04.764990"
   },
   "WTI": {
-    "price": 3.41,
-    "change_pct": 6.23,
+    "price": 3.3,
+    "change_pct": -0.3,
     "name": "WTI",
-    "updated_at": "2026-07-10T06:40:16.560976"
+    "updated_at": "2026-07-10T12:04:04.764998"
   },
   "META": {
-    "price": 631.48,
-    "change_pct": 9.4,
+    "price": 666.7,
+    "change_pct": 18.24,
     "name": "META",
-    "updated_at": "2026-07-10T06:40:16.560985"
+    "updated_at": "2026-07-10T12:04:04.765006"
   },
   "S&P 500": {
-    "price": 751.71,
-    "change_pct": 0.67,
+    "price": 753.71,
+    "change_pct": 1.25,
     "name": "S&P 500",
-    "updated_at": "2026-07-10T06:40:16.560994"
+    "updated_at": "2026-07-10T12:04:04.765013"
   },
   "AAPL": {
-    "price": 316.22,
-    "change_pct": 6.11,
+    "price": 314.65,
+    "change_pct": 5.94,
     "name": "AAPL",
-    "updated_at": "2026-07-10T06:40:16.561003"
+    "updated_at": "2026-07-10T12:04:04.765020"
   },
   "QQQ": {
-    "price": 723.28,
-    "change_pct": -2.23,
+    "price": 724.72,
+    "change_pct": -1.79,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-10T06:40:16.561012"
+    "updated_at": "2026-07-10T12:04:04.765028"
   },
   "BTC-USD": {
-    "price": 64342.68,
-    "change_pct": 7.34,
+    "price": 64063.91,
+    "change_pct": 6.88,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-10T06:40:16.561022"
+    "updated_at": "2026-07-10T12:04:04.765036"
   }
 },
   tickerScores: [
@@ -855,6 +855,29 @@ const dashboardData = {
       "podcast_episode_id": 339
     },
     {
+      "id": 355,
+      "title": "How Bitcoin Rewired a Classic Computer Science Problem",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-10",
+      "summary": "The podcast explores the intersection of blockchain technology and distributed computing, focusing on Byzantine fault tolerance as a core technical aspect of Bitcoin. It discusses the convergence of these fields in recent years, the impact of proof of stake consensus mechanisms on Byzantine fault tolerance, and the increasing focus on higher throughput and lower latency in blockchain protocols. The discussion emphasizes the importance of understanding academic research when evaluating blockchain technologies.",
+      "key_takeaway": "Invest in blockchain projects that leverage academic research on Byzantine fault tolerance and adopt efficient consensus mechanisms like proof of stake for improved performance and security.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "AMZN",
+        "MSFT",
+        "IBM"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 340
+    },
+    {
       "id": 353,
       "title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
       "source_type": "podcast",
@@ -985,7 +1008,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-05",
       "archived_date": null,
@@ -9542,6 +9565,26 @@ const dashboardData = {
       ]
     },
     {
+      "id": 355,
+      "title": "How Bitcoin Rewired a Classic Computer Science Problem",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-10",
+      "summary": "The podcast explores the intersection of blockchain technology and distributed computing, focusing on Byzantine fault tolerance as a core technical aspect of Bitcoin. It discusses the convergence of these fields in recent years, the impact of proof of stake consensus mechanisms on Byzantine fault tolerance, and the increasing focus on higher throughput and lower latency in blockchain protocols. The discussion emphasizes the importance of understanding academic research when evaluating blockchain technologies.",
+      "key_takeaway": "Invest in blockchain projects that leverage academic research on Byzantine fault tolerance and adopt efficient consensus mechanisms like proof of stake for improved performance and security.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"AMZN\", \"MSFT\", \"IBM\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 340,
+      "episode_release_date": "2026-07-10",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 353,
       "title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
       "source_type": "podcast",
@@ -9664,26 +9707,6 @@ const dashboardData = {
       "podcast_episode_id": 333,
       "episode_release_date": "2026-07-06",
       "guest_name": "Don\u2019t Follow Your Passion",
-      "key_tickers": []
-    },
-    {
-      "id": 347,
-      "title": "The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-07-05",
-      "summary": "In this episode of Monetary Matters, the focus is on the Federal Reserve's strategy to reduce its balance sheet, currently at approximately $6.5 trillion. Guest Daryl Duffy discusses four techniques to decrease reserve demand, which is key to shrinking the balance sheet without causing market disruptions. These include temporary open market operations, revising liquidity regulations, introducing a liquidity savings mechanism, and tiering the remuneration of reserves. The conversation emphasizes the importance of maintaining adequate reserve levels for effective interest rate management and the potential benefits of a smaller balance sheet for the Fed's operational flexibility and political standing.",
-      "key_takeaway": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-05",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 332,
-      "episode_release_date": "2026-07-05",
-      "guest_name": "trillion. Guest Daryl Duffy",
       "key_tickers": []
     }
   ],
@@ -31137,9 +31160,115 @@ const dashboardData = {
       "MSFT",
       "AMZN"
     ]
+  },
+  "355": {
+    "id": 345,
+    "insight_id": 355,
+    "podcast_episode_id": 340,
+    "overview": "The unresolved tension lies in the balance between the theoretical advancements in Byzantine fault tolerance and their practical application in blockchain technology. The competitive dynamic is between traditional proof of work systems and the emerging proof of stake mechanisms, with the latter promising higher efficiency and security. The metric that arbitrates this uncertainty is the performance and security of blockchain protocols, with the horizon of proof being the successful implementation and scaling of these technologies.",
+    "key_takeaways_detailed": [
+      "Investors should track the development of dual-mode blockchain protocols, as they may offer a competitive edge by optimizing for both high throughput and low latency.",
+      "Academic research in Byzantine fault tolerance should be monitored for its practical applications in blockchain solutions, as this could indicate a project's potential for innovation and scalability.",
+      "Evaluate blockchain projects based on their consensus mechanisms' alignment with the latest academic research to gauge their potential for long-term success and resilience against faults.",
+      "Consider the potential for blockchain technology to disrupt traditional distributed computing models, as the integration of new consensus mechanisms could lead to significant efficiency gains."
+    ],
+    "investment_thesis": "The investment thesis is that blockchain projects which leverage academic research on Byzantine fault tolerance and adopt efficient consensus mechanisms like proof of stake will outperform those relying on outdated technologies. This is based on the premise that these projects will offer improved performance and security, leading to greater adoption and scalability. The thesis would be vindicated if these projects demonstrate superior throughput and latency compared to their competitors over a 3-5 year timeframe.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's interest in blockchain technology, particularly in supply chain management and potential financial services, makes it relevant to the thesis. Their ability to leverage blockchain for efficiency gains could significantly impact their valuation.",
+        "positioning": "Positioning should be strategic and long-term, as Apple's integration of blockchain technology could take time but offer substantial benefits.",
+        "risk": "Key risks include regulatory hurdles and competition from other tech giants that may be more aggressive in adopting blockchain solutions."
+      },
+      "GOOGL": {
+        "rationale": "Google's cloud services and potential forays into blockchain technology position it to benefit from the convergence of distributed computing and blockchain.",
+        "positioning": "A tactical long position could be considered, given Google's ability to quickly adapt and scale new technologies.",
+        "risk": "The risk lies in Google's potential underestimation of the importance of Byzantine fault tolerance in their blockchain initiatives."
+      },
+      "AMZN": {
+        "rationale": "Amazon's extensive cloud infrastructure and exploration of blockchain applications make it a key player in this space.",
+        "positioning": "A strategic long position is appropriate, as Amazon's adoption of blockchain could significantly enhance its service offerings.",
+        "risk": "The risk is that Amazon may not prioritize blockchain development, allowing competitors to gain an edge."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's active engagement in blockchain technology, particularly through its Azure platform, aligns with the thesis.",
+        "positioning": "A long-term strategic position is suitable, as Microsoft's blockchain initiatives could bolster its cloud services.",
+        "risk": "The risk is that Microsoft may not effectively integrate blockchain with its existing services, leading to missed opportunities."
+      },
+      "IBM": {
+        "rationale": "IBM's focus on blockchain, especially in enterprise solutions, positions it to benefit from advancements in Byzantine fault tolerance.",
+        "positioning": "A tactical long position could be considered, as IBM's blockchain expertise could lead to significant business opportunities.",
+        "risk": "The risk is that IBM may not be able to keep up with the rapid pace of blockchain innovation, potentially losing ground to more agile competitors."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that proof of work systems are inherently more secure and will remain dominant, challenging the adoption of proof of stake.",
+      "Skepticism around the practical applicability of academic research on Byzantine fault tolerance in real-world blockchain systems.",
+      "Concerns that the convergence of blockchain and distributed computing research may not lead to significant technological advancements."
+    ],
+    "catalysts": [
+      "The launch of a major blockchain project that successfully implements dual-mode protocols.",
+      "Significant academic breakthroughs in Byzantine fault tolerance that are quickly adopted by blockchain projects.",
+      "Regulatory clarity on blockchain technology that encourages further investment and development.",
+      "Major tech companies announcing significant investments in blockchain research and development.",
+      "The successful scaling of a proof of stake blockchain network, demonstrating its efficiency and security advantages."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-10T12:03:01.187060",
+    "updated_at": "2026-07-10 17:03:01",
+    "episode_evidence": "The podcast delves into the intricate relationship between blockchain technology and distributed computing, with a particular emphasis on Byzantine fault tolerance. The host highlights, 'Satoshi Nakamoto... said the core technical aspect of Bitcoin is something Byzantine agreement.' This underscores the significance of understanding Byzantine fault tolerance for anyone involved in blockchain technology. The guest further elaborates on the convergence of blockchain and distributed computing research, noting, 'But now it seems to me that those two threads have been coming together over the past maybe five years or so.' This convergence has been pivotal in advancing blockchain protocols, especially with the advent of proof of stake mechanisms, which, as the guest points out, 'unlocks those techniques that doctors land put in the Scuffle.' These mechanisms are reshaping the landscape of blockchain technology by enhancing efficiency and security.",
+    "falsification_tracks": [
+      "If major blockchain platforms do not demonstrate improvements in throughput and latency despite adopting proof of stake, the thesis of efficiency gains from new consensus mechanisms is weakened.",
+      "Should academic research fail to produce actionable insights for blockchain development, the convergence narrative loses credibility.",
+      "A significant security breach in a proof of stake blockchain would challenge the assertion that these mechanisms improve security."
+    ],
+    "insight_title": "How Bitcoin Rewired a Classic Computer Science Problem",
+    "source_name": "The a16z Show",
+    "source_date": "2026-07-10",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 506,
+    "term": "Byzantine fault tolerance",
+    "definition": "A problem in distributed computing where a system must reach consensus despite the presence of faulty or malicious nodes.",
+    "investment_implications": "Understanding Byzantine fault tolerance is crucial for evaluating the robustness and security of blockchain protocols.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-10 17:02:18",
+    "priority_score": 80
+  },
+  {
+    "id": 507,
+    "term": "Proof of stake",
+    "definition": "A consensus mechanism in blockchain technology where validators are chosen to create new blocks based on their holdings of the cryptocurrency, rather than their computational power.",
+    "investment_implications": "Proof of stake systems can offer improved efficiency and security, influencing the potential of blockchain projects.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-10 17:02:18",
+    "priority_score": 80
+  },
+  {
+    "id": 508,
+    "term": "Dual-mode protocols",
+    "definition": "Blockchain protocols designed to optimize for both high throughput and low latency, catering to different transaction demands.",
+    "investment_implications": "Investors should track the development of dual-mode protocols for their potential to enhance blockchain performance.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-10 17:02:18",
+    "priority_score": 80
+  },
   {
     "id": 505,
     "term": "Loop Maxing",
@@ -31151,47 +31280,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-10 04:35:59",
     "priority_score": 80
-  },
-  {
-    "id": 502,
-    "term": "Virtual Cell Models",
-    "definition": "Highly detailed computational models of cells that can simulate biological processes to test scientific hypotheses and drug effects.",
-    "investment_implications": "Virtual cell models can reduce the cost and time of biological research, allowing for more rapid iteration and risk-taking in drug discovery.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-09 17:04:39",
-    "priority_score": 80
-  },
-  {
-    "id": 503,
-    "term": "Biohubs",
-    "definition": "Physical locations that bring together scientists, engineers, and clinicians to work on large-scale scientific projects, often focused on generating novel data sets and tools.",
-    "investment_implications": "Biohubs can accelerate scientific discovery by fostering collaboration and the development of new tools and data sets.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-09 17:04:39",
-    "priority_score": 80
-  },
-  {
-    "id": 504,
-    "term": "Cell Atlas",
-    "definition": "A comprehensive collection of cellular data that aims to map and characterize all cells in a biological system, providing a foundational resource for research.",
-    "investment_implications": "A cell atlas can serve as a valuable reference for understanding cellular functions and interactions, aiding in the development of new therapies.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-09 17:04:39",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 28875,
+    "id": 28968,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -31203,7 +31296,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28876,
+    "id": 28969,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -31215,7 +31308,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28877,
+    "id": 28970,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -31227,7 +31320,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28878,
+    "id": 28971,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -31239,7 +31332,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28879,
+    "id": 28972,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -31251,7 +31344,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28880,
+    "id": 28973,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -31263,7 +31356,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28881,
+    "id": 28974,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -31275,7 +31368,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28882,
+    "id": 28975,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -31287,7 +31380,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28883,
+    "id": 28976,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -31299,7 +31392,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28884,
+    "id": 28977,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -31311,7 +31404,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28885,
+    "id": 28978,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -31323,7 +31416,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28886,
+    "id": 28979,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -31335,7 +31428,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28887,
+    "id": 28980,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -31347,7 +31440,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28888,
+    "id": 28981,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -31359,7 +31452,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28889,
+    "id": 28982,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -31371,7 +31464,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28890,
+    "id": 28983,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -31383,7 +31476,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28891,
+    "id": 28984,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -31395,7 +31488,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 28892,
+    "id": 28985,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -31407,7 +31500,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28893,
+    "id": 28986,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -31419,7 +31512,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 28894,
+    "id": 28987,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -32960,7 +33053,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-08 \u2022 Adam Neumann: This Is How You Build Iconic Companies",
     "last_proof_snippet": "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
@@ -33268,7 +33361,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -33513,7 +33606,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -35329,7 +35422,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -35395,7 +35488,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -35989,7 +36082,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -36053,7 +36146,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -36300,7 +36393,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
