@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-10T23:41:30.112214",
-  "last_updated": "2026-07-10T23:41:30.112214",
-  "last_pipeline_run": "2026-07-10T23:41:30.112214",
+  "generated_at": "2026-07-11T05:02:19.570681",
+  "last_updated": "2026-07-11T05:02:19.570681",
+  "last_pipeline_run": "2026-07-11T05:02:19.570681",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -11,21 +11,21 @@
     "ticker_mentions": 202,
     "podcast_episodes": 315,
     "newsletters": 7,
-    "daily_scores": 139,
+    "daily_scores": 140,
     "overton_terms_total": 107,
     "latest_insights_total": 329,
     "today_mentions": {
       "podcast": 1
     },
-    "podcasts_analyzed": 3
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 2
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
     {
@@ -84,24 +84,6 @@
         }
       },
       "status": "needs_analysis"
-    },
-    {
-      "id": "4423c373-1b80-4d70-b500-f9823914247a",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "More Trillion Dollar IPOs, Anthropic $3T, Zuck's Price War, China Ends Open Source?, Trump Accounts",
-      "published": "2026-07-11",
-      "rss_guid": "4423c373-1b80-4d70-b500-f9823914247a",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
     }
   ],
   "available_from_rss": [
@@ -120,7 +102,7 @@
       "title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
       "status": "needs_analysis",
       "published": "2026-07-08",
-      "age_days": 2,
+      "age_days": 3,
       "next_blocker": "analyzed"
     }
   ],
