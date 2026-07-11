@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-10T22:04:11.700704",
-  chartsVersion: "2026-07-10T22:03:56.449597",
+  generatedAt: "2026-07-10T23:41:35.274073",
+  chartsVersion: "2026-07-10T23:41:28.429675",
   priceSnapshot: {
   "GOOGL": {
     "price": 357.18,
     "change_pct": 2.14,
     "name": "GOOGL",
-    "updated_at": "2026-07-10T22:03:56.448596"
+    "updated_at": "2026-07-10T23:41:28.429237"
   },
   "BTC": {
-    "price": 64091.08,
-    "change_pct": 7.66,
+    "price": 64143.0,
+    "change_pct": 7.74,
     "name": "BTC",
-    "updated_at": "2026-07-10T22:03:56.448616"
+    "updated_at": "2026-07-10T23:41:28.429247"
   },
   "MSFT": {
     "price": 385.1,
     "change_pct": 4.83,
     "name": "MSFT",
-    "updated_at": "2026-07-10T22:03:56.448624"
-  },
-  "NVDA": {
-    "price": 210.96,
-    "change_pct": 1.11,
-    "name": "NVDA",
-    "updated_at": "2026-07-10T22:03:56.448632"
-  },
-  "AMZN": {
-    "price": 245.34,
-    "change_pct": 5.39,
-    "name": "AMZN",
-    "updated_at": "2026-07-10T22:03:56.448639"
+    "updated_at": "2026-07-10T23:41:28.429251"
   },
   "TSLA": {
     "price": 407.76,
     "change_pct": 0.67,
     "name": "TSLA",
-    "updated_at": "2026-07-10T22:03:56.448647"
+    "updated_at": "2026-07-10T23:41:28.429255"
+  },
+  "NVDA": {
+    "price": 210.96,
+    "change_pct": 1.11,
+    "name": "NVDA",
+    "updated_at": "2026-07-10T23:41:28.429258"
+  },
+  "AMZN": {
+    "price": 245.34,
+    "change_pct": 5.39,
+    "name": "AMZN",
+    "updated_at": "2026-07-10T23:41:28.429261"
   },
   "WTI": {
     "price": 3.37,
     "change_pct": 1.81,
     "name": "WTI",
-    "updated_at": "2026-07-10T22:03:56.448655"
+    "updated_at": "2026-07-10T23:41:28.429265"
   },
   "META": {
     "price": 669.21,
     "change_pct": 18.69,
     "name": "META",
-    "updated_at": "2026-07-10T22:03:56.448662"
+    "updated_at": "2026-07-10T23:41:28.429268"
   },
   "S&P 500": {
     "price": 754.95,
     "change_pct": 1.42,
     "name": "S&P 500",
-    "updated_at": "2026-07-10T22:03:56.448670"
+    "updated_at": "2026-07-10T23:41:28.429270"
   },
   "AAPL": {
     "price": 315.32,
     "change_pct": 6.16,
     "name": "AAPL",
-    "updated_at": "2026-07-10T22:03:56.448677"
+    "updated_at": "2026-07-10T23:41:28.429273"
   },
   "QQQ": {
     "price": 725.51,
     "change_pct": -1.69,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-10T22:03:56.448684"
+    "updated_at": "2026-07-10T23:41:28.429276"
   },
   "BTC-USD": {
-    "price": 64092.44,
-    "change_pct": 7.66,
+    "price": 64143.0,
+    "change_pct": 7.74,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-10T22:03:56.448692"
+    "updated_at": "2026-07-10T23:41:28.429280"
   }
 },
   tickerScores: [
@@ -126,13 +126,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "TSLA",
+    "total_score": 442.0,
+    "raw_mention_count": 6,
+    "unique_sources": 1,
+    "podcast_mentions": 6,
+    "newsletter_mentions": 0,
+    "rank": 4,
+    "score": 442.0,
+    "mentions": 6,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "NVDA",
     "total_score": 376.0,
     "raw_mention_count": 13,
     "unique_sources": 2,
     "podcast_mentions": 5,
     "newsletter_mentions": 8,
-    "rank": 4,
+    "rank": 5,
     "score": 376.0,
     "mentions": 13,
     "conviction_level": "medium",
@@ -147,24 +162,9 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 6,
     "newsletter_mentions": 0,
-    "rank": 5,
+    "rank": 6,
     "score": 374.0,
     "mentions": 6,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "TSLA",
-    "total_score": 372.0,
-    "raw_mention_count": 5,
-    "unique_sources": 1,
-    "podcast_mentions": 5,
-    "newsletter_mentions": 0,
-    "rank": 6,
-    "score": 372.0,
-    "mentions": 5,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 357,
+      "title": "More Trillion Dollar IPOs, Anthropic $3T, Zuck's Price War, China Ends Open Source?, Trump Accounts",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-11",
+      "summary": "In this episode, the hosts discuss the ongoing rush of trillion-dollar IPOs, with SpaceX being a notable example. They touch on the performance of SpaceX post-IPO and the upcoming IPOs of companies like Anthropic. Additionally, the conversation delves into the United Nations' AI Commission and the implications of open-source AI for various countries. The hosts also explore the future of AI models, discussing the potential for a divergence rather than convergence in AI capabilities and the rise of verticalized AI models for specific industries.",
+      "key_takeaway": "Invest in companies at the forefront of AI development and those that can capitalize on the shift towards open-source AI models, as well as those creating verticalized AI solutions for specific industries.",
+      "tickers_mentioned": [
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 342
+    },
+    {
       "id": 354,
       "title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
       "source_type": "podcast",
@@ -970,7 +989,7 @@ const dashboardData = {
         "SAP"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-07",
       "archived_date": null,
@@ -7776,8 +7795,8 @@ const dashboardData = {
       "term": "K-shaped recovery",
       "description": "An economic recovery where wealth concentration increases, benefiting the wealthy while leaving the bottom half of the population behind.",
       "first_detected_date": "2026-06-10",
-      "last_mentioned_date": "2026-06-10",
-      "mention_count": 1,
+      "last_mentioned_date": "2026-07-11",
+      "mention_count": 2,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the impact of wealth disparity on consumer spending and economic growth.",
@@ -7786,7 +7805,7 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 279,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 279,
+      "last_mentioned_episode_id": 342,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
@@ -7938,8 +7957,8 @@ const dashboardData = {
       "term": "Jevon's Paradox",
       "description": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
       "first_detected_date": "2026-05-30",
-      "last_mentioned_date": "2026-05-07",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-07-11",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "As AI makes computation cheaper, total compute demand may explode\u2014benefiting chip makers, data centers, and power providers despite efficiency gains.",
@@ -7948,8 +7967,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 249,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 202,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 342,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 100,
@@ -8082,8 +8101,8 @@ const dashboardData = {
       "term": "Distillation",
       "description": "The process of reducing a large AI model into a smaller, more manageable one through API queries.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-01",
-      "mention_count": 19,
+      "last_mentioned_date": "2026-07-11",
+      "mention_count": 20,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Look for opportunities in technologies that enable efficient distillation to democratize AI capabilities.",
@@ -8092,8 +8111,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 326,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 342,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 174,
@@ -8710,20 +8729,20 @@ const dashboardData = {
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models that are publicly accessible and can be modified and shared by anyone, allowing enterprises to maintain control over their data and reduce reliance on proprietary models.",
+      "description": "AI models that are publicly accessible and can be modified and distributed by anyone, fostering innovation and collaboration.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-07-03",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-07-11",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investing in companies that utilize or develop open-source AI models can offer cost savings and data sovereignty.",
+      "investment_implications": "Investors should consider companies that contribute to or benefit from the open-source AI ecosystem, as it can accelerate innovation and reduce development costs.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 330,
-      "last_mentioned_speaker": "Alex Carp"
+      "last_mentioned_episode_id": 342,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 79,
@@ -9216,8 +9235,8 @@ const dashboardData = {
       "term": "AI Race",
       "description": "The global competition between nations to lead in AI development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-07-03",
-      "mention_count": 16,
+      "last_mentioned_date": "2026-07-11",
+      "mention_count": 17,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consider investing in companies and countries that are making significant strides in AI technology.",
@@ -9226,8 +9245,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 330,
-      "last_mentioned_speaker": "Alex Carp"
+      "last_mentioned_episode_id": 342,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 12,
@@ -9564,6 +9583,28 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 357,
+      "title": "More Trillion Dollar IPOs, Anthropic $3T, Zuck's Price War, China Ends Open Source?, Trump Accounts",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-11",
+      "summary": "In this episode, the hosts discuss the ongoing rush of trillion-dollar IPOs, with SpaceX being a notable example. They touch on the performance of SpaceX post-IPO and the upcoming IPOs of companies like Anthropic. Additionally, the conversation delves into the United Nations' AI Commission and the implications of open-source AI for various countries. The hosts also explore the future of AI models, discussing the potential for a divergence rather than convergence in AI capabilities and the rise of verticalized AI models for specific industries.",
+      "key_takeaway": "Invest in companies at the forefront of AI development and those that can capitalize on the shift towards open-source AI models, as well as those creating verticalized AI solutions for specific industries.",
+      "tickers_mentioned": "[\"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 342,
+      "episode_release_date": "2026-07-11",
+      "guest_name": null,
+      "key_tickers": [
+        "TSLA"
+      ]
+    },
+    {
       "id": 354,
       "title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
       "source_type": "podcast",
@@ -9686,29 +9727,6 @@ const dashboardData = {
       "episode_release_date": "2026-07-08",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 349,
-      "title": "Is Software Losing Its Head?",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-07-07",
-      "summary": "This episode of 'The a16z Show' delves into the evolving landscape of enterprise software with a focus on the rise of headless software and AI agents. The discussion highlights how AI-driven workflows are challenging traditional enterprise software design, the stickiness of enterprise systems, and the opportunities created by automation. The hosts and guests explore the implications of these trends for startups and investors, emphasizing the importance of bridging gaps between legacy systems and new AI capabilities.",
-      "key_takeaway": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
-      "tickers_mentioned": "[\"WORK\", \"SAP\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-07",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 334,
-      "episode_release_date": "2026-07-07",
-      "guest_name": null,
-      "key_tickers": [
-        "WORK",
-        "SAP"
-      ]
     },
     {
       "id": 350,
@@ -9935,6 +9953,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-06-29"
     },
     {
+      "id": 11,
+      "term": "Jevon's Paradox",
+      "description": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
+      "first_detected_date": "2026-05-30",
+      "last_mentioned_date": "2026-07-11",
+      "mention_count": 7,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "As AI makes computation cheaper, total compute demand may explode\u2014benefiting chip makers, data centers, and power providers despite efficiency gains.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 249,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 342,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "overton_score": 7.0,
+      "resonance_pct": 100,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
+      "first_detected_episode_date": "2026-05-30",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "More Trillion Dollar IPOs, Anthropic $3T, Zuck's Price War, China Ends Open Source?, Trump Accounts",
+      "last_mentioned_episode_date": "2026-07-11"
+    },
+    {
       "id": 254,
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
@@ -9959,6 +10003,32 @@ const dashboardData = {
       "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "last_mentioned_episode_title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
       "last_mentioned_episode_date": "2026-07-10"
+    },
+    {
+      "id": 243,
+      "term": "K-shaped recovery",
+      "description": "An economic recovery where wealth concentration increases, benefiting the wealthy while leaving the bottom half of the population behind.",
+      "first_detected_date": "2026-06-10",
+      "last_mentioned_date": "2026-07-11",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the impact of wealth disparity on consumer spending and economic growth.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 279,
+      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "last_mentioned_episode_id": 342,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "overton_score": 2.0,
+      "resonance_pct": 50,
+      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "first_detected_episode_title": "Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner",
+      "first_detected_episode_date": "2026-06-10",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "More Trillion Dollar IPOs, Anthropic $3T, Zuck's Price War, China Ends Open Source?, Trump Accounts",
+      "last_mentioned_episode_date": "2026-07-11"
     },
     {
       "id": 256,
@@ -10011,32 +10081,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Building AI for Creators | Luma & Phota Labs",
       "last_mentioned_episode_date": "2026-06-30"
-    },
-    {
-      "id": 11,
-      "term": "Jevon's Paradox",
-      "description": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
-      "first_detected_date": "2026-05-30",
-      "last_mentioned_date": "2026-05-07",
-      "mention_count": 6,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "As AI makes computation cheaper, total compute demand may explode\u2014benefiting chip makers, data centers, and power providers despite efficiency gains.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 249,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": 202,
-      "last_mentioned_speaker": null,
-      "overton_score": 1.37,
-      "resonance_pct": 34,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
-      "first_detected_episode_date": "2026-05-30",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
-      "last_mentioned_episode_date": "2026-05-07"
     },
     {
       "id": 194,
@@ -10152,32 +10196,6 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors can capitalize on this discrepancy for potential equity appreciation as the market recognizes the company's true value.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 283,
-      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 283,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "overton_score": 0.52,
-      "resonance_pct": 13,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
-      "first_detected_episode_date": "2026-06-12",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
-      "last_mentioned_episode_date": "2026-06-12"
-    },
-    {
-      "id": 249,
-      "term": "RTK Network",
-      "description": "A Real-Time Kinematic (RTK) network is a system used for precise geolocation, leveraging satellite signals and ground-based reference stations.",
-      "first_detected_date": "2026-06-12",
-      "last_mentioned_date": "2026-06-12",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider companies with RTK networks for their potential in high-precision location services and applications.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -31324,9 +31342,74 @@ const dashboardData = {
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-07-10",
     "key_tickers": []
+  },
+  "357": {
+    "id": 347,
+    "insight_id": 357,
+    "podcast_episode_id": 342,
+    "overview": "The competitive dynamic in the AI and tech industry is characterized by a rush towards trillion-dollar IPOs, with companies like SpaceX and Anthropic at the forefront. The tension lies in the market's appetite for such high-valued IPOs and the sustainability of the current cost structures in AI development. The allocation tradeoff for investors is whether to capitalize on the potential blockbuster IPOs or to wait for market signals that indicate a more stable and less speculative environment.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the token spend and productivity ratios of AI companies as indicators of financial health and scalability.",
+      "The success of SpaceX's IPO sets a precedent that could influence the valuation and market reception of Anthropic and other tech IPOs.",
+      "The potential divergence in AI capabilities towards verticalized models suggests a shift in investment focus towards companies that can tailor AI solutions for specific industries.",
+      "Keep an eye on the regulatory environment and policy decisions that could impact the open-source AI movement and the UN's AI Commission's recommendations."
+    ],
+    "investment_thesis": "The ongoing rush of trillion-dollar IPOs, particularly in the AI sector, presents an opportunity for investors to capitalize on the market's appetite for high-growth tech companies. The success of SpaceX's IPO and the anticipated performance of Anthropic suggest that companies with strong revenue growth and profitability are well-positioned to attract investment. However, the increasing costs of AI development and the potential for a divergence in AI capabilities introduce risks that could affect valuations. A timeframe of 12-24 months is relevant to assess the sustainability of current valuations and the impact of AI cost structures on company performance. Observable developments that would vindicate this thesis include successful high-value IPOs and consistent revenue growth in the AI sector, while a significant market downturn or regulatory hurdles could invalidate it.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's involvement in AI development and its potential to benefit from verticalized AI solutions makes it a relevant ticker in this thesis.",
+        "positioning": "Strategic long position, as Apple's diversified portfolio and investment in AI could provide stability and growth potential.",
+        "risk": "Key risks include increased competition in the AI space and potential regulatory changes that could impact AI development and deployment."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant market downturn that reduces the appetite for high-risk, high-reward tech IPOs.",
+      "Regulatory changes that increase the cost or complexity of going public, potentially delaying or derailing planned IPOs.",
+      "A shift in investor sentiment towards more conservative valuations, which could affect the perceived value of tech companies."
+    ],
+    "catalysts": [
+      "The actual performance of SpaceX post-IPO and its impact on the market's perception of tech valuations.",
+      "The filing and progress towards the IPO of Anthropic and its potential to set a new benchmark for AI company valuations.",
+      "Developments in the UN's AI Commission and its recommendations on open-source AI, which could influence global AI policy and development.",
+      "Quarterly financial reports from AI companies that could indicate the sustainability of their cost structures and growth trajectories."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-10T23:40:43.539613",
+    "updated_at": "2026-07-11 04:40:43",
+    "episode_evidence": "The podcast episode provided a detailed discussion on the recent and upcoming IPOs, particularly focusing on SpaceX and Anthropic. SpaceX's IPO was described as 'textbook', having raised $75 billion at a $1.75 trillion valuation, which is trading at around $2 trillion on roughly $35 billion of forward revenue. This sets a high bar for upcoming IPOs like Anthropic, which is rumored to be trending over $100 billion in revenue, potentially making its IPO a 'blockbuster'. The hosts also touched on the increasing costs of AI token spend, which is doubling every 45 days with only a 5% increase in productivity, indicating a potential reckoning for companies in the AI space. 'Our token costs are doubling every 45 days. My upside is essentially flat,' said one of the hosts, highlighting the financial strain on companies as they scale AI capabilities. The discussion also hinted at a divergence in AI capabilities, suggesting that instead of a convergence towards a universal AI model, there may be a rise in verticalized AI models tailored for specific industries.",
+    "falsification_tracks": [
+      "SpaceX's market cap falling below $1.5 trillion, indicating a lack of market confidence in the valuation of tech IPOs.",
+      "Anthropic's revenue not reaching the rumored $100 billion, suggesting the company may not be as competitive as anticipated.",
+      "A significant slowdown in the rate at which AI token costs are increasing, which would challenge the narrative of exponential growth in AI development costs.",
+      "Failure of any of the discussed companies to go public within the next 12 months, which would indicate a weaker market for tech IPOs than the hosts predict.",
+      "A decline in the performance of verticalized AI models in specific industries, suggesting that the market may not be ready for such specialized solutions."
+    ],
+    "insight_title": "More Trillion Dollar IPOs, Anthropic $3T, Zuck's Price War, China Ends Open Source?, Trump Accounts",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-07-11",
+    "key_tickers": [
+      "TSLA"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 511,
+    "term": "Verticalized AI Models",
+    "definition": "Customized AI models tailored to specific industry needs, offering more precise and efficient solutions compared to generalized AI models.",
+    "investment_implications": "Investors should look for companies that are developing or utilizing verticalized AI models to gain a competitive edge in their respective industries.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-11 04:38:41",
+    "priority_score": 80
+  },
   {
     "id": 509,
     "term": "General Relativity",
@@ -31362,23 +31445,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-10 17:02:18",
     "priority_score": 80
-  },
-  {
-    "id": 507,
-    "term": "Proof of stake",
-    "definition": "A consensus mechanism in blockchain technology where validators are chosen to create new blocks based on their holdings of the cryptocurrency, rather than their computational power.",
-    "investment_implications": "Proof of stake systems can offer improved efficiency and security, influencing the potential of blockchain projects.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-10 17:02:18",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 29155,
+    "id": 29249,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -31390,7 +31461,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 29156,
+    "id": 29250,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -31402,7 +31473,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 29157,
+    "id": 29251,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -31414,7 +31485,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 29158,
+    "id": 29252,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -31426,7 +31497,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 29159,
+    "id": 29253,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -31438,7 +31509,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 29160,
+    "id": 29254,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -31450,7 +31521,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 29161,
+    "id": 29255,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -31462,7 +31533,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 29162,
+    "id": 29256,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -31474,7 +31545,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 29163,
+    "id": 29257,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -31486,7 +31557,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 29164,
+    "id": 29258,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -31498,7 +31569,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 29165,
+    "id": 29259,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -31510,7 +31581,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 29166,
+    "id": 29260,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -31522,7 +31593,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 29167,
+    "id": 29261,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -31534,7 +31605,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 29168,
+    "id": 29262,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -31546,7 +31617,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 29169,
+    "id": 29263,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -31558,7 +31629,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 29170,
+    "id": 29264,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -31570,7 +31641,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 29171,
+    "id": 29265,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -31582,7 +31653,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 29172,
+    "id": 29266,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -31594,7 +31665,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 29173,
+    "id": 29267,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -31606,7 +31677,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 29174,
+    "id": 29268,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -31825,7 +31896,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-10",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
     "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
@@ -31889,7 +31960,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-03",
     "mention_score": 2,
-    "mention_score_decayed": 1.74,
+    "mention_score_decayed": 1.7,
     "last_main_idea": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-03 \u2022 AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Sure, favorite podcast. It's your podcast. It's your favorite podcast. It's the all-in podcast episode two, seven, nine with me, freebergs, tax, to my, you know, the",
@@ -31949,7 +32020,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 1.18,
+    "mention_score_decayed": 1.15,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -33404,7 +33475,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-05 \u2022 The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. The new Fed Chair Kevin Worsh has made it no secret that he prefers a sm",
@@ -33834,7 +33905,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-29 \u2022 Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
     "last_proof_snippet": "I am so glad today we have a very special guest, one of my favorite authors of all time Leakwet Ahamed, who's the author of the new book 1873, The Roth Childs, The First Great Depression, and The Making of the Modern World Leakwet. Welcome",
@@ -33961,7 +34032,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
     "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
@@ -34145,7 +34216,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-23 \u2022 GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
     "last_proof_snippet": "Everyone hates GameStop and it seems like everyone in the media basically wants us to fail and wants them to succeed and you've got a board that's making hundreds of thousands of dollars a year and they don't buy stock with their own money.",
@@ -34275,7 +34346,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-22 \u2022 Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
     "last_proof_snippet": "Okay, we're here in a studio with Grace One, Matt and Zico welcome. Great to be here. Yeah. Thanks for having us. You're visiting from Pittsburgh? That's right. The home of all good computer science, I don't know if I'm oversteaving things.",
@@ -34338,7 +34409,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -34402,7 +34473,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -34461,7 +34532,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -34520,7 +34591,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -34585,7 +34656,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -35014,7 +35085,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -35862,7 +35933,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -36054,7 +36125,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
@@ -39371,7 +39442,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -40949,7 +41020,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
     "last_proof_snippet": "AI is a shortcut that can be beneficial but also presents challenges in debugging and understanding.",
@@ -43164,7 +43235,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_proof_snippet": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229 00:00:00 I am blown away by how far you've come. The things that you can do with Neural Nets now does completely",
@@ -43228,7 +43299,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "last_proof_cite": "The a16z Show \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
     "last_proof_snippet": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. If you were starting from scratch today,",
