@@ -1,5 +1,21 @@
 [
   {
+    "id": 343,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Before Blockchains, There Was State Machine Replication",
+    "episode_date": "2026-07-13",
+    "summary": "In this episode of the A16Z Crypto Show, hosts Tim Ruffgarten and Thai Abraham interview Turing Award winner Barbara Liskov, a pioneer in distributed systems whose work laid the groundwork for modern blockchain protocols. The conversation covers Liskov's entry into distributed systems research, the evolution of replication protocols, and the impact of emerging technologies like AI on systems research. Liskov shares insights on the importance of understanding theoretical computer science and its influence on practical applications, as well as her views on the future of computer science and the role of research in addressing societal challenges.",
+    "key_takeaways": [
+      "Barbara Liskov's pioneering work in distributed systems, state machine replication, and practical Byzantine fault tolerance has had a profound impact on blockchain protocols.",
+      "Understanding theoretical computer science is crucial for practical applications, as it forms the backbone of the field.",
+      "The advent of AI presents both challenges and opportunities for computer science research, with systems research playing a significant role in addressing emerging problems.",
+      "Liskov emphasizes the importance of truly understanding the principles behind complex protocols and the need for verification tools to ensure the correctness of AI-generated code.",
+      "There is a growing need for research in modifying or containing the negative impacts of technology, such as enabling bad behavior."
+    ],
+    "investment_thesis": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
+    "key_tickers": null
+  },
+  {
     "id": 342,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "More Trillion Dollar IPOs, Anthropic $3T, Zuck's Price War, China Ends Open Source?, Trump Accounts",
@@ -118,23 +134,5 @@
     ],
     "investment_thesis": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
     "key_tickers": null
-  },
-  {
-    "id": 335,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Breaking Down the Multi-Manager Playbook: How This $19B CIO Thinks About Alpha | Sean McGould | The Lighthouse Group",
-    "episode_date": "2026-07-07",
-    "summary": "This episode of 'Monetary Matters with Jack Farley' delves into Japan's corporate governance reforms and their impact on market performance, the rising demand for hedge funds, particularly liquid strategies, and the role of market neutral strategies in volatile environments. It also discusses the influence of AI on global markets and the evolving dynamics of the hedge fund industry. The podcast highlights regulatory changes in Asia that are driving investment and the implications for retail and institutional investors.",
-    "key_takeaways": [
-      "Consider increasing exposure to Japanese equities, especially those benefiting from governance reforms.",
-      "Evaluate hedge fund allocations with a focus on liquid strategies for portfolio resilience.",
-      "Incorporate market neutral strategies to manage risk and stabilize returns during market volatility.",
-      "Explore investment opportunities in Asian markets, particularly sectors experiencing regulatory support.",
-      "Assess portfolio exposure to AI-related companies and sectors to balance long and short positions."
-    ],
-    "investment_thesis": "Invest in Japanese equities and multi-strategy hedge funds to capitalize on governance reforms and diversify risk.",
-    "key_tickers": [
-      "NIKKEI"
-    ]
   }
 ]

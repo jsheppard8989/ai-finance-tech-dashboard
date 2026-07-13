@@ -1,6 +1,28 @@
 {
   "insights": [
     {
+      "id": 358,
+      "title": "Before Blockchains, There Was State Machine Replication",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-13",
+      "summary": "In this episode of the A16Z Crypto Show, hosts Tim Ruffgarten and Thai Abraham interview Turing Award winner Barbara Liskov, a pioneer in distributed systems whose work laid the groundwork for modern blockchain protocols. The conversation covers Liskov's entry into distributed systems research, the evolution of replication protocols, and the impact of emerging technologies like AI on systems research. Liskov shares insights on the importance of understanding theoretical computer science and its influence on practical applications, as well as her views on the future of computer science and the role of research in addressing societal challenges.",
+      "key_takeaway": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 343
+    },
+    {
       "id": 357,
       "title": "More Trillion Dollar IPOs, Anthropic $3T, Zuck's Price War, China Ends Open Source?, Trump Accounts",
       "source_type": "podcast",
@@ -175,7 +197,7 @@
         "NIKKEI"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-07",
       "archived_date": null,
@@ -6813,6 +6835,24 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 257,
+      "term": "Byzantine fault tolerance",
+      "description": "A problem in distributed computing where a system must reach consensus despite the presence of faulty or malicious nodes.",
+      "first_detected_date": "2026-07-10",
+      "last_mentioned_date": "2026-07-13",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Understanding Byzantine fault tolerance is crucial for evaluating the robustness and security of blockchain protocols.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 340,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 343,
+      "last_mentioned_speaker": "Barbara Liskov"
+    },
     {
       "id": 43,
       "term": "ASI",

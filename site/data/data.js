@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-13T06:37:22.874211",
-  chartsVersion: "2026-07-13T06:37:08.461487",
+  generatedAt: "2026-07-13T12:07:10.443047",
+  chartsVersion: "2026-07-13T12:06:55.830350",
   priceSnapshot: {
   "GOOGL": {
-    "price": 357.18,
-    "change_pct": 2.14,
+    "price": 355.5,
+    "change_pct": 2.71,
     "name": "GOOGL",
-    "updated_at": "2026-07-13T06:37:08.460297"
+    "updated_at": "2026-07-13T12:06:55.829860"
   },
   "BTC": {
-    "price": 62915.56,
-    "change_pct": 7.44,
+    "price": 62212.96,
+    "change_pct": 6.24,
     "name": "BTC",
-    "updated_at": "2026-07-13T06:37:08.460318"
+    "updated_at": "2026-07-13T12:06:55.829872"
   },
   "MSFT": {
-    "price": 385.1,
-    "change_pct": 4.83,
+    "price": 392.78,
+    "change_pct": 5.04,
     "name": "MSFT",
-    "updated_at": "2026-07-13T06:37:08.460328"
+    "updated_at": "2026-07-13T12:06:55.829876"
   },
   "TSLA": {
-    "price": 407.76,
-    "change_pct": 0.67,
+    "price": 393.88,
+    "change_pct": 3.22,
     "name": "TSLA",
-    "updated_at": "2026-07-13T06:37:08.460337"
+    "updated_at": "2026-07-13T12:06:55.829880"
   },
   "NVDA": {
-    "price": 210.96,
-    "change_pct": 1.11,
+    "price": 204.65,
+    "change_pct": 2.31,
     "name": "NVDA",
-    "updated_at": "2026-07-13T06:37:08.460345"
+    "updated_at": "2026-07-13T12:06:55.829884"
   },
   "AMZN": {
-    "price": 245.34,
-    "change_pct": 5.39,
+    "price": 247.83,
+    "change_pct": 5.86,
     "name": "AMZN",
-    "updated_at": "2026-07-13T06:37:08.460354"
+    "updated_at": "2026-07-13T12:06:55.829887"
   },
   "WTI": {
-    "price": 3.37,
-    "change_pct": 1.81,
+    "price": 3.47,
+    "change_pct": 4.17,
     "name": "WTI",
-    "updated_at": "2026-07-13T06:37:08.460364"
+    "updated_at": "2026-07-13T12:06:55.829891"
   },
   "META": {
-    "price": 669.21,
-    "change_pct": 18.69,
+    "price": 658.77,
+    "change_pct": 17.18,
     "name": "META",
-    "updated_at": "2026-07-13T06:37:08.460373"
+    "updated_at": "2026-07-13T12:06:55.829895"
   },
   "S&P 500": {
-    "price": 754.95,
-    "change_pct": 1.42,
+    "price": 750.05,
+    "change_pct": 2.25,
     "name": "S&P 500",
-    "updated_at": "2026-07-13T06:37:08.460383"
+    "updated_at": "2026-07-13T12:06:55.829898"
   },
   "AAPL": {
-    "price": 315.32,
-    "change_pct": 6.16,
+    "price": 316.5,
+    "change_pct": 7.54,
     "name": "AAPL",
-    "updated_at": "2026-07-13T06:37:08.460392"
+    "updated_at": "2026-07-13T12:06:55.829902"
   },
   "QQQ": {
-    "price": 725.51,
-    "change_pct": -1.69,
+    "price": 713.57,
+    "change_pct": -0.01,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-13T06:37:08.460400"
+    "updated_at": "2026-07-13T12:06:55.829906"
   },
   "BTC-USD": {
-    "price": 62902.93,
-    "change_pct": 7.42,
+    "price": 62212.96,
+    "change_pct": 6.24,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-13T06:37:08.460410"
+    "updated_at": "2026-07-13T12:06:55.829910"
   }
 },
   tickerScores: [
@@ -834,6 +834,28 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 358,
+      "title": "Before Blockchains, There Was State Machine Replication",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-13",
+      "summary": "In this episode of the A16Z Crypto Show, hosts Tim Ruffgarten and Thai Abraham interview Turing Award winner Barbara Liskov, a pioneer in distributed systems whose work laid the groundwork for modern blockchain protocols. The conversation covers Liskov's entry into distributed systems research, the evolution of replication protocols, and the impact of emerging technologies like AI on systems research. Liskov shares insights on the importance of understanding theoretical computer science and its influence on practical applications, as well as her views on the future of computer science and the role of research in addressing societal challenges.",
+      "key_takeaway": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 343
+    },
+    {
       "id": 357,
       "title": "More Trillion Dollar IPOs, Anthropic $3T, Zuck's Price War, China Ends Open Source?, Trump Accounts",
       "source_type": "podcast",
@@ -1008,7 +1030,7 @@ const dashboardData = {
         "NIKKEI"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-07",
       "archived_date": null,
@@ -7647,6 +7669,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 257,
+      "term": "Byzantine fault tolerance",
+      "description": "A problem in distributed computing where a system must reach consensus despite the presence of faulty or malicious nodes.",
+      "first_detected_date": "2026-07-10",
+      "last_mentioned_date": "2026-07-13",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Understanding Byzantine fault tolerance is crucial for evaluating the robustness and security of blockchain protocols.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 340,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 343,
+      "last_mentioned_speaker": "Barbara Liskov"
+    },
+    {
       "id": 43,
       "term": "ASI",
       "description": "An intellect that is much smarter than the best human brains in practically every field, including scientific creativity, general wisdom, and social skills.",
@@ -9583,6 +9623,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 358,
+      "title": "Before Blockchains, There Was State Machine Replication",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-13",
+      "summary": "In this episode of the A16Z Crypto Show, hosts Tim Ruffgarten and Thai Abraham interview Turing Award winner Barbara Liskov, a pioneer in distributed systems whose work laid the groundwork for modern blockchain protocols. The conversation covers Liskov's entry into distributed systems research, the evolution of replication protocols, and the impact of emerging technologies like AI on systems research. Liskov shares insights on the importance of understanding theoretical computer science and its influence on practical applications, as well as her views on the future of computer science and the role of research in addressing societal challenges.",
+      "key_takeaway": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 343,
+      "episode_release_date": "2026-07-13",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 357,
       "title": "More Trillion Dollar IPOs, Anthropic $3T, Zuck's Price War, China Ends Open Source?, Trump Accounts",
       "source_type": "podcast",
@@ -9727,28 +9787,6 @@ const dashboardData = {
       "episode_release_date": "2026-07-08",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 350,
-      "title": "Breaking Down the Multi-Manager Playbook: How This $19B CIO Thinks About Alpha | Sean McGould | The Lighthouse Group",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-07-07",
-      "summary": "This episode of 'Monetary Matters with Jack Farley' delves into Japan's corporate governance reforms and their impact on market performance, the rising demand for hedge funds, particularly liquid strategies, and the role of market neutral strategies in volatile environments. It also discusses the influence of AI on global markets and the evolving dynamics of the hedge fund industry. The podcast highlights regulatory changes in Asia that are driving investment and the implications for retail and institutional investors.",
-      "key_takeaway": "Invest in Japanese equities and multi-strategy hedge funds to capitalize on governance reforms and diversify risk.",
-      "tickers_mentioned": "[\"NIKKEI\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-07",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 335,
-      "episode_release_date": "2026-07-07",
-      "guest_name": "Breaking Down the Multi-Manager Playbook",
-      "key_tickers": [
-        "NIKKEI"
-      ]
     }
   ],
   "definitions": [
@@ -31395,9 +31433,95 @@ const dashboardData = {
     "key_tickers": [
       "TSLA"
     ]
+  },
+  "358": {
+    "id": 348,
+    "insight_id": 358,
+    "podcast_episode_id": 343,
+    "overview": "The unresolved tension in the field of distributed systems, as highlighted by Barbara Liskov's work, is the balance between system reliability and the threat of malicious attacks or component failures. The competitive dynamic is between traditional replication techniques and emerging technologies that promise enhanced security and efficiency. The metric that arbitrates this uncertainty is the resilience and performance of distributed systems under real-world conditions, with the horizon of proof being the successful implementation and scaling of blockchain technologies.",
+    "key_takeaways_detailed": [
+      "Investors should monitor advancements in distributed systems research for potential improvements or disruptions to the current blockchain protocols, as these could significantly impact the valuation of blockchain-related companies.",
+      "The replication techniques developed by Liskov and her contemporaries are still fundamental to blockchain technology, suggesting that companies contributing to the evolution of these techniques could offer investment opportunities.",
+      "The integration of AI in systems research, as mentioned by Liskov, could lead to new paradigms in distributed systems, potentially creating a new wave of innovation and investment opportunities in the blockchain space."
+    ],
+    "investment_thesis": "Given the foundational role of state machine replication in modern blockchains, an investment thesis could focus on companies and technologies that are advancing the efficiency and security of these protocols. A vindication of this thesis would be the successful deployment of a blockchain solution that leverages advanced replication techniques to overcome current scalability and security challenges, while an invalidation would be the emergence of a fundamentally different consensus mechanism that outperforms state machine replication.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in security and privacy technologies, along with its potential interest in blockchain for supply chain management, makes it relevant to the thesis.",
+        "positioning": "Strategic long position, as Apple's innovation in these areas could drive value for shareholders over the long term.",
+        "risk": "Key risks include regulatory hurdles that could impede the development or adoption of blockchain technology, and competitive pressures from other tech giants."
+      },
+      "GOOGL": {
+        "rationale": "Google's extensive research in AI and potential applications in distributed systems makes it a relevant player.",
+        "positioning": "Tactical long position, as Google could benefit from short-term advancements in AI for distributed systems.",
+        "risk": "The risk lies in Google's ability to successfully commercialize AI in distributed systems and compete with other tech giants in this space."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's active engagement in blockchain technology and its Azure platform's support for blockchain applications aligns with the thesis.",
+        "positioning": "Strategic long position, as Microsoft's continued investment in blockchain could yield dividends.",
+        "risk": "Risks include technological obsolescence if new consensus mechanisms emerge that render current blockchain protocols less relevant."
+      },
+      "AMZN": {
+        "rationale": "Amazon's potential use of blockchain in cloud services and its investment in distributed systems research is relevant.",
+        "positioning": "Strategic long position, as Amazon's cloud services could benefit from advancements in distributed systems.",
+        "risk": "The risk is that Amazon may not be able to maintain its lead in cloud services if new technologies disrupt the market."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that current blockchain protocols are inherently secure and efficient, and thus no significant advancements are needed.",
+      "A skepticism towards the utility of AI in improving distributed systems, potentially underestimating its transformative potential.",
+      "The view that the current pace of blockchain adoption is too slow to justify significant investments in the technology."
+    ],
+    "catalysts": [
+      "Publication of new research papers or patents in distributed systems that could lead to breakthroughs in blockchain technology.",
+      "Regulatory decisions that either support or hinder the development and adoption of blockchain technologies.",
+      "Major tech conferences or events where new advancements in distributed systems and blockchain are showcased."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-13T12:05:15.270155",
+    "updated_at": "2026-07-13 17:05:15",
+    "episode_evidence": "Barbara Liskov's entry into distributed systems research was sparked by DARPA's recognition of the need for research in the face of malicious attacks, as she recalls, 'DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area.' This led to her and her student Miguel Castro developing a replication protocol that could handle such attacks, which Liskov describes as 'a great idea.' The problem they aimed to solve was the failure of the primary in a protocol, which would cause the entire system to crash, as she explains, 'if the primary fail, the primary that was running in the protocol, the whole city came to a crashing halt.' Their solution involved a protocol where backups would initiate another protocol to make a different replica the primary if the primary seemed to fail. This foundational work laid the groundwork for modern blockchain protocols, which rely on replication techniques first developed in the 1980s, as noted in the podcast, 'Every blockchain today relies on replication techniques first developed in the 1980s, years before anyone imagined cryptocurrencies.'",
+    "falsification_tracks": [
+      "If there is a significant security breach in a major blockchain that cannot be explained or resolved using the principles of state machine replication and Byzantine fault tolerance, it would challenge the foundational resilience of blockchain technology.",
+      "A failure of distributed systems to scale efficiently under increased computational demands could indicate that the current replication protocols are reaching their limits, reducing the viability of blockchain applications.",
+      "If academic research or industry developments produce a new consensus mechanism that significantly outperforms state machine replication in terms of security and efficiency, it could undermine the current blockchain protocols based on Liskov's work."
+    ],
+    "insight_title": "Before Blockchains, There Was State Machine Replication",
+    "source_name": "The a16z Show",
+    "source_date": "2026-07-13",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 512,
+    "term": "Practical Byzantine Fault Tolerance (PBFT)",
+    "definition": "A protocol for achieving consensus in a distributed system, even in the presence of malicious nodes.",
+    "investment_implications": "PBFT is foundational for understanding the reliability and security of blockchain protocols.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-13 17:03:39",
+    "priority_score": 80
+  },
+  {
+    "id": 513,
+    "term": "State Machine Replication",
+    "definition": "A method of replicating the state and behavior of a system across multiple nodes to ensure consistency and fault tolerance.",
+    "investment_implications": "State machine replication is crucial for maintaining the integrity and reliability of distributed systems, including blockchains.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-13 17:03:39",
+    "priority_score": 80
+  },
   {
     "id": 511,
     "term": "Verticalized AI Models",
@@ -31421,35 +31545,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-10 18:35:37",
     "priority_score": 80
-  },
-  {
-    "id": 510,
-    "term": "Event Horizon",
-    "definition": "The boundary around a black hole beyond which events cannot affect an outside observer, meaning anything that passes this point will inevitably be drawn into the black hole.",
-    "investment_implications": "Concepts like the event horizon are crucial for understanding the physics of space and can influence investments in space exploration and astrophysics research.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-10 18:35:37",
-    "priority_score": 80
-  },
-  {
-    "id": 506,
-    "term": "Byzantine fault tolerance",
-    "definition": "A problem in distributed computing where a system must reach consensus despite the presence of faulty or malicious nodes.",
-    "investment_implications": "Understanding Byzantine fault tolerance is crucial for evaluating the robustness and security of blockchain protocols.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-10 17:02:18",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 30565,
+    "id": 30659,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -31461,7 +31561,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30566,
+    "id": 30660,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -31473,7 +31573,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30567,
+    "id": 30661,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -31485,7 +31585,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30568,
+    "id": 30662,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -31497,7 +31597,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30569,
+    "id": 30663,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -31509,7 +31609,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30570,
+    "id": 30664,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -31521,7 +31621,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30571,
+    "id": 30665,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -31533,7 +31633,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30572,
+    "id": 30666,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -31545,7 +31645,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30573,
+    "id": 30667,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -31557,7 +31657,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30574,
+    "id": 30668,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -31569,7 +31669,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30575,
+    "id": 30669,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -31581,7 +31681,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30576,
+    "id": 30670,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -31593,7 +31693,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30577,
+    "id": 30671,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -31605,7 +31705,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30578,
+    "id": 30672,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -31617,7 +31717,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30579,
+    "id": 30673,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -31629,7 +31729,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30580,
+    "id": 30674,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -31641,7 +31741,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30581,
+    "id": 30675,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -31653,7 +31753,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30582,
+    "id": 30676,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -31665,7 +31765,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 30583,
+    "id": 30677,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -31677,7 +31777,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30584,
+    "id": 30678,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -32082,7 +32182,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.1,
+    "mention_score_decayed": 1.07,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
@@ -33074,6 +33174,76 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 329,
+    "name": "Barbara Liskov",
+    "slug": "barbara-liskov",
+    "bio": "Barbara Liskov is a Turing Award-winning computer scientist renowned for her pioneering work in distributed systems, particularly in the areas of state machine replication and practical Byzantine fault tolerance. Her research has significantly impacted the development of secure and reliable systems, including the advent of blockchain technology.",
+    "known_for": "Her groundbreaking work in distributed systems, especially state machine replication and Byzantine fault tolerance, which has shaped the security and reliability of modern computing systems.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Reflective and authoritative.",
+    "voice_style": "Liskov speaks with a focus on the importance of understanding theoretical foundations and their practical applications.",
+    "voice_delivery_notes": "Liskov's delivery is measured and thoughtful, emphasizing key points with clarity.",
+    "voice_profile_updated_at": "2026-07-13 17:03:39",
+    "last_seen": "2026-07-13 17:03:39",
+    "last_episode_title": "Before Blockchains, There Was State Machine Replication",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-13",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
+    "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro. We came to me and he said, why don't we see whether we can figure out a way to",
+    "supporting_takeaway": "Understanding theoretical computer science is crucial for practical applications, as it forms the backbone of the field.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-13T12:04:24.666964",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Barbara Liskov",
+      "fetched_at": "2026-07-13T17:04:24.666605+00:00",
+      "cliff_notes": "Barbara Liskov is a distinguished computer scientist whose career has been marked by significant contributions to the field of distributed systems. She earned her Ph.D. from Stanford University and later joined the faculty at MIT, where she became an Institute Professor. Liskov's work on state machine replication and Byzantine fault tolerance has been pivotal in ensuring the reliability and security of distributed systems, especially in the face of malicious attacks. Her protocols have been instrumental in the development of blockchain technology, which relies heavily on replication techniques. Liskov's influence extends beyond her research, as she has mentored numerous students and has been a proponent of impactful computer science research.",
+      "derived": {
+        "former_positions": "Institute Professor Emerita, Massachusetts Institute of Technology;",
+        "education": "Ph.D. in Computer Science, Stanford University; M.S. in Mathematics, University of California, Berkeley; B.S. in Mathematics, University of California, Berkeley;",
+        "books_or_works": "Principles of Distributed Systems; A History of Programming Languages;",
+        "teaching_summary": "Professor of Electrical Engineering and Computer Science, Massachusetts Institute of Technology;"
+      },
+      "infobox": {
+        "Born": "1939",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Barbara Liskov is a distinguished computer scientist whose career has been marked by significant contributions to the field of distributed systems. She earned her Ph.D. from Stanford University and later joined the faculty at MIT, where she became an Institute Professor. Liskov's work on state machine replication and Byzantine fault tolerance has been pivotal in ensuring the reliability and security of distributed systems, especially in the face of malicious attacks.",
+        "Her protocols have been instrumental in the development of blockchain technology, which relies heavily on replication techniques. Liskov's influence extends beyond her research, as she has mentored numerous students and has been a proponent of impactful computer science research."
+      ],
+      "sections": [
+        {
+          "heading": "Distributed Systems",
+          "body": "Barbara Liskov's work in distributed systems has been foundational, particularly her contributions to state machine replication and Byzantine fault tolerance."
+        },
+        {
+          "heading": "State Machine Replication",
+          "body": "Liskov's research on state machine replication has provided a robust framework for maintaining consistency across distributed systems, even in the presence of faults."
+        },
+        {
+          "heading": "Byzantine Fault Tolerance",
+          "body": "Her work on Byzantine fault tolerance has been crucial for developing systems that can tolerate malicious attacks while ensuring reliability."
+        },
+        {
+          "heading": "Blockchain Technology",
+          "body": "Liskov's replication techniques have been fundamental in the development of blockchain technology, which relies on secure and reliable distributed ledgers."
+        },
+        {
+          "heading": "Research Impact",
+          "body": "Her research has had a profound impact on the field of computer science, influencing the design and implementation of secure and reliable systems."
+        }
+      ]
+    }
+  },
+  {
     "id": 328,
     "name": "Adam Brown",
     "slug": "adam-brown",
@@ -33161,7 +33331,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -33227,7 +33397,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -33288,7 +33458,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-08 \u2022 Adam Neumann: This Is How You Build Iconic Companies",
     "last_proof_snippet": "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
@@ -33353,7 +33523,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -33412,7 +33582,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -33596,7 +33766,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -33780,7 +33950,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
     "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
@@ -33841,7 +34011,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -34092,7 +34262,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -34156,7 +34326,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -34959,7 +35129,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -35022,7 +35192,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in Axiom Math for its pioneering role in verified AI for mathematics, which has the potential to drive innovation and efficiency in problem-solving across various fields.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
     "last_proof_snippet": "But it's for the first time now I think verified AI is to open up collaboration. Either it's human AI collaboration. Well, before a blueprint like that's human human collaboration. And Lin was a grounding, was a verification formal language",
@@ -35528,7 +35698,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -35657,7 +35827,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -35723,7 +35893,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -35998,7 +36168,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -36062,7 +36232,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -36381,7 +36551,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -36564,7 +36734,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -36628,7 +36798,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -37311,7 +37481,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -37377,7 +37547,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
