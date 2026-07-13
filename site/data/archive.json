@@ -6845,7 +6845,7 @@
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Understanding Byzantine fault tolerance is crucial for evaluating the robustness and security of blockchain protocols.",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 340,

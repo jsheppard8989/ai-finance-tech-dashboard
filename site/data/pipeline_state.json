@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-13T12:06:58.118611",
-  "last_updated": "2026-07-13T12:06:58.118611",
-  "last_pipeline_run": "2026-07-13T12:06:58.118611",
+  "generated_at": "2026-07-13T13:39:58.209475",
+  "last_updated": "2026-07-13T13:39:58.209475",
+  "last_pipeline_run": "2026-07-13T13:39:58.209475",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -18,8 +18,8 @@
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 0,
-    "transcribed": 0,
+    "downloaded": 1,
+    "transcribed": 1,
     "analyzed": 0,
     "insight_created": 0,
     "published": 0,
@@ -27,50 +27,25 @@
   },
   "episodes": [
     {
-      "id": "rss::moonshots with peter diamandis::fable 5 is back & govt-leashed, altman offers 5% of openai & ai grows conscious | #269",
+      "id": "e2b4dfa8-7afe-11f1-9513-ffafb716b27a",
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
       "published": "2026-07-08",
-      "published_date": "2026-07-08",
-      "rss_guid": "",
+      "rss_guid": "e2b4dfa8-7afe-11f1-9513-ffafb716b27a",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
+        "downloaded": true,
+        "transcribed": true,
         "analyzed": false,
         "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "RSS-only: not in curation_log APPROVED list yet \u2014 run curate.py so it can be fetched.",
-        "transcribed": "Blocked until download completes.",
-        "analyzed": "Blocked until transcript exists.",
-        "insight_created": "Blocked until analysis completes.",
-        "published": "Blocked until export after insight promotion."
+        "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
       },
-      "first_blocker": "downloaded",
+      "first_blocker": "analyzed",
       "remediation_by_stage": {
-        "downloaded": {
-          "action_id": "FETCH_AUDIO",
-          "steps": [
-            "Approve the episode in curation (curate.py refreshes pipeline/state/curation_log.json).",
-            "Download audio and enqueue transcription: fetch_latest.py --queue-only.",
-            "If MP3 never appears, inspect pipeline/logs/pipeline_schedule.err and fetch_latest output."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 curate.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 fetch_latest.py --queue-only"
-          ]
-        },
-        "transcribed": {
-          "action_id": "FETCH_BEFORE_TRANSCRIBE",
-          "steps": [
-            "Audio must exist before transcription. Complete FETCH_AUDIO first."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 curate.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 fetch_latest.py --queue-only"
-          ]
-        },
         "analyzed": {
           "action_id": "ANALYZE_TRANSCRIPTS",
           "steps": [
@@ -106,7 +81,7 @@
           ]
         }
       },
-      "status": "needs_download"
+      "status": "needs_analysis"
     }
   ],
   "available_from_rss": [
@@ -120,13 +95,13 @@
   ],
   "stale_episodes": [
     {
-      "id": "rss::moonshots with peter diamandis::fable 5 is back & govt-leashed, altman offers 5% of openai & ai grows conscious | #269",
+      "id": "e2b4dfa8-7afe-11f1-9513-ffafb716b27a",
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
-      "status": "needs_download",
+      "status": "needs_analysis",
       "published": "2026-07-08",
       "age_days": 5,
-      "next_blocker": "downloaded"
+      "next_blocker": "analyzed"
     }
   ],
   "stale_threshold_days": 2,
