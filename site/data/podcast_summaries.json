@@ -1,5 +1,23 @@
 [
   {
+    "id": 344,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "The AI Duopoly Is Over: Grok 4. 5 , GPT-5 . 6 , and Muse Spark in One Week | #270",
+    "episode_date": "2026-07-13",
+    "summary": "This episode of Moonshots with Peter Diamandis discusses the rapid advancements in AI and space technology. Topics include the release of new AI models, the legal battle between Apple and Open-Eye, China's progress in space technology, and the potential for AI to solve global problems. The conversation also touches on the future of AI consciousness and national security implications.",
+    "key_takeaways": [
+      "Elon Musk announced a new AI model, grock 4.5, highlighting the rapid pace of AI development.",
+      "Apple's lawsuit against Open-Eye for trade secret theft signals intensifying competition in AI hardware.",
+      "China's Long March demonstrated landing of an orbital booster, indicating a shift in space technology competition.",
+      "The discussion suggests a future where AI can solve major global problems without necessarily becoming conscious.",
+      "AI's role in national security is a growing concern, with potential implications for how AI is governed and used."
+    ],
+    "investment_thesis": "Invest in companies at the forefront of AI and space technology, as these sectors are poised for significant growth and disruption.",
+    "key_tickers": [
+      "AAPL"
+    ]
+  },
+  {
     "id": 343,
     "podcast_name": "The a16z Show",
     "episode_title": "Before Blockchains, There Was State Machine Replication",
@@ -117,22 +135,6 @@
       "Strategic capacity planning, similar to airline fuel hedging, is crucial for Model's operational efficiency and cost management."
     ],
     "investment_thesis": "Investors should consider Model's adaptability in the AI infrastructure market, its technological innovations, and customer engagement strategies as key drivers for long-term growth and competitive advantage.",
-    "key_tickers": null
-  },
-  {
-    "id": 336,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Adam Neumann: This Is How You Build Iconic Companies",
-    "episode_date": "2026-07-08",
-    "summary": "In this episode, Adam Neumann discusses his new venture, Flow, which aims to redefine living experiences by integrating technology, community, and design. Flow targets the $250 trillion real estate market and has already achieved significant success in Saudi Arabia. Neumann highlights the importance of community in modern living and how Flow's technology enables flexible living arrangements, catering to the evolving needs of the modern workforce. The discussion also touches on the potential for global expansion and the future of work and living, emphasizing a blend of remote work flexibility and meaningful physical interactions.",
-    "key_takeaways": [
-      "Invest in companies that prioritize community engagement and have a clear strategy for fostering resident interactions.",
-      "Evaluate the technological capabilities of real estate firms, focusing on their ability to adapt to changing market demands.",
-      "Consider the scalability of business models, particularly those that have successfully entered international markets.",
-      "Monitor trends in remote work and living preferences to identify investment opportunities in flexible housing solutions.",
-      "Engage with companies that demonstrate agility in their operations and can pivot quickly in response to market changes."
-    ],
-    "investment_thesis": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
     "key_tickers": null
   }
 ]

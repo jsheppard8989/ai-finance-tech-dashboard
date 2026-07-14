@@ -23,6 +23,25 @@
       "podcast_episode_id": 343
     },
     {
+      "id": 359,
+      "title": "The AI Duopoly Is Over: Grok 4. 5 , GPT-5 . 6 , and Muse Spark in One Week | #270",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-07-13",
+      "summary": "This episode of Moonshots with Peter Diamandis discusses the rapid advancements in AI and space technology. Topics include the release of new AI models, the legal battle between Apple and Open-Eye, China's progress in space technology, and the potential for AI to solve global problems. The conversation also touches on the future of AI consciousness and national security implications.",
+      "key_takeaway": "Invest in companies at the forefront of AI and space technology, as these sectors are poised for significant growth and disruption.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 344
+    },
+    {
       "id": 357,
       "title": "More Trillion Dollar IPOs, Anthropic $3T, Zuck's Price War, China Ends Open Source?, Trump Accounts",
       "source_type": "podcast",
@@ -139,7 +158,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-08",
       "archived_date": null,
@@ -6858,8 +6877,8 @@
       "term": "ASI",
       "description": "An intellect that is much smarter than the best human brains in practically every field, including scientific creativity, general wisdom, and social skills.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-07-01",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-07-13",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "ASI represents a paradigm shift; investors should monitor advancements closely as it could lead to significant economic and societal changes.",
@@ -6868,7 +6887,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 326,
+      "last_mentioned_episode_id": 344,
       "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
@@ -7036,19 +7055,19 @@
     {
       "id": 234,
       "term": "AI Personhood",
-      "description": "The debate over whether AI entities should be granted legal personhood, which could shape the regulatory landscape for AI.",
+      "description": "The concept of attributing legal personhood or rights to AI entities.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-06-29",
-      "mention_count": 12,
+      "last_mentioned_date": "2026-07-13",
+      "mention_count": 13,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Stakeholders should engage in discussions about AI regulation to prepare for potential legal changes.",
+      "investment_implications": "As AI becomes more sophisticated, the question of personhood could impact liability, regulation, and investment in AI technologies.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 319,
+      "last_mentioned_episode_id": 344,
       "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
@@ -7164,8 +7183,8 @@
       "term": "Jevon's Paradox",
       "description": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
       "first_detected_date": "2026-05-30",
-      "last_mentioned_date": "2026-07-11",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-07-13",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "As AI makes computation cheaper, total compute demand may explode\u2014benefiting chip makers, data centers, and power providers despite efficiency gains.",
@@ -7174,8 +7193,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 249,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 342,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 344,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 100,
@@ -7216,20 +7235,20 @@
     {
       "id": 113,
       "term": "Solve Everything Thesis",
-      "description": "The belief that AI technologies will be able to solve a wide range of complex problems across various industries.",
+      "description": "The idea that AI has the potential to solve major global problems across various sectors.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-06-21",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-07-13",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "This thesis may overstate the immediate capabilities of AI, leading to inflated expectations and potential disappointment.",
+      "investment_implications": "Investors should consider companies and technologies at the intersection of AI and pressing global issues.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 304,
-      "last_mentioned_speaker": "Ed Zitron"
+      "last_mentioned_episode_id": 344,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 194,
@@ -7290,8 +7309,8 @@
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-10",
-      "mention_count": 35,
+      "last_mentioned_date": "2026-07-13",
+      "mention_count": 36,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -7300,8 +7319,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 341,
-      "last_mentioned_speaker": "Adam Brown"
+      "last_mentioned_episode_id": 344,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 97,
@@ -7416,8 +7435,8 @@
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-10",
-      "mention_count": 51,
+      "last_mentioned_date": "2026-07-13",
+      "mention_count": 52,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -7426,8 +7445,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 339,
-      "last_mentioned_speaker": "Andrew Feldman"
+      "last_mentioned_episode_id": 344,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 162,
@@ -8496,8 +8515,8 @@
       "term": "Co-generation",
       "description": "The process of using AI to generate text, code, or other content autonomously.",
       "first_detected_date": "2026-03-02",
-      "last_mentioned_date": "2026-06-03",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-07-13",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider companies focusing on co-generation for their potential to disrupt content creation and software development.",
@@ -8506,16 +8525,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 36,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 291,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 344,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 114,
       "term": "AI Agents",
       "description": "AI-driven software entities that interact with enterprise systems, often without traditional user interfaces.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-07-07",
-      "mention_count": 47,
+      "last_mentioned_date": "2026-07-13",
+      "mention_count": 48,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AI agents are becoming primary users of enterprise software, requiring new approaches to data management and workflow automation.",
@@ -8524,8 +8543,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 334,
-      "last_mentioned_speaker": "Sema Amble, Stephen Sinowski"
+      "last_mentioned_episode_id": 344,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 38,
