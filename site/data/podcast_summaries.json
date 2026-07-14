@@ -1,5 +1,21 @@
 [
   {
+    "id": 345,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
+    "episode_date": "2026-07-13",
+    "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss the rapid growth and revenue surge of a company that has developed an AI-native platform for global accounts, cards, and payments. The conversation covers the company's journey from its inception to reaching $600 million in revenue within 40-50 months. They also delve into the challenges of maintaining company culture amidst rapid growth, the competition for talent, and the strategic approach to partnerships with frontier AI models. The episode highlights the importance of building a global financial system from first principles, leveraging AI to create a seamless local market feel worldwide.",
+    "key_takeaways": [
+      "The company has experienced exponential growth, reaching $600 million in revenue within 40-50 months of launching its software.",
+      "The rapid growth has been accompanied by a quick expansion in employee headcount, reaching 600 people, emphasizing the importance of maintaining company culture.",
+      "The company's competitive advantage lies in its AI-native platform, which is designed to make global transactions feel local, differentiating it from competitors who bolt AI onto legacy infrastructure.",
+      "The company is focused on building a communication platform for AI, covering everything from audio generation to speech transcription and interaction.",
+      "Partnerships with frontier AI models are seen as a strategic move rather than a threat, as the company aims to provide an agnostic platform that supports various models."
+    ],
+    "investment_thesis": "Invest in companies that leverage AI-native platforms to disrupt traditional financial systems, offering a more seamless and localized global transaction experience.",
+    "key_tickers": null
+  },
+  {
     "id": 344,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "The AI Duopoly Is Over: Grok 4. 5 , GPT-5 . 6 , and Muse Spark in One Week | #270",
@@ -119,22 +135,6 @@
       "The goal is to create a 'periodic table of elements equivalent for biology' to advance the field."
     ],
     "investment_thesis": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
-    "key_tickers": null
-  },
-  {
-    "id": 337,
-    "podcast_name": "Latent Space: The AI Engineer Podcast",
-    "episode_title": "Why AI Infrastructure must evolve for Agent Experience \u2014 Akshat Bubna, Modal CTO",
-    "episode_date": "2026-07-08",
-    "summary": "In this episode of 'Latent Space: The AI Engineer Podcast', the discussion revolves around Model's transition from a GPU inference company to an AI cloud platform, emphasizing specialized compute and auto-scaling capabilities. Key themes include the company's focus on elastic inference for custom models, the introduction of speculative decoding and D Flash technology for improved inference speed, and the embedding of engineers within client teams for enhanced product integration. The podcast also touches on Model's competitive advantage in providing a comprehensive software layer that integrates with various cloud providers, and the increasing demand for AI-driven solutions in sectors beyond traditional LLM applications.",
-    "key_takeaways": [
-      "Model's evolution to an AI cloud platform broadens its market appeal and caters to diverse AI workloads.",
-      "Elastic inference for custom models is Model's primary use case, addressing the need for scalable solutions in unpredictable traffic scenarios.",
-      "Speculative decoding and D Flash technology innovations improve inference speed and efficiency, enhancing Model's competitive position.",
-      "Model's customer collaboration strategy, including embedded engineering, fosters strong relationships and tailored solutions.",
-      "Strategic capacity planning, similar to airline fuel hedging, is crucial for Model's operational efficiency and cost management."
-    ],
-    "investment_thesis": "Investors should consider Model's adaptability in the AI infrastructure market, its technological innovations, and customer engagement strategies as key drivers for long-term growth and competitive advantage.",
     "key_tickers": null
   }
 ]

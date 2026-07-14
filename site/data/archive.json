@@ -42,6 +42,25 @@
       "podcast_episode_id": 344
     },
     {
+      "id": 360,
+      "title": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-13",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss the rapid growth and revenue surge of a company that has developed an AI-native platform for global accounts, cards, and payments. The conversation covers the company's journey from its inception to reaching $600 million in revenue within 40-50 months. They also delve into the challenges of maintaining company culture amidst rapid growth, the competition for talent, and the strategic approach to partnerships with frontier AI models. The episode highlights the importance of building a global financial system from first principles, leveraging AI to create a seamless local market feel worldwide.",
+      "key_takeaway": "Invest in companies that leverage AI-native platforms to disrupt traditional financial systems, offering a more seamless and localized global transaction experience.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 345
+    },
+    {
       "id": 357,
       "title": "More Trillion Dollar IPOs, Anthropic $3T, Zuck's Price War, China Ends Open Source?, Trump Accounts",
       "source_type": "podcast",
@@ -177,7 +196,7 @@
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-08",
       "archived_date": null,
@@ -7145,20 +7164,20 @@
     {
       "id": 219,
       "term": "AI-native computing",
-      "description": "The integration of AI processing capabilities into computing devices, allowing for more efficient and cost-effective AI usage.",
+      "description": "A computing approach that is designed from the ground up to leverage artificial intelligence, rather than adapting existing infrastructure.",
       "first_detected_date": "2026-06-02",
-      "last_mentioned_date": "2026-06-02",
-      "mention_count": 1,
+      "last_mentioned_date": "2026-07-13",
+      "mention_count": 2,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider companies pioneering AI-native computing for potential growth opportunities.",
+      "investment_implications": "Invest in companies that use AI-native computing for a competitive edge in speed, efficiency, and scalability.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 255,
       "first_detected_speaker": "Steven Sinofsky",
-      "last_mentioned_episode_id": 255,
-      "last_mentioned_speaker": "Steven Sinofsky"
+      "last_mentioned_episode_id": 345,
+      "last_mentioned_speaker": "Max"
     },
     {
       "id": 220,
@@ -7436,7 +7455,7 @@
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
       "last_mentioned_date": "2026-07-13",
-      "mention_count": 52,
+      "mention_count": 53,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -7445,8 +7464,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 344,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 345,
+      "last_mentioned_speaker": "Max"
     },
     {
       "id": 162,
@@ -8693,20 +8712,20 @@
     {
       "id": 32,
       "term": "AI Agent Orchestration",
-      "description": "The process of directing AI agents to use creative tools, indicating a shift from mastering tools to orchestrating their use.",
+      "description": "The management and coordination of AI agents to perform tasks and interact with the world, simulating human-like decision-making processes.",
       "first_detected_date": "2026-02-18",
-      "last_mentioned_date": "2026-06-30",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-07-13",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Look for investment opportunities in companies that focus on user-directed AI agents for creativity.",
+      "investment_implications": "Look for companies that excel in orchestrating AI agents to enhance customer journeys and operations.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 69,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 321,
-      "last_mentioned_speaker": "Matt Tenzig, Zachia"
+      "last_mentioned_episode_id": 345,
+      "last_mentioned_speaker": "Max"
     },
     {
       "id": 13,

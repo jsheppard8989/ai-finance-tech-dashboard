@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-13T23:38:17.029204",
-  "last_updated": "2026-07-13T23:38:17.029204",
-  "last_pipeline_run": "2026-07-13T23:38:17.029204",
+  "generated_at": "2026-07-14T05:03:59.681950",
+  "last_updated": "2026-07-14T05:03:59.681950",
+  "last_pipeline_run": "2026-07-14T05:03:59.681950",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -9,41 +9,23 @@
   },
   "counts": {
     "ticker_mentions": 202,
-    "podcast_episodes": 317,
+    "podcast_episodes": 318,
     "newsletters": 7,
     "daily_scores": 140,
     "overton_terms_total": 108,
-    "latest_insights_total": 331,
+    "latest_insights_total": 332,
     "today_mentions": {},
-    "podcasts_analyzed": 2
+    "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 3,
-    "transcribed": 3,
+    "downloaded": 2,
+    "transcribed": 2,
     "analyzed": 1,
     "insight_created": 1,
     "published": 1,
     "total": 3
   },
   "episodes": [
-    {
-      "id": "ed5f37f2-7eda-11f1-b494-1b1b377d067c",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "The AI Duopoly Is Over: Grok 4. 5 , GPT-5 . 6 , and Muse Spark in One Week | #270",
-      "published": "2026-07-13",
-      "rss_guid": "ed5f37f2-7eda-11f1-b494-1b1b377d067c",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "e2b4dfa8-7afe-11f1-9513-ffafb716b27a",
       "podcast": "Moonshots with Peter Diamandis",
@@ -110,17 +92,60 @@
       "stages": {
         "downloaded": true,
         "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
+    },
+    {
+      "id": "rss::the a16z show::is ai a bubble? | gavin baker on data centers, gpus, and the ai economy",
+      "podcast": "The a16z Show",
+      "title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
+      "published": "2026-07-14",
+      "published_date": "2026-07-14",
+      "rss_guid": "",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
         "analyzed": false,
         "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
+        "downloaded": "RSS-only: not in curation_log APPROVED list yet \u2014 run curate.py so it can be fetched.",
+        "transcribed": "Blocked until download completes.",
+        "analyzed": "Blocked until transcript exists.",
+        "insight_created": "Blocked until analysis completes.",
+        "published": "Blocked until export after insight promotion."
       },
-      "first_blocker": "analyzed",
+      "first_blocker": "downloaded",
       "remediation_by_stage": {
+        "downloaded": {
+          "action_id": "FETCH_AUDIO",
+          "steps": [
+            "Approve the episode in curation (curate.py refreshes pipeline/state/curation_log.json).",
+            "Download audio and enqueue transcription: fetch_latest.py --queue-only.",
+            "If MP3 never appears, inspect pipeline/logs/pipeline_schedule.err and fetch_latest output."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 curate.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 fetch_latest.py --queue-only"
+          ]
+        },
+        "transcribed": {
+          "action_id": "FETCH_BEFORE_TRANSCRIBE",
+          "steps": [
+            "Audio must exist before transcription. Complete FETCH_AUDIO first."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 curate.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 fetch_latest.py --queue-only"
+          ]
+        },
         "analyzed": {
           "action_id": "ANALYZE_TRANSCRIPTS",
           "steps": [
@@ -156,15 +181,15 @@
           ]
         }
       },
-      "status": "needs_analysis"
+      "status": "needs_download"
     }
   ],
   "available_from_rss": [
     {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
-      "published": "Mon, 13 Jul 2026 22:07:00 +0000",
-      "published_date": "2026-07-13",
+      "podcast": "The a16z Show",
+      "title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
+      "published": "Tue, 14 Jul 2026 10:00:00 +0000",
+      "published_date": "2026-07-14",
       "rss_guid": ""
     },
     {
@@ -182,7 +207,7 @@
       "title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
       "status": "needs_analysis",
       "published": "2026-07-08",
-      "age_days": 5,
+      "age_days": 6,
       "next_blocker": "analyzed"
     }
   ],

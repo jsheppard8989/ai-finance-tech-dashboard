@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-13T23:38:27.715417",
-  chartsVersion: "2026-07-13T23:38:15.365790",
+  generatedAt: "2026-07-14T05:04:10.121891",
+  chartsVersion: "2026-07-14T05:03:57.735384",
   priceSnapshot: {
   "GOOGL": {
     "price": 352.51,
     "change_pct": 1.84,
     "name": "GOOGL",
-    "updated_at": "2026-07-13T23:38:15.365111"
+    "updated_at": "2026-07-14T05:03:57.734430"
   },
   "BTC": {
-    "price": 62699.99,
-    "change_pct": 4.49,
+    "price": 62615.2,
+    "change_pct": 4.35,
     "name": "BTC",
-    "updated_at": "2026-07-13T23:38:15.365123"
+    "updated_at": "2026-07-14T05:03:57.734441"
   },
   "MSFT": {
     "price": 390.99,
     "change_pct": 4.56,
     "name": "MSFT",
-    "updated_at": "2026-07-13T23:38:15.365128"
+    "updated_at": "2026-07-14T05:03:57.734445"
   },
   "TSLA": {
     "price": 394.76,
     "change_pct": 3.45,
     "name": "TSLA",
-    "updated_at": "2026-07-13T23:38:15.365131"
+    "updated_at": "2026-07-14T05:03:57.734449"
   },
   "NVDA": {
     "price": 203.53,
     "change_pct": 1.74,
     "name": "NVDA",
-    "updated_at": "2026-07-13T23:38:15.365135"
+    "updated_at": "2026-07-14T05:03:57.734452"
   },
   "AMZN": {
     "price": 247.31,
     "change_pct": 5.64,
     "name": "AMZN",
-    "updated_at": "2026-07-13T23:38:15.365138"
+    "updated_at": "2026-07-14T05:03:57.734455"
   },
   "WTI": {
     "price": 3.55,
     "change_pct": 6.61,
     "name": "WTI",
-    "updated_at": "2026-07-13T23:38:15.365142"
+    "updated_at": "2026-07-14T05:03:57.734459"
   },
   "META": {
     "price": 656.73,
     "change_pct": 16.81,
     "name": "META",
-    "updated_at": "2026-07-13T23:38:15.365146"
+    "updated_at": "2026-07-14T05:03:57.734462"
   },
   "S&P 500": {
     "price": 749.17,
     "change_pct": 2.13,
     "name": "S&P 500",
-    "updated_at": "2026-07-13T23:38:15.365149"
+    "updated_at": "2026-07-14T05:03:57.734465"
   },
   "AAPL": {
     "price": 317.31,
     "change_pct": 7.82,
     "name": "AAPL",
-    "updated_at": "2026-07-13T23:38:15.365152"
+    "updated_at": "2026-07-14T05:03:57.734468"
   },
   "QQQ": {
     "price": 711.74,
     "change_pct": -0.27,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-13T23:38:15.365156"
+    "updated_at": "2026-07-14T05:03:57.734471"
   },
   "BTC-USD": {
-    "price": 62699.99,
-    "change_pct": 4.49,
+    "price": 62615.2,
+    "change_pct": 4.35,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-13T23:38:15.365160"
+    "updated_at": "2026-07-14T05:03:57.734475"
   }
 },
   tickerScores: [
@@ -875,6 +875,25 @@ const dashboardData = {
       "podcast_episode_id": 344
     },
     {
+      "id": 360,
+      "title": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-13",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss the rapid growth and revenue surge of a company that has developed an AI-native platform for global accounts, cards, and payments. The conversation covers the company's journey from its inception to reaching $600 million in revenue within 40-50 months. They also delve into the challenges of maintaining company culture amidst rapid growth, the competition for talent, and the strategic approach to partnerships with frontier AI models. The episode highlights the importance of building a global financial system from first principles, leveraging AI to create a seamless local market feel worldwide.",
+      "key_takeaway": "Invest in companies that leverage AI-native platforms to disrupt traditional financial systems, offering a more seamless and localized global transaction experience.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 345
+    },
+    {
       "id": 357,
       "title": "More Trillion Dollar IPOs, Anthropic $3T, Zuck's Price War, China Ends Open Source?, Trump Accounts",
       "source_type": "podcast",
@@ -1010,7 +1029,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-08",
       "archived_date": null,
@@ -7978,20 +7997,20 @@ const dashboardData = {
     {
       "id": 219,
       "term": "AI-native computing",
-      "description": "The integration of AI processing capabilities into computing devices, allowing for more efficient and cost-effective AI usage.",
+      "description": "A computing approach that is designed from the ground up to leverage artificial intelligence, rather than adapting existing infrastructure.",
       "first_detected_date": "2026-06-02",
-      "last_mentioned_date": "2026-06-02",
-      "mention_count": 1,
+      "last_mentioned_date": "2026-07-13",
+      "mention_count": 2,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider companies pioneering AI-native computing for potential growth opportunities.",
+      "investment_implications": "Invest in companies that use AI-native computing for a competitive edge in speed, efficiency, and scalability.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 255,
       "first_detected_speaker": "Steven Sinofsky",
-      "last_mentioned_episode_id": 255,
-      "last_mentioned_speaker": "Steven Sinofsky"
+      "last_mentioned_episode_id": 345,
+      "last_mentioned_speaker": "Max"
     },
     {
       "id": 220,
@@ -8269,7 +8288,7 @@ const dashboardData = {
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
       "last_mentioned_date": "2026-07-13",
-      "mention_count": 52,
+      "mention_count": 53,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -8278,8 +8297,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 344,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 345,
+      "last_mentioned_speaker": "Max"
     },
     {
       "id": 162,
@@ -9526,20 +9545,20 @@ const dashboardData = {
     {
       "id": 32,
       "term": "AI Agent Orchestration",
-      "description": "The process of directing AI agents to use creative tools, indicating a shift from mastering tools to orchestrating their use.",
+      "description": "The management and coordination of AI agents to perform tasks and interact with the world, simulating human-like decision-making processes.",
       "first_detected_date": "2026-02-18",
-      "last_mentioned_date": "2026-06-30",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-07-13",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Look for investment opportunities in companies that focus on user-directed AI agents for creativity.",
+      "investment_implications": "Look for companies that excel in orchestrating AI agents to enhance customer journeys and operations.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 69,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 321,
-      "last_mentioned_speaker": "Matt Tenzig, Zachia"
+      "last_mentioned_episode_id": 345,
+      "last_mentioned_speaker": "Max"
     },
     {
       "id": 13,
@@ -9684,6 +9703,26 @@ const dashboardData = {
       ]
     },
     {
+      "id": 360,
+      "title": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-13",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss the rapid growth and revenue surge of a company that has developed an AI-native platform for global accounts, cards, and payments. The conversation covers the company's journey from its inception to reaching $600 million in revenue within 40-50 months. They also delve into the challenges of maintaining company culture amidst rapid growth, the competition for talent, and the strategic approach to partnerships with frontier AI models. The episode highlights the importance of building a global financial system from first principles, leveraging AI to create a seamless local market feel worldwide.",
+      "key_takeaway": "Invest in companies that leverage AI-native platforms to disrupt traditional financial systems, offering a more seamless and localized global transaction experience.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 345,
+      "episode_release_date": "2026-07-13",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 357,
       "title": "More Trillion Dollar IPOs, Anthropic $3T, Zuck's Price War, China Ends Open Source?, Trump Accounts",
       "source_type": "podcast",
@@ -9787,26 +9826,6 @@ const dashboardData = {
       "podcast_episode_id": 338,
       "episode_release_date": "2026-07-09",
       "guest_name": "Mark Zuckerberg & Priscilla Chan",
-      "key_tickers": []
-    },
-    {
-      "id": 352,
-      "title": "Why AI Infrastructure must evolve for Agent Experience \u2014 Akshat Bubna, Modal CTO",
-      "source_type": "podcast",
-      "source_name": "Latent Space: The AI Engineer Podcast",
-      "source_date": "2026-07-08",
-      "summary": "In this episode of 'Latent Space: The AI Engineer Podcast', the discussion revolves around Model's transition from a GPU inference company to an AI cloud platform, emphasizing specialized compute and auto-scaling capabilities. Key themes include the company's focus on elastic inference for custom models, the introduction of speculative decoding and D Flash technology for improved inference speed, and the embedding of engineers within client teams for enhanced product integration. The podcast also touches on Model's competitive advantage in providing a comprehensive software layer that integrates with various cloud providers, and the increasing demand for AI-driven solutions in sectors beyond traditional LLM applications.",
-      "key_takeaway": "Investors should consider Model's adaptability in the AI infrastructure market, its technological innovations, and customer engagement strategies as key drivers for long-term growth and competitive advantage.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-08",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 337,
-      "episode_release_date": "2026-07-08",
-      "guest_name": null,
       "key_tickers": []
     }
   ],
@@ -9939,7 +9958,7 @@ const dashboardData = {
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
       "last_mentioned_date": "2026-07-13",
-      "mention_count": 52,
+      "mention_count": 53,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -9948,15 +9967,15 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 344,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "overton_score": 52.0,
+      "last_mentioned_episode_id": 345,
+      "last_mentioned_speaker": "Max",
+      "overton_score": 51.79,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "The AI Duopoly Is Over: Grok 4. 5 , GPT-5 . 6 , and Muse Spark in One Week | #270",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
       "last_mentioned_episode_date": "2026-07-13"
     },
     {
@@ -9976,7 +9995,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 326,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "overton_score": 15.16,
+      "overton_score": 14.81,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
@@ -10002,7 +10021,7 @@ const dashboardData = {
       "first_detected_speaker": "Peter Diamandis",
       "last_mentioned_episode_id": 344,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "overton_score": 13.0,
+      "overton_score": 12.7,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
@@ -10028,7 +10047,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 344,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "overton_score": 8.0,
+      "overton_score": 7.82,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
@@ -10054,7 +10073,7 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 339,
       "last_mentioned_speaker": "Andrew Feldman",
-      "overton_score": 6.53,
+      "overton_score": 6.38,
       "resonance_pct": 100,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
@@ -10062,6 +10081,32 @@ const dashboardData = {
       "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "last_mentioned_episode_title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
       "last_mentioned_episode_date": "2026-07-10"
+    },
+    {
+      "id": 219,
+      "term": "AI-native computing",
+      "description": "A computing approach that is designed from the ground up to leverage artificial intelligence, rather than adapting existing infrastructure.",
+      "first_detected_date": "2026-06-02",
+      "last_mentioned_date": "2026-07-13",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies that use AI-native computing for a competitive edge in speed, efficiency, and scalability.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 255,
+      "first_detected_speaker": "Steven Sinofsky",
+      "last_mentioned_episode_id": 345,
+      "last_mentioned_speaker": "Max",
+      "overton_score": 1.95,
+      "resonance_pct": 49,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
+      "first_detected_episode_date": "2026-06-02",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
+      "last_mentioned_episode_date": "2026-07-13"
     },
     {
       "id": 257,
@@ -10080,8 +10125,8 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 343,
       "last_mentioned_speaker": "Barbara Liskov",
-      "overton_score": 2.0,
-      "resonance_pct": 50,
+      "overton_score": 1.95,
+      "resonance_pct": 49,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "How Bitcoin Rewired a Classic Computer Science Problem",
       "first_detected_episode_date": "2026-07-10",
@@ -10106,8 +10151,8 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 342,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "overton_score": 1.91,
-      "resonance_pct": 48,
+      "overton_score": 1.87,
+      "resonance_pct": 47,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner",
       "first_detected_episode_date": "2026-06-10",
@@ -10132,8 +10177,8 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 324,
       "last_mentioned_speaker": "Rick Rubin",
-      "overton_score": 1.52,
-      "resonance_pct": 38,
+      "overton_score": 1.48,
+      "resonance_pct": 37,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
       "first_detected_episode_date": "2026-06-19",
@@ -10158,8 +10203,8 @@ const dashboardData = {
       "first_detected_speaker": "Leakwet Ahamed",
       "last_mentioned_episode_id": 321,
       "last_mentioned_speaker": "Matt Tenzig, Zachia",
-      "overton_score": 1.48,
-      "resonance_pct": 37,
+      "overton_score": 1.45,
+      "resonance_pct": 36,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
       "first_detected_episode_date": "2026-06-29",
@@ -10184,8 +10229,8 @@ const dashboardData = {
       "first_detected_speaker": "Andrew Feldman",
       "last_mentioned_episode_id": 307,
       "last_mentioned_speaker": "Josh Elman",
-      "overton_score": 1.26,
-      "resonance_pct": 32,
+      "overton_score": 1.23,
+      "resonance_pct": 31,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
       "first_detected_episode_date": "2026-05-21",
@@ -10210,7 +10255,7 @@ const dashboardData = {
       "first_detected_speaker": "Steven Sinofsky",
       "last_mentioned_episode_id": 277,
       "last_mentioned_speaker": "Steven Sinofsky",
-      "overton_score": 0.93,
+      "overton_score": 0.91,
       "resonance_pct": 23,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
@@ -10236,40 +10281,14 @@ const dashboardData = {
       "first_detected_speaker": "Andrew Feldman",
       "last_mentioned_episode_id": 298,
       "last_mentioned_speaker": "Eden Ha",
-      "overton_score": 0.76,
-      "resonance_pct": 19,
+      "overton_score": 0.74,
+      "resonance_pct": 18,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
       "first_detected_episode_date": "2026-05-21",
       "last_mentioned_podcast": "Latent Space: The AI Engineer Podcast",
       "last_mentioned_episode_title": "Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
       "last_mentioned_episode_date": "2026-06-01"
-    },
-    {
-      "id": 252,
-      "term": "AI Commoditization",
-      "description": "The process by which AI technology becomes a standard, undifferentiated product, leading to increased competition and reduced pricing power.",
-      "first_detected_date": "2026-06-15",
-      "last_mentioned_date": "2026-06-15",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should be cautious about companies in commoditized AI sectors and look for those with unique competitive advantages.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 286,
-      "first_detected_speaker": "Jack Farley (hosts)",
-      "last_mentioned_episode_id": 286,
-      "last_mentioned_speaker": "Jack Farley (hosts)",
-      "overton_score": 0.52,
-      "resonance_pct": 13,
-      "first_detected_podcast": "Monetary Matters with Jack Farley",
-      "first_detected_episode_title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
-      "first_detected_episode_date": "2026-06-15",
-      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
-      "last_mentioned_episode_title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
-      "last_mentioned_episode_date": "2026-06-15"
     }
   ]
 },
@@ -31568,6 +31587,57 @@ const dashboardData = {
     "key_tickers": [
       "AAPL"
     ]
+  },
+  "360": {
+    "id": 350,
+    "insight_id": 360,
+    "podcast_episode_id": 345,
+    "overview": "The competitive dynamic highlighted in the podcast revolves around the ability of companies to leverage AI-native platforms to disrupt traditional financial systems. The tension lies in the balance between rapid growth and maintaining company culture, as well as the ability to compete for talent in a highly competitive market. The metric that arbitrates this uncertainty is the company's ability to sustain revenue growth and cultural integrity while scaling up operations.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the company's revenue growth trajectory to assess the scalability of their AI-native platform.",
+      "The ability to maintain a strong company culture during rapid expansion is a key differentiator; look for indicators of employee satisfaction and retention rates.",
+      "The integration of AI across non-engineering teams could be a leading indicator of the company's operational efficiency and innovation capabilities.",
+      "Keep an eye on the company's partnerships and integrations with frontier AI models as a measure of their competitive edge in the global financial system.",
+      "The company's approach to talent acquisition and onboarding could serve as a proxy for their ability to scale effectively and maintain quality standards."
+    ],
+    "investment_thesis": "The investment thesis is that companies leveraging AI-native platforms to disrupt traditional financial systems will outperform, as they offer a more seamless and localized global transaction experience. This thesis is vindicated if the company can sustain its rapid revenue growth and maintain a strong company culture amidst expansion. Conversely, it would be invalidated if the company fails to scale effectively, experiences a decline in revenue growth, or loses its competitive edge due to a failure to innovate or integrate new AI models.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's focus on AI and machine learning, along with its global reach and financial services offerings, make it relevant to the thesis of AI-native platforms disrupting financial systems.",
+        "positioning": "Positioned long-term as Apple continues to invest in AI and expand its services, which could leverage AI-native platforms for growth.",
+        "risk": "Key risks include increased competition in the AI space and potential regulatory hurdles that could slow down AI integration in financial services."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The rapid growth of the company could lead to a 'too big to fail' scenario, where the company becomes less agile and innovative.",
+      "There is a risk that the company's AI-native platform may not scale effectively across different markets and regulatory environments.",
+      "The competition for talent could lead to inflated salaries and reduced margins, impacting the company's profitability."
+    ],
+    "catalysts": [
+      "The company's next earnings report, which could provide insights into the sustainability of its revenue growth.",
+      "Announcements of new partnerships or integrations with frontier AI models, indicating the company's ability to innovate and expand its platform.",
+      "Regulatory changes in the financial services sector that could either hinder or accelerate the adoption of AI-native platforms.",
+      "The release of new products or services by the company that leverage AI to enhance the global transaction experience."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-14T05:03:12.531557",
+    "updated_at": "2026-07-14 10:03:12",
+    "episode_evidence": "The podcast episode with Chamath, Jason, Sacks & Friedberg highlights the remarkable growth of a company that has developed an AI-native platform for global accounts, cards, and payments. The company has seen its revenue surge to $600 million within a timeframe of 40-50 months since releasing its software, as stated by the host: 'We are at the 100. You're at $600 million in revenue.' This rapid growth is attributed to the company's focus on building from first principles, leveraging AI to create a seamless local market feel worldwide. The company's approach to talent acquisition and culture maintenance amidst rapid growth is also noteworthy. With 600 employees, they have managed to maintain their company culture by optimizing the interview cycle and onboarding process, as mentioned: 'how we onboard with 600 people today.' The company's strategy includes embedding engineers in non-engineering teams to ensure the adoption of AI and maintain security standards, as indicated by the guest: 'our talent team will have an engineer, our legal team will have an engineer.'",
+    "falsification_tracks": [
+      "A sustained decline in the company's revenue growth rate over two consecutive quarters could indicate market saturation or increased competition.",
+      "Failure to maintain a positive cash flow amidst rapid expansion could signal operational inefficiencies or overexpansion.",
+      "If the company's employee turnover rate increases significantly, it may suggest issues with maintaining company culture during rapid growth.",
+      "A decrease in the number of new partnerships or a failure to integrate frontier AI models could indicate a weakening competitive position in the market."
+    ],
+    "insight_title": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-07-13",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -31622,7 +31692,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 30941,
+    "id": 31035,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -31634,7 +31704,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30942,
+    "id": 31036,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -31646,7 +31716,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30943,
+    "id": 31037,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -31658,7 +31728,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30944,
+    "id": 31038,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -31670,7 +31740,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30945,
+    "id": 31039,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -31682,7 +31752,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30946,
+    "id": 31040,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -31694,7 +31764,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30947,
+    "id": 31041,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -31706,7 +31776,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30948,
+    "id": 31042,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -31718,7 +31788,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30949,
+    "id": 31043,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -31730,7 +31800,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30950,
+    "id": 31044,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -31742,7 +31812,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30951,
+    "id": 31045,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -31754,7 +31824,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30952,
+    "id": 31046,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -31766,7 +31836,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30953,
+    "id": 31047,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -31778,7 +31848,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30954,
+    "id": 31048,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -31790,7 +31860,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30955,
+    "id": 31049,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -31802,7 +31872,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30956,
+    "id": 31050,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -31814,7 +31884,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30957,
+    "id": 31051,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -31826,7 +31896,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30958,
+    "id": 31052,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -31838,7 +31908,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 30959,
+    "id": 31053,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -31850,7 +31920,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 30960,
+    "id": 31054,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -32514,7 +32584,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in technologies that empower individuals to maintain autonomy and control in a world where threats to personal safety and privacy are growing.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-15 \u2022 Vitalik Buterin on Human Agency in the AI Era",
     "last_proof_snippet": "One of the challenges the world right now is that we're definitely in a less peaceful and less safe world than 10 or 15 years ago. The vision of safety that we're competing with is basically, oh, you know, let's trust the uncle in the sky a",
@@ -32576,7 +32646,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-13",
     "mention_score": 2,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Invest in sectors poised for growth due to AI adoption, particularly semiconductors and stablecoins, while being cautious about the cyclical nature of capex investments in hyperscaler companies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-13 \u2022 Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show, you'll hear more about hfgm currently the number one morning star rated fund sits its inception in the US macro trading category. Let's",
@@ -33718,7 +33788,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-05 \u2022 The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. The new Fed Chair Kevin Worsh has made it no secret that he prefers a sm",
@@ -34459,7 +34529,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-23 \u2022 GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
     "last_proof_snippet": "Everyone hates GameStop and it seems like everyone in the media basically wants us to fail and wants them to succeed and you've got a board that's making hundreds of thousands of dollars a year and they don't buy stock with their own money.",
@@ -36368,7 +36438,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
@@ -38057,7 +38127,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Invest in incremental AI improvements, new compensation models for CEOs, and emerging biotech sectors focusing on longevity and healthspan.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-07 \u2022 Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
     "last_proof_snippet": "Demisis Abbas, the CEO of DeepMind, says AGI may not need a major breakthrough. I've argued in the past that we achieved AGI in the summer of 2020. We know. I would argue what AGI is, and we know how pleased to find it for me. For your AI,",
@@ -38492,7 +38562,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Building a successful investment organization requires compounding talent, capital, and culture over time, focusing on long-term growth rather than short-term gains.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-05 \u2022 Building Blackstone, Backing Costco, with Tony James",
     "last_proof_snippet": "If you think about the development of a successful company, there's kind of an Esker. It starts off small and entrepreneurial. Then there's this kind of escalation where you create a lot of value in a lot of size. People know Blackstone tod",
@@ -39498,7 +39568,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Investing in AI, hardware, and pharma presents significant opportunities due to the large market cap potential and the need for innovation in computing.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-23 \u2022 Martin Shkreli on AI, Pharma, and What Actually Matters",
     "last_proof_snippet": "There is a surprising lack of startups in certain areas of AI and hardware, presenting opportunities for new entrants.",
@@ -39562,7 +39632,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "The Iran conflict and energy market disruptions present opportunities in commodities, particularly in the context of extreme backwardation and supply constraints, which could drive further price increases and investment returns.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-23 \u2022 MacroVoices #529 Ole S Hansen: Commodities in The Wake of The Iran Crisis",
     "last_proof_snippet": "Extreme backwardation in crude oil presents powerful return tailwinds for traders.",
@@ -39624,7 +39694,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Invest in companies and technologies that are at the forefront of AI development and data center infrastructure, as these will be key drivers of growth and power in the coming years.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-23 \u2022 Iran's AI Supply Chain Threat, Claude vs. SaaS, and Elon's $60B Cursor Bet | EP #249",
     "last_proof_snippet": "The aftermath of war is predicted to accelerate the competition between frontier labs and established businesses in AI.",
@@ -43299,7 +43369,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-22 \u2022 Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
     "last_proof_snippet": "Despite the price surge, U.S. nitrogen fertilizers are still some of the cheapest in the world, creating an arbitrage opportunity.",
@@ -43357,7 +43427,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-23 \u2022 California's Spending Woes and the Governor's Race",
     "last_proof_snippet": "High-speed rail project has spent $14 billion without delivering a product, highlighting a lack of accountability in state government.",
