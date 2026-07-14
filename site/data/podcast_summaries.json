@@ -1,5 +1,25 @@
 [
   {
+    "id": 346,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
+    "episode_date": "2026-07-14",
+    "summary": "The podcast discusses the current state of AI investment, asserting that it is not a bubble akin to the 2000 telecom bubble. The high demand for GPUs and the positive return on capital for major GPU companies are highlighted as evidence. Additionally, the show explores the competitive dynamics between tech giants like Google and Nvidia, the evolving market structure in AI, and the potential for consumer internet companies to shift towards chatbot interfaces.",
+    "key_takeaways": [
+      "The AI investment landscape is not a bubble, with high demand for GPUs and no 'dark GPUs'.",
+      "Competitive dynamics between tech giants like Google and Nvidia are driving innovation in AI hardware.",
+      "AI tools have instant distribution potential via APIs and cloud computing, unlike the internet which required building two-sided networks.",
+      "Major tech companies with substantial cash flow and resources are driving AI investment, making a potential bubble less likely.",
+      "Market structure in AI is still forming, with humility advised for high-confidence predictions at the application layer.",
+      "Gross margins in AI are expected to be lower than in SaaS due to compute intensity, but can still be profitable."
+    ],
+    "investment_thesis": "Investment in AI is sustainable and not indicative of an impending market collapse, with a focus on competitive dynamics and the potential for instant distribution via APIs and cloud computing.",
+    "key_tickers": [
+      "GOOGL",
+      "NVDA"
+    ]
+  },
+  {
     "id": 345,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
@@ -119,22 +139,5 @@
       "MSFT",
       "AMZN"
     ]
-  },
-  {
-    "id": 338,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
-    "episode_date": "2026-07-09",
-    "summary": "In this episode, Mark Zuckerberg and Dr. Priscilla Chan discuss the Chan Zuckerberg Initiative's mission to accelerate scientific discovery by investing in tools for biology rather than individual therapies. They explore the potential of AI in reshaping scientific research, focusing on infrastructure, data sets, and AI systems to combat disease. The conversation delves into topics like cell atlases, virtual cell models, and biohubs, suggesting that advancements in medicine may rely as much on improved tools as on better treatments.",
-    "key_takeaways": [
-      "The Chan Zuckerberg Initiative aims to cure, prevent, and manage all diseases by the end of the century.",
-      "Investment in infrastructure, data sets, and AI systems is crucial for faster progress against disease.",
-      "The future of medicine may depend on better tools as much as on better treatments.",
-      "Virtual cell models could allow for more risk-taking in scientific research by reducing the cost and time of experiments.",
-      "The initiative focuses on building tools that can generate novel data sets to improve scientific understanding and treatment development.",
-      "The goal is to create a 'periodic table of elements equivalent for biology' to advance the field."
-    ],
-    "investment_thesis": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
-    "key_tickers": null
   }
 ]

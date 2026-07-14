@@ -1,6 +1,18 @@
 [
   {
-    "id": 31129,
+    "id": 31223,
+    "name": "Is AI a Bubble?",
+    "slug": "is-ai-a-bubble",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investment in AI is sustainable and not indicative of an impending market collapse, with a focus on competitive dynamics and the potential for instant distribution via APIs and cloud computing.",
+    "last_episode_title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-14",
+    "appearance_count": 1
+  },
+  {
+    "id": 31224,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31130,
+    "id": 31225,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31131,
+    "id": 31226,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31132,
+    "id": 31227,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31133,
+    "id": 31228,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31134,
+    "id": 31229,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31135,
+    "id": 31230,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31136,
+    "id": 31231,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31137,
+    "id": 31232,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31138,
+    "id": 31233,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31139,
+    "id": 31234,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31140,
+    "id": 31235,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31141,
+    "id": 31236,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31142,
+    "id": 31237,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31143,
+    "id": 31238,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31144,
+    "id": 31239,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31145,
+    "id": 31240,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31146,
+    "id": 31241,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 2
   },
   {
-    "id": 31147,
+    "id": 31242,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31148,
+    "id": 31243,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31149,
+    "id": 31244,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31150,
+    "id": 31245,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31151,
+    "id": 31246,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31152,
+    "id": 31247,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31153,
+    "id": 31248,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31154,
+    "id": 31249,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31155,
+    "id": 31250,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31156,
+    "id": 31251,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31157,
+    "id": 31252,
     "name": "Exa CEO Will Bryk",
     "slug": "exa-ceo-will-bryk",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "Building Search for AI Agents with Exa CEO Will Bryk",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
-    "appearance_count": 1
-  },
-  {
-    "id": 31158,
-    "name": "Dan Loeb",
-    "slug": "dan-loeb",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
-    "last_episode_title": "Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-06-05",
     "appearance_count": 1
   }
 ]

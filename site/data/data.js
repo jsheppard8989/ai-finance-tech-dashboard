@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-14T06:41:14.764033",
-  chartsVersion: "2026-07-14T06:40:58.393174",
+  generatedAt: "2026-07-14T12:04:58.555657",
+  chartsVersion: "2026-07-14T12:04:49.091441",
   priceSnapshot: {
   "GOOGL": {
-    "price": 352.51,
-    "change_pct": 1.84,
+    "price": 356.82,
+    "change_pct": 3.34,
     "name": "GOOGL",
-    "updated_at": "2026-07-14T06:40:58.392515"
+    "updated_at": "2026-07-14T12:04:49.090099"
   },
   "BTC": {
-    "price": 62780.56,
-    "change_pct": 4.63,
+    "price": 64631.66,
+    "change_pct": 7.71,
     "name": "BTC",
-    "updated_at": "2026-07-14T06:40:58.392529"
+    "updated_at": "2026-07-14T12:04:49.090120"
   },
   "MSFT": {
-    "price": 390.99,
-    "change_pct": 4.56,
+    "price": 387.44,
+    "change_pct": 6.01,
     "name": "MSFT",
-    "updated_at": "2026-07-14T06:40:58.392534"
-  },
-  "TSLA": {
-    "price": 394.76,
-    "change_pct": 3.45,
-    "name": "TSLA",
-    "updated_at": "2026-07-14T06:40:58.392539"
+    "updated_at": "2026-07-14T12:04:49.090130"
   },
   "NVDA": {
-    "price": 203.53,
-    "change_pct": 1.74,
+    "price": 211.12,
+    "change_pct": 6.09,
     "name": "NVDA",
-    "updated_at": "2026-07-14T06:40:58.392544"
+    "updated_at": "2026-07-14T12:04:49.090139"
+  },
+  "TSLA": {
+    "price": 395.73,
+    "change_pct": 5.38,
+    "name": "TSLA",
+    "updated_at": "2026-07-14T12:04:49.090147"
   },
   "AMZN": {
-    "price": 247.31,
-    "change_pct": 5.64,
+    "price": 246.04,
+    "change_pct": 5.02,
     "name": "AMZN",
-    "updated_at": "2026-07-14T06:40:58.392548"
+    "updated_at": "2026-07-14T12:04:49.090156"
   },
   "WTI": {
     "price": 3.55,
-    "change_pct": 6.61,
+    "change_pct": 13.26,
     "name": "WTI",
-    "updated_at": "2026-07-14T06:40:58.392553"
+    "updated_at": "2026-07-14T12:04:49.090166"
   },
   "META": {
-    "price": 656.73,
-    "change_pct": 16.81,
+    "price": 663.43,
+    "change_pct": 18.96,
     "name": "META",
-    "updated_at": "2026-07-14T06:40:58.392558"
+    "updated_at": "2026-07-14T12:04:49.090174"
   },
   "S&P 500": {
-    "price": 749.17,
-    "change_pct": 2.13,
+    "price": 751.72,
+    "change_pct": 2.52,
     "name": "S&P 500",
-    "updated_at": "2026-07-14T06:40:58.392562"
+    "updated_at": "2026-07-14T12:04:49.090182"
   },
   "AAPL": {
-    "price": 317.31,
-    "change_pct": 7.82,
+    "price": 314.02,
+    "change_pct": 7.14,
     "name": "AAPL",
-    "updated_at": "2026-07-14T06:40:58.392566"
+    "updated_at": "2026-07-14T12:04:49.090191"
   },
   "QQQ": {
-    "price": 711.74,
-    "change_pct": -0.27,
+    "price": 720.46,
+    "change_pct": 1.38,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-14T06:40:58.392571"
+    "updated_at": "2026-07-14T12:04:49.090200"
   },
   "BTC-USD": {
-    "price": 62779.67,
-    "change_pct": 4.63,
+    "price": 64632.16,
+    "change_pct": 7.71,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-14T06:40:58.392576"
+    "updated_at": "2026-07-14T12:04:49.090209"
   }
 },
   tickerScores: [
@@ -126,30 +126,30 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "TSLA",
-    "total_score": 442.0,
-    "raw_mention_count": 6,
-    "unique_sources": 1,
+    "ticker": "NVDA",
+    "total_score": 450.0,
+    "raw_mention_count": 14,
+    "unique_sources": 2,
     "podcast_mentions": 6,
-    "newsletter_mentions": 0,
+    "newsletter_mentions": 8,
     "rank": 4,
-    "score": 442.0,
-    "mentions": 6,
+    "score": 450.0,
+    "mentions": 14,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
     "contexts": []
   },
   {
-    "ticker": "NVDA",
-    "total_score": 376.0,
-    "raw_mention_count": 13,
-    "unique_sources": 2,
-    "podcast_mentions": 5,
-    "newsletter_mentions": 8,
+    "ticker": "TSLA",
+    "total_score": 442.0,
+    "raw_mention_count": 6,
+    "unique_sources": 1,
+    "podcast_mentions": 6,
+    "newsletter_mentions": 0,
     "rank": 5,
-    "score": 376.0,
-    "mentions": 13,
+    "score": 442.0,
+    "mentions": 6,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -834,6 +834,26 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 361,
+      "title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-14",
+      "summary": "The podcast discusses the current state of AI investment, asserting that it is not a bubble akin to the 2000 telecom bubble. The high demand for GPUs and the positive return on capital for major GPU companies are highlighted as evidence. Additionally, the show explores the competitive dynamics between tech giants like Google and Nvidia, the evolving market structure in AI, and the potential for consumer internet companies to shift towards chatbot interfaces.",
+      "key_takeaway": "Investment in AI is sustainable and not indicative of an impending market collapse, with a focus on competitive dynamics and the potential for instant distribution via APIs and cloud computing.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "NVDA"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 346
+    },
+    {
       "id": 358,
       "title": "Before Blockchains, There Was State Machine Replication",
       "source_type": "podcast",
@@ -991,7 +1011,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-09",
       "archived_date": null,
@@ -7889,19 +7909,19 @@ const dashboardData = {
     {
       "id": 138,
       "term": "AI CapEx",
-      "description": "Capital expenditures in the AI sector, often characterized by high spending on research and development.",
+      "description": "Capital expenditures specifically related to artificial intelligence, including hardware and infrastructure.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-07-07",
-      "mention_count": 9,
+      "last_mentioned_date": "2026-07-14",
+      "mention_count": 10,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "High AI CapEx can indicate a company's commitment to innovation but may also signal unsustainable financial practices.",
+      "investment_implications": "Investors should consider the AI CapEx of companies as a measure of their commitment to AI development.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 335,
+      "last_mentioned_episode_id": 346,
       "last_mentioned_speaker": "Jack Farley (hosts)"
     },
     {
@@ -8287,8 +8307,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-13",
-      "mention_count": 53,
+      "last_mentioned_date": "2026-07-14",
+      "mention_count": 54,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -8297,7 +8317,7 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 345,
+      "last_mentioned_episode_id": 346,
       "last_mentioned_speaker": "Max"
     },
     {
@@ -9221,19 +9241,19 @@ const dashboardData = {
     {
       "id": 18,
       "term": "Compute Arbitrage",
-      "description": "The practice of leveraging the most cost-effective computing resources available, often shifting between on-premises and cloud-based solutions.",
+      "description": "The strategic allocation of computing resources to take advantage of the most cost-effective or efficient options available.",
       "first_detected_date": "2026-03-13",
-      "last_mentioned_date": "2026-06-20",
-      "mention_count": 14,
+      "last_mentioned_date": "2026-07-14",
+      "mention_count": 15,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider how companies are optimizing their compute resources, as this can significantly affect operational efficiency and cost.",
+      "investment_implications": "Investors can look for companies that optimize compute resources to gain a competitive edge.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 303,
+      "last_mentioned_episode_id": 346,
       "last_mentioned_speaker": "Jim Chanos, Val Zlathev"
     },
     {
@@ -9661,6 +9681,29 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 361,
+      "title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-14",
+      "summary": "The podcast discusses the current state of AI investment, asserting that it is not a bubble akin to the 2000 telecom bubble. The high demand for GPUs and the positive return on capital for major GPU companies are highlighted as evidence. Additionally, the show explores the competitive dynamics between tech giants like Google and Nvidia, the evolving market structure in AI, and the potential for consumer internet companies to shift towards chatbot interfaces.",
+      "key_takeaway": "Investment in AI is sustainable and not indicative of an impending market collapse, with a focus on competitive dynamics and the potential for instant distribution via APIs and cloud computing.",
+      "tickers_mentioned": "[\"GOOGL\", \"NVDA\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 346,
+      "episode_release_date": "2026-07-14",
+      "guest_name": "Is AI a Bubble?",
+      "key_tickers": [
+        "GOOGL",
+        "NVDA"
+      ]
+    },
+    {
       "id": 358,
       "title": "Before Blockchains, There Was State Machine Replication",
       "source_type": "podcast",
@@ -9807,26 +9850,6 @@ const dashboardData = {
       "episode_release_date": "2026-07-10",
       "guest_name": "Adam Brown \u2013 Einstein's happiest thought",
       "key_tickers": []
-    },
-    {
-      "id": 353,
-      "title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-07-09",
-      "summary": "In this episode, Mark Zuckerberg and Dr. Priscilla Chan discuss the Chan Zuckerberg Initiative's mission to accelerate scientific discovery by investing in tools for biology rather than individual therapies. They explore the potential of AI in reshaping scientific research, focusing on infrastructure, data sets, and AI systems to combat disease. The conversation delves into topics like cell atlases, virtual cell models, and biohubs, suggesting that advancements in medicine may rely as much on improved tools as on better treatments.",
-      "key_takeaway": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-09",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 338,
-      "episode_release_date": "2026-07-09",
-      "guest_name": "Mark Zuckerberg & Priscilla Chan",
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -9957,8 +9980,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-13",
-      "mention_count": 53,
+      "last_mentioned_date": "2026-07-14",
+      "mention_count": 54,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -9967,16 +9990,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 345,
+      "last_mentioned_episode_id": 346,
       "last_mentioned_speaker": "Max",
-      "overton_score": 51.79,
+      "overton_score": 54.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
-      "last_mentioned_episode_date": "2026-07-13"
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
+      "last_mentioned_episode_date": "2026-07-14"
     },
     {
       "id": 10,
@@ -31638,6 +31661,81 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-07-13",
     "key_tickers": []
+  },
+  "361": {
+    "id": 351,
+    "insight_id": 361,
+    "podcast_episode_id": 346,
+    "overview": "The unresolved tension in the AI investment landscape revolves around the sustainability of current investment levels and the competitive dynamics between tech giants. The competitive push for AI advancement, rather than financial necessity, is a key driver in this market. The allocation-relevant implication is that the winners will likely be those who can leverage their existing profitable businesses to fund new AI products, potentially running them at break-even to catch up to market leaders. The metric that arbitrates this uncertainty is the ability to adapt and innovate in a rapidly evolving market, with a horizon of proof that is likely to be short-term due to the fast pace of technological change.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the GPU market closely for signs of oversupply or reduced demand as an indicator of market health.",
+      "The competitive landscape suggests that companies with strong cash flows and resources are better positioned to weather potential market fluctuations.",
+      "The potential for consumer internet companies to shift towards chatbot interfaces presents an opportunity for those with large existing user bases to leverage.",
+      "Legacy SaaS companies that can fund new AI products from existing profits may find a competitive edge in the evolving AI market.",
+      "Investors should be cautious of high-confidence predictions at the application layer due to the dynamic and forming market structure in AI."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that the current AI investment landscape is sustainable due to high demand for GPUs, positive returns on capital, and the competitive dynamics driving innovation rather than financial distress. This thesis would be vindicated if the demand for GPUs continues to grow, major GPU companies maintain positive returns on capital, and tech giants continue to invest in AI despite market fluctuations. Conversely, it would be invalidated if there is a significant and sustained drop in GPU demand or if tech giants start to divest from AI due to financial pressures.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "Nvidia is a major player in the GPU market, and its performance is indicative of the health of the AI investment landscape.",
+        "positioning": "Positioning should be long-term, as Nvidia's continued innovation and market leadership in GPUs suggest a strategic investment.",
+        "risk": "Key risks include increased competition from Google's TPU and other AI hardware competitors, as well as a potential market saturation of GPUs."
+      },
+      "GOOGL": {
+        "rationale": "Google's investment in AI, particularly with its TPU, positions it as a competitor to Nvidia and a key player in the AI economy.",
+        "positioning": "Google can be positioned as a long-term strategic investment due to its broad range of AI initiatives and strong cash flow.",
+        "risk": "The risk lies in the potential for Google's AI initiatives to underperform or fail to gain significant market share against competitors like Nvidia."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's cloud computing services provide a platform for AI tools, making it relevant to the AI economy.",
+        "positioning": "Microsoft can be positioned as a tactical investment due to its ability to leverage cloud services for AI distribution.",
+        "risk": "Key risks include competition from other cloud providers and the potential for a slowdown in cloud adoption."
+      },
+      "AMZN": {
+        "rationale": "Amazon, through AWS, is a significant player in cloud computing, which is crucial for the distribution of AI tools.",
+        "positioning": "Amazon can be positioned as a strategic investment due to its dominant position in cloud services and ongoing AI development.",
+        "risk": "The risk is the potential for increased competition in cloud services and the possibility of a shift in the AI market away from cloud-based solutions."
+      },
+      "FB": {
+        "rationale": "Facebook, as a consumer internet company with a large user base, is well-positioned to adopt chatbot interfaces.",
+        "positioning": "Facebook can be positioned as a tactical investment due to its potential to leverage its user base for AI-driven chatbot interfaces.",
+        "risk": "Key risks include the potential for user resistance to chatbot interfaces and competition from other consumer internet companies in this space."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant decrease in the overall investment in AI by venture capital firms could signal a shift in market sentiment.",
+      "A slowdown in the development and adoption of AI tools by enterprises could indicate a lack of demand for AI solutions.",
+      "A decline in the performance of major GPU companies could suggest that the AI hardware market is oversaturated or facing other challenges."
+    ],
+    "catalysts": [
+      "New product releases from Nvidia or Google that significantly advance AI capabilities.",
+      "Major acquisitions or partnerships in the AI space that could shift the competitive landscape.",
+      "Regulatory changes that impact the development or use of AI technologies.",
+      "Significant advancements in AI algorithms that could change the demand for GPUs or other hardware.",
+      "Quarterly earnings reports from major AI companies that could indicate the health of the AI investment landscape."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-14T12:03:30.442741",
+    "updated_at": "2026-07-14 17:03:30",
+    "episode_evidence": "The podcast emphasizes the sustainability of AI investment by contrasting it with the 2000 telecom bubble, where '97% of fiber laid was unused (dark fiber)', while today, 'there are no dark GPUs' and the 'ROI on all this spending has been really positive.' This highlights the high demand for GPUs and the positive return on capital for major GPU companies. The competitive dynamics between tech giants are also underscored, with Google's TPU being a significant competitor to Nvidia's GPUs, indicating that 'round tripping' deals are driven more by competition than financial necessity. The market structure in AI is still forming, and the podcast advises humility for high-confidence predictions at the application layer, suggesting that the landscape is dynamic and evolving.",
+    "falsification_tracks": [
+      "A sustained decline in GPU demand or a significant increase in unsold inventory would challenge the assertion that AI investment is sustainable.",
+      "If major GPU companies report negative returns on capital for two consecutive quarters, it would cast doubt on the profitability of current AI investments.",
+      "A significant drop in the market share of tech giants like Google and Nvidia in the AI hardware market could indicate a shift in competitive dynamics.",
+      "Should consumer internet companies fail to adopt chatbot interfaces or see a decline in user engagement with such interfaces, it would question the potential for this shift in the market structure."
+    ],
+    "insight_title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
+    "source_name": "The a16z Show",
+    "source_date": "2026-07-14",
+    "key_tickers": [
+      "GOOGL",
+      "NVDA"
+    ]
   }
 },
   suggestedTerms: [
@@ -31692,7 +31790,19 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 31129,
+    "id": 31223,
+    "name": "Is AI a Bubble?",
+    "slug": "is-ai-a-bubble",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investment in AI is sustainable and not indicative of an impending market collapse, with a focus on competitive dynamics and the potential for instant distribution via APIs and cloud computing.",
+    "last_episode_title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-14",
+    "appearance_count": 1
+  },
+  {
+    "id": 31224,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -31704,7 +31814,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31130,
+    "id": 31225,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -31716,7 +31826,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31131,
+    "id": 31226,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -31728,7 +31838,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31132,
+    "id": 31227,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -31740,7 +31850,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31133,
+    "id": 31228,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -31752,7 +31862,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31134,
+    "id": 31229,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -31764,7 +31874,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31135,
+    "id": 31230,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -31776,7 +31886,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31136,
+    "id": 31231,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -31788,7 +31898,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31137,
+    "id": 31232,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -31800,7 +31910,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31138,
+    "id": 31233,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -31812,7 +31922,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31139,
+    "id": 31234,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -31824,7 +31934,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31140,
+    "id": 31235,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -31836,7 +31946,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31141,
+    "id": 31236,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -31848,7 +31958,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31142,
+    "id": 31237,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -31860,7 +31970,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31143,
+    "id": 31238,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -31872,7 +31982,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31144,
+    "id": 31239,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -31884,7 +31994,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31145,
+    "id": 31240,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -31896,7 +32006,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31146,
+    "id": 31241,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -31908,7 +32018,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 31147,
+    "id": 31242,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -31917,18 +32027,6 @@ const dashboardData = {
     "last_episode_title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
-    "appearance_count": 1
-  },
-  {
-    "id": 31148,
-    "name": "Regulatory Risk is Coming For AI",
-    "slug": "regulatory-risk-is-coming-for-ai",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investors should reassess their positions in hyperscaler stocks and monitor regulatory developments in AI, while also staying vigilant about geopolitical risks that could impact oil prices.",
-    "last_episode_title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-06-15",
     "appearance_count": 1
   }
 ],
@@ -33307,7 +33405,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -33334,7 +33432,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-13",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
     "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro. We came to me and he said, why don't we see whether we can figure out a way to",
@@ -33474,7 +33572,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -33540,7 +33638,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -33601,7 +33699,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-08 \u2022 Adam Neumann: This Is How You Build Iconic Companies",
     "last_proof_snippet": "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
@@ -33909,7 +34007,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -34154,7 +34252,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -35970,7 +36068,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -36036,7 +36134,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -36375,7 +36473,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -36630,7 +36728,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -36694,7 +36792,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -36877,7 +36975,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -36941,7 +37039,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -44002,7 +44100,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
@@ -44060,7 +44158,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",

@@ -1,29 +1,31 @@
 {
-  "generated_at": "2026-07-14T06:41:01.359369",
-  "last_updated": "2026-07-14T06:41:01.359369",
-  "last_pipeline_run": "2026-07-14T06:41:01.359369",
+  "generated_at": "2026-07-14T12:04:53.134230",
+  "last_updated": "2026-07-14T12:04:53.134230",
+  "last_pipeline_run": "2026-07-14T12:04:53.134230",
   "main_page": {
     "overton": 13,
     "insights": 8,
     "pundits": 209
   },
   "counts": {
-    "ticker_mentions": 202,
-    "podcast_episodes": 318,
+    "ticker_mentions": 203,
+    "podcast_episodes": 319,
     "newsletters": 7,
-    "daily_scores": 140,
+    "daily_scores": 141,
     "overton_terms_total": 108,
-    "latest_insights_total": 332,
-    "today_mentions": {},
-    "podcasts_analyzed": 1
+    "latest_insights_total": 333,
+    "today_mentions": {
+      "podcast": 1
+    },
+    "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 1,
-    "analyzed": 0,
-    "insight_created": 0,
-    "published": 0,
-    "total": 2
+    "downloaded": 3,
+    "transcribed": 2,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 3
   },
   "episodes": [
     {
@@ -84,11 +86,11 @@
       "status": "needs_analysis"
     },
     {
-      "id": "d8f782d4-ce8e-42d5-8f7c-486ed2a56797",
-      "podcast": "The a16z Show",
-      "title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
+      "id": "59d87eb2-7f9d-11f1-8705-732e7c072bb8",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated ",
       "published": "2026-07-14",
-      "rss_guid": "d8f782d4-ce8e-42d5-8f7c-486ed2a56797",
+      "rss_guid": "59d87eb2-7f9d-11f1-8705-732e7c072bb8",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -153,13 +155,31 @@
         }
       },
       "status": "needs_transcription"
+    },
+    {
+      "id": "d8f782d4-ce8e-42d5-8f7c-486ed2a56797",
+      "podcast": "The a16z Show",
+      "title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
+      "published": "2026-07-14",
+      "rss_guid": "d8f782d4-ce8e-42d5-8f7c-486ed2a56797",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
     }
   ],
   "available_from_rss": [
     {
-      "podcast": "The a16z Show",
-      "title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
-      "published": "Tue, 14 Jul 2026 10:00:00 +0000",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated ",
+      "published": "Tue, 14 Jul 2026 16:02:00 -0000",
       "published_date": "2026-07-14",
       "rss_guid": ""
     },
