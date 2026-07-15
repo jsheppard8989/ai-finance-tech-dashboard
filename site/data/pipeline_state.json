@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-15T05:02:49.905482",
-  "last_updated": "2026-07-15T05:02:49.905482",
-  "last_pipeline_run": "2026-07-15T05:02:49.905482",
+  "generated_at": "2026-07-15T06:39:13.781476",
+  "last_updated": "2026-07-15T06:39:13.781476",
+  "last_pipeline_run": "2026-07-15T06:39:13.781476",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -20,7 +20,7 @@
     "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 1,
+    "downloaded": 2,
     "transcribed": 1,
     "analyzed": 0,
     "insight_created": 0,
@@ -86,48 +86,37 @@
       "status": "needs_analysis"
     },
     {
-      "id": "rss::the a16z show::can anyone catch nvidia? | the future of chips and infrastructure",
+      "id": "85d11fb3-6ad6-4d00-b9dc-b18d529041d0",
       "podcast": "The a16z Show",
       "title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
       "published": "2026-07-15",
-      "published_date": "2026-07-15",
-      "rss_guid": "",
+      "rss_guid": "85d11fb3-6ad6-4d00-b9dc-b18d529041d0",
       "stages": {
-        "downloaded": false,
+        "downloaded": true,
         "transcribed": false,
         "analyzed": false,
         "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "RSS-only: not in curation_log APPROVED list yet \u2014 run curate.py so it can be fetched.",
-        "transcribed": "Blocked until download completes.",
-        "analyzed": "Blocked until transcript exists.",
-        "insight_created": "Blocked until analysis completes.",
-        "published": "Blocked until export after insight promotion."
+        "transcribed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
       },
-      "first_blocker": "downloaded",
+      "first_blocker": "transcribed",
       "remediation_by_stage": {
-        "downloaded": {
-          "action_id": "FETCH_AUDIO",
-          "steps": [
-            "Approve the episode in curation (curate.py refreshes pipeline/state/curation_log.json).",
-            "Download audio and enqueue transcription: fetch_latest.py --queue-only.",
-            "If MP3 never appears, inspect pipeline/logs/pipeline_schedule.err and fetch_latest output."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 curate.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 fetch_latest.py --queue-only"
-          ]
-        },
         "transcribed": {
-          "action_id": "FETCH_BEFORE_TRANSCRIBE",
+          "action_id": "TRANSCRIBE",
           "steps": [
-            "Audio must exist before transcription. Complete FETCH_AUDIO first."
+            "There are 1 MP3 file(s) in whisper_queue/ waiting for the worker.",
+            "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
+            "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
+            "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/."
           ],
           "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 curate.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 fetch_latest.py --queue-only"
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard && ./whisper_worker.sh",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
           ]
         },
         "analyzed": {
@@ -165,7 +154,7 @@
           ]
         }
       },
-      "status": "needs_download"
+      "status": "needs_transcription"
     }
   ],
   "available_from_rss": [
@@ -210,7 +199,7 @@
       "insight_created",
       "published"
     ],
-    "whisper_queue_pending_mp3": 0,
+    "whisper_queue_pending_mp3": 1,
     "fix_order": "For each episode, read first_blocker then remediation_by_stage[first_blocker].",
     "end_to_end": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py",
     "analyze_only": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
