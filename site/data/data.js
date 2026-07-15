@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-14T22:03:15.448511",
-  chartsVersion: "2026-07-14T22:02:59.462395",
+  generatedAt: "2026-07-14T23:36:41.937284",
+  chartsVersion: "2026-07-14T23:36:35.586160",
   priceSnapshot: {
   "GOOGL": {
-    "price": 359.51,
-    "change_pct": 4.12,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "GOOGL",
-    "updated_at": "2026-07-14T22:02:59.461825"
-  },
-  "BTC": {
-    "price": 64469.92,
-    "change_pct": 4.85,
-    "name": "BTC",
-    "updated_at": "2026-07-14T22:02:59.461835"
-  },
-  "MSFT": {
-    "price": 384.93,
-    "change_pct": 5.33,
-    "name": "MSFT",
-    "updated_at": "2026-07-14T22:02:59.461839"
+    "updated_at": "2026-07-14T23:36:35.585680"
   },
   "NVDA": {
-    "price": 211.8,
-    "change_pct": 6.43,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "NVDA",
-    "updated_at": "2026-07-14T22:02:59.461843"
+    "updated_at": "2026-07-14T23:36:35.585690"
+  },
+  "BTC": {
+    "price": 64749.36,
+    "change_pct": 5.31,
+    "name": "BTC",
+    "updated_at": "2026-07-14T23:36:35.585695"
+  },
+  "MSFT": {
+    "price": NaN,
+    "change_pct": NaN,
+    "name": "MSFT",
+    "updated_at": "2026-07-14T23:36:35.585698"
   },
   "TSLA": {
-    "price": 396.18,
-    "change_pct": 5.5,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "TSLA",
-    "updated_at": "2026-07-14T22:02:59.461846"
+    "updated_at": "2026-07-14T23:36:35.585701"
   },
   "AMZN": {
-    "price": 247.49,
-    "change_pct": 5.64,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "AMZN",
-    "updated_at": "2026-07-14T22:02:59.461849"
+    "updated_at": "2026-07-14T23:36:35.585704"
   },
   "WTI": {
-    "price": 3.59,
-    "change_pct": 14.7,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "WTI",
-    "updated_at": "2026-07-14T22:02:59.461853"
+    "updated_at": "2026-07-14T23:36:35.585707"
   },
   "META": {
     "price": 661.04,
     "change_pct": 18.54,
     "name": "META",
-    "updated_at": "2026-07-14T22:02:59.461856"
+    "updated_at": "2026-07-14T23:36:35.585710"
   },
   "S&P 500": {
-    "price": 751.83,
-    "change_pct": 2.54,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "S&P 500",
-    "updated_at": "2026-07-14T22:02:59.461859"
+    "updated_at": "2026-07-14T23:36:35.585713"
   },
   "AAPL": {
-    "price": 314.86,
-    "change_pct": 7.43,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "AAPL",
-    "updated_at": "2026-07-14T22:02:59.461862"
+    "updated_at": "2026-07-14T23:36:35.585716"
   },
   "QQQ": {
-    "price": 719.71,
-    "change_pct": 1.28,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-14T22:02:59.461865"
+    "updated_at": "2026-07-14T23:36:35.585718"
   },
   "BTC-USD": {
-    "price": 64469.92,
-    "change_pct": 4.85,
+    "price": 64749.36,
+    "change_pct": 5.31,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-14T22:02:59.461869"
+    "updated_at": "2026-07-14T23:36:35.585722"
   }
 },
   tickerScores: [
@@ -96,13 +96,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "NVDA",
+    "total_score": 526.0,
+    "raw_mention_count": 15,
+    "unique_sources": 2,
+    "podcast_mentions": 7,
+    "newsletter_mentions": 8,
+    "rank": 2,
+    "score": 526.0,
+    "mentions": 15,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "BTC",
     "total_score": 520.0,
     "raw_mention_count": 7,
     "unique_sources": 1,
     "podcast_mentions": 7,
     "newsletter_mentions": 0,
-    "rank": 2,
+    "rank": 3,
     "score": 520.0,
     "mentions": 7,
     "conviction_level": "medium",
@@ -117,24 +132,9 @@ const dashboardData = {
     "unique_sources": 2,
     "podcast_mentions": 6,
     "newsletter_mentions": 16,
-    "rank": 3,
+    "rank": 4,
     "score": 512.0,
     "mentions": 22,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "NVDA",
-    "total_score": 450.0,
-    "raw_mention_count": 14,
-    "unique_sources": 2,
-    "podcast_mentions": 6,
-    "newsletter_mentions": 8,
-    "rank": 4,
-    "score": 450.0,
-    "mentions": 14,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -854,6 +854,26 @@ const dashboardData = {
       "podcast_episode_id": 346
     },
     {
+      "id": 362,
+      "title": "The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-07-14",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Ben Kulandian, an expert investor and analyst in the semiconductor industry. They discuss the current state of AI and its potential to revolutionize various sectors, including material science and biotech. Kulandian argues against the notion that the current AI boom is a repeat of the dot-com bubble, emphasizing the unique capabilities of AI and semiconductors in creating intelligence and accelerating scientific discoveries. The conversation also touches on investment opportunities within the AI supply chain, with a focus on companies like Nvidia and Apple.",
+      "key_takeaway": "Invest in companies at the forefront of AI and semiconductors that can leverage intelligence to perform high-cost, time-consuming tasks more efficiently and at scale.",
+      "tickers_mentioned": [
+        "NVDA",
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 347
+    },
+    {
       "id": 358,
       "title": "Before Blockchains, There Was State Machine Replication",
       "source_type": "podcast",
@@ -946,7 +966,7 @@ const dashboardData = {
         "AMZN"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-09",
       "archived_date": null,
@@ -7785,8 +7805,8 @@ const dashboardData = {
       "term": "AI Boom",
       "description": "A global phenomenon characterized by significant investments in artificial intelligence and data centers, drawing parallels to the pre-1873 financial boom.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-06-30",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-07-14",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be cautious of potential over-investment and subsequent corrections in the AI sector.",
@@ -7795,8 +7815,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 320,
       "first_detected_speaker": "Leakwet Ahamed",
-      "last_mentioned_episode_id": 321,
-      "last_mentioned_speaker": "Matt Tenzig, Zachia"
+      "last_mentioned_episode_id": 347,
+      "last_mentioned_speaker": "Ben Kulandian"
     },
     {
       "id": 254,
@@ -7837,20 +7857,20 @@ const dashboardData = {
     {
       "id": 252,
       "term": "AI Commoditization",
-      "description": "The process by which AI technology becomes a standard, undifferentiated product, leading to increased competition and reduced pricing power.",
+      "description": "The process by which AI becomes a standard feature or utility rather than a unique differentiator.",
       "first_detected_date": "2026-06-15",
-      "last_mentioned_date": "2026-06-15",
-      "mention_count": 1,
+      "last_mentioned_date": "2026-07-14",
+      "mention_count": 2,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should be cautious about companies in commoditized AI sectors and look for those with unique competitive advantages.",
+      "investment_implications": "Investors should look for companies that can maintain a competitive edge as AI becomes more commonplace.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 286,
       "first_detected_speaker": "Jack Farley (hosts)",
-      "last_mentioned_episode_id": 286,
-      "last_mentioned_speaker": "Jack Farley (hosts)"
+      "last_mentioned_episode_id": 347,
+      "last_mentioned_speaker": "Ben Kulandian"
     },
     {
       "id": 248,
@@ -9704,6 +9724,29 @@ const dashboardData = {
       ]
     },
     {
+      "id": 362,
+      "title": "The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-07-14",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Ben Kulandian, an expert investor and analyst in the semiconductor industry. They discuss the current state of AI and its potential to revolutionize various sectors, including material science and biotech. Kulandian argues against the notion that the current AI boom is a repeat of the dot-com bubble, emphasizing the unique capabilities of AI and semiconductors in creating intelligence and accelerating scientific discoveries. The conversation also touches on investment opportunities within the AI supply chain, with a focus on companies like Nvidia and Apple.",
+      "key_takeaway": "Invest in companies at the forefront of AI and semiconductors that can leverage intelligence to perform high-cost, time-consuming tasks more efficiently and at scale.",
+      "tickers_mentioned": "[\"NVDA\", \"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 347,
+      "episode_release_date": "2026-07-14",
+      "guest_name": null,
+      "key_tickers": [
+        "NVDA",
+        "AAPL"
+      ]
+    },
+    {
       "id": 358,
       "title": "Before Blockchains, There Was State Machine Replication",
       "source_type": "podcast",
@@ -9785,30 +9828,6 @@ const dashboardData = {
       "guest_name": null,
       "key_tickers": [
         "TSLA"
-      ]
-    },
-    {
-      "id": 354,
-      "title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-07-10",
-      "summary": "In this episode, the hosts discuss the unprecedented scale of AI buildout, drawing comparisons to historical mega-projects like the Great Wall of China and the pyramids. They touch on the physical enormity of data centers being constructed worldwide, the insatiable demand for AI from companies like Google and SpaceX, and the concept of 'loop maxing' or recursive learning. The conversation also delves into the potential implications of super intelligence for humanity, including how it might redefine problems and solutions.",
-      "key_takeaway": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
-      "tickers_mentioned": "[\"GOOGL\", \"MSFT\", \"AMZN\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-09",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 339,
-      "episode_release_date": "2026-07-10",
-      "guest_name": null,
-      "key_tickers": [
-        "GOOGL",
-        "MSFT",
-        "AMZN"
       ]
     },
     {
@@ -10106,6 +10125,58 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-07-10"
     },
     {
+      "id": 255,
+      "term": "AI Boom",
+      "description": "A global phenomenon characterized by significant investments in artificial intelligence and data centers, drawing parallels to the pre-1873 financial boom.",
+      "first_detected_date": "2026-06-29",
+      "last_mentioned_date": "2026-07-14",
+      "mention_count": 3,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should be cautious of potential over-investment and subsequent corrections in the AI sector.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 320,
+      "first_detected_speaker": "Leakwet Ahamed",
+      "last_mentioned_episode_id": 347,
+      "last_mentioned_speaker": "Ben Kulandian",
+      "overton_score": 3.0,
+      "resonance_pct": 75,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
+      "first_detected_episode_date": "2026-06-29",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
+      "last_mentioned_episode_date": "2026-07-14"
+    },
+    {
+      "id": 252,
+      "term": "AI Commoditization",
+      "description": "The process by which AI becomes a standard feature or utility rather than a unique differentiator.",
+      "first_detected_date": "2026-06-15",
+      "last_mentioned_date": "2026-07-14",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should look for companies that can maintain a competitive edge as AI becomes more commonplace.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 286,
+      "first_detected_speaker": "Jack Farley (hosts)",
+      "last_mentioned_episode_id": 347,
+      "last_mentioned_speaker": "Ben Kulandian",
+      "overton_score": 2.0,
+      "resonance_pct": 50,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
+      "first_detected_episode_date": "2026-06-15",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
+      "last_mentioned_episode_date": "2026-07-14"
+    },
+    {
       "id": 219,
       "term": "AI-native computing",
       "description": "A computing approach that is designed from the ground up to leverage artificial intelligence, rather than adapting existing infrastructure.",
@@ -10210,32 +10281,6 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-07-01"
     },
     {
-      "id": 255,
-      "term": "AI Boom",
-      "description": "A global phenomenon characterized by significant investments in artificial intelligence and data centers, drawing parallels to the pre-1873 financial boom.",
-      "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-06-30",
-      "mention_count": 2,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should be cautious of potential over-investment and subsequent corrections in the AI sector.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 320,
-      "first_detected_speaker": "Leakwet Ahamed",
-      "last_mentioned_episode_id": 321,
-      "last_mentioned_speaker": "Matt Tenzig, Zachia",
-      "overton_score": 1.45,
-      "resonance_pct": 36,
-      "first_detected_podcast": "Monetary Matters with Jack Farley",
-      "first_detected_episode_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
-      "first_detected_episode_date": "2026-06-29",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Building AI for Creators | Luma & Phota Labs",
-      "last_mentioned_episode_date": "2026-06-30"
-    },
-    {
       "id": 194,
       "term": "Multi-modal AI",
       "description": "AI systems that can process and understand information from multiple modes of input, such as text, voice, and visuals, to create more immersive user experiences.",
@@ -10286,32 +10331,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
       "last_mentioned_episode_date": "2026-06-10"
-    },
-    {
-      "id": 195,
-      "term": "Synth ID",
-      "description": "A system for verifying the authenticity of AI-generated content, addressing concerns about misinformation and enhancing trust in AI applications.",
-      "first_detected_date": "2026-05-21",
-      "last_mentioned_date": "2026-06-01",
-      "mention_count": 2,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Content verification technologies are becoming increasingly important for maintaining credibility in digital communications.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 232,
-      "first_detected_speaker": "Andrew Feldman",
-      "last_mentioned_episode_id": 298,
-      "last_mentioned_speaker": "Eden Ha",
-      "overton_score": 0.74,
-      "resonance_pct": 18,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
-      "first_detected_episode_date": "2026-05-21",
-      "last_mentioned_podcast": "Latent Space: The AI Engineer Podcast",
-      "last_mentioned_episode_title": "Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
-      "last_mentioned_episode_date": "2026-06-01"
     }
   ]
 },
@@ -31736,9 +31755,79 @@ const dashboardData = {
       "GOOGL",
       "NVDA"
     ]
+  },
+  "362": {
+    "id": 352,
+    "insight_id": 362,
+    "podcast_episode_id": 347,
+    "overview": "The unresolved tension lies in the skepticism around AI's transformative potential versus its actual capabilities to revolutionize sectors through intelligence creation and scientific acceleration. The competitive dynamic is between those who view AI as a new era of computing and those who see it as a repeat of past technological bubbles. The allocator-relevant implication is that the winners will be those who can leverage AI for high-cost, time-consuming tasks, while the losers will be those stuck in traditional computing paradigms. The metric that arbitrates this uncertainty is the rate of adoption and success of AI in compressing R&D timelines and improving outcomes across various sectors.",
+    "key_takeaways_detailed": [
+      "Investors should focus on companies that are not just using AI for routine tasks but are at the forefront of leveraging AI for complex problem-solving in material science and biotech.",
+      "The national security angle suggests that countries leading in AI development will have a strategic advantage, making AI a critical area for government and private sector investment.",
+      "The token economy within AI suggests a bifurcated market where advanced, high-quality AI models are scarce and valuable, similar to premium fuels in the energy sector.",
+      "Investors should monitor the compute constraints and rate limits experienced by users of AI services as an indicator of the demand for advanced AI models and the potential for supply shortages."
+    ],
+    "investment_thesis": "The investment thesis is that the AI and semiconductor industry is at the beginning of a significant earnings boom driven by the unique capabilities of AI to create intelligence and accelerate scientific discoveries. This boom is not a repeat of the dot-com bubble but a new era of computing. The observable development that would vindicate this thesis is a continued increase in venture capital investment into AI and semiconductors, along with successful AI-driven scientific breakthroughs that significantly compress R&D timelines. Conversely, a slowdown in investment or a lack of tangible scientific advancements would invalidate the thesis.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "Nvidia is a key player in the AI semiconductor space, providing the GPUs necessary for advanced AI computations.",
+        "positioning": "Positioned long-term as the company is expected to benefit from the ongoing AI boom and the demand for high-performance computing.",
+        "risk": "Key risks include saturation in the GPU market, competition from other semiconductor companies, and a potential slowdown in AI investment."
+      },
+      "AAPL": {
+        "rationale": "Apple's involvement in AI through its products and services, as well as its potential to leverage AI for material science and biotech applications.",
+        "positioning": "Strategic long position, considering Apple's ability to integrate AI across its product lines and its potential to lead in AI-driven innovation.",
+        "risk": "The risk lies in Apple's ability to maintain its competitive edge in AI against other tech giants and the potential for AI to disrupt its current business model."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant number of failed AI startups or projects that fail to deliver on their promises, indicating overhyping of AI capabilities.",
+      "A shift in investor sentiment away from AI and towards other emerging technologies, suggesting a potential bubble burst.",
+      "Regulatory actions that limit the use or development of AI, potentially stifling innovation and investment in the sector."
+    ],
+    "catalysts": [
+      "Announcements of major AI-driven scientific discoveries or breakthroughs in material science and biotech.",
+      "New investment rounds or IPOs in AI and semiconductor companies that indicate ongoing strong investor interest.",
+      "Government announcements or policies that prioritize AI development, signaling a strategic commitment to maintaining a competitive edge in AI.",
+      "Releases of new AI models or technologies by major companies that demonstrate significant advancements in intelligence creation."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-14T23:35:51.917089",
+    "updated_at": "2026-07-15 04:35:51",
+    "episode_evidence": "Ben Kulandian emphasizes the unique value of AI and semiconductors in creating intelligence, distinguishing them from the dot-com era's commodities like Cisco. He states, 'Everybody wants intelligence. It's not a commodity that anyone else can make.' Kulandian also highlights the potential of AI to accelerate scientific discoveries, particularly in material science and biotech, by compressing years of work into a fraction of the time, 'press 10 years of work into one year.' He further discusses the national security implications of AI, asserting that 'the best smartest fastest AI from a national defense perspective is the best military.' Kulandian also touches on the token economy, suggesting that high-quality AI models are akin to expensive fuels, 'the most expensive type of fuel,' and that there is a significant demand for these advanced models, as evidenced by his personal experience with compute constraints, 'I've hit my rate limit's over and over again.'",
+    "falsification_tracks": [
+      "If Nvidia's revenue growth stalls or declines, suggesting a saturation in the AI semiconductor market.",
+      "A significant slowdown in venture capital investment into AI and semiconductor startups.",
+      "Major setbacks or failures in AI-driven scientific discoveries that question the efficiency and scalability of AI in research.",
+      "A shift in national defense strategies away from AI reliance, indicating a reduced importance of AI in military capabilities."
+    ],
+    "insight_title": "The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-07-14",
+    "key_tickers": [
+      "NVDA",
+      "AAPL"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 514,
+    "term": "Memory Pooling",
+    "definition": "A technique where memory resources are centralized and shared among multiple systems to reduce costs and improve efficiency.",
+    "investment_implications": "Memory pooling could disrupt the traditional memory market, presenting new investment opportunities in companies that innovate in this space.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-15 04:34:58",
+    "priority_score": 80
+  },
   {
     "id": 512,
     "term": "Practical Byzantine Fault Tolerance (PBFT)",
@@ -31774,23 +31863,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-11 04:38:41",
     "priority_score": 80
-  },
-  {
-    "id": 509,
-    "term": "General Relativity",
-    "definition": "Einstein's theory of gravity that describes the geometrical structure of the space-time caused by mass and energy, unifying gravity with the structure of space-time itself.",
-    "investment_implications": "Understanding general relativity can provide insights into the physics underlying space exploration and technology, influencing investment decisions in these sectors.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-10 18:35:37",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 31413,
+    "id": 31508,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -31802,7 +31879,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31414,
+    "id": 31509,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -31814,7 +31891,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31415,
+    "id": 31510,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -31826,7 +31903,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31416,
+    "id": 31511,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -31838,7 +31915,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31417,
+    "id": 31512,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -31850,7 +31927,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31418,
+    "id": 31513,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -31862,7 +31939,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31419,
+    "id": 31514,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -31874,7 +31951,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31420,
+    "id": 31515,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -31886,7 +31963,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31421,
+    "id": 31516,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -31898,7 +31975,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31422,
+    "id": 31517,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -31910,7 +31987,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31423,
+    "id": 31518,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -31922,7 +31999,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31424,
+    "id": 31519,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -31934,7 +32011,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31425,
+    "id": 31520,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -31946,7 +32023,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31426,
+    "id": 31521,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -31958,7 +32035,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31427,
+    "id": 31522,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -31970,7 +32047,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31428,
+    "id": 31523,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -31982,7 +32059,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31429,
+    "id": 31524,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -31994,7 +32071,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31430,
+    "id": 31525,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -32006,7 +32083,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31431,
+    "id": 31526,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -32018,7 +32095,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 31432,
+    "id": 31527,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -32237,7 +32314,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-10",
     "mention_score": 2,
-    "mention_score_decayed": 1.82,
+    "mention_score_decayed": 1.78,
     "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
     "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
@@ -33413,6 +33490,70 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 332,
+    "name": "Ben Kulandian",
+    "slug": "ben-kulandian",
+    "bio": "Ben Kulandian is a specialist investor and analyst in the semiconductor world and the semiconductor supply chain. He is known for his in-depth analysis connecting silicon to software to models in the AI space. Kulandian is currently with BEP Research, where he shares his expertise on the intersection of semiconductors and AI.",
+    "known_for": "His expertise in the semiconductor industry and its role in powering AI technologies.",
+    "net_worth_usd": 1900000000.0,
+    "net_worth_source": "https://indianexpress.com/article/trending/top-10-listing/top-7-richest-ai-billionaires-jensen-huang-sam-altman-10173662/",
+    "net_worth_updated_at": "2026-07-14T23:35:19.724820",
+    "voice_tone": "Confident and knowledgeable.",
+    "voice_style": "Factual and persuasive, providing clear distinctions between AI and past tech bubbles.",
+    "voice_delivery_notes": "Paced with emphasis on key differentiators of AI's potential.",
+    "voice_profile_updated_at": "2026-07-15 04:34:58",
+    "last_seen": "2026-07-15 04:34:58",
+    "last_episode_title": "The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-07-14",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies at the forefront of AI and semiconductors that can leverage intelligence to perform high-cost, time-consuming tasks more efficiently and at scale.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-14 \u2022 The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
+    "last_proof_snippet": "Got a special conversation today. I'm joined by Ben Kulandian of BEP Research. Ben is a specialist investor and analyst in the semi-conductor world and the semi-conductor supply chain. Of course, that is what powers AI Ben welcome to moneta",
+    "supporting_takeaway": "AI's next inflection will be at the intersection with bigger sciences, such as material science and biotech.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-14T23:35:18.823292",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ben Kulandian",
+      "fetched_at": "2026-07-15T04:35:18.822953+00:00",
+      "cliff_notes": "Ben Kulandian is recognized for his deep understanding of the semiconductor industry and its pivotal role in the advancement of artificial intelligence. As an investor and analyst, Kulandian has been instrumental in dissecting the complex dynamics of the semiconductor supply chain and its impact on AI development. His insights are sought after by investors and tech enthusiasts alike, as he provides a clear perspective on the technological and financial implications of the semiconductor industry. Kulandian's work at BEP Research allows him to share his knowledge and contribute to the discourse on the future of AI and semiconductors.",
+      "derived": {
+        "current_role": "Specialist Investor and Analyst at BEP Research"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ben Kulandian is recognized for his deep understanding of the semiconductor industry and its pivotal role in the advancement of artificial intelligence. As an investor and analyst, Kulandian has been instrumental in dissecting the complex dynamics of the semiconductor supply chain and its impact on AI development. His insights are sought after by investors and tech enthusiasts alike, as he provides a clear perspective on the technological and financial implications of the semiconductor industry.",
+        "Kulandian's work at BEP Research allows him to share his knowledge and contribute to the discourse on the future of AI and semiconductors."
+      ],
+      "sections": [
+        {
+          "heading": "Semiconductor Supply Chain",
+          "body": "Ben Kulandian is an expert on the intricacies of the semiconductor supply chain, analyzing how it impacts the broader technology sector, particularly in AI."
+        },
+        {
+          "heading": "AI and Semiconductors",
+          "body": "Kulandian is known for his analysis on how advancements in semiconductors directly influence the capabilities and growth of AI technologies."
+        },
+        {
+          "heading": "Investment Insights",
+          "body": "As an investor, Kulandian provides valuable insights into the investment landscape of the semiconductor industry and its relevance to AI."
+        },
+        {
+          "heading": "Dot Com Bubble Comparison",
+          "body": "He has been vocal in discussing whether the current AI and semiconductor boom is reminiscent of the dot com bubble, offering a nuanced perspective on the matter."
+        }
+      ]
+    },
+    "net_worth": "$1.90B"
   },
   {
     "id": 329,
@@ -34820,7 +34961,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -34884,7 +35025,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -34943,7 +35084,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -35002,7 +35143,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -35067,7 +35208,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -35130,7 +35271,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -36344,7 +36485,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -41431,7 +41572,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
     "last_proof_snippet": "AI is a shortcut that can be beneficial but also presents challenges in debugging and understanding.",

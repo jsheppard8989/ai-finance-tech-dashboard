@@ -1,28 +1,30 @@
 {
-  "generated_at": "2026-07-14T22:03:01.670235",
-  "last_updated": "2026-07-14T22:03:01.670235",
-  "last_pipeline_run": "2026-07-14T22:03:01.670235",
+  "generated_at": "2026-07-14T23:36:37.588666",
+  "last_updated": "2026-07-14T23:36:37.588666",
+  "last_pipeline_run": "2026-07-14T23:36:37.588666",
   "main_page": {
     "overton": 13,
     "insights": 8,
-    "pundits": 209
+    "pundits": 210
   },
   "counts": {
-    "ticker_mentions": 203,
-    "podcast_episodes": 319,
+    "ticker_mentions": 204,
+    "podcast_episodes": 320,
     "newsletters": 7,
     "daily_scores": 141,
     "overton_terms_total": 108,
-    "latest_insights_total": 333,
-    "today_mentions": {},
-    "podcasts_analyzed": 2
+    "latest_insights_total": 334,
+    "today_mentions": {
+      "podcast": 1
+    },
+    "podcasts_analyzed": 3
   },
   "step_results": {
     "downloaded": 2,
     "transcribed": 2,
-    "analyzed": 0,
-    "insight_created": 0,
-    "published": 0,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
     "total": 2
   },
   "episodes": [
@@ -86,69 +88,23 @@
     {
       "id": "59d87eb2-7f9d-11f1-8705-732e7c072bb8",
       "podcast": "Monetary Matters with Jack Farley",
-      "title": "The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated ",
+      "title": "The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
       "published": "2026-07-14",
       "rss_guid": "59d87eb2-7f9d-11f1-8705-732e7c072bb8",
       "stages": {
         "downloaded": true,
         "transcribed": true,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
-      },
-      "first_blocker": "analyzed",
-      "remediation_by_stage": {
-        "analyzed": {
-          "action_id": "ANALYZE_TRANSCRIPTS",
-          "steps": [
-            "Run transcript analysis so is_processed=1 on podcast_episodes (analyze_transcript via auto_pipeline).",
-            "Ensure LLM keys in workspace .env (e.g. MOONSHOT_API_KEY) are set if the analyzer requires them.",
-            "Quick path: auto_pipeline.py --analyze-only analyzes then continues promotion/export steps in that run."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "insight_created": {
-          "action_id": "PROMOTE_INSIGHT",
-          "steps": [
-            "Promotion to latest_insights runs inside auto_pipeline after analysis.",
-            "If analysis succeeded but insight is missing, re-run full auto_pipeline.py and check logs for promote_episodes_to_insights errors."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "published": {
-          "action_id": "EXPORT_AND_PUBLISH",
-          "steps": [
-            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
-            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
-            "When added_to_site=1 on the episode row, this stage turns green."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        }
-      },
-      "status": "needs_analysis"
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
     }
   ],
   "available_from_rss": [
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated ",
-      "published": "Tue, 14 Jul 2026 16:02:00 -0000",
-      "published_date": "2026-07-14",
-      "rss_guid": ""
-    },
     {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",

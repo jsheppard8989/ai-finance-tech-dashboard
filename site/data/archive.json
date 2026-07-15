@@ -21,6 +21,26 @@
       "podcast_episode_id": 346
     },
     {
+      "id": 362,
+      "title": "The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-07-14",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Ben Kulandian, an expert investor and analyst in the semiconductor industry. They discuss the current state of AI and its potential to revolutionize various sectors, including material science and biotech. Kulandian argues against the notion that the current AI boom is a repeat of the dot-com bubble, emphasizing the unique capabilities of AI and semiconductors in creating intelligence and accelerating scientific discoveries. The conversation also touches on investment opportunities within the AI supply chain, with a focus on companies like Nvidia and Apple.",
+      "key_takeaway": "Invest in companies at the forefront of AI and semiconductors that can leverage intelligence to perform high-cost, time-consuming tasks more efficiently and at scale.",
+      "tickers_mentioned": [
+        "NVDA",
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 347
+    },
+    {
       "id": 358,
       "title": "Before Blockchains, There Was State Machine Replication",
       "source_type": "podcast",
@@ -113,7 +133,7 @@
         "AMZN"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-09",
       "archived_date": null,
@@ -6952,8 +6972,8 @@
       "term": "AI Boom",
       "description": "A global phenomenon characterized by significant investments in artificial intelligence and data centers, drawing parallels to the pre-1873 financial boom.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-06-30",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-07-14",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be cautious of potential over-investment and subsequent corrections in the AI sector.",
@@ -6962,8 +6982,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 320,
       "first_detected_speaker": "Leakwet Ahamed",
-      "last_mentioned_episode_id": 321,
-      "last_mentioned_speaker": "Matt Tenzig, Zachia"
+      "last_mentioned_episode_id": 347,
+      "last_mentioned_speaker": "Ben Kulandian"
     },
     {
       "id": 254,
@@ -7004,20 +7024,20 @@
     {
       "id": 252,
       "term": "AI Commoditization",
-      "description": "The process by which AI technology becomes a standard, undifferentiated product, leading to increased competition and reduced pricing power.",
+      "description": "The process by which AI becomes a standard feature or utility rather than a unique differentiator.",
       "first_detected_date": "2026-06-15",
-      "last_mentioned_date": "2026-06-15",
-      "mention_count": 1,
+      "last_mentioned_date": "2026-07-14",
+      "mention_count": 2,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should be cautious about companies in commoditized AI sectors and look for those with unique competitive advantages.",
+      "investment_implications": "Investors should look for companies that can maintain a competitive edge as AI becomes more commonplace.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 286,
       "first_detected_speaker": "Jack Farley (hosts)",
-      "last_mentioned_episode_id": 286,
-      "last_mentioned_speaker": "Jack Farley (hosts)"
+      "last_mentioned_episode_id": 347,
+      "last_mentioned_speaker": "Ben Kulandian"
     },
     {
       "id": 248,
