@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-15T12:09:01.146825",
-  "last_updated": "2026-07-15T12:09:01.146825",
-  "last_pipeline_run": "2026-07-15T12:09:01.146825",
+  "generated_at": "2026-07-15T13:42:39.136124",
+  "last_updated": "2026-07-15T13:42:39.136124",
+  "last_pipeline_run": "2026-07-15T13:42:39.136124",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -20,12 +20,12 @@
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 2
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
     {
@@ -84,24 +84,6 @@
         }
       },
       "status": "needs_analysis"
-    },
-    {
-      "id": "85d11fb3-6ad6-4d00-b9dc-b18d529041d0",
-      "podcast": "The a16z Show",
-      "title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
-      "published": "2026-07-15",
-      "rss_guid": "85d11fb3-6ad6-4d00-b9dc-b18d529041d0",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
     }
   ],
   "available_from_rss": [
