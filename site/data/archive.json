@@ -1,6 +1,26 @@
 {
   "insights": [
     {
+      "id": 363,
+      "title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-15",
+      "summary": "In this episode of 'The a16z Show', the panel discusses the state of AI hardware and the challenges of competing with video in the market. They explore the importance of infrastructure, including data centers and power, and how companies like Google, Amazon, Meta, and OpenAI are approaching AI infrastructure. The conversation also delves into custom silicon, AI economics, robotics, export controls, and considerations for founders and investors as the compute race accelerates.",
+      "key_takeaway": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
+      "tickers_mentioned": [
+        "NVIDIA",
+        "AMD"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 348
+    },
+    {
       "id": 361,
       "title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
       "source_type": "podcast",
@@ -156,7 +176,7 @@
         "IBM"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-10",
       "archived_date": null,
@@ -6990,8 +7010,8 @@
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-07-10",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-07-15",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
@@ -7000,8 +7020,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 339,
-      "last_mentioned_speaker": "Andrew Feldman"
+      "last_mentioned_episode_id": 348,
+      "last_mentioned_speaker": "Dylan Patel"
     },
     {
       "id": 256,
@@ -7096,20 +7116,20 @@
     {
       "id": 138,
       "term": "AI CapEx",
-      "description": "Capital expenditures specifically related to artificial intelligence, including hardware and infrastructure.",
+      "description": "The capital expenditures required for the development and maintenance of AI technologies and infrastructure.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-07-14",
-      "mention_count": 10,
+      "last_mentioned_date": "2026-07-15",
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider the AI CapEx of companies as a measure of their commitment to AI development.",
+      "investment_implications": "Understanding a company's AI CapEx can provide insights into its financial health and growth potential.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 346,
-      "last_mentioned_speaker": "Jack Farley (hosts)"
+      "last_mentioned_episode_id": 348,
+      "last_mentioned_speaker": "Dylan Patel"
     },
     {
       "id": 234,
@@ -8320,20 +8340,20 @@
     {
       "id": 57,
       "term": "AI Infrastructure",
-      "description": "The physical and technological framework supporting AI operations, including data centers and chips.",
+      "description": "The underlying technology, including data centers, power, and networking, that supports AI models and determines scaling capabilities.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-07-10",
-      "mention_count": 20,
+      "last_mentioned_date": "2026-07-15",
+      "mention_count": 21,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "As AI demand grows, investing in AI infrastructure could provide substantial returns.",
+      "investment_implications": "Investors should consider the robustness of a company's AI infrastructure when evaluating its long-term potential.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 339,
-      "last_mentioned_speaker": "Andrew Feldman"
+      "last_mentioned_episode_id": 348,
+      "last_mentioned_speaker": "Dylan Patel"
     },
     {
       "id": 26,
@@ -8428,20 +8448,20 @@
     {
       "id": 18,
       "term": "Compute Arbitrage",
-      "description": "The strategic allocation of computing resources to take advantage of the most cost-effective or efficient options available.",
+      "description": "The practice of optimizing computational resources across different platforms to maximize efficiency and minimize costs.",
       "first_detected_date": "2026-03-13",
-      "last_mentioned_date": "2026-07-14",
-      "mention_count": 15,
+      "last_mentioned_date": "2026-07-15",
+      "mention_count": 16,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors can look for companies that optimize compute resources to gain a competitive edge.",
+      "investment_implications": "Investors should be aware of companies' strategies in compute arbitrage to assess their competitive advantage.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 346,
-      "last_mentioned_speaker": "Jim Chanos, Val Zlathev"
+      "last_mentioned_episode_id": 348,
+      "last_mentioned_speaker": "Dylan Patel"
     },
     {
       "id": 19,
@@ -8520,8 +8540,8 @@
       "term": "AI Race",
       "description": "The global competition between nations to lead in AI development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-07-11",
-      "mention_count": 17,
+      "last_mentioned_date": "2026-07-15",
+      "mention_count": 18,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consider investing in companies and countries that are making significant strides in AI technology.",
@@ -8530,8 +8550,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 342,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 348,
+      "last_mentioned_speaker": "Dylan Patel"
     },
     {
       "id": 12,

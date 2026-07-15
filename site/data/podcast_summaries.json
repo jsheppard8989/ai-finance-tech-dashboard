@@ -1,5 +1,24 @@
 [
   {
+    "id": 348,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
+    "episode_date": "2026-07-15",
+    "summary": "In this episode of 'The a16z Show', the panel discusses the state of AI hardware and the challenges of competing with video in the market. They explore the importance of infrastructure, including data centers and power, and how companies like Google, Amazon, Meta, and OpenAI are approaching AI infrastructure. The conversation also delves into custom silicon, AI economics, robotics, export controls, and considerations for founders and investors as the compute race accelerates.",
+    "key_takeaways": [
+      "AI infrastructure is not just about models but also the underlying data centers, power, networking, and economics.",
+      "Companies need to leap forward and be significantly better to compete with video in the AI space.",
+      "Custom silicon and AI economics are crucial for companies to stay competitive in the next generation of AI infrastructure.",
+      "Export controls and the ability to negotiate with suppliers like TSMC or SK Hynix can impact a company's cost efficiency.",
+      "Founders and investors should pay attention to the accelerating compute race and the need for hardware efficiency in AI workloads."
+    ],
+    "investment_thesis": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
+    "key_tickers": [
+      "NVIDIA",
+      "AMD"
+    ]
+  },
+  {
     "id": 347,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
@@ -122,22 +141,6 @@
       "The theory of gravity before Einstein was based on Newton's laws, which were later expanded upon by general relativity."
     ],
     "investment_thesis": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
-    "key_tickers": null
-  },
-  {
-    "id": 340,
-    "podcast_name": "The a16z Show",
-    "episode_title": "How Bitcoin Rewired a Classic Computer Science Problem",
-    "episode_date": "2026-07-10",
-    "summary": "The podcast explores the intersection of blockchain technology and distributed computing, focusing on Byzantine fault tolerance as a core technical aspect of Bitcoin. It discusses the convergence of these fields in recent years, the impact of proof of stake consensus mechanisms on Byzantine fault tolerance, and the increasing focus on higher throughput and lower latency in blockchain protocols. The discussion emphasizes the importance of understanding academic research when evaluating blockchain technologies.",
-    "key_takeaways": [
-      "Bitcoin's core technical aspect is Byzantine fault tolerance, a problem studied in computing for decades.",
-      "Blockchain technology and distributed computing research have converged, leading to more robust and efficient protocols.",
-      "Proof of stake consensus mechanisms have enabled new techniques for Byzantine fault tolerance, improving blockchain efficiency and security.",
-      "Dual-mode blockchain protocols that optimize for both high throughput and low latency are emerging.",
-      "Investors should monitor developments in blockchain protocols that align with academic research on Byzantine fault tolerance."
-    ],
-    "investment_thesis": "Invest in blockchain projects that leverage academic research on Byzantine fault tolerance and adopt efficient consensus mechanisms like proof of stake for improved performance and security.",
     "key_tickers": null
   }
 ]

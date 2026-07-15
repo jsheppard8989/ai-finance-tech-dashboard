@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-15T06:39:24.615556",
-  chartsVersion: "2026-07-15T06:39:09.899493",
+  generatedAt: "2026-07-15T12:09:06.186090",
+  chartsVersion: "2026-07-15T12:08:59.167307",
   priceSnapshot: {
   "GOOGL": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 372.18,
+    "change_pct": 8.28,
     "name": "GOOGL",
-    "updated_at": "2026-07-15T06:39:09.898103"
+    "updated_at": "2026-07-15T12:08:59.166800"
   },
   "NVDA": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 208.29,
+    "change_pct": 6.41,
     "name": "NVDA",
-    "updated_at": "2026-07-15T06:39:09.898121"
+    "updated_at": "2026-07-15T12:08:59.166810"
   },
   "BTC": {
-    "price": 64633.72,
-    "change_pct": 5.12,
+    "price": 65024.96,
+    "change_pct": 5.76,
     "name": "BTC",
-    "updated_at": "2026-07-15T06:39:09.898132"
+    "updated_at": "2026-07-15T12:08:59.166814"
   },
   "MSFT": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 395.48,
+    "change_pct": 12.09,
     "name": "MSFT",
-    "updated_at": "2026-07-15T06:39:09.898139"
+    "updated_at": "2026-07-15T12:08:59.166817"
   },
   "TSLA": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 394.61,
+    "change_pct": 5.2,
     "name": "TSLA",
-    "updated_at": "2026-07-15T06:39:09.898145"
+    "updated_at": "2026-07-15T12:08:59.166821"
   },
   "AMZN": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 254.96,
+    "change_pct": 12.31,
     "name": "AMZN",
-    "updated_at": "2026-07-15T06:39:09.898151"
+    "updated_at": "2026-07-15T12:08:59.166824"
   },
   "WTI": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 3.37,
+    "change_pct": 5.64,
     "name": "WTI",
-    "updated_at": "2026-07-15T06:39:09.898157"
+    "updated_at": "2026-07-15T12:08:59.166828"
   },
   "META": {
-    "price": 661.04,
-    "change_pct": 18.54,
+    "price": 675.4,
+    "change_pct": 24.41,
     "name": "META",
-    "updated_at": "2026-07-15T06:39:09.898164"
+    "updated_at": "2026-07-15T12:08:59.166831"
   },
   "S&P 500": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 752.24,
+    "change_pct": 2.44,
     "name": "S&P 500",
-    "updated_at": "2026-07-15T06:39:09.898170"
+    "updated_at": "2026-07-15T12:08:59.166834"
   },
   "AAPL": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 327.23,
+    "change_pct": 18.93,
     "name": "AAPL",
-    "updated_at": "2026-07-15T06:39:09.898176"
+    "updated_at": "2026-07-15T12:08:59.166838"
   },
   "QQQ": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 713.98,
+    "change_pct": -0.34,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-15T06:39:09.898181"
+    "updated_at": "2026-07-15T12:08:59.166841"
   },
   "BTC-USD": {
-    "price": 64633.72,
-    "change_pct": 5.12,
+    "price": 65024.96,
+    "change_pct": 5.76,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-15T06:39:09.898190"
+    "updated_at": "2026-07-15T12:08:59.166844"
   }
 },
   tickerScores: [
@@ -834,6 +834,26 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 363,
+      "title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-15",
+      "summary": "In this episode of 'The a16z Show', the panel discusses the state of AI hardware and the challenges of competing with video in the market. They explore the importance of infrastructure, including data centers and power, and how companies like Google, Amazon, Meta, and OpenAI are approaching AI infrastructure. The conversation also delves into custom silicon, AI economics, robotics, export controls, and considerations for founders and investors as the compute race accelerates.",
+      "key_takeaway": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
+      "tickers_mentioned": [
+        "NVIDIA",
+        "AMD"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 348
+    },
+    {
       "id": 361,
       "title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
       "source_type": "podcast",
@@ -989,7 +1009,7 @@ const dashboardData = {
         "IBM"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-10",
       "archived_date": null,
@@ -7823,8 +7843,8 @@ const dashboardData = {
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-07-10",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-07-15",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
@@ -7833,8 +7853,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 339,
-      "last_mentioned_speaker": "Andrew Feldman"
+      "last_mentioned_episode_id": 348,
+      "last_mentioned_speaker": "Dylan Patel"
     },
     {
       "id": 256,
@@ -7929,20 +7949,20 @@ const dashboardData = {
     {
       "id": 138,
       "term": "AI CapEx",
-      "description": "Capital expenditures specifically related to artificial intelligence, including hardware and infrastructure.",
+      "description": "The capital expenditures required for the development and maintenance of AI technologies and infrastructure.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-07-14",
-      "mention_count": 10,
+      "last_mentioned_date": "2026-07-15",
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider the AI CapEx of companies as a measure of their commitment to AI development.",
+      "investment_implications": "Understanding a company's AI CapEx can provide insights into its financial health and growth potential.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 346,
-      "last_mentioned_speaker": "Jack Farley (hosts)"
+      "last_mentioned_episode_id": 348,
+      "last_mentioned_speaker": "Dylan Patel"
     },
     {
       "id": 234,
@@ -9153,20 +9173,20 @@ const dashboardData = {
     {
       "id": 57,
       "term": "AI Infrastructure",
-      "description": "The physical and technological framework supporting AI operations, including data centers and chips.",
+      "description": "The underlying technology, including data centers, power, and networking, that supports AI models and determines scaling capabilities.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-07-10",
-      "mention_count": 20,
+      "last_mentioned_date": "2026-07-15",
+      "mention_count": 21,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "As AI demand grows, investing in AI infrastructure could provide substantial returns.",
+      "investment_implications": "Investors should consider the robustness of a company's AI infrastructure when evaluating its long-term potential.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 339,
-      "last_mentioned_speaker": "Andrew Feldman"
+      "last_mentioned_episode_id": 348,
+      "last_mentioned_speaker": "Dylan Patel"
     },
     {
       "id": 26,
@@ -9261,20 +9281,20 @@ const dashboardData = {
     {
       "id": 18,
       "term": "Compute Arbitrage",
-      "description": "The strategic allocation of computing resources to take advantage of the most cost-effective or efficient options available.",
+      "description": "The practice of optimizing computational resources across different platforms to maximize efficiency and minimize costs.",
       "first_detected_date": "2026-03-13",
-      "last_mentioned_date": "2026-07-14",
-      "mention_count": 15,
+      "last_mentioned_date": "2026-07-15",
+      "mention_count": 16,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors can look for companies that optimize compute resources to gain a competitive edge.",
+      "investment_implications": "Investors should be aware of companies' strategies in compute arbitrage to assess their competitive advantage.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 346,
-      "last_mentioned_speaker": "Jim Chanos, Val Zlathev"
+      "last_mentioned_episode_id": 348,
+      "last_mentioned_speaker": "Dylan Patel"
     },
     {
       "id": 19,
@@ -9353,8 +9373,8 @@ const dashboardData = {
       "term": "AI Race",
       "description": "The global competition between nations to lead in AI development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-07-11",
-      "mention_count": 17,
+      "last_mentioned_date": "2026-07-15",
+      "mention_count": 18,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consider investing in companies and countries that are making significant strides in AI technology.",
@@ -9363,8 +9383,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 342,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 348,
+      "last_mentioned_speaker": "Dylan Patel"
     },
     {
       "id": 12,
@@ -9701,6 +9721,29 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 363,
+      "title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-15",
+      "summary": "In this episode of 'The a16z Show', the panel discusses the state of AI hardware and the challenges of competing with video in the market. They explore the importance of infrastructure, including data centers and power, and how companies like Google, Amazon, Meta, and OpenAI are approaching AI infrastructure. The conversation also delves into custom silicon, AI economics, robotics, export controls, and considerations for founders and investors as the compute race accelerates.",
+      "key_takeaway": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
+      "tickers_mentioned": "[\"NVIDIA\", \"AMD\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 348,
+      "episode_release_date": "2026-07-15",
+      "guest_name": "Can Anyone Catch NVIDIA?",
+      "key_tickers": [
+        "NVIDIA",
+        "AMD"
+      ]
+    },
+    {
       "id": 361,
       "title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
       "source_type": "podcast",
@@ -9829,26 +9872,6 @@ const dashboardData = {
       "key_tickers": [
         "TSLA"
       ]
-    },
-    {
-      "id": 355,
-      "title": "How Bitcoin Rewired a Classic Computer Science Problem",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-07-10",
-      "summary": "The podcast explores the intersection of blockchain technology and distributed computing, focusing on Byzantine fault tolerance as a core technical aspect of Bitcoin. It discusses the convergence of these fields in recent years, the impact of proof of stake consensus mechanisms on Byzantine fault tolerance, and the increasing focus on higher throughput and lower latency in blockchain protocols. The discussion emphasizes the importance of understanding academic research when evaluating blockchain technologies.",
-      "key_takeaway": "Invest in blockchain projects that leverage academic research on Byzantine fault tolerance and adopt efficient consensus mechanisms like proof of stake for improved performance and security.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"AMZN\", \"MSFT\", \"IBM\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-10",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 340,
-      "episode_release_date": "2026-07-10",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 356,
@@ -10073,6 +10096,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-07-13"
     },
     {
+      "id": 254,
+      "term": "Hyperscalers",
+      "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
+      "first_detected_date": "2026-06-19",
+      "last_mentioned_date": "2026-07-15",
+      "mention_count": 8,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 302,
+      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "last_mentioned_episode_id": 348,
+      "last_mentioned_speaker": "Dylan Patel",
+      "overton_score": 8.0,
+      "resonance_pct": 100,
+      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
+      "first_detected_episode_date": "2026-06-19",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
+      "last_mentioned_episode_date": "2026-07-15"
+    },
+    {
       "id": 11,
       "term": "Jevon's Paradox",
       "description": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
@@ -10097,32 +10146,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
       "last_mentioned_episode_title": "The AI Duopoly Is Over: Grok 4. 5 , GPT-5 . 6 , and Muse Spark in One Week | #270",
       "last_mentioned_episode_date": "2026-07-13"
-    },
-    {
-      "id": 254,
-      "term": "Hyperscalers",
-      "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
-      "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-07-10",
-      "mention_count": 7,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 302,
-      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 339,
-      "last_mentioned_speaker": "Andrew Feldman",
-      "overton_score": 6.24,
-      "resonance_pct": 100,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
-      "first_detected_episode_date": "2026-06-19",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
-      "last_mentioned_episode_date": "2026-07-10"
     },
     {
       "id": 255,
@@ -31813,6 +31836,73 @@ const dashboardData = {
       "NVDA",
       "AAPL"
     ]
+  },
+  "363": {
+    "id": 353,
+    "insight_id": 363,
+    "podcast_episode_id": 348,
+    "overview": "The competitive dynamic in AI is not solely about the advancement of AI models but also about the underlying infrastructure that supports these models. The ability to scale efficiently and manage the economics of data centers, power, and networking is contested, with companies like Google, Amazon, Meta, and OpenAI investing heavily in this area. The allocation-relevant implication is that those who can optimize the cost and performance of AI infrastructure will gain a competitive edge, as the economic efficiency of compute usage becomes a critical differentiator.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the capital expenditure of tech giants in AI infrastructure as an indicator of their commitment to maintaining a competitive edge in the AI race.",
+      "The development of custom silicon for AI applications is a key differentiator; companies that can optimize hardware for specific AI tasks will likely see performance gains and cost savings.",
+      "The economic model of AI, including the ability to monetize free users through advanced routing and upselling strategies, will become increasingly important as the market matures.",
+      "Export controls and regulatory changes can significantly impact the global competition in AI, affecting both the flow of technology and the competitive landscape."
+    ],
+    "investment_thesis": "The core logic is that in the AI race, the companies that can scale their infrastructure most efficiently while maintaining or improving the performance of their AI models will gain a significant advantage. This thesis is tied to the observable development of increased investment in AI infrastructure by major players and the deployment of custom silicon that enhances performance and reduces costs. A timeframe of 3-5 years is reasonable to see significant shifts in the competitive landscape based on these factors. A vindication would be evidenced by sustained increases in infrastructure investment and the successful deployment of custom silicon, while an invalidation would occur if these investments plateau or if become dominant, reducing the need for specialized hardware.",
+    "ticker_analysis": {
+      "GOOGL": {
+        "rationale": "Google is a major player in AI and has been investing heavily in AI infrastructure, including data centers and custom silicon. Their position in this space is crucial for maintaining their competitive edge.",
+        "positioning": "Strategic long position, as Google's continued investment in AI infrastructure is likely to yield long-term benefits in the AI race.",
+        "risk": "Key risks include a slowdown in AI-related capital expenditure or failure to effectively monetize their AI investments."
+      },
+      "AMZN": {
+        "rationale": "Amazon, through AWS, provides cloud services that are critical for AI infrastructure. Their ability to scale and offer efficient AI services is key.",
+        "positioning": "Strategic long position, as Amazon's AWS continues to be a dominant player in cloud services, which are essential for AI infrastructure.",
+        "risk": "The risk lies in increased competition in cloud services or a slowdown in AI-related cloud demand."
+      },
+      "META": {
+        "rationale": "Meta (Facebook) is investing in AI for various applications, including its metaverse project, which requires robust AI infrastructure.",
+        "positioning": "Tactical long position, as Meta's investments in AI infrastructure could pay off in the short to medium term, especially with the metaverse initiative.",
+        "risk": "The risk is that the metaverse project does not meet expectations, leading to reduced investment in AI infrastructure."
+      },
+      "MSFT": {
+        "rationale": "Microsoft, with its Azure cloud platform, is also a significant player in providing AI infrastructure services.",
+        "positioning": "Strategic long position, as Microsoft's continued innovation and investment in Azure can support its position in the AI race.",
+        "risk": "The risk is increased competition from other cloud providers or a slowdown in corporate cloud spending."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that AI models can advance sufficiently without corresponding advancements in infrastructure.",
+      "The view that the economic efficiency of compute usage is less important than the raw performance of AI models.",
+      "The assumption that the current leaders in AI infrastructure will maintain their positions without significant challenges from new entrants or disruptors."
+    ],
+    "catalysts": [
+      "Announcements of new investments in AI infrastructure by major tech companies.",
+      "Launches of new custom silicon designed for AI applications.",
+      "Regulatory changes affecting the export of AI technologies and hardware.",
+      "Economic reports highlighting the cost efficiency of AI infrastructure and its impact on company performance."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-15T12:07:03.181511",
+    "updated_at": "2026-07-15 17:07:03",
+    "episode_evidence": "The podcast episode with Dylan Patel, co-founder of SemiAnalysis, delves into the intricacies of AI hardware and infrastructure. Patel emphasizes the importance of infrastructure in the AI race, stating, 'The AI race isn't just about models. It's also about the infrastructure underneath them. Data centers, power, networking, and the economics that determine who can keep scaling.' This underscores the multifaceted nature of competition in AI, where not only the sophistication of AI models but also the supporting infrastructure plays a crucial role. Patel also discusses the economic implications of AI models, particularly with the launch of GPT-5 by OpenAI, 'GPT-5 is not spending more compute per se. The model did get a little bit better on a vanilla basis, right?' This suggests that while improvements in AI models are significant, the economic efficiency of compute usage is becoming increasingly important, especially as companies look to scale and manage costs effectively.",
+    "falsification_tracks": [
+      "Should the market witness a significant decrease in the investment by major tech companies like Google, Amazon, Meta, and OpenAI in AI infrastructure, it would challenge the thesis that infrastructure is a key battleground in the AI race.",
+      "If there is a notable slowdown in the development and deployment of custom silicon tailored for AI applications, it could indicate that the importance of specialized hardware is diminishing.",
+      "A shift in regulatory policies that restricts the export of AI technologies and hardware could disrupt the global competition and collaboration in the field, altering the dynamics of the AI race."
+    ],
+    "insight_title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
+    "source_name": "The a16z Show",
+    "source_date": "2026-07-15",
+    "key_tickers": [
+      "NVIDIA",
+      "AMD"
+    ]
   }
 },
   suggestedTerms: [
@@ -31867,7 +31957,19 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 31698,
+    "id": 31793,
+    "name": "Can Anyone Catch NVIDIA?",
+    "slug": "can-anyone-catch-nvidia",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
+    "last_episode_title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-15",
+    "appearance_count": 1
+  },
+  {
+    "id": 31794,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -31879,7 +31981,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31699,
+    "id": 31795,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -31891,7 +31993,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31700,
+    "id": 31796,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -31903,7 +32005,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31701,
+    "id": 31797,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -31915,7 +32017,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31702,
+    "id": 31798,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -31927,7 +32029,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31703,
+    "id": 31799,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -31939,7 +32041,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31704,
+    "id": 31800,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -31951,7 +32053,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31705,
+    "id": 31801,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -31963,7 +32065,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31706,
+    "id": 31802,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -31975,7 +32077,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31707,
+    "id": 31803,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -31987,7 +32089,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31708,
+    "id": 31804,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -31999,7 +32101,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31709,
+    "id": 31805,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -32011,7 +32113,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31710,
+    "id": 31806,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -32023,7 +32125,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31711,
+    "id": 31807,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -32035,7 +32137,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31712,
+    "id": 31808,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -32047,7 +32149,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31713,
+    "id": 31809,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -32059,7 +32161,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31714,
+    "id": 31810,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -32071,7 +32173,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31715,
+    "id": 31811,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -32083,7 +32185,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 31716,
+    "id": 31812,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -32093,18 +32195,6 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-19",
     "appearance_count": 2
-  },
-  {
-    "id": 31717,
-    "name": "15 Questions",
-    "slug": "15-questions",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
-    "last_episode_title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
-    "last_podcast_name": "The Jack Mallers Show",
-    "last_episode_date": "2026-06-16",
-    "appearance_count": 1
   }
 ],
   pundits: [
@@ -33492,6 +33582,74 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 333,
+    "name": "Dylan Patel",
+    "slug": "dylan-patel",
+    "bio": "Dylan Patel is the co-founder of SemiAnalysis, a firm that specializes in covering AI hardware and data center space. He is recognized for his exceptional insights into the semiconductor industry and the infrastructure that supports AI advancements.",
+    "known_for": "His expertise in AI hardware and semiconductors, and the impact of these technologies on data centers and AI economics.",
+    "net_worth_usd": 3700000000.0,
+    "net_worth_source": "https://substack.com/home/post/p-153458455",
+    "net_worth_updated_at": "2026-07-15T12:06:20.503583",
+    "voice_tone": "Informed and analytical.",
+    "voice_style": "Factual and insightful, providing deep industry knowledge.",
+    "voice_delivery_notes": "Clear and concise, with a focus on key industry trends and insights.",
+    "voice_profile_updated_at": "2026-07-15 17:05:26",
+    "last_seen": "2026-07-15 17:05:26",
+    "last_episode_title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-15",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-15 \u2022 Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
+    "last_proof_snippet": "In videos that are going to have better networking than you, they're going to have better HP, they're going to have better process-node, they're going to come to market faster, they're going to be able to ramp faster, they're going to have",
+    "supporting_takeaway": "Companies need to leap forward and be significantly better to compete with video in the AI space.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-15T12:06:19.625174",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dylan Patel",
+      "fetched_at": "2026-07-15T17:06:19.625007+00:00",
+      "cliff_notes": "Dylan Patel is a prominent figure in the technology sector, particularly in the realm of AI hardware and semiconductors. As the co-founder of SemiAnalysis, he has been instrumental in providing in-depth analysis and coverage of the AI hardware space and its implications for data centers. His work is crucial for understanding the underpinnings of AI advancements, including the infrastructure that supports these technologies. Patel's insights are sought after by investors and tech enthusiasts alike, as they help navigate the complex landscape of AI and its hardware requirements. His contributions to the discourse on AI infrastructure, including custom silicon, robotics, and export controls, have positioned him as a thought leader in the field.",
+      "derived": {
+        "current_role": "Co-founder of SemiAnalysis"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dylan Patel is a prominent figure in the technology sector, particularly in the realm of AI hardware and semiconductors. As the co-founder of SemiAnalysis, he has been instrumental in providing in-depth analysis and coverage of the AI hardware space and its implications for data centers. His work is crucial for understanding the underpinnings of AI advancements, including the infrastructure that supports these technologies.",
+        "Patel's insights are sought after by investors and tech enthusiasts alike, as they help navigate the complex landscape of AI and its hardware requirements. His contributions to the discourse on AI infrastructure, including custom silicon, robotics, and export controls, have positioned him as a thought leader in the field."
+      ],
+      "sections": [
+        {
+          "heading": "AI Hardware",
+          "body": "Dylan Patel is known for his expertise in AI hardware, discussing the importance of infrastructure and how it affects the development and scaling of AI technologies."
+        },
+        {
+          "heading": "Semiconductor Industry",
+          "body": "Patel's analysis of the semiconductor space is highly regarded, with a focus on how advancements in this area can drive innovation in AI and data centers."
+        },
+        {
+          "heading": "Data Center Economics",
+          "body": "He explores the economic factors that influence data center operations and the ability of companies to scale their AI capabilities effectively."
+        },
+        {
+          "heading": "Custom Silicon",
+          "body": "Patel discusses the role of custom silicon in the next generation of AI infrastructure and how it can provide a competitive edge."
+        },
+        {
+          "heading": "AI Infrastructure",
+          "body": "His insights into AI infrastructure include the challenges faced by companies like Google, Amazon, Meta, and OpenAI in developing and deploying advanced AI systems."
+        }
+      ]
+    },
+    "net_worth": "$3.70B"
+  },
+  {
     "id": 332,
     "name": "Ben Kulandian",
     "slug": "ben-kulandian",
@@ -33573,7 +33731,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
     "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro. We came to me and he said, why don't we see whether we can figure out a way to",
@@ -33713,7 +33871,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -33779,7 +33937,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -33840,7 +33998,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-08 \u2022 Adam Neumann: This Is How You Build Iconic Companies",
     "last_proof_snippet": "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
@@ -33905,7 +34063,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -33964,7 +34122,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -34148,7 +34306,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -34332,7 +34490,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
     "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
@@ -34393,7 +34551,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -34644,7 +34802,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -34708,7 +34866,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -35511,7 +35669,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -36080,7 +36238,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -36209,7 +36367,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -36275,7 +36433,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -36550,7 +36708,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -36614,7 +36772,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -36869,7 +37027,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -36933,7 +37091,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -37863,7 +38021,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -37929,7 +38087,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",

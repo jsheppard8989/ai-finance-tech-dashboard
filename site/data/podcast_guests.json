@@ -1,6 +1,18 @@
 [
   {
-    "id": 31698,
+    "id": 31793,
+    "name": "Can Anyone Catch NVIDIA?",
+    "slug": "can-anyone-catch-nvidia",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
+    "last_episode_title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-15",
+    "appearance_count": 1
+  },
+  {
+    "id": 31794,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31699,
+    "id": 31795,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31700,
+    "id": 31796,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31701,
+    "id": 31797,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31702,
+    "id": 31798,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31703,
+    "id": 31799,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31704,
+    "id": 31800,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31705,
+    "id": 31801,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31706,
+    "id": 31802,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31707,
+    "id": 31803,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31708,
+    "id": 31804,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31709,
+    "id": 31805,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31710,
+    "id": 31806,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31711,
+    "id": 31807,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31712,
+    "id": 31808,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31713,
+    "id": 31809,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31714,
+    "id": 31810,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31715,
+    "id": 31811,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31716,
+    "id": 31812,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 2
   },
   {
-    "id": 31717,
+    "id": 31813,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31718,
+    "id": 31814,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31719,
+    "id": 31815,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31720,
+    "id": 31816,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31721,
+    "id": 31817,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31722,
+    "id": 31818,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31723,
+    "id": 31819,
     "name": "Emerging Situation",
     "slug": "emerging-situation",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31724,
+    "id": 31820,
     "name": "Nikesh Arora",
     "slug": "nikesh-arora",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31725,
+    "id": 31821,
     "name": "\u201cSleepwalking into Crisis\u201d",
     "slug": "sleepwalking-into-crisis",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 31726,
+    "id": 31822,
     "name": "Inside the Private Stock Market Boom",
     "slug": "inside-the-private-stock-market-boom",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "Inside the Private Stock Market Boom: SpaceX, Anthropic, OpenAI & the Rise of Secondaries",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-07",
-    "appearance_count": 1
-  },
-  {
-    "id": 31727,
-    "name": "Exa CEO Will Bryk",
-    "slug": "exa-ceo-will-bryk",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
-    "last_episode_title": "Building Search for AI Agents with Exa CEO Will Bryk",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-06",
     "appearance_count": 1
   }
 ]
