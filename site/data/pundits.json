@@ -451,7 +451,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -589,7 +589,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -777,7 +777,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -1383,6 +1383,248 @@
     "pundit_profile": null
   },
   {
+    "id": 339,
+    "name": "Andy Beam",
+    "slug": "andy-beam",
+    "bio": "Andy Beam is the Chief Technology Officer at Lila, a company focused on AI research and healthcare. With a background in medical AI, Beam has been instrumental in the development of machine learning applications in biomedicine, previously serving as the founding head of machine learning at Generate Biomedicine.",
+    "known_for": "Pioneering work in medical AI and leading the machine learning efforts at Generate Biomedicine.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-07-16 18:37:41",
+    "last_episode_title": "\ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-07-16",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-16 \u2022 \ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
+    "last_proof_snippet": "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
+    "supporting_takeaway": "The future lab is envisioned to be like a data center, with a focus on energy efficiency and densely packed server racks.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-16T13:38:18.021282",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Andy Beam",
+      "fetched_at": "2026-07-16T18:38:18.020948+00:00",
+      "cliff_notes": "Andy Beam is a prominent figure in the field of medical AI and machine learning. His career has been marked by significant contributions to the development and application of AI in healthcare. Beam's early work laid the foundation for the integration of AI in medical research and treatment, and his leadership at Generate Biomedicine further established him as an authority in the field. As the Chief Technology Officer at Lila, Beam continues to drive innovation at the intersection of AI and healthcare, focusing on creating scalable and efficient data-driven solutions for scientific research.",
+      "derived": {
+        "current_role": "Chief Technology Officer at Lila",
+        "former_positions": "Founding head of machine learning at Generate Biomedicine"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Andy Beam is a prominent figure in the field of medical AI and machine learning. His career has been marked by significant contributions to the development and application of AI in healthcare. Beam's early work laid the foundation for the integration of AI in medical research and treatment, and his leadership at Generate Biomedicine further established him as an authority in the field.",
+        "As the Chief Technology Officer at Lila, Beam continues to drive innovation at the intersection of AI and healthcare, focusing on creating scalable and efficient data-driven solutions for scientific research."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Healthcare",
+          "body": "Andy Beam has been a key player in the application of AI in healthcare, pioneering the use of machine learning to improve medical research and patient outcomes."
+        },
+        {
+          "heading": "Data-Driven Science",
+          "body": "Beam advocates for the future of scientific research to be more data-centric, likening the lab of the future to a data center, emphasizing the importance of scalability and efficiency in data handling."
+        },
+        {
+          "heading": "Scalability and Generalization",
+          "body": "In discussions about the future of data and AI, Beam has highlighted the need for generalizable methods that can scale, drawing parallels to the finite nature of data on the internet and the need for new, large-scale datasets."
+        }
+      ]
+    }
+  },
+  {
+    "id": 340,
+    "name": "Ratha Gomez Bumbarelli",
+    "slug": "ratha-gomez-bumbarelli",
+    "bio": "Ratha Gomez Bumbarelli is a pioneering figure in the field of computational chemistry and deep learning for science. As the Chief Scientific Officer for Physical Sciences at Lila, she is dedicated to advancing scientific discovery through innovative technology. Her work focuses on leveraging data and computational methods to revolutionize chemistry and other scientific fields.",
+    "known_for": "Pioneering work in deep learning for science and genetic algorithms for chemistry.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-07-16 18:37:41",
+    "last_episode_title": "\ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-07-16",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-16 \u2022 \ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
+    "last_proof_snippet": "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
+    "supporting_takeaway": "The future lab is envisioned to be like a data center, with a focus on energy efficiency and densely packed server racks.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-16T13:38:27.235629",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ratha Gomez Bumbarelli",
+      "fetched_at": "2026-07-16T18:38:27.235472+00:00",
+      "cliff_notes": "Ratha Gomez Bumbarelli is a distinguished figure in the realm of computational chemistry and deep learning for scientific research. Her career has been marked by a commitment to leveraging advanced technologies to transform the way science is conducted. As the Chief Scientific Officer for Physical Sciences at Lila, she plays a pivotal role in shaping the future of scientific discovery. Her work emphasizes the importance of data and computational methods in driving innovation across various scientific disciplines, particularly in chemistry. Bumbarelli's contributions are significant in the context of the digital transformation of science, where she envisions a future where laboratories function more like data centers, maximizing efficiency and scalability.",
+      "derived": {
+        "current_role": "Chief Scientific Officer for Physical Sciences at Lila"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ratha Gomez Bumbarelli is a distinguished figure in the realm of computational chemistry and deep learning for scientific research. Her career has been marked by a commitment to leveraging advanced technologies to transform the way science is conducted. As the Chief Scientific Officer for Physical Sciences at Lila, she plays a pivotal role in shaping the future of scientific discovery.",
+        "Her work emphasizes the importance of data and computational methods in driving innovation across various scientific disciplines, particularly in chemistry. Bumbarelli's contributions are significant in the context of the digital transformation of science, where she envisions a future where laboratories function more like data centers, maximizing efficiency and scalability."
+      ],
+      "sections": [
+        {
+          "heading": "Deep Learning in Science",
+          "body": "Ratha Gomez Bumbarelli is recognized for her pioneering efforts in applying deep learning to scientific research, particularly in the field of chemistry."
+        },
+        {
+          "heading": "Genetic Algorithms for Chemistry",
+          "body": "Her work with genetic algorithms has been instrumental in advancing computational chemistry, offering new ways to solve complex problems in the field."
+        },
+        {
+          "heading": "Data-Driven Science",
+          "body": "Bumbarelli advocates for a future where scientific laboratories are akin to data centers, emphasizing the importance of data in driving scientific progress."
+        },
+        {
+          "heading": "Scalability and Efficiency",
+          "body": "She believes in the potential of scaling access to data and computational power, which can lead to significant advancements in scientific research and discovery."
+        }
+      ]
+    }
+  },
+  {
+    "id": 337,
+    "name": "Moritz Hyden",
+    "slug": "moritz-hyden",
+    "bio": "Moritz Hyden is a co-founder of Takahay Capital, a firm that specializes in quantitative diversifying strategies, particularly trend following and absolute return strategies. He is recognized for his expertise in managing investments that aim to achieve consistent returns across various market conditions.",
+    "known_for": "Developing and implementing quantitative diversifying strategies for absolute return purposes, with a focus on trend following.",
+    "net_worth_usd": 106000000000.0,
+    "net_worth_source": "https://moneyinc.com/20-richest-hedge-fund-managers-world/",
+    "net_worth_updated_at": "2026-07-16T13:38:36.348797",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-07-16 18:37:27",
+    "last_episode_title": "Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-07-16",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-16 \u2022 Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
+    "last_proof_snippet": "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
+    "supporting_takeaway": "A few large, successful trades can cover the losses from many small losing trades, making trend following effective.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-16T13:38:35.429105",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Moritz Hyden",
+      "fetched_at": "2026-07-16T18:38:35.428966+00:00",
+      "cliff_notes": "Moritz Hyden is a prominent figure in the world of finance, particularly in the realm of quantitative investment strategies. As the co-founder of Takahay Capital, he has been instrumental in developing and deploying strategies that aim to provide absolute returns, with a significant emphasis on trend following. His approach to investing is data-driven and seeks to capitalize on market trends while managing risk effectively. Hyden's work at Takahay Capital has garnered attention for its relentless pursuit of diversification and absolute return, setting the firm apart in a competitive financial landscape.",
+      "derived": {
+        "current_role": "Co-founder of Takahay Capital"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Moritz Hyden is a prominent figure in the world of finance, particularly in the realm of quantitative investment strategies. As the co-founder of Takahay Capital, he has been instrumental in developing and deploying strategies that aim to provide absolute returns, with a significant emphasis on trend following. His approach to investing is data-driven and seeks to capitalize on market trends while managing risk effectively.",
+        "Hyden's work at Takahay Capital has garnered attention for its relentless pursuit of diversification and absolute return, setting the firm apart in a competitive financial landscape."
+      ],
+      "sections": [
+        {
+          "heading": "Quantitative Diversification",
+          "body": "Moritz Hyden is known for his work in creating quantitative diversification strategies that aim to spread risk across various market sectors and asset classes."
+        },
+        {
+          "heading": "Trend Following",
+          "body": "Hyden's expertise lies in trend following, a strategy that involves investing in assets that are showing upward price movement and reducing exposure to those that are not."
+        },
+        {
+          "heading": "Absolute Return",
+          "body": "At Takahay Capital, Hyden focuses on achieving absolute returns, which means generating positive performance regardless of market conditions."
+        }
+      ]
+    },
+    "net_worth": "$106.00B"
+  },
+  {
+    "id": 338,
+    "name": "Moritz Sebert",
+    "slug": "moritz-sebert",
+    "bio": "Moritz Sebert is a co-founder of Takahay Capital, a firm that specializes in quantitative diversifying strategies, particularly trend following and absolute return strategies. He has been instrumental in the growth of the company, focusing on bringing forth innovative investment approaches that aim to generate consistent returns.",
+    "known_for": "His expertise in trend following and absolute return strategies, which have gained significant attention in the investment community.",
+    "net_worth_usd": 7000000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/richest-billionaires/michael-moritz-net-worth/",
+    "net_worth_updated_at": "2026-07-16T13:38:44.240779",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-07-16 18:37:27",
+    "last_episode_title": "Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-07-16",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-16 \u2022 Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
+    "last_proof_snippet": "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
+    "supporting_takeaway": "A few large, successful trades can cover the losses from many small losing trades, making trend following effective.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-16T13:38:43.312936",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Moritz Sebert",
+      "fetched_at": "2026-07-16T18:38:43.312759+00:00",
+      "cliff_notes": "Moritz Sebert is recognized for his work in the financial sector, particularly as a co-founder of Takahay Capital. His career has been marked by a relentless pursuit of quantitative diversifying strategies, with a focus on trend following and absolute return strategies. These strategies aim to capitalize on market trends and provide consistent returns to investors, which has been a significant draw for those looking to diversify their portfolios. Sebert's approach to investment has been influential, as it challenges traditional methods and offers an alternative for those seeking to maximize their returns in a volatile market.",
+      "derived": {
+        "current_role": "Co-founder of Takahay Capital"
+      },
+      "infobox": {
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Moritz Sebert is recognized for his work in the financial sector, particularly as a co-founder of Takahay Capital. His career has been marked by a relentless pursuit of quantitative diversifying strategies, with a focus on trend following and absolute return strategies. These strategies aim to capitalize on market trends and provide consistent returns to investors, which has been a significant draw for those looking to diversify their portfolios.",
+        "Sebert's approach to investment has been influential, as it challenges traditional methods and offers an alternative for those seeking to maximize their returns in a volatile market."
+      ],
+      "sections": [
+        {
+          "heading": "Trend Following",
+          "body": "Moritz Sebert is known for his work in trend following, a strategy that involves investing in assets that are currently experiencing upward price movements."
+        },
+        {
+          "heading": "Absolute Return Strategies",
+          "body": "Sebert has been a proponent of absolute return strategies, which aim to generate positive returns regardless of market conditions, providing a hedge against market volatility."
+        },
+        {
+          "heading": "Quantitative Diversification",
+          "body": "At Takahay Capital, Sebert has focused on developing quantitative models that diversify investments, reducing risk and enhancing returns through a scientific approach to asset allocation."
+        }
+      ]
+    },
+    "net_worth": "$7.00B"
+  },
+  {
     "id": 335,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
@@ -1668,7 +1910,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-07-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-07-10 \u2022 Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
     "last_proof_snippet": "I'm back with Adam Brown. You currently need blue shift at Google DeepMine, which is cracking science and reasoning. In a previous life, Adam was a prolific physicist taught at Stanford and did research and everything from cosmology to stri",
@@ -2236,7 +2478,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -2295,7 +2537,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -2545,7 +2787,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in companies at the forefront of AI and satellite data integration for real-world applications, while monitoring global AI competition and regulatory changes.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-26 \u2022 The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
     "last_proof_snippet": "Today, plan is a $10 billion company. You've coined the term large earth models. What does that mean? It, like, Google index the internet to make it searchable, we're indexing the earth to make it searchable. It will finally enable us to be",
@@ -2669,7 +2911,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -2733,7 +2975,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -2859,7 +3101,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-23 \u2022 What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
     "last_proof_snippet": "Right now AI has been so much about productivity, job replacement, work replacement and I think we have a moment to shift that, which is how does these new tools help you get more out of your own day and your own life and the things you wan",
@@ -3476,7 +3718,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in companies that can integrate AI into their operations and leverage Microsoft's ecosystem for competitive advantage, focusing on data management capabilities and adaptability to new pricing models.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
     "last_proof_snippet": "Please welcome Swicks, Saragawa, Alad Gill and Chairman and Chief Executive Officer of Microsoft, Sartina Della. I'm so excited to be here. Welcome to a crossover episode of NoPriors and Lanesvists with Sartina Della. Congratulations on an",
@@ -3726,7 +3968,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-15 \u2022 AI, Design, and the Power of Open Models",
     "last_proof_snippet": "It's not about how good a model is in the general sense. It's about how good is this model for my use case, for a lot of design and marketing use case says they need editable design, not a single flat image. It's super impressive, honestly,",
@@ -3910,7 +4152,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -3978,7 +4220,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -4046,7 +4288,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-10 \u2022 America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. There's a very, very large player in global finance that almost no one knows about. The development finance corporation, it just had its reautho",
@@ -4169,7 +4411,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -4363,7 +4605,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -4450,7 +4692,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -4769,7 +5011,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-03 \u2022 Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
     "last_proof_snippet": "One of the most provocative and interesting investors in the country. A legendary activist investor. Pershing square CEO and founder Bill Acling. Taking a short position and going public with it is a pretty serious business. Interestingly,",
@@ -4834,7 +5076,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-02 \u2022 OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
     "last_proof_snippet": "Open AI's CFO, Sarah Fryer. We've got to get right to it. You have just completed what I would find as the most successful fund-raising rail in history. We're going to raise actually north of $120 billion. We think AI is the biggest era tha",
@@ -5076,7 +5318,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -5326,7 +5568,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -5390,7 +5632,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -5453,7 +5695,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -6325,7 +6567,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -6766,7 +7008,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",

@@ -24,6 +24,44 @@
       "podcast_episode_id": 350
     },
     {
+      "id": 366,
+      "title": "\ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-07-16",
+      "summary": "The podcast episode features a discussion with experts from Lila Science on the application of AI in healthcare and life sciences. The conversation delves into the challenges of scaling data and computation in scientific research, the potential of AI to revolutionize the lab of the future, and the commercial opportunities presented by virtual startups running on AI platforms. The guests share their experiences in leveraging AI for scientific problems and the efficiency gains from using AI in drug discovery and materials science.",
+      "key_takeaway": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 352
+    },
+    {
+      "id": 367,
+      "title": "Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-07-16",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Moritz Hyden and Moritz Sebert from Takahay Capital discuss the effectiveness of trend following strategies in the current market. They emphasize the importance of having a diverse set of markets to follow trends and how a few successful trades can cover losses from smaller, non-trending markets. The conversation also touches on the differences in handling smooth trends versus volatile ones, like in gold versus oil, and the challenges of scaling positions in trending markets.",
+      "key_takeaway": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 351
+    },
+    {
       "id": 363,
       "title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
       "source_type": "podcast",
@@ -118,7 +156,7 @@
         "AMZN"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-13",
       "archived_date": null,
@@ -137,7 +175,7 @@
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-13",
       "archived_date": null,
@@ -7085,6 +7123,24 @@
       "last_mentioned_speaker": "Rick Rubin"
     },
     {
+      "id": 258,
+      "term": "Self-driving lab",
+      "description": "A lab that automates material discovery and testing, aiming to bridge the gap between material science and manufacturing.",
+      "first_detected_date": "2026-06-17",
+      "last_mentioned_date": "2026-07-16",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Invest in companies developing self-driving labs for accelerated material innovation.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 294,
+      "first_detected_speaker": "Joseph Krauss",
+      "last_mentioned_episode_id": 352,
+      "last_mentioned_speaker": "Andy Beam, Ratha Gomez Bumbarelli"
+    },
+    {
       "id": 252,
       "term": "AI Commoditization",
       "description": "The process by which AI becomes a standard feature or utility rather than a unique differentiator.",
@@ -7447,20 +7503,20 @@
     {
       "id": 97,
       "term": "Distillation",
-      "description": "The process of reducing a large AI model into a smaller, more manageable one through API queries.",
+      "description": "The process of extracting the most important features or knowledge from a complex AI model to create a more efficient version.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-11",
-      "mention_count": 20,
+      "last_mentioned_date": "2026-07-16",
+      "mention_count": 21,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Look for opportunities in technologies that enable efficient distillation to democratize AI capabilities.",
+      "investment_implications": "Distillation can lead to more efficient AI models, reducing the computational resources needed for scientific research.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 342,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 352,
+      "last_mentioned_speaker": "Andy Beam, Ratha Gomez Bumbarelli"
     },
     {
       "id": 174,
@@ -8383,20 +8439,20 @@
     {
       "id": 57,
       "term": "AI Infrastructure",
-      "description": "The underlying technology, including data centers, power, and networking, that supports AI models and determines scaling capabilities.",
+      "description": "The underlying technology and systems that support the development and operation of AI applications.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-07-15",
-      "mention_count": 21,
+      "last_mentioned_date": "2026-07-16",
+      "mention_count": 22,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider the robustness of a company's AI infrastructure when evaluating its long-term potential.",
+      "investment_implications": "Investing in AI infrastructure can provide foundational support for various applications in healthcare and life sciences.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 348,
-      "last_mentioned_speaker": "Dylan Patel"
+      "last_mentioned_episode_id": 352,
+      "last_mentioned_speaker": "Andy Beam, Ratha Gomez Bumbarelli"
     },
     {
       "id": 26,
@@ -8491,20 +8547,20 @@
     {
       "id": 18,
       "term": "Compute Arbitrage",
-      "description": "The practice of optimizing computational resources across different platforms to maximize efficiency and minimize costs.",
+      "description": "The practice of leveraging the most cost-effective and efficient computational resources available to run AI models.",
       "first_detected_date": "2026-03-13",
-      "last_mentioned_date": "2026-07-15",
-      "mention_count": 16,
+      "last_mentioned_date": "2026-07-16",
+      "mention_count": 17,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should be aware of companies' strategies in compute arbitrage to assess their competitive advantage.",
+      "investment_implications": "By optimizing compute resources, companies can reduce costs and improve the speed of AI-driven drug discovery and materials science.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 348,
-      "last_mentioned_speaker": "Dylan Patel"
+      "last_mentioned_episode_id": 352,
+      "last_mentioned_speaker": "Andy Beam, Ratha Gomez Bumbarelli"
     },
     {
       "id": 19,

@@ -1,5 +1,38 @@
 [
   {
+    "id": 352,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "\ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
+    "episode_date": "2026-07-16",
+    "summary": "The podcast episode features a discussion with experts from Lila Science on the application of AI in healthcare and life sciences. The conversation delves into the challenges of scaling data and computation in scientific research, the potential of AI to revolutionize the lab of the future, and the commercial opportunities presented by virtual startups running on AI platforms. The guests share their experiences in leveraging AI for scientific problems and the efficiency gains from using AI in drug discovery and materials science.",
+    "key_takeaways": [
+      "AI can significantly reduce the time and cost of biotech work by acting as a virtual startup.",
+      "The future lab is envisioned to be like a data center, with a focus on energy efficiency and densely packed server racks.",
+      "Data is not an infinite resource in science, and new methods are needed to scale data access.",
+      "AI can help solve problems in healthcare and life sciences by leveraging large-scale data.",
+      "Lila Science is using AI to create new frontier models that can solve scientific problems at scale."
+    ],
+    "investment_thesis": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
+    "key_tickers": null
+  },
+  {
+    "id": 351,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
+    "episode_date": "2026-07-16",
+    "summary": "In this episode of Monetary Matters with Jack Farley, Moritz Hyden and Moritz Sebert from Takahay Capital discuss the effectiveness of trend following strategies in the current market. They emphasize the importance of having a diverse set of markets to follow trends and how a few successful trades can cover losses from smaller, non-trending markets. The conversation also touches on the differences in handling smooth trends versus volatile ones, like in gold versus oil, and the challenges of scaling positions in trending markets.",
+    "key_takeaways": [
+      "Trend following strategies work best when there are major trends in equities and gold sovereign markets.",
+      "A few large, successful trades can cover the losses from many small losing trades, making trend following effective.",
+      "Markets like gold and silver have smooth, long-lasting trends, while oil and related commodities are more volatile and rocky.",
+      "Takahay Capital focuses on quantitative diversifying strategies for absolute return, primarily trend following.",
+      "Trend following is not about being perfect; it's about capturing trends and not trying to catch the absolute bottom or top of the market.",
+      "Takahay Capital trades in less liquid and alternative markets, which can provide diversification and uniqueness to their strategy."
+    ],
+    "investment_thesis": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
+    "key_tickers": null
+  },
+  {
     "id": 350,
     "podcast_name": "The a16z Show",
     "episode_title": "Replay 2025: David Sacks on AI, Crypto, and America's Technology Future",
@@ -108,40 +141,6 @@
       "Partnerships with frontier AI models are seen as a strategic move rather than a threat, as the company aims to provide an agnostic platform that supports various models."
     ],
     "investment_thesis": "Invest in companies that leverage AI-native platforms to disrupt traditional financial systems, offering a more seamless and localized global transaction experience.",
-    "key_tickers": null
-  },
-  {
-    "id": 344,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "The AI Duopoly Is Over: Grok 4. 5 , GPT-5 . 6 , and Muse Spark in One Week | #270",
-    "episode_date": "2026-07-13",
-    "summary": "This episode of Moonshots with Peter Diamandis discusses the rapid advancements in AI and space technology. Topics include the release of new AI models, the legal battle between Apple and Open-Eye, China's progress in space technology, and the potential for AI to solve global problems. The conversation also touches on the future of AI consciousness and national security implications.",
-    "key_takeaways": [
-      "Elon Musk announced a new AI model, grock 4.5, highlighting the rapid pace of AI development.",
-      "Apple's lawsuit against Open-Eye for trade secret theft signals intensifying competition in AI hardware.",
-      "China's Long March demonstrated landing of an orbital booster, indicating a shift in space technology competition.",
-      "The discussion suggests a future where AI can solve major global problems without necessarily becoming conscious.",
-      "AI's role in national security is a growing concern, with potential implications for how AI is governed and used."
-    ],
-    "investment_thesis": "Invest in companies at the forefront of AI and space technology, as these sectors are poised for significant growth and disruption.",
-    "key_tickers": [
-      "AAPL"
-    ]
-  },
-  {
-    "id": 343,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Before Blockchains, There Was State Machine Replication",
-    "episode_date": "2026-07-13",
-    "summary": "In this episode of the A16Z Crypto Show, hosts Tim Ruffgarten and Thai Abraham interview Turing Award winner Barbara Liskov, a pioneer in distributed systems whose work laid the groundwork for modern blockchain protocols. The conversation covers Liskov's entry into distributed systems research, the evolution of replication protocols, and the impact of emerging technologies like AI on systems research. Liskov shares insights on the importance of understanding theoretical computer science and its influence on practical applications, as well as her views on the future of computer science and the role of research in addressing societal challenges.",
-    "key_takeaways": [
-      "Barbara Liskov's pioneering work in distributed systems, state machine replication, and practical Byzantine fault tolerance has had a profound impact on blockchain protocols.",
-      "Understanding theoretical computer science is crucial for practical applications, as it forms the backbone of the field.",
-      "The advent of AI presents both challenges and opportunities for computer science research, with systems research playing a significant role in addressing emerging problems.",
-      "Liskov emphasizes the importance of truly understanding the principles behind complex protocols and the need for verification tools to ensure the correctness of AI-generated code.",
-      "There is a growing need for research in modifying or containing the negative impacts of technology, such as enabling bad behavior."
-    ],
-    "investment_thesis": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
     "key_tickers": null
   }
 ]
