@@ -1,5 +1,22 @@
 [
   {
+    "id": 350,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Replay 2025: David Sacks on AI, Crypto, and America's Technology Future",
+    "episode_date": "2026-07-16",
+    "summary": "In this episode of the a16z Show, David Sachs joins Mark Anderson, Ben Horowitz, and others to discuss the intersection of AI, crypto, and policy. They delve into the nuances of AI leadership in Europe, the importance of regulatory clarity for the crypto industry, and the global competition to build the next generation of technology. The conversation touches on permissionless innovation, the balance between open-source and proprietary models, and the implications of policy decisions on the future of AI and crypto.",
+    "key_takeaways": [
+      "Europe's approach to AI leadership is centered around defining regulations rather than technological advancement.",
+      "Regulatory certainty is crucial for the growth of the crypto industry, with entrepreneurs seeking clear rules to comply with.",
+      "The Biden administration's heavy-handed approach to AI regulation may hinder understanding and growth in the sector.",
+      "Open-source AI models are critical for maintaining freedom and competitiveness in technology, contrasting with China's strategy.",
+      "The U.S. should encourage open-source initiatives to stay competitive in AI.",
+      "Global competition in AI is not just technical but also involves policy, infrastructure, and regulation."
+    ],
+    "investment_thesis": "Investing in AI and crypto requires understanding the interplay between technology and policy, with a focus on regulatory clarity and open-source initiatives for long-term competitiveness.",
+    "key_tickers": null
+  },
+  {
     "id": 349,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
@@ -126,24 +143,5 @@
     ],
     "investment_thesis": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
     "key_tickers": null
-  },
-  {
-    "id": 342,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "More Trillion Dollar IPOs, Anthropic $3T, Zuck's Price War, China Ends Open Source?, Trump Accounts",
-    "episode_date": "2026-07-11",
-    "summary": "In this episode, the hosts discuss the ongoing rush of trillion-dollar IPOs, with SpaceX being a notable example. They touch on the performance of SpaceX post-IPO and the upcoming IPOs of companies like Anthropic. Additionally, the conversation delves into the United Nations' AI Commission and the implications of open-source AI for various countries. The hosts also explore the future of AI models, discussing the potential for a divergence rather than convergence in AI capabilities and the rise of verticalized AI models for specific industries.",
-    "key_takeaways": [
-      "SpaceX's IPO was priced perfectly, trading at a two trillion market cap and making it the seventh-largest company in the world.",
-      "Anthropic has confidentially filed for an IPO with a 65% chance of it happening this year.",
-      "The UN Commission for AI, co-chaired by Mark, is focusing on the open-source aspect of AI technology.",
-      "There is a potential divergence in AI capabilities, contrary to the common assumption of convergence.",
-      "Major customers of frontier AI labs are considering building their own proprietary models to avoid data leakage and competition.",
-      "Verticalized AI models for specific industries like voice and building code are becoming more prevalent."
-    ],
-    "investment_thesis": "Invest in companies at the forefront of AI development and those that can capitalize on the shift towards open-source AI models, as well as those creating verticalized AI solutions for specific industries.",
-    "key_tickers": [
-      "TSLA"
-    ]
   }
 ]

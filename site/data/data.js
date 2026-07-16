@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-16T06:37:58.318222",
-  chartsVersion: "2026-07-16T06:37:50.752316",
+  generatedAt: "2026-07-16T12:06:43.106323",
+  chartsVersion: "2026-07-16T12:06:35.447332",
   priceSnapshot: {
   "GOOGL": {
-    "price": 370.92,
-    "change_pct": 7.92,
+    "price": 371.49,
+    "change_pct": 10.11,
     "name": "GOOGL",
-    "updated_at": "2026-07-16T06:37:50.751034"
+    "updated_at": "2026-07-16T12:06:35.446158"
   },
   "NVDA": {
-    "price": 212.5,
-    "change_pct": 8.56,
+    "price": 207.03,
+    "change_pct": 7.53,
     "name": "NVDA",
-    "updated_at": "2026-07-16T06:37:50.751056"
+    "updated_at": "2026-07-16T12:06:35.446178"
   },
   "BTC": {
-    "price": 64154.79,
-    "change_pct": 2.58,
+    "price": 64282.04,
+    "change_pct": 2.78,
     "name": "BTC",
-    "updated_at": "2026-07-16T06:37:50.751067"
+    "updated_at": "2026-07-16T12:06:35.446187"
   },
   "MSFT": {
-    "price": 395.63,
-    "change_pct": 12.13,
+    "price": 402.23,
+    "change_pct": 7.85,
     "name": "MSFT",
-    "updated_at": "2026-07-16T06:37:50.751077"
+    "updated_at": "2026-07-16T12:06:35.446195"
   },
   "TSLA": {
-    "price": 394.46,
-    "change_pct": 5.16,
+    "price": 388.08,
+    "change_pct": 2.21,
     "name": "TSLA",
-    "updated_at": "2026-07-16T06:37:50.751088"
+    "updated_at": "2026-07-16T12:06:35.446203"
   },
   "AMZN": {
-    "price": 254.96,
-    "change_pct": 12.31,
+    "price": 255.66,
+    "change_pct": 9.87,
     "name": "AMZN",
-    "updated_at": "2026-07-16T06:37:50.751098"
+    "updated_at": "2026-07-16T12:06:35.446210"
   },
   "WTI": {
-    "price": 3.41,
-    "change_pct": 6.9,
+    "price": 3.36,
+    "change_pct": 2.6,
     "name": "WTI",
-    "updated_at": "2026-07-16T06:37:50.751109"
+    "updated_at": "2026-07-16T12:06:35.446218"
   },
   "META": {
-    "price": 681.31,
-    "change_pct": 25.5,
+    "price": 668.85,
+    "change_pct": 21.55,
     "name": "META",
-    "updated_at": "2026-07-16T06:37:50.751119"
+    "updated_at": "2026-07-16T12:06:35.446225"
   },
   "S&P 500": {
-    "price": 754.81,
-    "change_pct": 2.79,
+    "price": 752.33,
+    "change_pct": 3.2,
     "name": "S&P 500",
-    "updated_at": "2026-07-16T06:37:50.751128"
+    "updated_at": "2026-07-16T12:06:35.446233"
   },
   "AAPL": {
-    "price": 327.5,
-    "change_pct": 19.03,
+    "price": 332.12,
+    "change_pct": 17.03,
     "name": "AAPL",
-    "updated_at": "2026-07-16T06:37:50.751138"
+    "updated_at": "2026-07-16T12:06:35.446240"
   },
   "QQQ": {
-    "price": 717.74,
-    "change_pct": 0.19,
+    "price": 707.72,
+    "change_pct": 0.17,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-16T06:37:50.751147"
+    "updated_at": "2026-07-16T12:06:35.446248"
   },
   "BTC-USD": {
-    "price": 64154.79,
-    "change_pct": 2.58,
+    "price": 64282.04,
+    "change_pct": 2.78,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-16T06:37:50.751158"
+    "updated_at": "2026-07-16T12:06:35.446257"
   }
 },
   tickerScores: [
@@ -834,6 +834,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 365,
+      "title": "Replay 2025: David Sacks on AI, Crypto, and America's Technology Future",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-16",
+      "summary": "In this episode of the a16z Show, David Sachs joins Mark Anderson, Ben Horowitz, and others to discuss the intersection of AI, crypto, and policy. They delve into the nuances of AI leadership in Europe, the importance of regulatory clarity for the crypto industry, and the global competition to build the next generation of technology. The conversation touches on permissionless innovation, the balance between open-source and proprietary models, and the implications of policy decisions on the future of AI and crypto.",
+      "key_takeaway": "Investing in AI and crypto requires understanding the interplay between technology and policy, with a focus on regulatory clarity and open-source initiatives for long-term competitiveness.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 350
+    },
+    {
       "id": 363,
       "title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
       "source_type": "podcast",
@@ -985,7 +1008,7 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-10",
       "archived_date": null,
@@ -7845,8 +7868,8 @@ const dashboardData = {
       "term": "AI Boom",
       "description": "A global phenomenon characterized by significant investments in artificial intelligence and data centers, drawing parallels to the pre-1873 financial boom.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-07-14",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-07-16",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be cautious of potential over-investment and subsequent corrections in the AI sector.",
@@ -7855,8 +7878,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 320,
       "first_detected_speaker": "Leakwet Ahamed",
-      "last_mentioned_episode_id": 347,
-      "last_mentioned_speaker": "Ben Kulandian"
+      "last_mentioned_episode_id": 350,
+      "last_mentioned_speaker": "David Sachs"
     },
     {
       "id": 254,
@@ -8241,8 +8264,8 @@ const dashboardData = {
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-13",
-      "mention_count": 36,
+      "last_mentioned_date": "2026-07-16",
+      "mention_count": 37,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -8251,8 +8274,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 344,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 350,
+      "last_mentioned_speaker": "David Sachs"
     },
     {
       "id": 97,
@@ -8367,8 +8390,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-14",
-      "mention_count": 54,
+      "last_mentioned_date": "2026-07-16",
+      "mention_count": 55,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -8377,8 +8400,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 346,
-      "last_mentioned_speaker": "Max"
+      "last_mentioned_episode_id": 350,
+      "last_mentioned_speaker": "David Sachs"
     },
     {
       "id": 162,
@@ -8887,20 +8910,20 @@ const dashboardData = {
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models that are publicly accessible and can be modified and distributed by anyone, fostering innovation and collaboration.",
+      "description": "AI models that are publicly accessible and modifiable, fostering innovation and collaboration.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-07-11",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-07-16",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider companies that contribute to or benefit from the open-source AI ecosystem, as it can accelerate innovation and reduce development costs.",
+      "investment_implications": "Open-source models are crucial for maintaining a competitive edge in AI development and preventing market consolidation.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 342,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 350,
+      "last_mentioned_speaker": "David Sachs"
     },
     {
       "id": 79,
@@ -9319,20 +9342,20 @@ const dashboardData = {
     {
       "id": 19,
       "term": "Regulatory Moat",
-      "description": "Competitive advantage gained not through technology but through compliance complexity\u2014incumbents weaponizing bureaucracy against nimble startups.",
+      "description": "A barrier to entry created by regulatory frameworks that can protect incumbents or hinder new entrants.",
       "first_detected_date": "2026-03-13",
-      "last_mentioned_date": "2026-03-13",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-07-16",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Incumbents with established compliance infrastructure. Banking, healthcare, defense contractors. Barrier to entry becomes the product.",
+      "investment_implications": "Understanding the impact of regulatory moats is key for investors assessing the competitive landscape of emerging technologies.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 350,
+      "last_mentioned_speaker": "David Sachs"
     },
     {
       "id": 21,
@@ -9393,8 +9416,8 @@ const dashboardData = {
       "term": "AI Race",
       "description": "The global competition between nations to lead in AI development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-07-15",
-      "mention_count": 18,
+      "last_mentioned_date": "2026-07-16",
+      "mention_count": 19,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consider investing in companies and countries that are making significant strides in AI technology.",
@@ -9403,8 +9426,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 348,
-      "last_mentioned_speaker": "Dylan Patel"
+      "last_mentioned_episode_id": 350,
+      "last_mentioned_speaker": "David Sachs"
     },
     {
       "id": 12,
@@ -9741,6 +9764,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 365,
+      "title": "Replay 2025: David Sacks on AI, Crypto, and America's Technology Future",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-16",
+      "summary": "In this episode of the a16z Show, David Sachs joins Mark Anderson, Ben Horowitz, and others to discuss the intersection of AI, crypto, and policy. They delve into the nuances of AI leadership in Europe, the importance of regulatory clarity for the crypto industry, and the global competition to build the next generation of technology. The conversation touches on permissionless innovation, the balance between open-source and proprietary models, and the implications of policy decisions on the future of AI and crypto.",
+      "key_takeaway": "Investing in AI and crypto requires understanding the interplay between technology and policy, with a focus on regulatory clarity and open-source initiatives for long-term competitiveness.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"TSLA\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 350,
+      "episode_release_date": "2026-07-16",
+      "guest_name": "Replay 2025",
+      "key_tickers": []
+    },
+    {
       "id": 363,
       "title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
       "source_type": "podcast",
@@ -9893,28 +9936,6 @@ const dashboardData = {
       "episode_release_date": "2026-07-13",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 357,
-      "title": "More Trillion Dollar IPOs, Anthropic $3T, Zuck's Price War, China Ends Open Source?, Trump Accounts",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-07-11",
-      "summary": "In this episode, the hosts discuss the ongoing rush of trillion-dollar IPOs, with SpaceX being a notable example. They touch on the performance of SpaceX post-IPO and the upcoming IPOs of companies like Anthropic. Additionally, the conversation delves into the United Nations' AI Commission and the implications of open-source AI for various countries. The hosts also explore the future of AI models, discussing the potential for a divergence rather than convergence in AI capabilities and the rise of verticalized AI models for specific industries.",
-      "key_takeaway": "Invest in companies at the forefront of AI development and those that can capitalize on the shift towards open-source AI models, as well as those creating verticalized AI solutions for specific industries.",
-      "tickers_mentioned": "[\"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-10",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 342,
-      "episode_release_date": "2026-07-11",
-      "guest_name": null,
-      "key_tickers": [
-        "TSLA"
-      ]
     }
   ],
   "definitions": [
@@ -10045,8 +10066,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-14",
-      "mention_count": 54,
+      "last_mentioned_date": "2026-07-16",
+      "mention_count": 55,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -10055,16 +10076,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 346,
-      "last_mentioned_speaker": "Max",
-      "overton_score": 51.56,
+      "last_mentioned_episode_id": 350,
+      "last_mentioned_speaker": "David Sachs",
+      "overton_score": 55.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
       "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
-      "last_mentioned_episode_date": "2026-07-14"
+      "last_mentioned_episode_title": "Replay 2025: David Sacks on AI, Crypto, and America's Technology Future",
+      "last_mentioned_episode_date": "2026-07-16"
     },
     {
       "id": 10,
@@ -10175,8 +10196,8 @@ const dashboardData = {
       "term": "AI Boom",
       "description": "A global phenomenon characterized by significant investments in artificial intelligence and data centers, drawing parallels to the pre-1873 financial boom.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-07-14",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-07-16",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be cautious of potential over-investment and subsequent corrections in the AI sector.",
@@ -10185,16 +10206,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 320,
       "first_detected_speaker": "Leakwet Ahamed",
-      "last_mentioned_episode_id": 347,
-      "last_mentioned_speaker": "Ben Kulandian",
-      "overton_score": 2.86,
-      "resonance_pct": 72,
+      "last_mentioned_episode_id": 350,
+      "last_mentioned_speaker": "David Sachs",
+      "overton_score": 4.0,
+      "resonance_pct": 100,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
       "first_detected_episode_date": "2026-06-29",
-      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
-      "last_mentioned_episode_title": "The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
-      "last_mentioned_episode_date": "2026-07-14"
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Replay 2025: David Sacks on AI, Crypto, and America's Technology Future",
+      "last_mentioned_episode_date": "2026-07-16"
     },
     {
       "id": 252,
@@ -31992,9 +32013,91 @@ const dashboardData = {
       "INTC",
       "NVDA"
     ]
+  },
+  "365": {
+    "id": 355,
+    "insight_id": 365,
+    "podcast_episode_id": 350,
+    "overview": "The unresolved tension lies in the contrasting approaches to AI and crypto between Europe and the U.S. Europe focuses on regulatory leadership, while the U.S. is divided between seeking regulatory clarity for crypto and fostering an environment for AI innovation. The competitive dynamic is arbitrated by the ability of each region to balance regulation with innovation, affecting their positions in the global technology race. What converts belief is the U.S. government's ability to provide clear regulations for crypto and foster an innovation-friendly environment for AI, which would solidify America's position as a technology leader.",
+    "key_takeaways_detailed": [
+      "Regulatory clarity in the U.S. crypto industry could prevent further offshore migration and attract global crypto businesses, enhancing the country's competitiveness in digital currencies.",
+      "The U.S. must balance innovation with regulation in AI to maintain its lead in the global technology race, which could be threatened by heavy-handed regulations that stifle startups and innovation.",
+      "Investors should monitor the policy environment for signs of regulatory clarity in crypto and pro-innovation policies in AI, as these could indicate favorable conditions for investment in these sectors.",
+      "The success of the U.S. in the AI race could be undermined by internal regulatory capture attempts, which may favor established companies over new entrants, potentially reducing the overall innovation and competitiveness of the industry."
+    ],
+    "investment_thesis": "The U.S.'s ability to provide regulatory clarity in crypto and foster a pro-innovation environment in AI will determine its competitiveness in the global technology landscape. Over the next 5 years, observable developments such as the number of new crypto businesses establishing in the U.S. and the growth of AI startups will vindicate the thesis if they increase, indicating a favorable regulatory environment. Conversely, a continued exodus of crypto businesses and a slowdown in AI startup growth would invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI and potential forays into crypto technologies make it a relevant ticker for this thesis.",
+        "positioning": "Strategic long position, as Apple's ability to innovate in AI and potentially benefit from a clarified crypto regulatory environment could drive shareholder value.",
+        "risk": "Key risks include regulatory setbacks in AI and crypto that could hinder Apple's innovation and expansion plans."
+      },
+      "GOOGL": {
+        "rationale": "Google's leadership in AI and potential influence over regulatory developments make it a key player in this space.",
+        "positioning": "Strategic long position, as Google's AI advancements and potential regulatory clarity could drive growth.",
+        "risk": "The risk of over-regulation in AI could slow down Google's innovation pace."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's broad technology portfolio includes significant investments in AI and potential engagement with crypto technologies.",
+        "positioning": "Strategic long position, as Microsoft's exposure to both AI and crypto could benefit from regulatory clarity and innovation-friendly policies.",
+        "risk": "Regulatory hurdles in either sector could impede Microsoft's growth and innovation."
+      },
+      "AMZN": {
+        "rationale": "Amazon's cloud computing services and potential involvement in crypto and AI technologies position it as a relevant company in this thesis.",
+        "positioning": "Strategic long position, as Amazon could benefit from a clarified regulatory environment and pro-innovation policies in AI.",
+        "risk": "The risk of restrictive regulations in AI and crypto could limit Amazon's expansion in these areas."
+      },
+      "TSLA": {
+        "rationale": "Tesla's use of AI in its automotive technology and potential interest in crypto could make it a relevant company in this context.",
+        "positioning": "Strategic long position, as Tesla's innovation in AI and potential engagement with crypto could be bolstered by regulatory clarity.",
+        "risk": "Regulatory challenges in AI and crypto could pose risks to Tesla's technology development and adoption."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that heavy regulation is necessary to protect consumers and prevent misuse of AI and crypto technologies.",
+      "The argument that the U.S.'s current regulatory approach is sufficient and does not need to be altered to maintain competitiveness.",
+      "The view that Europe's regulatory focus is more effective in ensuring ethical use of AI and preventing the negative impacts of crypto technologies."
+    ],
+    "catalysts": [
+      "U.S. government announcements regarding new regulations or clarity in the crypto space.",
+      "Major policy speeches or white papers from the U.S. government on AI innovation and regulation.",
+      "Global AI and crypto conferences where regulatory developments are discussed and could influence policy.",
+      "Court rulings or regulatory decisions that set precedents for AI and crypto regulations in the U.S.",
+      "International agreements or treaties that could impact the global regulatory landscape for AI and crypto technologies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-16T12:05:31.310629",
+    "updated_at": "2026-07-16 17:05:31",
+    "episode_evidence": "David Sachs, in the a16z podcast, emphasized the European approach to AI leadership, which is primarily about defining regulations rather than technological innovation. He stated, 'The Europeans... they have a really different mindset for all this stuff, when they talk about AI leadership, what they mean is that they're taking the lead in defining the regulations.' Sachs also highlighted the need for regulatory clarity in the crypto industry, criticizing the previous U.S. administration's approach of 'regulation through enforcement,' which led to an industry exodus offshore. He said, 'All the entrepreneurs I've talked to over the years, they also the same thing, which is as it tells what the rules are. We're happy to comply, but Washington won't tell us what they are.' Sachs also discussed the Biden administration's heavy-handed approach to AI, which he believes could stifle innovation, contrasting it with the need for a pro-innovation stance to win the global AI race. He mentioned, 'The approach has been that we want the United States to win the AI race... And so the president gave a, I think, very important AI policy speech... where he declared and no uncertain terms that we had to win the AI race.'",
+    "falsification_tracks": [
+      "If the U.S. government fails to provide clear regulations for the crypto industry, leading to a continued exodus of crypto businesses offshore.",
+      "Should European countries successfully implement regulations that significantly slow down or stifle the development of AI technologies, potentially giving them a competitive edge.",
+      "A significant increase in the number of AI startups in highly regulated industries, suggesting that permissionless innovation is no longer a driving force in Silicon Valley."
+    ],
+    "insight_title": "Replay 2025: David Sacks on AI, Crypto, and America's Technology Future",
+    "source_name": "The a16z Show",
+    "source_date": "2026-07-16",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 516,
+    "term": "Permissionless Innovation",
+    "definition": "The ability to innovate and introduce new technologies without seeking permission from a centralized authority.",
+    "investment_implications": "Permissionless innovation is essential for driving technological advancement and avoiding regulatory stagnation.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-16 17:04:16",
+    "priority_score": 80
+  },
   {
     "id": 515,
     "term": "Trinity of Computing",
@@ -32030,23 +32133,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-13 17:03:39",
     "priority_score": 80
-  },
-  {
-    "id": 513,
-    "term": "State Machine Replication",
-    "definition": "A method of replicating the state and behavior of a system across multiple nodes to ensure consistency and fault tolerance.",
-    "investment_implications": "State machine replication is crucial for maintaining the integrity and reliability of distributed systems, including blockchains.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-13 17:03:39",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 32273,
+    "id": 32369,
+    "name": "Replay 2025",
+    "slug": "replay-2025",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in AI and crypto requires understanding the interplay between technology and policy, with a focus on regulatory clarity and open-source initiatives for long-term competitiveness.",
+    "last_episode_title": "Replay 2025: David Sacks on AI, Crypto, and America's Technology Future",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-16",
+    "appearance_count": 1
+  },
+  {
+    "id": 32370,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -32058,7 +32161,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32274,
+    "id": 32371,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -32070,7 +32173,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32275,
+    "id": 32372,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -32082,7 +32185,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32276,
+    "id": 32373,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -32094,7 +32197,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32277,
+    "id": 32374,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -32106,7 +32209,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32278,
+    "id": 32375,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -32118,7 +32221,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32279,
+    "id": 32376,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -32130,7 +32233,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32280,
+    "id": 32377,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -32142,7 +32245,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32281,
+    "id": 32378,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -32154,7 +32257,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32282,
+    "id": 32379,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -32166,7 +32269,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32283,
+    "id": 32380,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -32178,7 +32281,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32284,
+    "id": 32381,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -32190,7 +32293,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32285,
+    "id": 32382,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -32202,7 +32305,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32286,
+    "id": 32383,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -32214,7 +32317,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32287,
+    "id": 32384,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -32226,7 +32329,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32288,
+    "id": 32385,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -32238,7 +32341,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32289,
+    "id": 32386,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -32250,7 +32353,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32290,
+    "id": 32387,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -32262,7 +32365,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32291,
+    "id": 32388,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -32272,18 +32375,6 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "appearance_count": 1
-  },
-  {
-    "id": 32292,
-    "name": "This episode",
-    "slug": "this-episode",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The shift to new media platforms offers founders the opportunity to build personal brands and communicate directly with audiences, which can enhance a company's visibility and credibility.",
-    "last_episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-19",
-    "appearance_count": 2
   }
 ],
   pundits: [
@@ -33754,7 +33845,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-15",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-15 \u2022 Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
     "last_proof_snippet": "In videos that are going to have better networking than you, they're going to have better HP, they're going to have better process-node, they're going to come to market faster, they're going to be able to ramp faster, they're going to have",
@@ -33886,7 +33977,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
     "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro. We came to me and he said, why don't we see whether we can figure out a way to",
@@ -34026,7 +34117,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -34092,7 +34183,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -34153,7 +34244,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-08 \u2022 Adam Neumann: This Is How You Build Iconic Companies",
     "last_proof_snippet": "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
@@ -34218,7 +34309,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -34277,7 +34368,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -34461,7 +34552,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -34645,7 +34736,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
     "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
@@ -34706,7 +34797,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -35824,7 +35915,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -35887,7 +35978,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in Axiom Math for its pioneering role in verified AI for mathematics, which has the potential to drive innovation and efficiency in problem-solving across various fields.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
     "last_proof_snippet": "But it's for the first time now I think verified AI is to open up collaboration. Either it's human AI collaboration. Well, before a blueprint like that's human human collaboration. And Lin was a grounding, was a verification formal language",
@@ -36393,7 +36484,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -36522,7 +36613,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -36588,7 +36679,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -36863,7 +36954,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -36927,7 +37018,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -37182,7 +37273,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -37246,7 +37337,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -37429,7 +37520,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -37493,7 +37584,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -40878,7 +40969,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
