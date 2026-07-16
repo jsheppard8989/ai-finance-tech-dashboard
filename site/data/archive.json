@@ -21,6 +21,26 @@
       "podcast_episode_id": 348
     },
     {
+      "id": 364,
+      "title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-15",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the panel discusses the trajectory of Intel, one of America's greatest companies, which lost its edge to competitors like Nvidia, TSMC, and Apple. The conversation delves into Intel's mistakes, the importance of technical leadership in tech companies, and the future of computing with the convergence of classical computing, AI computing, and quantum computing. Additionally, the panel touches on the rapid growth of Loveable, a platform enabling anyone to build great software, and the potential of quantum computing to solve problems currently beyond our reach.",
+      "key_takeaway": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
+      "tickers_mentioned": [
+        "INTC",
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 349
+    },
+    {
       "id": 361,
       "title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
       "source_type": "podcast",
@@ -199,7 +219,7 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-10",
       "archived_date": null,
@@ -7262,8 +7282,8 @@
       "term": "Jevon's Paradox",
       "description": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
       "first_detected_date": "2026-05-30",
-      "last_mentioned_date": "2026-07-13",
-      "mention_count": 8,
+      "last_mentioned_date": "2026-07-15",
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "As AI makes computation cheaper, total compute demand may explode\u2014benefiting chip makers, data centers, and power providers despite efficiency gains.",
@@ -7272,8 +7292,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 249,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 344,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 349,
+      "last_mentioned_speaker": "Pat Gelsinger"
     },
     {
       "id": 100,

@@ -1,5 +1,24 @@
 [
   {
+    "id": 349,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
+    "episode_date": "2026-07-15",
+    "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the panel discusses the trajectory of Intel, one of America's greatest companies, which lost its edge to competitors like Nvidia, TSMC, and Apple. The conversation delves into Intel's mistakes, the importance of technical leadership in tech companies, and the future of computing with the convergence of classical computing, AI computing, and quantum computing. Additionally, the panel touches on the rapid growth of Loveable, a platform enabling anyone to build great software, and the potential of quantum computing to solve problems currently beyond our reach.",
+    "key_takeaways": [
+      "Intel's shift from technical leadership to business-centric leadership led to strategic missteps.",
+      "Technical decisions in tech companies should be driven by technologists, not just business leaders.",
+      "Investment in R&D and future technologies is crucial for maintaining a competitive edge.",
+      "The convergence of classical, AI, and quantum computing will lead to significant advancements by 2030.",
+      "Loveable's platform is enabling rapid software development and business growth."
+    ],
+    "investment_thesis": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
+    "key_tickers": [
+      "INTC",
+      "NVDA"
+    ]
+  },
+  {
     "id": 348,
     "podcast_name": "The a16z Show",
     "episode_title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
@@ -126,21 +145,5 @@
     "key_tickers": [
       "TSLA"
     ]
-  },
-  {
-    "id": 341,
-    "podcast_name": "Dwarkesh Podcast",
-    "episode_title": "Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
-    "episode_date": "2026-07-10",
-    "summary": "In this episode of the Dwarkesh Podcast, Adam Brown, a physicist and educator, discusses the fundamental concepts of general relativity, its implications on our understanding of gravity and space-time, and how it integrates with other fundamental forces. Brown explains Einstein's theory of gravity, the motion of planets, the solar system, and the origin and fate of the universe, making these complex ideas accessible to a general audience.",
-    "key_takeaways": [
-      "General relativity is a theory of gravity that completes the set of fundamental forces, alongside quantum mechanics.",
-      "Einstein's theory of general relativity was developed over a decade and describes the motion of celestial bodies and the universe's origin and fate.",
-      "Special relativity, which came before general relativity, is based on the principle that nothing can go faster than light.",
-      "General relativity corrects for gravity's role in special relativity, stating that not even gravity can exceed the speed of light.",
-      "The theory of gravity before Einstein was based on Newton's laws, which were later expanded upon by general relativity."
-    ],
-    "investment_thesis": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
-    "key_tickers": null
   }
 ]

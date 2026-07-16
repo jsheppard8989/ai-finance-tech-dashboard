@@ -645,7 +645,7 @@
     "contexts": []
   },
   {
-    "ticker": "MS",
+    "ticker": "INTC",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -660,7 +660,7 @@
     "contexts": []
   },
   {
-    "ticker": "NOW",
+    "ticker": "MS",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -675,7 +675,7 @@
     "contexts": []
   },
   {
-    "ticker": "PANW",
+    "ticker": "NOW",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -690,7 +690,7 @@
     "contexts": []
   },
   {
-    "ticker": "SMP-500",
+    "ticker": "PANW",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -705,7 +705,7 @@
     "contexts": []
   },
   {
-    "ticker": "SPCE",
+    "ticker": "SMP-500",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -720,14 +720,14 @@
     "contexts": []
   },
   {
-    "ticker": "CRM",
-    "total_score": 68.0,
+    "ticker": "SPCE",
+    "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 49,
-    "score": 68.0,
+    "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -735,7 +735,7 @@
     "contexts": []
   },
   {
-    "ticker": "MINE",
+    "ticker": "CRM",
     "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,

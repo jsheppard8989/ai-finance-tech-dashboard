@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-15T23:35:27.053096",
-  chartsVersion: "2026-07-15T23:35:18.632667",
+  generatedAt: "2026-07-16T05:04:35.999535",
+  chartsVersion: "2026-07-16T05:04:28.048908",
   priceSnapshot: {
   "GOOGL": {
     "price": 370.92,
     "change_pct": 7.92,
     "name": "GOOGL",
-    "updated_at": "2026-07-15T23:35:18.632145"
+    "updated_at": "2026-07-16T05:04:28.048425"
   },
   "NVDA": {
     "price": 212.5,
     "change_pct": 8.56,
     "name": "NVDA",
-    "updated_at": "2026-07-15T23:35:18.632155"
+    "updated_at": "2026-07-16T05:04:28.048436"
   },
   "BTC": {
-    "price": 64564.11,
-    "change_pct": 3.23,
+    "price": 64022.05,
+    "change_pct": 2.36,
     "name": "BTC",
-    "updated_at": "2026-07-15T23:35:18.632159"
+    "updated_at": "2026-07-16T05:04:28.048441"
   },
   "MSFT": {
     "price": 395.63,
     "change_pct": 12.13,
     "name": "MSFT",
-    "updated_at": "2026-07-15T23:35:18.632163"
+    "updated_at": "2026-07-16T05:04:28.048445"
   },
   "TSLA": {
     "price": 394.46,
     "change_pct": 5.16,
     "name": "TSLA",
-    "updated_at": "2026-07-15T23:35:18.632166"
+    "updated_at": "2026-07-16T05:04:28.048448"
   },
   "AMZN": {
     "price": 254.96,
     "change_pct": 12.31,
     "name": "AMZN",
-    "updated_at": "2026-07-15T23:35:18.632170"
+    "updated_at": "2026-07-16T05:04:28.048452"
   },
   "WTI": {
     "price": 3.41,
     "change_pct": 6.9,
     "name": "WTI",
-    "updated_at": "2026-07-15T23:35:18.632173"
+    "updated_at": "2026-07-16T05:04:28.048456"
   },
   "META": {
     "price": 681.31,
     "change_pct": 25.5,
     "name": "META",
-    "updated_at": "2026-07-15T23:35:18.632177"
+    "updated_at": "2026-07-16T05:04:28.048459"
   },
   "S&P 500": {
     "price": 754.81,
     "change_pct": 2.79,
     "name": "S&P 500",
-    "updated_at": "2026-07-15T23:35:18.632180"
+    "updated_at": "2026-07-16T05:04:28.048462"
   },
   "AAPL": {
     "price": 327.5,
     "change_pct": 19.03,
     "name": "AAPL",
-    "updated_at": "2026-07-15T23:35:18.632183"
+    "updated_at": "2026-07-16T05:04:28.048466"
   },
   "QQQ": {
     "price": 717.74,
     "change_pct": 0.19,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-15T23:35:18.632186"
+    "updated_at": "2026-07-16T05:04:28.048469"
   },
   "BTC-USD": {
-    "price": 64564.11,
-    "change_pct": 3.23,
+    "price": 64022.05,
+    "change_pct": 2.36,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-15T23:35:18.632190"
+    "updated_at": "2026-07-16T05:04:28.048473"
   }
 },
   tickerScores: [
@@ -726,7 +726,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "MS",
+    "ticker": "INTC",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -741,7 +741,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "NOW",
+    "ticker": "MS",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -756,7 +756,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PANW",
+    "ticker": "NOW",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -771,7 +771,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SMP-500",
+    "ticker": "PANW",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -786,7 +786,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SPCE",
+    "ticker": "SMP-500",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -801,14 +801,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRM",
-    "total_score": 68.0,
+    "ticker": "SPCE",
+    "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 49,
-    "score": 68.0,
+    "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -816,7 +816,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "MINE",
+    "ticker": "CRM",
     "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -852,6 +852,26 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 348
+    },
+    {
+      "id": 364,
+      "title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-15",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the panel discusses the trajectory of Intel, one of America's greatest companies, which lost its edge to competitors like Nvidia, TSMC, and Apple. The conversation delves into Intel's mistakes, the importance of technical leadership in tech companies, and the future of computing with the convergence of classical computing, AI computing, and quantum computing. Additionally, the panel touches on the rapid growth of Loveable, a platform enabling anyone to build great software, and the potential of quantum computing to solve problems currently beyond our reach.",
+      "key_takeaway": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
+      "tickers_mentioned": [
+        "INTC",
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 349
     },
     {
       "id": 361,
@@ -1032,7 +1052,7 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-10",
       "archived_date": null,
@@ -8095,8 +8115,8 @@ const dashboardData = {
       "term": "Jevon's Paradox",
       "description": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
       "first_detected_date": "2026-05-30",
-      "last_mentioned_date": "2026-07-13",
-      "mention_count": 8,
+      "last_mentioned_date": "2026-07-15",
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "As AI makes computation cheaper, total compute demand may explode\u2014benefiting chip makers, data centers, and power providers despite efficiency gains.",
@@ -8105,8 +8125,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 249,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 344,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 349,
+      "last_mentioned_speaker": "Pat Gelsinger"
     },
     {
       "id": 100,
@@ -9744,6 +9764,29 @@ const dashboardData = {
       ]
     },
     {
+      "id": 364,
+      "title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-15",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the panel discusses the trajectory of Intel, one of America's greatest companies, which lost its edge to competitors like Nvidia, TSMC, and Apple. The conversation delves into Intel's mistakes, the importance of technical leadership in tech companies, and the future of computing with the convergence of classical computing, AI computing, and quantum computing. Additionally, the panel touches on the rapid growth of Loveable, a platform enabling anyone to build great software, and the potential of quantum computing to solve problems currently beyond our reach.",
+      "key_takeaway": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
+      "tickers_mentioned": "[\"INTC\", \"NVDA\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 349,
+      "episode_release_date": "2026-07-15",
+      "guest_name": null,
+      "key_tickers": [
+        "INTC",
+        "NVDA"
+      ]
+    },
+    {
       "id": 361,
       "title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
       "source_type": "podcast",
@@ -9872,26 +9915,6 @@ const dashboardData = {
       "key_tickers": [
         "TSLA"
       ]
-    },
-    {
-      "id": 356,
-      "title": "Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
-      "source_type": "podcast",
-      "source_name": "Dwarkesh Podcast",
-      "source_date": "2026-07-10",
-      "summary": "In this episode of the Dwarkesh Podcast, Adam Brown, a physicist and educator, discusses the fundamental concepts of general relativity, its implications on our understanding of gravity and space-time, and how it integrates with other fundamental forces. Brown explains Einstein's theory of gravity, the motion of planets, the solar system, and the origin and fate of the universe, making these complex ideas accessible to a general audience.",
-      "key_takeaway": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-10",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 341,
-      "episode_release_date": "2026-07-10",
-      "guest_name": "Adam Brown \u2013 Einstein's happiest thought",
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -10034,7 +10057,7 @@ const dashboardData = {
       "first_detected_speaker": "Demis Hassabis",
       "last_mentioned_episode_id": 346,
       "last_mentioned_speaker": "Max",
-      "overton_score": 52.77,
+      "overton_score": 51.56,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
@@ -10060,7 +10083,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 326,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "overton_score": 14.47,
+      "overton_score": 14.14,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
@@ -10086,7 +10109,7 @@ const dashboardData = {
       "first_detected_speaker": "Peter Diamandis",
       "last_mentioned_episode_id": 344,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "overton_score": 12.41,
+      "overton_score": 12.13,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
@@ -10094,6 +10117,32 @@ const dashboardData = {
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
       "last_mentioned_episode_title": "The AI Duopoly Is Over: Grok 4. 5 , GPT-5 . 6 , and Muse Spark in One Week | #270",
       "last_mentioned_episode_date": "2026-07-13"
+    },
+    {
+      "id": 11,
+      "term": "Jevon's Paradox",
+      "description": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
+      "first_detected_date": "2026-05-30",
+      "last_mentioned_date": "2026-07-15",
+      "mention_count": 9,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "As AI makes computation cheaper, total compute demand may explode\u2014benefiting chip makers, data centers, and power providers despite efficiency gains.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 249,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 349,
+      "last_mentioned_speaker": "Pat Gelsinger",
+      "overton_score": 8.79,
+      "resonance_pct": 100,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
+      "first_detected_episode_date": "2026-05-30",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
+      "last_mentioned_episode_date": "2026-07-15"
     },
     {
       "id": 254,
@@ -10112,7 +10161,7 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 348,
       "last_mentioned_speaker": "Dylan Patel",
-      "overton_score": 8.0,
+      "overton_score": 7.82,
       "resonance_pct": 100,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
@@ -10120,32 +10169,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
       "last_mentioned_episode_date": "2026-07-15"
-    },
-    {
-      "id": 11,
-      "term": "Jevon's Paradox",
-      "description": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
-      "first_detected_date": "2026-05-30",
-      "last_mentioned_date": "2026-07-13",
-      "mention_count": 8,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "As AI makes computation cheaper, total compute demand may explode\u2014benefiting chip makers, data centers, and power providers despite efficiency gains.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 249,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": 344,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "overton_score": 7.64,
-      "resonance_pct": 100,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
-      "first_detected_episode_date": "2026-05-30",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "The AI Duopoly Is Over: Grok 4. 5 , GPT-5 . 6 , and Muse Spark in One Week | #270",
-      "last_mentioned_episode_date": "2026-07-13"
     },
     {
       "id": 255,
@@ -10164,8 +10187,8 @@ const dashboardData = {
       "first_detected_speaker": "Leakwet Ahamed",
       "last_mentioned_episode_id": 347,
       "last_mentioned_speaker": "Ben Kulandian",
-      "overton_score": 2.93,
-      "resonance_pct": 73,
+      "overton_score": 2.86,
+      "resonance_pct": 72,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
       "first_detected_episode_date": "2026-06-29",
@@ -10190,8 +10213,8 @@ const dashboardData = {
       "first_detected_speaker": "Jack Farley (hosts)",
       "last_mentioned_episode_id": 347,
       "last_mentioned_speaker": "Ben Kulandian",
-      "overton_score": 1.95,
-      "resonance_pct": 49,
+      "overton_score": 1.91,
+      "resonance_pct": 48,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
       "first_detected_episode_date": "2026-06-15",
@@ -10216,8 +10239,8 @@ const dashboardData = {
       "first_detected_speaker": "Steven Sinofsky",
       "last_mentioned_episode_id": 345,
       "last_mentioned_speaker": "Max",
-      "overton_score": 1.91,
-      "resonance_pct": 48,
+      "overton_score": 1.87,
+      "resonance_pct": 47,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
       "first_detected_episode_date": "2026-06-02",
@@ -10242,8 +10265,8 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 343,
       "last_mentioned_speaker": "Barbara Liskov",
-      "overton_score": 1.91,
-      "resonance_pct": 48,
+      "overton_score": 1.87,
+      "resonance_pct": 47,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "How Bitcoin Rewired a Classic Computer Science Problem",
       "first_detected_episode_date": "2026-07-10",
@@ -10268,8 +10291,8 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 342,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "overton_score": 1.82,
-      "resonance_pct": 46,
+      "overton_score": 1.78,
+      "resonance_pct": 44,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner",
       "first_detected_episode_date": "2026-06-10",
@@ -10294,8 +10317,8 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 324,
       "last_mentioned_speaker": "Rick Rubin",
-      "overton_score": 1.45,
-      "resonance_pct": 36,
+      "overton_score": 1.41,
+      "resonance_pct": 35,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
       "first_detected_episode_date": "2026-06-19",
@@ -10320,7 +10343,7 @@ const dashboardData = {
       "first_detected_speaker": "Andrew Feldman",
       "last_mentioned_episode_id": 307,
       "last_mentioned_speaker": "Josh Elman",
-      "overton_score": 1.2,
+      "overton_score": 1.18,
       "resonance_pct": 30,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
@@ -10346,7 +10369,7 @@ const dashboardData = {
       "first_detected_speaker": "Steven Sinofsky",
       "last_mentioned_episode_id": 277,
       "last_mentioned_speaker": "Steven Sinofsky",
-      "overton_score": 0.89,
+      "overton_score": 0.87,
       "resonance_pct": 22,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
@@ -31903,9 +31926,87 @@ const dashboardData = {
       "NVIDIA",
       "AMD"
     ]
+  },
+  "364": {
+    "id": 354,
+    "insight_id": 364,
+    "podcast_episode_id": 349,
+    "overview": "The unresolved tension in the tech industry, as highlighted by the former Intel CEO, is the balance between business acumen and technical leadership. The competitive dynamic is shifting towards companies that can integrate hardware and software development, as exemplified by Apple's move to in-house silicon. The allocation-relevant implication is that companies prioritizing short-term shareholder returns over long-term R&D and technological innovation may lose out to more forward-thinking competitors.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the allocation of R&D spending by tech companies as an indicator of their long-term strategic focus.",
+      "The ability to vertically integrate hardware and software, as Apple has demonstrated, could be a key differentiator in the tech industry.",
+      "Diversification in chip manufacturing capabilities can provide a competitive edge, as seen with TSMC's rise as a foundry for the industry.",
+      "Investors should be cautious of companies that prioritize short-term dividends over long-term capital expenditures in technology development."
+    ],
+    "investment_thesis": "Investing in tech companies that maintain a strong technical leadership and commit to R&D for future technologies can yield significant long-term returns. The observable development that would vindicate this thesis is the successful integration of new technologies like AI and quantum computing into existing product lines, leading to market share gains and sustained competitive advantage. Conversely, a failure to innovate or adapt to new technological trends could invalidate this thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's move to in-house silicon and its focus on integrating hardware and software makes it a key player in the tech industry's shift towards vertical integration.",
+        "positioning": "Long-term strategic position, as Apple's continued investment in R&D and vertical integration is likely to maintain its competitive edge.",
+        "risk": "The risk of technological stagnation or failure to innovate in new areas could erode Apple's market position."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's leadership in GPU technology and its applicability in AI and cryptocurrency markets positions it well in the current tech landscape.",
+        "positioning": "Strategic long position, as the company's ability to adapt to new computational demands could drive future growth.",
+        "risk": "A slowdown in AI or cryptocurrency markets could impact Nvidia's growth prospects."
+      },
+      "TSM": {
+        "rationale": "TSMC's role as a leading foundry in the semiconductor industry makes it a key beneficiary of the increasing demand for advanced chip manufacturing.",
+        "positioning": "Long-term strategic position, as TSMC's ability to manufacture advanced chips for a broad ecosystem could drive continued growth.",
+        "risk": "Increased competition or a slowdown in chip demand could affect TSMC's market position."
+      },
+      "INTC": {
+        "rationale": "Intel's historical dominance and current challenges in maintaining its edge against competitors make it a company to watch for potential turnaround or further decline.",
+        "positioning": "Tactical short position, as the company's current trajectory suggests it may struggle to regain market share in the short term.",
+        "risk": "A successful strategic pivot or significant investment in R&D could lead to a resurgence in Intel's market position."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that Intel's decline is overstated and that its established market position and brand recognition could facilitate a comeback.",
+      "The possibility that the growth in AI and cryptocurrency markets may not be as sustained as anticipated, affecting the demand for high-performance chips.",
+      "The argument that the vertical integration of hardware and software may not always be the most efficient model, and that specialization could offer competitive advantages."
+    ],
+    "catalysts": [
+      "New product announcements or significant technological breakthroughs from Intel that could signal a turnaround.",
+      "Market share reports and financial results from Nvidia and TSMC that could indicate the sustainability of their growth.",
+      "Technological shifts or market trends that could disrupt the current competitive landscape, such as advancements in quantum computing."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-16T05:03:38.839610",
+    "updated_at": "2026-07-16 10:03:38",
+    "episode_evidence": "The discussion on the podcast highlighted Intel's shift from a technically-led company to one dominated by business executives, which the guest, a former Intel CEO, identified as a critical mistake. He stated, 'One of the things that went off the rail was when it started to be run by business people,' which led to a lack of technical foresight and innovation. This is exemplified by Intel's failure to capitalize on the iPhone chip market, as they 'passed on' the opportunity, choosing instead to focus on dividends, which the guest criticized: 'Intel gave a hundred billion dollars to shareholders... And my thought by Max 100, what I wouldn't have done for another hundred billion dollars on the...'. The guest also pointed out the importance of continuous innovation, mentioning Intel's lack of investment in new factories and UV machines, which are essential for chip manufacturing, indicating a neglect of core technological advancements. The discussion also touched on the strategic foresight of Apple's Steve Jobs, who decided to 'make our own silicon,' showcasing the importance of internal technological development and the integration of hardware and software for competitive advantage.",
+    "falsification_tracks": [
+      "If Intel were to regain significant market share from competitors like Nvidia and TSMC over the next two years, it would challenge the narrative of their sustained decline.",
+      "Should Apple's in-house silicon fail to maintain performance leadership, it would undermine the strategy of vertical integration highlighted by the guest.",
+      "A significant slowdown in the growth of AI and cryptocurrency markets could reduce the demand for high-performance chips, affecting Nvidia's market position."
+    ],
+    "insight_title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-07-15",
+    "key_tickers": [
+      "INTC",
+      "NVDA"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 515,
+    "term": "Trinity of Computing",
+    "definition": "The convergence of classical computing, AI computing, and quantum computing, which is expected to revolutionize technology and solve currently intractable problems.",
+    "investment_implications": "Investors should consider companies at the forefront of these technologies for potential high growth.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-16 10:01:16",
+    "priority_score": 80
+  },
   {
     "id": 514,
     "term": "Memory Pooling",
@@ -31941,23 +32042,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-13 17:03:39",
     "priority_score": 80
-  },
-  {
-    "id": 511,
-    "term": "Verticalized AI Models",
-    "definition": "Customized AI models tailored to specific industry needs, offering more precise and efficient solutions compared to generalized AI models.",
-    "investment_implications": "Investors should look for companies that are developing or utilizing verticalized AI models to gain a competitive edge in their respective industries.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-11 04:38:41",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 32081,
+    "id": 32177,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -31969,7 +32058,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32082,
+    "id": 32178,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -31981,7 +32070,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32083,
+    "id": 32179,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -31993,7 +32082,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32084,
+    "id": 32180,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -32005,7 +32094,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32085,
+    "id": 32181,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -32017,7 +32106,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32086,
+    "id": 32182,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -32029,7 +32118,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32087,
+    "id": 32183,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -32041,7 +32130,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32088,
+    "id": 32184,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -32053,7 +32142,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32089,
+    "id": 32185,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -32065,7 +32154,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32090,
+    "id": 32186,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -32077,7 +32166,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32091,
+    "id": 32187,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -32089,7 +32178,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32092,
+    "id": 32188,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -32101,7 +32190,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32093,
+    "id": 32189,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -32113,7 +32202,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32094,
+    "id": 32190,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -32125,7 +32214,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32095,
+    "id": 32191,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -32137,7 +32226,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32096,
+    "id": 32192,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -32149,7 +32238,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32097,
+    "id": 32193,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -32161,7 +32250,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32098,
+    "id": 32194,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -32173,7 +32262,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32099,
+    "id": 32195,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -32185,7 +32274,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32100,
+    "id": 32196,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -32404,7 +32493,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-10",
     "mention_score": 2,
-    "mention_score_decayed": 1.78,
+    "mention_score_decayed": 1.74,
     "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
     "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
@@ -32468,7 +32557,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-03",
     "mention_score": 2,
-    "mention_score_decayed": 1.55,
+    "mention_score_decayed": 1.52,
     "last_main_idea": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-03 \u2022 AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Sure, favorite podcast. It's your podcast. It's your favorite podcast. It's the all-in podcast episode two, seven, nine with me, freebergs, tax, to my, you know, the",
@@ -32528,7 +32617,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 1.05,
+    "mention_score_decayed": 1.02,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -32849,7 +32938,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Invest in technologies that empower individuals to maintain autonomy and control in a world where threats to personal safety and privacy are growing.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-15 \u2022 Vitalik Buterin on Human Agency in the AI Era",
     "last_proof_snippet": "One of the challenges the world right now is that we're definitely in a less peaceful and less safe world than 10 or 15 years ago. The vision of safety that we're competing with is basically, oh, you know, let's trust the uncle in the sky a",
@@ -32911,7 +33000,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-13",
     "mention_score": 2,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in sectors poised for growth due to AI adoption, particularly semiconductors and stablecoins, while being cautious about the cyclical nature of capex investments in hyperscaler companies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-13 \u2022 Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show, you'll hear more about hfgm currently the number one morning star rated fund sits its inception in the US macro trading category. Let's",
@@ -33042,7 +33131,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Investing in longevity and healthspan technologies and therapies offers significant growth potential as scientific advancements continue to extend human lifespan and improve quality of life.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-28 \u2022 David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
     "last_proof_snippet": "AI-driven drug design is accelerating research by analyzing billions of molecules for potential therapeutic uses.",
@@ -33296,7 +33385,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-02",
     "mention_score": 2,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
     "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
@@ -33580,6 +33669,72 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 335,
+    "name": "Pat Gelsinger",
+    "slug": "pat-gelsinger",
+    "bio": "Pat Gelsinger is a renowned technology executive known for his leadership at Intel and VMware. He served as Intel's 8th CEO and played a significant role in the tech industry's evolution.",
+    "known_for": "His leadership at Intel during a critical period of competition and his insights into the tech industry.",
+    "net_worth_usd": 120000000.0,
+    "net_worth_source": "https://thedacian.com/pat-gelsinger-net-worth/",
+    "net_worth_updated_at": "2026-07-16T05:02:47.534425",
+    "voice_tone": "Reflective and insightful.",
+    "voice_style": "Factual and experienced.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about Intel's history and future.",
+    "voice_profile_updated_at": "2026-07-16 10:01:16",
+    "last_seen": "2026-07-16 10:01:16",
+    "last_episode_title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-07-15",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-15 \u2022 Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
+    "last_proof_snippet": "spent a long time in Intel, and only 34 years, 34 years, probably one of the greatest American companies ever, and then, absolutely went off the rails and got absolutely demolished by Nvidia, TSMC, and I guess Apple to a certain extent. So",
+    "supporting_takeaway": "Technical decisions in tech companies should be driven by technologists, not just business leaders.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-16T05:02:45.973996",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Pat Gelsinger",
+      "fetched_at": "2026-07-16T10:02:45.973649+00:00",
+      "cliff_notes": "Pat Gelsinger has had a long and influential career in the technology sector. Starting at Intel in 1979, he held various technical and leadership roles, eventually becoming the company's Chief Technology Officer. His tenure at Intel spanned over three decades, during which he contributed to the development and execution of many of Intel's technology strategies. After leaving Intel, Gelsinger became the CEO of VMware, where he led the company through significant growth and innovation. In 2021, he returned to Intel as its 8th CEO, taking on the challenge of revitalizing the company amidst intense competition from Nvidia, TSMC, and Apple. His leadership and insights into the tech industry have made him a key figure in the evolution of technology and its impact on the global market.",
+      "derived": {
+        "current_role": "CEO of Intel",
+        "former_positions": "CEO of VMware; Senior Vice President and General Manager of Intel's Digital Enterprise Group; Chief Technology Officer at Intel",
+        "education": "B.S. in Electrical Engineering from Lincoln Technical Institute; M.S. in Electrical Engineering from Stanford University"
+      },
+      "infobox": {
+        "Born": "1962",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Pat Gelsinger has had a long and influential career in the technology sector. Starting at Intel in 1979, he held various technical and leadership roles, eventually becoming the company's Chief Technology Officer. His tenure at Intel spanned over three decades, during which he contributed to the development and execution of many of Intel's technology strategies.",
+        "After leaving Intel, Gelsinger became the CEO of VMware, where he led the company through significant growth and innovation. In 2021, he returned to Intel as its 8th CEO, taking on the challenge of revitalizing the company amidst intense competition from Nvidia, TSMC, and Apple. His leadership and insights into the tech industry have made him a key figure in the evolution of technology and its impact on the global market."
+      ],
+      "sections": [
+        {
+          "heading": "Leadership at Intel",
+          "body": "Pat Gelsinger served as Intel's 8th CEO, taking on the role during a period of intense competition and significant challenges for the company."
+        },
+        {
+          "heading": "VMware CEO",
+          "body": "As CEO of VMware, Gelsinger led the company to substantial growth and innovation, expanding its reach in the virtualization and cloud computing markets."
+        },
+        {
+          "heading": "Technology Strategy",
+          "body": "Throughout his career, Gelsinger has been instrumental in shaping technology strategies, both at Intel and VMware, impacting the direction of the tech industry."
+        },
+        {
+          "heading": "Industry Competition",
+          "body": "Gelsinger's leadership at Intel coincided with the company's struggle to maintain its market position against competitors like Nvidia, TSMC, and Apple."
+        }
+      ]
+    },
+    "net_worth": "$120.0M"
   },
   {
     "id": 333,
@@ -34185,7 +34340,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-05 \u2022 The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. The new Fed Chair Kevin Worsh has made it no secret that he prefers a sm",
@@ -34615,7 +34770,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-29 \u2022 Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
     "last_proof_snippet": "I am so glad today we have a very special guest, one of my favorite authors of all time Leakwet Ahamed, who's the author of the new book 1873, The Roth Childs, The First Great Depression, and The Making of the Modern World Leakwet. Welcome",
@@ -34742,7 +34897,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
     "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
@@ -34926,7 +35081,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-23 \u2022 GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
     "last_proof_snippet": "Everyone hates GameStop and it seems like everyone in the media basically wants us to fail and wants them to succeed and you've got a board that's making hundreds of thousands of dollars a year and they don't buy stock with their own money.",
@@ -35056,7 +35211,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-22 \u2022 Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
     "last_proof_snippet": "Okay, we're here in a studio with Grace One, Matt and Zico welcome. Great to be here. Yeah. Thanks for having us. You're visiting from Pittsburgh? That's right. The home of all good computer science, I don't know if I'm oversteaving things.",
@@ -35119,7 +35274,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -35183,7 +35338,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -35242,7 +35397,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -35301,7 +35456,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -35366,7 +35521,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -35795,7 +35950,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -36643,7 +36798,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -36835,7 +36990,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
@@ -38524,7 +38679,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Invest in incremental AI improvements, new compensation models for CEOs, and emerging biotech sectors focusing on longevity and healthspan.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-07 \u2022 Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
     "last_proof_snippet": "Demisis Abbas, the CEO of DeepMind, says AGI may not need a major breakthrough. I've argued in the past that we achieved AGI in the summer of 2020. We know. I would argue what AGI is, and we know how pleased to find it for me. For your AI,",
@@ -38959,7 +39114,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Building a successful investment organization requires compounding talent, capital, and culture over time, focusing on long-term growth rather than short-term gains.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-05 \u2022 Building Blackstone, Backing Costco, with Tony James",
     "last_proof_snippet": "If you think about the development of a successful company, there's kind of an Esker. It starts off small and entrepreneurial. Then there's this kind of escalation where you create a lot of value in a lot of size. People know Blackstone tod",
@@ -40466,7 +40621,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "The rapid advancement of AI and consumer tech is creating new opportunities and challenges for venture capital, with a focus on the need for universal basic purpose and the potential for AI to disrupt traditional job markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-19 \u2022 Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
     "last_proof_snippet": "The cost structure for consumer products has shifted, with AI inference costs affecting the economics of venture funding.",
@@ -43390,7 +43545,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
     "last_proof_snippet": "Current power solutions like diesel generators are inefficient and create a tactical signature, making them a liability.",
@@ -43450,7 +43605,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
     "last_proof_snippet": "Current power solutions like diesel generators are inefficient and create a tactical signature, making them a liability.",
@@ -43514,7 +43669,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-24 \u2022 The Future of AI and its Impact on Society and Investment",
     "last_proof_snippet": "Recursive self-improvement in AI is not yet realized, but its potential is both exciting and terrifying.",
