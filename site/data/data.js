@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-16T22:02:39.558093",
-  chartsVersion: "2026-07-16T22:02:26.938920",
+  generatedAt: "2026-07-16T23:38:01.222454",
+  chartsVersion: "2026-07-16T23:37:48.959009",
   priceSnapshot: {
   "GOOGL": {
     "price": 354.46,
     "change_pct": 5.06,
     "name": "GOOGL",
-    "updated_at": "2026-07-16T22:02:26.938471"
+    "updated_at": "2026-07-16T23:37:48.958429"
   },
   "NVDA": {
     "price": 207.4,
     "change_pct": 7.72,
     "name": "NVDA",
-    "updated_at": "2026-07-16T22:02:26.938482"
+    "updated_at": "2026-07-16T23:37:48.958440"
   },
   "BTC": {
-    "price": 63459.05,
-    "change_pct": 0.59,
+    "price": 63311.84,
+    "change_pct": 0.35,
     "name": "BTC",
-    "updated_at": "2026-07-16T22:02:26.938486"
+    "updated_at": "2026-07-16T23:37:48.958444"
   },
   "MSFT": {
     "price": 401.1,
     "change_pct": 7.54,
     "name": "MSFT",
-    "updated_at": "2026-07-16T22:02:26.938489"
+    "updated_at": "2026-07-16T23:37:48.958448"
   },
   "TSLA": {
     "price": 391.06,
     "change_pct": 2.99,
     "name": "TSLA",
-    "updated_at": "2026-07-16T22:02:26.938492"
+    "updated_at": "2026-07-16T23:37:48.958451"
   },
   "AMZN": {
     "price": 249.89,
     "change_pct": 7.39,
     "name": "AMZN",
-    "updated_at": "2026-07-16T22:02:26.938495"
+    "updated_at": "2026-07-16T23:37:48.958454"
   },
   "WTI": {
     "price": 3.33,
     "change_pct": 1.83,
     "name": "WTI",
-    "updated_at": "2026-07-16T22:02:26.938499"
+    "updated_at": "2026-07-16T23:37:48.958458"
   },
   "META": {
     "price": 664.54,
     "change_pct": 20.77,
     "name": "META",
-    "updated_at": "2026-07-16T22:02:26.938502"
+    "updated_at": "2026-07-16T23:37:48.958461"
   },
   "S&P 500": {
     "price": 750.72,
     "change_pct": 2.98,
     "name": "S&P 500",
-    "updated_at": "2026-07-16T22:02:26.938505"
+    "updated_at": "2026-07-16T23:37:48.958465"
   },
   "AAPL": {
     "price": 333.26,
     "change_pct": 17.44,
     "name": "AAPL",
-    "updated_at": "2026-07-16T22:02:26.938508"
+    "updated_at": "2026-07-16T23:37:48.958468"
   },
   "QQQ": {
     "price": 705.94,
     "change_pct": -0.08,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-16T22:02:26.938511"
+    "updated_at": "2026-07-16T23:37:48.958471"
   },
   "BTC-USD": {
-    "price": 63459.05,
-    "change_pct": 0.59,
+    "price": 63311.84,
+    "change_pct": 0.35,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-16T22:02:26.938515"
+    "updated_at": "2026-07-16T23:37:48.958475"
   }
 },
   tickerScores: [
@@ -32289,7 +32289,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 32564,
+    "id": 32662,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -32301,7 +32301,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32565,
+    "id": 32663,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -32313,7 +32313,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32566,
+    "id": 32664,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -32325,7 +32325,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32567,
+    "id": 32665,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -32337,7 +32337,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32568,
+    "id": 32666,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -32349,7 +32349,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32569,
+    "id": 32667,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -32361,7 +32361,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32570,
+    "id": 32668,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -32373,7 +32373,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32571,
+    "id": 32669,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -32385,7 +32385,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32572,
+    "id": 32670,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -32397,7 +32397,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32573,
+    "id": 32671,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -32409,7 +32409,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32574,
+    "id": 32672,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -32421,7 +32421,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32575,
+    "id": 32673,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -32433,7 +32433,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32576,
+    "id": 32674,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -32445,7 +32445,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32577,
+    "id": 32675,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -32457,7 +32457,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32578,
+    "id": 32676,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -32469,7 +32469,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32579,
+    "id": 32677,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -32481,7 +32481,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32580,
+    "id": 32678,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -32493,7 +32493,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32581,
+    "id": 32679,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -32505,7 +32505,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32582,
+    "id": 32680,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -32517,7 +32517,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32583,
+    "id": 32681,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -32736,7 +32736,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-10",
     "mention_score": 2,
-    "mention_score_decayed": 1.74,
+    "mention_score_decayed": 1.7,
     "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
     "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
@@ -32800,7 +32800,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-03",
     "mention_score": 2,
-    "mention_score_decayed": 1.52,
+    "mention_score_decayed": 1.48,
     "last_main_idea": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-03 \u2022 AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Sure, favorite podcast. It's your podcast. It's your favorite podcast. It's the all-in podcast episode two, seven, nine with me, freebergs, tax, to my, you know, the",
@@ -32860,7 +32860,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 1.02,
+    "mention_score_decayed": 1.0,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -34308,7 +34308,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in companies at the forefront of AI and semiconductors that can leverage intelligence to perform high-cost, time-consuming tasks more efficiently and at scale.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-14 \u2022 The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
     "last_proof_snippet": "Got a special conversation today. I'm joined by Ben Kulandian of BEP Research. Ben is a specialist investor and analyst in the semi-conductor world and the semi-conductor supply chain. Of course, that is what powers AI Ben welcome to moneta",
@@ -35256,7 +35256,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-29 \u2022 Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
     "last_proof_snippet": "I am so glad today we have a very special guest, one of my favorite authors of all time Leakwet Ahamed, who's the author of the new book 1873, The Roth Childs, The First Great Depression, and The Making of the Modern World Leakwet. Welcome",
@@ -35383,7 +35383,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
     "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
@@ -35760,7 +35760,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -35824,7 +35824,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -35883,7 +35883,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -35942,7 +35942,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -36007,7 +36007,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -36070,7 +36070,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -36436,7 +36436,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -37284,7 +37284,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -40793,7 +40793,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -41301,7 +41301,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -41677,7 +41677,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
@@ -41993,7 +41993,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
     "last_proof_snippet": "Beach Point Capital Management primarily manages institutional capital, which is characterized as patient capital.",
@@ -42056,7 +42056,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
@@ -44586,7 +44586,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_proof_snippet": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229 00:00:00 I am blown away by how far you've come. The things that you can do with Neural Nets now does completely",
@@ -44650,7 +44650,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "last_proof_cite": "The a16z Show \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
     "last_proof_snippet": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. If you were starting from scratch today,",
@@ -44712,7 +44712,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-19 \u2022 Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
     "last_proof_snippet": "Today's episode is brought to you by the Picta AI Enhance International Equity ETF, Ticker PQNT. You'll hear more about they're using AI to enhance international equity returns later in the show. For now, let's get into it. Very pleased tod",
