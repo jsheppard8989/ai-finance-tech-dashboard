@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-17T06:40:29.234463",
-  chartsVersion: "2026-07-17T06:40:17.657257",
+  generatedAt: "2026-07-17T12:04:02.883552",
+  chartsVersion: "2026-07-17T12:03:56.936491",
   priceSnapshot: {
   "GOOGL": {
-    "price": 354.46,
-    "change_pct": 5.06,
+    "price": 347.03,
+    "change_pct": -1.87,
     "name": "GOOGL",
-    "updated_at": "2026-07-17T06:40:17.655945"
+    "updated_at": "2026-07-17T12:03:56.935680"
   },
   "NVDA": {
-    "price": 207.4,
-    "change_pct": 7.72,
+    "price": 205.87,
+    "change_pct": 5.59,
     "name": "NVDA",
-    "updated_at": "2026-07-17T06:40:17.655970"
+    "updated_at": "2026-07-17T12:03:56.935696"
   },
   "BTC": {
-    "price": 63226.62,
-    "change_pct": 0.22,
+    "price": 63618.56,
+    "change_pct": 0.84,
     "name": "BTC",
-    "updated_at": "2026-07-17T06:40:17.655981"
+    "updated_at": "2026-07-17T12:03:56.935703"
   },
   "MSFT": {
-    "price": 401.1,
-    "change_pct": 7.54,
+    "price": 394.58,
+    "change_pct": 7.06,
     "name": "MSFT",
-    "updated_at": "2026-07-17T06:40:17.655991"
+    "updated_at": "2026-07-17T12:03:56.935708"
   },
   "TSLA": {
-    "price": 391.06,
-    "change_pct": 2.99,
+    "price": 384.97,
+    "change_pct": -6.52,
     "name": "TSLA",
-    "updated_at": "2026-07-17T06:40:17.656001"
+    "updated_at": "2026-07-17T12:03:56.935714"
   },
   "AMZN": {
-    "price": 249.89,
-    "change_pct": 7.39,
+    "price": 249.18,
+    "change_pct": 3.76,
     "name": "AMZN",
-    "updated_at": "2026-07-17T06:40:17.656011"
+    "updated_at": "2026-07-17T12:03:56.935719"
   },
   "WTI": {
-    "price": 3.33,
-    "change_pct": 1.83,
+    "price": 3.35,
+    "change_pct": 4.53,
     "name": "WTI",
-    "updated_at": "2026-07-17T06:40:17.656022"
+    "updated_at": "2026-07-17T12:03:56.935725"
   },
   "META": {
-    "price": 664.54,
-    "change_pct": 20.77,
+    "price": 651.65,
+    "change_pct": 15.83,
     "name": "META",
-    "updated_at": "2026-07-17T06:40:17.656033"
+    "updated_at": "2026-07-17T12:03:56.935731"
   },
   "S&P 500": {
-    "price": 750.72,
-    "change_pct": 2.98,
+    "price": 746.77,
+    "change_pct": 0.78,
     "name": "S&P 500",
-    "updated_at": "2026-07-17T06:40:17.656043"
+    "updated_at": "2026-07-17T12:03:56.935737"
   },
   "AAPL": {
-    "price": 333.26,
-    "change_pct": 17.44,
+    "price": 330.21,
+    "change_pct": 17.2,
     "name": "AAPL",
-    "updated_at": "2026-07-17T06:40:17.656054"
+    "updated_at": "2026-07-17T12:03:56.935742"
   },
   "QQQ": {
-    "price": 705.94,
-    "change_pct": -0.08,
+    "price": 701.33,
+    "change_pct": -3.14,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-17T06:40:17.656064"
+    "updated_at": "2026-07-17T12:03:56.935747"
   },
   "BTC-USD": {
-    "price": 63226.62,
-    "change_pct": 0.22,
+    "price": 63618.56,
+    "change_pct": 0.84,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-17T06:40:17.656077"
+    "updated_at": "2026-07-17T12:03:56.935754"
   }
 },
   tickerScores: [
@@ -834,6 +834,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 368,
+      "title": "Amjad Masad on Going Direct, Building Replit, and the Future of Software",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-17",
+      "summary": "This episode of 'The a16z Show' explores the importance of building a company in public, the value of authenticity in communication, and the management of PR crises. The conversation underscores the significance of engaging with the public to gather feedback, build trust, and carry people along the company's journey. It also highlights the increasing importance of genuine self-expression on social media and the ability to handle public scrutiny as skills that can be developed. The episode provides insights into how CEOs and companies can effectively communicate their narrative and manage their public image.",
+      "key_takeaway": "Investing in companies that prioritize public communication and authenticity can lead to stronger brand loyalty and trust, which are valuable assets in the long term.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "TSLA",
+        "META",
+        "GOOGL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 353
+    },
+    {
       "id": 365,
       "title": "Replay 2025: David Sacks on AI, Crypto, and America's Technology Future",
       "source_type": "podcast",
@@ -1027,7 +1050,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-14",
       "archived_date": null,
@@ -7940,20 +7963,20 @@ const dashboardData = {
     {
       "id": 256,
       "term": "Authenticity",
-      "description": "The quality of being true to one's own personality, experiences, and beliefs, rather than presenting a rehearsed or insincere image.",
+      "description": "Being genuine and true to oneself in public communications, particularly on social media.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-07-01",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-07-17",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Authentic communication can build trust and relatability with audiences, which are essential for brand loyalty and market differentiation.",
+      "investment_implications": "Authenticity can help build a loyal following and personal brand, which can be beneficial for company valuation and reputation.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 301,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 324,
-      "last_mentioned_speaker": "Rick Rubin"
+      "last_mentioned_episode_id": 353,
+      "last_mentioned_speaker": "Amjad Masad"
     },
     {
       "id": 258,
@@ -9820,6 +9843,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 368,
+      "title": "Amjad Masad on Going Direct, Building Replit, and the Future of Software",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-17",
+      "summary": "This episode of 'The a16z Show' explores the importance of building a company in public, the value of authenticity in communication, and the management of PR crises. The conversation underscores the significance of engaging with the public to gather feedback, build trust, and carry people along the company's journey. It also highlights the increasing importance of genuine self-expression on social media and the ability to handle public scrutiny as skills that can be developed. The episode provides insights into how CEOs and companies can effectively communicate their narrative and manage their public image.",
+      "key_takeaway": "Investing in companies that prioritize public communication and authenticity can lead to stronger brand loyalty and trust, which are valuable assets in the long term.",
+      "tickers_mentioned": "[\"AAPL\", \"MSFT\", \"TSLA\", \"META\", \"GOOGL\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 353,
+      "episode_release_date": "2026-07-17",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 365,
       "title": "Replay 2025: David Sacks on AI, Crypto, and America's Technology Future",
       "source_type": "podcast",
@@ -9970,26 +10013,6 @@ const dashboardData = {
         "NVDA",
         "AAPL"
       ]
-    },
-    {
-      "id": 360,
-      "title": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-07-13",
-      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss the rapid growth and revenue surge of a company that has developed an AI-native platform for global accounts, cards, and payments. The conversation covers the company's journey from its inception to reaching $600 million in revenue within 40-50 months. They also delve into the challenges of maintaining company culture amidst rapid growth, the competition for talent, and the strategic approach to partnerships with frontier AI models. The episode highlights the importance of building a global financial system from first principles, leveraging AI to create a seamless local market feel worldwide.",
-      "key_takeaway": "Invest in companies that leverage AI-native platforms to disrupt traditional financial systems, offering a more seamless and localized global transaction experience.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-14",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 345,
-      "episode_release_date": "2026-07-13",
-      "guest_name": null,
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -10272,6 +10295,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-07-16"
     },
     {
+      "id": 256,
+      "term": "Authenticity",
+      "description": "Being genuine and true to oneself in public communications, particularly on social media.",
+      "first_detected_date": "2026-06-19",
+      "last_mentioned_date": "2026-07-17",
+      "mention_count": 3,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Authenticity can help build a loyal following and personal brand, which can be beneficial for company valuation and reputation.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 301,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 353,
+      "last_mentioned_speaker": "Amjad Masad",
+      "overton_score": 3.0,
+      "resonance_pct": 75,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
+      "first_detected_episode_date": "2026-06-19",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Amjad Masad on Going Direct, Building Replit, and the Future of Software",
+      "last_mentioned_episode_date": "2026-07-17"
+    },
+    {
       "id": 258,
       "term": "Self-driving lab",
       "description": "A lab that automates material discovery and testing, aiming to bridge the gap between material science and manufacturing.",
@@ -10400,32 +10449,6 @@ const dashboardData = {
       "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "last_mentioned_episode_title": "More Trillion Dollar IPOs, Anthropic $3T, Zuck's Price War, China Ends Open Source?, Trump Accounts",
       "last_mentioned_episode_date": "2026-07-11"
-    },
-    {
-      "id": 256,
-      "term": "Authenticity",
-      "description": "The quality of being true to one's own personality, experiences, and beliefs, rather than presenting a rehearsed or insincere image.",
-      "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-07-01",
-      "mention_count": 2,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Authentic communication can build trust and relatability with audiences, which are essential for brand loyalty and market differentiation.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 301,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": 324,
-      "last_mentioned_speaker": "Rick Rubin",
-      "overton_score": 1.38,
-      "resonance_pct": 34,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
-      "first_detected_episode_date": "2026-06-19",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Rick Rubin on AI, Creativity, and The Way of Code",
-      "last_mentioned_episode_date": "2026-07-01"
     },
     {
       "id": 194,
@@ -32235,9 +32258,93 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-07-16",
     "key_tickers": []
+  },
+  "368": {
+    "id": 358,
+    "insight_id": 368,
+    "podcast_episode_id": 353,
+    "overview": "The competitive dynamic implied by the source material revolves around the tension between traditional private company operations and the emerging trend of conducting business in the public eye. This shift is contested on the grounds of transparency, community engagement, and the authenticity of communication, which are seen as differentiating factors in a crowded market. The allocator-relevant implication is that companies embracing these practices may gain a competitive edge in terms of brand loyalty and trust, metrics that are increasingly valued in the digital age. However, the effectiveness of these strategies is contingent upon the public's response and the ability of companies to navigate the complexities of public scrutiny.",
+    "key_takeaways_detailed": [
+      "Investors should consider the potential for increased brand loyalty and trust as a long-term value driver when evaluating companies that prioritize public communication and authenticity.",
+      "Monitor the social media presence and public engagement strategies of companies to assess their ability to build a loyal following and manage public perception.",
+      "Look for companies that demonstrate a commitment to improvement and transparency during PR crises, as these actions can be indicative of strong leadership and a resilient corporate culture.",
+      "Be cautious of companies that shy away from public disputes or fail to engage in the 'meta' conversation, as this may signal a lack of strategic foresight or an inability to adapt to changing public narratives.",
+      "Evaluate the potential risks associated with public communication, such as the exposure to misinformation campaigns or the challenges of maintaining a consistent brand message across various platforms."
+    ],
+    "investment_thesis": "The core logic of this investment thesis is that in an increasingly digital and socially connected world, companies that effectively communicate their narrative and manage their public image through transparency and authenticity will gain a competitive advantage. This advantage is expected to manifest in the form of stronger brand loyalty and trust, which can lead to increased customer retention and market share. The thesis is tied to the observable development of companies that successfully navigate public scrutiny and leverage community engagement to their benefit. A timeframe of 3-5 years is proposed to assess the impact of these strategies on business performance and market perception. This thesis would be vindicated by consistent growth in customer engagement metrics and a positive correlation between public communication efforts and business outcomes. Conversely, it would be invalidated if companies that adopt these practices fail to see a corresponding improvement in their market position or if they suffer from reputational damage due to mishandled public communications.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is relevant to this thesis due to its strong brand loyalty and its history of effective public communication, which has been a key factor in its success.",
+        "positioning": "Positioning should be long-term strategic, as Apple's approach to public communication and brand management is deeply ingrained in its corporate culture and has proven to be a sustainable competitive advantage.",
+        "risk": "Key risks include changes in consumer preferences, increased competition, and potential missteps in public communication that could damage the brand's reputation."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's transformation under Satya Nadella, with a focus on transparency and community engagement, makes it a relevant case study for this thesis.",
+        "positioning": "Microsoft can be positioned as a long-term strategic investment, given its commitment to public communication and its ability to adapt to changing market dynamics.",
+        "risk": "Risks include regulatory challenges, particularly in the tech sector, and the potential for public communication missteps that could impact the company's image."
+      },
+      "TSLA": {
+        "rationale": "Tesla, with its CEO Elon Musk's active and often controversial social media presence, exemplifies the potential and risks of authenticity in communication.",
+        "positioning": "Tesla can be considered a tactical investment due to the volatility associated with its public image management, which can influence investor sentiment significantly.",
+        "risk": "The key risk is the unpredictability of public communication and its potential to cause rapid shifts in market perception and investor confidence."
+      },
+      "META": {
+        "rationale": "Meta Platforms (formerly Facebook) has faced significant PR crises and has been at the forefront of public communication in the tech industry.",
+        "positioning": "Meta can be positioned as a tactical investment, with a focus on how the company manages its public image and responds to crises.",
+        "risk": "The risk lies in the company's ability to navigate ongoing regulatory scrutiny and public perception challenges, which could impact its business performance."
+      },
+      "GOOGL": {
+        "rationale": "Google's parent company, Alphabet, has a strong history of public communication and community engagement, particularly through its various initiatives and projects.",
+        "positioning": "Alphabet can be seen as a long-term strategic investment, given its commitment to transparency and its ability to innovate while maintaining a positive public image.",
+        "risk": "Key risks include regulatory challenges and the potential for public communication missteps that could impact the company's reputation and market position."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant increase in the number of companies that successfully build their brand and trust without engaging in public communication, suggesting that the benefits of building in public may be overstated.",
+      "A rise in consumer skepticism towards authenticity in communication, as they may perceive it as a marketing tactic rather than a genuine expression of company values.",
+      "Instances where companies that have been transparent and authentic face backlash or reputational damage, indicating that the public may not always reward these practices as expected."
+    ],
+    "catalysts": [
+      "Major product launches or significant business milestones that can serve as a test of a company's public communication strategy and its ability to engage with the public effectively.",
+      "Regulatory changes that impact the tech industry, as these can influence the need for companies to communicate more transparently with the public and investors.",
+      "Social media trends and platform changes that can affect the way companies engage with their audience and the public's perception of authenticity in communication.",
+      "Annual reports and earnings calls that provide insights into a company's performance and its commitment to transparency and authenticity in communication.",
+      "Public opinion surveys and social media analytics that can measure the impact of public communication strategies on brand perception and customer loyalty."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-17T12:02:59.902405",
+    "updated_at": "2026-07-17 17:02:59",
+    "episode_evidence": "In the 'The a16z Show' episode featuring Amjad Masad, the founder of Replit, the conversation delves into the intricacies of building a company in public and the importance of authenticity in communication. Masad emphasizes the value of transparency, stating, 'So, whenever there's a piece of communication or story, I want to tell, and there's a choice between public and private, I might bias towards public.' This approach not only fosters community engagement but also builds trust through the sharing of both successes and challenges. Furthermore, Masad discusses the evolution of authenticity in leadership communication, particularly on social media, highlighting that 'being yourself is kind of like a big radical thing.' This shift towards genuine self-expression is seen as crucial for building a loyal following and personal brand. The episode also touches on the management of PR crises, where Masad suggests that owning mistakes and demonstrating a commitment to improvement are key to maintaining credibility, as illustrated by his quote, 'The right thing to do was to own up to it.' These insights provide a deeper understanding of the mechanisms behind effective public communication and the management of corporate image in the digital age.",
+    "falsification_tracks": [
+      "A significant decline in user engagement or trust towards companies that practice transparency and authenticity, as measured by social media analytics and customer satisfaction surveys.",
+      "A rise in successful companies that have built their brand and trust without engaging in public communication, suggesting that the benefits of building in public may be overstated.",
+      "Instances where CEOs or companies face backlash for being authentic on social media, indicating that the public may not always value authenticity as predicted.",
+      "A pattern of PR crises that are not effectively managed by companies admitting mistakes, leading to lasting damage to their reputation and business performance."
+    ],
+    "insight_title": "Amjad Masad on Going Direct, Building Replit, and the Future of Software",
+    "source_name": "The a16z Show",
+    "source_date": "2026-07-17",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 519,
+    "term": "Building in Public",
+    "definition": "The practice of conducting company operations and communications in a public forum rather than in private.",
+    "investment_implications": "Transparency in company operations can build trust with investors and customers, potentially leading to stronger brand loyalty.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-17 17:01:58",
+    "priority_score": 80
+  },
   {
     "id": 517,
     "term": "Trend Following",
@@ -32273,23 +32380,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-16 17:04:16",
     "priority_score": 80
-  },
-  {
-    "id": 515,
-    "term": "Trinity of Computing",
-    "definition": "The convergence of classical computing, AI computing, and quantum computing, which is expected to revolutionize technology and solve currently intractable problems.",
-    "investment_implications": "Investors should consider companies at the forefront of these technologies for potential high growth.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-16 10:01:16",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 32858,
+    "id": 32956,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -32301,7 +32396,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32859,
+    "id": 32957,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -32313,7 +32408,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32860,
+    "id": 32958,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -32325,7 +32420,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32861,
+    "id": 32959,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -32337,7 +32432,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32862,
+    "id": 32960,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -32349,7 +32444,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32863,
+    "id": 32961,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -32361,7 +32456,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32864,
+    "id": 32962,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -32373,7 +32468,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32865,
+    "id": 32963,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -32385,7 +32480,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32866,
+    "id": 32964,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -32397,7 +32492,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32867,
+    "id": 32965,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -32409,7 +32504,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32868,
+    "id": 32966,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -32421,7 +32516,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32869,
+    "id": 32967,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -32433,7 +32528,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32870,
+    "id": 32968,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -32445,7 +32540,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32871,
+    "id": 32969,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -32457,7 +32552,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32872,
+    "id": 32970,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -32469,7 +32564,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32873,
+    "id": 32971,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -32481,7 +32576,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32874,
+    "id": 32972,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -32493,7 +32588,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32875,
+    "id": 32973,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -32505,7 +32600,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32876,
+    "id": 32974,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -32517,7 +32612,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 32877,
+    "id": 32975,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -32717,6 +32812,66 @@ const dashboardData = {
       ]
     },
     "net_worth": "$12.3M"
+  },
+  {
+    "id": 180,
+    "name": "Amjad Masad",
+    "slug": "amjad-masad",
+    "bio": "Amjad Masad is the CEO of Replit, an online code editor and IDE platform. He is known for leading Replit and its unique approach to building a company in public, which includes a transparent communication strategy and a focus on community engagement.",
+    "known_for": "Leading Replit and its unique approach to building a company in public.",
+    "net_worth_usd": 400000000.0,
+    "net_worth_source": "https://entrepreneurloop.com/replit-founder-net-worth-amjad-masad-billionaire-400m-funding/",
+    "net_worth_updated_at": "2026-04-15T22:05:02.977189",
+    "voice_tone": "Candid and reflective.",
+    "voice_style": "Shares personal anecdotes and company experiences to illustrate points.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points.",
+    "voice_profile_updated_at": "2026-07-17 17:01:58",
+    "last_seen": "2026-07-17 17:01:58",
+    "last_episode_title": "Amjad Masad on Going Direct, Building Replit, and the Future of Software",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-17",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Investing in companies that prioritize public communication and authenticity can lead to stronger brand loyalty and trust, which are valuable assets in the long term.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-17 \u2022 Amjad Masad on Going Direct, Building Replit, and the Future of Software",
+    "last_proof_snippet": "Being canceled is a choice. You should choose to get canceled and retreat from the public eye, but I think if you're still out there, at some point, honestly, the haters kind of give up. To some people ask, hey, how should I think about exp",
+    "supporting_takeaway": "Authenticity in communication, especially on social media, is increasingly valued.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-17T12:02:19.435586",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Amjad Masad",
+      "fetched_at": "2026-07-17T17:02:19.435257+00:00",
+      "cliff_notes": "Amjad Masad is the CEO of Replit, a company that provides an online code editor and IDE. Before leading Replit to its current success, Masad spent years communicating a vision that many considered too ambitious or unrealistic. His experience in overcoming skepticism and building a community around Replit has shaped his beliefs about the importance of storytelling and transparency in business. Masad's approach to building Replit in the public eye has garnered attention, as he believes in the power of community and the need for CEOs to engage with their audience beyond traditional corporate communication channels.",
+      "derived": {
+        "current_role": "CEO of Replit"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Amjad Masad is the CEO of Replit, a company that provides an online code editor and IDE. Before leading Replit to its current success, Masad spent years communicating a vision that many considered too ambitious or unrealistic. His experience in overcoming skepticism and building a community around Replit has shaped his beliefs about the importance of storytelling and transparency in business.",
+        "Masad's approach to building Replit in the public eye has garnered attention, as he believes in the power of community and the need for CEOs to engage with their audience beyond traditional corporate communication channels."
+      ],
+      "sections": [
+        {
+          "heading": "Replit's Growth",
+          "body": "Amjad Masad has been instrumental in the growth of Replit, transforming it from a startup into a widely recognized platform for code editing and development."
+        },
+        {
+          "heading": "Public Company Building",
+          "body": "Masad is known for his approach to building Replit in public, which includes open communication and engaging with the community, a strategy that has contributed to the company's reputation and user base."
+        },
+        {
+          "heading": "CEO as Influencer",
+          "body": "Amjad Masad believes that while not every CEO needs to become an influencer, there are multiple paths to success, and storytelling can be a powerful tool for companies, especially in product-centric spaces."
+        }
+      ]
+    },
+    "net_worth": "$400.0M"
   },
   {
     "id": 259,
@@ -34372,7 +34527,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
     "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro. We came to me and he said, why don't we see whether we can figure out a way to",
@@ -34639,7 +34794,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-08 \u2022 Adam Neumann: This Is How You Build Iconic Companies",
     "last_proof_snippet": "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
@@ -34947,7 +35102,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -35192,7 +35347,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -37008,7 +37163,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -37074,7 +37229,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -37668,7 +37823,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -37915,7 +38070,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -37979,7 +38134,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -41473,70 +41628,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 180,
-    "name": "Amjad Masad",
-    "slug": "amjad-masad",
-    "bio": "Amjad Masad is the CEO of Replet, a company that uses AI to democratize coding and make it accessible for everyone. His vision is to transform the tech industry from a monopoly into a more democratic space.",
-    "known_for": "Building a billion-dollar company with a mission to democratize the tech industry and make coding accessible to all.",
-    "net_worth_usd": 400000000.0,
-    "net_worth_source": "https://entrepreneurloop.com/replit-founder-net-worth-amjad-masad-billionaire-400m-funding/",
-    "net_worth_updated_at": "2026-04-15T22:05:02.977189",
-    "voice_tone": "Confident and visionary",
-    "voice_style": "Passionate about the potential of AI to empower individuals",
-    "voice_delivery_notes": "Speaks with conviction and a clear vision for the future of technology",
-    "voice_profile_updated_at": "2026-04-16 03:04:45",
-    "last_seen": "2026-04-16 03:04:45",
-    "last_episode_title": "Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-15",
-    "mention_score": 1,
-    "mention_score_decayed": 0.12,
-    "last_main_idea": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-15 \u2022 Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
-    "last_proof_snippet": "The company's revenue grew from $2.5 million to $250 million in just over a year, demonstrating the potential of AI in software development.",
-    "supporting_takeaway": "The company's revenue grew from $2.5 million to $250 million in just over a year, demonstrating the potential of AI in software development.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-15T22:05:01.761088",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Amjad Masad",
-      "fetched_at": "2026-04-16T03:05:01.760585+00:00",
-      "cliff_notes": "Amjad Masad is the CEO and founder of Replet, a company that leverages AI to make coding accessible to everyone, regardless of their background or financial means. Growing up in Jordan without access to a computer, Masad was inspired to create a platform that could level the playing field in the tech industry. His company, Replet, has since reached a billion-dollar valuation, turning down offers to sell because Masad believes in the potential to build a trillion-dollar company that can reshape the tech landscape. Masad's vision is to turn the tech industry from a monopoly into a more democratic space, where coding and technology are accessible to all, reflecting the diversity of thought and problem-solving that can come from a broader range of individuals.",
-      "derived": {
-        "current_role": "CEO of Replet"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "Jordanian"
-      },
-      "lead_paragraphs": [
-        "Amjad Masad is the CEO and founder of Replet, a company that leverages AI to make coding accessible to everyone, regardless of their background or financial means. Growing up in Jordan without access to a computer, Masad was inspired to create a platform that could level the playing field in the tech industry. His company, Replet, has since reached a billion-dollar valuation, turning down offers to sell because Masad believes in the potential to build a trillion-dollar company that can reshape the tech landscape.",
-        "Masad's vision is to turn the tech industry from a monopoly into a more democratic space, where coding and technology are accessible to all, reflecting the diversity of thought and problem-solving that can come from a broader range of individuals."
-      ],
-      "sections": [
-        {
-          "heading": "Democratizing Coding",
-          "body": "Amjad Masad's Replet aims to make coding accessible to everyone by using AI to simplify the process, thus democratizing the tech industry."
-        },
-        {
-          "heading": "Billion-Dollar Valuation",
-          "body": "Replet, under Masad's leadership, reached a billion-dollar valuation, yet Masad turned down acquisition offers, envisioning a future where the company could be worth a trillion dollars."
-        },
-        {
-          "heading": "Tech Industry Transformation",
-          "body": "Masad's mission is to transform the tech industry from a monopoly into a more democratic space, where coding and technology are accessible to all, fostering a more diverse and inclusive tech ecosystem."
-        },
-        {
-          "heading": "Visionary Leadership",
-          "body": "Amjad Masad's leadership at Replet is characterized by a strong vision to change the tech industry, turning down significant offers to sell in order to pursue a larger goal of creating a more equitable technological landscape."
-        }
-      ]
-    },
-    "net_worth": "$400.0M"
-  },
-  {
     "id": 179,
     "name": "Sean Emory",
     "slug": "sean-emory",
@@ -43672,7 +43763,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -43732,7 +43823,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -43792,7 +43883,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",

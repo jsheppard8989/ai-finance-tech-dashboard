@@ -1,5 +1,23 @@
 [
   {
+    "id": 353,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Amjad Masad on Going Direct, Building Replit, and the Future of Software",
+    "episode_date": "2026-07-17",
+    "summary": "This episode of 'The a16z Show' explores the importance of building a company in public, the value of authenticity in communication, and the management of PR crises. The conversation underscores the significance of engaging with the public to gather feedback, build trust, and carry people along the company's journey. It also highlights the increasing importance of genuine self-expression on social media and the ability to handle public scrutiny as skills that can be developed. The episode provides insights into how CEOs and companies can effectively communicate their narrative and manage their public image.",
+    "key_takeaways": [
+      "Building a company in public allows for external feedback and builds trust.",
+      "Authenticity in communication, especially on social media, is increasingly valued.",
+      "CEOs don't need to be the sole public face of their companies; other team members can engage effectively.",
+      "Understanding the current conversation or 'meta' is crucial for effective communication.",
+      "The ability to communicate well and handle public scrutiny can be developed over time.",
+      "PR crises can be managed by owning mistakes and showing commitment to improvement.",
+      "Engagement in public disputes should be based on potential business impact and maintaining a principled stance."
+    ],
+    "investment_thesis": "Investing in companies that prioritize public communication and authenticity can lead to stronger brand loyalty and trust, which are valuable assets in the long term.",
+    "key_tickers": null
+  },
+  {
     "id": 352,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "\ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
@@ -126,21 +144,5 @@
       "GOOGL",
       "NVDA"
     ]
-  },
-  {
-    "id": 345,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
-    "episode_date": "2026-07-13",
-    "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss the rapid growth and revenue surge of a company that has developed an AI-native platform for global accounts, cards, and payments. The conversation covers the company's journey from its inception to reaching $600 million in revenue within 40-50 months. They also delve into the challenges of maintaining company culture amidst rapid growth, the competition for talent, and the strategic approach to partnerships with frontier AI models. The episode highlights the importance of building a global financial system from first principles, leveraging AI to create a seamless local market feel worldwide.",
-    "key_takeaways": [
-      "The company has experienced exponential growth, reaching $600 million in revenue within 40-50 months of launching its software.",
-      "The rapid growth has been accompanied by a quick expansion in employee headcount, reaching 600 people, emphasizing the importance of maintaining company culture.",
-      "The company's competitive advantage lies in its AI-native platform, which is designed to make global transactions feel local, differentiating it from competitors who bolt AI onto legacy infrastructure.",
-      "The company is focused on building a communication platform for AI, covering everything from audio generation to speech transcription and interaction.",
-      "Partnerships with frontier AI models are seen as a strategic move rather than a threat, as the company aims to provide an agnostic platform that supports various models."
-    ],
-    "investment_thesis": "Invest in companies that leverage AI-native platforms to disrupt traditional financial systems, offering a more seamless and localized global transaction experience.",
-    "key_tickers": null
   }
 ]
