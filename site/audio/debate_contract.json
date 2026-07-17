@@ -1,118 +1,115 @@
 {
-  "prompt": "Will any presidential candidate win outright in the first round of the Brazil election within the next 42 days?",
-  "editorial_note": "We've chosen this topic based on the high trading volume and relevance in the Polymarket contracts, with Brazil's presidential election scheduled on October 4, 2026. The upcoming elections are a focal point in global politics, and determining if any candidate will secure a majority in the first round is of significant interest to investors and political analysts alike.",
-  "expires_rule": "Resolves Friday 12:00 PM CST 2026-08-21",
-  "crux_theme": "Election outcomes",
+  "prompt": "Will the price of Bitcoin exceed $75,000 within the next 42 days?",
+  "editorial_note": "We've selected this question as it addresses the volatility and unpredictability of the cryptocurrency market, a topic of significant interest and relevance in the current investment landscape. With Bitcoin's price recently experiencing fluctuations, the question of whether it will reach $75,000 is a contentious one that is likely to generate spirited debate and offer insight into market sentiment.",
+  "expires_rule": "Resolves Friday 12:00 PM CST 2026-08-28",
+  "crux_theme": "Crypto Price Movement",
   "resolution_clarity": {
-    "source_of_truth": "Official election results announced by Brazil's Superior Electoral Tribunal",
+    "source_of_truth": "Cryptocurrency market data",
     "resolution_sources": [
-      "https://www.tse.jus.br/tomavoz/",
-      "https://agenciabrasil.ebc.in/",
-      "https://www1.folha.uol.com.br/"
+      "CoinMarketCap historical closing prices",
+      "CoinGecko historical closing prices",
+      "Yahoo Finance historical closing prices"
     ],
     "resolution_criteria": [
-      "A candidate wins outright in the first round if they secure more than 50% of the valid votes according to the official results."
+      "The market price of Bitcoin (BTC-USD) at the close of the market on the resolution date, based on the average of the closing prices reported by CoinMarketCap, CoinGecko, and Yahoo Finance."
     ]
   },
   "sides": {
     "a": "Affirmative (YES)",
     "b": "Negative (NO)"
   },
-  "resolves_iso": "2026-08-21",
-  "friday_iso": "2026-07-10",
-  "week_label": "Week of 2026-07-10",
-  "debater_a": "Paul Beckas",
-  "debater_b": "John Mata",
-  "generated_at": "2026-07-10T05:03:29.729149",
+  "resolves_iso": "2026-08-28",
+  "friday_iso": "2026-07-17",
+  "week_label": "Week of 2026-07-17",
+  "debater_a": "Evan Feinberg",
+  "debater_b": "Sergey Yuternoff",
+  "generated_at": "2026-07-17T05:03:24.405147",
   "bet_status": "open",
   "audio_href": "./audio/emp_ai_the_debate_11labs.mp3",
   "debater_a_snapshot": {
-    "name": "Paul Beckas",
-    "known_for": "His expertise in using AI to enhance design processes and his insights on the role of AI in the future of design.",
-    "bio": "Paul Beckas is a design leader with expertise in leveraging AI tools in the design process. He is known for his insights on the intersection of design and AI, focusing on how AI can enhance creativity and distinctiveness in design.",
-    "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-24",
-    "net_worth": "$10.0M",
+    "name": "Evan Feinberg",
+    "known_for": "Developing the Pearl model for high-resolution drug discovery and pioneering the use of diffusion models in protein structure prediction.",
+    "bio": "Evan Feinberg is the co-founder and CEO of Genesis Molecular AI, a company that specializes in leveraging artificial intelligence for drug discovery. He has been a key figure in the development of the Pearl model, which is used for high-resolution drug discovery. Feinberg's work is at the forefront of AI research in the pharmaceutical industry.",
+    "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-07-01",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Paul Beckas",
-      "fetched_at": "2026-06-24T17:06:58.205875+00:00",
-      "cliff_notes": "Paul Beckas is a design leader with a focus on the integration of artificial intelligence into the design process. His career has been marked by a deep exploration of how AI can augment creativity and distinctiveness in design. Beckas has been influential in discussing the implications of AI on design, particularly in how it can redefine the role of designers and the nature of design itself. His work is significant in the tech and design sectors, as it addresses the challenges and opportunities presented by AI in creative fields.",
+      "page_title": "Evan Feinberg",
+      "fetched_at": "2026-07-01T18:38:45.940291+00:00",
+      "cliff_notes": "Evan Feinberg is a prominent figure in the field of artificial intelligence, particularly in the application of AI to drug discovery. As the co-founder and CEO of Genesis Molecular AI, he has been instrumental in developing the Pearl model, which is used for high-resolution drug discovery. Feinberg's work has been pivotal in advancing the use of AI in pharmaceuticals, with a focus on generative adversarial networks and diffusion models. His insights have been influential in recognizing the potential of diffusion as a more useful primitive for protein structure prediction, a field where some of the most innovative diffusion research is currently happening. Feinberg's contributions to the intersection of AI and drug discovery have made him a significant player in the industry.",
       "derived": {
-        "current_role": "Design Leader"
+        "current_role": "Co-founder and CEO of Genesis Molecular AI"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Paul Beckas is a design leader with a focus on the integration of artificial intelligence into the design process. His career has been marked by a deep exploration of how AI can augment creativity and distinctiveness in design. Beckas has been influential in discussing the implications of AI on design, particularly in how it can redefine the role of designers and the nature of design itself.",
-        "His work is significant in the tech and design sectors, as it addresses the challenges and opportunities presented by AI in creative fields."
+        "Evan Feinberg is a prominent figure in the field of artificial intelligence, particularly in the application of AI to drug discovery. As the co-founder and CEO of Genesis Molecular AI, he has been instrumental in developing the Pearl model, which is used for high-resolution drug discovery. Feinberg's work has been pivotal in advancing the use of AI in pharmaceuticals, with a focus on generative adversarial networks and diffusion models.",
+        "His insights have been influential in recognizing the potential of diffusion as a more useful primitive for protein structure prediction, a field where some of the most innovative diffusion research is currently happening. Feinberg's contributions to the intersection of AI and drug discovery have made him a significant player in the industry."
       ],
       "sections": [
         {
-          "heading": "AI in Design",
-          "body": "Paul Beckas is recognized for his work on how AI can be used to enhance the design process, making it more efficient and innovative."
+          "heading": "AI in Drug Discovery",
+          "body": "Evan Feinberg has been a leader in the application of AI to drug discovery, particularly through the development of the Pearl model which enables high-resolution drug discovery."
         },
         {
-          "heading": "Distinctiveness in Design",
-          "body": "Beckas has explored the historical roots of design and how the advent of AI is changing the concept of distinctiveness and taste in design."
+          "heading": "Diffusion Models",
+          "body": "Feinberg recognized the limitations of generative adversarial networks in protein systems and shifted focus to diffusion models, which have proven more effective for protein structure prediction."
         },
         {
-          "heading": "AI and Creativity",
-          "body": "He discusses the role of AI in creativity, suggesting that while AI can generate designs, the understanding of design decisions remains a human domain."
-        },
-        {
-          "heading": "Future of Design",
-          "body": "Beckas posits that as AI becomes more prevalent, the value of instinctual design decisions will become even more critical in the face of AI-generated designs."
+          "heading": "Innovation in Pharmaceutical Industry",
+          "body": "His work at Genesis Molecular AI has positioned the company at the forefront of AI-driven drug discovery, contributing to the advancement of the pharmaceutical industry."
         }
       ]
     }
   },
   "debater_b_snapshot": {
-    "name": "John Mata",
-    "known_for": "His perspectives on the future of design and AI, and how they impact the way we create and experience interfaces.",
-    "bio": "John Mata is a design thought leader who focuses on the intersection of design and AI. He is known for his insights into agentic experiences and the evolution of design in the digital age.",
-    "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-24",
-    "net_worth": "$60.0M",
+    "name": "Sergey Yuternoff",
+    "known_for": "His work in advancing the Pearl model and its application in protein structure prediction, which is pivotal for drug discovery and molecular biology.",
+    "bio": "Sergey Yuternoff is a computational biologist and the Chief Science Officer at Genesis Molecular AI. He has contributed significantly to the development and application of the Pearl model, a generative model used in protein structure prediction. With a background in physics, Yuternoff has transitioned from software engineering to leading pre-training efforts in AI for molecular biology.",
+    "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-07-01",
+    "net_worth": "$600.0M",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "John Mata",
-      "fetched_at": "2026-06-24T17:07:06.672699+00:00",
-      "cliff_notes": "John Mata has established himself as a prominent voice in the field of design, with a particular emphasis on how artificial intelligence is reshaping the discipline. His work explores the implications of AI on design practices and the creation of user interfaces, websites, and applications. Mata's contributions to the discourse around design and AI have been influential, as he examines how the democratization of design tools through AI might affect the value and role of professional designers. His insights into the historical roots of design and its transformation in the era of abundant resources provide a unique perspective on the industry's future.",
+      "page_title": "Sergey Yuternoff",
+      "fetched_at": "2026-07-01T18:38:56.323308+00:00",
+      "cliff_notes": "Sergey Yuternoff began his career in physics but transitioned into software engineering post-graduation. His expertise in computational biology led him to contribute to the development of the Pearl model, a generative model instrumental in protein structure prediction. Yuternoff's work is significant in the field of AI for science, particularly in the area of molecular biology, where his leadership in pre-training efforts like Lama II and Lama III has been influential. As the Chief Science Officer at Genesis Molecular AI, he continues to push the boundaries of AI applications in molecular research.",
       "derived": {
-        "current_role": "Design Thought Leader"
+        "current_role": "Chief Science Officer at Genesis Molecular AI",
+        "former_positions": "Lama II and Lama III pre-training lead",
+        "education": "Physics"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "John Mata has established himself as a prominent voice in the field of design, with a particular emphasis on how artificial intelligence is reshaping the discipline. His work explores the implications of AI on design practices and the creation of user interfaces, websites, and applications. Mata's contributions to the discourse around design and AI have been influential, as he examines how the democratization of design tools through AI might affect the value and role of professional designers.",
-        "His insights into the historical roots of design and its transformation in the era of abundant resources provide a unique perspective on the industry's future."
+        "Sergey Yuternoff began his career in physics but transitioned into software engineering post-graduation. His expertise in computational biology led him to contribute to the development of the Pearl model, a generative model instrumental in protein structure prediction. Yuternoff's work is significant in the field of AI for science, particularly in the area of molecular biology, where his leadership in pre-training efforts like Lama II and Lama III has been influential.",
+        "As the Chief Science Officer at Genesis Molecular AI, he continues to push the boundaries of AI applications in molecular research."
       ],
       "sections": [
         {
-          "heading": "Design and AI",
-          "body": "John Mata discusses the impact of AI on design, suggesting that as AI makes it easier to create interfaces, the role of designers may evolve to focus more on instinct and taste rather than technical execution."
+          "heading": "Protein Structure Prediction",
+          "body": "Sergey Yuternoff has been instrumental in the advancement of the Pearl model, which is used for protein structure prediction. This work is crucial for understanding protein functions and has significant implications for drug discovery."
         },
         {
-          "heading": "Agentic Experiences",
-          "body": "Mata is known for his exploration of agentic experiences, which are interactions where users feel a sense of agency and control, and how AI can enhance or complicate these experiences."
+          "heading": "AI in Molecular Biology",
+          "body": "Yuturnoff's leadership in AI for molecular biology has been pivotal, particularly in the development and application of generative models like the Pearl model, which are now being used to predict protein structures with high accuracy."
         },
         {
-          "heading": "Evolution of Design",
-          "body": "He provides a historical context for design, noting its origins in scarcity and distinctiveness, and speculates on how the abundance of resources and AI might change the field's direction."
+          "heading": "Generative Adversarial Networks",
+          "body": "In the past, Yuternoff discussed the limitations of generative adversarial networks for proteins and protein-like systems, advocating for the use of diffusion as a more effective primitive for the field."
         }
       ]
     }
   },
-  "prompt_hash": "3246fdeae917b883"
+  "prompt_hash": "f77a13f070f88300"
 }

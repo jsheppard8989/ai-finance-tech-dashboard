@@ -1,6 +1,19 @@
 {
-  "rotation_index": 20,
+  "rotation_index": 21,
   "weeks": [
+    {
+      "friday_iso": "2026-07-10",
+      "week_label": "Week of 2026-07-10",
+      "prompt": "Will any presidential candidate win outright in the first round of the Brazil election within the next 42 days?",
+      "debater_a": "Paul Beckas",
+      "debater_b": "John Mata",
+      "expires_rule": "Resolves Friday 12:00 PM CST 2026-08-21",
+      "resolves_iso": "2026-08-21",
+      "resolution_status": "pending",
+      "resolution_notes": "",
+      "archived_at": "2026-07-17T05:03:24.405079",
+      "audio_href": "./audio/archive/debate_2026-07-10.mp3"
+    },
     {
       "friday_iso": "2026-07-03",
       "week_label": "Week of 2026-07-03",
