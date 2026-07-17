@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-16T13:40:20.284468",
-  "last_updated": "2026-07-16T13:40:20.284468",
-  "last_pipeline_run": "2026-07-16T13:40:20.284468",
+  "generated_at": "2026-07-16T22:02:28.783237",
+  "last_updated": "2026-07-16T22:02:28.783237",
+  "last_pipeline_run": "2026-07-16T22:02:28.783237",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -14,18 +14,16 @@
     "daily_scores": 143,
     "overton_terms_total": 109,
     "latest_insights_total": 339,
-    "today_mentions": {
-      "podcast": 1
-    },
+    "today_mentions": {},
     "podcasts_analyzed": 4
   },
   "step_results": {
-    "downloaded": 3,
-    "transcribed": 3,
-    "analyzed": 2,
-    "insight_created": 2,
-    "published": 2,
-    "total": 3
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
     {
@@ -84,42 +82,6 @@
         }
       },
       "status": "needs_analysis"
-    },
-    {
-      "id": "ae31a7c6-811f-11f1-8439-03ffcf38c8b6",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
-      "published": "2026-07-16",
-      "rss_guid": "ae31a7c6-811f-11f1-8439-03ffcf38c8b6",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
-    {
-      "id": "substack:post:207109360",
-      "podcast": "Latent Space: The AI Engineer Podcast",
-      "title": "\ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
-      "published": "2026-07-16",
-      "rss_guid": "substack:post:207109360",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
     }
   ],
   "available_from_rss": [

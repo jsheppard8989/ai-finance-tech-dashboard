@@ -7132,7 +7132,7 @@
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies developing self-driving labs for accelerated material innovation.",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 294,
