@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-17T13:36:50.321871",
-  chartsVersion: "2026-07-17T13:36:41.867254",
+  generatedAt: "2026-07-17T22:03:20.488443",
+  chartsVersion: "2026-07-17T22:03:08.462743",
   priceSnapshot: {
   "GOOGL": {
-    "price": 344.83,
-    "change_pct": -2.49,
+    "price": 346.77,
+    "change_pct": -1.95,
     "name": "GOOGL",
-    "updated_at": "2026-07-17T13:36:41.865954"
+    "updated_at": "2026-07-17T22:03:08.461467"
   },
   "NVDA": {
-    "price": 203.45,
-    "change_pct": 4.35,
+    "price": 202.81,
+    "change_pct": 4.02,
     "name": "NVDA",
-    "updated_at": "2026-07-17T13:36:41.865974"
+    "updated_at": "2026-07-17T22:03:08.461488"
   },
   "BTC": {
-    "price": 64013.57,
-    "change_pct": 1.47,
+    "price": 63918.99,
+    "change_pct": 0.58,
     "name": "BTC",
-    "updated_at": "2026-07-17T13:36:41.865984"
+    "updated_at": "2026-07-17T22:03:08.461498"
   },
   "MSFT": {
-    "price": 394.55,
-    "change_pct": 7.05,
+    "price": 393.82,
+    "change_pct": 6.85,
     "name": "MSFT",
-    "updated_at": "2026-07-17T13:36:41.865993"
+    "updated_at": "2026-07-17T22:03:08.461507"
   },
   "TSLA": {
-    "price": 381.47,
-    "change_pct": -7.37,
+    "price": 380.84,
+    "change_pct": -7.53,
     "name": "TSLA",
-    "updated_at": "2026-07-17T13:36:41.866001"
+    "updated_at": "2026-07-17T22:03:08.461517"
   },
   "AMZN": {
-    "price": 247.63,
-    "change_pct": 3.12,
+    "price": 247.23,
+    "change_pct": 2.95,
     "name": "AMZN",
-    "updated_at": "2026-07-17T13:36:41.866009"
+    "updated_at": "2026-07-17T22:03:08.461525"
   },
   "WTI": {
-    "price": 3.41,
-    "change_pct": 6.72,
+    "price": 3.49,
+    "change_pct": 9.06,
     "name": "WTI",
-    "updated_at": "2026-07-17T13:36:41.866018"
+    "updated_at": "2026-07-17T22:03:08.461534"
   },
   "META": {
-    "price": 647.82,
-    "change_pct": 15.15,
+    "price": 646.01,
+    "change_pct": 14.83,
     "name": "META",
-    "updated_at": "2026-07-17T13:36:41.866026"
+    "updated_at": "2026-07-17T22:03:08.461543"
   },
   "S&P 500": {
-    "price": 743.83,
-    "change_pct": 0.38,
+    "price": 743.29,
+    "change_pct": 0.31,
     "name": "S&P 500",
-    "updated_at": "2026-07-17T13:36:41.866034"
+    "updated_at": "2026-07-17T22:03:08.461551"
   },
   "AAPL": {
-    "price": 332.39,
-    "change_pct": 17.98,
+    "price": 333.74,
+    "change_pct": 18.46,
     "name": "AAPL",
-    "updated_at": "2026-07-17T13:36:41.866044"
+    "updated_at": "2026-07-17T22:03:08.461559"
   },
   "QQQ": {
-    "price": 697.51,
-    "change_pct": -3.67,
+    "price": 695.33,
+    "change_pct": -3.97,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-17T13:36:41.866054"
+    "updated_at": "2026-07-17T22:03:08.461568"
   },
   "BTC-USD": {
-    "price": 64013.57,
-    "change_pct": 1.47,
+    "price": 63918.99,
+    "change_pct": 0.58,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-17T13:36:41.866066"
+    "updated_at": "2026-07-17T22:03:08.461578"
   }
 },
   tickerScores: [
@@ -857,6 +857,25 @@ const dashboardData = {
       "podcast_episode_id": 353
     },
     {
+      "id": 369,
+      "title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-07-17",
+      "summary": "In this episode of Moonshots, Peter Diamandis discusses the latest advancements in AI with Ramine Hassani, co-founder and CEO of Liquid AI. They explore the potential of Inkling, a new model by Miramiradi, the former OpenAI CTO, which focuses on customization over leaderboard dominance. The conversation delves into liquid AI, small language models, and their significance in the market. Ramine shares insights on the mission to build efficient general-purpose AI at every scale, exploring beyond transformers and discussing the architectural design needed for such intelligence. The episode also touches on the importance of regulation in AI, with Demis Hassaba, CEO of DeepMine, advocating for a US-led Frontier AI standards body. Lastly, they discuss a breakthrough in longevity science by Rebel Pharmaceuticals, which demonstrated an engineered enzyme that can reverse the effects of aging by removing advanced glycation end products.",
+      "key_takeaway": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 354
+    },
+    {
       "id": 365,
       "title": "Replay 2025: David Sacks on AI, Crypto, and America's Technology Future",
       "source_type": "podcast",
@@ -970,7 +989,7 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-14",
       "archived_date": null,
@@ -7893,8 +7912,8 @@ const dashboardData = {
       "term": "ASI",
       "description": "An intellect that is much smarter than the best human brains in practically every field, including scientific creativity, general wisdom, and social skills.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-07-13",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-07-17",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "ASI represents a paradigm shift; investors should monitor advancements closely as it could lead to significant economic and societal changes.",
@@ -7903,8 +7922,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 344,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 354,
+      "last_mentioned_speaker": "Ramine Hassani"
     },
     {
       "id": 135,
@@ -7966,7 +7985,7 @@ const dashboardData = {
       "description": "Being genuine and true to oneself in public communications, particularly on social media.",
       "first_detected_date": "2026-06-19",
       "last_mentioned_date": "2026-07-17",
-      "mention_count": 3,
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Authenticity can help build a loyal following and personal brand, which can be beneficial for company valuation and reputation.",
@@ -7975,8 +7994,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 301,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 353,
-      "last_mentioned_speaker": "Amjad Masad"
+      "last_mentioned_episode_id": 354,
+      "last_mentioned_speaker": "Ramine Hassani"
     },
     {
       "id": 258,
@@ -8343,8 +8362,8 @@ const dashboardData = {
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-16",
-      "mention_count": 37,
+      "last_mentioned_date": "2026-07-17",
+      "mention_count": 38,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -8353,8 +8372,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 350,
-      "last_mentioned_speaker": "David Sachs"
+      "last_mentioned_episode_id": 354,
+      "last_mentioned_speaker": "Ramine Hassani"
     },
     {
       "id": 97,
@@ -8469,8 +8488,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-16",
-      "mention_count": 55,
+      "last_mentioned_date": "2026-07-17",
+      "mention_count": 56,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -8479,8 +8498,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 350,
-      "last_mentioned_speaker": "David Sachs"
+      "last_mentioned_episode_id": 354,
+      "last_mentioned_speaker": "Ramine Hassani"
     },
     {
       "id": 162,
@@ -9567,8 +9586,8 @@ const dashboardData = {
       "term": "AI Agents",
       "description": "AI-driven software entities that interact with enterprise systems, often without traditional user interfaces.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-07-13",
-      "mention_count": 48,
+      "last_mentioned_date": "2026-07-17",
+      "mention_count": 49,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AI agents are becoming primary users of enterprise software, requiring new approaches to data management and workflow automation.",
@@ -9577,8 +9596,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 344,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 354,
+      "last_mentioned_speaker": "Ramine Hassani"
     },
     {
       "id": 38,
@@ -9863,6 +9882,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 369,
+      "title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-07-17",
+      "summary": "In this episode of Moonshots, Peter Diamandis discusses the latest advancements in AI with Ramine Hassani, co-founder and CEO of Liquid AI. They explore the potential of Inkling, a new model by Miramiradi, the former OpenAI CTO, which focuses on customization over leaderboard dominance. The conversation delves into liquid AI, small language models, and their significance in the market. Ramine shares insights on the mission to build efficient general-purpose AI at every scale, exploring beyond transformers and discussing the architectural design needed for such intelligence. The episode also touches on the importance of regulation in AI, with Demis Hassaba, CEO of DeepMine, advocating for a US-led Frontier AI standards body. Lastly, they discuss a breakthrough in longevity science by Rebel Pharmaceuticals, which demonstrated an engineered enzyme that can reverse the effects of aging by removing advanced glycation end products.",
+      "key_takeaway": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 354,
+      "episode_release_date": "2026-07-17",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 365,
       "title": "Replay 2025: David Sacks on AI, Crypto, and America's Technology Future",
       "source_type": "podcast",
@@ -9965,29 +10004,6 @@ const dashboardData = {
       "guest_name": null,
       "key_tickers": [
         "INTC",
-        "NVDA"
-      ]
-    },
-    {
-      "id": 361,
-      "title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-07-14",
-      "summary": "The podcast discusses the current state of AI investment, asserting that it is not a bubble akin to the 2000 telecom bubble. The high demand for GPUs and the positive return on capital for major GPU companies are highlighted as evidence. Additionally, the show explores the competitive dynamics between tech giants like Google and Nvidia, the evolving market structure in AI, and the potential for consumer internet companies to shift towards chatbot interfaces.",
-      "key_takeaway": "Investment in AI is sustainable and not indicative of an impending market collapse, with a focus on competitive dynamics and the potential for instant distribution via APIs and cloud computing.",
-      "tickers_mentioned": "[\"GOOGL\", \"NVDA\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-14",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 346,
-      "episode_release_date": "2026-07-14",
-      "guest_name": "Is AI a Bubble?",
-      "key_tickers": [
-        "GOOGL",
         "NVDA"
       ]
     },
@@ -10143,8 +10159,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-16",
-      "mention_count": 55,
+      "last_mentioned_date": "2026-07-17",
+      "mention_count": 56,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -10153,16 +10169,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 350,
-      "last_mentioned_speaker": "David Sachs",
-      "overton_score": 53.74,
+      "last_mentioned_episode_id": 354,
+      "last_mentioned_speaker": "Ramine Hassani",
+      "overton_score": 56.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Replay 2025: David Sacks on AI, Crypto, and America's Technology Future",
-      "last_mentioned_episode_date": "2026-07-16"
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
+      "last_mentioned_episode_date": "2026-07-17"
     },
     {
       "id": 10,
@@ -10269,6 +10285,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-07-15"
     },
     {
+      "id": 256,
+      "term": "Authenticity",
+      "description": "Being genuine and true to oneself in public communications, particularly on social media.",
+      "first_detected_date": "2026-06-19",
+      "last_mentioned_date": "2026-07-17",
+      "mention_count": 4,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Authenticity can help build a loyal following and personal brand, which can be beneficial for company valuation and reputation.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 301,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 354,
+      "last_mentioned_speaker": "Ramine Hassani",
+      "overton_score": 4.0,
+      "resonance_pct": 100,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
+      "first_detected_episode_date": "2026-06-19",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
+      "last_mentioned_episode_date": "2026-07-17"
+    },
+    {
       "id": 255,
       "term": "AI Boom",
       "description": "A global phenomenon characterized by significant investments in artificial intelligence and data centers, drawing parallels to the pre-1873 financial boom.",
@@ -10293,32 +10335,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Replay 2025: David Sacks on AI, Crypto, and America's Technology Future",
       "last_mentioned_episode_date": "2026-07-16"
-    },
-    {
-      "id": 256,
-      "term": "Authenticity",
-      "description": "Being genuine and true to oneself in public communications, particularly on social media.",
-      "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-07-17",
-      "mention_count": 3,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Authenticity can help build a loyal following and personal brand, which can be beneficial for company valuation and reputation.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 301,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": 353,
-      "last_mentioned_speaker": "Amjad Masad",
-      "overton_score": 3.0,
-      "resonance_pct": 75,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
-      "first_detected_episode_date": "2026-06-19",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Amjad Masad on Going Direct, Building Replit, and the Future of Software",
-      "last_mentioned_episode_date": "2026-07-17"
     },
     {
       "id": 258,
@@ -32330,9 +32346,81 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-07-17",
     "key_tickers": []
+  },
+  "369": {
+    "id": 359,
+    "insight_id": 369,
+    "podcast_episode_id": 354,
+    "overview": "The competitive dynamic in AI is shifting towards customization and efficiency, with the potential for small language models to disrupt the market. The push for regulation, as advocated by industry leaders, suggests a recognition of the need to balance innovation with safety and ethical considerations. The success of this dynamic will be arbitrated by the market's adoption of customized AI solutions and the speed at which effective regulation can be implemented.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the partnerships formed by AI companies like Liquid AI as a proxy for the market's demand for customized solutions.",
+      "The development of a US-led Frontier AI standards body could be a catalyst for industry consolidation and standardization, impacting the competitive landscape.",
+      "The ability of AI companies to operate across different verticals with specialized models will be a key differentiator, suggesting a focus on companies with a proven track record in diverse applications.",
+      "Regulation could act as both a barrier to entry for new players and a competitive advantage for those who can navigate the regulatory landscape effectively."
+    ],
+    "investment_thesis": "The investment thesis is that companies focusing on customizable and efficient AI solutions will outperform as the market demands tailored AI applications. The timeframe for this thesis is within the next 3-5 years, with the observable development being the successful implementation of AI standards by a US-led body and the market's adoption of these companies' solutions.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI and machine learning makes it a key player in the customization of AI. Its ability to integrate AI into its ecosystem could provide a competitive advantage.",
+        "positioning": "Positioned long-term as Apple's vertical integration and focus on user experience align with the trend towards customization in AI.",
+        "risk": "Key risks include regulatory hurdles that could slow down AI development and the potential for Apple to misjudge the market demand for specific AI applications."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that large-scale AI models will continue to dominate due to their perceived superiority in performance metrics.",
+      "Concerns that the push for regulation could stifle innovation and slow down the development of AI technologies.",
+      "The possibility that the market for customized AI solutions is niche and not as widespread as anticipated."
+    ],
+    "catalysts": [
+      "The establishment of a US-led Frontier AI standards body and its impact on the industry.",
+      "Liquid AI securing major partnerships or contracts that validate the market demand for small language models.",
+      "Regulatory changes or high-profile incidents that highlight the need for AI safety and ethics."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-17T22:02:14.266578",
+    "updated_at": "2026-07-18 03:02:14",
+    "episode_evidence": "In the podcast, Ramine Hassani, co-founder and CEO of Liquid AI, emphasized the importance of customization in AI models, stating, 'customization over leaderboard dominance is what's going to win her the day.' This highlights a shift in the AI industry from a focus on benchmark scores to meeting specific market needs. Hassani also discussed the mission to build 'efficient general-purpose AI at every scale,' which involves exploring beyond transformers and determining the 'architectural design that brings the same level of intelligence than a frontier model into, let's say, on a CPU.' This suggests a move towards more accessible and versatile AI solutions. Furthermore, Demis Hassaba, CEO of DeepMine, advocated for a US-led Frontier AI standards body, modeled on Finra, to test Frontier models before release, indicating a growing industry consensus on the need for regulation to ensure safety and ethical use of AI.",
+    "falsification_tracks": [
+      "If Liquid AI fails to secure significant partnerships or customers for their small language models, it would suggest that the market demand for customization is not as strong as suggested.",
+      "Should the US government not move forward with the establishment of a Frontier AI standards body within the next year, it would indicate a slower adoption of regulation in AI, potentially delaying industry standardization.",
+      "If there is a significant security breach or misuse of AI technology that causes harm, it could reduce the conviction in the need for AI regulation and the ability of the industry to self-regulate effectively."
+    ],
+    "insight_title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-07-17",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 520,
+    "term": "Liquid AI",
+    "definition": "A type of AI that focuses on efficient, general-purpose intelligence at various scales, often using small language models.",
+    "investment_implications": "Investors should consider companies developing Liquid AI for their potential to disrupt traditional AI markets and offer more adaptable solutions.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-18 03:01:01",
+    "priority_score": 80
+  },
+  {
+    "id": 521,
+    "term": "Advanced Glycation End Products (AGES)",
+    "definition": "Sugar molecules that crosslink and damage proteins in the body over time, contributing to the aging process.",
+    "investment_implications": "Investments in biotech companies working on reversing AGES could lead to significant advancements in longevity and anti-aging treatments.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-18 03:01:01",
+    "priority_score": 80
+  },
   {
     "id": 519,
     "term": "Building in Public",
@@ -32356,35 +32444,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-16 18:37:27",
     "priority_score": 80
-  },
-  {
-    "id": 518,
-    "term": "Diversifying Strategies",
-    "definition": "Investment approaches that seek to spread risk across various markets or asset classes to reduce potential losses.",
-    "investment_implications": "Diversifying strategies can help in managing risk and enhancing returns by not relying on a single market or trend.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-16 18:37:27",
-    "priority_score": 80
-  },
-  {
-    "id": 516,
-    "term": "Permissionless Innovation",
-    "definition": "The ability to innovate and introduce new technologies without seeking permission from a centralized authority.",
-    "investment_implications": "Permissionless innovation is essential for driving technological advancement and avoiding regulatory stagnation.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-16 17:04:16",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 33054,
+    "id": 33152,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -32396,7 +32460,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33055,
+    "id": 33153,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -32408,7 +32472,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33056,
+    "id": 33154,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -32420,7 +32484,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33057,
+    "id": 33155,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -32432,7 +32496,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33058,
+    "id": 33156,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -32444,7 +32508,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33059,
+    "id": 33157,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -32456,7 +32520,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33060,
+    "id": 33158,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -32468,7 +32532,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33061,
+    "id": 33159,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -32480,7 +32544,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33062,
+    "id": 33160,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -32492,7 +32556,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33063,
+    "id": 33161,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -32504,7 +32568,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33064,
+    "id": 33162,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -32516,7 +32580,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33065,
+    "id": 33163,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -32528,7 +32592,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33066,
+    "id": 33164,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -32540,7 +32604,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33067,
+    "id": 33165,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -32552,7 +32616,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33068,
+    "id": 33166,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -32564,7 +32628,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33069,
+    "id": 33167,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -32576,7 +32640,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33070,
+    "id": 33168,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -32588,7 +32652,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33071,
+    "id": 33169,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -32600,7 +32664,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33072,
+    "id": 33170,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -32612,7 +32676,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33073,
+    "id": 33171,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -32643,7 +32707,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 6,
-    "mention_score_decayed": 1.4,
+    "mention_score_decayed": 1.37,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -32767,7 +32831,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 3,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
     "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
@@ -33137,7 +33201,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -33209,7 +33273,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-02",
     "mention_score": 2,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
     "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
@@ -33870,7 +33934,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -33934,7 +33998,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -33994,7 +34058,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
@@ -34069,6 +34133,70 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 342,
+    "name": "Ramine Hassani",
+    "slug": "ramine-hassani",
+    "bio": "Ramine Hassani is the co-founder and CEO of Liquid AI, a company that specializes in developing efficient general-purpose AI at every scale, including small language models. His work is focused on exploring the computational graphs of intelligence beyond the transformer model and creating architectural designs that can replicate the intelligence of frontier models on a CPU.",
+    "known_for": "Developing small language models that can replicate the intelligence of larger models on a CPU.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Passionate and knowledgeable about AI advancements.",
+    "voice_style": "Technical and forward-thinking in discussing AI's future.",
+    "voice_delivery_notes": "Speaks with a mix of excitement and caution regarding AI's rapid development.",
+    "voice_profile_updated_at": "2026-07-18 03:01:01",
+    "last_seen": "2026-07-18 03:01:01",
+    "last_episode_title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-07-17",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-17 \u2022 Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
+    "last_proof_snippet": "Miramoradi, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day. She's built exactly the thing hitting the market that exactly what everybody",
+    "supporting_takeaway": "Liquid AI, led by Ramine Hassani, is pioneering small language models, which are becoming increasingly significant in the AI market.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-17T22:01:49.520399",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ramine Hassani",
+      "fetched_at": "2026-07-18T03:01:49.519882+00:00",
+      "cliff_notes": "Ramine Hassani is a prominent figure in the field of artificial intelligence, particularly known for his work in developing small language models that can replicate the intelligence of larger models on a CPU. As the co-founder and CEO of Liquid AI, Hassani has been instrumental in pushing the boundaries of AI efficiency and accessibility. His mission has always been to build efficient general-purpose AI at every scale, exploring the computational graphs of intelligence beyond the transformer model. This work is crucial as it allows for the deployment of powerful AI capabilities on a wider range of devices, making advanced AI technology more accessible and practical for various applications. Hassani's contributions to the field have positioned him as a leader in the development of efficient AI solutions that can meet the growing demands of the market.",
+      "derived": {
+        "current_role": "Co-founder and CEO of Liquid AI"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ramine Hassani is a prominent figure in the field of artificial intelligence, particularly known for his work in developing small language models that can replicate the intelligence of larger models on a CPU. As the co-founder and CEO of Liquid AI, Hassani has been instrumental in pushing the boundaries of AI efficiency and accessibility.",
+        "His mission has always been to build efficient general-purpose AI at every scale, exploring the computational graphs of intelligence beyond the transformer model. This work is crucial as it allows for the deployment of powerful AI capabilities on a wider range of devices, making advanced AI technology more accessible and practical for various applications.",
+        "Hassani's contributions to the field have positioned him as a leader in the development of efficient AI solutions that can meet the growing demands of the market."
+      ],
+      "sections": [
+        {
+          "heading": "Efficient AI",
+          "body": "Ramine Hassani is focused on creating AI solutions that are efficient and can be deployed on a wide range of devices, from small language models to more complex systems."
+        },
+        {
+          "heading": "General-Purpose AI",
+          "body": "Hassani's work at Liquid AI aims to develop general-purpose AI that can be applied across various industries and use cases, making AI technology more versatile and accessible."
+        },
+        {
+          "heading": "Small Language Models",
+          "body": "A key area of Hassani's work is the development of small language models that can replicate the intelligence of larger models on a CPU, which is crucial for making AI technology more accessible and practical."
+        },
+        {
+          "heading": "Computational Graphs of Intelligence",
+          "body": "Hassani explores the computational graphs of intelligence beyond the transformer model, seeking to understand and design architectural frameworks that can bring advanced AI capabilities to a broader range of devices."
+        }
+      ]
+    }
+  },
+  {
     "id": 339,
     "name": "Andy Beam",
     "slug": "andy-beam",
@@ -34086,7 +34214,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-16 \u2022 \ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
     "last_proof_snippet": "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
@@ -34146,7 +34274,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-16 \u2022 \ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
     "last_proof_snippet": "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
@@ -34210,7 +34338,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-16 \u2022 Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
     "last_proof_snippet": "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
@@ -34270,7 +34398,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-16 \u2022 Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
     "last_proof_snippet": "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
@@ -35042,7 +35170,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in multi-family and senior housing to capitalize on demographic shifts, and focus on industrial properties to benefit from e-commerce growth.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-04 \u2022 The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. Today we're going to be talking all things real estate. I'm joined by Jo",
@@ -35165,7 +35293,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -35224,7 +35352,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -35474,7 +35602,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in companies at the forefront of AI and satellite data integration for real-world applications, while monitoring global AI competition and regulatory changes.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-26 \u2022 The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
     "last_proof_snippet": "Today, plan is a $10 billion company. You've coined the term large earth models. What does that mean? It, like, Google index the internet to make it searchable, we're indexing the earth to make it searchable. It will finally enable us to be",
@@ -36286,7 +36414,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in U.S. industrial champions with strong order backlogs and companies positioned to benefit from the electrification and modernization of the U.S. grid.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-18 \u2022 The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
     "last_proof_snippet": "The U.S. manufacturing has essentially been in a recession for three straight years and we have only just emerged now. If I had a CMMI survey, just reached about 50 in the last three months. And that's after three consecutive years of sub-5",
@@ -36346,7 +36474,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in companies that integrate AI with experimental data for material discovery to gain a competitive edge in industries like aerospace and semiconductors.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-17 \u2022 \ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
     "last_proof_snippet": "This is the difference between AI for bio and AI for materials. If you look at bio or maybe small molecules is a more broad category, you look at selfies and smile strings, where I which has been a big way to have those materials, those mol",
@@ -36405,7 +36533,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in companies that can integrate AI into their operations and leverage Microsoft's ecosystem for competitive advantage, focusing on data management capabilities and adaptability to new pricing models.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
     "last_proof_snippet": "Please welcome Swicks, Saragawa, Alad Gill and Chairman and Chief Executive Officer of Microsoft, Sartina Della. I'm so excited to be here. Welcome to a crossover episode of NoPriors and Lanesvists with Sartina Della. Congratulations on an",
@@ -36714,7 +36842,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in sectors at the forefront of technological disruption, with a focus on cryptocurrency, AI, and biotech innovations that promise significant market transformation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-11 \u2022 Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
     "last_proof_snippet": "City Bank projects a Bitcoin price reaching as much as 189,000 by the end of 2026. Bitcoin is the new digital gold. I think it's going to be a key part of our economy going forward into the future. I remember it was supposed to be counter-s",
@@ -36775,7 +36903,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "The market may be entering a new inflation shock regime, leading to a rotation from financial assets to hard assets, with the healthcare sector presenting an under-owned opportunity.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-11 \u2022 MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -36975,7 +37103,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-10 \u2022 America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. There's a very, very large player in global finance that almost no one knows about. The development finance corporation, it just had its reautho",
@@ -37098,7 +37226,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -37352,7 +37480,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investors should focus on undervalued companies in Asia, particularly in South Korea and Southeast Asia, due to favorable valuations and growth prospects.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-06 \u2022 The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone | Michael Fritzell | Asian Century Stocks",
     "last_proof_snippet": "South Korea, I do think it is a bubble, because the estimates for profits, for Eski Heinigs and Samsung electronics, we're now talking 200 billion US dollars in that profit estimates for 2028. And that will make them the most profitable com",
@@ -37698,7 +37826,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-03 \u2022 Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
     "last_proof_snippet": "One of the most provocative and interesting investors in the country. A legendary activist investor. Pershing square CEO and founder Bill Acling. Taking a short position and going public with it is a pretty serious business. Interestingly,",
@@ -37763,7 +37891,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-02 \u2022 OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
     "last_proof_snippet": "Open AI's CFO, Sarah Fryer. We've got to get right to it. You have just completed what I would find as the most successful fund-raising rail in history. We're going to raise actually north of $120 billion. We think AI is the biggest era tha",
@@ -37948,7 +38076,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Invest in companies developing prediction market platforms, focusing on those with strong legal compliance strategies and potential for cultural acceptance.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-26 \u2022 Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
     "last_proof_snippet": "Well, so, start at the beginning. The basic vision is that speculative markets are shown to be a unmatched mechanism for aggregating information and telling us about stuff. And initially, most people who come to this area think about, let's",
@@ -38005,7 +38133,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -38628,7 +38756,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Invest in AI technologies that leverage advancements in MCTS and reduced compute requirements to create scalable and efficient solutions in various industries.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-15 \u2022 Eric Jang \u2013 Building AlphaGo from scratch",
     "last_proof_snippet": "Today I'm here with Eric Jeng, who was most recently Vice President of AI at one ex-technologies, before that senior research scientist at what is now Google DeepMind Robotics, and you've been on sabbatical for the last few months. One of t",
@@ -38692,7 +38820,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-15 \u2022 \u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
     "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. I'm joined by Andrew Perry, veteran macro investors. He has worked at the top macro hedge funds, all the big banks, Andrew, welcome to monetary",
@@ -39381,7 +39509,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-07 \u2022 MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -39818,7 +39946,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-04 \u2022 Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
     "last_proof_snippet": "Today I was speaking to one of the best and most data-driven analysts around, Warren Pious of 314 research. If you have been seeing the ball clearer than him, last time I spoke to him, Warren's calling for S&P to 7,000 by 2026, which obviou",
@@ -39882,7 +40010,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-04 \u2022 Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
     "last_proof_snippet": "AI is going to be more important, not less important, and so the proliferation of a Western AI stack to be a top priority for anyone who cares about freedom. The rules around AI are changing fast. There's a lot of regulation abroad around d",
@@ -40202,7 +40330,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-30 \u2022 Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
     "last_proof_snippet": "AI is creating new opportunities to rethink how enterprise systems work, potentially leading to a platform shift.",
@@ -43012,7 +43140,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-01 \u2022 What Happens When a Public Company Goes All In on AI",
     "last_proof_snippet": "AI agents have significantly increased productivity, with one or two engineers on the tools being able to achieve 10-100x more output than before.",

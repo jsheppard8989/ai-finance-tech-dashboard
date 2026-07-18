@@ -24,6 +24,25 @@
       "podcast_episode_id": 353
     },
     {
+      "id": 369,
+      "title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-07-17",
+      "summary": "In this episode of Moonshots, Peter Diamandis discusses the latest advancements in AI with Ramine Hassani, co-founder and CEO of Liquid AI. They explore the potential of Inkling, a new model by Miramiradi, the former OpenAI CTO, which focuses on customization over leaderboard dominance. The conversation delves into liquid AI, small language models, and their significance in the market. Ramine shares insights on the mission to build efficient general-purpose AI at every scale, exploring beyond transformers and discussing the architectural design needed for such intelligence. The episode also touches on the importance of regulation in AI, with Demis Hassaba, CEO of DeepMine, advocating for a US-led Frontier AI standards body. Lastly, they discuss a breakthrough in longevity science by Rebel Pharmaceuticals, which demonstrated an engineered enzyme that can reverse the effects of aging by removing advanced glycation end products.",
+      "key_takeaway": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 354
+    },
+    {
       "id": 365,
       "title": "Replay 2025: David Sacks on AI, Crypto, and America's Technology Future",
       "source_type": "podcast",
@@ -137,7 +156,7 @@
         "NVDA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-14",
       "archived_date": null,
@@ -7060,8 +7079,8 @@
       "term": "ASI",
       "description": "An intellect that is much smarter than the best human brains in practically every field, including scientific creativity, general wisdom, and social skills.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-07-13",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-07-17",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "ASI represents a paradigm shift; investors should monitor advancements closely as it could lead to significant economic and societal changes.",
@@ -7070,8 +7089,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 344,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 354,
+      "last_mentioned_speaker": "Ramine Hassani"
     },
     {
       "id": 135,
@@ -7133,7 +7152,7 @@
       "description": "Being genuine and true to oneself in public communications, particularly on social media.",
       "first_detected_date": "2026-06-19",
       "last_mentioned_date": "2026-07-17",
-      "mention_count": 3,
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Authenticity can help build a loyal following and personal brand, which can be beneficial for company valuation and reputation.",
@@ -7142,8 +7161,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 301,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 353,
-      "last_mentioned_speaker": "Amjad Masad"
+      "last_mentioned_episode_id": 354,
+      "last_mentioned_speaker": "Ramine Hassani"
     },
     {
       "id": 258,
@@ -7510,8 +7529,8 @@
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-16",
-      "mention_count": 37,
+      "last_mentioned_date": "2026-07-17",
+      "mention_count": 38,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -7520,8 +7539,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 350,
-      "last_mentioned_speaker": "David Sachs"
+      "last_mentioned_episode_id": 354,
+      "last_mentioned_speaker": "Ramine Hassani"
     },
     {
       "id": 97,
@@ -7636,8 +7655,8 @@
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-16",
-      "mention_count": 55,
+      "last_mentioned_date": "2026-07-17",
+      "mention_count": 56,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -7646,8 +7665,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 350,
-      "last_mentioned_speaker": "David Sachs"
+      "last_mentioned_episode_id": 354,
+      "last_mentioned_speaker": "Ramine Hassani"
     },
     {
       "id": 162,
@@ -8734,8 +8753,8 @@
       "term": "AI Agents",
       "description": "AI-driven software entities that interact with enterprise systems, often without traditional user interfaces.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-07-13",
-      "mention_count": 48,
+      "last_mentioned_date": "2026-07-17",
+      "mention_count": 49,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AI agents are becoming primary users of enterprise software, requiring new approaches to data management and workflow automation.",
@@ -8744,8 +8763,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 344,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 354,
+      "last_mentioned_speaker": "Ramine Hassani"
     },
     {
       "id": 38,
