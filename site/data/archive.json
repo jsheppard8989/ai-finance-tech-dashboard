@@ -1,6 +1,27 @@
 {
   "insights": [
     {
+      "id": 370,
+      "title": "Can the AI Industry Regulate Itself? Stripe Wants PayPal, China Catches Up, NY Bans Datacenters",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-18",
+      "summary": "In this episode of the All In Podcast, the hosts discuss the proposal by DeepMind's Demis Hassabis for a US-led international AI standards body, modeled after Finra. They also touch on the importance of self-regulation in the AI industry and the potential risks of data leaks in AI models. The conversation covers the groundbreaking use of AI in health and science, particularly in protein synthesis and testing for reversing aging. The hosts emphasize the profound implications of AI for human health and the potential for novel therapies.",
+      "key_takeaway": "Investing in AI companies that prioritize self-regulation and data security could provide an edge in a rapidly evolving industry, while the potential for AI in healthcare offers significant growth opportunities.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT",
+        "AMZN"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 355
+    },
+    {
       "id": 368,
       "title": "Amjad Masad on Going Direct, Building Replit, and the Future of Software",
       "source_type": "podcast",
@@ -176,7 +197,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-14",
       "archived_date": null,
@@ -7133,8 +7154,8 @@
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-07-15",
-      "mention_count": 8,
+      "last_mentioned_date": "2026-07-18",
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
@@ -7143,8 +7164,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 348,
-      "last_mentioned_speaker": "Dylan Patel"
+      "last_mentioned_episode_id": 355,
+      "last_mentioned_speaker": "Jason Calacanis, Chamath Palihapitiya (hosts)"
     },
     {
       "id": 256,
@@ -8681,8 +8702,8 @@
       "term": "AI Race",
       "description": "The global competition between nations to lead in AI development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-07-16",
-      "mention_count": 19,
+      "last_mentioned_date": "2026-07-18",
+      "mention_count": 20,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consider investing in companies and countries that are making significant strides in AI technology.",
@@ -8691,8 +8712,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 350,
-      "last_mentioned_speaker": "David Sachs"
+      "last_mentioned_episode_id": 355,
+      "last_mentioned_speaker": "Jason Calacanis, Chamath Palihapitiya (hosts)"
     },
     {
       "id": 12,

@@ -1,5 +1,21 @@
 [
   {
+    "id": 355,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Can the AI Industry Regulate Itself? Stripe Wants PayPal, China Catches Up, NY Bans Datacenters",
+    "episode_date": "2026-07-18",
+    "summary": "In this episode of the All In Podcast, the hosts discuss the proposal by DeepMind's Demis Hassabis for a US-led international AI standards body, modeled after Finra. They also touch on the importance of self-regulation in the AI industry and the potential risks of data leaks in AI models. The conversation covers the groundbreaking use of AI in health and science, particularly in protein synthesis and testing for reversing aging. The hosts emphasize the profound implications of AI for human health and the potential for novel therapies.",
+    "key_takeaways": [
+      "Demis Hassabis proposed an AI regulation model similar to Finra, which would be industry-funded and overseen by independent technological experts.",
+      "The AI regulation proposal calls for models to be assessed on risks to cybersecurity, national security, and other high-risk domains.",
+      "Self-regulation in the AI industry is seen as crucial to prevent government intervention and ensure the industry's growth.",
+      "Data privacy and security are highlighted as fragile aspects of AI, with potential non-obvious data leak vectors.",
+      "AI has profound implications for health and science, with the potential to create novel therapies and reverse aging."
+    ],
+    "investment_thesis": "Investing in AI companies that prioritize self-regulation and data security could provide an edge in a rapidly evolving industry, while the potential for AI in healthcare offers significant growth opportunities.",
+    "key_tickers": null
+  },
+  {
     "id": 354,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
@@ -119,26 +135,6 @@
     "key_tickers": [
       "NVIDIA",
       "AMD"
-    ]
-  },
-  {
-    "id": 347,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
-    "episode_date": "2026-07-14",
-    "summary": "In this episode of Monetary Matters, host Jack Farley interviews Ben Kulandian, an expert investor and analyst in the semiconductor industry. They discuss the current state of AI and its potential to revolutionize various sectors, including material science and biotech. Kulandian argues against the notion that the current AI boom is a repeat of the dot-com bubble, emphasizing the unique capabilities of AI and semiconductors in creating intelligence and accelerating scientific discoveries. The conversation also touches on investment opportunities within the AI supply chain, with a focus on companies like Nvidia and Apple.",
-    "key_takeaways": [
-      "Semiconductors are not a commodity and have a discerning difference from companies like Cisco during the dot-com bubble.",
-      "AI's next inflection will be at the intersection with bigger sciences, such as material science and biotech.",
-      "AI can significantly speed up scientific discoveries, compressing years of work into a fraction of the time.",
-      "The adoption of AI is expected to grow from 15% to 70-80% of the population.",
-      "Investment in AI and semiconductors should focus on companies that can leverage intelligence to perform tasks previously requiring massive human capital.",
-      "Memory pooling and CXL are emerging technologies that could impact the semiconductor market."
-    ],
-    "investment_thesis": "Invest in companies at the forefront of AI and semiconductors that can leverage intelligence to perform high-cost, time-consuming tasks more efficiently and at scale.",
-    "key_tickers": [
-      "NVDA",
-      "AAPL"
     ]
   }
 ]

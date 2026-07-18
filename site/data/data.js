@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-17T23:39:30.621730",
-  chartsVersion: "2026-07-17T23:39:23.070780",
+  generatedAt: "2026-07-18T05:03:12.112031",
+  chartsVersion: "2026-07-18T05:03:01.917655",
   priceSnapshot: {
   "GOOGL": {
     "price": 346.77,
     "change_pct": -1.95,
     "name": "GOOGL",
-    "updated_at": "2026-07-17T23:39:23.070297"
+    "updated_at": "2026-07-18T05:03:01.917113"
   },
   "NVDA": {
     "price": 202.81,
     "change_pct": 4.02,
     "name": "NVDA",
-    "updated_at": "2026-07-17T23:39:23.070308"
+    "updated_at": "2026-07-18T05:03:01.917124"
   },
   "BTC": {
-    "price": 63905.29,
-    "change_pct": 0.56,
+    "price": 63940.9,
+    "change_pct": 0.62,
     "name": "BTC",
-    "updated_at": "2026-07-17T23:39:23.070312"
+    "updated_at": "2026-07-18T05:03:01.917129"
   },
   "MSFT": {
     "price": 393.82,
     "change_pct": 6.85,
     "name": "MSFT",
-    "updated_at": "2026-07-17T23:39:23.070315"
+    "updated_at": "2026-07-18T05:03:01.917132"
   },
   "TSLA": {
     "price": 380.84,
     "change_pct": -7.53,
     "name": "TSLA",
-    "updated_at": "2026-07-17T23:39:23.070319"
+    "updated_at": "2026-07-18T05:03:01.917135"
   },
   "AMZN": {
     "price": 247.23,
     "change_pct": 2.95,
     "name": "AMZN",
-    "updated_at": "2026-07-17T23:39:23.070322"
+    "updated_at": "2026-07-18T05:03:01.917138"
   },
   "WTI": {
     "price": 3.49,
     "change_pct": 9.06,
     "name": "WTI",
-    "updated_at": "2026-07-17T23:39:23.070326"
+    "updated_at": "2026-07-18T05:03:01.917142"
   },
   "META": {
     "price": 646.01,
     "change_pct": 14.83,
     "name": "META",
-    "updated_at": "2026-07-17T23:39:23.070329"
+    "updated_at": "2026-07-18T05:03:01.917145"
   },
   "S&P 500": {
     "price": 743.29,
     "change_pct": 0.31,
     "name": "S&P 500",
-    "updated_at": "2026-07-17T23:39:23.070333"
+    "updated_at": "2026-07-18T05:03:01.917148"
   },
   "AAPL": {
     "price": 333.74,
     "change_pct": 18.46,
     "name": "AAPL",
-    "updated_at": "2026-07-17T23:39:23.070336"
+    "updated_at": "2026-07-18T05:03:01.917152"
   },
   "QQQ": {
     "price": 695.33,
     "change_pct": -3.97,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-17T23:39:23.070340"
+    "updated_at": "2026-07-18T05:03:01.917155"
   },
   "BTC-USD": {
-    "price": 63905.29,
-    "change_pct": 0.56,
+    "price": 63940.9,
+    "change_pct": 0.62,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-17T23:39:23.070343"
+    "updated_at": "2026-07-18T05:03:01.917159"
   }
 },
   tickerScores: [
@@ -834,6 +834,27 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 370,
+      "title": "Can the AI Industry Regulate Itself? Stripe Wants PayPal, China Catches Up, NY Bans Datacenters",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-18",
+      "summary": "In this episode of the All In Podcast, the hosts discuss the proposal by DeepMind's Demis Hassabis for a US-led international AI standards body, modeled after Finra. They also touch on the importance of self-regulation in the AI industry and the potential risks of data leaks in AI models. The conversation covers the groundbreaking use of AI in health and science, particularly in protein synthesis and testing for reversing aging. The hosts emphasize the profound implications of AI for human health and the potential for novel therapies.",
+      "key_takeaway": "Investing in AI companies that prioritize self-regulation and data security could provide an edge in a rapidly evolving industry, while the potential for AI in healthcare offers significant growth opportunities.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT",
+        "AMZN"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 355
+    },
+    {
       "id": 368,
       "title": "Amjad Masad on Going Direct, Building Replit, and the Future of Software",
       "source_type": "podcast",
@@ -1009,7 +1030,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-14",
       "archived_date": null,
@@ -7966,8 +7987,8 @@ const dashboardData = {
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-07-15",
-      "mention_count": 8,
+      "last_mentioned_date": "2026-07-18",
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
@@ -7976,8 +7997,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 348,
-      "last_mentioned_speaker": "Dylan Patel"
+      "last_mentioned_episode_id": 355,
+      "last_mentioned_speaker": "Jason Calacanis, Chamath Palihapitiya (hosts)"
     },
     {
       "id": 256,
@@ -9514,8 +9535,8 @@ const dashboardData = {
       "term": "AI Race",
       "description": "The global competition between nations to lead in AI development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-07-16",
-      "mention_count": 19,
+      "last_mentioned_date": "2026-07-18",
+      "mention_count": 20,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consider investing in companies and countries that are making significant strides in AI technology.",
@@ -9524,8 +9545,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 350,
-      "last_mentioned_speaker": "David Sachs"
+      "last_mentioned_episode_id": 355,
+      "last_mentioned_speaker": "Jason Calacanis, Chamath Palihapitiya (hosts)"
     },
     {
       "id": 12,
@@ -9862,6 +9883,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 370,
+      "title": "Can the AI Industry Regulate Itself? Stripe Wants PayPal, China Catches Up, NY Bans Datacenters",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-18",
+      "summary": "In this episode of the All In Podcast, the hosts discuss the proposal by DeepMind's Demis Hassabis for a US-led international AI standards body, modeled after Finra. They also touch on the importance of self-regulation in the AI industry and the potential risks of data leaks in AI models. The conversation covers the groundbreaking use of AI in health and science, particularly in protein synthesis and testing for reversing aging. The hosts emphasize the profound implications of AI for human health and the potential for novel therapies.",
+      "key_takeaway": "Investing in AI companies that prioritize self-regulation and data security could provide an edge in a rapidly evolving industry, while the potential for AI in healthcare offers significant growth opportunities.",
+      "tickers_mentioned": "[\"GOOGL\", \"MSFT\", \"AMZN\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 355,
+      "episode_release_date": "2026-07-18",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 368,
       "title": "Amjad Masad on Going Direct, Building Replit, and the Future of Software",
       "source_type": "podcast",
@@ -10006,29 +10047,6 @@ const dashboardData = {
         "INTC",
         "NVDA"
       ]
-    },
-    {
-      "id": 362,
-      "title": "The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-07-14",
-      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Ben Kulandian, an expert investor and analyst in the semiconductor industry. They discuss the current state of AI and its potential to revolutionize various sectors, including material science and biotech. Kulandian argues against the notion that the current AI boom is a repeat of the dot-com bubble, emphasizing the unique capabilities of AI and semiconductors in creating intelligence and accelerating scientific discoveries. The conversation also touches on investment opportunities within the AI supply chain, with a focus on companies like Nvidia and Apple.",
-      "key_takeaway": "Invest in companies at the forefront of AI and semiconductors that can leverage intelligence to perform high-cost, time-consuming tasks more efficiently and at scale.",
-      "tickers_mentioned": "[\"NVDA\", \"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-14",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 347,
-      "episode_release_date": "2026-07-14",
-      "guest_name": null,
-      "key_tickers": [
-        "NVDA",
-        "AAPL"
-      ]
     }
   ],
   "definitions": [
@@ -10171,7 +10189,7 @@ const dashboardData = {
       "first_detected_speaker": "Demis Hassabis",
       "last_mentioned_episode_id": 354,
       "last_mentioned_speaker": "Ramine Hassani",
-      "overton_score": 56.0,
+      "overton_score": 54.72,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
@@ -10197,7 +10215,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 326,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "overton_score": 13.82,
+      "overton_score": 13.5,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
@@ -10223,7 +10241,7 @@ const dashboardData = {
       "first_detected_speaker": "Peter Diamandis",
       "last_mentioned_episode_id": 344,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "overton_score": 11.85,
+      "overton_score": 11.58,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
@@ -10231,6 +10249,32 @@ const dashboardData = {
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
       "last_mentioned_episode_title": "The AI Duopoly Is Over: Grok 4. 5 , GPT-5 . 6 , and Muse Spark in One Week | #270",
       "last_mentioned_episode_date": "2026-07-13"
+    },
+    {
+      "id": 254,
+      "term": "Hyperscalers",
+      "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
+      "first_detected_date": "2026-06-19",
+      "last_mentioned_date": "2026-07-18",
+      "mention_count": 9,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 302,
+      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "last_mentioned_episode_id": 355,
+      "last_mentioned_speaker": "Jason Calacanis, Chamath Palihapitiya (hosts)",
+      "overton_score": 9.0,
+      "resonance_pct": 100,
+      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
+      "first_detected_episode_date": "2026-06-19",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "Can the AI Industry Regulate Itself? Stripe Wants PayPal, China Catches Up, NY Bans Datacenters",
+      "last_mentioned_episode_date": "2026-07-18"
     },
     {
       "id": 11,
@@ -10249,39 +10293,13 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 349,
       "last_mentioned_speaker": "Pat Gelsinger",
-      "overton_score": 8.59,
+      "overton_score": 8.4,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
       "first_detected_episode_date": "2026-05-30",
       "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "last_mentioned_episode_title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
-      "last_mentioned_episode_date": "2026-07-15"
-    },
-    {
-      "id": 254,
-      "term": "Hyperscalers",
-      "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
-      "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-07-15",
-      "mention_count": 8,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 302,
-      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 348,
-      "last_mentioned_speaker": "Dylan Patel",
-      "overton_score": 7.64,
-      "resonance_pct": 100,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
-      "first_detected_episode_date": "2026-06-19",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
       "last_mentioned_episode_date": "2026-07-15"
     },
     {
@@ -10301,8 +10319,8 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 354,
       "last_mentioned_speaker": "Ramine Hassani",
-      "overton_score": 4.0,
-      "resonance_pct": 100,
+      "overton_score": 3.91,
+      "resonance_pct": 98,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
       "first_detected_episode_date": "2026-06-19",
@@ -10327,8 +10345,8 @@ const dashboardData = {
       "first_detected_speaker": "Leakwet Ahamed",
       "last_mentioned_episode_id": 350,
       "last_mentioned_speaker": "David Sachs",
-      "overton_score": 3.91,
-      "resonance_pct": 98,
+      "overton_score": 3.82,
+      "resonance_pct": 96,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
       "first_detected_episode_date": "2026-06-29",
@@ -10353,8 +10371,8 @@ const dashboardData = {
       "first_detected_speaker": "Joseph Krauss",
       "last_mentioned_episode_id": 352,
       "last_mentioned_speaker": "Andy Beam, Ratha Gomez Bumbarelli",
-      "overton_score": 1.95,
-      "resonance_pct": 49,
+      "overton_score": 1.91,
+      "resonance_pct": 48,
       "first_detected_podcast": "Latent Space: The AI Engineer Podcast",
       "first_detected_episode_title": "\ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
       "first_detected_episode_date": "2026-06-17",
@@ -10379,8 +10397,8 @@ const dashboardData = {
       "first_detected_speaker": "Jack Farley (hosts)",
       "last_mentioned_episode_id": 347,
       "last_mentioned_speaker": "Ben Kulandian",
-      "overton_score": 1.87,
-      "resonance_pct": 47,
+      "overton_score": 1.82,
+      "resonance_pct": 46,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
       "first_detected_episode_date": "2026-06-15",
@@ -10405,8 +10423,8 @@ const dashboardData = {
       "first_detected_speaker": "Steven Sinofsky",
       "last_mentioned_episode_id": 345,
       "last_mentioned_speaker": "Max",
-      "overton_score": 1.82,
-      "resonance_pct": 46,
+      "overton_score": 1.78,
+      "resonance_pct": 44,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
       "first_detected_episode_date": "2026-06-02",
@@ -10431,8 +10449,8 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 343,
       "last_mentioned_speaker": "Barbara Liskov",
-      "overton_score": 1.82,
-      "resonance_pct": 46,
+      "overton_score": 1.78,
+      "resonance_pct": 44,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "How Bitcoin Rewired a Classic Computer Science Problem",
       "first_detected_episode_date": "2026-07-10",
@@ -10457,8 +10475,8 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 342,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "overton_score": 1.74,
-      "resonance_pct": 44,
+      "overton_score": 1.7,
+      "resonance_pct": 42,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner",
       "first_detected_episode_date": "2026-06-10",
@@ -10483,8 +10501,8 @@ const dashboardData = {
       "first_detected_speaker": "Andrew Feldman",
       "last_mentioned_episode_id": 307,
       "last_mentioned_speaker": "Josh Elman",
-      "overton_score": 1.15,
-      "resonance_pct": 29,
+      "overton_score": 1.12,
+      "resonance_pct": 28,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
       "first_detected_episode_date": "2026-05-21",
@@ -32394,61 +32412,120 @@ const dashboardData = {
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-07-17",
     "key_tickers": []
+  },
+  "370": {
+    "id": 360,
+    "insight_id": 370,
+    "podcast_episode_id": 355,
+    "overview": "The unresolved tension in the AI industry revolves around the balance between innovation and regulation. The competitive dynamic is between those advocating for a self-regulatory body to oversee AI development and those who may prefer more direct government control. The policy tradeoff is between the speed and flexibility of industry-led regulation and the potential for more stringent, but possibly slower, government oversight. The metric that arbitrates this uncertainty is the effectiveness of the proposed self-regulatory body in managing risks without stifling innovation. The horizon of proof lies in the successful implementation and operation of such a body, demonstrating its ability to adapt to the rapid pace of AI development.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the formation and effectiveness of any self-regulatory body as it could become a key differentiator in the AI industry.",
+      "Companies that actively participate in shaping and adhering to self-regulatory standards may gain a competitive advantage by signaling their commitment to ethical AI practices.",
+      "The success of self-regulation could hinge on the inclusion of a broad range of stakeholders, ensuring that the body is not captured by a few large players.",
+      "Investors should be alert to the risk that self-regulation could evolve into more onerous government regulation if it fails to manage risks effectively."
+    ],
+    "investment_thesis": "The investment thesis is that companies which are proactive in self-regulation and data security will be better positioned in the AI industry as the regulatory landscape evolves. Over a 3-5 year timeframe, the observable development that would vindicate this thesis is the successful establishment and operation of a self-regulatory body that effectively manages risks without impeding innovation. Conversely, if such a body fails to gain industry-wide support or if it leads to increased calls for government regulation, the thesis would be invalidated.",
+    "ticker_analysis": {
+      "GOOGL": {
+        "rationale": "Google's parent company, Alphabet, is a major player in AI development and has the resources to influence the direction of self-regulation.",
+        "positioning": "Strategic long position, as Alphabet's involvement in shaping self-regulation could provide it with a competitive edge.",
+        "risk": "The risk of Alphabet facing increased regulatory scrutiny if self-regulation fails to manage risks effectively."
+      },
+      "MSFT": {
+        "rationale": "Microsoft is another key player in the AI space with a significant influence on industry standards.",
+        "positioning": "Strategic long position, as Microsoft's commitment to self-regulation could enhance its reputation and market position.",
+        "risk": "The risk of regulatory backlash if Microsoft's AI models are implicated in security incidents."
+      },
+      "AMZN": {
+        "rationale": "Amazon, with its cloud computing arm AWS, is deeply involved in AI and has a vested interest in the regulatory environment.",
+        "positioning": "Tactical long position, as Amazon could benefit from clear regulatory guidelines that allow for innovation.",
+        "risk": "The risk of Amazon's AI services being disrupted by overly strict regulations."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that self-regulation is inherently less effective than government regulation, leading to potential underestimation of the benefits of an industry-led approach.",
+      "Concerns that self-regulation could lead to a lack of uniform standards across different regions, creating compliance challenges for global AI companies.",
+      "The possibility that self-regulation could become a tool for larger companies to stifle competition from smaller, innovative startups."
+    ],
+    "catalysts": [
+      "The formal establishment of a self-regulatory body for AI in the US.",
+      "High-profile incidents of AI-related risks that could either validate or undermine the need for self-regulation.",
+      "Regulatory decisions in other countries that may influence the US approach to AI regulation.",
+      "Publications or reports from industry bodies or think tanks that provide insights into the effectiveness of self-regulation."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-18T05:02:15.158359",
+    "updated_at": "2026-07-18 10:02:15",
+    "episode_evidence": "The podcast episode delves into the proposal by DeepMind's Demis Hassabis for a US-led international AI standards body, which is modeled after Finra, a self-regulatory body in the financial industry. Hassabis suggests that this body would be federally overseen but industry-funded and run by independent technological experts. 'Frontier labs would submit their models 30 days before release,' and it would be voluntary initially, then mandatory at some point. The models would be assessed on risk to cybersecurity, national security, biological threats, and other high-risk domains. David Friedberg, a guest on the podcast, supports the idea of self-regulation, stating, 'The industry is going to need to be regulated. And I think the industry needs to regulate themselves.' He further emphasizes the importance of having a set of tests that companies like Google, Microsoft, and Amazon agree to, and self-certify each model before asking the government to certify them.",
+    "falsification_tracks": [
+      "Should the US government decide to establish a new regulatory agency for AI instead of endorsing a self-regulatory body, the thesis of industry-led regulation would be weakened.",
+      "If major AI companies like Google, Microsoft, or Amazon publicly oppose the self-regulation proposal, it would reduce the likelihood of such a body being formed.",
+      "The emergence of significant cybersecurity incidents or national security threats linked to AI models that were not caught by the proposed self-regulatory body would undermine the case for industry self-regulation."
+    ],
+    "insight_title": "Can the AI Industry Regulate Itself? Stripe Wants PayPal, China Catches Up, NY Bans Datacenters",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-07-18",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
   {
-    "id": 520,
-    "term": "Liquid AI",
-    "definition": "A type of AI that focuses on efficient, general-purpose intelligence at various scales, often using small language models.",
-    "investment_implications": "Investors should consider companies developing Liquid AI for their potential to disrupt traditional AI markets and offer more adaptable solutions.",
+    "id": 522,
+    "term": "AI Regulation Proposal",
+    "definition": "A framework proposed by Demis Hassabis for regulating AI development, similar to Finra, which would be industry-funded and overseen by independent technological experts.",
+    "investment_implications": "This proposal could set the standard for how AI is developed and used, impacting investment in AI companies.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-07-18 03:01:01",
+    "submitted_date": "2026-07-18 10:01:35",
     "priority_score": 80
   },
   {
-    "id": 521,
-    "term": "Advanced Glycation End Products (AGES)",
-    "definition": "Sugar molecules that crosslink and damage proteins in the body over time, contributing to the aging process.",
-    "investment_implications": "Investments in biotech companies working on reversing AGES could lead to significant advancements in longevity and anti-aging treatments.",
+    "id": 523,
+    "term": "Self-Regulation",
+    "definition": "The practice of an industry creating and adhering to its own standards and regulations to prevent external intervention.",
+    "investment_implications": "Self-regulation in AI could foster innovation and trust, benefiting companies that lead in this area.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-07-18 03:01:01",
+    "submitted_date": "2026-07-18 10:01:35",
     "priority_score": 80
   },
   {
-    "id": 519,
-    "term": "Building in Public",
-    "definition": "The practice of conducting company operations and communications in a public forum rather than in private.",
-    "investment_implications": "Transparency in company operations can build trust with investors and customers, potentially leading to stronger brand loyalty.",
+    "id": 524,
+    "term": "Data Leak Vectors",
+    "definition": "Non-obvious pathways through which data can be inadvertently leaked, especially in complex systems like AI.",
+    "investment_implications": "Understanding and mitigating data leak vectors is crucial for companies handling sensitive information.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-07-17 17:01:58",
+    "submitted_date": "2026-07-18 10:01:35",
     "priority_score": 80
   },
   {
-    "id": 517,
-    "term": "Trend Following",
-    "definition": "An investment strategy that aims to capture and profit from the direction of the market trend, regardless of its cause.",
-    "investment_implications": "Trend following can provide diversification and absolute returns, especially when there are strong trends in major markets.",
+    "id": 525,
+    "term": "Protein Synthesis and Testing",
+    "definition": "The process of creating and testing proteins, which can be used for various applications, including health and aging.",
+    "investment_implications": "Investments in companies advancing protein synthesis and testing could lead to breakthroughs in healthcare.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-07-16 18:37:27",
+    "submitted_date": "2026-07-18 10:01:35",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 33250,
+    "id": 33348,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -32460,7 +32537,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33251,
+    "id": 33349,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -32472,7 +32549,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33252,
+    "id": 33350,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -32484,7 +32561,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33253,
+    "id": 33351,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -32496,7 +32573,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33254,
+    "id": 33352,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -32508,7 +32585,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33255,
+    "id": 33353,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -32520,7 +32597,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33256,
+    "id": 33354,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -32532,7 +32609,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33257,
+    "id": 33355,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -32544,7 +32621,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33258,
+    "id": 33356,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -32556,7 +32633,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33259,
+    "id": 33357,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -32568,7 +32645,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33260,
+    "id": 33358,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -32580,7 +32657,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33261,
+    "id": 33359,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -32592,7 +32669,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33262,
+    "id": 33360,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -32604,7 +32681,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33263,
+    "id": 33361,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -32616,7 +32693,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33264,
+    "id": 33362,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -32628,7 +32705,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33265,
+    "id": 33363,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -32640,7 +32717,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33266,
+    "id": 33364,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -32652,7 +32729,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33267,
+    "id": 33365,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -32664,7 +32741,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33268,
+    "id": 33366,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -32676,7 +32753,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 33269,
+    "id": 33367,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -33400,7 +33477,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in technologies that empower individuals to maintain autonomy and control in a world where threats to personal safety and privacy are growing.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-15 \u2022 Vitalik Buterin on Human Agency in the AI Era",
     "last_proof_snippet": "One of the challenges the world right now is that we're definitely in a less peaceful and less safe world than 10 or 15 years ago. The vision of safety that we're competing with is basically, oh, you know, let's trust the uncle in the sky a",
@@ -33593,7 +33670,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Investing in longevity and healthspan technologies and therapies offers significant growth potential as scientific advancements continue to extend human lifespan and improve quality of life.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-28 \u2022 David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
     "last_proof_snippet": "AI-driven drug design is accelerating research by analyzing billions of molecules for potential therapeutic uses.",
@@ -33874,7 +33951,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-19 \u2022 MacroVoices-2026-03-19-Simon-White",
     "last_proof_snippet": "Simon White suggests that markets may be underpricing the second-order effects of the Iran conflict.",
@@ -34458,7 +34535,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-15 \u2022 Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
     "last_proof_snippet": "spent a long time in Intel, and only 34 years, 34 years, probably one of the greatest American companies ever, and then, absolutely went off the rails and got absolutely demolished by Nvidia, TSMC, and I guess Apple to a certain extent. So",
@@ -35110,7 +35187,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-05 \u2022 The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. The new Fed Chair Kevin Worsh has made it no secret that he prefers a sm",
@@ -35851,7 +35928,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-23 \u2022 GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
     "last_proof_snippet": "Everyone hates GameStop and it seems like everyone in the media basically wants us to fail and wants them to succeed and you've got a board that's making hundreds of thousands of dollars a year and they don't buy stock with their own money.",
@@ -39449,7 +39526,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Invest in incremental AI improvements, new compensation models for CEOs, and emerging biotech sectors focusing on longevity and healthspan.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-07 \u2022 Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
     "last_proof_snippet": "Demisis Abbas, the CEO of DeepMind, says AGI may not need a major breakthrough. I've argued in the past that we achieved AGI in the summer of 2020. We know. I would argue what AGI is, and we know how pleased to find it for me. For your AI,",
@@ -44749,7 +44826,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-20 \u2022 The Impact of AI on Mathematics and Scientific Discovery",
     "last_proof_snippet": "The application of AI in mathematics could lead to new discoveries and breakthroughs more quickly than traditional methods.",
@@ -45494,7 +45571,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-13 \u2022 Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
     "last_proof_snippet": "All right, everybody. Welcome back to the number one podcast in the world. Free birds out saving the world, creating new potatoes or I don't know, Kim Wa. Maybe some Brussels sprouts. I'm not sure what he's working on at this point in his p",
