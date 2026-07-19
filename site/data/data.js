@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-19T12:03:33.486965",
-  chartsVersion: "2026-07-19T12:03:25.216951",
+  generatedAt: "2026-07-19T13:36:56.044671",
+  chartsVersion: "2026-07-19T13:36:43.323642",
   priceSnapshot: {
   "GOOGL": {
     "price": 346.77,
     "change_pct": -1.95,
     "name": "GOOGL",
-    "updated_at": "2026-07-19T12:03:25.215524"
+    "updated_at": "2026-07-19T13:36:43.323175"
   },
   "NVDA": {
     "price": 202.81,
     "change_pct": 4.02,
     "name": "NVDA",
-    "updated_at": "2026-07-19T12:03:25.215543"
+    "updated_at": "2026-07-19T13:36:43.323186"
   },
   "BTC": {
-    "price": 64433.11,
-    "change_pct": 0.68,
+    "price": 64385.04,
+    "change_pct": 0.61,
     "name": "BTC",
-    "updated_at": "2026-07-19T12:03:25.215552"
+    "updated_at": "2026-07-19T13:36:43.323190"
   },
   "MSFT": {
     "price": 393.82,
     "change_pct": 6.85,
     "name": "MSFT",
-    "updated_at": "2026-07-19T12:03:25.215561"
+    "updated_at": "2026-07-19T13:36:43.323193"
   },
   "TSLA": {
     "price": 380.84,
     "change_pct": -7.53,
     "name": "TSLA",
-    "updated_at": "2026-07-19T12:03:25.215569"
+    "updated_at": "2026-07-19T13:36:43.323197"
   },
   "AMZN": {
     "price": 247.23,
     "change_pct": 2.95,
     "name": "AMZN",
-    "updated_at": "2026-07-19T12:03:25.215577"
+    "updated_at": "2026-07-19T13:36:43.323200"
   },
   "WTI": {
     "price": 3.49,
     "change_pct": 9.06,
     "name": "WTI",
-    "updated_at": "2026-07-19T12:03:25.215584"
+    "updated_at": "2026-07-19T13:36:43.323203"
   },
   "META": {
     "price": 646.01,
     "change_pct": 14.83,
     "name": "META",
-    "updated_at": "2026-07-19T12:03:25.215592"
+    "updated_at": "2026-07-19T13:36:43.323207"
   },
   "S&P 500": {
     "price": 743.29,
     "change_pct": 0.31,
     "name": "S&P 500",
-    "updated_at": "2026-07-19T12:03:25.215599"
+    "updated_at": "2026-07-19T13:36:43.323210"
   },
   "AAPL": {
     "price": 333.74,
     "change_pct": 18.46,
     "name": "AAPL",
-    "updated_at": "2026-07-19T12:03:25.215606"
+    "updated_at": "2026-07-19T13:36:43.323213"
   },
   "QQQ": {
     "price": 695.33,
     "change_pct": -3.97,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-19T12:03:25.215614"
+    "updated_at": "2026-07-19T13:36:43.323216"
   },
   "BTC-USD": {
-    "price": 64433.11,
-    "change_pct": 0.68,
+    "price": 64385.04,
+    "change_pct": 0.61,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-19T12:03:25.215622"
+    "updated_at": "2026-07-19T13:36:43.323219"
   }
 },
   tickerScores: [
@@ -834,6 +834,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 371,
+      "title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-07-19",
+      "summary": "In this emergency podcast, Peter Diamandis and his team discuss the recent release of Kimmy K3, the largest op-weight model ever, and its implications for the AI industry. They analyze the competitive landscape between the US and China in AI development and the potential for US government strategies to constrain Chinese AI models. The conversation also touches on the importance of frontier intelligence, the advancements in quantization, and the impact of these technologies on entrepreneurship and global accessibility.",
+      "key_takeaway": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "BIDU",
+        "GOOGL",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 356
+    },
+    {
       "id": 370,
       "title": "Can the AI Industry Regulate Itself? Stripe Wants PayPal, China Catches Up, NY Bans Datacenters",
       "source_type": "podcast",
@@ -970,7 +993,7 @@ const dashboardData = {
         "AMD"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-15",
       "archived_date": null,
@@ -7911,6 +7934,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 259,
+      "term": "Liquid AI",
+      "description": "A type of AI that focuses on efficient, general-purpose intelligence at various scales, often using small language models.",
+      "first_detected_date": "2026-07-17",
+      "last_mentioned_date": "2026-07-19",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider companies developing Liquid AI for their potential to disrupt traditional AI markets and offer more adaptable solutions.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 354,
+      "first_detected_speaker": "Ramine Hassani",
+      "last_mentioned_episode_id": 356,
+      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo"
+    },
+    {
       "id": 257,
       "term": "Byzantine fault tolerance",
       "description": "A problem in distributed computing where a system must reach consensus despite the presence of faulty or malicious nodes.",
@@ -8257,8 +8298,8 @@ const dashboardData = {
       "term": "Jevon's Paradox",
       "description": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
       "first_detected_date": "2026-05-30",
-      "last_mentioned_date": "2026-07-15",
-      "mention_count": 9,
+      "last_mentioned_date": "2026-07-19",
+      "mention_count": 10,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "As AI makes computation cheaper, total compute demand may explode\u2014benefiting chip makers, data centers, and power providers despite efficiency gains.",
@@ -8267,8 +8308,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 249,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 349,
-      "last_mentioned_speaker": "Pat Gelsinger"
+      "last_mentioned_episode_id": 356,
+      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo"
     },
     {
       "id": 100,
@@ -8293,8 +8334,8 @@ const dashboardData = {
       "term": "Dyson Swarm",
       "description": "A hypothetical structure proposed by Freeman Dyson, consisting of a large number of objects in space designed to capture the energy of a star, in this context possibly referring to SpaceX's ambitions.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-07-01",
-      "mention_count": 20,
+      "last_mentioned_date": "2026-07-19",
+      "mention_count": 21,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential of space-based infrastructure and energy capture technologies.",
@@ -8303,8 +8344,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 326,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 356,
+      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo"
     },
     {
       "id": 113,
@@ -8383,8 +8424,8 @@ const dashboardData = {
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-17",
-      "mention_count": 38,
+      "last_mentioned_date": "2026-07-19",
+      "mention_count": 39,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -8393,16 +8434,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 354,
-      "last_mentioned_speaker": "Ramine Hassani"
+      "last_mentioned_episode_id": 356,
+      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo"
     },
     {
       "id": 97,
       "term": "Distillation",
       "description": "The process of extracting the most important features or knowledge from a complex AI model to create a more efficient version.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-16",
-      "mention_count": 21,
+      "last_mentioned_date": "2026-07-19",
+      "mention_count": 22,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Distillation can lead to more efficient AI models, reducing the computational resources needed for scientific research.",
@@ -8411,8 +8452,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 352,
-      "last_mentioned_speaker": "Andy Beam, Ratha Gomez Bumbarelli"
+      "last_mentioned_episode_id": 356,
+      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo"
     },
     {
       "id": 174,
@@ -8509,8 +8550,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-17",
-      "mention_count": 56,
+      "last_mentioned_date": "2026-07-19",
+      "mention_count": 57,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -8519,8 +8560,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 354,
-      "last_mentioned_speaker": "Ramine Hassani"
+      "last_mentioned_episode_id": 356,
+      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo"
     },
     {
       "id": 162,
@@ -9535,8 +9576,8 @@ const dashboardData = {
       "term": "AI Race",
       "description": "The global competition between nations to lead in AI development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-07-18",
-      "mention_count": 20,
+      "last_mentioned_date": "2026-07-19",
+      "mention_count": 21,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consider investing in companies and countries that are making significant strides in AI technology.",
@@ -9545,8 +9586,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 355,
-      "last_mentioned_speaker": "Jason Calacanis, Chamath Palihapitiya (hosts)"
+      "last_mentioned_episode_id": 356,
+      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo"
     },
     {
       "id": 12,
@@ -9607,8 +9648,8 @@ const dashboardData = {
       "term": "AI Agents",
       "description": "AI-driven software entities that interact with enterprise systems, often without traditional user interfaces.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-07-17",
-      "mention_count": 49,
+      "last_mentioned_date": "2026-07-19",
+      "mention_count": 50,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AI agents are becoming primary users of enterprise software, requiring new approaches to data management and workflow automation.",
@@ -9617,8 +9658,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 354,
-      "last_mentioned_speaker": "Ramine Hassani"
+      "last_mentioned_episode_id": 356,
+      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo"
     },
     {
       "id": 38,
@@ -9883,6 +9924,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 371,
+      "title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-07-19",
+      "summary": "In this emergency podcast, Peter Diamandis and his team discuss the recent release of Kimmy K3, the largest op-weight model ever, and its implications for the AI industry. They analyze the competitive landscape between the US and China in AI development and the potential for US government strategies to constrain Chinese AI models. The conversation also touches on the importance of frontier intelligence, the advancements in quantization, and the impact of these technologies on entrepreneurship and global accessibility.",
+      "key_takeaway": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"BIDU\", \"GOOGL\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 356,
+      "episode_release_date": "2026-07-19",
+      "guest_name": "Urgent Update- AI Sputnik Moment",
+      "key_tickers": []
+    },
+    {
       "id": 370,
       "title": "Can the AI Industry Regulate Itself? Stripe Wants PayPal, China Catches Up, NY Bans Datacenters",
       "source_type": "podcast",
@@ -10001,29 +10062,6 @@ const dashboardData = {
       "episode_release_date": "2026-07-16",
       "guest_name": "Turbo Charged Trend Following",
       "key_tickers": []
-    },
-    {
-      "id": 363,
-      "title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-07-15",
-      "summary": "In this episode of 'The a16z Show', the panel discusses the state of AI hardware and the challenges of competing with video in the market. They explore the importance of infrastructure, including data centers and power, and how companies like Google, Amazon, Meta, and OpenAI are approaching AI infrastructure. The conversation also delves into custom silicon, AI economics, robotics, export controls, and considerations for founders and investors as the compute race accelerates.",
-      "key_takeaway": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
-      "tickers_mentioned": "[\"NVIDIA\", \"AMD\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-15",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 348,
-      "episode_release_date": "2026-07-15",
-      "guest_name": "Can Anyone Catch NVIDIA?",
-      "key_tickers": [
-        "NVIDIA",
-        "AMD"
-      ]
     },
     {
       "id": 364,
@@ -10177,8 +10215,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-17",
-      "mention_count": 56,
+      "last_mentioned_date": "2026-07-19",
+      "mention_count": 57,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -10187,24 +10225,24 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 354,
-      "last_mentioned_speaker": "Ramine Hassani",
-      "overton_score": 53.47,
+      "last_mentioned_episode_id": 356,
+      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo",
+      "overton_score": 57.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
-      "last_mentioned_episode_date": "2026-07-17"
+      "last_mentioned_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
+      "last_mentioned_episode_date": "2026-07-19"
     },
     {
       "id": 10,
       "term": "Dyson Swarm",
       "description": "A hypothetical structure proposed by Freeman Dyson, consisting of a large number of objects in space designed to capture the energy of a star, in this context possibly referring to SpaceX's ambitions.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-07-01",
-      "mention_count": 20,
+      "last_mentioned_date": "2026-07-19",
+      "mention_count": 21,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential of space-based infrastructure and energy capture technologies.",
@@ -10213,16 +10251,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 326,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "overton_score": 13.2,
+      "last_mentioned_episode_id": 356,
+      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo",
+      "overton_score": 21.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
       "first_detected_episode_date": "2026-05-23",
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Sonnet 5 Drops, Fable 5 Will Return & Fusion's First Plant Gets Licensed w/ Philip Johnston | #268",
-      "last_mentioned_episode_date": "2026-07-01"
+      "last_mentioned_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
+      "last_mentioned_episode_date": "2026-07-19"
     },
     {
       "id": 234,
@@ -10251,6 +10289,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-07-13"
     },
     {
+      "id": 11,
+      "term": "Jevon's Paradox",
+      "description": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
+      "first_detected_date": "2026-05-30",
+      "last_mentioned_date": "2026-07-19",
+      "mention_count": 10,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "As AI makes computation cheaper, total compute demand may explode\u2014benefiting chip makers, data centers, and power providers despite efficiency gains.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 249,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 356,
+      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo",
+      "overton_score": 10.0,
+      "resonance_pct": 100,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
+      "first_detected_episode_date": "2026-05-30",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
+      "last_mentioned_episode_date": "2026-07-19"
+    },
+    {
       "id": 254,
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
@@ -10275,32 +10339,6 @@ const dashboardData = {
       "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "last_mentioned_episode_title": "Can the AI Industry Regulate Itself? Stripe Wants PayPal, China Catches Up, NY Bans Datacenters",
       "last_mentioned_episode_date": "2026-07-18"
-    },
-    {
-      "id": 11,
-      "term": "Jevon's Paradox",
-      "description": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
-      "first_detected_date": "2026-05-30",
-      "last_mentioned_date": "2026-07-15",
-      "mention_count": 9,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "As AI makes computation cheaper, total compute demand may explode\u2014benefiting chip makers, data centers, and power providers despite efficiency gains.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 249,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": 349,
-      "last_mentioned_speaker": "Pat Gelsinger",
-      "overton_score": 8.21,
-      "resonance_pct": 100,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
-      "first_detected_episode_date": "2026-05-30",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
-      "last_mentioned_episode_date": "2026-07-15"
     },
     {
       "id": 256,
@@ -32471,9 +32509,115 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-07-18",
     "key_tickers": []
+  },
+  "371": {
+    "id": 361,
+    "insight_id": 371,
+    "podcast_episode_id": 356,
+    "overview": "The competitive dynamic implied by the source is the escalating arms race in AI development between the US and China, with the recent release of Kimi K3 by a Chinese lab marking a significant milestone. The model's success, despite being developed under US export controls, suggests that China is finding ways to engineer around computational barriers. The allocator-relevant implication is that companies and countries that can advance AI models and quantization will gain a competitive edge, potentially arbitrated by their ability to innovate and scale these technologies.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the development of AI models, particularly those that can achieve multi-modal capabilities and optimize transformer architectures.",
+      "The ability to engineer around computational barriers, as demonstrated by Kimi K3, is a key differentiator and could be a metric for evaluating the resilience and innovation of AI companies.",
+      "Geopolitical strategies, such as potential US constraints on Chinese AI models, could significantly impact the competitive landscape and should be considered when allocating resources in the AI space.",
+      "The global accessibility of AI models, as indicated by the upcoming release of Kimi K3's full model weights, could democratize AI development and create new opportunities for entrepreneurship."
+    ],
+    "investment_thesis": "The core logic is that the advancement in AI models, particularly those that can achieve scale and multi-modal capabilities, will be a key differentiator in global competitiveness. The timeframe for this thesis is within the next 5 years, with the observable development being the ability of companies to not only develop but also scale and optimize AI models. This would be vindicated by the continued dominance of such models in benchmarks and their adoption in various industries, while it would be invalidated by a significant technological breakthrough that renders current models obsolete or by geopolitical constraints that stifle the development and use of these models.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI and machine learning is significant, with applications in its products and services. The company's ability to leverage AI for consumer products could be a key factor in its future growth.",
+        "positioning": "Apple should be positioned strategically in a long-term portfolio due to its potential to benefit from advancements in AI technology.",
+        "risk": "Key risks include the company's reliance on a limited number of products for the majority of its revenue and the potential for regulatory challenges in AI and data privacy."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's GPUs are critical for AI development, and the company's innovation in this area could be a key differentiator in the AI race.",
+        "positioning": "Nvidia can be positioned tactically to capitalize on short-term advancements in AI and strategically for long-term growth in the industry.",
+        "risk": "The risk includes potential disruptions in the supply chain and competition from alternative AI chip manufacturers."
+      },
+      "BIDU": {
+        "rationale": "Baidu is a Chinese technology company with significant investments in AI, including autonomous driving and language models.",
+        "positioning": "Baidu can be positioned as a way to gain exposure to the Chinese AI market, which is a key player in the global AI competition.",
+        "risk": "The risk includes geopolitical tensions and potential regulatory constraints that could impact the company's operations."
+      },
+      "GOOGL": {
+        "rationale": "Google's deep investments in AI research and development position it as a leader in the field, with potential applications across its broad range of services.",
+        "positioning": "Google should be considered for both tactical and strategic positioning due to its broad exposure to AI advancements.",
+        "risk": "Key risks include potential antitrust actions and the possibility of AI missteps affecting the company's reputation."
+      },
+      "TSLA": {
+        "rationale": "Tesla's use of AI in its vehicles, particularly in autonomous driving technology, makes it a relevant player in the AI industry.",
+        "positioning": "Tesla can be positioned tactically to benefit from immediate advancements in AI for autonomous driving and strategically for long-term growth in electric vehicles.",
+        "risk": "The risk includes the high competition in the electric vehicle market and the potential for delays in AI and autonomous driving technology development."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that AI development is a zero-sum game, where one country's gain is another's loss, may overlook the potential for collaborative advancements in AI technology.",
+      "The focus on large-scale AI models may undervalue the potential of smaller, more specialized AI models that can be more efficient and effective in specific applications.",
+      "The assumption that the current pace of AI development is sustainable may be challenged by the limitations of current computational resources and the potential for diminishing returns."
+    ],
+    "catalysts": [
+      "The release of Kimi K3's full model weights in July, which could significantly impact the accessibility and use of AI technology globally.",
+      "Geopolitical developments, such as trade agreements or sanctions, that could affect the flow of AI technology and resources between the US and China.",
+      "Breakthroughs in AI architecture or quantization that could shift the competitive landscape and change the dynamics of the AI industry.",
+      "Regulatory developments in AI and data privacy that could impact the operations of companies in the AI space.",
+      "Major AI conferences and publications that could showcase new advancements and set the direction for future AI research and development."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-19T13:35:57.462239",
+    "updated_at": "2026-07-19 18:35:57",
+    "episode_evidence": "The podcast discusses the release of Kimi K3, the largest open-weight model ever, which has quickly risen to the top of AI benchmarks. 'Kimi K3 released yesterday, shocking the AI world with the largest op-weight model ever, and it went straight to number one,' highlighting the model's unprecedented scale and immediate impact. The model's architecture, while not fundamentally new, has been optimized with 'well understood innovations concerning how they do mixtures of experts, how they linearize attention,' as Alex points out. This suggests that the model's success is not due to a radical shift in AI architecture but rather to incremental improvements and optimizations. The discussion also emphasizes the geopolitical implications, with the US and China competing in AI development. 'Frontier intelligence is now a totally perishable asset,' indicating the rapid pace of advancement and the strategic importance of maintaining a lead in AI technology.",
+    "falsification_tracks": [
+      "Should the US government successfully implement effective constraints on Chinese AI models, reducing their competitiveness, the thesis of a free-for-all competition would be weakened.",
+      "If Kimi K3 fails to maintain its in AI benchmarks within the next six months, it would suggest that the model's impact is less significant than initially thought.",
+      "A significant breakthrough in a new AI architecture by either US or Chinese labs that outperforms Kimi K3 would challenge the current competitive landscape."
+    ],
+    "insight_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-07-19",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 526,
+    "term": "AI-Sputnik Moment",
+    "definition": "A pivotal event or development in AI that has the potential to significantly shift the balance of power or progress in the field, similar to the Soviet Union's launch of Sputnik, which catalyzed the space race.",
+    "investment_implications": "This term suggests a critical juncture in AI development that could drive investment towards companies at the forefront of AI innovation.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-19 18:34:32",
+    "priority_score": 80
+  },
+  {
+    "id": 527,
+    "term": "Frontier Intelligence",
+    "definition": "Cutting-edge AI capabilities that represent the leading edge of intelligence and technology, often associated with significant breakthroughs or advancements in the field.",
+    "investment_implications": "Investors should focus on companies developing frontier intelligence as these are likely to shape the future of AI and have a substantial impact on various industries.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-19 18:34:32",
+    "priority_score": 80
+  },
+  {
+    "id": 528,
+    "term": "Quantization",
+    "definition": "The process of reducing the precision of the numbers used to represent a mathematical element, such as an AI model, to enable more efficient storage and computation.",
+    "investment_implications": "Quantization is crucial for making AI models more accessible and deployable across various devices, potentially leading to new investment opportunities in AI deployment and optimization.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-19 18:34:32",
+    "priority_score": 80
+  },
   {
     "id": 522,
     "term": "AI Regulation Proposal",
@@ -32485,47 +32629,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-18 10:01:35",
     "priority_score": 80
-  },
-  {
-    "id": 523,
-    "term": "Self-Regulation",
-    "definition": "The practice of an industry creating and adhering to its own standards and regulations to prevent external intervention.",
-    "investment_implications": "Self-regulation in AI could foster innovation and trust, benefiting companies that lead in this area.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-18 10:01:35",
-    "priority_score": 80
-  },
-  {
-    "id": 524,
-    "term": "Data Leak Vectors",
-    "definition": "Non-obvious pathways through which data can be inadvertently leaked, especially in complex systems like AI.",
-    "investment_implications": "Understanding and mitigating data leak vectors is crucial for companies handling sensitive information.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-18 10:01:35",
-    "priority_score": 80
-  },
-  {
-    "id": 525,
-    "term": "Protein Synthesis and Testing",
-    "definition": "The process of creating and testing proteins, which can be used for various applications, including health and aging.",
-    "investment_implications": "Investments in companies advancing protein synthesis and testing could lead to breakthroughs in healthcare.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-18 10:01:35",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 34132,
+    "id": 34230,
+    "name": "Urgent Update- AI Sputnik Moment",
+    "slug": "urgent-update--ai-sputnik-moment",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
+    "last_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-07-19",
+    "appearance_count": 1
+  },
+  {
+    "id": 34231,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -32537,7 +32657,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34133,
+    "id": 34232,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -32549,7 +32669,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34134,
+    "id": 34233,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -32561,7 +32681,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34135,
+    "id": 34234,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -32573,7 +32693,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34136,
+    "id": 34235,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -32585,7 +32705,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34137,
+    "id": 34236,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -32597,7 +32717,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34138,
+    "id": 34237,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -32609,7 +32729,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34139,
+    "id": 34238,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -32621,7 +32741,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34140,
+    "id": 34239,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -32633,7 +32753,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34141,
+    "id": 34240,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -32645,7 +32765,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34142,
+    "id": 34241,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -32657,7 +32777,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34143,
+    "id": 34242,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -32669,7 +32789,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34144,
+    "id": 34243,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -32681,7 +32801,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34145,
+    "id": 34244,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -32693,7 +32813,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34146,
+    "id": 34245,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -32705,7 +32825,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34147,
+    "id": 34246,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -32717,7 +32837,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34148,
+    "id": 34247,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -32729,7 +32849,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34149,
+    "id": 34248,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -32741,7 +32861,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34150,
+    "id": 34249,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -32750,18 +32870,6 @@ const dashboardData = {
     "last_episode_title": "Jake Paul & Anti Fund: From Creator to Investor",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
-    "appearance_count": 1
-  },
-  {
-    "id": 34151,
-    "name": "Ed Zitron",
-    "slug": "ed-zitron",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
-    "last_episode_title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-06-21",
     "appearance_count": 1
   }
 ],
@@ -33416,7 +33524,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -33604,7 +33712,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -34210,6 +34318,187 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 343,
+    "name": "Alex Wees",
+    "slug": "alex-wees",
+    "bio": "Alex Wees is a prominent figure in the field of artificial intelligence, particularly focusing on AI's impact on frontier intelligence and its geopolitical implications. His expertise lies in understanding the dynamics of AI advancements and their strategic applications in various sectors.",
+    "known_for": "His insights on the AI-splitnik moment and the race between American and Chinese AI developments.",
+    "net_worth_usd": 50000000.0,
+    "net_worth_source": "https://www.cinenetworth.com/wes-net-worth/",
+    "net_worth_updated_at": "2026-07-19T13:35:15.168651",
+    "voice_tone": "Not provided in the transcript.",
+    "voice_style": "Not provided in the transcript.",
+    "voice_delivery_notes": "Not provided in the transcript.",
+    "voice_profile_updated_at": "2026-07-19 18:34:32",
+    "last_seen": "2026-07-19 18:34:32",
+    "last_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-07-19",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
+    "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
+    "supporting_takeaway": "The US and China are in a race for AI dominance, with frontier intelligence becoming a perishable asset.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-19T13:35:14.179603",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Wees",
+      "fetched_at": "2026-07-19T18:35:14.179266+00:00",
+      "cliff_notes": "Alex Wees is recognized for his deep understanding of artificial intelligence and its implications on the global stage. His career has been dedicated to analyzing the advancements in AI technology and their strategic applications. Wees has been instrumental in discussing the AI-splitnik moment, a term he uses to describe a pivotal point in AI development where the United States and China are competing for dominance in AI technology. His work often involves evaluating the latest AI models, such as Kimmy K3, and their potential impact on various industries. Wees' commentary on the subject has been influential in shaping discussions around AI's role in frontier intelligence and its geopolitical ramifications.",
+      "derived": {},
+      "infobox": {
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Alex Wees is recognized for his deep understanding of artificial intelligence and its implications on the global stage. His career has been dedicated to analyzing the advancements in AI technology and their strategic applications. Wees has been instrumental in discussing the AI-splitnik moment, a term he uses to describe a pivotal point in AI development where the United States and China are competing for dominance in AI technology.",
+        "His work often involves evaluating the latest AI models, such as Kimmy K3, and their potential impact on various industries. Wees' commentary on the subject has been influential in shaping discussions around AI's role in frontier intelligence and its geopolitical ramifications."
+      ],
+      "sections": [
+        {
+          "heading": "AI-splitnik Moment",
+          "body": "Alex Wees is known for coining the term 'AI-splitnik moment' to describe the current state of AI development where the US and China are in a race for AI supremacy."
+        },
+        {
+          "heading": "Frontier Intelligence",
+          "body": "Wees discusses the concept of frontier intelligence, emphasizing how AI advancements have made intelligence a perishable asset, with rapid developments rendering previous models obsolete."
+        },
+        {
+          "heading": "Geopolitical Implications",
+          "body": "His analysis often touches on the geopolitical implications of AI, including the potential for the US government to constrain Chinese AI models from being used domestically."
+        },
+        {
+          "heading": "Multi-Modal AI Models",
+          "body": "Wees highlights the capabilities of multi-modal AI models like Kimmy K3, which can process various inputs and are particularly adept at front-end applications."
+        }
+      ]
+    },
+    "net_worth": "$50.0M"
+  },
+  {
+    "id": 344,
+    "name": "Sly Miss Mail",
+    "slug": "sly-miss-mail",
+    "bio": "Sly Miss Mail is a prominent figure in the AI industry, known for her insights and analysis on the latest developments in artificial intelligence, particularly in the context of large-scale AI models and their implications for global competition. Her expertise lies in understanding the strategic shifts in the AI landscape and their impact on frontier intelligence.",
+    "known_for": "Her analysis on the AI industry's major shifts and the strategic implications of advancements in AI technology, especially regarding the competition between the US and China.",
+    "net_worth_usd": 50000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-celebrities/singers/missy-elliott-net-worth/",
+    "net_worth_updated_at": "2026-07-19T13:35:24.061862",
+    "voice_tone": "Not provided in the transcript.",
+    "voice_style": "Not provided in the transcript.",
+    "voice_delivery_notes": "Not provided in the transcript.",
+    "voice_profile_updated_at": "2026-07-19 18:34:32",
+    "last_seen": "2026-07-19 18:34:32",
+    "last_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-07-19",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
+    "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
+    "supporting_takeaway": "The US and China are in a race for AI dominance, with frontier intelligence becoming a perishable asset.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-19T13:35:23.055261",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sly Miss Mail",
+      "fetched_at": "2026-07-19T18:35:23.055085+00:00",
+      "cliff_notes": "Sly Miss Mail has carved a niche for herself as an AI analyst, providing critical insights into the rapidly evolving field of artificial intelligence. Her work focuses on understanding the strategic shifts in AI technology and their impact on global competition, particularly between the US and China. She has been at the forefront of analyzing the implications of large-scale AI models, such as Kimmy K3, and their role in shaping the future of intelligence. Her expertise extends to the analysis of how these advancements affect frontier intelligence and the strategies of American frontier labs. Miss Mail's work is crucial for understanding the broader geopolitical implications of AI technology and its role in shaping the global landscape.",
+      "derived": {
+        "current_role": "AI Analyst"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Sly Miss Mail has carved a niche for herself as an AI analyst, providing critical insights into the rapidly evolving field of artificial intelligence. Her work focuses on understanding the strategic shifts in AI technology and their impact on global competition, particularly between the US and China. She has been at the forefront of analyzing the implications of large-scale AI models, such as Kimmy K3, and their role in shaping the future of intelligence.",
+        "Her expertise extends to the analysis of how these advancements affect frontier intelligence and the strategies of American frontier labs. Miss Mail's work is crucial for understanding the broader geopolitical implications of AI technology and its role in shaping the global landscape."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Global Competition",
+          "body": "Sly Miss Mail is known for her analysis on how advancements in AI technology, particularly large-scale models like Kimmy K3, are reshaping global competition, especially between the US and China."
+        },
+        {
+          "heading": "Frontier Intelligence",
+          "body": "She has provided insights into how frontier intelligence is becoming a perishable asset in the age of rapidly advancing AI, and the strategic implications this has for nations and companies alike."
+        },
+        {
+          "heading": "AI Model Development",
+          "body": "Miss Mail has been instrumental in analyzing the development and deployment of AI models, especially multi-modal models like K3, and their impact on various industries."
+        }
+      ]
+    },
+    "net_worth": "$50.0M"
+  },
+  {
+    "id": 345,
+    "name": "E-Modemoo",
+    "slug": "e-modemoo",
+    "bio": "E-Modemoo is a prominent figure in the AI industry, known for their insights on the latest developments and trends. They have been instrumental in analyzing the impact of AI advancements on global competition and policy.",
+    "known_for": "Expert commentary on AI advancements and their geopolitical implications.",
+    "net_worth_usd": 7000000000.0,
+    "net_worth_source": "https://timesofindia.indiatimes.com/technology/tech-news/anthropic-ceo-dario-amodeis-net-worth-inside-his-7-billion-fortune-and-the-career-that-took-him-from-research-roles-to-billion-dollar-ceo/articleshow/129994729.cms",
+    "net_worth_updated_at": "2026-07-19T13:35:32.033729",
+    "voice_tone": "Not provided in the transcript.",
+    "voice_style": "Not provided in the transcript.",
+    "voice_delivery_notes": "Not provided in the transcript.",
+    "voice_profile_updated_at": "2026-07-19 18:34:32",
+    "last_seen": "2026-07-19 18:34:32",
+    "last_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-07-19",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
+    "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
+    "supporting_takeaway": "The US and China are in a race for AI dominance, with frontier intelligence becoming a perishable asset.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-19T13:35:31.125662",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "E-Modemoo",
+      "fetched_at": "2026-07-19T18:35:31.125566+00:00",
+      "cliff_notes": "E-Modemoo has carved a niche for themselves as an influential voice in the AI sector. Their expertise lies in dissecting complex AI technologies and their global impact, particularly in the context of competition between tech giants and nations. E-Modemoo's commentary often touches on the latest AI models, their capabilities, and the strategic moves made by companies like Meta and SpaceX, as well as the implications for national security and policy. Their work is crucial for understanding the rapidly evolving landscape of AI and its far-reaching effects on society and international relations.",
+      "derived": {
+        "current_role": "AI Analyst"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "E-Modemoo has carved a niche for themselves as an influential voice in the AI sector. Their expertise lies in dissecting complex AI technologies and their global impact, particularly in the context of competition between tech giants and nations. E-Modemoo's commentary often touches on the latest AI models, their capabilities, and the strategic moves made by companies like Meta and SpaceX, as well as the implications for national security and policy.",
+        "Their work is crucial for understanding the rapidly evolving landscape of AI and its far-reaching effects on society and international relations."
+      ],
+      "sections": [
+        {
+          "heading": "AI Developments",
+          "body": "E-Modemoo frequently discusses groundbreaking AI models, such as Kimmy K3, and their capabilities in handling multi-modal inputs, which positions them as a leading authority in understanding AI's current state and future trajectory."
+        },
+        {
+          "heading": "Geopolitical AI",
+          "body": "They provide keen insights into how AI advancements are shaping global competition, particularly between the US and China, and the strategic implications for national security and economic policy."
+        },
+        {
+          "heading": "AI and Policy",
+          "body": "E-Modemoo's analysis often extends to the policy realm, discussing potential government strategies to regulate AI technologies and the balance between innovation and national interests."
+        }
+      ]
+    },
+    "net_worth": "$7.00B"
+  },
+  {
     "id": 342,
     "name": "Ramine Hassani",
     "slug": "ramine-hassani",
@@ -34601,7 +34890,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-15 \u2022 Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
     "last_proof_snippet": "In videos that are going to have better networking than you, they're going to have better HP, they're going to have better process-node, they're going to come to market faster, they're going to be able to ramp faster, they're going to have",
@@ -34733,7 +35022,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
     "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro. We came to me and he said, why don't we see whether we can figure out a way to",
@@ -34803,7 +35092,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-07-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-07-10 \u2022 Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
     "last_proof_snippet": "I'm back with Adam Brown. You currently need blue shift at Google DeepMine, which is cracking science and reasoning. In a previous life, Adam was a prolific physicist taught at Stanford and did research and everything from cosmology to stri",
@@ -34873,7 +35162,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -34939,7 +35228,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -35065,7 +35354,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -35124,7 +35413,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -35492,7 +35781,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
     "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
@@ -35804,7 +36093,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -35868,7 +36157,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -35994,7 +36283,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-23 \u2022 What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
     "last_proof_snippet": "Right now AI has been so much about productivity, job replacement, work replacement and I think we have a moment to shift that, which is how does these new tools help you get more out of your own day and your own life and the things you wan",
@@ -36671,7 +36960,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -36861,7 +37150,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-15 \u2022 AI, Design, and the Power of Open Models",
     "last_proof_snippet": "It's not about how good a model is in the general sense. It's about how good is this model for my use case, for a lot of design and marketing use case says they need editable design, not a single flat image. It's super impressive, honestly,",
@@ -37045,7 +37334,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -37113,7 +37402,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -37240,7 +37529,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -37498,7 +37787,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -37585,7 +37874,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -37710,7 +37999,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -37774,7 +38063,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -38093,7 +38382,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -38525,7 +38814,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -38588,7 +38877,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -39023,7 +39312,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -39089,7 +39378,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -39901,7 +40190,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -43651,7 +43940,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -43710,7 +43999,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",

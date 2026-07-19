@@ -1,5 +1,21 @@
 [
   {
+    "id": 356,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
+    "episode_date": "2026-07-19",
+    "summary": "In this emergency podcast, Peter Diamandis and his team discuss the recent release of Kimmy K3, the largest op-weight model ever, and its implications for the AI industry. They analyze the competitive landscape between the US and China in AI development and the potential for US government strategies to constrain Chinese AI models. The conversation also touches on the importance of frontier intelligence, the advancements in quantization, and the impact of these technologies on entrepreneurship and global accessibility.",
+    "key_takeaways": [
+      "Kimmy K3's release marks a significant milestone in AI, being the largest op-weight model ever created.",
+      "The US and China are in a race for AI dominance, with frontier intelligence becoming a perishable asset.",
+      "The US government may start constraining Chinese op-weight models from being used in the US.",
+      "Quantization advancements allow for large AI models to run on smartphones, opening up new possibilities for AI applications.",
+      "The discussion highlights the importance of open-source AI models and the potential for the US to lead in providing superintelligence globally."
+    ],
+    "investment_thesis": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
+    "key_tickers": null
+  },
+  {
     "id": 355,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Can the AI Industry Regulate Itself? Stripe Wants PayPal, China Catches Up, NY Bans Datacenters",
@@ -116,25 +132,6 @@
     "key_tickers": [
       "INTC",
       "NVDA"
-    ]
-  },
-  {
-    "id": 348,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
-    "episode_date": "2026-07-15",
-    "summary": "In this episode of 'The a16z Show', the panel discusses the state of AI hardware and the challenges of competing with video in the market. They explore the importance of infrastructure, including data centers and power, and how companies like Google, Amazon, Meta, and OpenAI are approaching AI infrastructure. The conversation also delves into custom silicon, AI economics, robotics, export controls, and considerations for founders and investors as the compute race accelerates.",
-    "key_takeaways": [
-      "AI infrastructure is not just about models but also the underlying data centers, power, networking, and economics.",
-      "Companies need to leap forward and be significantly better to compete with video in the AI space.",
-      "Custom silicon and AI economics are crucial for companies to stay competitive in the next generation of AI infrastructure.",
-      "Export controls and the ability to negotiate with suppliers like TSMC or SK Hynix can impact a company's cost efficiency.",
-      "Founders and investors should pay attention to the accelerating compute race and the need for hardware efficiency in AI workloads."
-    ],
-    "investment_thesis": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
-    "key_tickers": [
-      "NVIDIA",
-      "AMD"
     ]
   }
 ]
