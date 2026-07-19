@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T23:38:14.843131",
-  "last_updated": "2026-07-18T23:38:14.843131",
-  "last_pipeline_run": "2026-07-18T23:38:14.843131",
+  "generated_at": "2026-07-19T05:02:09.285521",
+  "last_updated": "2026-07-19T05:02:09.285521",
+  "last_pipeline_run": "2026-07-19T05:02:09.285521",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -15,7 +15,7 @@
     "overton_terms_total": 109,
     "latest_insights_total": 342,
     "today_mentions": {},
-    "podcasts_analyzed": 1
+    "podcasts_analyzed": 0
   },
   "step_results": {
     "downloaded": 1,
@@ -100,7 +100,7 @@
       "title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
       "status": "needs_analysis",
       "published": "2026-07-08",
-      "age_days": 10,
+      "age_days": 11,
       "next_blocker": "analyzed"
     }
   ],
