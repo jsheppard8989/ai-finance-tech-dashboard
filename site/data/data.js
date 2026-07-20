@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-20T06:36:27.220813",
-  chartsVersion: "2026-07-20T06:36:12.916710",
+  generatedAt: "2026-07-20T12:04:17.605305",
+  chartsVersion: "2026-07-20T12:04:00.146177",
   priceSnapshot: {
   "GOOGL": {
-    "price": 346.77,
-    "change_pct": -1.95,
+    "price": 353.66,
+    "change_pct": -1.04,
     "name": "GOOGL",
-    "updated_at": "2026-07-20T06:36:12.916184"
+    "updated_at": "2026-07-20T12:04:00.145217"
   },
   "NVDA": {
-    "price": 202.81,
-    "change_pct": 4.02,
+    "price": 203.75,
+    "change_pct": 1.83,
     "name": "NVDA",
-    "updated_at": "2026-07-20T06:36:12.916195"
+    "updated_at": "2026-07-20T12:04:00.145236"
   },
   "BTC": {
-    "price": 64770.36,
-    "change_pct": 2.33,
+    "price": 65409.47,
+    "change_pct": 3.34,
     "name": "BTC",
-    "updated_at": "2026-07-20T06:36:12.916199"
+    "updated_at": "2026-07-20T12:04:00.145245"
   },
   "MSFT": {
-    "price": 393.82,
-    "change_pct": 6.85,
+    "price": 400.63,
+    "change_pct": 7.4,
     "name": "MSFT",
-    "updated_at": "2026-07-20T06:36:12.916203"
+    "updated_at": "2026-07-20T12:04:00.145253"
   },
   "TSLA": {
-    "price": 380.84,
-    "change_pct": -7.53,
+    "price": 372.81,
+    "change_pct": -11.36,
     "name": "TSLA",
-    "updated_at": "2026-07-20T06:36:12.916206"
+    "updated_at": "2026-07-20T12:04:00.145260"
   },
   "AMZN": {
-    "price": 247.23,
-    "change_pct": 2.95,
+    "price": 251.55,
+    "change_pct": 5.54,
     "name": "AMZN",
-    "updated_at": "2026-07-20T06:36:12.916210"
+    "updated_at": "2026-07-20T12:04:00.145268"
   },
   "WTI": {
-    "price": 3.49,
-    "change_pct": 9.06,
+    "price": 3.5,
+    "change_pct": 11.24,
     "name": "WTI",
-    "updated_at": "2026-07-20T06:36:12.916214"
+    "updated_at": "2026-07-20T12:04:00.145276"
   },
   "META": {
-    "price": 646.01,
-    "change_pct": 14.83,
+    "price": 651.41,
+    "change_pct": 15.64,
     "name": "META",
-    "updated_at": "2026-07-20T06:36:12.916217"
+    "updated_at": "2026-07-20T12:04:00.145283"
   },
   "S&P 500": {
-    "price": 743.29,
-    "change_pct": 0.31,
+    "price": 744.7,
+    "change_pct": -0.28,
     "name": "S&P 500",
-    "updated_at": "2026-07-20T06:36:12.916220"
+    "updated_at": "2026-07-20T12:04:00.145291"
   },
   "AAPL": {
-    "price": 333.74,
-    "change_pct": 18.46,
+    "price": 324.3,
+    "change_pct": 12.07,
     "name": "AAPL",
-    "updated_at": "2026-07-20T06:36:12.916224"
+    "updated_at": "2026-07-20T12:04:00.145298"
   },
   "QQQ": {
-    "price": 695.33,
-    "change_pct": -3.97,
+    "price": 700.46,
+    "change_pct": -4.88,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-20T06:36:12.916227"
+    "updated_at": "2026-07-20T12:04:00.145305"
   },
   "BTC-USD": {
-    "price": 64770.36,
-    "change_pct": 2.33,
+    "price": 65408.69,
+    "change_pct": 3.34,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-20T06:36:12.916231"
+    "updated_at": "2026-07-20T12:04:00.145314"
   }
 },
   tickerScores: [
@@ -32633,7 +32633,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 34626,
+    "id": 34725,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -32645,7 +32645,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34627,
+    "id": 34726,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -32657,7 +32657,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34628,
+    "id": 34727,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -32669,7 +32669,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34629,
+    "id": 34728,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -32681,7 +32681,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34630,
+    "id": 34729,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -32693,7 +32693,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34631,
+    "id": 34730,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -32705,7 +32705,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34632,
+    "id": 34731,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -32717,7 +32717,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34633,
+    "id": 34732,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -32729,7 +32729,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34634,
+    "id": 34733,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -32741,7 +32741,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34635,
+    "id": 34734,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -32753,7 +32753,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34636,
+    "id": 34735,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -32765,7 +32765,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34637,
+    "id": 34736,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -32777,7 +32777,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34638,
+    "id": 34737,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -32789,7 +32789,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34639,
+    "id": 34738,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -32801,7 +32801,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34640,
+    "id": 34739,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -32813,7 +32813,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34641,
+    "id": 34740,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -32825,7 +32825,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34642,
+    "id": 34741,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -32837,7 +32837,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34643,
+    "id": 34742,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -32849,7 +32849,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34644,
+    "id": 34743,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -32861,7 +32861,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34645,
+    "id": 34744,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -33080,7 +33080,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-17",
     "mention_score": 2,
-    "mention_score_decayed": 1.91,
+    "mention_score_decayed": 1.87,
     "last_main_idea": "Investing in companies that prioritize public communication and authenticity can lead to stronger brand loyalty and trust, which are valuable assets in the long term.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-17 \u2022 Amjad Masad on Going Direct, Building Replit, and the Future of Software",
     "last_proof_snippet": "Being canceled is a choice. You should choose to get canceled and retreat from the public eye, but I think if you're still out there, at some point, honestly, the haters kind of give up. To some people ask, hey, how should I think about exp",
@@ -33326,7 +33326,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
@@ -35022,7 +35022,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
     "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro. We came to me and he said, why don't we see whether we can figure out a way to",
@@ -35289,7 +35289,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-08 \u2022 Adam Neumann: This Is How You Build Iconic Companies",
     "last_proof_snippet": "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
@@ -35597,7 +35597,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -35842,7 +35842,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -37023,7 +37023,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in Axiom Math for its pioneering role in verified AI for mathematics, which has the potential to drive innovation and efficiency in problem-solving across various fields.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
     "last_proof_snippet": "But it's for the first time now I think verified AI is to open up collaboration. Either it's human AI collaboration. Well, before a blueprint like that's human human collaboration. And Lin was a grounding, was a verification formal language",
@@ -37658,7 +37658,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -37724,7 +37724,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -38318,7 +38318,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -38565,7 +38565,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
