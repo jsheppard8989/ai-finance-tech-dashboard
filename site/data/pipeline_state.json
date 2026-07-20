@@ -1,29 +1,31 @@
 {
-  "generated_at": "2026-07-20T12:04:04.039879",
-  "last_updated": "2026-07-20T12:04:04.039879",
-  "last_pipeline_run": "2026-07-20T12:04:04.039879",
+  "generated_at": "2026-07-20T13:37:23.859303",
+  "last_updated": "2026-07-20T13:37:23.859303",
+  "last_pipeline_run": "2026-07-20T13:37:23.859303",
   "main_page": {
     "overton": 13,
     "insights": 8,
-    "pundits": 220
+    "pundits": 221
   },
   "counts": {
-    "ticker_mentions": 205,
-    "podcast_episodes": 329,
+    "ticker_mentions": 206,
+    "podcast_episodes": 330,
     "newsletters": 7,
-    "daily_scores": 143,
+    "daily_scores": 144,
     "overton_terms_total": 110,
-    "latest_insights_total": 343,
-    "today_mentions": {},
-    "podcasts_analyzed": 0
+    "latest_insights_total": 344,
+    "today_mentions": {
+      "podcast": 1
+    },
+    "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 1,
-    "analyzed": 0,
-    "insight_created": 0,
-    "published": 0,
-    "total": 2
+    "downloaded": 3,
+    "transcribed": 2,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 3
   },
   "episodes": [
     {
@@ -89,6 +91,24 @@
       "title": "Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
       "published": "2026-07-20",
       "rss_guid": "09918d5e-83da-11f1-ac20-e3dc7c94fecb",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
+    },
+    {
+      "id": "b66c28c5-98aa-4273-b6c7-d1b94071eb78",
+      "podcast": "The a16z Show",
+      "title": "Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
+      "published": "2026-07-20",
+      "rss_guid": "b66c28c5-98aa-4273-b6c7-d1b94071eb78",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -157,9 +177,9 @@
   ],
   "available_from_rss": [
     {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
-      "published": "Mon, 20 Jul 2026 12:54:00 -0000",
+      "podcast": "The a16z Show",
+      "title": "Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
+      "published": "Mon, 20 Jul 2026 17:08:39 +0000",
       "published_date": "2026-07-20",
       "rss_guid": ""
     },

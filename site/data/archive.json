@@ -1,6 +1,28 @@
 {
   "insights": [
     {
+      "id": 372,
+      "title": "Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-07-20",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Financial Investor Researcher and author Nick Nemeth on the potential risks in the private credit industry. Nemeth argues that the current situation is reminiscent of 1929 rather than 2008, with private credit being the trigger for a potential massive financial blow-up. The discussion covers the high leverage in direct lending, the role of insurance companies in the alternative asset space, and the commoditization of life and health insurance. Nemeth also highlights the risks associated with the massive balance sheets of insurance companies and the potential for a crisis in the private credit market.",
+      "key_takeaway": "The private credit industry is overleveraged and poses a significant systemic risk, with potential for a massive financial blow-up that could be triggered by the insurance industry's massive balance sheets.",
+      "tickers_mentioned": [
+        "CORN",
+        "BX",
+        "BCRED",
+        "FSK"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 357
+    },
+    {
       "id": 371,
       "title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
       "source_type": "podcast",
@@ -180,7 +202,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-16",
       "archived_date": null,

@@ -1,6 +1,18 @@
 [
   {
-    "id": 34725,
+    "id": 34824,
+    "name": "Nick Nemeth",
+    "slug": "nick-nemeth",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The private credit industry is overleveraged and poses a significant systemic risk, with potential for a massive financial blow-up that could be triggered by the insurance industry's massive balance sheets.",
+    "last_episode_title": "Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-07-20",
+    "appearance_count": 1
+  },
+  {
+    "id": 34825,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34726,
+    "id": 34826,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34727,
+    "id": 34827,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34728,
+    "id": 34828,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34729,
+    "id": 34829,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34730,
+    "id": 34830,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34731,
+    "id": 34831,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34732,
+    "id": 34832,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34733,
+    "id": 34833,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34734,
+    "id": 34834,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34735,
+    "id": 34835,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34736,
+    "id": 34836,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34737,
+    "id": 34837,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34738,
+    "id": 34838,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34739,
+    "id": 34839,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34740,
+    "id": 34840,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34741,
+    "id": 34841,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34742,
+    "id": 34842,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34743,
+    "id": 34843,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34744,
+    "id": 34844,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34745,
+    "id": 34845,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34746,
+    "id": 34846,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34747,
+    "id": 34847,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 2
   },
   {
-    "id": 34748,
+    "id": 34848,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34749,
+    "id": 34849,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34750,
+    "id": 34850,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34751,
+    "id": 34851,
     "name": "Dan Dreyfus",
     "slug": "dan-dreyfus",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34752,
+    "id": 34852,
     "name": "Bitcoin Selloff Explained",
     "slug": "bitcoin-selloff-explained",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 34753,
+    "id": 34853,
     "name": "Bill Maris",
     "slug": "bill-maris",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
-    "appearance_count": 1
-  },
-  {
-    "id": 34754,
-    "name": "Emerging Situation",
-    "slug": "emerging-situation",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in companies at the forefront of AI development and in regions with favorable AI regulatory environments to capitalize on the rapid advancements and market opportunities in AI.",
-    "last_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-06-08",
     "appearance_count": 1
   }
 ]

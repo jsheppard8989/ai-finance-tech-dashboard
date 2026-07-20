@@ -1,5 +1,27 @@
 [
   {
+    "id": 357,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
+    "episode_date": "2026-07-20",
+    "summary": "In this episode of Monetary Matters, host Jack Farley interviews Financial Investor Researcher and author Nick Nemeth on the potential risks in the private credit industry. Nemeth argues that the current situation is reminiscent of 1929 rather than 2008, with private credit being the trigger for a potential massive financial blow-up. The discussion covers the high leverage in direct lending, the role of insurance companies in the alternative asset space, and the commoditization of life and health insurance. Nemeth also highlights the risks associated with the massive balance sheets of insurance companies and the potential for a crisis in the private credit market.",
+    "key_takeaways": [
+      "Nick Nemeth is bearish on the private credit industry, comparing it to the 1929 financial crisis rather than 2008.",
+      "Private credit is leveraged at seven times EBITDA, with EBITDA often adjusted, leading to potential leverages of up to nine times.",
+      "Insurance companies have a $10 trillion balance sheet, which is 150% of the Federal Reserve's, posing a systemic risk.",
+      "Alternative asset managers are turning to insurance capital, viewing it as 'permanent capital' due to its long duration.",
+      "The commoditization of life and health insurance has turned these businesses into investment firms disguised as insurance companies.",
+      "Nemeth sees an opportunity in shorting the balance sheets of insurance companies."
+    ],
+    "investment_thesis": "The private credit industry is overleveraged and poses a significant systemic risk, with potential for a massive financial blow-up that could be triggered by the insurance industry's massive balance sheets.",
+    "key_tickers": [
+      "CORN",
+      "BX",
+      "BCRED",
+      "FSK"
+    ]
+  },
+  {
     "id": 356,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
@@ -114,24 +136,5 @@
     ],
     "investment_thesis": "Investing in AI and crypto requires understanding the interplay between technology and policy, with a focus on regulatory clarity and open-source initiatives for long-term competitiveness.",
     "key_tickers": null
-  },
-  {
-    "id": 349,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
-    "episode_date": "2026-07-15",
-    "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the panel discusses the trajectory of Intel, one of America's greatest companies, which lost its edge to competitors like Nvidia, TSMC, and Apple. The conversation delves into Intel's mistakes, the importance of technical leadership in tech companies, and the future of computing with the convergence of classical computing, AI computing, and quantum computing. Additionally, the panel touches on the rapid growth of Loveable, a platform enabling anyone to build great software, and the potential of quantum computing to solve problems currently beyond our reach.",
-    "key_takeaways": [
-      "Intel's shift from technical leadership to business-centric leadership led to strategic missteps.",
-      "Technical decisions in tech companies should be driven by technologists, not just business leaders.",
-      "Investment in R&D and future technologies is crucial for maintaining a competitive edge.",
-      "The convergence of classical, AI, and quantum computing will lead to significant advancements by 2030.",
-      "Loveable's platform is enabling rapid software development and business growth."
-    ],
-    "investment_thesis": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
-    "key_tickers": [
-      "INTC",
-      "NVDA"
-    ]
   }
 ]

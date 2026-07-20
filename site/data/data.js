@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-20T12:04:17.605305",
-  chartsVersion: "2026-07-20T12:04:00.146177",
+  generatedAt: "2026-07-20T13:37:32.610835",
+  chartsVersion: "2026-07-20T13:37:19.623223",
   priceSnapshot: {
   "GOOGL": {
-    "price": 353.66,
-    "change_pct": -1.04,
+    "price": 351.7,
+    "change_pct": -1.59,
     "name": "GOOGL",
-    "updated_at": "2026-07-20T12:04:00.145217"
+    "updated_at": "2026-07-20T13:37:19.622091"
   },
   "NVDA": {
-    "price": 203.75,
-    "change_pct": 1.83,
+    "price": 204.19,
+    "change_pct": 2.05,
     "name": "NVDA",
-    "updated_at": "2026-07-20T12:04:00.145236"
+    "updated_at": "2026-07-20T13:37:19.622111"
   },
   "BTC": {
-    "price": 65409.47,
-    "change_pct": 3.34,
+    "price": 65491.04,
+    "change_pct": 3.47,
     "name": "BTC",
-    "updated_at": "2026-07-20T12:04:00.145245"
+    "updated_at": "2026-07-20T13:37:19.622119"
   },
   "MSFT": {
-    "price": 400.63,
-    "change_pct": 7.4,
+    "price": 402.23,
+    "change_pct": 7.83,
     "name": "MSFT",
-    "updated_at": "2026-07-20T12:04:00.145253"
+    "updated_at": "2026-07-20T13:37:19.622127"
   },
   "TSLA": {
-    "price": 372.81,
-    "change_pct": -11.36,
+    "price": 372.66,
+    "change_pct": -11.4,
     "name": "TSLA",
-    "updated_at": "2026-07-20T12:04:00.145260"
+    "updated_at": "2026-07-20T13:37:19.622135"
   },
   "AMZN": {
-    "price": 251.55,
-    "change_pct": 5.54,
+    "price": 250.15,
+    "change_pct": 4.96,
     "name": "AMZN",
-    "updated_at": "2026-07-20T12:04:00.145268"
+    "updated_at": "2026-07-20T13:37:19.622142"
   },
   "WTI": {
-    "price": 3.5,
-    "change_pct": 11.24,
+    "price": 3.57,
+    "change_pct": 13.17,
     "name": "WTI",
-    "updated_at": "2026-07-20T12:04:00.145276"
+    "updated_at": "2026-07-20T13:37:19.622150"
   },
   "META": {
-    "price": 651.41,
-    "change_pct": 15.64,
+    "price": 648.78,
+    "change_pct": 15.18,
     "name": "META",
-    "updated_at": "2026-07-20T12:04:00.145283"
+    "updated_at": "2026-07-20T13:37:19.622158"
   },
   "S&P 500": {
-    "price": 744.7,
-    "change_pct": -0.28,
+    "price": 744.13,
+    "change_pct": -0.35,
     "name": "S&P 500",
-    "updated_at": "2026-07-20T12:04:00.145291"
+    "updated_at": "2026-07-20T13:37:19.622165"
   },
   "AAPL": {
-    "price": 324.3,
-    "change_pct": 12.07,
+    "price": 326.79,
+    "change_pct": 12.94,
     "name": "AAPL",
-    "updated_at": "2026-07-20T12:04:00.145298"
+    "updated_at": "2026-07-20T13:37:19.622172"
   },
   "QQQ": {
-    "price": 700.46,
-    "change_pct": -4.88,
+    "price": 699.63,
+    "change_pct": -4.99,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-20T12:04:00.145305"
+    "updated_at": "2026-07-20T13:37:19.622180"
   },
   "BTC-USD": {
-    "price": 65408.69,
-    "change_pct": 3.34,
+    "price": 65491.04,
+    "change_pct": 3.47,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-20T12:04:00.145314"
+    "updated_at": "2026-07-20T13:37:19.622189"
   }
 },
   tickerScores: [
@@ -834,6 +834,28 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 372,
+      "title": "Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-07-20",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Financial Investor Researcher and author Nick Nemeth on the potential risks in the private credit industry. Nemeth argues that the current situation is reminiscent of 1929 rather than 2008, with private credit being the trigger for a potential massive financial blow-up. The discussion covers the high leverage in direct lending, the role of insurance companies in the alternative asset space, and the commoditization of life and health insurance. Nemeth also highlights the risks associated with the massive balance sheets of insurance companies and the potential for a crisis in the private credit market.",
+      "key_takeaway": "The private credit industry is overleveraged and poses a significant systemic risk, with potential for a massive financial blow-up that could be triggered by the insurance industry's massive balance sheets.",
+      "tickers_mentioned": [
+        "CORN",
+        "BX",
+        "BCRED",
+        "FSK"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 357
+    },
+    {
       "id": 371,
       "title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
       "source_type": "podcast",
@@ -1013,7 +1035,7 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-16",
       "archived_date": null,
@@ -9924,6 +9946,31 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 372,
+      "title": "Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-07-20",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Financial Investor Researcher and author Nick Nemeth on the potential risks in the private credit industry. Nemeth argues that the current situation is reminiscent of 1929 rather than 2008, with private credit being the trigger for a potential massive financial blow-up. The discussion covers the high leverage in direct lending, the role of insurance companies in the alternative asset space, and the commoditization of life and health insurance. Nemeth also highlights the risks associated with the massive balance sheets of insurance companies and the potential for a crisis in the private credit market.",
+      "key_takeaway": "The private credit industry is overleveraged and poses a significant systemic risk, with potential for a massive financial blow-up that could be triggered by the insurance industry's massive balance sheets.",
+      "tickers_mentioned": "[\"CORN\", \"BX\", \"BCRED\", \"FSK\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 357,
+      "episode_release_date": "2026-07-20",
+      "guest_name": "Nick Nemeth",
+      "key_tickers": [
+        "CORN",
+        "BX",
+        "BCRED",
+        "FSK"
+      ]
+    },
+    {
       "id": 371,
       "title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
       "source_type": "podcast",
@@ -10062,29 +10109,6 @@ const dashboardData = {
       "episode_release_date": "2026-07-16",
       "guest_name": "Turbo Charged Trend Following",
       "key_tickers": []
-    },
-    {
-      "id": 364,
-      "title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-07-15",
-      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the panel discusses the trajectory of Intel, one of America's greatest companies, which lost its edge to competitors like Nvidia, TSMC, and Apple. The conversation delves into Intel's mistakes, the importance of technical leadership in tech companies, and the future of computing with the convergence of classical computing, AI computing, and quantum computing. Additionally, the panel touches on the rapid growth of Loveable, a platform enabling anyone to build great software, and the potential of quantum computing to solve problems currently beyond our reach.",
-      "key_takeaway": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
-      "tickers_mentioned": "[\"INTC\", \"NVDA\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-16",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 349,
-      "episode_release_date": "2026-07-15",
-      "guest_name": null,
-      "key_tickers": [
-        "INTC",
-        "NVDA"
-      ]
     }
   ],
   "definitions": [
@@ -32579,9 +32603,104 @@ const dashboardData = {
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-07-19",
     "key_tickers": []
+  },
+  "372": {
+    "id": 362,
+    "insight_id": 372,
+    "podcast_episode_id": 357,
+    "overview": "The unresolved tension highlighted by Nemeth is the interplay between the high leverage in private credit and the massive, opaque balance sheets of insurance companies. The competitive dynamic is not just between financial institutions but also between their risk management practices and the potential for systemic failure. The allocation tradeoff for allocators is whether to remain invested in an overleveraged system that could offer high returns or to divest to mitigate the risk of a systemic collapse.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor leverage ratios in private credit to assess the risk of default and potential contagion effects.",
+      "The opacity of the insurance industry's financial reports poses a significant risk, suggesting the need for greater transparency and regulatory oversight.",
+      "The concentration of private credit on insurance balance sheets could lead to a systemic crisis if these assets experience a downturn, affecting not just the financial sector but also policyholders.",
+      "The potential for a crisis in the private credit market is heightened by the lack of a safety net like the FDIC for insurance companies, increasing the risk of losses for policyholders.",
+      "Investors should consider the liquidity and exit strategies of private equity firms, as the ability to sell companies at scale has been limited, leading to increased reliance on borrowing."
+    ],
+    "investment_thesis": "The core logic is that the high leverage in private credit, coupled with the massive and opaque balance sheets of insurance companies, poses a significant systemic risk that could lead to a financial crisis reminiscent of 1929. This thesis is vindicated if there is a significant downturn in the economy leading to increased defaults in private credit, which in turn stresses insurance company balance sheets. Conversely, it would be invalidated if economic conditions remain stable, allowing for orderly deleveraging and the resolution of private credit risks without systemic impact.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "While not directly mentioned in the source, Apple (AAPL) is included as a representative of the broader market and technology sector, which could be indirectly affected by a financial crisis stemming from the private credit market and insurance industry.",
+        "positioning": "Positioning in AAPL would be strategic, considering its market influence and potential to act as a bellwether for broader economic health. A long position could be considered if the market remains stable, while a hedge or short position might be warranted in the face of increasing systemic risks.",
+        "risk": "Key risks include a potential market downturn due to systemic financial risks, as well as changes in consumer spending and global economic conditions that could affect Apple's sales and profitability."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The view that the current financial system is more resilient than in 1929, with better regulation and risk management practices in place.",
+      "Arguments that the insurance industry has sufficient capital and diversification to withstand potential losses in private credit without systemic impact.",
+      "The belief that private credit markets have matured and are better equipped to manage risk, reducing the likelihood of a significant blow-up.",
+      "Assertions that the economic cycle is longer than anticipated, and that the current risks in private credit and insurance are manageable over a longer horizon."
+    ],
+    "catalysts": [
+      "Economic indicators showing signs of stress, such as rising defaults in private credit markets.",
+      "Regulatory changes or enforcement actions that impact the private credit and insurance sectors.",
+      "Significant market events, such as the failure of a major insurance company or a sharp downturn in the value of private credit assets.",
+      "Economic data releases that indicate a weakening economy, which could exacerbate risks in the private credit market.",
+      "Policy changes or market responses from the Federal Reserve that could either mitigate or exacerbate the risks in the private credit and insurance sectors."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-20T13:36:22.686591",
+    "updated_at": "2026-07-20 18:36:22",
+    "episode_evidence": "Nick Nemeth, in his discussion with Jack Farley, emphasizes the high leverage in direct lending, stating, 'They're running leverage at seven times EBITDA. That's adjusted.' He further explains the issue with EBITDA, 'EBITDA, your audience definitely knows this...that's what Warren Buffet would call fake earnings.' Nemeth also points out the opacity in the insurance industry, 'The annual reports, the statutory filings, can get up to 10,000 pages.' He raises concerns about the insurance companies' balance sheets, 'One trillion dollars on those balance sheets is private credit. And if those balance sheets go under...there's no FDIC.' These details underscore the systemic risks Nemeth identifies, which are not just about high leverage but also about the potential collapse of a massive, opaque, and interconnected financial system.",
+    "falsification_tracks": [
+      "A sustained decrease in leverage ratios across private credit portfolios to levels significantly below seven times EBITDA would reduce concerns about overleveraging.",
+      "Public disclosure of insurance companies' balance sheets showing a substantial reduction in private credit holdings, indicating a de-risking strategy.",
+      "Regulatory changes that enforce greater transparency and stricter leverage limits in the private credit and insurance sectors.",
+      "A series of successful exits and debt repayments by private equity firms without resorting to high-risk financial engineering, indicating a healthier industry.",
+      "Insurance companies demonstrating robust capital reserves and effective risk management practices that ensure policyholder funds are secure and not overexposed to private credit risks."
+    ],
+    "insight_title": "Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-07-20",
+    "key_tickers": [
+      "CORN",
+      "BX",
+      "BCRED",
+      "FSK"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 529,
+    "term": "Systemic Risk",
+    "definition": "The risk that a failure in one part of a system will cause the whole system to fail.",
+    "investment_implications": "Nemeth identifies private credit as a potential trigger for a systemic financial crisis.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-20 18:35:34",
+    "priority_score": 80
+  },
+  {
+    "id": 530,
+    "term": "Permanent Capital",
+    "definition": "Capital that is intended to be invested for the long term, often used in the context of alternative asset management.",
+    "investment_implications": "Alternative asset managers view insurance capital as permanent, but Nemeth argues that nothing is truly permanent.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-20 18:35:34",
+    "priority_score": 80
+  },
+  {
+    "id": 531,
+    "term": "Commoditization of Insurance",
+    "definition": "The process by which insurance products become standardized and undifferentiated, reducing the ability to gain a competitive edge.",
+    "investment_implications": "Nemeth argues that life and health insurance have become commoditized, turning these businesses into investment firms.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-20 18:35:34",
+    "priority_score": 80
+  },
   {
     "id": 526,
     "term": "AI-Sputnik Moment",
@@ -32593,47 +32712,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-19 18:34:32",
     "priority_score": 80
-  },
-  {
-    "id": 527,
-    "term": "Frontier Intelligence",
-    "definition": "Cutting-edge AI capabilities that represent the leading edge of intelligence and technology, often associated with significant breakthroughs or advancements in the field.",
-    "investment_implications": "Investors should focus on companies developing frontier intelligence as these are likely to shape the future of AI and have a substantial impact on various industries.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-19 18:34:32",
-    "priority_score": 80
-  },
-  {
-    "id": 528,
-    "term": "Quantization",
-    "definition": "The process of reducing the precision of the numbers used to represent a mathematical element, such as an AI model, to enable more efficient storage and computation.",
-    "investment_implications": "Quantization is crucial for making AI models more accessible and deployable across various devices, potentially leading to new investment opportunities in AI deployment and optimization.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-19 18:34:32",
-    "priority_score": 80
-  },
-  {
-    "id": 522,
-    "term": "AI Regulation Proposal",
-    "definition": "A framework proposed by Demis Hassabis for regulating AI development, similar to Finra, which would be industry-funded and overseen by independent technological experts.",
-    "investment_implications": "This proposal could set the standard for how AI is developed and used, impacting investment in AI companies.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-18 10:01:35",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 34725,
+    "id": 34824,
+    "name": "Nick Nemeth",
+    "slug": "nick-nemeth",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The private credit industry is overleveraged and poses a significant systemic risk, with potential for a massive financial blow-up that could be triggered by the insurance industry's massive balance sheets.",
+    "last_episode_title": "Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-07-20",
+    "appearance_count": 1
+  },
+  {
+    "id": 34825,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -32645,7 +32740,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34726,
+    "id": 34826,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -32657,7 +32752,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34727,
+    "id": 34827,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -32669,7 +32764,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34728,
+    "id": 34828,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -32681,7 +32776,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34729,
+    "id": 34829,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -32693,7 +32788,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34730,
+    "id": 34830,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -32705,7 +32800,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34731,
+    "id": 34831,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -32717,7 +32812,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34732,
+    "id": 34832,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -32729,7 +32824,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34733,
+    "id": 34833,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -32741,7 +32836,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34734,
+    "id": 34834,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -32753,7 +32848,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34735,
+    "id": 34835,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -32765,7 +32860,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34736,
+    "id": 34836,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -32777,7 +32872,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34737,
+    "id": 34837,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -32789,7 +32884,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34738,
+    "id": 34838,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -32801,7 +32896,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34739,
+    "id": 34839,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -32813,7 +32908,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34740,
+    "id": 34840,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -32825,7 +32920,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34741,
+    "id": 34841,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -32837,7 +32932,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34742,
+    "id": 34842,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -32849,7 +32944,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34743,
+    "id": 34843,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -32858,18 +32953,6 @@ const dashboardData = {
     "last_episode_title": "GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-23",
-    "appearance_count": 1
-  },
-  {
-    "id": 34744,
-    "name": "Jake Paul & Anti Fund",
-    "slug": "jake-paul--anti-fund",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
-    "last_episode_title": "Jake Paul & Anti Fund: From Creator to Investor",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-22",
     "appearance_count": 1
   }
 ],
@@ -33524,7 +33607,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -33712,7 +33795,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -34318,6 +34401,70 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 346,
+    "name": "Nick Nemeth",
+    "slug": "nick-nemeth",
+    "bio": "Nick Nemeth is a financial investor researcher and author at Miss Price Assets. He is known for his insightful writings on private credits and alternative assets, particularly his bearish views on the private credit industry.",
+    "known_for": "His bearish views on the private credit industry and the assertion that it resembles the 1929 financial crisis more than 2008.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Bullish on identifying systemic risk.",
+    "voice_style": "Detailed and analytical, with a focus on the potential for a financial crisis.",
+    "voice_delivery_notes": "Speaks with conviction and a sense of urgency about the risks in the private credit industry.",
+    "voice_profile_updated_at": "2026-07-20 18:35:34",
+    "last_seen": "2026-07-20 18:35:34",
+    "last_episode_title": "Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-07-20",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The private credit industry is overleveraged and poses a significant systemic risk, with potential for a massive financial blow-up that could be triggered by the insurance industry's massive balance sheets.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-20 \u2022 Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
+    "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. Join today by Nick Nemeth Financial Investor Researcher and author at Miss Price Assets. Nick, welcome to monetary matters. Thanks, Jack. It's g",
+    "supporting_takeaway": "Private credit is leveraged at seven times EBITDA, with EBITDA often adjusted, leading to potential leverages of up to nine times.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-20T13:35:54.796900",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Nick Nemeth",
+      "fetched_at": "2026-07-20T18:35:54.796406+00:00",
+      "cliff_notes": "Nick Nemeth is a financial investor researcher and author, currently working at Miss Price Assets. He has made a name for himself in the financial community through his writings on private credits and alternative assets. Nemeth's work has been particularly focused on private equity, real estate, and primarily private credit. His piece titled 'The Smart Money is the Subprime this Time' has garnered attention for its bearish outlook on the private credit industry, comparing the current state to the 1929 financial crisis rather than 2008. Nemeth's insights into systemic risk and his belief that the end of the financial cycle is near make his perspective valuable to investors and those interested in financial markets.",
+      "derived": {
+        "current_role": "Financial Investor Researcher and author at Miss Price Assets",
+        "books_or_works": "The Smart Money is the Subprime this Time"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Nick Nemeth is a financial investor researcher and author, currently working at Miss Price Assets. He has made a name for himself in the financial community through his writings on private credits and alternative assets. Nemeth's work has been particularly focused on private equity, real estate, and primarily private credit.",
+        "His piece titled 'The Smart Money is the Subprime this Time' has garnered attention for its bearish outlook on the private credit industry, comparing the current state to the 1929 financial crisis rather than 2008. Nemeth's insights into systemic risk and his belief that the end of the financial cycle is near make his perspective valuable to investors and those interested in financial markets."
+      ],
+      "sections": [
+        {
+          "heading": "Private Credit",
+          "body": "Nick Nemeth has written extensively on private credit, expressing concerns about its resemblance to the 1929 financial crisis."
+        },
+        {
+          "heading": "Alternative Assets",
+          "body": "Nemeth's work covers alternative assets, including private equity and real estate, providing investors with a deeper understanding of these markets."
+        },
+        {
+          "heading": "Systemic Risk",
+          "body": "He has identified systemic risk in the financial system, which he believes will mark the end of the current financial cycle."
+        },
+        {
+          "heading": "Financial Cycles",
+          "body": "Nemeth discusses the length of financial cycles and why he believes the current one is nearing its conclusion."
+        }
+      ]
+    }
+  },
+  {
     "id": 343,
     "name": "Alex Wees",
     "slug": "alex-wees",
@@ -34335,7 +34482,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -34396,7 +34543,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -34456,7 +34603,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -34890,7 +35037,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-15 \u2022 Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
     "last_proof_snippet": "In videos that are going to have better networking than you, they're going to have better HP, they're going to have better process-node, they're going to come to market faster, they're going to be able to ramp faster, they're going to have",
@@ -35092,7 +35239,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-07-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-07-10 \u2022 Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
     "last_proof_snippet": "I'm back with Adam Brown. You currently need blue shift at Google DeepMine, which is cracking science and reasoning. In a previous life, Adam was a prolific physicist taught at Stanford and did research and everything from cosmology to stri",
@@ -35162,7 +35309,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -35228,7 +35375,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -35354,7 +35501,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -35413,7 +35560,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -35781,7 +35928,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
     "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
@@ -36093,7 +36240,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -36157,7 +36304,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -36283,7 +36430,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-23 \u2022 What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
     "last_proof_snippet": "Right now AI has been so much about productivity, job replacement, work replacement and I think we have a moment to shift that, which is how does these new tools help you get more out of your own day and your own life and the things you wan",
@@ -36960,7 +37107,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -37150,7 +37297,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-15 \u2022 AI, Design, and the Power of Open Models",
     "last_proof_snippet": "It's not about how good a model is in the general sense. It's about how good is this model for my use case, for a lot of design and marketing use case says they need editable design, not a single flat image. It's super impressive, honestly,",
@@ -37334,7 +37481,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -37402,7 +37549,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -37529,7 +37676,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -37787,7 +37934,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -37874,7 +38021,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -37999,7 +38146,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -38750,7 +38897,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -39939,7 +40086,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -40002,7 +40149,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
