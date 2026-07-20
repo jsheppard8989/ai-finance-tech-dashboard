@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-19T13:36:45.567497",
-  "last_updated": "2026-07-19T13:36:45.567497",
-  "last_pipeline_run": "2026-07-19T13:36:45.567497",
+  "generated_at": "2026-07-19T22:02:31.318690",
+  "last_updated": "2026-07-19T22:02:31.318690",
+  "last_pipeline_run": "2026-07-19T22:02:31.318690",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -18,32 +18,14 @@
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 2
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
-    {
-      "id": "6efd6a6c-82e2-11f1-afce-5b8fb8a769ad",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
-      "published": "2026-07-19",
-      "rss_guid": "6efd6a6c-82e2-11f1-afce-5b8fb8a769ad",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "e2b4dfa8-7afe-11f1-9513-ffafb716b27a",
       "podcast": "Moonshots with Peter Diamandis",
