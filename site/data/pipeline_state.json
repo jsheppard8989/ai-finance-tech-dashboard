@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-20T22:03:41.804137",
-  "last_updated": "2026-07-20T22:03:41.804137",
-  "last_pipeline_run": "2026-07-20T22:03:41.804137",
+  "generated_at": "2026-07-20T23:39:53.794334",
+  "last_updated": "2026-07-20T23:39:53.794334",
+  "last_pipeline_run": "2026-07-20T23:39:53.794334",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -18,12 +18,12 @@
     "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 2
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
     {
@@ -82,24 +82,6 @@
         }
       },
       "status": "needs_analysis"
-    },
-    {
-      "id": "b66c28c5-98aa-4273-b6c7-d1b94071eb78",
-      "podcast": "The a16z Show",
-      "title": "Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
-      "published": "2026-07-20",
-      "rss_guid": "b66c28c5-98aa-4273-b6c7-d1b94071eb78",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
     }
   ],
   "available_from_rss": [
