@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 374,
+      "title": "Why Physical AI Is the Next Frontier | Applied Intuition",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-21",
+      "summary": "In this episode of 'The a16z Show', the hosts discuss the future of physical AI and autonomous systems with the co-founders of Applied Intuition, a company focused on putting intelligence on machines such as cars, trucks, tanks, and drones. The conversation covers the impact of physical AI on the global economy, the challenges of engineering autonomous systems, and the potential for the next decade to transform not just software, but the physical economy. The co-founders also discuss their newest platform, Dana, which aims to simplify the building and deployment of autonomous systems.",
+      "key_takeaway": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 359
+    },
+    {
       "id": 372,
       "title": "Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
       "source_type": "podcast",
@@ -162,7 +181,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-16",
       "archived_date": null,
@@ -7758,8 +7777,8 @@
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-19",
-      "mention_count": 57,
+      "last_mentioned_date": "2026-07-21",
+      "mention_count": 58,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -7768,8 +7787,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 356,
-      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo"
+      "last_mentioned_episode_id": 359,
+      "last_mentioned_speaker": "Casser, Eunice, Peter Ludwig"
     },
     {
       "id": 162,
@@ -8134,20 +8153,20 @@
     {
       "id": 89,
       "term": "Autonomous Vehicles (AVs)",
-      "description": "Self-driving vehicles that use sensors, cameras, and AI to navigate and operate without human input.",
+      "description": "Vehicles capable of sensing their environment and navigating without human input, representing a significant advancement in physical AI.",
       "first_detected_date": "2026-04-03",
-      "last_mentioned_date": "2026-07-02",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-07-21",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "The transition to AVs presents a significant growth opportunity for mobility companies that can leverage their existing infrastructure.",
+      "investment_implications": "Investment in AV technology could offer substantial returns as it becomes more prevalent in the transportation sector.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 327,
-      "last_mentioned_speaker": "Marcus Villik"
+      "last_mentioned_episode_id": 359,
+      "last_mentioned_speaker": "Casser, Eunice, Peter Ludwig"
     },
     {
       "id": 90,

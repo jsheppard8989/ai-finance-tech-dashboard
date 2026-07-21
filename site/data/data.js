@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-21T12:05:08.594477",
-  chartsVersion: "2026-07-21T12:04:54.385550",
+  generatedAt: "2026-07-21T13:38:38.136432",
+  chartsVersion: "2026-07-21T13:38:23.464014",
   priceSnapshot: {
   "GOOGL": {
-    "price": 349.43,
-    "change_pct": -3.26,
+    "price": 348.55,
+    "change_pct": -3.5,
     "name": "GOOGL",
-    "updated_at": "2026-07-21T12:04:54.384269"
+    "updated_at": "2026-07-21T13:38:23.463114"
   },
   "NVDA": {
-    "price": 205.37,
-    "change_pct": 3.94,
+    "price": 206.76,
+    "change_pct": 4.65,
     "name": "NVDA",
-    "updated_at": "2026-07-21T12:04:54.384288"
+    "updated_at": "2026-07-21T13:38:23.463128"
   },
   "BTC": {
-    "price": 66490.1,
-    "change_pct": 6.8,
+    "price": 66243.4,
+    "change_pct": 6.4,
     "name": "BTC",
-    "updated_at": "2026-07-21T12:04:54.384327"
+    "updated_at": "2026-07-21T13:38:23.463133"
   },
   "MSFT": {
-    "price": 398.39,
-    "change_pct": 3.67,
+    "price": 398.16,
+    "change_pct": 3.61,
     "name": "MSFT",
-    "updated_at": "2026-07-21T12:04:54.384345"
+    "updated_at": "2026-07-21T13:38:23.463138"
   },
   "TSLA": {
-    "price": 380.9,
-    "change_pct": -10.44,
+    "price": 379.56,
+    "change_pct": -10.75,
     "name": "TSLA",
-    "updated_at": "2026-07-21T12:04:54.384355"
+    "updated_at": "2026-07-21T13:38:23.463143"
   },
   "AMZN": {
-    "price": 247.94,
-    "change_pct": 2.58,
+    "price": 247.74,
+    "change_pct": 2.5,
     "name": "AMZN",
-    "updated_at": "2026-07-21T12:04:54.384364"
+    "updated_at": "2026-07-21T13:38:23.463148"
   },
   "WTI": {
-    "price": 3.61,
-    "change_pct": 17.05,
+    "price": 3.6,
+    "change_pct": 16.88,
     "name": "WTI",
-    "updated_at": "2026-07-21T12:04:54.384374"
+    "updated_at": "2026-07-21T13:38:23.463153"
   },
   "META": {
-    "price": 646.88,
-    "change_pct": 5.54,
+    "price": 646.7,
+    "change_pct": 5.51,
     "name": "META",
-    "updated_at": "2026-07-21T12:04:54.384385"
+    "updated_at": "2026-07-21T13:38:23.463158"
   },
   "S&P 500": {
-    "price": 748.61,
-    "change_pct": 0.38,
+    "price": 748.2,
+    "change_pct": 0.33,
     "name": "S&P 500",
-    "updated_at": "2026-07-21T12:04:54.384393"
+    "updated_at": "2026-07-21T13:38:23.463162"
   },
   "AAPL": {
-    "price": 327.76,
-    "change_pct": 11.34,
+    "price": 327.47,
+    "change_pct": 11.24,
     "name": "AAPL",
-    "updated_at": "2026-07-21T12:04:54.384400"
+    "updated_at": "2026-07-21T13:38:23.463167"
   },
   "QQQ": {
-    "price": 709.67,
-    "change_pct": -2.14,
+    "price": 709.28,
+    "change_pct": -2.19,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-21T12:04:54.384409"
+    "updated_at": "2026-07-21T13:38:23.463172"
   },
   "BTC-USD": {
-    "price": 66490.1,
-    "change_pct": 6.8,
+    "price": 66243.4,
+    "change_pct": 6.4,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-21T12:04:54.384419"
+    "updated_at": "2026-07-21T13:38:23.463177"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 374,
+      "title": "Why Physical AI Is the Next Frontier | Applied Intuition",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-21",
+      "summary": "In this episode of 'The a16z Show', the hosts discuss the future of physical AI and autonomous systems with the co-founders of Applied Intuition, a company focused on putting intelligence on machines such as cars, trucks, tanks, and drones. The conversation covers the impact of physical AI on the global economy, the challenges of engineering autonomous systems, and the potential for the next decade to transform not just software, but the physical economy. The co-founders also discuss their newest platform, Dana, which aims to simplify the building and deployment of autonomous systems.",
+      "key_takeaway": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 359
+    },
+    {
       "id": 372,
       "title": "Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
       "source_type": "podcast",
@@ -995,7 +1014,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-16",
       "archived_date": null,
@@ -8591,8 +8610,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-19",
-      "mention_count": 57,
+      "last_mentioned_date": "2026-07-21",
+      "mention_count": 58,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -8601,8 +8620,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 356,
-      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo"
+      "last_mentioned_episode_id": 359,
+      "last_mentioned_speaker": "Casser, Eunice, Peter Ludwig"
     },
     {
       "id": 162,
@@ -8967,20 +8986,20 @@ const dashboardData = {
     {
       "id": 89,
       "term": "Autonomous Vehicles (AVs)",
-      "description": "Self-driving vehicles that use sensors, cameras, and AI to navigate and operate without human input.",
+      "description": "Vehicles capable of sensing their environment and navigating without human input, representing a significant advancement in physical AI.",
       "first_detected_date": "2026-04-03",
-      "last_mentioned_date": "2026-07-02",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-07-21",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "The transition to AVs presents a significant growth opportunity for mobility companies that can leverage their existing infrastructure.",
+      "investment_implications": "Investment in AV technology could offer substantial returns as it becomes more prevalent in the transportation sector.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 327,
-      "last_mentioned_speaker": "Marcus Villik"
+      "last_mentioned_episode_id": 359,
+      "last_mentioned_speaker": "Casser, Eunice, Peter Ludwig"
     },
     {
       "id": 90,
@@ -9965,6 +9984,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 374,
+      "title": "Why Physical AI Is the Next Frontier | Applied Intuition",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-21",
+      "summary": "In this episode of 'The a16z Show', the hosts discuss the future of physical AI and autonomous systems with the co-founders of Applied Intuition, a company focused on putting intelligence on machines such as cars, trucks, tanks, and drones. The conversation covers the impact of physical AI on the global economy, the challenges of engineering autonomous systems, and the potential for the next decade to transform not just software, but the physical economy. The co-founders also discuss their newest platform, Dana, which aims to simplify the building and deployment of autonomous systems.",
+      "key_takeaway": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 359,
+      "episode_release_date": "2026-07-21",
+      "guest_name": "Why Physical AI Is the Next Frontier",
+      "key_tickers": []
+    },
+    {
       "id": 372,
       "title": "Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
       "source_type": "podcast",
@@ -10088,26 +10127,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 354,
       "episode_release_date": "2026-07-17",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 366,
-      "title": "\ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
-      "source_type": "podcast",
-      "source_name": "Latent Space: The AI Engineer Podcast",
-      "source_date": "2026-07-16",
-      "summary": "The podcast episode features a discussion with experts from Lila Science on the application of AI in healthcare and life sciences. The conversation delves into the challenges of scaling data and computation in scientific research, the potential of AI to revolutionize the lab of the future, and the commercial opportunities presented by virtual startups running on AI platforms. The guests share their experiences in leveraging AI for scientific problems and the efficiency gains from using AI in drug discovery and materials science.",
-      "key_takeaway": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-16",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 352,
-      "episode_release_date": "2026-07-16",
       "guest_name": null,
       "key_tickers": []
     },
@@ -10260,8 +10279,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-19",
-      "mention_count": 57,
+      "last_mentioned_date": "2026-07-21",
+      "mention_count": 58,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -10270,16 +10289,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 356,
-      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo",
-      "overton_score": 54.43,
+      "last_mentioned_episode_id": 359,
+      "last_mentioned_speaker": "Casser, Eunice, Peter Ludwig",
+      "overton_score": 58.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
-      "last_mentioned_episode_date": "2026-07-19"
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Why Physical AI Is the Next Frontier | Applied Intuition",
+      "last_mentioned_episode_date": "2026-07-21"
     },
     {
       "id": 10,
@@ -32739,9 +32758,85 @@ const dashboardData = {
     "key_tickers": [
       "HUGG"
     ]
+  },
+  "374": {
+    "id": 364,
+    "insight_id": 374,
+    "podcast_episode_id": 359,
+    "overview": "The competitive dynamic implied by the source material is the ongoing shift from digital to physical AI, with the potential for physical AI to revolutionize industries beyond automotive, such as mining, agriculture, and logistics. The tension arises from the need to simplify and democratize the development of autonomous systems, which could unlock significant productivity gains. Allocators should consider who wins or loses based on the successful deployment and adoption of physical AI technologies, with the metric of market penetration and technological innovation arbitrating uncertainty. The horizon of proof lies in the ability of companies like Applied Intuition to scale their platforms and achieve widespread integration across various physical industries.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the diversification of Applied Intuition's client base as an indicator of the broader adoption of physical AI across industries.",
+      "Keep an eye on the regulatory environment, as it can significantly impact the speed and extent of autonomous system deployment.",
+      "Track the development and adoption of Dana, as its success could indicate a lower barrier to entry for physical AI, potentially accelerating the industry's growth.",
+      "Consider the impact of demographic shifts, such as the aging farmer population, on the need for autonomous systems in sectors like agriculture.",
+      "Assess the potential for new machine designs that emerge when human constraints are removed, which could disrupt existing markets and create new opportunities."
+    ],
+    "investment_thesis": "The core logic is that physical AI will become a dominant force in the global economy, transforming industries and unlocking new productivity gains. This thesis is vindicated by the successful deployment of autonomous systems across various sectors and the ability of platforms like Dana to simplify development, leading to widespread adoption. Conversely, if the adoption of physical AI remains confined to niche applications or if digital AI finds ways to control physical systems more efficiently, the thesis would be invalidated. The timeframe for this thesis is within the next decade, with observable developments including significant market share gains for physical AI companies and the emergence of new industriesing on autonomous systems.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in autonomous systems and its potential to integrate physical AI into its product ecosystem makes it relevant to the physical AI thesis.",
+        "positioning": "Positioning should be strategic, considering Apple's long-term potential to disrupt and lead in the physical AI space.",
+        "risk": "Key risks include regulatory hurdles and potential delays in the development and deployment of autonomous systems."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The possibility that digital AI could become advanced enough to control physical systems without the need for specialized physical AI.",
+      "The potential for physical AI to face significant ethical and safety concerns that slow its adoption.",
+      "The argument that the digital economy will continue to grow faster than the physical economy, reducing the relative importance of physical AI."
+    ],
+    "catalysts": [
+      "Regulatory approvals for autonomous systems in key markets.",
+      "Successful commercial deployment of autonomous systems in new industries.",
+      "Technological breakthroughs that significantly lower the cost or increase the efficiency of autonomous systems.",
+      "Partnerships between physical AI companies and traditional industry leaders.",
+      "Publications of studies or reports highlighting the economic impact of physical AI on global productivity."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-21T13:37:16.482705",
+    "updated_at": "2026-07-21 18:37:16",
+    "episode_evidence": "Applied Intuition's co-founders emphasize the company's mission to put intelligence on a billion machines, which they believe can profoundly impact society. They argue that the intelligence revolution will see companies impacting the physical world potentially becoming 'bigger than the companies that impact the digital world.' This is supported by the statement, 'In the intelligence revolution, the companies that impact the physical world might actually be better than the company's impact, the digital world.' They also highlight the broad applicability of their technology beyond automotive, with 70% of their business already being non-automotive, indicating a diverse market reach. The co-founders envision a future where high school kids can develop autonomous systems as easily as iPhone apps, which is a testament to their platform Dana's ambition to simplify the building and deployment of autonomous systems, as they said, 'Our vision for that is a high school kid that can make iPhone apps, should be able to make autonomous systems.'",
+    "falsification_tracks": [
+      "Should the global economy shift away from physical infrastructure investments towards digital-only platforms, the thesis of physical AI's dominance could be weakened.",
+      "If there is a significant technological breakthrough that allows digital AI to efficiently control physical systems without the need for specialized physical AI, the advantage of Applied Intuition's approach could diminish.",
+      "A regulatory crackdown on autonomous systems that slows down or halts their deployment would challenge the growth of physical AI companies.",
+      "Failures in safety or significant accidents involving autonomous systems could erode public trust and slow the adoption of physical AI, affecting Applied Intuition's growth."
+    ],
+    "insight_title": "Why Physical AI Is the Next Frontier | Applied Intuition",
+    "source_name": "The a16z Show",
+    "source_date": "2026-07-21",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 533,
+    "term": "Physical AI",
+    "definition": "AI software that enables machines to perceive, reason, and operate in the real world, as opposed to just processing digital information.",
+    "investment_implications": "Physical AI could drive significant investment opportunities as it transforms industries by automating physical tasks and processes.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-21 18:36:42",
+    "priority_score": 80
+  },
+  {
+    "id": 534,
+    "term": "Dana",
+    "definition": "A platform developed by Applied Intuition for designing and developing autonomous systems, aiming to simplify the process and make it more accessible.",
+    "investment_implications": "Platforms like Dana could lower the barrier to entry for developing autonomous systems, potentially sparking innovation and growth in the sector.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-21 18:36:42",
+    "priority_score": 80
+  },
   {
     "id": 532,
     "term": "Model Routing",
@@ -32765,35 +32860,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-20 18:35:34",
     "priority_score": 80
-  },
-  {
-    "id": 530,
-    "term": "Permanent Capital",
-    "definition": "Capital that is intended to be invested for the long term, often used in the context of alternative asset management.",
-    "investment_implications": "Alternative asset managers view insurance capital as permanent, but Nemeth argues that nothing is truly permanent.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-20 18:35:34",
-    "priority_score": 80
-  },
-  {
-    "id": 531,
-    "term": "Commoditization of Insurance",
-    "definition": "The process by which insurance products become standardized and undifferentiated, reducing the ability to gain a competitive edge.",
-    "investment_implications": "Nemeth argues that life and health insurance have become commoditized, turning these businesses into investment firms.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-20 18:35:34",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 35324,
+    "id": 35424,
+    "name": "Why Physical AI Is the Next Frontier",
+    "slug": "why-physical-ai-is-the-next-frontier",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
+    "last_episode_title": "Why Physical AI Is the Next Frontier | Applied Intuition",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-21",
+    "appearance_count": 1
+  },
+  {
+    "id": 35425,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -32805,7 +32888,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35325,
+    "id": 35426,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -32817,7 +32900,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35326,
+    "id": 35427,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -32829,7 +32912,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35327,
+    "id": 35428,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -32841,7 +32924,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35328,
+    "id": 35429,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -32853,7 +32936,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35329,
+    "id": 35430,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -32865,7 +32948,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35330,
+    "id": 35431,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -32877,7 +32960,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35331,
+    "id": 35432,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -32889,7 +32972,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35332,
+    "id": 35433,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -32901,7 +32984,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35333,
+    "id": 35434,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -32913,7 +32996,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35334,
+    "id": 35435,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -32925,7 +33008,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35335,
+    "id": 35436,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -32937,7 +33020,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35336,
+    "id": 35437,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -32949,7 +33032,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35337,
+    "id": 35438,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -32961,7 +33044,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35338,
+    "id": 35439,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -32973,7 +33056,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35339,
+    "id": 35440,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -32985,7 +33068,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35340,
+    "id": 35441,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -32997,7 +33080,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35341,
+    "id": 35442,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -33009,7 +33092,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35342,
+    "id": 35443,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -33017,18 +33100,6 @@ const dashboardData = {
     "last_main_idea": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
     "last_episode_title": "What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-23",
-    "appearance_count": 1
-  },
-  {
-    "id": 35343,
-    "name": "Ryan Cohen",
-    "slug": "ryan-cohen",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
-    "last_episode_title": "GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-23",
     "appearance_count": 1
   }
@@ -33546,7 +33617,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -33684,7 +33755,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -33872,7 +33943,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -34478,6 +34549,69 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 348,
+    "name": "Peter Ludwig",
+    "slug": "peter-ludwig",
+    "bio": "Peter Ludwig is a co-founder of Applied Intuition, a company dedicated to the global expansion and technological development of autonomous systems. He is focused on enabling intelligence on machines, with an emphasis on physical applications such as cars, trucks, tanks, and drones.",
+    "known_for": "His role in pioneering the field of physical AI and the development of autonomous systems.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-07-21 18:36:42",
+    "last_episode_title": "Why Physical AI Is the Next Frontier | Applied Intuition",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-21",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-21 \u2022 Why Physical AI Is the Next Frontier | Applied Intuition",
+    "last_proof_snippet": "Our mission is to put intelligence on a billion machines, and that we think that can have a profound impact on society. Applied intuition is a physical attack company. We put intelligence on machines. Cars, trucks, tanks, drones. It's a phy",
+    "supporting_takeaway": "Autonomous systems are already making an impact in various industries, including automotive and mining.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-21T13:36:52.291863",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Peter Ludwig",
+      "fetched_at": "2026-07-21T18:36:52.291366+00:00",
+      "cliff_notes": "Peter Ludwig is recognized for his pivotal role in the advancement of autonomous systems through his co-founded company, Applied Intuition. His work focuses on embedding intelligence into machines, particularly those that operate in the physical world such as vehicles and drones. Ludwig's vision is to democratize the creation of autonomous systems, making it as accessible as developing iPhone apps. This ambition is aimed at transforming the global economy and society by making physical AI a more prevalent and comprehensible technology. His company's platform, Dana, encapsulates nearly a decade of development and is designed to facilitate the design and development of autonomous systems, making it easier for a broader audience to engage with this technology.",
+      "derived": {
+        "current_role": "Co-founder of Applied Intuition"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Peter Ludwig is recognized for his pivotal role in the advancement of autonomous systems through his co-founded company, Applied Intuition. His work focuses on embedding intelligence into machines, particularly those that operate in the physical world such as vehicles and drones. Ludwig's vision is to democratize the creation of autonomous systems, making it as accessible as developing iPhone apps.",
+        "This ambition is aimed at transforming the global economy and society by making physical AI a more prevalent and comprehensible technology. His company's platform, Dana, encapsulates nearly a decade of development and is designed to facilitate the design and development of autonomous systems, making it easier for a broader audience to engage with this technology."
+      ],
+      "sections": [
+        {
+          "heading": "Autonomous Systems",
+          "body": "Peter Ludwig is deeply involved in the development and expansion of autonomous systems, aiming to make them as accessible as smartphone applications."
+        },
+        {
+          "heading": "Physical AI",
+          "body": "Ludwig's work emphasizes the importance of physical AI, which involves embedding intelligence into machines that operate in the physical world, such as vehicles and drones."
+        },
+        {
+          "heading": "Democratization of Technology",
+          "body": "His vision includes making the creation of autonomous systems as easy as making iPhone apps, thereby broadening the reach and impact of this technology."
+        },
+        {
+          "heading": "Platform Development",
+          "body": "Applied Intuition's platform, Dana, is a result of nearly a decade of development and is designed to simplify the process of designing and developing autonomous systems."
+        }
+      ]
+    }
+  },
+  {
     "id": 347,
     "name": "Clement DeLong",
     "slug": "clement-delong",
@@ -34559,7 +34693,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The private credit industry is overleveraged and poses a significant systemic risk, with potential for a massive financial blow-up that could be triggered by the insurance industry's massive balance sheets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-20 \u2022 Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. Join today by Nick Nemeth Financial Investor Researcher and author at Miss Price Assets. Nick, welcome to monetary matters. Thanks, Jack. It's g",
@@ -34623,7 +34757,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -34684,7 +34818,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -34744,7 +34878,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -34869,7 +35003,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-16 \u2022 \ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
     "last_proof_snippet": "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
@@ -34929,7 +35063,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-16 \u2022 \ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
     "last_proof_snippet": "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
@@ -34993,7 +35127,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-16 \u2022 Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
     "last_proof_snippet": "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
@@ -35053,7 +35187,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-16 \u2022 Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
     "last_proof_snippet": "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
@@ -35178,7 +35312,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-15 \u2022 Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
     "last_proof_snippet": "In videos that are going to have better networking than you, they're going to have better HP, they're going to have better process-node, they're going to come to market faster, they're going to be able to ramp faster, they're going to have",
@@ -35380,7 +35514,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-07-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-07-10 \u2022 Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
     "last_proof_snippet": "I'm back with Adam Brown. You currently need blue shift at Google DeepMine, which is cracking science and reasoning. In a previous life, Adam was a prolific physicist taught at Stanford and did research and everything from cosmology to stri",
@@ -35642,7 +35776,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -35701,7 +35835,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -36069,7 +36203,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
     "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
@@ -36381,7 +36515,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -36445,7 +36579,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -36571,7 +36705,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-23 \u2022 What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
     "last_proof_snippet": "Right now AI has been so much about productivity, job replacement, work replacement and I think we have a moment to shift that, which is how does these new tools help you get more out of your own day and your own life and the things you wan",
@@ -37248,7 +37382,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -37438,7 +37572,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-15 \u2022 AI, Design, and the Power of Open Models",
     "last_proof_snippet": "It's not about how good a model is in the general sense. It's about how good is this model for my use case, for a lot of design and marketing use case says they need editable design, not a single flat image. It's super impressive, honestly,",
@@ -37622,7 +37756,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -37690,7 +37824,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -37817,7 +37951,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -37881,7 +38015,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -38075,7 +38209,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -38162,7 +38296,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -39038,7 +39172,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -39102,7 +39236,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -39165,7 +39299,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -40478,7 +40612,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
