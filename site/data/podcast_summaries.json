@@ -1,5 +1,24 @@
 [
   {
+    "id": 358,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
+    "episode_date": "2026-07-20",
+    "summary": "This podcast episode from 'The a16z Show' discusses the safety and business potential of open source AI models, the growing interest in local AI models due to cost efficiency and privacy, and the potential shift towards model routing in the future of AI. The episode also touches on the role of Europe in the AI landscape and the increasing interest of young people in building AI solutions. Key investment insights include the validation of open source business models by Hugging Face's $100 million in annual recurring revenue, the potential for local models to disrupt the AI market, and the importance of engaging with the open source community for talent and project identification.",
+    "key_takeaways": [
+      "Open source AI models are perceived as less dangerous due to their specialization and lower likelihood of harmful cyber security use.",
+      "Hugging Face's $100 million in ARR validates the business model for open source platforms.",
+      "Local models are gaining interest for their cost efficiency, privacy preservation, and ability to handle heavy workloads locally.",
+      "The future of AI may involve model routing rather than reliance on a few dominant models.",
+      "Europe has the potential to become a frontier lab for AI, focusing on ecosystem building and open research.",
+      "Young people are increasingly interested in building AI solutions rather than just being users."
+    ],
+    "investment_thesis": "Invest in open source AI platforms and local AI models to capitalize on the growing demand for privacy-preserving, cost-efficient AI solutions and the potential shift towards model routing.",
+    "key_tickers": [
+      "HUGG"
+    ]
+  },
+  {
     "id": 357,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
@@ -118,23 +137,6 @@
       "Takahay Capital trades in less liquid and alternative markets, which can provide diversification and uniqueness to their strategy."
     ],
     "investment_thesis": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
-    "key_tickers": null
-  },
-  {
-    "id": 350,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Replay 2025: David Sacks on AI, Crypto, and America's Technology Future",
-    "episode_date": "2026-07-16",
-    "summary": "In this episode of the a16z Show, David Sachs joins Mark Anderson, Ben Horowitz, and others to discuss the intersection of AI, crypto, and policy. They delve into the nuances of AI leadership in Europe, the importance of regulatory clarity for the crypto industry, and the global competition to build the next generation of technology. The conversation touches on permissionless innovation, the balance between open-source and proprietary models, and the implications of policy decisions on the future of AI and crypto.",
-    "key_takeaways": [
-      "Europe's approach to AI leadership is centered around defining regulations rather than technological advancement.",
-      "Regulatory certainty is crucial for the growth of the crypto industry, with entrepreneurs seeking clear rules to comply with.",
-      "The Biden administration's heavy-handed approach to AI regulation may hinder understanding and growth in the sector.",
-      "Open-source AI models are critical for maintaining freedom and competitiveness in technology, contrasting with China's strategy.",
-      "The U.S. should encourage open-source initiatives to stay competitive in AI.",
-      "Global competition in AI is not just technical but also involves policy, infrastructure, and regulation."
-    ],
-    "investment_thesis": "Investing in AI and crypto requires understanding the interplay between technology and policy, with a focus on regulatory clarity and open-source initiatives for long-term competitiveness.",
     "key_tickers": null
   }
 ]

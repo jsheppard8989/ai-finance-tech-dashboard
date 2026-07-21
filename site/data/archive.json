@@ -23,6 +23,25 @@
       "podcast_episode_id": 357
     },
     {
+      "id": 373,
+      "title": "Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-20",
+      "summary": "This podcast episode from 'The a16z Show' discusses the safety and business potential of open source AI models, the growing interest in local AI models due to cost efficiency and privacy, and the potential shift towards model routing in the future of AI. The episode also touches on the role of Europe in the AI landscape and the increasing interest of young people in building AI solutions. Key investment insights include the validation of open source business models by Hugging Face's $100 million in annual recurring revenue, the potential for local models to disrupt the AI market, and the importance of engaging with the open source community for talent and project identification.",
+      "key_takeaway": "Invest in open source AI platforms and local AI models to capitalize on the growing demand for privacy-preserving, cost-efficient AI solutions and the potential shift towards model routing.",
+      "tickers_mentioned": [
+        "HUGG"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 358
+    },
+    {
       "id": 371,
       "title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
       "source_type": "podcast",
@@ -124,7 +143,7 @@
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-16",
       "archived_date": null,
@@ -7467,20 +7486,20 @@
     {
       "id": 220,
       "term": "Local processing",
-      "description": "The processing of data on local devices rather than in the cloud, reducing costs and potentially improving performance.",
+      "description": "The ability to process data and run AI models directly on local devices, reducing reliance on cloud computing and enhancing privacy.",
       "first_detected_date": "2026-06-02",
-      "last_mentioned_date": "2026-06-10",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-07-20",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should evaluate companies that optimize for local processing to enhance user experience and reduce operational costs.",
+      "investment_implications": "Investors should monitor the growth of local AI models for potential investment opportunities in privacy-preserving and cost-efficient AI solutions.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 255,
       "first_detected_speaker": "Steven Sinofsky",
-      "last_mentioned_episode_id": 277,
-      "last_mentioned_speaker": "Steven Sinofsky"
+      "last_mentioned_episode_id": 358,
+      "last_mentioned_speaker": "Clement DeLong"
     },
     {
       "id": 11,
@@ -7631,8 +7650,8 @@
       "term": "Distillation",
       "description": "The process of extracting the most important features or knowledge from a complex AI model to create a more efficient version.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-19",
-      "mention_count": 22,
+      "last_mentioned_date": "2026-07-20",
+      "mention_count": 23,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Distillation can lead to more efficient AI models, reducing the computational resources needed for scientific research.",
@@ -7641,8 +7660,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 356,
-      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo"
+      "last_mentioned_episode_id": 358,
+      "last_mentioned_speaker": "Clement DeLong"
     },
     {
       "id": 174,
@@ -8259,20 +8278,20 @@
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models that are publicly accessible and modifiable, fostering innovation and collaboration.",
+      "description": "AI models that are publicly accessible and can be modified and distributed by anyone, fostering a collaborative and diverse ecosystem.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-07-16",
-      "mention_count": 8,
+      "last_mentioned_date": "2026-07-20",
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Open-source models are crucial for maintaining a competitive edge in AI development and preventing market consolidation.",
+      "investment_implications": "Investors should consider the safety and business potential of open source AI models, as they are perceived as less dangerous and have shown viability through Hugging Face's success.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 350,
-      "last_mentioned_speaker": "David Sachs"
+      "last_mentioned_episode_id": 358,
+      "last_mentioned_speaker": "Clement DeLong"
     },
     {
       "id": 79,

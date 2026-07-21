@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-20T13:37:32.610835",
-  chartsVersion: "2026-07-20T13:37:19.623223",
+  generatedAt: "2026-07-20T22:03:45.625296",
+  chartsVersion: "2026-07-20T22:03:36.946218",
   priceSnapshot: {
   "GOOGL": {
-    "price": 351.7,
-    "change_pct": -1.59,
+    "price": 351.99,
+    "change_pct": -1.51,
     "name": "GOOGL",
-    "updated_at": "2026-07-20T13:37:19.622091"
+    "updated_at": "2026-07-20T22:03:36.945687"
   },
   "NVDA": {
-    "price": 204.19,
-    "change_pct": 2.05,
+    "price": 203.28,
+    "change_pct": 1.59,
     "name": "NVDA",
-    "updated_at": "2026-07-20T13:37:19.622111"
+    "updated_at": "2026-07-20T22:03:36.945697"
   },
   "BTC": {
-    "price": 65491.04,
-    "change_pct": 3.47,
+    "price": 65423.06,
+    "change_pct": 5.08,
     "name": "BTC",
-    "updated_at": "2026-07-20T13:37:19.622119"
+    "updated_at": "2026-07-20T22:03:36.945701"
   },
   "MSFT": {
-    "price": 402.23,
-    "change_pct": 7.83,
+    "price": 402.29,
+    "change_pct": 7.85,
     "name": "MSFT",
-    "updated_at": "2026-07-20T13:37:19.622127"
+    "updated_at": "2026-07-20T22:03:36.945704"
   },
   "TSLA": {
-    "price": 372.66,
-    "change_pct": -11.4,
+    "price": 369.57,
+    "change_pct": -12.13,
     "name": "TSLA",
-    "updated_at": "2026-07-20T13:37:19.622135"
+    "updated_at": "2026-07-20T22:03:36.945708"
   },
   "AMZN": {
-    "price": 250.15,
-    "change_pct": 4.96,
+    "price": 249.99,
+    "change_pct": 4.89,
     "name": "AMZN",
-    "updated_at": "2026-07-20T13:37:19.622142"
+    "updated_at": "2026-07-20T22:03:36.945711"
   },
   "WTI": {
-    "price": 3.57,
-    "change_pct": 13.17,
+    "price": 3.51,
+    "change_pct": 11.43,
     "name": "WTI",
-    "updated_at": "2026-07-20T13:37:19.622150"
+    "updated_at": "2026-07-20T22:03:36.945714"
   },
   "META": {
-    "price": 648.78,
-    "change_pct": 15.18,
+    "price": 645.85,
+    "change_pct": 14.66,
     "name": "META",
-    "updated_at": "2026-07-20T13:37:19.622158"
+    "updated_at": "2026-07-20T22:03:36.945717"
   },
   "S&P 500": {
-    "price": 744.13,
-    "change_pct": -0.35,
+    "price": 742.09,
+    "change_pct": -0.63,
     "name": "S&P 500",
-    "updated_at": "2026-07-20T13:37:19.622165"
+    "updated_at": "2026-07-20T22:03:36.945720"
   },
   "AAPL": {
-    "price": 326.79,
-    "change_pct": 12.94,
+    "price": 326.59,
+    "change_pct": 12.87,
     "name": "AAPL",
-    "updated_at": "2026-07-20T13:37:19.622172"
+    "updated_at": "2026-07-20T22:03:36.945723"
   },
   "QQQ": {
-    "price": 699.63,
-    "change_pct": -4.99,
+    "price": 696.06,
+    "change_pct": -5.48,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-20T13:37:19.622180"
+    "updated_at": "2026-07-20T22:03:36.945727"
   },
   "BTC-USD": {
-    "price": 65491.04,
-    "change_pct": 3.47,
+    "price": 65423.06,
+    "change_pct": 5.08,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-20T13:37:19.622189"
+    "updated_at": "2026-07-20T22:03:36.945730"
   }
 },
   tickerScores: [
@@ -856,6 +856,25 @@ const dashboardData = {
       "podcast_episode_id": 357
     },
     {
+      "id": 373,
+      "title": "Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-20",
+      "summary": "This podcast episode from 'The a16z Show' discusses the safety and business potential of open source AI models, the growing interest in local AI models due to cost efficiency and privacy, and the potential shift towards model routing in the future of AI. The episode also touches on the role of Europe in the AI landscape and the increasing interest of young people in building AI solutions. Key investment insights include the validation of open source business models by Hugging Face's $100 million in annual recurring revenue, the potential for local models to disrupt the AI market, and the importance of engaging with the open source community for talent and project identification.",
+      "key_takeaway": "Invest in open source AI platforms and local AI models to capitalize on the growing demand for privacy-preserving, cost-efficient AI solutions and the potential shift towards model routing.",
+      "tickers_mentioned": [
+        "HUGG"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 358
+    },
+    {
       "id": 371,
       "title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
       "source_type": "podcast",
@@ -957,7 +976,7 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-16",
       "archived_date": null,
@@ -8300,20 +8319,20 @@ const dashboardData = {
     {
       "id": 220,
       "term": "Local processing",
-      "description": "The processing of data on local devices rather than in the cloud, reducing costs and potentially improving performance.",
+      "description": "The ability to process data and run AI models directly on local devices, reducing reliance on cloud computing and enhancing privacy.",
       "first_detected_date": "2026-06-02",
-      "last_mentioned_date": "2026-06-10",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-07-20",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should evaluate companies that optimize for local processing to enhance user experience and reduce operational costs.",
+      "investment_implications": "Investors should monitor the growth of local AI models for potential investment opportunities in privacy-preserving and cost-efficient AI solutions.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 255,
       "first_detected_speaker": "Steven Sinofsky",
-      "last_mentioned_episode_id": 277,
-      "last_mentioned_speaker": "Steven Sinofsky"
+      "last_mentioned_episode_id": 358,
+      "last_mentioned_speaker": "Clement DeLong"
     },
     {
       "id": 11,
@@ -8464,8 +8483,8 @@ const dashboardData = {
       "term": "Distillation",
       "description": "The process of extracting the most important features or knowledge from a complex AI model to create a more efficient version.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-19",
-      "mention_count": 22,
+      "last_mentioned_date": "2026-07-20",
+      "mention_count": 23,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Distillation can lead to more efficient AI models, reducing the computational resources needed for scientific research.",
@@ -8474,8 +8493,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 356,
-      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo"
+      "last_mentioned_episode_id": 358,
+      "last_mentioned_speaker": "Clement DeLong"
     },
     {
       "id": 174,
@@ -9092,20 +9111,20 @@ const dashboardData = {
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models that are publicly accessible and modifiable, fostering innovation and collaboration.",
+      "description": "AI models that are publicly accessible and can be modified and distributed by anyone, fostering a collaborative and diverse ecosystem.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-07-16",
-      "mention_count": 8,
+      "last_mentioned_date": "2026-07-20",
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Open-source models are crucial for maintaining a competitive edge in AI development and preventing market consolidation.",
+      "investment_implications": "Investors should consider the safety and business potential of open source AI models, as they are perceived as less dangerous and have shown viability through Hugging Face's success.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 350,
-      "last_mentioned_speaker": "David Sachs"
+      "last_mentioned_episode_id": 358,
+      "last_mentioned_speaker": "Clement DeLong"
     },
     {
       "id": 79,
@@ -9971,6 +9990,28 @@ const dashboardData = {
       ]
     },
     {
+      "id": 373,
+      "title": "Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-20",
+      "summary": "This podcast episode from 'The a16z Show' discusses the safety and business potential of open source AI models, the growing interest in local AI models due to cost efficiency and privacy, and the potential shift towards model routing in the future of AI. The episode also touches on the role of Europe in the AI landscape and the increasing interest of young people in building AI solutions. Key investment insights include the validation of open source business models by Hugging Face's $100 million in annual recurring revenue, the potential for local models to disrupt the AI market, and the importance of engaging with the open source community for talent and project identification.",
+      "key_takeaway": "Invest in open source AI platforms and local AI models to capitalize on the growing demand for privacy-preserving, cost-efficient AI solutions and the potential shift towards model routing.",
+      "tickers_mentioned": "[\"HUGG\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 358,
+      "episode_release_date": "2026-07-20",
+      "guest_name": null,
+      "key_tickers": [
+        "HUGG"
+      ]
+    },
+    {
       "id": 371,
       "title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
       "source_type": "podcast",
@@ -10048,26 +10089,6 @@ const dashboardData = {
       "podcast_episode_id": 354,
       "episode_release_date": "2026-07-17",
       "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 365,
-      "title": "Replay 2025: David Sacks on AI, Crypto, and America's Technology Future",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-07-16",
-      "summary": "In this episode of the a16z Show, David Sachs joins Mark Anderson, Ben Horowitz, and others to discuss the intersection of AI, crypto, and policy. They delve into the nuances of AI leadership in Europe, the importance of regulatory clarity for the crypto industry, and the global competition to build the next generation of technology. The conversation touches on permissionless innovation, the balance between open-source and proprietary models, and the implications of policy decisions on the future of AI and crypto.",
-      "key_takeaway": "Investing in AI and crypto requires understanding the interplay between technology and policy, with a focus on regulatory clarity and open-source initiatives for long-term competitiveness.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"TSLA\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-16",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 350,
-      "episode_release_date": "2026-07-16",
-      "guest_name": "Replay 2025",
       "key_tickers": []
     },
     {
@@ -10417,6 +10438,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-07-16"
     },
     {
+      "id": 220,
+      "term": "Local processing",
+      "description": "The ability to process data and run AI models directly on local devices, reducing reliance on cloud computing and enhancing privacy.",
+      "first_detected_date": "2026-06-02",
+      "last_mentioned_date": "2026-07-20",
+      "mention_count": 3,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor the growth of local AI models for potential investment opportunities in privacy-preserving and cost-efficient AI solutions.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 255,
+      "first_detected_speaker": "Steven Sinofsky",
+      "last_mentioned_episode_id": 358,
+      "last_mentioned_speaker": "Clement DeLong",
+      "overton_score": 3.0,
+      "resonance_pct": 75,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
+      "first_detected_episode_date": "2026-06-02",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
+      "last_mentioned_episode_date": "2026-07-20"
+    },
+    {
       "id": 259,
       "term": "Liquid AI",
       "description": "A type of AI that focuses on efficient, general-purpose intelligence at various scales, often using small language models.",
@@ -10545,32 +10592,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Before Blockchains, There Was State Machine Replication",
       "last_mentioned_episode_date": "2026-07-13"
-    },
-    {
-      "id": 243,
-      "term": "K-shaped recovery",
-      "description": "An economic recovery where wealth concentration increases, benefiting the wealthy while leaving the bottom half of the population behind.",
-      "first_detected_date": "2026-06-10",
-      "last_mentioned_date": "2026-07-11",
-      "mention_count": 2,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider the impact of wealth disparity on consumer spending and economic growth.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 279,
-      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 342,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "overton_score": 1.62,
-      "resonance_pct": 40,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner",
-      "first_detected_episode_date": "2026-06-10",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "More Trillion Dollar IPOs, Anthropic $3T, Zuck's Price War, China Ends Open Source?, Trump Accounts",
-      "last_mentioned_episode_date": "2026-07-11"
     }
   ]
 },
@@ -32662,9 +32683,77 @@ const dashboardData = {
       "BCRED",
       "FSK"
     ]
+  },
+  "373": {
+    "id": 363,
+    "insight_id": 373,
+    "podcast_episode_id": 358,
+    "overview": "The unresolved tension in the AI industry revolves around the balance between the safety and efficiency of open source AI models versus proprietary ones. The competitive dynamic is shifting towards local AI models, which promise cost savings and enhanced privacy. The metric that arbitrates this uncertainty is the adoption rate and performance of local models in real-world applications, with the horizon of proof being the next few years as these models mature and gain market share.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the performance and adoption of Hugging Face as a bellwether for the open source AI business model.",
+      "The potential for local AI models to disrupt the market necessitates a reevaluation of cloud-centric AI investments, with a focus on companies that can adapt to or leverage this shift.",
+      "Engagement with the open source community is crucial for talent acquisition and early identification of promising AI projects, which could offer significant first-mover advantages.",
+      "Regulatory developments, particularly in Europe, could significantly impact the AI landscape, making it imperative for investors to track policy changes and their implications on AI development and deployment."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that the open source AI model, validated by Hugging Face's financial success, will continue to gain traction due to its safety, cost efficiency, and privacy advantages. This will lead to a shift towards local AI models, potentially disrupting the current AI market dynamics. The thesis would be vindicated if local AI models gain significant market share and if Hugging Face continues to show strong financial performance. Conversely, it would be invalidated if proprietary models regain dominance or if open source models face significant regulatory hurdles.",
+    "ticker_analysis": {
+      "HUGG": {
+        "rationale": "Hugging Face is a key player in the open source AI space, and its performance is indicative of the health and growth potential of this sector.",
+        "positioning": "Strategic long position, as the company's growth is tied to the broader adoption of open source AI models.",
+        "risk": "Regulatory changes that restrict open source AI models or a failure of Hugging Face to maintain its revenue growth could pose significant risks."
+      },
+      "GOOGL": {
+        "rationale": "Google's extensive investment in AI and its cloud services make it a key player in the AI market, with potential to be disrupted by the rise of local AI models.",
+        "positioning": "Tactical short position, as the company may face challenges adapting to a market shift towards local AI models.",
+        "risk": "Google's ability to innovate and adapt to market changes quickly could mitigate the risks associated with a shift towards local AI models."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "Proprietary AI models may offer performance advantages that open source models cannot match, leading to a sustained demand for closed ecosystems.",
+      "The cost of developing and maintaining local AI models could be higher than anticipated, reducing their appeal compared to cloud-based solutions.",
+      "Regulatory hurdles could disproportionately affect open source AI models, favoring proprietary solutions that can better navigate complex legal landscapes."
+    ],
+    "catalysts": [
+      "Regulatory decisions in Europe regarding AI development and deployment.",
+      "Hugging Face's next earnings report, which could provide insights into the financial health and growth trajectory of the open source AI model.",
+      "The release of new local AI models and their performance benchmarks compared to cloud-based solutions.",
+      "Major cybersecurity incidents attributed to AI models, which could influence public perception and regulatory approaches."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-20T22:02:49.313023",
+    "updated_at": "2026-07-21 03:02:49",
+    "episode_evidence": "The podcast episode from 'The a16z Show' provides a nuanced perspective on the AI landscape, emphasizing the safety and business potential of open source AI models. Hugging Face's CEO, Clement DeLong, asserts, 'I think open source models are inherently less dangerous than kind of like the models that are getting restricted now.' This suggests that open source AI, due to its specialization, is less likely to be weaponized in harmful cyber security contexts. DeLong also validates the open source business model, stating, 'There's a business model for open source, business model for open source platform,' highlighting Hugging Face's $100 million in annual recurring revenue as a significant milestone. Furthermore, the discussion points to a shift towards local AI models, which are 'much cheaper, they're much more privacy preserving by design,' indicating a potential disruption in the AI market due to cost efficiency and privacy concerns.",
+    "falsification_tracks": [
+      "If Hugging Face's annual recurring revenue falls below $100 million, it could indicate that the open source business model is not as sustainable as previously thought.",
+      "Should the adoption of local AI models not increase or if they fail to deliver on cost efficiency and privacy, the thesis of their market disruption would be weakened.",
+      "A significant increase in cyber security threats linked to open source AI models would challenge the perception of their safety."
+    ],
+    "insight_title": "Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
+    "source_name": "The a16z Show",
+    "source_date": "2026-07-20",
+    "key_tickers": [
+      "HUGG"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 532,
+    "term": "Model Routing",
+    "definition": "The practice of selecting and routing data to the most appropriate AI model based on specific criteria, potentially reducing reliance on a few dominant models.",
+    "investment_implications": "Investors should evaluate the potential impact of model routing on current AI investments and adjust strategies accordingly.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-21 03:01:54",
+    "priority_score": 80
+  },
   {
     "id": 529,
     "term": "Systemic Risk",
@@ -32700,23 +32789,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-20 18:35:34",
     "priority_score": 80
-  },
-  {
-    "id": 526,
-    "term": "AI-Sputnik Moment",
-    "definition": "A pivotal event or development in AI that has the potential to significantly shift the balance of power or progress in the field, similar to the Soviet Union's launch of Sputnik, which catalyzed the space race.",
-    "investment_implications": "This term suggests a critical juncture in AI development that could drive investment towards companies at the forefront of AI innovation.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-19 18:34:32",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 34824,
+    "id": 34924,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -32728,7 +32805,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34825,
+    "id": 34925,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -32740,7 +32817,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34826,
+    "id": 34926,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -32752,7 +32829,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34827,
+    "id": 34927,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -32764,7 +32841,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34828,
+    "id": 34928,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -32776,7 +32853,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34829,
+    "id": 34929,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -32788,7 +32865,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34830,
+    "id": 34930,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -32800,7 +32877,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34831,
+    "id": 34931,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -32812,7 +32889,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34832,
+    "id": 34932,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -32824,7 +32901,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34833,
+    "id": 34933,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -32836,7 +32913,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34834,
+    "id": 34934,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -32848,7 +32925,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34835,
+    "id": 34935,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -32860,7 +32937,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34836,
+    "id": 34936,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -32872,7 +32949,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34837,
+    "id": 34937,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -32884,7 +32961,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34838,
+    "id": 34938,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -32896,7 +32973,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34839,
+    "id": 34939,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -32908,7 +32985,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34840,
+    "id": 34940,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -32920,7 +32997,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34841,
+    "id": 34941,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -32932,7 +33009,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34842,
+    "id": 34942,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -32944,7 +33021,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 34843,
+    "id": 34943,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -32975,7 +33052,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 6,
-    "mention_score_decayed": 1.31,
+    "mention_score_decayed": 1.28,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -33099,7 +33176,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 3,
-    "mention_score_decayed": 0.53,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
     "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
@@ -33469,7 +33546,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -33541,7 +33618,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-02",
     "mention_score": 2,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
     "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
@@ -34202,7 +34279,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -34266,7 +34343,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -34326,7 +34403,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
@@ -34399,6 +34476,70 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 347,
+    "name": "Clement DeLong",
+    "slug": "clement-delong",
+    "bio": "Clement DeLong is a recognized expert in the field of AI and open source platforms. He is the co-founder and CEO of Hugging Face, a company that focuses on developing and providing open source AI models. DeLong is known for his insights on the safety and business potential of open source AI models.",
+    "known_for": "His advocacy for open source AI models and their inherent safety, as well as the business potential of such models.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://eboona.com/ai-startup-founder/clement-delangue/",
+    "net_worth_updated_at": "2026-07-20T22:02:24.369866",
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Factual and insightful",
+    "voice_delivery_notes": "Clear and concise with emphasis on key points",
+    "voice_profile_updated_at": "2026-07-21 03:01:54",
+    "last_seen": "2026-07-21 03:01:54",
+    "last_episode_title": "Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-20",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in open source AI platforms and local AI models to capitalize on the growing demand for privacy-preserving, cost-efficient AI solutions and the potential shift towards model routing.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-20 \u2022 Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
+    "last_proof_snippet": "I think this relation is a very common practice that everyone is using. It's something that everyone uses, but that is not the main reason for success. Like if you suck, you suck without this relation. It's hard for me to say, like, oh, poo",
+    "supporting_takeaway": "Hugging Face's $100 million in ARR validates the business model for open source platforms.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-20T22:02:23.464245",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Clement DeLong",
+      "fetched_at": "2026-07-21T03:02:23.463920+00:00",
+      "cliff_notes": "Clement DeLong is a prominent figure in the AI industry, particularly in the realm of open source AI models. He co-founded Hugging Face, a company that has gained significant attention for its open source AI models and its approach to AI safety and business. As the CEO, DeLong has been instrumental in guiding the company to achieve $100 million in annual recurring revenue, demonstrating the viability of open source in the AI industry. His views on the importance of competition in the tech industry and the dangers of a few companies dominating the market have been influential. DeLong's work with Hugging Face and his thoughts on the future of AI, including model routing, have positioned him as a thought leader in the field.",
+      "derived": {
+        "current_role": "Co-founder and CEO of Hugging Face"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Clement DeLong is a prominent figure in the AI industry, particularly in the realm of open source AI models. He co-founded Hugging Face, a company that has gained significant attention for its open source AI models and its approach to AI safety and business. As the CEO, DeLong has been instrumental in guiding the company to achieve $100 million in annual recurring revenue, demonstrating the viability of open source in the AI industry.",
+        "His views on the importance of competition in the tech industry and the dangers of a few companies dominating the market have been influential. DeLong's work with Hugging Face and his thoughts on the future of AI, including model routing, have positioned him as a thought leader in the field."
+      ],
+      "sections": [
+        {
+          "heading": "Open Source AI",
+          "body": "Clement DeLong is a strong advocate for open source AI, believing it to be inherently safer and offering significant business opportunities."
+        },
+        {
+          "heading": "AI Safety and Regulation",
+          "body": "DeLong discusses the new questions governments are asking about AI safety, regulation, and control as AI models become more powerful."
+        },
+        {
+          "heading": "Business Potential",
+          "body": "Hugging Face, under DeLong's leadership, has reached $100 million in annual recurring revenue, showcasing the business potential of open source AI."
+        },
+        {
+          "heading": "Future of AI",
+          "body": "DeLong predicts that the next phase of AI may be defined by model routing, rather than a few dominant models, indicating a shift in the industry."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
   },
   {
     "id": 346,
@@ -34663,7 +34804,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-17 \u2022 Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
     "last_proof_snippet": "Miramoradi, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day. She's built exactly the thing hitting the market that exactly what everybody",
@@ -34728,7 +34869,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-16 \u2022 \ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
     "last_proof_snippet": "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
@@ -34788,7 +34929,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-16 \u2022 \ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
     "last_proof_snippet": "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
@@ -34852,7 +34993,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-16 \u2022 Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
     "last_proof_snippet": "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
@@ -34912,7 +35053,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-16 \u2022 Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
     "last_proof_snippet": "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
@@ -35684,7 +35825,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in multi-family and senior housing to capitalize on demographic shifts, and focus on industrial properties to benefit from e-commerce growth.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-04 \u2022 The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. Today we're going to be talking all things real estate. I'm joined by Jo",
@@ -35807,7 +35948,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -35866,7 +36007,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -36116,7 +36257,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in companies at the forefront of AI and satellite data integration for real-world applications, while monitoring global AI competition and regulatory changes.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-26 \u2022 The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
     "last_proof_snippet": "Today, plan is a $10 billion company. You've coined the term large earth models. What does that mean? It, like, Google index the internet to make it searchable, we're indexing the earth to make it searchable. It will finally enable us to be",
@@ -36928,7 +37069,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Invest in U.S. industrial champions with strong order backlogs and companies positioned to benefit from the electrification and modernization of the U.S. grid.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-18 \u2022 The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
     "last_proof_snippet": "The U.S. manufacturing has essentially been in a recession for three straight years and we have only just emerged now. If I had a CMMI survey, just reached about 50 in the last three months. And that's after three consecutive years of sub-5",
@@ -36988,7 +37129,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in companies that integrate AI with experimental data for material discovery to gain a competitive edge in industries like aerospace and semiconductors.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-17 \u2022 \ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
     "last_proof_snippet": "This is the difference between AI for bio and AI for materials. If you look at bio or maybe small molecules is a more broad category, you look at selfies and smile strings, where I which has been a big way to have those materials, those mol",
@@ -37047,7 +37188,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in companies that can integrate AI into their operations and leverage Microsoft's ecosystem for competitive advantage, focusing on data management capabilities and adaptability to new pricing models.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
     "last_proof_snippet": "Please welcome Swicks, Saragawa, Alad Gill and Chairman and Chief Executive Officer of Microsoft, Sartina Della. I'm so excited to be here. Welcome to a crossover episode of NoPriors and Lanesvists with Sartina Della. Congratulations on an",
@@ -37356,7 +37497,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Invest in sectors at the forefront of technological disruption, with a focus on cryptocurrency, AI, and biotech innovations that promise significant market transformation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-11 \u2022 Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
     "last_proof_snippet": "City Bank projects a Bitcoin price reaching as much as 189,000 by the end of 2026. Bitcoin is the new digital gold. I think it's going to be a key part of our economy going forward into the future. I remember it was supposed to be counter-s",
@@ -37417,7 +37558,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "The market may be entering a new inflation shock regime, leading to a rotation from financial assets to hard assets, with the healthcare sector presenting an under-owned opportunity.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-11 \u2022 MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -37617,7 +37758,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-10 \u2022 America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. There's a very, very large player in global finance that almost no one knows about. The development finance corporation, it just had its reautho",
@@ -37740,7 +37881,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -37994,7 +38135,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Investors should focus on undervalued companies in Asia, particularly in South Korea and Southeast Asia, due to favorable valuations and growth prospects.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-06 \u2022 The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone | Michael Fritzell | Asian Century Stocks",
     "last_proof_snippet": "South Korea, I do think it is a bubble, because the estimates for profits, for Eski Heinigs and Samsung electronics, we're now talking 200 billion US dollars in that profit estimates for 2028. And that will make them the most profitable com",
@@ -38340,7 +38481,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-03 \u2022 Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
     "last_proof_snippet": "One of the most provocative and interesting investors in the country. A legendary activist investor. Pershing square CEO and founder Bill Acling. Taking a short position and going public with it is a pretty serious business. Interestingly,",
@@ -38405,7 +38546,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-02 \u2022 OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
     "last_proof_snippet": "Open AI's CFO, Sarah Fryer. We've got to get right to it. You have just completed what I would find as the most successful fund-raising rail in history. We're going to raise actually north of $120 billion. We think AI is the biggest era tha",
@@ -38590,7 +38731,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Invest in companies developing prediction market platforms, focusing on those with strong legal compliance strategies and potential for cultural acceptance.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-26 \u2022 Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
     "last_proof_snippet": "Well, so, start at the beginning. The basic vision is that speculative markets are shown to be a unmatched mechanism for aggregating information and telling us about stuff. And initially, most people who come to this area think about, let's",
@@ -38647,7 +38788,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -38838,7 +38979,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Investors should prepare for potential oil price volatility and consider hedging strategies, while also looking for investment opportunities in companies improving inventory efficiency and energy infrastructure projects.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-21 \u2022 MacroVoices #533 Morgan Downey: The Return of Oil 101",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -39084,7 +39225,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "The current market dynamics suggest a potential bubble, characterized by inflated earnings expectations rather than traditional valuation metrics, indicating the need for disciplined profit-taking strategies and portfolio diversification.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-16 \u2022 Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
     "last_proof_snippet": "If we're in a bubble, why aren't we selling crazy P is? It's not the P that's the bubble, it's the E. The S&P in its entirety is expected to earn 400 billion. Where's the GDP that can do that? Now it could come from everywhere else. It coul",
@@ -39149,7 +39290,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
     "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
@@ -39209,7 +39350,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
     "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
@@ -39395,7 +39536,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -39711,7 +39852,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Invest in private credit funds that capitalize on the retreat of banks from riskier, smaller loans due to regulatory pressures, and consider preferred equity structures for upside potential with downside protection.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-12 \u2022 Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
     "last_proof_snippet": "The dominant media narrative at the moment is direct lending and private credit, a virtually synonymous, but that is obviously not how the industry is structured, but what is definitely true is that direct lending has taken the vast majorit",
@@ -39836,7 +39977,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-10 \u2022 Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
     "last_proof_snippet": "Very pleased today to be joined by David Wright, co-head of Pictay asset management's quantitative investments franchise, which manages over $30 billion in their quant group. This includes most recently two ETFs they launched PQ&T, their Pi",
@@ -40023,7 +40164,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-07 \u2022 MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -40583,7 +40724,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -40654,7 +40795,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -40717,7 +40858,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Invest in companies with high levels of intangible capital using a combination of fundamental and sentiment analysis to identify mispriced opportunities, especially in sectors affected by global events.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show you'll hear more about hfgm currently the number one morning star rated funds its inception in the U.S. macro trading category. Let's ge",
@@ -40844,7 +40985,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-30 \u2022 Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
     "last_proof_snippet": "AI is creating new opportunities to rethink how enterprise systems work, potentially leading to a platform shift.",
@@ -42410,7 +42551,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
@@ -43349,7 +43490,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-04 \u2022 \u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
     "last_proof_snippet": "Shipping inefficiencies can lead to increased profits for ship owners.",
