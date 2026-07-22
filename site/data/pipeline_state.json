@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-21T13:38:30.684776",
-  "last_updated": "2026-07-21T13:38:30.684776",
-  "last_pipeline_run": "2026-07-21T13:38:30.684776",
+  "generated_at": "2026-07-21T22:04:07.286634",
+  "last_updated": "2026-07-21T22:04:07.286634",
+  "last_pipeline_run": "2026-07-21T22:04:07.286634",
   "main_page": {
     "overton": 13,
     "insights": 8,
-    "pundits": 223
+    "pundits": 224
   },
   "counts": {
     "ticker_mentions": 206,
-    "podcast_episodes": 332,
+    "podcast_episodes": 333,
     "newsletters": 7,
     "daily_scores": 144,
     "overton_terms_total": 110,
-    "latest_insights_total": 346,
+    "latest_insights_total": 347,
     "today_mentions": {},
-    "podcasts_analyzed": 1
+    "podcasts_analyzed": 2
   },
   "step_results": {
     "downloaded": 3,
@@ -84,11 +84,11 @@
       "status": "needs_analysis"
     },
     {
-      "id": "f9e79358-7a88-4c94-b097-0699d7971e72",
-      "podcast": "The a16z Show",
-      "title": "Why Physical AI Is the Next Frontier | Applied Intuition",
-      "published": "2026-07-21",
-      "rss_guid": "f9e79358-7a88-4c94-b097-0699d7971e72",
+      "id": "d4e4932a-4eb5-4007-8f84-4d386c3a22ce",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
+      "published": "2026-07-20",
+      "rss_guid": "d4e4932a-4eb5-4007-8f84-4d386c3a22ce",
       "stages": {
         "downloaded": true,
         "transcribed": true,
@@ -102,11 +102,11 @@
       "status": "complete"
     },
     {
-      "id": "d4e4932a-4eb5-4007-8f84-4d386c3a22ce",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
-      "published": "2026-07-20",
-      "rss_guid": "d4e4932a-4eb5-4007-8f84-4d386c3a22ce",
+      "id": "substack:post:207941607",
+      "podcast": "Latent Space: The AI Engineer Podcast",
+      "title": "\ud83d\udd2cCausal Models Need Causal Data - Xaira\u2019s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)",
+      "published": "2026-07-21",
+      "rss_guid": "substack:post:207941607",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -175,10 +175,10 @@
   ],
   "available_from_rss": [
     {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
-      "published": "Mon, 20 Jul 2026 18:51:00 +0000",
-      "published_date": "2026-07-20",
+      "podcast": "Latent Space: The AI Engineer Podcast",
+      "title": "\ud83d\udd2cCausal Models Need Causal Data - Xaira\u2019s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)",
+      "published": "Tue, 21 Jul 2026 19:34:06 GMT",
+      "published_date": "2026-07-21",
       "rss_guid": ""
     },
     {

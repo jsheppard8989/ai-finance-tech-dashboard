@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-21T13:38:38.136432",
-  chartsVersion: "2026-07-21T13:38:23.464014",
+  generatedAt: "2026-07-21T22:04:13.703118",
+  chartsVersion: "2026-07-21T22:04:03.316151",
   priceSnapshot: {
   "GOOGL": {
-    "price": 348.55,
-    "change_pct": -3.5,
+    "price": 347.15,
+    "change_pct": -3.89,
     "name": "GOOGL",
-    "updated_at": "2026-07-21T13:38:23.463114"
+    "updated_at": "2026-07-21T22:04:03.314965"
   },
   "NVDA": {
-    "price": 206.76,
-    "change_pct": 4.65,
+    "price": 207.29,
+    "change_pct": 4.91,
     "name": "NVDA",
-    "updated_at": "2026-07-21T13:38:23.463128"
+    "updated_at": "2026-07-21T22:04:03.314989"
   },
   "BTC": {
-    "price": 66243.4,
-    "change_pct": 6.4,
+    "price": 66294.45,
+    "change_pct": 4.91,
     "name": "BTC",
-    "updated_at": "2026-07-21T13:38:23.463133"
+    "updated_at": "2026-07-21T22:04:03.315000"
   },
   "MSFT": {
-    "price": 398.16,
-    "change_pct": 3.61,
+    "price": 397.75,
+    "change_pct": 3.51,
     "name": "MSFT",
-    "updated_at": "2026-07-21T13:38:23.463138"
+    "updated_at": "2026-07-21T22:04:03.315009"
   },
   "TSLA": {
-    "price": 379.56,
-    "change_pct": -10.75,
+    "price": 378.93,
+    "change_pct": -10.9,
     "name": "TSLA",
-    "updated_at": "2026-07-21T13:38:23.463143"
+    "updated_at": "2026-07-21T22:04:03.315018"
   },
   "AMZN": {
-    "price": 247.74,
-    "change_pct": 2.5,
+    "price": 247.55,
+    "change_pct": 2.42,
     "name": "AMZN",
-    "updated_at": "2026-07-21T13:38:23.463148"
+    "updated_at": "2026-07-21T22:04:03.315027"
   },
   "WTI": {
-    "price": 3.6,
-    "change_pct": 16.88,
+    "price": 3.63,
+    "change_pct": 17.86,
     "name": "WTI",
-    "updated_at": "2026-07-21T13:38:23.463153"
+    "updated_at": "2026-07-21T22:04:03.315035"
   },
   "META": {
-    "price": 646.7,
-    "change_pct": 5.51,
+    "price": 643.81,
+    "change_pct": 5.04,
     "name": "META",
-    "updated_at": "2026-07-21T13:38:23.463158"
+    "updated_at": "2026-07-21T22:04:03.315043"
   },
   "S&P 500": {
-    "price": 748.2,
-    "change_pct": 0.33,
+    "price": 748.28,
+    "change_pct": 0.34,
     "name": "S&P 500",
-    "updated_at": "2026-07-21T13:38:23.463162"
+    "updated_at": "2026-07-21T22:04:03.315051"
   },
   "AAPL": {
-    "price": 327.47,
-    "change_pct": 11.24,
+    "price": 327.74,
+    "change_pct": 11.33,
     "name": "AAPL",
-    "updated_at": "2026-07-21T13:38:23.463167"
+    "updated_at": "2026-07-21T22:04:03.315060"
   },
   "QQQ": {
-    "price": 709.28,
-    "change_pct": -2.19,
+    "price": 708.97,
+    "change_pct": -2.23,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-21T13:38:23.463172"
+    "updated_at": "2026-07-21T22:04:03.315069"
   },
   "BTC-USD": {
-    "price": 66243.4,
-    "change_pct": 6.4,
+    "price": 66294.45,
+    "change_pct": 4.91,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-21T13:38:23.463177"
+    "updated_at": "2026-07-21T22:04:03.315079"
   }
 },
   tickerScores: [
@@ -894,6 +894,25 @@ const dashboardData = {
       "podcast_episode_id": 358
     },
     {
+      "id": 375,
+      "title": "Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-20",
+      "summary": "In this episode, the hosts discuss the differences between the current market behavior and the dot-com bubble, expressing concerns about potential impacts on venture capital and private equity. They also touch on the evolution of product managers' roles in the context of outperforming market indices and the challenges of deploying capital at the wrong time. The conversation shifts to the advertising platform Applovin, the borrowing habits of market leaders like Google and Meta, and the potential for technological breakthroughs that could disrupt current investments in data centers and AI. The hosts also speculate on the future of AI, including world models and their applications in video and healthcare.",
+      "key_takeaway": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 360
+    },
+    {
       "id": 371,
       "title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
       "source_type": "podcast",
@@ -1033,7 +1052,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-16",
       "archived_date": null,
@@ -8212,20 +8231,20 @@ const dashboardData = {
     {
       "id": 138,
       "term": "AI CapEx",
-      "description": "The capital expenditures required for the development and maintenance of AI technologies and infrastructure.",
+      "description": "Capital expenditures related to artificial intelligence, including investments in data centers, AI models, and related infrastructure.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-07-15",
-      "mention_count": 11,
+      "last_mentioned_date": "2026-07-20",
+      "mention_count": 12,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Understanding a company's AI CapEx can provide insights into its financial health and growth potential.",
+      "investment_implications": "AI CapEx is a key consideration for companies as it involves significant investment in technology that could become obsolete with technological breakthroughs.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 348,
-      "last_mentioned_speaker": "Dylan Patel"
+      "last_mentioned_episode_id": 360,
+      "last_mentioned_speaker": "Mark Cuban"
     },
     {
       "id": 234,
@@ -8610,8 +8629,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-21",
-      "mention_count": 58,
+      "last_mentioned_date": "2026-07-20",
+      "mention_count": 59,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -8620,8 +8639,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 359,
-      "last_mentioned_speaker": "Casser, Eunice, Peter Ludwig"
+      "last_mentioned_episode_id": 360,
+      "last_mentioned_speaker": "Mark Cuban"
     },
     {
       "id": 162,
@@ -8770,20 +8789,20 @@ const dashboardData = {
     {
       "id": 126,
       "term": "Data Center Nimbyism",
-      "description": "Opposition to data center projects due to lack of local support and alignment with community needs.",
+      "description": "Resistance from local communities to the establishment of data centers due to environmental and economic concerns.",
       "first_detected_date": "2026-04-20",
-      "last_mentioned_date": "2026-06-18",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-07-20",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider community engagement strategies in data center developments to ensure smoother project execution.",
+      "investment_implications": "Data center nimbyism can impact the siting and construction of new data centers, affecting the cost and efficiency of AI and cloud computing operations.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 299,
-      "last_mentioned_speaker": "FungeMita"
+      "last_mentioned_episode_id": 360,
+      "last_mentioned_speaker": "Mark Cuban"
     },
     {
       "id": 118,
@@ -10051,6 +10070,26 @@ const dashboardData = {
       ]
     },
     {
+      "id": 375,
+      "title": "Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-20",
+      "summary": "In this episode, the hosts discuss the differences between the current market behavior and the dot-com bubble, expressing concerns about potential impacts on venture capital and private equity. They also touch on the evolution of product managers' roles in the context of outperforming market indices and the challenges of deploying capital at the wrong time. The conversation shifts to the advertising platform Applovin, the borrowing habits of market leaders like Google and Meta, and the potential for technological breakthroughs that could disrupt current investments in data centers and AI. The hosts also speculate on the future of AI, including world models and their applications in video and healthcare.",
+      "key_takeaway": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 360,
+      "episode_release_date": "2026-07-20",
+      "guest_name": "Mark Cuban on the AI Bubble",
+      "key_tickers": []
+    },
+    {
       "id": 371,
       "title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
       "source_type": "podcast",
@@ -10128,26 +10167,6 @@ const dashboardData = {
       "podcast_episode_id": 354,
       "episode_release_date": "2026-07-17",
       "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 367,
-      "title": "Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-07-16",
-      "summary": "In this episode of Monetary Matters with Jack Farley, Moritz Hyden and Moritz Sebert from Takahay Capital discuss the effectiveness of trend following strategies in the current market. They emphasize the importance of having a diverse set of markets to follow trends and how a few successful trades can cover losses from smaller, non-trending markets. The conversation also touches on the differences in handling smooth trends versus volatile ones, like in gold versus oil, and the challenges of scaling positions in trending markets.",
-      "key_takeaway": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-16",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 351,
-      "episode_release_date": "2026-07-16",
-      "guest_name": "Turbo Charged Trend Following",
       "key_tickers": []
     }
   ],
@@ -10279,8 +10298,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-21",
-      "mention_count": 58,
+      "last_mentioned_date": "2026-07-20",
+      "mention_count": 59,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -10289,16 +10308,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 359,
-      "last_mentioned_speaker": "Casser, Eunice, Peter Ludwig",
-      "overton_score": 58.0,
+      "last_mentioned_episode_id": 360,
+      "last_mentioned_speaker": "Mark Cuban",
+      "overton_score": 57.65,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Why Physical AI Is the Next Frontier | Applied Intuition",
-      "last_mentioned_episode_date": "2026-07-21"
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
+      "last_mentioned_episode_date": "2026-07-20"
     },
     {
       "id": 10,
@@ -32810,9 +32829,71 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-07-21",
     "key_tickers": []
+  },
+  "375": {
+    "id": 365,
+    "insight_id": 375,
+    "podcast_episode_id": 360,
+    "overview": "The unresolved tension in the market is the potential overvaluation and aggressive investment strategies of venture capital and private equity firms, which could lead to significant losses if the market does not perform as expected. The competitive dynamic revolves around the ability of these firms to accurately predict market movements and the potential for technological breakthroughs that could disrupt current investments. The metric that arbitrates this uncertainty is the performance of these firms' investments and the overall health of the market.",
+    "key_takeaways_detailed": [
+      "Venture capital and private equity firms that are heavily invested in current market trends may face substantial losses if the market does not perform as expected, highlighting the need for diversification and risk management.",
+      "The borrowing habits of market leaders could indicate overextension and a potential risk of default, which could have a cascading effect on the market.",
+      "Technological breakthroughs in AI and data centers could disrupt current investments, making it crucial for investors to stay abreast of technological advancements and their potential market impact.",
+      "The number of companies going public could be an indicator of market health, with an increase suggesting a bubbly market and a decrease indicating a more stable market environment."
+    ],
+    "investment_thesis": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies. This thesis is vindicated if these firms report significant losses or if there is a notable increase in the number of companies going public at the $100 million IPO level, indicating a market bubble. Conversely, it would be invalidated if these firms report substantial profits and successful exits, suggesting a more stable market.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is relevant to this thesis as a market leader that could be affected by the borrowing habits discussed in the podcast. Their financial decisions could indicate broader market trends.",
+        "positioning": "Positioning should be strategic, with a focus on long-term investment in Apple, as their financial health and market performance could be indicative of broader market trends.",
+        "risk": "Key risks include changes in consumer preferences, increased competition, and potential overextension in borrowing, which could impact Apple's financial stability and market performance."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "Venture capital and private equity firms report higher than expected profits, suggesting the market is not as overvalued as feared.",
+      "Market leaders reduce their borrowing, indicating a more conservative financial approach and less risk of overextension.",
+      "Technological advancements in AI and data centers do not materialize as expected, maintaining the status quo and not disrupting current investments."
+    ],
+    "catalysts": [
+      "Quarterly financial reports from venture capital and private equity firms that indicate significant losses or profits.",
+      "Announcements from market leaders regarding changes in borrowing habits.",
+      "Technological breakthroughs in AI and data centers that could disrupt current investments.",
+      "The number of companies going public at the $100 million IPO level, which could indicate market health."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-21T22:03:05.100823",
+    "updated_at": "2026-07-22 03:03:05",
+    "episode_evidence": "The hosts of the podcast discuss the nuanced differences between the current market behavior and the dot-com bubble, highlighting that while there are similarities, the current bubble is distinct and could disproportionately impact venture capital and private equity firms. They note, 'It's not a bubble that's going to impact most people in the room, right? Or most people across the US. But it could just destroy a lot of VCs and a lot of funds and a lot of PE, right? Because they're going all in.' This suggests that the aggressive investment strategies of these firms could lead to significant losses if the market does not perform as expected. Additionally, they touch on the borrowing habits of market leaders like Google and Meta, which are 'borrowing hundreds of millions of dollars,' indicating a potential overextension of credit that could exacerbate market downturns. The conversation also points to the potential for technological breakthroughs that could disrupt current investments in data centers and AI, as they speculate, 'if there's a price performance curve on AI that minimizes the power requirements, there's going to be a lot of data centers that are going to be turned into pickleball courts.'",
+    "falsification_tracks": [
+      "A significant number of venture capital and private equity firms report substantial profits and successful exits, suggesting the market is not as overvalued as feared.",
+      "Market leaders like Google and Meta reduce their borrowing significantly, indicating a more conservative financial approach and less risk of overextension.",
+      "Technological advancements in AI and data centers do not materialize as expected, maintaining the status quo and not disrupting current investments.",
+      "The number of companies going public at the $100 million IPO level does not increase, suggesting that the market is not as bubbly as the hosts predict."
+    ],
+    "insight_title": "Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-07-20",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 535,
+    "term": "World Models",
+    "definition": "A concept in artificial intelligence that refers to comprehensive models of the world that can be used to make predictions and decisions.",
+    "investment_implications": "World models are significant for AI development as they could enhance decision-making capabilities and have applications in various sectors, including video analysis and healthcare.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-22 03:01:26",
+    "priority_score": 80
+  },
   {
     "id": 533,
     "term": "Physical AI",
@@ -32848,23 +32929,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-21 03:01:54",
     "priority_score": 80
-  },
-  {
-    "id": 529,
-    "term": "Systemic Risk",
-    "definition": "The risk that a failure in one part of a system will cause the whole system to fail.",
-    "investment_implications": "Nemeth identifies private credit as a potential trigger for a systemic financial crisis.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-20 18:35:34",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 35424,
+    "id": 35525,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -32876,7 +32945,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35425,
+    "id": 35526,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -32888,7 +32957,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35426,
+    "id": 35527,
+    "name": "Mark Cuban on the AI Bubble",
+    "slug": "mark-cuban-on-the-ai-bubble",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
+    "last_episode_title": "Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-07-20",
+    "appearance_count": 1
+  },
+  {
+    "id": 35528,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -32900,7 +32981,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35427,
+    "id": 35529,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -32912,7 +32993,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35428,
+    "id": 35530,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -32924,7 +33005,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35429,
+    "id": 35531,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -32936,7 +33017,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35430,
+    "id": 35532,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -32948,7 +33029,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35431,
+    "id": 35533,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -32960,7 +33041,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35432,
+    "id": 35534,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -32972,7 +33053,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35433,
+    "id": 35535,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -32984,7 +33065,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35434,
+    "id": 35536,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -32996,7 +33077,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35435,
+    "id": 35537,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -33008,7 +33089,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35436,
+    "id": 35538,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -33020,7 +33101,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35437,
+    "id": 35539,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -33032,7 +33113,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35438,
+    "id": 35540,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -33044,7 +33125,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35439,
+    "id": 35541,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -33056,7 +33137,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35440,
+    "id": 35542,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -33068,7 +33149,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35441,
+    "id": 35543,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -33080,7 +33161,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35442,
+    "id": 35544,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -33089,18 +33170,6 @@ const dashboardData = {
     "last_episode_title": "Nate Silver Predicts: Democrats Take the House, Newsom Is Fading & AOC Might Win It All in 2028",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-29",
-    "appearance_count": 1
-  },
-  {
-    "id": 35443,
-    "name": "What\u2019s Next for Consumer AI?",
-    "slug": "whats-next-for-consumer-ai",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
-    "last_episode_title": "What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-23",
     "appearance_count": 1
   }
 ],
@@ -33123,7 +33192,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 6,
-    "mention_score_decayed": 1.28,
+    "mention_score_decayed": 1.25,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -33247,7 +33316,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 3,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
     "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
@@ -33689,7 +33758,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-02",
     "mention_score": 2,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
     "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
@@ -34549,14 +34618,85 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 349,
+    "name": "Mark Cuban",
+    "slug": "mark-cuban",
+    "bio": "Mark Cuban is an American businessman and investor, best known as the owner of the NBA's Dallas Mavericks and for his appearances on the television show Shark Tank. He has made a significant impact in the tech industry through his investments in startups and his outspoken views on technology and finance.",
+    "known_for": "His investments in startups and outspoken views on technology and finance.",
+    "net_worth_usd": 3000000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q318503",
+    "net_worth_updated_at": "2026-07-21T22:02:30.735375",
+    "voice_tone": "Confident and experienced, with a casual and conversational style.",
+    "voice_style": "Direct and opinionated, often making bold market predictions.",
+    "voice_delivery_notes": "Speaks with a mix of enthusiasm and skepticism, emphasizing key points with a slightly raised tone.",
+    "voice_profile_updated_at": "2026-07-22 03:01:26",
+    "last_seen": "2026-07-22 03:01:26",
+    "last_episode_title": "Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-07-20",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-20 \u2022 Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
+    "last_proof_snippet": "You and I live through a couple of bubbles. We've seen this movie before. And this wave seems very different than the dot com wave. So let's talk about that. Are you concerned about a bubble? We're seeing bubbly like behavior people. It's n",
+    "supporting_takeaway": "Venture capital and private equity could be at risk due to aggressive investment strategies.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-21T22:02:30.156693",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Mark Cuban",
+      "fetched_at": "2026-07-22T03:02:30.156192+00:00",
+      "cliff_notes": "Mark Cuban is an American businessman and investor who has made significant contributions to the tech industry. He started his career by founding MicroSolutions, a technology consulting firm, and later sold it to CompuServe. Cuban then co-founded Broadcast.com, which was sold to Yahoo for $5.7 billion. He became a billionaire from this sale and has since invested in numerous startups, making him a prominent figure in the tech industry. Cuban is also known for his ownership of the Dallas Mavericks and his appearances on the television show Shark Tank, where he provides guidance and investments to entrepreneurs.",
+      "derived": {
+        "current_role": "Owner of the Dallas Mavericks; Shark on Shark Tank",
+        "former_positions": "Founder of Broadcast.com",
+        "education": "Bachelor's degree in Management from Indiana University",
+        "books_or_works": "How to Win at the Sport of Business"
+      },
+      "infobox": {
+        "Born": "July 31, 1958",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Mark Cuban is an American businessman and investor who has made significant contributions to the tech industry. He started his career by founding MicroSolutions, a technology consulting firm, and later sold it to CompuServe. Cuban then co-founded Broadcast.com, which was sold to Yahoo for $5.7 billion. He became a billionaire from this sale and has since invested in numerous startups, making him a prominent figure in the tech industry.",
+        "Cuban is also known for his ownership of the Dallas Mavericks and his appearances on the television show Shark Tank, where he provides guidance and investments to entrepreneurs."
+      ],
+      "sections": [
+        {
+          "heading": "Early Career",
+          "body": "Mark Cuban started his career by founding MicroSolutions, a technology consulting firm, which he later sold to CompuServe."
+        },
+        {
+          "heading": "Broadcast.com",
+          "body": "Cuban co-founded Broadcast.com, an online radio and TV broadcasting company, which was sold to Yahoo for $5.7 billion, making him a billionaire."
+        },
+        {
+          "heading": "Investments",
+          "body": "Mark Cuban has invested in numerous startups, making him a prominent figure in the tech industry and an influential voice in technology and finance."
+        },
+        {
+          "heading": "Dallas Mavericks",
+          "body": "Cuban is the owner of the NBA's Dallas Mavericks, and his leadership has helped the team achieve success both on and off the court."
+        },
+        {
+          "heading": "Shark Tank",
+          "body": "Mark Cuban is a shark on the television show Shark Tank, where he provides guidance and investments to entrepreneurs, further solidifying his role as a business mentor."
+        }
+      ]
+    },
+    "net_worth": "$3.00B"
+  },
+  {
     "id": 348,
     "name": "Peter Ludwig",
     "slug": "peter-ludwig",
     "bio": "Peter Ludwig is a co-founder of Applied Intuition, a company dedicated to the global expansion and technological development of autonomous systems. He is focused on enabling intelligence on machines, with an emphasis on physical applications such as cars, trucks, tanks, and drones.",
     "known_for": "His role in pioneering the field of physical AI and the development of autonomous systems.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
+    "net_worth_usd": 14000000.0,
+    "net_worth_source": "https://www.citimuzik.com/2024/01/ludwig-net-worth.html",
+    "net_worth_updated_at": "2026-07-21T22:02:31.887931",
     "voice_tone": "",
     "voice_style": "",
     "voice_delivery_notes": "",
@@ -34609,7 +34749,8 @@ const dashboardData = {
           "body": "Applied Intuition's platform, Dana, is a result of nearly a decade of development and is designed to simplify the process of designing and developing autonomous systems."
         }
       ]
-    }
+    },
+    "net_worth": "$14.0M"
   },
   {
     "id": 347,
@@ -34629,7 +34770,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in open source AI platforms and local AI models to capitalize on the growing demand for privacy-preserving, cost-efficient AI solutions and the potential shift towards model routing.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-20 \u2022 Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
     "last_proof_snippet": "I think this relation is a very common practice that everyone is using. It's something that everyone uses, but that is not the main reason for success. Like if you suck, you suck without this relation. It's hard for me to say, like, oh, poo",
@@ -34938,7 +35079,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-17 \u2022 Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
     "last_proof_snippet": "Miramoradi, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day. She's built exactly the thing hitting the market that exactly what everybody",
@@ -35959,7 +36100,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in multi-family and senior housing to capitalize on demographic shifts, and focus on industrial properties to benefit from e-commerce growth.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-04 \u2022 The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. Today we're going to be talking all things real estate. I'm joined by Jo",
@@ -36082,7 +36223,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -36141,7 +36282,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -36391,7 +36532,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Invest in companies at the forefront of AI and satellite data integration for real-world applications, while monitoring global AI competition and regulatory changes.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-26 \u2022 The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
     "last_proof_snippet": "Today, plan is a $10 billion company. You've coined the term large earth models. What does that mean? It, like, Google index the internet to make it searchable, we're indexing the earth to make it searchable. It will finally enable us to be",
@@ -37142,7 +37283,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -37203,7 +37344,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in U.S. industrial champions with strong order backlogs and companies positioned to benefit from the electrification and modernization of the U.S. grid.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-18 \u2022 The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
     "last_proof_snippet": "The U.S. manufacturing has essentially been in a recession for three straight years and we have only just emerged now. If I had a CMMI survey, just reached about 50 in the last three months. And that's after three consecutive years of sub-5",
@@ -37263,7 +37404,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in companies that integrate AI with experimental data for material discovery to gain a competitive edge in industries like aerospace and semiconductors.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-17 \u2022 \ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
     "last_proof_snippet": "This is the difference between AI for bio and AI for materials. If you look at bio or maybe small molecules is a more broad category, you look at selfies and smile strings, where I which has been a big way to have those materials, those mol",
@@ -37322,7 +37463,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in companies that can integrate AI into their operations and leverage Microsoft's ecosystem for competitive advantage, focusing on data management capabilities and adaptability to new pricing models.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
     "last_proof_snippet": "Please welcome Swicks, Saragawa, Alad Gill and Chairman and Chief Executive Officer of Microsoft, Sartina Della. I'm so excited to be here. Welcome to a crossover episode of NoPriors and Lanesvists with Sartina Della. Congratulations on an",
@@ -37631,7 +37772,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in sectors at the forefront of technological disruption, with a focus on cryptocurrency, AI, and biotech innovations that promise significant market transformation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-11 \u2022 Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
     "last_proof_snippet": "City Bank projects a Bitcoin price reaching as much as 189,000 by the end of 2026. Bitcoin is the new digital gold. I think it's going to be a key part of our economy going forward into the future. I remember it was supposed to be counter-s",
@@ -37692,7 +37833,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "The market may be entering a new inflation shock regime, leading to a rotation from financial assets to hard assets, with the healthcare sector presenting an under-owned opportunity.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-11 \u2022 MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -37892,7 +38033,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-10 \u2022 America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. There's a very, very large player in global finance that almost no one knows about. The development finance corporation, it just had its reautho",
@@ -38269,7 +38410,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Investors should focus on undervalued companies in Asia, particularly in South Korea and Southeast Asia, due to favorable valuations and growth prospects.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-06 \u2022 The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone | Michael Fritzell | Asian Century Stocks",
     "last_proof_snippet": "South Korea, I do think it is a bubble, because the estimates for profits, for Eski Heinigs and Samsung electronics, we're now talking 200 billion US dollars in that profit estimates for 2028. And that will make them the most profitable com",
@@ -38615,7 +38756,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-03 \u2022 Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
     "last_proof_snippet": "One of the most provocative and interesting investors in the country. A legendary activist investor. Pershing square CEO and founder Bill Acling. Taking a short position and going public with it is a pretty serious business. Interestingly,",
@@ -38680,7 +38821,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-02 \u2022 OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
     "last_proof_snippet": "Open AI's CFO, Sarah Fryer. We've got to get right to it. You have just completed what I would find as the most successful fund-raising rail in history. We're going to raise actually north of $120 billion. We think AI is the biggest era tha",
@@ -38865,7 +39006,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Invest in companies developing prediction market platforms, focusing on those with strong legal compliance strategies and potential for cultural acceptance.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-26 \u2022 Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
     "last_proof_snippet": "Well, so, start at the beginning. The basic vision is that speculative markets are shown to be a unmatched mechanism for aggregating information and telling us about stuff. And initially, most people who come to this area think about, let's",
@@ -39113,7 +39254,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Investors should prepare for potential oil price volatility and consider hedging strategies, while also looking for investment opportunities in companies improving inventory efficiency and energy infrastructure projects.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-21 \u2022 MacroVoices #533 Morgan Downey: The Return of Oil 101",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -39545,7 +39686,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Invest in AI technologies that leverage advancements in MCTS and reduced compute requirements to create scalable and efficient solutions in various industries.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-15 \u2022 Eric Jang \u2013 Building AlphaGo from scratch",
     "last_proof_snippet": "Today I'm here with Eric Jeng, who was most recently Vice President of AI at one ex-technologies, before that senior research scientist at what is now Google DeepMind Robotics, and you've been on sabbatical for the last few months. One of t",
@@ -39609,7 +39750,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-15 \u2022 \u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
     "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. I'm joined by Andrew Perry, veteran macro investors. He has worked at the top macro hedge funds, all the big banks, Andrew, welcome to monetary",
@@ -40171,7 +40312,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -40488,7 +40629,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -40552,7 +40693,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -40735,7 +40876,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-04 \u2022 Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
     "last_proof_snippet": "Today I was speaking to one of the best and most data-driven analysts around, Warren Pious of 314 research. If you have been seeing the ball clearer than him, last time I spoke to him, Warren's calling for S&P to 7,000 by 2026, which obviou",
@@ -40799,7 +40940,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-04 \u2022 Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
     "last_proof_snippet": "AI is going to be more important, not less important, and so the proliferation of a Western AI stack to be a top priority for anyone who cares about freedom. The rules around AI are changing fast. There's a lot of regulation abroad around d",
@@ -41429,7 +41570,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -45984,7 +46125,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-17 \u2022 Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
     "last_proof_snippet": "audience, and as you can see, still trying to monetize hope. Yeah, you look like you're in great shape. I'm doing great. Well, that's not like a sort of user of things going on or what. It's like it's our longevity exercise. We're getting t",

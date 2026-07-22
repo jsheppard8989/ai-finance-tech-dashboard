@@ -16,6 +16,22 @@
     "key_tickers": null
   },
   {
+    "id": 360,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
+    "episode_date": "2026-07-20",
+    "summary": "In this episode, the hosts discuss the differences between the current market behavior and the dot-com bubble, expressing concerns about potential impacts on venture capital and private equity. They also touch on the evolution of product managers' roles in the context of outperforming market indices and the challenges of deploying capital at the wrong time. The conversation shifts to the advertising platform Applovin, the borrowing habits of market leaders like Google and Meta, and the potential for technological breakthroughs that could disrupt current investments in data centers and AI. The hosts also speculate on the future of AI, including world models and their applications in video and healthcare.",
+    "key_takeaways": [
+      "The current market behavior is not similar to the traditional dot-com bubble.",
+      "Venture capital and private equity could be at risk due to aggressive investment strategies.",
+      "Market leaders are borrowing heavily, which could lead to issues if economic conditions change.",
+      "Technological breakthroughs may disrupt current investments in data centers and AI.",
+      "AI and world models have significant potential in video and healthcare applications."
+    ],
+    "investment_thesis": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
+    "key_tickers": null
+  },
+  {
     "id": 358,
     "podcast_name": "The a16z Show",
     "episode_title": "Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
@@ -120,23 +136,6 @@
       "Engagement in public disputes should be based on potential business impact and maintaining a principled stance."
     ],
     "investment_thesis": "Investing in companies that prioritize public communication and authenticity can lead to stronger brand loyalty and trust, which are valuable assets in the long term.",
-    "key_tickers": null
-  },
-  {
-    "id": 351,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
-    "episode_date": "2026-07-16",
-    "summary": "In this episode of Monetary Matters with Jack Farley, Moritz Hyden and Moritz Sebert from Takahay Capital discuss the effectiveness of trend following strategies in the current market. They emphasize the importance of having a diverse set of markets to follow trends and how a few successful trades can cover losses from smaller, non-trending markets. The conversation also touches on the differences in handling smooth trends versus volatile ones, like in gold versus oil, and the challenges of scaling positions in trending markets.",
-    "key_takeaways": [
-      "Trend following strategies work best when there are major trends in equities and gold sovereign markets.",
-      "A few large, successful trades can cover the losses from many small losing trades, making trend following effective.",
-      "Markets like gold and silver have smooth, long-lasting trends, while oil and related commodities are more volatile and rocky.",
-      "Takahay Capital focuses on quantitative diversifying strategies for absolute return, primarily trend following.",
-      "Trend following is not about being perfect; it's about capturing trends and not trying to catch the absolute bottom or top of the market.",
-      "Takahay Capital trades in less liquid and alternative markets, which can provide diversification and uniqueness to their strategy."
-    ],
-    "investment_thesis": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
     "key_tickers": null
   }
 ]
