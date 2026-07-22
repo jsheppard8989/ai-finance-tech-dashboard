@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-21T22:04:13.703118",
-  chartsVersion: "2026-07-21T22:04:03.316151",
+  generatedAt: "2026-07-21T23:42:15.242417",
+  chartsVersion: "2026-07-21T23:42:03.079864",
   priceSnapshot: {
   "GOOGL": {
     "price": 347.15,
     "change_pct": -3.89,
     "name": "GOOGL",
-    "updated_at": "2026-07-21T22:04:03.314965"
+    "updated_at": "2026-07-21T23:42:03.079390"
   },
   "NVDA": {
     "price": 207.29,
     "change_pct": 4.91,
     "name": "NVDA",
-    "updated_at": "2026-07-21T22:04:03.314989"
+    "updated_at": "2026-07-21T23:42:03.079401"
   },
   "BTC": {
-    "price": 66294.45,
-    "change_pct": 4.91,
+    "price": 66377.41,
+    "change_pct": 5.04,
     "name": "BTC",
-    "updated_at": "2026-07-21T22:04:03.315000"
+    "updated_at": "2026-07-21T23:42:03.079406"
   },
   "MSFT": {
     "price": 397.75,
     "change_pct": 3.51,
     "name": "MSFT",
-    "updated_at": "2026-07-21T22:04:03.315009"
+    "updated_at": "2026-07-21T23:42:03.079409"
   },
   "TSLA": {
     "price": 378.93,
     "change_pct": -10.9,
     "name": "TSLA",
-    "updated_at": "2026-07-21T22:04:03.315018"
+    "updated_at": "2026-07-21T23:42:03.079413"
   },
   "AMZN": {
     "price": 247.55,
     "change_pct": 2.42,
     "name": "AMZN",
-    "updated_at": "2026-07-21T22:04:03.315027"
+    "updated_at": "2026-07-21T23:42:03.079417"
   },
   "WTI": {
     "price": 3.63,
     "change_pct": 17.86,
     "name": "WTI",
-    "updated_at": "2026-07-21T22:04:03.315035"
+    "updated_at": "2026-07-21T23:42:03.079421"
   },
   "META": {
     "price": 643.81,
     "change_pct": 5.04,
     "name": "META",
-    "updated_at": "2026-07-21T22:04:03.315043"
+    "updated_at": "2026-07-21T23:42:03.079424"
   },
   "S&P 500": {
     "price": 748.28,
     "change_pct": 0.34,
     "name": "S&P 500",
-    "updated_at": "2026-07-21T22:04:03.315051"
+    "updated_at": "2026-07-21T23:42:03.079427"
   },
   "AAPL": {
     "price": 327.74,
     "change_pct": 11.33,
     "name": "AAPL",
-    "updated_at": "2026-07-21T22:04:03.315060"
+    "updated_at": "2026-07-21T23:42:03.079431"
   },
   "QQQ": {
     "price": 708.97,
     "change_pct": -2.23,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-21T22:04:03.315069"
+    "updated_at": "2026-07-21T23:42:03.079434"
   },
   "BTC-USD": {
-    "price": 66294.45,
-    "change_pct": 4.91,
+    "price": 66377.41,
+    "change_pct": 5.04,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-21T22:04:03.315079"
+    "updated_at": "2026-07-21T23:42:03.079437"
   }
 },
   tickerScores: [
@@ -853,6 +853,25 @@ const dashboardData = {
       "podcast_episode_id": 359
     },
     {
+      "id": 376,
+      "title": "\ud83d\udd2cCausal Models Need Causal Data - Xaira\u2019s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-07-21",
+      "summary": "In this episode of Latent Space: The AI Engineer Podcast, the hosts discuss the role of AI in drug discovery with guests from Xero Therapeutics. The conversation covers the use of AI platforms for protein design, virtual cell modeling, and patient representation models. The guests highlight the importance of high-throughput experimentation and large datasets in training AI models to predict cellular responses to drugs and therapeutics. The episode also touches on the challenges and future opportunities in the field, including the need for advancements in protein sequencing technology and the potential for modeling cellular dynamics over time.",
+      "key_takeaway": "Investing in companies that leverage AI for drug discovery could lead to breakthroughs in therapeutic development and patient care.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 361
+    },
+    {
       "id": 372,
       "title": "Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
       "source_type": "podcast",
@@ -972,7 +991,7 @@ const dashboardData = {
         "GOOGL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-17",
       "archived_date": null,
@@ -8049,6 +8068,24 @@ const dashboardData = {
       "last_mentioned_speaker": "Barbara Liskov"
     },
     {
+      "id": 260,
+      "term": "Virtual Cell Models",
+      "description": "Highly detailed computational models of cells that can simulate biological processes to test scientific hypotheses and drug effects.",
+      "first_detected_date": "2026-07-09",
+      "last_mentioned_date": "2026-07-21",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Virtual cell models can reduce the cost and time of biological research, allowing for more rapid iteration and risk-taking in drug discovery.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 338,
+      "first_detected_speaker": "Mark Zuckerberg, Priscilla Chan",
+      "last_mentioned_episode_id": 361,
+      "last_mentioned_speaker": "Bowling, True"
+    },
+    {
       "id": 43,
       "term": "ASI",
       "description": "An intellect that is much smarter than the best human brains in practically every field, including scientific creativity, general wisdom, and social skills.",
@@ -10023,6 +10060,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 376,
+      "title": "\ud83d\udd2cCausal Models Need Causal Data - Xaira\u2019s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-07-21",
+      "summary": "In this episode of Latent Space: The AI Engineer Podcast, the hosts discuss the role of AI in drug discovery with guests from Xero Therapeutics. The conversation covers the use of AI platforms for protein design, virtual cell modeling, and patient representation models. The guests highlight the importance of high-throughput experimentation and large datasets in training AI models to predict cellular responses to drugs and therapeutics. The episode also touches on the challenges and future opportunities in the field, including the need for advancements in protein sequencing technology and the potential for modeling cellular dynamics over time.",
+      "key_takeaway": "Investing in companies that leverage AI for drug discovery could lead to breakthroughs in therapeutic development and patient care.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 361,
+      "episode_release_date": "2026-07-21",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 372,
       "title": "Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
       "source_type": "podcast",
@@ -10126,26 +10183,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 355,
       "episode_release_date": "2026-07-18",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 368,
-      "title": "Amjad Masad on Going Direct, Building Replit, and the Future of Software",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-07-17",
-      "summary": "This episode of 'The a16z Show' explores the importance of building a company in public, the value of authenticity in communication, and the management of PR crises. The conversation underscores the significance of engaging with the public to gather feedback, build trust, and carry people along the company's journey. It also highlights the increasing importance of genuine self-expression on social media and the ability to handle public scrutiny as skills that can be developed. The episode provides insights into how CEOs and companies can effectively communicate their narrative and manage their public image.",
-      "key_takeaway": "Investing in companies that prioritize public communication and authenticity can lead to stronger brand loyalty and trust, which are valuable assets in the long term.",
-      "tickers_mentioned": "[\"AAPL\", \"MSFT\", \"TSLA\", \"META\", \"GOOGL\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-17",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 353,
-      "episode_release_date": "2026-07-17",
       "guest_name": null,
       "key_tickers": []
     },
@@ -32879,9 +32916,99 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-07-20",
     "key_tickers": []
+  },
+  "376": {
+    "id": 366,
+    "insight_id": 376,
+    "podcast_episode_id": 361,
+    "overview": "The competitive dynamic in AI-driven drug discovery is centered around the ability to generate high-quality, predictive models that can accurately simulate biological responses to drugs. The tension lies in the balance between the technological advancement of AI platforms and the availability of large, high-quality datasets. The success of companies like Xero Therapeutics hinges on their ability to not only develop sophisticated AI models but also to collect and utilize vast amounts of biological and clinical data.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the progress of Xero Therapeutics' AI platforms, particularly their ability to predict cellular responses and patient outcomes, as these capabilities are crucial for the success of their drug discovery efforts.",
+      "The quality and volume of data available to Xero will be a significant factor in the accuracy and reliability of their AI models; thus, investors should track announcements related to data partnerships or acquisitions.",
+      "The regulatory environment for AI in drug discovery is still evolving, and any changes could impact the speed and cost of drug development; investors should keep an eye on FDA rulings and policy updates.",
+      "The success of Xero's drug candidates in clinical trials will be a key indicator of the practical application and effectiveness of their AI models, warranting close attention to trial results and outcomes.",
+      "Investors should consider the potential for collaboration or competition with other players in the AI drug discovery space, as partnerships or rivalries could significantly impact the industry landscape."
+    ],
+    "investment_thesis": "Investing in Xero Therapeutics or similar companies at the forefront of AI-driven drug discovery could yield significant returns if their platforms can successfully predict drug efficacy and patient response, thereby reducing the time and cost of drug development. The timeframe for vindication versus invalidation of this thesis would be measured in the success of clinical trials and the receipt of regulatory approvals. An observable development that would vindicate this thesis is the successful FDA approval of a drug discovered using Xero's AI platform, while a series of failed trials or regulatory setbacks would invalidate it.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "While Apple is not directly involved in drug discovery, its significant investment in AI and health technology, including the development of AI algorithms for health monitoring, positions it as a potential collaborator or competitor in the AI-driven health sector.",
+        "positioning": "Apple could be positioned strategically in a long-term portfolio due to its broad technological reach and potential to leverage AI in health-related applications.",
+        "risk": "Key risks include regulatory hurdles in the health technology sector and potential missteps in the development or deployment of AI algorithms."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The high failure rate of drug trials, which could question the effectiveness of AI in predicting successful outcomes.",
+      "Ethical concerns surrounding the use of AI in healthcare, potentially leading to increased scrutiny and regulation.",
+      "The possibility that AI models may not generalize well across different diseases or patient populations, limiting their applicability.",
+      "The argument that AI-driven drug discovery may not significantly reduce the cost or time of drug development, as the technology is still in its early stages."
+    ],
+    "catalysts": [
+      "Publication of successful clinical trial results for drugs discovered using AI platforms.",
+      "Announcements of new partnerships or collaborations between AI drug discovery companies and traditional pharmaceutical firms.",
+      "Regulatory approvals or guidance from the FDA that support the use of AI in drug development.",
+      "Advancements in protein sequencing technology that could enhance the accuracy of AI models in predicting protein structures and interactions.",
+      "Investment in AI-driven drug discovery by major tech companies, indicating a broader industry trend and validation of the approach."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-21T23:41:14.975276",
+    "updated_at": "2026-07-22 04:41:14",
+    "episode_evidence": "The podcast episode with guests from Xero Therapeutics delves into the intricacies of AI's role in drug discovery. The hosts discuss the company's three main AI platforms: protein design, virtual cell modeling, and patient representation models. A key quote from the episode is, 'Xero is an AI enabled, a drug discovery company. And at the core of our mission, we're using AI platforms to generate better therapeutics to advance patient care.' This highlights the company's commitment to leveraging AI for therapeutic development. Another significant point made by the guests is the importance of data in training AI models, as stated: 'There are the hope is to build an AI model to predict biology. Exactly like you said, in predict what genes and drug molecules will affect cell biology.' The discussion also touches on the challenges in the field, such as the need for advancements in protein sequencing technology and the potential for modeling cellular dynamics over time, indicating the cutting-edge nature of the work being done at Xero Therapeutics.",
+    "falsification_tracks": [
+      "Failure of Xero Therapeutics to secure further funding or investment, which could indicate a lack of confidence in their AI drug discovery platform.",
+      "Publication of peer-reviewed studies that discredit the effectiveness or accuracy of AI models like Xero's in predicting drug responses or protein structures.",
+      "Delays or failures in clinical trials for drugs discovered using Xero's AI platforms, suggesting that the technology may not be as effective as claimed.",
+      "Reduction in the volume or quality of data Xero can access, which could hinder the training and accuracy of their AI models.",
+      "Regulatory setbacks or increased scrutiny from the FDA on AI-driven drug discovery processes, potentially slowing down the drug approval process."
+    ],
+    "insight_title": "\ud83d\udd2cCausal Models Need Causal Data - Xaira\u2019s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)",
+    "source_name": "Latent Space: The AI Engineer Podcast",
+    "source_date": "2026-07-21",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 536,
+    "term": "Virtual Cell",
+    "definition": "An AI model designed to predict cellular responses to drugs and therapeutics, simulating the dynamics of cell biology.",
+    "investment_implications": "Virtual Cell models could revolutionize drug discovery by enabling the prediction of drug effects on cells.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-22 04:40:18",
+    "priority_score": 80
+  },
+  {
+    "id": 537,
+    "term": "Protein Design",
+    "definition": "The use of AI technology to develop molecules against previously undruggable targets.",
+    "investment_implications": "Advancements in protein design could lead to new therapeutics for diseases with no current treatment options.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-22 04:40:18",
+    "priority_score": 80
+  },
+  {
+    "id": 538,
+    "term": "High-throughput Experimentation",
+    "definition": "The process of conducting a large number of experiments or assays simultaneously to collect extensive datasets.",
+    "investment_implications": "High-throughput experimentation is essential for training AI models in drug discovery and can accelerate the development of new therapeutics.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-22 04:40:18",
+    "priority_score": 80
+  },
   {
     "id": 535,
     "term": "World Models",
@@ -32893,47 +33020,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-22 03:01:26",
     "priority_score": 80
-  },
-  {
-    "id": 533,
-    "term": "Physical AI",
-    "definition": "AI software that enables machines to perceive, reason, and operate in the real world, as opposed to just processing digital information.",
-    "investment_implications": "Physical AI could drive significant investment opportunities as it transforms industries by automating physical tasks and processes.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-21 18:36:42",
-    "priority_score": 80
-  },
-  {
-    "id": 534,
-    "term": "Dana",
-    "definition": "A platform developed by Applied Intuition for designing and developing autonomous systems, aiming to simplify the process and make it more accessible.",
-    "investment_implications": "Platforms like Dana could lower the barrier to entry for developing autonomous systems, potentially sparking innovation and growth in the sector.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-21 18:36:42",
-    "priority_score": 80
-  },
-  {
-    "id": 532,
-    "term": "Model Routing",
-    "definition": "The practice of selecting and routing data to the most appropriate AI model based on specific criteria, potentially reducing reliance on a few dominant models.",
-    "investment_implications": "Investors should evaluate the potential impact of model routing on current AI investments and adjust strategies accordingly.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-21 03:01:54",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 35525,
+    "id": 35627,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -32945,7 +33036,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35526,
+    "id": 35628,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -32957,7 +33048,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35527,
+    "id": 35629,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -32969,7 +33060,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35528,
+    "id": 35630,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -32981,7 +33072,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35529,
+    "id": 35631,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -32993,7 +33084,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35530,
+    "id": 35632,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -33005,7 +33096,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35531,
+    "id": 35633,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -33017,7 +33108,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35532,
+    "id": 35634,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -33029,7 +33120,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35533,
+    "id": 35635,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -33041,7 +33132,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35534,
+    "id": 35636,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -33053,7 +33144,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35535,
+    "id": 35637,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -33065,7 +33156,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35536,
+    "id": 35638,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -33077,7 +33168,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35537,
+    "id": 35639,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -33089,7 +33180,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35538,
+    "id": 35640,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -33101,7 +33192,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35539,
+    "id": 35641,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -33113,7 +33204,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35540,
+    "id": 35642,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -33125,7 +33216,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35541,
+    "id": 35643,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -33137,7 +33228,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35542,
+    "id": 35644,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -33149,7 +33240,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35543,
+    "id": 35645,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -33161,7 +33252,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 35544,
+    "id": 35646,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -33440,7 +33531,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-10",
     "mention_score": 2,
-    "mention_score_decayed": 1.55,
+    "mention_score_decayed": 1.52,
     "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
     "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
@@ -33504,7 +33595,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-03",
     "mention_score": 2,
-    "mention_score_decayed": 1.35,
+    "mention_score_decayed": 1.32,
     "last_main_idea": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-03 \u2022 AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Sure, favorite podcast. It's your podcast. It's your favorite podcast. It's the all-in podcast episode two, seven, nine with me, freebergs, tax, to my, you know, the",
@@ -33564,7 +33655,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -33885,7 +33976,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in technologies that empower individuals to maintain autonomy and control in a world where threats to personal safety and privacy are growing.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-15 \u2022 Vitalik Buterin on Human Agency in the AI Era",
     "last_proof_snippet": "One of the challenges the world right now is that we're definitely in a less peaceful and less safe world than 10 or 15 years ago. The vision of safety that we're competing with is basically, oh, you know, let's trust the uncle in the sky a",
@@ -35521,7 +35612,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in companies at the forefront of AI and semiconductors that can leverage intelligence to perform high-cost, time-consuming tasks more efficiently and at scale.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-14 \u2022 The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
     "last_proof_snippet": "Got a special conversation today. I'm joined by Ben Kulandian of BEP Research. Ben is a specialist investor and analyst in the semi-conductor world and the semi-conductor supply chain. Of course, that is what powers AI Ben welcome to moneta",
@@ -36039,7 +36130,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-05 \u2022 The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. The new Fed Chair Kevin Worsh has made it no secret that he prefers a sm",
@@ -36469,7 +36560,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-29 \u2022 Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
     "last_proof_snippet": "I am so glad today we have a very special guest, one of my favorite authors of all time Leakwet Ahamed, who's the author of the new book 1873, The Roth Childs, The First Great Depression, and The Making of the Modern World Leakwet. Welcome",
@@ -36596,7 +36687,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
     "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
@@ -36780,7 +36871,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-23 \u2022 GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
     "last_proof_snippet": "Everyone hates GameStop and it seems like everyone in the media basically wants us to fail and wants them to succeed and you've got a board that's making hundreds of thousands of dollars a year and they don't buy stock with their own money.",
@@ -36910,7 +37001,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-22 \u2022 Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
     "last_proof_snippet": "Okay, we're here in a studio with Grace One, Matt and Zico welcome. Great to be here. Yeah. Thanks for having us. You're visiting from Pittsburgh? That's right. The home of all good computer science, I don't know if I'm oversteaving things.",
@@ -36973,7 +37064,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -37037,7 +37128,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -37096,7 +37187,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -37155,7 +37246,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -37220,7 +37311,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -37649,7 +37740,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -38689,7 +38780,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
