@@ -1,5 +1,21 @@
 [
   {
+    "id": 362,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
+    "episode_date": "2026-07-22",
+    "summary": "In this episode of the a16z Show, hosts sit down with Travis Kalanick, the co-founder of Uber, to discuss his new venture, CloudKitchens, and his broader vision for the future of technology. The conversation covers the importance of starting with the right motivations, the potential of industrial AI, robotics, and autonomy, and the challenges of building companies that can transform entire industries. Kalanick shares insights from his experience at Uber and explains why he believes the next great technology revolution will be in the physical world, not just software.",
+    "key_takeaways": [
+      "Travis Kalanick's new venture, CloudKitchens, aims to revolutionize the food industry by making meal preparation and delivery as efficient as possible.",
+      "Kalanick believes the next great technology revolution will be in the physical world, not just software.",
+      "Industrial AI, robotics, and autonomy are key areas for the next wave of technological disruption.",
+      "Starting a company with the right motivations is crucial for long-term success and impact.",
+      "Kalanick discusses the importance of building companies that can transform entire industries, not just create incremental improvements."
+    ],
+    "investment_thesis": "The next great technology revolution will be in the physical world, with industrial AI, robotics, and autonomy driving transformative change across industries.",
+    "key_tickers": null
+  },
+  {
     "id": 361,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "\ud83d\udd2cCausal Models Need Causal Data - Xaira\u2019s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)",
@@ -118,22 +134,6 @@
       "AI has profound implications for health and science, with the potential to create novel therapies and reverse aging."
     ],
     "investment_thesis": "Investing in AI companies that prioritize self-regulation and data security could provide an edge in a rapidly evolving industry, while the potential for AI in healthcare offers significant growth opportunities.",
-    "key_tickers": null
-  },
-  {
-    "id": 354,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
-    "episode_date": "2026-07-17",
-    "summary": "In this episode of Moonshots, Peter Diamandis discusses the latest advancements in AI with Ramine Hassani, co-founder and CEO of Liquid AI. They explore the potential of Inkling, a new model by Miramiradi, the former OpenAI CTO, which focuses on customization over leaderboard dominance. The conversation delves into liquid AI, small language models, and their significance in the market. Ramine shares insights on the mission to build efficient general-purpose AI at every scale, exploring beyond transformers and discussing the architectural design needed for such intelligence. The episode also touches on the importance of regulation in AI, with Demis Hassaba, CEO of DeepMine, advocating for a US-led Frontier AI standards body. Lastly, they discuss a breakthrough in longevity science by Rebel Pharmaceuticals, which demonstrated an engineered enzyme that can reverse the effects of aging by removing advanced glycation end products.",
-    "key_takeaways": [
-      "Inkling, a new AI model by Miramiradi, emphasizes customization over leaderboard dominance, addressing a current market need.",
-      "Liquid AI, led by Ramine Hassani, is pioneering small language models, which are becoming increasingly significant in the AI market.",
-      "Efficient general-purpose AI at every scale is the mission, with a focus on architectural design to bring intelligence to CPUs.",
-      "Regulation in AI is being called for by industry leaders like Demis Hassaba, who suggests a US-led Frontier AI standards body.",
-      "A breakthrough by Rebel Pharmaceuticals in longevity science could reverse the effects of aging by removing advanced glycation end products."
-    ],
-    "investment_thesis": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
     "key_tickers": null
   }
 ]

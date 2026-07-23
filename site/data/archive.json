@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 377,
+      "title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-22",
+      "summary": "In this episode of the a16z Show, hosts sit down with Travis Kalanick, the co-founder of Uber, to discuss his new venture, CloudKitchens, and his broader vision for the future of technology. The conversation covers the importance of starting with the right motivations, the potential of industrial AI, robotics, and autonomy, and the challenges of building companies that can transform entire industries. Kalanick shares insights from his experience at Uber and explains why he believes the next great technology revolution will be in the physical world, not just software.",
+      "key_takeaway": "The next great technology revolution will be in the physical world, with industrial AI, robotics, and autonomy driving transformative change across industries.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 362
+    },
+    {
       "id": 374,
       "title": "Why Physical AI Is the Next Frontier | Applied Intuition",
       "source_type": "podcast",
@@ -177,7 +196,7 @@
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-17",
       "archived_date": null,
@@ -7199,6 +7218,24 @@
   "definitions": [],
   "overton": [
     {
+      "id": 261,
+      "term": "Physical AI",
+      "description": "AI software that enables machines to perceive, reason, and operate in the real world, as opposed to just processing digital information.",
+      "first_detected_date": "2026-07-21",
+      "last_mentioned_date": "2026-07-22",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Physical AI could drive significant investment opportunities as it transforms industries by automating physical tasks and processes.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 359,
+      "first_detected_speaker": "Casser, Eunice, Peter Ludwig",
+      "last_mentioned_episode_id": 362,
+      "last_mentioned_speaker": "Travis Kalanick, Ben Horowitz"
+    },
+    {
       "id": 259,
       "term": "Liquid AI",
       "description": "A type of AI that focuses on efficient, general-purpose intelligence at various scales, often using small language models.",
@@ -8623,20 +8660,20 @@
     {
       "id": 37,
       "term": "Digitizing the Physical World",
-      "description": "The process of applying digital technologies to transform traditional physical industries, treating atoms like bits.",
+      "description": "The process of applying digital technologies and software to transform and improve physical world processes and industries.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-03-17",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-07-22",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Invest in companies that are leveraging technology to disrupt and modernize physical industries.",
+      "investment_implications": "Investors should look for companies that can leverage technology to disrupt traditional physical industries.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 71,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 362,
+      "last_mentioned_speaker": "Travis Kalanick, Ben Horowitz"
     },
     {
       "id": 55,

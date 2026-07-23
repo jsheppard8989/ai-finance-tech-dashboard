@@ -1,6 +1,18 @@
 [
   {
-    "id": 36137,
+    "id": 36239,
+    "name": "Travis Kalanick Is Back",
+    "slug": "travis-kalanick-is-back",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The next great technology revolution will be in the physical world, with industrial AI, robotics, and autonomy driving transformative change across industries.",
+    "last_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-22",
+    "appearance_count": 1
+  },
+  {
+    "id": 36240,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36138,
+    "id": 36241,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36139,
+    "id": 36242,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36140,
+    "id": 36243,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36141,
+    "id": 36244,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36142,
+    "id": 36245,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36143,
+    "id": 36246,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36144,
+    "id": 36247,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36145,
+    "id": 36248,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36146,
+    "id": 36249,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36147,
+    "id": 36250,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36148,
+    "id": 36251,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36149,
+    "id": 36252,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36150,
+    "id": 36253,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36151,
+    "id": 36254,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36152,
+    "id": 36255,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36153,
+    "id": 36256,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36154,
+    "id": 36257,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36155,
+    "id": 36258,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36156,
+    "id": 36259,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36157,
+    "id": 36260,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36158,
+    "id": 36261,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36159,
+    "id": 36262,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36160,
+    "id": 36263,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36161,
+    "id": 36264,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36162,
+    "id": 36265,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 2
   },
   {
-    "id": 36163,
+    "id": 36266,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36164,
+    "id": 36267,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36165,
+    "id": 36268,
     "name": "All-In's Best Ideas Pitch Competition",
     "slug": "all-ins-best-ideas-pitch-competition",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-12",
-    "appearance_count": 1
-  },
-  {
-    "id": 36166,
-    "name": "Dan Dreyfus",
-    "slug": "dan-dreyfus",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in critical minerals and infrastructure modernization presents a strategic opportunity to capitalize on supply-demand imbalances and government support, while also hedging against inflation.",
-    "last_episode_title": "Dan Dreyfus: America's Critical Minerals Crisis is Here",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-06-10",
     "appearance_count": 1
   }
 ]
