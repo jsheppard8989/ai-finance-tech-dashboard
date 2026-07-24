@@ -1,115 +1,121 @@
 {
-  "prompt": "Will the price of Bitcoin exceed $75,000 within the next 42 days?",
-  "editorial_note": "We've selected this question as it addresses the volatility and unpredictability of the cryptocurrency market, a topic of significant interest and relevance in the current investment landscape. With Bitcoin's price recently experiencing fluctuations, the question of whether it will reach $75,000 is a contentious one that is likely to generate spirited debate and offer insight into market sentiment.",
-  "expires_rule": "Resolves Friday 12:00 PM CST 2026-08-28",
-  "crux_theme": "Crypto Price Movement",
+  "prompt": "Will the S&P 500 index close above 7,500 within the next 42 days?",
+  "editorial_note": "We've chosen this topic this week due to its market relevance and the significance of the S&P 500 index in reflecting broader economic trends. Following recent discussions on various economic indicators and market performance, we're\u5f88\u597d\u5947 to see if the S&P 500 can reach this level amidst the ongoing economic climate. This question provides a measurable and timely benchmark for evaluating the market's performance over the next six weeks.",
+  "expires_rule": "Resolves Friday 12:00 PM CST 2026-09-04",
+  "crux_theme": "S&P 500 Index Levels",
   "resolution_clarity": {
-    "source_of_truth": "Cryptocurrency market data",
+    "source_of_truth": "Final closing value of the S&P 500 index on the resolution date.",
     "resolution_sources": [
-      "CoinMarketCap historical closing prices",
-      "CoinGecko historical closing prices",
-      "Yahoo Finance historical closing prices"
+      "CBOE (Chicago Board Options Exchange) official close",
+      "NYSE (New York Stock Exchange) official close",
+      "Reuters/Refinitiv official market close data"
     ],
     "resolution_criteria": [
-      "The market price of Bitcoin (BTC-USD) at the close of the market on the resolution date, based on the average of the closing prices reported by CoinMarketCap, CoinGecko, and Yahoo Finance."
+      "Index value must be publicly reported by the sources listed as having closed above 7,500 for the market to resolve as 'Yes'."
     ]
   },
   "sides": {
     "a": "Affirmative (YES)",
     "b": "Negative (NO)"
   },
-  "resolves_iso": "2026-08-28",
-  "friday_iso": "2026-07-17",
-  "week_label": "Week of 2026-07-17",
-  "debater_a": "Evan Feinberg",
-  "debater_b": "Sergey Yuternoff",
-  "generated_at": "2026-07-17T05:03:24.405147",
+  "resolves_iso": "2026-09-04",
+  "friday_iso": "2026-07-24",
+  "week_label": "Week of 2026-07-24",
+  "debater_a": "Mark Zuckerberg",
+  "debater_b": "Priscilla Chan",
+  "generated_at": "2026-07-24T05:03:45.082852",
   "bet_status": "open",
   "audio_href": "./audio/emp_ai_the_debate_11labs.mp3",
   "debater_a_snapshot": {
-    "name": "Evan Feinberg",
-    "known_for": "Developing the Pearl model for high-resolution drug discovery and pioneering the use of diffusion models in protein structure prediction.",
-    "bio": "Evan Feinberg is the co-founder and CEO of Genesis Molecular AI, a company that specializes in leveraging artificial intelligence for drug discovery. He has been a key figure in the development of the Pearl model, which is used for high-resolution drug discovery. Feinberg's work is at the forefront of AI research in the pharmaceutical industry.",
-    "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-07-01",
+    "name": "Mark Zuckerberg",
+    "known_for": "His leadership in shaping the social media landscape and his significant philanthropic work.",
+    "bio": "Mark Zuckerberg is the co-founder and CEO of Facebook, a social media platform he launched from his Harvard dorm room in 2004. He is also known for his philanthropic efforts through the Chan Zuckerberg Initiative, which focuses on areas such as science, education, and justice & opportunity.",
+    "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-09",
+    "net_worth": "$69.80B",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Evan Feinberg",
-      "fetched_at": "2026-07-01T18:38:45.940291+00:00",
-      "cliff_notes": "Evan Feinberg is a prominent figure in the field of artificial intelligence, particularly in the application of AI to drug discovery. As the co-founder and CEO of Genesis Molecular AI, he has been instrumental in developing the Pearl model, which is used for high-resolution drug discovery. Feinberg's work has been pivotal in advancing the use of AI in pharmaceuticals, with a focus on generative adversarial networks and diffusion models. His insights have been influential in recognizing the potential of diffusion as a more useful primitive for protein structure prediction, a field where some of the most innovative diffusion research is currently happening. Feinberg's contributions to the intersection of AI and drug discovery have made him a significant player in the industry.",
+      "page_title": "Mark Zuckerberg",
+      "fetched_at": "2026-07-09T17:05:09.005885+00:00",
+      "cliff_notes": "Mark Zuckerberg is an American technology entrepreneur and philanthropist. He is best known for co-founding and leading Facebook, the world's largest social media platform. Zuckerberg began coding at a young age and developed a passion for programming. He launched Facebook from his Harvard dorm room in 2004, and the platform quickly gained popularity among college students. Over the years, Facebook has expanded to become a global phenomenon with billions of users. In addition to his work at Facebook, Zuckerberg and his wife Priscilla Chan established the Chan Zuckerberg Initiative in 2015. The philanthropic organization focuses on areas such as science, education, and justice & opportunity. Zuckerberg's influence in the tech industry and his philanthropic efforts have made him a prominent figure in both the business and social sectors.",
       "derived": {
-        "current_role": "Co-founder and CEO of Genesis Molecular AI"
+        "current_role": "CEO of Facebook",
+        "education": "Harvard University (dropped out)"
       },
       "infobox": {
-        "Born": "",
-        "Nationality": ""
+        "Born": "May 14, 1984",
+        "Nationality": "American"
       },
       "lead_paragraphs": [
-        "Evan Feinberg is a prominent figure in the field of artificial intelligence, particularly in the application of AI to drug discovery. As the co-founder and CEO of Genesis Molecular AI, he has been instrumental in developing the Pearl model, which is used for high-resolution drug discovery. Feinberg's work has been pivotal in advancing the use of AI in pharmaceuticals, with a focus on generative adversarial networks and diffusion models.",
-        "His insights have been influential in recognizing the potential of diffusion as a more useful primitive for protein structure prediction, a field where some of the most innovative diffusion research is currently happening. Feinberg's contributions to the intersection of AI and drug discovery have made him a significant player in the industry."
+        "Mark Zuckerberg is an American technology entrepreneur and philanthropist. He is best known for co-founding and leading Facebook, the world's largest social media platform. Zuckerberg began coding at a young age and developed a passion for programming. He launched Facebook from his Harvard dorm room in 2004, and the platform quickly gained popularity among college students.",
+        "Over the years, Facebook has expanded to become a global phenomenon with billions of users. In addition to his work at Facebook, Zuckerberg and his wife Priscilla Chan established the Chan Zuckerberg Initiative in 2015. The philanthropic organization focuses on areas such as science, education, and justice & opportunity.",
+        "Zuckerberg's influence in the tech industry and his philanthropic efforts have made him a prominent figure in both the business and social sectors."
       ],
       "sections": [
         {
-          "heading": "AI in Drug Discovery",
-          "body": "Evan Feinberg has been a leader in the application of AI to drug discovery, particularly through the development of the Pearl model which enables high-resolution drug discovery."
+          "heading": "Facebook Founding",
+          "body": "Mark Zuckerberg co-founded Facebook in 2004 while studying at Harvard University. The platform quickly gained popularity among college students and expanded to become the world's largest social media network."
         },
         {
-          "heading": "Diffusion Models",
-          "body": "Feinberg recognized the limitations of generative adversarial networks in protein systems and shifted focus to diffusion models, which have proven more effective for protein structure prediction."
+          "heading": "Leadership",
+          "body": "As CEO of Facebook, Zuckerberg has overseen the company's growth and expansion into various areas, including messaging, virtual reality, and e-commerce. He has also faced scrutiny over privacy and data security issues."
         },
         {
-          "heading": "Innovation in Pharmaceutical Industry",
-          "body": "His work at Genesis Molecular AI has positioned the company at the forefront of AI-driven drug discovery, contributing to the advancement of the pharmaceutical industry."
+          "heading": "Philanthropy",
+          "body": "Zuckerberg and his wife Priscilla Chan established the Chan Zuckerberg Initiative in 2015. The organization focuses on areas such as science, education, and justice & opportunity, with a goal to cure, prevent, or manage all diseases by the end of the century."
+        },
+        {
+          "heading": "AI and Science",
+          "body": "Zuckerberg has expressed interest in the potential of AI to advance scientific research. He has called for more effort in building tools to bridge the gap between AI and biology, emphasizing the importance of such tools in achieving the Chan Zuckerberg Initiative's goals."
         }
       ]
     }
   },
   "debater_b_snapshot": {
-    "name": "Sergey Yuternoff",
-    "known_for": "His work in advancing the Pearl model and its application in protein structure prediction, which is pivotal for drug discovery and molecular biology.",
-    "bio": "Sergey Yuternoff is a computational biologist and the Chief Science Officer at Genesis Molecular AI. He has contributed significantly to the development and application of the Pearl model, a generative model used in protein structure prediction. With a background in physics, Yuternoff has transitioned from software engineering to leading pre-training efforts in AI for molecular biology.",
-    "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-07-01",
-    "net_worth": "$600.0M",
+    "name": "Priscilla Chan",
+    "known_for": "Her work in healthcare and the Chan Zuckerberg Initiative, which aims to leverage AI and technology to cure and prevent diseases.",
+    "bio": "Priscilla Chan is a pediatrician and co-founder of the Chan Zuckerberg Initiative alongside her husband, Mark Zuckerberg. She is dedicated to advancing basic science research and improving healthcare, with a focus on curing and preventing all diseases by the end of the century.",
+    "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-09",
+    "net_worth": "$50.00B",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Sergey Yuternoff",
-      "fetched_at": "2026-07-01T18:38:56.323308+00:00",
-      "cliff_notes": "Sergey Yuternoff began his career in physics but transitioned into software engineering post-graduation. His expertise in computational biology led him to contribute to the development of the Pearl model, a generative model instrumental in protein structure prediction. Yuternoff's work is significant in the field of AI for science, particularly in the area of molecular biology, where his leadership in pre-training efforts like Lama II and Lama III has been influential. As the Chief Science Officer at Genesis Molecular AI, he continues to push the boundaries of AI applications in molecular research.",
+      "page_title": "Priscilla Chan",
+      "fetched_at": "2026-07-09T17:05:18.896847+00:00",
+      "cliff_notes": "Priscilla Chan, a pediatrician by profession, is best known for her philanthropic work as the co-founder of the Chan Zuckerberg Initiative with her husband, Facebook's Mark Zuckerberg. Established in 2015, the initiative focuses on advancing human potential and promoting equality through investments in science, education, and technology. Chan's vision for the initiative includes leveraging AI and technology to cure and prevent all diseases by the end of the century. Her dedication to healthcare and science has made her a significant figure in the intersection of technology and healthcare.",
       "derived": {
-        "current_role": "Chief Science Officer at Genesis Molecular AI",
-        "former_positions": "Lama II and Lama III pre-training lead",
-        "education": "Physics"
+        "current_role": "Co-founder, Chan Zuckerberg Initiative",
+        "education": "Bachelor's degree in Biology, Harvard University; Medical degree, University of California, San Francisco"
       },
       "infobox": {
-        "Born": "",
-        "Nationality": ""
+        "Born": "1985",
+        "Nationality": "American"
       },
       "lead_paragraphs": [
-        "Sergey Yuternoff began his career in physics but transitioned into software engineering post-graduation. His expertise in computational biology led him to contribute to the development of the Pearl model, a generative model instrumental in protein structure prediction. Yuternoff's work is significant in the field of AI for science, particularly in the area of molecular biology, where his leadership in pre-training efforts like Lama II and Lama III has been influential.",
-        "As the Chief Science Officer at Genesis Molecular AI, he continues to push the boundaries of AI applications in molecular research."
+        "Priscilla Chan, a pediatrician by profession, is best known for her philanthropic work as the co-founder of the Chan Zuckerberg Initiative with her husband, Facebook's Mark Zuckerberg. Established in 2015, the initiative focuses on advancing human potential and promoting equality through investments in science, education, and technology.",
+        "Chan's vision for the initiative includes leveraging AI and technology to cure and prevent all diseases by the end of the century. Her dedication to healthcare and science has made her a significant figure in the intersection of technology and healthcare."
       ],
       "sections": [
         {
-          "heading": "Protein Structure Prediction",
-          "body": "Sergey Yuternoff has been instrumental in the advancement of the Pearl model, which is used for protein structure prediction. This work is crucial for understanding protein functions and has significant implications for drug discovery."
+          "heading": "Healthcare Philanthropy",
+          "body": "Priscilla Chan, along with her husband, has pledged significant resources towards healthcare initiatives, aiming to cure and prevent diseases through the Chan Zuckerberg Initiative."
         },
         {
-          "heading": "AI in Molecular Biology",
-          "body": "Yuturnoff's leadership in AI for molecular biology has been pivotal, particularly in the development and application of generative models like the Pearl model, which are now being used to predict protein structures with high accuracy."
+          "heading": "Science Research",
+          "body": "Chan is focused on advancing basic science research, emphasizing the need for tools that can help create a comprehensive understanding of biology, similar to the periodic table of elements."
         },
         {
-          "heading": "Generative Adversarial Networks",
-          "body": "In the past, Yuternoff discussed the limitations of generative adversarial networks for proteins and protein-like systems, advocating for the use of diffusion as a more effective primitive for the field."
+          "heading": "AI and Technology",
+          "body": "The Chan Zuckerberg Initiative is investing in AI to accelerate scientific research, with Chan noting the potential for AI to play a significant role in the future of biology and disease prevention."
         }
       ]
     }
   },
-  "prompt_hash": "f77a13f070f88300"
+  "prompt_hash": "4f6e294a7a3dacf8"
 }
