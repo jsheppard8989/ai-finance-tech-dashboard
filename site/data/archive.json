@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 378,
+      "title": "Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-07-23",
+      "summary": "In this episode, the guest discusses his journey into the field of AI, starting with his inspiration from Andrej Karpathy's article on the Unreasonable Effectiveness of Recurrent Airlines. He shares insights on the democratization of AI, the evolution of language models, and the importance of scaling in AI development. The conversation also touches on the challenges faced in building a fully open-source company focused on machine learning on code, the lessons learned from past failures, and the potential of smaller AI models to outperform larger ones.",
+      "key_takeaway": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-23",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 363
+    },
+    {
       "id": 377,
       "title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
       "source_type": "podcast",
@@ -154,7 +173,7 @@
         "AMZN"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-18",
       "archived_date": null,
@@ -7236,6 +7255,24 @@
       "last_mentioned_speaker": "Travis Kalanick, Ben Horowitz"
     },
     {
+      "id": 262,
+      "term": "Quantization",
+      "description": "The process of reducing the precision of the numbers used to represent a mathematical element, such as an AI model, to enable more efficient storage and computation.",
+      "first_detected_date": "2026-07-19",
+      "last_mentioned_date": "2026-07-23",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Quantization is crucial for making AI models more accessible and deployable across various devices, potentially leading to new investment opportunities in AI deployment and optimization.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 356,
+      "first_detected_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo",
+      "last_mentioned_episode_id": 363,
+      "last_mentioned_speaker": "Underrate Cupathy"
+    },
+    {
       "id": 259,
       "term": "Liquid AI",
       "description": "A type of AI that focuses on efficient, general-purpose intelligence at various scales, often using small language models.",
@@ -7762,8 +7799,8 @@
       "term": "Distillation",
       "description": "The process of extracting the most important features or knowledge from a complex AI model to create a more efficient version.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-20",
-      "mention_count": 23,
+      "last_mentioned_date": "2026-07-23",
+      "mention_count": 24,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Distillation can lead to more efficient AI models, reducing the computational resources needed for scientific research.",
@@ -7772,8 +7809,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 358,
-      "last_mentioned_speaker": "Clement DeLong"
+      "last_mentioned_episode_id": 363,
+      "last_mentioned_speaker": "Underrate Cupathy"
     },
     {
       "id": 174,
@@ -7870,8 +7907,8 @@
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-20",
-      "mention_count": 59,
+      "last_mentioned_date": "2026-07-23",
+      "mention_count": 60,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -7880,8 +7917,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 360,
-      "last_mentioned_speaker": "Mark Cuban"
+      "last_mentioned_episode_id": 363,
+      "last_mentioned_speaker": "Underrate Cupathy"
     },
     {
       "id": 162,
@@ -8390,20 +8427,20 @@
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models that are publicly accessible and can be modified and distributed by anyone, fostering a collaborative and diverse ecosystem.",
+      "description": "AI models that are publicly available and can be used, modified, and distributed by anyone.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-07-20",
-      "mention_count": 9,
+      "last_mentioned_date": "2026-07-23",
+      "mention_count": 10,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider the safety and business potential of open source AI models, as they are perceived as less dangerous and have shown viability through Hugging Face's success.",
+      "investment_implications": "Open-source AI models can drive innovation by allowing a broader community to contribute to and build upon existing models.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 358,
-      "last_mentioned_speaker": "Clement DeLong"
+      "last_mentioned_episode_id": 363,
+      "last_mentioned_speaker": "Underrate Cupathy"
     },
     {
       "id": 79,

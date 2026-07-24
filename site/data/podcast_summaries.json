@@ -1,5 +1,22 @@
 [
   {
+    "id": 363,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
+    "episode_date": "2026-07-23",
+    "summary": "In this episode, the guest discusses his journey into the field of AI, starting with his inspiration from Andrej Karpathy's article on the Unreasonable Effectiveness of Recurrent Airlines. He shares insights on the democratization of AI, the evolution of language models, and the importance of scaling in AI development. The conversation also touches on the challenges faced in building a fully open-source company focused on machine learning on code, the lessons learned from past failures, and the potential of smaller AI models to outperform larger ones.",
+    "key_takeaways": [
+      "The guest was inspired to pivot his startup to focus on RNNs and LSTMs after reading an article by Andrej Karpathy.",
+      "Scaling up language models was not an obvious strategy at the time, but it has become a key focus in AI development.",
+      "The guest's company, Sourced, aimed to build machine learning on code but struggled to gain traction in the early days of AI.",
+      "Despite a significant investment and effort, the company ultimately failed, leading the guest to take a step back from language models for a few years.",
+      "The guest emphasizes the importance of constraints in driving innovation and the potential for smaller AI models to outperform larger ones.",
+      "The conversation highlights the democratization of AI and the potential for open-source models to drive progress in the field."
+    ],
+    "investment_thesis": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
+    "key_tickers": null
+  },
+  {
     "id": 362,
     "podcast_name": "The a16z Show",
     "episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
@@ -118,22 +135,6 @@
       "The discussion highlights the importance of open-source AI models and the potential for the US to lead in providing superintelligence globally."
     ],
     "investment_thesis": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
-    "key_tickers": null
-  },
-  {
-    "id": 355,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "Can the AI Industry Regulate Itself? Stripe Wants PayPal, China Catches Up, NY Bans Datacenters",
-    "episode_date": "2026-07-18",
-    "summary": "In this episode of the All In Podcast, the hosts discuss the proposal by DeepMind's Demis Hassabis for a US-led international AI standards body, modeled after Finra. They also touch on the importance of self-regulation in the AI industry and the potential risks of data leaks in AI models. The conversation covers the groundbreaking use of AI in health and science, particularly in protein synthesis and testing for reversing aging. The hosts emphasize the profound implications of AI for human health and the potential for novel therapies.",
-    "key_takeaways": [
-      "Demis Hassabis proposed an AI regulation model similar to Finra, which would be industry-funded and overseen by independent technological experts.",
-      "The AI regulation proposal calls for models to be assessed on risks to cybersecurity, national security, and other high-risk domains.",
-      "Self-regulation in the AI industry is seen as crucial to prevent government intervention and ensure the industry's growth.",
-      "Data privacy and security are highlighted as fragile aspects of AI, with potential non-obvious data leak vectors.",
-      "AI has profound implications for health and science, with the potential to create novel therapies and reverse aging."
-    ],
-    "investment_thesis": "Investing in AI companies that prioritize self-regulation and data security could provide an edge in a rapidly evolving industry, while the potential for AI in healthcare offers significant growth opportunities.",
     "key_tickers": null
   }
 ]

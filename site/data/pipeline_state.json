@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-23T05:04:10.981553",
-  "last_updated": "2026-07-23T05:04:10.981553",
-  "last_pipeline_run": "2026-07-23T05:04:10.981553",
+  "generated_at": "2026-07-23T22:03:12.745520",
+  "last_updated": "2026-07-23T22:03:12.745520",
+  "last_pipeline_run": "2026-07-23T22:03:12.745520",
   "main_page": {
     "overton": 13,
     "insights": 8,
-    "pundits": 224
+    "pundits": 225
   },
   "counts": {
     "ticker_mentions": 206,
-    "podcast_episodes": 335,
+    "podcast_episodes": 336,
     "newsletters": 7,
     "daily_scores": 144,
-    "overton_terms_total": 112,
-    "latest_insights_total": 349,
+    "overton_terms_total": 113,
+    "latest_insights_total": 350,
     "today_mentions": {},
-    "podcasts_analyzed": 0
+    "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 3,
+    "downloaded": 2,
     "transcribed": 2,
     "analyzed": 0,
     "insight_created": 0,
     "published": 0,
-    "total": 3
+    "total": 2
   },
   "episodes": [
     {
@@ -139,87 +139,9 @@
         }
       },
       "status": "needs_analysis"
-    },
-    {
-      "id": "substack:post:208082176",
-      "podcast": "Latent Space: The AI Engineer Podcast",
-      "title": "Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
-      "published": "2026-07-23",
-      "rss_guid": "substack:post:208082176",
-      "stages": {
-        "downloaded": true,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "transcribed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
-      },
-      "first_blocker": "transcribed",
-      "remediation_by_stage": {
-        "transcribed": {
-          "action_id": "TRANSCRIBE",
-          "steps": [
-            "There are 1 MP3 file(s) in whisper_queue/ waiting for the worker.",
-            "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
-            "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
-            "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard && ./whisper_worker.sh",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "analyzed": {
-          "action_id": "ANALYZE_TRANSCRIPTS",
-          "steps": [
-            "Run transcript analysis so is_processed=1 on podcast_episodes (analyze_transcript via auto_pipeline).",
-            "Ensure LLM keys in workspace .env (e.g. MOONSHOT_API_KEY) are set if the analyzer requires them.",
-            "Quick path: auto_pipeline.py --analyze-only analyzes then continues promotion/export steps in that run."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "insight_created": {
-          "action_id": "PROMOTE_INSIGHT",
-          "steps": [
-            "Promotion to latest_insights runs inside auto_pipeline after analysis.",
-            "If analysis succeeded but insight is missing, re-run full auto_pipeline.py and check logs for promote_episodes_to_insights errors."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "published": {
-          "action_id": "EXPORT_AND_PUBLISH",
-          "steps": [
-            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
-            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
-            "When added_to_site=1 on the episode row, this stage turns green."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        }
-      },
-      "status": "needs_transcription"
     }
   ],
   "available_from_rss": [
-    {
-      "podcast": "Latent Space: The AI Engineer Podcast",
-      "title": "Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
-      "published": "Thu, 23 Jul 2026 05:09:14 GMT",
-      "published_date": "2026-07-23",
-      "rss_guid": ""
-    },
     {
       "podcast": "Monetary Matters with Jack Farley",
       "title": "Interest Rates to 10%: Why the Treasury Market is the Real Speculative Bubble (Not AI) | Russell Clark",
@@ -261,7 +183,7 @@
       "insight_created",
       "published"
     ],
-    "whisper_queue_pending_mp3": 1,
+    "whisper_queue_pending_mp3": 0,
     "fix_order": "For each episode, read first_blocker then remediation_by_stage[first_blocker].",
     "end_to_end": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py",
     "analyze_only": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
