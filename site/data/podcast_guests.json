@@ -1,6 +1,18 @@
 [
   {
-    "id": 36960,
+    "id": 37063,
+    "name": "Building the Physical AI Stack",
+    "slug": "building-the-physical-ai-stack",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
+    "last_episode_title": "Building the Physical AI Stack | Travis Kalanick on TBPN",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-23",
+    "appearance_count": 1
+  },
+  {
+    "id": 37064,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36961,
+    "id": 37065,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36962,
+    "id": 37066,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36963,
+    "id": 37067,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36964,
+    "id": 37068,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36965,
+    "id": 37069,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36966,
+    "id": 37070,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36967,
+    "id": 37071,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36968,
+    "id": 37072,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36969,
+    "id": 37073,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36970,
+    "id": 37074,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36971,
+    "id": 37075,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36972,
+    "id": 37076,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36973,
+    "id": 37077,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36974,
+    "id": 37078,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36975,
+    "id": 37079,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36976,
+    "id": 37080,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36977,
+    "id": 37081,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36978,
+    "id": 37082,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36979,
+    "id": 37083,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36980,
+    "id": 37084,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36981,
+    "id": 37085,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36982,
+    "id": 37086,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36983,
+    "id": 37087,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36984,
+    "id": 37088,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36985,
+    "id": 37089,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36986,
+    "id": 37090,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 2
   },
   {
-    "id": 36987,
+    "id": 37091,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 36988,
+    "id": 37092,
     "name": "Regulatory Risk is Coming For AI",
     "slug": "regulatory-risk-is-coming-for-ai",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-15",
-    "appearance_count": 1
-  },
-  {
-    "id": 36989,
-    "name": "All-In's Best Ideas Pitch Competition",
-    "slug": "all-ins-best-ideas-pitch-competition",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in undervalued companies with hidden assets or significant growth potential, particularly in the power and biotech sectors.",
-    "last_episode_title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-06-12",
     "appearance_count": 1
   }
 ]

@@ -1,5 +1,21 @@
 [
   {
+    "id": 364,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Building the Physical AI Stack | Travis Kalanick on TBPN",
+    "episode_date": "2026-07-23",
+    "summary": "In this episode of the a16z Show, Travis Kelenick discusses his vision for industrial AI and how it's transforming industries such as mining and food production. Kelenick shares his perspective on why bringing AI into the physical world represents a significant opportunity beyond software alone. He also talks about his company's recent $1.7 billion raise and their focus on physical automation. The conversation touches on the importance of building things that people like and the challenges of aligning technology with human interests.",
+    "key_takeaways": [
+      "Industrial AI is seen as a significant opportunity beyond software alone.",
+      "Autonomy is transforming industries like mining and food production.",
+      "Physical automation and AI are being used to transform industries one at a time.",
+      "The recent $1.7 billion raise indicates strong investor confidence in the industrial AI space.",
+      "Building something that is anti-human or doesn't serve people is unlikely to succeed."
+    ],
+    "investment_thesis": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
+    "key_tickers": null
+  },
+  {
     "id": 363,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
@@ -120,21 +136,5 @@
       "BCRED",
       "FSK"
     ]
-  },
-  {
-    "id": 356,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
-    "episode_date": "2026-07-19",
-    "summary": "In this emergency podcast, Peter Diamandis and his team discuss the recent release of Kimmy K3, the largest op-weight model ever, and its implications for the AI industry. They analyze the competitive landscape between the US and China in AI development and the potential for US government strategies to constrain Chinese AI models. The conversation also touches on the importance of frontier intelligence, the advancements in quantization, and the impact of these technologies on entrepreneurship and global accessibility.",
-    "key_takeaways": [
-      "Kimmy K3's release marks a significant milestone in AI, being the largest op-weight model ever created.",
-      "The US and China are in a race for AI dominance, with frontier intelligence becoming a perishable asset.",
-      "The US government may start constraining Chinese op-weight models from being used in the US.",
-      "Quantization advancements allow for large AI models to run on smartphones, opening up new possibilities for AI applications.",
-      "The discussion highlights the importance of open-source AI models and the potential for the US to lead in providing superintelligence globally."
-    ],
-    "investment_thesis": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
-    "key_tickers": null
   }
 ]

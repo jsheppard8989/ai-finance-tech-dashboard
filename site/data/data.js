@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-24T05:03:19.281912",
-  chartsVersion: "2026-07-24T05:03:05.943258",
+  generatedAt: "2026-07-24T06:39:19.370095",
+  chartsVersion: "2026-07-24T06:39:00.955787",
   priceSnapshot: {
   "GOOGL": {
     "price": 317.69,
     "change_pct": -13.31,
     "name": "GOOGL",
-    "updated_at": "2026-07-24T05:03:05.942177"
+    "updated_at": "2026-07-24T06:39:00.954327"
   },
   "NVDA": {
     "price": 208.76,
     "change_pct": 6.76,
     "name": "NVDA",
-    "updated_at": "2026-07-24T05:03:05.942197"
+    "updated_at": "2026-07-24T06:39:00.954348"
   },
   "BTC": {
-    "price": 65039.99,
-    "change_pct": 1.94,
+    "price": 64943.78,
+    "change_pct": 1.79,
     "name": "BTC",
-    "updated_at": "2026-07-24T05:03:05.942206"
+    "updated_at": "2026-07-24T06:39:00.954357"
   },
   "MSFT": {
     "price": 381.58,
     "change_pct": -1.33,
     "name": "MSFT",
-    "updated_at": "2026-07-24T05:03:05.942214"
+    "updated_at": "2026-07-24T06:39:00.954365"
   },
   "TSLA": {
     "price": 319.69,
     "change_pct": -23.84,
     "name": "TSLA",
-    "updated_at": "2026-07-24T05:03:05.942222"
+    "updated_at": "2026-07-24T06:39:00.954373"
   },
   "AMZN": {
     "price": 233.66,
     "change_pct": -4.3,
     "name": "AMZN",
-    "updated_at": "2026-07-24T05:03:05.942229"
+    "updated_at": "2026-07-24T06:39:00.954380"
   },
   "WTI": {
     "price": 3.85,
     "change_pct": 24.6,
     "name": "WTI",
-    "updated_at": "2026-07-24T05:03:05.942237"
+    "updated_at": "2026-07-24T06:39:00.954388"
   },
   "META": {
     "price": 606.1,
     "change_pct": 0.97,
     "name": "META",
-    "updated_at": "2026-07-24T05:03:05.942244"
+    "updated_at": "2026-07-24T06:39:00.954395"
   },
   "S&P 500": {
     "price": 738.18,
     "change_pct": -1.74,
     "name": "S&P 500",
-    "updated_at": "2026-07-24T05:03:05.942251"
+    "updated_at": "2026-07-24T06:39:00.954402"
   },
   "AAPL": {
     "price": 321.66,
     "change_pct": 2.88,
     "name": "AAPL",
-    "updated_at": "2026-07-24T05:03:05.942258"
+    "updated_at": "2026-07-24T06:39:00.954410"
   },
   "QQQ": {
     "price": 691.96,
     "change_pct": -4.27,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-24T05:03:05.942265"
+    "updated_at": "2026-07-24T06:39:00.954417"
   },
   "BTC-USD": {
-    "price": 65050.79,
-    "change_pct": 1.96,
+    "price": 64943.78,
+    "change_pct": 1.79,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-24T05:03:05.942274"
+    "updated_at": "2026-07-24T06:39:00.954426"
   }
 },
   tickerScores: [
@@ -853,6 +853,25 @@ const dashboardData = {
       "podcast_episode_id": 363
     },
     {
+      "id": 379,
+      "title": "Building the Physical AI Stack | Travis Kalanick on TBPN",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-23",
+      "summary": "In this episode of the a16z Show, Travis Kelenick discusses his vision for industrial AI and how it's transforming industries such as mining and food production. Kelenick shares his perspective on why bringing AI into the physical world represents a significant opportunity beyond software alone. He also talks about his company's recent $1.7 billion raise and their focus on physical automation. The conversation touches on the importance of building things that people like and the challenges of aligning technology with human interests.",
+      "key_takeaway": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 364
+    },
+    {
       "id": 377,
       "title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
       "source_type": "podcast",
@@ -985,7 +1004,7 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-19",
       "archived_date": null,
@@ -8070,22 +8089,58 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
-      "id": 261,
-      "term": "Physical AI",
-      "description": "AI software that enables machines to perceive, reason, and operate in the real world, as opposed to just processing digital information.",
-      "first_detected_date": "2026-07-21",
-      "last_mentioned_date": "2026-07-22",
+      "id": 263,
+      "term": "Industrial AI",
+      "description": "A full-stack solution that combines software, robotics, sensors, and machinery to automate industries.",
+      "first_detected_date": "2026-07-22",
+      "last_mentioned_date": "2026-07-23",
       "mention_count": 2,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Physical AI could drive significant investment opportunities as it transforms industries by automating physical tasks and processes.",
+      "investment_implications": "Industrial AI represents a significant shift in how industries are automated, offering substantial investment opportunities in physical automation.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 362,
+      "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
+      "last_mentioned_episode_id": 364,
+      "last_mentioned_speaker": "Travis Kelenick"
+    },
+    {
+      "id": 264,
+      "term": "Autonomy",
+      "description": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
+      "first_detected_date": "2026-07-22",
+      "last_mentioned_date": "2026-07-23",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 362,
+      "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
+      "last_mentioned_episode_id": 364,
+      "last_mentioned_speaker": "Travis Kelenick"
+    },
+    {
+      "id": 261,
+      "term": "Physical AI",
+      "description": "The application of AI in the physical world, as opposed to purely digital or software-based applications.",
+      "first_detected_date": "2026-07-21",
+      "last_mentioned_date": "2026-07-23",
+      "mention_count": 3,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investing in Physical AI could lead to significant advancements in industry efficiency and productivity.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 359,
       "first_detected_speaker": "Casser, Eunice, Peter Ludwig",
-      "last_mentioned_episode_id": 362,
-      "last_mentioned_speaker": "Travis Kalanick, Ben Horowitz"
+      "last_mentioned_episode_id": 364,
+      "last_mentioned_speaker": "Travis Kelenick"
     },
     {
       "id": 262,
@@ -10134,6 +10189,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 379,
+      "title": "Building the Physical AI Stack | Travis Kalanick on TBPN",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-23",
+      "summary": "In this episode of the a16z Show, Travis Kelenick discusses his vision for industrial AI and how it's transforming industries such as mining and food production. Kelenick shares his perspective on why bringing AI into the physical world represents a significant opportunity beyond software alone. He also talks about his company's recent $1.7 billion raise and their focus on physical automation. The conversation touches on the importance of building things that people like and the challenges of aligning technology with human interests.",
+      "key_takeaway": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 364,
+      "episode_release_date": "2026-07-23",
+      "guest_name": "Building the Physical AI Stack",
+      "key_tickers": []
+    },
+    {
       "id": 377,
       "title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
       "source_type": "podcast",
@@ -10258,26 +10333,6 @@ const dashboardData = {
       "podcast_episode_id": 360,
       "episode_release_date": "2026-07-20",
       "guest_name": "Mark Cuban on the AI Bubble",
-      "key_tickers": []
-    },
-    {
-      "id": 371,
-      "title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-07-19",
-      "summary": "In this emergency podcast, Peter Diamandis and his team discuss the recent release of Kimmy K3, the largest op-weight model ever, and its implications for the AI industry. They analyze the competitive landscape between the US and China in AI development and the potential for US government strategies to constrain Chinese AI models. The conversation also touches on the importance of frontier intelligence, the advancements in quantization, and the impact of these technologies on entrepreneurship and global accessibility.",
-      "key_takeaway": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"BIDU\", \"GOOGL\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-19",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 356,
-      "episode_release_date": "2026-07-19",
-      "guest_name": "Urgent Update- AI Sputnik Moment",
       "key_tickers": []
     }
   ],
@@ -33140,6 +33195,56 @@ const dashboardData = {
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-07-23",
     "key_tickers": []
+  },
+  "379": {
+    "id": 369,
+    "insight_id": 379,
+    "podcast_episode_id": 364,
+    "overview": "The unresolved tension in Travis Kalanick's industrial AI venture lies in the balance between the transformative potential of physical AI in industries like mining and food production and the practical challenges of implementation, including safety, efficiency, and acceptance by traditional industries. The competitive dynamic is not just with existing software solutions but with the status quo of manual labor and traditional operational methods. What converts belief in this thesis is the consistent demonstration of superior productivity, safety, and operational efficiency through AI-driven physical automation.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the company's ability to scale its technology across different geographies and industry conditions as a key indicator of the robustness of its industrial AI solution.",
+      "The success of physical AI in mining could serve as a bellwether for its potential in other resource-intensive industries, suggesting a ripple effect if proven effective.",
+      "The company's focus on physical automation over pure software solutions could offer a competitive edge in markets where operational efficiency and safety are paramount.",
+      "The integration of AI with existing machinery, including older models, as mentioned by Kalanick, could indicate a lower barrier to adoption and a faster time to market."
+    ],
+    "investment_thesis": "The core logic of investing in industrial AI is the potential for significant efficiency gains and cost reductions in labor-intensive industries through the application of physical automation and AI. The timeframe for vindication versus invalidation is tied to the speed at which the company can demonstrate consistent improvements in productivity and safety across various operational environments. An observable development that would vindicate this thesis is the company's ability to secure long-term contracts with major players in the mining and food production industries, indicating a shift from pilot programs to widespread adoption.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI and automation technologies makes it a relevant player in the broader industrial AI landscape, despite not being directly involved in mining or food production.",
+        "positioning": "Apple could be positioned strategically as a long-term investment, given its potential to leverage AI for its supply chain optimization and new product development.",
+        "risk": "Key risks include Apple's reliance on global supply chains that may be disrupted by economic or political factors, and the company's ability to innovate and maintain its competitive edge in a rapidly evolving tech landscape."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The high initial costs of implementing AI and automation technology could be a barrier for smaller players in the mining and food production industries.",
+      "There may be regulatory hurdles or pushback from labor unions that could slow the adoption of AI-driven physical automation.",
+      "The technology may face scalability issues or encounter unforeseen technical challenges when applied to diverse and complex industrial environments."
+    ],
+    "catalysts": [
+      "Announcements of new contracts or partnerships with major mining or food production companies would be a significant catalyst.",
+      "Publications of independent studies or reports validating the safety and efficiency gains from industrial AI would bolster the thesis.",
+      "Regulatory changes or policy initiatives that encourage the adoption of AI and automation in critical industries.",
+      "Successful scaling of operations to new geographies or industries, indicating the versatility and adaptability of the AI technology."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-24T06:38:03.990117",
+    "updated_at": "2026-07-24 11:38:03",
+    "episode_evidence": "Travis Kalanick's venture into industrial AI is characterized by a significant focus on physical automation, as he states, 'We are going to do physical automation, physical AI.' His company's recent $1.7 billion raise is indicative of the substantial opportunity in this space, as he explains, 'They're just like we want to invest in you.' This underscores the market's belief in the potential of industrial AI to disrupt traditional industries. Kalanick's approach to transforming industries like mining and food production with AI is not just about software but about enhancing physical operations, as he mentions, 'bringing AI into the physical world may be an even bigger opportunity than software alone.' The company's strategy involves deploying technology that surpasses human productivity, which is a key selling point in the mining industry, 'human level, better than human productivity.'",
+    "falsification_tracks": [
+      "Should the company fail to meet the promised 20% increase in gold per year for mining CEOs, it would significantly undermine the thesis of industrial AI's transformative potential.",
+      "A consistent pattern of safety incidents or operational failures in the automated mines would challenge the narrative of improved safety and efficiency.",
+      "If the company's technology does not achieve or maintain better than human productivity levels across a variety of mining and food production environments, the core value proposition would be weakened.",
+      "Failure to secure additional significant funding rounds could indicate a lack of market confidence in the scalability of the industrial AI solution."
+    ],
+    "insight_title": "Building the Physical AI Stack | Travis Kalanick on TBPN",
+    "source_name": "The a16z Show",
+    "source_date": "2026-07-23",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -33168,33 +33273,45 @@ const dashboardData = {
     "priority_score": 80
   },
   {
-    "id": 539,
-    "term": "Industrial AI",
-    "definition": "The application of artificial intelligence in industrial settings to optimize operations, improve safety, and increase productivity.",
-    "investment_implications": "Investors should consider companies at the forefront of applying AI to industrial processes.",
+    "id": 536,
+    "term": "Virtual Cell",
+    "definition": "An AI model designed to predict cellular responses to drugs and therapeutics, simulating the dynamics of cell biology.",
+    "investment_implications": "Virtual Cell models could revolutionize drug discovery by enabling the prediction of drug effects on cells.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-07-23 04:37:06",
+    "submitted_date": "2026-07-22 04:40:18",
     "priority_score": 80
   },
   {
-    "id": 540,
-    "term": "Autonomy",
-    "definition": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
-    "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
+    "id": 537,
+    "term": "Protein Design",
+    "definition": "The use of AI technology to develop molecules against previously undruggable targets.",
+    "investment_implications": "Advancements in protein design could lead to new therapeutics for diseases with no current treatment options.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-07-23 04:37:06",
+    "submitted_date": "2026-07-22 04:40:18",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 36960,
+    "id": 37063,
+    "name": "Building the Physical AI Stack",
+    "slug": "building-the-physical-ai-stack",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
+    "last_episode_title": "Building the Physical AI Stack | Travis Kalanick on TBPN",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-23",
+    "appearance_count": 1
+  },
+  {
+    "id": 37064,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -33206,7 +33323,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 36961,
+    "id": 37065,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -33218,7 +33335,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 36962,
+    "id": 37066,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -33230,7 +33347,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 36963,
+    "id": 37067,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -33242,7 +33359,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 36964,
+    "id": 37068,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -33254,7 +33371,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 36965,
+    "id": 37069,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -33266,7 +33383,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 36966,
+    "id": 37070,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -33278,7 +33395,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 36967,
+    "id": 37071,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -33290,7 +33407,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 36968,
+    "id": 37072,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -33302,7 +33419,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 36969,
+    "id": 37073,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -33314,7 +33431,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 36970,
+    "id": 37074,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -33326,7 +33443,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 36971,
+    "id": 37075,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -33338,7 +33455,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 36972,
+    "id": 37076,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -33350,7 +33467,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 36973,
+    "id": 37077,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -33362,7 +33479,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 36974,
+    "id": 37078,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -33374,7 +33491,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 36975,
+    "id": 37079,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -33386,7 +33503,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 36976,
+    "id": 37080,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -33398,7 +33515,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 36977,
+    "id": 37081,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -33410,7 +33527,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 36978,
+    "id": 37082,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -33419,18 +33536,6 @@ const dashboardData = {
     "last_episode_title": "Building AI for Creators | Luma & Phota Labs",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
-    "appearance_count": 1
-  },
-  {
-    "id": 36979,
-    "name": "Beyond P(doom)",
-    "slug": "beyond-pdoom",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in AI-driven blue sectors to capitalize on rapid productivity growth, while advocating for regulatory reforms and public sector modernization to overcome constraints on AI's transformative potential.",
-    "last_episode_title": "Beyond P(doom): Marc Andreessen - Betting on America",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-29",
     "appearance_count": 1
   }
 ],
@@ -33512,7 +33617,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-15",
     "mention_score": 4,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Nvidia's role in the transformation of electrons to valuable tokens and the acceleration of computing tasks positions it well in the AI and broader technology market.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-15 \u2022 Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
     "last_proof_snippet": "Nvidia has built a large ecosystem of partners across the supply chain and in application development.",
@@ -33952,7 +34057,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
@@ -34273,7 +34378,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-13",
     "mention_score": 2,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in sectors poised for growth due to AI adoption, particularly semiconductors and stablecoins, while being cautious about the cyclical nature of capex investments in hyperscaler companies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-13 \u2022 Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show, you'll hear more about hfgm currently the number one morning star rated fund sits its inception in the US macro trading category. Let's",
@@ -34471,7 +34576,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-24",
     "mention_score": 2,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
     "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
@@ -34537,7 +34642,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-24",
     "mention_score": 2,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
     "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
@@ -34881,6 +34986,66 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 354,
+    "name": "Travis Kelenick",
+    "slug": "travis-kelenick",
+    "bio": "Travis Kelenick is an entrepreneur and CEO of a company that specializes in industrial AI. He is recognized for his vision on how autonomy is transforming industries such as mining and food production, and his belief in the potential of AI to revolutionize the physical world beyond software.",
+    "known_for": "Betting on industrial AI for the next wave of industry transformation.",
+    "net_worth_usd": 3600000000.0,
+    "net_worth_source": "https://spearswms.com/wealth/billionaire-former-uber-ceo-travis-kalanick-on-his-emergence-from-stealth-mode-business-is-politics-now/",
+    "net_worth_updated_at": "2026-07-24T06:37:39.731739",
+    "voice_tone": "Passionate and visionary.",
+    "voice_style": "Direct and future-focused.",
+    "voice_delivery_notes": "Pacing is energetic with emphasis on the transformative potential of industrial AI.",
+    "voice_profile_updated_at": "2026-07-24 11:36:46",
+    "last_seen": "2026-07-24 11:36:46",
+    "last_episode_title": "Building the Physical AI Stack | Travis Kalanick on TBPN",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-23",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-23 \u2022 Building the Physical AI Stack | Travis Kalanick on TBPN",
+    "last_proof_snippet": "Travis Kelenick joins TVPN to discuss why he's betting his next company on industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",
+    "supporting_takeaway": "Autonomy is transforming industries like mining and food production.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-24T06:37:38.804561",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Travis Kelenick",
+      "fetched_at": "2026-07-24T11:37:38.804156+00:00",
+      "cliff_notes": "Travis Kelenick is an entrepreneur who has made a significant impact in the field of industrial AI. As the CEO of a company focused on this technology, he has been at the forefront of the next wave of industry transformation. Kelenick's vision extends beyond software, as he sees AI as a tool to revolutionize the physical world, particularly in industries such as mining and food production. His dedication to autonomy and AI has positioned him as an influential figure in the tech industry, shaping the future of how industries operate and evolve.",
+      "derived": {
+        "current_role": "CEO of an industrial AI company"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Travis Kelenick is an entrepreneur who has made a significant impact in the field of industrial AI. As the CEO of a company focused on this technology, he has been at the forefront of the next wave of industry transformation. Kelenick's vision extends beyond software, as he sees AI as a tool to revolutionize the physical world, particularly in industries such as mining and food production.",
+        "His dedication to autonomy and AI has positioned him as an influential figure in the tech industry, shaping the future of how industries operate and evolve."
+      ],
+      "sections": [
+        {
+          "heading": "Industrial AI",
+          "body": "Travis Kelenick is known for his work and advocacy in industrial AI, which is poised to transform various industries through increased automation and efficiency."
+        },
+        {
+          "heading": "Autonomy in Industries",
+          "body": "Kelenick has been a proponent of how autonomy, driven by AI, can change the landscape of industries such as mining and food production, enhancing productivity and safety."
+        },
+        {
+          "heading": "Beyond Software",
+          "body": "He believes that the integration of AI into the physical world represents an even larger opportunity than software alone, which could lead to significant advancements in various sectors."
+        }
+      ]
+    },
+    "net_worth": "$3.60B"
   },
   {
     "id": 352,
@@ -37911,7 +38076,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in Axiom Math for its pioneering role in verified AI for mathematics, which has the potential to drive innovation and efficiency in problem-solving across various fields.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
     "last_proof_snippet": "But it's for the first time now I think verified AI is to open up collaboration. Either it's human AI collaboration. Well, before a blueprint like that's human human collaboration. And Lin was a grounding, was a verification formal language",
@@ -41521,7 +41686,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Investors should look for opportunities in chaos, focusing on sectors with significant potential for growth and capital movement, such as SpaceX's IPO and the de-scheduling of cannabis.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-30 \u2022 SpaceX IPO: Why This Hedge Fund Manager is Fading the Hype | Moez Kassam",
     "last_proof_snippet": "SpaceX's IPO could be one of the largest in history, with potential for significant capital movement.",
@@ -42144,7 +42309,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Investing in AI, hardware, and pharma presents significant opportunities due to the large market cap potential and the need for innovation in computing.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-23 \u2022 Martin Shkreli on AI, Pharma, and What Actually Matters",
     "last_proof_snippet": "There is a surprising lack of startups in certain areas of AI and hardware, presenting opportunities for new entrants.",
@@ -42208,7 +42373,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "The Iran conflict and energy market disruptions present opportunities in commodities, particularly in the context of extreme backwardation and supply constraints, which could drive further price increases and investment returns.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-23 \u2022 MacroVoices #529 Ole S Hansen: Commodities in The Wake of The Iran Crisis",
     "last_proof_snippet": "Extreme backwardation in crude oil presents powerful return tailwinds for traders.",
@@ -42457,7 +42622,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "Investing in the evolution of software development tools that cater to the needs of both human developers and AI coding agents presents an opportunity for significant growth and innovation.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-20 \u2022 Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
     "last_proof_snippet": "Coding agents are struggling with traditional Git interfaces, necessitating new tool development.",
@@ -42775,7 +42940,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Invest in sectors likely to benefit from increased inflation and supply chain disruptions, with a focus on energy, uranium, and domestic electrical infrastructure.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-16 \u2022 MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
     "last_proof_snippet": "Markets may be underpricing the severity of supply chain disruptions.",
@@ -43660,7 +43825,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-07 \u2022 Michael Nielsen \u2013 How science actually progresses",
     "last_proof_snippet": "The Michelson-Morley experiment was initially aimed at testing theories of the ether, which was a significant concept in physics before the advent of relativity.",
@@ -43721,7 +43886,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-07 \u2022 Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
     "last_proof_snippet": "The recent outperformance of emerging market equities is attributed to a fundamental repricing of relative value and the 'anywhere but US' theme.",
@@ -43781,7 +43946,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-07 \u2022 How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
     "last_proof_snippet": "The company is leveraging AI to design and build living products, which is a novel approach in synthetic biology.",
