@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T12:07:53.549264",
-  "last_updated": "2026-07-24T12:07:53.549264",
-  "last_pipeline_run": "2026-07-24T12:07:53.549264",
+  "generated_at": "2026-07-24T13:40:15.655154",
+  "last_updated": "2026-07-24T13:40:15.655154",
+  "last_pipeline_run": "2026-07-24T13:40:15.655154",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -18,12 +18,12 @@
     "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 3,
-    "transcribed": 3,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 3
+    "downloaded": 2,
+    "transcribed": 2,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 2
   },
   "episodes": [
     {
@@ -139,24 +139,6 @@
         }
       },
       "status": "needs_analysis"
-    },
-    {
-      "id": "9635840c-a1ca-4251-b090-a854c6a64f7b",
-      "podcast": "The a16z Show",
-      "title": "Sriram Krishnan on Open Source AI's Biggest Week Yet",
-      "published": "2026-07-24",
-      "rss_guid": "9635840c-a1ca-4251-b090-a854c6a64f7b",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
     }
   ],
   "available_from_rss": [
