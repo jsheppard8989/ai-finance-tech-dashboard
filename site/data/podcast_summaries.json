@@ -1,5 +1,21 @@
 [
   {
+    "id": 365,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Sriram Krishnan on Open Source AI's Biggest Week Yet",
+    "episode_date": "2026-07-24",
+    "summary": "The podcast discusses the rapid growth of open-source AI models such as Kimi K3 and Quen 3.8, which are challenging the dominance of existing models. The emergence of these models increases choice for consumers and may put pricing pressure on frontier labs, potentially affecting their gross margins. The show also touches on the security benefits of open-source models and the potential for AI to automate AI research. Additionally, there is a discussion on the US government's possible restrictions on Chinese open-source models due to national security concerns.",
+    "key_takeaways": [
+      "Open-source AI models are growing rapidly, challenging existing models and increasing market competition.",
+      "The rise of open-source models may lead to pricing pressure on frontier labs, affecting their financial health.",
+      "Open-source models could enhance the security of the AI ecosystem due to their transparency and inspection capabilities.",
+      "American frontier labs may need to adapt by improving their models or focusing on their harnesses to maintain a competitive edge.",
+      "The US government may consider restrictions on Chinese open-source models due to national security and cybersecurity concerns."
+    ],
+    "investment_thesis": "Investors should consider the impact of open-source AI models on frontier labs and monitor the security and competitive landscape of AI, as well as potential opportunities in related sectors like cloud computing and data centers.",
+    "key_tickers": null
+  },
+  {
     "id": 364,
     "podcast_name": "The a16z Show",
     "episode_title": "Building the Physical AI Stack | Travis Kalanick on TBPN",
@@ -113,28 +129,6 @@
     "investment_thesis": "Invest in open source AI platforms and local AI models to capitalize on the growing demand for privacy-preserving, cost-efficient AI solutions and the potential shift towards model routing.",
     "key_tickers": [
       "HUGG"
-    ]
-  },
-  {
-    "id": 357,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
-    "episode_date": "2026-07-20",
-    "summary": "In this episode of Monetary Matters, host Jack Farley interviews Financial Investor Researcher and author Nick Nemeth on the potential risks in the private credit industry. Nemeth argues that the current situation is reminiscent of 1929 rather than 2008, with private credit being the trigger for a potential massive financial blow-up. The discussion covers the high leverage in direct lending, the role of insurance companies in the alternative asset space, and the commoditization of life and health insurance. Nemeth also highlights the risks associated with the massive balance sheets of insurance companies and the potential for a crisis in the private credit market.",
-    "key_takeaways": [
-      "Nick Nemeth is bearish on the private credit industry, comparing it to the 1929 financial crisis rather than 2008.",
-      "Private credit is leveraged at seven times EBITDA, with EBITDA often adjusted, leading to potential leverages of up to nine times.",
-      "Insurance companies have a $10 trillion balance sheet, which is 150% of the Federal Reserve's, posing a systemic risk.",
-      "Alternative asset managers are turning to insurance capital, viewing it as 'permanent capital' due to its long duration.",
-      "The commoditization of life and health insurance has turned these businesses into investment firms disguised as insurance companies.",
-      "Nemeth sees an opportunity in shorting the balance sheets of insurance companies."
-    ],
-    "investment_thesis": "The private credit industry is overleveraged and poses a significant systemic risk, with potential for a massive financial blow-up that could be triggered by the insurance industry's massive balance sheets.",
-    "key_tickers": [
-      "CORN",
-      "BX",
-      "BCRED",
-      "FSK"
     ]
   }
 ]

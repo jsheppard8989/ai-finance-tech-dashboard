@@ -1,6 +1,29 @@
 {
   "insights": [
     {
+      "id": 380,
+      "title": "Sriram Krishnan on Open Source AI's Biggest Week Yet",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-24",
+      "summary": "The podcast discusses the rapid growth of open-source AI models such as Kimi K3 and Quen 3.8, which are challenging the dominance of existing models. The emergence of these models increases choice for consumers and may put pricing pressure on frontier labs, potentially affecting their gross margins. The show also touches on the security benefits of open-source models and the potential for AI to automate AI research. Additionally, there is a discussion on the US government's possible restrictions on Chinese open-source models due to national security concerns.",
+      "key_takeaway": "Investors should consider the impact of open-source AI models on frontier labs and monitor the security and competitive landscape of AI, as well as potential opportunities in related sectors like cloud computing and data centers.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 365
+    },
+    {
       "id": 378,
       "title": "Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
       "source_type": "podcast",
@@ -110,7 +133,7 @@
         "FSK"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-20",
       "archived_date": null,
@@ -7265,7 +7288,7 @@
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Industrial AI represents a significant shift in how industries are automated, offering substantial investment opportunities in physical automation.",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 362,
@@ -7283,7 +7306,7 @@
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 362,
@@ -7852,20 +7875,20 @@
     {
       "id": 97,
       "term": "Distillation",
-      "description": "The process of extracting the most important features or knowledge from a complex AI model to create a more efficient version.",
+      "description": "The process of training AI models on existing knowledge, which can be a core part of AI development but raises concerns when it involves industrial-scale extraction or violates terms of service.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-23",
-      "mention_count": 24,
+      "last_mentioned_date": "2026-07-24",
+      "mention_count": 25,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Distillation can lead to more efficient AI models, reducing the computational resources needed for scientific research.",
+      "investment_implications": "Distillation could accelerate AI capabilities, but investors should be aware of the ethical and legal implications of this process.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 363,
-      "last_mentioned_speaker": "Underrate Cupathy"
+      "last_mentioned_episode_id": 365,
+      "last_mentioned_speaker": "Sri Ram Krishna"
     },
     {
       "id": 174,
@@ -8482,20 +8505,20 @@
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models that are publicly available and can be used, modified, and distributed by anyone.",
+      "description": "AI models that are publicly available and can be freely used, modified, and shared by anyone.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-07-23",
-      "mention_count": 10,
+      "last_mentioned_date": "2026-07-24",
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Open-source AI models can drive innovation by allowing a broader community to contribute to and build upon existing models.",
+      "investment_implications": "The growth of open-source AI models may disrupt the competitive landscape, affecting pricing and innovation in the AI industry.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 363,
-      "last_mentioned_speaker": "Underrate Cupathy"
+      "last_mentioned_episode_id": 365,
+      "last_mentioned_speaker": "Sri Ram Krishna"
     },
     {
       "id": 79,
@@ -8988,8 +9011,8 @@
       "term": "AI Race",
       "description": "The global competition between nations to lead in AI development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-07-19",
-      "mention_count": 21,
+      "last_mentioned_date": "2026-07-24",
+      "mention_count": 22,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consider investing in companies and countries that are making significant strides in AI technology.",
@@ -8998,8 +9021,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 356,
-      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo"
+      "last_mentioned_episode_id": 365,
+      "last_mentioned_speaker": "Sri Ram Krishna"
     },
     {
       "id": 12,

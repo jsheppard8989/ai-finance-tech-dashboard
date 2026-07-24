@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-24T06:39:19.370095",
-  chartsVersion: "2026-07-24T06:39:00.955787",
+  generatedAt: "2026-07-24T12:07:57.137212",
+  chartsVersion: "2026-07-24T12:07:50.633407",
   priceSnapshot: {
   "GOOGL": {
-    "price": 317.69,
-    "change_pct": -13.31,
+    "price": 319.73,
+    "change_pct": -12.89,
     "name": "GOOGL",
-    "updated_at": "2026-07-24T06:39:00.954327"
+    "updated_at": "2026-07-24T12:07:50.632499"
   },
   "NVDA": {
-    "price": 208.76,
-    "change_pct": 6.76,
+    "price": 209.73,
+    "change_pct": 6.5,
     "name": "NVDA",
-    "updated_at": "2026-07-24T06:39:00.954348"
+    "updated_at": "2026-07-24T12:07:50.632515"
   },
   "BTC": {
-    "price": 64943.78,
-    "change_pct": 1.79,
+    "price": 63925.97,
+    "change_pct": 0.19,
     "name": "BTC",
-    "updated_at": "2026-07-24T06:39:00.954357"
+    "updated_at": "2026-07-24T12:07:50.632523"
   },
   "MSFT": {
-    "price": 381.58,
-    "change_pct": -1.33,
+    "price": 383.98,
+    "change_pct": -1.25,
     "name": "MSFT",
-    "updated_at": "2026-07-24T06:39:00.954365"
+    "updated_at": "2026-07-24T12:07:50.632529"
   },
   "TSLA": {
-    "price": 319.69,
-    "change_pct": -23.84,
+    "price": 308.25,
+    "change_pct": -23.49,
     "name": "TSLA",
-    "updated_at": "2026-07-24T06:39:00.954373"
+    "updated_at": "2026-07-24T12:07:50.632535"
   },
   "AMZN": {
-    "price": 233.66,
-    "change_pct": -4.3,
+    "price": 233.32,
+    "change_pct": -5.15,
     "name": "AMZN",
-    "updated_at": "2026-07-24T06:39:00.954380"
+    "updated_at": "2026-07-24T12:07:50.632540"
   },
   "WTI": {
-    "price": 3.85,
-    "change_pct": 24.6,
+    "price": 3.65,
+    "change_pct": 10.42,
     "name": "WTI",
-    "updated_at": "2026-07-24T06:39:00.954388"
+    "updated_at": "2026-07-24T12:07:50.632546"
   },
   "META": {
-    "price": 606.1,
-    "change_pct": 0.97,
+    "price": 602.05,
+    "change_pct": -2.2,
     "name": "META",
-    "updated_at": "2026-07-24T06:39:00.954395"
+    "updated_at": "2026-07-24T12:07:50.632551"
   },
   "S&P 500": {
-    "price": 738.18,
-    "change_pct": -1.74,
+    "price": 740.63,
+    "change_pct": -0.95,
     "name": "S&P 500",
-    "updated_at": "2026-07-24T06:39:00.954402"
+    "updated_at": "2026-07-24T12:07:50.632556"
   },
   "AAPL": {
-    "price": 321.66,
-    "change_pct": 2.88,
+    "price": 332.65,
+    "change_pct": 7.08,
     "name": "AAPL",
-    "updated_at": "2026-07-24T06:39:00.954410"
+    "updated_at": "2026-07-24T12:07:50.632562"
   },
   "QQQ": {
-    "price": 691.96,
-    "change_pct": -4.27,
+    "price": 688.2,
+    "change_pct": -2.99,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-24T06:39:00.954417"
+    "updated_at": "2026-07-24T12:07:50.632567"
   },
   "BTC-USD": {
-    "price": 64943.78,
-    "change_pct": 1.79,
+    "price": 63925.97,
+    "change_pct": 0.19,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-24T06:39:00.954426"
+    "updated_at": "2026-07-24T12:07:50.632573"
   }
 },
   tickerScores: [
@@ -834,6 +834,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 380,
+      "title": "Sriram Krishnan on Open Source AI's Biggest Week Yet",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-24",
+      "summary": "The podcast discusses the rapid growth of open-source AI models such as Kimi K3 and Quen 3.8, which are challenging the dominance of existing models. The emergence of these models increases choice for consumers and may put pricing pressure on frontier labs, potentially affecting their gross margins. The show also touches on the security benefits of open-source models and the potential for AI to automate AI research. Additionally, there is a discussion on the US government's possible restrictions on Chinese open-source models due to national security concerns.",
+      "key_takeaway": "Investors should consider the impact of open-source AI models on frontier labs and monitor the security and competitive landscape of AI, as well as potential opportunities in related sectors like cloud computing and data centers.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 365
+    },
+    {
       "id": 378,
       "title": "Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
       "source_type": "podcast",
@@ -943,7 +966,7 @@ const dashboardData = {
         "FSK"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-20",
       "archived_date": null,
@@ -8098,7 +8121,7 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Industrial AI represents a significant shift in how industries are automated, offering substantial investment opportunities in physical automation.",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 362,
@@ -8116,7 +8139,7 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 362,
@@ -8685,20 +8708,20 @@ const dashboardData = {
     {
       "id": 97,
       "term": "Distillation",
-      "description": "The process of extracting the most important features or knowledge from a complex AI model to create a more efficient version.",
+      "description": "The process of training AI models on existing knowledge, which can be a core part of AI development but raises concerns when it involves industrial-scale extraction or violates terms of service.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-23",
-      "mention_count": 24,
+      "last_mentioned_date": "2026-07-24",
+      "mention_count": 25,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Distillation can lead to more efficient AI models, reducing the computational resources needed for scientific research.",
+      "investment_implications": "Distillation could accelerate AI capabilities, but investors should be aware of the ethical and legal implications of this process.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 363,
-      "last_mentioned_speaker": "Underrate Cupathy"
+      "last_mentioned_episode_id": 365,
+      "last_mentioned_speaker": "Sri Ram Krishna"
     },
     {
       "id": 174,
@@ -9315,20 +9338,20 @@ const dashboardData = {
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models that are publicly available and can be used, modified, and distributed by anyone.",
+      "description": "AI models that are publicly available and can be freely used, modified, and shared by anyone.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-07-23",
-      "mention_count": 10,
+      "last_mentioned_date": "2026-07-24",
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Open-source AI models can drive innovation by allowing a broader community to contribute to and build upon existing models.",
+      "investment_implications": "The growth of open-source AI models may disrupt the competitive landscape, affecting pricing and innovation in the AI industry.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 363,
-      "last_mentioned_speaker": "Underrate Cupathy"
+      "last_mentioned_episode_id": 365,
+      "last_mentioned_speaker": "Sri Ram Krishna"
     },
     {
       "id": 79,
@@ -9821,8 +9844,8 @@ const dashboardData = {
       "term": "AI Race",
       "description": "The global competition between nations to lead in AI development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-07-19",
-      "mention_count": 21,
+      "last_mentioned_date": "2026-07-24",
+      "mention_count": 22,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consider investing in companies and countries that are making significant strides in AI technology.",
@@ -9831,8 +9854,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 356,
-      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo"
+      "last_mentioned_episode_id": 365,
+      "last_mentioned_speaker": "Sri Ram Krishna"
     },
     {
       "id": 12,
@@ -10169,6 +10192,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 380,
+      "title": "Sriram Krishnan on Open Source AI's Biggest Week Yet",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-24",
+      "summary": "The podcast discusses the rapid growth of open-source AI models such as Kimi K3 and Quen 3.8, which are challenging the dominance of existing models. The emergence of these models increases choice for consumers and may put pricing pressure on frontier labs, potentially affecting their gross margins. The show also touches on the security benefits of open-source models and the potential for AI to automate AI research. Additionally, there is a discussion on the US government's possible restrictions on Chinese open-source models due to national security concerns.",
+      "key_takeaway": "Investors should consider the impact of open-source AI models on frontier labs and monitor the security and competitive landscape of AI, as well as potential opportunities in related sectors like cloud computing and data centers.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"NVDA\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 365,
+      "episode_release_date": "2026-07-24",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 378,
       "title": "Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
       "source_type": "podcast",
@@ -10267,31 +10310,6 @@ const dashboardData = {
       "episode_release_date": "2026-07-21",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 372,
-      "title": "Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-07-20",
-      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Financial Investor Researcher and author Nick Nemeth on the potential risks in the private credit industry. Nemeth argues that the current situation is reminiscent of 1929 rather than 2008, with private credit being the trigger for a potential massive financial blow-up. The discussion covers the high leverage in direct lending, the role of insurance companies in the alternative asset space, and the commoditization of life and health insurance. Nemeth also highlights the risks associated with the massive balance sheets of insurance companies and the potential for a crisis in the private credit market.",
-      "key_takeaway": "The private credit industry is overleveraged and poses a significant systemic risk, with potential for a massive financial blow-up that could be triggered by the insurance industry's massive balance sheets.",
-      "tickers_mentioned": "[\"CORN\", \"BX\", \"BCRED\", \"FSK\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-20",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 357,
-      "episode_release_date": "2026-07-20",
-      "guest_name": "Nick Nemeth",
-      "key_tickers": [
-        "CORN",
-        "BX",
-        "BCRED",
-        "FSK"
-      ]
     },
     {
       "id": 373,
@@ -10434,24 +10452,24 @@ const dashboardData = {
       "display_order": 0
     },
     {
-      "id": 43,
-      "term": "Recursive Self-Improvement (RSI)",
-      "definition": "The ability of AI systems to improve their own algorithms and learning processes, leading to rapid advancements.",
-      "investment_implications": "Investors should monitor companies at the forefront of RSI technology for potential disruption and growth.",
-      "added_date": "2026-04-15",
-      "vote_count": 1,
+      "id": 257,
+      "term": "Industrial AI",
+      "definition": "A full-stack solution that combines software, robotics, sensors, and machinery to automate industries.",
+      "investment_implications": "Industrial AI represents a significant shift in how industries are automated, offering substantial investment opportunities in physical automation.",
+      "added_date": "2026-07-24",
+      "vote_count": 2,
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "display_order": 0
     },
     {
-      "id": 84,
-      "term": "Verteports",
-      "definition": "Hypothetical locations designed for the takeoff and landing of vertical take-off and landing (VTOL) vehicles, such as flying cars.",
-      "investment_implications": "As flying cars become a reality, investment in related infrastructure like verteports could offer opportunities.",
-      "added_date": "2026-04-15",
-      "vote_count": 1,
+      "id": 258,
+      "term": "Autonomy",
+      "definition": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
+      "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
+      "added_date": "2026-07-24",
+      "vote_count": 2,
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -10694,6 +10712,58 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-07-23"
     },
     {
+      "id": 263,
+      "term": "Industrial AI",
+      "description": "A full-stack solution that combines software, robotics, sensors, and machinery to automate industries.",
+      "first_detected_date": "2026-07-22",
+      "last_mentioned_date": "2026-07-23",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Industrial AI represents a significant shift in how industries are automated, offering substantial investment opportunities in physical automation.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 362,
+      "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
+      "last_mentioned_episode_id": 364,
+      "last_mentioned_speaker": "Travis Kelenick",
+      "overton_score": 1.95,
+      "resonance_pct": 49,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
+      "first_detected_episode_date": "2026-07-22",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Building the Physical AI Stack | Travis Kalanick on TBPN",
+      "last_mentioned_episode_date": "2026-07-23"
+    },
+    {
+      "id": 264,
+      "term": "Autonomy",
+      "description": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
+      "first_detected_date": "2026-07-22",
+      "last_mentioned_date": "2026-07-23",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 362,
+      "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
+      "last_mentioned_episode_id": 364,
+      "last_mentioned_speaker": "Travis Kelenick",
+      "overton_score": 1.95,
+      "resonance_pct": 49,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
+      "first_detected_episode_date": "2026-07-22",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Building the Physical AI Stack | Travis Kalanick on TBPN",
+      "last_mentioned_episode_date": "2026-07-23"
+    },
+    {
       "id": 259,
       "term": "Liquid AI",
       "description": "A type of AI that focuses on efficient, general-purpose intelligence at various scales, often using small language models.",
@@ -10744,58 +10814,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Latent Space: The AI Engineer Podcast",
       "last_mentioned_episode_title": "\ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
       "last_mentioned_episode_date": "2026-07-16"
-    },
-    {
-      "id": 252,
-      "term": "AI Commoditization",
-      "description": "The process by which AI becomes a standard feature or utility rather than a unique differentiator.",
-      "first_detected_date": "2026-06-15",
-      "last_mentioned_date": "2026-07-14",
-      "mention_count": 2,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should look for companies that can maintain a competitive edge as AI becomes more commonplace.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 286,
-      "first_detected_speaker": "Jack Farley (hosts)",
-      "last_mentioned_episode_id": 347,
-      "last_mentioned_speaker": "Ben Kulandian",
-      "overton_score": 1.59,
-      "resonance_pct": 40,
-      "first_detected_podcast": "Monetary Matters with Jack Farley",
-      "first_detected_episode_title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
-      "first_detected_episode_date": "2026-06-15",
-      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
-      "last_mentioned_episode_title": "The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
-      "last_mentioned_episode_date": "2026-07-14"
-    },
-    {
-      "id": 219,
-      "term": "AI-native computing",
-      "description": "A computing approach that is designed from the ground up to leverage artificial intelligence, rather than adapting existing infrastructure.",
-      "first_detected_date": "2026-06-02",
-      "last_mentioned_date": "2026-07-13",
-      "mention_count": 2,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Invest in companies that use AI-native computing for a competitive edge in speed, efficiency, and scalability.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 255,
-      "first_detected_speaker": "Steven Sinofsky",
-      "last_mentioned_episode_id": 345,
-      "last_mentioned_speaker": "Max",
-      "overton_score": 1.55,
-      "resonance_pct": 39,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
-      "first_detected_episode_date": "2026-06-02",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
-      "last_mentioned_episode_date": "2026-07-13"
     }
   ]
 },
@@ -33245,6 +33263,76 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-07-23",
     "key_tickers": []
+  },
+  "380": {
+    "id": 370,
+    "insight_id": 380,
+    "podcast_episode_id": 365,
+    "overview": "The competitive dynamic in the AI industry is being disrupted by the rapid growth of open-source models, which are challenging the dominance of existing models and increasing consumer choice. This development could lead to pricing pressure on frontier labs, potentially eroding their gross margins as they face new competitors. The security and transparency of open-source models also present a significant shift in the AI ecosystem, potentially leading to a more secure and inspected environment. The allocation tradeoff lies in how frontier labs will adapt to maintain their competitive edge, and how investors will navigate the changing landscape of AI security and competition.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the growth trajectories of open-source AI models and their impact on the market share of frontier labs, as this could indicate a shift in the competitive landscape.",
+      "The financial strategies of frontier labs, particularly their pricing models, will be crucial in determining their resilience against the rise of open-source competition.",
+      "The security benefits of open-source models should be evaluated not just in terms of reduced risks but also in how they might influence policy decisions and investment strategies in the AI space.",
+      "Investors should consider diversifying into sectors that could benefit from the growth of open-source AI, such as cloud computing and data centers, which may see increased demand for infrastructure and services."
+    ],
+    "investment_thesis": "The investment thesis revolves around the impact of open-source AI models on the competitive landscape and the potential for pricing pressure on frontier labs. Over the next 2-3 years, if frontier labs are unable to maintain or increase their gross margins in the face of growing open-source competition, it would validate the thesis. Conversely, if they successfully adapt by improving their models or focusing on their harnesses, or if open-source models fail to gain significant market share, the thesis would be invalidated.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI and machine learning, particularly in areas like Siri and software services, positions it to benefit from advancements in AI, including the potential for more secure and transparent open-source models.",
+        "positioning": "A strategic long position in AAPL could be considered, as the company's ability to leverage AI advancements for its products and services could drive growth.",
+        "risk": "Key risks include the potential for increased competition from open-source models affecting Apple's proprietary AI services, and regulatory changes that could impact the use of AI technologies."
+      },
+      "GOOGL": {
+        "rationale": "Google, with its strong presence in AI research and cloud services, is well-positioned to capitalize on the growth of open-source AI models, which could lead to increased demand for cloud infrastructure.",
+        "positioning": "A tactical long position in GOOGL could be appropriate, given the potential for short-term gains from increased cloud services demand.",
+        "risk": "The risk lies in the possibility that open-source models could disrupt Google's proprietary AI services, affecting its revenue streams."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's extensive cloud offerings and AI investments make it a key player in the evolving AI landscape, with the potential to benefit from the growth of open-source AI and increased demand for cloud services.",
+        "positioning": "A strategic long position in MSFT could be considered, as the company's cloud and AI portfolio could provide stability and growth opportunities.",
+        "risk": "Regulatory changes and competition from open-source models could pose risks to Microsoft's AI services and cloud business."
+      },
+      "AMZN": {
+        "rationale": "Amazon, through its AWS cloud platform, is in a unique position to benefit from the increased demand for cloud services driven by the growth of open-source AI models.",
+        "positioning": "A tactical long position in AMZN could be beneficial, as the company's cloud business is likely to see growth from the AI sector's expansion.",
+        "risk": "The risk includes potential disruptions from open-source models to Amazon's own AI services and the possibility of increased competition in the cloud market."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's leadership in GPU technology, which is crucial for AI and machine learning, positions it to benefit from the expanding AI market, including the growth of open-source models.",
+        "positioning": "A strategic long position in NVDA could be advantageous, as the company's technology is fundamental to the development and deployment of AI models.",
+        "risk": "The risk is that advancements in open-source AI could lead to commoditization of AI hardware, potentially affecting Nvidia's market position."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "Frontier labs may develop new strategies or technologies that allow them to maintain or even increase their gross margins despite the rise of open-source models.",
+      "The growth of open-source AI models could be slower than anticipated, due to challenges in scaling, quality control, or regulatory hurdles.",
+      "The security benefits of open-source models may be offset by new vulnerabilities or risks that emerge as these models become more widely adopted."
+    ],
+    "catalysts": [
+      "Regulatory decisions by the US government on the use and restriction of open-source AI models, particularly those from China, could significantly impact the market.",
+      "Major security breaches or vulnerabilities discovered in open-source AI models could alter the perception of their security benefits.",
+      "Breakthroughs in AI research funded by frontier labs or open-source communities that lead to significant improvements in AI capabilities.",
+      "Shifts in consumer preferences towards open-source AI models, which could accelerate the adoption of these models and impact the market dynamics.",
+      "Technological advancements in cloud computing and data centers that enable the more efficient deployment and scaling of AI models."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-24T12:06:51.388605",
+    "updated_at": "2026-07-24 17:06:51",
+    "episode_evidence": "The podcast highlights the burgeoning landscape of open-source AI, with models like Kimi K3 and Quen 3.8 gaining traction. Sri Ram Krishnan, a former White House AI policy advisor, emphasizes the rapid pace of this growth, stating, 'Open Source AI is moving faster than ever, and the balance of power in the industry may be shifting.' This shift is significant as it not only increases consumer choice but also exerts pricing pressure on frontier labs, potentially impacting their gross margins. Krishnan further explains, 'It's probably inevitable that if you are having choices from value get your intelligence tokens from, that's going to put pricing pressure on the frontier models.' The security benefits of open-source models are also underscored, with Krishnan noting their inherent security due to transparency and widespread inspection, 'Open rate models are inherently secure because... when you download a model... it means you have the entire world being able to take it apart, inspect it.'",
+    "falsification_tracks": [
+      "If the number of active contributors to open-source AI models like Kimi K3 and Quen 3.8 declines significantly over the next year, it would suggest a slower growth rate than currently observed.",
+      "Should frontier labs report stable or increasing gross margins despite the rise of open-source models, it could indicate that they have successfully adapted or that the pricing pressure is less severe than anticipated.",
+      "If there is a notable decrease in the frequency of security breaches or vulnerabilities reported in open-source AI models, it would challenge the current belief in their superior security due to transparency and widespread inspection."
+    ],
+    "insight_title": "Sriram Krishnan on Open Source AI's Biggest Week Yet",
+    "source_name": "The a16z Show",
+    "source_date": "2026-07-24",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -33299,7 +33387,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 37063,
+    "id": 37167,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -33311,7 +33399,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37064,
+    "id": 37168,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -33323,7 +33411,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37065,
+    "id": 37169,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -33335,7 +33423,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37066,
+    "id": 37170,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -33347,7 +33435,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37067,
+    "id": 37171,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -33359,7 +33447,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37068,
+    "id": 37172,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -33371,7 +33459,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37069,
+    "id": 37173,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -33383,7 +33471,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37070,
+    "id": 37174,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -33395,7 +33483,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37071,
+    "id": 37175,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -33407,7 +33495,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37072,
+    "id": 37176,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -33419,7 +33507,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37073,
+    "id": 37177,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -33431,7 +33519,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37074,
+    "id": 37178,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -33443,7 +33531,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37075,
+    "id": 37179,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -33455,7 +33543,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37076,
+    "id": 37180,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -33467,7 +33555,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37077,
+    "id": 37181,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -33479,7 +33567,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37078,
+    "id": 37182,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -33491,7 +33579,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37079,
+    "id": 37183,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -33503,7 +33591,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37080,
+    "id": 37184,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -33515,7 +33603,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37081,
+    "id": 37185,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -33527,7 +33615,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37082,
+    "id": 37186,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -33811,7 +33899,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-17",
     "mention_score": 2,
-    "mention_score_decayed": 1.74,
+    "mention_score_decayed": 1.7,
     "last_main_idea": "Investing in companies that prioritize public communication and authenticity can lead to stronger brand loyalty and trust, which are valuable assets in the long term.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-17 \u2022 Amjad Masad on Going Direct, Building Replit, and the Future of Software",
     "last_proof_snippet": "Being canceled is a choice. You should choose to get canceled and retreat from the public eye, but I think if you're still out there, at some point, honestly, the haters kind of give up. To some people ask, hey, how should I think about exp",
@@ -34988,6 +35076,71 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 355,
+    "name": "Sri Ram Krishna",
+    "slug": "sri-ram-krishna",
+    "bio": "Sri Ram Krishna is a recognized expert in AI policy, particularly its implications on national security and cybersecurity. He has served as a Senior White House Policy Advisor on Artificial Intelligence, where he played a pivotal role in shaping the United States' approach to AI. Krishna's insights are sought after for understanding the balance of power in the global AI race and the impact of open-source AI on industry dynamics.",
+    "known_for": "His influence on U.S. AI policy and analysis of the global AI landscape.",
+    "net_worth_usd": 12000000.0,
+    "net_worth_source": "https://ibusiness.news/news/2026-01-07/exploring-sriram-krishnans-net-worth-and-connections-to-trump-and-elon-musk/",
+    "net_worth_updated_at": "2026-07-24T12:06:21.773153",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-07-24 17:06:11",
+    "last_episode_title": "Sriram Krishnan on Open Source AI's Biggest Week Yet",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-24",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should consider the impact of open-source AI models on frontier labs and monitor the security and competitive landscape of AI, as well as potential opportunities in related sectors like cloud computing and data centers.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-24 \u2022 Sriram Krishnan on Open Source AI's Biggest Week Yet",
+    "last_proof_snippet": "You can bring it back to very business first principles. If you're providing a product of value, Capitalism will find a way to make the supply chain work for you. So if you have an open-made model that is providing value, that means that ev",
+    "supporting_takeaway": "The rise of open-source models may lead to pricing pressure on frontier labs, affecting their financial health.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-24T12:06:20.643829",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sri Ram Krishna",
+      "fetched_at": "2026-07-24T17:06:20.643473+00:00",
+      "cliff_notes": "Sri Ram Krishna has made significant contributions to the field of AI policy, with a focus on national security and cybersecurity. His tenure as the Senior White House Policy Advisor on Artificial Intelligence placed him at the forefront of shaping U.S. policy in this critical area. Krishna's expertise is not limited to policy-making; he has also been involved in analyzing the global implications of AI, including its impact on the balance of power and the rapid advancements in open-source AI. His work is crucial for understanding how AI is reshaping industries and the geopolitical landscape.",
+      "derived": {
+        "current_role": "Former Senior White House Policy Advisor on Artificial Intelligence",
+        "former_positions": "General"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Sri Ram Krishna has made significant contributions to the field of AI policy, with a focus on national security and cybersecurity. His tenure as the Senior White House Policy Advisor on Artificial Intelligence placed him at the forefront of shaping U.S. policy in this critical area. Krishna's expertise is not limited to policy-making; he has also been involved in analyzing the global implications of AI, including its impact on the balance of power and the rapid advancements in open-source AI.",
+        "His work is crucial for understanding how AI is reshaping industries and the geopolitical landscape."
+      ],
+      "sections": [
+        {
+          "heading": "AI Policy",
+          "body": "Sri Ram Krishna has been instrumental in developing AI policy, especially concerning its impact on national security and the broader implications for the U.S. and the world."
+        },
+        {
+          "heading": "Cybersecurity",
+          "body": "Krishna's work in AI policy often intersects with cybersecurity, a critical area where AI advancements have significant ramifications for protecting digital infrastructure."
+        },
+        {
+          "heading": "Global AI Race",
+          "body": "As a former White House advisor, Krishna has provided insights into the global competition in AI, analyzing how different nations are positioning themselves in the AI era."
+        },
+        {
+          "heading": "Open Source AI",
+          "body": "Krishna has commented on the rapid growth of open-source AI, discussing how it is changing the dynamics of the AI industry and potentially shifting the balance of power."
+        }
+      ]
+    },
+    "net_worth": "$12.0M"
+  },
+  {
     "id": 354,
     "name": "Travis Kelenick",
     "slug": "travis-kelenick",
@@ -35065,7 +35218,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-23 \u2022 Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
     "last_proof_snippet": "All right, we're here in the studio. If I was a countryman, we'll fight together with people. Welcome. Thanks, thank you, guys. It's good to be here. Yeah, fresh on the plane. You texted me, you're like, hey, I'm on my way to SF. I was like",
@@ -35943,7 +36096,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-15 \u2022 Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
     "last_proof_snippet": "In videos that are going to have better networking than you, they're going to have better HP, they're going to have better process-node, they're going to come to market faster, they're going to be able to ramp faster, they're going to have",
@@ -36075,7 +36228,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
     "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro. We came to me and he said, why don't we see whether we can figure out a way to",
@@ -36215,7 +36368,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -36281,7 +36434,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -36342,7 +36495,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-08 \u2022 Adam Neumann: This Is How You Build Iconic Companies",
     "last_proof_snippet": "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
@@ -36407,7 +36560,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -36466,7 +36619,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -36650,7 +36803,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -36834,7 +36987,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
     "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
@@ -36895,7 +37048,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -37146,7 +37299,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -37210,7 +37363,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -38013,7 +38166,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -38582,7 +38735,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -38711,7 +38864,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -38777,7 +38930,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -39052,7 +39205,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -39116,7 +39269,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -39435,7 +39588,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -39618,7 +39771,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -39682,7 +39835,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
