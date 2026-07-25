@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T05:02:53.062680",
-  "last_updated": "2026-07-25T05:02:53.062680",
-  "last_pipeline_run": "2026-07-25T05:02:53.062680",
+  "generated_at": "2026-07-25T06:36:55.657280",
+  "last_updated": "2026-07-25T06:36:55.657280",
+  "last_pipeline_run": "2026-07-25T06:36:55.657280",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -18,12 +18,12 @@
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 3,
-    "transcribed": 3,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 3
+    "downloaded": 2,
+    "transcribed": 2,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 2
   },
   "episodes": [
     {
@@ -139,24 +139,6 @@
         }
       },
       "status": "needs_analysis"
-    },
-    {
-      "id": "d2e9f5ad-85fb-49f6-bc5c-65f32868b632",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence?",
-      "published": "2026-07-24",
-      "rss_guid": "d2e9f5ad-85fb-49f6-bc5c-65f32868b632",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
     }
   ],
   "available_from_rss": [
