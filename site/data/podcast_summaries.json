@@ -1,5 +1,21 @@
 [
   {
+    "id": 366,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
+    "episode_date": "2026-07-24",
+    "summary": "In this episode of Moonshots with Peter Diamandis, the panel discusses the investment landscape in AI, the potential for AI to revolutionize sectors like healthcare and education, and the impact of AI on human life expectancy. They also touch on the challenges and opportunities presented by AI in academia and innovation, as well as the importance of fostering an optimistic mindset towards technology and the future. The conversation highlights the transformative potential of AI and the need for a new approach to innovation and education.",
+    "key_takeaways": [
+      "AI is poised to revolutionize various sectors, including healthcare and education.",
+      "Investment in AI is not only about technology but also about fostering innovation and human potential.",
+      "The panel argues for a new model of innovation that leverages AI to empower small, ambitious teams.",
+      "AI has the potential to greatly accelerate the pace of scientific discovery and innovation.",
+      "The future of AI will be shaped by how we educate the next generation and inspire them to set ambitious goals."
+    ],
+    "investment_thesis": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
+    "key_tickers": null
+  },
+  {
     "id": 365,
     "podcast_name": "The a16z Show",
     "episode_title": "Sriram Krishnan on Open Source AI's Biggest Week Yet",
@@ -111,24 +127,5 @@
     ],
     "investment_thesis": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
     "key_tickers": null
-  },
-  {
-    "id": 358,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
-    "episode_date": "2026-07-20",
-    "summary": "This podcast episode from 'The a16z Show' discusses the safety and business potential of open source AI models, the growing interest in local AI models due to cost efficiency and privacy, and the potential shift towards model routing in the future of AI. The episode also touches on the role of Europe in the AI landscape and the increasing interest of young people in building AI solutions. Key investment insights include the validation of open source business models by Hugging Face's $100 million in annual recurring revenue, the potential for local models to disrupt the AI market, and the importance of engaging with the open source community for talent and project identification.",
-    "key_takeaways": [
-      "Open source AI models are perceived as less dangerous due to their specialization and lower likelihood of harmful cyber security use.",
-      "Hugging Face's $100 million in ARR validates the business model for open source platforms.",
-      "Local models are gaining interest for their cost efficiency, privacy preservation, and ability to handle heavy workloads locally.",
-      "The future of AI may involve model routing rather than reliance on a few dominant models.",
-      "Europe has the potential to become a frontier lab for AI, focusing on ecosystem building and open research.",
-      "Young people are increasingly interested in building AI solutions rather than just being users."
-    ],
-    "investment_thesis": "Invest in open source AI platforms and local AI models to capitalize on the growing demand for privacy-preserving, cost-efficient AI solutions and the potential shift towards model routing.",
-    "key_tickers": [
-      "HUGG"
-    ]
   }
 ]

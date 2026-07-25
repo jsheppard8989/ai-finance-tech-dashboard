@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-24T22:03:13.382065",
-  chartsVersion: "2026-07-24T22:03:02.554245",
+  generatedAt: "2026-07-24T23:39:20.595595",
+  chartsVersion: "2026-07-24T23:39:08.686210",
   priceSnapshot: {
   "GOOGL": {
     "price": 319.74,
     "change_pct": -12.88,
     "name": "GOOGL",
-    "updated_at": "2026-07-24T22:03:02.552906"
+    "updated_at": "2026-07-24T23:39:08.685061"
   },
   "NVDA": {
-    "price": 206.84,
-    "change_pct": 5.03,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "NVDA",
-    "updated_at": "2026-07-24T22:03:02.552927"
+    "updated_at": "2026-07-24T23:39:08.685077"
   },
   "BTC": {
-    "price": 63955.98,
-    "change_pct": 0.31,
+    "price": 64065.84,
+    "change_pct": 0.48,
     "name": "BTC",
-    "updated_at": "2026-07-24T22:03:02.552937"
+    "updated_at": "2026-07-24T23:39:08.685087"
   },
   "MSFT": {
-    "price": 381.7,
-    "change_pct": -1.84,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "MSFT",
-    "updated_at": "2026-07-24T22:03:02.552947"
+    "updated_at": "2026-07-24T23:39:08.685093"
   },
   "TSLA": {
     "price": 313.03,
     "change_pct": -22.31,
     "name": "TSLA",
-    "updated_at": "2026-07-24T22:03:02.552955"
+    "updated_at": "2026-07-24T23:39:08.685101"
   },
   "AMZN": {
-    "price": 232.11,
-    "change_pct": -5.64,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "AMZN",
-    "updated_at": "2026-07-24T22:03:02.552963"
+    "updated_at": "2026-07-24T23:39:08.685107"
   },
   "WTI": {
     "price": 3.66,
     "change_pct": 10.57,
     "name": "WTI",
-    "updated_at": "2026-07-24T22:03:02.552972"
+    "updated_at": "2026-07-24T23:39:08.685116"
   },
   "META": {
-    "price": 595.19,
-    "change_pct": -3.31,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "META",
-    "updated_at": "2026-07-24T22:03:02.552980"
+    "updated_at": "2026-07-24T23:39:08.685122"
   },
   "S&P 500": {
     "price": 738.93,
     "change_pct": -1.17,
     "name": "S&P 500",
-    "updated_at": "2026-07-24T22:03:02.552988"
+    "updated_at": "2026-07-24T23:39:08.685130"
   },
   "AAPL": {
     "price": 333.02,
     "change_pct": 7.2,
     "name": "AAPL",
-    "updated_at": "2026-07-24T22:03:02.552999"
+    "updated_at": "2026-07-24T23:39:08.685140"
   },
   "QQQ": {
-    "price": 684.23,
-    "change_pct": -3.55,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-24T22:03:02.553006"
+    "updated_at": "2026-07-24T23:39:08.685146"
   },
   "BTC-USD": {
-    "price": 63955.98,
-    "change_pct": 0.31,
+    "price": 64065.84,
+    "change_pct": 0.48,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-24T22:03:02.553016"
+    "updated_at": "2026-07-24T23:39:08.685156"
   }
 },
   tickerScores: [
@@ -857,6 +857,25 @@ const dashboardData = {
       "podcast_episode_id": 365
     },
     {
+      "id": 381,
+      "title": "The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-07-24",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the panel discusses the investment landscape in AI, the potential for AI to revolutionize sectors like healthcare and education, and the impact of AI on human life expectancy. They also touch on the challenges and opportunities presented by AI in academia and innovation, as well as the importance of fostering an optimistic mindset towards technology and the future. The conversation highlights the transformative potential of AI and the need for a new approach to innovation and education.",
+      "key_takeaway": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 366
+    },
+    {
       "id": 378,
       "title": "Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
       "source_type": "podcast",
@@ -985,7 +1004,7 @@ const dashboardData = {
         "HUGG"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-20",
       "archived_date": null,
@@ -8188,8 +8207,8 @@ const dashboardData = {
       "term": "Liquid AI",
       "description": "A type of AI that focuses on efficient, general-purpose intelligence at various scales, often using small language models.",
       "first_detected_date": "2026-07-17",
-      "last_mentioned_date": "2026-07-19",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-07-24",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider companies developing Liquid AI for their potential to disrupt traditional AI markets and offer more adaptable solutions.",
@@ -8198,8 +8217,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 354,
       "first_detected_speaker": "Ramine Hassani",
-      "last_mentioned_episode_id": 356,
-      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo"
+      "last_mentioned_episode_id": 366,
+      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
     },
     {
       "id": 257,
@@ -8242,8 +8261,8 @@ const dashboardData = {
       "term": "ASI",
       "description": "An intellect that is much smarter than the best human brains in practically every field, including scientific creativity, general wisdom, and social skills.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-07-17",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-07-24",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "ASI represents a paradigm shift; investors should monitor advancements closely as it could lead to significant economic and societal changes.",
@@ -8252,26 +8271,26 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 354,
-      "last_mentioned_speaker": "Ramine Hassani"
+      "last_mentioned_episode_id": 366,
+      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
     },
     {
       "id": 135,
       "term": "Healthspan",
-      "description": "The period during which an individual is generally healthy and free from chronic diseases.",
+      "description": "The period during which an individual is in good health, as opposed to simply living a long life.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-06-29",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-07-24",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investing in companies and technologies that aim to extend healthspan can provide significant returns as the global population ages.",
+      "investment_implications": "Investments in technologies and treatments that extend healthspan could have significant implications for healthcare and life sciences.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 319,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 366,
+      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
     },
     {
       "id": 255,
@@ -8420,20 +8439,20 @@ const dashboardData = {
     {
       "id": 138,
       "term": "AI CapEx",
-      "description": "Capital expenditures related to artificial intelligence, including investments in data centers, AI models, and related infrastructure.",
+      "description": "Capital expenditures related to the acquisition and maintenance of AI technologies and systems.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-07-20",
-      "mention_count": 12,
+      "last_mentioned_date": "2026-07-24",
+      "mention_count": 13,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "AI CapEx is a key consideration for companies as it involves significant investment in technology that could become obsolete with technological breakthroughs.",
+      "investment_implications": "Companies that invest heavily in AI CapEx may gain a competitive edge in their respective industries.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 360,
-      "last_mentioned_speaker": "Mark Cuban"
+      "last_mentioned_episode_id": 366,
+      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
     },
     {
       "id": 234,
@@ -8602,8 +8621,8 @@ const dashboardData = {
       "term": "Dyson Swarm",
       "description": "A hypothetical structure proposed by Freeman Dyson, consisting of a large number of objects in space designed to capture the energy of a star, in this context possibly referring to SpaceX's ambitions.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-07-19",
-      "mention_count": 21,
+      "last_mentioned_date": "2026-07-24",
+      "mention_count": 22,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential of space-based infrastructure and energy capture technologies.",
@@ -8612,8 +8631,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 356,
-      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo"
+      "last_mentioned_episode_id": 366,
+      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
     },
     {
       "id": 113,
@@ -8692,8 +8711,8 @@ const dashboardData = {
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-19",
-      "mention_count": 39,
+      "last_mentioned_date": "2026-07-24",
+      "mention_count": 40,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -8702,8 +8721,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 356,
-      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo"
+      "last_mentioned_episode_id": 366,
+      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
     },
     {
       "id": 97,
@@ -8711,7 +8730,7 @@ const dashboardData = {
       "description": "The process of training AI models on existing knowledge, which can be a core part of AI development but raises concerns when it involves industrial-scale extraction or violates terms of service.",
       "first_detected_date": "2026-05-15",
       "last_mentioned_date": "2026-07-24",
-      "mention_count": 25,
+      "mention_count": 26,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Distillation could accelerate AI capabilities, but investors should be aware of the ethical and legal implications of this process.",
@@ -8720,8 +8739,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 365,
-      "last_mentioned_speaker": "Sri Ram Krishna"
+      "last_mentioned_episode_id": 366,
+      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
     },
     {
       "id": 174,
@@ -8818,8 +8837,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-23",
-      "mention_count": 60,
+      "last_mentioned_date": "2026-07-24",
+      "mention_count": 61,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -8828,8 +8847,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 363,
-      "last_mentioned_speaker": "Underrate Cupathy"
+      "last_mentioned_episode_id": 366,
+      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
     },
     {
       "id": 162,
@@ -9644,20 +9663,20 @@ const dashboardData = {
     {
       "id": 57,
       "term": "AI Infrastructure",
-      "description": "The underlying technology and systems that support the development and operation of AI applications.",
+      "description": "The underlying technology and systems that support the development, deployment, and operation of AI applications and services.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-07-16",
-      "mention_count": 22,
+      "last_mentioned_date": "2026-07-24",
+      "mention_count": 23,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investing in AI infrastructure can provide foundational support for various applications in healthcare and life sciences.",
+      "investment_implications": "Investing in AI infrastructure could provide a foundational advantage in the race to develop and scale AI technologies.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 352,
-      "last_mentioned_speaker": "Andy Beam, Ratha Gomez Bumbarelli"
+      "last_mentioned_episode_id": 366,
+      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
     },
     {
       "id": 26,
@@ -9914,20 +9933,20 @@ const dashboardData = {
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "AI-driven software entities that interact with enterprise systems, often without traditional user interfaces.",
+      "description": "Autonomous software entities that can perform tasks, make decisions, and interact with their environment using artificial intelligence.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-07-19",
-      "mention_count": 50,
+      "last_mentioned_date": "2026-07-24",
+      "mention_count": 51,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "AI agents are becoming primary users of enterprise software, requiring new approaches to data management and workflow automation.",
+      "investment_implications": "The development and deployment of AI agents could disrupt traditional business models and create new investment opportunities.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 356,
-      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo"
+      "last_mentioned_episode_id": 366,
+      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
     },
     {
       "id": 38,
@@ -10212,6 +10231,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 381,
+      "title": "The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-07-24",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the panel discusses the investment landscape in AI, the potential for AI to revolutionize sectors like healthcare and education, and the impact of AI on human life expectancy. They also touch on the challenges and opportunities presented by AI in academia and innovation, as well as the importance of fostering an optimistic mindset towards technology and the future. The conversation highlights the transformative potential of AI and the need for a new approach to innovation and education.",
+      "key_takeaway": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 366,
+      "episode_release_date": "2026-07-24",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 378,
       "title": "Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
       "source_type": "podcast",
@@ -10310,28 +10349,6 @@ const dashboardData = {
       "episode_release_date": "2026-07-21",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 373,
-      "title": "Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-07-20",
-      "summary": "This podcast episode from 'The a16z Show' discusses the safety and business potential of open source AI models, the growing interest in local AI models due to cost efficiency and privacy, and the potential shift towards model routing in the future of AI. The episode also touches on the role of Europe in the AI landscape and the increasing interest of young people in building AI solutions. Key investment insights include the validation of open source business models by Hugging Face's $100 million in annual recurring revenue, the potential for local models to disrupt the AI market, and the importance of engaging with the open source community for talent and project identification.",
-      "key_takeaway": "Invest in open source AI platforms and local AI models to capitalize on the growing demand for privacy-preserving, cost-efficient AI solutions and the potential shift towards model routing.",
-      "tickers_mentioned": "[\"HUGG\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-20",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 358,
-      "episode_release_date": "2026-07-20",
-      "guest_name": null,
-      "key_tickers": [
-        "HUGG"
-      ]
     },
     {
       "id": 375,
@@ -10482,8 +10499,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-23",
-      "mention_count": 60,
+      "last_mentioned_date": "2026-07-24",
+      "mention_count": 61,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -10492,24 +10509,24 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 363,
-      "last_mentioned_speaker": "Underrate Cupathy",
-      "overton_score": 58.63,
+      "last_mentioned_episode_id": 366,
+      "last_mentioned_speaker": "Day Blenden, Sleam Ismail",
+      "overton_score": 61.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Latent Space: The AI Engineer Podcast",
-      "last_mentioned_episode_title": "Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
-      "last_mentioned_episode_date": "2026-07-23"
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
+      "last_mentioned_episode_date": "2026-07-24"
     },
     {
       "id": 10,
       "term": "Dyson Swarm",
       "description": "A hypothetical structure proposed by Freeman Dyson, consisting of a large number of objects in space designed to capture the energy of a star, in this context possibly referring to SpaceX's ambitions.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-07-19",
-      "mention_count": 21,
+      "last_mentioned_date": "2026-07-24",
+      "mention_count": 22,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential of space-based infrastructure and energy capture technologies.",
@@ -10518,16 +10535,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 356,
-      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo",
-      "overton_score": 18.71,
+      "last_mentioned_episode_id": 366,
+      "last_mentioned_speaker": "Day Blenden, Sleam Ismail",
+      "overton_score": 22.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
       "first_detected_episode_date": "2026-05-23",
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
-      "last_mentioned_episode_date": "2026-07-19"
+      "last_mentioned_episode_title": "The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
+      "last_mentioned_episode_date": "2026-07-24"
     },
     {
       "id": 234,
@@ -10660,6 +10677,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-07-16"
     },
     {
+      "id": 259,
+      "term": "Liquid AI",
+      "description": "A type of AI that focuses on efficient, general-purpose intelligence at various scales, often using small language models.",
+      "first_detected_date": "2026-07-17",
+      "last_mentioned_date": "2026-07-24",
+      "mention_count": 3,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider companies developing Liquid AI for their potential to disrupt traditional AI markets and offer more adaptable solutions.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 354,
+      "first_detected_speaker": "Ramine Hassani",
+      "last_mentioned_episode_id": 366,
+      "last_mentioned_speaker": "Day Blenden, Sleam Ismail",
+      "overton_score": 3.0,
+      "resonance_pct": 75,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
+      "first_detected_episode_date": "2026-07-17",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
+      "last_mentioned_episode_date": "2026-07-24"
+    },
+    {
       "id": 220,
       "term": "Local processing",
       "description": "The ability to process data and run AI models directly on local devices, reducing reliance on cloud computing and enhancing privacy.",
@@ -10762,32 +10805,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Building the Physical AI Stack | Travis Kalanick on TBPN",
       "last_mentioned_episode_date": "2026-07-23"
-    },
-    {
-      "id": 259,
-      "term": "Liquid AI",
-      "description": "A type of AI that focuses on efficient, general-purpose intelligence at various scales, often using small language models.",
-      "first_detected_date": "2026-07-17",
-      "last_mentioned_date": "2026-07-19",
-      "mention_count": 2,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider companies developing Liquid AI for their potential to disrupt traditional AI markets and offer more adaptable solutions.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 354,
-      "first_detected_speaker": "Ramine Hassani",
-      "last_mentioned_episode_id": 356,
-      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo",
-      "overton_score": 1.78,
-      "resonance_pct": 44,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
-      "first_detected_episode_date": "2026-07-17",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
-      "last_mentioned_episode_date": "2026-07-19"
     },
     {
       "id": 258,
@@ -33333,9 +33350,68 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-07-24",
     "key_tickers": []
+  },
+  "381": {
+    "id": 371,
+    "insight_id": 381,
+    "podcast_episode_id": 366,
+    "overview": "The unresolved tension in the AI investment landscape revolves around the balance between open-source collaboration and proprietary development. The competitive dynamic is further complicated by geopolitical factors, such as the debate on sanctioning Chinese AI models, which could either stifle innovation or protect intellectual property. The allocator-relevant implication is that the winners and losers in this space will be determined by how well they navigate the evolving legal and ethical landscape of AI, as well as their ability to capitalize on the technology's potential to disrupt traditional industries.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the regulatory environment closely, as policy decisions could significantly impact the value of AI companies and the flow of capital into the sector.",
+      "The potential for AI to extend human life expectancy presents a long-term investment opportunity in healthcare and biotechnology companies that are at the forefront of aging research.",
+      "Geopolitical tensions could create both risks and opportunities for AI investors, with the potential for sanctions affecting the global supply chain and collaboration in AI development."
+    ],
+    "investment_thesis": "The core logic of investing in AI is predicated on the belief that AI will continue to revolutionize various sectors, leading to increased efficiency and innovation. The timeframe for this thesis is long-term, as the full potential of AI is expected to unfold over decades. An observable development that would vindicate this thesis is the consistent outperformance of AI-focused companies and funds, as well as significant advancements in AI applications across healthcare, education, and other sectors. Conversely, a lack of such advancements or a shift in regulatory environment that stifles AI development could invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is relevant to this thesis due to its significant investments in AI technology, including machine learning and Siri, which positions the company to benefit from the AI revolution.",
+        "positioning": "Apple should be positioned long-term, as its strategic investments in AI are likely to pay off in the form of new products and services that leverage AI capabilities.",
+        "risk": "Key risks include regulatory challenges that could hinder AI development and increased competition from other tech giants also investing heavily in AI."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "AI development may not progress as quickly as expected due to technical limitations or ethical concerns.",
+      "The market may overestimate the potential of AI to disrupt traditional industries, leading to overvaluation of AI-focused companies.",
+      "Geopolitical tensions could lead to a fragmentation of the global AI market, reducing the potential for widespread adoption and collaboration."
+    ],
+    "catalysts": [
+      "Regulatory decisions on AI development and data privacy.",
+      "Breakthroughs in AI technology that lead to significant improvements in sectors like healthcare and education.",
+      "Geopolitical events that either escalate or de-escalate tensions around AI development and collaboration."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-24T23:38:11.619887",
+    "updated_at": "2026-07-25 04:38:11",
+    "episode_evidence": "The podcast episode delves into the complexities of AI investment and development, with a specific focus on the recent breach at Hugging Face, a leading platform for AI model sharing. The host mentions, 'Hugging face, the leading open platform for sharing testing and deploying AI models, got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refused.' This incident underscores the challenges in AI security and the potential for unintended consequences when AI systems interact. Additionally, the valuation of Moonshot AI at around $20 billion and the comparison to frontier labs valued at a trillion each highlight the significant investment and potential in the AI sector. The discussion also touches on the radical extension of human life expectancy, with one guest suggesting that if all causes of aging were cured, humans could live up to 1,750 years, which is a stark contrast to the current average life expectancy.",
+    "falsification_tracks": [
+      "A significant security breach at a major AI company that results in substantial financial loss or data leakage would reduce conviction in the AI investment thesis.",
+      "Prolonged underperformance of AI-focused companies or funds relative to the broader market could indicate that the market is not valuing AI as highly as the podcast suggests.",
+      "If advancements in AI do not lead to material improvements in sectors like healthcare and education within the next 5 years, it could signal that the transformative potential of AI is overestimated."
+    ],
+    "insight_title": "The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-07-24",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 543,
+    "term": "Singularit",
+    "definition": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes in human civilization.",
+    "investment_implications": "Investors should consider the potential for AI to drive rapid technological advancements that could lead to a singularity, impacting various sectors.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-25 04:36:36",
+    "priority_score": 80
+  },
   {
     "id": 541,
     "term": "Unreasonable Effectiveness of Recurrent Airlines",
@@ -33361,18 +33437,6 @@ const dashboardData = {
     "priority_score": 80
   },
   {
-    "id": 536,
-    "term": "Virtual Cell",
-    "definition": "An AI model designed to predict cellular responses to drugs and therapeutics, simulating the dynamics of cell biology.",
-    "investment_implications": "Virtual Cell models could revolutionize drug discovery by enabling the prediction of drug effects on cells.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-22 04:40:18",
-    "priority_score": 80
-  },
-  {
     "id": 537,
     "term": "Protein Design",
     "definition": "The use of AI technology to develop molecules against previously undruggable targets.",
@@ -33387,7 +33451,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 37375,
+    "id": 37479,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -33399,7 +33463,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37376,
+    "id": 37480,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -33411,7 +33475,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37377,
+    "id": 37481,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -33423,7 +33487,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37378,
+    "id": 37482,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -33435,7 +33499,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37379,
+    "id": 37483,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -33447,7 +33511,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37380,
+    "id": 37484,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -33459,7 +33523,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37381,
+    "id": 37485,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -33471,7 +33535,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37382,
+    "id": 37486,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -33483,7 +33547,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37383,
+    "id": 37487,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -33495,7 +33559,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37384,
+    "id": 37488,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -33507,7 +33571,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37385,
+    "id": 37489,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -33519,7 +33583,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37386,
+    "id": 37490,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -33531,7 +33595,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37387,
+    "id": 37491,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -33543,7 +33607,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37388,
+    "id": 37492,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -33555,7 +33619,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37389,
+    "id": 37493,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -33567,7 +33631,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37390,
+    "id": 37494,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -33579,7 +33643,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37391,
+    "id": 37495,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -33591,7 +33655,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37392,
+    "id": 37496,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -33603,7 +33667,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37393,
+    "id": 37497,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -33615,7 +33679,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37394,
+    "id": 37498,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -33770,7 +33834,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-22",
     "mention_score": 3,
-    "mention_score_decayed": 2.93,
+    "mention_score_decayed": 2.86,
     "last_main_idea": "The next great technology revolution will be in the physical world, with industrial AI, robotics, and autonomy driving transformative change across industries.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-22 \u2022 Travis Kalanick Is Back | Building the Future of Industrial AI",
     "last_proof_snippet": "We know what Boobers 2017 was like. Travis Kalana, because Snapchat's dying from his role as chief executive. That wouldn't have gone that way if Ben or Mark was on the board. You're in this hell, you're dealing with lawsuits. I worry about",
@@ -33959,7 +34023,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-10",
     "mention_score": 2,
-    "mention_score_decayed": 1.45,
+    "mention_score_decayed": 1.41,
     "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
     "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
@@ -34023,7 +34087,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-03",
     "mention_score": 2,
-    "mention_score_decayed": 1.26,
+    "mention_score_decayed": 1.23,
     "last_main_idea": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-03 \u2022 AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Sure, favorite podcast. It's your podcast. It's your favorite podcast. It's the all-in podcast episode two, seven, nine with me, freebergs, tax, to my, you know, the",
@@ -34083,7 +34147,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -35074,6 +35138,125 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 356,
+    "name": "Day Blenden",
+    "slug": "day-blenden",
+    "bio": "Day Blenden is a prominent figure in the field of AI investing, recognized as the 'Emperor of AI Investing.' He brings his expertise in AI and investment to discussions, providing valuable insights into the industry's future and its impact on society.",
+    "known_for": "His deep understanding of AI investing and its implications for the future of technology and society.",
+    "net_worth_usd": 299000000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001203475/david-b-blundin",
+    "net_worth_updated_at": "2026-07-24T23:37:38.851383",
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Direct and insightful",
+    "voice_delivery_notes": "Clear and assertive",
+    "voice_profile_updated_at": "2026-07-25 04:36:36",
+    "last_seen": "2026-07-25 04:36:36",
+    "last_episode_title": "The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-07-24",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
+    "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
+    "supporting_takeaway": "Investment in AI is not only about technology but also about fostering innovation and human potential.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-24T23:37:37.927897",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Day Blenden",
+      "fetched_at": "2026-07-25T04:37:37.927409+00:00",
+      "cliff_notes": "Day Blenden has made a significant impact in the realm of AI investing, earning him the title 'Emperor of AI Investing.' His career has been marked by a deep dive into the intricacies of AI technology and its financial implications. Blenden's insights have been instrumental in shaping discussions around the future of AI, its potential, and the ethical considerations that come with it. His expertise has been sought after by various platforms, where he shares his views on the industry's direction and the role of AI in shaping our world. Blenden's work is particularly relevant as AI continues to evolve and become more integrated into our daily lives, influencing everything from healthcare to finance.",
+      "derived": {
+        "current_role": "Investment Expert in AI"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Day Blenden has made a significant impact in the realm of AI investing, earning him the title 'Emperor of AI Investing.' His career has been marked by a deep dive into the intricacies of AI technology and its financial implications. Blenden's insights have been instrumental in shaping discussions around the future of AI, its potential, and the ethical considerations that come with it.",
+        "His expertise has been sought after by various platforms, where he shares his views on the industry's direction and the role of AI in shaping our world. Blenden's work is particularly relevant as AI continues to evolve and become more integrated into our daily lives, influencing everything from healthcare to finance."
+      ],
+      "sections": [
+        {
+          "heading": "AI Investing",
+          "body": "Day Blenden is known for his expertise in AI investing, providing insights into the financial aspects of AI technology and its potential impact on various industries."
+        },
+        {
+          "heading": "Future of AI",
+          "body": "Blenden discusses the future implications of AI, including its potential to revolutionize sectors and the ethical considerations that arise with its advancement."
+        },
+        {
+          "heading": "Ethics in AI",
+          "body": "Blenden addresses the ethical dilemmas associated with AI, such as privacy concerns and the potential for misuse, emphasizing the need for responsible development and deployment of AI technologies."
+        }
+      ]
+    },
+    "net_worth": "$299.0M"
+  },
+  {
+    "id": 357,
+    "name": "Sleam Ismail",
+    "slug": "sleam-ismail",
+    "bio": "Sleam Ismail is the CEO of OpenEXO, a company at the forefront of AI and exponential technologies. As a globe-trotter, he brings a global perspective to the conversation, discussing the implications of AI advancements and their impact on society.",
+    "known_for": "Leading OpenEXO and contributing to the discourse on AI and its societal implications.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Enthusiastic and visionary",
+    "voice_style": "Inspirational and motivational",
+    "voice_delivery_notes": "Passionate and engaging",
+    "voice_profile_updated_at": "2026-07-25 04:36:36",
+    "last_seen": "2026-07-25 04:36:36",
+    "last_episode_title": "The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-07-24",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
+    "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
+    "supporting_takeaway": "Investment in AI is not only about technology but also about fostering innovation and human potential.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-24T23:37:47.449403",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sleam Ismail",
+      "fetched_at": "2026-07-25T04:37:47.449143+00:00",
+      "cliff_notes": "Sleam Ismail is recognized as the CEO of OpenEXO, a company that is shaping the future of AI and its applications. His role places him at the intersection of technology and society, where he discusses and navigates the complex issues arising from AI advancements. Ismail's global travels have provided him with a broad perspective, which he uses to engage in conversations about the future of AI, its ethical considerations, and its potential to transform various industries. His insights are particularly valuable in the current landscape where AI is becoming increasingly integrated into daily life and business operations.",
+      "derived": {
+        "current_role": "CEO of OpenEXO"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Sleam Ismail is recognized as the CEO of OpenEXO, a company that is shaping the future of AI and its applications. His role places him at the intersection of technology and society, where he discusses and navigates the complex issues arising from AI advancements. Ismail's global travels have provided him with a broad perspective, which he uses to engage in conversations about the future of AI, its ethical considerations, and its potential to transform various industries.",
+        "His insights are particularly valuable in the current landscape where AI is becoming increasingly integrated into daily life and business operations."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Society",
+          "body": "Sleam Ismail discusses the impact of AI on society, including the ethical considerations and potential societal transformations that could result from AI advancements."
+        },
+        {
+          "heading": "Global Perspective",
+          "body": "As a globe-trotter, Ismail brings a global perspective to the conversation, highlighting the diverse ways in which AI is being adopted and integrated around the world."
+        },
+        {
+          "heading": "AI in Business",
+          "body": "Ismail explores the role of AI in business, discussing how companies can leverage AI to improve operations and stay competitive in a rapidly changing technological landscape."
+        }
+      ]
+    }
   },
   {
     "id": 355,
@@ -36164,7 +36347,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Invest in companies at the forefront of AI and semiconductors that can leverage intelligence to perform high-cost, time-consuming tasks more efficiently and at scale.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-14 \u2022 The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
     "last_proof_snippet": "Got a special conversation today. I'm joined by Ben Kulandian of BEP Research. Ben is a specialist investor and analyst in the semi-conductor world and the semi-conductor supply chain. Of course, that is what powers AI Ben welcome to moneta",
@@ -37112,7 +37295,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-29 \u2022 Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
     "last_proof_snippet": "I am so glad today we have a very special guest, one of my favorite authors of all time Leakwet Ahamed, who's the author of the new book 1873, The Roth Childs, The First Great Depression, and The Making of the Modern World Leakwet. Welcome",
@@ -37239,7 +37422,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
     "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
@@ -37553,7 +37736,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-22 \u2022 Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
     "last_proof_snippet": "Okay, we're here in a studio with Grace One, Matt and Zico welcome. Great to be here. Yeah. Thanks for having us. You're visiting from Pittsburgh? That's right. The home of all good computer science, I don't know if I'm oversteaving things.",
@@ -37616,7 +37799,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -37680,7 +37863,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -37739,7 +37922,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -37798,7 +37981,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -37863,7 +38046,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -37926,7 +38109,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -38292,7 +38475,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -39140,7 +39323,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -42213,7 +42396,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -43469,7 +43652,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
