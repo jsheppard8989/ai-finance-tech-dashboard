@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-24T23:39:20.595595",
-  chartsVersion: "2026-07-24T23:39:08.686210",
+  generatedAt: "2026-07-25T05:02:59.819049",
+  chartsVersion: "2026-07-25T05:02:51.170886",
   priceSnapshot: {
   "GOOGL": {
     "price": 319.74,
     "change_pct": -12.88,
     "name": "GOOGL",
-    "updated_at": "2026-07-24T23:39:08.685061"
+    "updated_at": "2026-07-25T05:02:51.170399"
   },
   "NVDA": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 206.84,
+    "change_pct": 5.03,
     "name": "NVDA",
-    "updated_at": "2026-07-24T23:39:08.685077"
+    "updated_at": "2026-07-25T05:02:51.170409"
   },
   "BTC": {
-    "price": 64065.84,
-    "change_pct": 0.48,
+    "price": 63951.75,
+    "change_pct": 0.3,
     "name": "BTC",
-    "updated_at": "2026-07-24T23:39:08.685087"
+    "updated_at": "2026-07-25T05:02:51.170413"
   },
   "MSFT": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 381.7,
+    "change_pct": -1.84,
     "name": "MSFT",
-    "updated_at": "2026-07-24T23:39:08.685093"
+    "updated_at": "2026-07-25T05:02:51.170417"
   },
   "TSLA": {
     "price": 313.03,
     "change_pct": -22.31,
     "name": "TSLA",
-    "updated_at": "2026-07-24T23:39:08.685101"
+    "updated_at": "2026-07-25T05:02:51.170421"
   },
   "AMZN": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 232.11,
+    "change_pct": -5.64,
     "name": "AMZN",
-    "updated_at": "2026-07-24T23:39:08.685107"
+    "updated_at": "2026-07-25T05:02:51.170424"
   },
   "WTI": {
     "price": 3.66,
     "change_pct": 10.57,
     "name": "WTI",
-    "updated_at": "2026-07-24T23:39:08.685116"
+    "updated_at": "2026-07-25T05:02:51.170428"
   },
   "META": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 595.19,
+    "change_pct": -3.31,
     "name": "META",
-    "updated_at": "2026-07-24T23:39:08.685122"
+    "updated_at": "2026-07-25T05:02:51.170431"
   },
   "S&P 500": {
-    "price": 738.93,
-    "change_pct": -1.17,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "S&P 500",
-    "updated_at": "2026-07-24T23:39:08.685130"
+    "updated_at": "2026-07-25T05:02:51.170434"
   },
   "AAPL": {
     "price": 333.02,
     "change_pct": 7.2,
     "name": "AAPL",
-    "updated_at": "2026-07-24T23:39:08.685140"
+    "updated_at": "2026-07-25T05:02:51.170437"
   },
   "QQQ": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 684.23,
+    "change_pct": -3.55,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-24T23:39:08.685146"
+    "updated_at": "2026-07-25T05:02:51.170440"
   },
   "BTC-USD": {
-    "price": 64065.84,
-    "change_pct": 0.48,
+    "price": 63951.75,
+    "change_pct": 0.3,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-24T23:39:08.685156"
+    "updated_at": "2026-07-25T05:02:51.170443"
   }
 },
   tickerScores: [
@@ -876,6 +876,25 @@ const dashboardData = {
       "podcast_episode_id": 366
     },
     {
+      "id": 382,
+      "title": "The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence?",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-24",
+      "summary": "In this episode of the All-In podcast, the hosts discuss the recent release of China's moonshot AI's Kimmy K3, an open source model that has sparked debate in the United States about banning Chinese open source models. The conversation covers the performance of Kimmy K3 in comparison to models like Opus 4.8 and GPT 5.6, the potential implications for the US AI industry, and the White House's involvement in the matter. The hosts also touch on the potential for a ban on open source models, the rhetoric around the dangers of open source AI, and the importance of the US developing its own competitive open source models.",
+      "key_takeaway": "Investment in US-based AI companies and open source model development could be beneficial due to the potential for bans on Chinese models and the push for US innovation in the AI space.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 367
+    },
+    {
       "id": 378,
       "title": "Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
       "source_type": "podcast",
@@ -1023,7 +1042,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-21",
       "archived_date": null,
@@ -8730,7 +8749,7 @@ const dashboardData = {
       "description": "The process of training AI models on existing knowledge, which can be a core part of AI development but raises concerns when it involves industrial-scale extraction or violates terms of service.",
       "first_detected_date": "2026-05-15",
       "last_mentioned_date": "2026-07-24",
-      "mention_count": 26,
+      "mention_count": 27,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Distillation could accelerate AI capabilities, but investors should be aware of the ethical and legal implications of this process.",
@@ -8739,8 +8758,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 366,
-      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
+      "last_mentioned_episode_id": 367,
+      "last_mentioned_speaker": "David Sachs, David Friedberg (hosts)"
     },
     {
       "id": 174,
@@ -9357,20 +9376,20 @@ const dashboardData = {
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models that are publicly available and can be freely used, modified, and shared by anyone.",
+      "description": "AI models that are publicly available and can be modified and used freely, often fostering faster innovation and adoption.",
       "first_detected_date": "2026-03-29",
       "last_mentioned_date": "2026-07-24",
-      "mention_count": 11,
+      "mention_count": 12,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "The growth of open-source AI models may disrupt the competitive landscape, affecting pricing and innovation in the AI industry.",
+      "investment_implications": "Open-source AI models can drive down costs and accelerate development, creating investment opportunities in companies that leverage or contribute to these models.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 365,
-      "last_mentioned_speaker": "Sri Ram Krishna"
+      "last_mentioned_episode_id": 367,
+      "last_mentioned_speaker": "David Sachs, David Friedberg (hosts)"
     },
     {
       "id": 79,
@@ -9861,20 +9880,20 @@ const dashboardData = {
     {
       "id": 64,
       "term": "AI Race",
-      "description": "The global competition between nations to lead in AI development and application.",
+      "description": "The competition between countries, particularly the US and China, to develop and deploy advanced AI technologies.",
       "first_detected_date": "2026-03-11",
       "last_mentioned_date": "2026-07-24",
-      "mention_count": 22,
+      "mention_count": 23,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Consider investing in companies and countries that are making significant strides in AI technology.",
+      "investment_implications": "Investors should consider the implications of national AI strategies on the global tech landscape and the potential for domestic innovation to be incentivized.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 365,
-      "last_mentioned_speaker": "Sri Ram Krishna"
+      "last_mentioned_episode_id": 367,
+      "last_mentioned_speaker": "David Sachs, David Friedberg (hosts)"
     },
     {
       "id": 12,
@@ -10251,6 +10270,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 382,
+      "title": "The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence?",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-24",
+      "summary": "In this episode of the All-In podcast, the hosts discuss the recent release of China's moonshot AI's Kimmy K3, an open source model that has sparked debate in the United States about banning Chinese open source models. The conversation covers the performance of Kimmy K3 in comparison to models like Opus 4.8 and GPT 5.6, the potential implications for the US AI industry, and the White House's involvement in the matter. The hosts also touch on the potential for a ban on open source models, the rhetoric around the dangers of open source AI, and the importance of the US developing its own competitive open source models.",
+      "key_takeaway": "Investment in US-based AI companies and open source model development could be beneficial due to the potential for bans on Chinese models and the push for US innovation in the AI space.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 367,
+      "episode_release_date": "2026-07-24",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 378,
       "title": "Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
       "source_type": "podcast",
@@ -10348,26 +10387,6 @@ const dashboardData = {
       "podcast_episode_id": 361,
       "episode_release_date": "2026-07-21",
       "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 375,
-      "title": "Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-07-20",
-      "summary": "In this episode, the hosts discuss the differences between the current market behavior and the dot-com bubble, expressing concerns about potential impacts on venture capital and private equity. They also touch on the evolution of product managers' roles in the context of outperforming market indices and the challenges of deploying capital at the wrong time. The conversation shifts to the advertising platform Applovin, the borrowing habits of market leaders like Google and Meta, and the potential for technological breakthroughs that could disrupt current investments in data centers and AI. The hosts also speculate on the future of AI, including world models and their applications in video and healthcare.",
-      "key_takeaway": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-21",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 360,
-      "episode_release_date": "2026-07-20",
-      "guest_name": "Mark Cuban on the AI Bubble",
       "key_tickers": []
     }
   ],
@@ -10511,7 +10530,7 @@ const dashboardData = {
       "first_detected_speaker": "Demis Hassabis",
       "last_mentioned_episode_id": 366,
       "last_mentioned_speaker": "Day Blenden, Sleam Ismail",
-      "overton_score": 61.0,
+      "overton_score": 59.61,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
@@ -10537,7 +10556,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 366,
       "last_mentioned_speaker": "Day Blenden, Sleam Ismail",
-      "overton_score": 22.0,
+      "overton_score": 21.5,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
@@ -10563,7 +10582,7 @@ const dashboardData = {
       "first_detected_speaker": "Peter Diamandis",
       "last_mentioned_episode_id": 344,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "overton_score": 10.08,
+      "overton_score": 9.85,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
@@ -10589,7 +10608,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 356,
       "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo",
-      "overton_score": 8.91,
+      "overton_score": 8.71,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
@@ -10615,7 +10634,7 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 355,
       "last_mentioned_speaker": "Jason Calacanis, Chamath Palihapitiya (hosts)",
-      "overton_score": 7.83,
+      "overton_score": 7.66,
       "resonance_pct": 100,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
@@ -10641,8 +10660,8 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 354,
       "last_mentioned_speaker": "Ramine Hassani",
-      "overton_score": 3.4,
-      "resonance_pct": 85,
+      "overton_score": 3.32,
+      "resonance_pct": 83,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
       "first_detected_episode_date": "2026-06-19",
@@ -10667,8 +10686,8 @@ const dashboardData = {
       "first_detected_speaker": "Leakwet Ahamed",
       "last_mentioned_episode_id": 350,
       "last_mentioned_speaker": "David Sachs",
-      "overton_score": 3.32,
-      "resonance_pct": 83,
+      "overton_score": 3.25,
+      "resonance_pct": 81,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
       "first_detected_episode_date": "2026-06-29",
@@ -10693,8 +10712,8 @@ const dashboardData = {
       "first_detected_speaker": "Ramine Hassani",
       "last_mentioned_episode_id": 366,
       "last_mentioned_speaker": "Day Blenden, Sleam Ismail",
-      "overton_score": 3.0,
-      "resonance_pct": 75,
+      "overton_score": 2.93,
+      "resonance_pct": 73,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
       "first_detected_episode_date": "2026-07-17",
@@ -10719,8 +10738,8 @@ const dashboardData = {
       "first_detected_speaker": "Steven Sinofsky",
       "last_mentioned_episode_id": 358,
       "last_mentioned_speaker": "Clement DeLong",
-      "overton_score": 2.74,
-      "resonance_pct": 68,
+      "overton_score": 2.67,
+      "resonance_pct": 67,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
       "first_detected_episode_date": "2026-06-02",
@@ -10745,8 +10764,8 @@ const dashboardData = {
       "first_detected_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo",
       "last_mentioned_episode_id": 363,
       "last_mentioned_speaker": "Underrate Cupathy",
-      "overton_score": 1.95,
-      "resonance_pct": 49,
+      "overton_score": 1.91,
+      "resonance_pct": 48,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
       "first_detected_episode_date": "2026-07-19",
@@ -10771,8 +10790,8 @@ const dashboardData = {
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
       "last_mentioned_episode_id": 364,
       "last_mentioned_speaker": "Travis Kelenick",
-      "overton_score": 1.95,
-      "resonance_pct": 49,
+      "overton_score": 1.91,
+      "resonance_pct": 48,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
       "first_detected_episode_date": "2026-07-22",
@@ -10797,8 +10816,8 @@ const dashboardData = {
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
       "last_mentioned_episode_id": 364,
       "last_mentioned_speaker": "Travis Kelenick",
-      "overton_score": 1.95,
-      "resonance_pct": 49,
+      "overton_score": 1.91,
+      "resonance_pct": 48,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
       "first_detected_episode_date": "2026-07-22",
@@ -10823,8 +10842,8 @@ const dashboardData = {
       "first_detected_speaker": "Joseph Krauss",
       "last_mentioned_episode_id": 352,
       "last_mentioned_speaker": "Andy Beam, Ratha Gomez Bumbarelli",
-      "overton_score": 1.66,
-      "resonance_pct": 42,
+      "overton_score": 1.62,
+      "resonance_pct": 40,
       "first_detected_podcast": "Latent Space: The AI Engineer Podcast",
       "first_detected_episode_title": "\ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
       "first_detected_episode_date": "2026-06-17",
@@ -33397,6 +33416,55 @@ const dashboardData = {
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-07-24",
     "key_tickers": []
+  },
+  "382": {
+    "id": 372,
+    "insight_id": 382,
+    "podcast_episode_id": 367,
+    "overview": "The competitive dynamic highlighted in the podcast revolves around the rapid advancement of Chinese AI models and the potential for them to disrupt the US market, both technologically and economically. The policy tradeoff is between maintaining an open-source ecosystem, which fosters innovation but poses risks of technology transfer, and implementing restrictions to protect domestic industries, which could stifle innovation. The metric arbitrating this uncertainty is the performance and cost-effectiveness of AI models, as well as the government's stance on open-source technology.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the policy decisions from the White House regarding open-source AI models as these could significantly impact the competitive landscape.",
+      "The cost advantage of Kimmy K3 suggests a potential shift in valuation towards companies that can leverage open-source models effectively.",
+      "The commoditization of AI models implies that long-term value may lie in the application layer and infrastructure, rather than the foundational models themselves.",
+      "Companies like Anthropic that are seeking government protection may be motivated by valuation preservation rather than genuine security concerns, indicating a potential misalignment with the broader tech industry's interests."
+    ],
+    "investment_thesis": "The investment thesis is that the US government's stance on open-source AI models will be a key determinant in the valuation and growth of AI companies. If the government opts for lighter regulation and continues to support an open approach, as suggested by the hosts' confidence in the President's 'impeccable' instincts on tech issues, US-based AI companies that can leverage open-source models could see significant growth. Conversely, restrictive policies could hinder their progress. The observable development that would vindicate this thesis is the government's clear support for open-source development and the continued performance parity or superiority of open-source models in the market.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI and machine learning is significant, and its ability to leverage open-source models could impact its product development and services.",
+        "positioning": "Positioned long on AAPL if the US government supports open-source AI development, as Apple could benefit from the innovation and cost-effectiveness of these models.",
+        "risk": "Key risks include potential government restrictions on open-source AI models and increased competition from Chinese AI models that could disrupt Apple's supply chain or market position."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that open-source AI models pose a significant security risk, leading to a potential ban or severe restrictions.",
+      "The possibility that US-based AI companies may not be able to effectively leverage open-source models, leading to a competitive disadvantage.",
+      "The argument that the commoditization of AI models is overstated, and proprietary models will maintain a performance edge, making the open-source ecosystem less valuable."
+    ],
+    "catalysts": [
+      "White House announcements or policy changes regarding open-source AI models.",
+      "Major AI companies' decisions to adopt or reject open-source models in their product development.",
+      "Court rulings or regulatory actions that impact the legality or usage of open-source AI models.",
+      "Publications of new AI model performance benchmarks that could sway the debate on the value of open-source versus proprietary models."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-25T05:02:03.912914",
+    "updated_at": "2026-07-25 10:02:03",
+    "episode_evidence": "The podcast episode delves into the implications of China's moonshot AI's Kimmy K3, an open-source model that has raised concerns in the US about potential bans on Chinese open-source models. The hosts discuss the performance of Kimmy K3, noting it is 'on par with models like Opus 4.8 and GPT 5.6,' which is significant as it suggests a rapid catch-up in AI capabilities. The economic aspect is highlighted with the statement, 'about 50% cheaper,' indicating a potential cost advantage that could disrupt the market. The discussion also touches on the White House's involvement, with the hosts mentioning 'the White House...has gotten involved' and the potential for a ban on Chinese open-source models, which has escalated to a 45% chance as per Polymark. The episode also critiques Anthropic, suggesting it has been 'very successful at trying to panic everybody into thinking that they need some sort of government protection,' which implies a strategic narrative to influence policy.",
+    "falsification_tracks": [
+      "A public statement from the White House confirming no intention to ban Chinese open-source models would reduce conviction in the thesis.",
+      "Anthropic publicly committing to effective measures to curb distillation practices would challenge the narrative of needing government protection.",
+      "A significant slowdown in the commoditization of AI models, as indicated by a sustained performance advantage by proprietary models over open-source alternatives, would weaken the case for a shift in valuation towards the application layer and infrastructure."
+    ],
+    "insight_title": "The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence?",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-07-24",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -33451,7 +33519,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 37479,
+    "id": 37583,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -33463,7 +33531,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37480,
+    "id": 37584,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -33475,7 +33543,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37481,
+    "id": 37585,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -33487,7 +33555,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37482,
+    "id": 37586,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -33499,7 +33567,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37483,
+    "id": 37587,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -33511,7 +33579,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37484,
+    "id": 37588,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -33523,7 +33591,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37485,
+    "id": 37589,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -33535,7 +33603,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37486,
+    "id": 37590,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -33547,7 +33615,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37487,
+    "id": 37591,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -33559,7 +33627,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37488,
+    "id": 37592,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -33571,7 +33639,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37489,
+    "id": 37593,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -33583,7 +33651,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37490,
+    "id": 37594,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -33595,7 +33663,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37491,
+    "id": 37595,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -33607,7 +33675,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37492,
+    "id": 37596,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -33619,7 +33687,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37493,
+    "id": 37597,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -33631,7 +33699,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37494,
+    "id": 37598,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -33643,7 +33711,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37495,
+    "id": 37599,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -33655,7 +33723,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37496,
+    "id": 37600,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -33667,7 +33735,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37497,
+    "id": 37601,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -33679,7 +33747,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 37498,
+    "id": 37602,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -34468,7 +34536,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in technologies that empower individuals to maintain autonomy and control in a world where threats to personal safety and privacy are growing.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-15 \u2022 Vitalik Buterin on Human Agency in the AI Era",
     "last_proof_snippet": "One of the challenges the world right now is that we're definitely in a less peaceful and less safe world than 10 or 15 years ago. The vision of safety that we're competing with is basically, oh, you know, let's trust the uncle in the sky a",
@@ -36213,7 +36281,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-15 \u2022 Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
     "last_proof_snippet": "spent a long time in Intel, and only 34 years, 34 years, probably one of the greatest American companies ever, and then, absolutely went off the rails and got absolutely demolished by Nvidia, TSMC, and I guess Apple to a certain extent. So",
@@ -36865,7 +36933,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-05 \u2022 The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. The new Fed Chair Kevin Worsh has made it no secret that he prefers a sm",
@@ -37606,7 +37674,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-23 \u2022 GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
     "last_proof_snippet": "Everyone hates GameStop and it seems like everyone in the media basically wants us to fail and wants them to succeed and you've got a board that's making hundreds of thousands of dollars a year and they don't buy stock with their own money.",
@@ -41204,7 +41272,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Invest in incremental AI improvements, new compensation models for CEOs, and emerging biotech sectors focusing on longevity and healthspan.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-07 \u2022 Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
     "last_proof_snippet": "Demisis Abbas, the CEO of DeepMind, says AGI may not need a major breakthrough. I've argued in the past that we achieved AGI in the summer of 2020. We know. I would argue what AGI is, and we know how pleased to find it for me. For your AI,",
@@ -45452,7 +45520,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-27 \u2022 Investing in Sovereign Credit with Lupin Ramon",
     "last_proof_snippet": "Investors in sovereign debt must consider both the ability and willingness of governments to repay, which can be influenced by a multitude of qualitative factors.",
@@ -45517,7 +45585,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-27 \u2022 Lessons from SpaceX and Tesla: Building for the Physical Economy",
     "last_proof_snippet": "Preventing data silos and fostering communication is crucial for scaling.",
@@ -45582,7 +45650,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-27 \u2022 Lessons from SpaceX and Tesla: Building for the Physical Economy",
     "last_proof_snippet": "Preventing data silos and fostering communication is crucial for scaling.",
@@ -46504,7 +46572,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-20 \u2022 The Impact of AI on Mathematics and Scientific Discovery",
     "last_proof_snippet": "The application of AI in mathematics could lead to new discoveries and breakthroughs more quickly than traditional methods.",

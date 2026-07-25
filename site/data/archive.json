@@ -43,6 +43,25 @@
       "podcast_episode_id": 366
     },
     {
+      "id": 382,
+      "title": "The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence?",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-24",
+      "summary": "In this episode of the All-In podcast, the hosts discuss the recent release of China's moonshot AI's Kimmy K3, an open source model that has sparked debate in the United States about banning Chinese open source models. The conversation covers the performance of Kimmy K3 in comparison to models like Opus 4.8 and GPT 5.6, the potential implications for the US AI industry, and the White House's involvement in the matter. The hosts also touch on the potential for a ban on open source models, the rhetoric around the dangers of open source AI, and the importance of the US developing its own competitive open source models.",
+      "key_takeaway": "Investment in US-based AI companies and open source model development could be beneficial due to the potential for bans on Chinese models and the push for US innovation in the AI space.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 367
+    },
+    {
       "id": 378,
       "title": "Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
       "source_type": "podcast",
@@ -190,7 +209,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-21",
       "archived_date": null,
@@ -7897,7 +7916,7 @@
       "description": "The process of training AI models on existing knowledge, which can be a core part of AI development but raises concerns when it involves industrial-scale extraction or violates terms of service.",
       "first_detected_date": "2026-05-15",
       "last_mentioned_date": "2026-07-24",
-      "mention_count": 26,
+      "mention_count": 27,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Distillation could accelerate AI capabilities, but investors should be aware of the ethical and legal implications of this process.",
@@ -7906,8 +7925,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 366,
-      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
+      "last_mentioned_episode_id": 367,
+      "last_mentioned_speaker": "David Sachs, David Friedberg (hosts)"
     },
     {
       "id": 174,
@@ -8524,20 +8543,20 @@
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models that are publicly available and can be freely used, modified, and shared by anyone.",
+      "description": "AI models that are publicly available and can be modified and used freely, often fostering faster innovation and adoption.",
       "first_detected_date": "2026-03-29",
       "last_mentioned_date": "2026-07-24",
-      "mention_count": 11,
+      "mention_count": 12,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "The growth of open-source AI models may disrupt the competitive landscape, affecting pricing and innovation in the AI industry.",
+      "investment_implications": "Open-source AI models can drive down costs and accelerate development, creating investment opportunities in companies that leverage or contribute to these models.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 365,
-      "last_mentioned_speaker": "Sri Ram Krishna"
+      "last_mentioned_episode_id": 367,
+      "last_mentioned_speaker": "David Sachs, David Friedberg (hosts)"
     },
     {
       "id": 79,
@@ -9028,20 +9047,20 @@
     {
       "id": 64,
       "term": "AI Race",
-      "description": "The global competition between nations to lead in AI development and application.",
+      "description": "The competition between countries, particularly the US and China, to develop and deploy advanced AI technologies.",
       "first_detected_date": "2026-03-11",
       "last_mentioned_date": "2026-07-24",
-      "mention_count": 22,
+      "mention_count": 23,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Consider investing in companies and countries that are making significant strides in AI technology.",
+      "investment_implications": "Investors should consider the implications of national AI strategies on the global tech landscape and the potential for domestic innovation to be incentivized.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 365,
-      "last_mentioned_speaker": "Sri Ram Krishna"
+      "last_mentioned_episode_id": 367,
+      "last_mentioned_speaker": "David Sachs, David Friedberg (hosts)"
     },
     {
       "id": 12,

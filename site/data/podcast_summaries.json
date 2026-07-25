@@ -1,5 +1,21 @@
 [
   {
+    "id": 367,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence?",
+    "episode_date": "2026-07-24",
+    "summary": "In this episode of the All-In podcast, the hosts discuss the recent release of China's moonshot AI's Kimmy K3, an open source model that has sparked debate in the United States about banning Chinese open source models. The conversation covers the performance of Kimmy K3 in comparison to models like Opus 4.8 and GPT 5.6, the potential implications for the US AI industry, and the White House's involvement in the matter. The hosts also touch on the potential for a ban on open source models, the rhetoric around the dangers of open source AI, and the importance of the US developing its own competitive open source models.",
+    "key_takeaways": [
+      "China's moonshot AI released the Kimmy K3 model, which is on par with models like Opus 4.8 and GPT 5.6 but is about 50% cheaper.",
+      "There is a debate in the US about banning Chinese open source models, with the White House considering the implications.",
+      "The US government is considering incentivizing US Frontier labs to develop better open source models instead of banning Chinese models.",
+      "Open source AI models are seen as potentially dangerous due to the possibility of removing guardrails.",
+      "The US is winning the AI race due to a lighter regulatory approach and more open development of AI models."
+    ],
+    "investment_thesis": "Investment in US-based AI companies and open source model development could be beneficial due to the potential for bans on Chinese models and the push for US innovation in the AI space.",
+    "key_tickers": null
+  },
+  {
     "id": 366,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
@@ -110,22 +126,6 @@
       "The debate between Tesla and Waymo in the autonomous driving space is not about whether the technology will work, but about who will achieve cost and geographic ubiquity first."
     ],
     "investment_thesis": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
-    "key_tickers": null
-  },
-  {
-    "id": 360,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
-    "episode_date": "2026-07-20",
-    "summary": "In this episode, the hosts discuss the differences between the current market behavior and the dot-com bubble, expressing concerns about potential impacts on venture capital and private equity. They also touch on the evolution of product managers' roles in the context of outperforming market indices and the challenges of deploying capital at the wrong time. The conversation shifts to the advertising platform Applovin, the borrowing habits of market leaders like Google and Meta, and the potential for technological breakthroughs that could disrupt current investments in data centers and AI. The hosts also speculate on the future of AI, including world models and their applications in video and healthcare.",
-    "key_takeaways": [
-      "The current market behavior is not similar to the traditional dot-com bubble.",
-      "Venture capital and private equity could be at risk due to aggressive investment strategies.",
-      "Market leaders are borrowing heavily, which could lead to issues if economic conditions change.",
-      "Technological breakthroughs may disrupt current investments in data centers and AI.",
-      "AI and world models have significant potential in video and healthcare applications."
-    ],
-    "investment_thesis": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
     "key_tickers": null
   }
 ]
