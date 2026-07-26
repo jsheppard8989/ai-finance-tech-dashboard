@@ -1,6 +1,18 @@
 [
   {
-    "id": 38415,
+    "id": 38519,
+    "name": "Ben Horowitz",
+    "slug": "ben-horowitz",
+    "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
+    "known_for": "Co-founding a16z and authoring 'The Hard Thing About Hard Things'.",
+    "last_main_idea": "Invest in open source AI technologies to leverage community-driven innovation and capitalize on the under-penetrated AI market.",
+    "last_episode_title": "Ben Horowitz: The Fight Over Open Source AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-26",
+    "appearance_count": 3
+  },
+  {
+    "id": 38520,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38416,
+    "id": 38521,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38417,
+    "id": 38522,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38418,
+    "id": 38523,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38419,
+    "id": 38524,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38420,
+    "id": 38525,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38421,
+    "id": 38526,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38422,
+    "id": 38527,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38423,
+    "id": 38528,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38424,
+    "id": 38529,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38425,
+    "id": 38530,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38426,
+    "id": 38531,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38427,
+    "id": 38532,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38428,
+    "id": 38533,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38429,
+    "id": 38534,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38430,
+    "id": 38535,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38431,
+    "id": 38536,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38432,
+    "id": 38537,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38433,
+    "id": 38538,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38434,
+    "id": 38539,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38435,
+    "id": 38540,
     "name": "Beyond P(doom)",
     "slug": "beyond-pdoom",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38436,
+    "id": 38541,
     "name": "Nate Silver Predicts",
     "slug": "nate-silver-predicts",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38437,
+    "id": 38542,
     "name": "What\u2019s Next for Consumer AI?",
     "slug": "whats-next-for-consumer-ai",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38438,
+    "id": 38543,
     "name": "Ryan Cohen",
     "slug": "ryan-cohen",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38439,
+    "id": 38544,
     "name": "Jake Paul & Anti Fund",
     "slug": "jake-paul--anti-fund",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38440,
+    "id": 38545,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38441,
+    "id": 38546,
     "name": "Jim Chanos & Val Zlatev",
     "slug": "jim-chanos--val-zlatev",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 38442,
+    "id": 38547,
     "name": "This episode",
     "slug": "this-episode",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 2
   },
   {
-    "id": 38443,
+    "id": 38548,
     "name": "15 Questions",
     "slug": "15-questions",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
-    "appearance_count": 1
-  },
-  {
-    "id": 38444,
-    "name": "Regulatory Risk is Coming For AI",
-    "slug": "regulatory-risk-is-coming-for-ai",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investors should reassess their positions in hyperscaler stocks and monitor regulatory developments in AI, while also staying vigilant about geopolitical risks that could impact oil prices.",
-    "last_episode_title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-06-15",
     "appearance_count": 1
   }
 ]

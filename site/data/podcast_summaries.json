@@ -1,5 +1,22 @@
 [
   {
+    "id": 369,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Ben Horowitz: The Fight Over Open Source AI",
+    "episode_date": "2026-07-26",
+    "summary": "This episode of The a16z Show discusses the merits of open source AI, emphasizing its security and innovation advantages over proprietary models. It highlights the vast potential for AI market growth, given the current low penetration rate. The conversation underscores the importance of community involvement in AI development and the necessity for the US to rebuild its manufacturing capabilities, particularly in AI-centric and automated factories, to maintain competitiveness.",
+    "key_takeaways": [
+      "Open source AI is deemed more secure due to community involvement in addressing vulnerabilities.",
+      "Innovation in AI is fostered by open source models, allowing broader community contributions.",
+      "The AI market is significantly under-penetrated, with less than 3% market saturation, indicating substantial growth potential.",
+      "Open source models are essential for academia and startups to prevent monopolies in AI technology.",
+      "Distillation, training smaller models on larger models' outputs, is a beneficial practice in AI.",
+      "The US needs to rebuild its manufacturing capabilities to stay competitive in AI and automation."
+    ],
+    "investment_thesis": "Invest in open source AI technologies to leverage community-driven innovation and capitalize on the under-penetrated AI market.",
+    "key_tickers": null
+  },
+  {
     "id": 367,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence?",
@@ -110,22 +127,6 @@
       "Modeling the dynamics of cells over time could unlock new opportunities in drug discovery and therapeutic development."
     ],
     "investment_thesis": "Investing in companies that leverage AI for drug discovery could lead to breakthroughs in therapeutic development and patient care.",
-    "key_tickers": null
-  },
-  {
-    "id": 359,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Why Physical AI Is the Next Frontier | Applied Intuition",
-    "episode_date": "2026-07-21",
-    "summary": "In this episode of 'The a16z Show', the hosts discuss the future of physical AI and autonomous systems with the co-founders of Applied Intuition, a company focused on putting intelligence on machines such as cars, trucks, tanks, and drones. The conversation covers the impact of physical AI on the global economy, the challenges of engineering autonomous systems, and the potential for the next decade to transform not just software, but the physical economy. The co-founders also discuss their newest platform, Dana, which aims to simplify the building and deployment of autonomous systems.",
-    "key_takeaways": [
-      "Physical AI presents a fundamentally different set of engineering challenges compared to digital AI.",
-      "Autonomous systems are already making an impact in various industries, including automotive and mining.",
-      "The next decade could see a transformation of the physical economy through the widespread adoption of autonomous systems.",
-      "Applied Intuition's platform, Dana, aims to make it easier for developers to create autonomous systems, similar to how high school kids can make iPhone apps.",
-      "The debate between Tesla and Waymo in the autonomous driving space is not about whether the technology will work, but about who will achieve cost and geographic ubiquity first."
-    ],
-    "investment_thesis": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
     "key_tickers": null
   }
 ]
