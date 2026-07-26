@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T23:39:17.619276",
-  "last_updated": "2026-07-25T23:39:17.619276",
-  "last_pipeline_run": "2026-07-25T23:39:17.619276",
+  "generated_at": "2026-07-26T05:02:25.543723",
+  "last_updated": "2026-07-26T05:02:25.543723",
+  "last_pipeline_run": "2026-07-26T05:02:25.543723",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -15,7 +15,7 @@
     "overton_terms_total": 115,
     "latest_insights_total": 354,
     "today_mentions": {},
-    "podcasts_analyzed": 1
+    "podcasts_analyzed": 0
   },
   "step_results": {
     "downloaded": 2,
@@ -164,7 +164,7 @@
       "title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
       "status": "needs_analysis",
       "published": "2026-07-08",
-      "age_days": 17,
+      "age_days": 18,
       "next_blocker": "analyzed"
     },
     {
@@ -173,7 +173,7 @@
       "title": "Interest Rates to 10%: Why the Treasury Market is the Real Speculative Bubble (Not AI) | Russell Clark",
       "status": "needs_analysis",
       "published": "2026-07-22",
-      "age_days": 3,
+      "age_days": 4,
       "next_blocker": "analyzed"
     }
   ],
