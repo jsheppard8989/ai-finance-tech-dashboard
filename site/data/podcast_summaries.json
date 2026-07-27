@@ -17,6 +17,23 @@
     "key_tickers": null
   },
   {
+    "id": 368,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Debt Service Coverage in Private Markets Is Improving, Actually | Nicholas Brooks",
+    "episode_date": "2026-07-26",
+    "summary": "In this episode of Monetary Matters, Jack Farley interviews Nick Brooks, head of economic and investment research at Intermediate Capital Group (ICG), to discuss private credit and corporate balance sheets. Contrary to recent negative press, Brooks argues that debt levels are sustainable, corporate balance sheets are healthy, and the real financial risk lies elsewhere. They also delve into the impact of geopolitical events on markets, the resilience of earnings growth, and the potential risks associated with government debt.",
+    "key_takeaways": [
+      "Private credit has been under fire, but Brooks believes current debt levels are sustainable.",
+      "Corporate balance sheets are healthy despite recent negative press about private credit.",
+      "The financial risk Brooks is most concerned about stems from sources other than private credit.",
+      "Markets have remained resilient due to strong earnings growth, which has held up well amidst geopolitical noise.",
+      "Government debt, not corporate or household debt, is where Brooks sees the biggest medium-term risk.",
+      "Investors' complacency about rising government debt might not last forever, suggesting potential for increased volatility."
+    ],
+    "investment_thesis": "Contrary to popular belief, private credit and corporate debt are sustainable, and the real risk lies in government debt levels, which could lead to increased market volatility if not addressed.",
+    "key_tickers": null
+  },
+  {
     "id": 367,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence?",
@@ -111,22 +128,6 @@
       "Kalanick discusses the importance of building companies that can transform entire industries, not just create incremental improvements."
     ],
     "investment_thesis": "The next great technology revolution will be in the physical world, with industrial AI, robotics, and autonomy driving transformative change across industries.",
-    "key_tickers": null
-  },
-  {
-    "id": 361,
-    "podcast_name": "Latent Space: The AI Engineer Podcast",
-    "episode_title": "\ud83d\udd2cCausal Models Need Causal Data - Xaira\u2019s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)",
-    "episode_date": "2026-07-21",
-    "summary": "In this episode of Latent Space: The AI Engineer Podcast, the hosts discuss the role of AI in drug discovery with guests from Xero Therapeutics. The conversation covers the use of AI platforms for protein design, virtual cell modeling, and patient representation models. The guests highlight the importance of high-throughput experimentation and large datasets in training AI models to predict cellular responses to drugs and therapeutics. The episode also touches on the challenges and future opportunities in the field, including the need for advancements in protein sequencing technology and the potential for modeling cellular dynamics over time.",
-    "key_takeaways": [
-      "AI platforms are being used to generate better therapeutics and advance patient care.",
-      "Xero Therapeutics is building AI models to predict how genes and drug molecules will affect cell biology.",
-      "High-throughput experimentation and large datasets are crucial for training AI models in drug discovery.",
-      "Protein sequencing technology could significantly impact the field if it reaches the scale of genomics.",
-      "Modeling the dynamics of cells over time could unlock new opportunities in drug discovery and therapeutic development."
-    ],
-    "investment_thesis": "Investing in companies that leverage AI for drug discovery could lead to breakthroughs in therapeutic development and patient care.",
     "key_tickers": null
   }
 ]

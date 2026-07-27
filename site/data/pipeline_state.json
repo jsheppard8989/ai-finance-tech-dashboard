@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-26T13:38:30.513263",
-  "last_updated": "2026-07-26T13:38:30.513263",
-  "last_pipeline_run": "2026-07-26T13:38:30.513263",
+  "generated_at": "2026-07-26T22:03:14.613695",
+  "last_updated": "2026-07-26T22:03:14.613695",
+  "last_pipeline_run": "2026-07-26T22:03:14.613695",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -18,12 +18,12 @@
     "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 4,
-    "transcribed": 4,
-    "analyzed": 2,
-    "insight_created": 2,
-    "published": 1,
-    "total": 4
+    "downloaded": 2,
+    "transcribed": 2,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 2
   },
   "episodes": [
     {
@@ -84,39 +84,6 @@
       "status": "needs_analysis"
     },
     {
-      "id": "4320773c-8912-11f1-9d75-33bbdca20675",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Debt Service Coverage in Private Markets Is Improving, Actually | Nicholas Brooks",
-      "published": "2026-07-26",
-      "rss_guid": "4320773c-8912-11f1-9d75-33bbdca20675",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": false
-      },
-      "stage_reasons": {
-        "published": "Insight exists but added_to_site=0 \u2014 Deep Dives + export must succeed; run auto_pipeline."
-      },
-      "first_blocker": "published",
-      "remediation_by_stage": {
-        "published": {
-          "action_id": "EXPORT_AND_PUBLISH",
-          "steps": [
-            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
-            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
-            "When added_to_site=1 on the episode row, this stage turns green."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        }
-      },
-      "status": "needs_export"
-    },
-    {
       "id": "f677b254-85da-11f1-9e1a-975bec73686e",
       "podcast": "Monetary Matters with Jack Farley",
       "title": "Interest Rates to 10%: Why the Treasury Market is the Real Speculative Bubble (Not AI) | Russell Clark",
@@ -172,24 +139,6 @@
         }
       },
       "status": "needs_analysis"
-    },
-    {
-      "id": "02440efc-676f-4d2e-aa2b-6695e80e7d47",
-      "podcast": "The a16z Show",
-      "title": "Ben Horowitz: The Fight Over Open Source AI",
-      "published": "2026-07-26",
-      "rss_guid": "02440efc-676f-4d2e-aa2b-6695e80e7d47",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
     }
   ],
   "available_from_rss": [
