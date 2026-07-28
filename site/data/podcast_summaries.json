@@ -1,5 +1,21 @@
 [
   {
+    "id": 370,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Fei-Fei Li on Spatial Intelligence and Robotics",
+    "episode_date": "2026-07-28",
+    "summary": "This episode of 'The a16z Show' discusses the development of spatial intelligence AI, which is crucial for advancing robotics and creating immersive virtual environments. The acquisition of Cnex and the creation of a 'real-to-seem-to-real' pipeline are highlighted as significant steps in this direction. The conversation emphasizes the importance of simulation in robotics for reliability and efficiency, and the need for large world models to train AI effectively. The synergy between World Lab's generative models and Sinex's robotics expertise is seen as a potential foundation for a multimodal robotics model.",
+    "key_takeaways": [
+      "Invest in companies developing spatial intelligence and world models for their potential to lead future AI applications.",
+      "Look for businesses creating 'real-to-seem-to-real' pipelines to revolutionize data generation in AI and robotics.",
+      "Consider the importance of simulation in robotics for improving reliability and efficiency in development.",
+      "Identify robotics companies that leverage simulation to gain a competitive advantage.",
+      "Recognize the incremental approach from structured to semi-structured environments in robotics applications."
+    ],
+    "investment_thesis": "Invest in companies at the forefront of spatial intelligence development, as they are poised to shape the future of AI and robotics.",
+    "key_tickers": null
+  },
+  {
     "id": 369,
     "podcast_name": "The a16z Show",
     "episode_title": "Ben Horowitz: The Fight Over Open Source AI",
@@ -112,22 +128,6 @@
       "The conversation highlights the democratization of AI and the potential for open-source models to drive progress in the field."
     ],
     "investment_thesis": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
-    "key_tickers": null
-  },
-  {
-    "id": 362,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
-    "episode_date": "2026-07-22",
-    "summary": "In this episode of the a16z Show, hosts sit down with Travis Kalanick, the co-founder of Uber, to discuss his new venture, CloudKitchens, and his broader vision for the future of technology. The conversation covers the importance of starting with the right motivations, the potential of industrial AI, robotics, and autonomy, and the challenges of building companies that can transform entire industries. Kalanick shares insights from his experience at Uber and explains why he believes the next great technology revolution will be in the physical world, not just software.",
-    "key_takeaways": [
-      "Travis Kalanick's new venture, CloudKitchens, aims to revolutionize the food industry by making meal preparation and delivery as efficient as possible.",
-      "Kalanick believes the next great technology revolution will be in the physical world, not just software.",
-      "Industrial AI, robotics, and autonomy are key areas for the next wave of technological disruption.",
-      "Starting a company with the right motivations is crucial for long-term success and impact.",
-      "Kalanick discusses the importance of building companies that can transform entire industries, not just create incremental improvements."
-    ],
-    "investment_thesis": "The next great technology revolution will be in the physical world, with industrial AI, robotics, and autonomy driving transformative change across industries.",
     "key_tickers": null
   }
 ]

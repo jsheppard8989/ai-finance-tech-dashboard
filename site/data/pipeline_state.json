@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-28T05:02:47.053030",
-  "last_updated": "2026-07-28T05:02:47.053030",
-  "last_pipeline_run": "2026-07-28T05:02:47.053030",
+  "generated_at": "2026-07-28T14:05:38.977227",
+  "last_updated": "2026-07-28T14:05:38.977227",
+  "last_pipeline_run": "2026-07-28T14:05:38.977227",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -9,21 +9,21 @@
   },
   "counts": {
     "ticker_mentions": 206,
-    "podcast_episodes": 342,
+    "podcast_episodes": 343,
     "newsletters": 7,
     "daily_scores": 144,
     "overton_terms_total": 115,
-    "latest_insights_total": 356,
+    "latest_insights_total": 357,
     "today_mentions": {},
-    "podcasts_analyzed": 0
+    "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 4,
-    "transcribed": 3,
-    "analyzed": 0,
-    "insight_created": 0,
-    "published": 0,
-    "total": 5
+    "downloaded": 7,
+    "transcribed": 4,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 7
   },
   "episodes": [
     {
@@ -154,6 +154,76 @@
       "status": "needs_analysis"
     },
     {
+      "id": "7b96c5c4-8a90-11f1-80a7-4f2473f96e85",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
+      "published": "2026-07-28",
+      "rss_guid": "7b96c5c4-8a90-11f1-80a7-4f2473f96e85",
+      "stages": {
+        "downloaded": true,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "transcribed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
+      },
+      "first_blocker": "transcribed",
+      "remediation_by_stage": {
+        "transcribed": {
+          "action_id": "TRANSCRIBE",
+          "steps": [
+            "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
+            "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
+            "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard && ./whisper_worker.sh",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        },
+        "analyzed": {
+          "action_id": "ANALYZE_TRANSCRIPTS",
+          "steps": [
+            "Run transcript analysis so is_processed=1 on podcast_episodes (analyze_transcript via auto_pipeline).",
+            "Ensure LLM keys in workspace .env (e.g. MOONSHOT_API_KEY) are set if the analyzer requires them.",
+            "Quick path: auto_pipeline.py --analyze-only analyzes then continues promotion/export steps in that run."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        },
+        "insight_created": {
+          "action_id": "PROMOTE_INSIGHT",
+          "steps": [
+            "Promotion to latest_insights runs inside auto_pipeline after analysis.",
+            "If analysis succeeded but insight is missing, re-run full auto_pipeline.py and check logs for promote_episodes_to_insights errors."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        },
+        "published": {
+          "action_id": "EXPORT_AND_PUBLISH",
+          "steps": [
+            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
+            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
+            "When added_to_site=1 on the episode row, this stage turns green."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        }
+      },
+      "status": "needs_transcription"
+    },
+    {
       "id": "f677b254-85da-11f1-9e1a-975bec73686e",
       "podcast": "Monetary Matters with Jack Farley",
       "title": "Interest Rates to 10%: Why the Treasury Market is the Real Speculative Bubble (Not AI) | Russell Clark",
@@ -209,6 +279,24 @@
         }
       },
       "status": "needs_analysis"
+    },
+    {
+      "id": "df73b893-d213-4168-a6fb-8c845e831df9",
+      "podcast": "The a16z Show",
+      "title": "Fei-Fei Li on Spatial Intelligence and Robotics",
+      "published": "2026-07-28",
+      "rss_guid": "df73b893-d213-4168-a6fb-8c845e831df9",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
     },
     {
       "id": "ef54f007-9c46-4d15-b039-1183f989a26d",
@@ -268,48 +356,36 @@
       "status": "needs_analysis"
     },
     {
-      "id": "rss::the a16z show::fei-fei li on spatial intelligence and robotics",
-      "podcast": "The a16z Show",
-      "title": "Fei-Fei Li on Spatial Intelligence and Robotics",
+      "id": "substack:post:208716574",
+      "podcast": "Latent Space: The AI Engineer Podcast",
+      "title": "Codex from 0 to 10M Users: Building ChatGPT Work \u2014 Akshay Nathan, OpenAI",
       "published": "2026-07-28",
-      "published_date": "2026-07-28",
-      "rss_guid": "",
+      "rss_guid": "substack:post:208716574",
       "stages": {
-        "downloaded": false,
+        "downloaded": true,
         "transcribed": false,
         "analyzed": false,
         "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "RSS-only: not in curation_log APPROVED list yet \u2014 run curate.py so it can be fetched.",
-        "transcribed": "Blocked until download completes.",
-        "analyzed": "Blocked until transcript exists.",
-        "insight_created": "Blocked until analysis completes.",
-        "published": "Blocked until export after insight promotion."
+        "transcribed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
       },
-      "first_blocker": "downloaded",
+      "first_blocker": "transcribed",
       "remediation_by_stage": {
-        "downloaded": {
-          "action_id": "FETCH_AUDIO",
-          "steps": [
-            "Approve the episode in curation (curate.py refreshes pipeline/state/curation_log.json).",
-            "Download audio and enqueue transcription: fetch_latest.py --queue-only.",
-            "If MP3 never appears, inspect pipeline/logs/pipeline_schedule.err and fetch_latest output."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 curate.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 fetch_latest.py --queue-only"
-          ]
-        },
         "transcribed": {
-          "action_id": "FETCH_BEFORE_TRANSCRIBE",
+          "action_id": "TRANSCRIBE",
           "steps": [
-            "Audio must exist before transcription. Complete FETCH_AUDIO first."
+            "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
+            "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
+            "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/."
           ],
           "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 curate.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 fetch_latest.py --queue-only"
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard && ./whisper_worker.sh",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
           ]
         },
         "analyzed": {
@@ -347,14 +423,21 @@
           ]
         }
       },
-      "status": "needs_download"
+      "status": "needs_transcription"
     }
   ],
   "available_from_rss": [
     {
-      "podcast": "The a16z Show",
-      "title": "Fei-Fei Li on Spatial Intelligence and Robotics",
-      "published": "Tue, 28 Jul 2026 10:00:00 +0000",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
+      "published": "Tue, 28 Jul 2026 16:00:00 -0000",
+      "published_date": "2026-07-28",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "Latent Space: The AI Engineer Podcast",
+      "title": "Codex from 0 to 10M Users: Building ChatGPT Work \u2014 Akshay Nathan, OpenAI",
+      "published": "Tue, 28 Jul 2026 15:26:30 GMT",
       "published_date": "2026-07-28",
       "rss_guid": ""
     },

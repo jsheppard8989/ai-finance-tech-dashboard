@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 385,
+      "title": "Fei-Fei Li on Spatial Intelligence and Robotics",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-28",
+      "summary": "This episode of 'The a16z Show' discusses the development of spatial intelligence AI, which is crucial for advancing robotics and creating immersive virtual environments. The acquisition of Cnex and the creation of a 'real-to-seem-to-real' pipeline are highlighted as significant steps in this direction. The conversation emphasizes the importance of simulation in robotics for reliability and efficiency, and the need for large world models to train AI effectively. The synergy between World Lab's generative models and Sinex's robotics expertise is seen as a potential foundation for a multimodal robotics model.",
+      "key_takeaway": "Invest in companies at the forefront of spatial intelligence development, as they are poised to shape the future of AI and robotics.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 370
+    },
+    {
       "id": 383,
       "title": "Ben Horowitz: The Fight Over Open Source AI",
       "source_type": "podcast",
@@ -149,7 +168,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-22",
       "archived_date": null,
@@ -7879,19 +7898,19 @@
     {
       "id": 194,
       "term": "Multi-modal AI",
-      "description": "AI systems that can process and understand information from multiple modes of input, such as text, voice, and visuals, to create more immersive user experiences.",
+      "description": "AI systems that can process and understand information from multiple sources or modalities, such as vision, language, and sound.",
       "first_detected_date": "2026-05-21",
-      "last_mentioned_date": "2026-06-23",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-07-28",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Multi-modal AI could drive innovation in consumer tech by offering more personalized and engaging interfaces.",
+      "investment_implications": "Potential for a foundation model in robotics involving multimodal inputs and actions.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 232,
       "first_detected_speaker": "Andrew Feldman",
-      "last_mentioned_episode_id": 307,
+      "last_mentioned_episode_id": 370,
       "last_mentioned_speaker": "Josh Elman"
     },
     {
