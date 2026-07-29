@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-28T14:05:38.977227",
-  "last_updated": "2026-07-28T14:05:38.977227",
-  "last_pipeline_run": "2026-07-28T14:05:38.977227",
+  "generated_at": "2026-07-28T22:03:04.053364",
+  "last_updated": "2026-07-28T22:03:04.053364",
+  "last_pipeline_run": "2026-07-28T22:03:04.053364",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -18,12 +18,12 @@
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 7,
-    "transcribed": 4,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 7
+    "downloaded": 6,
+    "transcribed": 3,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 6
   },
   "episodes": [
     {
@@ -279,24 +279,6 @@
         }
       },
       "status": "needs_analysis"
-    },
-    {
-      "id": "df73b893-d213-4168-a6fb-8c845e831df9",
-      "podcast": "The a16z Show",
-      "title": "Fei-Fei Li on Spatial Intelligence and Robotics",
-      "published": "2026-07-28",
-      "rss_guid": "df73b893-d213-4168-a6fb-8c845e831df9",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
     },
     {
       "id": "ef54f007-9c46-4d15-b039-1183f989a26d",
