@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 391,
+      "title": "AI for America's Small Businesses | Lassie",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-30",
+      "summary": "This episode of 'The a16z Show' features a discussion on the role of AI in automating administrative tasks within healthcare practices. The conversation revolves around the challenges and opportunities presented by AI in small businesses, particularly in healthcare, and how AI is changing the nature of software from mere data storage to performing actual work. The guests share insights on the practical applications of AI in healthcare, the importance of building software that can operate autonomously, and the future of enterprise software being measured by the amount of work it can automate.",
+      "key_takeaway": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 376
+    },
+    {
       "id": 387,
       "title": "Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
       "source_type": "podcast",
@@ -129,7 +148,7 @@
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-26",
       "archived_date": null,
@@ -8178,8 +8197,8 @@
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-28",
-      "mention_count": 63,
+      "last_mentioned_date": "2026-07-30",
+      "mention_count": 64,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -8188,8 +8207,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 374,
-      "last_mentioned_speaker": "Akshay"
+      "last_mentioned_episode_id": 376,
+      "last_mentioned_speaker": "Stine Pella, Frederick Brinkett"
     },
     {
       "id": 162,
@@ -9004,20 +9023,20 @@
     {
       "id": 57,
       "term": "AI Infrastructure",
-      "description": "The underlying technology and systems that support the development, deployment, and operation of AI applications and services.",
+      "description": "The underlying technology and systems that support the development and operation of AI applications.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-07-24",
-      "mention_count": 23,
+      "last_mentioned_date": "2026-07-30",
+      "mention_count": 24,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investing in AI infrastructure could provide a foundational advantage in the race to develop and scale AI technologies.",
+      "investment_implications": "Investing in AI infrastructure can provide a foundational advantage in deploying AI solutions at scale.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 366,
-      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
+      "last_mentioned_episode_id": 376,
+      "last_mentioned_speaker": "Stine Pella, Frederick Brinkett"
     },
     {
       "id": 26,
@@ -9274,20 +9293,20 @@
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "Autonomous software entities that can perform tasks, make decisions, and interact with their environment using artificial intelligence.",
+      "description": "Software programs designed to perform tasks autonomously, mimicking human actions in a digital environment.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-07-29",
-      "mention_count": 52,
+      "last_mentioned_date": "2026-07-30",
+      "mention_count": 53,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "The development and deployment of AI agents could disrupt traditional business models and create new investment opportunities.",
+      "investment_implications": "AI Agents have the potential to significantly reduce labor costs and increase efficiency in various sectors, particularly in administrative tasks.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 375,
-      "last_mentioned_speaker": "Justin Jo"
+      "last_mentioned_episode_id": 376,
+      "last_mentioned_speaker": "Stine Pella, Frederick Brinkett"
     },
     {
       "id": 38,

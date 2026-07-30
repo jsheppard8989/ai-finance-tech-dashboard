@@ -1,5 +1,22 @@
 [
   {
+    "id": 376,
+    "podcast_name": "The a16z Show",
+    "episode_title": "AI for America's Small Businesses | Lassie",
+    "episode_date": "2026-07-30",
+    "summary": "This episode of 'The a16z Show' features a discussion on the role of AI in automating administrative tasks within healthcare practices. The conversation revolves around the challenges and opportunities presented by AI in small businesses, particularly in healthcare, and how AI is changing the nature of software from mere data storage to performing actual work. The guests share insights on the practical applications of AI in healthcare, the importance of building software that can operate autonomously, and the future of enterprise software being measured by the amount of work it can automate.",
+    "key_takeaways": [
+      "AI is changing the nature of software from data storage to performing actual work.",
+      "Small businesses, particularly in healthcare, present one of the biggest opportunities for AI.",
+      "Building software that operates autonomously requires significant effort to integrate with existing systems and processes.",
+      "The future of enterprise software may be measured by the amount of work it can automate rather than features.",
+      "AI adoption in small businesses is a complex puzzle that requires a different go-to-market strategy.",
+      "There is a significant 'last mile' distribution challenge in bringing AI solutions to mainstream American businesses."
+    ],
+    "investment_thesis": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
+    "key_tickers": null
+  },
+  {
     "id": 375,
     "podcast_name": "The a16z Show",
     "episode_title": "AI Micro Dramas, Generative Media, and the Future of Creativity",
@@ -100,23 +117,6 @@
       "Recognize the incremental approach from structured to semi-structured environments in robotics applications."
     ],
     "investment_thesis": "Invest in companies at the forefront of spatial intelligence development, as they are poised to shape the future of AI and robotics.",
-    "key_tickers": null
-  },
-  {
-    "id": 369,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Ben Horowitz: The Fight Over Open Source AI",
-    "episode_date": "2026-07-26",
-    "summary": "This episode of The a16z Show discusses the merits of open source AI, emphasizing its security and innovation advantages over proprietary models. It highlights the vast potential for AI market growth, given the current low penetration rate. The conversation underscores the importance of community involvement in AI development and the necessity for the US to rebuild its manufacturing capabilities, particularly in AI-centric and automated factories, to maintain competitiveness.",
-    "key_takeaways": [
-      "Open source AI is deemed more secure due to community involvement in addressing vulnerabilities.",
-      "Innovation in AI is fostered by open source models, allowing broader community contributions.",
-      "The AI market is significantly under-penetrated, with less than 3% market saturation, indicating substantial growth potential.",
-      "Open source models are essential for academia and startups to prevent monopolies in AI technology.",
-      "Distillation, training smaller models on larger models' outputs, is a beneficial practice in AI.",
-      "The US needs to rebuild its manufacturing capabilities to stay competitive in AI and automation."
-    ],
-    "investment_thesis": "Invest in open source AI technologies to leverage community-driven innovation and capitalize on the under-penetrated AI market.",
     "key_tickers": null
   },
   {

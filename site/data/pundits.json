@@ -330,7 +330,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-17",
     "mention_score": 2,
-    "mention_score_decayed": 1.52,
+    "mention_score_decayed": 1.48,
     "last_main_idea": "Investing in companies that prioritize public communication and authenticity can lead to stronger brand loyalty and trust, which are valuable assets in the long term.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-17 \u2022 Amjad Masad on Going Direct, Building Replit, and the Future of Software",
     "last_proof_snippet": "Being canceled is a choice. You should choose to get canceled and retreat from the public eye, but I think if you're still out there, at some point, honestly, the haters kind of give up. To some people ask, hey, how should I think about exp",
@@ -1483,14 +1483,14 @@
     "id": 43,
     "name": "Olivia Moore",
     "slug": "olivia-moore",
-    "bio": "Olivia Moore is a partner at A16Z, focusing on AI applications.",
-    "known_for": "Her expertise in AI and its applications in various sectors.",
+    "bio": "Olivia Moore is a partner at A16Z, focusing on AI applications. She believes that every tech company will eventually become an AI company, and AI will redefine the entire technology industry.",
+    "known_for": "Her expertise in AI and its applications in various sectors, particularly in the context of tech companies and the future of the technology industry.",
     "net_worth_usd": null,
-    "net_worth_source": null,
+    "net_worth_source": "",
     "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
     "voice_profile_updated_at": null,
     "last_seen": "2026-03-16 13:08:23",
     "last_episode_title": "AI Startups and the Future of Technology",
@@ -1503,8 +1503,166 @@
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
     "supporting_takeaway": "AI is seen as the reinvention of the entire technology industry, with the potential to create companies worth hundreds of billions or trillions of dollars.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
+    "grokipedia_fetched_at": "2026-07-30T12:08:38.280949",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Olivia Moore",
+      "fetched_at": "2026-07-30T17:08:38.280775+00:00",
+      "cliff_notes": "Olivia Moore is a partner at A16Z, where she specializes in artificial intelligence and its applications across various sectors. She has a deep understanding of how AI is transforming the technology landscape, and she sees AI as not just a market but as the reinvention of the entire technology industry. Moore believes that AI will impact every tech company, and those who can adapt and leverage AI to their advantage will be the most successful. She also acknowledges the challenges and complexities of AI, particularly in the social domain, and the potential risks and benefits that come with its rapid advancement. Moore's insights into the future of AI and its implications for businesses and society make her a key figure in the tech industry.",
+      "derived": {
+        "current_role": "Partner at A16Z"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Olivia Moore is a partner at A16Z, where she specializes in artificial intelligence and its applications across various sectors. She has a deep understanding of how AI is transforming the technology landscape, and she sees AI as not just a market but as the reinvention of the entire technology industry. Moore believes that AI will impact every tech company, and those who can adapt and leverage AI to their advantage will be the most successful.",
+        "She also acknowledges the challenges and complexities of AI, particularly in the social domain, and the potential risks and benefits that come with its rapid advancement. Moore's insights into the future of AI and its implications for businesses and society make her a key figure in the tech industry."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Tech",
+          "body": "Olivia Moore believes that every tech company will eventually become an AI company, and AI will redefine the entire technology industry."
+        },
+        {
+          "heading": "AI Social",
+          "body": "Moore acknowledges the challenges and complexities of AI in the social domain, stating that no one has yet cracked AI social and that it will be a tricky area to navigate."
+        },
+        {
+          "heading": "AI Market",
+          "body": "She views AI as not just a market but as the reinvention of the entire technology industry, with the potential to create companies worth hundreds of billions or trillions of dollars."
+        },
+        {
+          "heading": "AI Competition",
+          "body": "Moore discusses the competitive landscape of AI, noting that while big players like ChatGPT have a significant user base, there is still room for competition and innovation in the space."
+        },
+        {
+          "heading": "AI Risks and Benefits",
+          "body": "She highlights the concerns around AI, with 57% of American voters saying the risks of AI outweigh the benefits, indicating a need for careful consideration and management of AI's impact on society."
+        }
+      ]
+    }
+  },
+  {
+    "id": 365,
+    "name": "Stine Pella",
+    "slug": "stine-pella",
+    "bio": "Stine Pella is a co-founder of Lassie, a company that develops AI agents to automate administrative tasks for healthcare practices. She is recognized for her innovative application of AI in healthcare administration, aiming to reduce the workload of healthcare professionals.",
+    "known_for": "Innovating the application of AI to automate administrative tasks in healthcare, thereby freeing up doctors to focus on patient care.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Passionate and insightful",
+    "voice_style": "Explanatory and visionary",
+    "voice_delivery_notes": "Clear and deliberate with emphasis on the transformative potential of AI",
+    "voice_profile_updated_at": "2026-07-30 17:01:11",
+    "last_seen": "2026-07-30 17:01:11",
+    "last_episode_title": "AI for America's Small Businesses | Lassie",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-30",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-30 \u2022 AI for America's Small Businesses | Lassie",
+    "last_proof_snippet": "AI is overhyped and Silicon Valley that's underhyped in Iowa. I would actually argue software just kind of took things that were stored in paper format and then they made them available first on-prem via green screen computers, but people s",
+    "supporting_takeaway": "Small businesses, particularly in healthcare, present one of the biggest opportunities for AI.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-30T12:08:57.418482",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Stine Pella",
+      "fetched_at": "2026-07-30T17:08:57.418404+00:00",
+      "cliff_notes": "Stine Pella is an entrepreneur in the field of healthcare technology, particularly focusing on the application of artificial intelligence to streamline administrative processes. As the co-founder of Lassie, she has been instrumental in developing AI agents that automate tasks, which has the potential to significantly reduce the administrative burden on healthcare professionals. Her work is significant as it addresses a critical issue in healthcare where doctors often spend a considerable amount of time on paperwork rather than patient care. Pella's innovative approach to leveraging AI technology not only aims to improve efficiency but also to enhance the quality of healthcare delivery by allowing medical professionals to focus on their core responsibilities.",
+      "derived": {
+        "current_role": "Co-founder of Lassie"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Stine Pella is an entrepreneur in the field of healthcare technology, particularly focusing on the application of artificial intelligence to streamline administrative processes. As the co-founder of Lassie, she has been instrumental in developing AI agents that automate tasks, which has the potential to significantly reduce the administrative burden on healthcare professionals.",
+        "Her work is significant as it addresses a critical issue in healthcare where doctors often spend a considerable amount of time on paperwork rather than patient care. Pella's innovative approach to leveraging AI technology not only aims to improve efficiency but also to enhance the quality of healthcare delivery by allowing medical professionals to focus on their core responsibilities."
+      ],
+      "sections": [
+        {
+          "heading": "Healthcare Automation",
+          "body": "Stine Pella is pioneering the use of AI to automate administrative tasks in healthcare, which has traditionally been a time-consuming manual process."
+        },
+        {
+          "heading": "AI in Administration",
+          "body": "Pella's work with Lassie showcases the potential of AI to not only digitize but also automate tasks that were once performed manually, leading to increased efficiency in healthcare practices."
+        },
+        {
+          "heading": "Innovation in Healthcare",
+          "body": "Her contributions to healthcare administration through AI are significant as they aim to alleviate the administrative burden on healthcare professionals, allowing them to dedicate more time to patient care."
+        }
+      ]
+    }
+  },
+  {
+    "id": 366,
+    "name": "Frederick Brinkett",
+    "slug": "frederick-brinkett",
+    "bio": "Frederick Brinkett is a professional associated with the development and implementation of AI in healthcare. He has been involved with Lassie and has contributed to the conversation around the role of AI in the medical industry, emphasizing its potential to reduce administrative burdens and free up doctors for more critical tasks.",
+    "known_for": "His insights on the practical applications of AI in healthcare and the impact on medical professionals.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and pragmatic",
+    "voice_style": "Focused on the practical challenges and solutions",
+    "voice_delivery_notes": "Straightforward with a focus on the nuts and bolts of AI implementation",
+    "voice_profile_updated_at": "2026-07-30 17:01:11",
+    "last_seen": "2026-07-30 17:01:11",
+    "last_episode_title": "AI for America's Small Businesses | Lassie",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-30",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-30 \u2022 AI for America's Small Businesses | Lassie",
+    "last_proof_snippet": "AI is overhyped and Silicon Valley that's underhyped in Iowa. I would actually argue software just kind of took things that were stored in paper format and then they made them available first on-prem via green screen computers, but people s",
+    "supporting_takeaway": "Small businesses, particularly in healthcare, present one of the biggest opportunities for AI.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-30T12:09:06.542843",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Frederick Brinkett",
+      "fetched_at": "2026-07-30T17:09:06.542766+00:00",
+      "cliff_notes": "Frederick Brinkett's career has been centered around the intersection of artificial intelligence and healthcare. He has been a part of the team at Lassie, contributing to the development of AI solutions that can assist in healthcare administration, thereby reducing the workload of medical professionals. Brinkett has been vocal about the hype around AI, suggesting that while the technology is powerful, it is not a replacement for human expertise but rather a tool to augment it. His work and commentary highlight the importance of implementing AI in a way that supports and enhances the capabilities of healthcare providers, rather than replacing them.",
+      "derived": {
+        "current_role": "Primary job title and organization unknown"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Frederick Brinkett's career has been centered around the intersection of artificial intelligence and healthcare. He has been a part of the team at Lassie, contributing to the development of AI solutions that can assist in healthcare administration, thereby reducing the workload of medical professionals. Brinkett has been vocal about the hype around AI, suggesting that while the technology is powerful, it is not a replacement for human expertise but rather a tool to augment it.",
+        "His work and commentary highlight the importance of implementing AI in a way that supports and enhances the capabilities of healthcare providers, rather than replacing them."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Healthcare",
+          "body": "Frederick Brinkett has been a key figure in discussing the role of AI in healthcare, emphasizing its potential to reduce administrative burdens on medical professionals."
+        },
+        {
+          "heading": "AI Hype and Reality",
+          "body": "Brinkett has provided a balanced view on the hype surrounding AI, suggesting that while the technology is advanced, it is not without its limitations and should be seen as a tool to assist rather than replace human work."
+        },
+        {
+          "heading": "Healthcare Administration",
+          "body": "Brinkett has highlighted the issue of doctors spending a significant amount of time on paperwork, advocating for AI solutions that can automate these tasks and allow doctors to focus on patient care."
+        }
+      ]
+    }
   },
   {
     "id": 364,
@@ -1945,7 +2103,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investors should consider the impact of open-source AI models on frontier labs and monitor the security and competitive landscape of AI, as well as potential opportunities in related sectors like cloud computing and data centers.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-24 \u2022 Sriram Krishnan on Open Source AI's Biggest Week Yet",
     "last_proof_snippet": "You can bring it back to very business first principles. If you're providing a product of value, Capitalism will find a way to make the supply chain work for you. So if you have an open-made model that is providing value, that means that ev",
@@ -2070,7 +2228,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-23 \u2022 Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
     "last_proof_snippet": "All right, we're here in the studio. If I was a countryman, we'll fight together with people. Welcome. Thanks, thank you, guys. It's good to be here. Yeah, fresh on the plane. You texted me, you're like, hey, I'm on my way to SF. I was like",
@@ -2948,7 +3106,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-15 \u2022 Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
     "last_proof_snippet": "In videos that are going to have better networking than you, they're going to have better HP, they're going to have better process-node, they're going to come to market faster, they're going to be able to ramp faster, they're going to have",
@@ -3080,7 +3238,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
     "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro. We came to me and he said, why don't we see whether we can figure out a way to",
@@ -3220,7 +3378,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -3286,7 +3444,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -3347,7 +3505,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-08 \u2022 Adam Neumann: This Is How You Build Iconic Companies",
     "last_proof_snippet": "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
@@ -3412,7 +3570,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -3471,7 +3629,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -3655,7 +3813,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -3839,7 +3997,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
     "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
@@ -3900,7 +4058,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -4151,7 +4309,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -4215,7 +4373,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -5018,7 +5176,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -5392,7 +5550,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -5460,7 +5618,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -5587,7 +5745,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -6057,7 +6215,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -6121,7 +6279,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -6376,7 +6534,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -6687,7 +6845,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
@@ -7370,7 +7528,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -7436,7 +7594,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -11306,8 +11464,8 @@
     "id": 151,
     "name": "Alex Rampell",
     "slug": "alex-rampell",
-    "bio": "Alex Rampell is a venture capitalist and entrepreneur known for his investments in technology startups. He is the co-founder and General Partner at Andreessen Horowitz (A16Z), focusing on fintech, bioinformatics, and AI.",
-    "known_for": "His role in shaping the future of technology through venture capital investments in startups, particularly in the fields of fintech, bioinformatics, and AI.",
+    "bio": "Alex Rampell is a venture capitalist and entrepreneur known for his investments in technology startups, particularly in the fields of fintech, bioinformatics, and AI. He is the co-founder and General Partner at Andreessen Horowitz (A16Z), where he focuses on shaping the future of technology through venture capital investments.",
+    "known_for": "His role in shaping the future of technology through venture capital investments in startups, particularly in fintech, bioinformatics, and AI.",
     "net_worth_usd": null,
     "net_worth_source": "",
     "net_worth_updated_at": null,
@@ -11326,39 +11484,42 @@
     "last_proof_snippet": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
     "supporting_takeaway": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-03T05:05:15.312671",
+    "grokipedia_fetched_at": "2026-07-30T12:08:48.218314",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
       "page_title": "Alex Rampell",
-      "fetched_at": "2026-04-03T10:05:15.312579+00:00",
-      "cliff_notes": "Alex Rampell is a prominent figure in the world of venture capital and technology startups. He began his career as a co-founder and CEO of TrialPay, a payment processing company, and later co-founded Adap.tv, a video advertising platform. Both companies were successfully acquired. Rampell then transitioned to venture capital, becoming a General Partner at Andreessen Horowitz (A16Z), where he focuses on fintech, bioinformatics, and AI. His investments and insights have been instrumental in shaping the future of technology, particularly in the areas of artificial intelligence and its implications for society.",
+      "fetched_at": "2026-07-30T17:08:48.218241+00:00",
+      "cliff_notes": "Alex Rampell is a venture capitalist and entrepreneur who has made significant contributions to the technology industry through his investments in startups. As the co-founder and General Partner at Andreessen Horowitz (A16Z), Rampell focuses on fintech, bioinformatics, and AI, playing a crucial role in shaping the future of technology. His expertise and strategic investments have helped numerous startups grow and innovate, making him a key figure in the tech and venture capital landscape.",
       "derived": {
-        "current_role": "Co-founder and General Partner at A16Z",
-        "former_positions": "Co-founder and CEO of TrialPay; Co-founder and CEO of Adap.tv",
-        "education": "B.A. in Mathematics and Computer Science from Yale University; M.S. in Computer Science from Stanford University"
+        "current_role": "Co-founder and General Partner at Andreessen Horowitz (A16Z)",
+        "education": "Stanford University; Harvard University"
       },
       "infobox": {
-        "Born": "1983",
-        "Nationality": "American"
+        "Born": "",
+        "Nationality": ""
       },
       "lead_paragraphs": [
-        "Alex Rampell is a prominent figure in the world of venture capital and technology startups. He began his career as a co-founder and CEO of TrialPay, a payment processing company, and later co-founded Adap.tv, a video advertising platform. Both companies were successfully acquired. Rampell then transitioned to venture capital, becoming a General Partner at Andreessen Horowitz (A16Z), where he focuses on fintech, bioinformatics, and AI.",
-        "His investments and insights have been instrumental in shaping the future of technology, particularly in the areas of artificial intelligence and its implications for society."
+        "Alex Rampell is a venture capitalist and entrepreneur who has made significant contributions to the technology industry through his investments in startups. As the co-founder and General Partner at Andreessen Horowitz (A16Z), Rampell focuses on fintech, bioinformatics, and AI, playing a crucial role in shaping the future of technology.",
+        "His expertise and strategic investments have helped numerous startups grow and innovate, making him a key figure in the tech and venture capital landscape."
       ],
       "sections": [
         {
-          "heading": "Venture Capital",
-          "body": "Alex Rampell is known for his venture capital investments in technology startups, particularly in fintech, bioinformatics, and AI. His role at A16Z has allowed him to influence the trajectory of these industries."
-        },
-        {
-          "heading": "Artificial Intelligence",
-          "body": "Rampell has been vocal about the potential of AI to fundamentally shift society. He discusses the implications of AI in programming humans and the challenges of distinguishing between humans and bots in the digital age."
+          "heading": "Venture Capital Investments",
+          "body": "Alex Rampell is known for his strategic venture capital investments in technology startups, particularly in fintech, bioinformatics, and AI. His focus on these sectors has helped shape the future of technology and drive innovation."
         },
         {
           "heading": "Fintech",
-          "body": "As a General Partner at A16Z, Rampell has played a significant role in shaping the fintech industry through his investments and insights. His focus on fintech has helped drive innovation in the space."
+          "body": "Rampell has been instrumental in investing in and supporting fintech startups, contributing to the growth and development of the financial technology sector."
+        },
+        {
+          "heading": "Bioinformatics",
+          "body": "In the field of bioinformatics, Rampell's investments have helped advance scientific research and technological breakthroughs, impacting healthcare and medicine."
+        },
+        {
+          "heading": "Artificial Intelligence",
+          "body": "As a venture capitalist, Rampell has played a significant role in funding AI startups, driving advancements in artificial intelligence and its applications across various industries."
         }
       ]
     }
@@ -12252,7 +12413,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -12312,7 +12473,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
@@ -12372,7 +12533,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",
@@ -13620,7 +13781,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
@@ -13678,7 +13839,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",
