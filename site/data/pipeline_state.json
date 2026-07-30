@@ -1,29 +1,31 @@
 {
-  "generated_at": "2026-07-29T22:28:39.524470",
-  "last_updated": "2026-07-29T22:28:39.524470",
-  "last_pipeline_run": "2026-07-29T22:28:39.524470",
+  "generated_at": "2026-07-30T00:02:15.528994",
+  "last_updated": "2026-07-30T00:02:15.528994",
+  "last_pipeline_run": "2026-07-30T00:02:15.528994",
   "main_page": {
     "overton": 13,
     "insights": 8,
-    "pundits": 230
+    "pundits": 231
   },
   "counts": {
-    "ticker_mentions": 206,
-    "podcast_episodes": 344,
+    "ticker_mentions": 207,
+    "podcast_episodes": 345,
     "newsletters": 7,
-    "daily_scores": 144,
+    "daily_scores": 145,
     "overton_terms_total": 115,
-    "latest_insights_total": 358,
-    "today_mentions": {},
+    "latest_insights_total": 359,
+    "today_mentions": {
+      "podcast": 1
+    },
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 10,
-    "transcribed": 5,
+    "downloaded": 9,
+    "transcribed": 6,
     "analyzed": 1,
     "insight_created": 1,
     "published": 1,
-    "total": 10
+    "total": 9
   },
   "episodes": [
     {
@@ -34,32 +36,18 @@
       "rss_guid": "95a67002-8b5f-11f1-9f7c-c32c9aae640c",
       "stages": {
         "downloaded": true,
-        "transcribed": false,
+        "transcribed": true,
         "analyzed": false,
         "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "transcribed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
         "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
         "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
         "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
       },
-      "first_blocker": "transcribed",
+      "first_blocker": "analyzed",
       "remediation_by_stage": {
-        "transcribed": {
-          "action_id": "TRANSCRIBE",
-          "steps": [
-            "There are 5 MP3 file(s) in whisper_queue/ waiting for the worker.",
-            "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
-            "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
-            "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard && ./whisper_worker.sh",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
         "analyzed": {
           "action_id": "ANALYZE_TRANSCRIPTS",
           "steps": [
@@ -95,7 +83,7 @@
           ]
         }
       },
-      "status": "needs_transcription"
+      "status": "needs_analysis"
     },
     {
       "id": "4843b8b0-8628-11f1-93b2-cbaeafb4528b",
@@ -219,77 +207,6 @@
       "rss_guid": "0be853f2-8b97-11f1-846f-fbd7dd39e0fe",
       "stages": {
         "downloaded": true,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "transcribed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
-      },
-      "first_blocker": "transcribed",
-      "remediation_by_stage": {
-        "transcribed": {
-          "action_id": "TRANSCRIBE",
-          "steps": [
-            "There are 5 MP3 file(s) in whisper_queue/ waiting for the worker.",
-            "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
-            "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
-            "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard && ./whisper_worker.sh",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "analyzed": {
-          "action_id": "ANALYZE_TRANSCRIPTS",
-          "steps": [
-            "Run transcript analysis so is_processed=1 on podcast_episodes (analyze_transcript via auto_pipeline).",
-            "Ensure LLM keys in workspace .env (e.g. MOONSHOT_API_KEY) are set if the analyzer requires them.",
-            "Quick path: auto_pipeline.py --analyze-only analyzes then continues promotion/export steps in that run."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "insight_created": {
-          "action_id": "PROMOTE_INSIGHT",
-          "steps": [
-            "Promotion to latest_insights runs inside auto_pipeline after analysis.",
-            "If analysis succeeded but insight is missing, re-run full auto_pipeline.py and check logs for promote_episodes_to_insights errors."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "published": {
-          "action_id": "EXPORT_AND_PUBLISH",
-          "steps": [
-            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
-            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
-            "When added_to_site=1 on the episode row, this stage turns green."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        }
-      },
-      "status": "needs_transcription"
-    },
-    {
-      "id": "7b96c5c4-8a90-11f1-80a7-4f2473f96e85",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
-      "published": "2026-07-28",
-      "rss_guid": "7b96c5c4-8a90-11f1-80a7-4f2473f96e85",
-      "stages": {
-        "downloaded": true,
         "transcribed": true,
         "analyzed": true,
         "insight_created": true,
@@ -381,7 +298,7 @@
         "transcribed": {
           "action_id": "TRANSCRIBE",
           "steps": [
-            "There are 5 MP3 file(s) in whisper_queue/ waiting for the worker.",
+            "There are 3 MP3 file(s) in whisper_queue/ waiting for the worker.",
             "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
             "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
             "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/."
@@ -509,7 +426,7 @@
         "transcribed": {
           "action_id": "TRANSCRIBE",
           "steps": [
-            "There are 5 MP3 file(s) in whisper_queue/ waiting for the worker.",
+            "There are 3 MP3 file(s) in whisper_queue/ waiting for the worker.",
             "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
             "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
             "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/."
@@ -580,7 +497,7 @@
         "transcribed": {
           "action_id": "TRANSCRIBE",
           "steps": [
-            "There are 5 MP3 file(s) in whisper_queue/ waiting for the worker.",
+            "There are 3 MP3 file(s) in whisper_queue/ waiting for the worker.",
             "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
             "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
             "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/."
@@ -633,13 +550,6 @@
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
       "published": "Wed, 29 Jul 2026 20:00:00 -0000",
-      "published_date": "2026-07-29",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
-      "published": "Wed, 29 Jul 2026 21:47:00 -0000",
       "published_date": "2026-07-29",
       "rss_guid": ""
     },
@@ -700,7 +610,7 @@
       "title": "Jared Isaacman: NASA's Moon Base by 2028, Optimus Robots on the Moon, The Truth About UFOs | Ep #274",
       "status": "needs_analysis",
       "published": "2026-07-27",
-      "age_days": 2,
+      "age_days": 3,
       "next_blocker": "analyzed"
     },
     {
@@ -709,7 +619,7 @@
       "title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
       "status": "needs_analysis",
       "published": "2026-07-08",
-      "age_days": 21,
+      "age_days": 22,
       "next_blocker": "analyzed"
     },
     {
@@ -718,7 +628,7 @@
       "title": "Interest Rates to 10%: Why the Treasury Market is the Real Speculative Bubble (Not AI) | Russell Clark",
       "status": "needs_analysis",
       "published": "2026-07-22",
-      "age_days": 7,
+      "age_days": 8,
       "next_blocker": "analyzed"
     },
     {
@@ -727,8 +637,26 @@
       "title": "Steven Sinofsky: AI Doesn't Need New Rules Yet",
       "status": "needs_analysis",
       "published": "2026-07-27",
-      "age_days": 2,
+      "age_days": 3,
       "next_blocker": "analyzed"
+    },
+    {
+      "id": "a23359d3-8299-49b5-aada-ef230f27193b",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
+      "status": "needs_transcription",
+      "published": "2026-07-28",
+      "age_days": 2,
+      "next_blocker": "transcribed"
+    },
+    {
+      "id": "substack:post:208716574",
+      "podcast": "Latent Space: The AI Engineer Podcast",
+      "title": "Codex from 0 to 10M Users: Building ChatGPT Work \u2014 Akshay Nathan, OpenAI",
+      "status": "needs_transcription",
+      "published": "2026-07-28",
+      "age_days": 2,
+      "next_blocker": "transcribed"
     }
   ],
   "stale_threshold_days": 2,
@@ -746,7 +674,7 @@
       "insight_created",
       "published"
     ],
-    "whisper_queue_pending_mp3": 5,
+    "whisper_queue_pending_mp3": 3,
     "fix_order": "For each episode, read first_blocker then remediation_by_stage[first_blocker].",
     "end_to_end": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py",
     "analyze_only": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",

@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-29T22:28:44.604730",
-  chartsVersion: "2026-07-29T22:28:35.872364",
+  generatedAt: "2026-07-30T00:02:19.728948",
+  chartsVersion: "2026-07-30T00:02:10.970908",
   priceSnapshot: {
   "GOOGL": {
     "price": 336.71,
     "change_pct": -5.73,
     "name": "GOOGL",
-    "updated_at": "2026-07-29T22:28:35.871235"
+    "updated_at": "2026-07-30T00:02:10.969560"
   },
   "NVDA": {
     "price": 190.01,
     "change_pct": -9.93,
     "name": "NVDA",
-    "updated_at": "2026-07-29T22:28:35.871254"
+    "updated_at": "2026-07-30T00:02:10.969582"
   },
   "BTC": {
-    "price": 64183.7,
-    "change_pct": 0.44,
+    "price": 63911.82,
+    "change_pct": 0.02,
     "name": "BTC",
-    "updated_at": "2026-07-29T22:28:35.871263"
+    "updated_at": "2026-07-30T00:02:10.969594"
   },
   "MSFT": {
     "price": 390.54,
     "change_pct": 1.41,
     "name": "MSFT",
-    "updated_at": "2026-07-29T22:28:35.871271"
+    "updated_at": "2026-07-30T00:02:10.969603"
   },
   "TSLA": {
     "price": 298.32,
     "change_pct": -26.84,
     "name": "TSLA",
-    "updated_at": "2026-07-29T22:28:35.871280"
+    "updated_at": "2026-07-30T00:02:10.969613"
   },
   "AMZN": {
     "price": 226.65,
     "change_pct": -7.62,
     "name": "AMZN",
-    "updated_at": "2026-07-29T22:28:35.871288"
-  },
-  "WTI": {
-    "price": 3.53,
-    "change_pct": 4.75,
-    "name": "WTI",
-    "updated_at": "2026-07-29T22:28:35.871298"
+    "updated_at": "2026-07-30T00:02:10.969622"
   },
   "META": {
     "price": 585.61,
     "change_pct": -12.49,
     "name": "META",
-    "updated_at": "2026-07-29T22:28:35.871305"
+    "updated_at": "2026-07-30T00:02:10.969631"
+  },
+  "WTI": {
+    "price": 3.53,
+    "change_pct": 4.75,
+    "name": "WTI",
+    "updated_at": "2026-07-30T00:02:10.969640"
   },
   "S&P 500": {
     "price": 729.46,
     "change_pct": -3.38,
     "name": "S&P 500",
-    "updated_at": "2026-07-29T22:28:35.871313"
+    "updated_at": "2026-07-30T00:02:10.969649"
   },
   "AAPL": {
     "price": 338.19,
     "change_pct": 7.25,
     "name": "AAPL",
-    "updated_at": "2026-07-29T22:28:35.871322"
+    "updated_at": "2026-07-30T00:02:10.969658"
   },
   "QQQ": {
     "price": 661.73,
     "change_pct": -8.79,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-29T22:28:35.871330"
+    "updated_at": "2026-07-30T00:02:10.969666"
   },
   "BTC-USD": {
-    "price": 64183.7,
-    "change_pct": 0.44,
+    "price": 63911.82,
+    "change_pct": 0.02,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-29T22:28:35.871339"
+    "updated_at": "2026-07-30T00:02:10.969677"
   }
 },
   tickerScores: [
@@ -171,30 +171,30 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "WTI",
-    "total_score": 360.0,
-    "raw_mention_count": 5,
-    "unique_sources": 1,
+    "ticker": "META",
+    "total_score": 373.0,
+    "raw_mention_count": 17,
+    "unique_sources": 2,
     "podcast_mentions": 5,
-    "newsletter_mentions": 0,
+    "newsletter_mentions": 12,
     "rank": 7,
-    "score": 360.0,
-    "mentions": 5,
+    "score": 373.0,
+    "mentions": 17,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
     "contexts": []
   },
   {
-    "ticker": "META",
-    "total_score": 307.0,
-    "raw_mention_count": 16,
-    "unique_sources": 2,
-    "podcast_mentions": 4,
-    "newsletter_mentions": 12,
+    "ticker": "WTI",
+    "total_score": 360.0,
+    "raw_mention_count": 5,
+    "unique_sources": 1,
+    "podcast_mentions": 5,
+    "newsletter_mentions": 0,
     "rank": 8,
-    "score": 307.0,
-    "mentions": 16,
+    "score": 360.0,
+    "mentions": 5,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -834,6 +834,26 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 387,
+      "title": "Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-07-29",
+      "summary": "In this episode of Monetary Matters with Jack Farley, chief market strategist Katherine Rooney Vera from Stone X Groups discusses the Federal Reserve's decision not to hike interest rates, despite market expectations of a 30% chance. They analyze the implications for bond yields, the Fed's credibility on inflation fighting, and the market's reaction to economic data and Fed messaging. Additionally, they touch on the performance and expectations of tech giants like Meta and Microsoft, and the broader impact on the stock market.",
+      "key_takeaway": "The Federal Reserve's credibility is at stake, and market reactions to economic data and Fed policy suggest a potential shift in expectations for inflation and interest rates, impacting bond yields and stock market performance.",
+      "tickers_mentioned": [
+        "META",
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 372
+    },
+    {
       "id": 385,
       "title": "Fei-Fei Li on Spatial Intelligence and Robotics",
       "source_type": "podcast",
@@ -1001,7 +1021,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-24",
       "archived_date": null,
@@ -8410,8 +8430,8 @@ const dashboardData = {
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-07-26",
-      "mention_count": 10,
+      "last_mentioned_date": "2026-07-29",
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
@@ -8420,8 +8440,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 368,
-      "last_mentioned_speaker": "Nick Brooks"
+      "last_mentioned_episode_id": 372,
+      "last_mentioned_speaker": "Katherine Rooney Vera"
     },
     {
       "id": 256,
@@ -8536,8 +8556,8 @@ const dashboardData = {
       "term": "AI CapEx",
       "description": "Capital expenditures related to the acquisition and maintenance of AI technologies and systems.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-07-26",
-      "mention_count": 14,
+      "last_mentioned_date": "2026-07-29",
+      "mention_count": 15,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies that invest heavily in AI CapEx may gain a competitive edge in their respective industries.",
@@ -8546,8 +8566,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 368,
-      "last_mentioned_speaker": "Nick Brooks"
+      "last_mentioned_episode_id": 372,
+      "last_mentioned_speaker": "Katherine Rooney Vera"
     },
     {
       "id": 234,
@@ -10306,6 +10326,29 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 387,
+      "title": "Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-07-29",
+      "summary": "In this episode of Monetary Matters with Jack Farley, chief market strategist Katherine Rooney Vera from Stone X Groups discusses the Federal Reserve's decision not to hike interest rates, despite market expectations of a 30% chance. They analyze the implications for bond yields, the Fed's credibility on inflation fighting, and the market's reaction to economic data and Fed messaging. Additionally, they touch on the performance and expectations of tech giants like Meta and Microsoft, and the broader impact on the stock market.",
+      "key_takeaway": "The Federal Reserve's credibility is at stake, and market reactions to economic data and Fed policy suggest a potential shift in expectations for inflation and interest rates, impacting bond yields and stock market performance.",
+      "tickers_mentioned": "[\"META\", \"MSFT\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 372,
+      "episode_release_date": "2026-07-29",
+      "guest_name": "Mum\u2019s The Word",
+      "key_tickers": [
+        "META",
+        "MSFT"
+      ]
+    },
+    {
       "id": 385,
       "title": "Fei-Fei Li on Spatial Intelligence and Robotics",
       "source_type": "podcast",
@@ -10443,26 +10486,6 @@ const dashboardData = {
       "podcast_episode_id": 367,
       "episode_release_date": "2026-07-24",
       "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 379,
-      "title": "Building the Physical AI Stack | Travis Kalanick on TBPN",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-07-23",
-      "summary": "In this episode of the a16z Show, Travis Kelenick discusses his vision for industrial AI and how it's transforming industries such as mining and food production. Kelenick shares his perspective on why bringing AI into the physical world represents a significant opportunity beyond software alone. He also talks about his company's recent $1.7 billion raise and their focus on physical automation. The conversation touches on the importance of building things that people like and the challenges of aligning technology with human interests.",
-      "key_takeaway": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-24",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 364,
-      "episode_release_date": "2026-07-23",
-      "guest_name": "Building the Physical AI Stack",
       "key_tickers": []
     }
   ],
@@ -10606,7 +10629,7 @@ const dashboardData = {
       "first_detected_speaker": "Demis Hassabis",
       "last_mentioned_episode_id": 371,
       "last_mentioned_speaker": "Luke Groman",
-      "overton_score": 60.58,
+      "overton_score": 59.2,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
@@ -10632,7 +10655,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 366,
       "last_mentioned_speaker": "Day Blenden, Sleam Ismail",
-      "overton_score": 19.6,
+      "overton_score": 19.15,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
@@ -10646,8 +10669,8 @@ const dashboardData = {
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-07-26",
-      "mention_count": 10,
+      "last_mentioned_date": "2026-07-29",
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
@@ -10656,16 +10679,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 368,
-      "last_mentioned_speaker": "Nick Brooks",
-      "overton_score": 9.33,
+      "last_mentioned_episode_id": 372,
+      "last_mentioned_speaker": "Katherine Rooney Vera",
+      "overton_score": 10.75,
       "resonance_pct": 100,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
       "first_detected_episode_date": "2026-06-19",
       "last_mentioned_podcast": "Monetary Matters with Jack Farley",
-      "last_mentioned_episode_title": "Debt Service Coverage in Private Markets Is Improving, Actually | Nicholas Brooks",
-      "last_mentioned_episode_date": "2026-07-26"
+      "last_mentioned_episode_title": "Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
+      "last_mentioned_episode_date": "2026-07-29"
     },
     {
       "id": 234,
@@ -10684,7 +10707,7 @@ const dashboardData = {
       "first_detected_speaker": "Peter Diamandis",
       "last_mentioned_episode_id": 344,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "overton_score": 8.98,
+      "overton_score": 8.78,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
@@ -10710,7 +10733,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 356,
       "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo",
-      "overton_score": 7.94,
+      "overton_score": 7.76,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
@@ -10736,7 +10759,7 @@ const dashboardData = {
       "first_detected_speaker": "Leakwet Ahamed",
       "last_mentioned_episode_id": 368,
       "last_mentioned_speaker": "Nick Brooks",
-      "overton_score": 4.67,
+      "overton_score": 4.56,
       "resonance_pct": 100,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
@@ -10762,8 +10785,8 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 354,
       "last_mentioned_speaker": "Ramine Hassani",
-      "overton_score": 3.03,
-      "resonance_pct": 76,
+      "overton_score": 2.96,
+      "resonance_pct": 74,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
       "first_detected_episode_date": "2026-06-19",
@@ -10788,8 +10811,8 @@ const dashboardData = {
       "first_detected_speaker": "Andrew Feldman",
       "last_mentioned_episode_id": 370,
       "last_mentioned_speaker": "Josh Elman",
-      "overton_score": 2.93,
-      "resonance_pct": 73,
+      "overton_score": 2.86,
+      "resonance_pct": 72,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
       "first_detected_episode_date": "2026-05-21",
@@ -10814,8 +10837,8 @@ const dashboardData = {
       "first_detected_speaker": "Ramine Hassani",
       "last_mentioned_episode_id": 366,
       "last_mentioned_speaker": "Day Blenden, Sleam Ismail",
-      "overton_score": 2.67,
-      "resonance_pct": 67,
+      "overton_score": 2.61,
+      "resonance_pct": 65,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
       "first_detected_episode_date": "2026-07-17",
@@ -10840,8 +10863,8 @@ const dashboardData = {
       "first_detected_speaker": "Steven Sinofsky",
       "last_mentioned_episode_id": 358,
       "last_mentioned_speaker": "Clement DeLong",
-      "overton_score": 2.44,
-      "resonance_pct": 61,
+      "overton_score": 2.38,
+      "resonance_pct": 60,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
       "first_detected_episode_date": "2026-06-02",
@@ -10866,8 +10889,8 @@ const dashboardData = {
       "first_detected_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo",
       "last_mentioned_episode_id": 363,
       "last_mentioned_speaker": "Underrate Cupathy",
-      "overton_score": 1.74,
-      "resonance_pct": 44,
+      "overton_score": 1.7,
+      "resonance_pct": 42,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
       "first_detected_episode_date": "2026-07-19",
@@ -10892,8 +10915,8 @@ const dashboardData = {
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
       "last_mentioned_episode_id": 364,
       "last_mentioned_speaker": "Travis Kelenick",
-      "overton_score": 1.74,
-      "resonance_pct": 44,
+      "overton_score": 1.7,
+      "resonance_pct": 42,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
       "first_detected_episode_date": "2026-07-22",
@@ -10918,8 +10941,8 @@ const dashboardData = {
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
       "last_mentioned_episode_id": 364,
       "last_mentioned_speaker": "Travis Kelenick",
-      "overton_score": 1.74,
-      "resonance_pct": 44,
+      "overton_score": 1.7,
+      "resonance_pct": 42,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
       "first_detected_episode_date": "2026-07-22",
@@ -33742,6 +33765,57 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-07-28",
     "key_tickers": []
+  },
+  "387": {
+    "id": 377,
+    "insight_id": 387,
+    "podcast_episode_id": 372,
+    "overview": "The unresolved tension lies in the Federal Reserve's credibility and its ability to manage market expectations without explicit guidance. The competitive dynamic is between the Fed's desire to reduce its interventionist role and the market's need for clear policy signals. What converts belief is whether the Fed can successfully transition to a more passive stance without causing market turmoil, which hinges on the market's ability to self-regulate expectations and the Fed's capacity to tolerate higher volatility. The allocator-relevant implication is that investors may need to adjust their strategies to a world with less Fed guidance, focusing on economic data and market signals rather than central bank pronouncements.",
+    "key_takeaways_detailed": [
+      "Investors should prepare for a more volatile market environment as the Fed pulls back on communication, which could lead to higher bid-ask spreads and increased uncertainty around policy decisions.",
+      "The shape of the yield curve will be a critical indicator of market expectations regarding inflation and growth, with a flatter curve suggesting lower expectations for future rate hikes and a steeper curve indicating higher inflation concerns.",
+      "Productivity gains, potentially from AI and technological advancements, could be a wildcard that influences the Fed's policy path and the market's inflation expectations.",
+      "Investors should monitor the Fed's rhetoric and actions closely for any signs of a return to a more interventionist stance, which could signal a shift in the current policy direction."
+    ],
+    "investment_thesis": "The core logic is that the Federal Reserve's shift towards less intervention and communication will lead to increased market volatility and a greater reliance on economic data for investment decisions. This thesis is vindicated if the Fed continues to refrain from hiking rates despite high inflation, and if market volatility increases as a result of reduced Fed guidance. Conversely, it is invalidated if the Fed returns to a more interventionist stance or if market volatility decreases despite less Fed communication.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc. is relevant due to its significant weight in the tech sector and its sensitivity to market volatility and interest rate changes.",
+        "positioning": "Positioning should be strategic, focusing on long-term growth potential, but with a tactical overlay to manage short-term volatility induced by Fed policy and market uncertainty.",
+        "risk": "Key risks include a potential slowdown in consumer spending due to higher interest rates and inflation, as well as potential supply chain disruptions that could affect production and sales."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The Fed could surprise the market with an unexpected rate hike, which would challenge the thesis of reduced intervention and communication.",
+      "A sudden drop in inflation could alleviate the pressure on the Fed to hike rates, potentially leading to a more dovish stance than anticipated.",
+      "Unexpected global economic shocks could force the Fed to adjust its policy stance, potentially increasing intervention to stabilize markets."
+    ],
+    "catalysts": [
+      "Upcoming inflation and GDP data releases, which could provide clarity on the economic outlook and influence the Fed's policy decisions.",
+      "Fed meeting minutes and speeches by key members, which may offer insights into the central bank's thinking and potential policy shifts.",
+      "Developments in AI and productivity-enhancing technologies, which could have a significant impact on inflation and growth expectations."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-30T00:01:12.491411",
+    "updated_at": "2026-07-30 05:01:12",
+    "episode_evidence": "Katherine Rooney Vera from Stone X Groups highlighted the Federal Reserve's decision not to hike interest rates, despite market expectations of a 30% chance, which she and Jack Farley believed were overestimated. Vera pointed out a historical precedent where a new Fed chair might hike rates to prove their inflation fighting credibility, but also noted the mixed signals from the Fed, saying, 'a Fed that is fighting credibility issues for many years, many, many years, five and counting of missing their two percent argument with a lot of tough talk and very little action.' The market reaction to the Fed's decision was significant, with a sharp rise in the 30-year treasury yield, indicating investors' growing doubts about the Fed's commitment to fighting inflation. Vera also discussed the potential for a productivity boost from AI, which could influence the Fed's policy decisions, stating, 'if you get a boost of productivity that can absorb inflation to an extent where you can grow at a very strong clip without being inflationary because you have that gentle, deflationary pull from advances in productivity.'",
+    "falsification_tracks": [
+      "If the Fed were to hike rates in the next quarter, contradicting Vera's expectations, it would challenge the thesis about the Fed's credibility and its approach to inflation fighting.",
+      "A sustained rise in inflation that does not respond to current Fed policy would undermine the argument that the Fed can effectively manage inflation expectations without aggressive rate hikes.",
+      "Should productivity levels fail to improve significantly, it would cast doubt on the potential for a productivity-driven absorption of inflation, Vera's outlook on the Fed's policy direction."
+    ],
+    "insight_title": "Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-07-29",
+    "key_tickers": [
+      "META",
+      "MSFT"
+    ]
   }
 },
   suggestedTerms: [
@@ -33796,7 +33870,19 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 40183,
+    "id": 40288,
+    "name": "Mum\u2019s The Word",
+    "slug": "mums-the-word",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The Federal Reserve's credibility is at stake, and market reactions to economic data and Fed policy suggest a potential shift in expectations for inflation and interest rates, impacting bond yields and stock market performance.",
+    "last_episode_title": "Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-07-29",
+    "appearance_count": 1
+  },
+  {
+    "id": 40289,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -33808,7 +33894,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40184,
+    "id": 40290,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -33820,7 +33906,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 40185,
+    "id": 40291,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -33832,7 +33918,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40186,
+    "id": 40292,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -33844,7 +33930,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40187,
+    "id": 40293,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -33856,7 +33942,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40188,
+    "id": 40294,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -33868,7 +33954,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40189,
+    "id": 40295,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -33880,7 +33966,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40190,
+    "id": 40296,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -33892,7 +33978,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40191,
+    "id": 40297,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -33904,7 +33990,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40192,
+    "id": 40298,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -33916,7 +34002,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40193,
+    "id": 40299,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -33928,7 +34014,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40194,
+    "id": 40300,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -33940,7 +34026,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40195,
+    "id": 40301,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -33952,7 +34038,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40196,
+    "id": 40302,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -33964,7 +34050,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40197,
+    "id": 40303,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -33976,7 +34062,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40198,
+    "id": 40304,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -33988,7 +34074,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40199,
+    "id": 40305,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -34000,7 +34086,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40200,
+    "id": 40306,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -34012,7 +34098,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40201,
+    "id": 40307,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -34021,18 +34107,6 @@ const dashboardData = {
     "last_episode_title": "The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-04",
-    "appearance_count": 1
-  },
-  {
-    "id": 40202,
-    "name": "Outsmarting Uber",
-    "slug": "outsmarting-uber",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
-    "last_episode_title": "Outsmarting Uber: Why Bolt Wins in Europe",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-02",
     "appearance_count": 1
   }
 ],
@@ -34179,7 +34253,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-22",
     "mention_score": 3,
-    "mention_score_decayed": 2.61,
+    "mention_score_decayed": 2.55,
     "last_main_idea": "The next great technology revolution will be in the physical world, with industrial AI, robotics, and autonomy driving transformative change across industries.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-22 \u2022 Travis Kalanick Is Back | Building the Future of Industrial AI",
     "last_proof_snippet": "We know what Boobers 2017 was like. Travis Kalana, because Snapchat's dying from his role as chief executive. That wouldn't have gone that way if Ben or Mark was on the board. You're in this hell, you're dealing with lawsuits. I worry about",
@@ -34428,7 +34502,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-10",
     "mention_score": 2,
-    "mention_score_decayed": 1.29,
+    "mention_score_decayed": 1.26,
     "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
     "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
@@ -34492,7 +34566,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-03",
     "mention_score": 2,
-    "mention_score_decayed": 1.12,
+    "mention_score_decayed": 1.1,
     "last_main_idea": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-03 \u2022 AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Sure, favorite podcast. It's your podcast. It's your favorite podcast. It's the all-in podcast episode two, seven, nine with me, freebergs, tax, to my, you know, the",
@@ -34552,7 +34626,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -34873,7 +34947,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Invest in technologies that empower individuals to maintain autonomy and control in a world where threats to personal safety and privacy are growing.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-15 \u2022 Vitalik Buterin on Human Agency in the AI Era",
     "last_proof_snippet": "One of the challenges the world right now is that we're definitely in a less peaceful and less safe world than 10 or 15 years ago. The vision of safety that we're competing with is basically, oh, you know, let's trust the uncle in the sky a",
@@ -35545,6 +35619,66 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 360,
+    "name": "Katherine Rooney Vera",
+    "slug": "katherine-rooney-vera",
+    "bio": "Katherine Rooney Vera is the Chief Market Strategist at Stone X Groups, where she specializes in board markets and macroeconomic analysis. Known for her accurate market predictions and in-depth analysis of Fed policy, Vera has made a significant impact in the financial industry.",
+    "known_for": "Her accurate market predictions and in-depth analysis of Federal Reserve policy.",
+    "net_worth_usd": 26700000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001770793/katie-j-rooney",
+    "net_worth_updated_at": "2026-07-30T00:00:37.638512",
+    "voice_tone": "Confident and analytical.",
+    "voice_style": "Factual and data-driven, with a focus on historical precedents and current market dynamics.",
+    "voice_delivery_notes": "Paced, with emphasis on key market indicators and Fed policy implications.",
+    "voice_profile_updated_at": "2026-07-30 05:00:13",
+    "last_seen": "2026-07-30 05:00:13",
+    "last_episode_title": "Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-07-29",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The Federal Reserve's credibility is at stake, and market reactions to economic data and Fed policy suggest a potential shift in expectations for inflation and interest rates, impacting bond yields and stock market performance.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-29 \u2022 Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
+    "last_proof_snippet": "Wow. All right. We are here. We are joined by Katherine Rooney Vera, who's the chief market strategist at Stone X Groups. A lot of views on board markets, everything in macro. We mean we can get to to currencies and bonds. Katherine had a v",
+    "supporting_takeaway": "Economists generally favored a hold, which aligns with Katherine's prediction.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-30T00:00:36.724423",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Katherine Rooney Vera",
+      "fetched_at": "2026-07-30T05:00:36.723848+00:00",
+      "cliff_notes": "Katherine Rooney Vera is a prominent figure in the financial industry, serving as the Chief Market Strategist at Stone X Groups. Her expertise lies in board markets and macroeconomic analysis, with a particular focus on the Federal Reserve's policies. Vera has gained recognition for her accurate market predictions and her ability to dissect complex economic data. Her insights have been influential in guiding investment decisions and understanding market trends. Her career has been marked by a deep understanding of financial markets and the ability to translate economic indicators into actionable strategies for investors.",
+      "derived": {
+        "current_role": "Chief Market Strategist at Stone X Groups"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Katherine Rooney Vera is a prominent figure in the financial industry, serving as the Chief Market Strategist at Stone X Groups. Her expertise lies in board markets and macroeconomic analysis, with a particular focus on the Federal Reserve's policies. Vera has gained recognition for her accurate market predictions and her ability to dissect complex economic data.",
+        "Her insights have been influential in guiding investment decisions and understanding market trends. Her career has been marked by a deep understanding of financial markets and the ability to translate economic indicators into actionable strategies for investors."
+      ],
+      "sections": [
+        {
+          "heading": "Market Predictions",
+          "body": "Katherine Rooney Vera is known for her accurate predictions in the financial markets, particularly regarding Federal Reserve policy decisions."
+        },
+        {
+          "heading": "Macroeconomic Analysis",
+          "body": "Vera's expertise in macroeconomic analysis allows her to provide insightful commentary on the broader economic trends affecting financial markets."
+        },
+        {
+          "heading": "Federal Reserve Policy",
+          "body": "Her in-depth analysis of the Federal Reserve's policy has been influential in shaping investor expectations and market reactions."
+        }
+      ]
+    },
+    "net_worth": "$26.7M"
+  },
+  {
     "id": 358,
     "name": "Nick Brooks",
     "slug": "nick-brooks",
@@ -35626,7 +35760,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -35686,7 +35820,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -36816,7 +36950,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in companies at the forefront of AI and semiconductors that can leverage intelligence to perform high-cost, time-consuming tasks more efficiently and at scale.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-14 \u2022 The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
     "last_proof_snippet": "Got a special conversation today. I'm joined by Ben Kulandian of BEP Research. Ben is a specialist investor and analyst in the semi-conductor world and the semi-conductor supply chain. Of course, that is what powers AI Ben welcome to moneta",
@@ -37334,7 +37468,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-05 \u2022 The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. The new Fed Chair Kevin Worsh has made it no secret that he prefers a sm",
@@ -37764,7 +37898,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-29 \u2022 Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
     "last_proof_snippet": "I am so glad today we have a very special guest, one of my favorite authors of all time Leakwet Ahamed, who's the author of the new book 1873, The Roth Childs, The First Great Depression, and The Making of the Modern World Leakwet. Welcome",
@@ -37891,7 +38025,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
     "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
@@ -38075,7 +38209,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-23 \u2022 GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
     "last_proof_snippet": "Everyone hates GameStop and it seems like everyone in the media basically wants us to fail and wants them to succeed and you've got a board that's making hundreds of thousands of dollars a year and they don't buy stock with their own money.",
@@ -38205,7 +38339,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-22 \u2022 Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
     "last_proof_snippet": "Okay, we're here in a studio with Grace One, Matt and Zico welcome. Great to be here. Yeah. Thanks for having us. You're visiting from Pittsburgh? That's right. The home of all good computer science, I don't know if I'm oversteaving things.",
@@ -38268,7 +38402,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -38332,7 +38466,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -38391,7 +38525,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -38450,7 +38584,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -38515,7 +38649,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -38944,7 +39078,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -39984,7 +40118,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
