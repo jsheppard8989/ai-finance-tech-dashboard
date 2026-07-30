@@ -1,5 +1,22 @@
 [
   {
+    "id": 371,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
+    "episode_date": "2026-07-28",
+    "summary": "In this episode of Monetary Matters with Jack Farley, Max Weethe interviews Luke Groman, President and founder of Forest for the Trees, to discuss the driving forces behind the bond market sell-off and the implications of global debt dynamics. They delve into the supply and demand issues in the bond market, the impact of aging populations on Western economies, and the rising costs of veterans' benefits. Groman also shares his insights on the potential for yield curve control and the increasing demand for gold as a store of value amid geopolitical tensions and economic uncertainty.",
+    "key_takeaways": [
+      "Global creditors like Germany, Japan, and Korea are facing challenges as they compete with the U.S. in bond sales.",
+      "The U.S. has been shifting issuance to the front end, exacerbating supply and demand imbalances in the bond market.",
+      "Aging populations in Western countries are causing off-balance sheet liabilities to come on balance sheet, leading to cashflow negatives.",
+      "Veterans' benefits are rising as a percentage of defense spending, adding to fiscal pressures.",
+      "Central banks and countries are increasingly turning to gold as a store of value amid geopolitical tensions and economic uncertainty.",
+      "Yield curve control may become a necessary policy tool as countries grapple with rising yields and fiscal challenges."
+    ],
+    "investment_thesis": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
+    "key_tickers": null
+  },
+  {
     "id": 370,
     "podcast_name": "The a16z Show",
     "episode_title": "Fei-Fei Li on Spatial Intelligence and Robotics",
@@ -111,23 +128,6 @@
       "Building something that is anti-human or doesn't serve people is unlikely to succeed."
     ],
     "investment_thesis": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
-    "key_tickers": null
-  },
-  {
-    "id": 363,
-    "podcast_name": "Latent Space: The AI Engineer Podcast",
-    "episode_title": "Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
-    "episode_date": "2026-07-23",
-    "summary": "In this episode, the guest discusses his journey into the field of AI, starting with his inspiration from Andrej Karpathy's article on the Unreasonable Effectiveness of Recurrent Airlines. He shares insights on the democratization of AI, the evolution of language models, and the importance of scaling in AI development. The conversation also touches on the challenges faced in building a fully open-source company focused on machine learning on code, the lessons learned from past failures, and the potential of smaller AI models to outperform larger ones.",
-    "key_takeaways": [
-      "The guest was inspired to pivot his startup to focus on RNNs and LSTMs after reading an article by Andrej Karpathy.",
-      "Scaling up language models was not an obvious strategy at the time, but it has become a key focus in AI development.",
-      "The guest's company, Sourced, aimed to build machine learning on code but struggled to gain traction in the early days of AI.",
-      "Despite a significant investment and effort, the company ultimately failed, leading the guest to take a step back from language models for a few years.",
-      "The guest emphasizes the importance of constraints in driving innovation and the potential for smaller AI models to outperform larger ones.",
-      "The conversation highlights the democratization of AI and the potential for open-source models to drive progress in the field."
-    ],
-    "investment_thesis": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
     "key_tickers": null
   }
 ]

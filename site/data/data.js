@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-29T14:04:12.533755",
-  chartsVersion: "2026-07-29T14:03:59.732162",
+  generatedAt: "2026-07-29T22:28:44.604730",
+  chartsVersion: "2026-07-29T22:28:35.872364",
   priceSnapshot: {
   "GOOGL": {
-    "price": 341.83,
-    "change_pct": -4.3,
+    "price": 336.71,
+    "change_pct": -5.73,
     "name": "GOOGL",
-    "updated_at": "2026-07-29T14:03:59.731278"
+    "updated_at": "2026-07-29T22:28:35.871235"
   },
   "NVDA": {
-    "price": 195.86,
-    "change_pct": -7.16,
+    "price": 190.01,
+    "change_pct": -9.93,
     "name": "NVDA",
-    "updated_at": "2026-07-29T14:03:59.731297"
+    "updated_at": "2026-07-29T22:28:35.871254"
   },
   "BTC": {
-    "price": 64450.45,
-    "change_pct": 1.04,
+    "price": 64183.7,
+    "change_pct": 0.44,
     "name": "BTC",
-    "updated_at": "2026-07-29T14:03:59.731305"
+    "updated_at": "2026-07-29T22:28:35.871263"
   },
   "MSFT": {
-    "price": 398.39,
-    "change_pct": 3.45,
+    "price": 390.54,
+    "change_pct": 1.41,
     "name": "MSFT",
-    "updated_at": "2026-07-29T14:03:59.731313"
+    "updated_at": "2026-07-29T22:28:35.871271"
   },
   "TSLA": {
-    "price": 307.04,
-    "change_pct": -24.7,
+    "price": 298.32,
+    "change_pct": -26.84,
     "name": "TSLA",
-    "updated_at": "2026-07-29T14:03:59.731321"
+    "updated_at": "2026-07-29T22:28:35.871280"
   },
   "AMZN": {
-    "price": 231.96,
-    "change_pct": -5.45,
+    "price": 226.65,
+    "change_pct": -7.62,
     "name": "AMZN",
-    "updated_at": "2026-07-29T14:03:59.731328"
+    "updated_at": "2026-07-29T22:28:35.871288"
   },
   "WTI": {
-    "price": 3.46,
-    "change_pct": 2.82,
+    "price": 3.53,
+    "change_pct": 4.75,
     "name": "WTI",
-    "updated_at": "2026-07-29T14:03:59.731336"
+    "updated_at": "2026-07-29T22:28:35.871298"
   },
   "META": {
-    "price": 596.86,
-    "change_pct": -10.81,
+    "price": 585.61,
+    "change_pct": -12.49,
     "name": "META",
-    "updated_at": "2026-07-29T14:03:59.731343"
+    "updated_at": "2026-07-29T22:28:35.871305"
   },
   "S&P 500": {
-    "price": 741.13,
-    "change_pct": -1.83,
+    "price": 729.46,
+    "change_pct": -3.38,
     "name": "S&P 500",
-    "updated_at": "2026-07-29T14:03:59.731350"
+    "updated_at": "2026-07-29T22:28:35.871313"
   },
   "AAPL": {
-    "price": 342.57,
-    "change_pct": 8.64,
+    "price": 338.19,
+    "change_pct": 7.25,
     "name": "AAPL",
-    "updated_at": "2026-07-29T14:03:59.731357"
+    "updated_at": "2026-07-29T22:28:35.871322"
   },
   "QQQ": {
-    "price": 678.01,
-    "change_pct": -6.55,
+    "price": 661.73,
+    "change_pct": -8.79,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-29T14:03:59.731365"
+    "updated_at": "2026-07-29T22:28:35.871330"
   },
   "BTC-USD": {
-    "price": 64421.18,
-    "change_pct": 0.99,
+    "price": 64183.7,
+    "change_pct": 0.44,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-29T14:03:59.731374"
+    "updated_at": "2026-07-29T22:28:35.871339"
   }
 },
   tickerScores: [
@@ -853,6 +853,25 @@ const dashboardData = {
       "podcast_episode_id": 370
     },
     {
+      "id": 386,
+      "title": "Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-07-28",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Max Weethe interviews Luke Groman, President and founder of Forest for the Trees, to discuss the driving forces behind the bond market sell-off and the implications of global debt dynamics. They delve into the supply and demand issues in the bond market, the impact of aging populations on Western economies, and the rising costs of veterans' benefits. Groman also shares his insights on the potential for yield curve control and the increasing demand for gold as a store of value amid geopolitical tensions and economic uncertainty.",
+      "key_takeaway": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 371
+    },
+    {
       "id": 383,
       "title": "Ben Horowitz: The Fight Over Open Source AI",
       "source_type": "podcast",
@@ -963,7 +982,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-23",
       "archived_date": null,
@@ -8913,8 +8932,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-24",
-      "mention_count": 61,
+      "last_mentioned_date": "2026-07-28",
+      "mention_count": 62,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -8923,8 +8942,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 366,
-      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
+      "last_mentioned_episode_id": 371,
+      "last_mentioned_speaker": "Luke Groman"
     },
     {
       "id": 162,
@@ -9793,20 +9812,20 @@ const dashboardData = {
     {
       "id": 27,
       "term": "Store of Value",
-      "description": "An asset that maintains its value over time and is preserved as a form of wealth for the future.",
+      "description": "An asset that can be stockpiled and preserved over time, maintaining its value and serving as a hedge against inflation or economic instability.",
       "first_detected_date": "2026-03-15",
-      "last_mentioned_date": "2026-05-05",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-07-28",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors may look to precious metals as stores of value during times of economic uncertainty.",
+      "investment_implications": "Gold is increasingly seen as a store of value amid geopolitical tensions and economic uncertainty.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 65,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 198,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 371,
+      "last_mentioned_speaker": "Luke Groman"
     },
     {
       "id": 16,
@@ -10307,6 +10326,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 386,
+      "title": "Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-07-28",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Max Weethe interviews Luke Groman, President and founder of Forest for the Trees, to discuss the driving forces behind the bond market sell-off and the implications of global debt dynamics. They delve into the supply and demand issues in the bond market, the impact of aging populations on Western economies, and the rising costs of veterans' benefits. Groman also shares his insights on the potential for yield curve control and the increasing demand for gold as a store of value amid geopolitical tensions and economic uncertainty.",
+      "key_takeaway": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 371,
+      "episode_release_date": "2026-07-28",
+      "guest_name": "Luke Gromen",
+      "key_tickers": []
+    },
+    {
       "id": 383,
       "title": "Ben Horowitz: The Fight Over Open Source AI",
       "source_type": "podcast",
@@ -10403,26 +10442,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 367,
       "episode_release_date": "2026-07-24",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 378,
-      "title": "Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
-      "source_type": "podcast",
-      "source_name": "Latent Space: The AI Engineer Podcast",
-      "source_date": "2026-07-23",
-      "summary": "In this episode, the guest discusses his journey into the field of AI, starting with his inspiration from Andrej Karpathy's article on the Unreasonable Effectiveness of Recurrent Airlines. He shares insights on the democratization of AI, the evolution of language models, and the importance of scaling in AI development. The conversation also touches on the challenges faced in building a fully open-source company focused on machine learning on code, the lessons learned from past failures, and the potential of smaller AI models to outperform larger ones.",
-      "key_takeaway": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-23",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 363,
-      "episode_release_date": "2026-07-23",
       "guest_name": null,
       "key_tickers": []
     },
@@ -10575,8 +10594,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-24",
-      "mention_count": 61,
+      "last_mentioned_date": "2026-07-28",
+      "mention_count": 62,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -10585,16 +10604,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 366,
-      "last_mentioned_speaker": "Day Blenden, Sleam Ismail",
-      "overton_score": 54.34,
+      "last_mentioned_episode_id": 371,
+      "last_mentioned_speaker": "Luke Groman",
+      "overton_score": 60.58,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
-      "last_mentioned_episode_date": "2026-07-24"
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
+      "last_mentioned_episode_date": "2026-07-28"
     },
     {
       "id": 10,
@@ -33673,9 +33692,71 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-07-28",
     "key_tickers": []
+  },
+  "386": {
+    "id": 376,
+    "insight_id": 386,
+    "podcast_episode_id": 371,
+    "overview": "The unresolved tension lies in the interplay between fiscal policy, demographic shifts, and geopolitical dynamics, which are driving up global bond yields. The competitive dynamic is between the need for sustainable fiscal policies and the pressure to maintain economic growth amidst rising costs of entitlements and veterans' benefits. The allocator-relevant implication is that the winners and losers will be determined by how effectively governments manage these tensions, with the metric of success being the stability of bond yields and the health of the global financial system.",
+    "key_takeaways_detailed": [
+      "The front-end heavy issuance pattern in the U.S. bond market is a significant contributor to the current sell-off, suggesting a need for a more balanced issuance strategy.",
+      "Aging populations and rising veterans' benefits are creating fiscal pressures that could lead to a global adoption of yield curve control if not addressed.",
+      "The potential for yield curve control is a critical contingency for investors to consider, as it could significantly impact bond yields and the attractiveness of long-term bonds.",
+      "Investors should monitor the fiscal policies of major economies, particularly those related to entitlements and defense spending, as these will be key drivers of future bond market dynamics."
+    ],
+    "investment_thesis": "The thesis is that the current trajectory of fiscal policies, particularly in the U.S., is unsustainable and will lead to a global bond crisis unless yield curve control is implemented. This would be vindicated by a continued rise in bond yields and fiscal pressures, and invalidated by a significant shift in fiscal policy towards more sustainable practices or a reversal in demographic and geopolitical trends.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc. is relevant as it is a major player in the tech sector, which is sensitive to interest rate changes. High real yields could slow tech investment, affecting Apple's growth prospects.",
+        "positioning": "Positioning should be cautious, potentially short-term, as the tech sector may face headwinds from rising yields. A strategic long-term position could be considered if Apple can demonstrate resilience or adapt to higher interest rate environments.",
+        "risk": "Key risks include a rapid increase in interest rates, which could negatively impact Apple's valuation and growth prospects, and changes in consumer spending due to economic uncertainty."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A sudden drop in global defense spending could reduce the need for yield curve control and alleviate fiscal pressures.",
+      "Unexpected technological advancements that improve healthcare outcomes and reduce the cost of aging populations could lessen the strain on entitlement programs.",
+      "A global economic downturn could lead to lower interest rates, reducing the urgency for yield curve control."
+    ],
+    "catalysts": [
+      "U.S. Treasury issuance patterns and shifts in fiscal policy.",
+      "Demographic reports and changes in global aging trends.",
+      "Global defense spending announcements and changes in military policy.",
+      "Economic indicators such as GDP growth, inflation rates, and employment figures, which can influence fiscal and monetary policy decisions."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-29T22:27:40.400559",
+    "updated_at": "2026-07-30 03:27:40",
+    "episode_evidence": "Luke Groman, in the Monetary Matters podcast, emphasizes the bond market sell-off is fundamentally a supply and demand issue, exacerbated by secular inflationary dynamics. He points out that 'we've seen the U.S. in particular shift issuance to the front end since Yellen,' which has accelerated under the current administration, leading to a front-end heavy issuance pattern. Groman also discusses the impact of aging populations on Western economies, noting that '[of] 65 million boomers...they were eventually going to hit retirement age and start collecting.' This demographic shift is causing off-balance sheet liabilities to become on-balance sheet and cashflow negative. Furthermore, Groman highlights the rising costs of veterans' benefits, which now constitute '27 percent of defense spending,' and are growing at a rate faster than tax receipts, which are near all-time highs. These factors are driving up yields, creating a spiral that Groman believes will eventually necessitate yield curve control, a policy he suspects countries will adopt only as a last resort.",
+    "falsification_tracks": [
+      "If the U.S. shifts its issuance pattern away from the front end and towards a more balanced approach, it could reduce the current supply-demand imbalance in the bond market.",
+      "A significant decrease in veterans' benefits as a percentage of defense spending could alleviate fiscal pressures and reduce the upward pressure on yields.",
+      "Should global aging trends reverse or significant technological advancements in healthcare and retirement planning emerge, reducing the strain on entitlement programs, the demand for yield curve control might diminish.",
+      "The implementation of effective fiscal policies that successfully manage or reduce the debt-to-GDP ratio could weaken the case for yield curve control."
+    ],
+    "insight_title": "Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-07-28",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 546,
+    "term": "Yield Curve Control",
+    "definition": "A monetary policy tool used by central banks to influence the shape of the yield curve by setting target interest rates for specific maturities.",
+    "investment_implications": "Yield curve control may become a necessary policy tool as countries grapple with rising yields and fiscal challenges.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-07-30 03:26:22",
+    "priority_score": 80
+  },
   {
     "id": 544,
     "term": "Spatial Intelligence",
@@ -33711,23 +33792,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-25 04:36:36",
     "priority_score": 80
-  },
-  {
-    "id": 541,
-    "term": "Unreasonable Effectiveness of Recurrent Airlines",
-    "definition": "An article by Andrej Karpathy that inspired the guest to pivot his startup to focus on RNNs and LSTMs, which are foundational to modern language models.",
-    "investment_implications": "This concept represents the potential for simple recurrent neural networks to have a significant impact on AI development.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-23 11:40:32",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 40079,
+    "id": 40183,
+    "name": "Luke Gromen",
+    "slug": "luke-gromen",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
+    "last_episode_title": "Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-07-28",
+    "appearance_count": 1
+  },
+  {
+    "id": 40184,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -33739,7 +33820,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 40080,
+    "id": 40185,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -33751,7 +33832,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40081,
+    "id": 40186,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -33763,7 +33844,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40082,
+    "id": 40187,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -33775,7 +33856,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40083,
+    "id": 40188,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -33787,7 +33868,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40084,
+    "id": 40189,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -33799,7 +33880,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40085,
+    "id": 40190,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -33811,7 +33892,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40086,
+    "id": 40191,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -33823,7 +33904,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40087,
+    "id": 40192,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -33835,7 +33916,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40088,
+    "id": 40193,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -33847,7 +33928,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40089,
+    "id": 40194,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -33859,7 +33940,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40090,
+    "id": 40195,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -33871,7 +33952,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40091,
+    "id": 40196,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -33883,7 +33964,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40092,
+    "id": 40197,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -33895,7 +33976,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40093,
+    "id": 40198,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -33907,7 +33988,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40094,
+    "id": 40199,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -33919,7 +34000,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40095,
+    "id": 40200,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -33931,7 +34012,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40096,
+    "id": 40201,
     "name": "Josh Pristow",
     "slug": "josh-pristow",
     "bio": null,
@@ -33943,7 +34024,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40097,
+    "id": 40202,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -33951,18 +34032,6 @@ const dashboardData = {
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_episode_title": "Outsmarting Uber: Why Bolt Wins in Europe",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-02",
-    "appearance_count": 1
-  },
-  {
-    "id": 40098,
-    "name": "What If It\u2019s Still Early?",
-    "slug": "what-if-its-still-early",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The S&P 500 is projected to reach 10,000 due to accelerating earnings growth and a favorable economic environment, justifying higher P/E ratios and making equities more attractive.",
-    "last_episode_title": "What If It\u2019s Still Early? | Erik YWR on $10,000 S&P 500 by 2027 Case, Hyperscaler ROIC, AI CapEx, Semis, Exchanges, and Reverse Crash Risk In \u201cProject Zimbabwe\u201d",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-02",
     "appearance_count": 1
   }
@@ -34175,7 +34244,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 3,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
     "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
@@ -34220,6 +34289,66 @@ const dashboardData = {
       ]
     },
     "net_worth": "$12.3M"
+  },
+  {
+    "id": 187,
+    "name": "Luke Groman",
+    "slug": "luke-groman",
+    "bio": "Luke Groman is the President and founder of Forest for the Trees, a research firm that specializes in macroeconomic trends and investment insights. He is known for his expertise in analyzing global debt dynamics and their implications for financial markets.",
+    "known_for": "His insights into global debt dynamics and their impact on financial markets.",
+    "net_worth_usd": 10000000.0,
+    "net_worth_source": "https://tycoonsnetworth.com/celebrity/entrepreneur/luke-gromen-net-worth/",
+    "net_worth_updated_at": "2026-04-17T05:06:55.472389",
+    "voice_tone": "Confident and assertive",
+    "voice_style": "Direct and analytical, with a focus on data-driven insights",
+    "voice_delivery_notes": "Clear and concise, with emphasis on key data points and trends",
+    "voice_profile_updated_at": "2026-07-30 03:26:22",
+    "last_seen": "2026-07-30 03:26:22",
+    "last_episode_title": "Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-07-28",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-28 \u2022 Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
+    "last_proof_snippet": "Germany, Japan, and Korea are all historically big creditors from a sovereign perspective. And in particular, Japan, if they're borrowing money to do defense to me, they have turned sellers of bonds as well. So now they're selling, they're",
+    "supporting_takeaway": "The U.S. has been shifting issuance to the front end, exacerbating supply and demand imbalances in the bond market.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-29T22:26:52.759552",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Luke Groman",
+      "fetched_at": "2026-07-30T03:26:52.759112+00:00",
+      "cliff_notes": "Luke Groman is recognized for his deep understanding of global debt dynamics and their effects on financial markets. As the President and founder of Forest for the Trees, a research firm, Groman provides macroeconomic analysis and investment insights. His work is centered around understanding the complex interplay between sovereign debt, financial markets, and economic policies. Groman's expertise is particularly valuable in the current economic climate, where the actions of major creditors like Germany, Japan, and Korea have significant implications for global bond markets and yield curves. His commentary and analysis are sought after by investors looking to navigate the intricacies of macroeconomic trends.",
+      "derived": {
+        "current_role": "President and founder of Forest for the Trees"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Luke Groman is recognized for his deep understanding of global debt dynamics and their effects on financial markets. As the President and founder of Forest for the Trees, a research firm, Groman provides macroeconomic analysis and investment insights. His work is centered around understanding the complex interplay between sovereign debt, financial markets, and economic policies.",
+        "Groman's expertise is particularly valuable in the current economic climate, where the actions of major creditors like Germany, Japan, and Korea have significant implications for global bond markets and yield curves. His commentary and analysis are sought after by investors looking to navigate the intricacies of macroeconomic trends."
+      ],
+      "sections": [
+        {
+          "heading": "Global Debt Dynamics",
+          "body": "Groman is known for his analysis of how global debt dynamics affect financial markets, with a focus on the actions of major creditors."
+        },
+        {
+          "heading": "Macroeconomic Trends",
+          "body": "His research firm, Forest for the Trees, provides insights into macroeconomic trends that can influence investment strategies."
+        },
+        {
+          "heading": "Yield Curve Control",
+          "body": "Groman discusses the potential for yield curve control as a policy response to the challenges posed by global debt and market dynamics."
+        }
+      ]
+    },
+    "net_worth": "$10.0M"
   },
   {
     "id": 180,
@@ -34617,7 +34746,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-02",
     "mention_score": 2,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
     "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
@@ -35801,7 +35930,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-20 \u2022 Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
     "last_proof_snippet": "You and I live through a couple of bubbles. We've seen this movie before. And this wave seems very different than the dot com wave. So let's talk about that. Are you concerned about a bubble? We're seeing bubbly like behavior people. It's n",
@@ -35936,7 +36065,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in open source AI platforms and local AI models to capitalize on the growing demand for privacy-preserving, cost-efficient AI solutions and the potential shift towards model routing.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-20 \u2022 Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
     "last_proof_snippet": "I think this relation is a very common practice that everyone is using. It's something that everyone uses, but that is not the main reason for success. Like if you suck, you suck without this relation. It's hard for me to say, like, oh, poo",
@@ -36245,7 +36374,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-17 \u2022 Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
     "last_proof_snippet": "Miramoradi, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day. She's built exactly the thing hitting the market that exactly what everybody",
@@ -37266,7 +37395,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Invest in multi-family and senior housing to capitalize on demographic shifts, and focus on industrial properties to benefit from e-commerce growth.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-04 \u2022 The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. Today we're going to be talking all things real estate. I'm joined by Jo",
@@ -38449,7 +38578,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -38510,7 +38639,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in U.S. industrial champions with strong order backlogs and companies positioned to benefit from the electrification and modernization of the U.S. grid.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-18 \u2022 The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
     "last_proof_snippet": "The U.S. manufacturing has essentially been in a recession for three straight years and we have only just emerged now. If I had a CMMI survey, just reached about 50 in the last three months. And that's after three consecutive years of sub-5",
@@ -38570,7 +38699,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in companies that integrate AI with experimental data for material discovery to gain a competitive edge in industries like aerospace and semiconductors.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-17 \u2022 \ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
     "last_proof_snippet": "This is the difference between AI for bio and AI for materials. If you look at bio or maybe small molecules is a more broad category, you look at selfies and smile strings, where I which has been a big way to have those materials, those mol",
@@ -39576,7 +39705,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investors should focus on undervalued companies in Asia, particularly in South Korea and Southeast Asia, due to favorable valuations and growth prospects.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-06 \u2022 The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone | Michael Fritzell | Asian Century Stocks",
     "last_proof_snippet": "South Korea, I do think it is a bubble, because the estimates for profits, for Eski Heinigs and Samsung electronics, we're now talking 200 billion US dollars in that profit estimates for 2028. And that will make them the most profitable com",
@@ -40420,7 +40549,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investors should prepare for potential oil price volatility and consider hedging strategies, while also looking for investment opportunities in companies improving inventory efficiency and energy infrastructure projects.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-21 \u2022 MacroVoices #533 Morgan Downey: The Return of Oil 101",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -40666,7 +40795,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "The current market dynamics suggest a potential bubble, characterized by inflated earnings expectations rather than traditional valuation metrics, indicating the need for disciplined profit-taking strategies and portfolio diversification.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-16 \u2022 Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
     "last_proof_snippet": "If we're in a bubble, why aren't we selling crazy P is? It's not the P that's the bubble, it's the E. The S&P in its entirety is expected to earn 400 billion. Where's the GDP that can do that? Now it could come from everywhere else. It coul",
@@ -40731,7 +40860,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
     "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
@@ -40791,7 +40920,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
     "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
@@ -41293,7 +41422,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Invest in private credit funds that capitalize on the retreat of banks from riskier, smaller loans due to regulatory pressures, and consider preferred equity structures for upside potential with downside protection.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-12 \u2022 Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
     "last_proof_snippet": "The dominant media narrative at the moment is direct lending and private credit, a virtually synonymous, but that is obviously not how the industry is structured, but what is definitely true is that direct lending has taken the vast majorit",
@@ -41795,7 +41924,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -41859,7 +41988,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -42165,7 +42294,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -42236,7 +42365,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "Invest in technologies that promote decentralized truth and verification in the face of increasing AI-generated content and misinformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -42299,7 +42428,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "Invest in companies with high levels of intangible capital using a combination of fundamental and sentiment analysis to identify mispriced opportunities, especially in sectors affected by global events.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show you'll hear more about hfgm currently the number one morning star rated funds its inception in the U.S. macro trading category. Let's ge",
@@ -42673,7 +42802,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Investment in the biotech sector may need to consider the geographic shift towards China for innovation and efficiency in drug development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-29 \u2022 The Shift in Global Drug Development",
     "last_proof_snippet": "China's clinical trial system has rapidly expanded, with reforms that streamline the approval process.",
@@ -43237,7 +43366,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Invest in technologies and platforms that leverage cryptography and blockchain to provide verifiable information and restore trust in digital content.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-22 \u2022 Balaji Srinivasan: Prove Correct, Not Just Go Direct",
     "last_proof_snippet": "The growing distrust in media is due to the increasing cost of verifying content as synthetic content floods systems.",
@@ -43599,70 +43728,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 187,
-    "name": "Luke Groman",
-    "slug": "luke-groman",
-    "bio": "Luke Groman is the founder of Forest for the Trees, a boutique investment research firm. He is known for his expertise in identifying developing economic bottlenecks and sector attractiveness for investment. Groman's insights are highly valued among professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
-    "known_for": "His ability to analyze and predict the impact of geopolitical events on inflation and investment opportunities.",
-    "net_worth_usd": 10000000.0,
-    "net_worth_source": "https://tycoonsnetworth.com/celebrity/entrepreneur/luke-gromen-net-worth/",
-    "net_worth_updated_at": "2026-04-17T05:06:55.472389",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-04-17 10:06:32",
-    "last_episode_title": "MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
-    "last_podcast_name": "MacroVoices",
-    "last_episode_date": "2026-04-16",
-    "mention_score": 1,
-    "mention_score_decayed": 0.09,
-    "last_main_idea": "Invest in sectors likely to benefit from increased inflation and supply chain disruptions, with a focus on energy, uranium, and domestic electrical infrastructure.",
-    "last_proof_cite": "MacroVoices \u2022 2026-04-16 \u2022 MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
-    "last_proof_snippet": "Markets may be underpricing the severity of supply chain disruptions.",
-    "supporting_takeaway": "Markets may be underpricing the severity of supply chain disruptions.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-17T05:06:54.603859",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Luke Groman",
-      "fetched_at": "2026-04-17T10:06:54.603376+00:00",
-      "cliff_notes": "Luke Groman is a prominent figure in the world of finance and investment research, having founded Forest for the Trees, a boutique firm specializing in identifying economic bottlenecks and sector attractiveness for investment. His work focuses on understanding the implications of geopolitical events, such as the Iran crisis, on inflation and investment opportunities. Groman's expertise is sought after by professional finance, high-net worth individuals, family offices, and other sophisticated investors. His insights are regularly featured in financial podcasts like Macrovoisers, where he discusses the latest market trends and their potential impact on the global economy.",
-      "derived": {
-        "current_role": "Founder of Forest for the Trees"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Luke Groman is a prominent figure in the world of finance and investment research, having founded Forest for the Trees, a boutique firm specializing in identifying economic bottlenecks and sector attractiveness for investment. His work focuses on understanding the implications of geopolitical events, such as the Iran crisis, on inflation and investment opportunities.",
-        "Groman's expertise is sought after by professional finance, high-net worth individuals, family offices, and other sophisticated investors. His insights are regularly featured in financial podcasts like Macrovoisers, where he discusses the latest market trends and their potential impact on the global economy."
-      ],
-      "sections": [
-        {
-          "heading": "Economic Bottlenecks",
-          "body": "Groman is known for his ability to identify developing economic bottlenecks that can impact investment decisions and market trends."
-        },
-        {
-          "heading": "Sector Attractiveness",
-          "body": "He provides valuable insights into which sectors are most attractive for investment based on current economic conditions and potential future developments."
-        },
-        {
-          "heading": "Geopolitical Impact",
-          "body": "Groman's expertise lies in analyzing the impact of geopolitical events, such as the Iran crisis, on inflation and investment opportunities."
-        },
-        {
-          "heading": "Market Trends",
-          "body": "He regularly discusses the latest market trends and their potential implications on financial podcasts like Macrovoiers, providing valuable insights to a wide audience of investors."
-        }
-      ]
-    },
-    "net_worth": "$10.0M"
-  },
-  {
     "id": 186,
     "name": "Anisha Charya",
     "slug": "anisha-charya",
@@ -43992,7 +44057,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
@@ -44686,7 +44751,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
     "last_proof_snippet": "AI is a shortcut that can be beneficial but also presents challenges in debugging and understanding.",
@@ -45176,7 +45241,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_proof_snippet": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",
@@ -45236,7 +45301,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-01 \u2022 What Happens When a Public Company Goes All In on AI",
     "last_proof_snippet": "AI agents have significantly increased productivity, with one or two engineers on the tools being able to achieve 10-100x more output than before.",

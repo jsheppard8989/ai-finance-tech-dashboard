@@ -20,6 +20,25 @@
       "podcast_episode_id": 370
     },
     {
+      "id": 386,
+      "title": "Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-07-28",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Max Weethe interviews Luke Groman, President and founder of Forest for the Trees, to discuss the driving forces behind the bond market sell-off and the implications of global debt dynamics. They delve into the supply and demand issues in the bond market, the impact of aging populations on Western economies, and the rising costs of veterans' benefits. Groman also shares his insights on the potential for yield curve control and the increasing demand for gold as a store of value amid geopolitical tensions and economic uncertainty.",
+      "key_takeaway": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-29",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 371
+    },
+    {
       "id": 383,
       "title": "Ben Horowitz: The Fight Over Open Source AI",
       "source_type": "podcast",
@@ -130,7 +149,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-23",
       "archived_date": null,
@@ -8080,8 +8099,8 @@
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-24",
-      "mention_count": 61,
+      "last_mentioned_date": "2026-07-28",
+      "mention_count": 62,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -8090,8 +8109,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 366,
-      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
+      "last_mentioned_episode_id": 371,
+      "last_mentioned_speaker": "Luke Groman"
     },
     {
       "id": 162,
@@ -8960,20 +8979,20 @@
     {
       "id": 27,
       "term": "Store of Value",
-      "description": "An asset that maintains its value over time and is preserved as a form of wealth for the future.",
+      "description": "An asset that can be stockpiled and preserved over time, maintaining its value and serving as a hedge against inflation or economic instability.",
       "first_detected_date": "2026-03-15",
-      "last_mentioned_date": "2026-05-05",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-07-28",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors may look to precious metals as stores of value during times of economic uncertainty.",
+      "investment_implications": "Gold is increasingly seen as a store of value amid geopolitical tensions and economic uncertainty.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 65,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 198,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 371,
+      "last_mentioned_speaker": "Luke Groman"
     },
     {
       "id": 16,
