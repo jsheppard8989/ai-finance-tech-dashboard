@@ -21,6 +21,27 @@
       "podcast_episode_id": 372
     },
     {
+      "id": 388,
+      "title": "AI Micro Dramas, Generative Media, and the Future of Creativity",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-29",
+      "summary": "In this episode of 'The a16z Show', the discussion revolves around the burgeoning field of AI native entertainment, including AI-generated animations and micro dramas. The guests highlight how AI is transforming the content creation landscape, making it cheaper, faster, and more accessible. They also touch upon the challenges faced by early AI video adopters and the potential for professional creatives to leverage AI to produce compelling narratives. The conversation explores the implications of generative media on the creator economy and the future of storytelling.",
+      "key_takeaway": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NFLX",
+        "AMZN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 375
+    },
+    {
       "id": 385,
       "title": "Fei-Fei Li on Spatial Intelligence and Robotics",
       "source_type": "podcast",
@@ -57,6 +78,44 @@
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 371
+    },
+    {
+      "id": 389,
+      "title": "Codex from 0 to 10M Users: Building ChatGPT Work \u2014 Akshay Nathan, OpenAI",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-07-28",
+      "summary": "In this episode of Latent Space, the AI Engineer Podcast, Akshay from OpenAI discusses the journey of bringing AI technology to the masses. Starting from no-code and low-code platforms, the conversation delves into the evolution of AI, particularly with the advent of Large Language Models (LLMs), and how they democratize coding and database management. Akshay shares insights on the culture at OpenAI, the challenges of enterprise solutions, and the vision of making AI accessible to everyone. The discussion also touches on productivity measurement in the age of AI and the importance of distinguishing between motion and progress.",
+      "key_takeaway": "Investing in AI technology that democratizes coding and database management can lead to significant productivity gains and market opportunities.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 374
+    },
+    {
+      "id": 390,
+      "title": "The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-28",
+      "summary": "This episode of 'All-In with Chamath, Jason, Sacks & Friedberg' features interviews with leaders in the robotics industry, discussing the current state and future of robotics and AI in practical applications. The conversation covers the transition from research to real-world deployment, the advantages of four-legged robot designs, and the emerging job market in robotics. The guests also touch on the potential for AI to automate lab work and the ethical considerations of creating advanced robots.",
+      "key_takeaway": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 373
     },
     {
       "id": 383,
@@ -112,7 +171,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-24",
       "archived_date": null,
@@ -131,7 +190,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-24",
       "archived_date": null,
@@ -150,7 +209,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-25",
       "archived_date": null,
@@ -7435,8 +7494,8 @@
       "term": "Autonomy",
       "description": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-07-23",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-07-28",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
@@ -7445,26 +7504,26 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 364,
-      "last_mentioned_speaker": "Travis Kelenick"
+      "last_mentioned_episode_id": 373,
+      "last_mentioned_speaker": "Dr. Peter Funkhouser, Amanda McMaster"
     },
     {
       "id": 261,
       "term": "Physical AI",
-      "description": "The application of AI in the physical world, as opposed to purely digital or software-based applications.",
+      "description": "The integration of AI capabilities into physical devices and systems, allowing them to perform tasks and interact with the environment.",
       "first_detected_date": "2026-07-21",
-      "last_mentioned_date": "2026-07-23",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-07-28",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investing in Physical AI could lead to significant advancements in industry efficiency and productivity.",
+      "investment_implications": "Investors should consider companies that are advancing the practical application of AI in physical devices, as this could lead to significant market opportunities.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 359,
       "first_detected_speaker": "Casser, Eunice, Peter Ludwig",
-      "last_mentioned_episode_id": 364,
-      "last_mentioned_speaker": "Travis Kelenick"
+      "last_mentioned_episode_id": 373,
+      "last_mentioned_speaker": "Dr. Peter Funkhouser, Amanda McMaster"
     },
     {
       "id": 262,
@@ -7739,20 +7798,20 @@
     {
       "id": 234,
       "term": "AI Personhood",
-      "description": "The concept of attributing legal personhood or rights to AI entities.",
+      "description": "The concept of attributing legal personhood or rights to AI entities, raising questions about responsibility and ethics in AI development.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-07-13",
-      "mention_count": 13,
+      "last_mentioned_date": "2026-07-28",
+      "mention_count": 14,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "As AI becomes more sophisticated, the question of personhood could impact liability, regulation, and investment in AI technologies.",
+      "investment_implications": "As AI becomes more autonomous, investors may need to consider the ethical implications and potential regulatory changes related to AI personhood.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 344,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 373,
+      "last_mentioned_speaker": "Dr. Peter Funkhouser, Amanda McMaster"
     },
     {
       "id": 59,
@@ -7993,8 +8052,8 @@
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-24",
-      "mention_count": 40,
+      "last_mentioned_date": "2026-07-28",
+      "mention_count": 41,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -8003,8 +8062,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 366,
-      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
+      "last_mentioned_episode_id": 373,
+      "last_mentioned_speaker": "Dr. Peter Funkhouser, Amanda McMaster"
     },
     {
       "id": 97,
@@ -8120,7 +8179,7 @@
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
       "last_mentioned_date": "2026-07-28",
-      "mention_count": 62,
+      "mention_count": 63,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -8129,8 +8188,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 371,
-      "last_mentioned_speaker": "Luke Groman"
+      "last_mentioned_episode_id": 374,
+      "last_mentioned_speaker": "Akshay"
     },
     {
       "id": 162,
@@ -9217,8 +9276,8 @@
       "term": "AI Agents",
       "description": "Autonomous software entities that can perform tasks, make decisions, and interact with their environment using artificial intelligence.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-07-24",
-      "mention_count": 51,
+      "last_mentioned_date": "2026-07-29",
+      "mention_count": 52,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The development and deployment of AI agents could disrupt traditional business models and create new investment opportunities.",
@@ -9227,8 +9286,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 366,
-      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
+      "last_mentioned_episode_id": 375,
+      "last_mentioned_speaker": "Justin Jo"
     },
     {
       "id": 38,

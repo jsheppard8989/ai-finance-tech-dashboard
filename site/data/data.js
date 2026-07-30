@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-30T00:02:19.728948",
-  chartsVersion: "2026-07-30T00:02:10.970908",
+  generatedAt: "2026-07-30T05:05:28.071982",
+  chartsVersion: "2026-07-30T05:05:22.296743",
   priceSnapshot: {
   "GOOGL": {
     "price": 336.71,
     "change_pct": -5.73,
     "name": "GOOGL",
-    "updated_at": "2026-07-30T00:02:10.969560"
+    "updated_at": "2026-07-30T05:05:22.296279"
   },
   "NVDA": {
     "price": 190.01,
     "change_pct": -9.93,
     "name": "NVDA",
-    "updated_at": "2026-07-30T00:02:10.969582"
+    "updated_at": "2026-07-30T05:05:22.296289"
   },
   "BTC": {
-    "price": 63911.82,
-    "change_pct": 0.02,
+    "price": 64505.44,
+    "change_pct": 0.95,
     "name": "BTC",
-    "updated_at": "2026-07-30T00:02:10.969594"
+    "updated_at": "2026-07-30T05:05:22.296293"
   },
   "MSFT": {
     "price": 390.54,
     "change_pct": 1.41,
     "name": "MSFT",
-    "updated_at": "2026-07-30T00:02:10.969603"
+    "updated_at": "2026-07-30T05:05:22.296297"
   },
   "TSLA": {
     "price": 298.32,
     "change_pct": -26.84,
     "name": "TSLA",
-    "updated_at": "2026-07-30T00:02:10.969613"
+    "updated_at": "2026-07-30T05:05:22.296300"
   },
   "AMZN": {
     "price": 226.65,
     "change_pct": -7.62,
     "name": "AMZN",
-    "updated_at": "2026-07-30T00:02:10.969622"
+    "updated_at": "2026-07-30T05:05:22.296303"
   },
   "META": {
     "price": 585.61,
     "change_pct": -12.49,
     "name": "META",
-    "updated_at": "2026-07-30T00:02:10.969631"
+    "updated_at": "2026-07-30T05:05:22.296307"
   },
   "WTI": {
     "price": 3.53,
     "change_pct": 4.75,
     "name": "WTI",
-    "updated_at": "2026-07-30T00:02:10.969640"
+    "updated_at": "2026-07-30T05:05:22.296310"
   },
   "S&P 500": {
     "price": 729.46,
     "change_pct": -3.38,
     "name": "S&P 500",
-    "updated_at": "2026-07-30T00:02:10.969649"
+    "updated_at": "2026-07-30T05:05:22.296313"
   },
   "AAPL": {
     "price": 338.19,
     "change_pct": 7.25,
     "name": "AAPL",
-    "updated_at": "2026-07-30T00:02:10.969658"
+    "updated_at": "2026-07-30T05:05:22.296316"
   },
   "QQQ": {
     "price": 661.73,
     "change_pct": -8.79,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-30T00:02:10.969666"
+    "updated_at": "2026-07-30T05:05:22.296319"
   },
   "BTC-USD": {
-    "price": 63911.82,
-    "change_pct": 0.02,
+    "price": 64505.44,
+    "change_pct": 0.95,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-30T00:02:10.969677"
+    "updated_at": "2026-07-30T05:05:22.296323"
   }
 },
   tickerScores: [
@@ -854,6 +854,27 @@ const dashboardData = {
       "podcast_episode_id": 372
     },
     {
+      "id": 388,
+      "title": "AI Micro Dramas, Generative Media, and the Future of Creativity",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-29",
+      "summary": "In this episode of 'The a16z Show', the discussion revolves around the burgeoning field of AI native entertainment, including AI-generated animations and micro dramas. The guests highlight how AI is transforming the content creation landscape, making it cheaper, faster, and more accessible. They also touch upon the challenges faced by early AI video adopters and the potential for professional creatives to leverage AI to produce compelling narratives. The conversation explores the implications of generative media on the creator economy and the future of storytelling.",
+      "key_takeaway": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NFLX",
+        "AMZN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 375
+    },
+    {
       "id": 385,
       "title": "Fei-Fei Li on Spatial Intelligence and Robotics",
       "source_type": "podcast",
@@ -890,6 +911,44 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 371
+    },
+    {
+      "id": 389,
+      "title": "Codex from 0 to 10M Users: Building ChatGPT Work \u2014 Akshay Nathan, OpenAI",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-07-28",
+      "summary": "In this episode of Latent Space, the AI Engineer Podcast, Akshay from OpenAI discusses the journey of bringing AI technology to the masses. Starting from no-code and low-code platforms, the conversation delves into the evolution of AI, particularly with the advent of Large Language Models (LLMs), and how they democratize coding and database management. Akshay shares insights on the culture at OpenAI, the challenges of enterprise solutions, and the vision of making AI accessible to everyone. The discussion also touches on productivity measurement in the age of AI and the importance of distinguishing between motion and progress.",
+      "key_takeaway": "Investing in AI technology that democratizes coding and database management can lead to significant productivity gains and market opportunities.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 374
+    },
+    {
+      "id": 390,
+      "title": "The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-28",
+      "summary": "This episode of 'All-In with Chamath, Jason, Sacks & Friedberg' features interviews with leaders in the robotics industry, discussing the current state and future of robotics and AI in practical applications. The conversation covers the transition from research to real-world deployment, the advantages of four-legged robot designs, and the emerging job market in robotics. The guests also touch on the potential for AI to automate lab work and the ethical considerations of creating advanced robots.",
+      "key_takeaway": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 373
     },
     {
       "id": 383,
@@ -945,7 +1004,7 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-24",
       "archived_date": null,
@@ -964,7 +1023,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-24",
       "archived_date": null,
@@ -983,7 +1042,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-25",
       "archived_date": null,
@@ -8268,8 +8327,8 @@ const dashboardData = {
       "term": "Autonomy",
       "description": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-07-23",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-07-28",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
@@ -8278,26 +8337,26 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 364,
-      "last_mentioned_speaker": "Travis Kelenick"
+      "last_mentioned_episode_id": 373,
+      "last_mentioned_speaker": "Dr. Peter Funkhouser, Amanda McMaster"
     },
     {
       "id": 261,
       "term": "Physical AI",
-      "description": "The application of AI in the physical world, as opposed to purely digital or software-based applications.",
+      "description": "The integration of AI capabilities into physical devices and systems, allowing them to perform tasks and interact with the environment.",
       "first_detected_date": "2026-07-21",
-      "last_mentioned_date": "2026-07-23",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-07-28",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investing in Physical AI could lead to significant advancements in industry efficiency and productivity.",
+      "investment_implications": "Investors should consider companies that are advancing the practical application of AI in physical devices, as this could lead to significant market opportunities.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 359,
       "first_detected_speaker": "Casser, Eunice, Peter Ludwig",
-      "last_mentioned_episode_id": 364,
-      "last_mentioned_speaker": "Travis Kelenick"
+      "last_mentioned_episode_id": 373,
+      "last_mentioned_speaker": "Dr. Peter Funkhouser, Amanda McMaster"
     },
     {
       "id": 262,
@@ -8572,20 +8631,20 @@ const dashboardData = {
     {
       "id": 234,
       "term": "AI Personhood",
-      "description": "The concept of attributing legal personhood or rights to AI entities.",
+      "description": "The concept of attributing legal personhood or rights to AI entities, raising questions about responsibility and ethics in AI development.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-07-13",
-      "mention_count": 13,
+      "last_mentioned_date": "2026-07-28",
+      "mention_count": 14,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "As AI becomes more sophisticated, the question of personhood could impact liability, regulation, and investment in AI technologies.",
+      "investment_implications": "As AI becomes more autonomous, investors may need to consider the ethical implications and potential regulatory changes related to AI personhood.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 344,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 373,
+      "last_mentioned_speaker": "Dr. Peter Funkhouser, Amanda McMaster"
     },
     {
       "id": 59,
@@ -8826,8 +8885,8 @@ const dashboardData = {
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-24",
-      "mention_count": 40,
+      "last_mentioned_date": "2026-07-28",
+      "mention_count": 41,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -8836,8 +8895,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 366,
-      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
+      "last_mentioned_episode_id": 373,
+      "last_mentioned_speaker": "Dr. Peter Funkhouser, Amanda McMaster"
     },
     {
       "id": 97,
@@ -8953,7 +9012,7 @@ const dashboardData = {
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
       "last_mentioned_date": "2026-07-28",
-      "mention_count": 62,
+      "mention_count": 63,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -8962,8 +9021,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 371,
-      "last_mentioned_speaker": "Luke Groman"
+      "last_mentioned_episode_id": 374,
+      "last_mentioned_speaker": "Akshay"
     },
     {
       "id": 162,
@@ -10050,8 +10109,8 @@ const dashboardData = {
       "term": "AI Agents",
       "description": "Autonomous software entities that can perform tasks, make decisions, and interact with their environment using artificial intelligence.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-07-24",
-      "mention_count": 51,
+      "last_mentioned_date": "2026-07-29",
+      "mention_count": 52,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The development and deployment of AI agents could disrupt traditional business models and create new investment opportunities.",
@@ -10060,8 +10119,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 366,
-      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
+      "last_mentioned_episode_id": 375,
+      "last_mentioned_speaker": "Justin Jo"
     },
     {
       "id": 38,
@@ -10349,6 +10408,26 @@ const dashboardData = {
       ]
     },
     {
+      "id": 388,
+      "title": "AI Micro Dramas, Generative Media, and the Future of Creativity",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-29",
+      "summary": "In this episode of 'The a16z Show', the discussion revolves around the burgeoning field of AI native entertainment, including AI-generated animations and micro dramas. The guests highlight how AI is transforming the content creation landscape, making it cheaper, faster, and more accessible. They also touch upon the challenges faced by early AI video adopters and the potential for professional creatives to leverage AI to produce compelling narratives. The conversation explores the implications of generative media on the creator economy and the future of storytelling.",
+      "key_takeaway": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
+      "tickers_mentioned": "[\"AAPL\", \"NFLX\", \"AMZN\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 375,
+      "episode_release_date": "2026-07-29",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 385,
       "title": "Fei-Fei Li on Spatial Intelligence and Robotics",
       "source_type": "podcast",
@@ -10389,6 +10468,46 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 389,
+      "title": "Codex from 0 to 10M Users: Building ChatGPT Work \u2014 Akshay Nathan, OpenAI",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-07-28",
+      "summary": "In this episode of Latent Space, the AI Engineer Podcast, Akshay from OpenAI discusses the journey of bringing AI technology to the masses. Starting from no-code and low-code platforms, the conversation delves into the evolution of AI, particularly with the advent of Large Language Models (LLMs), and how they democratize coding and database management. Akshay shares insights on the culture at OpenAI, the challenges of enterprise solutions, and the vision of making AI accessible to everyone. The discussion also touches on productivity measurement in the age of AI and the importance of distinguishing between motion and progress.",
+      "key_takeaway": "Investing in AI technology that democratizes coding and database management can lead to significant productivity gains and market opportunities.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 374,
+      "episode_release_date": "2026-07-28",
+      "guest_name": "Codex from 0 to 10M Users",
+      "key_tickers": []
+    },
+    {
+      "id": 390,
+      "title": "The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-28",
+      "summary": "This episode of 'All-In with Chamath, Jason, Sacks & Friedberg' features interviews with leaders in the robotics industry, discussing the current state and future of robotics and AI in practical applications. The conversation covers the transition from research to real-world deployment, the advantages of four-legged robot designs, and the emerging job market in robotics. The guests also touch on the potential for AI to automate lab work and the ethical considerations of creating advanced robots.",
+      "key_takeaway": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 373,
+      "episode_release_date": "2026-07-28",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 383,
       "title": "Ben Horowitz: The Fight Over Open Source AI",
       "source_type": "podcast",
@@ -10425,66 +10544,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 368,
       "episode_release_date": "2026-07-26",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 380,
-      "title": "Sriram Krishnan on Open Source AI's Biggest Week Yet",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-07-24",
-      "summary": "The podcast discusses the rapid growth of open-source AI models such as Kimi K3 and Quen 3.8, which are challenging the dominance of existing models. The emergence of these models increases choice for consumers and may put pricing pressure on frontier labs, potentially affecting their gross margins. The show also touches on the security benefits of open-source models and the potential for AI to automate AI research. Additionally, there is a discussion on the US government's possible restrictions on Chinese open-source models due to national security concerns.",
-      "key_takeaway": "Investors should consider the impact of open-source AI models on frontier labs and monitor the security and competitive landscape of AI, as well as potential opportunities in related sectors like cloud computing and data centers.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"NVDA\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-24",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 365,
-      "episode_release_date": "2026-07-24",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 381,
-      "title": "The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-07-24",
-      "summary": "In this episode of Moonshots with Peter Diamandis, the panel discusses the investment landscape in AI, the potential for AI to revolutionize sectors like healthcare and education, and the impact of AI on human life expectancy. They also touch on the challenges and opportunities presented by AI in academia and innovation, as well as the importance of fostering an optimistic mindset towards technology and the future. The conversation highlights the transformative potential of AI and the need for a new approach to innovation and education.",
-      "key_takeaway": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-24",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 366,
-      "episode_release_date": "2026-07-24",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 382,
-      "title": "The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence?",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-07-24",
-      "summary": "In this episode of the All-In podcast, the hosts discuss the recent release of China's moonshot AI's Kimmy K3, an open source model that has sparked debate in the United States about banning Chinese open source models. The conversation covers the performance of Kimmy K3 in comparison to models like Opus 4.8 and GPT 5.6, the potential implications for the US AI industry, and the White House's involvement in the matter. The hosts also touch on the potential for a ban on open source models, the rhetoric around the dangers of open source AI, and the importance of the US developing its own competitive open source models.",
-      "key_takeaway": "Investment in US-based AI companies and open source model development could be beneficial due to the potential for bans on Chinese models and the push for US innovation in the AI space.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-25",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 367,
-      "episode_release_date": "2026-07-24",
       "guest_name": null,
       "key_tickers": []
     }
@@ -10618,7 +10677,7 @@ const dashboardData = {
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
       "last_mentioned_date": "2026-07-28",
-      "mention_count": 62,
+      "mention_count": 63,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -10627,15 +10686,15 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 371,
-      "last_mentioned_speaker": "Luke Groman",
-      "overton_score": 59.2,
+      "last_mentioned_episode_id": 374,
+      "last_mentioned_speaker": "Akshay",
+      "overton_score": 60.16,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
-      "last_mentioned_episode_title": "Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
+      "last_mentioned_podcast": "Latent Space: The AI Engineer Podcast",
+      "last_mentioned_episode_title": "Codex from 0 to 10M Users: Building ChatGPT Work \u2014 Akshay Nathan, OpenAI",
       "last_mentioned_episode_date": "2026-07-28"
     },
     {
@@ -10665,6 +10724,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-07-24"
     },
     {
+      "id": 234,
+      "term": "AI Personhood",
+      "description": "The concept of attributing legal personhood or rights to AI entities, raising questions about responsibility and ethics in AI development.",
+      "first_detected_date": "2026-06-08",
+      "last_mentioned_date": "2026-07-28",
+      "mention_count": 14,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "As AI becomes more autonomous, investors may need to consider the ethical implications and potential regulatory changes related to AI personhood.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 271,
+      "first_detected_speaker": "Peter Diamandis",
+      "last_mentioned_episode_id": 373,
+      "last_mentioned_speaker": "Dr. Peter Funkhouser, Amanda McMaster",
+      "overton_score": 13.37,
+      "resonance_pct": 100,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
+      "first_detected_episode_date": "2026-06-08",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
+      "last_mentioned_episode_date": "2026-07-28"
+    },
+    {
       "id": 254,
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
@@ -10689,32 +10774,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Monetary Matters with Jack Farley",
       "last_mentioned_episode_title": "Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
       "last_mentioned_episode_date": "2026-07-29"
-    },
-    {
-      "id": 234,
-      "term": "AI Personhood",
-      "description": "The concept of attributing legal personhood or rights to AI entities.",
-      "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-07-13",
-      "mention_count": 13,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "As AI becomes more sophisticated, the question of personhood could impact liability, regulation, and investment in AI technologies.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 271,
-      "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 344,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "overton_score": 8.78,
-      "resonance_pct": 100,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
-      "first_detected_episode_date": "2026-06-08",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "The AI Duopoly Is Over: Grok 4. 5 , GPT-5 . 6 , and Muse Spark in One Week | #270",
-      "last_mentioned_episode_date": "2026-07-13"
     },
     {
       "id": 11,
@@ -10821,6 +10880,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-07-28"
     },
     {
+      "id": 264,
+      "term": "Autonomy",
+      "description": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
+      "first_detected_date": "2026-07-22",
+      "last_mentioned_date": "2026-07-28",
+      "mention_count": 3,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 362,
+      "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
+      "last_mentioned_episode_id": 373,
+      "last_mentioned_speaker": "Dr. Peter Funkhouser, Amanda McMaster",
+      "overton_score": 2.86,
+      "resonance_pct": 72,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
+      "first_detected_episode_date": "2026-07-22",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
+      "last_mentioned_episode_date": "2026-07-28"
+    },
+    {
       "id": 259,
       "term": "Liquid AI",
       "description": "A type of AI that focuses on efficient, general-purpose intelligence at various scales, often using small language models.",
@@ -10908,32 +10993,6 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Industrial AI represents a significant shift in how industries are automated, offering substantial investment opportunities in physical automation.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 362,
-      "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 364,
-      "last_mentioned_speaker": "Travis Kelenick",
-      "overton_score": 1.7,
-      "resonance_pct": 42,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
-      "first_detected_episode_date": "2026-07-22",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Building the Physical AI Stack | Travis Kalanick on TBPN",
-      "last_mentioned_episode_date": "2026-07-23"
-    },
-    {
-      "id": 264,
-      "term": "Autonomy",
-      "description": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
-      "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-07-23",
-      "mention_count": 2,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
@@ -33816,61 +33875,219 @@ const dashboardData = {
       "META",
       "MSFT"
     ]
+  },
+  "388": {
+    "id": 378,
+    "insight_id": 388,
+    "podcast_episode_id": 375,
+    "overview": "The competitive dynamic in the entertainment industry is shifting towards AI-native content creation, which promises to democratize the production process. The unresolved tension lies in the balance between technological advancement and creative storytelling. What is contested is whether AI can replicate the narrative depth and emotional resonance of human-created content, and whether consumers will accept AI-generated narratives as equally compelling. What converts belief is the emergence of high-quality, AI-generated content that not only meets but exceeds consumer expectations, indicating a successful integration of AI into the creative process.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the success of AI-generated content on platforms like Netflix and Amazon, as these will be key indicators of consumer acceptance.",
+      "Keep an eye on the rise of AI-native studios and individual creators who are leveraging AI to scale content production, as their success could signal a broader industry shift.",
+      "Consider the potential for AI to disrupt traditional content creation roles, which may lead to new opportunities or challenges for companies and individuals in the entertainment sector.",
+      "Assess the impact of AI on the cost of production, as reduced costs could lead to an increase in the volume and diversity of content available to consumers.",
+      "Be aware of the ethical and copyright issues surrounding AI-generated content, as these could influence the regulatory environment and public perception."
+    ],
+    "investment_thesis": "The investment thesis is that AI-native entertainment will become a significant and growing segment of the media industry, driven by advancements in generative AI and the ability to produce high-quality, cost-effective content. This will lead to a democratization of content creation, allowing for a broader range of voices and ideas to reach audiences. The thesis is vindicated if AI-generated content continues to improve in quality and if major studios successfully launch and monetize AI-generated programs, indicating a shift in consumer acceptance and industry practices. Conversely, it would be invalidated if AI-generated content fails to gain traction with consumers or if technological advancements plateau, preventing the production of compelling narratives.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI and its control over a vast ecosystem of devices and services positions it to leverage AI-native entertainment, potentially through its streaming service, Apple TV+.",
+        "positioning": "Strategic long position, as Apple's integration of AI into its services could enhance user engagement and drive growth in its entertainment division.",
+        "risk": "Key risks include failure to innovate in the AI space, leading to competition overtaking Apple, and potential regulatory hurdles that could limit the use of AI in content creation."
+      },
+      "NFLX": {
+        "rationale": "Netflix's announcement of AI-generated animation programs indicates a forward-leaning approach to leveraging AI in content creation.",
+        "positioning": "Tactical long position, as the success of these programs could provide a significant competitive advantage in the streaming market.",
+        "risk": "The risk lies in the potential for AI-generated content to underperform or fail to resonate with audiences, impacting Netflix's brand and subscriber growth."
+      },
+      "AMZN": {
+        "rationale": "Amazon's involvement in AI-generated content through its streaming service, Amazon Prime Video, aligns with its broader efforts in AI and machine learning.",
+        "positioning": "Strategic long position, as Amazon's ability to innovate in AI could drive cost savings and content diversity.",
+        "risk": "The risk is that Amazon may not successfully execute on its AI content strategy, leading to missed opportunities in the entertainment space."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "AI-generated content fails to achieve the narrative depth and emotional resonance required for broad consumer acceptance.",
+      "Regulatory hurdles or ethical concerns surrounding AI-generated content could slow down or halt its development and use in the entertainment industry.",
+      "Traditional content creators and studios may resist the shift to AI, leading to a slower adoption rate and less innovation in the space."
+    ],
+    "catalysts": [
+      "The launch of AI-generated animation programs by major streaming platforms like Netflix and Amazon.",
+      "Advancements in generative AI that lead to significant improvements in the quality and realism of AI-generated content.",
+      "Regulatory rulings that either support or restrict the use of AI in content creation, impacting the industry's ability to innovate.",
+      "The success of AI-native studios and individual creators in producing compelling, high-quality content that rivals traditional methods.",
+      "Consumer surveys or market research indicating a shift in preference towards AI-generated content."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-30T05:03:55.921049",
+    "updated_at": "2026-07-30 10:03:55",
+    "episode_evidence": "The podcast episode from 'The a16z Show' provides a detailed look into the burgeoning field of AI-native entertainment, with a specific focus on AI-generated animations and micro dramas. The guests discuss the transformative impact of AI on content creation, making it 'cheaper, faster, and easier'. They highlight that 'Amazon and Netflix have already both announced programs for fully-AI-generated animations', indicating a significant shift in the industry towards AI-generated content. The guests also note a critical challenge: 'many of the people who were early adopters of AI video were not inherently amazing storytellers', which suggests that while the technology is advancing, the narrative quality of AI-generated content has been a limiting factor. However, they foresee a future where 'professional creatives... know how to tell a narrative' will leverage AI, leading to 'an explosion of really ripping stories'. This points to a maturing ecosystem where both the technology and the creative application of AI are improving, potentially leading to high-quality, AI-generated content that is indistinguishable from traditionally created content.",
+    "falsification_tracks": [
+      "If the quality of AI-generated content does not improve as predicted, and consumer preference remains strongly in favor of traditionally created content.",
+      "Should major studios like Amazon and Netflix fail to successfully launch and monetize AI-generated animation programs as announced.",
+      "If the creator economy does not expand as expected, with individual creators and small teams not achieving significant viewership or monetization with AI-native content."
+    ],
+    "insight_title": "AI Micro Dramas, Generative Media, and the Future of Creativity",
+    "source_name": "The a16z Show",
+    "source_date": "2026-07-29",
+    "key_tickers": []
+  },
+  "389": {
+    "id": 379,
+    "insight_id": 389,
+    "podcast_episode_id": 374,
+    "overview": "The competitive dynamic implied by the source material is the race to democratize AI capabilities, making them accessible to non-technical users and enterprises with diverse needs. The tension arises from the challenge of creating a unified AI experience that can cater to both personal and professional productivity without diluting its power or creating confusion among users. The allocator-relevant implication is that the success of AI platforms like OpenAI's Codex and ChatGPT Work will be arbitrated by their ability to scale adoption among non-technical users and effectively meet the varied demands of enterprise clients, with the horizon of proof being the consistent growth in user base and successful integration into enterprise workflows.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the growth metrics of non-developer users as an indicator of AI's democratization and potential market expansion.",
+      "The success of a shared harness strategy across different platforms could be a differentiator in the AI space, impacting user retention and platform loyalty.",
+      "Enterprise adoption will be a critical battleground, and the ability to tailor AI solutions to specific business needs will be a key differentiator for AI providers.",
+      "The focus on user experience and the 'superpower' feeling among non-technical users could be a significant factor in driving product adoption and user satisfaction."
+    ],
+    "investment_thesis": "The core logic is that the democratization of AI through platforms like Codex and ChatGPT Work will lead to significant productivity gains and market opportunities. The timeframe for this thesis is medium to long-term, as the adoption of AI in non-technical and enterprise settings is expected to grow gradually. An observable development that would vindicate this thesis is a consistent increase in the number of non-developer users and successful case studies of AI integration in various enterprise settings. Conversely, a lack of growth in these areas or significant pushback from users due to complexity or integration issues would invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI and machine learning, along with its vast user base, positions it to benefit from the democratization of AI. Its ability to integrate AI into its ecosystem could drive further adoption.",
+        "positioning": "Strategic long-term position, as Apple's AI capabilities could enhance its product offerings and user experience, potentially increasing market share and profitability.",
+        "risk": "Key risks include competition from other tech giants in the AI space and potential regulatory hurdles that could slow down AI development and deployment."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The complexity of AI integration could lead to slower adoption rates than expected, especially in the enterprise sector.",
+      "There is a risk that the democratization of AI could lead to job displacement, causing societal pushback and regulatory challenges.",
+      "The diversity of enterprise needs might make it difficult for AI providers to create a one-size-fits-all solution, potentially limiting the scalability of AI applications."
+    ],
+    "catalysts": [
+      "Release of new AI features or updates that significantly enhance the capabilities of Codex and ChatGPT Work.",
+      "Successful case studies of AI integration in various industries, demonstrating the versatility and effectiveness of AI in improving productivity.",
+      "Regulatory developments that either support or hinder the development and use of AI technologies.",
+      "Partnerships or acquisitions by tech giants that signal a strategic commitment to AI and could accelerate the democratization process."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-30T05:04:18.129437",
+    "updated_at": "2026-07-30 10:04:18",
+    "episode_evidence": "Akshay Nathan from OpenAI discusses the evolution of AI technology, particularly Large Language Models (LLMs), and their impact on democratizing coding and database management. He shares, 'if we could bring that to many more people in a more accessible way, then that would be truly magical.' This reflects the core belief that AI should be accessible to everyone, not just those with coding expertise. Nathan also emphasizes the importance of the harness in both Codex and ChatGPT Work, stating 'the harness is the same, the harness is shared.' This indicates a unified approach to AI capabilities across different platforms, suggesting a strategic focus on consistency and user experience. The discussion also highlights the challenge of enterprise solutions, where Nathan notes the need to 'meet the users where they are' and tailor AI solutions to specific use cases, indicating a nuanced understanding of the diverse needs within the enterprise market.",
+    "falsification_tracks": [
+      "If the number of non-developer users of Codex does not increase significantly over the next year, it would suggest that the democratization of AI is not progressing as expected.",
+      "Should OpenAI fail to maintain a consistent user experience across Codex and ChatGPT Work, leading to a significant user exodus, it would challenge the company's strategy of a shared harness.",
+      "If enterprise adoption of AI solutions plateaus without significant growth, it could indicate that the tailored approach to enterprise needs is not effective, undermining the thesis of AI's broad applicability."
+    ],
+    "insight_title": "Codex from 0 to 10M Users: Building ChatGPT Work \u2014 Akshay Nathan, OpenAI",
+    "source_name": "Latent Space: The AI Engineer Podcast",
+    "source_date": "2026-07-28",
+    "key_tickers": []
+  },
+  "390": {
+    "id": 380,
+    "insight_id": 390,
+    "podcast_episode_id": 373,
+    "overview": "The competitive dynamic in the robotics industry revolves around the transition from research to practical, real-world applications. The tension lies in balancing the high costs of advanced robotics with the economic benefits they offer through increased efficiency and safety. The deployment of robots in hazardous environments, such as oil rigs and offshore facilities, is contested on the grounds of cost, reliability, and the ability to perform tasks beyond human capabilities. The allocator-relevant implication is that companies that can successfully navigate this transition and demonstrate clear economic value through their robotics solutions will likely gain a competitive edge.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the frequency and scale of new deployments of Anybotics' robots as a leading indicator of market acceptance and technological maturity.",
+      "The ability of robots to perform tasks in extreme conditions without human intervention is a key differentiator and should be watched for improvements or setbacks.",
+      "The integration of advanced sensors and AI into robots is a significant cost driver; any technological breakthroughs that reduce these costs could disrupt the current market dynamics.",
+      "Regulatory developments, particularly around data security and automation in hazardous environments, could either accelerate or hinder the adoption of such technologies."
+    ],
+    "investment_thesis": "The investment thesis is that companies like Anybotics, which are successfully transitioning from research to real-world applications in robotics and AI, offer significant growth potential. This is predicated on the ability of these companies to demonstrate clear economic value through increased efficiency and safety in critical infrastructure maintenance. The timeframe for this thesis is medium to long-term, as the technology matures and adoption accelerates. An observable development that would vindicate this thesis is a consistent increase in the number and scale of deployments across various industries, coupled with a decrease in operational costs due to technological advancements. Conversely, a lack of such deployments or an increase in operational costs could invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's involvement in AI and its potential to leverage this technology in new product lines makes it relevant to the robotics and AI thesis.",
+        "positioning": "Apple could be positioned strategically as a long-term investment, given its R&D capabilities and potential to integrate AI into its product offerings.",
+        "risk": "Key risks include competition from other tech giants in the AI space and potential regulatory hurdles that could slow down the deployment of AI technologies."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The high cost of robotics solutions may limit their adoption, especially in cost-sensitive industries.",
+      "There is a risk that technological advancements in other areas, such as drone technology, could offer a more cost-effective solution for certain applications, reducing the demand for ground-based robots.",
+      "Ethical considerations and public perception of advanced robotics could slow down the adoption of such technologies in certain regions or applications."
+    ],
+    "catalysts": [
+      "New contracts or partnerships for Anybotics that signal expansion into new industries or geographies.",
+      "Technological breakthroughs in sensor technology or AI that could reduce the cost of robotics solutions.",
+      "Regulatory changes that either facilitate or hinder the deployment of advanced robotics in critical infrastructure."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-30T05:04:34.818305",
+    "updated_at": "2026-07-30 10:04:34",
+    "episode_evidence": "In the podcast, Dr. Peter Funkhouser, co-founder and CEO of Anybotics, highlighted the practical advantages of four-legged robot designs, stating, 'In nature, a lot of animals have four legs... this is the reason to that. So for sure, you have a great mobility. You can climb stairs. You can go anywhere a person can go.' This underscores the mobility and adaptability of such designs, which are crucial for real-world deployment in varied environments. Funkhouser also emphasized the economic rationale behind the use of high-cost sensors and AI in their robots: 'So the monetary benefit is avoiding downtime... We can save them, essentially pay for the robots.' This indicates that the value proposition of these robots lies in their ability to perform tasks beyond human capabilities, such as detecting micro gas leaks and equipment overheating, thereby justifying their high cost through the significant savings they offer in critical infrastructure maintenance.",
+    "falsification_tracks": [
+      "If Anybotics fails to secure contracts for new deployments in the next 12 months, it could signal a slowdown in the adoption of such technology in critical infrastructure.",
+      "Should the cost of sensors and AI components used in these robots decrease significantly due to technological advancements, the current pricing model might become unsustainable.",
+      "A significant increase in the number of accidents or failures during robot operations could undermine confidence in the technology, reducing demand."
+    ],
+    "insight_title": "The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-07-28",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
   {
-    "id": 546,
-    "term": "Yield Curve Control",
-    "definition": "A monetary policy tool used by central banks to influence the shape of the yield curve by setting target interest rates for specific maturities.",
-    "investment_implications": "Yield curve control may become a necessary policy tool as countries grapple with rising yields and fiscal challenges.",
+    "id": 549,
+    "term": "AI micro dramas",
+    "definition": "Short, AI-generated video content that is gaining popularity due to the ease and speed of production.",
+    "investment_implications": "Investors should consider the potential of AI micro dramas to disrupt traditional content creation and distribution.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-07-30 03:26:22",
+    "submitted_date": "2026-07-30 10:02:18",
     "priority_score": 80
   },
   {
-    "id": 544,
-    "term": "Spatial Intelligence",
-    "definition": "AI capable of generating, understanding, reasoning with, and interacting with spaces, both physical and virtual.",
-    "investment_implications": "Key for advancing robotics and creating immersive virtual environments.",
+    "id": 550,
+    "term": "Generative media",
+    "definition": "Media created using AI algorithms to generate new content, such as images, videos, and text.",
+    "investment_implications": "Generative media lowers the barriers to storytelling, opening up new avenues for investment in creative technologies.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-07-28 19:04:18",
+    "submitted_date": "2026-07-30 10:02:18",
     "priority_score": 80
   },
   {
-    "id": 545,
-    "term": "Real-to-Seem-to-Real Pipeline",
-    "definition": "A process for creating digital maps of real environments that align with the real world, enabling scalable data generation for AI training and evaluation.",
-    "investment_implications": "Solves bottlenecks in robotics development by providing a scalable way to generate training and evaluation data.",
+    "id": 547,
+    "term": "Product to Do",
+    "definition": "A product development approach focusing on actionable outcomes rather than just creating features.",
+    "investment_implications": "Emphasis on 'product to do' can lead to more effective and efficient use of AI in solving real-world problems.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-07-28 19:04:18",
+    "submitted_date": "2026-07-30 10:02:01",
     "priority_score": 80
   },
   {
-    "id": 543,
-    "term": "Singularit",
-    "definition": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes in human civilization.",
-    "investment_implications": "Investors should consider the potential for AI to drive rapid technological advancements that could lead to a singularity, impacting various sectors.",
+    "id": 548,
+    "term": "Motion vs. Progress",
+    "definition": "A distinction between mere activity (motion) and meaningful advancement towards a goal (progress).",
+    "investment_implications": "Investors should focus on companies that demonstrate progress in AI adoption rather than just increased activity.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-07-25 04:36:36",
+    "submitted_date": "2026-07-30 10:02:01",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 40288,
+    "id": 40394,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -33882,7 +34099,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40289,
+    "id": 40395,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -33894,7 +34111,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40290,
+    "id": 40396,
+    "name": "Codex from 0 to 10M Users",
+    "slug": "codex-from-0-to-10m-users",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in AI technology that democratizes coding and database management can lead to significant productivity gains and market opportunities.",
+    "last_episode_title": "Codex from 0 to 10M Users: Building ChatGPT Work \u2014 Akshay Nathan, OpenAI",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-07-28",
+    "appearance_count": 1
+  },
+  {
+    "id": 40397,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -33906,7 +34135,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 40291,
+    "id": 40398,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -33918,7 +34147,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40292,
+    "id": 40399,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -33930,7 +34159,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40293,
+    "id": 40400,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -33942,7 +34171,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40294,
+    "id": 40401,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -33954,7 +34183,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40295,
+    "id": 40402,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -33966,7 +34195,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40296,
+    "id": 40403,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -33978,7 +34207,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40297,
+    "id": 40404,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -33990,7 +34219,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40298,
+    "id": 40405,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -34002,7 +34231,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40299,
+    "id": 40406,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -34014,7 +34243,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40300,
+    "id": 40407,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -34026,7 +34255,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40301,
+    "id": 40408,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -34038,7 +34267,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40302,
+    "id": 40409,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -34050,7 +34279,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40303,
+    "id": 40410,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -34062,7 +34291,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40304,
+    "id": 40411,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -34074,7 +34303,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40305,
+    "id": 40412,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -34086,7 +34315,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40306,
+    "id": 40413,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -34095,18 +34324,6 @@ const dashboardData = {
     "last_episode_title": "The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-05",
-    "appearance_count": 1
-  },
-  {
-    "id": 40307,
-    "name": "Josh Pristow",
-    "slug": "josh-pristow",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in multi-family and senior housing to capitalize on demographic shifts, and focus on industrial properties to benefit from e-commerce growth.",
-    "last_episode_title": "The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-07-04",
     "appearance_count": 1
   }
 ],
@@ -35009,7 +35226,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-13",
     "mention_score": 2,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in sectors poised for growth due to AI adoption, particularly semiconductors and stablecoins, while being cautious about the cyclical nature of capex investments in hyperscaler companies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-13 \u2022 Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show, you'll hear more about hfgm currently the number one morning star rated fund sits its inception in the US macro trading category. Let's",
@@ -35617,6 +35834,184 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 364,
+    "name": "Justin Jo",
+    "slug": "justin-jo",
+    "bio": "Justin Jo is an investor with a focus on AI, new media, and generative media. He is known for his insights on the intersection of AI and media, particularly in the context of TV shows and movies. Jo has spent considerable time with studio executives and has observed the growing use of AI in the entertainment industry.",
+    "known_for": "His expertise in AI-generated animations and the impact on storytelling in the media industry.",
+    "net_worth_usd": 250000000.0,
+    "net_worth_source": "https://www.oreateai.com/blog/understanding-jts-net-worth-a-deep-dive-into-financial-success/038440304a611a384c01343e6d0bc517",
+    "net_worth_updated_at": "2026-07-30T05:02:45.660646",
+    "voice_tone": "Informed and optimistic about the future of AI in entertainment.",
+    "voice_style": "Analytical with a focus on the transformative potential of AI.",
+    "voice_delivery_notes": "Speaks with a steady pace, emphasizing key points about AI's role in content creation.",
+    "voice_profile_updated_at": "2026-07-30 10:02:18",
+    "last_seen": "2026-07-30 10:02:18",
+    "last_episode_title": "AI Micro Dramas, Generative Media, and the Future of Creativity",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-29",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-29 \u2022 AI Micro Dramas, Generative Media, and the Future of Creativity",
+    "last_proof_snippet": "I think folks would be surprised by how many TV shows and movies today already have some element of AI being used. I spend a lot of time with studio execs and Amazon and Netflix have already both announced programs for fully-AI-generated an",
+    "supporting_takeaway": "AI-generated animations are almost as good as traditional filming but are significantly cheaper and faster to produce.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-30T05:02:44.382243",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Justin Jo",
+      "fetched_at": "2026-07-30T10:02:44.381901+00:00",
+      "cliff_notes": "Justin Jo is an investor who has carved a niche for himself at the intersection of artificial intelligence and media. His work and insights are particularly valuable in understanding how AI is transforming the creation and consumption of media content. Jo has been instrumental in highlighting the cost and time efficiency of AI-generated animations, which are nearly as good as traditional filming but significantly cheaper and quicker. He has also pointed out the challenges faced by early AI video adopters who lacked compelling storytelling skills. Jo's observations are crucial as the industry moves towards professional creatives leveraging AI to unlock new narrative possibilities, an explosion of innovative and engaging stories.",
+      "derived": {
+        "current_role": "Investor"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Justin Jo is an investor who has carved a niche for himself at the intersection of artificial intelligence and media. His work and insights are particularly valuable in understanding how AI is transforming the creation and consumption of media content. Jo has been instrumental in highlighting the cost and time efficiency of AI-generated animations, which are nearly as good as traditional filming but significantly cheaper and quicker.",
+        "He has also pointed out the challenges faced by early AI video adopters who lacked compelling storytelling skills. Jo's observations are crucial as the industry moves towards professional creatives leveraging AI to unlock new narrative possibilities, an explosion of innovative and engaging stories."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Media",
+          "body": "Justin Jo discusses the increasing use of AI in the creation of TV shows and movies, noting the cost and time efficiency compared to traditional methods."
+        },
+        {
+          "heading": "Challenges in AI Video",
+          "body": "He identifies the initial lack of compelling narratives in AI-generated videos due to the absence of professional storytellers in the early stages of AI video adoption."
+        },
+        {
+          "heading": "Future of AI-Generated Content",
+          "body": "Jo anticipates a surge in high-quality, AI-generated content as professional creatives begin to leverage AI, leading to an explosion of innovative and engaging stories."
+        }
+      ]
+    },
+    "net_worth": "$250.0M"
+  },
+  {
+    "id": 361,
+    "name": "Dr. Peter Funkhouser",
+    "slug": "dr-peter-funkhouser",
+    "bio": "Dr. Peter Funkhouser is the co-founder and CEO of Anybotics, a company that specializes in developing four-legged inspection robots, specifically the Anymal. With nearly two decades of experience in robotics, Funkhouser has played a pivotal role in advancing the technology of autonomous robots for critical infrastructure inspection.",
+    "known_for": "Developing the Anymal, a four-legged robot used for inspection in critical infrastructure.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and confident",
+    "voice_style": "Factual and explanatory",
+    "voice_delivery_notes": "Speaks with authority and clarity, emphasizing the practical applications of robotics.",
+    "voice_profile_updated_at": "2026-07-30 10:01:42",
+    "last_seen": "2026-07-30 10:01:42",
+    "last_episode_title": "The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-07-28",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
+    "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
+    "supporting_takeaway": "Boston Dynamics has transitioned from a research lab to focusing on real-world applications with their Spot robot.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-30T05:03:05.635253",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dr. Peter Funkhouser",
+      "fetched_at": "2026-07-30T10:03:05.635107+00:00",
+      "cliff_notes": "Dr. Peter Funkhouser has been a key figure in the field of robotics for nearly 20 years. He co-founded Anybotics, a company that has been instrumental in the development of the Anymal, a four-legged robot designed for inspection in critical infrastructure. The company started as a research lab for the first five years and transitioned into a commercial entity for the last five, focusing on deploying dog-based robots. Funkhouser's work has been crucial in the advancement of autonomous technology, particularly in the realm of inspection and maintenance of industrial facilities, which is a significant area of interest for investors and technology enthusiasts.",
+      "derived": {
+        "current_role": "Co-founder and CEO of Anybotics"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dr. Peter Funkhouser has been a key figure in the field of robotics for nearly 20 years. He co-founded Anybotics, a company that has been instrumental in the development of the Anymal, a four-legged robot designed for inspection in critical infrastructure. The company started as a research lab for the first five years and transitioned into a commercial entity for the last five, focusing on deploying dog-based robots.",
+        "Funkhouser's work has been crucial in the advancement of autonomous technology, particularly in the realm of inspection and maintenance of industrial facilities, which is a significant area of interest for investors and technology enthusiasts."
+      ],
+      "sections": [
+        {
+          "heading": "Robotics Innovation",
+          "body": "Dr. Peter Funkhouser has been at the forefront of robotics innovation, particularly with the development of the Anymal robot, which is used for critical infrastructure inspection."
+        },
+        {
+          "heading": "Autonomous Technology",
+          "body": "Funkhouser's work with Anybotics has contributed significantly to the field of autonomous technology, making inspections of industrial facilities safer and more efficient."
+        },
+        {
+          "heading": "Entrepreneurship in Robotics",
+          "body": "As the co-founder and CEO of Anybotics, Dr. Funkhouser has played a pivotal role in establishing the company as a leader in the field of four-legged inspection robots."
+        }
+      ]
+    }
+  },
+  {
+    "id": 362,
+    "name": "Amanda McMaster",
+    "slug": "amanda-mcmaster",
+    "bio": "Amanda McMaster is the Interim CEO of Boston Dynamics, a leading robotics company renowned for its advanced humanoid robots. She has been instrumental in guiding the company's transition from research to real-world applications, making cutting-edge robotics technology accessible to a broader audience.",
+    "known_for": "Leading Boston Dynamics through a transition from research to real-world applications.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and assertive",
+    "voice_style": "Direct and informative",
+    "voice_delivery_notes": "Speaks with conviction about the company's progress and the potential of robotics.",
+    "voice_profile_updated_at": "2026-07-30 10:01:42",
+    "last_seen": "2026-07-30 10:01:42",
+    "last_episode_title": "The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-07-28",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
+    "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
+    "supporting_takeaway": "Boston Dynamics has transitioned from a research lab to focusing on real-world applications with their Spot robot.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-30T05:03:16.707012",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Amanda McMaster",
+      "fetched_at": "2026-07-30T10:03:16.706867+00:00",
+      "cliff_notes": "Amanda McMaster's career has been marked by her leadership in the robotics industry, particularly at Boston Dynamics. As the Interim CEO, she has played a pivotal role in steering the company from a research-focused entity to one that delivers practical, real-world applications of robotics technology. Her tenure has seen the development and deployment of advanced humanoid robots that have captured the imagination of the public and the interest of investors. Her work at Boston Dynamics has positioned the company at the forefront of the robotics revolution, making her a key figure in the industry's growth and development.",
+      "derived": {
+        "current_role": "Interim CEO of Boston Dynamics"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Amanda McMaster's career has been marked by her leadership in the robotics industry, particularly at Boston Dynamics. As the Interim CEO, she has played a pivotal role in steering the company from a research-focused entity to one that delivers practical, real-world applications of robotics technology. Her tenure has seen the development and deployment of advanced humanoid robots that have captured the imagination of the public and the interest of investors.",
+        "Her work at Boston Dynamics has positioned the company at the forefront of the robotics revolution, making her a key figure in the industry's growth and development."
+      ],
+      "sections": [
+        {
+          "heading": "Leadership at Boston Dynamics",
+          "body": "Amanda McMaster has been at the helm of Boston Dynamics as Interim CEO, overseeing the company's strategic shift from research to practical applications in robotics."
+        },
+        {
+          "heading": "Transition from Research to Applications",
+          "body": "Under McMaster's leadership, Boston Dynamics has successfully transitioned from a research lab to a company that provides real-world solutions with its advanced humanoid robots."
+        },
+        {
+          "heading": "Impact on Robotics Industry",
+          "body": "McMaster's work has had a significant impact on the robotics industry, making Boston Dynamics a household name and a leader in the field of advanced robotics."
+        }
+      ]
+    }
   },
   {
     "id": 360,
@@ -36816,7 +37211,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-15 \u2022 Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
     "last_proof_snippet": "spent a long time in Intel, and only 34 years, 34 years, probably one of the greatest American companies ever, and then, absolutely went off the rails and got absolutely demolished by Nvidia, TSMC, and I guess Apple to a certain extent. So",
@@ -41433,7 +41828,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Invest in companies that demonstrate a capability-bounded approach, reinvestment in growth, and a culture of learning from failures to capitalize on innovation and long-term success.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-12 \u2022 Charles & Chase Koch on How They Quietly Built a $150B Empire",
     "last_proof_snippet": "What an honor to be here. Thank you for hosting us, Forbes, and welcome. This will be put out at the all-in interview. So I'm really excited to share this conversation with everyone on the world, on the internet, and to get some time with C",
@@ -41496,7 +41891,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Invest in companies that demonstrate a capability-bounded approach, reinvestment in growth, and a culture of learning from failures to capitalize on innovation and long-term success.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-12 \u2022 Charles & Chase Koch on How They Quietly Built a $150B Empire",
     "last_proof_snippet": "What an honor to be here. Thank you for hosting us, Forbes, and welcome. This will be put out at the all-in interview. So I'm really excited to share this conversation with everyone on the world, on the internet, and to get some time with C",
@@ -42749,7 +43144,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Steve Helden's candidacy represents a potential shift in California's political landscape towards policies that promote economic freedom and reduced regulatory burdens, which could have implications for businesses and investors in the state.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-29 \u2022 CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
     "last_proof_snippet": "Helden's background as a child of Hungarian refugees and his work experience in various industries shape his policy views.",
@@ -42811,7 +43206,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Investing in companies that optimize AI model architecture and training can lead to significant performance improvements and cost savings.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-29 \u2022 Reiner Pope \u2013 The math behind how LLMs are trained and served",
     "last_proof_snippet": "Batch size significantly impacts latency and cost in AI systems.",
@@ -42871,7 +43266,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Investing in AI CapEx is currently the main focus, with co-investments in hedge funds providing a successful strategy for capturing high returns.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-29 \u2022 From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
     "last_proof_snippet": "Co-investing with hedge funds is a successful strategy Kavanaugh learned from Scott Beston at Soros Fund Management.",
@@ -44700,7 +45095,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-07 \u2022 Michael Nielsen \u2013 How science actually progresses",
     "last_proof_snippet": "The Michelson-Morley experiment was initially aimed at testing theories of the ether, which was a significant concept in physics before the advent of relativity.",
@@ -44761,7 +45156,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-07 \u2022 Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
     "last_proof_snippet": "The recent outperformance of emerging market equities is attributed to a fundamental repricing of relative value and the 'anywhere but US' theme.",
@@ -44821,7 +45216,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-07 \u2022 How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
     "last_proof_snippet": "The company is leveraging AI to design and build living products, which is a novel approach in synthetic biology.",
@@ -46366,7 +46761,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
@@ -46426,7 +46821,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
@@ -46485,7 +46880,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-26 \u2022 Exploring Psychedelics for Longevity and Personal Growth",
     "last_proof_snippet": "Johnson's experience with 5-MEO-DMT was profound, leading to a significant personal reset and a renewed sense of purpose.",

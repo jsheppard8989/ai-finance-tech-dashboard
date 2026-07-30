@@ -897,7 +897,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-13",
     "mention_score": 2,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in sectors poised for growth due to AI adoption, particularly semiconductors and stablecoins, while being cautious about the cyclical nature of capex investments in hyperscaler companies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-13 \u2022 Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show, you'll hear more about hfgm currently the number one morning star rated fund sits its inception in the US macro trading category. Let's",
@@ -1505,6 +1505,184 @@
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 364,
+    "name": "Justin Jo",
+    "slug": "justin-jo",
+    "bio": "Justin Jo is an investor with a focus on AI, new media, and generative media. He is known for his insights on the intersection of AI and media, particularly in the context of TV shows and movies. Jo has spent considerable time with studio executives and has observed the growing use of AI in the entertainment industry.",
+    "known_for": "His expertise in AI-generated animations and the impact on storytelling in the media industry.",
+    "net_worth_usd": 250000000.0,
+    "net_worth_source": "https://www.oreateai.com/blog/understanding-jts-net-worth-a-deep-dive-into-financial-success/038440304a611a384c01343e6d0bc517",
+    "net_worth_updated_at": "2026-07-30T05:02:45.660646",
+    "voice_tone": "Informed and optimistic about the future of AI in entertainment.",
+    "voice_style": "Analytical with a focus on the transformative potential of AI.",
+    "voice_delivery_notes": "Speaks with a steady pace, emphasizing key points about AI's role in content creation.",
+    "voice_profile_updated_at": "2026-07-30 10:02:18",
+    "last_seen": "2026-07-30 10:02:18",
+    "last_episode_title": "AI Micro Dramas, Generative Media, and the Future of Creativity",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-29",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-29 \u2022 AI Micro Dramas, Generative Media, and the Future of Creativity",
+    "last_proof_snippet": "I think folks would be surprised by how many TV shows and movies today already have some element of AI being used. I spend a lot of time with studio execs and Amazon and Netflix have already both announced programs for fully-AI-generated an",
+    "supporting_takeaway": "AI-generated animations are almost as good as traditional filming but are significantly cheaper and faster to produce.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-30T05:02:44.382243",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Justin Jo",
+      "fetched_at": "2026-07-30T10:02:44.381901+00:00",
+      "cliff_notes": "Justin Jo is an investor who has carved a niche for himself at the intersection of artificial intelligence and media. His work and insights are particularly valuable in understanding how AI is transforming the creation and consumption of media content. Jo has been instrumental in highlighting the cost and time efficiency of AI-generated animations, which are nearly as good as traditional filming but significantly cheaper and quicker. He has also pointed out the challenges faced by early AI video adopters who lacked compelling storytelling skills. Jo's observations are crucial as the industry moves towards professional creatives leveraging AI to unlock new narrative possibilities, an explosion of innovative and engaging stories.",
+      "derived": {
+        "current_role": "Investor"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Justin Jo is an investor who has carved a niche for himself at the intersection of artificial intelligence and media. His work and insights are particularly valuable in understanding how AI is transforming the creation and consumption of media content. Jo has been instrumental in highlighting the cost and time efficiency of AI-generated animations, which are nearly as good as traditional filming but significantly cheaper and quicker.",
+        "He has also pointed out the challenges faced by early AI video adopters who lacked compelling storytelling skills. Jo's observations are crucial as the industry moves towards professional creatives leveraging AI to unlock new narrative possibilities, an explosion of innovative and engaging stories."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Media",
+          "body": "Justin Jo discusses the increasing use of AI in the creation of TV shows and movies, noting the cost and time efficiency compared to traditional methods."
+        },
+        {
+          "heading": "Challenges in AI Video",
+          "body": "He identifies the initial lack of compelling narratives in AI-generated videos due to the absence of professional storytellers in the early stages of AI video adoption."
+        },
+        {
+          "heading": "Future of AI-Generated Content",
+          "body": "Jo anticipates a surge in high-quality, AI-generated content as professional creatives begin to leverage AI, leading to an explosion of innovative and engaging stories."
+        }
+      ]
+    },
+    "net_worth": "$250.0M"
+  },
+  {
+    "id": 361,
+    "name": "Dr. Peter Funkhouser",
+    "slug": "dr-peter-funkhouser",
+    "bio": "Dr. Peter Funkhouser is the co-founder and CEO of Anybotics, a company that specializes in developing four-legged inspection robots, specifically the Anymal. With nearly two decades of experience in robotics, Funkhouser has played a pivotal role in advancing the technology of autonomous robots for critical infrastructure inspection.",
+    "known_for": "Developing the Anymal, a four-legged robot used for inspection in critical infrastructure.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and confident",
+    "voice_style": "Factual and explanatory",
+    "voice_delivery_notes": "Speaks with authority and clarity, emphasizing the practical applications of robotics.",
+    "voice_profile_updated_at": "2026-07-30 10:01:42",
+    "last_seen": "2026-07-30 10:01:42",
+    "last_episode_title": "The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-07-28",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
+    "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
+    "supporting_takeaway": "Boston Dynamics has transitioned from a research lab to focusing on real-world applications with their Spot robot.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-30T05:03:05.635253",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dr. Peter Funkhouser",
+      "fetched_at": "2026-07-30T10:03:05.635107+00:00",
+      "cliff_notes": "Dr. Peter Funkhouser has been a key figure in the field of robotics for nearly 20 years. He co-founded Anybotics, a company that has been instrumental in the development of the Anymal, a four-legged robot designed for inspection in critical infrastructure. The company started as a research lab for the first five years and transitioned into a commercial entity for the last five, focusing on deploying dog-based robots. Funkhouser's work has been crucial in the advancement of autonomous technology, particularly in the realm of inspection and maintenance of industrial facilities, which is a significant area of interest for investors and technology enthusiasts.",
+      "derived": {
+        "current_role": "Co-founder and CEO of Anybotics"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dr. Peter Funkhouser has been a key figure in the field of robotics for nearly 20 years. He co-founded Anybotics, a company that has been instrumental in the development of the Anymal, a four-legged robot designed for inspection in critical infrastructure. The company started as a research lab for the first five years and transitioned into a commercial entity for the last five, focusing on deploying dog-based robots.",
+        "Funkhouser's work has been crucial in the advancement of autonomous technology, particularly in the realm of inspection and maintenance of industrial facilities, which is a significant area of interest for investors and technology enthusiasts."
+      ],
+      "sections": [
+        {
+          "heading": "Robotics Innovation",
+          "body": "Dr. Peter Funkhouser has been at the forefront of robotics innovation, particularly with the development of the Anymal robot, which is used for critical infrastructure inspection."
+        },
+        {
+          "heading": "Autonomous Technology",
+          "body": "Funkhouser's work with Anybotics has contributed significantly to the field of autonomous technology, making inspections of industrial facilities safer and more efficient."
+        },
+        {
+          "heading": "Entrepreneurship in Robotics",
+          "body": "As the co-founder and CEO of Anybotics, Dr. Funkhouser has played a pivotal role in establishing the company as a leader in the field of four-legged inspection robots."
+        }
+      ]
+    }
+  },
+  {
+    "id": 362,
+    "name": "Amanda McMaster",
+    "slug": "amanda-mcmaster",
+    "bio": "Amanda McMaster is the Interim CEO of Boston Dynamics, a leading robotics company renowned for its advanced humanoid robots. She has been instrumental in guiding the company's transition from research to real-world applications, making cutting-edge robotics technology accessible to a broader audience.",
+    "known_for": "Leading Boston Dynamics through a transition from research to real-world applications.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and assertive",
+    "voice_style": "Direct and informative",
+    "voice_delivery_notes": "Speaks with conviction about the company's progress and the potential of robotics.",
+    "voice_profile_updated_at": "2026-07-30 10:01:42",
+    "last_seen": "2026-07-30 10:01:42",
+    "last_episode_title": "The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-07-28",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
+    "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
+    "supporting_takeaway": "Boston Dynamics has transitioned from a research lab to focusing on real-world applications with their Spot robot.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-30T05:03:16.707012",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Amanda McMaster",
+      "fetched_at": "2026-07-30T10:03:16.706867+00:00",
+      "cliff_notes": "Amanda McMaster's career has been marked by her leadership in the robotics industry, particularly at Boston Dynamics. As the Interim CEO, she has played a pivotal role in steering the company from a research-focused entity to one that delivers practical, real-world applications of robotics technology. Her tenure has seen the development and deployment of advanced humanoid robots that have captured the imagination of the public and the interest of investors. Her work at Boston Dynamics has positioned the company at the forefront of the robotics revolution, making her a key figure in the industry's growth and development.",
+      "derived": {
+        "current_role": "Interim CEO of Boston Dynamics"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Amanda McMaster's career has been marked by her leadership in the robotics industry, particularly at Boston Dynamics. As the Interim CEO, she has played a pivotal role in steering the company from a research-focused entity to one that delivers practical, real-world applications of robotics technology. Her tenure has seen the development and deployment of advanced humanoid robots that have captured the imagination of the public and the interest of investors.",
+        "Her work at Boston Dynamics has positioned the company at the forefront of the robotics revolution, making her a key figure in the industry's growth and development."
+      ],
+      "sections": [
+        {
+          "heading": "Leadership at Boston Dynamics",
+          "body": "Amanda McMaster has been at the helm of Boston Dynamics as Interim CEO, overseeing the company's strategic shift from research to practical applications in robotics."
+        },
+        {
+          "heading": "Transition from Research to Applications",
+          "body": "Under McMaster's leadership, Boston Dynamics has successfully transitioned from a research lab to a company that provides real-world solutions with its advanced humanoid robots."
+        },
+        {
+          "heading": "Impact on Robotics Industry",
+          "body": "McMaster's work has had a significant impact on the robotics industry, making Boston Dynamics a household name and a leader in the field of advanced robotics."
+        }
+      ]
+    }
   },
   {
     "id": 360,
@@ -2704,7 +2882,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-15 \u2022 Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
     "last_proof_snippet": "spent a long time in Intel, and only 34 years, 34 years, probably one of the greatest American companies ever, and then, absolutely went off the rails and got absolutely demolished by Nvidia, TSMC, and I guess Apple to a certain extent. So",
@@ -7321,7 +7499,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Invest in companies that demonstrate a capability-bounded approach, reinvestment in growth, and a culture of learning from failures to capitalize on innovation and long-term success.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-12 \u2022 Charles & Chase Koch on How They Quietly Built a $150B Empire",
     "last_proof_snippet": "What an honor to be here. Thank you for hosting us, Forbes, and welcome. This will be put out at the all-in interview. So I'm really excited to share this conversation with everyone on the world, on the internet, and to get some time with C",
@@ -7384,7 +7562,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Invest in companies that demonstrate a capability-bounded approach, reinvestment in growth, and a culture of learning from failures to capitalize on innovation and long-term success.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-12 \u2022 Charles & Chase Koch on How They Quietly Built a $150B Empire",
     "last_proof_snippet": "What an honor to be here. Thank you for hosting us, Forbes, and welcome. This will be put out at the all-in interview. So I'm really excited to share this conversation with everyone on the world, on the internet, and to get some time with C",
@@ -8637,7 +8815,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Steve Helden's candidacy represents a potential shift in California's political landscape towards policies that promote economic freedom and reduced regulatory burdens, which could have implications for businesses and investors in the state.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-29 \u2022 CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
     "last_proof_snippet": "Helden's background as a child of Hungarian refugees and his work experience in various industries shape his policy views.",
@@ -8699,7 +8877,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Investing in companies that optimize AI model architecture and training can lead to significant performance improvements and cost savings.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-29 \u2022 Reiner Pope \u2013 The math behind how LLMs are trained and served",
     "last_proof_snippet": "Batch size significantly impacts latency and cost in AI systems.",
@@ -8759,7 +8937,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Investing in AI CapEx is currently the main focus, with co-investments in hedge funds providing a successful strategy for capturing high returns.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-29 \u2022 From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
     "last_proof_snippet": "Co-investing with hedge funds is a successful strategy Kavanaugh learned from Scott Beston at Soros Fund Management.",
@@ -10588,7 +10766,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-07 \u2022 Michael Nielsen \u2013 How science actually progresses",
     "last_proof_snippet": "The Michelson-Morley experiment was initially aimed at testing theories of the ether, which was a significant concept in physics before the advent of relativity.",
@@ -10649,7 +10827,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-07 \u2022 Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
     "last_proof_snippet": "The recent outperformance of emerging market equities is attributed to a fundamental repricing of relative value and the 'anywhere but US' theme.",
@@ -10709,7 +10887,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-07 \u2022 How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
     "last_proof_snippet": "The company is leveraging AI to design and build living products, which is a novel approach in synthetic biology.",
@@ -12254,7 +12432,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
@@ -12314,7 +12492,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
@@ -12373,7 +12551,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-26 \u2022 Exploring Psychedelics for Longevity and Personal Growth",
     "last_proof_snippet": "Johnson's experience with 5-MEO-DMT was profound, leading to a significant personal reset and a renewed sense of purpose.",

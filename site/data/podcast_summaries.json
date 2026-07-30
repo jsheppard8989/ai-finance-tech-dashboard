@@ -1,5 +1,21 @@
 [
   {
+    "id": 375,
+    "podcast_name": "The a16z Show",
+    "episode_title": "AI Micro Dramas, Generative Media, and the Future of Creativity",
+    "episode_date": "2026-07-29",
+    "summary": "In this episode of 'The a16z Show', the discussion revolves around the burgeoning field of AI native entertainment, including AI-generated animations and micro dramas. The guests highlight how AI is transforming the content creation landscape, making it cheaper, faster, and more accessible. They also touch upon the challenges faced by early AI video adopters and the potential for professional creatives to leverage AI to produce compelling narratives. The conversation explores the implications of generative media on the creator economy and the future of storytelling.",
+    "key_takeaways": [
+      "AI is increasingly being used in the creation of TV shows and movies, with Netflix and Amazon leading the charge.",
+      "AI-generated animations are almost as good as traditional filming but are significantly cheaper and faster to produce.",
+      "Professional creatives are beginning to leverage AI to unlock new storytelling opportunities.",
+      "AI is not just changing content creation but also democratizing it, allowing more people to become creators.",
+      "There is a debate on whether AI-generated content should be labeled, reflecting the challenges of transparency in the new media landscape."
+    ],
+    "investment_thesis": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
+    "key_tickers": null
+  },
+  {
     "id": 372,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
@@ -18,6 +34,40 @@
       "META",
       "MSFT"
     ]
+  },
+  {
+    "id": 374,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "Codex from 0 to 10M Users: Building ChatGPT Work \u2014 Akshay Nathan, OpenAI",
+    "episode_date": "2026-07-28",
+    "summary": "In this episode of Latent Space, the AI Engineer Podcast, Akshay from OpenAI discusses the journey of bringing AI technology to the masses. Starting from no-code and low-code platforms, the conversation delves into the evolution of AI, particularly with the advent of Large Language Models (LLMs), and how they democratize coding and database management. Akshay shares insights on the culture at OpenAI, the challenges of enterprise solutions, and the vision of making AI accessible to everyone. The discussion also touches on productivity measurement in the age of AI and the importance of distinguishing between motion and progress.",
+    "key_takeaways": [
+      "AI technology, especially LLMs, has the potential to make coding accessible to non-programmers.",
+      "OpenAI's culture remains startup-like, fostering bottom-up ambition and the ability to execute ideas.",
+      "The mission of bringing frontier intelligence to everyone is consistent, despite the evolution of products and technologies.",
+      "Enterprise solutions require a tailored approach as there is no one-size-fits-all solution.",
+      "Productivity measurement in the AI era is changing, with a focus on achieving goals rather than proxies like lines of code.",
+      "The distinction between motion and progress is crucial for teams to avoid falling into the trap of conflation."
+    ],
+    "investment_thesis": "Investing in AI technology that democratizes coding and database management can lead to significant productivity gains and market opportunities.",
+    "key_tickers": null
+  },
+  {
+    "id": 373,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
+    "episode_date": "2026-07-28",
+    "summary": "This episode of 'All-In with Chamath, Jason, Sacks & Friedberg' features interviews with leaders in the robotics industry, discussing the current state and future of robotics and AI in practical applications. The conversation covers the transition from research to real-world deployment, the advantages of four-legged robot designs, and the emerging job market in robotics. The guests also touch on the potential for AI to automate lab work and the ethical considerations of creating advanced robots.",
+    "key_takeaways": [
+      "Four-legged robot designs are becoming a standard due to their mobility, balance, and stability in various environments.",
+      "Boston Dynamics has transitioned from a research lab to focusing on real-world applications with their Spot robot.",
+      "The Spot robot is currently the most deployed and utilized mobile autonomous robot globally, with applications in industrial inspection.",
+      "There is a growing demand for automation in lab work, indicating a shift towards AI becoming more physical.",
+      "The robotics industry is creating new job opportunities, from high-skilled engineering roles to more practical, blue-collar positions.",
+      "Ethical considerations and safety measures are crucial as AI and robotics become more integrated into society."
+    ],
+    "investment_thesis": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
+    "key_tickers": null
   },
   {
     "id": 371,
@@ -84,54 +134,6 @@
       "Investors' complacency about rising government debt might not last forever, suggesting potential for increased volatility."
     ],
     "investment_thesis": "Contrary to popular belief, private credit and corporate debt are sustainable, and the real risk lies in government debt levels, which could lead to increased market volatility if not addressed.",
-    "key_tickers": null
-  },
-  {
-    "id": 367,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence?",
-    "episode_date": "2026-07-24",
-    "summary": "In this episode of the All-In podcast, the hosts discuss the recent release of China's moonshot AI's Kimmy K3, an open source model that has sparked debate in the United States about banning Chinese open source models. The conversation covers the performance of Kimmy K3 in comparison to models like Opus 4.8 and GPT 5.6, the potential implications for the US AI industry, and the White House's involvement in the matter. The hosts also touch on the potential for a ban on open source models, the rhetoric around the dangers of open source AI, and the importance of the US developing its own competitive open source models.",
-    "key_takeaways": [
-      "China's moonshot AI released the Kimmy K3 model, which is on par with models like Opus 4.8 and GPT 5.6 but is about 50% cheaper.",
-      "There is a debate in the US about banning Chinese open source models, with the White House considering the implications.",
-      "The US government is considering incentivizing US Frontier labs to develop better open source models instead of banning Chinese models.",
-      "Open source AI models are seen as potentially dangerous due to the possibility of removing guardrails.",
-      "The US is winning the AI race due to a lighter regulatory approach and more open development of AI models."
-    ],
-    "investment_thesis": "Investment in US-based AI companies and open source model development could be beneficial due to the potential for bans on Chinese models and the push for US innovation in the AI space.",
-    "key_tickers": null
-  },
-  {
-    "id": 366,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
-    "episode_date": "2026-07-24",
-    "summary": "In this episode of Moonshots with Peter Diamandis, the panel discusses the investment landscape in AI, the potential for AI to revolutionize sectors like healthcare and education, and the impact of AI on human life expectancy. They also touch on the challenges and opportunities presented by AI in academia and innovation, as well as the importance of fostering an optimistic mindset towards technology and the future. The conversation highlights the transformative potential of AI and the need for a new approach to innovation and education.",
-    "key_takeaways": [
-      "AI is poised to revolutionize various sectors, including healthcare and education.",
-      "Investment in AI is not only about technology but also about fostering innovation and human potential.",
-      "The panel argues for a new model of innovation that leverages AI to empower small, ambitious teams.",
-      "AI has the potential to greatly accelerate the pace of scientific discovery and innovation.",
-      "The future of AI will be shaped by how we educate the next generation and inspire them to set ambitious goals."
-    ],
-    "investment_thesis": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
-    "key_tickers": null
-  },
-  {
-    "id": 365,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Sriram Krishnan on Open Source AI's Biggest Week Yet",
-    "episode_date": "2026-07-24",
-    "summary": "The podcast discusses the rapid growth of open-source AI models such as Kimi K3 and Quen 3.8, which are challenging the dominance of existing models. The emergence of these models increases choice for consumers and may put pricing pressure on frontier labs, potentially affecting their gross margins. The show also touches on the security benefits of open-source models and the potential for AI to automate AI research. Additionally, there is a discussion on the US government's possible restrictions on Chinese open-source models due to national security concerns.",
-    "key_takeaways": [
-      "Open-source AI models are growing rapidly, challenging existing models and increasing market competition.",
-      "The rise of open-source models may lead to pricing pressure on frontier labs, affecting their financial health.",
-      "Open-source models could enhance the security of the AI ecosystem due to their transparency and inspection capabilities.",
-      "American frontier labs may need to adapt by improving their models or focusing on their harnesses to maintain a competitive edge.",
-      "The US government may consider restrictions on Chinese open-source models due to national security and cybersecurity concerns."
-    ],
-    "investment_thesis": "Investors should consider the impact of open-source AI models on frontier labs and monitor the security and competitive landscape of AI, as well as potential opportunities in related sectors like cloud computing and data centers.",
     "key_tickers": null
   }
 ]
