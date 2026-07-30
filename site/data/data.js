@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-30T05:05:28.071982",
-  chartsVersion: "2026-07-30T05:05:22.296743",
+  generatedAt: "2026-07-30T06:40:11.664582",
+  chartsVersion: "2026-07-30T06:39:58.675929",
   priceSnapshot: {
   "GOOGL": {
     "price": 336.71,
     "change_pct": -5.73,
     "name": "GOOGL",
-    "updated_at": "2026-07-30T05:05:22.296279"
+    "updated_at": "2026-07-30T06:39:58.674336"
   },
   "NVDA": {
     "price": 190.01,
     "change_pct": -9.93,
     "name": "NVDA",
-    "updated_at": "2026-07-30T05:05:22.296289"
+    "updated_at": "2026-07-30T06:39:58.674354"
   },
   "BTC": {
-    "price": 64505.44,
-    "change_pct": 0.95,
+    "price": 64587.67,
+    "change_pct": 1.08,
     "name": "BTC",
-    "updated_at": "2026-07-30T05:05:22.296293"
+    "updated_at": "2026-07-30T06:39:58.674362"
   },
   "MSFT": {
     "price": 390.54,
     "change_pct": 1.41,
     "name": "MSFT",
-    "updated_at": "2026-07-30T05:05:22.296297"
+    "updated_at": "2026-07-30T06:39:58.674370"
   },
   "TSLA": {
     "price": 298.32,
     "change_pct": -26.84,
     "name": "TSLA",
-    "updated_at": "2026-07-30T05:05:22.296300"
+    "updated_at": "2026-07-30T06:39:58.674377"
   },
   "AMZN": {
     "price": 226.65,
     "change_pct": -7.62,
     "name": "AMZN",
-    "updated_at": "2026-07-30T05:05:22.296303"
+    "updated_at": "2026-07-30T06:39:58.674384"
   },
   "META": {
     "price": 585.61,
     "change_pct": -12.49,
     "name": "META",
-    "updated_at": "2026-07-30T05:05:22.296307"
+    "updated_at": "2026-07-30T06:39:58.674391"
   },
   "WTI": {
     "price": 3.53,
     "change_pct": 4.75,
     "name": "WTI",
-    "updated_at": "2026-07-30T05:05:22.296310"
+    "updated_at": "2026-07-30T06:39:58.674398"
   },
   "S&P 500": {
     "price": 729.46,
     "change_pct": -3.38,
     "name": "S&P 500",
-    "updated_at": "2026-07-30T05:05:22.296313"
+    "updated_at": "2026-07-30T06:39:58.674405"
   },
   "AAPL": {
     "price": 338.19,
     "change_pct": 7.25,
     "name": "AAPL",
-    "updated_at": "2026-07-30T05:05:22.296316"
+    "updated_at": "2026-07-30T06:39:58.674412"
   },
   "QQQ": {
     "price": 661.73,
     "change_pct": -8.79,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-30T05:05:22.296319"
+    "updated_at": "2026-07-30T06:39:58.674418"
   },
   "BTC-USD": {
-    "price": 64505.44,
-    "change_pct": 0.95,
+    "price": 64587.67,
+    "change_pct": 1.08,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-30T05:05:22.296323"
+    "updated_at": "2026-07-30T06:39:58.674426"
   }
 },
   tickerScores: [
@@ -34087,7 +34087,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 40394,
+    "id": 40501,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -34099,7 +34099,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40395,
+    "id": 40502,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -34111,7 +34111,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40396,
+    "id": 40503,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -34123,7 +34123,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40397,
+    "id": 40504,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -34135,7 +34135,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 40398,
+    "id": 40505,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -34147,7 +34147,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40399,
+    "id": 40506,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -34159,7 +34159,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40400,
+    "id": 40507,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -34171,7 +34171,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40401,
+    "id": 40508,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -34183,7 +34183,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40402,
+    "id": 40509,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -34195,7 +34195,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40403,
+    "id": 40510,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -34207,7 +34207,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40404,
+    "id": 40511,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -34219,7 +34219,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40405,
+    "id": 40512,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -34231,7 +34231,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40406,
+    "id": 40513,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -34243,7 +34243,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40407,
+    "id": 40514,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -34255,7 +34255,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40408,
+    "id": 40515,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -34267,7 +34267,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40409,
+    "id": 40516,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -34279,7 +34279,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40410,
+    "id": 40517,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -34291,7 +34291,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40411,
+    "id": 40518,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -34303,7 +34303,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40412,
+    "id": 40519,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -34315,7 +34315,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40413,
+    "id": 40520,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -34405,7 +34405,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-15",
     "mention_score": 4,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Nvidia's role in the transformation of electrons to valuable tokens and the acceleration of computing tasks positions it well in the AI and broader technology market.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-15 \u2022 Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
     "last_proof_snippet": "Nvidia has built a large ecosystem of partners across the supply chain and in application development.",
@@ -34905,7 +34905,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
@@ -36339,7 +36339,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-23 \u2022 Building the Physical AI Stack | Travis Kalanick on TBPN",
     "last_proof_snippet": "Travis Kelenick joins TVPN to discuss why he's betting his next company on industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",
@@ -39410,7 +39410,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Invest in Axiom Math for its pioneering role in verified AI for mathematics, which has the potential to drive innovation and efficiency in problem-solving across various fields.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
     "last_proof_snippet": "But it's for the first time now I think verified AI is to open up collaboration. Either it's human AI collaboration. Well, before a blueprint like that's human human collaboration. And Lin was a grounding, was a verification formal language",
@@ -48068,7 +48068,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-17 \u2022 Stealth Startups and the Digitization of the Physical World",
     "last_proof_snippet": "I don't know if some of you knew I was an angel investor in some companies. On the count of three, what's my favorite angel investment of all time? One, two, three. Thank you. Give it up. Travis Kalenik. Appreciate you. Alright. Wow. On a b",
