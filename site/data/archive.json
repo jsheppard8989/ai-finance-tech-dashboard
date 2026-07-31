@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 392,
+      "title": "How Enterprise AI Really Gets Deployed",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-31",
+      "summary": "In this episode of the a16z Show, Sarah Wang and Kimberly Tan interview Decagon co-founders Jesse Zang and Ashwin Srinivas about their shift to open source AI models and their vision for AI in enterprise software. They discuss the importance of latency and control in AI models, the productization of AI, and the potential for AI to reshape customer support and other enterprise functions. The conversation also touches on the rapid sales cycles in enterprise AI and the potential for AI to create new job opportunities rather than simply replacing existing ones.",
+      "key_takeaway": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-31",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 377
+    },
+    {
       "id": 391,
       "title": "AI for America's Small Businesses | Lassie",
       "source_type": "podcast",
@@ -167,7 +186,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-26",
       "archived_date": null,
@@ -7943,20 +7962,20 @@
     {
       "id": 11,
       "term": "Jevon's Paradox",
-      "description": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
+      "description": "The phenomenon where technological progress that increases the efficiency of a resource can lead to an increase in the rate of consumption of that resource, rather than a decrease.",
       "first_detected_date": "2026-05-30",
-      "last_mentioned_date": "2026-07-19",
-      "mention_count": 10,
+      "last_mentioned_date": "2026-07-31",
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "As AI makes computation cheaper, total compute demand may explode\u2014benefiting chip makers, data centers, and power providers despite efficiency gains.",
+      "investment_implications": "In the context of AI, Jevon's Paradox suggests that as AI becomes more efficient, the demand for AI services may increase, leading to more job creation rather than job displacement.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 249,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 356,
-      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo"
+      "last_mentioned_episode_id": 377,
+      "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas"
     },
     {
       "id": 100,
@@ -8197,8 +8216,8 @@
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-30",
-      "mention_count": 64,
+      "last_mentioned_date": "2026-07-31",
+      "mention_count": 65,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -8207,8 +8226,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 376,
-      "last_mentioned_speaker": "Stine Pella, Frederick Brinkett"
+      "last_mentioned_episode_id": 377,
+      "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas"
     },
     {
       "id": 162,
@@ -8717,20 +8736,20 @@
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models that are publicly accessible and allow for community involvement in their development and improvement.",
+      "description": "AI models that are publicly available and can be modified and used by anyone, offering more control and customization compared to proprietary models.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-07-26",
-      "mention_count": 13,
+      "last_mentioned_date": "2026-07-31",
+      "mention_count": 14,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Open-source AI models can lead to more secure and innovative technologies, influencing investment decisions in the AI sector.",
+      "investment_implications": "Open-source AI models can provide enterprises with the flexibility to tailor AI solutions to their specific needs, potentially offering a competitive advantage.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 369,
-      "last_mentioned_speaker": "Ben Horowitz"
+      "last_mentioned_episode_id": 377,
+      "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas"
     },
     {
       "id": 79,
@@ -9295,8 +9314,8 @@
       "term": "AI Agents",
       "description": "Software programs designed to perform tasks autonomously, mimicking human actions in a digital environment.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-07-30",
-      "mention_count": 53,
+      "last_mentioned_date": "2026-07-31",
+      "mention_count": 54,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AI Agents have the potential to significantly reduce labor costs and increase efficiency in various sectors, particularly in administrative tasks.",
@@ -9305,8 +9324,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 376,
-      "last_mentioned_speaker": "Stine Pella, Frederick Brinkett"
+      "last_mentioned_episode_id": 377,
+      "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas"
     },
     {
       "id": 38,
@@ -9455,20 +9474,20 @@
     {
       "id": 32,
       "term": "AI Agent Orchestration",
-      "description": "The management and coordination of AI agents to perform tasks and interact with the world, simulating human-like decision-making processes.",
+      "description": "The process of managing and coordinating the actions of AI agents to optimize their performance in tasks such as customer support and business processes.",
       "first_detected_date": "2026-02-18",
-      "last_mentioned_date": "2026-07-13",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-07-31",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Look for companies that excel in orchestrating AI agents to enhance customer journeys and operations.",
+      "investment_implications": "Investing in companies that excel at AI agent orchestration can lead to more efficient and effective AI implementations, driving business value.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 69,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 345,
-      "last_mentioned_speaker": "Max"
+      "last_mentioned_episode_id": 377,
+      "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas"
     },
     {
       "id": 13,

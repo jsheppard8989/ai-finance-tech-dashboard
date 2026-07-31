@@ -1,5 +1,22 @@
 [
   {
+    "id": 377,
+    "podcast_name": "The a16z Show",
+    "episode_title": "How Enterprise AI Really Gets Deployed",
+    "episode_date": "2026-07-31",
+    "summary": "In this episode of the a16z Show, Sarah Wang and Kimberly Tan interview Decagon co-founders Jesse Zang and Ashwin Srinivas about their shift to open source AI models and their vision for AI in enterprise software. They discuss the importance of latency and control in AI models, the productization of AI, and the potential for AI to reshape customer support and other enterprise functions. The conversation also touches on the rapid sales cycles in enterprise AI and the potential for AI to create new job opportunities rather than simply replacing existing ones.",
+    "key_takeaways": [
+      "AI agents should handle all customer interactions in a business.",
+      "Anthropic and OpenAI dominated the AI narrative in 2026, but their models may not always be the best fit for enterprise needs.",
+      "Decagon shifted to open source AI models for better control and performance on specific tasks.",
+      "Enterprise AI breakthroughs are happening in the products built around foundation models, not just within the models themselves.",
+      "AI can increase the speed of business processes and enable new revenue-generating opportunities.",
+      "AI may kill certain jobs, but it can also create new career opportunities by freeing up humans to focus on more complex tasks."
+    ],
+    "investment_thesis": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
+    "key_tickers": null
+  },
+  {
     "id": 376,
     "podcast_name": "The a16z Show",
     "episode_title": "AI for America's Small Businesses | Lassie",
@@ -117,23 +134,6 @@
       "Recognize the incremental approach from structured to semi-structured environments in robotics applications."
     ],
     "investment_thesis": "Invest in companies at the forefront of spatial intelligence development, as they are poised to shape the future of AI and robotics.",
-    "key_tickers": null
-  },
-  {
-    "id": 368,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Debt Service Coverage in Private Markets Is Improving, Actually | Nicholas Brooks",
-    "episode_date": "2026-07-26",
-    "summary": "In this episode of Monetary Matters, Jack Farley interviews Nick Brooks, head of economic and investment research at Intermediate Capital Group (ICG), to discuss private credit and corporate balance sheets. Contrary to recent negative press, Brooks argues that debt levels are sustainable, corporate balance sheets are healthy, and the real financial risk lies elsewhere. They also delve into the impact of geopolitical events on markets, the resilience of earnings growth, and the potential risks associated with government debt.",
-    "key_takeaways": [
-      "Private credit has been under fire, but Brooks believes current debt levels are sustainable.",
-      "Corporate balance sheets are healthy despite recent negative press about private credit.",
-      "The financial risk Brooks is most concerned about stems from sources other than private credit.",
-      "Markets have remained resilient due to strong earnings growth, which has held up well amidst geopolitical noise.",
-      "Government debt, not corporate or household debt, is where Brooks sees the biggest medium-term risk.",
-      "Investors' complacency about rising government debt might not last forever, suggesting potential for increased volatility."
-    ],
-    "investment_thesis": "Contrary to popular belief, private credit and corporate debt are sustainable, and the real risk lies in government debt levels, which could lead to increased market volatility if not addressed.",
     "key_tickers": null
   }
 ]

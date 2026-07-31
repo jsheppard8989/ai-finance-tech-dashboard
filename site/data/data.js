@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-31T12:06:58.870954",
-  chartsVersion: "2026-07-31T12:06:44.422271",
+  generatedAt: "2026-07-31T13:42:13.306892",
+  chartsVersion: "2026-07-31T13:42:02.860665",
   priceSnapshot: {
   "GOOGL": {
-    "price": 353.13,
-    "change_pct": -1.77,
+    "price": 355.44,
+    "change_pct": -1.13,
     "name": "GOOGL",
-    "updated_at": "2026-07-31T12:06:44.421037"
+    "updated_at": "2026-07-31T13:42:02.859907"
   },
   "NVDA": {
-    "price": 198.41,
-    "change_pct": -6.32,
+    "price": 198.72,
+    "change_pct": -6.18,
     "name": "NVDA",
-    "updated_at": "2026-07-31T12:06:44.421058"
+    "updated_at": "2026-07-31T13:42:02.859920"
   },
   "BTC": {
-    "price": 62758.89,
-    "change_pct": -3.14,
+    "price": 62900.55,
+    "change_pct": -2.93,
     "name": "BTC",
-    "updated_at": "2026-07-31T12:06:44.421068"
+    "updated_at": "2026-07-31T13:42:02.859926"
   },
   "MSFT": {
-    "price": 461.8,
-    "change_pct": 19.97,
+    "price": 462.39,
+    "change_pct": 20.12,
     "name": "MSFT",
-    "updated_at": "2026-07-31T12:06:44.421076"
+    "updated_at": "2026-07-31T13:42:02.859931"
   },
   "TSLA": {
-    "price": 310.86,
-    "change_pct": -21.54,
+    "price": 310.39,
+    "change_pct": -21.66,
     "name": "TSLA",
-    "updated_at": "2026-07-31T12:06:44.421085"
+    "updated_at": "2026-07-31T13:42:02.859936"
   },
   "AMZN": {
-    "price": 271.16,
-    "change_pct": 9.56,
+    "price": 270.63,
+    "change_pct": 9.35,
     "name": "AMZN",
-    "updated_at": "2026-07-31T12:06:44.421093"
+    "updated_at": "2026-07-31T13:42:02.859940"
   },
   "META": {
-    "price": 549.38,
-    "change_pct": -16.89,
+    "price": 549.76,
+    "change_pct": -16.83,
     "name": "META",
-    "updated_at": "2026-07-31T12:06:44.421102"
+    "updated_at": "2026-07-31T13:42:02.859945"
   },
   "WTI": {
-    "price": 3.54,
-    "change_pct": -1.39,
+    "price": 3.58,
+    "change_pct": -0.42,
     "name": "WTI",
-    "updated_at": "2026-07-31T12:06:44.421110"
+    "updated_at": "2026-07-31T13:42:02.859949"
   },
   "S&P 500": {
-    "price": 745.05,
-    "change_pct": -0.9,
+    "price": 745.93,
+    "change_pct": -0.78,
     "name": "S&P 500",
-    "updated_at": "2026-07-31T12:06:44.421119"
+    "updated_at": "2026-07-31T13:42:02.859954"
   },
   "AAPL": {
-    "price": 301.7,
-    "change_pct": -4.18,
+    "price": 302.02,
+    "change_pct": -4.08,
     "name": "AAPL",
-    "updated_at": "2026-07-31T12:06:44.421127"
+    "updated_at": "2026-07-31T13:42:02.859958"
   },
   "QQQ": {
-    "price": 687.64,
-    "change_pct": -4.45,
+    "price": 688.58,
+    "change_pct": -4.32,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-31T12:06:44.421135"
+    "updated_at": "2026-07-31T13:42:02.859962"
   },
   "BTC-USD": {
-    "price": 62753.63,
-    "change_pct": -3.15,
+    "price": 62900.55,
+    "change_pct": -2.93,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-31T12:06:44.421145"
+    "updated_at": "2026-07-31T13:42:02.859967"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 392,
+      "title": "How Enterprise AI Really Gets Deployed",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-31",
+      "summary": "In this episode of the a16z Show, Sarah Wang and Kimberly Tan interview Decagon co-founders Jesse Zang and Ashwin Srinivas about their shift to open source AI models and their vision for AI in enterprise software. They discuss the importance of latency and control in AI models, the productization of AI, and the potential for AI to reshape customer support and other enterprise functions. The conversation also touches on the rapid sales cycles in enterprise AI and the potential for AI to create new job opportunities rather than simply replacing existing ones.",
+      "key_takeaway": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-31",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 377
+    },
+    {
       "id": 391,
       "title": "AI for America's Small Businesses | Lassie",
       "source_type": "podcast",
@@ -1000,7 +1019,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-26",
       "archived_date": null,
@@ -8776,20 +8795,20 @@ const dashboardData = {
     {
       "id": 11,
       "term": "Jevon's Paradox",
-      "description": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
+      "description": "The phenomenon where technological progress that increases the efficiency of a resource can lead to an increase in the rate of consumption of that resource, rather than a decrease.",
       "first_detected_date": "2026-05-30",
-      "last_mentioned_date": "2026-07-19",
-      "mention_count": 10,
+      "last_mentioned_date": "2026-07-31",
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "As AI makes computation cheaper, total compute demand may explode\u2014benefiting chip makers, data centers, and power providers despite efficiency gains.",
+      "investment_implications": "In the context of AI, Jevon's Paradox suggests that as AI becomes more efficient, the demand for AI services may increase, leading to more job creation rather than job displacement.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 249,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 356,
-      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo"
+      "last_mentioned_episode_id": 377,
+      "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas"
     },
     {
       "id": 100,
@@ -9030,8 +9049,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-30",
-      "mention_count": 64,
+      "last_mentioned_date": "2026-07-31",
+      "mention_count": 65,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -9040,8 +9059,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 376,
-      "last_mentioned_speaker": "Stine Pella, Frederick Brinkett"
+      "last_mentioned_episode_id": 377,
+      "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas"
     },
     {
       "id": 162,
@@ -9550,20 +9569,20 @@ const dashboardData = {
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models that are publicly accessible and allow for community involvement in their development and improvement.",
+      "description": "AI models that are publicly available and can be modified and used by anyone, offering more control and customization compared to proprietary models.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-07-26",
-      "mention_count": 13,
+      "last_mentioned_date": "2026-07-31",
+      "mention_count": 14,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Open-source AI models can lead to more secure and innovative technologies, influencing investment decisions in the AI sector.",
+      "investment_implications": "Open-source AI models can provide enterprises with the flexibility to tailor AI solutions to their specific needs, potentially offering a competitive advantage.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 369,
-      "last_mentioned_speaker": "Ben Horowitz"
+      "last_mentioned_episode_id": 377,
+      "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas"
     },
     {
       "id": 79,
@@ -10128,8 +10147,8 @@ const dashboardData = {
       "term": "AI Agents",
       "description": "Software programs designed to perform tasks autonomously, mimicking human actions in a digital environment.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-07-30",
-      "mention_count": 53,
+      "last_mentioned_date": "2026-07-31",
+      "mention_count": 54,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AI Agents have the potential to significantly reduce labor costs and increase efficiency in various sectors, particularly in administrative tasks.",
@@ -10138,8 +10157,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 376,
-      "last_mentioned_speaker": "Stine Pella, Frederick Brinkett"
+      "last_mentioned_episode_id": 377,
+      "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas"
     },
     {
       "id": 38,
@@ -10288,20 +10307,20 @@ const dashboardData = {
     {
       "id": 32,
       "term": "AI Agent Orchestration",
-      "description": "The management and coordination of AI agents to perform tasks and interact with the world, simulating human-like decision-making processes.",
+      "description": "The process of managing and coordinating the actions of AI agents to optimize their performance in tasks such as customer support and business processes.",
       "first_detected_date": "2026-02-18",
-      "last_mentioned_date": "2026-07-13",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-07-31",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Look for companies that excel in orchestrating AI agents to enhance customer journeys and operations.",
+      "investment_implications": "Investing in companies that excel at AI agent orchestration can lead to more efficient and effective AI implementations, driving business value.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 69,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 345,
-      "last_mentioned_speaker": "Max"
+      "last_mentioned_episode_id": 377,
+      "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas"
     },
     {
       "id": 13,
@@ -10403,6 +10422,26 @@ const dashboardData = {
 },
   mainContent: {
   "insights": [
+    {
+      "id": 392,
+      "title": "How Enterprise AI Really Gets Deployed",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-07-31",
+      "summary": "In this episode of the a16z Show, Sarah Wang and Kimberly Tan interview Decagon co-founders Jesse Zang and Ashwin Srinivas about their shift to open source AI models and their vision for AI in enterprise software. They discuss the importance of latency and control in AI models, the productization of AI, and the potential for AI to reshape customer support and other enterprise functions. The conversation also touches on the rapid sales cycles in enterprise AI and the potential for AI to create new job opportunities rather than simply replacing existing ones.",
+      "key_takeaway": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-31",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 377,
+      "episode_release_date": "2026-07-31",
+      "guest_name": null,
+      "key_tickers": []
+    },
     {
       "id": 391,
       "title": "AI for America's Small Businesses | Lassie",
@@ -10545,26 +10584,6 @@ const dashboardData = {
       "episode_release_date": "2026-07-28",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 384,
-      "title": "Debt Service Coverage in Private Markets Is Improving, Actually | Nicholas Brooks",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-07-26",
-      "summary": "In this episode of Monetary Matters, Jack Farley interviews Nick Brooks, head of economic and investment research at Intermediate Capital Group (ICG), to discuss private credit and corporate balance sheets. Contrary to recent negative press, Brooks argues that debt levels are sustainable, corporate balance sheets are healthy, and the real financial risk lies elsewhere. They also delve into the impact of geopolitical events on markets, the resilience of earnings growth, and the potential risks associated with government debt.",
-      "key_takeaway": "Contrary to popular belief, private credit and corporate debt are sustainable, and the real risk lies in government debt levels, which could lead to increased market volatility if not addressed.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-26",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 368,
-      "episode_release_date": "2026-07-26",
-      "guest_name": null,
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -10695,8 +10714,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-30",
-      "mention_count": 64,
+      "last_mentioned_date": "2026-07-31",
+      "mention_count": 65,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -10705,16 +10724,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 376,
-      "last_mentioned_speaker": "Stine Pella, Frederick Brinkett",
-      "overton_score": 62.54,
+      "last_mentioned_episode_id": 377,
+      "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas",
+      "overton_score": 65.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
       "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "AI for America's Small Businesses | Lassie",
-      "last_mentioned_episode_date": "2026-07-30"
+      "last_mentioned_episode_title": "How Enterprise AI Really Gets Deployed",
+      "last_mentioned_episode_date": "2026-07-31"
     },
     {
       "id": 10,
@@ -10769,6 +10788,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-07-28"
     },
     {
+      "id": 11,
+      "term": "Jevon's Paradox",
+      "description": "The phenomenon where technological progress that increases the efficiency of a resource can lead to an increase in the rate of consumption of that resource, rather than a decrease.",
+      "first_detected_date": "2026-05-30",
+      "last_mentioned_date": "2026-07-31",
+      "mention_count": 11,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "In the context of AI, Jevon's Paradox suggests that as AI becomes more efficient, the demand for AI services may increase, leading to more job creation rather than job displacement.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 249,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 377,
+      "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas",
+      "overton_score": 11.0,
+      "resonance_pct": 100,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
+      "first_detected_episode_date": "2026-05-30",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "How Enterprise AI Really Gets Deployed",
+      "last_mentioned_episode_date": "2026-07-31"
+    },
+    {
       "id": 254,
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
@@ -10793,32 +10838,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Monetary Matters with Jack Farley",
       "last_mentioned_episode_title": "Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
       "last_mentioned_episode_date": "2026-07-29"
-    },
-    {
-      "id": 11,
-      "term": "Jevon's Paradox",
-      "description": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
-      "first_detected_date": "2026-05-30",
-      "last_mentioned_date": "2026-07-19",
-      "mention_count": 10,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "As AI makes computation cheaper, total compute demand may explode\u2014benefiting chip makers, data centers, and power providers despite efficiency gains.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 249,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": 356,
-      "last_mentioned_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo",
-      "overton_score": 7.58,
-      "resonance_pct": 100,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
-      "first_detected_episode_date": "2026-05-30",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
-      "last_mentioned_episode_date": "2026-07-19"
     },
     {
       "id": 255,
@@ -34101,6 +34120,55 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-07-30",
     "key_tickers": []
+  },
+  "392": {
+    "id": 382,
+    "insight_id": 392,
+    "podcast_episode_id": 377,
+    "overview": "The competitive dynamic in enterprise AI deployment is centered on the trade-off between the general intelligence of proprietary models and the task-specific optimization and latency benefits of open source models. The unresolved tension is whether the flexibility and control offered by open source models, which allow for better customization and performance on specific tasks, will outweigh the convenience and broad capabilities of proprietary models. What converts belief in this dynamic is the ability of enterprises to successfully implement and maintain open source models at scale, demonstrating clear advantages in latency, cost, and performance.",
+    "key_takeaways_detailed": [
+      "Enterprises that can effectively leverage open source AI models may gain a significant competitive edge through improved latency and cost efficiency, provided they have the expertise to fine-tune these models for specific tasks.",
+      "The continuous evolution of AI models requires enterprises to invest in ongoing model training and deprecation, suggesting a need for in-house expertise or partnerships with AI labs.",
+      "Investors should monitor the development of in-house AI capabilities within enterprises as a signal of their commitment to leveraging open source models and their potential to disrupt traditional enterprise software.",
+      "The success of open source AI models in enterprise deployment could lead to a shift in the demand for AI talent, favoring those with skills in model fine-tuning and deployment over general AI expertise."
+    ],
+    "investment_thesis": "Investing in enterprises that are successfully adopting and optimizing open source AI models could yield significant returns, as these companies are likely to outperform competitors in terms of latency and cost efficiency. The thesis is vindicated if these enterprises can demonstrate sustained improvements in customer support and other enterprise functions through the use of open source AI, and if there is a observable shift in the AI talent market towards specialists in model fine-tuning. Conversely, if enterprises struggle to maintain the performance and security of open source models, or if the benefits do not materialize as expected, the investment thesis would be invalidated.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI and machine learning, particularly in services like Siri, makes it relevant to the thesis as the company could benefit from the improved performance and customization of open source AI models.",
+        "positioning": "Positioning should be strategic, focusing on Apple's long-term potential to integrate open source AI models into its ecosystem, enhancing user experience and differentiating its products.",
+        "risk": "Key risks include the potential for security vulnerabilities in open source models and the possibility that Apple may not successfully integrate or maintain these models at scale."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that proprietary models offer a more stable and secure platform for enterprise AI, which could lead to a preference for these models despite the benefits of open source.",
+      "Concerns that the complexity of maintaining and updating open source models could outweigh the benefits for some enterprises, particularly those lacking in-house AI expertise.",
+      "The possibility that the rapid evolution of AI models could lead to a scenario where no single model or approach dominates, making it difficult for enterprises to standardize on open source."
+    ],
+    "catalysts": [
+      "The release of new open source AI models that demonstrate significant improvements in performance on specific tasks.",
+      "Enterprises announcing successful implementations of open source AI models, leading to measurable improvements in latency and cost efficiency.",
+      "A significant security breach or failure in a proprietary AI model, which could shift enterprise preferences towards the perceived safety of open source models.",
+      "Regulatory developments that favor open source models, such as new data privacy laws that restrict the use of proprietary models."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-31T13:41:06.217689",
+    "updated_at": "2026-07-31 18:41:06",
+    "episode_evidence": "Decagon's shift to open source AI models was driven by the need for better latency and control, as highlighted by Jesse Zang: 'the only way to get latency down, but also kind of make our agent operate the way we wanted to, is to use smaller models.' This decision was not just about cost but also about performance, as Ashwin Srinivas explained: 'on the specific tasks we want them to do, they actually outperform the large smart state of the optimal.' The company's workflow now relies heavily on open source, with 90% of it being on open source models, which has led to improvements in how the voice agents sound and feel, while maintaining high accuracy. Decagon's approach to AI deployment also involves continuous model training and deprecation as the model landscape changes, which is a dynamic process: 'you often need to train new models all the time, because as the frontier changes, as the capability of the models changes, you come up with new use cases for them.'",
+    "falsification_tracks": [
+      "If the latency of open source models increases significantly, making them less competitive than proprietary models, the thesis of latency benefits from open source would be weakened.",
+      "Should open source models fail to maintain or improve their performance on specific tasks compared to proprietary models, the advantage of using open source for task-specific optimization would be challenged.",
+      "If enterprises widely adopt in-house model training with open source and experience higher costs or lower performance than anticipated, the cost and performance benefits of open source models could be questioned."
+    ],
+    "insight_title": "How Enterprise AI Really Gets Deployed",
+    "source_name": "The a16z Show",
+    "source_date": "2026-07-31",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -34155,7 +34223,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 40824,
+    "id": 40932,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -34167,7 +34235,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40825,
+    "id": 40933,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -34179,7 +34247,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40826,
+    "id": 40934,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -34191,7 +34259,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40827,
+    "id": 40935,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -34203,7 +34271,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40828,
+    "id": 40936,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -34215,7 +34283,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 40829,
+    "id": 40937,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -34227,7 +34295,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40830,
+    "id": 40938,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -34239,7 +34307,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40831,
+    "id": 40939,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -34251,7 +34319,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40832,
+    "id": 40940,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -34263,7 +34331,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40833,
+    "id": 40941,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -34275,7 +34343,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40834,
+    "id": 40942,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -34287,7 +34355,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40835,
+    "id": 40943,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -34299,7 +34367,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40836,
+    "id": 40944,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -34311,7 +34379,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40837,
+    "id": 40945,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -34323,7 +34391,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40838,
+    "id": 40946,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -34335,7 +34403,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40839,
+    "id": 40947,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -34347,7 +34415,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40840,
+    "id": 40948,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -34359,7 +34427,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40841,
+    "id": 40949,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -34371,7 +34439,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40842,
+    "id": 40950,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -34383,7 +34451,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 40843,
+    "id": 40951,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -35033,7 +35101,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -35171,7 +35239,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -35359,7 +35427,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-07",
     "mention_score": 2,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
@@ -35944,6 +36012,130 @@ const dashboardData = {
     }
   },
   {
+    "id": 367,
+    "name": "Jesse Zang",
+    "slug": "jesse-zang",
+    "bio": "Jesse Zang is the co-founder of Decagon, a company that specializes in AI-driven enterprise software. He is known for shifting Decagon's AI stack to open source models, which has resulted in better performance and control. Zang believes in the significance of AI in every interaction within a business and has been a proponent of using AI to handle customer support and business processes.",
+    "known_for": "Shifting Decagon's AI stack to open source models for enhanced performance and control.",
+    "net_worth_usd": 1500000000.0,
+    "net_worth_source": "https://founderspedia.com/jesse-zhang/",
+    "net_worth_updated_at": "2026-07-31T13:40:20.036553",
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Factual and persuasive",
+    "voice_delivery_notes": "Clear and concise with a focus on the benefits of open source AI models",
+    "voice_profile_updated_at": "2026-07-31 18:39:09",
+    "last_seen": "2026-07-31 18:39:09",
+    "last_episode_title": "How Enterprise AI Really Gets Deployed",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-31",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
+    "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
+    "supporting_takeaway": "Anthropic and OpenAI dominated the AI narrative in 2026, but their models may not always be the best fit for enterprise needs.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-31T13:40:19.193357",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jesse Zang",
+      "fetched_at": "2026-07-31T18:40:19.193203+00:00",
+      "cliff_notes": "Jesse Zang is recognized for his work in the field of artificial intelligence, particularly in the context of enterprise software. As the co-founder of Decagon, Zang has been instrumental in the company's shift towards utilizing open source AI models, which has led to improved performance and control over their AI systems. His vision for AI's role in business extends beyond simple customer support, advocating for AI to manage and optimize business processes effectively. Zang's contributions to the field have been significant, as he promotes the idea that even with the advent of advanced general AI, there will still be a need for specialized software like Decagon's to manage and execute complex tasks.",
+      "derived": {
+        "current_role": "Co-founder of Decagon"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Jesse Zang is recognized for his work in the field of artificial intelligence, particularly in the context of enterprise software. As the co-founder of Decagon, Zang has been instrumental in the company's shift towards utilizing open source AI models, which has led to improved performance and control over their AI systems.",
+        "His vision for AI's role in business extends beyond simple customer support, advocating for AI to manage and optimize business processes effectively. Zang's contributions to the field have been significant, as he promotes the idea that even with the advent of advanced general AI, there will still be a need for specialized software like Decagon's to manage and execute complex tasks."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Enterprise Software",
+          "body": "Jesse Zang has been a key figure in the integration of AI within enterprise software, emphasizing the importance of open source models for better control and performance."
+        },
+        {
+          "heading": "Open Source AI Models",
+          "body": "Zang is known for advocating the use of open source AI models at Decagon, which has led to superior performance in specific tasks compared to large proprietary models."
+        },
+        {
+          "heading": "AI and Business Processes",
+          "body": "Believing in the potential of AI to revolutionize business processes, Zang has positioned Decagon to create AI agents that can efficiently manage and execute complex business."
+        },
+        {
+          "heading": "Future of AI",
+          "body": "Jesse Zang contemplates the future of AI, suggesting that even with the development of advanced general AI, there will be a continued need for specialized software to handle specific business tasks."
+        }
+      ]
+    },
+    "net_worth": "$1.50B"
+  },
+  {
+    "id": 368,
+    "name": "Ashwin Srinivas",
+    "slug": "ashwin-srinivas",
+    "bio": "Ashwin Srinivas is a tech entrepreneur known for his work in AI and enterprise software. As co-founder of Decagon, he has focused on driving the productization and deployment of AI within large enterprises. His recent discussions revolve around the role of AI in business processes and the future of AI in enterprise software.",
+    "known_for": "Driving the productization and deployment of AI within large enterprises.",
+    "net_worth_usd": 32299999.999999996,
+    "net_worth_source": "https://www.analyticsinsight.net/business/aravind-srinivas-net-worth-startup-success-investment-highlights-career",
+    "net_worth_updated_at": "2026-07-31T13:40:29.337202",
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Factual and persuasive",
+    "voice_delivery_notes": "Clear and concise with a focus on the benefits of productized AI",
+    "voice_profile_updated_at": "2026-07-31 18:39:09",
+    "last_seen": "2026-07-31 18:39:09",
+    "last_episode_title": "How Enterprise AI Really Gets Deployed",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-31",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
+    "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
+    "supporting_takeaway": "Anthropic and OpenAI dominated the AI narrative in 2026, but their models may not always be the best fit for enterprise needs.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-31T13:40:28.203701",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ashwin Srinivas",
+      "fetched_at": "2026-07-31T18:40:28.203551+00:00",
+      "cliff_notes": "Ashwin Srinivas is recognized for his contributions to the field of AI, particularly in the context of enterprise software. As the co-founder of Decagon, Srinivas has been at the forefront of integrating AI into business processes, aiming to enhance efficiency and effectiveness. His work underscores the importance of AI not just as a tool for customer support, but as a fundamental component of business operations. Srinivas envisions a future where AI agents are integral to every interaction within a business, whether reactive or proactive. His insights into the limitations of current AI models and the necessity for more controlled, task-specific AI solutions have positioned him as a thought leader in the industry.",
+      "derived": {
+        "current_role": "Co-founder of Decagon"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ashwin Srinivas is recognized for his contributions to the field of AI, particularly in the context of enterprise software. As the co-founder of Decagon, Srinivas has been at the forefront of integrating AI into business processes, aiming to enhance efficiency and effectiveness. His work underscores the importance of AI not just as a tool for customer support, but as a fundamental component of business operations.",
+        "Srinivas envisions a future where AI agents are integral to every interaction within a business, whether reactive or proactive. His insights into the limitations of current AI models and the necessity for more controlled, task-specific AI solutions have positioned him as a thought leader in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Enterprise",
+          "body": "Ashwin Srinivas is a proponent of using AI to streamline business processes within large enterprises, advocating for a more integrated approach to AI deployment."
+        },
+        {
+          "heading": "Future of AI",
+          "body": "Srinivas discusses the potential of AI to revolutionize business operations, even in the advent of AGI, suggesting that Decagon's role will be to provide AI that follows business processes effectively."
+        },
+        {
+          "heading": "Open Source AI",
+          "body": "He highlights the importance of open source in AI development, noting that for specific tasks, open source models can outperform larger, more established AI systems."
+        }
+      ]
+    },
+    "net_worth": "$32.3M"
+  },
+  {
     "id": 365,
     "name": "Stine Pella",
     "slug": "stine-pella",
@@ -36317,7 +36509,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Contrary to popular belief, private credit and corporate debt are sustainable, and the real risk lies in government debt levels, which could lead to increased market volatility if not addressed.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-26 \u2022 Debt Service Coverage in Private Markets Is Improving, Actually | Nicholas Brooks",
     "last_proof_snippet": "Over the past year, there's been some very bad press on private credit, including on this channel where recent guest Nick Nemitz said that he thinks it's almost inevitable that the next financial crisis will be caused by private credit. Tod",
@@ -36756,7 +36948,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-21 \u2022 Why Physical AI Is the Next Frontier | Applied Intuition",
     "last_proof_snippet": "Our mission is to put intelligence on a billion machines, and that we think that can have a profound impact on society. Applied intuition is a physical attack company. We put intelligence on machines. Cars, trucks, tanks, drones. It's a phy",
@@ -36884,7 +37076,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "The private credit industry is overleveraged and poses a significant systemic risk, with potential for a massive financial blow-up that could be triggered by the insurance industry's massive balance sheets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-20 \u2022 Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. Join today by Nick Nemeth Financial Investor Researcher and author at Miss Price Assets. Nick, welcome to monetary matters. Thanks, Jack. It's g",
@@ -36948,7 +37140,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -37009,7 +37201,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -37069,7 +37261,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -37194,7 +37386,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-16 \u2022 \ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
     "last_proof_snippet": "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
@@ -37254,7 +37446,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-16 \u2022 \ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
     "last_proof_snippet": "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
@@ -37318,7 +37510,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-16 \u2022 Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
     "last_proof_snippet": "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
@@ -37378,7 +37570,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-16 \u2022 Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
     "last_proof_snippet": "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
@@ -37705,7 +37897,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-07-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-07-10 \u2022 Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
     "last_proof_snippet": "I'm back with Adam Brown. You currently need blue shift at Google DeepMine, which is cracking science and reasoning. In a previous life, Adam was a prolific physicist taught at Stanford and did research and everything from cosmology to stri",
@@ -38273,7 +38465,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -38332,7 +38524,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -38582,7 +38774,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in companies at the forefront of AI and satellite data integration for real-world applications, while monitoring global AI competition and regulatory changes.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-26 \u2022 The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
     "last_proof_snippet": "Today, plan is a $10 billion company. You've coined the term large earth models. What does that mean? It, like, Google index the internet to make it searchable, we're indexing the earth to make it searchable. It will finally enable us to be",
@@ -38706,7 +38898,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -38770,7 +38962,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -38896,7 +39088,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-23 \u2022 What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
     "last_proof_snippet": "Right now AI has been so much about productivity, job replacement, work replacement and I think we have a moment to shift that, which is how does these new tools help you get more out of your own day and your own life and the things you wan",
@@ -39513,7 +39705,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in companies that can integrate AI into their operations and leverage Microsoft's ecosystem for competitive advantage, focusing on data management capabilities and adaptability to new pricing models.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
     "last_proof_snippet": "Please welcome Swicks, Saragawa, Alad Gill and Chairman and Chief Executive Officer of Microsoft, Sartina Della. I'm so excited to be here. Welcome to a crossover episode of NoPriors and Lanesvists with Sartina Della. Congratulations on an",
@@ -39947,7 +40139,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -40015,7 +40207,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Invest in companies at the forefront of AI and automation in construction and manufacturing to capitalize on the upcoming industry transformation.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
     "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
@@ -40206,7 +40398,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -40487,7 +40679,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -40806,7 +40998,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-03 \u2022 Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
     "last_proof_snippet": "One of the most provocative and interesting investors in the country. A legendary activist investor. Pershing square CEO and founder Bill Acling. Taking a short position and going public with it is a pretty serious business. Interestingly,",
@@ -41113,7 +41305,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -41363,7 +41555,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -42362,7 +42554,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
