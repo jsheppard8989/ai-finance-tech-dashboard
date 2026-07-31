@@ -1,121 +1,117 @@
 {
-  "prompt": "Will the S&P 500 index close above 7,500 within the next 42 days?",
-  "editorial_note": "We've chosen this topic this week due to its market relevance and the significance of the S&P 500 index in reflecting broader economic trends. Following recent discussions on various economic indicators and market performance, we're\u5f88\u597d\u5947 to see if the S&P 500 can reach this level amidst the ongoing economic climate. This question provides a measurable and timely benchmark for evaluating the market's performance over the next six weeks.",
-  "expires_rule": "Resolves Friday 12:00 PM CST 2026-09-04",
-  "crux_theme": "S&P 500 Index Levels",
+  "prompt": "Will the S&P 500 index close above 7,600 within the next 42 days?",
+  "editorial_note": "Given the recent market volatility and the number of investors tracking S&P 500 movements, we see this as a pertinent question that reflects the market's immediate concerns. With the index currently hovering around 7,472.72, the threshold of 7,600 is a reasonable level to test the possibility of a short-term rally. We are keen to understand investor sentiment and market predictions during this period of economic uncertainty.",
+  "expires_rule": "Resolves Friday 12:00 PM CST 2026-09-11",
+  "crux_theme": "Index Rally",
   "resolution_clarity": {
-    "source_of_truth": "Final closing value of the S&P 500 index on the resolution date.",
+    "source_of_truth": "Yahoo Finance",
     "resolution_sources": [
-      "CBOE (Chicago Board Options Exchange) official close",
-      "NYSE (New York Stock Exchange) official close",
-      "Reuters/Refinitiv official market close data"
+      "Official stock market closing data"
     ],
     "resolution_criteria": [
-      "Index value must be publicly reported by the sources listed as having closed above 7,500 for the market to resolve as 'Yes'."
+      "Final closing value of the S&P 500 index"
     ]
   },
   "sides": {
     "a": "Affirmative (YES)",
     "b": "Negative (NO)"
   },
-  "resolves_iso": "2026-09-04",
-  "friday_iso": "2026-07-24",
-  "week_label": "Week of 2026-07-24",
-  "debater_a": "Mark Zuckerberg",
-  "debater_b": "Priscilla Chan",
-  "generated_at": "2026-07-24T05:03:45.082852",
+  "resolves_iso": "2026-09-11",
+  "friday_iso": "2026-07-31",
+  "week_label": "Week of 2026-07-31",
+  "debater_a": "Ramine Hassani",
+  "debater_b": "Andy Beam",
+  "generated_at": "2026-07-31T12:07:17.836683",
   "bet_status": "open",
   "audio_href": "./audio/emp_ai_the_debate_11labs.mp3",
   "debater_a_snapshot": {
-    "name": "Mark Zuckerberg",
-    "known_for": "His leadership in shaping the social media landscape and his significant philanthropic work.",
-    "bio": "Mark Zuckerberg is the co-founder and CEO of Facebook, a social media platform he launched from his Harvard dorm room in 2004. He is also known for his philanthropic efforts through the Chan Zuckerberg Initiative, which focuses on areas such as science, education, and justice & opportunity.",
-    "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-09",
-    "net_worth": "$69.80B",
+    "name": "Ramine Hassani",
+    "known_for": "Developing small language models that can replicate the intelligence of larger models on a CPU.",
+    "bio": "Ramine Hassani is the co-founder and CEO of Liquid AI, a company that specializes in developing efficient general-purpose AI at every scale, including small language models. His work is focused on exploring the computational graphs of intelligence beyond the transformer model and creating architectural designs that can replicate the intelligence of frontier models on a CPU.",
+    "last_main_idea": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-07-17",
+    "net_worth": "$523.0M",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Mark Zuckerberg",
-      "fetched_at": "2026-07-09T17:05:09.005885+00:00",
-      "cliff_notes": "Mark Zuckerberg is an American technology entrepreneur and philanthropist. He is best known for co-founding and leading Facebook, the world's largest social media platform. Zuckerberg began coding at a young age and developed a passion for programming. He launched Facebook from his Harvard dorm room in 2004, and the platform quickly gained popularity among college students. Over the years, Facebook has expanded to become a global phenomenon with billions of users. In addition to his work at Facebook, Zuckerberg and his wife Priscilla Chan established the Chan Zuckerberg Initiative in 2015. The philanthropic organization focuses on areas such as science, education, and justice & opportunity. Zuckerberg's influence in the tech industry and his philanthropic efforts have made him a prominent figure in both the business and social sectors.",
+      "page_title": "Ramine Hassani",
+      "fetched_at": "2026-07-18T03:01:49.519882+00:00",
+      "cliff_notes": "Ramine Hassani is a prominent figure in the field of artificial intelligence, particularly known for his work in developing small language models that can replicate the intelligence of larger models on a CPU. As the co-founder and CEO of Liquid AI, Hassani has been instrumental in pushing the boundaries of AI efficiency and accessibility. His mission has always been to build efficient general-purpose AI at every scale, exploring the computational graphs of intelligence beyond the transformer model. This work is crucial as it allows for the deployment of powerful AI capabilities on a wider range of devices, making advanced AI technology more accessible and practical for various applications. Hassani's contributions to the field have positioned him as a leader in the development of efficient AI solutions that can meet the growing demands of the market.",
       "derived": {
-        "current_role": "CEO of Facebook",
-        "education": "Harvard University (dropped out)"
+        "current_role": "Co-founder and CEO of Liquid AI"
       },
       "infobox": {
-        "Born": "May 14, 1984",
-        "Nationality": "American"
+        "Born": "",
+        "Nationality": ""
       },
       "lead_paragraphs": [
-        "Mark Zuckerberg is an American technology entrepreneur and philanthropist. He is best known for co-founding and leading Facebook, the world's largest social media platform. Zuckerberg began coding at a young age and developed a passion for programming. He launched Facebook from his Harvard dorm room in 2004, and the platform quickly gained popularity among college students.",
-        "Over the years, Facebook has expanded to become a global phenomenon with billions of users. In addition to his work at Facebook, Zuckerberg and his wife Priscilla Chan established the Chan Zuckerberg Initiative in 2015. The philanthropic organization focuses on areas such as science, education, and justice & opportunity.",
-        "Zuckerberg's influence in the tech industry and his philanthropic efforts have made him a prominent figure in both the business and social sectors."
+        "Ramine Hassani is a prominent figure in the field of artificial intelligence, particularly known for his work in developing small language models that can replicate the intelligence of larger models on a CPU. As the co-founder and CEO of Liquid AI, Hassani has been instrumental in pushing the boundaries of AI efficiency and accessibility.",
+        "His mission has always been to build efficient general-purpose AI at every scale, exploring the computational graphs of intelligence beyond the transformer model. This work is crucial as it allows for the deployment of powerful AI capabilities on a wider range of devices, making advanced AI technology more accessible and practical for various applications.",
+        "Hassani's contributions to the field have positioned him as a leader in the development of efficient AI solutions that can meet the growing demands of the market."
       ],
       "sections": [
         {
-          "heading": "Facebook Founding",
-          "body": "Mark Zuckerberg co-founded Facebook in 2004 while studying at Harvard University. The platform quickly gained popularity among college students and expanded to become the world's largest social media network."
+          "heading": "Efficient AI",
+          "body": "Ramine Hassani is focused on creating AI solutions that are efficient and can be deployed on a wide range of devices, from small language models to more complex systems."
         },
         {
-          "heading": "Leadership",
-          "body": "As CEO of Facebook, Zuckerberg has overseen the company's growth and expansion into various areas, including messaging, virtual reality, and e-commerce. He has also faced scrutiny over privacy and data security issues."
+          "heading": "General-Purpose AI",
+          "body": "Hassani's work at Liquid AI aims to develop general-purpose AI that can be applied across various industries and use cases, making AI technology more versatile and accessible."
         },
         {
-          "heading": "Philanthropy",
-          "body": "Zuckerberg and his wife Priscilla Chan established the Chan Zuckerberg Initiative in 2015. The organization focuses on areas such as science, education, and justice & opportunity, with a goal to cure, prevent, or manage all diseases by the end of the century."
+          "heading": "Small Language Models",
+          "body": "A key area of Hassani's work is the development of small language models that can replicate the intelligence of larger models on a CPU, which is crucial for making AI technology more accessible and practical."
         },
         {
-          "heading": "AI and Science",
-          "body": "Zuckerberg has expressed interest in the potential of AI to advance scientific research. He has called for more effort in building tools to bridge the gap between AI and biology, emphasizing the importance of such tools in achieving the Chan Zuckerberg Initiative's goals."
+          "heading": "Computational Graphs of Intelligence",
+          "body": "Hassani explores the computational graphs of intelligence beyond the transformer model, seeking to understand and design architectural frameworks that can bring advanced AI capabilities to a broader range of devices."
         }
       ]
     }
   },
   "debater_b_snapshot": {
-    "name": "Priscilla Chan",
-    "known_for": "Her work in healthcare and the Chan Zuckerberg Initiative, which aims to leverage AI and technology to cure and prevent diseases.",
-    "bio": "Priscilla Chan is a pediatrician and co-founder of the Chan Zuckerberg Initiative alongside her husband, Mark Zuckerberg. She is dedicated to advancing basic science research and improving healthcare, with a focus on curing and preventing all diseases by the end of the century.",
-    "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-09",
-    "net_worth": "$50.00B",
+    "name": "Andy Beam",
+    "known_for": "Pioneering work in medical AI and leading the machine learning efforts at Generate Biomedicine.",
+    "bio": "Andy Beam is the Chief Technology Officer at Lila, a company focused on AI research and healthcare. With a background in medical AI, Beam has been instrumental in the development of machine learning applications in biomedicine, previously serving as the founding head of machine learning at Generate Biomedicine.",
+    "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-07-16",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Priscilla Chan",
-      "fetched_at": "2026-07-09T17:05:18.896847+00:00",
-      "cliff_notes": "Priscilla Chan, a pediatrician by profession, is best known for her philanthropic work as the co-founder of the Chan Zuckerberg Initiative with her husband, Facebook's Mark Zuckerberg. Established in 2015, the initiative focuses on advancing human potential and promoting equality through investments in science, education, and technology. Chan's vision for the initiative includes leveraging AI and technology to cure and prevent all diseases by the end of the century. Her dedication to healthcare and science has made her a significant figure in the intersection of technology and healthcare.",
+      "page_title": "Andy Beam",
+      "fetched_at": "2026-07-16T18:38:18.020948+00:00",
+      "cliff_notes": "Andy Beam is a prominent figure in the field of medical AI and machine learning. His career has been marked by significant contributions to the development and application of AI in healthcare. Beam's early work laid the foundation for the integration of AI in medical research and treatment, and his leadership at Generate Biomedicine further established him as an authority in the field. As the Chief Technology Officer at Lila, Beam continues to drive innovation at the intersection of AI and healthcare, focusing on creating scalable and efficient data-driven solutions for scientific research.",
       "derived": {
-        "current_role": "Co-founder, Chan Zuckerberg Initiative",
-        "education": "Bachelor's degree in Biology, Harvard University; Medical degree, University of California, San Francisco"
+        "current_role": "Chief Technology Officer at Lila",
+        "former_positions": "Founding head of machine learning at Generate Biomedicine"
       },
       "infobox": {
-        "Born": "1985",
-        "Nationality": "American"
+        "Born": "",
+        "Nationality": ""
       },
       "lead_paragraphs": [
-        "Priscilla Chan, a pediatrician by profession, is best known for her philanthropic work as the co-founder of the Chan Zuckerberg Initiative with her husband, Facebook's Mark Zuckerberg. Established in 2015, the initiative focuses on advancing human potential and promoting equality through investments in science, education, and technology.",
-        "Chan's vision for the initiative includes leveraging AI and technology to cure and prevent all diseases by the end of the century. Her dedication to healthcare and science has made her a significant figure in the intersection of technology and healthcare."
+        "Andy Beam is a prominent figure in the field of medical AI and machine learning. His career has been marked by significant contributions to the development and application of AI in healthcare. Beam's early work laid the foundation for the integration of AI in medical research and treatment, and his leadership at Generate Biomedicine further established him as an authority in the field.",
+        "As the Chief Technology Officer at Lila, Beam continues to drive innovation at the intersection of AI and healthcare, focusing on creating scalable and efficient data-driven solutions for scientific research."
       ],
       "sections": [
         {
-          "heading": "Healthcare Philanthropy",
-          "body": "Priscilla Chan, along with her husband, has pledged significant resources towards healthcare initiatives, aiming to cure and prevent diseases through the Chan Zuckerberg Initiative."
+          "heading": "AI in Healthcare",
+          "body": "Andy Beam has been a key player in the application of AI in healthcare, pioneering the use of machine learning to improve medical research and patient outcomes."
         },
         {
-          "heading": "Science Research",
-          "body": "Chan is focused on advancing basic science research, emphasizing the need for tools that can help create a comprehensive understanding of biology, similar to the periodic table of elements."
+          "heading": "Data-Driven Science",
+          "body": "Beam advocates for the future of scientific research to be more data-centric, likening the lab of the future to a data center, emphasizing the importance of scalability and efficiency in data handling."
         },
         {
-          "heading": "AI and Technology",
-          "body": "The Chan Zuckerberg Initiative is investing in AI to accelerate scientific research, with Chan noting the potential for AI to play a significant role in the future of biology and disease prevention."
+          "heading": "Scalability and Generalization",
+          "body": "In discussions about the future of data and AI, Beam has highlighted the need for generalizable methods that can scale, drawing parallels to the finite nature of data on the internet and the need for new, large-scale datasets."
         }
       ]
     }
   },
-  "prompt_hash": "4f6e294a7a3dacf8"
+  "prompt_hash": "42f7f3ac4169dc66"
 }

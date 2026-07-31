@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-30T13:43:09.467508",
-  "last_updated": "2026-07-30T13:43:09.467508",
-  "last_pipeline_run": "2026-07-30T13:43:09.467508",
+  "generated_at": "2026-07-31T12:06:48.304722",
+  "last_updated": "2026-07-31T12:06:48.304722",
+  "last_pipeline_run": "2026-07-31T12:06:48.304722",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -14,18 +14,16 @@
     "daily_scores": 145,
     "overton_terms_total": 115,
     "latest_insights_total": 363,
-    "today_mentions": {
-      "podcast": 1
-    },
-    "podcasts_analyzed": 5
+    "today_mentions": {},
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 5,
+    "downloaded": 6,
     "transcribed": 5,
     "analyzed": 0,
     "insight_created": 0,
     "published": 0,
-    "total": 5
+    "total": 6
   },
   "episodes": [
     {
@@ -257,6 +255,77 @@
       "status": "needs_analysis"
     },
     {
+      "id": "36a8220e-1090-417d-8ba7-c483df5c4f5d",
+      "podcast": "The a16z Show",
+      "title": "How Enterprise AI Really Gets Deployed",
+      "published": "2026-07-31",
+      "rss_guid": "36a8220e-1090-417d-8ba7-c483df5c4f5d",
+      "stages": {
+        "downloaded": true,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "transcribed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
+      },
+      "first_blocker": "transcribed",
+      "remediation_by_stage": {
+        "transcribed": {
+          "action_id": "TRANSCRIBE",
+          "steps": [
+            "There are 1 MP3 file(s) in whisper_queue/ waiting for the worker.",
+            "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
+            "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
+            "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard && ./whisper_worker.sh",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        },
+        "analyzed": {
+          "action_id": "ANALYZE_TRANSCRIPTS",
+          "steps": [
+            "Run transcript analysis so is_processed=1 on podcast_episodes (analyze_transcript via auto_pipeline).",
+            "Ensure LLM keys in workspace .env (e.g. MOONSHOT_API_KEY) are set if the analyzer requires them.",
+            "Quick path: auto_pipeline.py --analyze-only analyzes then continues promotion/export steps in that run."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        },
+        "insight_created": {
+          "action_id": "PROMOTE_INSIGHT",
+          "steps": [
+            "Promotion to latest_insights runs inside auto_pipeline after analysis.",
+            "If analysis succeeded but insight is missing, re-run full auto_pipeline.py and check logs for promote_episodes_to_insights errors."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        },
+        "published": {
+          "action_id": "EXPORT_AND_PUBLISH",
+          "steps": [
+            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
+            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
+            "When added_to_site=1 on the episode row, this stage turns green."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        }
+      },
+      "status": "needs_transcription"
+    },
+    {
       "id": "ef54f007-9c46-4d15-b039-1183f989a26d",
       "podcast": "The a16z Show",
       "title": "Steven Sinofsky: AI Doesn't Need New Rules Yet",
@@ -316,6 +385,13 @@
   ],
   "available_from_rss": [
     {
+      "podcast": "The a16z Show",
+      "title": "How Enterprise AI Really Gets Deployed",
+      "published": "Fri, 31 Jul 2026 10:00:00 +0000",
+      "published_date": "2026-07-31",
+      "rss_guid": ""
+    },
+    {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
       "published": "Wed, 29 Jul 2026 20:00:00 -0000",
@@ -353,12 +429,21 @@
   ],
   "stale_episodes": [
     {
+      "id": "95a67002-8b5f-11f1-9f7c-c32c9aae640c",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
+      "status": "needs_analysis",
+      "published": "2026-07-29",
+      "age_days": 2,
+      "next_blocker": "analyzed"
+    },
+    {
       "id": "4843b8b0-8628-11f1-93b2-cbaeafb4528b",
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Jared Isaacman: NASA's Moon Base by 2028, Optimus Robots on the Moon, The Truth About UFOs | Ep #274",
       "status": "needs_analysis",
       "published": "2026-07-27",
-      "age_days": 3,
+      "age_days": 4,
       "next_blocker": "analyzed"
     },
     {
@@ -367,7 +452,7 @@
       "title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
       "status": "needs_analysis",
       "published": "2026-07-08",
-      "age_days": 22,
+      "age_days": 23,
       "next_blocker": "analyzed"
     },
     {
@@ -376,7 +461,7 @@
       "title": "Interest Rates to 10%: Why the Treasury Market is the Real Speculative Bubble (Not AI) | Russell Clark",
       "status": "needs_analysis",
       "published": "2026-07-22",
-      "age_days": 8,
+      "age_days": 9,
       "next_blocker": "analyzed"
     },
     {
@@ -385,7 +470,7 @@
       "title": "Steven Sinofsky: AI Doesn't Need New Rules Yet",
       "status": "needs_analysis",
       "published": "2026-07-27",
-      "age_days": 3,
+      "age_days": 4,
       "next_blocker": "analyzed"
     }
   ],
@@ -404,7 +489,7 @@
       "insight_created",
       "published"
     ],
-    "whisper_queue_pending_mp3": 0,
+    "whisper_queue_pending_mp3": 1,
     "fix_order": "For each episode, read first_blocker then remediation_by_stage[first_blocker].",
     "end_to_end": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py",
     "analyze_only": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",

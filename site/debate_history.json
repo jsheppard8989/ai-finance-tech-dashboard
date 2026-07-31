@@ -1,6 +1,19 @@
 {
-  "rotation_index": 22,
+  "rotation_index": 23,
   "weeks": [
+    {
+      "friday_iso": "2026-07-24",
+      "week_label": "Week of 2026-07-24",
+      "prompt": "Will the S&P 500 index close above 7,500 within the next 42 days?",
+      "debater_a": "Mark Zuckerberg",
+      "debater_b": "Priscilla Chan",
+      "expires_rule": "Resolves Friday 12:00 PM CST 2026-09-04",
+      "resolves_iso": "2026-09-04",
+      "resolution_status": "pending",
+      "resolution_notes": "",
+      "archived_at": "2026-07-31T12:07:17.836545",
+      "audio_href": "./audio/archive/debate_2026-07-24.mp3"
+    },
     {
       "friday_iso": "2026-07-17",
       "week_label": "Week of 2026-07-17",
