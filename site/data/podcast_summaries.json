@@ -1,5 +1,24 @@
 [
   {
+    "id": 379,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
+    "episode_date": "2026-08-01",
+    "summary": "In this episode of the a16z Crypto Show, hosts Robert Hackett, Mark Andrewson, and Chris Dixon discuss the significance of regulatory clarity in the cryptocurrency space, focusing on the Clarity Act and its potential impact on blockchain adoption. They explore the implications of stablecoins, tokenized assets, and the future of the internet. The conversation highlights the importance of clear rules to unlock the next phase of blockchain technology and the potential consequences for the United States' global leadership in crypto innovation.",
+    "key_takeaways": [
+      "Stablecoins are seen as tokenized stocks or dollars on the blockchain, rivaling the size of the Visa network.",
+      "The Clarity Act is crucial for providing regulatory clarity and could shape the future of financial infrastructure.",
+      "Senator Elizabeth Warren is a significant opponent to the bill, citing concerns over its potential misuse by North Korea, terrorists, and ransomware hackers.",
+      "The debate over the Clarity Bill includes the question of whether developers should be held more liable for the software they write.",
+      "Regulatory clarity is essential for the United States to maintain its global leadership in crypto innovation.",
+      "Blockchain technology has the potential to disrupt traditional financial systems and create a more efficient and accessible global financial network."
+    ],
+    "investment_thesis": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
+    "key_tickers": [
+      "VISA"
+    ]
+  },
+  {
     "id": 378,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Chip Stocks Crash, $20B Fund Margin Called, Frontier Labs: SLOW DOWN AI, Mamdani's Grocery Stores",
@@ -123,23 +142,6 @@
       "Ethical considerations and safety measures are crucial as AI and robotics become more integrated into society."
     ],
     "investment_thesis": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
-    "key_tickers": null
-  },
-  {
-    "id": 371,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
-    "episode_date": "2026-07-28",
-    "summary": "In this episode of Monetary Matters with Jack Farley, Max Weethe interviews Luke Groman, President and founder of Forest for the Trees, to discuss the driving forces behind the bond market sell-off and the implications of global debt dynamics. They delve into the supply and demand issues in the bond market, the impact of aging populations on Western economies, and the rising costs of veterans' benefits. Groman also shares his insights on the potential for yield curve control and the increasing demand for gold as a store of value amid geopolitical tensions and economic uncertainty.",
-    "key_takeaways": [
-      "Global creditors like Germany, Japan, and Korea are facing challenges as they compete with the U.S. in bond sales.",
-      "The U.S. has been shifting issuance to the front end, exacerbating supply and demand imbalances in the bond market.",
-      "Aging populations in Western countries are causing off-balance sheet liabilities to come on balance sheet, leading to cashflow negatives.",
-      "Veterans' benefits are rising as a percentage of defense spending, adding to fiscal pressures.",
-      "Central banks and countries are increasingly turning to gold as a store of value amid geopolitical tensions and economic uncertainty.",
-      "Yield curve control may become a necessary policy tool as countries grapple with rising yields and fiscal challenges."
-    ],
-    "investment_thesis": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
     "key_tickers": null
   }
 ]

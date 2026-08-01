@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 394,
+      "title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-01",
+      "summary": "In this episode of the a16z Crypto Show, hosts Robert Hackett, Mark Andrewson, and Chris Dixon discuss the significance of regulatory clarity in the cryptocurrency space, focusing on the Clarity Act and its potential impact on blockchain adoption. They explore the implications of stablecoins, tokenized assets, and the future of the internet. The conversation highlights the importance of clear rules to unlock the next phase of blockchain technology and the potential consequences for the United States' global leadership in crypto innovation.",
+      "key_takeaway": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
+      "tickers_mentioned": [
+        "VISA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 379
+    },
+    {
       "id": 392,
       "title": "How Enterprise AI Really Gets Deployed",
       "source_type": "podcast",
@@ -132,7 +151,7 @@
         "AAPL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-29",
       "archived_date": null,
@@ -9336,8 +9355,8 @@
       "term": "AI Agents",
       "description": "Software programs designed to perform tasks autonomously, mimicking human actions in a digital environment.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-07-31",
-      "mention_count": 54,
+      "last_mentioned_date": "2026-08-01",
+      "mention_count": 55,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AI Agents have the potential to significantly reduce labor costs and increase efficiency in various sectors, particularly in administrative tasks.",
@@ -9346,8 +9365,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 377,
-      "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas"
+      "last_mentioned_episode_id": 379,
+      "last_mentioned_speaker": "Mark Andrewson, Chris Dixon"
     },
     {
       "id": 38,

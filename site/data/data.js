@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-01T12:06:12.573305",
-  chartsVersion: "2026-08-01T12:06:01.100333",
+  generatedAt: "2026-08-01T13:40:03.021743",
+  chartsVersion: "2026-08-01T13:39:52.516211",
   priceSnapshot: {
   "GOOGL": {
     "price": 356.13,
     "change_pct": -0.94,
     "name": "GOOGL",
-    "updated_at": "2026-08-01T12:06:01.099223"
+    "updated_at": "2026-08-01T13:39:52.515673"
   },
   "NVDA": {
     "price": 200.75,
     "change_pct": -5.22,
     "name": "NVDA",
-    "updated_at": "2026-08-01T12:06:01.099242"
+    "updated_at": "2026-08-01T13:39:52.515686"
   },
   "BTC": {
-    "price": 62918.13,
-    "change_pct": -2.74,
+    "price": 62374.08,
+    "change_pct": -3.58,
     "name": "BTC",
-    "updated_at": "2026-08-01T12:06:01.099251"
+    "updated_at": "2026-08-01T13:39:52.515690"
   },
   "MSFT": {
     "price": 464.72,
     "change_pct": 20.73,
     "name": "MSFT",
-    "updated_at": "2026-08-01T12:06:01.099259"
+    "updated_at": "2026-08-01T13:39:52.515695"
   },
   "TSLA": {
     "price": 311.21,
     "change_pct": -21.45,
     "name": "TSLA",
-    "updated_at": "2026-08-01T12:06:01.099267"
+    "updated_at": "2026-08-01T13:39:52.515698"
   },
   "AMZN": {
     "price": 271.58,
     "change_pct": 9.73,
     "name": "AMZN",
-    "updated_at": "2026-08-01T12:06:01.099274"
+    "updated_at": "2026-08-01T13:39:52.515702"
   },
   "META": {
     "price": 556.71,
     "change_pct": -15.78,
     "name": "META",
-    "updated_at": "2026-08-01T12:06:01.099282"
+    "updated_at": "2026-08-01T13:39:52.515706"
   },
   "WTI": {
     "price": 3.59,
     "change_pct": 0.0,
     "name": "WTI",
-    "updated_at": "2026-08-01T12:06:01.099289"
+    "updated_at": "2026-08-01T13:39:52.515710"
   },
   "S&P 500": {
     "price": 747.03,
     "change_pct": -0.64,
     "name": "S&P 500",
-    "updated_at": "2026-08-01T12:06:01.099296"
+    "updated_at": "2026-08-01T13:39:52.515713"
   },
   "AAPL": {
     "price": 308.91,
     "change_pct": -1.89,
     "name": "AAPL",
-    "updated_at": "2026-08-01T12:06:01.099304"
+    "updated_at": "2026-08-01T13:39:52.515717"
   },
   "QQQ": {
     "price": 687.99,
     "change_pct": -4.4,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-01T12:06:01.099311"
+    "updated_at": "2026-08-01T13:39:52.515720"
   },
   "BTC-USD": {
-    "price": 62918.13,
-    "change_pct": -2.74,
+    "price": 62374.08,
+    "change_pct": -3.58,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-01T12:06:01.099319"
+    "updated_at": "2026-08-01T13:39:52.515725"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 394,
+      "title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-01",
+      "summary": "In this episode of the a16z Crypto Show, hosts Robert Hackett, Mark Andrewson, and Chris Dixon discuss the significance of regulatory clarity in the cryptocurrency space, focusing on the Clarity Act and its potential impact on blockchain adoption. They explore the implications of stablecoins, tokenized assets, and the future of the internet. The conversation highlights the importance of clear rules to unlock the next phase of blockchain technology and the potential consequences for the United States' global leadership in crypto innovation.",
+      "key_takeaway": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
+      "tickers_mentioned": [
+        "VISA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 379
+    },
+    {
       "id": 392,
       "title": "How Enterprise AI Really Gets Deployed",
       "source_type": "podcast",
@@ -965,7 +984,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-29",
       "archived_date": null,
@@ -10169,8 +10188,8 @@ const dashboardData = {
       "term": "AI Agents",
       "description": "Software programs designed to perform tasks autonomously, mimicking human actions in a digital environment.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-07-31",
-      "mention_count": 54,
+      "last_mentioned_date": "2026-08-01",
+      "mention_count": 55,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AI Agents have the potential to significantly reduce labor costs and increase efficiency in various sectors, particularly in administrative tasks.",
@@ -10179,8 +10198,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 377,
-      "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas"
+      "last_mentioned_episode_id": 379,
+      "last_mentioned_speaker": "Mark Andrewson, Chris Dixon"
     },
     {
       "id": 38,
@@ -10445,6 +10464,28 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 394,
+      "title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-01",
+      "summary": "In this episode of the a16z Crypto Show, hosts Robert Hackett, Mark Andrewson, and Chris Dixon discuss the significance of regulatory clarity in the cryptocurrency space, focusing on the Clarity Act and its potential impact on blockchain adoption. They explore the implications of stablecoins, tokenized assets, and the future of the internet. The conversation highlights the importance of clear rules to unlock the next phase of blockchain technology and the potential consequences for the United States' global leadership in crypto innovation.",
+      "key_takeaway": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
+      "tickers_mentioned": "[\"VISA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 379,
+      "episode_release_date": "2026-08-01",
+      "guest_name": null,
+      "key_tickers": [
+        "VISA"
+      ]
+    },
+    {
       "id": 392,
       "title": "How Enterprise AI Really Gets Deployed",
       "source_type": "podcast",
@@ -10550,26 +10591,6 @@ const dashboardData = {
       "podcast_episode_id": 375,
       "episode_release_date": "2026-07-29",
       "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 386,
-      "title": "Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-07-28",
-      "summary": "In this episode of Monetary Matters with Jack Farley, Max Weethe interviews Luke Groman, President and founder of Forest for the Trees, to discuss the driving forces behind the bond market sell-off and the implications of global debt dynamics. They delve into the supply and demand issues in the bond market, the impact of aging populations on Western economies, and the rising costs of veterans' benefits. Groman also shares his insights on the potential for yield curve control and the increasing demand for gold as a store of value amid geopolitical tensions and economic uncertainty.",
-      "key_takeaway": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-29",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 371,
-      "episode_release_date": "2026-07-28",
-      "guest_name": "Luke Gromen",
       "key_tickers": []
     },
     {
@@ -34272,9 +34293,117 @@ const dashboardData = {
       "AMD",
       "MU"
     ]
+  },
+  "394": {
+    "id": 384,
+    "insight_id": 394,
+    "podcast_episode_id": 379,
+    "overview": "The unresolved tension in the crypto space revolves around the need for regulatory clarity to foster innovation and protect consumers, without stifering the growth of blockchain technology. The competitive dynamic is between the U.S. maintaining its global leadership in crypto innovation and the risk of losing ground to other countries with more favorable regulatory environments. The allocation-relevant implication is that the outcome of regulatory clarity will determine which companies and countries win in the race for blockchain adoption and innovation.",
+    "key_takeaways_detailed": [
+      "The passage of the Clarity Act could be a catalyst for increased institutional investment in blockchain technology, as it provides a clear regulatory framework.",
+      "Failure of the Clarity Act could lead to a flight of capital and talent from the U.S. crypto industry, impacting the country's competitive position globally.",
+      "Regulatory clarity is pivotal for consumer protection, which is essential for the mainstream adoption of cryptocurrencies and blockchain applications.",
+      "The U.S.'s stance on crypto regulation could influence global regulatory practices, setting a precedent for other countries to follow."
+    ],
+    "investment_thesis": "The investment thesis is that the passage of the Clarity Act will validate the potential for blockchain technology to revolutionize financial systems by providing a secure and transparent framework for transactions. This will likely attract significant investment into the space, benefiting companies involved in blockchain development and cryptocurrency services. The timeframe for this thesis is within the next 1-2 years, with the observable development being the increase in institutional investment and the growth of blockchain-related financial products.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's involvement in digital payments through Apple Pay and its potential interest in blockchain technology makes it relevant to the crypto regulation thesis.",
+        "positioning": "Positioning should be strategic and long-term, as Apple's integration of blockchain could enhance its payment services and drive further innovation.",
+        "risk": "Key risks include regulatory setbacks that could hinder Apple's potential blockchain initiatives and competition from other tech giants with more advanced blockchain integration."
+      },
+      "GOOGL": {
+        "rationale": "Google's potential entry into the blockchain space, given its cloud services and technological prowess, makes it a relevant ticker.",
+        "positioning": "A strategic long position could be considered, anticipating Google's potential innovation in blockchain technology.",
+        "risk": "Regulatory hurdles and potential delays in blockchain product development pose significant risks."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's Azure cloud platform already supports blockchain-as-a-service, making it a key player in the blockchain ecosystem.",
+        "positioning": "A long-term strategic position in Microsoft could be beneficial as it continues to expand its blockchain offerings.",
+        "risk": "The risk lies in regulatory uncertainties that may slow down Microsoft's blockchain initiatives."
+      },
+      "AMZN": {
+        "rationale": "Amazon's potential to leverage blockchain for supply chain management and digital currency initiatives makes it relevant to the crypto regulation discussion.",
+        "positioning": "A long position in Amazon could be strategic, as the company is well-positioned to benefit from regulatory clarity in crypto.",
+        "risk": "Regulatory delays and potential security concerns could pose risks to Amazon's blockchain ambitions."
+      },
+      "FB": {
+        "rationale": "Facebook's past attempts to launch a cryptocurrency, along with its interest in digital payments, connect it to the crypto regulatory environment.",
+        "positioning": "A tactical long position could be considered, as Facebook may benefit from a clear regulatory framework to launch new crypto initiatives.",
+        "risk": "Regulatory pushback and public perception issues could hinder Facebook's progress in the crypto space."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that blockchain technology can operate effectively without strict regulatory oversight.",
+      "The argument that increased regulation could stifle innovation and push crypto development offshore.",
+      "Concerns that large tech companies may not fully embrace blockchain due to the potential for disrupting their existing business models."
+    ],
+    "catalysts": [
+      "The passage or failure of the Clarity Act in the Senate.",
+      "Announcements from major financial institutions regarding their blockchain initiatives.",
+      "Global regulatory developments that could influence the U.S.'s approach to crypto regulation.",
+      "Technological breakthroughs that enhance the security and efficiency of blockchain transactions.",
+      "Major security incidents within the crypto space that could shift the regulatory landscape."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-01T13:39:05.446327",
+    "updated_at": "2026-08-01 18:39:05",
+    "episode_evidence": "The podcast episode with hosts Robert Hackett, Mark Andrewson, and Chris Dixon from a16z Crypto Show delves into the intricacies of regulatory clarity in the cryptocurrency space. They emphasize the importance of the Clarity Act, which is currently navigating through the Senate, and its potential to provide a framework for blockchain adoption. Dixon points out the staggering growth of the stablecoin market, stating, 'Stablecoin volumes are now rivaling the size of the Visa network. Trillions of dollars transacted.' This highlights the sheer scale of transactions happening on blockchain, which underscores the necessity for regulatory oversight to protect consumers and ensure market integrity. Furthermore, they discuss the potential impact of the Clarity Act on the U.S.'s global leadership in crypto innovation, with Hackett noting, 'Crypto has reached a pivotal moment... the decisions made today could shape where the next generation of financial infrastructure is built.'",
+    "falsification_tracks": [
+      "Should the Clarity Act fail to pass in the Senate, it would reduce conviction in the thesis as it would leave the crypto space without the anticipated regulatory framework.",
+      "If there is a significant security breach or fraud incident within the stablecoin market that undermines consumer confidence, it could challenge the narrative of blockchain's security and performance.",
+      "A shift in global crypto innovation leadership to another country, evidenced by a decrease in U.S.-based crypto startups or a migration of blockchain-related businesses abroad, would indicate a failure in maintaining a conducive regulatory environment."
+    ],
+    "insight_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
+    "source_name": "The a16z Show",
+    "source_date": "2026-08-01",
+    "key_tickers": [
+      "VISA"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 553,
+    "term": "Clarity Act",
+    "definition": "A piece of legislation that aims to provide regulatory clarity for the cryptocurrency and blockchain industry.",
+    "investment_implications": "Its passage could significantly impact the growth and adoption of blockchain technology.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-01 18:36:59",
+    "priority_score": 80
+  },
+  {
+    "id": 554,
+    "term": "Stablecoins",
+    "definition": "Cryptocurrencies pegged to a stable asset, like the US dollar, to minimize volatility.",
+    "investment_implications": "Stablecoins are seen as a rival to traditional payment networks and could disrupt global finance.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-01 18:36:59",
+    "priority_score": 80
+  },
+  {
+    "id": 555,
+    "term": "Tokenized Assets",
+    "definition": "Assets represented as tokens on a blockchain, which can include stocks, bonds, and other financial instruments.",
+    "investment_implications": "Tokenization could increase liquidity and efficiency in financial markets.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-01 18:36:59",
+    "priority_score": 80
+  },
   {
     "id": 551,
     "term": "Leverage equals risk of ruin",
@@ -34286,47 +34415,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-08-01 04:38:45",
     "priority_score": 80
-  },
-  {
-    "id": 552,
-    "term": "AI-driven development",
-    "definition": "The process of using artificial intelligence to generate code, which can lead to faster but potentially less efficient development due to increased rework.",
-    "investment_implications": "AI-driven development could impact the efficiency and cost of software development, affecting token consumption and company valuations.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-01 04:38:45",
-    "priority_score": 80
-  },
-  {
-    "id": 549,
-    "term": "AI micro dramas",
-    "definition": "Short, AI-generated video content that is gaining popularity due to the ease and speed of production.",
-    "investment_implications": "Investors should consider the potential of AI micro dramas to disrupt traditional content creation and distribution.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-30 10:02:18",
-    "priority_score": 80
-  },
-  {
-    "id": 550,
-    "term": "Generative media",
-    "definition": "Media created using AI algorithms to generate new content, such as images, videos, and text.",
-    "investment_implications": "Generative media lowers the barriers to storytelling, opening up new avenues for investment in creative technologies.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-30 10:02:18",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 41472,
+    "id": 41580,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -34338,7 +34431,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41473,
+    "id": 41581,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -34350,7 +34443,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41474,
+    "id": 41582,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -34362,7 +34455,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41475,
+    "id": 41583,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -34374,7 +34467,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41476,
+    "id": 41584,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -34386,7 +34479,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 41477,
+    "id": 41585,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -34398,7 +34491,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41478,
+    "id": 41586,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -34410,7 +34503,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41479,
+    "id": 41587,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -34422,7 +34515,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41480,
+    "id": 41588,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -34434,7 +34527,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41481,
+    "id": 41589,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -34446,7 +34539,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41482,
+    "id": 41590,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -34458,7 +34551,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41483,
+    "id": 41591,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -34470,7 +34563,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41484,
+    "id": 41592,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -34482,7 +34575,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41485,
+    "id": 41593,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -34494,7 +34587,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41486,
+    "id": 41594,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -34506,7 +34599,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41487,
+    "id": 41595,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -34518,7 +34611,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41488,
+    "id": 41596,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -34530,7 +34623,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41489,
+    "id": 41597,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -34542,7 +34635,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41490,
+    "id": 41598,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -34554,7 +34647,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41491,
+    "id": 41599,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -34690,6 +34783,67 @@ const dashboardData = {
       ]
     },
     "net_worth": "$151.00B"
+  },
+  {
+    "id": 133,
+    "name": "Chris Dixon",
+    "slug": "chris-dixon",
+    "bio": "Chris Dixon is a general partner at a16z, a venture capital firm. He is known for his extensive writing and thought leadership on blockchain technology and its potential to disrupt traditional financial systems.",
+    "known_for": "His insights into blockchain technology and its implications for finance and security.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://blockchainreporter.net/net-worth/chris-dixon/",
+    "net_worth_updated_at": "2026-03-28T22:05:07.528099",
+    "voice_tone": "Educative and visionary",
+    "voice_style": "Explains blockchain's potential in a simple, relatable manner",
+    "voice_delivery_notes": "Clear and concise, with a focus on the future implications of blockchain",
+    "voice_profile_updated_at": "2026-08-01 18:36:59",
+    "last_seen": "2026-08-01 18:36:59",
+    "last_episode_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-01",
+    "mention_score": 3,
+    "mention_score_decayed": 3,
+    "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
+    "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
+    "supporting_takeaway": "The Clarity Act is crucial for providing regulatory clarity and could shape the future of financial infrastructure.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-01T13:38:13.301865",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Chris Dixon",
+      "fetched_at": "2026-08-01T18:38:13.301526+00:00",
+      "cliff_notes": "Chris Dixon is a prominent figure in the technology and venture capital industry, particularly known for his expertise in blockchain technology. As a general partner at a16z, he has been instrumental in shaping the firm's investment strategy in the blockchain space. Dixon's writings have been influential in understanding the potential of blockchain to disrupt traditional financial systems and the broader implications for security and regulation. His perspectives on the Clarity Act and its potential impact on the blockchain industry highlight his deep understanding of the intersection between technology, finance, and policy.",
+      "derived": {
+        "current_role": "General Partner at a16z",
+        "books_or_works": "Blockchain book"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Chris Dixon is a prominent figure in the technology and venture capital industry, particularly known for his expertise in blockchain technology. As a general partner at a16z, he has been instrumental in shaping the firm's investment strategy in the blockchain space. Dixon's writings have been influential in understanding the potential of blockchain to disrupt traditional financial systems and the broader implications for security and regulation.",
+        "His perspectives on the Clarity Act and its potential impact on the blockchain industry highlight his deep understanding of the intersection between technology, finance, and policy."
+      ],
+      "sections": [
+        {
+          "heading": "Blockchain Expertise",
+          "body": "Chris Dixon is recognized for his in-depth knowledge of blockchain technology and its potential to revolutionize finance and other industries."
+        },
+        {
+          "heading": "Venture Capital",
+          "body": "As a general partner at a16z, Dixon plays a key role in identifying and investing in innovative startups, particularly those in the blockchain space."
+        },
+        {
+          "heading": "Regulatory Insights",
+          "body": "Dixon has been vocal about the need for clear and thoughtful regulation of blockchain technology, as evidenced by his commentary on the Clarity Act and its implications for the industry."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
   },
   {
     "id": 74,
@@ -35204,7 +35358,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -35342,7 +35496,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -35511,72 +35665,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$4.6M"
-  },
-  {
-    "id": 133,
-    "name": "Chris Dixon",
-    "slug": "chris-dixon",
-    "bio": "Chris Dixon is the Founder and Managing Partner at a16z Crypto, a venture capital firm that focuses on crypto and blockchain technology. He is known for his early investment in Coinbase and his perspective on the evolution of cryptocurrency and blockchain technology.",
-    "known_for": "His investment in Coinbase and his views on the practical applications of blockchain technology.",
-    "net_worth_usd": 500000000.0,
-    "net_worth_source": "https://blockchainreporter.net/net-worth/chris-dixon/",
-    "net_worth_updated_at": "2026-03-28T22:05:07.528099",
-    "voice_tone": "Confident and insightful",
-    "voice_style": "Logical and future-oriented",
-    "voice_delivery_notes": "Paced with emphasis on key points",
-    "voice_profile_updated_at": "2026-05-07 17:45:01",
-    "last_seen": "2026-05-07 17:45:01",
-    "last_episode_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-07",
-    "mention_score": 2,
-    "mention_score_decayed": 0.28,
-    "last_main_idea": "Invest in crypto projects that facilitate the integration of blockchain technology with traditional financial systems and those that empower AI as economic actors within the financial ecosystem.",
-    "last_proof_cite": "The a16z Show \u2022 2026-05-07 \u2022 Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
-    "last_proof_snippet": "The most successful founders in this next era are going to be the ones that are much more product-focused, much more go-to-market-focused, and also more pragmatic rather than ideological. There's this strong sense that in order for crypto t",
-    "supporting_takeaway": "Stablecoins have seen significant growth, indicating mainstream traction and providing a regulatory framework.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-07T12:45:13.021332",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Chris Dixon",
-      "fetched_at": "2026-05-07T17:45:13.020994+00:00",
-      "cliff_notes": "Chris Dixon is a prominent venture capitalist and entrepreneur with a focus on technology and innovation. He began his career as a software engineer and later founded SiteAdvisor, which was acquired by McAfee. Dixon also co-founded Hunch, which was later acquired by eBay. His interest in blockchain technology led him to become an early investor in Coinbase, one of the leading cryptocurrency exchanges. Dixon is currently the Founder and Managing Partner at a16z Crypto, a venture capital firm that invests in crypto and blockchain technology. He is known for his pragmatic approach to technology, emphasizing the importance of product development and market strategy in the success of new technologies.",
-      "derived": {
-        "current_role": "Founder and Managing Partner at a16z Crypto",
-        "former_positions": "Hunch (acquired by eBay); Founder of SiteAdvisor (acquired by McAfee);",
-        "education": "Brown University; Columbia Law School"
-      },
-      "infobox": {
-        "Born": "1978",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Chris Dixon is a prominent venture capitalist and entrepreneur with a focus on technology and innovation. He began his career as a software engineer and later founded SiteAdvisor, which was acquired by McAfee. Dixon also co-founded Hunch, which was later acquired by eBay. His interest in blockchain technology led him to become an early investor in Coinbase, one of the leading cryptocurrency exchanges.",
-        "Dixon is currently the Founder and Managing Partner at a16z Crypto, a venture capital firm that invests in crypto and blockchain technology. He is known for his pragmatic approach to technology, emphasizing the importance of product development and market strategy in the success of new technologies."
-      ],
-      "sections": [
-        {
-          "heading": "Investment in Coinbase",
-          "body": "Chris Dixon is known for his early investment in Coinbase, one of the leading cryptocurrency exchanges. His investment and support have contributed to the growth and success of the platform."
-        },
-        {
-          "heading": "Practical Approach to Crypto",
-          "body": "Dixon emphasizes the importance of a pragmatic approach to cryptocurrency and blockchain technology. He believes that the most successful founders will be those who focus on product development and market strategy, rather than ideological pursuits."
-        },
-        {
-          "heading": "Evolution of Cryptocurrency",
-          "body": "Chris Dixon has a unique perspective on the evolution of cryptocurrency. He views it as a shift from a revolutionary ideology to a practical infrastructure that can work within existing systems, rather than trying to overthrow them."
-        },
-        {
-          "heading": "Onboarding Users to Blockchain",
-          "body": "Dixon believes that the key to widespread adoption of blockchain technology is onboarding a large number of users through practical applications such as stocks, bonds, payments, and remittances. Once users are familiar with the infrastructure, it becomes easier to offer adjacent services."
-        }
-      ]
-    },
-    "net_worth": "$500.0M"
   },
   {
     "id": 209,
@@ -36115,6 +36203,66 @@ const dashboardData = {
     }
   },
   {
+    "id": 370,
+    "name": "Mark Andrewson",
+    "slug": "mark-andrewson",
+    "bio": "Mark Andrewson is a partner at a16z and has been involved in the crypto industry since its early days. He is known for his insights on the intersection of finance and technology, particularly in the realm of cryptocurrencies and blockchain technology.",
+    "known_for": "His 2014 op-ed in the New York Times titled 'Why Bitcoin Matters' and his role in shaping the discourse around cryptocurrencies and blockchain.",
+    "net_worth_usd": 1900000000.0,
+    "net_worth_source": "https://bitcoinersanonymous.com/project/marc-andreessen/",
+    "net_worth_updated_at": "2026-08-01T13:38:21.908297",
+    "voice_tone": "Reflective and insightful",
+    "voice_style": "Historical perspective on crypto's evolution",
+    "voice_delivery_notes": "Paced, with emphasis on the importance of regulatory clarity",
+    "voice_profile_updated_at": "2026-08-01 18:36:59",
+    "last_seen": "2026-08-01 18:36:59",
+    "last_episode_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-01",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
+    "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
+    "supporting_takeaway": "The Clarity Act is crucial for providing regulatory clarity and could shape the future of financial infrastructure.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-01T13:38:20.768065",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Mark Andrewson",
+      "fetched_at": "2026-08-01T18:38:20.767916+00:00",
+      "cliff_notes": "Mark Andrewson is a partner at a16z, a venture capital firm that focuses on catalyzing change and economic value creation. He has been a significant figure in the crypto industry since its inception, contributing to the understanding and adoption of cryptocurrencies and blockchain technology. His 2014 op-ed in the New York Times, 'Why Bitcoin Matters,' was a pivotal moment in mainstream discourse, highlighting the importance of Bitcoin and its underlying technology. Andrewson's work at a16z and his engagement with the crypto industry have positioned him as an influential voice in the ongoing dialogue about the future of finance and technology.",
+      "derived": {
+        "current_role": "Partner at a16z"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Mark Andrewson is a partner at a16z, a venture capital firm that focuses on catalyzing change and economic value creation. He has been a significant figure in the crypto industry since its inception, contributing to the understanding and adoption of cryptocurrencies and blockchain technology. His 2014 op-ed in the New York Times, 'Why Bitcoin Matters,' was a pivotal moment in mainstream discourse, highlighting the importance of Bitcoin and its underlying technology.",
+        "Andrewson's work at a16z and his engagement with the crypto industry have positioned him as an influential voice in the ongoing dialogue about the future of finance and technology."
+      ],
+      "sections": [
+        {
+          "heading": "Cryptocurrency Advocacy",
+          "body": "Mark Andrewson is recognized for his advocacy of cryptocurrencies, particularly through his influential op-ed in the New York Times, which helped to mainstream the conversation around Bitcoin and blockchain technology."
+        },
+        {
+          "heading": "Venture Capital and Crypto",
+          "body": "As a partner at a16z, Andrewson plays a crucial role in identifying and investing in innovative companies within the cryptocurrency and blockchain space, contributing to the growth and development of the industry."
+        },
+        {
+          "heading": "Financial Market Legislation",
+          "body": "Andrewson is involved in discussions surrounding financial market legislation, such as the Clarity Act, emphasizing the importance of regulatory clarity for the stability and growth of the cryptocurrency market."
+        }
+      ]
+    },
+    "net_worth": "$1.90B"
+  },
+  {
     "id": 367,
     "name": "Jesse Zang",
     "slug": "jesse-zang",
@@ -36132,7 +36280,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-31",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
     "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
@@ -36196,7 +36344,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-31",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
     "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
@@ -36612,7 +36760,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Contrary to popular belief, private credit and corporate debt are sustainable, and the real risk lies in government debt levels, which could lead to increased market volatility if not addressed.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-26 \u2022 Debt Service Coverage in Private Markets Is Improving, Actually | Nicholas Brooks",
     "last_proof_snippet": "Over the past year, there's been some very bad press on private credit, including on this channel where recent guest Nick Nemitz said that he thinks it's almost inevitable that the next financial crisis will be caused by private credit. Tod",
@@ -36795,7 +36943,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investors should consider the impact of open-source AI models on frontier labs and monitor the security and competitive landscape of AI, as well as potential opportunities in related sectors like cloud computing and data centers.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-24 \u2022 Sriram Krishnan on Open Source AI's Biggest Week Yet",
     "last_proof_snippet": "You can bring it back to very business first principles. If you're providing a product of value, Capitalism will find a way to make the supply chain work for you. So if you have an open-made model that is providing value, that means that ev",
@@ -37051,7 +37199,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-21 \u2022 Why Physical AI Is the Next Frontier | Applied Intuition",
     "last_proof_snippet": "Our mission is to put intelligence on a billion machines, and that we think that can have a profound impact on society. Applied intuition is a physical attack company. We put intelligence on machines. Cars, trucks, tanks, drones. It's a phy",
@@ -37179,7 +37327,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "The private credit industry is overleveraged and poses a significant systemic risk, with potential for a massive financial blow-up that could be triggered by the insurance industry's massive balance sheets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-20 \u2022 Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. Join today by Nick Nemeth Financial Investor Researcher and author at Miss Price Assets. Nick, welcome to monetary matters. Thanks, Jack. It's g",
@@ -37243,7 +37391,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -37304,7 +37452,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -37364,7 +37512,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -37489,7 +37637,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-16 \u2022 \ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
     "last_proof_snippet": "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
@@ -37549,7 +37697,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-16 \u2022 \ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
     "last_proof_snippet": "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
@@ -37613,7 +37761,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-16 \u2022 Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
     "last_proof_snippet": "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
@@ -37673,7 +37821,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-16 \u2022 Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
     "last_proof_snippet": "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
@@ -38000,7 +38148,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-07-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-07-10 \u2022 Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
     "last_proof_snippet": "I'm back with Adam Brown. You currently need blue shift at Google DeepMine, which is cracking science and reasoning. In a previous life, Adam was a prolific physicist taught at Stanford and did research and everything from cosmology to stri",
@@ -38262,7 +38410,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -38321,7 +38469,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -38568,7 +38716,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -38627,7 +38775,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -38877,7 +39025,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in companies at the forefront of AI and satellite data integration for real-world applications, while monitoring global AI competition and regulatory changes.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-26 \u2022 The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
     "last_proof_snippet": "Today, plan is a $10 billion company. You've coined the term large earth models. What does that mean? It, like, Google index the internet to make it searchable, we're indexing the earth to make it searchable. It will finally enable us to be",
@@ -39001,7 +39149,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -39065,7 +39213,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -39191,7 +39339,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-23 \u2022 What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
     "last_proof_snippet": "Right now AI has been so much about productivity, job replacement, work replacement and I think we have a moment to shift that, which is how does these new tools help you get more out of your own day and your own life and the things you wan",
@@ -39868,7 +40016,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -40058,7 +40206,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-15 \u2022 AI, Design, and the Power of Open Models",
     "last_proof_snippet": "It's not about how good a model is in the general sense. It's about how good is this model for my use case, for a lot of design and marketing use case says they need editable design, not a single flat image. It's super impressive, honestly,",
@@ -40378,7 +40526,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-10 \u2022 America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. There's a very, very large player in global finance that almost no one knows about. The development finance corporation, it just had its reautho",
@@ -40501,7 +40649,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -40695,7 +40843,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -40782,7 +40930,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -41166,7 +41314,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-02 \u2022 OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
     "last_proof_snippet": "Open AI's CFO, Sarah Fryer. We've got to get right to it. You have just completed what I would find as the most successful fund-raising rail in history. We're going to raise actually north of $120 billion. We think AI is the biggest era tha",
@@ -41722,7 +41870,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -41785,7 +41933,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -43098,7 +43246,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "Investing in the new space race involves backing companies and technologies that can support NASA's Artemis program and the broader commercial space industry.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-06 \u2022 The New Space Race: NASA, Artemis, and the Race to the Moon",
     "last_proof_snippet": "We are going to get back into the habit of launching moon rockets in months, not years. Why is it so important for us to go back to the moon? This was a promise that was made in a promise we need to keep. When we return to the moon, America",
@@ -46787,7 +46935,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
@@ -46846,7 +46994,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
