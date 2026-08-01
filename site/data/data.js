@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-07-31T22:03:02.120204",
-  chartsVersion: "2026-07-31T22:02:44.797186",
+  generatedAt: "2026-07-31T23:40:33.729938",
+  chartsVersion: "2026-07-31T23:40:29.135526",
   priceSnapshot: {
   "GOOGL": {
     "price": 356.13,
     "change_pct": -0.94,
     "name": "GOOGL",
-    "updated_at": "2026-07-31T22:02:44.796236"
+    "updated_at": "2026-07-31T23:40:29.135095"
   },
   "NVDA": {
     "price": 200.75,
     "change_pct": -5.22,
     "name": "NVDA",
-    "updated_at": "2026-07-31T22:02:44.796255"
+    "updated_at": "2026-07-31T23:40:29.135106"
   },
   "BTC": {
-    "price": 62996.73,
-    "change_pct": -2.62,
+    "price": 62988.24,
+    "change_pct": -2.63,
     "name": "BTC",
-    "updated_at": "2026-07-31T22:02:44.796264"
+    "updated_at": "2026-07-31T23:40:29.135110"
   },
   "MSFT": {
     "price": 464.72,
     "change_pct": 20.73,
     "name": "MSFT",
-    "updated_at": "2026-07-31T22:02:44.796272"
+    "updated_at": "2026-07-31T23:40:29.135113"
   },
   "TSLA": {
     "price": 311.21,
     "change_pct": -21.45,
     "name": "TSLA",
-    "updated_at": "2026-07-31T22:02:44.796280"
+    "updated_at": "2026-07-31T23:40:29.135117"
   },
   "AMZN": {
     "price": 271.58,
     "change_pct": 9.73,
     "name": "AMZN",
-    "updated_at": "2026-07-31T22:02:44.796287"
+    "updated_at": "2026-07-31T23:40:29.135120"
   },
   "META": {
     "price": 556.71,
     "change_pct": -15.78,
     "name": "META",
-    "updated_at": "2026-07-31T22:02:44.796295"
+    "updated_at": "2026-07-31T23:40:29.135124"
   },
   "WTI": {
     "price": 3.59,
     "change_pct": 0.0,
     "name": "WTI",
-    "updated_at": "2026-07-31T22:02:44.796302"
+    "updated_at": "2026-07-31T23:40:29.135127"
   },
   "S&P 500": {
     "price": 747.03,
     "change_pct": -0.64,
     "name": "S&P 500",
-    "updated_at": "2026-07-31T22:02:44.796310"
+    "updated_at": "2026-07-31T23:40:29.135130"
   },
   "AAPL": {
     "price": 308.91,
     "change_pct": -1.89,
     "name": "AAPL",
-    "updated_at": "2026-07-31T22:02:44.796317"
+    "updated_at": "2026-07-31T23:40:29.135134"
   },
   "QQQ": {
     "price": 687.99,
     "change_pct": -4.4,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-07-31T22:02:44.796324"
+    "updated_at": "2026-07-31T23:40:29.135136"
   },
   "BTC-USD": {
-    "price": 62996.73,
-    "change_pct": -2.62,
+    "price": 62988.24,
+    "change_pct": -2.63,
     "name": "Bitcoin USD",
-    "updated_at": "2026-07-31T22:02:44.796332"
+    "updated_at": "2026-07-31T23:40:29.135140"
   }
 },
   tickerScores: [
@@ -97,14 +97,14 @@ const dashboardData = {
   },
   {
     "ticker": "NVDA",
-    "total_score": 526.0,
-    "raw_mention_count": 15,
+    "total_score": 586.0,
+    "raw_mention_count": 16,
     "unique_sources": 2,
-    "podcast_mentions": 7,
+    "podcast_mentions": 8,
     "newsletter_mentions": 8,
     "rank": 2,
-    "score": 526.0,
-    "mentions": 15,
+    "score": 586.0,
+    "mentions": 16,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -351,13 +351,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "AMD",
+    "total_score": 132.0,
+    "raw_mention_count": 2,
+    "unique_sources": 1,
+    "podcast_mentions": 2,
+    "newsletter_mentions": 0,
+    "rank": 19,
+    "score": 132.0,
+    "mentions": 2,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "URANIUM",
     "total_score": 128.0,
     "raw_mention_count": 2,
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 19,
+    "rank": 20,
     "score": 128.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -372,7 +387,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 20,
+    "rank": 21,
     "score": 120.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -387,7 +402,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 21,
+    "rank": 22,
     "score": 112.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -402,7 +417,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 22,
+    "rank": 23,
     "score": 84.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -417,7 +432,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 23,
+    "rank": 24,
     "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -432,7 +447,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 24,
+    "rank": 25,
     "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -447,7 +462,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 25,
+    "rank": 26,
     "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -462,7 +477,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 26,
+    "rank": 27,
     "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -477,7 +492,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 27,
+    "rank": 28,
     "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -492,7 +507,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 28,
+    "rank": 29,
     "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -507,7 +522,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 29,
+    "rank": 30,
     "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -522,7 +537,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 30,
+    "rank": 31,
     "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -532,21 +547,6 @@ const dashboardData = {
   },
   {
     "ticker": "AEP",
-    "total_score": 72.0,
-    "raw_mention_count": 1,
-    "unique_sources": 1,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
-    "rank": 31,
-    "score": 72.0,
-    "mentions": 1,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "AMD",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -853,6 +853,28 @@ const dashboardData = {
       "podcast_episode_id": 377
     },
     {
+      "id": 393,
+      "title": "Chip Stocks Crash, $20B Fund Margin Called, Frontier Labs: SLOW DOWN AI, Mamdani's Grocery Stores",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-31",
+      "summary": "In this episode, the hosts discuss the recent crash in chip stocks and the risks associated with leveraged trading. They highlight a hedge fund manager's downfall due to margin calls and the broader implications for the tech sector. The conversation also touches on AI-driven development, the potential for reduced software security vulnerabilities, and the philosophical and biological aspects of creating consciousness in silicon.",
+      "key_takeaway": "The recent downturn in chip stocks presents both risks and opportunities, with the potential for significant losses from leveraged positions and the possibility of finding value in fundamentally strong companies.",
+      "tickers_mentioned": [
+        "NVDA",
+        "TSM",
+        "AMD",
+        "MU"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-31",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 378
+    },
+    {
       "id": 391,
       "title": "AI for America's Small Businesses | Lassie",
       "source_type": "podcast",
@@ -924,7 +946,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-28",
       "archived_date": null,
@@ -8381,20 +8403,20 @@ const dashboardData = {
     {
       "id": 261,
       "term": "Physical AI",
-      "description": "The integration of AI capabilities into physical devices and systems, allowing them to perform tasks and interact with the environment.",
+      "description": "The concept of artificial intelligence that relates to physical sensing and responsiveness, as opposed to digital or virtual AI.",
       "first_detected_date": "2026-07-21",
-      "last_mentioned_date": "2026-07-28",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-07-31",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider companies that are advancing the practical application of AI in physical devices, as this could lead to significant market opportunities.",
+      "investment_implications": "Physical AI could be a key differentiator in the development of AI that can replicate human consciousness and interaction with the physical world.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 359,
       "first_detected_speaker": "Casser, Eunice, Peter Ludwig",
-      "last_mentioned_episode_id": 373,
-      "last_mentioned_speaker": "Dr. Peter Funkhouser, Amanda McMaster"
+      "last_mentioned_episode_id": 378,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 262,
@@ -8509,8 +8531,8 @@ const dashboardData = {
       "term": "AI Boom",
       "description": "A global phenomenon characterized by significant investments in artificial intelligence and data centers, drawing parallels to the pre-1873 financial boom.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-07-26",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-07-31",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be cautious of potential over-investment and subsequent corrections in the AI sector.",
@@ -8519,16 +8541,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 320,
       "first_detected_speaker": "Leakwet Ahamed",
-      "last_mentioned_episode_id": 368,
-      "last_mentioned_speaker": "Nick Brooks"
+      "last_mentioned_episode_id": 378,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 254,
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-07-29",
-      "mention_count": 11,
+      "last_mentioned_date": "2026-07-31",
+      "mention_count": 12,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
@@ -8537,8 +8559,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 372,
-      "last_mentioned_speaker": "Katherine Rooney Vera"
+      "last_mentioned_episode_id": 378,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 256,
@@ -8941,8 +8963,8 @@ const dashboardData = {
       "term": "Distillation",
       "description": "The process of training a smaller AI model on the output of a larger model to achieve similar results with less computational power.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-26",
-      "mention_count": 28,
+      "last_mentioned_date": "2026-07-31",
+      "mention_count": 29,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Distillation can make AI more accessible and cost-effective, impacting how businesses allocate resources for AI development.",
@@ -8951,8 +8973,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 369,
-      "last_mentioned_speaker": "Ben Horowitz"
+      "last_mentioned_episode_id": 378,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 174,
@@ -10443,6 +10465,31 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 393,
+      "title": "Chip Stocks Crash, $20B Fund Margin Called, Frontier Labs: SLOW DOWN AI, Mamdani's Grocery Stores",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-31",
+      "summary": "In this episode, the hosts discuss the recent crash in chip stocks and the risks associated with leveraged trading. They highlight a hedge fund manager's downfall due to margin calls and the broader implications for the tech sector. The conversation also touches on AI-driven development, the potential for reduced software security vulnerabilities, and the philosophical and biological aspects of creating consciousness in silicon.",
+      "key_takeaway": "The recent downturn in chip stocks presents both risks and opportunities, with the potential for significant losses from leveraged positions and the possibility of finding value in fundamentally strong companies.",
+      "tickers_mentioned": "[\"NVDA\", \"TSM\", \"AMD\", \"MU\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-31",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 378,
+      "episode_release_date": "2026-07-31",
+      "guest_name": null,
+      "key_tickers": [
+        "NVDA",
+        "TSM",
+        "AMD",
+        "MU"
+      ]
+    },
+    {
       "id": 391,
       "title": "AI for America's Small Businesses | Lassie",
       "source_type": "podcast",
@@ -10502,26 +10549,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 375,
       "episode_release_date": "2026-07-29",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 385,
-      "title": "Fei-Fei Li on Spatial Intelligence and Robotics",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-07-28",
-      "summary": "This episode of 'The a16z Show' discusses the development of spatial intelligence AI, which is crucial for advancing robotics and creating immersive virtual environments. The acquisition of Cnex and the creation of a 'real-to-seem-to-real' pipeline are highlighted as significant steps in this direction. The conversation emphasizes the importance of simulation in robotics for reliability and efficiency, and the need for large world models to train AI effectively. The synergy between World Lab's generative models and Sinex's robotics expertise is seen as a potential foundation for a multimodal robotics model.",
-      "key_takeaway": "Invest in companies at the forefront of spatial intelligence development, as they are poised to shape the future of AI and robotics.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-28",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 370,
-      "episode_release_date": "2026-07-28",
       "guest_name": null,
       "key_tickers": []
     },
@@ -10788,6 +10815,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-07-28"
     },
     {
+      "id": 254,
+      "term": "Hyperscalers",
+      "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
+      "first_detected_date": "2026-06-19",
+      "last_mentioned_date": "2026-07-31",
+      "mention_count": 12,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 302,
+      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "last_mentioned_episode_id": 378,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "overton_score": 12.0,
+      "resonance_pct": 100,
+      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
+      "first_detected_episode_date": "2026-06-19",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "Chip Stocks Crash, $20B Fund Margin Called, Frontier Labs: SLOW DOWN AI, Mamdani's Grocery Stores",
+      "last_mentioned_episode_date": "2026-07-31"
+    },
+    {
       "id": 11,
       "term": "Jevon's Paradox",
       "description": "The phenomenon where technological progress that increases the efficiency of a resource can lead to an increase in the rate of consumption of that resource, rather than a decrease.",
@@ -10814,38 +10867,12 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-07-31"
     },
     {
-      "id": 254,
-      "term": "Hyperscalers",
-      "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
-      "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-07-29",
-      "mention_count": 11,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 302,
-      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 372,
-      "last_mentioned_speaker": "Katherine Rooney Vera",
-      "overton_score": 10.5,
-      "resonance_pct": 100,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
-      "first_detected_episode_date": "2026-06-19",
-      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
-      "last_mentioned_episode_title": "Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
-      "last_mentioned_episode_date": "2026-07-29"
-    },
-    {
       "id": 255,
       "term": "AI Boom",
       "description": "A global phenomenon characterized by significant investments in artificial intelligence and data centers, drawing parallels to the pre-1873 financial boom.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-07-26",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-07-31",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be cautious of potential over-investment and subsequent corrections in the AI sector.",
@@ -10854,16 +10881,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 320,
       "first_detected_speaker": "Leakwet Ahamed",
-      "last_mentioned_episode_id": 368,
-      "last_mentioned_speaker": "Nick Brooks",
-      "overton_score": 4.45,
+      "last_mentioned_episode_id": 378,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "overton_score": 6.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
       "first_detected_episode_date": "2026-06-29",
-      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
-      "last_mentioned_episode_title": "Debt Service Coverage in Private Markets Is Improving, Actually | Nicholas Brooks",
-      "last_mentioned_episode_date": "2026-07-26"
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "Chip Stocks Crash, $20B Fund Margin Called, Frontier Labs: SLOW DOWN AI, Mamdani's Grocery Stores",
+      "last_mentioned_episode_date": "2026-07-31"
     },
     {
       "id": 256,
@@ -34169,9 +34196,109 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-07-31",
     "key_tickers": []
+  },
+  "393": {
+    "id": 383,
+    "insight_id": 393,
+    "podcast_episode_id": 378,
+    "overview": "The unresolved tension in the chip stock market revolves around the distinction between a momentum-driven correction and a fundamental shift in the industry's prospects. The competitive dynamic is between those who believe the recent downturn is a temporary market fluctuation, driven by leverage and short-term volatility, and those who see it as a sign of overvaluation and a coming reckoning for the tech sector. The allocator-relevant implication is that the resolution of this tension will determine who wins or loses in the market. Investors who can correctly identify whether the downturn is temporary or indicative of a deeper issue will be able to capitalize on the situation, while those who misjudge could face significant losses.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the leverage levels in the market, as high leverage can amplify both gains and losses, leading to forced selling and potential margin calls.",
+      "The rebound in the Nasdaq's chip index suggests that some investors may view the recent downturn as a buying opportunity, but caution is warranted given the volatility.",
+      "The long-term outlook for chip stocks is tied to the continued growth of AI and related technologies, which could drive demand for advanced chips.",
+      "Investors should differentiate between companies that are fundamentally strong and those that have been propped up by a momentum trade, as the latter may be more vulnerable to significant drawdowns."
+    ],
+    "investment_thesis": "The investment thesis is that the recent downturn in chip stocks presents a buying opportunity for fundamentally strong companies that are well-positioned to benefit from the continued growth of AI and related technologies. The observable development that would vindicate this thesis is a sustained recovery in the Philadelphia Semiconductor Index, driven by strong earnings reports from key chip companies and continued investment in AI and tech infrastructure. Conversely, a prolonged decline in the index and weak earnings reports would invalidate the thesis, suggesting a more fundamental issue with the sector.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is relevant to this thesis as it is a major consumer of chips and a significant investor in AI technology. Its performance can be indicative of the health of the broader tech sector and the demand for advanced chips.",
+        "positioning": "Positioning in Apple could be strategic, as its stock may offer a way to gain exposure to the chip and AI sectors without directly investing in chip manufacturers. A long position in AAPL could be considered, given its potential to benefit from the continued growth of AI and its ability to weather market volatility.",
+        "risk": "Key risks for this position include a slowdown in global consumer spending, which could impact Apple's sales, and potential supply chain disruptions that could affect its ability to produce and deliver products."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leading chip manufacturer that has been at the forefront of AI and GPU technology. Its performance is closely tied to the health of the AI sector and the demand for advanced chips.",
+        "positioning": "Nvidia could be positioned as a strategic long, given its strong position in the AI market and its potential to benefit from the continued growth of AI-related technologies.",
+        "risk": "The key risks for Nvidia include increased competition in the chip market, potential slowdowns in AI development, and the impact of global economic conditions on the demand for its products."
+      },
+      "TSM": {
+        "rationale": "TSMC is a major chip manufacturer and a key player in the global semiconductor industry. Its performance can provide insights into the overall health of the chip market and the demand for advanced manufacturing capabilities.",
+        "positioning": "TSMC could be considered for a long position due to its competitive advantage in chip manufacturing and its potential to benefit from the continued growth of the tech sector.",
+        "risk": "Risks for TSMC include potential disruptions in the global supply chain, geopolitical tensions that could impact its operations, and changes in the global economic environment that could affect the demand for its products."
+      },
+      "AMD": {
+        "rationale": "AMD is a significant player in the chip industry, with a strong focus on both CPUs and GPUs. Its performance can be indicative of the health of the broader tech sector and the demand for advanced chips.",
+        "positioning": "AMD could be positioned as a strategic long, given its potential to benefit from the continued growth of AI and its ability to compete in the chip market.",
+        "risk": "Key risks for AMD include increased competition, potential slowdowns in AI development, and the impact of global economic conditions on the demand for its products."
+      },
+      "MU": {
+        "rationale": "Micron is a leading manufacturer of memory and storage solutions, which are critical components in the tech industry. Its performance can provide insights into the health of the chip market and the demand for memory technologies.",
+        "positioning": "Micron could be considered for a long position due to its potential to benefit from the continued growth of the tech sector and the demand for advanced memory solutions.",
+        "risk": "Risks for Micron include potential disruptions in the global supply chain, changes in the global economic environment that could affect the demand for its products, and increased competition in the memory market."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The recent downturn in chip stocks could be a sign of overvaluation and a coming reckoning for the tech sector, rather than a temporary market fluctuation.",
+      "The growth prospects for chip companies tied to AI could be severely curtailed if there is a significant slowdown in AI development or a shift in tech priorities away from AI.",
+      "The demand for chips could be more sensitive to global economic conditions than currently anticipated, leading to a more pronounced downturn in the sector."
+    ],
+    "catalysts": [
+      "Earnings reports from key chip companies like Nvidia, AMD, and Micron could provide a catalyst for market sentiment, either confirming the strength of the sector or highlighting vulnerabilities.",
+      "Developments in AI technology and the continued investment in tech infrastructure could serve as a catalyst for the chip sector, driving demand for advanced chips.",
+      "Global economic indicators and consumer spending trends could influence the demand for tech products and, by extension, the demand for chips.",
+      "Geopolitical developments, such as trade policies and supply chain disruptions, could have a significant impact on the chip industry and the performance of chip stocks.",
+      "Technological breakthroughs or shifts in the competitive landscape of the chip industry could serve as catalysts, either bolstering the position of incumbent players or disrupting the market."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-07-31T23:39:41.863863",
+    "updated_at": "2026-08-01 04:39:41",
+    "episode_evidence": "The hosts of the podcast discussed the recent crash in chip stocks, emphasizing the risks associated with leveraged trading. They highlighted the downfall of a hedge fund manager, Leopold Ocean Brenner, who had to sell his entire public portfolio to cover massive losses caused by his leverage. 'Leopold had insane returns. And he rode the wave of AI and chips and frontier labs,' the hosts mentioned. Brenner's fund, which started with $225 million in 2024, reportedly grew to $45 billion this year, only to drop to $200 billion early in the month due to leveraged trading. The Nasdaq's chip index, known as the Philadelphia Semiconductor Index, is down over 20% in the last month, which is considered bear market territory. The index includes top U.S.-listed chip companies like Nvidia, TSMC, AMD, and Micron. Despite the downturn, the five-year results are still impressive, with companies like Micron up 850% in the last year and AMD up 875% in the last five years.",
+    "falsification_tracks": [
+      "If the Philadelphia Semiconductor Index fails to recover and continues to decline for another quarter, it would suggest a deeper structural issue in the chip industry rather than a temporary market fluctuation.",
+      "Should key chip companies like Nvidia or AMD report earnings significantly below expectations for two consecutive quarters, it could indicate that the demand for chips is weakening, invalidating the current investment thesis.",
+      "A sustained increase in global chip supply that outpaces demand could erode the pricing power of chip companies, undermining the bullish case for the sector.",
+      "If there is a significant slowdown in AI development or a shift in tech priorities away from AI, the growth prospects for chip companies tied to AI could be severely curtailed."
+    ],
+    "insight_title": "Chip Stocks Crash, $20B Fund Margin Called, Frontier Labs: SLOW DOWN AI, Mamdani's Grocery Stores",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-07-31",
+    "key_tickers": [
+      "NVDA",
+      "TSM",
+      "AMD",
+      "MU"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 551,
+    "term": "Leverage equals risk of ruin",
+    "definition": "The concept that using leverage in trading can exponentially increase the risk of financial ruin due to the potential for margin calls and forced liquidation.",
+    "investment_implications": "Highlighting the dangers of leveraged trading, especially in volatile markets.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-01 04:38:45",
+    "priority_score": 80
+  },
+  {
+    "id": 552,
+    "term": "AI-driven development",
+    "definition": "The process of using artificial intelligence to generate code, which can lead to faster but potentially less efficient development due to increased rework.",
+    "investment_implications": "AI-driven development could impact the efficiency and cost of software development, affecting token consumption and company valuations.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-01 04:38:45",
+    "priority_score": 80
+  },
   {
     "id": 549,
     "term": "AI micro dramas",
@@ -34195,35 +34322,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-07-30 10:02:18",
     "priority_score": 80
-  },
-  {
-    "id": 547,
-    "term": "Product to Do",
-    "definition": "A product development approach focusing on actionable outcomes rather than just creating features.",
-    "investment_implications": "Emphasis on 'product to do' can lead to more effective and efficient use of AI in solving real-world problems.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-30 10:02:01",
-    "priority_score": 80
-  },
-  {
-    "id": 548,
-    "term": "Motion vs. Progress",
-    "definition": "A distinction between mere activity (motion) and meaningful advancement towards a goal (progress).",
-    "investment_implications": "Investors should focus on companies that demonstrate progress in AI adoption rather than just increased activity.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-07-30 10:02:01",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 41040,
+    "id": 41148,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -34235,7 +34338,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41041,
+    "id": 41149,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -34247,7 +34350,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41042,
+    "id": 41150,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -34259,7 +34362,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41043,
+    "id": 41151,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -34271,7 +34374,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41044,
+    "id": 41152,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -34283,7 +34386,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 41045,
+    "id": 41153,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -34295,7 +34398,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41046,
+    "id": 41154,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -34307,7 +34410,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41047,
+    "id": 41155,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -34319,7 +34422,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41048,
+    "id": 41156,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -34331,7 +34434,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41049,
+    "id": 41157,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -34343,7 +34446,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41050,
+    "id": 41158,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -34355,7 +34458,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41051,
+    "id": 41159,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -34367,7 +34470,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41052,
+    "id": 41160,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -34379,7 +34482,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41053,
+    "id": 41161,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -34391,7 +34494,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41054,
+    "id": 41162,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -34403,7 +34506,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41055,
+    "id": 41163,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -34415,7 +34518,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41056,
+    "id": 41164,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -34427,7 +34530,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41057,
+    "id": 41165,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -34439,7 +34542,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41058,
+    "id": 41166,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -34451,7 +34554,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 41059,
+    "id": 41167,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -34606,7 +34709,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-22",
     "mention_score": 3,
-    "mention_score_decayed": 2.49,
+    "mention_score_decayed": 2.44,
     "last_main_idea": "The next great technology revolution will be in the physical world, with industrial AI, robotics, and autonomy driving transformative change across industries.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-22 \u2022 Travis Kalanick Is Back | Building the Future of Industrial AI",
     "last_proof_snippet": "We know what Boobers 2017 was like. Travis Kalana, because Snapchat's dying from his role as chief executive. That wouldn't have gone that way if Ben or Mark was on the board. You're in this hell, you're dealing with lawsuits. I worry about",
@@ -34735,7 +34838,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.95,
+    "mention_score_decayed": 1.91,
     "last_main_idea": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-28 \u2022 Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
     "last_proof_snippet": "Germany, Japan, and Korea are all historically big creditors from a sovereign perspective. And in particular, Japan, if they're borrowing money to do defense to me, they have turned sellers of bonds as well. So now they're selling, they're",
@@ -34855,7 +34958,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-10",
     "mention_score": 2,
-    "mention_score_decayed": 1.23,
+    "mention_score_decayed": 1.2,
     "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
     "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
@@ -34919,7 +35022,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-03",
     "mention_score": 2,
-    "mention_score_decayed": 1.07,
+    "mention_score_decayed": 1.05,
     "last_main_idea": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-03 \u2022 AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Sure, favorite podcast. It's your podcast. It's your favorite podcast. It's the all-in podcast episode two, seven, nine with me, freebergs, tax, to my, you know, the",
@@ -34979,7 +35082,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -36573,7 +36676,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -36633,7 +36736,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -37763,7 +37866,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in companies at the forefront of AI and semiconductors that can leverage intelligence to perform high-cost, time-consuming tasks more efficiently and at scale.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-14 \u2022 The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
     "last_proof_snippet": "Got a special conversation today. I'm joined by Ben Kulandian of BEP Research. Ben is a specialist investor and analyst in the semi-conductor world and the semi-conductor supply chain. Of course, that is what powers AI Ben welcome to moneta",
@@ -38281,7 +38384,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-05 \u2022 The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. The new Fed Chair Kevin Worsh has made it no secret that he prefers a sm",
@@ -38711,7 +38814,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-29 \u2022 Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
     "last_proof_snippet": "I am so glad today we have a very special guest, one of my favorite authors of all time Leakwet Ahamed, who's the author of the new book 1873, The Roth Childs, The First Great Depression, and The Making of the Modern World Leakwet. Welcome",
@@ -38838,7 +38941,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
     "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
@@ -39022,7 +39125,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-23 \u2022 GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
     "last_proof_snippet": "Everyone hates GameStop and it seems like everyone in the media basically wants us to fail and wants them to succeed and you've got a board that's making hundreds of thousands of dollars a year and they don't buy stock with their own money.",
@@ -39152,7 +39255,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-22 \u2022 Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
     "last_proof_snippet": "Okay, we're here in a studio with Grace One, Matt and Zico welcome. Great to be here. Yeah. Thanks for having us. You're visiting from Pittsburgh? That's right. The home of all good computer science, I don't know if I'm oversteaving things.",
@@ -39215,7 +39318,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -39279,7 +39382,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -39338,7 +39441,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -39397,7 +39500,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -39462,7 +39565,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -39525,7 +39628,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -39891,7 +39994,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -40739,7 +40842,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -40931,7 +41034,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
@@ -43812,7 +43915,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -44881,7 +44984,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-14 \u2022 \"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
     "last_proof_snippet": "Investing with a long-term perspective involves considering macroeconomic factors and their impact on smaller companies.",
@@ -44940,7 +45043,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Invest in AI companies that are positioned to benefit from the rapid growth and valuation in the industry, and consider the broader implications of AI on the future of work and social structures.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-14 \u2022 Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
     "last_proof_snippet": "AI is expected to replace many white collar jobs in the near future.",
@@ -45320,7 +45423,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
     "last_proof_snippet": "Beach Point Capital Management primarily manages institutional capital, which is characterized as patient capital.",
@@ -45383,7 +45486,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
@@ -48112,7 +48215,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-18 \u2022 Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
     "last_proof_snippet": "Fetterman has a unique perspective, being popular among Republicans while maintaining his Democratic affiliation.",

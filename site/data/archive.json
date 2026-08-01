@@ -20,6 +20,28 @@
       "podcast_episode_id": 377
     },
     {
+      "id": 393,
+      "title": "Chip Stocks Crash, $20B Fund Margin Called, Frontier Labs: SLOW DOWN AI, Mamdani's Grocery Stores",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-07-31",
+      "summary": "In this episode, the hosts discuss the recent crash in chip stocks and the risks associated with leveraged trading. They highlight a hedge fund manager's downfall due to margin calls and the broader implications for the tech sector. The conversation also touches on AI-driven development, the potential for reduced software security vulnerabilities, and the philosophical and biological aspects of creating consciousness in silicon.",
+      "key_takeaway": "The recent downturn in chip stocks presents both risks and opportunities, with the potential for significant losses from leveraged positions and the possibility of finding value in fundamentally strong companies.",
+      "tickers_mentioned": [
+        "NVDA",
+        "TSM",
+        "AMD",
+        "MU"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-07-31",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 378
+    },
+    {
       "id": 391,
       "title": "AI for America's Small Businesses | Lassie",
       "source_type": "podcast",
@@ -91,7 +113,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-28",
       "archived_date": null,
@@ -7548,20 +7570,20 @@
     {
       "id": 261,
       "term": "Physical AI",
-      "description": "The integration of AI capabilities into physical devices and systems, allowing them to perform tasks and interact with the environment.",
+      "description": "The concept of artificial intelligence that relates to physical sensing and responsiveness, as opposed to digital or virtual AI.",
       "first_detected_date": "2026-07-21",
-      "last_mentioned_date": "2026-07-28",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-07-31",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider companies that are advancing the practical application of AI in physical devices, as this could lead to significant market opportunities.",
+      "investment_implications": "Physical AI could be a key differentiator in the development of AI that can replicate human consciousness and interaction with the physical world.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 359,
       "first_detected_speaker": "Casser, Eunice, Peter Ludwig",
-      "last_mentioned_episode_id": 373,
-      "last_mentioned_speaker": "Dr. Peter Funkhouser, Amanda McMaster"
+      "last_mentioned_episode_id": 378,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 262,
@@ -7676,8 +7698,8 @@
       "term": "AI Boom",
       "description": "A global phenomenon characterized by significant investments in artificial intelligence and data centers, drawing parallels to the pre-1873 financial boom.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-07-26",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-07-31",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be cautious of potential over-investment and subsequent corrections in the AI sector.",
@@ -7686,16 +7708,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 320,
       "first_detected_speaker": "Leakwet Ahamed",
-      "last_mentioned_episode_id": 368,
-      "last_mentioned_speaker": "Nick Brooks"
+      "last_mentioned_episode_id": 378,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 254,
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-07-29",
-      "mention_count": 11,
+      "last_mentioned_date": "2026-07-31",
+      "mention_count": 12,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
@@ -7704,8 +7726,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 372,
-      "last_mentioned_speaker": "Katherine Rooney Vera"
+      "last_mentioned_episode_id": 378,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 256,
@@ -8108,8 +8130,8 @@
       "term": "Distillation",
       "description": "The process of training a smaller AI model on the output of a larger model to achieve similar results with less computational power.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-26",
-      "mention_count": 28,
+      "last_mentioned_date": "2026-07-31",
+      "mention_count": 29,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Distillation can make AI more accessible and cost-effective, impacting how businesses allocate resources for AI development.",
@@ -8118,8 +8140,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 369,
-      "last_mentioned_speaker": "Ben Horowitz"
+      "last_mentioned_episode_id": 378,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 174,

@@ -1,5 +1,27 @@
 [
   {
+    "id": 378,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Chip Stocks Crash, $20B Fund Margin Called, Frontier Labs: SLOW DOWN AI, Mamdani's Grocery Stores",
+    "episode_date": "2026-07-31",
+    "summary": "In this episode, the hosts discuss the recent crash in chip stocks and the risks associated with leveraged trading. They highlight a hedge fund manager's downfall due to margin calls and the broader implications for the tech sector. The conversation also touches on AI-driven development, the potential for reduced software security vulnerabilities, and the philosophical and biological aspects of creating consciousness in silicon.",
+    "key_takeaways": [
+      "Chip stocks have experienced a significant downturn, with the Philadelphia Assembly Conductor Index down over 20% in the last month.",
+      "A young hedge fund manager, Leopold Ocean Brenner, faced massive losses due to leveraged trading in chip stocks, leading to a margin call and the liquidation of his public portfolio.",
+      "Citadel, reportedly through Ken Griffin, bought the sold assets, highlighting the volatility and opportunity in the current market.",
+      "Even with the downturn, the five-year results for chip stocks are still impressive, with companies like Micron and Nvidia showing substantial gains.",
+      "AI-driven development is leading to more rapid code generation, but also increased rework, which could impact token consumption and efficiency.",
+      "There's a philosophical debate on whether AI can recreate consciousness as seen in human biology, with the complexity of biological systems being far beyond current silicon models."
+    ],
+    "investment_thesis": "The recent downturn in chip stocks presents both risks and opportunities, with the potential for significant losses from leveraged positions and the possibility of finding value in fundamentally strong companies.",
+    "key_tickers": [
+      "NVDA",
+      "TSM",
+      "AMD",
+      "MU"
+    ]
+  },
+  {
     "id": 377,
     "podcast_name": "The a16z Show",
     "episode_title": "How Enterprise AI Really Gets Deployed",
@@ -118,22 +140,6 @@
       "Yield curve control may become a necessary policy tool as countries grapple with rising yields and fiscal challenges."
     ],
     "investment_thesis": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
-    "key_tickers": null
-  },
-  {
-    "id": 370,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Fei-Fei Li on Spatial Intelligence and Robotics",
-    "episode_date": "2026-07-28",
-    "summary": "This episode of 'The a16z Show' discusses the development of spatial intelligence AI, which is crucial for advancing robotics and creating immersive virtual environments. The acquisition of Cnex and the creation of a 'real-to-seem-to-real' pipeline are highlighted as significant steps in this direction. The conversation emphasizes the importance of simulation in robotics for reliability and efficiency, and the need for large world models to train AI effectively. The synergy between World Lab's generative models and Sinex's robotics expertise is seen as a potential foundation for a multimodal robotics model.",
-    "key_takeaways": [
-      "Invest in companies developing spatial intelligence and world models for their potential to lead future AI applications.",
-      "Look for businesses creating 'real-to-seem-to-real' pipelines to revolutionize data generation in AI and robotics.",
-      "Consider the importance of simulation in robotics for improving reliability and efficiency in development.",
-      "Identify robotics companies that leverage simulation to gain a competitive advantage.",
-      "Recognize the incremental approach from structured to semi-structured environments in robotics applications."
-    ],
-    "investment_thesis": "Invest in companies at the forefront of spatial intelligence development, as they are poised to shape the future of AI and robotics.",
     "key_tickers": null
   }
 ]
