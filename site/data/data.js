@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-02T06:35:29.588513",
-  chartsVersion: "2026-08-02T06:35:21.123019",
+  generatedAt: "2026-08-02T12:04:26.350604",
+  chartsVersion: "2026-08-02T12:04:11.875123",
   priceSnapshot: {
   "GOOGL": {
     "price": 356.13,
     "change_pct": -0.94,
     "name": "GOOGL",
-    "updated_at": "2026-08-02T06:35:21.121989"
+    "updated_at": "2026-08-02T12:04:11.874662"
   },
   "NVDA": {
     "price": 200.75,
     "change_pct": -5.22,
     "name": "NVDA",
-    "updated_at": "2026-08-02T06:35:21.122008"
+    "updated_at": "2026-08-02T12:04:11.874673"
   },
   "BTC": {
-    "price": 63088.27,
-    "change_pct": -3.28,
+    "price": 63117.8,
+    "change_pct": -3.24,
     "name": "BTC",
-    "updated_at": "2026-08-02T06:35:21.122017"
+    "updated_at": "2026-08-02T12:04:11.874677"
   },
   "MSFT": {
     "price": 464.72,
     "change_pct": 20.73,
     "name": "MSFT",
-    "updated_at": "2026-08-02T06:35:21.122025"
+    "updated_at": "2026-08-02T12:04:11.874680"
   },
   "TSLA": {
     "price": 311.21,
     "change_pct": -21.45,
     "name": "TSLA",
-    "updated_at": "2026-08-02T06:35:21.122032"
+    "updated_at": "2026-08-02T12:04:11.874684"
   },
   "AMZN": {
     "price": 271.58,
     "change_pct": 9.73,
     "name": "AMZN",
-    "updated_at": "2026-08-02T06:35:21.122039"
+    "updated_at": "2026-08-02T12:04:11.874687"
   },
   "META": {
     "price": 556.71,
     "change_pct": -15.78,
     "name": "META",
-    "updated_at": "2026-08-02T06:35:21.122047"
+    "updated_at": "2026-08-02T12:04:11.874690"
   },
   "WTI": {
     "price": 3.59,
     "change_pct": 0.0,
     "name": "WTI",
-    "updated_at": "2026-08-02T06:35:21.122054"
+    "updated_at": "2026-08-02T12:04:11.874694"
   },
   "S&P 500": {
     "price": 747.03,
     "change_pct": -0.64,
     "name": "S&P 500",
-    "updated_at": "2026-08-02T06:35:21.122061"
+    "updated_at": "2026-08-02T12:04:11.874697"
   },
   "AAPL": {
     "price": 308.91,
     "change_pct": -1.89,
     "name": "AAPL",
-    "updated_at": "2026-08-02T06:35:21.122068"
+    "updated_at": "2026-08-02T12:04:11.874700"
   },
   "QQQ": {
     "price": 687.99,
     "change_pct": -4.4,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-02T06:35:21.122075"
+    "updated_at": "2026-08-02T12:04:11.874703"
   },
   "BTC-USD": {
-    "price": 63088.27,
-    "change_pct": -3.28,
+    "price": 63117.8,
+    "change_pct": -3.24,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-02T06:35:21.122084"
+    "updated_at": "2026-08-02T12:04:11.874707"
   }
 },
   tickerScores: [
@@ -834,6 +834,27 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 395,
+      "title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-02",
+      "summary": "In this episode of 'The a16z Show', hosts Sophia Dhu and Sophia Puccini are joined by NYU professor Ruby J. To Low, a designer, cyber ethnographer, and artist, to discuss the impact of AI and technology on digital communities, online identity, and how we communicate. The conversation spans from the nuances of AI perception among Americans to the evolution of online behaviors and the concept of taste in the context of digital consumption. Ruby shares insights on how technology is reshaping our interactions and the need to understand the novel behaviors that have emerged with new digital platforms.",
+      "key_takeaway": "The evolving digital landscape presents opportunities for investment in AI and technology that can enhance daily life and reshape consumption habits, while also requiring a critical approach to understand and adapt to new cultural norms.",
+      "tickers_mentioned": [
+        "AAPL",
+        "META",
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 380
+    },
+    {
       "id": 394,
       "title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
       "source_type": "podcast",
@@ -1003,7 +1024,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-30",
       "archived_date": null,
@@ -8438,6 +8459,24 @@ const dashboardData = {
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
+      "id": 265,
+      "term": "Dana",
+      "description": "A platform developed by Applied Intuition for designing and developing autonomous systems, aiming to simplify the process and make it more accessible.",
+      "first_detected_date": "2026-07-21",
+      "last_mentioned_date": "2026-08-02",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Platforms like Dana could lower the barrier to entry for developing autonomous systems, potentially sparking innovation and growth in the sector.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 359,
+      "first_detected_speaker": "Casser, Eunice, Peter Ludwig",
+      "last_mentioned_episode_id": 380,
+      "last_mentioned_speaker": "Ruby J. To Low"
+    },
+    {
       "id": 262,
       "term": "Quantization",
       "description": "The process of reducing the precision of the numbers used to represent a mathematical element, such as an AI model, to enable more efficient storage and computation.",
@@ -10464,6 +10503,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 395,
+      "title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-02",
+      "summary": "In this episode of 'The a16z Show', hosts Sophia Dhu and Sophia Puccini are joined by NYU professor Ruby J. To Low, a designer, cyber ethnographer, and artist, to discuss the impact of AI and technology on digital communities, online identity, and how we communicate. The conversation spans from the nuances of AI perception among Americans to the evolution of online behaviors and the concept of taste in the context of digital consumption. Ruby shares insights on how technology is reshaping our interactions and the need to understand the novel behaviors that have emerged with new digital platforms.",
+      "key_takeaway": "The evolving digital landscape presents opportunities for investment in AI and technology that can enhance daily life and reshape consumption habits, while also requiring a critical approach to understand and adapt to new cultural norms.",
+      "tickers_mentioned": "[\"AAPL\", \"META\", \"GOOGL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 380,
+      "episode_release_date": "2026-08-02",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 394,
       "title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
       "source_type": "podcast",
@@ -10591,26 +10650,6 @@ const dashboardData = {
       "podcast_episode_id": 375,
       "episode_release_date": "2026-07-29",
       "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 389,
-      "title": "Codex from 0 to 10M Users: Building ChatGPT Work \u2014 Akshay Nathan, OpenAI",
-      "source_type": "podcast",
-      "source_name": "Latent Space: The AI Engineer Podcast",
-      "source_date": "2026-07-28",
-      "summary": "In this episode of Latent Space, the AI Engineer Podcast, Akshay from OpenAI discusses the journey of bringing AI technology to the masses. Starting from no-code and low-code platforms, the conversation delves into the evolution of AI, particularly with the advent of Large Language Models (LLMs), and how they democratize coding and database management. Akshay shares insights on the culture at OpenAI, the challenges of enterprise solutions, and the vision of making AI accessible to everyone. The discussion also touches on productivity measurement in the age of AI and the importance of distinguishing between motion and progress.",
-      "key_takeaway": "Investing in AI technology that democratizes coding and database management can lead to significant productivity gains and market opportunities.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-30",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 374,
-      "episode_release_date": "2026-07-28",
-      "guest_name": "Codex from 0 to 10M Users",
       "key_tickers": []
     },
     {
@@ -34365,9 +34404,92 @@ const dashboardData = {
     "key_tickers": [
       "VISA"
     ]
+  },
+  "395": {
+    "id": 385,
+    "insight_id": 395,
+    "podcast_episode_id": 380,
+    "overview": "The unresolved tension lies in the rapid evolution of digital behaviors and the need for businesses and investors to understand and adapt to these changes. The competitive dynamic is between those who can quickly grasp and leverage new digital trends and those who are slow to adapt. What converts belief is the ability to predict and capitalize on the next wave of digital consumption habits, which are increasingly shaped by AI and technology.",
+    "key_takeaways_detailed": [
+      "Investors should focus on companies that demonstrate agility in adapting to and capitalizing on new digital behaviors.",
+      "The success of digital platforms will increasingly depend on their ability to foster and understand niche communities within their user base.",
+      "Cyber ethnography as a field will become more valuable for businesses looking to navigate the complexities of digital culture and consumer behavior.",
+      "Investment in AI and technology should be paired with a commitment to understanding the sociocultural implications of these technologies on user behavior."
+    ],
+    "investment_thesis": "Investing in companies that are at the forefront of AI and digital community development will yield returns as these firms are best positioned to understand and shape consumer behavior. The observable development that would vindicate this thesis is the continued growth and diversification of digital communities, along with the successful integration of AI into daily life, enhancing user experience and dependency. Conversely, a significant societal pushback against AI and technology, leading to regulatory hurdles or reduced adoption, would invalidate this thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's strong position in consumer technology and its investment in AI for applications like Siri positions it to leverage and shape digital behaviors.",
+        "positioning": "Strategic long position, as Apple's ecosystem is likely to benefit from understanding and adapting to new digital trends.",
+        "risk": "Regulatory changes that limit data usage could hinder Apple's ability to innovate and understand user behavior."
+      },
+      "META": {
+        "rationale": "Meta Platforms (Facebook) is at the center of digital community development and has a vested interest in understanding online behaviors.",
+        "positioning": "Tactical long position, as trends in digital behavior can significantly impact Meta's platform usage and ad revenue.",
+        "risk": "Failure to adapt to new digital behaviors could lead to a decline in user engagement and market share."
+      },
+      "GOOGL": {
+        "rationale": "Google's broad reach and AI investments position it to influence and understand shifts in digital consumption habits.",
+        "positioning": "Strategic long position, as Google's diverse offerings allow it to capture data across various digital platforms.",
+        "risk": "Increased competition in AI and potential regulatory challenges could affect Google's ability to leverage user data."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant increase in privacy regulations that limit the ability of tech companies to collect and analyze user data.",
+      "A shift in consumer preference away from digital communities towards more private or localized social interactions.",
+      "The emergence of a new technology that disrupts the current digital landscape, rendering existing understandings of online behavior obsolete."
+    ],
+    "catalysts": [
+      "The release of new AI-driven features by major tech companies that significantly alter user behavior.",
+      "Regulatory rulings that impact data usage and privacy, potentially reshaping the digital landscape.",
+      "Major acquisitions or partnerships in the AI and digital community space that signal a shift in market strategy.",
+      "Publications of significant research that provide new insights into digital behaviors and their implications for technology and consumption."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-02T12:03:21.998656",
+    "updated_at": "2026-08-02 17:03:21",
+    "episode_evidence": "Ruby J. To Low, a designer, cyber ethnographer, and NYU professor, provides a nuanced perspective on the impact of AI and technology on digital communities and online identity. She highlights the dichotomy in American sentiment towards AI, where there is a fear of job loss but also an appreciation for its practical applications, as exemplified by her anecdote: 'I had a leak in my...smile. Thought that whatever I took a photo and in about an hour or two, I was able to fix that thing. I love that.' This reflects a complex relationship with technology that is not merely binary. Low also discusses the rapid evolution of online behaviors and the need to understand 'novel behaviors that they not exist two years or three years ago,' such as the use of Instagram's 'close friends' feature. Her research involves building a lexicon to interpret these behaviors, indicating the depth of change in digital interactions. The conversation underscores the importance of cyber ethnography in understanding these shifts, as 'every novel technology leads to changes in being, communicating, and belief.'",
+    "falsification_tracks": [
+      "A significant slowdown in the development and adoption of new social media features that would reduce the need for understanding novel digital behaviors.",
+      "A substantial decrease in the number of users engaging with AI-driven applications, indicating a reduced impact of technology on daily life.",
+      "The emergence of a unified digital language or behavior across different online communities, reducing the necessity for specialized understanding of subcultures."
+    ],
+    "insight_title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
+    "source_name": "The a16z Show",
+    "source_date": "2026-08-02",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 556,
+    "term": "Cyber Ethnography",
+    "definition": "The study of online groups and their behaviors to understand digital interactions and social dynamics in the virtual space.",
+    "investment_implications": "Understanding cyber ethnography helps investors assess the cultural impact of technology on user behavior and digital communities.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-02 17:02:20",
+    "priority_score": 80
+  },
+  {
+    "id": 557,
+    "term": "Taste",
+    "definition": "A concept that goes beyond aesthetic preference, relating to how people consume virtually and the societal guidance on proper consumption habits, especially in the context of wealth creation.",
+    "investment_implications": "Investors can use the understanding of 'taste' to predict consumer behavior in digital economies and identify emerging markets.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-02 17:02:20",
+    "priority_score": 80
+  },
   {
     "id": 553,
     "term": "Clarity Act",
@@ -34391,35 +34513,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-08-01 18:36:59",
     "priority_score": 80
-  },
-  {
-    "id": 555,
-    "term": "Tokenized Assets",
-    "definition": "Assets represented as tokens on a blockchain, which can include stocks, bonds, and other financial instruments.",
-    "investment_implications": "Tokenization could increase liquidity and efficiency in financial markets.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-01 18:36:59",
-    "priority_score": 80
-  },
-  {
-    "id": 551,
-    "term": "Leverage equals risk of ruin",
-    "definition": "The concept that using leverage in trading can exponentially increase the risk of financial ruin due to the potential for margin calls and forced liquidation.",
-    "investment_implications": "Highlighting the dangers of leveraged trading, especially in volatile markets.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-01 04:38:45",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 42012,
+    "id": 42120,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -34431,7 +34529,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42013,
+    "id": 42121,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -34443,7 +34541,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42014,
+    "id": 42122,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -34455,7 +34553,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42015,
+    "id": 42123,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -34467,7 +34565,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42016,
+    "id": 42124,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -34479,7 +34577,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 42017,
+    "id": 42125,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -34491,7 +34589,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42018,
+    "id": 42126,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -34503,7 +34601,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42019,
+    "id": 42127,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -34515,7 +34613,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42020,
+    "id": 42128,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -34527,7 +34625,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42021,
+    "id": 42129,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -34539,7 +34637,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42022,
+    "id": 42130,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -34551,7 +34649,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42023,
+    "id": 42131,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -34563,7 +34661,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42024,
+    "id": 42132,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -34575,7 +34673,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42025,
+    "id": 42133,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -34587,7 +34685,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42026,
+    "id": 42134,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -34599,7 +34697,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42027,
+    "id": 42135,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -34611,7 +34709,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42028,
+    "id": 42136,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -34623,7 +34721,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42029,
+    "id": 42137,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -34635,7 +34733,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42030,
+    "id": 42138,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -34647,7 +34745,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42031,
+    "id": 42139,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -35052,7 +35150,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-17",
     "mention_score": 2,
-    "mention_score_decayed": 1.41,
+    "mention_score_decayed": 1.38,
     "last_main_idea": "Investing in companies that prioritize public communication and authenticity can lead to stronger brand loyalty and trust, which are valuable assets in the long term.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-17 \u2022 Amjad Masad on Going Direct, Building Replit, and the Future of Software",
     "last_proof_snippet": "Being canceled is a choice. You should choose to get canceled and retreat from the public eye, but I think if you're still out there, at some point, honestly, the haters kind of give up. To some people ask, hey, how should I think about exp",
@@ -35298,7 +35396,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
@@ -36203,6 +36301,74 @@ const dashboardData = {
     }
   },
   {
+    "id": 372,
+    "name": "Ruby J. To Low",
+    "slug": "ruby-j-to-low",
+    "bio": "Ruby J. To Low is a designer, cyber ethnographer, and professor at NYU known for her research on internet culture, digital memory, and AI companions. She explores the intersection of technology and society, particularly focusing on online communities and digital identity.",
+    "known_for": "Investors and tech listeners care about Ruby J. To Low's insights into digital communities, online identity, and the impact of rapidly evolving technology on communication and relationships.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Thoughtful and insightful",
+    "voice_style": "Analytical and explanatory",
+    "voice_delivery_notes": "Paced with emphasis on key points",
+    "voice_profile_updated_at": "2026-08-02 17:02:20",
+    "last_seen": "2026-08-02 17:02:20",
+    "last_episode_title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-02",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The evolving digital landscape presents opportunities for investment in AI and technology that can enhance daily life and reshape consumption habits, while also requiring a critical approach to understand and adapt to new cultural norms.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-02 \u2022 Ruby Thelot on Internet Culture, AI, and the Future of Taste",
+    "last_proof_snippet": "Americans don't like AI. AI is a very broad term. They all use chat. And like, I love it. I love, I love chat. But they don't like AI. There's the bookie man of like, I'm going to lose my job. But when I talk to mothers in Brian tags of lik",
+    "supporting_takeaway": "Cyber ethnography, the study of online groups and behaviors, is a field that has evolved with technology and social media, requiring a deeper understanding of digital interactions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-02T12:02:30.617336",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ruby J. To Low",
+      "fetched_at": "2026-08-02T17:02:30.616989+00:00",
+      "cliff_notes": "Ruby J. To Low is a designer, cyber ethnographer, and professor at NYU who has dedicated her career to exploring the intersection of technology and society. Her research focuses on internet culture, digital memory, and AI companions, with a particular emphasis on online communities and digital identity. Through her work, she has gained a deep understanding of how technology is reshaping communication and relationships in the digital age. Her insights into the ways in which people interact with and perceive AI, as well as her expertise in digital communities, make her a valuable resource for investors and tech listeners seeking to understand the implications of rapidly evolving technology.",
+      "derived": {
+        "current_role": "Professor at NYU",
+        "teaching_summary": "Courses on internet culture, digital memory, and AI companions at NYU"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ruby J. To Low is a designer, cyber ethnographer, and professor at NYU who has dedicated her career to exploring the intersection of technology and society. Her research focuses on internet culture, digital memory, and AI companions, with a particular emphasis on online communities and digital identity. Through her work, she has gained a deep understanding of how technology is reshaping communication and relationships in the digital age.",
+        "Her insights into the ways in which people interact with and perceive AI, as well as her expertise in digital communities, make her a valuable resource for investors and tech listeners seeking to understand the implications of rapidly evolving technology."
+      ],
+      "sections": [
+        {
+          "heading": "Internet Culture",
+          "body": "Ruby J. To Low has conducted extensive research on internet culture, examining how online communities form and evolve in the digital age."
+        },
+        {
+          "heading": "Digital Memory",
+          "body": "Her work on digital memory explores how people preserve and access their digital histories, as well as the implications of this for personal identity and society."
+        },
+        {
+          "heading": "AI Companions",
+          "body": "To Low's research on AI companions delves into the ethical and societal implications of developing artificial intelligence that can mimic human companionship."
+        },
+        {
+          "heading": "Online Identity",
+          "body": "She has studied the ways in which people construct and manage their online identities, and the impact this has on their offline lives."
+        },
+        {
+          "heading": "Digital Communities",
+          "body": "To Low's work on digital communities examines the formation and dynamics of online groups, and how they shape social interactions in the digital age."
+        }
+      ]
+    }
+  },
+  {
     "id": 370,
     "name": "Mark Andrewson",
     "slug": "mark-andrewson",
@@ -36404,7 +36570,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-30 \u2022 AI for America's Small Businesses | Lassie",
     "last_proof_snippet": "AI is overhyped and Silicon Valley that's underhyped in Iowa. I would actually argue software just kind of took things that were stored in paper format and then they made them available first on-prem via green screen computers, but people s",
@@ -36463,7 +36629,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-30 \u2022 AI for America's Small Businesses | Lassie",
     "last_proof_snippet": "AI is overhyped and Silicon Valley that's underhyped in Iowa. I would actually argue software just kind of took things that were stored in paper format and then they made them available first on-prem via green screen computers, but people s",
@@ -37008,7 +37174,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-23 \u2022 Building the Physical AI Stack | Travis Kalanick on TBPN",
     "last_proof_snippet": "Travis Kelenick joins TVPN to discuss why he's betting his next company on industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",
@@ -37068,7 +37234,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-23 \u2022 Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
     "last_proof_snippet": "All right, we're here in the studio. If I was a countryman, we'll fight together with people. Welcome. Thanks, thank you, guys. It's good to be here. Yeah, fresh on the plane. You texted me, you're like, hey, I'm on my way to SF. I was like",
@@ -38078,7 +38244,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
     "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro. We came to me and he said, why don't we see whether we can figure out a way to",
@@ -38345,7 +38511,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-08 \u2022 Adam Neumann: This Is How You Build Iconic Companies",
     "last_proof_snippet": "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
@@ -38653,7 +38819,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -38898,7 +39064,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -41438,7 +41604,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -41621,7 +41787,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",

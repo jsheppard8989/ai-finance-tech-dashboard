@@ -1,5 +1,22 @@
 [
   {
+    "id": 380,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
+    "episode_date": "2026-08-02",
+    "summary": "In this episode of 'The a16z Show', hosts Sophia Dhu and Sophia Puccini are joined by NYU professor Ruby J. To Low, a designer, cyber ethnographer, and artist, to discuss the impact of AI and technology on digital communities, online identity, and how we communicate. The conversation spans from the nuances of AI perception among Americans to the evolution of online behaviors and the concept of taste in the context of digital consumption. Ruby shares insights on how technology is reshaping our interactions and the need to understand the novel behaviors that have emerged with new digital platforms.",
+    "key_takeaways": [
+      "Americans have a complex relationship with AI, often fearing job loss but also appreciating practical applications in daily life.",
+      "Cyber ethnography, the study of online groups and behaviors, is a field that has evolved with technology and social media, requiring a deeper understanding of digital interactions.",
+      "The concept of 'taste' extends beyond aesthetic preference, relating to consumption habits and societal guidance, especially in the context of wealth creation and digital engagement.",
+      "The music industry, like other cultural sectors, struggles to adapt to new forms of content and artist discovery due to financialization and risk aversion.",
+      "Critics' roles are changing due to platform incentives, affecting how they discuss and promote new or niche content.",
+      "Digital culture is platform-specific, with each having its own etiquette and norms, which can be challenging to navigate without clear guidelines."
+    ],
+    "investment_thesis": "The evolving digital landscape presents opportunities for investment in AI and technology that can enhance daily life and reshape consumption habits, while also requiring a critical approach to understand and adapt to new cultural norms.",
+    "key_tickers": null
+  },
+  {
     "id": 379,
     "podcast_name": "The a16z Show",
     "episode_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
@@ -109,23 +126,6 @@
       "META",
       "MSFT"
     ]
-  },
-  {
-    "id": 374,
-    "podcast_name": "Latent Space: The AI Engineer Podcast",
-    "episode_title": "Codex from 0 to 10M Users: Building ChatGPT Work \u2014 Akshay Nathan, OpenAI",
-    "episode_date": "2026-07-28",
-    "summary": "In this episode of Latent Space, the AI Engineer Podcast, Akshay from OpenAI discusses the journey of bringing AI technology to the masses. Starting from no-code and low-code platforms, the conversation delves into the evolution of AI, particularly with the advent of Large Language Models (LLMs), and how they democratize coding and database management. Akshay shares insights on the culture at OpenAI, the challenges of enterprise solutions, and the vision of making AI accessible to everyone. The discussion also touches on productivity measurement in the age of AI and the importance of distinguishing between motion and progress.",
-    "key_takeaways": [
-      "AI technology, especially LLMs, has the potential to make coding accessible to non-programmers.",
-      "OpenAI's culture remains startup-like, fostering bottom-up ambition and the ability to execute ideas.",
-      "The mission of bringing frontier intelligence to everyone is consistent, despite the evolution of products and technologies.",
-      "Enterprise solutions require a tailored approach as there is no one-size-fits-all solution.",
-      "Productivity measurement in the AI era is changing, with a focus on achieving goals rather than proxies like lines of code.",
-      "The distinction between motion and progress is crucial for teams to avoid falling into the trap of conflation."
-    ],
-    "investment_thesis": "Investing in AI technology that democratizes coding and database management can lead to significant productivity gains and market opportunities.",
-    "key_tickers": null
   },
   {
     "id": 373,

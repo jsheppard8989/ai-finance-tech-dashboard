@@ -1,6 +1,27 @@
 {
   "insights": [
     {
+      "id": 395,
+      "title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-02",
+      "summary": "In this episode of 'The a16z Show', hosts Sophia Dhu and Sophia Puccini are joined by NYU professor Ruby J. To Low, a designer, cyber ethnographer, and artist, to discuss the impact of AI and technology on digital communities, online identity, and how we communicate. The conversation spans from the nuances of AI perception among Americans to the evolution of online behaviors and the concept of taste in the context of digital consumption. Ruby shares insights on how technology is reshaping our interactions and the need to understand the novel behaviors that have emerged with new digital platforms.",
+      "key_takeaway": "The evolving digital landscape presents opportunities for investment in AI and technology that can enhance daily life and reshape consumption habits, while also requiring a critical approach to understand and adapt to new cultural norms.",
+      "tickers_mentioned": [
+        "AAPL",
+        "META",
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 380
+    },
+    {
       "id": 394,
       "title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
       "source_type": "podcast",
@@ -170,7 +191,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-30",
       "archived_date": null,
@@ -7603,6 +7624,24 @@
       "first_detected_speaker": "Casser, Eunice, Peter Ludwig",
       "last_mentioned_episode_id": 378,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+    },
+    {
+      "id": 265,
+      "term": "Dana",
+      "description": "A platform developed by Applied Intuition for designing and developing autonomous systems, aiming to simplify the process and make it more accessible.",
+      "first_detected_date": "2026-07-21",
+      "last_mentioned_date": "2026-08-02",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Platforms like Dana could lower the barrier to entry for developing autonomous systems, potentially sparking innovation and growth in the sector.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 359,
+      "first_detected_speaker": "Casser, Eunice, Peter Ludwig",
+      "last_mentioned_episode_id": 380,
+      "last_mentioned_speaker": "Ruby J. To Low"
     },
     {
       "id": 262,
