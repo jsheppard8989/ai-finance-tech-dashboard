@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-01T13:39:54.456903",
-  "last_updated": "2026-08-01T13:39:54.456903",
-  "last_pipeline_run": "2026-08-01T13:39:54.456903",
+  "generated_at": "2026-08-01T22:02:26.189916",
+  "last_updated": "2026-08-01T22:02:26.189916",
+  "last_pipeline_run": "2026-08-01T22:02:26.189916",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -14,39 +14,18 @@
     "daily_scores": 149,
     "overton_terms_total": 115,
     "latest_insights_total": 366,
-    "today_mentions": {
-      "podcast": 4
-    },
+    "today_mentions": {},
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "bcd869cb-a80e-475f-a044-7191309af9da",
-      "podcast": "The a16z Show",
-      "title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
-      "published": "2026-08-01",
-      "rss_guid": "bcd869cb-a80e-475f-a044-7191309af9da",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
